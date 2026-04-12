@@ -1,0 +1,4 @@
+engine,samples,successes,failures,mean_wer,mean_cer,median_wer,median_cer,std_wer,std_cer,rank
+pytesseract,1,1,0,0.064011,0.019495,0.064011,0.019495,0.0,0.0,1
+docling,1,1,0,0.351351,0.029707,0.351351,0.029707,0.0,0.0,2
+easyocr,1,0,1,,,,,,,3

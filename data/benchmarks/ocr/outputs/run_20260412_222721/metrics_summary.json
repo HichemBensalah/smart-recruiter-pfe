@@ -1,0 +1,54 @@
+[
+  {
+    "engine": "pytesseract",
+    "samples": 1,
+    "successes": 1,
+    "failures": 0,
+    "mean_wer": 1.048649,
+    "mean_cer": 0.900549,
+    "median_wer": 1.048649,
+    "median_cer": 0.900549,
+    "std_wer": 0.0,
+    "std_cer": 0.0,
+    "rank": 1
+  },
+  {
+    "engine": "docling",
+    "samples": 1,
+    "successes": 1,
+    "failures": 0,
+    "mean_wer": 1.268468,
+    "mean_cer": 0.907865,
+    "median_wer": 1.268468,
+    "median_cer": 0.907865,
+    "std_wer": 0.0,
+    "std_cer": 0.0,
+    "rank": 2
+  },
+  {
+    "engine": "easyocr",
+    "samples": 1,
+    "successes": 0,
+    "failures": 1,
+    "mean_wer": "",
+    "mean_cer": "",
+    "median_wer": "",
+    "median_cer": "",
+    "std_wer": "",
+    "std_cer": "",
+    "rank": 3
+  },
+  {
+    "engine": "trocr",
+    "samples": 1,
+    "successes": 0,
+    "failures": 1,
+    "mean_wer": "",
+    "mean_cer": "",
+    "median_wer": "",
+    "median_cer": "",
+    "std_wer": "",
+    "std_cer": "",
+    "rank": 4
+  }
+]

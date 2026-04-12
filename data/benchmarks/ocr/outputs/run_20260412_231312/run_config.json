@@ -1,0 +1,12 @@
+{
+  "manifest": "D:\\smart-recruiter-pfe\\data\\benchmarks\\ocr\\dataset\\manifests\\benchmark_manifest.csv",
+  "engines": [
+    "docling",
+    "pytesseract",
+    "easyocr",
+    "trocr"
+  ],
+  "limit": null,
+  "created_at": "2026-04-12T23:46:30.840605+00:00",
+  "output_root": "data\\benchmarks\\ocr\\outputs\\run_20260412_231312"
+}
