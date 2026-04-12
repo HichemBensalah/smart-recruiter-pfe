@@ -1,0 +1,18 @@
+﻿{
+    "source_path":  "data\\raw_cv\\pdf\\khairi_resume.pdf",
+    "artifact_path":  "data\\processed\\pdf\\khairi_resume.json",
+    "source_format":  "pdf",
+    "document_status":  "validated",
+    "handoff_lane":  "accepted",
+    "eligible_for_module2":  true,
+    "parser_used":  "docling_structured",
+    "document_confidence_score":  0.9449,
+    "quality_flags":  [
+
+                      ],
+    "repair_status":  "not_applicable",
+    "repair_reason":  null,
+    "quarantine_reason":  null,
+    "next_action":  "consume_in_module2",
+    "routing_decision":  "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=2888\", \"pdf_total_text_words=460\", \"pdf_avg_text_chars_per_page=2888.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=1.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}"
+}

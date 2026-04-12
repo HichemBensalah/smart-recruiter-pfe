@@ -1,0 +1,18 @@
+﻿{
+    "source_path":  "data\\raw_cv\\docx\\Aziz_resumer.docx",
+    "artifact_path":  "data\\processed\\docx\\Aziz_resumer.json",
+    "source_format":  "docx",
+    "document_status":  "validated",
+    "handoff_lane":  "accepted",
+    "eligible_for_module2":  true,
+    "parser_used":  "docling_markdown",
+    "document_confidence_score":  0.8147,
+    "quality_flags":  [
+
+                      ],
+    "repair_status":  "not_applicable",
+    "repair_reason":  null,
+    "quarantine_reason":  null,
+    "next_action":  "consume_in_module2",
+    "routing_decision":  "{\"source_format\": \"docx\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_markdown\", \"routing_reasons\": [\"source_format=docx\", \"extension=.docx detected\", \"docx documents route to the dedicated Docling markdown parser\", \"ocr_required=False because DOCX already provides machine-readable text\"]}"
+}

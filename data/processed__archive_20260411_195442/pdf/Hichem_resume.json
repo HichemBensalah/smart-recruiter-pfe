@@ -1,0 +1,2269 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hichem_resume.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nhichem.salah1512@gmail.com +216 97 118 755\nAriana, Tunisia\nhttps://www.linkedin.com/in/hichem-bensalah-7173b0335/\ngithub.com/HichemBensalah\nPROFESSIONAL SUMMARY\nHichem Bensalah Final-year Data Science & AI Engineering Student, Tek-Up University\nTECHNICAL SKILLS\nProgramming Languages\nPython: NumPy, Pandas, scikit-learn, Matplotlib, Seaborn\nOther: R, Java, JavaScript, C, C++, C#\nMLOps, Deployment & Cloud\nDevOps / CI/CD: Docker, Git, GitHub, GitHub Actions (CI/CD)\nDeployment Tools: Flask, FastAPI, Streamlit\nFrameworks : TensorFlow, Keras, PyTorch\nCloud (AWS) : S3, EC2, SageMaker (AWS SAA preparation)\nData Engineering & Databases\nBI & ETL Tools: ETL, Power BI, SSIS, SSRS, SQL Server\nDatabases: MySQL, PostgreSQL, MongoDB, Neo4j, Oracle, Apache Cassandra (NoSQL)\nBig Data & Distributed Processing: Apache Spark, PySpark (RDD, DataFrames, Spark SQL)\nTelco Churn - End-to-End ML & MLOps Pipeline, Tek-Up University\nEDUCATION\nEngineering Degree - Data Science & AI | Tek-Up University\n2023 - 2026\nCivil Engineering Studies (ENIG) | ENIG Gabès\n2020 - 2022\nPreparatory Cycle in Engineering| FSS Sfax\n2017 - 2020\nBaccalauréat in Mathematics| Skhira-Sfax\n2017\nMACHINE LEARNING & DEEP LEARNING\nMachine Learning : classification, regression, clustering, anomaly detection\nNeural Networks : ANN, CNN , RNN (LSTM, GRU)\nTransfer Learning : feature extraction, fine-tuning\nGenerative Models : GAN, VAE, Diffusion Models\nSentiment Analysis (IMDb) - Deep Learning CNN/LSTM (Keras/TensorFlow), Tek-Up University\nCOMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\nCV : OpenCV, YOLO, image/video processing (TensorRT)\nNLP : spaCy (tokenization, lemmatization), NLTK, embeddings (Word2Vec, GloVe, fastText), Transformers (Hugging Face),LLMs\nIDES & SOFTWARE\nVS Code | Jupyter | Git | Anaconda\nPROFESSIONAL EXPERIENCE\nAI & Data Science Intern, TUDIGISEC, TDS Global Technologies\n07/2025 - 09/2025\nTunis, Tunisia\nDelivered a Flask + Flask-SocketIO web demo with tested /predict API and basic real-time interface.\nFinal-year Data Science & AI Engineering student ( PFE Jan-Jun 2026 ) focused on ML/DL , MLOps and AWS . Built end-to-end pipelines with DVC/MLflow , GitHub Actions and Docker ; delivered a CNN-BiLSTM intrusion detection system ( ~99% accuracy ) and production-ready deployments .\nBuilt a CNN-BiLSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy .\nImplemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports).\nSummer Training, Tek-Up University\n07/2024 - 08/2024\nAriana, Tunisia\nDeveloped a web scraping module to automatically collect reviews starting from a movie title.\nPython ( PCAP prep ) & Java ( OCA prep ): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints.\nBuilt an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews, including preprocessing, training and evaluation.\nACADEMIC PROJECTS\nBusiness Intelligence Project - Autism Prediction, Tek-Up University\n11/2025\nDeveloped a BI solution to predict autism likelihood using medical and behavioural data from Kaggle .\nUsed Docker and GitHub Actions CI/CD to test and build the FastAPI service for local deployment in a production-like environment.\nAdded monitoring and drift reports on locally served predictions to detect model degradation over time and support timely retraining .\nUsed SQL Server and Power BI for data preparation and interactive dashboards, and deployed Decision Tree, Random Forest and XGBoost models as a Flask web application .\nWrapped the model in a FastAPI service and integrated it with an LLM chatbot (Groq API) that orchestrates scraping and prediction.\nVersioned data and models with DVC and tracked experiments in MLflow , ensuring reproducible churn prediction training .\nLANGUAGES\nArabic (Native), French (Fluent), English (Professional - B1-B2)\nSOFT SKILLS\nProblem-solving | Teamwork | Communication | Critical thinking\nCERTIFICATES (IN PROGRESS)\nPCAP | AWS CCP | AWS ML Eng-Assoc.",
+  "markdown": "## HEADER\n\nhichem.salah1512@gmail.com +216 97 118 755\nAriana, Tunisia\nhttps://www.linkedin.com/in/hichem-bensalah-7173b0335/\ngithub.com/HichemBensalah\n\n## PROFESSIONAL SUMMARY\n\nHichem Bensalah Final-year Data Science & AI Engineering Student, Tek-Up University\n\n## TECHNICAL SKILLS\n\nProgramming Languages\nPython: NumPy, Pandas, scikit-learn, Matplotlib, Seaborn\nOther: R, Java, JavaScript, C, C++, C#\nMLOps, Deployment & Cloud\nDevOps / CI/CD: Docker, Git, GitHub, GitHub Actions (CI/CD)\nDeployment Tools: Flask, FastAPI, Streamlit\nFrameworks : TensorFlow, Keras, PyTorch\nCloud (AWS) : S3, EC2, SageMaker (AWS SAA preparation)\nData Engineering & Databases\nBI & ETL Tools: ETL, Power BI, SSIS, SSRS, SQL Server\nDatabases: MySQL, PostgreSQL, MongoDB, Neo4j, Oracle, Apache Cassandra (NoSQL)\nBig Data & Distributed Processing: Apache Spark, PySpark (RDD, DataFrames, Spark SQL)\nTelco Churn - End-to-End ML & MLOps Pipeline, Tek-Up University\n\n## EDUCATION\n\n### Engineering Degree - Data Science & AI | Tek-Up University\n**Date:** 2023 - 2026\n### Civil Engineering Studies (ENIG) | ENIG Gabès\n**Date:** 2020 - 2022\n### Preparatory Cycle in Engineering| FSS Sfax\n**Date:** 2017 - 2020\n### Baccalauréat in Mathematics| Skhira-Sfax\n**Date:** 2017\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning : classification, regression, clustering, anomaly detection\nNeural Networks : ANN, CNN , RNN (LSTM, GRU)\nTransfer Learning : feature extraction, fine-tuning\nGenerative Models : GAN, VAE, Diffusion Models\nSentiment Analysis (IMDb) - Deep Learning CNN/LSTM (Keras/TensorFlow), Tek-Up University\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nCV : OpenCV, YOLO, image/video processing (TensorRT)\nNLP : spaCy (tokenization, lemmatization), NLTK, embeddings (Word2Vec, GloVe, fastText), Transformers (Hugging Face),LLMs\n\n## IDES & SOFTWARE\n\nVS Code | Jupyter | Git | Anaconda\n\n## PROFESSIONAL EXPERIENCE\n\n### AI & Data Science Intern, TUDIGISEC, TDS Global Technologies\n**Date:** 07/2025 - 09/2025\n**Location:** Tunis, Tunisia\n- Delivered a Flask + Flask-SocketIO web demo with tested /predict API and basic real-time interface.\n- Final-year Data Science & AI Engineering student ( PFE Jan-Jun 2026 ) focused on ML/DL , MLOps and AWS . Built end-to-end pipelines with DVC/MLflow , GitHub Actions and Docker ; delivered a CNN-BiLSTM intrusion detection system ( ~99% accuracy ) and production-ready deployments .\n- Built a CNN-BiLSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy .\n- Implemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports).\n### Summer Training, Tek-Up University\n**Date:** 07/2024 - 08/2024\n**Location:** Ariana, Tunisia\n- Developed a web scraping module to automatically collect reviews starting from a movie title.\n- Python ( PCAP prep ) & Java ( OCA prep ): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints.\n- Built an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews, including preprocessing, training and evaluation.\n\n## ACADEMIC PROJECTS\n\n### Business Intelligence Project - Autism Prediction, Tek-Up University\n**Date:** 11/2025\n- Developed a BI solution to predict autism likelihood using medical and behavioural data from Kaggle .\n- Used Docker and GitHub Actions CI/CD to test and build the FastAPI service for local deployment in a production-like environment.\n- Added monitoring and drift reports on locally served predictions to detect model degradation over time and support timely retraining .\n- Used SQL Server and Power BI for data preparation and interactive dashboards, and deployed Decision Tree, Random Forest and XGBoost models as a Flask web application .\n- Wrapped the model in a FastAPI service and integrated it with an LLM chatbot (Groq API) that orchestrates scraping and prediction.\n- Versioned data and models with DVC and tracked experiments in MLflow , ensuring reproducible churn prediction training .\n\n## LANGUAGES\n\nArabic (Native), French (Fluent), English (Professional - B1-B2)\n\n## SOFT SKILLS\n\nProblem-solving | Teamwork | Communication | Critical thinking\n\n## CERTIFICATES (IN PROGRESS)\n\nPCAP | AWS CCP | AWS ML Eng-Assoc.",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "hichem.salah1512@gmail.com +216 97 118 755",
+        "Ariana, Tunisia",
+        "https://www.linkedin.com/in/hichem-bensalah-7173b0335/",
+        "github.com/HichemBensalah"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "hichem.salah1512@gmail.com +216 97 118 755",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 41.78906075878906,
+            "top": 783.2129853562813,
+            "right": 242.32243105323178,
+            "bottom": 794.5259848849063
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Ariana, Tunisia",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 268.52342631152345,
+            "top": 783.2129853562813,
+            "right": 323.75680801013254,
+            "bottom": 794.5259848849063
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "https://www.linkedin.com/in/hichem-bensalah-7173b0335/",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 41.78906075878906,
+            "top": 765.9629860750313,
+            "right": 265.4765881884751,
+            "bottom": 777.2759856036563
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "github.com/HichemBensalah",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 291.6796753466797,
+            "top": 765.9629860750313,
+            "right": 401.4174447742724,
+            "bottom": 777.2759856036563
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL SUMMARY",
+      "section_type": "summary",
+      "content": [
+        "Hichem Bensalah Final-year Data Science & AI Engineering Student, Tek-Up University"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Hichem Bensalah Final-year Data Science & AI Engineering Student, Tek-Up University",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 798.9621672000653,
+            "right": 429.9751715679669,
+            "bottom": 817.1855239407588
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Programming Languages",
+        "Python: NumPy, Pandas, scikit-learn, Matplotlib, Seaborn",
+        "Other: R, Java, JavaScript, C, C++, C#",
+        "MLOps, Deployment & Cloud",
+        "DevOps / CI/CD: Docker, Git, GitHub, GitHub Actions (CI/CD)",
+        "Deployment Tools: Flask, FastAPI, Streamlit",
+        "Frameworks : TensorFlow, Keras, PyTorch",
+        "Cloud (AWS) : S3, EC2, SageMaker (AWS SAA preparation)",
+        "Data Engineering & Databases",
+        "BI & ETL Tools: ETL, Power BI, SSIS, SSRS, SQL Server",
+        "Databases: MySQL, PostgreSQL, MongoDB, Neo4j, Oracle, Apache Cassandra (NoSQL)",
+        "Big Data & Distributed Processing: Apache Spark, PySpark (RDD, DataFrames, Spark SQL)",
+        "Telco Churn - End-to-End ML & MLOps Pipeline, Tek-Up University"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Programming Languages",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 585.9629935750312,
+            "right": 127.23765459843082,
+            "bottom": 597.2759931036562
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Python: NumPy, Pandas, scikit-learn, Matplotlib, Seaborn",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 576.2129939812813,
+            "right": 252.12624434473943,
+            "bottom": 587.5259935099062
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Other: R, Java, JavaScript, C, C++, C#",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 566.4629943875312,
+            "right": 175.1782272509069,
+            "bottom": 577.7759939161563
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "MLOps, Deployment & Cloud",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 549.2129951062813,
+            "right": 140.65673481430247,
+            "bottom": 560.5259946349063
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "DevOps / CI/CD: Docker, Git, GitHub, GitHub Actions (CI/CD)",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 539.4629955125313,
+            "right": 259.65577663100885,
+            "bottom": 550.7759950411563
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Deployment Tools: Flask, FastAPI, Streamlit",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 529.7129959187813,
+            "right": 199.227496823854,
+            "bottom": 541.0259954474062
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Frameworks : TensorFlow, Keras, PyTorch",
+          "page_no": 1,
+          "block_indices": [
+            57
+          ],
+          "bbox": {
+            "left": 314.7304593862303,
+            "top": 527.4629960125313,
+            "right": 472.1555363018521,
+            "bottom": 538.7759955411562
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Cloud (AWS) : S3, EC2, SageMaker (AWS SAA preparation)",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 519.9629963250312,
+            "right": 248.3085936038082,
+            "bottom": 531.2759958536562
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Data Engineering & Databases",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 502.71299704378123,
+            "right": 146.65080461454954,
+            "bottom": 514.0259965724063
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "BI & ETL Tools: ETL, Power BI, SSIS, SSRS, SQL Server",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 492.96299745003125,
+            "right": 236.5322230194903,
+            "bottom": 504.2759969786563
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Databases: MySQL, PostgreSQL, MongoDB, Neo4j, Oracle, Apache Cassandra (NoSQL)",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 473.46299826253124,
+            "right": 283.27264819697245,
+            "bottom": 494.52599738490625
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Big Data & Distributed Processing: Apache Spark, PySpark (RDD, DataFrames, Spark SQL)",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 453.9629990750313,
+            "right": 286.61248805781247,
+            "bottom": 475.02599819740624
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Telco Churn - End-to-End ML & MLOps Pipeline, Tek-Up University",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 242.46300788753126,
+            "right": 281.61677996596694,
+            "bottom": 253.7760074161563
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [],
+      "items": [
+        {
+          "title": "Engineering Degree - Data Science & AI | Tek-Up University",
+          "date": "2023 - 2026",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Engineering Degree - Data Science & AI | Tek-Up University",
+              "page_no": 1,
+              "block_indices": [
+                8
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 666.9629902000312,
+                "right": 260.5703330429023,
+                "bottom": 678.2759897286562
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "2023 - 2026",
+              "page_no": 1,
+              "block_indices": [
+                51
+              ],
+              "bbox": {
+                "left": 523.2187281992187,
+                "top": 666.9629902000312,
+                "right": 566.9229769532081,
+                "bottom": 678.2759897286562
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Civil Engineering Studies (ENIG) | ENIG Gabès",
+          "date": "2020 - 2022",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Civil Engineering Studies (ENIG) | ENIG Gabès",
+              "page_no": 1,
+              "block_indices": [
+                9
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 651.9629908250313,
+                "right": 205.74426987732173,
+                "bottom": 663.2759903536563
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "2020 - 2022",
+              "page_no": 1,
+              "block_indices": [
+                52
+              ],
+              "bbox": {
+                "left": 523.2187281992187,
+                "top": 651.9629908250313,
+                "right": 566.9229769532081,
+                "bottom": 663.2759903536563
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Preparatory Cycle in Engineering| FSS Sfax",
+          "date": "2017 - 2020",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Preparatory Cycle in Engineering| FSS Sfax",
+              "page_no": 1,
+              "block_indices": [
+                10
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 636.9629914500313,
+                "right": 195.82067484080483,
+                "bottom": 648.2759909786563
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "2017 - 2020",
+              "page_no": 1,
+              "block_indices": [
+                53
+              ],
+              "bbox": {
+                "left": 523.2187281992187,
+                "top": 636.9629914500313,
+                "right": 566.9229769532081,
+                "bottom": 648.2759909786563
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Baccalauréat in Mathematics| Skhira-Sfax",
+          "date": "2017",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Baccalauréat in Mathematics| Skhira-Sfax",
+              "page_no": 1,
+              "block_indices": [
+                11
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 621.9629920750313,
+                "right": 193.38264851738924,
+                "bottom": 633.2759916036563
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "2017",
+              "page_no": 1,
+              "block_indices": [
+                54
+              ],
+              "bbox": {
+                "left": 549.0351371235349,
+                "top": 621.9629920750313,
+                "right": 566.9272151280317,
+                "bottom": 633.2759916036563
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Engineering Degree - Data Science & AI | Tek-Up University",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 666.9629902000312,
+            "right": 260.5703330429023,
+            "bottom": 678.2759897286562
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "2023 - 2026",
+          "page_no": 1,
+          "block_indices": [
+            51
+          ],
+          "bbox": {
+            "left": 523.2187281992187,
+            "top": 666.9629902000312,
+            "right": 566.9229769532081,
+            "bottom": 678.2759897286562
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Civil Engineering Studies (ENIG) | ENIG Gabès",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 651.9629908250313,
+            "right": 205.74426987732173,
+            "bottom": 663.2759903536563
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "2020 - 2022",
+          "page_no": 1,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 523.2187281992187,
+            "top": 651.9629908250313,
+            "right": 566.9229769532081,
+            "bottom": 663.2759903536563
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Preparatory Cycle in Engineering| FSS Sfax",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 636.9629914500313,
+            "right": 195.82067484080483,
+            "bottom": 648.2759909786563
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "2017 - 2020",
+          "page_no": 1,
+          "block_indices": [
+            53
+          ],
+          "bbox": {
+            "left": 523.2187281992187,
+            "top": 636.9629914500313,
+            "right": 566.9229769532081,
+            "bottom": 648.2759909786563
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Baccalauréat in Mathematics| Skhira-Sfax",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 621.9629920750313,
+            "right": 193.38264851738924,
+            "bottom": 633.2759916036563
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "2017",
+          "page_no": 1,
+          "block_indices": [
+            54
+          ],
+          "bbox": {
+            "left": 549.0351371235349,
+            "top": 621.9629920750313,
+            "right": 566.9272151280317,
+            "bottom": 633.2759916036563
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "MACHINE LEARNING & DEEP LEARNING",
+      "section_type": "skills",
+      "content": [
+        "Machine Learning : classification, regression, clustering, anomaly detection",
+        "Neural Networks : ANN, CNN , RNN (LSTM, GRU)",
+        "Transfer Learning : feature extraction, fine-tuning",
+        "Generative Models : GAN, VAE, Diffusion Models",
+        "Sentiment Analysis (IMDb) - Deep Learning CNN/LSTM (Keras/TensorFlow), Tek-Up University"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Machine Learning : classification, regression, clustering, anomaly detection",
+          "page_no": 1,
+          "block_indices": [
+            55
+          ],
+          "bbox": {
+            "left": 314.7304593862303,
+            "top": 566.4629943875312,
+            "right": 562.4718515636719,
+            "bottom": 587.5259935099062
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Neural Networks : ANN, CNN , RNN (LSTM, GRU)",
+          "page_no": 1,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 314.7304593862303,
+            "top": 556.7129947937813,
+            "right": 495.1170396701225,
+            "bottom": 568.0259943224063
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Transfer Learning : feature extraction, fine-tuning",
+          "page_no": 1,
+          "block_indices": [
+            56
+          ],
+          "bbox": {
+            "left": 314.7304593862303,
+            "top": 546.9629952000313,
+            "right": 502.1908941003788,
+            "bottom": 558.2759947286562
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Generative Models : GAN, VAE, Diffusion Models",
+          "page_no": 1,
+          "block_indices": [
+            58
+          ],
+          "bbox": {
+            "left": 314.7304593862303,
+            "top": 537.2129956062812,
+            "right": 494.87040968039895,
+            "bottom": 548.5259951349063
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Sentiment Analysis (IMDb) - Deep Learning CNN/LSTM (Keras/TensorFlow), Tek-Up University",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 306.2130052312813,
+            "right": 390.7886504171389,
+            "bottom": 317.5260047599063
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        }
+      ]
+    },
+    {
+      "title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)",
+      "section_type": "skills",
+      "content": [
+        "CV : OpenCV, YOLO, image/video processing (TensorRT)",
+        "NLP : spaCy (tokenization, lemmatization), NLTK, embeddings (Word2Vec, GloVe, fastText), Transformers (Hugging Face),LLMs"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "CV : OpenCV, YOLO, image/video processing (TensorRT)",
+          "page_no": 1,
+          "block_indices": [
+            61
+          ],
+          "bbox": {
+            "left": 314.7304593862303,
+            "top": 500.46299713753126,
+            "right": 520.3434485940227,
+            "bottom": 511.77599666615623
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        },
+        {
+          "text": "NLP : spaCy (tokenization, lemmatization), NLTK, embeddings (Word2Vec, GloVe, fastText), Transformers (Hugging Face),LLMs",
+          "page_no": 1,
+          "block_indices": [
+            60
+          ],
+          "bbox": {
+            "left": 314.7304593862303,
+            "top": 480.96299795003125,
+            "right": 549.1012039457825,
+            "bottom": 502.02599707240626
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        }
+      ]
+    },
+    {
+      "title": "IDES & SOFTWARE",
+      "section_type": "skills",
+      "content": [
+        "VS Code | Jupyter | Git | Anaconda"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "VS Code | Jupyter | Git | Anaconda",
+          "page_no": 1,
+          "block_indices": [
+            63
+          ],
+          "bbox": {
+            "left": 306.6327997236328,
+            "top": 453.9629990750313,
+            "right": 431.85968550584585,
+            "bottom": 465.27599860365626
+          },
+          "section_title": "IDES & SOFTWARE"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [],
+      "items": [
+        {
+          "title": "AI & Data Science Intern, TUDIGISEC, TDS Global Technologies",
+          "date": "07/2025 - 09/2025",
+          "location": "Tunis, Tunisia",
+          "details": [
+            "Delivered a Flask + Flask-SocketIO web demo with tested /predict API and basic real-time interface.",
+            "Final-year Data Science & AI Engineering student ( PFE Jan-Jun 2026 ) focused on ML/DL , MLOps and AWS . Built end-to-end pipelines with DVC/MLflow , GitHub Actions and Docker ; delivered a CNN-BiLSTM intrusion detection system ( ~99% accuracy ) and production-ready deployments .",
+            "Built a CNN-BiLSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy .",
+            "Implemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports)."
+          ],
+          "evidence_spans": [
+            {
+              "text": "AI & Data Science Intern, TUDIGISEC, TDS Global Technologies",
+              "page_no": 1,
+              "block_indices": [
+                25
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 411.9630008250313,
+                "right": 264.90332848736085,
+                "bottom": 423.2760003536563
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "07/2025 - 09/2025",
+              "page_no": 1,
+              "block_indices": [
+                64
+              ],
+              "bbox": {
+                "left": 499.03122920703123,
+                "top": 411.9630008250313,
+                "right": 566.9276232030145,
+                "bottom": 423.2760003536563
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Tunis, Tunisia",
+              "page_no": 1,
+              "block_indices": [
+                65
+              ],
+              "bbox": {
+                "left": 515.7070135122068,
+                "top": 402.2130012312813,
+                "right": 566.9263573530676,
+                "bottom": 413.52600075990625
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Delivered a Flask + Flask-SocketIO web demo with tested /predict API and basic real-time interface.",
+              "page_no": 1,
+              "block_indices": [
+                28
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 382.71300204378133,
+                "right": 410.8256385572643,
+                "bottom": 394.02600157240624
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Final-year Data Science & AI Engineering student ( PFE Jan-Jun 2026 ) focused on ML/DL , MLOps and AWS . Built end-to-end pipelines with DVC/MLflow , GitHub Actions and Docker ; delivered a CNN-BiLSTM intrusion detection system ( ~99% accuracy ) and production-ready deployments .",
+              "page_no": 1,
+              "block_indices": [
+                6
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 703.7129886687812,
+                "right": 560.3313029778614,
+                "bottom": 734.5259873849062
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Built a CNN-BiLSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy .",
+              "page_no": 1,
+              "block_indices": [
+                27
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 402.2130012312813,
+                "right": 478.1745775760584,
+                "bottom": 413.52600075990625
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Implemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports).",
+              "page_no": 1,
+              "block_indices": [
+                26
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 392.4630016375313,
+                "right": 485.33253272781036,
+                "bottom": 403.7760011661563
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Summer Training, Tek-Up University",
+          "date": "07/2024 - 08/2024",
+          "location": "Ariana, Tunisia",
+          "details": [
+            "Developed a web scraping module to automatically collect reviews starting from a movie title.",
+            "Python ( PCAP prep ) & Java ( OCA prep ): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints.",
+            "Built an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews, including preprocessing, training and evaluation."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Summer Training, Tek-Up University",
+              "page_no": 1,
+              "block_indices": [
+                29
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 367.7130026687813,
+                "right": 167.25350723110358,
+                "bottom": 379.0260021974063
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "07/2024 - 08/2024",
+              "page_no": 1,
+              "block_indices": [],
+              "bbox": null,
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Ariana, Tunisia",
+              "page_no": 1,
+              "block_indices": [
+                2
+              ],
+              "bbox": {
+                "left": 268.52342631152345,
+                "top": 783.2129853562813,
+                "right": 323.75680801013254,
+                "bottom": 794.5259848849063
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Developed a web scraping module to automatically collect reviews starting from a movie title.",
+              "page_no": 1,
+              "block_indices": [
+                33
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 276.96300645003134,
+                "right": 390.42073245746883,
+                "bottom": 288.27600597865626
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Python ( PCAP prep ) & Java ( OCA prep ): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints.",
+              "page_no": 1,
+              "block_indices": [
+                30
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 348.2130034812813,
+                "right": 480.7335774694334,
+                "bottom": 369.27600260365625
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Built an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews, including preprocessing, training and evaluation.",
+              "page_no": 1,
+              "block_indices": [
+                34
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 286.7130060437813,
+                "right": 486.674979721875,
+                "bottom": 307.7760051661563
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "AI & Data Science Intern, TUDIGISEC, TDS Global Technologies",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 411.9630008250313,
+            "right": 264.90332848736085,
+            "bottom": 423.2760003536563
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "07/2025 - 09/2025",
+          "page_no": 1,
+          "block_indices": [
+            64
+          ],
+          "bbox": {
+            "left": 499.03122920703123,
+            "top": 411.9630008250313,
+            "right": 566.9276232030145,
+            "bottom": 423.2760003536563
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Tunis, Tunisia",
+          "page_no": 1,
+          "block_indices": [
+            65
+          ],
+          "bbox": {
+            "left": 515.7070135122068,
+            "top": 402.2130012312813,
+            "right": 566.9263573530676,
+            "bottom": 413.52600075990625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Delivered a Flask + Flask-SocketIO web demo with tested /predict API and basic real-time interface.",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 382.71300204378133,
+            "right": 410.8256385572643,
+            "bottom": 394.02600157240624
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Final-year Data Science & AI Engineering student ( PFE Jan-Jun 2026 ) focused on ML/DL , MLOps and AWS . Built end-to-end pipelines with DVC/MLflow , GitHub Actions and Docker ; delivered a CNN-BiLSTM intrusion detection system ( ~99% accuracy ) and production-ready deployments .",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 703.7129886687812,
+            "right": 560.3313029778614,
+            "bottom": 734.5259873849062
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Built a CNN-BiLSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy .",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 402.2130012312813,
+            "right": 478.1745775760584,
+            "bottom": 413.52600075990625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Implemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports).",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 392.4630016375313,
+            "right": 485.33253272781036,
+            "bottom": 403.7760011661563
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Summer Training, Tek-Up University",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 367.7130026687813,
+            "right": 167.25350723110358,
+            "bottom": 379.0260021974063
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "07/2024 - 08/2024",
+          "page_no": 1,
+          "block_indices": [],
+          "bbox": null,
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Ariana, Tunisia",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 268.52342631152345,
+            "top": 783.2129853562813,
+            "right": 323.75680801013254,
+            "bottom": 794.5259848849063
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Developed a web scraping module to automatically collect reviews starting from a movie title.",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 276.96300645003134,
+            "right": 390.42073245746883,
+            "bottom": 288.27600597865626
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Python ( PCAP prep ) & Java ( OCA prep ): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints.",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 348.2130034812813,
+            "right": 480.7335774694334,
+            "bottom": 369.27600260365625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Built an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews, including preprocessing, training and evaluation.",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 286.7130060437813,
+            "right": 486.674979721875,
+            "bottom": 307.7760051661563
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [],
+      "items": [
+        {
+          "title": "Business Intelligence Project - Autism Prediction, Tek-Up University",
+          "date": "11/2025",
+          "location": null,
+          "details": [
+            "Developed a BI solution to predict autism likelihood using medical and behavioural data from Kaggle .",
+            "Used Docker and GitHub Actions CI/CD to test and build the FastAPI service for local deployment in a production-like environment.",
+            "Added monitoring and drift reports on locally served predictions to detect model degradation over time and support timely retraining .",
+            "Used SQL Server and Power BI for data preparation and interactive dashboards, and deployed Decision Tree, Random Forest and XGBoost models as a Flask web application .",
+            "Wrapped the model in a FastAPI service and integrated it with an LLM chatbot (Groq API) that orchestrates scraping and prediction.",
+            "Versioned data and models with DVC and tracked experiments in MLflow , ensuring reproducible churn prediction training ."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Business Intelligence Project - Autism Prediction, Tek-Up University",
+              "page_no": 1,
+              "block_indices": [
+                40
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 168.96301095003128,
+                "right": 290.05427961440444,
+                "bottom": 180.2760104786563
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "11/2025",
+              "page_no": 1,
+              "block_indices": [
+                67
+              ],
+              "bbox": {
+                "left": 536.9413876274413,
+                "top": 306.2130052312813,
+                "right": 566.9295382529348,
+                "bottom": 317.5260047599063
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Developed a BI solution to predict autism likelihood using medical and behavioural data from Kaggle .",
+              "page_no": 1,
+              "block_indices": [
+                42
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 159.2130113562813,
+                "right": 419.0183300409022,
+                "bottom": 170.52601088490633
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Used Docker and GitHub Actions CI/CD to test and build the FastAPI service for local deployment in a production-like environment.",
+              "page_no": 1,
+              "block_indices": [
+                37
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 203.46300951253136,
+                "right": 487.09685470429685,
+                "bottom": 224.52600863490625
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Added monitoring and drift reports on locally served predictions to detect model degradation over time and support timely retraining .",
+              "page_no": 1,
+              "block_indices": [
+                39
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 183.9630103250313,
+                "right": 478.97576504267556,
+                "bottom": 205.0260094474063
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Used SQL Server and Power BI for data preparation and interactive dashboards, and deployed Decision Tree, Random Forest and XGBoost models as a Flask web application .",
+              "page_no": 1,
+              "block_indices": [
+                41
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 139.71301216878135,
+                "right": 485.05779228925775,
+                "bottom": 160.77601129115624
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Wrapped the model in a FastAPI service and integrated it with an LLM chatbot (Groq API) that orchestrates scraping and prediction.",
+              "page_no": 1,
+              "block_indices": [
+                35
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 257.4630072625313,
+                "right": 485.78435475898436,
+                "bottom": 278.5260063849063
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Versioned data and models with DVC and tracked experiments in MLflow , ensuring reproducible churn prediction training .",
+              "page_no": 1,
+              "block_indices": [
+                38
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 222.9630087000313,
+                "right": 471.22966786542963,
+                "bottom": 244.0260078224063
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Business Intelligence Project - Autism Prediction, Tek-Up University",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 168.96301095003128,
+            "right": 290.05427961440444,
+            "bottom": 180.2760104786563
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "11/2025",
+          "page_no": 1,
+          "block_indices": [
+            67
+          ],
+          "bbox": {
+            "left": 536.9413876274413,
+            "top": 306.2130052312813,
+            "right": 566.9295382529348,
+            "bottom": 317.5260047599063
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Developed a BI solution to predict autism likelihood using medical and behavioural data from Kaggle .",
+          "page_no": 1,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 159.2130113562813,
+            "right": 419.0183300409022,
+            "bottom": 170.52601088490633
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Used Docker and GitHub Actions CI/CD to test and build the FastAPI service for local deployment in a production-like environment.",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 203.46300951253136,
+            "right": 487.09685470429685,
+            "bottom": 224.52600863490625
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Added monitoring and drift reports on locally served predictions to detect model degradation over time and support timely retraining .",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 183.9630103250313,
+            "right": 478.97576504267556,
+            "bottom": 205.0260094474063
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Used SQL Server and Power BI for data preparation and interactive dashboards, and deployed Decision Tree, Random Forest and XGBoost models as a Flask web application .",
+          "page_no": 1,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 139.71301216878135,
+            "right": 485.05779228925775,
+            "bottom": 160.77601129115624
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Wrapped the model in a FastAPI service and integrated it with an LLM chatbot (Groq API) that orchestrates scraping and prediction.",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 257.4630072625313,
+            "right": 485.78435475898436,
+            "bottom": 278.5260063849063
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Versioned data and models with DVC and tracked experiments in MLflow , ensuring reproducible churn prediction training .",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 222.9630087000313,
+            "right": 471.22966786542963,
+            "bottom": 244.0260078224063
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGES",
+      "section_type": "languages",
+      "content": [
+        "Arabic (Native), French (Fluent), English (Professional - B1-B2)"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Arabic (Native), French (Fluent), English (Professional - B1-B2)",
+          "page_no": 1,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 102.21301373128131,
+            "right": 268.80121129994905,
+            "bottom": 113.52601325990622
+          },
+          "section_title": "LANGUAGES"
+        }
+      ]
+    },
+    {
+      "title": "SOFT SKILLS",
+      "section_type": "soft_skills",
+      "content": [
+        "Problem-solving | Teamwork | Communication | Critical thinking"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Problem-solving | Teamwork | Communication | Critical thinking",
+          "page_no": 1,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 63.96301532503128,
+            "right": 266.9456951022623,
+            "bottom": 75.2760148536563
+          },
+          "section_title": "SOFT SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "CERTIFICATES (IN PROGRESS)",
+      "section_type": "certifications",
+      "content": [
+        "PCAP | AWS CCP | AWS ML Eng-Assoc."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "PCAP | AWS CCP | AWS ML Eng-Assoc.",
+          "page_no": 1,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 25.71301691878125,
+            "right": 167.3599427266688,
+            "bottom": 37.02601644740628
+          },
+          "section_title": "CERTIFICATES (IN PROGRESS)"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.9515,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 4049,
+      "section_completeness": 1.0,
+      "ordering_coherence": 0.9333,
+      "segmentation_stability": 0.8333,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.2722,
+      "weird_section_ratio": 0.0,
+      "section_count": 12,
+      "expected_section_hits": 6,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=4065\", \"pdf_total_text_words=549\", \"pdf_avg_text_chars_per_page=4065.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": []
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "hichem.salah1512@gmail.com +216 97 118 755",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 41.78906075878906,
+        "top": 783.2129853562813,
+        "right": 242.32243105323178,
+        "bottom": 794.5259848849063
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Ariana, Tunisia",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 268.52342631152345,
+        "top": 783.2129853562813,
+        "right": 323.75680801013254,
+        "bottom": 794.5259848849063
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "https://www.linkedin.com/in/hichem-bensalah-7173b0335/",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 41.78906075878906,
+        "top": 765.9629860750313,
+        "right": 265.4765881884751,
+        "bottom": 777.2759856036563
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "github.com/HichemBensalah",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 291.6796753466797,
+        "top": 765.9629860750313,
+        "right": 401.4174447742724,
+        "bottom": 777.2759856036563
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Hichem Bensalah Final-year Data Science & AI Engineering Student, Tek-Up University",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 798.9621672000653,
+        "right": 429.9751715679669,
+        "bottom": 817.1855239407588
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "Programming Languages",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 585.9629935750312,
+        "right": 127.23765459843082,
+        "bottom": 597.2759931036562
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Python: NumPy, Pandas, scikit-learn, Matplotlib, Seaborn",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 576.2129939812813,
+        "right": 252.12624434473943,
+        "bottom": 587.5259935099062
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Other: R, Java, JavaScript, C, C++, C#",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 566.4629943875312,
+        "right": 175.1782272509069,
+        "bottom": 577.7759939161563
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "MLOps, Deployment & Cloud",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 549.2129951062813,
+        "right": 140.65673481430247,
+        "bottom": 560.5259946349063
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "DevOps / CI/CD: Docker, Git, GitHub, GitHub Actions (CI/CD)",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 539.4629955125313,
+        "right": 259.65577663100885,
+        "bottom": 550.7759950411563
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Deployment Tools: Flask, FastAPI, Streamlit",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 529.7129959187813,
+        "right": 199.227496823854,
+        "bottom": 541.0259954474062
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Frameworks : TensorFlow, Keras, PyTorch",
+      "page_no": 1,
+      "block_indices": [
+        57
+      ],
+      "bbox": {
+        "left": 314.7304593862303,
+        "top": 527.4629960125313,
+        "right": 472.1555363018521,
+        "bottom": 538.7759955411562
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Cloud (AWS) : S3, EC2, SageMaker (AWS SAA preparation)",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 519.9629963250312,
+        "right": 248.3085936038082,
+        "bottom": 531.2759958536562
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Data Engineering & Databases",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 502.71299704378123,
+        "right": 146.65080461454954,
+        "bottom": 514.0259965724063
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "BI & ETL Tools: ETL, Power BI, SSIS, SSRS, SQL Server",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 492.96299745003125,
+        "right": 236.5322230194903,
+        "bottom": 504.2759969786563
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Databases: MySQL, PostgreSQL, MongoDB, Neo4j, Oracle, Apache Cassandra (NoSQL)",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 473.46299826253124,
+        "right": 283.27264819697245,
+        "bottom": 494.52599738490625
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Big Data & Distributed Processing: Apache Spark, PySpark (RDD, DataFrames, Spark SQL)",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 453.9629990750313,
+        "right": 286.61248805781247,
+        "bottom": 475.02599819740624
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Telco Churn - End-to-End ML & MLOps Pipeline, Tek-Up University",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 242.46300788753126,
+        "right": 281.61677996596694,
+        "bottom": 253.7760074161563
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Engineering Degree - Data Science & AI | Tek-Up University",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 666.9629902000312,
+        "right": 260.5703330429023,
+        "bottom": 678.2759897286562
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "2023 - 2026",
+      "page_no": 1,
+      "block_indices": [
+        51
+      ],
+      "bbox": {
+        "left": 523.2187281992187,
+        "top": 666.9629902000312,
+        "right": 566.9229769532081,
+        "bottom": 678.2759897286562
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Civil Engineering Studies (ENIG) | ENIG Gabès",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 651.9629908250313,
+        "right": 205.74426987732173,
+        "bottom": 663.2759903536563
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "2020 - 2022",
+      "page_no": 1,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 523.2187281992187,
+        "top": 651.9629908250313,
+        "right": 566.9229769532081,
+        "bottom": 663.2759903536563
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Preparatory Cycle in Engineering| FSS Sfax",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 636.9629914500313,
+        "right": 195.82067484080483,
+        "bottom": 648.2759909786563
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "2017 - 2020",
+      "page_no": 1,
+      "block_indices": [
+        53
+      ],
+      "bbox": {
+        "left": 523.2187281992187,
+        "top": 636.9629914500313,
+        "right": 566.9229769532081,
+        "bottom": 648.2759909786563
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Baccalauréat in Mathematics| Skhira-Sfax",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 621.9629920750313,
+        "right": 193.38264851738924,
+        "bottom": 633.2759916036563
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "2017",
+      "page_no": 1,
+      "block_indices": [
+        54
+      ],
+      "bbox": {
+        "left": 549.0351371235349,
+        "top": 621.9629920750313,
+        "right": 566.9272151280317,
+        "bottom": 633.2759916036563
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Machine Learning : classification, regression, clustering, anomaly detection",
+      "page_no": 1,
+      "block_indices": [
+        55
+      ],
+      "bbox": {
+        "left": 314.7304593862303,
+        "top": 566.4629943875312,
+        "right": 562.4718515636719,
+        "bottom": 587.5259935099062
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Neural Networks : ANN, CNN , RNN (LSTM, GRU)",
+      "page_no": 1,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 314.7304593862303,
+        "top": 556.7129947937813,
+        "right": 495.1170396701225,
+        "bottom": 568.0259943224063
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Transfer Learning : feature extraction, fine-tuning",
+      "page_no": 1,
+      "block_indices": [
+        56
+      ],
+      "bbox": {
+        "left": 314.7304593862303,
+        "top": 546.9629952000313,
+        "right": 502.1908941003788,
+        "bottom": 558.2759947286562
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Generative Models : GAN, VAE, Diffusion Models",
+      "page_no": 1,
+      "block_indices": [
+        58
+      ],
+      "bbox": {
+        "left": 314.7304593862303,
+        "top": 537.2129956062812,
+        "right": 494.87040968039895,
+        "bottom": 548.5259951349063
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Sentiment Analysis (IMDb) - Deep Learning CNN/LSTM (Keras/TensorFlow), Tek-Up University",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 306.2130052312813,
+        "right": 390.7886504171389,
+        "bottom": 317.5260047599063
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "CV : OpenCV, YOLO, image/video processing (TensorRT)",
+      "page_no": 1,
+      "block_indices": [
+        61
+      ],
+      "bbox": {
+        "left": 314.7304593862303,
+        "top": 500.46299713753126,
+        "right": 520.3434485940227,
+        "bottom": 511.77599666615623
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": "NLP : spaCy (tokenization, lemmatization), NLTK, embeddings (Word2Vec, GloVe, fastText), Transformers (Hugging Face),LLMs",
+      "page_no": 1,
+      "block_indices": [
+        60
+      ],
+      "bbox": {
+        "left": 314.7304593862303,
+        "top": 480.96299795003125,
+        "right": 549.1012039457825,
+        "bottom": 502.02599707240626
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": "VS Code | Jupyter | Git | Anaconda",
+      "page_no": 1,
+      "block_indices": [
+        63
+      ],
+      "bbox": {
+        "left": 306.6327997236328,
+        "top": 453.9629990750313,
+        "right": 431.85968550584585,
+        "bottom": 465.27599860365626
+      },
+      "section_title": "IDES & SOFTWARE"
+    },
+    {
+      "text": "AI & Data Science Intern, TUDIGISEC, TDS Global Technologies",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 411.9630008250313,
+        "right": 264.90332848736085,
+        "bottom": 423.2760003536563
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "07/2025 - 09/2025",
+      "page_no": 1,
+      "block_indices": [
+        64
+      ],
+      "bbox": {
+        "left": 499.03122920703123,
+        "top": 411.9630008250313,
+        "right": 566.9276232030145,
+        "bottom": 423.2760003536563
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Tunis, Tunisia",
+      "page_no": 1,
+      "block_indices": [
+        65
+      ],
+      "bbox": {
+        "left": 515.7070135122068,
+        "top": 402.2130012312813,
+        "right": 566.9263573530676,
+        "bottom": 413.52600075990625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Delivered a Flask + Flask-SocketIO web demo with tested /predict API and basic real-time interface.",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 382.71300204378133,
+        "right": 410.8256385572643,
+        "bottom": 394.02600157240624
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Final-year Data Science & AI Engineering student ( PFE Jan-Jun 2026 ) focused on ML/DL , MLOps and AWS . Built end-to-end pipelines with DVC/MLflow , GitHub Actions and Docker ; delivered a CNN-BiLSTM intrusion detection system ( ~99% accuracy ) and production-ready deployments .",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 703.7129886687812,
+        "right": 560.3313029778614,
+        "bottom": 734.5259873849062
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Built a CNN-BiLSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy .",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 402.2130012312813,
+        "right": 478.1745775760584,
+        "bottom": 413.52600075990625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Implemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports).",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 392.4630016375313,
+        "right": 485.33253272781036,
+        "bottom": 403.7760011661563
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Summer Training, Tek-Up University",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 367.7130026687813,
+        "right": 167.25350723110358,
+        "bottom": 379.0260021974063
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "07/2024 - 08/2024",
+      "page_no": 1,
+      "block_indices": [],
+      "bbox": null,
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Ariana, Tunisia",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 268.52342631152345,
+        "top": 783.2129853562813,
+        "right": 323.75680801013254,
+        "bottom": 794.5259848849063
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Developed a web scraping module to automatically collect reviews starting from a movie title.",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 276.96300645003134,
+        "right": 390.42073245746883,
+        "bottom": 288.27600597865626
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Python ( PCAP prep ) & Java ( OCA prep ): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints.",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 348.2130034812813,
+        "right": 480.7335774694334,
+        "bottom": 369.27600260365625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Built an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews, including preprocessing, training and evaluation.",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 286.7130060437813,
+        "right": 486.674979721875,
+        "bottom": 307.7760051661563
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Business Intelligence Project - Autism Prediction, Tek-Up University",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 168.96301095003128,
+        "right": 290.05427961440444,
+        "bottom": 180.2760104786563
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "11/2025",
+      "page_no": 1,
+      "block_indices": [
+        67
+      ],
+      "bbox": {
+        "left": 536.9413876274413,
+        "top": 306.2130052312813,
+        "right": 566.9295382529348,
+        "bottom": 317.5260047599063
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Developed a BI solution to predict autism likelihood using medical and behavioural data from Kaggle .",
+      "page_no": 1,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 159.2130113562813,
+        "right": 419.0183300409022,
+        "bottom": 170.52601088490633
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Used Docker and GitHub Actions CI/CD to test and build the FastAPI service for local deployment in a production-like environment.",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 203.46300951253136,
+        "right": 487.09685470429685,
+        "bottom": 224.52600863490625
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Added monitoring and drift reports on locally served predictions to detect model degradation over time and support timely retraining .",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 183.9630103250313,
+        "right": 478.97576504267556,
+        "bottom": 205.0260094474063
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Used SQL Server and Power BI for data preparation and interactive dashboards, and deployed Decision Tree, Random Forest and XGBoost models as a Flask web application .",
+      "page_no": 1,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 139.71301216878135,
+        "right": 485.05779228925775,
+        "bottom": 160.77601129115624
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Wrapped the model in a FastAPI service and integrated it with an LLM chatbot (Groq API) that orchestrates scraping and prediction.",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 257.4630072625313,
+        "right": 485.78435475898436,
+        "bottom": 278.5260063849063
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Versioned data and models with DVC and tracked experiments in MLflow , ensuring reproducible churn prediction training .",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 222.9630087000313,
+        "right": 471.22966786542963,
+        "bottom": 244.0260078224063
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Arabic (Native), French (Fluent), English (Professional - B1-B2)",
+      "page_no": 1,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 102.21301373128131,
+        "right": 268.80121129994905,
+        "bottom": 113.52601325990622
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Problem-solving | Teamwork | Communication | Critical thinking",
+      "page_no": 1,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 63.96301532503128,
+        "right": 266.9456951022623,
+        "bottom": 75.2760148536563
+      },
+      "section_title": "SOFT SKILLS"
+    },
+    {
+      "text": "PCAP | AWS CCP | AWS ML Eng-Assoc.",
+      "page_no": 1,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 25.71301691878125,
+        "right": 167.3599427266688,
+        "bottom": 37.02601644740628
+      },
+      "section_title": "CERTIFICATES (IN PROGRESS)"
+    }
+  ]
+}

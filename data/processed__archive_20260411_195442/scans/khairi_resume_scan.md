@@ -1,0 +1,60 @@
+## HEADER
+
+Khaireddine Suibgui
+suibguikhairi2021@gmail. com
++21655470669
+El Ghazela, Ariana
+Osuibguikhairi
+in Khaireddine Suibgui
+Profile
+Asa Data Scienceengineergraduatedfrom TEK-U Puniversity, Ihavedevelopedasolidfoundationinmyfieldtodeliver actionableinsights. lampassionate aboutusingtechnologyto achieveimpactful solutions, and Iameagerto applymy expertiseinaprofessionalenvironmenttodriveinnovationandoptimizeperformance.
+
+## EDUCATION
+
+2022-2025
+### ENGINEERINGDEGREE
+### TEK-u P University-Ariana, Data Science
+**Date:** 2018-2021
+- FSM-Monastir, Maths-Physics
+- PREPARATORYCYCLE
+- Pioneer Schoolof Kasserine-Kasserine, Mathemathics
+### BACCALAUREATE
+**Date:** 2017
+
+## PROFESSIONAL EXPERIENCE
+
+Club Africain, Tunis|March-August2025
+### Endof Studies Internship
+### gentsystemtopredict potential injuriesandprovidepersonalized trainingrecommendations.
+### SUMMERINTERNSHIP
+**Location:** TEK-UP, Ariana|July-August2024
+- Developedaspeechsynthesissystemcapableoftransformingwrittentextintoaudiblespeechusingdeeplearning fortheconversionmodelandbigdataforstorageandprocessing.
+
+## TECHNICAL SKILLS
+
+Tools:Angular|Node Js|Mongo DB|Express Js|Machine Learning|Git
+Tools:Tensorflow|Py Torch|Apache Spark|NLTK|Git.
+Developa deeplearningmodel toclassifytoxicityinusercommentsusing Tensor Flowand Keras. It involved NLP,
+Tools:Tensorflow|Keras|LSTM|NLP|Git.
+Tools:SVM|KNN|K-Means|Naive Bayes|Adaboost|Git.
+Tools:SVM|KNN|K-Means|Microsoft Power BI|Git.
+Tools:R|R Markdown|Shiny|Tidyverse|Git.
+Programming Languages:Python|R|Matlab|SQL|Java Script|Java|C|C++.
+French:Fluent
+Arabic:Native
+English:Fluent
+
+## ACADEMIC PROJECTS
+
+Comment Toxicity Detection
+TEK-UP, Ariana|October2024
+Heart Health
+TEK-UP, Ariana|April2024
+### developedaprojecttoanalyzedata onheartdiseaseinvolvingclassification algorithmssuchas SV Mand KNN and clusteringlike K-Meanstopredictthepresenceofheartdisease.
+- Travel Booking
+- TEK-UP, Ariana|February2024
+### Tourism Analysis
+- TEK-UP, Ariana|December2023
+- manipulatingthedata, visualizingthedata, Creatinginteractivedashboardsandwritingareport.
+- Skills
+- Technologies:My SQL|Mongo DB|Cassandra|ML|DL|LL Ms|Fine Tuning|Power BI|Scikit-learn|Tensor Flow| Keras|Py Torch|Apache Spark|Apache Airflow|J Ax|Hadoop|A Ws|Git.

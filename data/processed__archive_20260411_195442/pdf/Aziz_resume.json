@@ -1,0 +1,1738 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nDeveloped a mask detection model using EfficientDet and Yolo-v4 , calculating the percentage of masked vs unmasked people in public places and restaurants/coffees, enforcing COVID regulations for business owners.\nDeveloped an age and gender classification model 92% accuracy by fine-tuning the EfficientNet architecture using AWS EC2 instances and S3 storage, helping business owners understand the customer demographic and finetune product placement quality resulting in 15% profit increase .\nOptimized inference time by 20% using TensorRT and deployed the model using Docker and TensorFlow Serving , making predictions faster with a lighter model.\nMOHAMED AZIZ BELAWEID\n+4917668727956 ⋄ Berlin, Germany azizbelaweid@gmail.com ⋄ linkedin.com/in/mohamed-aziz-belaweid/ ⋄ github.com/azayz\nCreated track features and pipelines using BigQuery and Airflow that resulting in an increase of 10 min of listening time for 3M users.\nCreated tool that allowed music teams to curate playlists and select tracks from 300 million using SQL and Looker.\nDeveloped a multimodal search system using CLIP's semantic representation for image and text , replacing keyword-based search and eliminating tedious labelling for 100k+ gifs .\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nAutomated customer review analysis in English, French, Arabic, and Tunisian dialect, accelerating the process from 1 week to 2 days and improving customer support experience by finetuning a Multilingual DistilBERT model for the Tunisian/Arabic dialect for sentiment classification with TensorFlow (98% accuracy).\nJuly. 2020 - Sep. 2020\nCreated Data for finetuning LLMs using self-instruct, LIMA and self chat papers.\nImproved model performance by 6% by scraping customer reviews from Google Maps using Selenium and BeautifulSoup , providing more accurate customer satisfaction results.\nDeployed a Flask app to showcase the model's performance and test manual examples, resulting in faster experimentation and debugging.\nMay. 2020 - July. 2020\nTunis, TUN\nMACHINE LEARNING & DEEP LEARNING\nMachine Learning Engineer\nMachine Learning Engineer\nJinaAI\nFinetune LLMs on coding data, using LoRA and 8 bit Quantization techniques on 3 3090 GPUs.\nhttps://github.com/jina-ai/finetuner/pull/249 , https://github.com/jina-ai/finetuner/pull/266\nData Scientist\nRelationalAI\nPaper: https://ieeexplore.ieee.org/abstract/document/10020873\nArtificial Intelligence R&D Intern\nVneuron\nGitHub Repository: https://github.com/azayz/Tunisian-Arabic-Dialect-Sentiment-Analysis\nTECHNICAL SKILLS\nSoundCloud\nMaster of Software Engineering , National Institute of Applied Sciences and Technology (INSAT) Sep. 2017 June. 2022\nRelevant Coursework: OOP, Design Patterns, Parallel Computing, Software Architecture, Databases, Calculus, Linear Algebra, Probability and Statistics, Data Structures and Algorithms.\nSKILLS\nPython, Java, C++, SQL\nProgramming Languages Frameworks\nPytorch, Jax, Flask, FastAPI, Pytest, Pandas, NumPy, Scikit-learn, Huggingface Git, Linux, Weights and Biases, Docker\nTools\nEDUCATION\nDeveloped an information retrieval pipeline that parses technical documentation and created embeddings using Dense Passage Retrieval and Tf Idf , Eliminating 60% of support workload .\nJuly 2023 - Present\nBerlin, Germany\nImplemented a callback wrapper for PyTorch, TensorFlow, and PaddlePaddle , making the finetuner API easier to use for 250 monthly developers.\nJan. 2021 - Oct. 2021\nPretrained BERT from scratch using Nvidea NeMo and Pytorch Lightning on 4 V100 GPUs for MLM and NSP tasks . Trained on 12GB of legal data, monitored using Tensorboard. Resulting in a betterperforming named entity recognition model than legal BERT after finetuning with an average 94% F1 score for entities .\nBerkeley, CA US\nWorked with a team of lawyers to annotate and clean data for named entity recognition using Prodigy labeling tool. Trained SpaCy NER models (CNN sliding window) and BiLSTM-CRF to label more data and conducted error analysis and data enhancement. Resulted in a 4x speed up in data labeling and improved quality .\nCOMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\nComputer Vision Intern\nDatavision\nPROJECTS AND AWARDS\nTop 1% (5/1317) in the Plant Pathology Research Competition on Kaggle This competition is part of FineGrained Visual Categorization (FGVC) workshop at CVPR 2020. My personal result: 0.9806 AUC. Used multiple data augmentation methods such as CutMix, CutOut and GridMask . (Solution Notebook here.)\nCertified Tensorflow Developper Passed TensforFlow certification exam.\nBlog to Summarize and Discuss Research Papers Actively write blog posts viewed by over 22K+ data scientists and engineers, summarizing most recent research papers.",
+  "markdown": "## HEADER\n\nDeveloped a mask detection model using EfficientDet and Yolo-v4 , calculating the percentage of masked vs unmasked people in public places and restaurants/coffees, enforcing COVID regulations for business owners.\nDeveloped an age and gender classification model 92% accuracy by fine-tuning the EfficientNet architecture using AWS EC2 instances and S3 storage, helping business owners understand the customer demographic and finetune product placement quality resulting in 15% profit increase .\nOptimized inference time by 20% using TensorRT and deployed the model using Docker and TensorFlow Serving , making predictions faster with a lighter model.\n\n## MOHAMED AZIZ BELAWEID\n\n+4917668727956 ⋄ Berlin, Germany azizbelaweid@gmail.com ⋄ linkedin.com/in/mohamed-aziz-belaweid/ ⋄ github.com/azayz\nCreated track features and pipelines using BigQuery and Airflow that resulting in an increase of 10 min of listening time for 3M users.\nCreated tool that allowed music teams to curate playlists and select tracks from 300 million using SQL and Looker.\nDeveloped a multimodal search system using CLIP's semantic representation for image and text , replacing keyword-based search and eliminating tedious labelling for 100k+ gifs .\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n### Automated customer review analysis in English, French, Arabic, and Tunisian dialect, accelerating the process from 1 week to 2 days and improving customer support experience by finetuning a Multilingual DistilBERT model for the Tunisian/Arabic dialect for sentiment classification with TensorFlow (98% accuracy).\n**Date:** July. 2020 - Sep. 2020\n- Created Data for finetuning LLMs using self-instruct, LIMA and self chat papers.\n### Improved model performance by 6% by scraping customer reviews from Google Maps using Selenium and BeautifulSoup , providing more accurate customer satisfaction results.\n### Deployed a Flask app to showcase the model's performance and test manual examples, resulting in faster experimentation and debugging.\n**Date:** May. 2020 - July. 2020\n**Location:** Tunis, TUN\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning Engineer\nMachine Learning Engineer\nJinaAI\nFinetune LLMs on coding data, using LoRA and 8 bit Quantization techniques on 3 3090 GPUs.\nhttps://github.com/jina-ai/finetuner/pull/249 , https://github.com/jina-ai/finetuner/pull/266\nData Scientist\nRelationalAI\nPaper: https://ieeexplore.ieee.org/abstract/document/10020873\nArtificial Intelligence R&D Intern\nVneuron\nGitHub Repository: https://github.com/azayz/Tunisian-Arabic-Dialect-Sentiment-Analysis\n\n## TECHNICAL SKILLS\n\nSoundCloud\nMaster of Software Engineering , National Institute of Applied Sciences and Technology (INSAT) Sep. 2017 June. 2022\nRelevant Coursework: OOP, Design Patterns, Parallel Computing, Software Architecture, Databases, Calculus, Linear Algebra, Probability and Statistics, Data Structures and Algorithms.\nSKILLS\nPython, Java, C++, SQL\nProgramming Languages Frameworks\nPytorch, Jax, Flask, FastAPI, Pytest, Pandas, NumPy, Scikit-learn, Huggingface Git, Linux, Weights and Biases, Docker\nTools\n\n## EDUCATION\n\n### Developed an information retrieval pipeline that parses technical documentation and created embeddings using Dense Passage Retrieval and Tf Idf , Eliminating 60% of support workload .\n**Date:** July 2023 - Present\n**Location:** Berlin, Germany\n### Implemented a callback wrapper for PyTorch, TensorFlow, and PaddlePaddle , making the finetuner API easier to use for 250 monthly developers.\n**Date:** Jan. 2021 - Oct. 2021\n### Pretrained BERT from scratch using Nvidea NeMo and Pytorch Lightning on 4 V100 GPUs for MLM and NSP tasks . Trained on 12GB of legal data, monitored using Tensorboard. Resulting in a betterperforming named entity recognition model than legal BERT after finetuning with an average 94% F1 score for entities .\n**Location:** Berkeley, CA US\n- Worked with a team of lawyers to annotate and clean data for named entity recognition using Prodigy labeling tool. Trained SpaCy NER models (CNN sliding window) and BiLSTM-CRF to label more data and conducted error analysis and data enhancement. Resulted in a 4x speed up in data labeling and improved quality .\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nComputer Vision Intern\nDatavision\n\n## PROJECTS AND AWARDS\n\nTop 1% (5/1317) in the Plant Pathology Research Competition on Kaggle This competition is part of FineGrained Visual Categorization (FGVC) workshop at CVPR 2020. My personal result: 0.9806 AUC. Used multiple data augmentation methods such as CutMix, CutOut and GridMask . (Solution Notebook here.)\nCertified Tensorflow Developper Passed TensforFlow certification exam.\nBlog to Summarize and Discuss Research Papers Actively write blog posts viewed by over 22K+ data scientists and engineers, summarizing most recent research papers.",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Developed a mask detection model using EfficientDet and Yolo-v4 , calculating the percentage of masked vs unmasked people in public places and restaurants/coffees, enforcing COVID regulations for business owners.",
+        "Developed an age and gender classification model 92% accuracy by fine-tuning the EfficientNet architecture using AWS EC2 instances and S3 storage, helping business owners understand the customer demographic and finetune product placement quality resulting in 15% profit increase .",
+        "Optimized inference time by 20% using TensorRT and deployed the model using Docker and TensorFlow Serving , making predictions faster with a lighter model."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Developed a mask detection model using EfficientDet and Yolo-v4 , calculating the percentage of masked vs unmasked people in public places and restaurants/coffees, enforcing COVID regulations for business owners.",
+          "page_no": 2,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 41.921,
+            "top": 736.6091792965418,
+            "right": 583.1989819699997,
+            "bottom": 762.5183721999999
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Developed an age and gender classification model 92% accuracy by fine-tuning the EfficientNet architecture using AWS EC2 instances and S3 storage, helping business owners understand the customer demographic and finetune product placement quality resulting in 15% profit increase .",
+          "page_no": 2,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 41.921000000000014,
+            "top": 692.1670307429395,
+            "right": 583.2004419999995,
+            "bottom": 731.6333721999999
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Optimized inference time by 20% using TensorRT and deployed the model using Docker and TensorFlow Serving , making predictions faster with a lighter model.",
+          "page_no": 2,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 41.92099999999999,
+            "top": 661.2830307429394,
+            "right": 583.19859808,
+            "bottom": 687.2003722
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "MOHAMED AZIZ BELAWEID",
+      "section_type": "other",
+      "content": [
+        "+4917668727956 ⋄ Berlin, Germany azizbelaweid@gmail.com ⋄ linkedin.com/in/mohamed-aziz-belaweid/ ⋄ github.com/azayz",
+        "Created track features and pipelines using BigQuery and Airflow that resulting in an increase of 10 min of listening time for 3M users.",
+        "Created tool that allowed music teams to curate playlists and select tracks from 300 million using SQL and Looker.",
+        "Developed a multimodal search system using CLIP's semantic representation for image and text , replacing keyword-based search and eliminating tedious labelling for 100k+ gifs ."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "+4917668727956 ⋄ Berlin, Germany azizbelaweid@gmail.com ⋄ linkedin.com/in/mohamed-aziz-belaweid/ ⋄ github.com/azayz",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 220.25,
+            "top": 729.7791792965418,
+            "right": 391.7554297899999,
+            "bottom": 739.3129153
+          },
+          "section_title": "MOHAMED AZIZ BELAWEID"
+        },
+        {
+          "text": "Created track features and pipelines using BigQuery and Airflow that resulting in an increase of 10 min of listening time for 3M users.",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 41.92100000000005,
+            "top": 615.7930307429395,
+            "right": 583.2020838799999,
+            "bottom": 641.7103722
+          },
+          "section_title": "MOHAMED AZIZ BELAWEID"
+        },
+        {
+          "text": "Created tool that allowed music teams to curate playlists and select tracks from 300 million using SQL and Looker.",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 41.92100000000007,
+            "top": 584.9181792965419,
+            "right": 583.20174192,
+            "bottom": 610.8263722
+          },
+          "section_title": "MOHAMED AZIZ BELAWEID"
+        },
+        {
+          "text": "Developed a multimodal search system using CLIP's semantic representation for image and text , replacing keyword-based search and eliminating tedious labelling for 100k+ gifs .",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 41.92099999999999,
+            "top": 482.4930307429397,
+            "right": 583.20054798,
+            "bottom": 508.4103722000002
+          },
+          "section_title": "MOHAMED AZIZ BELAWEID"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "EXPERIENCE"
+      ],
+      "items": [
+        {
+          "title": "Automated customer review analysis in English, French, Arabic, and Tunisian dialect, accelerating the process from 1 week to 2 days and improving customer support experience by finetuning a Multilingual DistilBERT model for the Tunisian/Arabic dialect for sentiment classification with TensorFlow (98% accuracy).",
+          "date": "July. 2020 - Sep. 2020",
+          "location": null,
+          "details": [
+            "Created Data for finetuning LLMs using self-instruct, LIMA and self chat papers."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Automated customer review analysis in English, French, Arabic, and Tunisian dialect, accelerating the process from 1 week to 2 days and improving customer support experience by finetuning a Multilingual DistilBERT model for the Tunisian/Arabic dialect for sentiment classification with TensorFlow (98% accuracy).",
+              "page_no": 1,
+              "block_indices": [
+                30
+              ],
+              "bbox": {
+                "left": 41.92199999999997,
+                "top": 152.7290307429398,
+                "right": 583.2026238199994,
+                "bottom": 192.19637220000038
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "July. 2020 - Sep. 2020",
+              "page_no": 1,
+              "block_indices": [
+                28
+              ],
+              "bbox": {
+                "left": 474.564,
+                "top": 213.71017929654215,
+                "right": 583.2000905300004,
+                "bottom": 223.24391530000037
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Created Data for finetuning LLMs using self-instruct, LIMA and self chat papers.",
+              "page_no": 1,
+              "block_indices": [
+                14
+              ],
+              "bbox": {
+                "left": 41.92099999999999,
+                "top": 511.9780880000002,
+                "right": 477.9017595799999,
+                "bottom": 525.7453722000001
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Improved model performance by 6% by scraping customer reviews from Google Maps using Selenium and BeautifulSoup , providing more accurate customer satisfaction results.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Improved model performance by 6% by scraping customer reviews from Google Maps using Selenium and BeautifulSoup , providing more accurate customer satisfaction results.",
+              "page_no": 1,
+              "block_indices": [
+                31
+              ],
+              "bbox": {
+                "left": 41.92199999999997,
+                "top": 121.8450307429398,
+                "right": 583.1989170600001,
+                "bottom": 147.7623722000003
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Deployed a Flask app to showcase the model's performance and test manual examples, resulting in faster experimentation and debugging.",
+          "date": "May. 2020 - July. 2020",
+          "location": "Tunis, TUN",
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Deployed a Flask app to showcase the model's performance and test manual examples, resulting in faster experimentation and debugging.",
+              "page_no": 1,
+              "block_indices": [
+                32
+              ],
+              "bbox": {
+                "left": 41.92199999999997,
+                "top": 90.97017929654214,
+                "right": 583.1993510899999,
+                "bottom": 116.87837220000029
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "May. 2020 - July. 2020",
+              "page_no": 1,
+              "block_indices": [
+                36
+              ],
+              "bbox": {
+                "left": 471.53399999999993,
+                "top": 50.32217929654212,
+                "right": 583.2017294200002,
+                "bottom": 59.85591530000033
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Tunis, TUN",
+              "page_no": 1,
+              "block_indices": [
+                37
+              ],
+              "bbox": {
+                "left": 523.377,
+                "top": 36.77317929654214,
+                "right": 581.413412,
+                "bottom": 46.306915300000355
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "EXPERIENCE",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 28.799999999999955,
+            "top": 683.9420307429394,
+            "right": 112.87316096999996,
+            "bottom": 693.5176426
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Automated customer review analysis in English, French, Arabic, and Tunisian dialect, accelerating the process from 1 week to 2 days and improving customer support experience by finetuning a Multilingual DistilBERT model for the Tunisian/Arabic dialect for sentiment classification with TensorFlow (98% accuracy).",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 41.92199999999997,
+            "top": 152.7290307429398,
+            "right": 583.2026238199994,
+            "bottom": 192.19637220000038
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "July. 2020 - Sep. 2020",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 474.564,
+            "top": 213.71017929654215,
+            "right": 583.2000905300004,
+            "bottom": 223.24391530000037
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Created Data for finetuning LLMs using self-instruct, LIMA and self chat papers.",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 41.92099999999999,
+            "top": 511.9780880000002,
+            "right": 477.9017595799999,
+            "bottom": 525.7453722000001
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Improved model performance by 6% by scraping customer reviews from Google Maps using Selenium and BeautifulSoup , providing more accurate customer satisfaction results.",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 41.92199999999997,
+            "top": 121.8450307429398,
+            "right": 583.1989170600001,
+            "bottom": 147.7623722000003
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Deployed a Flask app to showcase the model's performance and test manual examples, resulting in faster experimentation and debugging.",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 41.92199999999997,
+            "top": 90.97017929654214,
+            "right": 583.1993510899999,
+            "bottom": 116.87837220000029
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "May. 2020 - July. 2020",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 471.53399999999993,
+            "top": 50.32217929654212,
+            "right": 583.2017294200002,
+            "bottom": 59.85591530000033
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Tunis, TUN",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 523.377,
+            "top": 36.77317929654214,
+            "right": 581.413412,
+            "bottom": 46.306915300000355
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "MACHINE LEARNING & DEEP LEARNING",
+      "section_type": "skills",
+      "content": [
+        "Machine Learning Engineer",
+        "Machine Learning Engineer",
+        "JinaAI",
+        "Finetune LLMs on coding data, using LoRA and 8 bit Quantization techniques on 3 3090 GPUs.",
+        "https://github.com/jina-ai/finetuner/pull/249 , https://github.com/jina-ai/finetuner/pull/266",
+        "Data Scientist",
+        "RelationalAI",
+        "Paper: https://ieeexplore.ieee.org/abstract/document/10020873",
+        "Artificial Intelligence R&D Intern",
+        "Vneuron",
+        "GitHub Repository: https://github.com/azayz/Tunisian-Arabic-Dialect-Sentiment-Analysis"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Machine Learning Engineer",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 28.8,
+            "top": 663.2150307429395,
+            "right": 180.43867181999997,
+            "bottom": 672.7906426000001
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Machine Learning Engineer",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 28.799999999999955,
+            "top": 564.5850307429396,
+            "right": 180.43867181999997,
+            "bottom": 574.1606426000002
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "JinaAI",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 28.799999999999955,
+            "top": 551.045179296542,
+            "right": 61.07348143999995,
+            "bottom": 560.5789153000002
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Finetune LLMs on coding data, using LoRA and 8 bit Quantization techniques on 3 3090 GPUs.",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 41.92099999999999,
+            "top": 529.3130880000002,
+            "right": 536.9225666999997,
+            "bottom": 543.0803722000002
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "https://github.com/jina-ai/finetuner/pull/249 , https://github.com/jina-ai/finetuner/pull/266",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 52.8,
+            "top": 407.1841792965421,
+            "right": 503.88692135999935,
+            "bottom": 416.7179153000003
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Data Scientist",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 28.799999999999997,
+            "top": 386.8520307429398,
+            "right": 106.27533728999998,
+            "bottom": 396.4276426000003
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "RelationalAI",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 373.3111792965421,
+            "right": 89.55823245,
+            "bottom": 382.8449153000003
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Paper: https://ieeexplore.ieee.org/abstract/document/10020873",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 52.80000000000001,
+            "top": 234.02503074293986,
+            "right": 406.61484030000025,
+            "bottom": 243.60064260000036
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Artificial Intelligence R&D Intern",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 213.7010307429398,
+            "right": 215.68051937,
+            "bottom": 223.2766426000004
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Vneuron",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 200.16117929654217,
+            "right": 69.74076139000002,
+            "bottom": 209.6949153000004
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "GitHub Repository: https://github.com/azayz/Tunisian-Arabic-Dialect-Sentiment-Analysis",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 52.79999999999997,
+            "top": 70.63703074293983,
+            "right": 556.0869648600001,
+            "bottom": 80.21264260000032
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "SoundCloud",
+        "Master of Software Engineering , National Institute of Applied Sciences and Technology (INSAT) Sep. 2017 June. 2022",
+        "Relevant Coursework: OOP, Design Patterns, Parallel Computing, Software Architecture, Databases, Calculus, Linear Algebra, Probability and Statistics, Data Structures and Algorithms.",
+        "SKILLS",
+        "Python, Java, C++, SQL",
+        "Programming Languages Frameworks",
+        "Pytorch, Jax, Flask, FastAPI, Pytest, Pandas, NumPy, Scikit-learn, Huggingface Git, Linux, Weights and Biases, Docker",
+        "Tools"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "SoundCloud",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 649.6751792965418,
+            "right": 86.98477576000002,
+            "bottom": 659.2089153000001
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Master of Software Engineering , National Institute of Applied Sciences and Technology (INSAT) Sep. 2017 June. 2022",
+          "page_no": 2,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 28.8,
+            "top": 472.6741792965418,
+            "right": 583.2028623999996,
+            "bottom": 495.7896426
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Relevant Coursework: OOP, Design Patterns, Parallel Computing, Software Architecture, Databases, Calculus, Linear Algebra, Probability and Statistics, Data Structures and Algorithms.",
+          "page_no": 2,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 445.57617929654185,
+            "right": 583.1960983599997,
+            "bottom": 468.65891530000005
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "SKILLS",
+          "page_no": 2,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 419.26503074293953,
+            "right": 72.42221817000001,
+            "bottom": 428.8406426
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Python, Java, C++, SQL",
+          "page_no": 2,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 193.27700000000002,
+            "top": 396.6391792965418,
+            "right": 315.84946577999983,
+            "bottom": 406.1729153
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Programming Languages Frameworks",
+          "page_no": 2,
+          "block_indices": [
+            49
+          ],
+          "bbox": {
+            "left": 28.8,
+            "top": 383.0810307429395,
+            "right": 165.09174994,
+            "bottom": 406.2056426
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Pytorch, Jax, Flask, FastAPI, Pytest, Pandas, NumPy, Scikit-learn, Huggingface Git, Linux, Weights and Biases, Docker",
+          "page_no": 2,
+          "block_indices": [
+            51
+          ],
+          "bbox": {
+            "left": 193.27700000000002,
+            "top": 369.5411792965418,
+            "right": 579.9467767699999,
+            "bottom": 392.6239153
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Tools",
+          "page_no": 2,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 369.5320307429395,
+            "right": 57.8072969,
+            "bottom": 379.1076426
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [],
+      "items": [
+        {
+          "title": "Developed an information retrieval pipeline that parses technical documentation and created embeddings using Dense Passage Retrieval and Tf Idf , Eliminating 60% of support workload .",
+          "date": "July 2023 - Present",
+          "location": "Berlin, Germany",
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Developed an information retrieval pipeline that parses technical documentation and created embeddings using Dense Passage Retrieval and Tf Idf , Eliminating 60% of support workload .",
+              "page_no": 1,
+              "block_indices": [
+                16
+              ],
+              "bbox": {
+                "left": 41.920999999999935,
+                "top": 451.60903074293975,
+                "right": 583.1993510899994,
+                "bottom": 477.52637220000025
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "July 2023 - Present",
+              "page_no": 1,
+              "block_indices": [
+                5
+              ],
+              "bbox": {
+                "left": 490.685,
+                "top": 663.2241792965418,
+                "right": 583.1985316400003,
+                "bottom": 672.7579153
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Berlin, Germany",
+              "page_no": 1,
+              "block_indices": [
+                6
+              ],
+              "bbox": {
+                "left": 501.439,
+                "top": 649.6751792965418,
+                "right": 582.2405218800001,
+                "bottom": 659.2089153000001
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Implemented a callback wrapper for PyTorch, TensorFlow, and PaddlePaddle , making the finetuner API easier to use for 250 monthly developers.",
+          "date": "Jan. 2021 - Oct. 2021",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Implemented a callback wrapper for PyTorch, TensorFlow, and PaddlePaddle , making the finetuner API easier to use for 250 monthly developers.",
+              "page_no": 1,
+              "block_indices": [
+                17
+              ],
+              "bbox": {
+                "left": 41.92199999999997,
+                "top": 420.7250307429398,
+                "right": 583.1970172699998,
+                "bottom": 446.6423722000003
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Jan. 2021 - Oct. 2021",
+              "page_no": 1,
+              "block_indices": [
+                21
+              ],
+              "bbox": {
+                "left": 476.382,
+                "top": 386.8611792965421,
+                "right": 583.1951799200004,
+                "bottom": 396.3949153000003
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Pretrained BERT from scratch using Nvidea NeMo and Pytorch Lightning on 4 V100 GPUs for MLM and NSP tasks . Trained on 12GB of legal data, monitored using Tensorboard. Resulting in a betterperforming named entity recognition model than legal BERT after finetuning with an average 94% F1 score for entities .",
+          "date": null,
+          "location": "Berkeley, CA US",
+          "details": [
+            "Worked with a team of lawyers to annotate and clean data for named entity recognition using Prodigy labeling tool. Trained SpaCy NER models (CNN sliding window) and BiLSTM-CRF to label more data and conducted error analysis and data enhancement. Resulted in a 4x speed up in data labeling and improved quality ."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Pretrained BERT from scratch using Nvidea NeMo and Pytorch Lightning on 4 V100 GPUs for MLM and NSP tasks . Trained on 12GB of legal data, monitored using Tensorboard. Resulting in a betterperforming named entity recognition model than legal BERT after finetuning with an average 94% F1 score for entities .",
+              "page_no": 1,
+              "block_indices": [
+                23
+              ],
+              "bbox": {
+                "left": 41.922000000000025,
+                "top": 312.33103074293984,
+                "right": 583.2024583999998,
+                "bottom": 365.34737220000034
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Berkeley, CA US",
+              "page_no": 1,
+              "block_indices": [
+                22
+              ],
+              "bbox": {
+                "left": 500.15000000000003,
+                "top": 373.3111792965421,
+                "right": 581.8907953900001,
+                "bottom": 382.8449153000003
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Worked with a team of lawyers to annotate and clean data for named entity recognition using Prodigy labeling tool. Trained SpaCy NER models (CNN sliding window) and BiLSTM-CRF to label more data and conducted error analysis and data enhancement. Resulted in a 4x speed up in data labeling and improved quality .",
+              "page_no": 1,
+              "block_indices": [
+                24
+              ],
+              "bbox": {
+                "left": 41.92200000000001,
+                "top": 254.34803074293984,
+                "right": 583.2026238199998,
+                "bottom": 307.3643722000004
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Developed an information retrieval pipeline that parses technical documentation and created embeddings using Dense Passage Retrieval and Tf Idf , Eliminating 60% of support workload .",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 41.920999999999935,
+            "top": 451.60903074293975,
+            "right": 583.1993510899994,
+            "bottom": 477.52637220000025
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "July 2023 - Present",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 490.685,
+            "top": 663.2241792965418,
+            "right": 583.1985316400003,
+            "bottom": 672.7579153
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Berlin, Germany",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 501.439,
+            "top": 649.6751792965418,
+            "right": 582.2405218800001,
+            "bottom": 659.2089153000001
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Implemented a callback wrapper for PyTorch, TensorFlow, and PaddlePaddle , making the finetuner API easier to use for 250 monthly developers.",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 41.92199999999997,
+            "top": 420.7250307429398,
+            "right": 583.1970172699998,
+            "bottom": 446.6423722000003
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Jan. 2021 - Oct. 2021",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 476.382,
+            "top": 386.8611792965421,
+            "right": 583.1951799200004,
+            "bottom": 396.3949153000003
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Pretrained BERT from scratch using Nvidea NeMo and Pytorch Lightning on 4 V100 GPUs for MLM and NSP tasks . Trained on 12GB of legal data, monitored using Tensorboard. Resulting in a betterperforming named entity recognition model than legal BERT after finetuning with an average 94% F1 score for entities .",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 41.922000000000025,
+            "top": 312.33103074293984,
+            "right": 583.2024583999998,
+            "bottom": 365.34737220000034
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Berkeley, CA US",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 500.15000000000003,
+            "top": 373.3111792965421,
+            "right": 581.8907953900001,
+            "bottom": 382.8449153000003
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Worked with a team of lawyers to annotate and clean data for named entity recognition using Prodigy labeling tool. Trained SpaCy NER models (CNN sliding window) and BiLSTM-CRF to label more data and conducted error analysis and data enhancement. Resulted in a 4x speed up in data labeling and improved quality .",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 41.92200000000001,
+            "top": 254.34803074293984,
+            "right": 583.2026238199998,
+            "bottom": 307.3643722000004
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)",
+      "section_type": "skills",
+      "content": [
+        "Computer Vision Intern",
+        "Datavision"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Computer Vision Intern",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 28.79999999999997,
+            "top": 50.31303074293976,
+            "right": 161.47756510999994,
+            "bottom": 59.88864260000037
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        },
+        {
+          "text": "Datavision",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 28.799999999999955,
+            "top": 36.77317929654214,
+            "right": 79.61676961999996,
+            "bottom": 46.306915300000355
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        }
+      ]
+    },
+    {
+      "title": "PROJECTS AND AWARDS",
+      "section_type": "projects",
+      "content": [
+        "Top 1% (5/1317) in the Plant Pathology Research Competition on Kaggle This competition is part of FineGrained Visual Categorization (FGVC) workshop at CVPR 2020. My personal result: 0.9806 AUC. Used multiple data augmentation methods such as CutMix, CutOut and GridMask . (Solution Notebook here.)",
+        "Certified Tensorflow Developper Passed TensforFlow certification exam.",
+        "Blog to Summarize and Discuss Research Papers Actively write blog posts viewed by over 22K+ data scientists and engineers, summarizing most recent research papers."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Top 1% (5/1317) in the Plant Pathology Research Competition on Kaggle This competition is part of FineGrained Visual Categorization (FGVC) workshop at CVPR 2020. My personal result: 0.9806 AUC. Used multiple data augmentation methods such as CutMix, CutOut and GridMask . (Solution Notebook here.)",
+          "page_no": 2,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 28.8,
+            "top": 588.0450307429395,
+            "right": 583.20591655,
+            "bottom": 624.7186426000001
+          },
+          "section_title": "PROJECTS AND AWARDS"
+        },
+        {
+          "text": "Certified Tensorflow Developper Passed TensforFlow certification exam.",
+          "page_no": 2,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 28.800000000000068,
+            "top": 567.7210307429395,
+            "right": 395.9280640899998,
+            "bottom": 577.2966426000002
+          },
+          "section_title": "PROJECTS AND AWARDS"
+        },
+        {
+          "text": "Blog to Summarize and Discuss Research Papers Actively write blog posts viewed by over 22K+ data scientists and engineers, summarizing most recent research papers.",
+          "page_no": 2,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 28.800000000000068,
+            "top": 533.8480307429396,
+            "right": 583.2007449500002,
+            "bottom": 556.9726426000002
+          },
+          "section_title": "PROJECTS AND AWARDS"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.7989,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 4691,
+      "section_completeness": 0.6667,
+      "ordering_coherence": 0.5,
+      "segmentation_stability": 0.875,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.3086,
+      "weird_section_ratio": 0.0,
+      "section_count": 8,
+      "expected_section_hits": 4,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=2\", \"pdf_total_text_chars=4626\", \"pdf_total_text_words=639\", \"pdf_avg_text_chars_per_page=2313.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": [
+      "low_section_order_coherence"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "low_section_order_coherence"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Developed a mask detection model using EfficientDet and Yolo-v4 , calculating the percentage of masked vs unmasked people in public places and restaurants/coffees, enforcing COVID regulations for business owners.",
+      "page_no": 2,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 41.921,
+        "top": 736.6091792965418,
+        "right": 583.1989819699997,
+        "bottom": 762.5183721999999
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Developed an age and gender classification model 92% accuracy by fine-tuning the EfficientNet architecture using AWS EC2 instances and S3 storage, helping business owners understand the customer demographic and finetune product placement quality resulting in 15% profit increase .",
+      "page_no": 2,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 41.921000000000014,
+        "top": 692.1670307429395,
+        "right": 583.2004419999995,
+        "bottom": 731.6333721999999
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Optimized inference time by 20% using TensorRT and deployed the model using Docker and TensorFlow Serving , making predictions faster with a lighter model.",
+      "page_no": 2,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 41.92099999999999,
+        "top": 661.2830307429394,
+        "right": 583.19859808,
+        "bottom": 687.2003722
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "+4917668727956 ⋄ Berlin, Germany azizbelaweid@gmail.com ⋄ linkedin.com/in/mohamed-aziz-belaweid/ ⋄ github.com/azayz",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 220.25,
+        "top": 729.7791792965418,
+        "right": 391.7554297899999,
+        "bottom": 739.3129153
+      },
+      "section_title": "MOHAMED AZIZ BELAWEID"
+    },
+    {
+      "text": "Created track features and pipelines using BigQuery and Airflow that resulting in an increase of 10 min of listening time for 3M users.",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 41.92100000000005,
+        "top": 615.7930307429395,
+        "right": 583.2020838799999,
+        "bottom": 641.7103722
+      },
+      "section_title": "MOHAMED AZIZ BELAWEID"
+    },
+    {
+      "text": "Created tool that allowed music teams to curate playlists and select tracks from 300 million using SQL and Looker.",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 41.92100000000007,
+        "top": 584.9181792965419,
+        "right": 583.20174192,
+        "bottom": 610.8263722
+      },
+      "section_title": "MOHAMED AZIZ BELAWEID"
+    },
+    {
+      "text": "Developed a multimodal search system using CLIP's semantic representation for image and text , replacing keyword-based search and eliminating tedious labelling for 100k+ gifs .",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 41.92099999999999,
+        "top": 482.4930307429397,
+        "right": 583.20054798,
+        "bottom": 508.4103722000002
+      },
+      "section_title": "MOHAMED AZIZ BELAWEID"
+    },
+    {
+      "text": "EXPERIENCE",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 28.799999999999955,
+        "top": 683.9420307429394,
+        "right": 112.87316096999996,
+        "bottom": 693.5176426
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Automated customer review analysis in English, French, Arabic, and Tunisian dialect, accelerating the process from 1 week to 2 days and improving customer support experience by finetuning a Multilingual DistilBERT model for the Tunisian/Arabic dialect for sentiment classification with TensorFlow (98% accuracy).",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 41.92199999999997,
+        "top": 152.7290307429398,
+        "right": 583.2026238199994,
+        "bottom": 192.19637220000038
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "July. 2020 - Sep. 2020",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 474.564,
+        "top": 213.71017929654215,
+        "right": 583.2000905300004,
+        "bottom": 223.24391530000037
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Created Data for finetuning LLMs using self-instruct, LIMA and self chat papers.",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 41.92099999999999,
+        "top": 511.9780880000002,
+        "right": 477.9017595799999,
+        "bottom": 525.7453722000001
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Improved model performance by 6% by scraping customer reviews from Google Maps using Selenium and BeautifulSoup , providing more accurate customer satisfaction results.",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 41.92199999999997,
+        "top": 121.8450307429398,
+        "right": 583.1989170600001,
+        "bottom": 147.7623722000003
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Deployed a Flask app to showcase the model's performance and test manual examples, resulting in faster experimentation and debugging.",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 41.92199999999997,
+        "top": 90.97017929654214,
+        "right": 583.1993510899999,
+        "bottom": 116.87837220000029
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "May. 2020 - July. 2020",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 471.53399999999993,
+        "top": 50.32217929654212,
+        "right": 583.2017294200002,
+        "bottom": 59.85591530000033
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Tunis, TUN",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 523.377,
+        "top": 36.77317929654214,
+        "right": 581.413412,
+        "bottom": 46.306915300000355
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Machine Learning Engineer",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 28.8,
+        "top": 663.2150307429395,
+        "right": 180.43867181999997,
+        "bottom": 672.7906426000001
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Machine Learning Engineer",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 28.799999999999955,
+        "top": 564.5850307429396,
+        "right": 180.43867181999997,
+        "bottom": 574.1606426000002
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "JinaAI",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 28.799999999999955,
+        "top": 551.045179296542,
+        "right": 61.07348143999995,
+        "bottom": 560.5789153000002
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Finetune LLMs on coding data, using LoRA and 8 bit Quantization techniques on 3 3090 GPUs.",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 41.92099999999999,
+        "top": 529.3130880000002,
+        "right": 536.9225666999997,
+        "bottom": 543.0803722000002
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "https://github.com/jina-ai/finetuner/pull/249 , https://github.com/jina-ai/finetuner/pull/266",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 52.8,
+        "top": 407.1841792965421,
+        "right": 503.88692135999935,
+        "bottom": 416.7179153000003
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Data Scientist",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 28.799999999999997,
+        "top": 386.8520307429398,
+        "right": 106.27533728999998,
+        "bottom": 396.4276426000003
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "RelationalAI",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 373.3111792965421,
+        "right": 89.55823245,
+        "bottom": 382.8449153000003
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Paper: https://ieeexplore.ieee.org/abstract/document/10020873",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 52.80000000000001,
+        "top": 234.02503074293986,
+        "right": 406.61484030000025,
+        "bottom": 243.60064260000036
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Artificial Intelligence R&D Intern",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 213.7010307429398,
+        "right": 215.68051937,
+        "bottom": 223.2766426000004
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Vneuron",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 200.16117929654217,
+        "right": 69.74076139000002,
+        "bottom": 209.6949153000004
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "GitHub Repository: https://github.com/azayz/Tunisian-Arabic-Dialect-Sentiment-Analysis",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 52.79999999999997,
+        "top": 70.63703074293983,
+        "right": 556.0869648600001,
+        "bottom": 80.21264260000032
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "SoundCloud",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 649.6751792965418,
+        "right": 86.98477576000002,
+        "bottom": 659.2089153000001
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Master of Software Engineering , National Institute of Applied Sciences and Technology (INSAT) Sep. 2017 June. 2022",
+      "page_no": 2,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 28.8,
+        "top": 472.6741792965418,
+        "right": 583.2028623999996,
+        "bottom": 495.7896426
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Relevant Coursework: OOP, Design Patterns, Parallel Computing, Software Architecture, Databases, Calculus, Linear Algebra, Probability and Statistics, Data Structures and Algorithms.",
+      "page_no": 2,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 445.57617929654185,
+        "right": 583.1960983599997,
+        "bottom": 468.65891530000005
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "SKILLS",
+      "page_no": 2,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 419.26503074293953,
+        "right": 72.42221817000001,
+        "bottom": 428.8406426
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Python, Java, C++, SQL",
+      "page_no": 2,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 193.27700000000002,
+        "top": 396.6391792965418,
+        "right": 315.84946577999983,
+        "bottom": 406.1729153
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Programming Languages Frameworks",
+      "page_no": 2,
+      "block_indices": [
+        49
+      ],
+      "bbox": {
+        "left": 28.8,
+        "top": 383.0810307429395,
+        "right": 165.09174994,
+        "bottom": 406.2056426
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Pytorch, Jax, Flask, FastAPI, Pytest, Pandas, NumPy, Scikit-learn, Huggingface Git, Linux, Weights and Biases, Docker",
+      "page_no": 2,
+      "block_indices": [
+        51
+      ],
+      "bbox": {
+        "left": 193.27700000000002,
+        "top": 369.5411792965418,
+        "right": 579.9467767699999,
+        "bottom": 392.6239153
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Tools",
+      "page_no": 2,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 369.5320307429395,
+        "right": 57.8072969,
+        "bottom": 379.1076426
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Developed an information retrieval pipeline that parses technical documentation and created embeddings using Dense Passage Retrieval and Tf Idf , Eliminating 60% of support workload .",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 41.920999999999935,
+        "top": 451.60903074293975,
+        "right": 583.1993510899994,
+        "bottom": 477.52637220000025
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "July 2023 - Present",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 490.685,
+        "top": 663.2241792965418,
+        "right": 583.1985316400003,
+        "bottom": 672.7579153
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Berlin, Germany",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 501.439,
+        "top": 649.6751792965418,
+        "right": 582.2405218800001,
+        "bottom": 659.2089153000001
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Implemented a callback wrapper for PyTorch, TensorFlow, and PaddlePaddle , making the finetuner API easier to use for 250 monthly developers.",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 41.92199999999997,
+        "top": 420.7250307429398,
+        "right": 583.1970172699998,
+        "bottom": 446.6423722000003
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Jan. 2021 - Oct. 2021",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 476.382,
+        "top": 386.8611792965421,
+        "right": 583.1951799200004,
+        "bottom": 396.3949153000003
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Pretrained BERT from scratch using Nvidea NeMo and Pytorch Lightning on 4 V100 GPUs for MLM and NSP tasks . Trained on 12GB of legal data, monitored using Tensorboard. Resulting in a betterperforming named entity recognition model than legal BERT after finetuning with an average 94% F1 score for entities .",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 41.922000000000025,
+        "top": 312.33103074293984,
+        "right": 583.2024583999998,
+        "bottom": 365.34737220000034
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Berkeley, CA US",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 500.15000000000003,
+        "top": 373.3111792965421,
+        "right": 581.8907953900001,
+        "bottom": 382.8449153000003
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Worked with a team of lawyers to annotate and clean data for named entity recognition using Prodigy labeling tool. Trained SpaCy NER models (CNN sliding window) and BiLSTM-CRF to label more data and conducted error analysis and data enhancement. Resulted in a 4x speed up in data labeling and improved quality .",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 41.92200000000001,
+        "top": 254.34803074293984,
+        "right": 583.2026238199998,
+        "bottom": 307.3643722000004
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Computer Vision Intern",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 28.79999999999997,
+        "top": 50.31303074293976,
+        "right": 161.47756510999994,
+        "bottom": 59.88864260000037
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": "Datavision",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 28.799999999999955,
+        "top": 36.77317929654214,
+        "right": 79.61676961999996,
+        "bottom": 46.306915300000355
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": "Top 1% (5/1317) in the Plant Pathology Research Competition on Kaggle This competition is part of FineGrained Visual Categorization (FGVC) workshop at CVPR 2020. My personal result: 0.9806 AUC. Used multiple data augmentation methods such as CutMix, CutOut and GridMask . (Solution Notebook here.)",
+      "page_no": 2,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 28.8,
+        "top": 588.0450307429395,
+        "right": 583.20591655,
+        "bottom": 624.7186426000001
+      },
+      "section_title": "PROJECTS AND AWARDS"
+    },
+    {
+      "text": "Certified Tensorflow Developper Passed TensforFlow certification exam.",
+      "page_no": 2,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 28.800000000000068,
+        "top": 567.7210307429395,
+        "right": 395.9280640899998,
+        "bottom": 577.2966426000002
+      },
+      "section_title": "PROJECTS AND AWARDS"
+    },
+    {
+      "text": "Blog to Summarize and Discuss Research Papers Actively write blog posts viewed by over 22K+ data scientists and engineers, summarizing most recent research papers.",
+      "page_no": 2,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 28.800000000000068,
+        "top": 533.8480307429396,
+        "right": 583.2007449500002,
+        "bottom": 556.9726426000002
+      },
+      "section_title": "PROJECTS AND AWARDS"
+    }
+  ]
+}

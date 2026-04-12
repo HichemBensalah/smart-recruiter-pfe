@@ -1,0 +1,18 @@
+﻿{
+    "source_path":  "data\\raw_cv\\images\\khairi_resume.jpg",
+    "artifact_path":  "data\\processed\\images\\khairi_resume.json",
+    "source_format":  "images",
+    "document_status":  "validated",
+    "handoff_lane":  "accepted",
+    "eligible_for_module2":  true,
+    "parser_used":  "docling_structured",
+    "document_confidence_score":  0.7849,
+    "quality_flags":  [
+                          "high_ocr_noise"
+                      ],
+    "repair_status":  "not_applicable",
+    "repair_reason":  null,
+    "quarantine_reason":  null,
+    "next_action":  "consume_in_module2",
+    "routing_decision":  "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+}
