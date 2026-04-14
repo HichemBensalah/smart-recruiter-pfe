@@ -1,0 +1,28 @@
+[
+  {
+    "engine": "pytesseract",
+    "samples": 11,
+    "successes": 11,
+    "failures": 0,
+    "mean_wer": 0.592022,
+    "mean_cer": 0.469756,
+    "median_wer": 0.191358,
+    "median_cer": 0.122917,
+    "std_wer": 0.707247,
+    "std_cer": 0.603326,
+    "rank": 1
+  },
+  {
+    "engine": "docling",
+    "samples": 11,
+    "successes": 11,
+    "failures": 0,
+    "mean_wer": 0.901219,
+    "mean_cer": 0.534155,
+    "median_wer": 0.873905,
+    "median_cer": 0.219409,
+    "std_wer": 0.237768,
+    "std_cer": 0.495315,
+    "rank": 2
+  }
+]

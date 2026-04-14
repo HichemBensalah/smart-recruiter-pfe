@@ -7,9 +7,15 @@ __pycache__/
 # Local data & runs (keep out of Git)
 data/raw_cv/
 data/processed/
+data/processed_tuned_eval/
+data/processed_tuned_subset_eval/
+data/processed_tuned_subset_eval_remaining/
+data/raw_cv_tuned_subset/
+data/raw_cv_tuned_subset_remaining/
 data/profile_builder_preview/
 data/profile_builder_preview*/
 data/test_result/
+models/
 
 # Logs & caches
 *.log

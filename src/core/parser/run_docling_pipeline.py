@@ -588,6 +588,7 @@ def _process_file(path: Path) -> dict:
         primary_candidate["quality"],
         source_format=decision.source_format.value,
         route_taken=primary_candidate["parser_used"].value,
+        ocr_required=decision.ocr_required,
     )
 
     if should_fallback:

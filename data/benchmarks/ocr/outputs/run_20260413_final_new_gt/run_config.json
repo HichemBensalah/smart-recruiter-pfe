@@ -1,0 +1,15 @@
+{
+  "manifest": "D:\\smart-recruiter-pfe\\data\\benchmarks\\ocr\\dataset\\manifests\\benchmark_manifest.csv",
+  "engines_retained": [
+    "docling",
+    "pytesseract"
+  ],
+  "engines_excluded": {
+    "easyocr": "rerun incomplete in this execution window; partial run not retained",
+    "trocr": "network/cache dependent and not retained in final new-ground-truth run",
+    "mistralocr": "no active manifest public_url/api setup for this rerun",
+    "paddleocr": "environmental blocker in paddle backend on this machine"
+  },
+  "source_runs": "merged into this final folder, intermediate runs cleaned after consolidation",
+  "ground_truth_note": "new ground truth only"
+}

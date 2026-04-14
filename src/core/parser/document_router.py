@@ -25,6 +25,8 @@ TEXT_PAGE_CHAR_THRESHOLD = 40
 PDF_NATIVE_MIN_AVG_CHARS = 80.0
 PDF_NATIVE_MIN_TEXT_PAGE_RATIO = 0.5
 PDF_NATIVE_MIN_WORDS_FOR_TEXT_ONLY = 200
+PDF_SCAN_IMAGE_RATIO_THRESHOLD = 0.8
+PDF_SCAN_LOW_TEXT_WHEN_IMAGE_HEAVY = 140.0
 
 PDF_EXTENSIONS = {".pdf"}
 DOCX_EXTENSIONS = {".docx"}
@@ -207,6 +209,15 @@ def _diagnose_pdf_scan(path: Path) -> tuple[bool, list[str]]:
     reasons.append(f"pdf_avg_text_chars_per_page={avg_chars_per_page:.1f}")
     reasons.append(f"pdf_text_page_ratio={text_page_ratio:.2f}")
     reasons.append(f"pdf_image_page_ratio={image_page_ratio:.2f}")
+
+    if image_page_ratio >= PDF_SCAN_IMAGE_RATIO_THRESHOLD and avg_chars_per_page < PDF_SCAN_LOW_TEXT_WHEN_IMAGE_HEAVY:
+        reasons.append(
+            "classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak"
+        )
+        reasons.append(
+            f"ocr_forced_due_to_image_heavy_pdf(image_ratio>={PDF_SCAN_IMAGE_RATIO_THRESHOLD}, avg_chars<{PDF_SCAN_LOW_TEXT_WHEN_IMAGE_HEAVY})"
+        )
+        return True, reasons
 
     has_usable_text_layer = (
         total_text_chars >= TEXT_PAGE_CHAR_THRESHOLD

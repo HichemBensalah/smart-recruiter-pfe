@@ -24,6 +24,11 @@ SECTION_KEYWORDS = {
 OCR_CONF_THRESHOLD = float(os.getenv("OCR_CONF_THRESHOLD", "28.0"))
 OCR_LOW_CONF_WARNING_THRESHOLD = float(os.getenv("OCR_LOW_CONF_WARNING_THRESHOLD", "35.0"))
 PDF_NATIVE_MIN_WORDS_FOR_TEXT_ONLY = int(os.getenv("PDF_NATIVE_MIN_WORDS_FOR_TEXT_ONLY", "200"))
+TESSERACT_PSM_CANDIDATES = tuple(
+    int(value.strip())
+    for value in os.getenv("SECONDARY_TESSERACT_PSMS", "6,11").split(",")
+    if value.strip()
+)
 
 
 def parse_with_secondary_parser(file_path: str, source_format: str) -> tuple[dict, dict]:
@@ -250,26 +255,41 @@ def _ocr_pil_image(image: "Image.Image", *, source_label: str) -> tuple[str, lis
     threshold = max(120, min(int(mean_luma * 0.92), 190))
     thresholded = boosted.point(lambda px: 0 if px < threshold else 255)
 
-    text, avg_conf = _extract_text_with_confidence(thresholded)
+    text, avg_conf, psm_used = _extract_best_text_with_confidence(thresholded)
     if not text.strip():
-        text, avg_conf = _extract_text_with_confidence(boosted)
+        text, avg_conf, psm_used = _extract_best_text_with_confidence(boosted)
 
     if avg_conf < OCR_CONF_THRESHOLD:
         warnings.append("low_ocr_confidence")
     elif avg_conf < OCR_LOW_CONF_WARNING_THRESHOLD:
         warnings.append("low_confidence_accepted")
+    if psm_used != 6:
+        warnings.append(f"secondary_tesseract_psm_{psm_used}")
 
     return text.strip(), warnings
 
 
-def _extract_text_with_confidence(image: "Image.Image") -> tuple[str, float]:
+def _extract_best_text_with_confidence(image: "Image.Image") -> tuple[str, float, int]:
+    candidates: list[tuple[str, float, int]] = []
+    for psm in TESSERACT_PSM_CANDIDATES or (6,):
+        text, avg_conf = _extract_text_with_confidence(image, psm=psm)
+        candidates.append((text, avg_conf, psm))
+
+    def candidate_score(candidate: tuple[str, float, int]) -> tuple[float, int]:
+        text, avg_conf, _ = candidate
+        return avg_conf, _word_count(text)
+
+    return max(candidates, key=candidate_score)
+
+
+def _extract_text_with_confidence(image: "Image.Image", *, psm: int) -> tuple[str, float]:
     import pytesseract
 
     data = pytesseract.image_to_data(
         image,
         lang="eng+fra",
         output_type=pytesseract.Output.DICT,
-        config="--oem 3 --psm 6",
+        config=f"--oem 3 --psm {psm}",
     )
     confidences = [
         float(conf)

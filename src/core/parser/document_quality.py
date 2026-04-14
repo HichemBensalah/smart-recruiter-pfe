@@ -306,17 +306,25 @@ def should_try_fallback(
     *,
     source_format: str,
     route_taken: str,
+    ocr_required: bool = False,
 ) -> bool:
     if route_taken.startswith("secondary"):
         return False
     if quality["status_candidate"] == "validated":
         return False
     signals = quality["signals"]
+    warnings = set(quality.get("warnings") or [])
     if source_format in {"images", "scans"}:
         return True
-    if signals["useful_text_chars"] < 700:
+    if ocr_required:
         return True
-    if signals["section_completeness"] < 0.4:
+    if signals["useful_text_chars"] < 900:
+        return True
+    if signals["section_completeness"] < 0.5:
+        return True
+    if signals["ocr_noise_ratio"] > 0.24 and signals["useful_text_chars"] < 1400:
+        return True
+    if {"very_low_text_recovery", "high_ocr_noise"} & warnings:
         return True
     return False
 
