@@ -1,0 +1,87 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Aziz_resume.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "azizbelaweid@gmail.com",
+    "bio": {
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "email": "azizbelaweid@gmail.com",
+      "phone": "+4917668727956",
+      "location": "Berlin, Germany"
+    },
+    "expertise": {
+      "summary": "Machine learning engineer with experience in natural language processing, computer vision, and software development",
+      "hard_skills": [
+        "Python",
+        "Java",
+        "Pytorch",
+        "Flask",
+        "FastAPI",
+        "Pytest",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Huggingface",
+        "Linux",
+        "Weights and Biases",
+        "Docker",
+        "TensorFlow",
+        "TensorRT"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Machine Learning Engineer",
+        "company": "JinaAI",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Finetune LLMs on coding data, using LoRA and 8 bit Quantization techniques on 3 3090 GPUs"
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "RelationalAI",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Artificial Intelligence R&D Intern",
+        "company": "Vneuron",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Computer Vision Intern",
+        "company": "Datavision",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Software Engineering",
+        "school": "National Institute of Applied Sciences and Technology (INSAT)",
+        "year": "2017-2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:44:24.683395+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7989
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV31.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV31.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "dwighttate@gmail.com",
+    "bio": {
+      "full_name": "DWIGHT TATE",
+      "email": "dwighttate@gmail.com",
+      "phone": "+1-156-540-5817",
+      "location": "Dublin, Ireland"
+    },
+    "expertise": {
+      "summary": "Data Science intern with experience in data analysis, visualization, and machine learning",
+      "hard_skills": [
+        "Python",
+        "pymorphy2",
+        "numpy",
+        "matplotlib",
+        "Tableau",
+        "D3.js",
+        "Hive",
+        "ggplot2"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Borer Ltd",
+        "start_date": "2015",
+        "end_date": null,
+        "city": "Dublin, Ireland",
+        "responsibilities": [
+          "Managed team of 12 people",
+          "Provided frequency and empirical data analysis using Python"
+        ]
+      },
+      {
+        "job_title": "Data Science Intern",
+        "company": "Heller",
+        "start_date": "2013",
+        "end_date": "2015",
+        "city": "Dublin, Ireland",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Data Science Intern",
+        "company": "Hudson PLC",
+        "start_date": "2010",
+        "end_date": "2013",
+        "city": "Dublin, Ireland",
+        "responsibilities": [
+          "Analyzed massive social networks using a variety of tools"
+        ]
+      },
+      {
+        "job_title": "Business Development/Data Science Intern",
+        "company": "Rolfson",
+        "start_date": "2006",
+        "end_date": "2010",
+        "city": "Dublin, Ireland",
+        "responsibilities": [
+          "Performed ad-hoc data visualizations using ggplot2 in R"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Computer Science Engineering (B.E.)",
+        "school": "Chitkara University",
+        "year": "2001-Ongoing"
+      },
+      {
+        "degree": "Bachelor of Science, Mathematics",
+        "school": "Middle East Technical University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:47:25.774649+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7834
+    }
+  }
+}

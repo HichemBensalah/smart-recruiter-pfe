@@ -1,0 +1,794 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_71.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "partial",
+  "raw_text": "HEADER\nClara Boyer\n797Raynor Inlet,Dallas,TX\nMobilephone:\n+1(555)1810441\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nDirectorofDataScience-MarvinLLC,Dallas,TX\n07/2018-Present\nscale\n·Leadershipexperience hiringandmentoring toptalentinDataEngineeringand analytics\nData Science -Von Group,Dallas,TX\n12/2015-01/2018\n·Experiencedinvariousclustertechniquesinrealworldbusinessapplications,includingk-means,factorial analysis, discriminateanalysis\n·Experiencedwithnumerical optimizationtechniquesincludingLinearPrograms,QuadraticPrograms,Nonlinear optimizationandmulti-objectiveoptimization\n·AdvancedexperienceworkingwithRorPython\n·Proficiencywithclassical Generalized LinearModels,statistical inference,andre-sampling methods\nTECHNICAL SKILLS\n·Experience inbuilding software on cloud computing infrastructure suchAwS orGCP\nSKILLS\nEDUCATION\nLimCollege-Bachelor'sinComputerScience",
+  "markdown": "## HEADER\n\nClara Boyer\n797Raynor Inlet,Dallas,TX\nMobilephone:\n+1(555)1810441\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n### DirectorofDataScience-MarvinLLC,Dallas,TX\n**Date:** 07/2018-Present\n- scale\n- ·Leadershipexperience hiringandmentoring toptalentinDataEngineeringand analytics\n### Data Science -Von Group,Dallas,TX\n**Date:** 12/2015-01/2018\n### ·Experiencedinvariousclustertechniquesinrealworldbusinessapplications,includingk-means,factorial analysis, discriminateanalysis\n### ·Experiencedwithnumerical optimizationtechniquesincludingLinearPrograms,QuadraticPrograms,Nonlinear optimizationandmulti-objectiveoptimization\n- ·AdvancedexperienceworkingwithRorPython\n### ·Proficiencywithclassical Generalized LinearModels,statistical inference,andre-sampling methods\n\n## TECHNICAL SKILLS\n\n·Experience inbuilding software on cloud computing infrastructure suchAwS orGCP\nSKILLS\n\n## EDUCATION\n\nLimCollege-Bachelor'sinComputerScience",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Clara Boyer",
+        "797Raynor Inlet,Dallas,TX",
+        "Mobilephone:",
+        "+1(555)1810441"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Clara Boyer",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 45.71109517415365,
+            "top": 1405.4834493001301,
+            "right": 314.7321370442708,
+            "bottom": 1462.5903015136719
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "797Raynor Inlet,Dallas,TX",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 63.69579060872396,
+            "top": 1371.2193400065105,
+            "right": 294.4993489583333,
+            "bottom": 1396.3463541666667
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Mobilephone:",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 93.67027791341145,
+            "top": 1311.8282063802083,
+            "right": 214.3176066080729,
+            "bottom": 1334.6709594726562
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "+1(555)1810441",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 93.67027791341145,
+            "top": 1286.701192220052,
+            "right": 226.3073933919271,
+            "bottom": 1307.2596638997395
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "EXPERIENCE"
+      ],
+      "items": [
+        {
+          "title": "DirectorofDataScience-MarvinLLC,Dallas,TX",
+          "date": "07/2018-Present",
+          "location": null,
+          "details": [
+            "scale",
+            "·Leadershipexperience hiringandmentoring toptalentinDataEngineeringand analytics"
+          ],
+          "evidence_spans": [
+            {
+              "text": "DirectorofDataScience-MarvinLLC,Dallas,TX",
+              "page_no": 1,
+              "block_indices": [
+                5
+              ],
+              "bbox": {
+                "left": 62.94642639160156,
+                "top": 1069.6951497395833,
+                "right": 535.0446370442709,
+                "bottom": 1095.5835774739583
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "07/2018-Present",
+              "page_no": 1,
+              "block_indices": [
+                10
+              ],
+              "bbox": {
+                "left": 945.6951497395834,
+                "top": 1067.410888671875,
+                "right": 1112.0535481770833,
+                "bottom": 1087.9693603515625
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "scale",
+              "page_no": 1,
+              "block_indices": [
+                6
+              ],
+              "bbox": {
+                "left": 94.41963704427083,
+                "top": 1001.1669514973958,
+                "right": 142.37882486979166,
+                "bottom": 1025.5325113932292
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "·Leadershipexperience hiringandmentoring toptalentinDataEngineeringand analytics",
+              "page_no": 1,
+              "block_indices": [
+                8
+              ],
+              "bbox": {
+                "left": 78.6830342610677,
+                "top": 943.2986653645834,
+                "right": 819.0528971354166,
+                "bottom": 966.90283203125
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Data Science -Von Group,Dallas,TX",
+          "date": "12/2015-01/2018",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Data Science -Von Group,Dallas,TX",
+              "page_no": 1,
+              "block_indices": [
+                9
+              ],
+              "bbox": {
+                "left": 62.19706726074219,
+                "top": 813.0950520833334,
+                "right": 412.8986002604167,
+                "bottom": 839.7449137369791
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "12/2015-01/2018",
+              "page_no": 1,
+              "block_indices": [
+                11
+              ],
+              "bbox": {
+                "left": 939.7002766927084,
+                "top": 810.810791015625,
+                "right": 1114.3016764322917,
+                "bottom": 833.6534830729166
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "·Experiencedinvariousclustertechniquesinrealworldbusinessapplications,includingk-means,factorial analysis, discriminateanalysis",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "·Experiencedinvariousclustertechniquesinrealworldbusinessapplications,includingk-means,factorial analysis, discriminateanalysis",
+              "page_no": 1,
+              "block_indices": [
+                12
+              ],
+              "bbox": {
+                "left": 77.93367004394531,
+                "top": 746.0896809895834,
+                "right": 1027.3756510416667,
+                "bottom": 798.6279296875
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "·Experiencedwithnumerical optimizationtechniquesincludingLinearPrograms,QuadraticPrograms,Nonlinear optimizationandmulti-objectiveoptimization",
+          "date": null,
+          "location": null,
+          "details": [
+            "·AdvancedexperienceworkingwithRorPython"
+          ],
+          "evidence_spans": [
+            {
+              "text": "·Experiencedwithnumerical optimizationtechniquesincludingLinearPrograms,QuadraticPrograms,Nonlinear optimizationandmulti-objectiveoptimization",
+              "page_no": 1,
+              "block_indices": [
+                13
+              ],
+              "bbox": {
+                "left": 80.18175760904948,
+                "top": 687.4599609375,
+                "right": 1007.8921712239584,
+                "bottom": 741.5210774739584
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "·AdvancedexperienceworkingwithRorPython",
+              "page_no": 1,
+              "block_indices": [
+                17
+              ],
+              "bbox": {
+                "left": 78.6830342610677,
+                "top": 208.52384440104174,
+                "right": 484.8373616536458,
+                "bottom": 232.889404296875
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "·Proficiencywithclassical Generalized LinearModels,statistical inference,andre-sampling methods",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "·Proficiencywithclassical Generalized LinearModels,statistical inference,andre-sampling methods",
+              "page_no": 1,
+              "block_indices": [
+                18
+              ],
+              "bbox": {
+                "left": 76.43494669596355,
+                "top": 178.06681315104174,
+                "right": 909.7257486979166,
+                "bottom": 204.71671549479174
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "EXPERIENCE",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 84.67793273925781,
+            "top": 1173.2489217122395,
+            "right": 240.5452677408854,
+            "bottom": 1193.0459594726562
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "DirectorofDataScience-MarvinLLC,Dallas,TX",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 62.94642639160156,
+            "top": 1069.6951497395833,
+            "right": 535.0446370442709,
+            "bottom": 1095.5835774739583
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "07/2018-Present",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 945.6951497395834,
+            "top": 1067.410888671875,
+            "right": 1112.0535481770833,
+            "bottom": 1087.9693603515625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "scale",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 94.41963704427083,
+            "top": 1001.1669514973958,
+            "right": 142.37882486979166,
+            "bottom": 1025.5325113932292
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·Leadershipexperience hiringandmentoring toptalentinDataEngineeringand analytics",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 78.6830342610677,
+            "top": 943.2986653645834,
+            "right": 819.0528971354166,
+            "bottom": 966.90283203125
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Data Science -Von Group,Dallas,TX",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 62.19706726074219,
+            "top": 813.0950520833334,
+            "right": 412.8986002604167,
+            "bottom": 839.7449137369791
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "12/2015-01/2018",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 939.7002766927084,
+            "top": 810.810791015625,
+            "right": 1114.3016764322917,
+            "bottom": 833.6534830729166
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·Experiencedinvariousclustertechniquesinrealworldbusinessapplications,includingk-means,factorial analysis, discriminateanalysis",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 77.93367004394531,
+            "top": 746.0896809895834,
+            "right": 1027.3756510416667,
+            "bottom": 798.6279296875
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·Experiencedwithnumerical optimizationtechniquesincludingLinearPrograms,QuadraticPrograms,Nonlinear optimizationandmulti-objectiveoptimization",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 80.18175760904948,
+            "top": 687.4599609375,
+            "right": 1007.8921712239584,
+            "bottom": 741.5210774739584
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·AdvancedexperienceworkingwithRorPython",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 78.6830342610677,
+            "top": 208.52384440104174,
+            "right": 484.8373616536458,
+            "bottom": 232.889404296875
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·Proficiencywithclassical Generalized LinearModels,statistical inference,andre-sampling methods",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 76.43494669596355,
+            "top": 178.06681315104174,
+            "right": 909.7257486979166,
+            "bottom": 204.71671549479174
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "·Experience inbuilding software on cloud computing infrastructure suchAwS orGCP",
+        "SKILLS"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "·Experience inbuilding software on cloud computing infrastructure suchAwS orGCP",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 78.6830342610677,
+            "top": 972.9942220052084,
+            "right": 786.830322265625,
+            "bottom": 997.3598225911459
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "SKILLS",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 82.42984517415364,
+            "top": 331.87459309895826,
+            "right": 169.35586547851562,
+            "bottom": 354.71736653645826
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [
+        "LimCollege-Bachelor'sinComputerScience"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "LimCollege-Bachelor'sinComputerScience",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 62.19706726074219,
+            "top": 453.70255533854174,
+            "right": 493.8297119140625,
+            "bottom": 481.11385091145826
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.4807,
+    "status": "partial",
+    "signals": {
+      "useful_text_chars": 862,
+      "section_completeness": 0.6667,
+      "ordering_coherence": 0.5,
+      "segmentation_stability": 0.75,
+      "layout_block_coverage": 0.5938,
+      "ocr_noise_ratio": 0.5278,
+      "weird_section_ratio": 0.0,
+      "section_count": 4,
+      "expected_section_hits": 4,
+      "router_is_scanned": true,
+      "router_ocr_required": true,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 11,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.05
+    },
+    "warnings": [
+      "low_text_recovery",
+      "low_section_order_coherence",
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "repair_required",
+    "eligible_for_module2": false,
+    "decision_reason": "Document partiel; reparation et re-evaluation obligatoires avant Module 2.",
+    "decision_rules": [
+      "partial -> repair_required",
+      "partial from pdf/docx -> repair_required until revalidated"
+    ],
+    "quality_flags": [
+      "low_text_recovery",
+      "low_section_order_coherence",
+      "high_ocr_noise"
+    ],
+    "repair_status": "pending_repair",
+    "repair_reason": "partial_document_requires_repair",
+    "quarantine_reason": null,
+    "next_action": "send_to_repair_queue"
+  },
+  "evidence_spans": [
+    {
+      "text": "Clara Boyer",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 45.71109517415365,
+        "top": 1405.4834493001301,
+        "right": 314.7321370442708,
+        "bottom": 1462.5903015136719
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "797Raynor Inlet,Dallas,TX",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 63.69579060872396,
+        "top": 1371.2193400065105,
+        "right": 294.4993489583333,
+        "bottom": 1396.3463541666667
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Mobilephone:",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 93.67027791341145,
+        "top": 1311.8282063802083,
+        "right": 214.3176066080729,
+        "bottom": 1334.6709594726562
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "+1(555)1810441",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 93.67027791341145,
+        "top": 1286.701192220052,
+        "right": 226.3073933919271,
+        "bottom": 1307.2596638997395
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "EXPERIENCE",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 84.67793273925781,
+        "top": 1173.2489217122395,
+        "right": 240.5452677408854,
+        "bottom": 1193.0459594726562
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "DirectorofDataScience-MarvinLLC,Dallas,TX",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 62.94642639160156,
+        "top": 1069.6951497395833,
+        "right": 535.0446370442709,
+        "bottom": 1095.5835774739583
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "07/2018-Present",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 945.6951497395834,
+        "top": 1067.410888671875,
+        "right": 1112.0535481770833,
+        "bottom": 1087.9693603515625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "scale",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 94.41963704427083,
+        "top": 1001.1669514973958,
+        "right": 142.37882486979166,
+        "bottom": 1025.5325113932292
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Leadershipexperience hiringandmentoring toptalentinDataEngineeringand analytics",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 78.6830342610677,
+        "top": 943.2986653645834,
+        "right": 819.0528971354166,
+        "bottom": 966.90283203125
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Data Science -Von Group,Dallas,TX",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 62.19706726074219,
+        "top": 813.0950520833334,
+        "right": 412.8986002604167,
+        "bottom": 839.7449137369791
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "12/2015-01/2018",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 939.7002766927084,
+        "top": 810.810791015625,
+        "right": 1114.3016764322917,
+        "bottom": 833.6534830729166
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Experiencedinvariousclustertechniquesinrealworldbusinessapplications,includingk-means,factorial analysis, discriminateanalysis",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 77.93367004394531,
+        "top": 746.0896809895834,
+        "right": 1027.3756510416667,
+        "bottom": 798.6279296875
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Experiencedwithnumerical optimizationtechniquesincludingLinearPrograms,QuadraticPrograms,Nonlinear optimizationandmulti-objectiveoptimization",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 80.18175760904948,
+        "top": 687.4599609375,
+        "right": 1007.8921712239584,
+        "bottom": 741.5210774739584
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·AdvancedexperienceworkingwithRorPython",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 78.6830342610677,
+        "top": 208.52384440104174,
+        "right": 484.8373616536458,
+        "bottom": 232.889404296875
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Proficiencywithclassical Generalized LinearModels,statistical inference,andre-sampling methods",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 76.43494669596355,
+        "top": 178.06681315104174,
+        "right": 909.7257486979166,
+        "bottom": 204.71671549479174
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Experience inbuilding software on cloud computing infrastructure suchAwS orGCP",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 78.6830342610677,
+        "top": 972.9942220052084,
+        "right": 786.830322265625,
+        "bottom": 997.3598225911459
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "SKILLS",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 82.42984517415364,
+        "top": 331.87459309895826,
+        "right": 169.35586547851562,
+        "bottom": 354.71736653645826
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "LimCollege-Bachelor'sinComputerScience",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 62.19706726074219,
+        "top": 453.70255533854174,
+        "right": 493.8297119140625,
+        "bottom": 481.11385091145826
+      },
+      "section_title": "EDUCATION"
+    }
+  ]
+}

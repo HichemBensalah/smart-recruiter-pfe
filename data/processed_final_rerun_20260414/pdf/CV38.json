@@ -1,0 +1,1290 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV38.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "partial",
+  "raw_text": "HEADER\nBrooklyn,NY 11222\n(123) 456-7890\nStephen Greet\nstephen@beamjobs.com\nDataScienceManager\n/in/stephen-greet 2020 Data Science Resume Guide\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nConsumerFinance SaaS\nFebruary 2018-PresentNew York NY\nLead Data Scientist\nWorked with the product and marketing teams to ldentify which customer Interactions during their free trial maximize the likelihood of conversions resulting ina conversion rate increase of14%\nLeadership Experience 2years\nEdTech Company\nJanuary 2015 - February 2018, New York. NY\nSeniorDataScientist\nRecommendation Engines Customer Segmentatlon Propensity Modeling ProductionizingModels 6yedrs\nWorked closely with the product team tobuilda productlon recommendation engine In Python that improves the average time on page for users and resulted in S325k in incremental annual revenue\nBuilt a customer attrition random forest model thatimproved monthly retentionbyiobasispoints for customerswho were likely to attrit by servicingrelevant product featuresfor them\nInsurance Company\nAprll2012-january2015,WashingtonDC\nSeptember2008-Apri 2012 Pitsburgh PA\nData Scientist\nUsingvarious clustering techniques inPythonI Identified groups ofstates where our national underwriting models were underperforningand made improvementsto increase thein profitability by 5%\nData Analyst\nIdentifled procedural areasofimprovementthrough customer data to helplmprove theprofitablity of anationwide retention program by7%\nTECHNICAL SKILLS\nSKILLS\nPython(NumPy,Pandas, Scikit-learn,Keras,Flask) Syears\nLead a team of 2 data scientists and 1 data engineer in developing marketing mixmodelsthathave led to an Rol Improvement of 25%on digital marketing spendover thelast sixmonths\nSQL(Redshift,MySQL, Postgres,NoSQL) Syeors\nGit 5years\nEDUCATION\nUniversity ofPittsburgh\nB.S.in Mathematicsand Economics\nUsingPython,SOL,and Excel I developed and owmed the reporting for a nationwide retention program,saving-1oo hours",
+  "markdown": "## HEADER\n\nBrooklyn,NY 11222\n(123) 456-7890\nStephen Greet\nstephen@beamjobs.com\nDataScienceManager\n/in/stephen-greet 2020 Data Science Resume Guide\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nConsumerFinance SaaS\nFebruary 2018-PresentNew York NY\nLead Data Scientist\nWorked with the product and marketing teams to ldentify which customer Interactions during their free trial maximize the likelihood of conversions resulting ina conversion rate increase of14%\nLeadership Experience 2years\nEdTech Company\n### January 2015 - February 2018, New York. NY\n- SeniorDataScientist\n- Recommendation Engines Customer Segmentatlon Propensity Modeling ProductionizingModels 6yedrs\n- Worked closely with the product team tobuilda productlon recommendation engine In Python that improves the average time on page for users and resulted in S325k in incremental annual revenue\n- Built a customer attrition random forest model thatimproved monthly retentionbyiobasispoints for customerswho were likely to attrit by servicingrelevant product featuresfor them\n- Insurance Company\n### Aprll2012-january2015,WashingtonDC\n**Date:** September2008-Apri 2012 Pitsburgh PA\n- Data Scientist\n- Usingvarious clustering techniques inPythonI Identified groups ofstates where our national underwriting models were underperforningand made improvementsto increase thein profitability by 5%\n- Data Analyst\n- Identifled procedural areasofimprovementthrough customer data to helplmprove theprofitablity of anationwide retention program by7%\n\n## TECHNICAL SKILLS\n\nSKILLS\nPython(NumPy,Pandas, Scikit-learn,Keras,Flask) Syears\nLead a team of 2 data scientists and 1 data engineer in developing marketing mixmodelsthathave led to an Rol Improvement of 25%on digital marketing spendover thelast sixmonths\nSQL(Redshift,MySQL, Postgres,NoSQL) Syeors\nGit 5years\n\n## EDUCATION\n\n### University ofPittsburgh\n- B.S.in Mathematicsand Economics\n### UsingPython,SOL,and Excel I developed and owmed the reporting for a nationwide retention program,saving-1oo hours",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Brooklyn,NY 11222",
+        "(123) 456-7890",
+        "Stephen Greet",
+        "stephen@beamjobs.com",
+        "DataScienceManager",
+        "/in/stephen-greet 2020 Data Science Resume Guide"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Brooklyn,NY 11222",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 289.6666666666667,
+            "top": 540.6799926757812,
+            "right": 355.6666666666667,
+            "bottom": 549.0133260091146
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "(123) 456-7890",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 289.6666666666667,
+            "top": 529.3466593424479,
+            "right": 340.6666666666667,
+            "bottom": 538.3466593424479
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Stephen Greet",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 7.666666666666667,
+            "top": 516.0133260091146,
+            "right": 211.33333333333334,
+            "bottom": 545.3466593424479
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "stephen@beamjobs.com",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 289.6666666666667,
+            "top": 518.6799926757812,
+            "right": 377.6666666666667,
+            "bottom": 527.0133260091146
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "DataScienceManager",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 7.0,
+            "top": 487.34665934244794,
+            "right": 182.66666666666666,
+            "bottom": 508.01332600911456
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/in/stephen-greet 2020 Data Science Resume Guide",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 290.3333333333333,
+            "top": 486.67999267578125,
+            "right": 406.6666666666667,
+            "bottom": 506.34665934244794
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "EXPERIENCE",
+        "ConsumerFinance SaaS",
+        "February 2018-PresentNew York NY",
+        "Lead Data Scientist",
+        "Worked with the product and marketing teams to ldentify which customer Interactions during their free trial maximize the likelihood of conversions resulting ina conversion rate increase of14%",
+        "Leadership Experience 2years",
+        "EdTech Company"
+      ],
+      "items": [
+        {
+          "title": "January 2015 - February 2018, New York. NY",
+          "date": null,
+          "location": null,
+          "details": [
+            "SeniorDataScientist",
+            "Recommendation Engines Customer Segmentatlon Propensity Modeling ProductionizingModels 6yedrs",
+            "Worked closely with the product team tobuilda productlon recommendation engine In Python that improves the average time on page for users and resulted in S325k in incremental annual revenue",
+            "Built a customer attrition random forest model thatimproved monthly retentionbyiobasispoints for customerswho were likely to attrit by servicingrelevant product featuresfor them",
+            "Insurance Company"
+          ],
+          "evidence_spans": [
+            {
+              "text": "January 2015 - February 2018, New York. NY",
+              "page_no": 1,
+              "block_indices": [
+                9
+              ],
+              "bbox": {
+                "left": 7.0,
+                "top": 281.01332600911456,
+                "right": 135.66666666666666,
+                "bottom": 289.67999267578125
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "SeniorDataScientist",
+              "page_no": 1,
+              "block_indices": [
+                10
+              ],
+              "bbox": {
+                "left": 8.0,
+                "top": 267.34665934244794,
+                "right": 92.0,
+                "bottom": 277.01332600911456
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Recommendation Engines Customer Segmentatlon Propensity Modeling ProductionizingModels 6yedrs",
+              "page_no": 1,
+              "block_indices": [
+                29
+              ],
+              "bbox": {
+                "left": 289.6666666666667,
+                "top": 226.67999267578125,
+                "right": 382.3333333333333,
+                "bottom": 285.67999267578125
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Worked closely with the product team tobuilda productlon recommendation engine In Python that improves the average time on page for users and resulted in S325k in incremental annual revenue",
+              "page_no": 1,
+              "block_indices": [
+                11
+              ],
+              "bbox": {
+                "left": 35.0,
+                "top": 216.01332600911456,
+                "right": 250.66666666666666,
+                "bottom": 261.67999267578125
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Built a customer attrition random forest model thatimproved monthly retentionbyiobasispoints for customerswho were likely to attrit by servicingrelevant product featuresfor them",
+              "page_no": 1,
+              "block_indices": [
+                12
+              ],
+              "bbox": {
+                "left": 35.666666666666664,
+                "top": 179.34665934244794,
+                "right": 252.66666666666666,
+                "bottom": 213.67999267578125
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Insurance Company",
+              "page_no": 1,
+              "block_indices": [
+                13
+              ],
+              "bbox": {
+                "left": 7.333333333333333,
+                "top": 157.34665934244794,
+                "right": 95.33333333333333,
+                "bottom": 169.01332600911456
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Aprll2012-january2015,WashingtonDC",
+          "date": "September2008-Apri 2012 Pitsburgh PA",
+          "location": null,
+          "details": [
+            "Data Scientist",
+            "Usingvarious clustering techniques inPythonI Identified groups ofstates where our national underwriting models were underperforningand made improvementsto increase thein profitability by 5%",
+            "Data Analyst",
+            "Identifled procedural areasofimprovementthrough customer data to helplmprove theprofitablity of anationwide retention program by7%"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Aprll2012-january2015,WashingtonDC",
+              "page_no": 1,
+              "block_indices": [
+                14
+              ],
+              "bbox": {
+                "left": 8.0,
+                "top": 145.34665934244794,
+                "right": 130.0,
+                "bottom": 154.01332600911456
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "September2008-Apri 2012 Pitsburgh PA",
+              "page_no": 1,
+              "block_indices": [
+                33
+              ],
+              "bbox": {
+                "left": 289.6666666666667,
+                "top": 115.01332600911456,
+                "right": 374.6666666666667,
+                "bottom": 137.01332600911456
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Data Scientist",
+              "page_no": 1,
+              "block_indices": [
+                15
+              ],
+              "bbox": {
+                "left": 8.0,
+                "top": 131.34665934244794,
+                "right": 64.33333333333333,
+                "bottom": 141.34665934244794
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Usingvarious clustering techniques inPythonI Identified groups ofstates where our national underwriting models were underperforningand made improvementsto increase thein profitability by 5%",
+              "page_no": 1,
+              "block_indices": [
+                16
+              ],
+              "bbox": {
+                "left": 34.666666666666664,
+                "top": 79.67999267578125,
+                "right": 263.6666666666667,
+                "bottom": 125.67999267578125
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Data Analyst",
+              "page_no": 1,
+              "block_indices": [
+                17
+              ],
+              "bbox": {
+                "left": 7.333333333333333,
+                "top": 62.67999267578125,
+                "right": 60.666666666666664,
+                "bottom": 74.01332600911456
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Identifled procedural areasofimprovementthrough customer data to helplmprove theprofitablity of anationwide retention program by7%",
+              "page_no": 1,
+              "block_indices": [
+                18
+              ],
+              "bbox": {
+                "left": 35.666666666666664,
+                "top": 24.67999267578125,
+                "right": 256.6666666666667,
+                "bottom": 58.346659342447936
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "EXPERIENCE",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 7.666666666666667,
+            "top": 451.01332600911456,
+            "right": 51.333333333333336,
+            "bottom": 460.01332600911456
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "ConsumerFinance SaaS",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 8.333333333333334,
+            "top": 430.67999267578125,
+            "right": 112.33333333333333,
+            "bottom": 440.67999267578125
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "February 2018-PresentNew York NY",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 8.0,
+            "top": 417.0133260091146,
+            "right": 119.66666666666667,
+            "bottom": 425.67999267578125
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Lead Data Scientist",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 7.666666666666667,
+            "top": 403.0133260091146,
+            "right": 85.66666666666667,
+            "bottom": 413.0133260091146
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Worked with the product and marketing teams to ldentify which customer Interactions during their free trial maximize the likelihood of conversions resulting ina conversion rate increase of14%",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 35.333333333333336,
+            "top": 316.3466593424479,
+            "right": 261.0,
+            "bottom": 361.3466593424479
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Leadership Experience 2years",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 289.6666666666667,
+            "top": 298.0133260091146,
+            "right": 371.0,
+            "bottom": 321.3466593424479
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "EdTech Company",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 7.666666666666667,
+            "top": 292.67999267578125,
+            "right": 84.33333333333333,
+            "bottom": 305.67999267578125
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "January 2015 - February 2018, New York. NY",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 7.0,
+            "top": 281.01332600911456,
+            "right": 135.66666666666666,
+            "bottom": 289.67999267578125
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "SeniorDataScientist",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 8.0,
+            "top": 267.34665934244794,
+            "right": 92.0,
+            "bottom": 277.01332600911456
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Recommendation Engines Customer Segmentatlon Propensity Modeling ProductionizingModels 6yedrs",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 289.6666666666667,
+            "top": 226.67999267578125,
+            "right": 382.3333333333333,
+            "bottom": 285.67999267578125
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Worked closely with the product team tobuilda productlon recommendation engine In Python that improves the average time on page for users and resulted in S325k in incremental annual revenue",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 35.0,
+            "top": 216.01332600911456,
+            "right": 250.66666666666666,
+            "bottom": 261.67999267578125
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Built a customer attrition random forest model thatimproved monthly retentionbyiobasispoints for customerswho were likely to attrit by servicingrelevant product featuresfor them",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 35.666666666666664,
+            "top": 179.34665934244794,
+            "right": 252.66666666666666,
+            "bottom": 213.67999267578125
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Insurance Company",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 7.333333333333333,
+            "top": 157.34665934244794,
+            "right": 95.33333333333333,
+            "bottom": 169.01332600911456
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Aprll2012-january2015,WashingtonDC",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 8.0,
+            "top": 145.34665934244794,
+            "right": 130.0,
+            "bottom": 154.01332600911456
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "September2008-Apri 2012 Pitsburgh PA",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 289.6666666666667,
+            "top": 115.01332600911456,
+            "right": 374.6666666666667,
+            "bottom": 137.01332600911456
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Data Scientist",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 8.0,
+            "top": 131.34665934244794,
+            "right": 64.33333333333333,
+            "bottom": 141.34665934244794
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Usingvarious clustering techniques inPythonI Identified groups ofstates where our national underwriting models were underperforningand made improvementsto increase thein profitability by 5%",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 34.666666666666664,
+            "top": 79.67999267578125,
+            "right": 263.6666666666667,
+            "bottom": 125.67999267578125
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Data Analyst",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 7.333333333333333,
+            "top": 62.67999267578125,
+            "right": 60.666666666666664,
+            "bottom": 74.01332600911456
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Identifled procedural areasofimprovementthrough customer data to helplmprove theprofitablity of anationwide retention program by7%",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 35.666666666666664,
+            "top": 24.67999267578125,
+            "right": 256.6666666666667,
+            "bottom": 58.346659342447936
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "SKILLS",
+        "Python(NumPy,Pandas, Scikit-learn,Keras,Flask) Syears",
+        "Lead a team of 2 data scientists and 1 data engineer in developing marketing mixmodelsthathave led to an Rol Improvement of 25%on digital marketing spendover thelast sixmonths",
+        "SQL(Redshift,MySQL, Postgres,NoSQL) Syeors",
+        "Git 5years"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "SKILLS",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 289.0,
+            "top": 450.01332600911456,
+            "right": 315.3333333333333,
+            "bottom": 460.34665934244794
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Python(NumPy,Pandas, Scikit-learn,Keras,Flask) Syears",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 289.3333333333333,
+            "top": 403.3466593424479,
+            "right": 382.6666666666667,
+            "bottom": 438.01332600911456
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Lead a team of 2 data scientists and 1 data engineer in developing marketing mixmodelsthathave led to an Rol Improvement of 25%on digital marketing spendover thelast sixmonths",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 34.666666666666664,
+            "top": 363.67999267578125,
+            "right": 264.3333333333333,
+            "bottom": 398.0133260091146
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "SQL(Redshift,MySQL, Postgres,NoSQL) Syeors",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 289.3333333333333,
+            "top": 362.3466593424479,
+            "right": 372.0,
+            "bottom": 397.67999267578125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Git 5years",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 288.6666666666667,
+            "top": 333.3466593424479,
+            "right": 315.0,
+            "bottom": 356.3466593424479
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [],
+      "items": [
+        {
+          "title": "University ofPittsburgh",
+          "date": null,
+          "location": null,
+          "details": [
+            "B.S.in Mathematicsand Economics"
+          ],
+          "evidence_spans": [
+            {
+              "text": "University ofPittsburgh",
+              "page_no": 1,
+              "block_indices": [
+                31
+              ],
+              "bbox": {
+                "left": 290.0,
+                "top": 165.67999267578125,
+                "right": 394.3333333333333,
+                "bottom": 177.67999267578125
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "B.S.in Mathematicsand Economics",
+              "page_no": 1,
+              "block_indices": [
+                32
+              ],
+              "bbox": {
+                "left": 290.0,
+                "top": 142.01332600911456,
+                "right": 387.3333333333333,
+                "bottom": 163.01332600911456
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "UsingPython,SOL,and Excel I developed and owmed the reporting for a nationwide retention program,saving-1oo hours",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "UsingPython,SOL,and Excel I developed and owmed the reporting for a nationwide retention program,saving-1oo hours",
+              "page_no": 1,
+              "block_indices": [
+                19
+              ],
+              "bbox": {
+                "left": 35.666666666666664,
+                "top": 1.3466593424478788,
+                "right": 264.3333333333333,
+                "bottom": 22.67999267578125
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "University ofPittsburgh",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 290.0,
+            "top": 165.67999267578125,
+            "right": 394.3333333333333,
+            "bottom": 177.67999267578125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "B.S.in Mathematicsand Economics",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 290.0,
+            "top": 142.01332600911456,
+            "right": 387.3333333333333,
+            "bottom": 163.01332600911456
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "UsingPython,SOL,and Excel I developed and owmed the reporting for a nationwide retention program,saving-1oo hours",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 35.666666666666664,
+            "top": 1.3466593424478788,
+            "right": 264.3333333333333,
+            "bottom": 22.67999267578125
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.7039,
+    "status": "partial",
+    "signals": {
+      "useful_text_chars": 1939,
+      "section_completeness": 0.6667,
+      "ordering_coherence": 0.5,
+      "segmentation_stability": 1.0,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.3689,
+      "weird_section_ratio": 0.0,
+      "section_count": 4,
+      "expected_section_hits": 4,
+      "router_is_scanned": true,
+      "router_ocr_required": true,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 11,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.05
+    },
+    "warnings": [
+      "low_section_order_coherence"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "repair_required",
+    "eligible_for_module2": false,
+    "decision_reason": "Document partiel; reparation et re-evaluation obligatoires avant Module 2.",
+    "decision_rules": [
+      "partial -> repair_required",
+      "partial from pdf/docx -> repair_required until revalidated"
+    ],
+    "quality_flags": [
+      "low_section_order_coherence"
+    ],
+    "repair_status": "pending_repair",
+    "repair_reason": "partial_document_requires_repair",
+    "quarantine_reason": null,
+    "next_action": "send_to_repair_queue"
+  },
+  "evidence_spans": [
+    {
+      "text": "Brooklyn,NY 11222",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 289.6666666666667,
+        "top": 540.6799926757812,
+        "right": 355.6666666666667,
+        "bottom": 549.0133260091146
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "(123) 456-7890",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 289.6666666666667,
+        "top": 529.3466593424479,
+        "right": 340.6666666666667,
+        "bottom": 538.3466593424479
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Stephen Greet",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 7.666666666666667,
+        "top": 516.0133260091146,
+        "right": 211.33333333333334,
+        "bottom": 545.3466593424479
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "stephen@beamjobs.com",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 289.6666666666667,
+        "top": 518.6799926757812,
+        "right": 377.6666666666667,
+        "bottom": 527.0133260091146
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "DataScienceManager",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 7.0,
+        "top": 487.34665934244794,
+        "right": 182.66666666666666,
+        "bottom": 508.01332600911456
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/in/stephen-greet 2020 Data Science Resume Guide",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 290.3333333333333,
+        "top": 486.67999267578125,
+        "right": 406.6666666666667,
+        "bottom": 506.34665934244794
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "EXPERIENCE",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 7.666666666666667,
+        "top": 451.01332600911456,
+        "right": 51.333333333333336,
+        "bottom": 460.01332600911456
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "ConsumerFinance SaaS",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 8.333333333333334,
+        "top": 430.67999267578125,
+        "right": 112.33333333333333,
+        "bottom": 440.67999267578125
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "February 2018-PresentNew York NY",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 8.0,
+        "top": 417.0133260091146,
+        "right": 119.66666666666667,
+        "bottom": 425.67999267578125
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Lead Data Scientist",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 7.666666666666667,
+        "top": 403.0133260091146,
+        "right": 85.66666666666667,
+        "bottom": 413.0133260091146
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Worked with the product and marketing teams to ldentify which customer Interactions during their free trial maximize the likelihood of conversions resulting ina conversion rate increase of14%",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 35.333333333333336,
+        "top": 316.3466593424479,
+        "right": 261.0,
+        "bottom": 361.3466593424479
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Leadership Experience 2years",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 289.6666666666667,
+        "top": 298.0133260091146,
+        "right": 371.0,
+        "bottom": 321.3466593424479
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "EdTech Company",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 7.666666666666667,
+        "top": 292.67999267578125,
+        "right": 84.33333333333333,
+        "bottom": 305.67999267578125
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "January 2015 - February 2018, New York. NY",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 7.0,
+        "top": 281.01332600911456,
+        "right": 135.66666666666666,
+        "bottom": 289.67999267578125
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "SeniorDataScientist",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 8.0,
+        "top": 267.34665934244794,
+        "right": 92.0,
+        "bottom": 277.01332600911456
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Recommendation Engines Customer Segmentatlon Propensity Modeling ProductionizingModels 6yedrs",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 289.6666666666667,
+        "top": 226.67999267578125,
+        "right": 382.3333333333333,
+        "bottom": 285.67999267578125
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Worked closely with the product team tobuilda productlon recommendation engine In Python that improves the average time on page for users and resulted in S325k in incremental annual revenue",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 35.0,
+        "top": 216.01332600911456,
+        "right": 250.66666666666666,
+        "bottom": 261.67999267578125
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Built a customer attrition random forest model thatimproved monthly retentionbyiobasispoints for customerswho were likely to attrit by servicingrelevant product featuresfor them",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 35.666666666666664,
+        "top": 179.34665934244794,
+        "right": 252.66666666666666,
+        "bottom": 213.67999267578125
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Insurance Company",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 7.333333333333333,
+        "top": 157.34665934244794,
+        "right": 95.33333333333333,
+        "bottom": 169.01332600911456
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Aprll2012-january2015,WashingtonDC",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 8.0,
+        "top": 145.34665934244794,
+        "right": 130.0,
+        "bottom": 154.01332600911456
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "September2008-Apri 2012 Pitsburgh PA",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 289.6666666666667,
+        "top": 115.01332600911456,
+        "right": 374.6666666666667,
+        "bottom": 137.01332600911456
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Data Scientist",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 8.0,
+        "top": 131.34665934244794,
+        "right": 64.33333333333333,
+        "bottom": 141.34665934244794
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Usingvarious clustering techniques inPythonI Identified groups ofstates where our national underwriting models were underperforningand made improvementsto increase thein profitability by 5%",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 34.666666666666664,
+        "top": 79.67999267578125,
+        "right": 263.6666666666667,
+        "bottom": 125.67999267578125
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Data Analyst",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 7.333333333333333,
+        "top": 62.67999267578125,
+        "right": 60.666666666666664,
+        "bottom": 74.01332600911456
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Identifled procedural areasofimprovementthrough customer data to helplmprove theprofitablity of anationwide retention program by7%",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 35.666666666666664,
+        "top": 24.67999267578125,
+        "right": 256.6666666666667,
+        "bottom": 58.346659342447936
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "SKILLS",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 289.0,
+        "top": 450.01332600911456,
+        "right": 315.3333333333333,
+        "bottom": 460.34665934244794
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Python(NumPy,Pandas, Scikit-learn,Keras,Flask) Syears",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 289.3333333333333,
+        "top": 403.3466593424479,
+        "right": 382.6666666666667,
+        "bottom": 438.01332600911456
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Lead a team of 2 data scientists and 1 data engineer in developing marketing mixmodelsthathave led to an Rol Improvement of 25%on digital marketing spendover thelast sixmonths",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 34.666666666666664,
+        "top": 363.67999267578125,
+        "right": 264.3333333333333,
+        "bottom": 398.0133260091146
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "SQL(Redshift,MySQL, Postgres,NoSQL) Syeors",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 289.3333333333333,
+        "top": 362.3466593424479,
+        "right": 372.0,
+        "bottom": 397.67999267578125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Git 5years",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 288.6666666666667,
+        "top": 333.3466593424479,
+        "right": 315.0,
+        "bottom": 356.3466593424479
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "University ofPittsburgh",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 290.0,
+        "top": 165.67999267578125,
+        "right": 394.3333333333333,
+        "bottom": 177.67999267578125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "B.S.in Mathematicsand Economics",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 290.0,
+        "top": 142.01332600911456,
+        "right": 387.3333333333333,
+        "bottom": 163.01332600911456
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "UsingPython,SOL,and Excel I developed and owmed the reporting for a nationwide retention program,saving-1oo hours",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 35.666666666666664,
+        "top": 1.3466593424478788,
+        "right": 264.3333333333333,
+        "bottom": 22.67999267578125
+      },
+      "section_title": "EDUCATION"
+    }
+  ]
+}

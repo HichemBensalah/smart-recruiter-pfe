@@ -1,0 +1,46 @@
+## HEADER
+
+BREEANDERSON
+5021WatersFall,Philadelphia,PA
++1（555)3357759
+
+## EDUCATION
+
+SCHOOLOFTHEARTINSTITUTEOFCHICAGO
+Master'sinStatistics
+### Priorexperiencewithdata transformations,filtering,dataaggregationis useful
+### Yourfuture colleagues helpyouwith questionsand challenges.Moreover,thereisapleasant,informal workingatmosphere
+### Withyourpassion,youcanmakeadailydifferencefor ourcustomers intheenterprisemarketwith thehelpof thelatestMicrosofttechnology
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+### FRANECKI,SCHROEDERANDPAUCEK
+### Philadelphia,PA|DataScienceConsultant 10/2019-present
+- ·Extensiveexperiencewithstatistical modellingtechniques
+- ExperienceconnectingTableauorothervisualizationsystemsand usingfordashboardingoranalysis
+### ExperiencewithMachineLearningalgorithmsusingSparkML/MLlib TensorFlow,RandNotebooks likeZeppelin,Jupyter
+### Experience with at least one programming language (e.g.,Python,R, C++, Java)
+- Practical experience designing andbuildingmachine learning optimizationandsimulationmodels
+- ·Wehave a strong focuson thecareer and development opportunities.Everycolleaguewill havea careeradvisor whoworkswithyoutocreateaplanandguidesyou through themany training opportunitiesweoffer
+
+## TECHNICAL SKILLS
+
+SKILLS
+WorkingKnowledgeorexperienceof usingmodeling toolslikeKnime, Rapidminer,H2O,SAS
+Youhavedevelopedcapabilitieswithdatamodeling and complexbigdataanalyses
+You arebusinessfacingwithstrong businessanalysis skillsand aprovenconsultativeapproach
+Data engineering skills inusing big data processing and streaming platformsApacheSparkandApacheKafka,Hadoop
+In-depth understandingof SQL andPowerBl
+·Depth of knowledge in at least one OR/ML skillarea(e.g.,optimization, simulation,machinelearning,statistics)
+Familiaritywithdeeplearning,natural languageprocessing,computr vision,recommendersystems,experimentation(e.g.,A/B testing)
+Experience inusingcloudplatforms andparallelprocessingtoscale modeldevelopment/deployment
+Domainknowledgeintheairlineindustry
+PhDinStats,OperationsResearch,AppliedMath,Physics Engineering,Economics(appliedmicro,appliedeconometrics empiricalO,labor,finance,behavioral,appliedmacro/timeseries),r related technicalfield
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Competent in machine learning principles and techniques
+WHITEINC
+Philadelphia,PA|DataScienceConsultant02/2015-06/2019
+Demonstrated aptitudeforindependent learning,logical analysis, problem identification,andproblemsolving

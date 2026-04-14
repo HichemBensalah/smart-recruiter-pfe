@@ -1,0 +1,57 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_64.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_64.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "info@qwikresume.com",
+    "bio": {
+      "full_name": "ROBERTSMITH",
+      "email": "info@qwikresume.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Used machine learning to create predictive models regarding IVF outcomes and developed a model for predictive filing of clinical fields within an EMR",
+      "hard_skills": [
+        "QA testing"
+      ],
+      "soft_skills": [
+        "product development"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Associate Data Scientist",
+        "company": "ABCCorporation",
+        "start_date": "MARCH2012",
+        "end_date": "JUNE2015",
+        "city": null,
+        "responsibilities": [
+          "Used statistical analysis to determine data behavior",
+          "Designed and revised forms, manuals, and other company documents"
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "ABCCorporation",
+        "start_date": "2011",
+        "end_date": "2012",
+        "city": null,
+        "responsibilities": [
+          "Built a model to data mine clinical data from both payers and providers to derive patterns and insights",
+          "Conceptualized and implemented a monitoring algorithm which enables early detection of adverse events to medical practices"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:49:45.077502+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7532
+    }
+  }
+}

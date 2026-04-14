@@ -1,0 +1,53 @@
+## HEADER
+
+Justine Hendrickson MetadataScientist
+JustH@email.com (123)456-7890 Houston,TX Linkedln Twitter
+DataSciencegraduatewithapassionfordataintegrityvisualization,and statistics.I'mexcitedtoapplymypassionfordatasciencetothecollaborative effortsofaChevronteamfocusedoninsightful,high-qualitydataanalyticsand visualizations.
+
+## TECHNICAL SKILLS
+
+SKILLS
+Python
+·R
+SQL
+Tableau
+Hadoop
+Numpy
+Helpedshapethetechnicalvisionandstrategiesof2engineering partnerteamsthroughdata-drivenrecommendations
+DisplayedaworkingknowledgeofDataETL,Visualization,API frameworks,andstatisticalmethodsinPythontodevelopvisualizations andimplementanalyses
+Cleanedhistorical dataforover6OOcompanies(inNASDAQandS&P 500),accessingJSONendpointsforeachcompany using(Python)Pandas
+
+## PROFESSIONAL EXPERIENCE
+
+WORKEXPERIENCE
+Labcorp
+Entry-LevelMetadataScientist
+### Houston,TX|July2021-current
+- ·Identifiedappropriatequantitativemethodsandbuiltrelevantdatasets toaddresschallengesacross6differentdomains
+- Implemented32statisticalandmachinelearningsolutionsend-to-end
+
+## EDUCATION
+
+B.S.
+ComputerScience
+
+## ACADEMIC PROJECTS
+
+Communicatedprojectresultsandrecommendationsto24stakeholders andcross-functionalpartners
+### UniversityofHouston September2017-May2021 Houston,TX
+- PROJECTS
+- WeatherAPISite
+- Creator
+- Developedmeasurementsolutionsandexperimentationframeworksto ensure10o%informedandeffectivedata-drivendecisionmaking
+### UsedHTML5todesignadashboardvisualinterfaceofaprevious WeatherAPlappwithcitipy.asimplePythonlibrary,andthe OpenWeatherMapAPltocreateaweathermodelacross5O+world cities
+### AddedfeaturestotheappbyapplyingaBootstraptemplate,designing thewebsitelayout,andaddingapicture carousel ofcities usedinthe OpenWeatherMapAPlproject
+### Drafteddetailed documentationofcodeutilizingGitHub,completewith chartsandnotesabouteachsub-page
+- StockAnalysis
+- Creator
+- UsedstockmarketKPlstodeterminewhetherthetechsectorofthe stockmarketwasinabubble
+
+## CERTIFICATES (IN PROGRESS)
+
+CERTIFICATIONS
+AWS
+Certified DataScientist

@@ -1,0 +1,78 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_81.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_81.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "pdf:Image_81",
+    "bio": {
+      "full_name": "BREE ANDERSON",
+      "email": null,
+      "phone": "+1（555)3357759",
+      "location": "5021 Waters Fall, Philadelphia, PA"
+    },
+    "expertise": {
+      "summary": "Data Science Consultant with experience in statistical modeling, machine learning, and data analysis",
+      "hard_skills": [
+        "Tableau",
+        "Spark ML/MLlib",
+        "TensorFlow",
+        "Python",
+        "Knime",
+        "Rapidminer",
+        "Apache Spark",
+        "Apache Kafka",
+        "Hadoop",
+        "PowerBl"
+      ],
+      "soft_skills": [
+        "business analysis",
+        "consultative approach",
+        "problem solving"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Consultant",
+        "company": "FRANECKI, SCHROEDER AND PAUCEK",
+        "start_date": "10/2019",
+        "end_date": "present",
+        "city": "Philadelphia, PA",
+        "responsibilities": [
+          "statistical modelling techniques",
+          "connecting Tableau or other visualization systems",
+          "using Machine Learning algorithms",
+          "designing and building machine learning optimization and simulation models"
+        ]
+      },
+      {
+        "job_title": "Data Science Consultant",
+        "company": "WHITEINC",
+        "start_date": "02/2015",
+        "end_date": "06/2019",
+        "city": "Philadelphia, PA",
+        "responsibilities": [
+          "independent learning",
+          "logical analysis",
+          "problem identification",
+          "problem solving"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master's in Statistics",
+        "school": "SCHOOL OF THE ART INSTITUTE OF CHICAGO",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:50:36.193053+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.8038
+    }
+  }
+}

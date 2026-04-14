@@ -1,0 +1,107 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\2_anonyme.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\2_anonyme.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "pdf:2_anonyme",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "IT professional with experience in managing ERP solutions, accounting and HR systems, and IT environments, with skills in cloud environments, network design, and cybersecurity",
+      "hard_skills": [
+        "Cloud Environments",
+        "Network Design",
+        "VOIP",
+        "Cyber Security",
+        "NIST",
+        "HITRUST",
+        "HIPAA",
+        "Cisco Routers",
+        "Firewalls",
+        "Windows Server"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Communication",
+        "Collaboration",
+        "Project Management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Information Technology",
+        "company": "City",
+        "start_date": "Sep 2005",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Managed IT environment",
+          "Designed and deployed data center",
+          "Created cybersecurity policies and controls",
+          "Supported data center and new product offering"
+        ]
+      },
+      {
+        "job_title": "Information Technology Manager",
+        "company": null,
+        "start_date": "Sep 2003",
+        "end_date": "Sep 2005",
+        "city": null,
+        "responsibilities": [
+          "Managed IT environment",
+          "Supported data center",
+          "Provided technical support"
+        ]
+      },
+      {
+        "job_title": "Information Technology Manager",
+        "company": null,
+        "start_date": "1998",
+        "end_date": "Mar 2003",
+        "city": null,
+        "responsibilities": [
+          "Managed IT environment",
+          "Supported data center",
+          "Provided technical support"
+        ]
+      },
+      {
+        "job_title": "Project Manager",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Los Angeles",
+        "responsibilities": [
+          "Managed project support team",
+          "Identified and evaluated technical aspects of RFP release and selection process",
+          "Managed rollout of 2.5 million dollar system"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Masters of Science Degree",
+        "school": "California State University",
+        "year": null
+      },
+      {
+        "degree": "Bachelors of Science Degree",
+        "school": "University of Phoenix",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:44:10.378278+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.89
+    }
+  }
+}

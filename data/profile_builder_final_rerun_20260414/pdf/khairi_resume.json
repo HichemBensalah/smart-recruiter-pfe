@@ -1,0 +1,87 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\khairi_resume.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "suibguikhairi2021@gmail.com",
+    "bio": {
+      "full_name": "Khaireddine Suibgui",
+      "email": "suibguikhairi2021@gmail.com",
+      "phone": "+ 216 55470669",
+      "location": "El Ghazela, Ariana"
+    },
+    "expertise": {
+      "summary": "Data Science engineer with a solid foundation in delivering actionable insights, passionate about using technology to achieve impactful solutions",
+      "hard_skills": [
+        "Angular",
+        "NodeJs",
+        "MongoDB",
+        "ExpressJs",
+        "Tensorflow",
+        "PyTorch",
+        "Apache Spark",
+        "NLTK",
+        "Python",
+        "Matlab",
+        "JavaScript",
+        "Java",
+        "MySQL",
+        "Cassandra",
+        "Scikit-learn",
+        "Keras",
+        "Apache Airflow",
+        "Hadoop"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "End of Studies Internship",
+        "company": "Club Africain",
+        "start_date": "March 2025",
+        "end_date": "August 2025",
+        "city": "Tunis",
+        "responsibilities": [
+          "Designed and developed a web application for managing players' personal and sports data",
+          "Integrated an intelligent system to predict potential injuries and provide personalized training recommendations"
+        ]
+      },
+      {
+        "job_title": "Summer Internship",
+        "company": null,
+        "start_date": "July 2024",
+        "end_date": "August 2024",
+        "city": "Ariana",
+        "responsibilities": [
+          "Developed a speech synthesis system capable of transforming written text into audible speech using deep learning"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Data Science",
+        "school": "TEK-UP University",
+        "year": "2022-2025"
+      },
+      {
+        "degree": "Engineering",
+        "school": "FSM-Monastir",
+        "year": null
+      },
+      {
+        "degree": "Baccalaureate",
+        "school": "Pioneer School of Kasserine",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:50:58.172576+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.9449
+    }
+  }
+}

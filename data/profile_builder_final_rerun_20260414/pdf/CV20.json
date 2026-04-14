@@ -1,0 +1,79 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV20.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV20.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "tmathers@email.com",
+    "bio": {
+      "full_name": "TrishMathers",
+      "email": "tmathers@email.com",
+      "phone": "(123)456-7890",
+      "location": "Bellevue, WA"
+    },
+    "expertise": {
+      "summary": "Entry-Level Data Scientist with experience in quantitative modeling, experimentation, and data science",
+      "hard_skills": [
+        "linear regression",
+        "logistic regression",
+        "decision trees",
+        "support vector machines (SVM)",
+        "kmeans clustering",
+        "principal component analysis (PCA)",
+        "Excel",
+        "Google Sheets"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist Intern",
+        "company": "Niantic",
+        "start_date": "April 2022",
+        "end_date": "December 2022",
+        "city": "Seattle, WA",
+        "responsibilities": [
+          "Developed a program in SAS that automated refinement of linear regression models for specific segments of customer base, saving 22 hours of labor per month"
+        ]
+      },
+      {
+        "job_title": "Tutor",
+        "company": "Seattle University Tutor Center",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Received, cleaned, and prepped data from clients using SAS, SQL, and Excel to help data scientists build marketing mix models that resulted in a lift in RO of 10 basis points"
+        ]
+      },
+      {
+        "job_title": "Statistics and Mathematics Tutor",
+        "company": null,
+        "start_date": "April 2020",
+        "end_date": "April 2022",
+        "city": "Seattle, WA",
+        "responsibilities": [
+          "Assessed students' learning to determine learning weaknesses and needs, successfully helping students perform 13% better in algebra, pre-calculus, calculus, and statistics undergraduate courses",
+          "Met with 30+ students per week through online learning platforms or in a 1:1 setting at the tutor center",
+          "Scheduled weekly appointments for students, and set schedules for student statistics and math tutors",
+          "Communicated with professors about curriculum, and submitted reports 2 times per week to maintain up-to-date learning plans for students"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.S.",
+        "school": "Seattle University",
+        "year": "September 2019 - April 2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:45:53.218979+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.8155
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV11.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "first.last@resumeworded.com",
+    "bio": {
+      "full_name": "First Last",
+      "email": "first.last@resumeworded.com",
+      "phone": "+1234567-890",
+      "location": "SanFrancisco,CA12345"
+    },
+    "expertise": {
+      "summary": "Data Scientist with experience in analyzing large datasets and leading teams",
+      "hard_skills": [
+        "Java",
+        "Python",
+        "MySQL/SQL",
+        "Hadoop"
+      ],
+      "soft_skills": [
+        "Customer requirement prioritization",
+        "Problem Solving",
+        "Data optimization"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "DataScientist",
+        "company": "Resume Worded",
+        "start_date": "January 2018",
+        "end_date": "Present",
+        "city": "New York",
+        "responsibilities": [
+          "Proposed and implemented a new targeting model, generating significant wealth management sales",
+          "Led team of 8 peers to research market entry strategies for a new business line, increasing market penetration in 12 states",
+          "Worked with Sales, IT and marketing teams to optimize key workflows to identify costs, results and opportunities, streamlining business resources by improving internal system integration"
+        ]
+      },
+      {
+        "job_title": "AssociateDataScientist",
+        "company": "Growthsi",
+        "start_date": "July 2015",
+        "end_date": "January 2018",
+        "city": "Boston",
+        "responsibilities": [
+          "Contributed to company blog posts, promoting the company's analytics platform, increasing customer traffic by 75%"
+        ]
+      },
+      {
+        "job_title": "DataScientistIntern",
+        "company": null,
+        "start_date": "January 2015",
+        "end_date": "June 2015",
+        "city": "Boston",
+        "responsibilities": [
+          "Worked across multiple functional departments translating business problems into solvable cases with emphasis on anticipating future ad-hoc needs"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science: Computer and Information Sciences",
+        "school": "Resume Worded University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:44:58.546519+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7882
+    }
+  }
+}

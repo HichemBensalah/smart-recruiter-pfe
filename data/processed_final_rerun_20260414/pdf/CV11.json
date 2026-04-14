@@ -1,0 +1,1460 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nFirst Last\nSanFrancisco,CA12345 +1234567-890 first.last@resumeworded.com linkedin.com/in/resumeworded\nData Scientist\nPROFESSIONAL EXPERIENCE\nDataScientistwiththreeyearsofexperienceinanalyzinglargedatasetsandcoming s of8-12teammembers.\nEXPERIENCE\nResume Worded, New York, NY DataScientist\nJanuary2018-Present\nProposedandimplementedanewtargetingmodel,generatingSiMin wealthmanagementsales.\nLedteamof8peerstoresearchmarketentrystrategiesforanewbusiness line,increasingmarket penetration in12 states.\nWorkedwithSales,ITandmarketingteamstooptimizekeyworkflowsto identifycosts,results and opportunities,streamliningbusinessresources by improvinginternal system integration.\nGrowthsi, Boston, MA AssociateDataScientist\nJuly2015-January2018\nContributed to company blog posts, promoting the company's analytics platform,increasingcustomer trafficby 75%.\nMay 2015\nNewYork,NY\nTECHNICAL SKILLS\nSKILLS\nJava C++ Python MySQL/SQL Hadoop Customerrequirement prioritization Problem Solving Data optimization Knowledge\nand skills\nEDUCATION\nResume Worded University\nBachelor ofScience: ComputerandInformation Sciences\nCompletedone-year study abroadwith Singapore University.\nOTHER\nOfferedapproachestosimplifydataintegrationprocessesandstandardize datafeeds acrosssystems,reducingdata latencyfrom8daysto1day.\nACADEMIC PROJECTS\nImplementeddemandforecastingmodels,improvingdataforecastaccuracy by 45%,also won'Innovation award'for the same project.\nProvidedguidancetomembersandparticipatedincross-departmental projectsestablishingthecompanyasaleaderindatascience.\nResumeWorded,Boston,MA DataScientistIntern\nAwards:Dean'sList 2015 (Top 10%).\nJanuary2015-June2015\nWorkedacrossmultiplefunctionaldepartmentstranslatingbusiness problemsintosolvablecaseswith emphasisonanticipatingfuture ad-hoc needs.\nVolunteeredina 3-monthdatascience Project,run byACB CorporationInc.\nCollaboratedwithotherteamsacrossMicrosoftanddevelopedkeymetrics to achievebusinessoutcomes.\nConsideredavaluabledevelopmentteam asset,awardedwith'Intern AppreciationLetter'oncompletinginternship",
+  "markdown": "## HEADER\n\nFirst Last\nSanFrancisco,CA12345 +1234567-890 first.last@resumeworded.com linkedin.com/in/resumeworded\nData Scientist\n\n## PROFESSIONAL EXPERIENCE\n\nDataScientistwiththreeyearsofexperienceinanalyzinglargedatasetsandcoming s of8-12teammembers.\nEXPERIENCE\n### Resume Worded, New York, NY DataScientist\n- January2018-Present\n### Proposedandimplementedanewtargetingmodel,generatingSiMin wealthmanagementsales.\n### Ledteamof8peerstoresearchmarketentrystrategiesforanewbusiness line,increasingmarket penetration in12 states.\n### WorkedwithSales,ITandmarketingteamstooptimizekeyworkflowsto identifycosts,results and opportunities,streamliningbusinessresources by improvinginternal system integration.\n### Growthsi, Boston, MA AssociateDataScientist\n- July2015-January2018\n### Contributed to company blog posts, promoting the company's analytics platform,increasingcustomer trafficby 75%.\n**Date:** May 2015\n**Location:** NewYork,NY\n\n## TECHNICAL SKILLS\n\nSKILLS\nJava C++ Python MySQL/SQL Hadoop Customerrequirement prioritization Problem Solving Data optimization Knowledge\nand skills\n\n## EDUCATION\n\n### Resume Worded University\n- Bachelor ofScience: ComputerandInformation Sciences\n### Completedone-year study abroadwith Singapore University.\n- OTHER\n### Offeredapproachestosimplifydataintegrationprocessesandstandardize datafeeds acrosssystems,reducingdata latencyfrom8daysto1day.\n\n## ACADEMIC PROJECTS\n\n### Implementeddemandforecastingmodels,improvingdataforecastaccuracy by 45%,also won'Innovation award'for the same project.\n- Providedguidancetomembersandparticipatedincross-departmental projectsestablishingthecompanyasaleaderindatascience.\n### ResumeWorded,Boston,MA DataScientistIntern\n**Date:** Awards:Dean'sList 2015 (Top 10%).\n- January2015-June2015\n- Workedacrossmultiplefunctionaldepartmentstranslatingbusiness problemsintosolvablecaseswith emphasisonanticipatingfuture ad-hoc needs.\n### Volunteeredina 3-monthdatascience Project,run byACB CorporationInc.\n- CollaboratedwithotherteamsacrossMicrosoftanddevelopedkeymetrics to achievebusinessoutcomes.\n### Consideredavaluabledevelopmentteam asset,awardedwith'Intern AppreciationLetter'oncompletinginternship",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "First Last",
+        "SanFrancisco,CA12345 +1234567-890 first.last@resumeworded.com linkedin.com/in/resumeworded",
+        "Data Scientist"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "First Last",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 86.0625,
+            "top": 1448.274190266927,
+            "right": 313.96875,
+            "bottom": 1492.983866373698
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "SanFrancisco,CA12345 +1234567-890 first.last@resumeworded.com linkedin.com/in/resumeworded",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 851.859375,
+            "top": 1425.1209615071614,
+            "right": 1108.453125,
+            "bottom": 1496.1774190266926
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Data Scientist",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 84.46875,
+            "top": 1393.1854858398438,
+            "right": 346.640625,
+            "bottom": 1422.7257995605469
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "DataScientistwiththreeyearsofexperienceinanalyzinglargedatasetsandcoming s of8-12teammembers.",
+        "EXPERIENCE"
+      ],
+      "items": [
+        {
+          "title": "Resume Worded, New York, NY DataScientist",
+          "date": null,
+          "location": null,
+          "details": [
+            "January2018-Present"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Resume Worded, New York, NY DataScientist",
+              "page_no": 1,
+              "block_indices": [
+                4
+              ],
+              "bbox": {
+                "left": 81.28125,
+                "top": 1110.5564371744792,
+                "right": 422.34375,
+                "bottom": 1174.4274088541667
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "January2018-Present",
+              "page_no": 1,
+              "block_indices": [
+                5
+              ],
+              "bbox": {
+                "left": 80.484375,
+                "top": 1073.8306070963542,
+                "right": 309.984375,
+                "bottom": 1096.9838460286458
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Proposedandimplementedanewtargetingmodel,generatingSiMin wealthmanagementsales.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Proposedandimplementedanewtargetingmodel,generatingSiMin wealthmanagementsales.",
+              "page_no": 1,
+              "block_indices": [
+                6
+              ],
+              "bbox": {
+                "left": 116.34375,
+                "top": 1012.3548177083334,
+                "right": 735.515625,
+                "bottom": 1064.249959309896
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Ledteamof8peerstoresearchmarketentrystrategiesforanewbusiness line,increasingmarket penetration in12 states.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Ledteamof8peerstoresearchmarketentrystrategiesforanewbusiness line,increasingmarket penetration in12 states.",
+              "page_no": 1,
+              "block_indices": [
+                7
+              ],
+              "bbox": {
+                "left": 116.34375,
+                "top": 954.8709309895834,
+                "right": 774.5625,
+                "bottom": 1005.1693115234375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "WorkedwithSales,ITandmarketingteamstooptimizekeyworkflowsto identifycosts,results and opportunities,streamliningbusinessresources by improvinginternal system integration.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "WorkedwithSales,ITandmarketingteamstooptimizekeyworkflowsto identifycosts,results and opportunities,streamliningbusinessresources by improvinginternal system integration.",
+              "page_no": 1,
+              "block_indices": [
+                8
+              ],
+              "bbox": {
+                "left": 116.34375,
+                "top": 866.25,
+                "right": 771.375,
+                "bottom": 949.2822265625
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Growthsi, Boston, MA AssociateDataScientist",
+          "date": null,
+          "location": null,
+          "details": [
+            "July2015-January2018"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Growthsi, Boston, MA AssociateDataScientist",
+              "page_no": 1,
+              "block_indices": [
+                9
+              ],
+              "bbox": {
+                "left": 82.078125,
+                "top": 768.04833984375,
+                "right": 325.125,
+                "bottom": 831.9193522135416
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "July2015-January2018",
+              "page_no": 1,
+              "block_indices": [
+                10
+              ],
+              "bbox": {
+                "left": 82.078125,
+                "top": 730.524169921875,
+                "right": 320.34375,
+                "bottom": 752.0806477864584
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Contributed to company blog posts, promoting the company's analytics platform,increasingcustomer trafficby 75%.",
+          "date": "May 2015",
+          "location": "NewYork,NY",
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Contributed to company blog posts, promoting the company's analytics platform,increasingcustomer trafficby 75%.",
+              "page_no": 1,
+              "block_indices": [
+                12
+              ],
+              "bbox": {
+                "left": 114.75,
+                "top": 610.76611328125,
+                "right": 754.640625,
+                "bottom": 665.056396484375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "May 2015",
+              "page_no": 1,
+              "block_indices": [
+                27
+              ],
+              "bbox": {
+                "left": 851.0625,
+                "top": 601.9838053385416,
+                "right": 949.875,
+                "bottom": 629.9274088541666
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "NewYork,NY",
+              "page_no": 1,
+              "block_indices": [
+                28
+              ],
+              "bbox": {
+                "left": 853.453125,
+                "top": 571.6451009114584,
+                "right": 976.96875,
+                "bottom": 593.2015787760416
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "DataScientistwiththreeyearsofexperienceinanalyzinglargedatasetsandcoming s of8-12teammembers.",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 80.484375,
+            "top": 1306.1612752278645,
+            "right": 794.484375,
+            "bottom": 1380.4112752278645
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "EXPERIENCE",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 82.078125,
+            "top": 1211.9515787760417,
+            "right": 191.25,
+            "bottom": 1231.1128743489583
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Resume Worded, New York, NY DataScientist",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 81.28125,
+            "top": 1110.5564371744792,
+            "right": 422.34375,
+            "bottom": 1174.4274088541667
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "January2018-Present",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 80.484375,
+            "top": 1073.8306070963542,
+            "right": 309.984375,
+            "bottom": 1096.9838460286458
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Proposedandimplementedanewtargetingmodel,generatingSiMin wealthmanagementsales.",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 116.34375,
+            "top": 1012.3548177083334,
+            "right": 735.515625,
+            "bottom": 1064.249959309896
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Ledteamof8peerstoresearchmarketentrystrategiesforanewbusiness line,increasingmarket penetration in12 states.",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 116.34375,
+            "top": 954.8709309895834,
+            "right": 774.5625,
+            "bottom": 1005.1693115234375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "WorkedwithSales,ITandmarketingteamstooptimizekeyworkflowsto identifycosts,results and opportunities,streamliningbusinessresources by improvinginternal system integration.",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 116.34375,
+            "top": 866.25,
+            "right": 771.375,
+            "bottom": 949.2822265625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Growthsi, Boston, MA AssociateDataScientist",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 82.078125,
+            "top": 768.04833984375,
+            "right": 325.125,
+            "bottom": 831.9193522135416
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "July2015-January2018",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 82.078125,
+            "top": 730.524169921875,
+            "right": 320.34375,
+            "bottom": 752.0806477864584
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Contributed to company blog posts, promoting the company's analytics platform,increasingcustomer trafficby 75%.",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 114.75,
+            "top": 610.76611328125,
+            "right": 754.640625,
+            "bottom": 665.056396484375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "May 2015",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 851.0625,
+            "top": 601.9838053385416,
+            "right": 949.875,
+            "bottom": 629.9274088541666
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "NewYork,NY",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 853.453125,
+            "top": 571.6451009114584,
+            "right": 976.96875,
+            "bottom": 593.2015787760416
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "SKILLS",
+        "Java C++ Python MySQL/SQL Hadoop Customerrequirement prioritization Problem Solving Data optimization Knowledge",
+        "and skills"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "SKILLS",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 851.859375,
+            "top": 1211.1531982421875,
+            "right": 915.609375,
+            "bottom": 1231.9112955729167
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Java C++ Python MySQL/SQL Hadoop Customerrequirement prioritization Problem Solving Data optimization Knowledge",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 851.0625,
+            "top": 926.9274088541666,
+            "right": 1118.8125,
+            "bottom": 1178.4193522135417
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "and skills",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 852.65625,
+            "top": 901.3789876302084,
+            "right": 941.109375,
+            "bottom": 922.1370849609375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [],
+      "items": [
+        {
+          "title": "Resume Worded University",
+          "date": null,
+          "location": null,
+          "details": [
+            "Bachelor ofScience: ComputerandInformation Sciences"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Resume Worded University",
+              "page_no": 1,
+              "block_indices": [
+                25
+              ],
+              "bbox": {
+                "left": 852.65625,
+                "top": 712.9596354166666,
+                "right": 1034.34375,
+                "bottom": 765.6531575520834
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Bachelor ofScience: ComputerandInformation Sciences",
+              "page_no": 1,
+              "block_indices": [
+                26
+              ],
+              "bbox": {
+                "left": 853.453125,
+                "top": 637.1128743489584,
+                "right": 1094.90625,
+                "bottom": 704.1774088541666
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Completedone-year study abroadwith Singapore University.",
+          "date": null,
+          "location": null,
+          "details": [
+            "OTHER"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Completedone-year study abroadwith Singapore University.",
+              "page_no": 1,
+              "block_indices": [
+                30
+              ],
+              "bbox": {
+                "left": 888.515625,
+                "top": 400.790283203125,
+                "right": 1082.15625,
+                "bottom": 484.62093098958326
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "OTHER",
+              "page_no": 1,
+              "block_indices": [
+                31
+              ],
+              "bbox": {
+                "left": 852.65625,
+                "top": 343.306396484375,
+                "right": 917.203125,
+                "bottom": 364.86287434895826
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Offeredapproachestosimplifydataintegrationprocessesandstandardize datafeeds acrosssystems,reducingdata latencyfrom8daysto1day.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Offeredapproachestosimplifydataintegrationprocessesandstandardize datafeeds acrosssystems,reducingdata latencyfrom8daysto1day.",
+              "page_no": 1,
+              "block_indices": [
+                17
+              ],
+              "bbox": {
+                "left": 116.34375,
+                "top": 266.66121419270826,
+                "right": 781.734375,
+                "bottom": 319.35481770833326
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Resume Worded University",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 852.65625,
+            "top": 712.9596354166666,
+            "right": 1034.34375,
+            "bottom": 765.6531575520834
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Bachelor ofScience: ComputerandInformation Sciences",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 853.453125,
+            "top": 637.1128743489584,
+            "right": 1094.90625,
+            "bottom": 704.1774088541666
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Completedone-year study abroadwith Singapore University.",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 888.515625,
+            "top": 400.790283203125,
+            "right": 1082.15625,
+            "bottom": 484.62093098958326
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "OTHER",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 852.65625,
+            "top": 343.306396484375,
+            "right": 917.203125,
+            "bottom": 364.86287434895826
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Offeredapproachestosimplifydataintegrationprocessesandstandardize datafeeds acrosssystems,reducingdata latencyfrom8daysto1day.",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 116.34375,
+            "top": 266.66121419270826,
+            "right": 781.734375,
+            "bottom": 319.35481770833326
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [],
+      "items": [
+        {
+          "title": "Implementeddemandforecastingmodels,improvingdataforecastaccuracy by 45%,also won'Innovation award'for the same project.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Providedguidancetomembersandparticipatedincross-departmental projectsestablishingthecompanyasaleaderindatascience."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Implementeddemandforecastingmodels,improvingdataforecastaccuracy by 45%,also won'Innovation award'for the same project.",
+              "page_no": 1,
+              "block_indices": [
+                11
+              ],
+              "bbox": {
+                "left": 116.34375,
+                "top": 668.25,
+                "right": 793.6875,
+                "bottom": 719.3467610677084
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Providedguidancetomembersandparticipatedincross-departmental projectsestablishingthecompanyasaleaderindatascience.",
+              "page_no": 1,
+              "block_indices": [
+                13
+              ],
+              "bbox": {
+                "left": 117.140625,
+                "top": 554.8789876302083,
+                "right": 749.0625,
+                "bottom": 604.3789876302084
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "ResumeWorded,Boston,MA DataScientistIntern",
+          "date": "Awards:Dean'sList 2015 (Top 10%).",
+          "location": null,
+          "details": [
+            "January2015-June2015",
+            "Workedacrossmultiplefunctionaldepartmentstranslatingbusiness problemsintosolvablecaseswith emphasisonanticipatingfuture ad-hoc needs."
+          ],
+          "evidence_spans": [
+            {
+              "text": "ResumeWorded,Boston,MA DataScientistIntern",
+              "page_no": 1,
+              "block_indices": [
+                14
+              ],
+              "bbox": {
+                "left": 82.078125,
+                "top": 452.68546549479174,
+                "right": 400.03125,
+                "bottom": 514.1612141927083
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Awards:Dean'sList 2015 (Top 10%).",
+              "page_no": 1,
+              "block_indices": [
+                29
+              ],
+              "bbox": {
+                "left": 888.515625,
+                "top": 498.99186197916674,
+                "right": 1114.03125,
+                "bottom": 548.4918619791667
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "January2015-June2015",
+              "page_no": 1,
+              "block_indices": [
+                15
+              ],
+              "bbox": {
+                "left": 80.484375,
+                "top": 415.16121419270826,
+                "right": 325.921875,
+                "bottom": 437.51611328125
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Workedacrossmultiplefunctionaldepartmentstranslatingbusiness problemsintosolvablecaseswith emphasisonanticipatingfuture ad-hoc needs.",
+              "page_no": 1,
+              "block_indices": [
+                16
+              ],
+              "bbox": {
+                "left": 113.953125,
+                "top": 327.338623046875,
+                "right": 775.359375,
+                "bottom": 403.18546549479174
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Volunteeredina 3-monthdatascience Project,run byACB CorporationInc.",
+          "date": null,
+          "location": null,
+          "details": [
+            "CollaboratedwithotherteamsacrossMicrosoftanddevelopedkeymetrics to achievebusinessoutcomes."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Volunteeredina 3-monthdatascience Project,run byACB CorporationInc.",
+              "page_no": 1,
+              "block_indices": [
+                32
+              ],
+              "bbox": {
+                "left": 896.484375,
+                "top": 203.58870442708326,
+                "right": 1094.109375,
+                "bottom": 312.96769205729174
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "CollaboratedwithotherteamsacrossMicrosoftanddevelopedkeymetrics to achievebusinessoutcomes.",
+              "page_no": 1,
+              "block_indices": [
+                18
+              ],
+              "bbox": {
+                "left": 115.546875,
+                "top": 211.57259114583326,
+                "right": 783.328125,
+                "bottom": 263.46769205729174
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Consideredavaluabledevelopmentteam asset,awardedwith'Intern AppreciationLetter'oncompletinginternship",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Consideredavaluabledevelopmentteam asset,awardedwith'Intern AppreciationLetter'oncompletinginternship",
+              "page_no": 1,
+              "block_indices": [
+                19
+              ],
+              "bbox": {
+                "left": 116.34375,
+                "top": 153.29020182291674,
+                "right": 729.140625,
+                "bottom": 205.98388671875
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Implementeddemandforecastingmodels,improvingdataforecastaccuracy by 45%,also won'Innovation award'for the same project.",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 116.34375,
+            "top": 668.25,
+            "right": 793.6875,
+            "bottom": 719.3467610677084
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Providedguidancetomembersandparticipatedincross-departmental projectsestablishingthecompanyasaleaderindatascience.",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 117.140625,
+            "top": 554.8789876302083,
+            "right": 749.0625,
+            "bottom": 604.3789876302084
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "ResumeWorded,Boston,MA DataScientistIntern",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 82.078125,
+            "top": 452.68546549479174,
+            "right": 400.03125,
+            "bottom": 514.1612141927083
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Awards:Dean'sList 2015 (Top 10%).",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 888.515625,
+            "top": 498.99186197916674,
+            "right": 1114.03125,
+            "bottom": 548.4918619791667
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "January2015-June2015",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 80.484375,
+            "top": 415.16121419270826,
+            "right": 325.921875,
+            "bottom": 437.51611328125
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Workedacrossmultiplefunctionaldepartmentstranslatingbusiness problemsintosolvablecaseswith emphasisonanticipatingfuture ad-hoc needs.",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 113.953125,
+            "top": 327.338623046875,
+            "right": 775.359375,
+            "bottom": 403.18546549479174
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Volunteeredina 3-monthdatascience Project,run byACB CorporationInc.",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 896.484375,
+            "top": 203.58870442708326,
+            "right": 1094.109375,
+            "bottom": 312.96769205729174
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "CollaboratedwithotherteamsacrossMicrosoftanddevelopedkeymetrics to achievebusinessoutcomes.",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 115.546875,
+            "top": 211.57259114583326,
+            "right": 783.328125,
+            "bottom": 263.46769205729174
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Consideredavaluabledevelopmentteam asset,awardedwith'Intern AppreciationLetter'oncompletinginternship",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 116.34375,
+            "top": 153.29020182291674,
+            "right": 729.140625,
+            "bottom": 205.98388671875
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.7882,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 2042,
+      "section_completeness": 0.8333,
+      "ordering_coherence": 0.7,
+      "segmentation_stability": 1.0,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.4596,
+      "weird_section_ratio": 0.0,
+      "section_count": 5,
+      "expected_section_hits": 5,
+      "router_is_scanned": true,
+      "router_ocr_required": true,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 11,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.05
+    },
+    "warnings": [
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "First Last",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 86.0625,
+        "top": 1448.274190266927,
+        "right": 313.96875,
+        "bottom": 1492.983866373698
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "SanFrancisco,CA12345 +1234567-890 first.last@resumeworded.com linkedin.com/in/resumeworded",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 851.859375,
+        "top": 1425.1209615071614,
+        "right": 1108.453125,
+        "bottom": 1496.1774190266926
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Data Scientist",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 84.46875,
+        "top": 1393.1854858398438,
+        "right": 346.640625,
+        "bottom": 1422.7257995605469
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "DataScientistwiththreeyearsofexperienceinanalyzinglargedatasetsandcoming s of8-12teammembers.",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 80.484375,
+        "top": 1306.1612752278645,
+        "right": 794.484375,
+        "bottom": 1380.4112752278645
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "EXPERIENCE",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 82.078125,
+        "top": 1211.9515787760417,
+        "right": 191.25,
+        "bottom": 1231.1128743489583
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Resume Worded, New York, NY DataScientist",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 81.28125,
+        "top": 1110.5564371744792,
+        "right": 422.34375,
+        "bottom": 1174.4274088541667
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "January2018-Present",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 80.484375,
+        "top": 1073.8306070963542,
+        "right": 309.984375,
+        "bottom": 1096.9838460286458
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Proposedandimplementedanewtargetingmodel,generatingSiMin wealthmanagementsales.",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 116.34375,
+        "top": 1012.3548177083334,
+        "right": 735.515625,
+        "bottom": 1064.249959309896
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Ledteamof8peerstoresearchmarketentrystrategiesforanewbusiness line,increasingmarket penetration in12 states.",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 116.34375,
+        "top": 954.8709309895834,
+        "right": 774.5625,
+        "bottom": 1005.1693115234375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "WorkedwithSales,ITandmarketingteamstooptimizekeyworkflowsto identifycosts,results and opportunities,streamliningbusinessresources by improvinginternal system integration.",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 116.34375,
+        "top": 866.25,
+        "right": 771.375,
+        "bottom": 949.2822265625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Growthsi, Boston, MA AssociateDataScientist",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 82.078125,
+        "top": 768.04833984375,
+        "right": 325.125,
+        "bottom": 831.9193522135416
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "July2015-January2018",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 82.078125,
+        "top": 730.524169921875,
+        "right": 320.34375,
+        "bottom": 752.0806477864584
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Contributed to company blog posts, promoting the company's analytics platform,increasingcustomer trafficby 75%.",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 114.75,
+        "top": 610.76611328125,
+        "right": 754.640625,
+        "bottom": 665.056396484375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "May 2015",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 851.0625,
+        "top": 601.9838053385416,
+        "right": 949.875,
+        "bottom": 629.9274088541666
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "NewYork,NY",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 853.453125,
+        "top": 571.6451009114584,
+        "right": 976.96875,
+        "bottom": 593.2015787760416
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "SKILLS",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 851.859375,
+        "top": 1211.1531982421875,
+        "right": 915.609375,
+        "bottom": 1231.9112955729167
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Java C++ Python MySQL/SQL Hadoop Customerrequirement prioritization Problem Solving Data optimization Knowledge",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 851.0625,
+        "top": 926.9274088541666,
+        "right": 1118.8125,
+        "bottom": 1178.4193522135417
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "and skills",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 852.65625,
+        "top": 901.3789876302084,
+        "right": 941.109375,
+        "bottom": 922.1370849609375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Resume Worded University",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 852.65625,
+        "top": 712.9596354166666,
+        "right": 1034.34375,
+        "bottom": 765.6531575520834
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Bachelor ofScience: ComputerandInformation Sciences",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 853.453125,
+        "top": 637.1128743489584,
+        "right": 1094.90625,
+        "bottom": 704.1774088541666
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Completedone-year study abroadwith Singapore University.",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 888.515625,
+        "top": 400.790283203125,
+        "right": 1082.15625,
+        "bottom": 484.62093098958326
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "OTHER",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 852.65625,
+        "top": 343.306396484375,
+        "right": 917.203125,
+        "bottom": 364.86287434895826
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Offeredapproachestosimplifydataintegrationprocessesandstandardize datafeeds acrosssystems,reducingdata latencyfrom8daysto1day.",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 116.34375,
+        "top": 266.66121419270826,
+        "right": 781.734375,
+        "bottom": 319.35481770833326
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Implementeddemandforecastingmodels,improvingdataforecastaccuracy by 45%,also won'Innovation award'for the same project.",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 116.34375,
+        "top": 668.25,
+        "right": 793.6875,
+        "bottom": 719.3467610677084
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Providedguidancetomembersandparticipatedincross-departmental projectsestablishingthecompanyasaleaderindatascience.",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 117.140625,
+        "top": 554.8789876302083,
+        "right": 749.0625,
+        "bottom": 604.3789876302084
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "ResumeWorded,Boston,MA DataScientistIntern",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 82.078125,
+        "top": 452.68546549479174,
+        "right": 400.03125,
+        "bottom": 514.1612141927083
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Awards:Dean'sList 2015 (Top 10%).",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 888.515625,
+        "top": 498.99186197916674,
+        "right": 1114.03125,
+        "bottom": 548.4918619791667
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "January2015-June2015",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 80.484375,
+        "top": 415.16121419270826,
+        "right": 325.921875,
+        "bottom": 437.51611328125
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Workedacrossmultiplefunctionaldepartmentstranslatingbusiness problemsintosolvablecaseswith emphasisonanticipatingfuture ad-hoc needs.",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 113.953125,
+        "top": 327.338623046875,
+        "right": 775.359375,
+        "bottom": 403.18546549479174
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Volunteeredina 3-monthdatascience Project,run byACB CorporationInc.",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 896.484375,
+        "top": 203.58870442708326,
+        "right": 1094.109375,
+        "bottom": 312.96769205729174
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "CollaboratedwithotherteamsacrossMicrosoftanddevelopedkeymetrics to achievebusinessoutcomes.",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 115.546875,
+        "top": 211.57259114583326,
+        "right": 783.328125,
+        "bottom": 263.46769205729174
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Consideredavaluabledevelopmentteam asset,awardedwith'Intern AppreciationLetter'oncompletinginternship",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 116.34375,
+        "top": 153.29020182291674,
+        "right": 729.140625,
+        "bottom": 205.98388671875
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    }
+  ]
+}

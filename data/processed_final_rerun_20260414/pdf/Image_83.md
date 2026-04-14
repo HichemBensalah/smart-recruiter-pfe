@@ -1,0 +1,54 @@
+## HEADER
+
+Kenny Gruchalla CurriculumVitae
+
+## EDUCATION
+
+PersonalInformation
+(available uponrequest)
+Postal Address:
+### Denver,CO80205
+- 303-275-3713
+- Office:
+- 720-394-9347
+- Cell:
+- gruchalla@gmail.com
+- E-mail:
+- http://kenny.gruchalla.org/research.html
+- Web:
+### Ph.D.ComputerScience,UniversityofColoradoatBoulder,Boulder,CO.
+**Date:** 2009
+- Thesis:ProgressiveVisualization-DrivenMultivariateFeatureDefinition andAnalysis Advisor:ProlessorElizabeth Bradley GPA:3.9/4.0
+### M.S.ComputerScience,Universityof Colorado atBoulder,Boulder,CO.
+**Date:** 1995
+- Thesis:ImmersiveWell-PathPlanning:Irvestigating theaddedvalueofimmersivevisualization Advisor:Professor ClaytonLewis
+- GPA:3.9/4.0
+### B.S.ComputerScience,NewMexico Institute ofMining and Technology,Socorro,NM. GPA:3.5/4.0
+
+## PROFESSIONAL EXPERIENCE
+
+Experience
+### National Renewable Energy Laboratory(NREL),Golden,CO(June20o9-present)
+- SeniorScientist.
+- Jun2009-present
+### IleadNREL'sscientificdatavisualizationeffortsin support ofrenewableenergyresearch, collaboratingwithNRELdomainscientistsin thevisualization of complex,large,multivariate data.
+### Universityof ColoradoatBoulder,Boulder,CO（April2001-present)
+### AssistantProfessorAdjunct,
+- May2011-present
+- DepartmentofComputerScience.
+- Iconductresearchandoverseestudentresearchinscientificdatavisualization.
+### Professional ResearchAssistant,
+**Date:** Jan 2004-Aug 2004
+- Apr2001-Mar2006
+- Jul2002-Aug2003
+- KGruchall
+
+## TECHNICAL SKILLS
+
+CADSwES(CenterforAdvancedDecisionSupportforWaterandEnvironmentalSystems). mercialgraphically-based decision support software system implementing object-oriented simulation,rule-basedsimulation,andlinearoptimization tomodel watershedphysicalpro- cesses,waterownership,and policy.
+Professional ResearchAssistant,
+DepartmentofMolecular,Cellular,andDevelopmentalBiology.
+Icollaborated on thedesignanddevelopmentofapilotstudy toinvestigate theaddedvalue ofusingimmersivevisualizationasa molecularresearch tool.
+Graduate Research Assistant,
+BPCenterforVisualization.
+Idesignedanddevelopedaninteractive3Dimmersive applicationcapableof integratingge- ological,geophysical,reservoirandwelldatawithdrillingandplatformplanninginanimmer- sivevirtualerwironment.

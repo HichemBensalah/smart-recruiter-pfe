@@ -1,0 +1,116 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\0_anonyme.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\0_anonyme.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "pdf:0_anonyme",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Multi-skilled engineering manager with experience in project management, electrical engineering, and team leadership",
+      "hard_skills": [
+        "Microsoft Office",
+        "Microsoft Project",
+        "Microsoft Visio",
+        "IBM Rationale DOORS",
+        "Earned Value Management (EVM)",
+        "Hardware Design",
+        "Electrical Engineering",
+        "Project Management",
+        "DC Power Distribution",
+        "Video Distribution",
+        "Control Loaders",
+        "Communication Systems"
+      ],
+      "soft_skills": [
+        "Team Leadership",
+        "Conflict Management",
+        "Continuous Improvement",
+        "Leadership Development",
+        "Peer Review",
+        "Process Improvement",
+        "Risk Analysis",
+        "Staffing",
+        "Presentations"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Multi-Skilled Engineering Manager",
+        "company": null,
+        "start_date": "03/2015",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Led a hardware team through the successful development and delivery of multiple F-15 training systems",
+          "Managed a team of sixteen electrical and mechanical engineers",
+          "Implemented first-time quality metrics across Boeing's GS&S division",
+          "Led multiple initiatives with a goal of continuous improvement"
+        ]
+      },
+      {
+        "job_title": "Lead Systems Engineer",
+        "company": null,
+        "start_date": "08/2008",
+        "end_date": "03/2015",
+        "city": null,
+        "responsibilities": [
+          "Worked with engineers to aid them in their career development",
+          "Led electrical engineers"
+        ]
+      },
+      {
+        "job_title": "Lead Electrical Engineer",
+        "company": null,
+        "start_date": "05/2005",
+        "end_date": "08/2008",
+        "city": null,
+        "responsibilities": [
+          "Designed electrical systems to be integrated in military flight simulators",
+          "Designed wire harnesses for military flight simulators"
+        ]
+      },
+      {
+        "job_title": "Electrical Engineer",
+        "company": null,
+        "start_date": "11/2001",
+        "end_date": "05/2005",
+        "city": null,
+        "responsibilities": [
+          "Designed electrical systems to be integrated in military flight simulators",
+          "Designed wire harnesses for military flight simulators"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Business Administration (MBA)",
+        "school": "Indiana University",
+        "year": null
+      },
+      {
+        "degree": "Bachelor of Science in Electrical Engineering",
+        "school": "University of Evansville",
+        "year": null
+      },
+      {
+        "degree": "Project Management Graduate Certificate",
+        "school": "Villanova University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:44:05.173664+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7603
+    }
+  }
+}

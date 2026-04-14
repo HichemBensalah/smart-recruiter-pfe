@@ -1,0 +1,102 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\1_Jessica.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\1_Jessica.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "resumesample@example.com",
+    "bio": {
+      "full_name": "JESSICA CLAIRE",
+      "email": "resumesample@example.com",
+      "phone": "(555)432-1000",
+      "location": "100Montgomery St.10th Floor"
+    },
+    "expertise": {
+      "summary": "Forward-thinking Bioinformatics and Data Science Engineer with experience in evaluating bioinformatics data and software-based, statistical and data mining approaches.",
+      "hard_skills": [
+        "Linux",
+        "bash",
+        "MySQL",
+        "Microsoft SQL Server",
+        "Apache Drill",
+        "Python",
+        "Java",
+        "Visual Basic",
+        "QlikSense",
+        "iStar",
+        "Jira",
+        "MsOffice",
+        "Office 365",
+        "Teams",
+        "OneDrive",
+        "Excel",
+        "Word"
+      ],
+      "soft_skills": [
+        "Excellent documentation",
+        "reporting",
+        "presentation",
+        "public speaking",
+        "customer service",
+        "teamwork",
+        "problem solving",
+        "independent judgment",
+        "project oversight"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Bioinformatics and Data Science Engineer",
+        "company": "Konica Minolta",
+        "start_date": null,
+        "end_date": null,
+        "city": "City",
+        "responsibilities": [
+          "Demonstrating ORIEN Informatics portal and collecting feedback and feature requirements from researchers",
+          "Contributing to monthly clinical/molecular data releases",
+          "Connecting to relational database models and SQL databases",
+          "Collaborating with team members to implement pipelines in a Linux-based environment and DNAnexus",
+          "Translating/piloting common bioinformatics tools to applications suitable for non-bioinformatics biologists and clinicians",
+          "Pilot developer: designing features and pilot applications",
+          "Adapting quickly to new software systems, data structure, collection and trend analysis as required in a fast-paced environment",
+          "Working collaboratively in a team of lead medical oncologist to automate the collection and reporting of CAR-T cell therapy data",
+          "Automating processes using R and MySQL to support the data needs of ICE-T leadership",
+          "Creating queries in a MySQL relational database to supplement IT reporting",
+          "Commitment to providing outstanding customer service by maintaining positive relationships with both internal and external customers"
+        ]
+      },
+      {
+        "job_title": "BMT Data Analyst",
+        "company": "Bionano Genomics, Inc.",
+        "start_date": "05/2018",
+        "end_date": "12/2018",
+        "city": "San Diego",
+        "responsibilities": [
+          "Knowledge of QlikSense",
+          "Experience using iStar and Jira for triaging database issues collaboratively between departments",
+          "Active participant of ICE-T tumor board"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science: Honors",
+        "school": "University of Waterloo",
+        "year": "06/2015"
+      },
+      {
+        "degree": "High School Diploma",
+        "school": "Heart Lake Secondary School",
+        "year": "2010"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:44:08.606637+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.8483
+    }
+  }
+}

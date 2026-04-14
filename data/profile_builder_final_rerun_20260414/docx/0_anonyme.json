@@ -1,0 +1,108 @@
+{
+  "source_path": "data\\raw_cv\\docx\\0_anonyme.docx",
+  "artifact_path": "data\\processed_final_rerun_20260414\\docx\\0_anonyme.json",
+  "source_format": "docx",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "docx:0_anonyme",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Electrical Engineer with experience in hardware design, project management, and team leadership",
+      "hard_skills": [
+        "Microsoft Project",
+        "Microsoft Visio",
+        "Earned Value Management (EVM)",
+        "DC power distribution",
+        "Hardware Design",
+        "Systems Engineering",
+        "Siemens",
+        "CMPro"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Presentations",
+        "Risk Analysis",
+        "Process Improvement",
+        "Team Leadership",
+        "Conflict Management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Electrical Engineer",
+        "company": null,
+        "start_date": "11/2001",
+        "end_date": "05/2005",
+        "city": null,
+        "responsibilities": [
+          "Designed electrical systems for military flight simulators",
+          "Developed design specifications, schematics and assembly drawings",
+          "Played an integral part in the production of the first high fidelity F-15 flight simulator"
+        ]
+      },
+      {
+        "job_title": "Lead Electrical Engineer",
+        "company": "Company Name",
+        "start_date": "05/2005",
+        "end_date": "08/2008",
+        "city": "City",
+        "responsibilities": [
+          "Led electrical engineering for the design, development, manufacturing and delivery of military flight simulators",
+          "Initiated the lean practice of performing hardware checkout in the final phase of manufacturing"
+        ]
+      },
+      {
+        "job_title": "Lead Systems Engineer",
+        "company": null,
+        "start_date": "08/2008",
+        "end_date": "03/2015",
+        "city": null,
+        "responsibilities": [
+          "Led a multi-functional team in the development of hardware systems",
+          "Managed communication between multiple teams"
+        ]
+      },
+      {
+        "job_title": "Multi-Skilled Engineering Manager",
+        "company": "Company Name",
+        "start_date": "03/2015",
+        "end_date": null,
+        "city": "City",
+        "responsibilities": [
+          "Tested and implemented first time quality metrics",
+          "Recognized as a Technical Lead Engineer"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Business Administration (MBA)",
+        "school": "Indiana University",
+        "year": null
+      },
+      {
+        "degree": "Bachelor of Science: Electrical Engineering",
+        "school": "University of Evansville",
+        "year": null
+      },
+      {
+        "degree": "Project Management Graduate Certificate",
+        "school": "Villanova University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:51:10.356222+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7472
+    }
+  }
+}

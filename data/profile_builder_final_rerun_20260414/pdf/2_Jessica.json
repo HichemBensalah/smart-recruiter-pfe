@@ -1,0 +1,90 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\2_Jessica.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\2_Jessica.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "resumesample@example.com",
+    "bio": {
+      "full_name": "JESSICACLAIRE",
+      "email": "resumesample@example.com",
+      "phone": "(555)432-1000",
+      "location": "MontgomeryStreet,SanFrancisco,CA94105"
+    },
+    "expertise": {
+      "summary": "Sales Associate with customer service and sales experience, and data analysis skills",
+      "hard_skills": [
+        "Java",
+        "Python",
+        "qPCR",
+        "RT-PCR",
+        "Gel Electrophoresis",
+        "Plasmid Preparation/Extraction",
+        "Tableau",
+        "Microsoft Power Bl",
+        "ggplot2",
+        "umPy",
+        "Pandas",
+        "Matplotlib",
+        "Seabon",
+        "SciKit-Learn"
+      ],
+      "soft_skills": [
+        "Public Speaking",
+        "Writing",
+        "Presentation",
+        "Leadership"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Amita Health",
+        "start_date": "06/2019",
+        "end_date": "08/2019",
+        "city": "Colon, MI",
+        "responsibilities": [
+          "Completed an immersive 10-week program",
+          "Utilized Python to develop Web Scraping, Data Visualization, and Munging Techniques"
+        ]
+      },
+      {
+        "job_title": "Data Science Intern",
+        "company": "Amita Health",
+        "start_date": "01/2019",
+        "end_date": "05/2019",
+        "city": "Columbus, IN",
+        "responsibilities": [
+          "Completed an immersive 10-week program",
+          "Utilized Python to develop Web Scraping, Data Visualization, and Munging Techniques"
+        ]
+      },
+      {
+        "job_title": "Undergraduate Research Assistant",
+        "company": "Penn State University",
+        "start_date": "05/2018",
+        "end_date": "12/2018",
+        "city": "University Park, PA",
+        "responsibilities": [
+          "Mastered wet lab techniques",
+          "Worked with PCR sequencing, gel purification, plasmid extraction, and DNA ligation"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "school": "University of Virginia",
+        "year": "05/2021"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:44:11.782570+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.8559
+    }
+  }
+}

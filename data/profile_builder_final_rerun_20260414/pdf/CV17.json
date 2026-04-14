@@ -1,0 +1,10 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV17.json",
+  "source_format": "pdf",
+  "status": "failed",
+  "mode": "dry-run",
+  "error": "1 validation error for CandidateProfilePayload\neducation.0.degree\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": null
+}

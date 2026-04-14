@@ -1,0 +1,82 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_66.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_66.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "pdf:Image_66",
+    "bio": {
+      "full_name": "Julio Cremin",
+      "email": null,
+      "phone": "+1(555)8483587",
+      "location": "Chicago, IL"
+    },
+    "expertise": {
+      "summary": "Data Science Consultant with experience in web development, data warehousing, and big data solutions",
+      "hard_skills": [
+        "node.js",
+        "Hadoop",
+        "Spark",
+        "NoSQL"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "SENIOR DATA SCIENCE CONSULTANT",
+        "company": null,
+        "start_date": "05/2015",
+        "end_date": "present",
+        "city": "New York, NY",
+        "responsibilities": [
+          "Data Warehousing/Business Intelligence experience",
+          "Experience with Big Data solutions",
+          "Experience with business areas (retail, telco, banking, ecommerce)",
+          "Computers science publications and proven scientific track record"
+        ]
+      },
+      {
+        "job_title": "HR ANALYTICS DATA SCIENCE CONSULTANT",
+        "company": null,
+        "start_date": "04/2010",
+        "end_date": "03/2015",
+        "city": "Chicago, IL",
+        "responsibilities": [
+          "Research and construct problem frames",
+          "Develop and test heuristics",
+          "Perform data exploration and data mining",
+          "Create and run models",
+          "Responsible for working with leadership in the advancement of big data and analytics projects"
+        ]
+      },
+      {
+        "job_title": "DATA SCIENCE CONSULTANT",
+        "company": null,
+        "start_date": "07/2003",
+        "end_date": "11/2009",
+        "city": "San Francisco, CA",
+        "responsibilities": [
+          "Work independently to design and develop Advanced Analytics solutions",
+          "Datamine a variety of different data sources and types",
+          "Lead analysis, architecture, design, and development of data warehouse and business intelligence solutions",
+          "Mentor junior team members"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's Degree",
+        "school": "University of Tennessee",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:49:56.194169+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7834
+    }
+  }
+}

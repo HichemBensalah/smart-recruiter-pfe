@@ -1,0 +1,41 @@
+## JERROLD JOHNSTON
+
+78789 Thomas Lake, Chicago, IL
+PHONE
++1(555)338 0835
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+Muller Inc
+### NewYork,NY//DirectorofDataScience//02/2019-present
+- s
+- ·ProductRoadmapCreation/Collaboration
+### Hyatt, Jacobs and Lindgren
+**Date:** NewYork,NY//DataScience//11/2014-09/2018
+### ·ActivelyenrolledinaBachelor's,Master'sorPhDprograminComputerScience,Mathematics,Statistics,orrelatedarea withdemonstratedexperiencebuildingmachinelearningmodels
+
+## ACADEMIC PROJECTS
+
+·ChampionAl/analyticsprojectstoallstakeholders
+·Implementandsecuremechanismstoenforcedataprivacyanddataprotectionregulations
+
+## TECHNICAL SKILLS
+
+·SoftwareskillsinPythonandapassiontodevelopthem
+·WorkasaBusinessAnalysttoconvertSubjectMatterExpertandCustomerconceptsintoconcisebusinesscases
+SKILLS
+·Usingdatavisualizationtools
+·Programming languages such asPython and/or R
+·Handlingterabytesizedatasets
+·Writing and tuning SQL
+
+## EDUCATION
+
+RhodeIslandSchoolofDesign
+Bachelor'sinComputerScience
+
+## LANGUAGES
+
+·ImperativeprogramminglanguagessuchasJavaorC/C++
+·AWStechnologieslikeRedshift,S3,EC2,DataPipeline,EMR

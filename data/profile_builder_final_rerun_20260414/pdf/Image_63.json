@@ -1,0 +1,64 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_63.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_63.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "info@qwikresume.com",
+    "bio": {
+      "full_name": "ROBERTSMITH",
+      "email": "info@qwikresume.com",
+      "phone": "(0123)-456-789",
+      "location": "2259 Oak Street, Old Forge, New York, 13420"
+    },
+    "expertise": {
+      "summary": "Expertise in problem solving and working with business users and colleagues",
+      "hard_skills": [
+        "Python",
+        "Java",
+        "SPSS",
+        "Excel",
+        "MS Office",
+        "LISREL",
+        "Google Analytics",
+        "PuTTY",
+        "Perl CMD",
+        "Surveymonkey"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "Bestbuy",
+        "start_date": "January 2016",
+        "end_date": "2019",
+        "city": null,
+        "responsibilities": [
+          "Responsible for data collection, cleansing and variable analysis",
+          "Designed technical solution roadmap to deal with noise in sales data"
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "ABCCorporation",
+        "start_date": "December 2014",
+        "end_date": "December 2015",
+        "city": null,
+        "responsibilities": [
+          "Worked with different departments for data source, responsible for collecting Macro-economy datasets",
+          "Responsible in data pattern recognition and data cleaning"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:49:36.110979+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7643
+    }
+  }
+}

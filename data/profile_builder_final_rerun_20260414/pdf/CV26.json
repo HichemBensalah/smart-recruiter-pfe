@@ -1,0 +1,82 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV26.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV26.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "pdf:CV26",
+    "bio": {
+      "full_name": "Karina Blick",
+      "email": null,
+      "phone": "+1（555)3342620",
+      "location": "New York, NY"
+    },
+    "expertise": {
+      "summary": "Data scientist with experience in analytics, machine learning, and data science",
+      "hard_skills": [
+        "Python",
+        "Knime",
+        "MatLab"
+      ],
+      "soft_skills": [
+        "Teamworker",
+        "Fast learner",
+        "Self-directed",
+        "Self-motivated"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "DATASCIENTIST,ANALYTICSOFFICE",
+        "company": null,
+        "start_date": "09/2015",
+        "end_date": "present",
+        "city": "Detroit, MI",
+        "responsibilities": [
+          "Build and develop trust-based relationships with operator customer's middle and senior management",
+          "Develop tools and templates to assist in operationalizing analytics insights",
+          "Provide opportunity leads to sales in order to maximize business value of Nokia solutions to the customer"
+        ]
+      },
+      {
+        "job_title": "DATASCIENTIST,ANALYTICS",
+        "company": null,
+        "start_date": "02/2013",
+        "end_date": "06/2015",
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "Building and analyzing dashboards and reports",
+          "Spreading best practices to analytics and product teams",
+          "Evaluating and defining metrics"
+        ]
+      },
+      {
+        "job_title": "DATASCIENTISTANALYTICS",
+        "company": null,
+        "start_date": "04/2009",
+        "end_date": "01/2013",
+        "city": "New York, NY",
+        "responsibilities": [
+          "Work alongside ETL engineers to establish an analytics platform",
+          "Creating automated anomaly detection systems",
+          "Selecting features, building and optimizing classifiers using machine learning techniques"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's Degree in Computer Science",
+        "school": "INDIANAUNIVERSITY",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:46:44.899709+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7521
+    }
+  }
+}

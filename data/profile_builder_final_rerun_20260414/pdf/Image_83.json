@@ -1,0 +1,93 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_83.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_83.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "gruchalla@gmail.com",
+    "bio": {
+      "full_name": "Kenny Gruchalla",
+      "email": "gruchalla@gmail.com",
+      "phone": "303-275-3713",
+      "location": "Denver, CO 80205"
+    },
+    "expertise": {
+      "summary": "Scientific data visualization expert with experience in renewable energy research and immersive visualization",
+      "hard_skills": [
+        "CADSwES",
+        "object-oriented simulation",
+        "rule-based simulation",
+        "linear optimization"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Senior Scientist",
+        "company": "National Renewable Energy Laboratory (NREL)",
+        "start_date": "2009-06",
+        "end_date": null,
+        "city": "Golden, CO",
+        "responsibilities": [
+          "Lead NREL's scientific data visualization efforts in support of renewable energy research",
+          "Collaborate with NREL domain scientists in the visualization of complex, large, multivariate data"
+        ]
+      },
+      {
+        "job_title": "Assistant Professor Adjunct",
+        "company": "University of Colorado at Boulder",
+        "start_date": "2011-05",
+        "end_date": null,
+        "city": "Boulder, CO",
+        "responsibilities": [
+          "Conduct research and oversee student research in scientific data visualization"
+        ]
+      },
+      {
+        "job_title": "Professional Research Assistant",
+        "company": "University of Colorado at Boulder",
+        "start_date": "2001-04",
+        "end_date": "2006-03",
+        "city": "Boulder, CO",
+        "responsibilities": [
+          "Collaborated on the design and development of a pilot study to investigate the added value of using immersive visualization as a molecular research tool"
+        ]
+      },
+      {
+        "job_title": "Graduate Research Assistant",
+        "company": "BPCenter for Visualization",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Designed and developed an interactive 3D immersive application capable of integrating geological, geophysical, reservoir and well data with drilling and platform planning in an immersive virtual environment"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ph.D. Computer Science",
+        "school": "University of Colorado at Boulder",
+        "year": "2009"
+      },
+      {
+        "degree": "M.S. Computer Science",
+        "school": "University of Colorado at Boulder",
+        "year": "1995"
+      },
+      {
+        "degree": "B.S. Computer Science",
+        "school": "New Mexico Institute of Mining and Technology",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:50:46.745063+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7363
+    }
+  }
+}

@@ -1,0 +1,1420 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_73.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "partial",
+  "raw_text": "HEADER\n8854MitchellNeck, NewYork,NY\nSONA MAYERT\n+1(555)472 1790\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nHarber Inc\n06/2020-present\nDetroit,MI\nDirector of Data Science\n·Experiencewithformal researchprocesses and being a part of a research-oriented group\n·Demonstrated experience conceiving,building and leading successful analytics programs utilizing key technologies (e.g.. ML/Al)withinhealthcare organizations\n·Proficiencyandexperiencewithseveral modeling techniquessuch as generalized linear models, decision trees,ensemblelearning,regularized models(ridge/lasso/nets),clustering or neuralnetworks\nHodkiewicz-Witting 09/2017-04/2020\n·Advanced knowledge and experience with best in class data strategy design\n·Fastlearnerwhoisdata-drivenand outcome-focused\nDetroit,Ml Data Science\n·Hands-ondatasciencemanagerwhocanlead andconduct deep-dive analyses to identify the needs and priorities of the business\nEDUCATION\nKent State University\nBachelor'sin ComputerScience\n·Results-oriented leader with a proven trackrecord of leading a data transformationinitiative\nTECHNICAL SKILLS\n·Superior knowledge of statistical and analytical methodology andtools\n·Abackgroundinbigdataecosystems\nSKILLS\n·Knowledge of Aws Data Lake services, neural networks, and experimentation methodologies\n·Solidcoding skills andproficientwith at least one programming language (C++,Java,Python,Scala etc.)\n·ABtestingandexperimentaldesignprocesses\nCodingskills(preferrably Python/Pyspark)\nBigdataframeworksandpipelines\n·Determineperceived andcommercialvalue,costof developmentresources(duration,tools)andprioritise effectively\n·Interactivedatavisualization\n·Data and signal processing (eg, time seriesmodeling)\n·Support rapid prototyping of tools to demonstrate value\n·Scikit-learn,pandas,psycopg2,pytorch, tensorflow\n·Dask,joblib,ApacheAirflow\n·Background innetworking/wireless communication/networkprotocols/ WiFi\n·Dockerimages,kubernetes\nPyCharm,Visual StudioCode\n·Comfortable with setting up experimental testbeds\nLogging, pytest\n·Familiarity with Digital Signal Processing",
+  "markdown": "## HEADER\n\n8854MitchellNeck, NewYork,NY\n\n## SONA MAYERT\n\n+1(555)472 1790\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nHarber Inc\n06/2020-present\n### Detroit,MI\n- Director of Data Science\n- ·Experiencewithformal researchprocesses and being a part of a research-oriented group\n### ·Demonstrated experience conceiving,building and leading successful analytics programs utilizing key technologies (e.g.. ML/Al)withinhealthcare organizations\n### ·Proficiencyandexperiencewithseveral modeling techniquessuch as generalized linear models, decision trees,ensemblelearning,regularized models(ridge/lasso/nets),clustering or neuralnetworks\n**Date:** Hodkiewicz-Witting 09/2017-04/2020\n- ·Advanced knowledge and experience with best in class data strategy design\n- ·Fastlearnerwhoisdata-drivenand outcome-focused\n### Detroit,Ml Data Science\n- ·Hands-ondatasciencemanagerwhocanlead andconduct deep-dive analyses to identify the needs and priorities of the business\n\n## EDUCATION\n\n### Kent State University\n- Bachelor'sin ComputerScience\n- ·Results-oriented leader with a proven trackrecord of leading a data transformationinitiative\n\n## TECHNICAL SKILLS\n\n·Superior knowledge of statistical and analytical methodology andtools\n·Abackgroundinbigdataecosystems\nSKILLS\n·Knowledge of Aws Data Lake services, neural networks, and experimentation methodologies\n·Solidcoding skills andproficientwith at least one programming language (C++,Java,Python,Scala etc.)\n·ABtestingandexperimentaldesignprocesses\nCodingskills(preferrably Python/Pyspark)\nBigdataframeworksandpipelines\n·Determineperceived andcommercialvalue,costof developmentresources(duration,tools)andprioritise effectively\n·Interactivedatavisualization\n·Data and signal processing (eg, time seriesmodeling)\n·Support rapid prototyping of tools to demonstrate value\n·Scikit-learn,pandas,psycopg2,pytorch, tensorflow\n·Dask,joblib,ApacheAirflow\n·Background innetworking/wireless communication/networkprotocols/ WiFi\n·Dockerimages,kubernetes\nPyCharm,Visual StudioCode\n·Comfortable with setting up experimental testbeds\nLogging, pytest\n·Familiarity with Digital Signal Processing",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "8854MitchellNeck, NewYork,NY"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "8854MitchellNeck, NewYork,NY",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 950.1913248697916,
+            "top": 1412.3362731933594,
+            "right": 1130.78759765625,
+            "bottom": 1463.3517252604167
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "SONA MAYERT",
+      "section_type": "other",
+      "content": [
+        "+1(555)472 1790"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "+1(555)472 1790",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 964.42919921875,
+            "top": 1365.1279398600261,
+            "right": 1128.53955078125,
+            "bottom": 1387.970682779948
+          },
+          "section_title": "SONA MAYERT"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "EXPERIENCE",
+        "Harber Inc",
+        "06/2020-present"
+      ],
+      "items": [
+        {
+          "title": "Detroit,MI",
+          "date": null,
+          "location": null,
+          "details": [
+            "Director of Data Science",
+            "·Experiencewithformal researchprocesses and being a part of a research-oriented group"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Detroit,MI",
+              "page_no": 1,
+              "block_indices": [
+                4
+              ],
+              "bbox": {
+                "left": 47.209818522135414,
+                "top": 1078.0708414713542,
+                "right": 152.8698933919271,
+                "bottom": 1098.6293131510417
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Director of Data Science",
+              "page_no": 1,
+              "block_indices": [
+                5
+              ],
+              "bbox": {
+                "left": 170.8545939127604,
+                "top": 1075.7865397135417,
+                "right": 405.4049479166667,
+                "bottom": 1100.1521402994792
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "·Experiencewithformal researchprocesses and being a part of a research-oriented group",
+              "page_no": 1,
+              "block_indices": [
+                6
+              ],
+              "bbox": {
+                "left": 62.19706726074219,
+                "top": 996.598388671875,
+                "right": 675.1753743489584,
+                "bottom": 1049.1366780598958
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "·Demonstrated experience conceiving,building and leading successful analytics programs utilizing key technologies (e.g.. ML/Al)withinhealthcare organizations",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "·Demonstrated experience conceiving,building and leading successful analytics programs utilizing key technologies (e.g.. ML/Al)withinhealthcare organizations",
+              "page_no": 1,
+              "block_indices": [
+                10
+              ],
+              "bbox": {
+                "left": 61.44770304361979,
+                "top": 778.8308919270834,
+                "right": 660.9375,
+                "bottom": 859.5419514973959
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "·Proficiencyandexperiencewithseveral modeling techniquessuch as generalized linear models, decision trees,ensemblelearning,regularized models(ridge/lasso/nets),clustering or neuralnetworks",
+          "date": "Hodkiewicz-Witting 09/2017-04/2020",
+          "location": null,
+          "details": [
+            "·Advanced knowledge and experience with best in class data strategy design",
+            "·Fastlearnerwhoisdata-drivenand outcome-focused"
+          ],
+          "evidence_spans": [
+            {
+              "text": "·Proficiencyandexperiencewithseveral modeling techniquessuch as generalized linear models, decision trees,ensemblelearning,regularized models(ridge/lasso/nets),clustering or neuralnetworks",
+              "page_no": 1,
+              "block_indices": [
+                29
+              ],
+              "bbox": {
+                "left": 735.1243489583334,
+                "top": 625.0231119791666,
+                "right": 1126.2914225260417,
+                "bottom": 782.6380208333334
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Hodkiewicz-Witting 09/2017-04/2020",
+              "page_no": 1,
+              "block_indices": [
+                14
+              ],
+              "bbox": {
+                "left": 46.46045939127604,
+                "top": 573.2462565104166,
+                "right": 442.8730875651042,
+                "bottom": 599.1346842447916
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "·Advanced knowledge and experience with best in class data strategy design",
+              "page_no": 1,
+              "block_indices": [
+                13
+              ],
+              "bbox": {
+                "left": 60.6983388264974,
+                "top": 641.7744954427084,
+                "right": 654.9425862630209,
+                "bottom": 696.5970865885416
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "·Fastlearnerwhoisdata-drivenand outcome-focused",
+              "page_no": 1,
+              "block_indices": [
+                30
+              ],
+              "bbox": {
+                "left": 734.375,
+                "top": 571.723388671875,
+                "right": 1084.3271484375,
+                "bottom": 620.45458984375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Detroit,Ml Data Science",
+          "date": null,
+          "location": null,
+          "details": [
+            "·Hands-ondatasciencemanagerwhocanlead andconduct deep-dive analyses to identify the needs and priorities of the business"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Detroit,Ml Data Science",
+              "page_no": 1,
+              "block_indices": [
+                15
+              ],
+              "bbox": {
+                "left": 46.46045939127604,
+                "top": 542.7892252604166,
+                "right": 297.49680582682294,
+                "bottom": 567.1548665364584
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "·Hands-ondatasciencemanagerwhocanlead andconduct deep-dive analyses to identify the needs and priorities of the business",
+              "page_no": 1,
+              "block_indices": [
+                23
+              ],
+              "bbox": {
+                "left": 63.69579060872396,
+                "top": 193.29532877604174,
+                "right": 655.6919352213541,
+                "bottom": 270.96061197916674
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "EXPERIENCE",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 47.95918273925781,
+            "top": 1171.72607421875,
+            "right": 200.0797119140625,
+            "bottom": 1196.8530883789062
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Harber Inc",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 45.71109517415365,
+            "top": 1106.2435302734375,
+            "right": 157.3660685221354,
+            "bottom": 1132.1319986979167
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "06/2020-present",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 175.35076904296875,
+            "top": 1105.4821370442708,
+            "right": 340.95981852213544,
+            "bottom": 1128.3248697916667
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Detroit,MI",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 47.209818522135414,
+            "top": 1078.0708414713542,
+            "right": 152.8698933919271,
+            "bottom": 1098.6293131510417
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Director of Data Science",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 170.8545939127604,
+            "top": 1075.7865397135417,
+            "right": 405.4049479166667,
+            "bottom": 1100.1521402994792
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·Experiencewithformal researchprocesses and being a part of a research-oriented group",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 62.19706726074219,
+            "top": 996.598388671875,
+            "right": 675.1753743489584,
+            "bottom": 1049.1366780598958
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·Demonstrated experience conceiving,building and leading successful analytics programs utilizing key technologies (e.g.. ML/Al)withinhealthcare organizations",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 61.44770304361979,
+            "top": 778.8308919270834,
+            "right": 660.9375,
+            "bottom": 859.5419514973959
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·Proficiencyandexperiencewithseveral modeling techniquessuch as generalized linear models, decision trees,ensemblelearning,regularized models(ridge/lasso/nets),clustering or neuralnetworks",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 735.1243489583334,
+            "top": 625.0231119791666,
+            "right": 1126.2914225260417,
+            "bottom": 782.6380208333334
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Hodkiewicz-Witting 09/2017-04/2020",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 46.46045939127604,
+            "top": 573.2462565104166,
+            "right": 442.8730875651042,
+            "bottom": 599.1346842447916
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·Advanced knowledge and experience with best in class data strategy design",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 60.6983388264974,
+            "top": 641.7744954427084,
+            "right": 654.9425862630209,
+            "bottom": 696.5970865885416
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·Fastlearnerwhoisdata-drivenand outcome-focused",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 734.375,
+            "top": 571.723388671875,
+            "right": 1084.3271484375,
+            "bottom": 620.45458984375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Detroit,Ml Data Science",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 46.46045939127604,
+            "top": 542.7892252604166,
+            "right": 297.49680582682294,
+            "bottom": 567.1548665364584
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·Hands-ondatasciencemanagerwhocanlead andconduct deep-dive analyses to identify the needs and priorities of the business",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 63.69579060872396,
+            "top": 193.29532877604174,
+            "right": 655.6919352213541,
+            "bottom": 270.96061197916674
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [],
+      "items": [
+        {
+          "title": "Kent State University",
+          "date": null,
+          "location": null,
+          "details": [
+            "Bachelor'sin ComputerScience",
+            "·Results-oriented leader with a proven trackrecord of leading a data transformationinitiative"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Kent State University",
+              "page_no": 1,
+              "block_indices": [
+                25
+              ],
+              "bbox": {
+                "left": 717.8889973958334,
+                "top": 1103.9592692057292,
+                "right": 932.2066243489584,
+                "bottom": 1132.1319986979167
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Bachelor'sin ComputerScience",
+              "page_no": 1,
+              "block_indices": [
+                26
+              ],
+              "bbox": {
+                "left": 718.6383463541666,
+                "top": 1075.025146484375,
+                "right": 1022.8794759114584,
+                "bottom": 1098.6293131510417
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "·Results-oriented leader with a proven trackrecord of leading a data transformationinitiative",
+              "page_no": 1,
+              "block_indices": [
+                11
+              ],
+              "bbox": {
+                "left": 60.6983388264974,
+                "top": 725.5311686197916,
+                "right": 673.6766357421875,
+                "bottom": 779.5923665364584
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Kent State University",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 717.8889973958334,
+            "top": 1103.9592692057292,
+            "right": 932.2066243489584,
+            "bottom": 1132.1319986979167
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Bachelor'sin ComputerScience",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 718.6383463541666,
+            "top": 1075.025146484375,
+            "right": 1022.8794759114584,
+            "bottom": 1098.6293131510417
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "·Results-oriented leader with a proven trackrecord of leading a data transformationinitiative",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 60.6983388264974,
+            "top": 725.5311686197916,
+            "right": 673.6766357421875,
+            "bottom": 779.5923665364584
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "·Superior knowledge of statistical and analytical methodology andtools",
+        "·Abackgroundinbigdataecosystems",
+        "SKILLS",
+        "·Knowledge of Aws Data Lake services, neural networks, and experimentation methodologies",
+        "·Solidcoding skills andproficientwith at least one programming language (C++,Java,Python,Scala etc.)",
+        "·ABtestingandexperimentaldesignprocesses",
+        "Codingskills(preferrably Python/Pyspark)",
+        "Bigdataframeworksandpipelines",
+        "·Determineperceived andcommercialvalue,costof developmentresources(duration,tools)andprioritise effectively",
+        "·Interactivedatavisualization",
+        "·Data and signal processing (eg, time seriesmodeling)",
+        "·Support rapid prototyping of tools to demonstrate value",
+        "·Scikit-learn,pandas,psycopg2,pytorch, tensorflow",
+        "·Dask,joblib,ApacheAirflow",
+        "·Background innetworking/wireless communication/networkprotocols/ WiFi",
+        "·Dockerimages,kubernetes",
+        "PyCharm,Visual StudioCode",
+        "·Comfortable with setting up experimental testbeds",
+        "Logging, pytest",
+        "·Familiarity with Digital Signal Processing"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "·Superior knowledge of statistical and analytical methodology andtools",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 60.6983388264974,
+            "top": 944.8214925130209,
+            "right": 661.6868489583334,
+            "bottom": 996.598388671875
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Abackgroundinbigdataecosystems",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 62.94642639160156,
+            "top": 915.1259358723959,
+            "right": 438.3769124348958,
+            "bottom": 937.9686686197916
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "SKILLS",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 717.1396484375,
+            "top": 902.9431559244791,
+            "right": 798.8201497395834,
+            "bottom": 929.593017578125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Knowledge of Aws Data Lake services, neural networks, and experimentation methodologies",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 61.44770304361979,
+            "top": 861.8262125651041,
+            "right": 653.44384765625,
+            "bottom": 913.6031087239584
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Solidcoding skills andproficientwith at least one programming language (C++,Java,Python,Scala etc.)",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 733.6256510416666,
+            "top": 787.2066243489584,
+            "right": 1104.5598958333333,
+            "bottom": 864.1104736328125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·ABtestingandexperimentaldesignprocesses",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 62.94642639160156,
+            "top": 698.88134765625,
+            "right": 523.0548502604166,
+            "bottom": 722.4855143229166
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Codingskills(preferrably Python/Pyspark)",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 736.623046875,
+            "top": 514.6165364583334,
+            "right": 988.4087727864584,
+            "bottom": 565.6319986979166
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Bigdataframeworksandpipelines",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 735.8736979166666,
+            "top": 487.96671549479163,
+            "right": 1082.0790201822917,
+            "bottom": 511.57088216145837
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Determineperceived andcommercialvalue,costof developmentresources(duration,tools)andprioritise effectively",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 61.44770304361979,
+            "top": 438.47412109375,
+            "right": 591.2467854817709,
+            "bottom": 514.6165364583334
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Interactivedatavisualization",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 734.375,
+            "top": 462.07820638020826,
+            "right": 1018.38330078125,
+            "bottom": 483.39811197916674
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Data and signal processing (eg, time seriesmodeling)",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 733.6256510416666,
+            "top": 407.25569661458326,
+            "right": 1098.5650227864583,
+            "bottom": 457.50968424479174
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Support rapid prototyping of tools to demonstrate value",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 62.94642639160156,
+            "top": 409.53995768229174,
+            "right": 615.9757486979166,
+            "bottom": 433.14412434895826
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Scikit-learn,pandas,psycopg2,pytorch, tensorflow",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 62.19706726074219,
+            "top": 382.128662109375,
+            "right": 563.5203857421875,
+            "bottom": 408.01708984375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Dask,joblib,ApacheAirflow",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 62.94642639160156,
+            "top": 356.240234375,
+            "right": 349.2027994791667,
+            "bottom": 380.60579427083326
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Background innetworking/wireless communication/networkprotocols/ WiFi",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 733.6256510416666,
+            "top": 327.30607096354174,
+            "right": 1104.5598958333333,
+            "bottom": 403.44856770833326
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Dockerimages,kubernetes",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 63.69579060872396,
+            "top": 328.82893880208326,
+            "right": 342.4585367838542,
+            "bottom": 351.671630859375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "PyCharm,Visual StudioCode",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 65.19451395670573,
+            "top": 302.94051106770826,
+            "right": 355.9470621744792,
+            "bottom": 324.26033528645826
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Comfortable with setting up experimental testbeds",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 733.6256510416666,
+            "top": 272.48347981770826,
+            "right": 1016.884521484375,
+            "bottom": 322.737548828125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Logging, pytest",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 64.44514973958333,
+            "top": 270.96061197916674,
+            "right": 232.30228678385416,
+            "bottom": 299.13338216145826
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Familiarity with Digital Signal Processing",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 732.876220703125,
+            "top": 214.615234375,
+            "right": 1025.1275227864583,
+            "bottom": 268.67635091145826
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.6788,
+    "status": "partial",
+    "signals": {
+      "useful_text_chars": 2040,
+      "section_completeness": 0.6667,
+      "ordering_coherence": 0.6667,
+      "segmentation_stability": 0.6,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.4344,
+      "weird_section_ratio": 0.0,
+      "section_count": 5,
+      "expected_section_hits": 4,
+      "router_is_scanned": true,
+      "router_ocr_required": true,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 11,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.05
+    },
+    "warnings": []
+  },
+  "handoff_decision": {
+    "lane": "repair_required",
+    "eligible_for_module2": false,
+    "decision_reason": "Document partiel; reparation et re-evaluation obligatoires avant Module 2.",
+    "decision_rules": [
+      "partial -> repair_required",
+      "partial from pdf/docx -> repair_required until revalidated"
+    ],
+    "quality_flags": [],
+    "repair_status": "pending_repair",
+    "repair_reason": "partial_document_requires_repair",
+    "quarantine_reason": null,
+    "next_action": "send_to_repair_queue"
+  },
+  "evidence_spans": [
+    {
+      "text": "8854MitchellNeck, NewYork,NY",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 950.1913248697916,
+        "top": 1412.3362731933594,
+        "right": 1130.78759765625,
+        "bottom": 1463.3517252604167
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "+1(555)472 1790",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 964.42919921875,
+        "top": 1365.1279398600261,
+        "right": 1128.53955078125,
+        "bottom": 1387.970682779948
+      },
+      "section_title": "SONA MAYERT"
+    },
+    {
+      "text": "EXPERIENCE",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 47.95918273925781,
+        "top": 1171.72607421875,
+        "right": 200.0797119140625,
+        "bottom": 1196.8530883789062
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Harber Inc",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 45.71109517415365,
+        "top": 1106.2435302734375,
+        "right": 157.3660685221354,
+        "bottom": 1132.1319986979167
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "06/2020-present",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 175.35076904296875,
+        "top": 1105.4821370442708,
+        "right": 340.95981852213544,
+        "bottom": 1128.3248697916667
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Detroit,MI",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 47.209818522135414,
+        "top": 1078.0708414713542,
+        "right": 152.8698933919271,
+        "bottom": 1098.6293131510417
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Director of Data Science",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 170.8545939127604,
+        "top": 1075.7865397135417,
+        "right": 405.4049479166667,
+        "bottom": 1100.1521402994792
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Experiencewithformal researchprocesses and being a part of a research-oriented group",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 62.19706726074219,
+        "top": 996.598388671875,
+        "right": 675.1753743489584,
+        "bottom": 1049.1366780598958
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Demonstrated experience conceiving,building and leading successful analytics programs utilizing key technologies (e.g.. ML/Al)withinhealthcare organizations",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 61.44770304361979,
+        "top": 778.8308919270834,
+        "right": 660.9375,
+        "bottom": 859.5419514973959
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Proficiencyandexperiencewithseveral modeling techniquessuch as generalized linear models, decision trees,ensemblelearning,regularized models(ridge/lasso/nets),clustering or neuralnetworks",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 735.1243489583334,
+        "top": 625.0231119791666,
+        "right": 1126.2914225260417,
+        "bottom": 782.6380208333334
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Hodkiewicz-Witting 09/2017-04/2020",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 46.46045939127604,
+        "top": 573.2462565104166,
+        "right": 442.8730875651042,
+        "bottom": 599.1346842447916
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Advanced knowledge and experience with best in class data strategy design",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 60.6983388264974,
+        "top": 641.7744954427084,
+        "right": 654.9425862630209,
+        "bottom": 696.5970865885416
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Fastlearnerwhoisdata-drivenand outcome-focused",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 734.375,
+        "top": 571.723388671875,
+        "right": 1084.3271484375,
+        "bottom": 620.45458984375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Detroit,Ml Data Science",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 46.46045939127604,
+        "top": 542.7892252604166,
+        "right": 297.49680582682294,
+        "bottom": 567.1548665364584
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·Hands-ondatasciencemanagerwhocanlead andconduct deep-dive analyses to identify the needs and priorities of the business",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 63.69579060872396,
+        "top": 193.29532877604174,
+        "right": 655.6919352213541,
+        "bottom": 270.96061197916674
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Kent State University",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 717.8889973958334,
+        "top": 1103.9592692057292,
+        "right": 932.2066243489584,
+        "bottom": 1132.1319986979167
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Bachelor'sin ComputerScience",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 718.6383463541666,
+        "top": 1075.025146484375,
+        "right": 1022.8794759114584,
+        "bottom": 1098.6293131510417
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "·Results-oriented leader with a proven trackrecord of leading a data transformationinitiative",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 60.6983388264974,
+        "top": 725.5311686197916,
+        "right": 673.6766357421875,
+        "bottom": 779.5923665364584
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "·Superior knowledge of statistical and analytical methodology andtools",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 60.6983388264974,
+        "top": 944.8214925130209,
+        "right": 661.6868489583334,
+        "bottom": 996.598388671875
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Abackgroundinbigdataecosystems",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 62.94642639160156,
+        "top": 915.1259358723959,
+        "right": 438.3769124348958,
+        "bottom": 937.9686686197916
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "SKILLS",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 717.1396484375,
+        "top": 902.9431559244791,
+        "right": 798.8201497395834,
+        "bottom": 929.593017578125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Knowledge of Aws Data Lake services, neural networks, and experimentation methodologies",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 61.44770304361979,
+        "top": 861.8262125651041,
+        "right": 653.44384765625,
+        "bottom": 913.6031087239584
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Solidcoding skills andproficientwith at least one programming language (C++,Java,Python,Scala etc.)",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 733.6256510416666,
+        "top": 787.2066243489584,
+        "right": 1104.5598958333333,
+        "bottom": 864.1104736328125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·ABtestingandexperimentaldesignprocesses",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 62.94642639160156,
+        "top": 698.88134765625,
+        "right": 523.0548502604166,
+        "bottom": 722.4855143229166
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Codingskills(preferrably Python/Pyspark)",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 736.623046875,
+        "top": 514.6165364583334,
+        "right": 988.4087727864584,
+        "bottom": 565.6319986979166
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Bigdataframeworksandpipelines",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 735.8736979166666,
+        "top": 487.96671549479163,
+        "right": 1082.0790201822917,
+        "bottom": 511.57088216145837
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Determineperceived andcommercialvalue,costof developmentresources(duration,tools)andprioritise effectively",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 61.44770304361979,
+        "top": 438.47412109375,
+        "right": 591.2467854817709,
+        "bottom": 514.6165364583334
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Interactivedatavisualization",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 734.375,
+        "top": 462.07820638020826,
+        "right": 1018.38330078125,
+        "bottom": 483.39811197916674
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Data and signal processing (eg, time seriesmodeling)",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 733.6256510416666,
+        "top": 407.25569661458326,
+        "right": 1098.5650227864583,
+        "bottom": 457.50968424479174
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Support rapid prototyping of tools to demonstrate value",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 62.94642639160156,
+        "top": 409.53995768229174,
+        "right": 615.9757486979166,
+        "bottom": 433.14412434895826
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Scikit-learn,pandas,psycopg2,pytorch, tensorflow",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 62.19706726074219,
+        "top": 382.128662109375,
+        "right": 563.5203857421875,
+        "bottom": 408.01708984375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Dask,joblib,ApacheAirflow",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 62.94642639160156,
+        "top": 356.240234375,
+        "right": 349.2027994791667,
+        "bottom": 380.60579427083326
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Background innetworking/wireless communication/networkprotocols/ WiFi",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 733.6256510416666,
+        "top": 327.30607096354174,
+        "right": 1104.5598958333333,
+        "bottom": 403.44856770833326
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Dockerimages,kubernetes",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 63.69579060872396,
+        "top": 328.82893880208326,
+        "right": 342.4585367838542,
+        "bottom": 351.671630859375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "PyCharm,Visual StudioCode",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 65.19451395670573,
+        "top": 302.94051106770826,
+        "right": 355.9470621744792,
+        "bottom": 324.26033528645826
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Comfortable with setting up experimental testbeds",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 733.6256510416666,
+        "top": 272.48347981770826,
+        "right": 1016.884521484375,
+        "bottom": 322.737548828125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Logging, pytest",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 64.44514973958333,
+        "top": 270.96061197916674,
+        "right": 232.30228678385416,
+        "bottom": 299.13338216145826
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Familiarity with Digital Signal Processing",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 732.876220703125,
+        "top": 214.615234375,
+        "right": 1025.1275227864583,
+        "bottom": 268.67635091145826
+      },
+      "section_title": "TECHNICAL SKILLS"
+    }
+  ]
+}

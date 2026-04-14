@@ -1,0 +1,64 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV3.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "email@youremail.com",
+    "bio": {
+      "full_name": "Alexander Eakins",
+      "email": "email@youremail.com",
+      "phone": "(111)111-1111",
+      "location": "777 Springboard St.#144 Los Angeles,CA 90001"
+    },
+    "expertise": {
+      "summary": "Data science professional with experience in data analysis and processing",
+      "hard_skills": [
+        "Data mining/processing",
+        "Statistical analysis",
+        "MySQL",
+        "Python",
+        "Excel"
+      ],
+      "soft_skills": [
+        "Oral/written comm",
+        "Strategic planning",
+        "Business acumen"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Random Corp",
+        "start_date": "MAY2017",
+        "end_date": "AUGUST2018",
+        "city": null,
+        "responsibilities": [
+          "Report actionable, statistical, and analytical insights to executives for effective strategic positioning in market place",
+          "Shadow data scientists and assist in developing algorithms for predictive modeling",
+          "Analyze and process sophisticated data sets using SAS, MySQL, and Excel"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science, Data Science",
+        "school": "Harvard University",
+        "year": "2011-2015"
+      },
+      {
+        "degree": "Data Science Certificate",
+        "school": "Springboard",
+        "year": "MAY2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:47:15.428163+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7267
+    }
+  }
+}

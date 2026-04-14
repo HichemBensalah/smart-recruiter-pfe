@@ -1,0 +1,77 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_77.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_77.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "pdf:Image_77",
+    "bio": {
+      "full_name": "MARKUS ROHAN",
+      "email": null,
+      "phone": "+1(555)412 9591",
+      "location": "Los Angeles, CA"
+    },
+    "expertise": {
+      "summary": "Data Science Director with experience in machine learning, marketing mix modeling, and optimization",
+      "hard_skills": [
+        "Python",
+        "scikit-learn",
+        "spaCy",
+        "NumPy",
+        "Docker",
+        "Kubernetes",
+        "Hadoop/Hive",
+        "Azure",
+        "Tableau",
+        "PowerBl",
+        "QlikView"
+      ],
+      "soft_skills": [
+        "verbal and written communication",
+        "leadership"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Data Science",
+        "company": "WUNSCH, STARK ANDBAUMBACH",
+        "start_date": "07/2018",
+        "end_date": "present",
+        "city": "Phoenix, AZ",
+        "responsibilities": [
+          "Manage, mentor and motivate direct reports",
+          "Experience in marketing mix modeling and optimization",
+          "Conduct analyses to drive business impact",
+          "Interact with other departments to complete assigned tasks"
+        ]
+      },
+      {
+        "job_title": "Data Science",
+        "company": "ROGAHN-TORP",
+        "start_date": "01/2015",
+        "end_date": "05/2018",
+        "city": "Phoenix, AZ",
+        "responsibilities": [
+          "Knowledge of ad serving tools and multi-touch attribution",
+          "Experience with visualization tools such as Tableau, PowerBl, or QlikView",
+          "Outstanding communication skills with executive leadership"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's in Computer Science",
+        "school": "RHODE ISLAND SCHOOL OF DESIGN",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:50:17.534238+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7905
+    }
+  }
+}

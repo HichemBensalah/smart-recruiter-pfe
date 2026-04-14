@@ -1,0 +1,86 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV1.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV1.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "diana@novoresume.com",
+    "bio": {
+      "full_name": "Diana Dawa",
+      "email": "diana@novoresume.com",
+      "phone": "0444122020",
+      "location": "Palo Alto, CA"
+    },
+    "expertise": {
+      "summary": "Data Scientist with experience in building data-intensive applications, predictive modeling, and data mining algorithms",
+      "hard_skills": [
+        "Python",
+        "Java",
+        "MySQL",
+        "Postgres",
+        "D3.js",
+        "Hadoop",
+        "Django",
+        "Angular.js",
+        "HTML",
+        "JavaScript",
+        "R Programming"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "FutureEnergyLtd.",
+        "start_date": "06/2018",
+        "end_date": "Present",
+        "city": "Palo Alto, CA",
+        "responsibilities": [
+          "Develop action plans to mitigate risks in decision making while increasing profitability by leveraging data science",
+          "Drive the interaction and partnership between the managers to ensure active cooperation in identifying and defining analytical needs",
+          "Data Preparation",
+          "Developed Key Performance Indicators (KPI) and presented it to the management and led to the execution plan",
+          "Led trainings sessions on the software developed and presented it to the management for approval of deployment"
+        ]
+      },
+      {
+        "job_title": "Data Analyst",
+        "company": "THETAFinancial Group",
+        "start_date": "01/2016",
+        "end_date": "05/2018",
+        "city": "San Francisco, CA",
+        "responsibilities": [
+          "Utilized analytical and technical expertise to provide insights and proposals to support business improvements",
+          "Evaluated analytical model findings in the Global Monitoring Report, the company's flagship product",
+          "Conducted business analysis to understand business needs and requirements to translate into conceptual designs"
+        ]
+      },
+      {
+        "job_title": "Business Analyst/Statistician",
+        "company": "MaxicareHealthcare",
+        "start_date": "02/2013",
+        "end_date": "12/2015",
+        "city": null,
+        "responsibilities": [
+          "Conducted business process analysis and identified critical issues, gaps, and needs for an established process center",
+          "Analyzed and produced KPI reports allowing to monitor field service engineer and customer care center closely"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Computer Science and Informatics",
+        "school": "San Francisco University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:44:36.470977+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7333
+    }
+  }
+}

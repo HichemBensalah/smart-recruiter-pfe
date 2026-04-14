@@ -1,0 +1,40 @@
+## PROFESSIONAL EXPERIENCE
+
+### DATASCIENTISTRESUMESAMPLE
+**Location:** 43Smith Dr.,Pittsburgh, PA, 09867
+- from Resume Genius
+- 895555555
+- email@gmail. com
+- Linkedin. com/in/yourprofile
+- RESUMEOBJECTIVE
+### accuracy, andutilityofinternaldataprocessing. Experiencedatcreatingdataregressionmodels, usingpredictivedatamodeling, andanalyzingdataminingalgorithmstodeliverinsightsand implementaction-orientedsolutionstocomplexbusinessproblems.
+- SKILLS
+- PHP/Rubyon Rails/Java/C++/Python
+- My SQL/SQ Lite3/Mongo DB/JSON
+- Leadership
+- Collaboration
+- Handling Pressure
+- Problem Solving
+- Data Mining
+- Data Management
+
+## EXPERIENCE DATASCIENTIST
+
+Microsoft, Tucson, AZ/September2015-Present
+industrytrends, achievinga15%moreaccuratepredictionofperformancethanpreviousyears
+Utilizewebscrapingtechniquestoextractandorganizecompetitordata
+ina20%increaseinusabilityfornon-technicalstaffmembers
+Modernizedatastreamliningprocesses, resultingina25%redundancyreduction
+DATASCIENTIST
+Hewlett-Packard, San Francisco, CA/June2013-August2015
+Improved data miningprocesses, resultingina20%decreaseintimeneededtoinferinsights fromcustomerdatausedtodevelopmarketingstrategies
+Usedpredictiveanalyticssuchasmachinelearninganddataminingtechniquestoforecast companysalesofnewproductswitha95%accuracyrate
+Increased datasecuritybyupdatingcompanywideencryption, steganography, Psecurity, and securewirelesstransmissionpractices
+Developed E Tsfordatasourcesusedforreportingbysales, inventory, andmarketing departments
+
+## EDUCATION
+
+### B. S. COMPUTERSCIENCE University of Arizona, Tucs0n, AZ/2010
+**Date:** 2010
+### Universityof California, Berkeley, CA/2013
+**Date:** 2013

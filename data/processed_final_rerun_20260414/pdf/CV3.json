@@ -1,0 +1,1160 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\n777 Springboard St.#144 Los Angeles,CA 90001\nAlexander Eakins\n(111)111-1111 email@youremail.com\nEDUCATION\nHarvardUniversity-BachelorofScience,DataScience AUGUST2011-MAY2015\nSpringboard-DataScienceCertificate\nMAY2017\nTECHNICAL SKILLS\nSKILLS&KNOWLEDGE\nData mining/processing\nStatistical analysis\nBusinessacumen\nOral/writtencomm\nStrategic planning\nWalnut Festival International Fingerstyle Guitar Championship|istPlace\nWritersofthe Future Contest (S750prize)12nd Place\nLANGUAGES\nR\nMySQL\nPython\nPHP\nC\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nSOFT SKILLS\nRandom Corp,141Random CircleSuite#991 DataScienceIntern\nMAY2017-AUGU5T2018\nReport actionable,statistical,and analyticalinsightsto executivesforeffectivestrategicpositioninginmarket place\nAWARDS\nShadow data scientists and assist in developingalgorithms forpredictivemodeling\nAnalyze andprocess sophisticated data setsusingSAS, MySQL,and Excel\nACADEMIC PROJECTS\nWritepythonscriptsto automateeverydaytaskssuch as organizingdesktopfiles,automaticallyredefiningstrings in MySQL database to promoteconsistency,and creating file and folder structuresfornewprojects\nSpringboardDataScience Course-DataScience CapstoneProject:Specialized AnalysisofStreaming PlatformPatterns\nMAY2017\nAnalyzed data from233streamersin30 countries across5 differentplatformsover30 days,totalingnearly3o0,000 hours of streaming\nConfirmed hypothesis that data supports anupwardtrend ofnight-time streaming",
+  "markdown": "## HEADER\n\n777 Springboard St.#144 Los Angeles,CA 90001\nAlexander Eakins\n(111)111-1111 email@youremail.com\n\n## EDUCATION\n\n### HarvardUniversity-BachelorofScience,DataScience AUGUST2011-MAY2015\n- Springboard-DataScienceCertificate\n- MAY2017\n\n## TECHNICAL SKILLS\n\nSKILLS&KNOWLEDGE\nData mining/processing\nStatistical analysis\nBusinessacumen\nOral/writtencomm\nStrategic planning\nWalnut Festival International Fingerstyle Guitar Championship|istPlace\nWritersofthe Future Contest (S750prize)12nd Place\n\n## LANGUAGES\n\nR\nMySQL\nPython\nPHP\nC\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n\n## SOFT SKILLS\n\nRandom Corp,141Random CircleSuite#991 DataScienceIntern\nMAY2017-AUGU5T2018\nReport actionable,statistical,and analyticalinsightsto executivesforeffectivestrategicpositioninginmarket place\nAWARDS\nShadow data scientists and assist in developingalgorithms forpredictivemodeling\nAnalyze andprocess sophisticated data setsusingSAS, MySQL,and Excel\n\n## ACADEMIC PROJECTS\n\n### Writepythonscriptsto automateeverydaytaskssuch as organizingdesktopfiles,automaticallyredefiningstrings in MySQL database to promoteconsistency,and creating file and folder structuresfornewprojects\n### SpringboardDataScience Course-DataScience CapstoneProject:Specialized AnalysisofStreaming PlatformPatterns\n- MAY2017\n### Analyzed data from233streamersin30 countries across5 differentplatformsover30 days,totalingnearly3o0,000 hours of streaming\n- Confirmed hypothesis that data supports anupwardtrend ofnight-time streaming",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "777 Springboard St.#144 Los Angeles,CA 90001",
+        "Alexander Eakins",
+        "(111)111-1111 email@youremail.com"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "777 Springboard St.#144 Los Angeles,CA 90001",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 340.13800048828125,
+            "top": 619.8082834879557,
+            "right": 433.8741048177083,
+            "bottom": 642.6066691080729
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Alexander Eakins",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 43.421875,
+            "top": 610.4816691080729,
+            "right": 300.1623128255208,
+            "bottom": 638.1160786946615
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "(111)111-1111 email@youremail.com",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 340.82725016276044,
+            "top": 598.3916219075521,
+            "right": 428.015625,
+            "bottom": 618.7719930013021
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [],
+      "items": [
+        {
+          "title": "HarvardUniversity-BachelorofScience,DataScience AUGUST2011-MAY2015",
+          "date": null,
+          "location": null,
+          "details": [
+            "Springboard-DataScienceCertificate",
+            "MAY2017"
+          ],
+          "evidence_spans": [
+            {
+              "text": "HarvardUniversity-BachelorofScience,DataScience AUGUST2011-MAY2015",
+              "page_no": 1,
+              "block_indices": [
+                2
+              ],
+              "bbox": {
+                "left": 42.732635498046875,
+                "top": 497.5260213216146,
+                "right": 296.37152099609375,
+                "bottom": 522.0515645345052
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Springboard-DataScienceCertificate",
+              "page_no": 1,
+              "block_indices": [
+                3
+              ],
+              "bbox": {
+                "left": 43.07725524902344,
+                "top": 471.9642130533854,
+                "right": 223.3125,
+                "bottom": 483.70882161458337
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "MAY2017",
+              "page_no": 1,
+              "block_indices": [
+                4
+              ],
+              "bbox": {
+                "left": 42.732635498046875,
+                "top": 460.2195841471354,
+                "right": 76.50520324707031,
+                "bottom": 468.16446940104163
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "HarvardUniversity-BachelorofScience,DataScience AUGUST2011-MAY2015",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 42.732635498046875,
+            "top": 497.5260213216146,
+            "right": 296.37152099609375,
+            "bottom": 522.0515645345052
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Springboard-DataScienceCertificate",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 43.07725524902344,
+            "top": 471.9642130533854,
+            "right": 223.3125,
+            "bottom": 483.70882161458337
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "MAY2017",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 42.732635498046875,
+            "top": 460.2195841471354,
+            "right": 76.50520324707031,
+            "bottom": 468.16446940104163
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "SKILLS&KNOWLEDGE",
+        "Data mining/processing",
+        "Statistical analysis",
+        "Businessacumen",
+        "Oral/writtencomm",
+        "Strategic planning",
+        "Walnut Festival International Fingerstyle Guitar Championship|istPlace",
+        "Writersofthe Future Contest (S750prize)12nd Place"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "SKILLS&KNOWLEDGE",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 340.82725016276044,
+            "top": 535.1779073079427,
+            "right": 426.2925211588542,
+            "bottom": 544.1590881347656
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Data mining/processing",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 371.4982503255208,
+            "top": 428.44000244140625,
+            "right": 465.5789794921875,
+            "bottom": 439.4937744140625
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Statistical analysis",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 372.1875,
+            "top": 417.0408121744792,
+            "right": 443.8680419921875,
+            "bottom": 426.367431640625
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Businessacumen",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 371.4982503255208,
+            "top": 386.64296468098956,
+            "right": 439.0433756510417,
+            "bottom": 397.00587972005206
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Oral/writtencomm",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 371.4982503255208,
+            "top": 374.8983561197917,
+            "right": 446.2803548177083,
+            "bottom": 384.22495524088544
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Strategic planning",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 371.1536458333333,
+            "top": 361.42657470703125,
+            "right": 443.5234375,
+            "bottom": 373.17120361328125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Walnut Festival International Fingerstyle Guitar Championship|istPlace",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 340.4826253255208,
+            "top": 284.39565022786456,
+            "right": 456.618896484375,
+            "bottom": 319.97495524088544
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Writersofthe Future Contest (S750prize)12nd Place",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 340.4826253255208,
+            "top": 255.37953694661456,
+            "right": 455.2404378255208,
+            "bottom": 277.83249918619794
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGES",
+      "section_type": "languages",
+      "content": [
+        "R",
+        "MySQL",
+        "Python",
+        "PHP",
+        "C"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "R",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 370.4643961588542,
+            "top": 508.2343546549479,
+            "right": 379.7690836588542,
+            "bottom": 517.9064025878906
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "MySQL",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 371.4982503255208,
+            "top": 495.45345052083337,
+            "right": 400.790771484375,
+            "bottom": 506.16178385416663
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "Python",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 371.1536458333333,
+            "top": 483.0179646809896,
+            "right": 401.1354166666667,
+            "bottom": 494.07173665364587
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "PHP",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 371.1536458333333,
+            "top": 471.2733357747396,
+            "right": 390.1076253255208,
+            "bottom": 481.29081217447913
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "C",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 370.8090006510417,
+            "top": 458.83784993489587,
+            "right": 379.4244791666667,
+            "bottom": 468.5099080403646
+          },
+          "section_title": "LANGUAGES"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "EXPERIENCE"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "EXPERIENCE",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 43.421875,
+            "top": 425.67657470703125,
+            "right": 90.97916666666667,
+            "bottom": 433.9668986002604
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "SOFT SKILLS",
+      "section_type": "soft_skills",
+      "content": [
+        "Random Corp,141Random CircleSuite#991 DataScienceIntern",
+        "MAY2017-AUGU5T2018",
+        "Report actionable,statistical,and analyticalinsightsto executivesforeffectivestrategicpositioninginmarket place",
+        "AWARDS",
+        "Shadow data scientists and assist in developingalgorithms forpredictivemodeling",
+        "Analyze andprocess sophisticated data setsusingSAS, MySQL,and Excel"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Random Corp,141Random CircleSuite#991 DataScienceIntern",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 42.732635498046875,
+            "top": 388.3701171875,
+            "right": 252.94964599609375,
+            "bottom": 411.1684977213542
+          },
+          "section_title": "SOFT SKILLS"
+        },
+        {
+          "text": "MAY2017-AUGU5T2018",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 43.421875,
+            "top": 375.2437744140625,
+            "right": 127.1640625,
+            "bottom": 383.18865966796875
+          },
+          "section_title": "SOFT SKILLS"
+        },
+        {
+          "text": "Report actionable,statistical,and analyticalinsightsto executivesforeffectivestrategicpositioninginmarket place",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 73.74826049804688,
+            "top": 334.82847086588544,
+            "right": 286.37758382161456,
+            "bottom": 370.4077555338542
+          },
+          "section_title": "SOFT SKILLS"
+        },
+        {
+          "text": "AWARDS",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 340.13800048828125,
+            "top": 324.12013753255206,
+            "right": 375.6336669921875,
+            "bottom": 333.44671630859375
+          },
+          "section_title": "SOFT SKILLS"
+        },
+        {
+          "text": "Shadow data scientists and assist in developingalgorithms forpredictivemodeling",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 74.09288024902344,
+            "top": 309.95749918619794,
+            "right": 300.85154215494794,
+            "bottom": 333.10129801432294
+          },
+          "section_title": "SOFT SKILLS"
+        },
+        {
+          "text": "Analyze andprocess sophisticated data setsusingSAS, MySQL,and Excel",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 74.09288024902344,
+            "top": 286.46824137369794,
+            "right": 283.96527099609375,
+            "bottom": 308.57578531901044
+          },
+          "section_title": "SOFT SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [],
+      "items": [
+        {
+          "title": "Writepythonscriptsto automateeverydaytaskssuch as organizingdesktopfiles,automaticallyredefiningstrings in MySQL database to promoteconsistency,and creating file and folder structuresfornewprojects",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Writepythonscriptsto automateeverydaytaskssuch as organizingdesktopfiles,automaticallyredefiningstrings in MySQL database to promoteconsistency,and creating file and folder structuresfornewprojects",
+              "page_no": 1,
+              "block_indices": [
+                11
+              ],
+              "bbox": {
+                "left": 73.74826049804688,
+                "top": 236.38087972005206,
+                "right": 296.37152099609375,
+                "bottom": 283.70481363932294
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "SpringboardDataScience Course-DataScience CapstoneProject:Specialized AnalysisofStreaming PlatformPatterns",
+          "date": null,
+          "location": null,
+          "details": [
+            "MAY2017"
+          ],
+          "evidence_spans": [
+            {
+              "text": "SpringboardDataScience Course-DataScience CapstoneProject:Specialized AnalysisofStreaming PlatformPatterns",
+              "page_no": 1,
+              "block_indices": [
+                12
+              ],
+              "bbox": {
+                "left": 43.07725524902344,
+                "top": 185.94809977213544,
+                "right": 287.06683349609375,
+                "bottom": 220.14565022786456
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "MAY2017",
+              "page_no": 1,
+              "block_indices": [
+                13
+              ],
+              "bbox": {
+                "left": 42.732635498046875,
+                "top": 172.47629801432288,
+                "right": 76.50520324707031,
+                "bottom": 182.14833577473956
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Analyzed data from233streamersin30 countries across5 differentplatformsover30 days,totalingnearly3o0,000 hours of streaming",
+          "date": null,
+          "location": null,
+          "details": [
+            "Confirmed hypothesis that data supports anupwardtrend ofnight-time streaming"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Analyzed data from233streamersin30 countries across5 differentplatformsover30 days,totalingnearly3o0,000 hours of streaming",
+              "page_no": 1,
+              "block_indices": [
+                14
+              ],
+              "bbox": {
+                "left": 73.74826049804688,
+                "top": 133.09726969401038,
+                "right": 298.43922932942706,
+                "bottom": 168.33115641276038
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Confirmed hypothesis that data supports anupwardtrend ofnight-time streaming",
+              "page_no": 1,
+              "block_indices": [
+                15
+              ],
+              "bbox": {
+                "left": 74.09288024902344,
+                "top": 108.22629801432288,
+                "right": 297.74997965494794,
+                "bottom": 132.06097412109375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Writepythonscriptsto automateeverydaytaskssuch as organizingdesktopfiles,automaticallyredefiningstrings in MySQL database to promoteconsistency,and creating file and folder structuresfornewprojects",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 73.74826049804688,
+            "top": 236.38087972005206,
+            "right": 296.37152099609375,
+            "bottom": 283.70481363932294
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "SpringboardDataScience Course-DataScience CapstoneProject:Specialized AnalysisofStreaming PlatformPatterns",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 43.07725524902344,
+            "top": 185.94809977213544,
+            "right": 287.06683349609375,
+            "bottom": 220.14565022786456
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "MAY2017",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 42.732635498046875,
+            "top": 172.47629801432288,
+            "right": 76.50520324707031,
+            "bottom": 182.14833577473956
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Analyzed data from233streamersin30 countries across5 differentplatformsover30 days,totalingnearly3o0,000 hours of streaming",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 73.74826049804688,
+            "top": 133.09726969401038,
+            "right": 298.43922932942706,
+            "bottom": 168.33115641276038
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Confirmed hypothesis that data supports anupwardtrend ofnight-time streaming",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 74.09288024902344,
+            "top": 108.22629801432288,
+            "right": 297.74997965494794,
+            "bottom": 132.06097412109375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.7267,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 1424,
+      "section_completeness": 0.8333,
+      "ordering_coherence": 1.0,
+      "segmentation_stability": 0.7143,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.4752,
+      "weird_section_ratio": 0.0,
+      "section_count": 7,
+      "expected_section_hits": 5,
+      "router_is_scanned": true,
+      "router_ocr_required": true,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 11,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.05
+    },
+    "warnings": [
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "777 Springboard St.#144 Los Angeles,CA 90001",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 340.13800048828125,
+        "top": 619.8082834879557,
+        "right": 433.8741048177083,
+        "bottom": 642.6066691080729
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Alexander Eakins",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 43.421875,
+        "top": 610.4816691080729,
+        "right": 300.1623128255208,
+        "bottom": 638.1160786946615
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "(111)111-1111 email@youremail.com",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 340.82725016276044,
+        "top": 598.3916219075521,
+        "right": 428.015625,
+        "bottom": 618.7719930013021
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "HarvardUniversity-BachelorofScience,DataScience AUGUST2011-MAY2015",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 42.732635498046875,
+        "top": 497.5260213216146,
+        "right": 296.37152099609375,
+        "bottom": 522.0515645345052
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Springboard-DataScienceCertificate",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 43.07725524902344,
+        "top": 471.9642130533854,
+        "right": 223.3125,
+        "bottom": 483.70882161458337
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "MAY2017",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 42.732635498046875,
+        "top": 460.2195841471354,
+        "right": 76.50520324707031,
+        "bottom": 468.16446940104163
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "SKILLS&KNOWLEDGE",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 340.82725016276044,
+        "top": 535.1779073079427,
+        "right": 426.2925211588542,
+        "bottom": 544.1590881347656
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Data mining/processing",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 371.4982503255208,
+        "top": 428.44000244140625,
+        "right": 465.5789794921875,
+        "bottom": 439.4937744140625
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Statistical analysis",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 372.1875,
+        "top": 417.0408121744792,
+        "right": 443.8680419921875,
+        "bottom": 426.367431640625
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Businessacumen",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 371.4982503255208,
+        "top": 386.64296468098956,
+        "right": 439.0433756510417,
+        "bottom": 397.00587972005206
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Oral/writtencomm",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 371.4982503255208,
+        "top": 374.8983561197917,
+        "right": 446.2803548177083,
+        "bottom": 384.22495524088544
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Strategic planning",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 371.1536458333333,
+        "top": 361.42657470703125,
+        "right": 443.5234375,
+        "bottom": 373.17120361328125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Walnut Festival International Fingerstyle Guitar Championship|istPlace",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 340.4826253255208,
+        "top": 284.39565022786456,
+        "right": 456.618896484375,
+        "bottom": 319.97495524088544
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Writersofthe Future Contest (S750prize)12nd Place",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 340.4826253255208,
+        "top": 255.37953694661456,
+        "right": 455.2404378255208,
+        "bottom": 277.83249918619794
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "R",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 370.4643961588542,
+        "top": 508.2343546549479,
+        "right": 379.7690836588542,
+        "bottom": 517.9064025878906
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "MySQL",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 371.4982503255208,
+        "top": 495.45345052083337,
+        "right": 400.790771484375,
+        "bottom": 506.16178385416663
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Python",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 371.1536458333333,
+        "top": 483.0179646809896,
+        "right": 401.1354166666667,
+        "bottom": 494.07173665364587
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "PHP",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 371.1536458333333,
+        "top": 471.2733357747396,
+        "right": 390.1076253255208,
+        "bottom": 481.29081217447913
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "C",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 370.8090006510417,
+        "top": 458.83784993489587,
+        "right": 379.4244791666667,
+        "bottom": 468.5099080403646
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "EXPERIENCE",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 43.421875,
+        "top": 425.67657470703125,
+        "right": 90.97916666666667,
+        "bottom": 433.9668986002604
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Random Corp,141Random CircleSuite#991 DataScienceIntern",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 42.732635498046875,
+        "top": 388.3701171875,
+        "right": 252.94964599609375,
+        "bottom": 411.1684977213542
+      },
+      "section_title": "SOFT SKILLS"
+    },
+    {
+      "text": "MAY2017-AUGU5T2018",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 43.421875,
+        "top": 375.2437744140625,
+        "right": 127.1640625,
+        "bottom": 383.18865966796875
+      },
+      "section_title": "SOFT SKILLS"
+    },
+    {
+      "text": "Report actionable,statistical,and analyticalinsightsto executivesforeffectivestrategicpositioninginmarket place",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 73.74826049804688,
+        "top": 334.82847086588544,
+        "right": 286.37758382161456,
+        "bottom": 370.4077555338542
+      },
+      "section_title": "SOFT SKILLS"
+    },
+    {
+      "text": "AWARDS",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 340.13800048828125,
+        "top": 324.12013753255206,
+        "right": 375.6336669921875,
+        "bottom": 333.44671630859375
+      },
+      "section_title": "SOFT SKILLS"
+    },
+    {
+      "text": "Shadow data scientists and assist in developingalgorithms forpredictivemodeling",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 74.09288024902344,
+        "top": 309.95749918619794,
+        "right": 300.85154215494794,
+        "bottom": 333.10129801432294
+      },
+      "section_title": "SOFT SKILLS"
+    },
+    {
+      "text": "Analyze andprocess sophisticated data setsusingSAS, MySQL,and Excel",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 74.09288024902344,
+        "top": 286.46824137369794,
+        "right": 283.96527099609375,
+        "bottom": 308.57578531901044
+      },
+      "section_title": "SOFT SKILLS"
+    },
+    {
+      "text": "Writepythonscriptsto automateeverydaytaskssuch as organizingdesktopfiles,automaticallyredefiningstrings in MySQL database to promoteconsistency,and creating file and folder structuresfornewprojects",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 73.74826049804688,
+        "top": 236.38087972005206,
+        "right": 296.37152099609375,
+        "bottom": 283.70481363932294
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "SpringboardDataScience Course-DataScience CapstoneProject:Specialized AnalysisofStreaming PlatformPatterns",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 43.07725524902344,
+        "top": 185.94809977213544,
+        "right": 287.06683349609375,
+        "bottom": 220.14565022786456
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "MAY2017",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 42.732635498046875,
+        "top": 172.47629801432288,
+        "right": 76.50520324707031,
+        "bottom": 182.14833577473956
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Analyzed data from233streamersin30 countries across5 differentplatformsover30 days,totalingnearly3o0,000 hours of streaming",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 73.74826049804688,
+        "top": 133.09726969401038,
+        "right": 298.43922932942706,
+        "bottom": 168.33115641276038
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Confirmed hypothesis that data supports anupwardtrend ofnight-time streaming",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 74.09288024902344,
+        "top": 108.22629801432288,
+        "right": 297.74997965494794,
+        "bottom": 132.06097412109375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    }
+  ]
+}

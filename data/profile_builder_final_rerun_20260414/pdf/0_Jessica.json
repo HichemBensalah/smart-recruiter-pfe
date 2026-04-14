@@ -1,0 +1,89 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\0_Jessica.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\0_Jessica.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "resumesample@example.com",
+    "bio": {
+      "full_name": "JessicaClaire",
+      "email": "resumesample@example.com",
+      "phone": "（555）432-1000",
+      "location": "Montgomery Street,San Francisco,CA 94105"
+    },
+    "expertise": {
+      "summary": "Technology Leadership and Innovation, Data Science and Engineering, Predictive Analytics, Product Planning, Machine Learning, Strategic Partnerships",
+      "hard_skills": [
+        "Predictive Analytics",
+        "Distributed Computing",
+        "High Performance Computing",
+        "Algorithms",
+        "Data Structures",
+        "Java",
+        "Python",
+        "Spark",
+        "MapReduce"
+      ],
+      "soft_skills": [
+        "Planning",
+        "Cross-Functional and Cross-Team Coordination",
+        "Team Development",
+        "Tactical Reorganization",
+        "Consensus Building",
+        "Operations Management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "PRINCIPAL, DATASCIENCEANDENGINEERING",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Delivering against OKRs"
+        ]
+      },
+      {
+        "job_title": "PRONCIPALENGINEER/PRODUCTOWNER",
+        "company": "Hitachi Data Systems",
+        "start_date": "02/2011",
+        "end_date": "06/2014",
+        "city": null,
+        "responsibilities": [
+          "Management and Visualization"
+        ]
+      },
+      {
+        "job_title": "LEOD SDK ARCHITECT",
+        "company": "Playfirst Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Social Games SDK Design for Flagship Social Games Chocolatier and Diner Dash"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science",
+        "school": "Carnegie Mellon University",
+        "year": "2015"
+      },
+      {
+        "degree": "Bachelor of Science",
+        "school": "Amravati University",
+        "year": "2001"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:44:06.591724+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.76
+    }
+  }
+}

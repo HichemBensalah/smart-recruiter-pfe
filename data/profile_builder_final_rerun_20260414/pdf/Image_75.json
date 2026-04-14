@@ -1,0 +1,96 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_75.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_75.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "somik@stanford.edu",
+    "bio": {
+      "full_name": "SomikRaha",
+      "email": "somik@stanford.edu",
+      "phone": "650-450-8246",
+      "location": "1329 Park Drive #12, Mountain View, CA 94040"
+    },
+    "expertise": {
+      "summary": "Decision analysis and software engineering professional",
+      "hard_skills": [
+        "Decision Analysis",
+        "Software engineering",
+        "Portfolio Game",
+        "Core decision analysis module",
+        "SmartOrg's flagship product",
+        "Credit Risk Modelling",
+        "Probabilistic Analysis",
+        "Optimization",
+        "Quantitative Analysis"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Consultant",
+        "company": "The Gordon & Betty Moore Foundation",
+        "start_date": "Jul 2010",
+        "end_date": "Present",
+        "city": "Palo Alto, CA",
+        "responsibilities": [
+          "framework (Reduction of Emissions from Deforestation and Degradation)"
+        ]
+      },
+      {
+        "job_title": "Summer Intern",
+        "company": "SmartOrg, Inc.",
+        "start_date": "Jun 2009",
+        "end_date": "Sep 2009",
+        "city": "Menlo Park, CA",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Summer Intern",
+        "company": "Strategic Decisions Group",
+        "start_date": "July 2008",
+        "end_date": "Sep 2008",
+        "city": "Palo Alto, CA",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Decision and Risk Analyst",
+        "company": "Nucleus Software & Exports Ltd.",
+        "start_date": null,
+        "end_date": null,
+        "city": "Noida, India",
+        "responsibilities": [
+          "Modeled business strategy decision on pricing new products",
+          "Modeled credit risk and operational risk for BASEL2 compliance",
+          "Modeled software process adoption decision",
+          "Modeled HR recruitment decision"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ph.D. (Decision Analysis)",
+        "school": "STANFORD UNIVERSITY, USA",
+        "year": "2004-2010"
+      },
+      {
+        "degree": "Masters in Mgmt Sc. & Engg. (Org Behavior & Strategy)",
+        "school": "STANFORD UNIVERSITY, USA",
+        "year": "2004-2010"
+      },
+      {
+        "degree": "Bachelor of Engineering, Computer Science & Engineering",
+        "school": "BANGALORE INSTITUTE OF TECHNOLOGY, Bangalore, India",
+        "year": "1995-1999"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:50:06.265317+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7961
+    }
+  }
+}

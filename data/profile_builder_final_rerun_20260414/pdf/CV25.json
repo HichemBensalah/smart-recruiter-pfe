@@ -1,0 +1,10 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV25.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV25.json",
+  "source_format": "pdf",
+  "status": "failed",
+  "mode": "dry-run",
+  "error": "1 validation error for CandidateProfilePayload\nbio.email\n  Value error, Invalid email address. [type=value_error, input_value='rk@gmaiLcom', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": null
+}

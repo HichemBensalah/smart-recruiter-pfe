@@ -1,0 +1,93 @@
+## HEADER
+
+hichem.salah1512@gmail.com +216 97 118 755
+Ariana, Tunisia
+https://www.linkedin.com/in/hichem-bensalah-7173b0335/
+github.com/HichemBensalah
+
+## PROFESSIONAL SUMMARY
+
+Hichem Bensalah Final-year Data Science & AI Engineering Student, Tek-Up University
+
+## TECHNICAL SKILLS
+
+Programming Languages
+Python: NumPy, Pandas, scikit-learn, Matplotlib, Seaborn
+Other: R, Java, JavaScript, C, C++, C#
+MLOps, Deployment & Cloud
+DevOps / CI/CD: Docker, Git, GitHub, GitHub Actions (CI/CD)
+Deployment Tools: Flask, FastAPI, Streamlit
+Frameworks : TensorFlow, Keras, PyTorch
+Cloud (AWS) : S3, EC2, SageMaker (AWS SAA preparation)
+Data Engineering & Databases
+BI & ETL Tools: ETL, Power BI, SSIS, SSRS, SQL Server
+Databases: MySQL, PostgreSQL, MongoDB, Neo4j, Oracle, Apache Cassandra (NoSQL)
+Big Data & Distributed Processing: Apache Spark, PySpark (RDD, DataFrames, Spark SQL)
+Telco Churn - End-to-End ML & MLOps Pipeline, Tek-Up University
+
+## EDUCATION
+
+### Engineering Degree - Data Science & AI | Tek-Up University
+**Date:** 2023 - 2026
+### Civil Engineering Studies (ENIG) | ENIG Gabès
+**Date:** 2020 - 2022
+### Preparatory Cycle in Engineering| FSS Sfax
+**Date:** 2017 - 2020
+### Baccalauréat in Mathematics| Skhira-Sfax
+**Date:** 2017
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Machine Learning : classification, regression, clustering, anomaly detection
+Neural Networks : ANN, CNN , RNN (LSTM, GRU)
+Transfer Learning : feature extraction, fine-tuning
+Generative Models : GAN, VAE, Diffusion Models
+Sentiment Analysis (IMDb) - Deep Learning CNN/LSTM (Keras/TensorFlow), Tek-Up University
+
+## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)
+
+CV : OpenCV, YOLO, image/video processing (TensorRT)
+NLP : spaCy (tokenization, lemmatization), NLTK, embeddings (Word2Vec, GloVe, fastText), Transformers (Hugging Face),LLMs
+
+## IDES & SOFTWARE
+
+VS Code | Jupyter | Git | Anaconda
+
+## PROFESSIONAL EXPERIENCE
+
+### AI & Data Science Intern, TUDIGISEC, TDS Global Technologies
+**Date:** 07/2025 - 09/2025
+**Location:** Tunis, Tunisia
+- Delivered a Flask + Flask-SocketIO web demo with tested /predict API and basic real-time interface.
+- Final-year Data Science & AI Engineering student ( PFE Jan-Jun 2026 ) focused on ML/DL , MLOps and AWS . Built end-to-end pipelines with DVC/MLflow , GitHub Actions and Docker ; delivered a CNN-BiLSTM intrusion detection system ( ~99% accuracy ) and production-ready deployments .
+- Built a CNN-BiLSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy .
+- Implemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports).
+### Summer Training, Tek-Up University
+**Date:** 07/2024 - 08/2024
+**Location:** Ariana, Tunisia
+- Developed a web scraping module to automatically collect reviews starting from a movie title.
+- Python ( PCAP prep ) & Java ( OCA prep ): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints.
+- Built an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews, including preprocessing, training and evaluation.
+
+## ACADEMIC PROJECTS
+
+### Business Intelligence Project - Autism Prediction, Tek-Up University
+**Date:** 11/2025
+- Developed a BI solution to predict autism likelihood using medical and behavioural data from Kaggle .
+- Used Docker and GitHub Actions CI/CD to test and build the FastAPI service for local deployment in a production-like environment.
+- Added monitoring and drift reports on locally served predictions to detect model degradation over time and support timely retraining .
+- Used SQL Server and Power BI for data preparation and interactive dashboards, and deployed Decision Tree, Random Forest and XGBoost models as a Flask web application .
+- Wrapped the model in a FastAPI service and integrated it with an LLM chatbot (Groq API) that orchestrates scraping and prediction.
+- Versioned data and models with DVC and tracked experiments in MLflow , ensuring reproducible churn prediction training .
+
+## LANGUAGES
+
+Arabic (Native), French (Fluent), English (Professional - B1-B2)
+
+## SOFT SKILLS
+
+Problem-solving | Teamwork | Communication | Critical thinking
+
+## CERTIFICATES (IN PROGRESS)
+
+PCAP | AWS CCP | AWS ML Eng-Assoc.

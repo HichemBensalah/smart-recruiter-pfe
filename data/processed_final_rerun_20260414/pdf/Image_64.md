@@ -1,0 +1,37 @@
+## HEADER
+
+ROBERTSMITH
+Associate Data Scientist
+
+## PROFESSIONAL SUMMARY
+
+info@qwikresume.com|LinkedinProfile|Qwikresume.com
+Searched,organized,and analyzed clinical dataregarding Invitro fertilization.
+Used machineleaming on the data to createpredictive models regarding IVF outcomes such aslivebirth.pregnancy.andmultiple birth.
+Discusseddata and modelswith research and devdopmentteam to makethebestpossibleproductsfor consumers.
+Thisincludesproductinput formstesresultsforms,and otherfiles thatareforinternalandexternal use
+Conceptualized and builta model whichimplementspredictivefiling ofclinical fieldswithin an EMRusing historicaldata tamaking it easierforPhysicianstodocumentand alsoinaidingphysiciansmake better clinical decisions
+Developedaprototypetolnvestigateoccurrencesofmedication prescriptionleading tounexpected diagnosiswith aview toprevent and monitor undesirableimpact ofmedication on patients
+Themodeldeveoped wasproventohelpassistdoctorsmakebetter clinicaldecisions..
+ThisFree Resume Template Isthe copyrghtof Qwikresume.com,Usage Guldelines
+
+## TECHNICAL SKILLS
+
+To further my career in mathematics by obtaining an analyticposition in data software development,and/or strategy.
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+Associate Data Scientist
+ABCCorporation-MARCH2012-JUNE2015
+Used satisticalanalysisto determine data behavior
+### Designed and revised forms. manuals, and other company documents,
+
+## ACADEMIC PROJECTS
+
+Managed coworkers on certainprojects regarding QA testing and product development.
+Data Scientist ABCCorporation-2011-2012
+Builta Mode to data mine clinical data from bothpayers and providersto derivepatternsand insights.
+Conceptualizedandimplemented amonitoring algorithm which enablesearly detectlon of adverseeventsto.medicalpractices.
+Theadverseeventdetectionisavastimprovementonexisting methodstoflagadverseevents
+using existing EMR data with the application of machine leaming algorithms

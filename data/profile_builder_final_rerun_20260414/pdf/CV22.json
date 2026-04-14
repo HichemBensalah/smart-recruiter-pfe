@@ -1,0 +1,83 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV22.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV22.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "warren.taylor@gmail.com",
+    "bio": {
+      "full_name": "Warren Taylor",
+      "email": "warren.taylor@gmail.com",
+      "phone": "1-202-555-0122",
+      "location": "Ithaca,NewYork"
+    },
+    "expertise": {
+      "summary": "A highly competent data scientist with five years of experience developing a wide range of innovative applications",
+      "hard_skills": [
+        "Python",
+        "NLTK",
+        "OpenCV",
+        "SPSS",
+        "STATA",
+        "PowerBI",
+        "Spotfire",
+        "Matplotlib",
+        "Cloud Solutions"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Motivation to learn",
+        "Result-oriented",
+        "Analytical mind",
+        "Enthusiasm & optimism",
+        "Critical Thinking",
+        "Presentation Skills"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "InfoTechSolutions-NewYork",
+        "start_date": "Oct2018",
+        "end_date": null,
+        "city": "New York",
+        "responsibilities": [
+          "To predict house prices using time series analysis and neural networks",
+          "Identify factors that predict which employees will have the best performance and which will benefit from a change in their job position using machine learning"
+        ]
+      },
+      {
+        "job_title": "Data Scientist Consultant",
+        "company": "JPMorganAssetManagement-Florida",
+        "start_date": "May2018",
+        "end_date": "Sep2018",
+        "city": "Florida",
+        "responsibilities": [
+          "Predicting the Stock price using sentiment analysis model",
+          "Finding the stock market daily patterns and creating a meaningful solution to the business",
+          "Identifying the Mulitbagger stocks using machine learning and Al"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Computer Application",
+        "school": "CornellUniversity-Ithaca,NewYork",
+        "year": "2019"
+      },
+      {
+        "degree": "Bachelor of Computer Science",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:46:13.950641+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7511
+    }
+  }
+}

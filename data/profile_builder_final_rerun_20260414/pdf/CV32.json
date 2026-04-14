@@ -1,0 +1,84 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV32.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV32.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "gruchalla@gmail.com",
+    "bio": {
+      "full_name": "Kenny Gruchalla",
+      "email": "gruchalla@gmail.com",
+      "phone": "303-275-3713",
+      "location": "Denver, CO 80205"
+    },
+    "expertise": {
+      "summary": "Scientific data visualization researcher and practitioner",
+      "hard_skills": [
+        "CADsWES",
+        "object-oriented simulation",
+        "rule-based simulation",
+        "linear optimization"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Senior Scientist",
+        "company": "National Renewable Energy Laboratory (NREL)",
+        "start_date": "June 2009",
+        "end_date": null,
+        "city": "Golden, CO",
+        "responsibilities": [
+          "Leading scientific data visualization efforts",
+          "Collaborating with NREL domain scientists"
+        ]
+      },
+      {
+        "job_title": "Assistant Professor Adjunct",
+        "company": "University of Colorado at Boulder",
+        "start_date": "May 2011",
+        "end_date": null,
+        "city": "Boulder, CO",
+        "responsibilities": [
+          "Conducting research",
+          "Overseeing student research in scientific data visualization"
+        ]
+      },
+      {
+        "job_title": "Professional Research Assistant",
+        "company": "University of Colorado at Boulder",
+        "start_date": "April 2001",
+        "end_date": "March 2006",
+        "city": "Boulder, CO",
+        "responsibilities": [
+          "Research in scientific data visualization"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ph.D. Computer Science",
+        "school": "University of Colorado at Boulder",
+        "year": "2009"
+      },
+      {
+        "degree": "M.S. Computer Science",
+        "school": "University of Colorado at Boulder",
+        "year": "1995"
+      },
+      {
+        "degree": "B.S. Computer Science",
+        "school": "New Mexico Institute of Mining and Technology",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:47:41.122643+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7321
+    }
+  }
+}

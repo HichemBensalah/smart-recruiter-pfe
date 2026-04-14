@@ -1,0 +1,72 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV10.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV10.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "wxu23@illinois.edu",
+    "bio": {
+      "full_name": "Wenzhe(Evelyn)Xu",
+      "email": "wxu23@illinois.edu",
+      "phone": "217-417-9270",
+      "location": "100 24 Ave #3, San Mateo, CA 94403"
+    },
+    "expertise": {
+      "summary": "Data scientist with experience in machine learning, data analysis, and programming",
+      "hard_skills": [
+        "dplyr",
+        "ggplot2",
+        "shiny",
+        "Python",
+        "Scipy",
+        "numpy",
+        "pandas",
+        "scikit-learn",
+        "SPSS",
+        "Looker",
+        "Linux",
+        "Impala"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Presentation",
+        "Project management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist Intern",
+        "company": "MasterCard Inc.",
+        "start_date": "6/2015",
+        "end_date": "12/2015",
+        "city": "San Carlos",
+        "responsibilities": [
+          "Designed automatic anomalies detection system",
+          "Read package source code of R and re-organized the logic",
+          "Used Impala/SQL for ETL",
+          "Build PPT for presentation and interactive dashboard"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Statistics-Analytics",
+        "school": "University of Illinois at Urbana-Champaign",
+        "year": "8/2013-5/2015"
+      },
+      {
+        "degree": "Bachelor of Science in Statistics",
+        "school": "Tianjin University of Finance and Economics",
+        "year": "9/2009-6/2013"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:44:48.087671+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.8428
+    }
+  }
+}

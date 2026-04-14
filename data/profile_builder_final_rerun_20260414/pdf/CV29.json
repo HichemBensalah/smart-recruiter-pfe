@@ -1,0 +1,78 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV29.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV29.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "pdf:CV29",
+    "bio": {
+      "full_name": "Zelma Kunde",
+      "email": null,
+      "phone": "+1(555)4931757",
+      "location": "Houston, TX"
+    },
+    "expertise": {
+      "summary": "Data Science and Machine Learning professional",
+      "hard_skills": [
+        "Statistics",
+        "Data Mining",
+        "A/B testing",
+        "Dashboards"
+      ],
+      "soft_skills": [
+        "Excellent communication",
+        "Presentation skills",
+        "Collaboration"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "PRINCIPAL DATA SCIENCE MANAGER",
+        "company": null,
+        "start_date": "03/2016",
+        "end_date": "present",
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Lead and grow the Data Science & Machine Learning team",
+          "Quality Assurance and Testing",
+          "Recruiting, reviewing, and evolving the process"
+        ]
+      },
+      {
+        "job_title": "SENIOR DATA SCIENCE MANAGER",
+        "company": null,
+        "start_date": "08/2011",
+        "end_date": "09/2015",
+        "city": "Philadelphia, PA",
+        "responsibilities": [
+          "Work cross-functionally with stakeholders",
+          "Develop techniques/algorithms/measurement for research and analysis",
+          "Lead the development and resolution of critical initiatives"
+        ]
+      },
+      {
+        "job_title": "DATA SCIENCE MANAGER",
+        "company": null,
+        "start_date": "03/2009",
+        "end_date": "06/2011",
+        "city": "Dallas, TX",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's Degree in Computer Science",
+        "school": "University of Memphis",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:47:06.825074+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.8373
+    }
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "run_id": "profile_builder_20260414T114402Z",
+  "accepted_file_path": "data\\processed_final_rerun_20260414\\handoff\\accepted.json",
+  "mode": "dry-run",
+  "total_processed": 59,
+  "success": 36,
+  "failed": 23,
+  "skipped": 0,
+  "ignored": 0,
+  "items": [
+    {
+      "source_path": "data\\raw_cv\\pdf\\0_anonyme.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\0_anonyme.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\0_anonyme.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\0_Jessica.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\0_Jessica.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\0_Jessica.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\1_Jessica.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\1_Jessica.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\1_Jessica.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\2_anonyme.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\2_anonyme.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\2_anonyme.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\2_Jessica.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\2_Jessica.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\2_Jessica.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Aziz_resume.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Aziz_resume.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV1.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV1.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV1.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV10.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV10.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV10.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV11.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV11.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV12.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV12.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "1 validation error for CandidateProfilePayload\nexperiences.4.job_title\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV12.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV15.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV15.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV15.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV17.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "1 validation error for CandidateProfilePayload\neducation.0.degree\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV17.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV2.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV2.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 400 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"{\\n  \\\"bio\\\":{\\n      \\\"full_name\\\":\\\"FIRSTLAST\\\",\\n      \\\"email\\\":\\\"first.last@resumeworded.com\\\",\\n      \\\"phone\\\":\\\"+1(212)123-4567\\\",\\n      \\\"location\\\":\\\"NewYorkCity,NY10000\\\"\\n   },\\n   \\\"expertise\\\":{\\n      \\\"summary\\\":\\\"Data Science Manager with experience in data analysis, machine learning, and team leadership\\\",\\n      \\\"hard_skills([\\\\n         \\\"Microsoft Access\\\",\\\\n         \\\"SQL\\\",\\\\n         \\\"Project Management\\\",\\\\n         \\\"Python\\\",\\\\n         \\\"Perl\\\",\\\\n         \\\"SQL/SQLite3\\\"\\n      ]\\\",\\\\n      \\\"soft_skills\\\":[]\\\\n   },\\\\n   \\\"experiences\\\":[\\\\n      {\\\\n         \\\"job_title\\\":\\\"DataScienceManager\\\",\\\\n         \\\"company\\\":\\\"RESUMEWORDED\\\",\\\\n         \\\"start_date\\\":\\\"2015\\\",\\n         \\\"end_date\\\":\\\"2016\\\",\\n         \\\"city\\\":\\\"SanFrancisco,CA and NewYork,NY\\\",\\n         \\\"responsibilities\\\":[\\n            \\\"Conducted data regression analysis of the relationship between company stock prices and current industry trends\\\",\\n            \\\"Led full redesign of website with findings from customer segmentation and competitive research\\\",\\n            \\\"Developed a new targeting model by segmenting potential users by behavioral attributes from survey data\\\",\\n            \\\"Designed training and peer-mentoring programs for the incoming class of 25 analysts\\\"\\n         ]\\n      },\\n      {\\n         \\\"job_title\\\":\\\"DataScientist\\\",\\n         \\\"company\\\":\\\"GROWTHSI\\\",\\n         \\\"start_date\\\":\\\"2012\\\",\\n         \\\"end_date\\\":\\\"2015\\\",\\n         \\\"city\\\":\\\"NewYork,NY\\\",\\n         \\\"responsibilities\\\":[\\n            \\\"Collaborated with other teams as a Representative of the Data Analysis department and developed key metrics to achieve business outcomes\\\",\\n            \\\"Collaborated with fundamental long and short portfolio managers and analysts to evaluate the predictive power of unique data sources for single stock selection\\\"\\n         ]\\n      }\\n   ],\\n   \\\"education\\\":[\\n      {\\n         \\\"degree\\\":\\\"MasterofScienceinManagementwithHonors\\\",\\n         \\\"school\\\":\\\"GROWTHSI\\\",\\n         \\\"year\\\":\\\"2017\\\"\\n      },\\n      {\\n         \\\"degree\\\":\\\"BachelorofEngineering\\\",\\n         \\\"school\\\":\\\"RESUMEWORDEDUNIVERSITY\\\",\\n         \\\"year\\\":\\\"2012\\\"\\n      }\\n   ]\\n}\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV2.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV20.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV20.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV20.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV21.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV21.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "1 validation error for CandidateProfilePayload\neducation.0.degree\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV21.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV22.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV22.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV22.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV24.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV24.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV24.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV25.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV25.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "1 validation error for CandidateProfilePayload\nbio.email\n  Value error, Invalid email address. [type=value_error, input_value='rk@gmaiLcom', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV25.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV26.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV26.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV26.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV28.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV28.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV28.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV29.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV29.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV29.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV3.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV3.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV31.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV31.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV31.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV32.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV32.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV32.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV33.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV33.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV33.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV34.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV34.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "1 validation error for CandidateProfilePayload\neducation.0.degree\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV34.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV35.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV35.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV35.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV36.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV36.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "1 validation error for CandidateProfilePayload\neducation.1.degree\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV36.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV41.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV41.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV41.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV6.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV6.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV6.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV7.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV7.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\CV7.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Hichem_resume.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Hichem_resume.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Hichem_resume.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_56.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_56.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 400 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"{\\n  \\\"bio\\\":{\\n      \\\"full_name\\\":\\\"Kaylin Quigley\\\",\\n      \\\"email\\\":null,\\n      \\\"phone\\\":\\\"+1(555)3549388\\\",\\n      \\\"location\\\":\\\"Detroit, MI\\\"\\n   },\\n   \\\"expertise\\\":{\\n      \\\"summary\\\":\\\"Senior engineer with experience in data science, analytics, and software development\\\",\\n      \\\"hard_skills\\u003e[\\\\n         \\\"MongoDB\\\",\\\\n         \\\"CouchDB\\\",\\\\n         \\\"Redis\\\",\\\\n         \\\"Java\\\",\\\\n         \\\"SQL\\\",\\\\n         \\\"PL/SQL\\\",\\\\n         \\\"Oracle\\\",\\\\n         \\\"MySQL\\\"\\\\n      ]\\\",\\n      \\\"soft_skills\\\":[\\n         \\\"Team player\\\",\\n         \\\"Flexible\\\",\\n         \\\"Adaptable\\\",\\n         \\\"Strong communication skills\\\",\\n         \\\"Self-motivated\\\"\\n      ]\\n   },\\n   \\\"experiences\\\":[\\n      {\\n         \\\"job_title\\\":\\\"Senior Engineer, Data Science \\u0026 Analytics\\\",\\n         \\\"company\\\":null,\\n         \\\"start_date\\\":\\\"05/2016\\\",\\n         \\\"end_date\\\":null,\\n         \\\"city\\\":\\\"Phoenix\\\",\\n         \\\"responsibilities\\\":[\\n            \\\"Develop, maintain, and communicate development schedules and timelines\\\",\\n            \\\"Work with team to build distributed back-end systems and web development using Java\\\"\\n         ]\\n      },\\n      {\\n         \\\"job_title\\\":\\\"Senior Data Engineer, Data Science\\\",\\n         \\\"company\\\":null,\\n         \\\"start_date\\\":\\\"07/2012\\\",\\n         \\\"end_date\\\":\\\"11/2015\\\",\\n         \\\"city\\\":\\\"San Francisco\\\",\\n         \\\"responsibilities\\\":[\\n            \\\"Understand key business drivers and apply knowledge to improve products and services\\\",\\n            \\\"Participate in review of failures and provide feedback to prevent future occurrences\\\"\\n         ]\\n      },\\n      {\\n         \\\"job_title\\\":\\\"Senior Data Engineer, Data Science\\\",\\n         \\\"company\\\":null,\\n         \\\"start_date\\\":\\\"10/2009\\\",\\n         \\\"end_date\\\":\\\"01/2012\\\",\\n         \\\"city\\\":\\\"Houston\\\",\\n         \\\"responsibilities\\\":[\\n            \\\"Define and implement best practices and development processes\\\",\\n            \\\"Partner with engineering teams on deployments of data science-driven solutions\\\"\\n         ]\\n      }\\n   ],\\n   \\\"education\\\":[\\n      {\\n         \\\"degree\\\":\\\"Bachelor's Degree in Computer Science\\\",\\n         \\\"school\\\":\\\"COLUMBIA UNIVERSITY\\\",\\n         \\\"year\\\":null\\n      }\\n   ]\\n}\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Image_56.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_60.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_60.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Image_60.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_63.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_63.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Image_63.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_64.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_64.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Image_64.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_66.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_66.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Image_66.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_75.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_75.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Image_75.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_77.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_77.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Image_77.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_79.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_79.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Image_79.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_81.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_81.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Image_81.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_83.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_83.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\Image_83.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+      "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\khairi_resume.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\pdf\\khairi_resume.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\docx\\0_anonyme.docx",
+      "artifact_path": "data\\processed_final_rerun_20260414\\docx\\0_anonyme.json",
+      "status": "success",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\docx\\0_anonyme.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\docx\\2_anonyme.docx",
+      "artifact_path": "data\\processed_final_rerun_20260414\\docx\\2_anonyme.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "1 validation error for CandidateProfilePayload\neducation.0.degree\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\docx\\2_anonyme.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\docx\\Aziz_resumer.docx",
+      "artifact_path": "data\\processed_final_rerun_20260414\\docx\\Aziz_resumer.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98499, Requested 2919. Please try again in 20m25.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\docx\\Aziz_resumer.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+      "artifact_path": "data\\processed_final_rerun_20260414\\docx\\Hichem_resume.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98487, Requested 2929. Please try again in 20m23.424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\docx\\Hichem_resume.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\docx\\resume_khairi.docx",
+      "artifact_path": "data\\processed_final_rerun_20260414\\docx\\resume_khairi.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98475, Requested 2484. Please try again in 13m48.575999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\docx\\resume_khairi.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\0_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\0_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98463, Requested 2557. Please try again in 14m41.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\0_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\1_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\1_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98451, Requested 2370. Please try again in 11m49.344s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\1_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\2_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\2_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98438, Requested 2088. Please try again in 7m34.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\2_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\3_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\3_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98426, Requested 2290. Please try again in 10m18.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\3_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\4_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\4_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98414, Requested 2172. Please try again in 8m26.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\4_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\6_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\6_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98402, Requested 2270. Please try again in 9m40.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\6_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\7_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\7_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98390, Requested 2148. Please try again in 7m44.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\7_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\8_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\8_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98377, Requested 1980. Please try again in 5m8.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\8_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\9_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\9_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98365, Requested 2201. Please try again in 8m9.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\9_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\Hichem_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98353, Requested 2613. Please try again in 13m54.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\Hichem_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\khairi_image.jpg",
+      "artifact_path": "data\\processed_final_rerun_20260414\\images\\khairi_image.json",
+      "status": "failed",
+      "mode": "dry-run",
+      "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98341, Requested 2353. Please try again in 9m59.616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "run_id": "profile_builder_20260414T114402Z",
+      "preview_path": "data\\profile_builder_final_rerun_20260414\\images\\khairi_image.json"
+    }
+  ]
+}

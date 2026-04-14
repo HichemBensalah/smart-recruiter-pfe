@@ -1,0 +1,85 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV15.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV15.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "trishastamm@gmail.com",
+    "bio": {
+      "full_name": "Trisha Stamm",
+      "email": "trishastamm@gmail.com",
+      "phone": "401-439-3501",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data scientist with 9 years of experience, skilled in data efficiency and machine learning",
+      "hard_skills": [
+        "RStudio",
+        "Python",
+        "PERL",
+        "NoSQL",
+        "Hadoop",
+        "Cloudera"
+      ],
+      "soft_skills": [
+        "Problem Solving",
+        "Critical Thinking",
+        "Creative Thinking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "ExendCapital Inc.",
+        "start_date": "2017-12",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Fulfilled all data science duties for a high-end capital management firm",
+          "Created and presented models for potential holdings to fund managers",
+          "Created machine learning tools that computed adjusted P/E values"
+        ]
+      },
+      {
+        "job_title": "Junior Data Scientist",
+        "company": "Supracy RealEstate Inc.",
+        "start_date": "2012-08",
+        "end_date": "2013-09",
+        "city": null,
+        "responsibilities": [
+          "Collaborated with all team members to optimize Customer Relationship Management database for a high-volume real estate firm",
+          "Increased repeat business among real estate investors by 25%",
+          "Decreased wasted phone and email time by 57%"
+        ]
+      },
+      {
+        "job_title": "Freelance Data Scientist",
+        "company": "Various",
+        "start_date": "2012-06",
+        "end_date": "2017-12",
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "BS in Statistics",
+        "school": "Syracuse University",
+        "year": "2012"
+      },
+      {
+        "degree": "Microsoft Professional Program for Data Science",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:45:21.519228+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7242
+    }
+  }
+}

@@ -1,0 +1,51 @@
+## EDUCATION
+
+Producing clear and concise written documents, emails, project status reports and briefs
+Communicating e fectively with various levels of the organization
+Expertise
+Making strategic judgments and evaluating the impact
+Cloud Environments Design & Implementation
+Network Design & Implementation VOIP
+Cyber Security (NIST HITRUST/HIPAA)
+Project Management
+Technical Support Management
+Budget Management
+Developing and responding to Request for Proposals
+Current with Emerging Technologies
+At Adsystech I amone of three employees that have a key man insurance policy against them.
+This in of itself, speaks to the trust and value I provide the organization.
+I was hired to design, and deploy the first data center the company owned in its e forts to deploy a new o fering, an enterprise Software as a Service (SaaS) product.
+I was initia ly an employee of an Adsystech customer working with the Adsystech EVP on an enterprise County Wide project and posed the idea that they should move from "se ling" software to "renting" it via an up and coming model SaaS.
+Today, everyone is using SaaS products and paying monthly for various products but in 2004 (when I initia ly made the proposal) it was an exciting and new potential market which I leveraged to increase the returns at Adsystech and most importantly, generate new recurring revenue.
+I was hired in 05' to put in place a l things SaaS, this included designing a data center from the ground up, creating cyber security policies and controls, putting together a teamto support the data center as we l as a teamto provide technical support for the new product o fering.
+As an early adopter, in 2008 I designed and deployed a hybrid cloud environment in our data center.
+Again in 08' this was a new technology but my decision demonstrates foresight in emerging technologies and understand in the value of leveraging technology to become more e ficient and financial prudent.
+I'mvery proud of the work I've done and Adsystech, below are some key areas in my control: Network Design Monitoring and Maintenance Cloud Technologies Cyber Security (NITS, CIS, HITRUST/HIPAA) Project Management Technical Support Management Sta f Professional Development RFP Responses.
+City organization responsible for managing +120 Milion do lars for support of County Wide Human Service programs.
+As PM I identified, evaluated and lead a bi-County steering committee in a l technical aspect in an RFP release and selection process.
+At Relax the Back I was responsible for the overa l management, infrastructure and strategic planning of our National point of sale network
+at 100+ retail locations and 5 distribution centers.
+I managed the ERP solution at our manufacturing plant in Boston and our accounting and HR systems at the corporate o fice.
+Nine short months after starting with the company, I was promoted to IT Manage.
+
+## RESPONSIBILITIES
+
+Managing a large IT environment with ~10,000 SaaS.
+Assigning clear authority and holding others accountable for goal achievement.
+Skils
+
+## COMMUNICATION
+
+Co laborating with clients and fostering a positive business relationship to meet a l levels of IT service demands (Technical, R&D and operations and maintenance)
+
+## REQUIREMENTS
+
+In this capacity I managed a project support team including administrators, help desk sta f and trainers.
+As the IT Manager, I supervised network administrators and was responsible for a l high level network design and architecture for the organization.
+I evaluated the security risks, ensuring HITECH/HIPAA protocol were fo lowed.
+
+## ACADEMIC PROJECTS
+
+Cisco Routers/ Firewa ls.
+Windows Server Management.
+Desktop Support.

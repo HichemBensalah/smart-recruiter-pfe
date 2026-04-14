@@ -1,0 +1,82 @@
+## HEADER
+
+O Ariana, Tunisia
+hichem. salah1512@gmail. com
++21697118755
+
+## PROFESSIONAL SUMMARY
+
+Hichem Bensalah Final-year Data Science & AI Engineering Student, Tek-Up University
+Final-year Data Science & AI Engineeringstudent(PFE Jan-Jun2026)focusedon ML/DL, ML Opsand AWS. Builtend-to-endpipelineswith DVC/M Lflow, Git Hub Actions and Docker;delivereda CNN-Bi LST Mintrusion detectionsystem(~99% accuracy) and production-ready deployments.
+
+## TECHNICAL SKILLS
+
+https://www. linkedin. com/in/hichem-bensalah-7173b0335/Qgithub. com/Hichem Bensalah
+Programming Languages
+Python:Num Py, Pandas, scikit-learn, Matplotlib, Seaborn
+Machine Learning:classification, regression, clustering, anomaly detection
+Other: R, Java, Java Script, C, C++,C#
+Neural Networks:ANN, CNN, RNN (LSTM, GRU)
+ML Ops, Deployment & Cloud
+Transfer Learning:feature extraction, fine-tuning
+Dev Ops/CI/CD:Docker, Git, Git Hub, Git Hub Actions(CI/CD)
+Generative Models:GAN, VAE, Diffusion Models
+Deployment Tools:Flask, Fast API, Streamlit
+Frameworks:Tensor Flow, Keras, Py Torch
+Cloud (AWS): S3, EC2, Sage Maker(AWS SAA preparation)
+Computer Vision & Natural Language Processing(NLP)
+Data Engineering & Databases
+CV: Open CV, YOLO, image/video processing (Tensor RT)
+BI & ETL Tools:ETL, Po Wer BI, SSIS, SSRS, SQL Server
+NLP:spa Cy (tokenization, lemmatization),NLTK, embeddings (Word2Vec, Glo Ve, fast Text),Transformers(Hugging Face),LL Ms
+Databases:My SQL, Postgre SQL, Mongo DB, Neo4j, Oracle, Apache Cassandra (No SQL)
+ID Es & Software
+Big Data & Distributed Processing:Apache Spark, Py Spark(RDD, Data Frames, Spark SQL)
+VS Code|Jupyter|Git|Anaconda
+Telco Churn-End-to-End ML & ML Ops Pipeline, Tek-Up University
+Used Dockerand Git Hub Actions Cl/C Dtotestandbuildthe Fast AP Iserviceforlocaldeploymentinaproduction-like environment.
+
+## EDUCATION
+
+2023-2026
+### Engineering Degree-Data Science & AI|Tek-Up University
+### Civil Engineering Studies(ENIG)|ENIG Gabes
+**Date:** 2017 -2020
+- Preparatory Cyclein Engineering FSS Sfax
+### Baccalaureatin Mathematics| Skhira-Sfax
+**Date:** 2017
+
+## PROFESSIONAL EXPERIENCE
+
+### AI & Data Science Intern, TUDIGISEC, TDS Global Technologies
+**Date:** 07/2025-09/2025
+- Builta CNN-Bi LSTM Network Intrusion Detection System(NSL-KDD)in Tensor Flow/Keraswith>99%testaccuracy.
+### Summer Training, Tek-Up University
+**Date:** 07/2024-08/2024
+- Python(Pc AP prep) & Java (oc A prep):hands-on labs; strengthened OOP, data structures, and problem-solvingunder time constraints.
+
+## ACADEMIC PROJECTS
+
+11/2025
+Built an Ls TM-based sentiment analysis pipeline (Keras/Tensor Flow) on IM Db movie reviews, including preprocessing, trainingandevaluation.
+Developedawebscrapingmoduletoautomaticallycollectreviewsstartingfromamovietitle.
+### Wrappedthemodelina Fast A Plserviceandintegrateditwithan LL Mchatbot(Groq A Pi)thatorchestratesscrapingand prediction.
+**Date:** 11/2025
+- Versioned data and models with DVC and tracked experiments in M Lflow, ensuring reproducible churn prediction training.
+- Added m onitoring and drift reports on locally served predictions to detect model degradation over time and support timely retraining.
+### Business Intelligence Project -Autism Prediction, Tek-Up University
+**Date:** 05/2025
+### Developeda Blsolutiontopredict autismlikelihood usingmedicalandbehaviouraldatafrom Kaggle.
+- Used SQL Serverand Power B Ifordata preparationandinteractive dashboards, and deployed Decision Tree, Random Forestand XG Boostmodelsasa Flaskwebapplication.
+
+## LANGUAGES
+
+Arabic(Native),French(Fluent),English(Professional—B1-B2)
+
+## SOFT SKILLS
+
+Problem-solving|Teamwork|Communication|Criticalthinking
+
+## CERTIFICATES (IN PROGRESS)
+
+PCAP|AWSCCP|AWSML Eng-Assoc.

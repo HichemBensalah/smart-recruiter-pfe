@@ -1,0 +1,57 @@
+## HEADER
+
+FIRSTLAST
+DataScienceManager
+NewYorkCity,NY10000·first.last@resumeworded.com·+1(212)123-4567
+
+## PROFESSIONAL EXPERIENCE
+
+PROFESSIONALEXPERIENCE
+### SanFrancisco,CA and NewYork,NY 2016-Present
+**Date:** 2015-2016
+- RESUMEWORDED DataScienceManager
+- SeniorDataScientist
+### Conducted dataregression analysisof therelationshipbetweencompanystockprices and currentindustry trends, leading to 15% higher accuracy prediction of performance than the last 4 years.
+### Ledfull redesign of website with findingsfrom customer segmentation and competitive research,increasing websiteleadsby225%.
+### Developed a new targeting model by segmenting potential users by behavioral attributes from survey data, generating $1.5M in sales.
+- Designed training and peer-mentoring programs for the incoming class of 25 analysts in 2014; reduced onboarding time for new hires by 50%.
+- Promoted within 12 months due to strong performance and organizational impact (one year ahead of schedule).
+### SelectedProjectExperience
+
+## ACADEMIC PROJECTS
+
+### ·Fraud Detection Project
+### Droveredevelopmentoffraud detectionalgorithm,introducing10+newattributes,resultingin decreased falsepositivecasesby75%.
+### Analyzed customer's spendingbehavior,includingmapping thelocation of thespenders toidentify fraudulent transactions from the non-fraudulent ones, increasing the accuracy rate by over 97%.
+### Led the team of 3 members to conduct market research in an efficient manner, completing the project 4 weeksearlierthanestimatedtimeline.
+### Operations ManagementProject
+- Streamlined standard businessprocesses and internal systemsresulting inwork efficiencyraiseby 22%
+### Led consolidation of 6 data systems into 1, resulting in 55K in annual savings.
+### Refined outsourcing strategy, resulting in increased offshore headcount from 12 to 39 employees.
+**Date:** NewYork,NY 2012-2015
+- GROWTHSI
+- DataScientist
+- database.
+### Collaborated with other teams as a Representative of the Data Analysis department and developed key metrics to achievebusiness outcomes,resultingin anincreaseinrevenueby$450,000collectively.
+- Collaborated with fundamental long and short portfolio managers and analysts to evaluate the predictive power of unique data sources for single stock selection.
+
+## EDUCATION
+
+GROWTHSI
+MasterofScienceinManagementwithHonors
+### ·Awards: Bill & Melinda Gates Fellow (only 5 awarded to class),President's List 2017 (top10%).
+**Date:** SanFrancisco,CA 2011-2012
+- RESUMEWORDEDUNIVERSITY
+### BachelorofEngineering,MajorinComputerScience;MinorinMathematics
+**Date:** NewYork,NY 2007-2011
+### ·Completed one-year study abroadwithSingaporeUniversity.
+- ADDITIONALINFORMATION
+
+## TECHNICAL SKILLS
+
+Technical Skills:Microsoft Access, SQL, Project Management, Python, Perl, SQL/SQLite3.
+·Awards: Won nationwide data science competition out of 500+ participants (2013).
+
+## CERTIFICATES (IN PROGRESS)
+
+Certifications:Microsoft Certified Solutions Expert (August 2016),Passed Resume Worded examinations.

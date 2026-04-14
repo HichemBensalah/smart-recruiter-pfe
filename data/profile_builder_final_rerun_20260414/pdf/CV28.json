@@ -1,0 +1,92 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV28.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV28.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "trishastamm@gmail.com",
+    "bio": {
+      "full_name": "TrishaStamm",
+      "email": "trishastamm@gmail.com",
+      "phone": "401-439-3501",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data Scientist with expertise in creating models to predict stock prices and investment returns",
+      "hard_skills": [
+        "R Studio",
+        "Python",
+        "PERL",
+        "NoSQL",
+        "Hadoop",
+        "Cloudera",
+        "MachineLearning",
+        "DataVisualization",
+        "Modeling"
+      ],
+      "soft_skills": [
+        "ProblemSolving",
+        "Critical Thinking",
+        "CreativeThinking",
+        "Interpersonal Skills"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "ExendCapital Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Fulfilled all data science duties for a high-end capital management firm",
+          "Created and presented models for potential holdings to fund managers",
+          "Achieved 20% better returns vs historical performance"
+        ]
+      },
+      {
+        "job_title": "Junior Data Scientist",
+        "company": "Supracy Real Estate Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Collaborated with all team members to optimize Customer Relationship Management database for a high-volume real estate firm",
+          "Increased repeat business among real estate investors by 25%",
+          "Decreased wasted phone and email time by 57%"
+        ]
+      },
+      {
+        "job_title": "Freelance Data Scientist",
+        "company": "Various",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "NCAA Master: Beat 200+ statistics professors, students, and professionals in an NCAA pool",
+          "Foot Forest: Used random forest regressor to predict fantasy football scores"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BS in Statistics",
+        "school": "Syracuse University",
+        "year": "2008-2012"
+      },
+      {
+        "degree": "Microsoft Professional Program for Data Science",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:46:55.052862+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.8029
+    }
+  }
+}

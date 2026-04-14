@@ -1,0 +1,108 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hichem_resume.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Hichem_resume.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "hichem.salah1512@gmail.com",
+    "bio": {
+      "full_name": "Hichem Bensalah",
+      "email": "hichem.salah1512@gmail.com",
+      "phone": "+216 97 118 755",
+      "location": "Ariana, Tunisia"
+    },
+    "expertise": {
+      "summary": "Data Science & AI Engineering Student with experience in machine learning, deep learning, and natural language processing",
+      "hard_skills": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "Java",
+        "JavaScript",
+        "Docker",
+        "GitHub",
+        "GitHub Actions",
+        "Flask",
+        "FastAPI",
+        "Streamlit",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "SageMaker",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Neo4j",
+        "Oracle",
+        "Apache Cassandra",
+        "Apache Spark",
+        "PySpark"
+      ],
+      "soft_skills": [
+        "Problem-solving",
+        "Teamwork",
+        "Communication",
+        "Critical thinking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "AI & Data Science Intern",
+        "company": "TUDIGISEC, TDS Global Technologies",
+        "start_date": "07/2025",
+        "end_date": "09/2025",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Delivered a Flask + Flask-SocketIO web demo with tested /predict API and basic real-time interface",
+          "Built end-to-end pipelines with DVC/MLflow, GitHub Actions and Docker",
+          "Delivered a CNN-BiLSTM intrusion detection system (~99% accuracy) and production-ready deployments",
+          "Implemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports)"
+        ]
+      },
+      {
+        "job_title": "Summer Training",
+        "company": "Tek-Up University",
+        "start_date": "07/2024",
+        "end_date": "08/2024",
+        "city": "Ariana, Tunisia",
+        "responsibilities": [
+          "Developed a web scraping module to automatically collect reviews starting from a movie title",
+          "Built an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree - Data Science & AI",
+        "school": "Tek-Up University",
+        "year": "2023 - 2026"
+      },
+      {
+        "degree": "Civil Engineering Studies",
+        "school": "ENIG Gabès",
+        "year": "2020 - 2022"
+      },
+      {
+        "degree": "Preparatory Cycle in Engineering",
+        "school": "FSS Sfax",
+        "year": "2017 - 2020"
+      },
+      {
+        "degree": "Baccalauréat in Mathematics",
+        "school": "Skhira-Sfax",
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:49:03.080366+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.9515
+    }
+  }
+}

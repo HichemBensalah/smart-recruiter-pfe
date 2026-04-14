@@ -1,0 +1,914 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_76.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "partial",
+  "raw_text": "JERROLD JOHNSTON\n78789 Thomas Lake, Chicago, IL\nPHONE\n+1(555)338 0835\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nMuller Inc\nNewYork,NY//DirectorofDataScience//02/2019-present\ns\n·ProductRoadmapCreation/Collaboration\nHyatt, Jacobs and Lindgren\nNewYork,NY//DataScience//11/2014-09/2018\n·ActivelyenrolledinaBachelor's,Master'sorPhDprograminComputerScience,Mathematics,Statistics,orrelatedarea withdemonstratedexperiencebuildingmachinelearningmodels\nACADEMIC PROJECTS\n·ChampionAl/analyticsprojectstoallstakeholders\n·Implementandsecuremechanismstoenforcedataprivacyanddataprotectionregulations\nTECHNICAL SKILLS\n·SoftwareskillsinPythonandapassiontodevelopthem\n·WorkasaBusinessAnalysttoconvertSubjectMatterExpertandCustomerconceptsintoconcisebusinesscases\nSKILLS\n·Usingdatavisualizationtools\n·Programming languages such asPython and/or R\n·Handlingterabytesizedatasets\n·Writing and tuning SQL\nEDUCATION\nRhodeIslandSchoolofDesign\nBachelor'sinComputerScience\nLANGUAGES\n·ImperativeprogramminglanguagessuchasJavaorC/C++\n·AWStechnologieslikeRedshift,S3,EC2,DataPipeline,EMR",
+  "markdown": "## JERROLD JOHNSTON\n\n78789 Thomas Lake, Chicago, IL\nPHONE\n+1(555)338 0835\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nMuller Inc\n### NewYork,NY//DirectorofDataScience//02/2019-present\n- s\n- ·ProductRoadmapCreation/Collaboration\n### Hyatt, Jacobs and Lindgren\n**Date:** NewYork,NY//DataScience//11/2014-09/2018\n### ·ActivelyenrolledinaBachelor's,Master'sorPhDprograminComputerScience,Mathematics,Statistics,orrelatedarea withdemonstratedexperiencebuildingmachinelearningmodels\n\n## ACADEMIC PROJECTS\n\n·ChampionAl/analyticsprojectstoallstakeholders\n·Implementandsecuremechanismstoenforcedataprivacyanddataprotectionregulations\n\n## TECHNICAL SKILLS\n\n·SoftwareskillsinPythonandapassiontodevelopthem\n·WorkasaBusinessAnalysttoconvertSubjectMatterExpertandCustomerconceptsintoconcisebusinesscases\nSKILLS\n·Usingdatavisualizationtools\n·Programming languages such asPython and/or R\n·Handlingterabytesizedatasets\n·Writing and tuning SQL\n\n## EDUCATION\n\nRhodeIslandSchoolofDesign\nBachelor'sinComputerScience\n\n## LANGUAGES\n\n·ImperativeprogramminglanguagessuchasJavaorC/C++\n·AWStechnologieslikeRedshift,S3,EC2,DataPipeline,EMR",
+  "logical_sections": [
+    {
+      "title": "JERROLD JOHNSTON",
+      "section_type": "other",
+      "content": [
+        "78789 Thomas Lake, Chicago, IL",
+        "PHONE",
+        "+1(555)338 0835"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "78789 Thomas Lake, Chicago, IL",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 59.199615478515625,
+            "top": 1381.8792826334636,
+            "right": 361.1925862630208,
+            "bottom": 1407.7677205403645
+          },
+          "section_title": "JERROLD JOHNSTON"
+        },
+        {
+          "text": "PHONE",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 59.94897969563802,
+            "top": 1306.4982299804688,
+            "right": 125.89285278320312,
+            "bottom": 1327.818135579427
+          },
+          "section_title": "JERROLD JOHNSTON"
+        },
+        {
+          "text": "+1(555)338 0835",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 60.6983388264974,
+            "top": 1274.5183919270833,
+            "right": 214.3176066080729,
+            "bottom": 1295.8382975260417
+          },
+          "section_title": "JERROLD JOHNSTON"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "EXPERIENCE",
+        "Muller Inc"
+      ],
+      "items": [
+        {
+          "title": "NewYork,NY//DirectorofDataScience//02/2019-present",
+          "date": null,
+          "location": null,
+          "details": [
+            "s",
+            "·ProductRoadmapCreation/Collaboration"
+          ],
+          "evidence_spans": [
+            {
+              "text": "NewYork,NY//DirectorofDataScience//02/2019-present",
+              "page_no": 1,
+              "block_indices": [
+                6
+              ],
+              "bbox": {
+                "left": 82.42984517415364,
+                "top": 1087.2079264322917,
+                "right": 632.4617106119791,
+                "bottom": 1109.2892252604167
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "s",
+              "page_no": 1,
+              "block_indices": [
+                7
+              ],
+              "bbox": {
+                "left": 115.4017842610677,
+                "top": 1023.2482503255208,
+                "right": 724.63330078125,
+                "bottom": 1045.3295491536458
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "·ProductRoadmapCreation/Collaboration",
+              "page_no": 1,
+              "block_indices": [
+                10
+              ],
+              "bbox": {
+                "left": 98.1664530436198,
+                "top": 907.5116780598959,
+                "right": 465.3539632161458,
+                "bottom": 929.593017578125
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Hyatt, Jacobs and Lindgren",
+          "date": "NewYork,NY//DataScience//11/2014-09/2018",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Hyatt, Jacobs and Lindgren",
+              "page_no": 1,
+              "block_indices": [
+                11
+              ],
+              "bbox": {
+                "left": 83.17920939127605,
+                "top": 830.6077880859375,
+                "right": 349.9521484375,
+                "bottom": 855.7348225911459
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "NewYork,NY//DataScience//11/2014-09/2018",
+              "page_no": 1,
+              "block_indices": [
+                12
+              ],
+              "bbox": {
+                "left": 81.68048095703125,
+                "top": 800.1507975260416,
+                "right": 538.0420735677084,
+                "bottom": 822.2320963541666
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "·ActivelyenrolledinaBachelor's,Master'sorPhDprograminComputerScience,Mathematics,Statistics,orrelatedarea withdemonstratedexperiencebuildingmachinelearningmodels",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "·ActivelyenrolledinaBachelor's,Master'sorPhDprograminComputerScience,Mathematics,Statistics,orrelatedarea withdemonstratedexperiencebuildingmachinelearningmodels",
+              "page_no": 1,
+              "block_indices": [
+                13
+              ],
+              "bbox": {
+                "left": 97.41709391276042,
+                "top": 735.4296875,
+                "right": 1092.5701497395833,
+                "bottom": 786.4451497395834
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "EXPERIENCE",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 47.95918273925781,
+            "top": 1184.6702880859375,
+            "right": 159.6141560872396,
+            "bottom": 1205.228759765625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Muller Inc",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 80.93112182617188,
+            "top": 1118.4263509114583,
+            "right": 182.09503173828125,
+            "bottom": 1145.837646484375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "NewYork,NY//DirectorofDataScience//02/2019-present",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 82.42984517415364,
+            "top": 1087.2079264322917,
+            "right": 632.4617106119791,
+            "bottom": 1109.2892252604167
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "s",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 115.4017842610677,
+            "top": 1023.2482503255208,
+            "right": 724.63330078125,
+            "bottom": 1045.3295491536458
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·ProductRoadmapCreation/Collaboration",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 98.1664530436198,
+            "top": 907.5116780598959,
+            "right": 465.3539632161458,
+            "bottom": 929.593017578125
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Hyatt, Jacobs and Lindgren",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 83.17920939127605,
+            "top": 830.6077880859375,
+            "right": 349.9521484375,
+            "bottom": 855.7348225911459
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "NewYork,NY//DataScience//11/2014-09/2018",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 81.68048095703125,
+            "top": 800.1507975260416,
+            "right": 538.0420735677084,
+            "bottom": 822.2320963541666
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "·ActivelyenrolledinaBachelor's,Master'sorPhDprograminComputerScience,Mathematics,Statistics,orrelatedarea withdemonstratedexperiencebuildingmachinelearningmodels",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 97.41709391276042,
+            "top": 735.4296875,
+            "right": 1092.5701497395833,
+            "bottom": 786.4451497395834
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [
+        "·ChampionAl/analyticsprojectstoallstakeholders",
+        "·Implementandsecuremechanismstoenforcedataprivacyanddataprotectionregulations"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "·ChampionAl/analyticsprojectstoallstakeholders",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 99.66518147786458,
+            "top": 993.5526936848959,
+            "right": 526.0522867838541,
+            "bottom": 1016.3954264322917
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "·Implementandsecuremechanismstoenforcedataprivacyanddataprotectionregulations",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 97.41709391276042,
+            "top": 935.6844075520834,
+            "right": 859.5184733072916,
+            "bottom": 959.28857421875
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "·SoftwareskillsinPythonandapassiontodevelopthem",
+        "·WorkasaBusinessAnalysttoconvertSubjectMatterExpertandCustomerconceptsintoconcisebusinesscases",
+        "SKILLS",
+        "·Usingdatavisualizationtools",
+        "·Programming languages such asPython and/or R",
+        "·Handlingterabytesizedatasets",
+        "·Writing and tuning SQL"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "·SoftwareskillsinPythonandapassiontodevelopthem",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 98.1664530436198,
+            "top": 706.49560546875,
+            "right": 571.7633870442709,
+            "bottom": 728.576904296875
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·WorkasaBusinessAnalysttoconvertSubjectMatterExpertandCustomerconceptsintoconcisebusinesscases",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 97.41709391276042,
+            "top": 648.6272786458334,
+            "right": 1034.8692220052083,
+            "bottom": 672.2314453125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "SKILLS",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 44.96173604329427,
+            "top": 350.91023763020826,
+            "right": 109.40688069661458,
+            "bottom": 374.514404296875
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Usingdatavisualizationtools",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 98.91581217447917,
+            "top": 291.51912434895826,
+            "right": 357.44580078125,
+            "bottom": 313.60042317708326
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Programming languages such asPython and/or R",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 97.41709391276042,
+            "top": 261.82356770833326,
+            "right": 523.80419921875,
+            "bottom": 286.18912760416674
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Handlingterabytesizedatasets",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 99.66518147786458,
+            "top": 176.5439453125,
+            "right": 373.9317626953125,
+            "bottom": 196.341064453125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "·Writing and tuning SQL",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 98.91581217447917,
+            "top": 146.08699544270826,
+            "right": 309.48659261067706,
+            "bottom": 168.92976888020826
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [
+        "RhodeIslandSchoolofDesign",
+        "Bachelor'sinComputerScience"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "RhodeIslandSchoolofDesign",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 82.42984517415364,
+            "top": 478.06819661458326,
+            "right": 376.92919921875,
+            "bottom": 507.00227864583337
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Bachelor'sinComputerScience",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 83.17920939127605,
+            "top": 448.37263997395826,
+            "right": 353.698974609375,
+            "bottom": 470.45393880208326
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGES",
+      "section_type": "languages",
+      "content": [
+        "·ImperativeprogramminglanguagessuchasJavaorC/C++",
+        "·AWStechnologieslikeRedshift,S3,EC2,DataPipeline,EMR"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "·ImperativeprogramminglanguagessuchasJavaorC/C++",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 98.91581217447917,
+            "top": 233.65079752604174,
+            "right": 594.9936116536459,
+            "bottom": 255.732177734375
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "·AWStechnologieslikeRedshift,S3,EC2,DataPipeline,EMR",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 97.41709391276042,
+            "top": 205.47810872395826,
+            "right": 624.21875,
+            "bottom": 227.55940755208326
+          },
+          "section_title": "LANGUAGES"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.5142,
+    "status": "partial",
+    "signals": {
+      "useful_text_chars": 1051,
+      "section_completeness": 0.6667,
+      "ordering_coherence": 0.1667,
+      "segmentation_stability": 1.0,
+      "layout_block_coverage": 0.8125,
+      "ocr_noise_ratio": 0.48,
+      "weird_section_ratio": 0.0,
+      "section_count": 6,
+      "expected_section_hits": 4,
+      "router_is_scanned": true,
+      "router_ocr_required": true,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 11,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.05
+    },
+    "warnings": [
+      "low_section_order_coherence",
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "repair_required",
+    "eligible_for_module2": false,
+    "decision_reason": "Document partiel; reparation et re-evaluation obligatoires avant Module 2.",
+    "decision_rules": [
+      "partial -> repair_required",
+      "partial from pdf/docx -> repair_required until revalidated"
+    ],
+    "quality_flags": [
+      "low_section_order_coherence",
+      "high_ocr_noise"
+    ],
+    "repair_status": "pending_repair",
+    "repair_reason": "partial_document_requires_repair",
+    "quarantine_reason": null,
+    "next_action": "send_to_repair_queue"
+  },
+  "evidence_spans": [
+    {
+      "text": "78789 Thomas Lake, Chicago, IL",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 59.199615478515625,
+        "top": 1381.8792826334636,
+        "right": 361.1925862630208,
+        "bottom": 1407.7677205403645
+      },
+      "section_title": "JERROLD JOHNSTON"
+    },
+    {
+      "text": "PHONE",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 59.94897969563802,
+        "top": 1306.4982299804688,
+        "right": 125.89285278320312,
+        "bottom": 1327.818135579427
+      },
+      "section_title": "JERROLD JOHNSTON"
+    },
+    {
+      "text": "+1(555)338 0835",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 60.6983388264974,
+        "top": 1274.5183919270833,
+        "right": 214.3176066080729,
+        "bottom": 1295.8382975260417
+      },
+      "section_title": "JERROLD JOHNSTON"
+    },
+    {
+      "text": "EXPERIENCE",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 47.95918273925781,
+        "top": 1184.6702880859375,
+        "right": 159.6141560872396,
+        "bottom": 1205.228759765625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Muller Inc",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 80.93112182617188,
+        "top": 1118.4263509114583,
+        "right": 182.09503173828125,
+        "bottom": 1145.837646484375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "NewYork,NY//DirectorofDataScience//02/2019-present",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 82.42984517415364,
+        "top": 1087.2079264322917,
+        "right": 632.4617106119791,
+        "bottom": 1109.2892252604167
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "s",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 115.4017842610677,
+        "top": 1023.2482503255208,
+        "right": 724.63330078125,
+        "bottom": 1045.3295491536458
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·ProductRoadmapCreation/Collaboration",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 98.1664530436198,
+        "top": 907.5116780598959,
+        "right": 465.3539632161458,
+        "bottom": 929.593017578125
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Hyatt, Jacobs and Lindgren",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 83.17920939127605,
+        "top": 830.6077880859375,
+        "right": 349.9521484375,
+        "bottom": 855.7348225911459
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "NewYork,NY//DataScience//11/2014-09/2018",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 81.68048095703125,
+        "top": 800.1507975260416,
+        "right": 538.0420735677084,
+        "bottom": 822.2320963541666
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·ActivelyenrolledinaBachelor's,Master'sorPhDprograminComputerScience,Mathematics,Statistics,orrelatedarea withdemonstratedexperiencebuildingmachinelearningmodels",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 97.41709391276042,
+        "top": 735.4296875,
+        "right": 1092.5701497395833,
+        "bottom": 786.4451497395834
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "·ChampionAl/analyticsprojectstoallstakeholders",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 99.66518147786458,
+        "top": 993.5526936848959,
+        "right": 526.0522867838541,
+        "bottom": 1016.3954264322917
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "·Implementandsecuremechanismstoenforcedataprivacyanddataprotectionregulations",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 97.41709391276042,
+        "top": 935.6844075520834,
+        "right": 859.5184733072916,
+        "bottom": 959.28857421875
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "·SoftwareskillsinPythonandapassiontodevelopthem",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 98.1664530436198,
+        "top": 706.49560546875,
+        "right": 571.7633870442709,
+        "bottom": 728.576904296875
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·WorkasaBusinessAnalysttoconvertSubjectMatterExpertandCustomerconceptsintoconcisebusinesscases",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 97.41709391276042,
+        "top": 648.6272786458334,
+        "right": 1034.8692220052083,
+        "bottom": 672.2314453125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "SKILLS",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 44.96173604329427,
+        "top": 350.91023763020826,
+        "right": 109.40688069661458,
+        "bottom": 374.514404296875
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Usingdatavisualizationtools",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 98.91581217447917,
+        "top": 291.51912434895826,
+        "right": 357.44580078125,
+        "bottom": 313.60042317708326
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Programming languages such asPython and/or R",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 97.41709391276042,
+        "top": 261.82356770833326,
+        "right": 523.80419921875,
+        "bottom": 286.18912760416674
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Handlingterabytesizedatasets",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 99.66518147786458,
+        "top": 176.5439453125,
+        "right": 373.9317626953125,
+        "bottom": 196.341064453125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "·Writing and tuning SQL",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 98.91581217447917,
+        "top": 146.08699544270826,
+        "right": 309.48659261067706,
+        "bottom": 168.92976888020826
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "RhodeIslandSchoolofDesign",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 82.42984517415364,
+        "top": 478.06819661458326,
+        "right": 376.92919921875,
+        "bottom": 507.00227864583337
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Bachelor'sinComputerScience",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 83.17920939127605,
+        "top": 448.37263997395826,
+        "right": 353.698974609375,
+        "bottom": 470.45393880208326
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "·ImperativeprogramminglanguagessuchasJavaorC/C++",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 98.91581217447917,
+        "top": 233.65079752604174,
+        "right": 594.9936116536459,
+        "bottom": 255.732177734375
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "·AWStechnologieslikeRedshift,S3,EC2,DataPipeline,EMR",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 97.41709391276042,
+        "top": 205.47810872395826,
+        "right": 624.21875,
+        "bottom": 227.55940755208326
+      },
+      "section_title": "LANGUAGES"
+    }
+  ]
+}

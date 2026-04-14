@@ -1,0 +1,73 @@
+## HEADER
+
+Khaireddine Suibgui
+/map-marker-alt El Ghazela, Ariana
+/envelope suibguikhairi2021@gmail.com
+/phone-alt + 216 55470669
+/linkedin-in Khaireddine Suibgui
+suibguikhairi
+/github
+
+## PROFESSIONAL SUMMARY
+
+Profile
+As a Data Science engineer graduated from TEK-UP university, I have developed a solid foundation in my field to deliver actionable insights. I am passionate about using technology to achieve impactful solutions, and I am eager to apply my expertise in a professional environment to drive innovation and optimize performance.
+
+## EDUCATION
+
+### TEK-UP University - Ariana , Data Science
+**Date:** 2022 - 2025
+
+## ENGINEERING DEGREE
+
+FSM- Monastir , Maths - Physics
+
+## PREPARATORY CYCLE
+
+Pioneer School of Kasserine - Kasserine , Mathemathics
+BACCALAUREATE
+
+## PROFESSIONAL EXPERIENCE
+
+Experience
+### End of Studies Internship
+### Club Africain, Tunis | March - August 2025
+### Designed and developed a web application for managing players' personal and sports data, integrating an intelligent system to predict potential injuries and provide personalized training recommendations.
+**Date:** TEK-UP, Ariana | July - August 2024
+- SUMMERINTERNSHIP
+- Developedaspeechsynthesissystemcapableoftransformingwrittentextintoaudiblespeechusingdeeplearning for the conversion model and big data for storage and processing.
+
+## TECHNICAL SKILLS
+
+Tools : Angular | NodeJs | MongoDB | ExpressJs | Machine Learning | Git.
+Tools : Tensorflow | PyTorch | Apache Spark | NLTK | Git.
+Tools : Tensorflow | Keras | LSTM | NLP | Git.
+Heart Health
+Tools : SVM | KNN | K-Means | Naive Bayes | Adaboost | Git.
+Travel Booking
+Tools : SVM | KNN | K-Means | Microsoft Power BI | Git.
+Tourism Analysis
+Tools : R | R Markdown | Shiny | Tidyverse | Git.
+Skills
+Programming Languages: Python | R | Matlab | SQL | JavaScript | Java | C | C++. Technologies: MySQL | MongoDB | Cassandra | ML | DL | LLMs | Fine Tuning | Power BI | Scikit-learn | TensorFlow | Keras | PyTorch | Apache Spark | Apache Airflow | JAX | Hadoop | AWS | Git.
+Fluent
+French:
+
+## ACADEMIC PROJECTS
+
+CommentToxicity Detection
+developed a project to analyze data on heart disease involving classification algorithms such as SVM and KNN and clustering like K-Means to predict the presence of heart disease.
+### developedaprojectbyprocessingacomplexdatabaseoftouristbookingsusingR.Itincludedreadingthedatabase, manipulating the data, visualizing the data, Creating interactive dashboards and writing a report.
+**Date:** TEK-UP, Ariana | April 2024
+- Developed a predictive system to address the high cost of travel bookings by creating a dynamic price prediction model with machine learning to predict booking prices and a dashboard interface using Power BI.
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Develop a deep learning model to classify toxicity in user comments using TensorFlow and Keras. It involved NLP, vectorization and building a sequential model with LSTM layers to detect categories of toxicity.
+
+## LANGUAGES
+
+Native
+Fluent
+Arabic:
+English:

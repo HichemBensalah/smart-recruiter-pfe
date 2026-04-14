@@ -1,0 +1,71 @@
+## HEADER
+
+JessicaClaire
+Montgomery Street,San Francisco,CA 94105
+（555）432-1000
+resumesample@example.com
+OBJECTIVE
+
+## TECHNICAL SKILLS
+
+modernsoftwareproductsandplatforms.
+
+## PROFESSIONAL SUMMARY
+
+EXECUTIVESUMMARY
+Planning,CrossFunctionaland CrossTeamCoordination,TeamDevelopment,Tactical Reorganization,
+ConsensusBuildingandOperationsManagement
+AREASOFEXPERTISE
+TechnologyLeadershipandInnovation
+PredictiveAnalytics
+ProductPlanningandOKRDefinition
+DataScienceandEngineering
+MachineLearning and Distributed Computing
+LeadingMVPDefinitionandDevelopment
+StrategicAnnual andQuarterlyPlanning
+HighPerformanceComputing
+Fostering StrategicPartnerships
+OptimizationandSimulation
+AlgorithmsandDataStructures
+andProfiling
+Healthcare-OrthotixPersonalization,CustomizationandRecommendationsEngine
+StorageAreaNetwork-Operational Control,MetricsReportingandAnalytics,Recommendations
+07/2014toCURRENT
+
+## ACADEMIC PROJECTS
+
+### ProjectandResourcePlanning
+- ManagingMultipleScrumTeams
+### Java,Python,Spark,MapReduce
+- ProductArchitectureand Design
+- PRODUCTPORTFOLIO
+### Retail-PersonalizedRecommendationsAPl,RulesEngine,ChatOps,FeedbackDataCollection
+### ImpressionsAnalysis,Operational MonitoringandSLAAlerting
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+### PRINCIPAL,DATASCIENCEANDENGINEERING
+**Location:** Engine,Visualization and SLA Monitoring
+### Target|City,STATE
+- DeliveringagainstOKRs
+- PRONCIPALENGINEER/PRODUCTOWNER
+### Hitachi Data Systems|City,STATE
+**Date:** 02/2011to06/2014
+- ManagementandVisualization
+
+## LEOD SDKARCHITECT
+
+Playfirst Inc.|City,STATE
+Social GamesSDKDesignforFlagshipSocial Games ChocolatierandDinerDash
+
+## EDUCATION
+
+EDUCATIONAND
+### MasterofScience|ElectricalandComputerEngieering
+**Date:** 2015
+- TRAINING
+### Carnegie Mellon University,Pittsburgh,PA
+### BaChelorofScience|ComputerScienceand Engineering
+**Date:** 2001
+### Amravati University,Shegaon,Maharashtra

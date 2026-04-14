@@ -1,0 +1,64 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_79.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_79.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "pdf:Image_79",
+    "bio": {
+      "full_name": "Renato Dietrich",
+      "email": null,
+      "phone": "+1(555) 609 1782",
+      "location": "Houston, TX"
+    },
+    "expertise": {
+      "summary": "Director of Data Science with experience in building and growing teams, managing Data Science Teams, and expertise in data analysis",
+      "hard_skills": [
+        "Elasticsearch",
+        "Kibana"
+      ],
+      "soft_skills": [
+        "Mentorship",
+        "Communication"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Data Science",
+        "company": "Emard-Aufderhar",
+        "start_date": "11/2018",
+        "end_date": "present",
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Building and growing teams",
+          "Providing mentorship to junior team members",
+          "Managing a Data Science Team",
+          "Analyzing structured and unstructured data"
+        ]
+      },
+      {
+        "job_title": "Data Science",
+        "company": "Witting, Lesch and Kiehn",
+        "start_date": "01/2013",
+        "end_date": "08/2018",
+        "city": "Houston, TX",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's in Computer Science",
+        "school": "Columbus College of Art and Design",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:50:26.702207+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7307
+    }
+  }
+}

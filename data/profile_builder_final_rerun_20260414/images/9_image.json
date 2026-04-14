@@ -1,0 +1,10 @@
+{
+  "source_path": "data\\raw_cv\\images\\9_image.jpg",
+  "artifact_path": "data\\processed_final_rerun_20260414\\images\\9_image.json",
+  "source_format": "images",
+  "status": "failed",
+  "mode": "dry-run",
+  "error": "HTTP 429 calling https://api.groq.com/openai/v1/chat/completions: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98365, Requested 2201. Please try again in 8m9.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": null
+}

@@ -1,0 +1,94 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV33.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV33.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260414T114402Z",
+  "profile": {
+    "source_id": "pdf:CV33",
+    "bio": {
+      "full_name": "Lina Stark",
+      "email": null,
+      "phone": "+1(555)7955486",
+      "location": "Detroit, MI"
+    },
+    "expertise": {
+      "summary": "Director of Data Science with experience in machine learning, artificial intelligence, and data analysis",
+      "hard_skills": [
+        "Artificial Intelligence",
+        "Java",
+        "Scala",
+        "HADOOP",
+        "HIVE",
+        "Spark-MLlib",
+        "Teradata",
+        "Greenplum",
+        "Python"
+      ],
+      "soft_skills": [
+        "Analytical"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Data Science",
+        "company": null,
+        "start_date": "06/2014",
+        "end_date": "present",
+        "city": "Los Angeles",
+        "responsibilities": [
+          "Grow and manage a world-class platform and team for rapid product research, development, deployment and improvement",
+          "Manage data scientists to help execute on strategic vision",
+          "Provide leadership in advanced engineering, data science and analytics",
+          "Collaborate with investment and client-facing teams",
+          "Maintain and update standards to assess and document modeling process and performance",
+          "Mentor junior team members and create training and growth opportunities"
+        ]
+      },
+      {
+        "job_title": "Data Science",
+        "company": null,
+        "start_date": "11/2009",
+        "end_date": "05/2014",
+        "city": "Los Angeles",
+        "responsibilities": [
+          "Perform EDA and feature engineering",
+          "Provide analysis using mathematical modeling tools",
+          "Leverage data to perform intensive analysis",
+          "Assist with the mentorship and development of junior staff",
+          "Assist with the development of standardized reporting solutions",
+          "Create dashboards and reports to regularly communicate results"
+        ]
+      },
+      {
+        "job_title": "Intern, Data Science",
+        "company": null,
+        "start_date": "02/2004",
+        "end_date": "07/2009",
+        "city": "New York",
+        "responsibilities": [
+          "Designing and implementing machine learning solutions",
+          "Writing SQL or P code for cleaning the data and developing statistical models",
+          "Analyzing data with standard statistical methods",
+          "Data Engineering - building pipelines and tools for data transfer and share",
+          "Carry out tasks encompassing data cleansing and data normalization",
+          "Conduct research on methodology enhancements"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's Degree",
+        "school": "Bowling Green State University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-14T11:47:46.980048+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "confidence_score": 0.7673
+    }
+  }
+}
