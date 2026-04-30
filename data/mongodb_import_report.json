@@ -1,0 +1,1591 @@
+{
+  "generated_at_utc": "2026-04-28T11:16:39.190046+00:00",
+  "execution_mode": "execute",
+  "strategy_version": "dedup_v2_two_collections",
+  "module2_root": "data\\profile_builder_official_module2_rerun_ollama_fixed",
+  "accepted_path": "data\\processed_official_module1\\handoff\\accepted.json",
+  "report_path": "data\\mongodb_import_report.json",
+  "database_used": "talent_intelligence",
+  "mongodb_uri": "mongodb://localhost:27017",
+  "candidates_collection_used": "candidates",
+  "candidate_profiles_collection_used": "candidate_profiles",
+  "total_json_read": 90,
+  "success_profiles": 86,
+  "success_ready_for_import": 86,
+  "failed_ignored": 4,
+  "candidate_profiles_to_import": 86,
+  "candidates_to_create": 73,
+  "real_email_count": 31,
+  "generic_email_count": 15,
+  "missing_email_count": 40,
+  "phones_detected": 40,
+  "real_phone_count": 30,
+  "linkedin_detected_count": 0,
+  "github_detected_count": 0,
+  "strong_merges_count": 8,
+  "possible_duplicates_count": 8,
+  "conflicts_count": 1,
+  "risky_merges_prevented": [
+    {
+      "old_candidate_key": "email:email@youremail.com",
+      "reason": "Old logic would merge on generic/template email; new strategy keeps profiles separate unless stronger evidence is validated.",
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_938235bde8cc",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\2_image.json",
+          "source_path": "data\\raw_cv\\images\\2_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\2_image.json",
+          "source_format": "images",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Alexander Eakins",
+          "email_raw": "email@youremail.com",
+          "email_normalized": "email@youremail.com",
+          "email_class": "generic",
+          "phone_raw": "(111)111-1111",
+          "phone_normalized": "1111111111",
+          "phone_class": "weak_or_placeholder",
+          "location": "Los Angeles, CA 90001",
+          "source_id": "email@youremail.com",
+          "schools": [
+            "Harvard University-Bachelorof Science, Data Science"
+          ]
+        },
+        {
+          "profile_id": "profile_d954812ec6a3",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV3.json",
+          "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV3.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Alexander Eakins",
+          "email_raw": "email@youremail.com",
+          "email_normalized": "email@youremail.com",
+          "email_class": "generic",
+          "phone_raw": "(111)111-1111",
+          "phone_normalized": "1111111111",
+          "phone_class": "weak_or_placeholder",
+          "location": "777 Springboard St.#144 Los Angeles, CA 90001",
+          "source_id": "email@youremail.com",
+          "schools": [
+            "Harvard University",
+            "Springboard"
+          ]
+        }
+      ]
+    },
+    {
+      "old_candidate_key": "email:first.last@resumeworded.com",
+      "reason": "Old logic would merge on generic/template email; new strategy keeps profiles separate unless stronger evidence is validated.",
+      "profile_count": 4,
+      "profiles": [
+        {
+          "profile_id": "profile_b4b68a6c99e9",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\1_image.json",
+          "source_path": "data\\raw_cv\\images\\1_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\1_image.json",
+          "source_format": "images",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "FIRSTLAST",
+          "email_raw": "first.last@resumeworded.com",
+          "email_normalized": "first.last@resumeworded.com",
+          "email_class": "generic",
+          "phone_raw": "+1 (212) 123-4567",
+          "phone_normalized": "12121234567",
+          "phone_class": "weak_or_placeholder",
+          "location": "New York City, NY 10000",
+          "source_id": "first.last@resumeworded.com",
+          "schools": [
+            "GROWTHSI",
+            "RESUMEWORDEDUNIVERSITY"
+          ]
+        },
+        {
+          "profile_id": "profile_271b68aee932",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV11.json",
+          "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV11.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "First Last",
+          "email_raw": "first.last@resumeworded.com",
+          "email_normalized": "first.last@resumeworded.com",
+          "email_class": "generic",
+          "phone_raw": "+1234567-890",
+          "phone_normalized": "1234567890",
+          "phone_class": "weak_or_placeholder",
+          "location": "San Francisco, CA 12345",
+          "source_id": "first.last@resumeworded.com",
+          "schools": [
+            "Resume Worded University"
+          ]
+        },
+        {
+          "profile_id": "profile_d36994f38c5d",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV2.json",
+          "source_path": "data\\raw_cv\\pdf\\CV2.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV2.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "FIRSTLAST",
+          "email_raw": "first.last@resumeworded.com",
+          "email_normalized": "first.last@resumeworded.com",
+          "email_class": "generic",
+          "phone_raw": "+1(212)123-4567",
+          "phone_normalized": "12121234567",
+          "phone_class": "weak_or_placeholder",
+          "location": "New York City, NY 10000",
+          "source_id": "first.last@resumeworded.com",
+          "schools": [
+            "GROWTHSI",
+            "RESUMEWORDED UNIVERSITY"
+          ]
+        },
+        {
+          "profile_id": "profile_0863cb85af45",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV36.json",
+          "source_path": "data\\raw_cv\\pdf\\CV36.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV36.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "FirstLast",
+          "email_raw": "first.last@resumeworded.com",
+          "email_normalized": "first.last@resumeworded.com",
+          "email_class": "generic",
+          "phone_raw": "+44123456789",
+          "phone_normalized": "44123456789",
+          "phone_class": "weak_or_placeholder",
+          "location": "New York, NY",
+          "source_id": "first.last@resumeworded.com",
+          "schools": [
+            "RESUMEWORDEDUNIVERSITY",
+            "LONDONSCHOOLOFECONOMICSANDPOLITICALSCIENCE"
+          ]
+        }
+      ]
+    },
+    {
+      "old_candidate_key": "email:info@qwikresume.com",
+      "reason": "Old logic would merge on generic/template email; new strategy keeps profiles separate unless stronger evidence is validated.",
+      "profile_count": 3,
+      "profiles": [
+        {
+          "profile_id": "profile_f8dce9cb7cbe",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV34.json",
+          "source_path": "data\\raw_cv\\pdf\\CV34.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV34.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Robert Smith",
+          "email_raw": "info@qwikresume.com",
+          "email_normalized": "info@qwikresume.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Alabama",
+          "source_id": "info@qwikresume.com",
+          "schools": []
+        },
+        {
+          "profile_id": "profile_ad49405b8d0a",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_63.json",
+          "source_path": "data\\raw_cv\\pdf\\Image_63.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\Image_63.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "ROBERTSMITH",
+          "email_raw": "info@qwikresume.com",
+          "email_normalized": "info@qwikresume.com",
+          "email_class": "generic",
+          "phone_raw": "(0123)-456-789",
+          "phone_normalized": "0123456789",
+          "phone_class": "weak_or_placeholder",
+          "location": "2259 Oak Street, Old Forge, New York, 13420",
+          "source_id": "info@qwikresume.com",
+          "schools": []
+        },
+        {
+          "profile_id": "profile_e1878f1525fa",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_64.json",
+          "source_path": "data\\raw_cv\\pdf\\Image_64.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\Image_64.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": null,
+          "email_raw": "info@qwikresume.com",
+          "email_normalized": "info@qwikresume.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": null,
+          "source_id": "info@qwikresume.com",
+          "schools": []
+        }
+      ]
+    },
+    {
+      "old_candidate_key": "email:info@resumekraft.com",
+      "reason": "Old logic would merge on generic/template email; new strategy keeps profiles separate unless stronger evidence is validated.",
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_1056dc99ec52",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV17.json",
+          "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV17.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Kevin Brandon",
+          "email_raw": "info@resumekraft.com",
+          "email_normalized": "info@resumekraft.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Chicago, Illinois, US",
+          "source_id": "info@resumekraft.com",
+          "schools": [
+            "San Jose State University"
+          ]
+        },
+        {
+          "profile_id": "profile_0fab72c4a68a",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV18.json",
+          "source_path": "data\\raw_cv\\pdf\\CV18.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV18.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Eric Nathan",
+          "email_raw": "info@resumekraft.com",
+          "email_normalized": "info@resumekraft.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Chicago, Illinois, US",
+          "source_id": "info@resumekraft.com",
+          "schools": [
+            "San Jose State University",
+            "Northeastern University",
+            "Data Science"
+          ]
+        }
+      ]
+    },
+    {
+      "old_candidate_key": "email:resumesample@example.com",
+      "reason": "Old logic would merge on generic/template email; new strategy keeps profiles separate unless stronger evidence is validated.",
+      "profile_count": 3,
+      "profiles": [
+        {
+          "profile_id": "profile_1a25cf45d58e",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\0_Jessica.json",
+          "source_path": "data\\raw_cv\\pdf\\0_Jessica.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\0_Jessica.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Jessica Claire",
+          "email_raw": "resumesample@example.com",
+          "email_normalized": "resumesample@example.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Montgomery Street, San Francisco, CA 94105",
+          "source_id": "resumesample@example.com",
+          "schools": [
+            "Carnegie Mellon University, Pittsburgh, PA",
+            "Amravati University, Shegaon, Maharashtra"
+          ]
+        },
+        {
+          "profile_id": "profile_abfc783b9b0e",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\1_Jessica.json",
+          "source_path": "data\\raw_cv\\pdf\\1_Jessica.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\1_Jessica.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "JESSICA CLAIRE",
+          "email_raw": "resumesample@example.com",
+          "email_normalized": "resumesample@example.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "100 Montgomery St. 10th Floor",
+          "source_id": "resumesample@example.com",
+          "schools": [
+            "University of Waterloo",
+            "Heart Lake Secondary School"
+          ]
+        },
+        {
+          "profile_id": "profile_15f5eb087b0a",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\2_Jessica.json",
+          "source_path": "data\\raw_cv\\pdf\\2_Jessica.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\2_Jessica.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "JESSICACLAIRE",
+          "email_raw": "resumesample@example.com",
+          "email_normalized": "resumesample@example.com",
+          "email_class": "generic",
+          "phone_raw": "(555)432-1000",
+          "phone_normalized": "5554321000",
+          "phone_class": "real",
+          "location": "Montgomery Street, San Francisco, CA 94105",
+          "source_id": "resumesample@example.com",
+          "schools": [
+            "University of Virginia"
+          ]
+        }
+      ]
+    }
+  ],
+  "groups_auto_merged": [
+    {
+      "candidate_id": "candidate_7a913be8254e",
+      "dedup_level": "A",
+      "dedup_status": "auto_merged",
+      "dedup_confidence": 0.98,
+      "dedup_evidence": {
+        "type": "real_email",
+        "value": "anuvagoyal111@gmail.com",
+        "level": "A",
+        "rule": "A: identical real_email and no obvious identity conflict"
+      },
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_385c50681319",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\1901841_RESUME.json",
+          "source_path": "data\\raw_cv\\pdf\\1901841_RESUME.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\1901841_RESUME.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "ANUVA GOYAL",
+          "email_raw": "anuvagoyal111@gmail.com",
+          "email_normalized": "anuvagoyal111@gmail.com",
+          "email_class": "real",
+          "phone_raw": "+91 9520349542",
+          "phone_normalized": "919520349542",
+          "phone_class": "real",
+          "location": null,
+          "source_id": "anuvagoyal111@gmail.com",
+          "schools": []
+        },
+        {
+          "profile_id": "profile_9a03e18126b4",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\AnuvaGoyal_Latex.json",
+          "source_path": "data\\raw_cv\\pdf\\AnuvaGoyal_Latex.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\AnuvaGoyal_Latex.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "ANUVA GOYAL",
+          "email_raw": "anuvagoyal111@gmail.com",
+          "email_normalized": "anuvagoyal111@gmail.com",
+          "email_class": "real",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Agra, Uttar Pradesh, India",
+          "source_id": "anuvagoyal111@gmail.com",
+          "schools": [
+            "Dayalbagh Educational Institute, Agra",
+            "St. Clare's Senior Secondary School, Agra"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate_206d746034ef",
+      "dedup_level": "A",
+      "dedup_status": "auto_merged",
+      "dedup_confidence": 0.98,
+      "dedup_evidence": {
+        "type": "real_email",
+        "value": "azizbelaweid@gmail.com",
+        "level": "A",
+        "rule": "A: identical real_email and no obvious identity conflict"
+      },
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_dfcba4521e04",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\Aziz_resumer.json",
+          "source_path": "data\\raw_cv\\docx\\Aziz_resumer.docx",
+          "artifact_path": "data\\processed_official_module1\\docx\\Aziz_resumer.json",
+          "source_format": "docx",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "MOHAMED AZIZ BELAWEID",
+          "email_raw": "azizbelaweid@gmail.com",
+          "email_normalized": "azizbelaweid@gmail.com",
+          "email_class": "real",
+          "phone_raw": "+4917668727956",
+          "phone_normalized": "4917668727956",
+          "phone_class": "real",
+          "location": "Berlin, Germany",
+          "source_id": "azizbelaweid@gmail.com",
+          "schools": [
+            "National Institute of Applied Sciences and Technology (INSAT)"
+          ]
+        },
+        {
+          "profile_id": "profile_260f5bc0f7ae",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Aziz_resume.json",
+          "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\Aziz_resume.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "MOHAMED AZIZ BELAWEID",
+          "email_raw": "azizbelaweid@gmail.com",
+          "email_normalized": "azizbelaweid@gmail.com",
+          "email_class": "real",
+          "phone_raw": "+4917668727956",
+          "phone_normalized": "4917668727956",
+          "phone_class": "real",
+          "location": "Berlin, Germany",
+          "source_id": "azizbelaweid@gmail.com",
+          "schools": [
+            "National Institute of Applied Sciences and Technology (INSAT)"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate_ecc1fcef13a6",
+      "dedup_level": "A",
+      "dedup_status": "auto_merged",
+      "dedup_confidence": 0.98,
+      "dedup_evidence": {
+        "type": "real_email",
+        "value": "emilysaavedra@gmail.com",
+        "level": "A",
+        "rule": "A: identical real_email and no obvious identity conflict"
+      },
+      "profile_count": 6,
+      "profiles": [
+        {
+          "profile_id": "profile_41bef7fd9cce",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\3_image.json",
+          "source_path": "data\\raw_cv\\images\\3_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\3_image.json",
+          "source_format": "images",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Emily Saavedra",
+          "email_raw": "emilysaavedra@gmail.com",
+          "email_normalized": "emilysaavedra@gmail.com",
+          "email_class": "real",
+          "phone_raw": "07835150056",
+          "phone_normalized": "07835150056",
+          "phone_class": "real",
+          "location": "88 Hendford Hill, London B 220 GX, United Kingdom",
+          "source_id": "emilysaavedra@gmail.com",
+          "schools": [
+            "University of Chichester, Mathematics and Statistics",
+            "The International School Estepona"
+          ]
+        },
+        {
+          "profile_id": "profile_b1332fdbdc49",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\4_image.json",
+          "source_path": "data\\raw_cv\\images\\4_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\4_image.json",
+          "source_format": "images",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": null,
+          "email_raw": "emilysaavedra@gmail.com",
+          "email_normalized": "emilysaavedra@gmail.com",
+          "email_class": "real",
+          "phone_raw": "07835150056",
+          "phone_normalized": "07835150056",
+          "phone_class": "real",
+          "location": "88 Hendford Hill, London B 220 GX, United Kingdom",
+          "source_id": "emilysaavedra@gmail.com",
+          "schools": [
+            "Mathematics and Statistics University of Chichester"
+          ]
+        },
+        {
+          "profile_id": "profile_cdb527752763",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\6_image.json",
+          "source_path": "data\\raw_cv\\images\\6_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\6_image.json",
+          "source_format": "images",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "EMILYSAAVEDRA",
+          "email_raw": "emilysaavedra@gmail.com",
+          "email_normalized": "emilysaavedra@gmail.com",
+          "email_class": "real",
+          "phone_raw": "07835150056",
+          "phone_normalized": "07835150056",
+          "phone_class": "real",
+          "location": "London B 220 GX, United Kingdom",
+          "source_id": "emilysaavedra@gmail.com",
+          "schools": [
+            "The International School Estepona",
+            "University of Chichester"
+          ]
+        },
+        {
+          "profile_id": "profile_b663ad985d4b",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV4.json",
+          "source_path": "data\\raw_cv\\pdf\\CV4.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV4.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Emily Saavedra",
+          "email_raw": "emilysaavedra@gmail.com",
+          "email_normalized": "emilysaavedra@gmail.com",
+          "email_class": "real",
+          "phone_raw": "07835150056",
+          "phone_normalized": "07835150056",
+          "phone_class": "real",
+          "location": "London B 220 GX, United Kingdom",
+          "source_id": "emilysaavedra@gmail.com",
+          "schools": [
+            "University of Chichester",
+            "The International School Estepona"
+          ]
+        },
+        {
+          "profile_id": "profile_2e6ffc8f765e",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV6.json",
+          "source_path": "data\\raw_cv\\pdf\\CV6.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV6.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "EMILY SAAVEDRA",
+          "email_raw": "emilysaavedra@gmail.com",
+          "email_normalized": "emilysaavedra@gmail.com",
+          "email_class": "real",
+          "phone_raw": "07835150056",
+          "phone_normalized": "07835150056",
+          "phone_class": "real",
+          "location": "London B 220 GX, United Kingdom",
+          "source_id": "emilysaavedra@gmail.com",
+          "schools": [
+            "The International School Estepona, El Paraiso, Spain",
+            "CGL, Inc., London, United Kingdom"
+          ]
+        },
+        {
+          "profile_id": "profile_e2a425caf3bc",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_60.json",
+          "source_path": "data\\raw_cv\\pdf\\Image_60.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\Image_60.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "EMILYSAAVEDRA",
+          "email_raw": "emilysaavedra@gmail.com",
+          "email_normalized": "emilysaavedra@gmail.com",
+          "email_class": "real",
+          "phone_raw": "07835150056",
+          "phone_normalized": "07835150056",
+          "phone_class": "real",
+          "location": "London B 220 GX, United Kingdom",
+          "source_id": "emilysaavedra@gmail.com",
+          "schools": [
+            "The International School Estepona, El Paraiso, Spain",
+            "University of Chichester, Chichester, United Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate_e1ea3e5184a9",
+      "dedup_level": "A",
+      "dedup_status": "auto_merged",
+      "dedup_confidence": 0.98,
+      "dedup_evidence": {
+        "type": "real_email",
+        "value": "gruchalla@gmail.com",
+        "level": "A",
+        "rule": "A: identical real_email and no obvious identity conflict"
+      },
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_2f18a809e2a4",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV32.json",
+          "source_path": "data\\raw_cv\\pdf\\CV32.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV32.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "None",
+          "email_raw": "gruchalla@gmail.com",
+          "email_normalized": "gruchalla@gmail.com",
+          "email_class": "real",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "(availableuponrequest), Denver, CO 80205",
+          "source_id": "gruchalla@gmail.com",
+          "schools": [
+            "University of Colorado at Boulder, Boulder, CO",
+            "New Mexico Institute of Mining and Technology, Socorro, NM"
+          ]
+        },
+        {
+          "profile_id": "profile_9deefdb0b5c8",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_83.json",
+          "source_path": "data\\raw_cv\\pdf\\Image_83.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\Image_83.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": null,
+          "email_raw": "gruchalla@gmail.com",
+          "email_normalized": "gruchalla@gmail.com",
+          "email_class": "real",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Denver, CO 80205",
+          "source_id": "gruchalla@gmail.com",
+          "schools": [
+            "Universityof Coloradoat Boulder",
+            "Universityof Colorado at Boulder",
+            "New Mexico Institute of Mining and Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate_a3c2a6c7cdc8",
+      "dedup_level": "A",
+      "dedup_status": "auto_merged",
+      "dedup_confidence": 0.98,
+      "dedup_evidence": {
+        "type": "real_email",
+        "value": "suibguikhairi2021@gmail.com",
+        "level": "A",
+        "rule": "A: identical real_email and no obvious identity conflict"
+      },
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_498bc7d8b81e",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\resume_khairi.json",
+          "source_path": "data\\raw_cv\\docx\\resume_khairi.docx",
+          "artifact_path": "data\\processed_official_module1\\docx\\resume_khairi.json",
+          "source_format": "docx",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Khaireddine Suibgui",
+          "email_raw": "suibguikhairi2021@gmail.com",
+          "email_normalized": "suibguikhairi2021@gmail.com",
+          "email_class": "real",
+          "phone_raw": "+216 55470669",
+          "phone_normalized": "21655470669",
+          "phone_class": "real",
+          "location": "El Ghazela, Ariana",
+          "source_id": "suibguikhairi2021@gmail.com",
+          "schools": [
+            "TEK-UP University",
+            "FSM",
+            "Pioneer School of Kasserine"
+          ]
+        },
+        {
+          "profile_id": "profile_943b11123b63",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\khairi_resume.json",
+          "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\khairi_resume.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Khaireddine Suibgui",
+          "email_raw": "suibguikhairi 2021@gmail. com",
+          "email_normalized": "suibguikhairi2021@gmail.com",
+          "email_class": "real",
+          "phone_raw": "+216 55470669",
+          "phone_normalized": "21655470669",
+          "phone_class": "real",
+          "location": "",
+          "source_id": "suibguikhairi 2021@gmail. com",
+          "schools": []
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate_ef0e8855357d",
+      "dedup_level": "A",
+      "dedup_status": "auto_merged",
+      "dedup_confidence": 0.98,
+      "dedup_evidence": {
+        "type": "real_email",
+        "value": "trishastamm@gmail.com",
+        "level": "A",
+        "rule": "A: identical real_email and no obvious identity conflict"
+      },
+      "profile_count": 3,
+      "profiles": [
+        {
+          "profile_id": "profile_b11ae09a33c3",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV15.json",
+          "source_path": "data\\raw_cv\\pdf\\CV15.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV15.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Trisha Stamm",
+          "email_raw": "trishastamm@gmail.com",
+          "email_normalized": "trishastamm@gmail.com",
+          "email_class": "real",
+          "phone_raw": "",
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "",
+          "source_id": "trishastamm@gmail.com",
+          "schools": [
+            "Syracuse University"
+          ]
+        },
+        {
+          "profile_id": "profile_f72fd6f93de5",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV24.json",
+          "source_path": "data\\raw_cv\\pdf\\CV24.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV24.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Trisha Stamm",
+          "email_raw": "trishastamm@gmail.com",
+          "email_normalized": "trishastamm@gmail.com",
+          "email_class": "real",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": null,
+          "source_id": "trishastamm@gmail.com",
+          "schools": []
+        },
+        {
+          "profile_id": "profile_6c067d88bace",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV28.json",
+          "source_path": "data\\raw_cv\\pdf\\CV28.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV28.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": null,
+          "email_raw": "trishastamm@gmail.com",
+          "email_normalized": "trishastamm@gmail.com",
+          "email_class": "real",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": null,
+          "source_id": "trishastamm@gmail.com",
+          "schools": [
+            "Boylston St. Soup Kitchen",
+            "Syracuse University"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate_1487f3187f7b",
+      "dedup_level": "A",
+      "dedup_status": "auto_merged",
+      "dedup_confidence": 0.95,
+      "dedup_evidence": {
+        "type": "real_phone",
+        "value": "21697118755",
+        "level": "A",
+        "rule": "A: identical real_phone and no obvious identity conflict"
+      },
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_f3fbf32693be",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\Hichem_resume.json",
+          "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+          "artifact_path": "data\\processed_official_module1\\docx\\Hichem_resume.json",
+          "source_format": "docx",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Hichem Bensalah",
+          "email_raw": "hichem.salah1512@gmail.com",
+          "email_normalized": "hichem.salah1512@gmail.com",
+          "email_class": "real",
+          "phone_raw": "+216 97 118 755",
+          "phone_normalized": "21697118755",
+          "phone_class": "real",
+          "location": "Ariana, Tunisia",
+          "source_id": "hichem.salah1512@gmail.com",
+          "schools": [
+            "Tek-Up University",
+            "ENIG Gabès",
+            "FSS Sfax",
+            "Skhira–Sfax"
+          ]
+        },
+        {
+          "profile_id": "profile_c65c3adaad77",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Hichem_resume.json",
+          "source_path": "data\\raw_cv\\pdf\\Hichem_resume.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\Hichem_resume.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": null,
+          "email_raw": null,
+          "email_normalized": null,
+          "email_class": "missing",
+          "phone_raw": "+216 97 118 755",
+          "phone_normalized": "21697118755",
+          "phone_class": "real",
+          "location": "Ariana, Tunisia",
+          "source_id": "pdf:Hichem_resume",
+          "schools": [
+            "ENIG Gabès",
+            "FSS Sfax"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate_0100242624a4",
+      "dedup_level": "A",
+      "dedup_status": "auto_merged",
+      "dedup_confidence": 0.95,
+      "dedup_evidence": {
+        "type": "real_phone",
+        "value": "2174179270",
+        "level": "A",
+        "rule": "A: identical real_phone and no obvious identity conflict"
+      },
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_692dbbcd030e",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV10.json",
+          "source_path": "data\\raw_cv\\pdf\\CV10.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV10.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Wenzhe(Evelyn)Xu",
+          "email_raw": "wxu23@illinois.edu",
+          "email_normalized": "wxu23@illinois.edu",
+          "email_class": "real",
+          "phone_raw": "217-417-9270",
+          "phone_normalized": "2174179270",
+          "phone_class": "real",
+          "location": "100 24 Ave #3, San Mateo, CA 94403",
+          "source_id": "wxu23@illinois.edu",
+          "schools": [
+            "University of Illinois at Urbana-Champaign",
+            "Tianjin University of Finance and Economics"
+          ]
+        },
+        {
+          "profile_id": "profile_67fd8c92321d",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV35.json",
+          "source_path": "data\\raw_cv\\pdf\\CV35.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV35.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Wenzhe(Evelyn)Xu",
+          "email_raw": null,
+          "email_normalized": null,
+          "email_class": "missing",
+          "phone_raw": "217-417-9270",
+          "phone_normalized": "2174179270",
+          "phone_class": "real",
+          "location": null,
+          "source_id": "pdf:CV35",
+          "schools": []
+        }
+      ]
+    }
+  ],
+  "groups_not_merged": [
+    {
+      "dedup_status": "possible_duplicate_needs_review",
+      "possible_duplicate_type": "generic_email_group",
+      "evidence": {
+        "value": "email@youremail.com"
+      },
+      "reason": "Same generic/template email. Do not merge automatically; review with name, phone, school and location.",
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_938235bde8cc",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\2_image.json",
+          "source_path": "data\\raw_cv\\images\\2_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\2_image.json",
+          "source_format": "images",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Alexander Eakins",
+          "email_raw": "email@youremail.com",
+          "email_normalized": "email@youremail.com",
+          "email_class": "generic",
+          "phone_raw": "(111)111-1111",
+          "phone_normalized": "1111111111",
+          "phone_class": "weak_or_placeholder",
+          "location": "Los Angeles, CA 90001",
+          "source_id": "email@youremail.com",
+          "schools": [
+            "Harvard University-Bachelorof Science, Data Science"
+          ]
+        },
+        {
+          "profile_id": "profile_d954812ec6a3",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV3.json",
+          "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV3.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Alexander Eakins",
+          "email_raw": "email@youremail.com",
+          "email_normalized": "email@youremail.com",
+          "email_class": "generic",
+          "phone_raw": "(111)111-1111",
+          "phone_normalized": "1111111111",
+          "phone_class": "weak_or_placeholder",
+          "location": "777 Springboard St.#144 Los Angeles, CA 90001",
+          "source_id": "email@youremail.com",
+          "schools": [
+            "Harvard University",
+            "Springboard"
+          ]
+        }
+      ]
+    },
+    {
+      "dedup_status": "possible_duplicate_needs_review",
+      "possible_duplicate_type": "generic_email_group",
+      "evidence": {
+        "value": "first.last@resumeworded.com"
+      },
+      "reason": "Same generic/template email. Do not merge automatically; review with name, phone, school and location.",
+      "profile_count": 4,
+      "profiles": [
+        {
+          "profile_id": "profile_b4b68a6c99e9",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\1_image.json",
+          "source_path": "data\\raw_cv\\images\\1_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\1_image.json",
+          "source_format": "images",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "FIRSTLAST",
+          "email_raw": "first.last@resumeworded.com",
+          "email_normalized": "first.last@resumeworded.com",
+          "email_class": "generic",
+          "phone_raw": "+1 (212) 123-4567",
+          "phone_normalized": "12121234567",
+          "phone_class": "weak_or_placeholder",
+          "location": "New York City, NY 10000",
+          "source_id": "first.last@resumeworded.com",
+          "schools": [
+            "GROWTHSI",
+            "RESUMEWORDEDUNIVERSITY"
+          ]
+        },
+        {
+          "profile_id": "profile_271b68aee932",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV11.json",
+          "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV11.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "First Last",
+          "email_raw": "first.last@resumeworded.com",
+          "email_normalized": "first.last@resumeworded.com",
+          "email_class": "generic",
+          "phone_raw": "+1234567-890",
+          "phone_normalized": "1234567890",
+          "phone_class": "weak_or_placeholder",
+          "location": "San Francisco, CA 12345",
+          "source_id": "first.last@resumeworded.com",
+          "schools": [
+            "Resume Worded University"
+          ]
+        },
+        {
+          "profile_id": "profile_d36994f38c5d",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV2.json",
+          "source_path": "data\\raw_cv\\pdf\\CV2.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV2.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "FIRSTLAST",
+          "email_raw": "first.last@resumeworded.com",
+          "email_normalized": "first.last@resumeworded.com",
+          "email_class": "generic",
+          "phone_raw": "+1(212)123-4567",
+          "phone_normalized": "12121234567",
+          "phone_class": "weak_or_placeholder",
+          "location": "New York City, NY 10000",
+          "source_id": "first.last@resumeworded.com",
+          "schools": [
+            "GROWTHSI",
+            "RESUMEWORDED UNIVERSITY"
+          ]
+        },
+        {
+          "profile_id": "profile_0863cb85af45",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV36.json",
+          "source_path": "data\\raw_cv\\pdf\\CV36.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV36.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "FirstLast",
+          "email_raw": "first.last@resumeworded.com",
+          "email_normalized": "first.last@resumeworded.com",
+          "email_class": "generic",
+          "phone_raw": "+44123456789",
+          "phone_normalized": "44123456789",
+          "phone_class": "weak_or_placeholder",
+          "location": "New York, NY",
+          "source_id": "first.last@resumeworded.com",
+          "schools": [
+            "RESUMEWORDEDUNIVERSITY",
+            "LONDONSCHOOLOFECONOMICSANDPOLITICALSCIENCE"
+          ]
+        }
+      ]
+    },
+    {
+      "dedup_status": "possible_duplicate_needs_review",
+      "possible_duplicate_type": "generic_email_group",
+      "evidence": {
+        "value": "info@qwikresume.com"
+      },
+      "reason": "Same generic/template email. Do not merge automatically; review with name, phone, school and location.",
+      "profile_count": 3,
+      "profiles": [
+        {
+          "profile_id": "profile_f8dce9cb7cbe",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV34.json",
+          "source_path": "data\\raw_cv\\pdf\\CV34.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV34.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Robert Smith",
+          "email_raw": "info@qwikresume.com",
+          "email_normalized": "info@qwikresume.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Alabama",
+          "source_id": "info@qwikresume.com",
+          "schools": []
+        },
+        {
+          "profile_id": "profile_ad49405b8d0a",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_63.json",
+          "source_path": "data\\raw_cv\\pdf\\Image_63.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\Image_63.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "ROBERTSMITH",
+          "email_raw": "info@qwikresume.com",
+          "email_normalized": "info@qwikresume.com",
+          "email_class": "generic",
+          "phone_raw": "(0123)-456-789",
+          "phone_normalized": "0123456789",
+          "phone_class": "weak_or_placeholder",
+          "location": "2259 Oak Street, Old Forge, New York, 13420",
+          "source_id": "info@qwikresume.com",
+          "schools": []
+        },
+        {
+          "profile_id": "profile_e1878f1525fa",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_64.json",
+          "source_path": "data\\raw_cv\\pdf\\Image_64.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\Image_64.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": null,
+          "email_raw": "info@qwikresume.com",
+          "email_normalized": "info@qwikresume.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": null,
+          "source_id": "info@qwikresume.com",
+          "schools": []
+        }
+      ]
+    },
+    {
+      "dedup_status": "possible_duplicate_needs_review",
+      "possible_duplicate_type": "generic_email_group",
+      "evidence": {
+        "value": "info@resumekraft.com"
+      },
+      "reason": "Same generic/template email. Do not merge automatically; review with name, phone, school and location.",
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_1056dc99ec52",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV17.json",
+          "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV17.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Kevin Brandon",
+          "email_raw": "info@resumekraft.com",
+          "email_normalized": "info@resumekraft.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Chicago, Illinois, US",
+          "source_id": "info@resumekraft.com",
+          "schools": [
+            "San Jose State University"
+          ]
+        },
+        {
+          "profile_id": "profile_0fab72c4a68a",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV18.json",
+          "source_path": "data\\raw_cv\\pdf\\CV18.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV18.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Eric Nathan",
+          "email_raw": "info@resumekraft.com",
+          "email_normalized": "info@resumekraft.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Chicago, Illinois, US",
+          "source_id": "info@resumekraft.com",
+          "schools": [
+            "San Jose State University",
+            "Northeastern University",
+            "Data Science"
+          ]
+        }
+      ]
+    },
+    {
+      "dedup_status": "possible_duplicate_needs_review",
+      "possible_duplicate_type": "generic_email_group",
+      "evidence": {
+        "value": "resumesample@example.com"
+      },
+      "reason": "Same generic/template email. Do not merge automatically; review with name, phone, school and location.",
+      "profile_count": 3,
+      "profiles": [
+        {
+          "profile_id": "profile_1a25cf45d58e",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\0_Jessica.json",
+          "source_path": "data\\raw_cv\\pdf\\0_Jessica.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\0_Jessica.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Jessica Claire",
+          "email_raw": "resumesample@example.com",
+          "email_normalized": "resumesample@example.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Montgomery Street, San Francisco, CA 94105",
+          "source_id": "resumesample@example.com",
+          "schools": [
+            "Carnegie Mellon University, Pittsburgh, PA",
+            "Amravati University, Shegaon, Maharashtra"
+          ]
+        },
+        {
+          "profile_id": "profile_abfc783b9b0e",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\1_Jessica.json",
+          "source_path": "data\\raw_cv\\pdf\\1_Jessica.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\1_Jessica.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "JESSICA CLAIRE",
+          "email_raw": "resumesample@example.com",
+          "email_normalized": "resumesample@example.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "100 Montgomery St. 10th Floor",
+          "source_id": "resumesample@example.com",
+          "schools": [
+            "University of Waterloo",
+            "Heart Lake Secondary School"
+          ]
+        },
+        {
+          "profile_id": "profile_15f5eb087b0a",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\2_Jessica.json",
+          "source_path": "data\\raw_cv\\pdf\\2_Jessica.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\2_Jessica.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "JESSICACLAIRE",
+          "email_raw": "resumesample@example.com",
+          "email_normalized": "resumesample@example.com",
+          "email_class": "generic",
+          "phone_raw": "(555)432-1000",
+          "phone_normalized": "5554321000",
+          "phone_class": "real",
+          "location": "Montgomery Street, San Francisco, CA 94105",
+          "source_id": "resumesample@example.com",
+          "schools": [
+            "University of Virginia"
+          ]
+        }
+      ]
+    },
+    {
+      "dedup_status": "possible_duplicate_needs_review",
+      "possible_duplicate_type": "same_normalized_name",
+      "evidence": {
+        "value": "alexandereakins"
+      },
+      "reason": "Same normalized name but not enough strong evidence for automatic merge.",
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_938235bde8cc",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\2_image.json",
+          "source_path": "data\\raw_cv\\images\\2_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\2_image.json",
+          "source_format": "images",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Alexander Eakins",
+          "email_raw": "email@youremail.com",
+          "email_normalized": "email@youremail.com",
+          "email_class": "generic",
+          "phone_raw": "(111)111-1111",
+          "phone_normalized": "1111111111",
+          "phone_class": "weak_or_placeholder",
+          "location": "Los Angeles, CA 90001",
+          "source_id": "email@youremail.com",
+          "schools": [
+            "Harvard University-Bachelorof Science, Data Science"
+          ]
+        },
+        {
+          "profile_id": "profile_d954812ec6a3",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV3.json",
+          "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV3.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Alexander Eakins",
+          "email_raw": "email@youremail.com",
+          "email_normalized": "email@youremail.com",
+          "email_class": "generic",
+          "phone_raw": "(111)111-1111",
+          "phone_normalized": "1111111111",
+          "phone_class": "weak_or_placeholder",
+          "location": "777 Springboard St.#144 Los Angeles, CA 90001",
+          "source_id": "email@youremail.com",
+          "schools": [
+            "Harvard University",
+            "Springboard"
+          ]
+        }
+      ]
+    },
+    {
+      "dedup_status": "possible_duplicate_needs_review",
+      "possible_duplicate_type": "same_normalized_name",
+      "evidence": {
+        "value": "jessicaclaire"
+      },
+      "reason": "Same normalized name but not enough strong evidence for automatic merge.",
+      "profile_count": 3,
+      "profiles": [
+        {
+          "profile_id": "profile_1a25cf45d58e",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\0_Jessica.json",
+          "source_path": "data\\raw_cv\\pdf\\0_Jessica.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\0_Jessica.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Jessica Claire",
+          "email_raw": "resumesample@example.com",
+          "email_normalized": "resumesample@example.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Montgomery Street, San Francisco, CA 94105",
+          "source_id": "resumesample@example.com",
+          "schools": [
+            "Carnegie Mellon University, Pittsburgh, PA",
+            "Amravati University, Shegaon, Maharashtra"
+          ]
+        },
+        {
+          "profile_id": "profile_abfc783b9b0e",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\1_Jessica.json",
+          "source_path": "data\\raw_cv\\pdf\\1_Jessica.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\1_Jessica.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "JESSICA CLAIRE",
+          "email_raw": "resumesample@example.com",
+          "email_normalized": "resumesample@example.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "100 Montgomery St. 10th Floor",
+          "source_id": "resumesample@example.com",
+          "schools": [
+            "University of Waterloo",
+            "Heart Lake Secondary School"
+          ]
+        },
+        {
+          "profile_id": "profile_15f5eb087b0a",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\2_Jessica.json",
+          "source_path": "data\\raw_cv\\pdf\\2_Jessica.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\2_Jessica.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "JESSICACLAIRE",
+          "email_raw": "resumesample@example.com",
+          "email_normalized": "resumesample@example.com",
+          "email_class": "generic",
+          "phone_raw": "(555)432-1000",
+          "phone_normalized": "5554321000",
+          "phone_class": "real",
+          "location": "Montgomery Street, San Francisco, CA 94105",
+          "source_id": "resumesample@example.com",
+          "schools": [
+            "University of Virginia"
+          ]
+        }
+      ]
+    },
+    {
+      "dedup_status": "possible_duplicate_needs_review",
+      "possible_duplicate_type": "same_normalized_name",
+      "evidence": {
+        "value": "robertsmith"
+      },
+      "reason": "Same normalized name but not enough strong evidence for automatic merge.",
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_f8dce9cb7cbe",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV34.json",
+          "source_path": "data\\raw_cv\\pdf\\CV34.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV34.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Robert Smith",
+          "email_raw": "info@qwikresume.com",
+          "email_normalized": "info@qwikresume.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Alabama",
+          "source_id": "info@qwikresume.com",
+          "schools": []
+        },
+        {
+          "profile_id": "profile_ad49405b8d0a",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_63.json",
+          "source_path": "data\\raw_cv\\pdf\\Image_63.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\Image_63.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "ROBERTSMITH",
+          "email_raw": "info@qwikresume.com",
+          "email_normalized": "info@qwikresume.com",
+          "email_class": "generic",
+          "phone_raw": "(0123)-456-789",
+          "phone_normalized": "0123456789",
+          "phone_class": "weak_or_placeholder",
+          "location": "2259 Oak Street, Old Forge, New York, 13420",
+          "source_id": "info@qwikresume.com",
+          "schools": []
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "conflict_type": "generic_email_shared_by_multiple_identities",
+      "evidence": {
+        "generic_email": "info@resumekraft.com"
+      },
+      "reason": "Generic/template email is shared; automatic merge prevented.",
+      "name_conflicts": [
+        {
+          "left": "Kevin Brandon",
+          "right": "Eric Nathan",
+          "similarity": 0.4545
+        }
+      ],
+      "profiles": [
+        {
+          "profile_id": "profile_1056dc99ec52",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV17.json",
+          "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV17.json",
+          "source_format": "pdf",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Kevin Brandon",
+          "email_raw": "info@resumekraft.com",
+          "email_normalized": "info@resumekraft.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Chicago, Illinois, US",
+          "source_id": "info@resumekraft.com",
+          "schools": [
+            "San Jose State University"
+          ]
+        },
+        {
+          "profile_id": "profile_0fab72c4a68a",
+          "module2_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV18.json",
+          "source_path": "data\\raw_cv\\pdf\\CV18.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\CV18.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Eric Nathan",
+          "email_raw": "info@resumekraft.com",
+          "email_normalized": "info@resumekraft.com",
+          "email_class": "generic",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "Chicago, Illinois, US",
+          "source_id": "info@resumekraft.com",
+          "schools": [
+            "San Jose State University",
+            "Northeastern University",
+            "Data Science"
+          ]
+        }
+      ]
+    }
+  ],
+  "old_unique_candidates_count": 66,
+  "new_candidates_count": 73,
+  "profile_documents_count": 86,
+  "complete_profile_ready_for_import": 31,
+  "partial_profile_ready_for_import": 55,
+  "complete_profile_imported": 31,
+  "partial_profile_imported": 55,
+  "candidate_profiles_created": 86,
+  "candidate_profiles_updated": 0,
+  "candidate_profiles_upserted": 86,
+  "candidates_created": 73,
+  "candidates_updated": 0,
+  "candidates_upserted": 73,
+  "status_counts": {
+    "failed": 4,
+    "success": 86
+  },
+  "profile_kind_counts": {
+    "complete_profile": 31,
+    "partial_profile": 55
+  },
+  "provider_route_counts": {
+    "groq_secondary": 31,
+    "ollama_local": 55
+  },
+  "errors_import": [],
+  "failed_ignored_items": [
+    {
+      "file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\3_anonyme.json",
+      "status": "failed",
+      "failure_type": "unknown_error",
+      "source_path": "data\\raw_cv\\docx\\3_anonyme.docx",
+      "artifact_path": "data\\processed_official_module1\\docx\\3_anonyme.json",
+      "error": "total_failure_after_cloud_and_local_fallback | artifact=data\\processed_official_module1\\docx\\3_anonyme.json | provider_errors=['secondary_groq:{\"url\": \"https://api.groq.com/openai/v1/chat/completions\", \"attempts\": 3, \"error_type\": \"transient_http_error\", \"status_code\": 429, \"message\": \"{\\\\\"error\\\\\":{\\\\\"message\\\\\":\\\\\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99309, Requested 2371. Please try again in 24m11.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\\\\\",\\\\\"type\\\\\":\\\\\"tokens\\\\\",\\\\\"code\\\\\":\\\\\"rate_limit_exceeded\\\\\"}}\\\\n\", \"retryable\": true}', 'local_ollama:{\"url\": \"http://localhost:11434/v1/chat/completions\", \"attempts\": 3, \"error_type\": \"timeout\", \"status_code\": null, \"message\": \"Timeout while calling provider: HTTPConnectionPool(host=\\'localhost\\', port=11434): Read timed out. (read timeout=180)\", \"retryable\": true}']"
+    },
+    {
+      "file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV21.json",
+      "status": "failed",
+      "failure_type": "schema_error",
+      "source_path": "data\\raw_cv\\pdf\\CV21.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV21.json",
+      "error": "1 validation error for CandidateProfilePayload\nlanguages\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['English', 'French', 'Spanish'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+    },
+    {
+      "file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV33.json",
+      "status": "failed",
+      "failure_type": "schema_error",
+      "source_path": "data\\raw_cv\\pdf\\CV33.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV33.json",
+      "error": "4 validation errors for CandidateProfilePayload\nbio.email\n  Value error, Invalid email address. [type=value_error, input_value='+1(555)7955486', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error\nsummary\n  Extra inputs are not permitted [type=extra_forbidden, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden\nhard_skills\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden\nsoft_skills\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['Highly analytical', 'St...igh proficiency in SQL'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+    },
+    {
+      "file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_66.json",
+      "status": "failed",
+      "failure_type": "schema_error",
+      "source_path": "data\\raw_cv\\pdf\\Image_66.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_66.json",
+      "error": "1 validation error for CandidateProfilePayload\nbio.Phone\n  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+    }
+  ],
+  "recommendation": {
+    "can_execute_after_validation": true,
+    "summary": "Dry-run uses two collections: every successful Module 2 JSON is preserved in candidate_profiles, while candidates is a conservative consolidated view. Generic/template emails are not used as automatic merge keys."
+  }
+}

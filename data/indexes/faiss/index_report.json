@@ -1,0 +1,14 @@
+{
+  "generated_at_utc": "2026-04-29T10:55:56.734259+00:00",
+  "mongodb_uri": "mongodb://localhost:27017",
+  "database": "talent_intelligence",
+  "collection": "candidate_profiles",
+  "sentence_transformer_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "profiles_read_from_mongodb": 86,
+  "profiles_indexed": 86,
+  "embedding_dimension": 384,
+  "faiss_metric": "inner_product_on_normalized_vectors",
+  "index_path": "data\\indexes\\faiss\\cv_index.faiss",
+  "id_map_path": "data\\indexes\\faiss\\id_map.pkl",
+  "execution_time_seconds": 72.2381
+}

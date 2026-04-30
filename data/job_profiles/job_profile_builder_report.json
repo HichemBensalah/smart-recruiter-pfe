@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-04-28T15:05:20.242714+00:00",
+  "parser_route": "rule_based_v1",
+  "total_jobs": 5,
+  "success": 5,
+  "failed": 0,
+  "warnings": 4,
+  "generated_files": [
+    "data\\job_profiles\\backend_python_fastapi_mongodb.json",
+    "data\\job_profiles\\data_science_machine_learning_python.json",
+    "data\\job_profiles\\frontend_react.json",
+    "data\\job_profiles\\devops_docker_cicd.json",
+    "data\\job_profiles\\data_engineer_sql_hadoop_spark.json"
+  ],
+  "required_skills_examples": [
+    {
+      "job_slug": "backend_python_fastapi_mongodb",
+      "job_title": "Backend Python Engineer",
+      "required_skills": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "nice_to_have_skills": [
+        "CI/CD",
+        "AWS"
+      ]
+    },
+    {
+      "job_slug": "data_science_machine_learning_python",
+      "job_title": "Senior Data Scientist",
+      "required_skills": [
+        "Machine Learning",
+        "Python",
+        "SQL",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "nice_to_have_skills": [
+        "Deep Learning",
+        "PyTorch"
+      ]
+    },
+    {
+      "job_slug": "frontend_react",
+      "job_title": "Frontend React Developer",
+      "required_skills": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "nice_to_have_skills": [
+        "FastAPI"
+      ]
+    },
+    {
+      "job_slug": "devops_docker_cicd",
+      "job_title": "DevOps Engineer",
+      "required_skills": [
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "Terraform",
+        "Linux"
+      ],
+      "nice_to_have_skills": []
+    },
+    {
+      "job_slug": "data_engineer_sql_hadoop_spark",
+      "job_title": "Data Engineer",
+      "required_skills": [
+        "ETL",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "Airflow",
+        "Data Modeling"
+      ],
+      "nice_to_have_skills": [
+        "Python",
+        "AWS"
+      ]
+    }
+  ],
+  "execution_time_seconds": 0.0148
+}

@@ -1,0 +1,1257 @@
+{
+  "generated_at_utc": "2026-04-29T10:54:04.933317+00:00",
+  "job_profiles_tested": 5,
+  "top_k": 10,
+  "sentence_transformer_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "faiss_index_path": "data\\indexes\\faiss\\cv_index.faiss",
+  "faiss_index_report_path": "data\\indexes\\faiss\\index_report.json",
+  "execution_time_seconds": 56.4884,
+  "results": [
+    {
+      "job_profile_file": "data\\job_profiles\\backend_python_fastapi_mongodb.json",
+      "job_title": "Backend Python Engineer",
+      "top_k": 10,
+      "recommendations_count": 10,
+      "recommendations": [
+        {
+          "candidate_id": "candidate_1487f3187f7b",
+          "matched_profile_id": "profile_f3fbf32693be",
+          "full_name": "Hichem Bensalah",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+          "provider_route": "groq_secondary",
+          "final_score": 0.6856,
+          "score_text_similarity": 0.5042,
+          "score_skills": 0.6,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9439,
+          "matched_skills": [
+            "Docker",
+            "MongoDB",
+            "Python"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "REST API"
+          ],
+          "explanation": "Hichem Bensalah matches on Docker, MongoDB, Python. Text similarity=0.50, experience score=1.00. Missing required skills include FastAPI, REST API.",
+          "profile_count": 2
+        },
+        {
+          "candidate_id": "candidate_206d746034ef",
+          "matched_profile_id": "profile_260f5bc0f7ae",
+          "full_name": "MOHAMED AZIZ BELAWEID",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.5584,
+          "score_text_similarity": 0.5836,
+          "score_skills": 0.4,
+          "score_experience": 0.6667,
+          "score_profile_quality": 0.8995,
+          "matched_skills": [
+            "Docker",
+            "Python"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "MOHAMED AZIZ BELAWEID matches on Docker, Python. Text similarity=0.58, experience score=0.67. Missing required skills include FastAPI, MongoDB, REST API.",
+          "profile_count": 2
+        },
+        {
+          "candidate_id": "candidate_a4bef39ff800",
+          "matched_profile_id": "profile_a6427d46204c",
+          "full_name": "JefferyGorczany",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV37.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.521,
+          "score_text_similarity": 0.5544,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7463,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Docker",
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "JefferyGorczany matches on Python. Text similarity=0.55, experience score=1.00. Missing required skills include Docker, FastAPI, MongoDB.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_7ed9688018bf",
+          "matched_profile_id": "profile_15f5eb087b0a",
+          "full_name": "JESSICACLAIRE",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\2_Jessica.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.5089,
+          "score_text_similarity": 0.4537,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.928,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Docker",
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "JESSICACLAIRE matches on Python. Text similarity=0.45, experience score=1.00. Missing required skills include Docker, FastAPI, MongoDB.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_f9f052160651",
+          "matched_profile_id": "profile_8d468e7c86ab",
+          "full_name": null,
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\images\\7_image.jpg",
+          "provider_route": "ollama_local",
+          "final_score": 0.5058,
+          "score_text_similarity": 0.5005,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7565,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Docker",
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "Candidate matches on Python. Text similarity=0.50, experience score=1.00. Missing required skills include Docker, FastAPI, MongoDB.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_0100242624a4",
+          "matched_profile_id": "profile_67fd8c92321d",
+          "full_name": "Wenzhe(Evelyn)Xu",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV35.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.5032,
+          "score_text_similarity": 0.4699,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8224,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Docker",
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "Wenzhe(Evelyn)Xu matches on Python. Text similarity=0.47, experience score=1.00. Missing required skills include Docker, FastAPI, MongoDB.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_ef0e8855357d",
+          "matched_profile_id": "profile_6c067d88bace",
+          "full_name": null,
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV28.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.5017,
+          "score_text_similarity": 0.4735,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7964,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Docker",
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "Candidate matches on Python. Text similarity=0.47, experience score=1.00. Missing required skills include Docker, FastAPI, MongoDB.",
+          "profile_count": 3
+        },
+        {
+          "candidate_id": "candidate_586a8f03b94f",
+          "matched_profile_id": "profile_16b660d229f1",
+          "full_name": "MILDREDZEMLAK",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_70.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.497,
+          "score_text_similarity": 0.439,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8532,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Docker",
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "MILDREDZEMLAK matches on Python. Text similarity=0.44, experience score=1.00. Missing required skills include Docker, FastAPI, MongoDB.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_76081b577166",
+          "matched_profile_id": "profile_271b68aee932",
+          "full_name": "First Last",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.4968,
+          "score_text_similarity": 0.4246,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8941,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Docker",
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "First Last matches on Python. Text similarity=0.42, experience score=1.00. Missing required skills include Docker, FastAPI, MongoDB.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_5fdb77cee988",
+          "matched_profile_id": "profile_b4b68a6c99e9",
+          "full_name": "FIRSTLAST",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\images\\1_image.jpg",
+          "provider_route": "groq_secondary",
+          "final_score": 0.4941,
+          "score_text_similarity": 0.4266,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8616,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Docker",
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "FIRSTLAST matches on Python. Text similarity=0.43, experience score=1.00. Missing required skills include Docker, FastAPI, MongoDB.",
+          "profile_count": 1
+        }
+      ]
+    },
+    {
+      "job_profile_file": "data\\job_profiles\\data_engineer_sql_hadoop_spark.json",
+      "job_title": "Data Engineer",
+      "top_k": 10,
+      "recommendations_count": 10,
+      "recommendations": [
+        {
+          "candidate_id": "candidate_27d26cd629e2",
+          "matched_profile_id": "profile_57b4a8716efc",
+          "full_name": "Julio Cremin",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV41.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.5982,
+          "score_text_similarity": 0.5858,
+          "score_skills": 0.3333,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8911,
+          "matched_skills": [
+            "Hadoop",
+            "Spark"
+          ],
+          "missing_required_skills": [
+            "Airflow",
+            "Data Modeling",
+            "ETL",
+            "SQL"
+          ],
+          "explanation": "Julio Cremin matches on Hadoop, Spark. Text similarity=0.59, experience score=1.00. Missing required skills include Airflow, Data Modeling, ETL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_ef0e8855357d",
+          "matched_profile_id": "profile_6c067d88bace",
+          "full_name": null,
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV28.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.5359,
+          "score_text_similarity": 0.6318,
+          "score_skills": 0.1667,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7964,
+          "matched_skills": [
+            "Hadoop"
+          ],
+          "missing_required_skills": [
+            "Airflow",
+            "Data Modeling",
+            "ETL",
+            "Spark",
+            "SQL"
+          ],
+          "explanation": "Candidate matches on Hadoop. Text similarity=0.63, experience score=1.00. Missing required skills include Airflow, Data Modeling, ETL.",
+          "profile_count": 3
+        },
+        {
+          "candidate_id": "candidate_76081b577166",
+          "matched_profile_id": "profile_271b68aee932",
+          "full_name": "First Last",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.5355,
+          "score_text_similarity": 0.5979,
+          "score_skills": 0.1667,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8941,
+          "matched_skills": [
+            "Hadoop"
+          ],
+          "missing_required_skills": [
+            "Airflow",
+            "Data Modeling",
+            "ETL",
+            "Spark",
+            "SQL"
+          ],
+          "explanation": "First Last matches on Hadoop. Text similarity=0.60, experience score=1.00. Missing required skills include Airflow, Data Modeling, ETL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_5f35599b0e13",
+          "matched_profile_id": "profile_3d62d91f0de1",
+          "full_name": "LEATRICEFRIESEN",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_80.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.5313,
+          "score_text_similarity": 0.6349,
+          "score_skills": 0.1667,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7416,
+          "matched_skills": [
+            "Airflow"
+          ],
+          "missing_required_skills": [
+            "Data Modeling",
+            "ETL",
+            "Hadoop",
+            "Spark",
+            "SQL"
+          ],
+          "explanation": "LEATRICEFRIESEN matches on Airflow. Text similarity=0.63, experience score=1.00. Missing required skills include Data Modeling, ETL, Hadoop.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_e757b52c69e1",
+          "matched_profile_id": "profile_2ec0278f7eb3",
+          "full_name": "Justine Hendrickson",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV7.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.5259,
+          "score_text_similarity": 0.5702,
+          "score_skills": 0.1667,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8815,
+          "matched_skills": [
+            "Hadoop"
+          ],
+          "missing_required_skills": [
+            "Airflow",
+            "Data Modeling",
+            "ETL",
+            "Spark",
+            "SQL"
+          ],
+          "explanation": "Justine Hendrickson matches on Hadoop. Text similarity=0.57, experience score=1.00. Missing required skills include Airflow, Data Modeling, ETL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_0251db55b35c",
+          "matched_profile_id": "profile_d8931bdc3891",
+          "full_name": "Bree Anderson",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_81.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.5126,
+          "score_text_similarity": 0.5542,
+          "score_skills": 0.1667,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7969,
+          "matched_skills": [
+            "Hadoop"
+          ],
+          "missing_required_skills": [
+            "Airflow",
+            "Data Modeling",
+            "ETL",
+            "Spark",
+            "SQL"
+          ],
+          "explanation": "Bree Anderson matches on Hadoop. Text similarity=0.55, experience score=1.00. Missing required skills include Airflow, Data Modeling, ETL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_2c0e7f72fe6a",
+          "matched_profile_id": "profile_1963cda4ee9d",
+          "full_name": "Diana Dawa",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV1.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.5105,
+          "score_text_similarity": 0.5238,
+          "score_skills": 0.1667,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8666,
+          "matched_skills": [
+            "Hadoop"
+          ],
+          "missing_required_skills": [
+            "Airflow",
+            "Data Modeling",
+            "ETL",
+            "Spark",
+            "SQL"
+          ],
+          "explanation": "Diana Dawa matches on Hadoop. Text similarity=0.52, experience score=1.00. Missing required skills include Airflow, Data Modeling, ETL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_f9f052160651",
+          "matched_profile_id": "profile_8d468e7c86ab",
+          "full_name": null,
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\images\\7_image.jpg",
+          "provider_route": "ollama_local",
+          "final_score": 0.5092,
+          "score_text_similarity": 0.5561,
+          "score_skills": 0.1667,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7565,
+          "matched_skills": [
+            "Hadoop"
+          ],
+          "missing_required_skills": [
+            "Airflow",
+            "Data Modeling",
+            "ETL",
+            "Spark",
+            "SQL"
+          ],
+          "explanation": "Candidate matches on Hadoop. Text similarity=0.56, experience score=1.00. Missing required skills include Airflow, Data Modeling, ETL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_0100242624a4",
+          "matched_profile_id": "profile_67fd8c92321d",
+          "full_name": "Wenzhe(Evelyn)Xu",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV35.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.4713,
+          "score_text_similarity": 0.6301,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8224,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "Airflow",
+            "Data Modeling",
+            "ETL",
+            "Hadoop",
+            "Spark",
+            "SQL"
+          ],
+          "explanation": "Wenzhe(Evelyn)Xu matches on no strong required skill match yet. Text similarity=0.63, experience score=1.00. Missing required skills include Airflow, Data Modeling, ETL.",
+          "profile_count": 2
+        },
+        {
+          "candidate_id": "candidate_586a8f03b94f",
+          "matched_profile_id": "profile_16b660d229f1",
+          "full_name": "MILDREDZEMLAK",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_70.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.4606,
+          "score_text_similarity": 0.5843,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8532,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "Airflow",
+            "Data Modeling",
+            "ETL",
+            "Hadoop",
+            "Spark",
+            "SQL"
+          ],
+          "explanation": "MILDREDZEMLAK matches on no strong required skill match yet. Text similarity=0.58, experience score=1.00. Missing required skills include Airflow, Data Modeling, ETL.",
+          "profile_count": 1
+        }
+      ]
+    },
+    {
+      "job_profile_file": "data\\job_profiles\\data_science_machine_learning_python.json",
+      "job_title": "Senior Data Scientist",
+      "top_k": 10,
+      "recommendations_count": 10,
+      "recommendations": [
+        {
+          "candidate_id": "candidate_1487f3187f7b",
+          "matched_profile_id": "profile_f3fbf32693be",
+          "full_name": "Hichem Bensalah",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+          "provider_route": "groq_secondary",
+          "final_score": 0.6282,
+          "score_text_similarity": 0.5795,
+          "score_skills": 0.6,
+          "score_experience": 0.6,
+          "score_profile_quality": 0.9439,
+          "matched_skills": [
+            "Pandas",
+            "Python",
+            "scikit-learn"
+          ],
+          "missing_required_skills": [
+            "Machine Learning",
+            "SQL"
+          ],
+          "explanation": "Hichem Bensalah matches on Pandas, Python, scikit-learn. Text similarity=0.58, experience score=0.60. Missing required skills include Machine Learning, SQL.",
+          "profile_count": 2
+        },
+        {
+          "candidate_id": "candidate_586a8f03b94f",
+          "matched_profile_id": "profile_16b660d229f1",
+          "full_name": "MILDREDZEMLAK",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_70.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.6239,
+          "score_text_similarity": 0.5952,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8532,
+          "matched_skills": [
+            "Python",
+            "scikit-learn"
+          ],
+          "missing_required_skills": [
+            "Machine Learning",
+            "Pandas",
+            "SQL"
+          ],
+          "explanation": "MILDREDZEMLAK matches on Python, scikit-learn. Text similarity=0.60, experience score=1.00. Missing required skills include Machine Learning, Pandas, SQL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_9b75fc619cb7",
+          "matched_profile_id": "profile_ea9f3f4e2002",
+          "full_name": "Anne Lounsberry",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV23.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.5772,
+          "score_text_similarity": 0.5443,
+          "score_skills": 0.4,
+          "score_experience": 0.9,
+          "score_profile_quality": 0.7389,
+          "matched_skills": [
+            "machine learning",
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Pandas",
+            "Scikit-learn",
+            "SQL"
+          ],
+          "explanation": "Anne Lounsberry matches on machine learning, Python. Text similarity=0.54, experience score=0.90. Missing required skills include Pandas, Scikit-learn, SQL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_206d746034ef",
+          "matched_profile_id": "profile_260f5bc0f7ae",
+          "full_name": "MOHAMED AZIZ BELAWEID",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.5718,
+          "score_text_similarity": 0.5396,
+          "score_skills": 0.6,
+          "score_experience": 0.4,
+          "score_profile_quality": 0.8995,
+          "matched_skills": [
+            "Pandas",
+            "Python",
+            "Scikit-learn"
+          ],
+          "missing_required_skills": [
+            "Machine Learning",
+            "SQL"
+          ],
+          "explanation": "MOHAMED AZIZ BELAWEID matches on Pandas, Python, Scikit-learn. Text similarity=0.54, experience score=0.40. Missing required skills include Machine Learning, SQL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_7ed9688018bf",
+          "matched_profile_id": "profile_15f5eb087b0a",
+          "full_name": "JESSICACLAIRE",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\2_Jessica.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.5534,
+          "score_text_similarity": 0.6019,
+          "score_skills": 0.4,
+          "score_experience": 0.6,
+          "score_profile_quality": 0.928,
+          "matched_skills": [
+            "Pandas",
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Machine Learning",
+            "Scikit-learn",
+            "SQL"
+          ],
+          "explanation": "JESSICACLAIRE matches on Pandas, Python. Text similarity=0.60, experience score=0.60. Missing required skills include Machine Learning, Scikit-learn, SQL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_40d4bd153087",
+          "matched_profile_id": "profile_1a9c8384b16c",
+          "full_name": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\candidate_018.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.5477,
+          "score_text_similarity": 0.5793,
+          "score_skills": 0.6,
+          "score_experience": 0.3,
+          "score_profile_quality": 0.7393,
+          "matched_skills": [
+            "Pandas",
+            "Python",
+            "Scikit Learn"
+          ],
+          "missing_required_skills": [
+            "Machine Learning",
+            "SQL"
+          ],
+          "explanation": "Candidate matches on Pandas, Python, Scikit Learn. Text similarity=0.58, experience score=0.30. Missing required skills include Machine Learning, SQL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_3046541f1b86",
+          "matched_profile_id": "profile_d1aeaa8d4478",
+          "full_name": null,
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_76.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.5455,
+          "score_text_similarity": 0.5342,
+          "score_skills": 0.4,
+          "score_experience": 0.8,
+          "score_profile_quality": 0.6521,
+          "matched_skills": [
+            "Machine Learning",
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Pandas",
+            "Scikit-learn",
+            "SQL"
+          ],
+          "explanation": "Candidate matches on Machine Learning, Python. Text similarity=0.53, experience score=0.80. Missing required skills include Pandas, Scikit-learn, SQL.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_a3c2a6c7cdc8",
+          "matched_profile_id": "profile_943b11123b63",
+          "full_name": "Khaireddine Suibgui",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.5377,
+          "score_text_similarity": 0.57,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8674,
+          "matched_skills": [
+            "Machine Learning"
+          ],
+          "missing_required_skills": [
+            "Pandas",
+            "Python",
+            "Scikit-learn",
+            "SQL"
+          ],
+          "explanation": "Khaireddine Suibgui matches on Machine Learning. Text similarity=0.57, experience score=1.00. Missing required skills include Pandas, Python, Scikit-learn.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_76081b577166",
+          "matched_profile_id": "profile_271b68aee932",
+          "full_name": "First Last",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.536,
+          "score_text_similarity": 0.5554,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8941,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Machine Learning",
+            "Pandas",
+            "Scikit-learn",
+            "SQL"
+          ],
+          "explanation": "First Last matches on Python. Text similarity=0.56, experience score=1.00. Missing required skills include Machine Learning, Pandas, Scikit-learn.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_5fdb77cee988",
+          "matched_profile_id": "profile_b4b68a6c99e9",
+          "full_name": "FIRSTLAST",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\images\\1_image.jpg",
+          "provider_route": "groq_secondary",
+          "final_score": 0.5304,
+          "score_text_similarity": 0.5474,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8616,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "Machine Learning",
+            "Pandas",
+            "Scikit-learn",
+            "SQL"
+          ],
+          "explanation": "FIRSTLAST matches on Python. Text similarity=0.55, experience score=1.00. Missing required skills include Machine Learning, Pandas, Scikit-learn.",
+          "profile_count": 1
+        }
+      ]
+    },
+    {
+      "job_profile_file": "data\\job_profiles\\devops_docker_cicd.json",
+      "job_title": "DevOps Engineer",
+      "top_k": 10,
+      "recommendations_count": 10,
+      "recommendations": [
+        {
+          "candidate_id": "candidate_1487f3187f7b",
+          "matched_profile_id": "profile_f3fbf32693be",
+          "full_name": "Hichem Bensalah",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+          "provider_route": "groq_secondary",
+          "final_score": 0.4863,
+          "score_text_similarity": 0.3621,
+          "score_skills": 0.3333,
+          "score_experience": 0.75,
+          "score_profile_quality": 0.9439,
+          "matched_skills": [
+            "Docker",
+            "GitHub Actions"
+          ],
+          "missing_required_skills": [
+            "CI/CD",
+            "Kubernetes",
+            "Linux",
+            "Terraform"
+          ],
+          "explanation": "Hichem Bensalah matches on Docker, GitHub Actions. Text similarity=0.36, experience score=0.75. Missing required skills include CI/CD, Kubernetes, Linux.",
+          "profile_count": 2
+        },
+        {
+          "candidate_id": "candidate_0100242624a4",
+          "matched_profile_id": "profile_67fd8c92321d",
+          "full_name": "Wenzhe(Evelyn)Xu",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV35.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.4847,
+          "score_text_similarity": 0.4527,
+          "score_skills": 0.1667,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8224,
+          "matched_skills": [
+            "Linux"
+          ],
+          "missing_required_skills": [
+            "CI/CD",
+            "Docker",
+            "GitHub Actions",
+            "Kubernetes",
+            "Terraform"
+          ],
+          "explanation": "Wenzhe(Evelyn)Xu matches on Linux. Text similarity=0.45, experience score=1.00. Missing required skills include CI/CD, Docker, GitHub Actions.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_206d746034ef",
+          "matched_profile_id": "profile_260f5bc0f7ae",
+          "full_name": "MOHAMED AZIZ BELAWEID",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.4383,
+          "score_text_similarity": 0.3835,
+          "score_skills": 0.3333,
+          "score_experience": 0.5,
+          "score_profile_quality": 0.8995,
+          "matched_skills": [
+            "Docker",
+            "Linux"
+          ],
+          "missing_required_skills": [
+            "CI/CD",
+            "GitHub Actions",
+            "Kubernetes",
+            "Terraform"
+          ],
+          "explanation": "MOHAMED AZIZ BELAWEID matches on Docker, Linux. Text similarity=0.38, experience score=0.50. Missing required skills include CI/CD, GitHub Actions, Kubernetes.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_d05c1a75d33e",
+          "matched_profile_id": "profile_6c71c9be0a1b",
+          "full_name": null,
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+          "provider_route": "ollama_local",
+          "final_score": 0.4151,
+          "score_text_similarity": 0.4957,
+          "score_skills": 0.3333,
+          "score_experience": 0.25,
+          "score_profile_quality": 0.8305,
+          "matched_skills": [
+            "CI/CD",
+            "GitHub Actions"
+          ],
+          "missing_required_skills": [
+            "Docker",
+            "Kubernetes",
+            "Linux",
+            "Terraform"
+          ],
+          "explanation": "Candidate matches on CI/CD, GitHub Actions. Text similarity=0.50, experience score=0.25. Missing required skills include Docker, Kubernetes, Linux.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_d9d147b89ea1",
+          "matched_profile_id": "profile_32f9f4bb5dce",
+          "full_name": "Paul Desmond",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV12.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.4125,
+          "score_text_similarity": 0.4052,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9089,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CI/CD",
+            "Docker",
+            "GitHub Actions",
+            "Kubernetes",
+            "Linux",
+            "Terraform"
+          ],
+          "explanation": "Paul Desmond matches on no strong required skill match yet. Text similarity=0.41, experience score=1.00. Missing required skills include CI/CD, Docker, GitHub Actions.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_b04ef8f35abc",
+          "matched_profile_id": "profile_c8dfa2f4b967",
+          "full_name": "Kevin L. Trostle",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\3_anonyme.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.412,
+          "score_text_similarity": 0.4098,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8907,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CI/CD",
+            "Docker",
+            "GitHub Actions",
+            "Kubernetes",
+            "Linux",
+            "Terraform"
+          ],
+          "explanation": "Kevin L. Trostle matches on no strong required skill match yet. Text similarity=0.41, experience score=1.00. Missing required skills include CI/CD, Docker, GitHub Actions.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_e35f3abcf474",
+          "matched_profile_id": "profile_1056dc99ec52",
+          "full_name": "Kevin Brandon",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.4102,
+          "score_text_similarity": 0.4007,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8994,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CI/CD",
+            "Docker",
+            "GitHub Actions",
+            "Kubernetes",
+            "Linux",
+            "Terraform"
+          ],
+          "explanation": "Kevin Brandon matches on no strong required skill match yet. Text similarity=0.40, experience score=1.00. Missing required skills include CI/CD, Docker, GitHub Actions.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_586a8f03b94f",
+          "matched_profile_id": "profile_16b660d229f1",
+          "full_name": "MILDREDZEMLAK",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_70.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.4061,
+          "score_text_similarity": 0.4027,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8532,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CI/CD",
+            "Docker",
+            "GitHub Actions",
+            "Kubernetes",
+            "Linux",
+            "Terraform"
+          ],
+          "explanation": "MILDREDZEMLAK matches on no strong required skill match yet. Text similarity=0.40, experience score=1.00. Missing required skills include CI/CD, Docker, GitHub Actions.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_a3c2a6c7cdc8",
+          "matched_profile_id": "profile_943b11123b63",
+          "full_name": "Khaireddine Suibgui",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.4058,
+          "score_text_similarity": 0.3968,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8674,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CI/CD",
+            "Docker",
+            "GitHub Actions",
+            "Kubernetes",
+            "Linux",
+            "Terraform"
+          ],
+          "explanation": "Khaireddine Suibgui matches on no strong required skill match yet. Text similarity=0.40, experience score=1.00. Missing required skills include CI/CD, Docker, GitHub Actions.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_7bb8c1da2ce0",
+          "matched_profile_id": "profile_9dfac041cc7e",
+          "full_name": null,
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\docx\\2_anonyme.docx",
+          "provider_route": "ollama_local",
+          "final_score": 0.4053,
+          "score_text_similarity": 0.4252,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7777,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CI/CD",
+            "Docker",
+            "GitHub Actions",
+            "Kubernetes",
+            "Linux",
+            "Terraform"
+          ],
+          "explanation": "Candidate matches on no strong required skill match yet. Text similarity=0.43, experience score=1.00. Missing required skills include CI/CD, Docker, GitHub Actions.",
+          "profile_count": 1
+        }
+      ]
+    },
+    {
+      "job_profile_file": "data\\job_profiles\\frontend_react.json",
+      "job_title": "Frontend React Developer",
+      "top_k": 10,
+      "recommendations_count": 10,
+      "recommendations": [
+        {
+          "candidate_id": "candidate_1487f3187f7b",
+          "matched_profile_id": "profile_c65c3adaad77",
+          "full_name": null,
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\Hichem_resume.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.4832,
+          "score_text_similarity": 0.3871,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8708,
+          "matched_skills": [
+            "JavaScript"
+          ],
+          "missing_required_skills": [
+            "CSS",
+            "HTML",
+            "React",
+            "TypeScript"
+          ],
+          "explanation": "Candidate matches on JavaScript. Text similarity=0.39, experience score=1.00. Missing required skills include CSS, HTML, React.",
+          "profile_count": 2
+        },
+        {
+          "candidate_id": "candidate_e609bb82c4ed",
+          "matched_profile_id": "profile_0fab72c4a68a",
+          "full_name": "Eric Nathan",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV18.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.4648,
+          "score_text_similarity": 0.3824,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7006,
+          "matched_skills": [
+            "Javascript"
+          ],
+          "missing_required_skills": [
+            "CSS",
+            "HTML",
+            "React",
+            "TypeScript"
+          ],
+          "explanation": "Eric Nathan matches on Javascript. Text similarity=0.38, experience score=1.00. Missing required skills include CSS, HTML, React.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_7a913be8254e",
+          "matched_profile_id": "profile_385c50681319",
+          "full_name": "ANUVA GOYAL",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\1901841_RESUME.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.4502,
+          "score_text_similarity": 0.2743,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8787,
+          "matched_skills": [
+            "HTML"
+          ],
+          "missing_required_skills": [
+            "CSS",
+            "JavaScript",
+            "React",
+            "TypeScript"
+          ],
+          "explanation": "ANUVA GOYAL matches on HTML. Text similarity=0.27, experience score=1.00. Missing required skills include CSS, JavaScript, React.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_9e55d9d515bf",
+          "matched_profile_id": "profile_0863cb85af45",
+          "full_name": "FirstLast",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV36.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.445,
+          "score_text_similarity": 0.2747,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.826,
+          "matched_skills": [
+            "Javascript"
+          ],
+          "missing_required_skills": [
+            "CSS",
+            "HTML",
+            "React",
+            "TypeScript"
+          ],
+          "explanation": "FirstLast matches on Javascript. Text similarity=0.27, experience score=1.00. Missing required skills include CSS, HTML, React.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_a3c2a6c7cdc8",
+          "matched_profile_id": "profile_943b11123b63",
+          "full_name": "Khaireddine Suibgui",
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.4088,
+          "score_text_similarity": 0.4068,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8674,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "React",
+            "TypeScript"
+          ],
+          "explanation": "Khaireddine Suibgui matches on no strong required skill match yet. Text similarity=0.41, experience score=1.00. Missing required skills include CSS, HTML, JavaScript.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_40d4bd153087",
+          "matched_profile_id": "profile_1a9c8384b16c",
+          "full_name": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\candidate_018.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.4034,
+          "score_text_similarity": 0.4315,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7393,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "React",
+            "TypeScript"
+          ],
+          "explanation": "Candidate matches on no strong required skill match yet. Text similarity=0.43, experience score=1.00. Missing required skills include CSS, HTML, JavaScript.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_7ed9688018bf",
+          "matched_profile_id": "profile_15f5eb087b0a",
+          "full_name": "JESSICACLAIRE",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\2_Jessica.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.3998,
+          "score_text_similarity": 0.3567,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.928,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "React",
+            "TypeScript"
+          ],
+          "explanation": "JESSICACLAIRE matches on no strong required skill match yet. Text similarity=0.36, experience score=1.00. Missing required skills include CSS, HTML, JavaScript.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_1ee5f11c9ed0",
+          "matched_profile_id": "profile_8195caeef308",
+          "full_name": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\0_anonyme.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.3969,
+          "score_text_similarity": 0.3628,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8801,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "React",
+            "TypeScript"
+          ],
+          "explanation": "Candidate matches on no strong required skill match yet. Text similarity=0.36, experience score=1.00. Missing required skills include CSS, HTML, JavaScript.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_27d26cd629e2",
+          "matched_profile_id": "profile_57b4a8716efc",
+          "full_name": "Julio Cremin",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV41.pdf",
+          "provider_route": "groq_secondary",
+          "final_score": 0.3946,
+          "score_text_similarity": 0.3515,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8911,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "React",
+            "TypeScript"
+          ],
+          "explanation": "Julio Cremin matches on no strong required skill match yet. Text similarity=0.35, experience score=1.00. Missing required skills include CSS, HTML, JavaScript.",
+          "profile_count": 1
+        },
+        {
+          "candidate_id": "candidate_ef0e8855357d",
+          "matched_profile_id": "profile_6c067d88bace",
+          "full_name": null,
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV28.pdf",
+          "provider_route": "ollama_local",
+          "final_score": 0.3943,
+          "score_text_similarity": 0.3822,
+          "score_skills": 0.0,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7964,
+          "matched_skills": [],
+          "missing_required_skills": [
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "React",
+            "TypeScript"
+          ],
+          "explanation": "Candidate matches on no strong required skill match yet. Text similarity=0.38, experience score=1.00. Missing required skills include CSS, HTML, JavaScript.",
+          "profile_count": 3
+        }
+      ]
+    }
+  ]
+}
