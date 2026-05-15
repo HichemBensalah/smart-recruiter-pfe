@@ -1,0 +1,57 @@
+{
+  "decision": {
+    "official_demo_baseline": "FAISS + Matching V3",
+    "experimental_baseline": "FAISS + CrossEncoder + Matching V3",
+    "cross_encoder_enabled_by_default": false,
+    "recommendation": "Keep CrossEncoder as a controlled experiment, not as the default ranking engine yet."
+  },
+  "experiment_summary": {
+    "model_used": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "cross_encoder_top_n": 20,
+    "latency_seconds": 15.9004,
+    "pipeline": "FAISS top-20 -> CrossEncoder reranking -> Matching V3 business scoring",
+    "baseline_compared_to": "baseline1_faiss_matching_v3",
+    "generated_files": [
+      "docs/reports/cross_encoder/matching_single_job_report_faiss_cross_encoder.json",
+      "docs/reports/cross_encoder/cross_encoder_comparison_report.json",
+      "docs/reports/cross_encoder/cross_encoder_comparison_report.md",
+      "docs/reports/cross_encoder/cross_encoder_integration_audit.md",
+      "docs/reports/cross_encoder/cross_encoder_integration_audit.json"
+    ]
+  },
+  "positive_results": {
+    "hichem_remains_top1": true,
+    "medium_risk_candidates_in_top10": 0,
+    "strong_coverage_candidates_remain_high": true,
+    "adds_finer_semantic_signal": true,
+    "business_scoring_remains_effective_guardrail": true
+  },
+  "problematic_results": {
+    "high_cross_encoder_rank_with_low_coverage": [
+      {
+        "candidate": "MILDREDZEMLAK",
+        "cross_encoder_rank": 1,
+        "must_have_coverage": 0.2
+      },
+      {
+        "candidate": "Karina Blick",
+        "cross_encoder_rank": 3,
+        "must_have_coverage": 0.2
+      }
+    ],
+    "model_not_hr_specialized": true,
+    "latency_higher_than_faiss_baseline": true,
+    "hichem_score_before": 0.8172,
+    "hichem_score_after": 0.7078,
+    "not_calibrated_with_business_weights": true
+  },
+  "future_recommendations": [
+    "Calibrate the CrossEncoder contribution before enabling it by default.",
+    "Test reranker models better suited to CV/job matching.",
+    "Use CrossEncoder only after top-N retrieval from FAISS or a future vector engine.",
+    "Do not replace the business scoring layer.",
+    "Keep the must-have coverage penalty as a guardrail.",
+    "Measure NDCG@10 and MRR after annotating relevance labels."
+  ],
+  "soutenance_phrase": "Nous avons teste un CrossEncoder comme couche de reranking au-dessus de notre baseline FAISS + Matching V3. L'objectif etait d'ajouter un signal semantique plus fin sans modifier les profils, MongoDB, ni l'index FAISS. Le resultat est interessant: le meilleur candidat reste top 1 et les profils a risque moyen disparaissent du top 10. Cependant, le modele teste, entraine sur MS MARCO, favorise aussi certains profils dont la couverture des competences obligatoires est faible. Nous avons donc decide de conserver CrossEncoder comme baseline experimentale et de garder FAISS + Matching V3 comme baseline officielle de demonstration, avec le scoring metier et les penalites must-have comme garde-fous."
+}

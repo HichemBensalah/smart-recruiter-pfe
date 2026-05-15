@@ -1,0 +1,64 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_79.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_79.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T124624Z",
+  "profile": {
+    "source_id": "pdf:Image_79",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Renato Dietrich",
+      "email": null,
+      "phone": null,
+      "location": "81118 Cummings Inlet, Houston, TX"
+    },
+    "expertise": {
+      "summary": "Expert in building and growing teams, managing data science teams, teaching technology and business.",
+      "hard_skills": [
+        "Elasticsearch",
+        "Kibana",
+        "stored procedure development"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Emard-Aufderhar",
+        "start_date": "11/2018-present",
+        "end_date": null,
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Experience in building and growing teams",
+          "Providing mentorship to junior team members",
+          "Managing a data science team",
+          "Teaching technology and business in a team setting"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Emard-Aufderhar",
+        "start_date": "01/2013-08/2018",
+        "end_date": null,
+        "city": "Houston, TX",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's",
+        "school": "Columbus College of Art and Design",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T12:48:50.545664+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7307
+    }
+  }
+}

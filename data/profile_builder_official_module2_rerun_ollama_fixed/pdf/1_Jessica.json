@@ -1,0 +1,99 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\1_Jessica.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\1_Jessica.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "resumesample@example.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "JESSICA CLAIRE",
+      "email": "resumesample@example.com",
+      "phone": null,
+      "location": "100 Montgomery St. 10th Floor"
+    },
+    "expertise": {
+      "summary": "Bioinformatics and Data Science Engineer with experience in evaluating bioinformatics data",
+      "hard_skills": [
+        "R-Programming",
+        "Python",
+        "Java",
+        "Visual Basic",
+        "Qlik Sense",
+        "iStar",
+        "Jira",
+        "MySQL",
+        "Microsoft SQL Server",
+        "Apache Drill",
+        "Linux",
+        "Bash scripting"
+      ],
+      "soft_skills": [
+        "Excellent documentation",
+        "Reporting",
+        "Presentation"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Bioinformatics and Data Science Engineer",
+        "company": "Konica Minolta",
+        "start_date": null,
+        "end_date": null,
+        "city": "City, STATE",
+        "responsibilities": [
+          "Demonstrating ORIEN Informatics portal",
+          "Collecting feedback and feature requirements from researchers",
+          "Contributing to monthly clinical/molecular data releases",
+          "Developing pipelines in a Linux-based environment and DNAnexus",
+          "Translating/piloting common bioinformatics tools for non-bioinformatics biologists and clinicians"
+        ]
+      },
+      {
+        "job_title": "BMT Data Analyst",
+        "company": "Bionano Genomics, Inc.",
+        "start_date": "05/2018",
+        "end_date": "12/2018",
+        "city": "San Diego, CA",
+        "responsibilities": [
+          "Knowledge of Qlik Sense",
+          "Experience using iStar and Jira for triaging database issues",
+          "Active participant of ICE-T tumor board"
+        ]
+      },
+      {
+        "job_title": "Data Project Analyst",
+        "company": "Moffitt Cancer Center (M2 Gen)",
+        "start_date": null,
+        "end_date": null,
+        "city": "Seattle, WA",
+        "responsibilities": [
+          "Demonstrating initiative by completing Moffitt Cancer Center classes in Bioinformatics and Biostatistics",
+          "Building Red Cap forms for clinical data abstraction",
+          "Following QA/QC/UAT procedures to validate cancer-related clinical data"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science: Honors",
+        "school": "University of Waterloo",
+        "year": "06/2015"
+      },
+      {
+        "degree": "High School Diploma",
+        "school": "Heart Lake Secondary School",
+        "year": "2010"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:19:32.728614+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8483
+    }
+  }
+}

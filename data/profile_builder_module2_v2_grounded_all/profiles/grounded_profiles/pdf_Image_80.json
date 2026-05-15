@@ -1,0 +1,161 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_80.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_80.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6931,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nLEATRICEFRIESEN\n14357 Wiegand Drive, Los Angeles, CA\nPHONE\n\n## EDUCATION\n\nFashion Instituteof Design & Merchandising\nBachelor'sin Computer Science\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nDare Inc\n## Dallas, TX//Directorof Data Science//07/2019-present\n·Experienceimplementingscalable, distributed, andhighly available systems using Google Could Platform\n## Experiencewith Google Al Platform/Vertex Al, Kubeflow and Airflow\n- ·Experiencein dataprocessingusing SQL and PySpark\n·Experiencewithstatisticalandmodelingtechniquessuch as analysisofvariance, samplingplans, regression modeling, andclassificationmodeling\n·Goodunderstandingof algorithmiccomplexityofmodel training andtesting, particularlyforreal-time andnear real-timemodels\n- Insight/analyticalworkexperience\n- Experiencewithatleastoneof Python/R\n- ·Database/SQLexperience\n- ·Knowledge of Machine Learning\n·Understanding of ad technologies and how they are evolvinginthenewmedialandscapeandtherolesof differentaddressabletactics-TV, CRM, mobile, search, display\n- ·Knowledgeofotheroperatingsystemsotherthan Windows Os\n- ·Excellentknowledgeofdatastructuresandalgorithms\n## Boehm, Borerand Effertz\n- ·Comfortworkingremotely andexperiencewith Github\n## Dallas, TX//Data Science//12/2013-02/2019\n- ·Cyberanalysisor SEi Msystems\n·Pharmaceutical product use, managed care, medical/hospitalclaims andstructure/businessneedsof pharmaceuticalcustomers\n- ·Analyticalexperiencewithlongitudinalconsumerdata\n## ·Useofhighvolumehealthcaredata, particularly prescription or claims data\n- ·Hands-ondatasciencedirectorwhocanleadandconduct deep-diveanalysestoidentifytheneedsandprioritiesof thebusiness\n## Manage, develop, andmotivateagroupofdatascientists\n- ·Workin an agileformattodeliverproductstocustomers\n\n## TECHNICAL SKILLS\n\nSKILLS\n·Data Munging Skills\nHEADER\nLEATRICEFRIESEN\n14357WiegandDrive, LosAngeles, CA\nPHONE\n+1(555) 809 7046\nEDUCATION\nFashionInstituteofDesign&Merchandising\nBachelor'sinComputerScience\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nDare Inc\nDallas, TX//DirectorofDataScience//07/2019-present\n·Experienceimplementingscalable, distributed, andhighly available systems using GoogleCouldPlatform\nExperiencewithGoogleAlPlatform/VertexAl, Kubeflow andAirflow\n·Experiencein dataprocessingusingSQL andPySpark\n·Experiencewithstatisticalandmodelingtechniquessuch as analysisofvariance, samplingplans, regression modeling, andclassificationmodeling\n·Goodunderstandingof algorithmiccomplexityofmodel training andtesting, particularlyforreal-time andnear real-timemodels\nInsight/analyticalworkexperience\nExperiencewithatleastoneofPython/R\n·Database/SQLexperience\n·Knowledge of MachineLearning\n·Understanding of ad technologies and how they are evolvinginthenewmedialandscapeandtherolesof differentaddressabletactics-TV, CRM, mobile, search, display\n·Knowledgeofotheroperatingsystemsotherthan WindowsOs\n·Excellentknowledgeofdatastructuresandalgorithms\nBoehm, BorerandEffertz\n·Comfortworkingremotely andexperiencewithGithub\nDallas, TX//DataScience//12/2013-02/2019\n·CyberanalysisorSEiMsystems\n·Pharmaceutical product use, managed care, medical/hospitalclaims andstructure/businessneedsof pharmaceuticalcustomers\n·Analyticalexperiencewithlongitudinalconsumerdata\n·Useofhighvolumehealthcaredata, particularly prescription or claims data\n·Hands-ondatasciencedirectorwhocanleadandconduct deep-diveanalysestoidentifytheneedsandprioritiesof thebusiness\nManage, develop, andmotivateagroupofdatascientists\n·Workin an agileformattodeliverproductstocustomers\nTECHNICAL SKILLS\nSKILLS\n·Data Munging Skills",
+    "header_info": {
+      "full_name": "Bachelor'sin Computer Science",
+      "email": null,
+      "phone": null,
+      "location": "14357 Wiegand Drive, Los Angeles, CA",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9386,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "LEATRICEFRIESEN",
+      "email": null,
+      "phone": null,
+      "location": "14357 Wiegand Drive, Los Angeles, CA",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 13,
+      "hard_skills": [
+        "Google Al Platform/Vertex Al",
+        "Kubeflow",
+        "Airflow",
+        "SQL",
+        "PySpark",
+        "Python/R"
+      ],
+      "soft_skills": [
+        "Insight/analytical work experience",
+        "Comfort working remotely and experience with Github",
+        "Excellent knowledge of data structures and algorithms",
+        "Knowledge of Machine Learning",
+        "Understanding of ad technologies",
+        "Knowledge of other operating systems than Windows OS",
+        "Hands-on data science director who can lead and conduct deep-dive analyses"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Dare Inc",
+        "job_title": "Director of Data Science",
+        "start_date": "07/2019-present",
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Experience implementing scalable, distributed, and highly available systems using Google Cloud Platform",
+          "Experience with Google Al Platform/Vertex Al, Kubeflow and Airflow",
+          "Experience in data processing using SQL and PySpark",
+          "Experience with statistical and modeling techniques such as analysis of variance, sampling plans, regression modeling, and classification modeling"
+        ]
+      },
+      {
+        "company": "Boehm, Borerand Effertz",
+        "job_title": "Data Science",
+        "start_date": "12/2013-02/2019",
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Cyber analysis or SEi Msystems",
+          "Pharmaceutical product use, managed care, medical/hospital claims and structure/business needs of pharmaceutical customers"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Fashion Instituteof Design & Merchandising",
+        "degree": "Bachelor'sin Computer Science",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T12:11:14.663858+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:30.412230+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV24.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV24.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "trishastamm@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Trisha Stamm",
+      "email": "trishastamm@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data Scientist and leader in machine learning.",
+      "hard_skills": [
+        "RStudio",
+        "Python",
+        "PERL",
+        "No SQL Hadoop",
+        "Cloudera"
+      ],
+      "soft_skills": [
+        "Problem Solving",
+        "Critical Thinking",
+        "Creative Thinking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Freelance Data Scientist",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:00:35.445451+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8017
+    }
+  }
+}

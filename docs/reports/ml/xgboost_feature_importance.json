@@ -1,0 +1,59 @@
+{
+  "generated_at_utc": "2026-05-15T10:01:32.969806+00:00",
+  "model": "data\\ranking\\models\\xgboost.joblib",
+  "feature_names": "data\\ranking\\models\\feature_names.json",
+  "status": "available",
+  "method": "xgboost_feature_importances_",
+  "top_features": [
+    {
+      "feature": "must_have_coverage",
+      "importance": 0.5963454842567444
+    },
+    {
+      "feature": "final_score_v3",
+      "importance": 0.3827909529209137
+    },
+    {
+      "feature": "experience_match_score",
+      "importance": 0.007427670992910862
+    },
+    {
+      "feature": "profile_quality_score",
+      "importance": 0.006199022755026817
+    },
+    {
+      "feature": "vector_similarity",
+      "importance": 0.004177607595920563
+    },
+    {
+      "feature": "reliability_score",
+      "importance": 0.003059210255742073
+    },
+    {
+      "feature": "required_skills_overlap",
+      "importance": 0.0
+    },
+    {
+      "feature": "nice_to_have_overlap",
+      "importance": 0.0
+    },
+    {
+      "feature": "seniority_alignment",
+      "importance": 0.0
+    },
+    {
+      "feature": "hallucination_risk_encoded",
+      "importance": 0.0
+    },
+    {
+      "feature": "missing_required_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "matched_required_count",
+      "importance": 0.0
+    }
+  ],
+  "comparison_with_random_forest": "Top Random Forest features: final_score_v3, missing_required_count, required_skills_overlap, matched_required_count, must_have_coverage. Compare with XGBoost top features below; both remain tied to pseudo-label reproduction.",
+  "methodology_warning": "Ces importances sont calculées sur un modèle entraîné avec des pseudo-labels métier contrôlés et dans un contexte de circularité partielle. Elles indiquent quelles features aident à reproduire la règle de pseudo-labeling, pas nécessairement les critères réels d’un recruteur."
+}

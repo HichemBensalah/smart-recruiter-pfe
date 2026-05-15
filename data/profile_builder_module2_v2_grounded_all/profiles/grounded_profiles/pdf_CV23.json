@@ -1,0 +1,167 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV23.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV23.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.6877,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAnne Lounsberry\n\n## TECHNICAL SKILLS\n\nMicrosoft Certified Data Scientist with 10+ years of experience in Python, R, Java, and Scala. Applied data mining to analyze ABC Inc. procurement processes demonstrating potential savings of $420, 000 a year. Seeking to leverage my data visualization and big data modeling skills to help increase XYZ's investment returns in the upcoming year.\nData Scientist, Microsoft Certified\n\n## PROFESSIONAL EXPERIENCE\n\nExperience\nPersonal Info\n2013- Senior Data Scientist\n## ACBInc., Los Angeles, CA\n- ·Developedend-to-endmachinelearningprototypes and scaled them torun inproductionenvironments. Increased efficiencyby 23%.\n\n## MACHINE LEARNING & DEEP LEARNING\n\n·Contributed meaningful improvements to existing machine learning modelsthroughcarefullydirectedresearch.\n·Derived actionable insights from massive data sets with minimal support.\n·Provided input into the collection of new data sources and the refinement of existingones toimprove analysis andmodel development.\nKey achievement: Applied data mining to analyze procurement processes resulting in savings of $420, 000 a year.\n2008 Machine Learning Specialist\nAny Company, San Diego, CA\n·Collaborated withallteammembers to optimize Customer firm.\n·Increased repeat business among real estate investors by 25%.\n·Decreased wasted phone and email time by 57%.\n·Build a machine-learning-based system of matching clients with tailored investment opportunities. Increased customer retention by 30%.\n2005 Junior Data Analyst\nCapgemini, San Diego, CA\n·Consulted andworked with development teams to determine, execute and deliverrelevantsolutions.\n\n## EDUCATION\n\n·Analyzedoldinformationarchitecturesandcontributedtothedesign and development of the new one.\n·Provided information, feedback and guidance to clientsto support technology-related decisionmaking.\n**Date: ** 2005\n**Location: ** MSc in Statistics, UCLA, Los Angeles, CA\n- Google Certified Professional Data Engineer\n- Microsoft Professional Program Certificate in Data Science\n\n## CERTIFICATES (IN PROGRESS)\n\nCertificates\nHEADER\nAnne Lounsberry\nTECHNICAL SKILLS\nMicrosoft Certified Data Scientist with 10+ years of experience in Python, R, Java, and Scala. Applied data mining to analyze ABC Inc. procurement processes demonstrating potential savings of $420, 000 a year. Seeking to leverage my data visualization and big data modeling skills to help increase XYZ's investment returns in the upcoming year.\nData Scientist, Microsoft Certified\nPROFESSIONAL EXPERIENCE\nExperience\nPersonal Info\n2013- Senior Data Scientist\n2019\nACBInc., LosAngeles, CA\n·Developedend-to-endmachinelearningprototypes and scaled them torun inproductionenvironments.Increased efficiencyby23%.\nMACHINE LEARNING & DEEP LEARNING\n·Contributed meaningful improvements to existing machine learning modelsthroughcarefullydirectedresearch.\n·Derived actionable insights from massive data sets with minimal support.\n·Provided input into the collection of new data sources and the refinement of existingones toimprove analysis andmodel development.\nKey achievement: Applied data mining to analyze procurement processes resulting in savings of $420, 000 a year.\n2008 Machine Learning Specialist\n2013\nAnyCompany, San Diego, CA\n·Collaborated withallteammembers to optimize Customer firm.\n·Increased repeat business among real estate investors by 25%.\n·Decreased wasted phone and email time by57%.\n·Build a machine-learning-based system of matching clients with tailored investment opportunities. Increased customer retention by 30%.\n2005 Junior Data Analyst\n2008\nCapgemini, SanDiego, CA\n·Consulted andworked with development teams to determine, execute and deliverrelevantsolutions.\nEDUCATION\n·Analyzedoldinformationarchitecturesandcontributedtothedesign and development of the new one.\n·Provided information, feedback and guidance to clientsto support technology-related decisionmaking.\n2005\nMSc in Statistics, UCLA, Los Angeles, CA\nGoogle Certified Professional Data Engineer\nMicrosoftProfessional Program Certificate inDataScience\nCERTIFICATES (IN PROGRESS)\nCertificates\n2014\n2008",
+    "header_info": {
+      "full_name": "Anne Lounsberry",
+      "email": null,
+      "phone": null,
+      "location": "Data Scientist, Microsoft Certified",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9375,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Anne Lounsberry",
+      "email": null,
+      "phone": null,
+      "location": "Data Scientist, Microsoft Certified",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Microsoft Certified Data Scientist with 10+ years of experience in Python, R, Java, and Scala",
+      "experience_level": "senior",
+      "years_experience": 10,
+      "hard_skills": [
+        "Python",
+        "R",
+        "Java",
+        "Scala"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "ACBInc.",
+        "job_title": "Senior Data Scientist",
+        "start_date": "2013",
+        "end_date": null,
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "Developed end-to-end machine learning prototypes and scaled them to run in production environments. Increased efficiency by 23%",
+          "Contributed meaningful improvements to existing machine learning models through carefully directed research",
+          "Derived actionable insights from massive data sets with minimal support",
+          "Provided input into the collection of new data sources and the refinement of existing ones to improve analysis and model development"
+        ]
+      },
+      {
+        "company": "Any Company",
+        "job_title": "Machine Learning Specialist",
+        "start_date": "2008",
+        "end_date": null,
+        "city": "San Diego, CA",
+        "responsibilities": [
+          "Collaborated with all team members to optimize Customer firm",
+          "Increased repeat business among real estate investors by 25%",
+          "Decreased wasted phone and email time by 57%",
+          "Build a machine-learning-based system of matching clients with tailored investment opportunities. Increased customer retention by 30%"
+        ]
+      },
+      {
+        "company": "Capgemini",
+        "job_title": "Junior Data Analyst",
+        "start_date": "2005",
+        "end_date": null,
+        "city": "San Diego, CA",
+        "responsibilities": [
+          "Consulted and worked with development teams to determine, execute and deliver relevant solutions"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "UCLA",
+        "degree": "MSc in Statistics",
+        "field": null,
+        "year": 2005
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "Microsoft Certified Data Scientist",
+      "Google Certified Professional Data Engineer",
+      "Microsoft Professional Program Certificate in Data Science"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:39:26.264699+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:28.147813+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

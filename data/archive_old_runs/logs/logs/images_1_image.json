@@ -1,0 +1,21 @@
+{
+  "source_path": "data\\raw_cv\\images\\1_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\1_image.json",
+  "provider_errors": [],
+  "prompt_length": 5187,
+  "llm_status": "success",
+  "fields_nullified": [
+    "bio.email",
+    "bio.full_name",
+    "expertise.soft_skills[0]",
+    "expertise.soft_skills[1]",
+    "expertise.soft_skills[2]",
+    "expertise.soft_skills[3]"
+  ],
+  "quality_flags": [
+    "low_grounded_reliability",
+    "summary_not_enough_evidence",
+    "template_detected",
+    "unsupported_fields_nullified"
+  ]
+}

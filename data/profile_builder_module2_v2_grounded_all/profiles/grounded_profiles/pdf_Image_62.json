@@ -1,0 +1,140 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_62.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_62.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.55,
+  "normalization": {
+    "cleaned_markdown": "## DATA SCIENTIST\n\nBuiltanddefined strategiesfor R & Ddata analytics.\nAcademic Background\nMadison University\nDepartmentof Computer Science\nAverage GPAof 3. 7\nAcademic Excellencein Computer Studiesand Technical Sciences\nMadison Computer Society President\nMadison Area Technical College\nDepartmentof Computer Science\nAverage GPAof 3. 5 for 2 Consecutive Years\nMemberofthe School's Acting Club\nMemberofthe Volleyball Team\n\n## PROFESSIONAL SUMMARY\n\nPersonal Profile\n\n## PROFESSIONAL EXPERIENCE\n\nWork Experience DATA SCIENTIST\nData Scientistwith 3+ yearsofexperience executing data-driven solutionstoincrease efficiencyandutilityof internal dataprocessing\nDeveloped insightsintotheperformance of Network/Studioprogramsand their competitorsacrossallplatforms (including linear. multiplatform and SVOD)\nContact Details\nNumber: 912-965-3457\nEmail:\nthompson.rach@gmail.co m\nWebsite:\nwww. rachellethompson. c om\nAddress: 875 Long St\nMadison. I. USA. 87654\n\n## TECHNICAL SKILLS\n\nSkills\nMicrosoft Office(Word. Excel. Power Point)\nSix Sigma（Black Belts)\n\n## EDUCATION\n\nInformation Technology Delivery methods\nPHP. Python. HTML. CSS\nMinitab. SPSS\nRACHELLE THOMPSON\nDATA SCIENTIST\nBuiltanddefined strategiesforR&Ddata analytics.\nAcademicBackground\nMadison University\nDepartmentof Computer Science\nAverageGPAof3.7\nAcademicExcellenceinComputer Studiesand TechnicalSciences\nMadison ComputerSocietyPresident\nMadison Area Technical College\nDepartmentof Computer Science\nAverageGPAof3.5for2Consecutive Years\nMemberoftheSchool'sActing Club\nMemberoftheVolleyball Team\nPROFESSIONAL SUMMARY\nPersonalProfile\nPROFESSIONAL EXPERIENCE\nWorkExperience DATA SCIENTIST\nData Scientistwith3+ yearsofexperience executing data-driven solutionstoincrease efficiencyandutilityof internal dataprocessing\nDeveloped insightsintotheperformance ofNetwork/Studioprogramsand their competitorsacrossallplatforms (including linear.multiplatform and SVOD)\nContact Details\nNumber: 912-965-3457\nEmail:\nthompson.rach@gmail.co m\nWebsite:\nwww.rachellethompson.c om\nAddress: 875Long St\nMadison.I.USA.87654\nTECHNICAL SKILLS\nSkills\nMicrosoftOffice(Word. Excel.PowerPoint)\nSixSigma（BlackBelts)\nEDUCATION\nInformation TechnologyDelivery methods\nPHP.Python.HTML. CSS\nMinitab.SPSS",
+    "header_info": {
+      "full_name": "Departmentof Computer Science",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.91,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].field",
+      "education[1].institution",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": "thompson.rach@gmail.com",
+      "phone": "912-965-3457",
+      "location": "Madison, USA",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid",
+      "years_experience": 3,
+      "hard_skills": [
+        "Microsoft Office",
+        "Six Sigma",
+        "PHP",
+        "Python",
+        "HTML",
+        "CSS",
+        "Minitab",
+        "SPSS"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Data Scientist",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Built and defined strategies for R & D data analytics",
+          "Developed insights into the performance of Network/Studio programs and their competitors across all platforms"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Madison University",
+        "degree": null,
+        "field": "Computer Science",
+        "year": null
+      },
+      {
+        "institution": "Madison Area Technical College",
+        "degree": null,
+        "field": "Computer Science",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "Six Sigma (Black Belts)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:48:18.093946+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.872799+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

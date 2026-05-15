@@ -1,0 +1,37 @@
+{
+  "generated_at_utc": "2026-05-14T21:06:25.234234+00:00",
+  "dataset_id": "ranking_dataset_v1",
+  "input_dir": "data\\ranking\\features",
+  "total_rows": 250,
+  "jobs": [
+    "backend_python_fastapi_mongodb",
+    "data_engineer_python_sql",
+    "devops_docker_kubernetes",
+    "frontend_react_nextjs",
+    "fullstack_react_node_mongodb"
+  ],
+  "rows_per_job": {
+    "backend_python_fastapi_mongodb": 50,
+    "data_engineer_python_sql": 50,
+    "devops_docker_kubernetes": 50,
+    "frontend_react_nextjs": 50,
+    "fullstack_react_node_mongodb": 50
+  },
+  "feature_count": 12,
+  "feature_names": [
+    "vector_similarity",
+    "final_score_v3",
+    "must_have_coverage",
+    "required_skills_overlap",
+    "nice_to_have_overlap",
+    "experience_match_score",
+    "seniority_alignment",
+    "profile_quality_score",
+    "reliability_score",
+    "hallucination_risk_encoded",
+    "missing_required_count",
+    "matched_required_count"
+  ],
+  "label_status": "unlabeled",
+  "warnings": []
+}

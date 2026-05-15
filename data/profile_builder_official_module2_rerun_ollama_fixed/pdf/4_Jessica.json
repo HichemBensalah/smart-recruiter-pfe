@@ -1,0 +1,82 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\4_Jessica.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\4_Jessica.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:4_Jessica",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Jessica",
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Results driven Data Science Leader with demonstrated success leading several data science consulting engagements",
+      "hard_skills": [
+        "Predictive Modeling",
+        "Genetic Algorithms",
+        "Random Forrest",
+        "Python",
+        "NLP Techniques",
+        "Decision Trees",
+        "Tableau",
+        "Excel/VBA"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Engagement Manager, Data Science Leader",
+        "company": "Domine's Pizza",
+        "start_date": null,
+        "end_date": null,
+        "city": "Redwater, TX",
+        "responsibilities": [
+          "Set up, Scaled and Led analytics consulting engagements",
+          "Worked with clients senior leadership to identify and define business problems",
+          "Collaborated cross functionally for effective deployment and optimum value realization"
+        ]
+      },
+      {
+        "job_title": "Assistant Manager",
+        "company": "Oshkesk Corp.",
+        "start_date": "06/2007",
+        "end_date": "04/XXX 0",
+        "city": "Appleton, India",
+        "responsibilities": [
+          "Owned the model management of 700+ models",
+          "Developed variety of credit risk models for Citi Cards",
+          "Maintained adherence to OCC guidelines and efficacies of the various models"
+        ]
+      },
+      {
+        "job_title": "Intern",
+        "company": "NATIONAL CHEMICAL LABORATORY",
+        "start_date": "05/2004",
+        "end_date": "06/2004",
+        "city": "City, India",
+        "responsibilities": [
+          "Developed and productized a Genetic Programming based model"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master and Bachelor of Technology",
+        "school": "Indian Institute of Technology (ITT) - Madras",
+        "year": "2008"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:20:25.925027+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7082
+    }
+  }
+}

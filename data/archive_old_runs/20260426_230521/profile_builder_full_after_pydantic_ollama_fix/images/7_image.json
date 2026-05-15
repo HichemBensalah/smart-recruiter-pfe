@@ -1,0 +1,57 @@
+{
+  "source_path": "data\\raw_cv\\images\\7_image.jpg",
+  "artifact_path": "data\\processed_final_rerun_20260414\\images\\7_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "images:7_image",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Justine Hendrickson",
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data Scientist & Analytics Engineer",
+      "hard_skills": [
+        "Python",
+        "Labcorp"
+      ],
+      "soft_skills": [
+        "Tableau"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Metadata Scientist",
+        "company": "Chevront",
+        "start_date": "July 2021 - current",
+        "end_date": null,
+        "city": "Houston, TX",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Data Science graduate with a passion for data integrity visualization & statistics",
+        "school": "University of Houston",
+        "year": "September 2017 - May 2021"
+      },
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T20:03:45.441496+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7231
+    }
+  }
+}

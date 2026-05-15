@@ -1,0 +1,577 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\candidate_042.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nRyan Nelson\nF R E S H E R   S O F T W A R E   D E V E L O P E R\nPROFESSIONAL SUMMARY\nExecutive Profile\nPROFESSIONAL EXPERIENCE\nWork Experience\nTECHNICAL SKILLS\nAccenture Software Developer, Apr 2019 - Dec 2020\nI consider myself a team player and ethics maintainer. When it comes to coding I always try to be be well informed about the technology and its application. Would like to join any firm as a software developer in machine learning projects.\nSkills\nMachine Learning, Software Engineering, Python, Java, SAP,C programming\nOther Activities\nACADEMIC PROJECTS\nWorked on multiple projects that dealt with system frame development and solution supply.\nProjects\nB.Tech Computer Science From JNTU, 2019\nClassification of Cassava Leaves\nEDUCATION\nMACHINE LEARNING & DEEP LEARNING\nMachine learning - Stanford University SAP Fundamentals - Arjuvo Limited",
+  "markdown": "## HEADER\n\nRyan Nelson\nF R E S H E R S O F T W A R E D E V E L O P E R\n\n## PROFESSIONAL SUMMARY\n\nExecutive Profile\n\n## PROFESSIONAL EXPERIENCE\n\nWork Experience\n\n## TECHNICAL SKILLS\n\nAccenture Software Developer, Apr 2019 - Dec 2020\nI consider myself a team player and ethics maintainer. When it comes to coding I always try to be be well informed about the technology and its application. Would like to join any firm as a software developer in machine learning projects.\nSkills\nMachine Learning, Software Engineering, Python, Java, SAP, C programming\nOther Activities\n\n## ACADEMIC PROJECTS\n\nWorked on multiple projects that dealt with system frame development and solution supply.\n### Projects\n**Date:** B. Tech Computer Science From JNTU, 2019\n- Classification of Cassava Leaves\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine learning - Stanford University SAP Fundamentals - Arjuvo Limited",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Ryan Nelson",
+        "F R E S H E R S O F T W A R E D E V E L O P E R"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ryan Nelson",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 46.0660420805815,
+            "top": 713.6869983131894,
+            "right": 372.0432105293568,
+            "bottom": 761.3296281162341
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "F R E S H E R   S O F T W A R E   D E V E L O P E R",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 46.0660420805815,
+            "top": 684.6104449999917,
+            "right": 361.40378445399375,
+            "bottom": 700.8426180467072
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL SUMMARY",
+      "section_type": "summary",
+      "content": [
+        "Executive Profile"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Executive Profile",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 46.0660420805815,
+            "top": 597.9263717599515,
+            "right": 154.62527986362247,
+            "bottom": 608.4027288115082
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "Work Experience"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Work Experience",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 267.7746272427234,
+            "top": 597.9263717599515,
+            "right": 376.630474935894,
+            "bottom": 608.4027288115082
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Accenture Software Developer, Apr 2019 - Dec 2020",
+        "I consider myself a team player and ethics maintainer. When it comes to coding I always try to be be well informed about the technology and its application. Would like to join any firm as a software developer in machine learning projects.",
+        "Skills",
+        "Machine Learning, Software Engineering, Python, Java, SAP,C programming",
+        "Other Activities"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Accenture Software Developer, Apr 2019 - Dec 2020",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 267.7746272427234,
+            "top": 564.1093064170535,
+            "right": 425.60558940268504,
+            "bottom": 585.2514055261953
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "I consider myself a team player and ethics maintainer. When it comes to coding I always try to be be well informed about the technology and its application. Would like to join any firm as a software developer in machine learning projects.",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 46.0660420805815,
+            "top": 516.7991156203116,
+            "right": 204.95139491225078,
+            "bottom": 585.9815142957741
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Skills",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 46.0660420805815,
+            "top": 474.9898616823064,
+            "right": 81.09917203391487,
+            "bottom": 485.46621873386306
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Machine Learning, Software Engineering, Python, Java, SAP,C programming",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 46.0660420805815,
+            "top": 440.2681514456485,
+            "right": 195.83621861730245,
+            "bottom": 461.80687549512237
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Other Activities",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 46.0660420805815,
+            "top": 401.2706775539392,
+            "right": 146.5258042635902,
+            "bottom": 411.74703460549586
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [
+        "Worked on multiple projects that dealt with system frame development and solution supply."
+      ],
+      "items": [
+        {
+          "title": "Projects",
+          "date": "B.Tech Computer Science From JNTU, 2019",
+          "location": null,
+          "details": [
+            "Classification of Cassava Leaves"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Projects",
+              "page_no": 1,
+              "block_indices": [
+                8
+              ],
+              "bbox": {
+                "left": 46.0660420805815,
+                "top": 328.13329660133013,
+                "right": 96.36571823905732,
+                "bottom": 338.60965365288683
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "B.Tech Computer Science From JNTU, 2019",
+              "page_no": 1,
+              "block_indices": [
+                14
+              ],
+              "bbox": {
+                "left": 267.7746272427234,
+                "top": 463.9601091624836,
+                "right": 427.122253080173,
+                "bottom": 473.08684622512357
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Classification of Cassava Leaves",
+              "page_no": 1,
+              "block_indices": [
+                9
+              ],
+              "bbox": {
+                "left": 46.0660420805815,
+                "top": 306.32633735001104,
+                "right": 166.61503656614659,
+                "bottom": 315.4583615675724
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Worked on multiple projects that dealt with system frame development and solution supply.",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 267.7746272427234,
+            "top": 528.079081742313,
+            "right": 485.54274300800887,
+            "bottom": 549.2211808514547
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Projects",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 46.0660420805815,
+            "top": 328.13329660133013,
+            "right": 96.36571823905732,
+            "bottom": 338.60965365288683
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "B.Tech Computer Science From JNTU, 2019",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 267.7746272427234,
+            "top": 463.9601091624836,
+            "right": 427.122253080173,
+            "bottom": 473.08684622512357
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Classification of Cassava Leaves",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 46.0660420805815,
+            "top": 306.32633735001104,
+            "right": 166.61503656614659,
+            "bottom": 315.4583615675724
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    },
+    {
+      "title": "MACHINE LEARNING & DEEP LEARNING",
+      "section_type": "skills",
+      "content": [
+        "Machine learning - Stanford University SAP Fundamentals - Arjuvo Limited"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Machine learning - Stanford University SAP Fundamentals - Arjuvo Limited",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 46.0660420805815,
+            "top": 366.5489721172811,
+            "right": 187.25851890134538,
+            "bottom": 388.08769616675494
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.562,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 857,
+      "section_completeness": 1.0,
+      "ordering_coherence": 0.7333,
+      "segmentation_stability": 0.5714,
+      "layout_block_coverage": 0.4688,
+      "ocr_noise_ratio": 0.3611,
+      "weird_section_ratio": 0.0,
+      "section_count": 7,
+      "expected_section_hits": 6,
+      "markdown_chars": 879,
+      "markdown_words": 108,
+      "markdown_has_experience": true,
+      "markdown_has_education": true,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 3,
+      "markdown_weird_char_ratio": 0.0,
+      "markdown_glued_line_count": 1,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": true,
+      "router_ocr_required": true,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 11,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=733\", \"pdf_total_text_words=126\", \"pdf_avg_text_chars_per_page=733.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=hybrid_pdf because a text layer exists but native text volume is too short\", \"ocr_forced_due_to_low_native_text_words<200\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.05
+    },
+    "warnings": [
+      "low_text_recovery",
+      "markdown_too_weak"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "low_text_recovery",
+      "markdown_too_weak"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Ryan Nelson",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 46.0660420805815,
+        "top": 713.6869983131894,
+        "right": 372.0432105293568,
+        "bottom": 761.3296281162341
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "F R E S H E R   S O F T W A R E   D E V E L O P E R",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 46.0660420805815,
+        "top": 684.6104449999917,
+        "right": 361.40378445399375,
+        "bottom": 700.8426180467072
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Executive Profile",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 46.0660420805815,
+        "top": 597.9263717599515,
+        "right": 154.62527986362247,
+        "bottom": 608.4027288115082
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "Work Experience",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 267.7746272427234,
+        "top": 597.9263717599515,
+        "right": 376.630474935894,
+        "bottom": 608.4027288115082
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Accenture Software Developer, Apr 2019 - Dec 2020",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 267.7746272427234,
+        "top": 564.1093064170535,
+        "right": 425.60558940268504,
+        "bottom": 585.2514055261953
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "I consider myself a team player and ethics maintainer. When it comes to coding I always try to be be well informed about the technology and its application. Would like to join any firm as a software developer in machine learning projects.",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 46.0660420805815,
+        "top": 516.7991156203116,
+        "right": 204.95139491225078,
+        "bottom": 585.9815142957741
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Skills",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 46.0660420805815,
+        "top": 474.9898616823064,
+        "right": 81.09917203391487,
+        "bottom": 485.46621873386306
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Machine Learning, Software Engineering, Python, Java, SAP,C programming",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 46.0660420805815,
+        "top": 440.2681514456485,
+        "right": 195.83621861730245,
+        "bottom": 461.80687549512237
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Other Activities",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 46.0660420805815,
+        "top": 401.2706775539392,
+        "right": 146.5258042635902,
+        "bottom": 411.74703460549586
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Worked on multiple projects that dealt with system frame development and solution supply.",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 267.7746272427234,
+        "top": 528.079081742313,
+        "right": 485.54274300800887,
+        "bottom": 549.2211808514547
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Projects",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 46.0660420805815,
+        "top": 328.13329660133013,
+        "right": 96.36571823905732,
+        "bottom": 338.60965365288683
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "B.Tech Computer Science From JNTU, 2019",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 267.7746272427234,
+        "top": 463.9601091624836,
+        "right": 427.122253080173,
+        "bottom": 473.08684622512357
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Classification of Cassava Leaves",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 46.0660420805815,
+        "top": 306.32633735001104,
+        "right": 166.61503656614659,
+        "bottom": 315.4583615675724
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Machine learning - Stanford University SAP Fundamentals - Arjuvo Limited",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 46.0660420805815,
+        "top": 366.5489721172811,
+        "right": 187.25851890134538,
+        "bottom": 388.08769616675494
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    }
+  ]
+}

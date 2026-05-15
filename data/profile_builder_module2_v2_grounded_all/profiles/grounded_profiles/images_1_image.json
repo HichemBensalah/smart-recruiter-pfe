@@ -1,0 +1,169 @@
+{
+  "source_path": "data\\raw_cv\\images\\1_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\1_image.json",
+  "source_format": "images",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7231,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nFIRSTLAST\nData Science Manager\nNew York City, NY 10000 first.last@resumeworded.com+1 (212) 123-4567\n\n## PROFESSIONAL EXPERIENCE\n\nSan Francisco, C Aand New York, NY 2016-Present 2015-2016\n## RESUMEWORDED Data Science Manager Senior Data Scientist\n**Date: ** 2012-2015\n- Conducted data regression analysis of therelationship between company stock prices and current industry trends, leading to 15% higher accuracy prediction of performance than the last 4 years.\n- Led full redesign of websitewithfindings from customer segmentation and competitiveresearch, increasing websiteleadsby 225%.\n- Developed a new targeting model by segmenting potential users by behavioral attributes from survey data, generating $1. 5 M in sales.\n- Designed training and peer-mentoring programs for the incoming class of 25 analysts in 2014; reduced onboarding time for newhiresby 50%.\n- Selected Project Experience\n- Fraud Detection Project\n- Drove redevelopment of fraud detection algorithm, introducing 10+ new attributes, resulting in decreased falsepositive casesby 75%.\n- Analyzed customer's spendingbehavior, includingmapping thelocation of the spendersto identify fraudulent transactions from the non-fraudulent ones, increasing the accuracy rate by over 97%.\n- Led the team of 3 members to conduct market research in an efficient manner, completing the project 4 weeksearlierthanestimatedtimeline.\n- Operations Management Project\n- Streamlined standard business processes and internal systems resulting in work efficiency raise by 22%\n- Led consolidation of 6 data systems into 1, resulting in 55 K in annual savings.\n- Refined outsourcing strategy, resulting in increased offshore headcount from 12 to 39 employees.\n- GROWTHSI\n## Data Scientist\n- Developed and maintained ETL scripts in Python and Perl to scrape data from external websites into a SQL database.\n- Collaborated with other teams as a Representative of the Data Analysis department and developed key metrics to achieve business outcomes, resulting in an increase in revenue by $450, 000 collectively.\nCollaboratedwithfundamental longandshortportfoliomanagers and analyststoevaluatethepredictivepower ofuniquedatasourcesfor singlestockselection.\n\n## EDUCATION\n\nGROWTHSI\nSan Francisco, CA 2011-2012\nMasterof Sciencein Managementwith Honors\nAwards: Bill & Melinda Gates Fellow (only 5 awarded to class), President's List 2017 (top 10%).\nADDITIONALINFORMATION\nTechnical Skills: Microsoft Access, SQL, Project Management, Python, Perl, SQL/SQ Lite 3.\nCertifications: Microsoft Certified Solutions Expert (August 2016), Passed Resume Worded examinations.\n## RESUMEWORDEDUNIVERSITY\n**Date: ** 2007-2011\n- New York, NY\n- Bachelorof Engineering, Majorin Computer Science; Minorin Mathematics\n## Completed one-year study abroad with Singapore University.\n- Awards: Won nationwide data science competition out of 500+participants (2013).\nHEADER\nFIRSTLAST\nData Science Manager\nNew York City, NY 10000first.last@resumeworded.com+1 (212) 123-4567\nPROFESSIONAL EXPERIENCE\nSan Francisco, C Aand New York, NY 2016-Present 2015-2016\nRESUMEWORDED Data Science Manager Senior Data Scientist\n2012-2015\nConducted data regression analysis of therelationship between company stock prices and current industry trends, leading to 15% higher accuracy prediction of performance than the last 4 years.\nLed full redesign of websitewithfindings from customer segmentation and competitiveresearch, increasing websiteleadsby225%.\nDeveloped a new targeting model by segmenting potential users by behavioral attributes from survey data, generating $1. 5M in sales.\nDesigned training and peer-mentoring programs for the incoming class of 25 analysts in 2014; reduced onboarding time for newhiresby50%.\nSelected Project Experience\nFraud Detection Project\nDrove redevelopment of fraud detection algorithm, introducing 10+ new attributes, resulting in decreased falsepositive casesby75%.\nAnalyzed customer's spendingbehavior, includingmapping thelocation of the spendersto identify fraudulent transactions from the non-fraudulent ones, increasing the accuracy rate by over 97%.\nLed the team of 3 members to conduct market research in an efficient manner, completing the project 4 weeksearlierthanestimatedtimeline.\nOperations Management Project\nStreamlined standard business processes and internal systems resulting in work efficiency raise by 22%\nLed consolidation of 6 data systems into 1, resulting in 55K in annual savings.\nRefined outsourcing strategy, resulting in increased offshore headcount from 12 to 39 employees.\nGROWTHSI\nData Scientist\nDeveloped and maintained ETL scripts in Python and Perl to scrape data from external websites into a SQL database.\nCollaborated with other teams as a Representative of the Data Analysis department and developed key metrics to achieve business outcomes, resulting in an increase in revenue by $450, 000 collectively.\nCollaboratedwithfundamental longandshortportfoliomanagers and analyststoevaluatethepredictivepower ofuniquedatasourcesfor singlestockselection.\nEDUCATION\nGROWTHSI\nSan Francisco, CA 2011-2012\nMasterof Sciencein Managementwith Honors\nAwards: Bill & Melinda Gates Fellow (only 5 awarded to class), President's List 2017 (top10%).\nADDITIONALINFORMATION\nTechnical Skills: Microsoft Access, SQL, Project Management, Python, Perl, SQL/SQ Lite3.\nCertifications: Microsoft Certified Solutions Expert (August 2016), Passed Resume Worded examinations.\nRESUMEWORDEDUNIVERSITY\n2007-2011\nNew York, NY\nBachelorof Engineering, Majorin Computer Science; Minorin Mathematics\nCompleted one-year study abroad with Singapore University.\nAwards: Won nationwide data science competition out of 500+participants (2013).",
+    "header_info": {
+      "full_name": null,
+      "email": "first.last@resumeworded.com",
+      "phone": "+1 (212) 123-4567",
+      "location": "San Francisco, C Aand New York, NY 2016-Present 2015-2016",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [
+      "FIRSTLAST",
+      "first.last@",
+      "resumeworded"
+    ],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.55,
+    "quality_flags": [
+      "missing_full_name",
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.866,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email"
+    ],
+    "fields_supported": [
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].degree",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.soft_skills[0]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": "+1 (212) 123-4567",
+      "location": "San Francisco, CA and New York, NY",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 15,
+      "hard_skills": [
+        "Python",
+        "Perl",
+        "SQL",
+        "Project Management",
+        "Microsoft Access"
+      ],
+      "soft_skills": [
+        "Time management"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Data Science Manager Senior Data Scientist",
+        "start_date": "2012-2015",
+        "end_date": null,
+        "city": "San Francisco, CA and New York, NY",
+        "responsibilities": [
+          "Conducted data regression analysis of the relationship between company stock prices and current industry trends, leading to 15% higher accuracy prediction of performance than the last 4 years.",
+          "Led full redesign of website with findings from customer segmentation and competitor research, increasing website leads by 225%.",
+          "Developed a new targeting model by segmenting potential users by behavioral attributes from survey data, generating $1.5 M in sales.",
+          "Designed training and peer-mentoring programs for the incoming class of 25 analysts in 2014; reduced onboarding time for new hires by 50%."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Data Scientist",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed and maintained ETL scripts in Python and Perl to scrape data from external websites into a SQL database.",
+          "Collaborated with other teams as a Representative of the Data Analysis department and developed key metrics to achieve business outcomes, resulting in an increase in revenue by $450,000 collectively."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Master of Science in Management with Honors",
+        "field": null,
+        "year": 2012
+      },
+      {
+        "institution": "GROWTHSI University",
+        "degree": "Bachelor of Engineering, Major in Computer Science; Minor in Mathematics",
+        "field": null,
+        "year": 2011
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "Microsoft Certified Solutions Expert (August 2016)",
+      "Passed Resume Worded examinations"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T13:40:32.209914+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:24.231474+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

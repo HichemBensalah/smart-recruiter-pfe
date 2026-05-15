@@ -1,0 +1,47 @@
+{
+  "generated_at_utc": "2026-05-07T11:07:33.688944+00:00",
+  "profiles_dir": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles",
+  "mongodb_uri": "mongodb://localhost:27017",
+  "database": "talent_intelligence",
+  "collection": "candidate_profiles",
+  "total_profiles_scanned": 90,
+  "total_profiles_patched": 1,
+  "emails_fixed": 0,
+  "urls_fixed": 1,
+  "years_experience_recovered": 0,
+  "experience_level_recovered": 0,
+  "skipped_due_to_quality_regression": 0,
+  "reliability_regressions_count": 0,
+  "risk_before_distribution": {
+    "low": 89,
+    "medium": 1
+  },
+  "risk_after_distribution": {
+    "low": 89,
+    "medium": 1
+  },
+  "examples_of_url_fixes": [
+    {
+      "profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_Aziz_resumer.json",
+      "artifact_path": "data\\processed_official_module1\\docx\\Aziz_resumer.json",
+      "changes": [
+        {
+          "field": "profile.bio.linkedin",
+          "before": "linkedin.com/in/mohamed-aziz-belaweid/⋄",
+          "after": "https://www.linkedin.com/in/mohamed-aziz-belaweid/"
+        }
+      ]
+    }
+  ],
+  "mongodb_update_result": {
+    "matched_count": 1,
+    "modified_count": 1
+  },
+  "risk_reduced_to_low": 0,
+  "risk_reduced_to_medium": 0,
+  "risk_still_high": 0,
+  "faiss_rebuilt": false,
+  "faiss_requested": false,
+  "faiss_error": null,
+  "faiss_report": null
+}

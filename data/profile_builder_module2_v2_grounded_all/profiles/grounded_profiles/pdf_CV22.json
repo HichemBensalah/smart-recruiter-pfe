@@ -1,0 +1,207 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV22.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV22.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7508,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nwarren.taylor@gmail.com\nWarren Taylor\nIthaca, New York\n\n## DATA SCIENTIST\n\nlinkedin.com/in/warren\n\n## TECHNICAL SKILLS\n\nSkills\nPython & R\nNLTK & OpenCV\nSQL & SAS\nSPSS & STATA\nPower BI & Spotfire\nskillsinaninnovativeandsimplifyprocess. Ienjoyworkinginateamand communicatingdata-drivenresults.\nEnglish\nPersonal Skills\nCommunication\nMotivationtolearn\nResult-oriented\nAnalytical mind\nEnthusiasm & optimism\nCritical Thinking\nPresentation Skills\nCertification\nOpenCV, Python\nAl Solution Tech-Florida\nMatplotlib & GCP\nCloud Solutions-New York\n\n## PROFESSIONAL SUMMARY\n\nSummary\n\n## PROFESSIONAL EXPERIENCE\n\nAhighlycompetentdatascientistwithfiveyearsofexperiencedevelopinga widerangeofinnovativeapplicationslike Credit Card Fraud Detection, Stock Sentiment Analysis Model, and Customersupportsystem.\n- patternsthatdrivemeaningfulimpactonthebusiness.\n- Experience\n- Catalan\n- Oct 2018-Present\n- Data Scientist\n- French\n- Info Tech Solutions-New York\n- ·Topredicthousepricesusingtimeseries analysisandneuralnetworks\n- ·Identifyfactorsthatpredictwhichemployees willhavethebestperformanceandwhichwill benefitfromachangeintheirjobposition usingmachinelearning.\n\n## LANGUAGES\n\nSpanish\n\n## EDUCATION\n\nDesignedtheinformationarchitectureand modelof anorganization's assets\nSep 2017-Sep 2018\nMaster of Computer Application\n## Cornell University-Ithaca, New York\n**Date: ** 2019-01-10\n- Sep 2016-Sep 2017\n- Bachelorof Computer Science\n\n## ACADEMIC PROJECTS\n\nCoordinatedwiththestakeholdersonproject progress.\nInvolvedinthecontinuousenhancementsand finding thebestsolution.\nMay 2018-Sep 2018\nData Scientist Consultant\nJPMorgan Asset Management-Florida\n·Predicting the Stockpriceusing sentiment analysis model.\nFindingthestockmarketdailypatternsand creatingameaningful solutiontothebusiness.\nIdentifing the Mulitbaggerstocksusing machinelearningand Al\nHEADER\nwarren.taylor@gmail.com\nWarren Taylor\n1-202-555-0122\nIthaca, NewYork\nDATA SCIENTIST\nlinkedin.com/in/warren\nin\nin\nTECHNICAL SKILLS\nSkills\nPython&R\nNLTK&OpenCV\nSQL&SAS\nSPSS&STATA\nPowerBI&Spotfire\nskillsinaninnovativeandsimplifyprocess.Ienjoyworkinginateamand communicatingdata-drivenresults.\nEnglish\nPersonal Skills\nCommunication\nMotivationtolearn\nResult-oriented\nAnalytical mind\nEnthusiasm&optimism\nCritical Thinking\nPresentation Skills\nCertification\nOpenCV, Python\nAlSolutionTech-Florida\nMatplotlib&GCP\nCloud Solutions-New York\nPROFESSIONAL SUMMARY\nSummary\nPROFESSIONAL EXPERIENCE\nAhighlycompetentdatascientistwithfiveyearsofexperiencedevelopinga widerangeofinnovativeapplicationslikeCreditCardFraudDetection, StockSentimentAnalysisModel, andCustomersupportsystem.\npatternsthatdrivemeaningfulimpactonthebusiness.\nExperience\nCatalan\nOct2018-Present\nData Scientist\nFrench\nInfoTechSolutions-NewYork\n·Topredicthousepricesusingtimeseries analysisandneuralnetworks\n·Identifyfactorsthatpredictwhichemployees willhavethebestperformanceandwhichwill benefitfromachangeintheirjobposition usingmachinelearning.\nLANGUAGES\nSpanish\nEDUCATION\nDesignedtheinformationarchitectureand modelof anorganization's assets\nSep2017-Sep2018\nMaster of ComputerApplication\nCornellUniversity-Ithaca, NewYork\n2019-01-10\nSep2016-Sep2017\nBachelorof ComputerScience\nACADEMIC PROJECTS\nCoordinatedwiththestakeholdersonproject progress.\nInvolvedinthecontinuousenhancementsand finding thebestsolution.\nMay2018-Sep2018\nData Scientist Consultant\n国\nJPMorganAssetManagement-Florida\n·Predicting theStockpriceusing sentiment analysis model.\nFindingthestockmarketdailypatternsand creatingameaningful solutiontothebusiness.\nIdentifing theMulitbaggerstocksusing machinelearningandAl",
+    "header_info": {
+      "full_name": "Warren Taylor",
+      "email": "warren.taylor@gmail.com",
+      "phone": null,
+      "location": "Ithaca, New York",
+      "linkedin": "linkedin.com/in/warren",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9502,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Warren Taylor",
+      "email": "warren.taylor@gmail.com",
+      "phone": null,
+      "location": "Ithaca, New York",
+      "linkedin": "linkedin.com/in/warren/",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid",
+      "years_experience": 5,
+      "hard_skills": [
+        "Python",
+        "R",
+        "NLTK",
+        "OpenCV",
+        "SQL",
+        "SAS",
+        "SPSS",
+        "STATA",
+        "Power BI",
+        "Spotfire",
+        "Matplotlib",
+        "GCP",
+        "Cloud Solutions"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Motivation to learn",
+        "Result-oriented",
+        "Analytical mind",
+        "Enthusiasm & optimism",
+        "Critical Thinking",
+        "Presentation Skills"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Info Tech Solutions-New York",
+        "job_title": "Data Scientist",
+        "start_date": "Oct 2018",
+        "end_date": "Present",
+        "city": "New York",
+        "responsibilities": [
+          "To predict house prices using time series analysis and neural networks",
+          "Identify factors that predict which employees will have the best performance and which will benefit from a change in their job position using machine learning"
+        ]
+      },
+      {
+        "company": "JPMorgan Asset Management-Florida",
+        "job_title": "Data Scientist Consultant",
+        "start_date": "May 2018",
+        "end_date": "Sep 2018",
+        "city": "Florida",
+        "responsibilities": [
+          "Predicting the Stock price using sentiment analysis model",
+          "Finding the stock market daily patterns and creating a meaningful solution to the business",
+          "Identifying the Mulitbagger stocks using machine learning and Al"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Cornell University-Ithaca, New York",
+        "degree": "Master of Computer Application",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": null,
+        "degree": "Bachelor of Computer Science",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "French",
+      "Catalan"
+    ],
+    "certifications": [
+      "OpenCV",
+      "Python",
+      "Al Solution Tech-Florida"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:39:24.912008+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:28.105811+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\1_anonyme.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\1_anonyme.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:1_anonyme",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Entry Level Civil Engineer with technical knowledge and quality assurance mindset",
+      "hard_skills": [
+        "Bluebeam",
+        "Mathcad",
+        "Microsoft Word",
+        "Excel",
+        "Project",
+        "Powerpoint",
+        "Autocad Civil 3D"
+      ],
+      "soft_skills": [
+        "Organized",
+        "Detail-oriented",
+        "Efficient"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Engineering Intern",
+        "company": "Company Name",
+        "start_date": "05/2017",
+        "end_date": "08/2017",
+        "city": "City",
+        "responsibilities": [
+          "Spreadsheets",
+          "Estimating",
+          "Dealt with Subcontractors/Suppliers",
+          "Plan Revisions"
+        ]
+      },
+      {
+        "job_title": "Field Engineering Intern",
+        "company": "Company Name",
+        "start_date": "05/2016",
+        "end_date": "08/2016",
+        "city": "City",
+        "responsibilities": [
+          "Drill Logs",
+          "Time Cards",
+          "Drilled Shaft Concrete Pours",
+          "Quantities"
+        ]
+      },
+      {
+        "job_title": "Field Engineering Intern",
+        "company": "Company Name",
+        "start_date": "05/2015",
+        "end_date": "08/2015",
+        "city": "City",
+        "responsibilities": [
+          "Spreadsheets",
+          "Concrete",
+          "RFI's",
+          "Soil Nail Wall Installation"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "school": "University of Pittsburgh at Johnstown",
+        "year": "2018"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:19:30.829652+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.5665
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV31.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV31.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:CV31",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Dwight Tate",
+      "email": null,
+      "phone": null,
+      "location": "Dublin, Ireland"
+    },
+    "expertise": {
+      "summary": "Data Science and Machine Learning with experience in data analysis and visualization using Python, ggplot2, Hive, Pig, and Tableau.",
+      "hard_skills": [
+        "Hive",
+        "Python",
+        "Tableau"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Borer Ltd",
+        "start_date": "2000-01-01",
+        "end_date": null,
+        "city": "Dublin, Ireland",
+        "responsibilities": [
+          "Provided frequency and empirical data analysis using Python"
+        ]
+      },
+      {
+        "job_title": "Business Development/Data Science Intern",
+        "company": "Rolfson",
+        "start_date": "2006-01-01",
+        "end_date": "2010-01-01",
+        "city": "Dublin, Ireland",
+        "responsibilities": [
+          "Performed ad-hoc data visualizations using ggplot 2 in R for measuring current model metrics"
+        ]
+      },
+      {
+        "job_title": "Data Science Intern",
+        "company": "Hudson PLC",
+        "start_date": null,
+        "end_date": null,
+        "city": "Dublin, Ireland",
+        "responsibilities": [
+          "Analyzed massive social networks (350+ million vertices) using a variety of tools (Hive, Pig, Python)",
+          "Built a real-time analytics dashboard using Tableau and D3.js"
+        ]
+      },
+      {
+        "job_title": "Data Science Intern",
+        "company": "Heller",
+        "start_date": null,
+        "end_date": null,
+        "city": "Dublin, Ireland",
+        "responsibilities": [
+          "Analyzed massive social networks (350+ million vertices) using a variety of tools (Hive, Pig, Python)",
+          "Completed an immersive 10-week program called Node that is centered on Data Science"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Chitkara University",
+        "year": "2001-ongoing"
+      },
+      {
+        "degree": "B. E.",
+        "school": "Middle East Technical University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:28:00.354248+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7834
+    }
+  }
+}

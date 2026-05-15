@@ -1,0 +1,16 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV17.json",
+  "provider_errors": [],
+  "prompt_length": 4537,
+  "llm_status": "partial",
+  "fields_nullified": [
+    "bio.linkedin",
+    "bio.location",
+    "experiences[2].end_date"
+  ],
+  "quality_flags": [
+    "template_detected",
+    "unsupported_fields_nullified"
+  ]
+}

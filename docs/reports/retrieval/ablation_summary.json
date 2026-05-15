@@ -1,0 +1,135 @@
+{
+  "experiment_name": "FAISS vs CrossEncoder Ablation Study",
+  "official_baseline": "FAISS + Matching V3 normalized",
+  "variants": [
+    {
+      "name": "FAISS + Matching V3 normalized",
+      "status": "OFFICIAL BASELINE",
+      "top5": [
+        {
+          "rank": 1,
+          "full_name": "Hichem Bensalah",
+          "final_score": 0.7702,
+          "must_have_coverage": 0.8
+        },
+        {
+          "rank": 2,
+          "full_name": "Candidate (ID: candidate_8eea1b635447)",
+          "final_score": 0.6709,
+          "must_have_coverage": 0.8
+        },
+        {
+          "rank": 3,
+          "full_name": "MOHAMED AZIZ BELAWEID",
+          "final_score": 0.5546,
+          "must_have_coverage": 0.6
+        },
+        {
+          "rank": 4,
+          "full_name": "JEFFERYGORCZANY",
+          "final_score": 0.4347,
+          "must_have_coverage": 0.4
+        },
+        {
+          "rank": 5,
+          "full_name": "Markus Rohan",
+          "final_score": 0.4192,
+          "must_have_coverage": 0.4
+        }
+      ],
+      "must_have_coverage_top5": [
+        0.8,
+        0.8,
+        0.6,
+        0.4,
+        0.4
+      ],
+      "latency_seconds": 20.8838,
+      "verdict": "Baseline officielle. Scoring metier avec penalite must-have. Defendable et stable."
+    },
+    {
+      "name": "CrossEncoder non contraint",
+      "status": "REJECTED",
+      "top5": [
+        {
+          "rank": 1,
+          "full_name": "JEFFERYGORCZANY",
+          "faiss_rank": 4,
+          "ce_score": 1.611441,
+          "must_have_coverage": 0.4
+        },
+        {
+          "rank": 2,
+          "full_name": "MOHAMED AZIZ BELAWEID",
+          "faiss_rank": 3,
+          "ce_score": 0.536082,
+          "must_have_coverage": 0.6
+        },
+        {
+          "rank": 3,
+          "full_name": "Markus Rohan",
+          "faiss_rank": 5,
+          "ce_score": 0.185113,
+          "must_have_coverage": 0.4
+        },
+        {
+          "rank": 4,
+          "full_name": "Candidate (ID: candidate_8eea1b635447)",
+          "faiss_rank": 2,
+          "ce_score": 0.056109,
+          "must_have_coverage": 0.8
+        },
+        {
+          "rank": 5,
+          "full_name": "Hichem Bensalah",
+          "faiss_rank": 1,
+          "ce_score": -0.073376,
+          "must_have_coverage": 0.8
+        }
+      ],
+      "must_have_coverage_top5": [
+        0.4,
+        0.6,
+        0.4,
+        0.8,
+        0.8
+      ],
+      "latency_seconds": 18.9105,
+      "verdict": "Rejete. Remonte des candidats semantiquement proches mais faibles sur must-have. Exemple : JEFFERYGORCZANY coverage 0.4 monte #1, Hichem coverage 0.8 descendu #5."
+    },
+    {
+      "name": "CrossEncoder contraint (seuil >= 0.6)",
+      "status": "EXPERIMENTAL VALIDATED",
+      "candidates_before_filter": 20,
+      "candidates_after_filter": 3,
+      "top3": [
+        {
+          "rank": 1,
+          "full_name": "MOHAMED AZIZ BELAWEID",
+          "faiss_rank": 3,
+          "ce_score": 0.536082,
+          "must_have_coverage": 0.6
+        },
+        {
+          "rank": 2,
+          "full_name": "Candidate (ID: candidate_8eea1b635447)",
+          "faiss_rank": 2,
+          "ce_score": 0.056109,
+          "must_have_coverage": 0.8
+        },
+        {
+          "rank": 3,
+          "full_name": "Hichem Bensalah",
+          "faiss_rank": 1,
+          "ce_score": -0.073376,
+          "must_have_coverage": 0.8
+        }
+      ],
+      "latency_seconds": 16.0494,
+      "verdict": "Experience validee : aucun candidat < 0.6 dans le top. Trop restrictif comme moteur final (3/20 passent). Utile pour demontrer la necessite d'un garde-fou metier."
+    }
+  ],
+  "key_finding": "Le CrossEncoder seul est semantiquement fort mais aveugle aux contraintes metier. Un filtre must_have_coverage >= 0.6 corrige ce probleme mais reduit trop le pool. La solution suivante est XGBoost qui apprendra a combiner score semantique ET couverture must-have de facon supervisee.",
+  "decision": "FAISS + Matching V3 normalized reste la baseline officielle pour la demo.",
+  "next_step": "Collecter des labels recruteur (good/medium/bad) pour entrainer XGBoost Ranker."
+}

@@ -1,0 +1,62 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_75.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_75.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:Image_75",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Decision Analysis and Business Process Improvement",
+      "hard_skills": [],
+      "soft_skills": [
+        "Teamwork"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Consultant",
+        "company": "The Gordon&BettyMooreFoundation",
+        "start_date": "Jul 2010",
+        "end_date": "Present",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Summer Intern",
+        "company": "SmartOrg,Inc.",
+        "start_date": "Jun 2009",
+        "end_date": "Sep 2009",
+        "city": "Menlo Park, CA",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "University of California Berkeley",
+        "year": null
+      },
+      {
+        "degree": "Masters in Management and Engineering",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:45:58.775006+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7961
+    }
+  }
+}

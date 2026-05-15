@@ -1,0 +1,70 @@
+{
+  "source_path": "data\\raw_cv\\images\\2_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\2_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\images\\2_image.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Alexander Eakins",
+      "email": null,
+      "phone": "(111)111-1111",
+      "location": "Los Angeles, CA 90001"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "MySQL",
+        "Python",
+        "Springboard-Data Science Certificate",
+        "PHP"
+      ],
+      "soft_skills": [
+        "Business acumen",
+        "Strategic planning"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Random Corp",
+        "start_date": "MAY 2017",
+        "end_date": "AUGUST 2018",
+        "city": null,
+        "responsibilities": [
+          "Analyze and process sophisticated data sets using S As, MySQL, and Excel",
+          "Write python scripts to automate everyday tasks such as organizing desktop files, automatically redefining strings file and folder structures for new projects"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Data Science",
+        "school": "Harvard University",
+        "year": "AUGUST 2011-MAY 2015"
+      },
+      {
+        "degree": "Data Science Certificate",
+        "school": "Springboard",
+        "year": "MAY 2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T13:43:26.631828+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6713,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "template_detected",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "experiment_name": "faiss_matching_v3_vs_cross_encoder_ablation_summary",
+  "generated_at": "2026-05-11T11:37:28.5913098+01:00",
+  "official_baseline": {
+    "name": "FAISS + Matching V3 normalized",
+    "status": "official_baseline",
+    "report_path": "docs/reports/matching/v3/matching_report_v3_normalized.json",
+    "reason": "This baseline combines FAISS semantic retrieval with explicit Matching V3 scoring, must-have coverage, profile quality, and risk penalties."
+  },
+  "compared_runs": [
+    {
+      "name": "FAISS + Matching V3 normalized",
+      "type": "official_baseline",
+      "report_path": "docs/reports/matching/v3/matching_report_v3_normalized.json"
+    },
+    {
+      "name": "CrossEncoder reranking unconstrained",
+      "type": "experimental",
+      "report_path": "docs/reports/retrieval/cross_encoder_reranking_report.json"
+    },
+    {
+      "name": "CrossEncoder reranking constrained by must-have coverage",
+      "type": "controlled_experiment",
+      "report_path": "docs/reports/retrieval/cross_encoder_reranking_constrained_report.json"
+    }
+  ],
+  "baseline_summary": {
+    "method": "FAISS retrieval + Matching V3 normalized scoring",
+    "latency_seconds": 20.8838,
+    "top_k_available_in_report": 10,
+    "top_candidates": [
+      {
+        "rank": 1,
+        "full_name": "Hichem Bensalah",
+        "final_score": 0.7702,
+        "must_have_coverage": 0.8
+      },
+      {
+        "rank": 2,
+        "full_name": "Candidate (ID: candidate_8eea1b635447)",
+        "final_score": 0.6709,
+        "must_have_coverage": 0.8
+      },
+      {
+        "rank": 3,
+        "full_name": "MOHAMED AZIZ BELAWEID",
+        "final_score": 0.5546,
+        "must_have_coverage": 0.6
+      }
+    ],
+    "interpretation": "The baseline keeps the strongest business-compatible candidates at the top while still exposing lower-coverage candidates later in the list with explicit coverage signals."
+  },
+  "unconstrained_cross_encoder_summary": {
+    "method": "FAISS top20 followed by CrossEncoder reranking without business filter",
+    "model_used": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "latency_seconds": 18.9105,
+    "rerank_input_size": 20,
+    "top_candidates": [
+      {
+        "ce_rank": 1,
+        "full_name": "JEFFERYGORCZANY",
+        "faiss_rank": 4,
+        "rank_change": 3,
+        "must_have_coverage": 0.4
+      },
+      {
+        "ce_rank": 2,
+        "full_name": "MOHAMED AZIZ BELAWEID",
+        "faiss_rank": 3,
+        "rank_change": 1,
+        "must_have_coverage": 0.6
+      },
+      {
+        "ce_rank": 3,
+        "full_name": "Markus Rohan",
+        "faiss_rank": 5,
+        "rank_change": 2,
+        "must_have_coverage": 0.4
+      },
+      {
+        "ce_rank": 5,
+        "full_name": "Hichem Bensalah",
+        "faiss_rank": 1,
+        "rank_change": -4,
+        "must_have_coverage": 0.8
+      },
+      {
+        "ce_rank": 7,
+        "full_name": "Trisha Stamm",
+        "faiss_rank": 19,
+        "rank_change": 12,
+        "must_have_coverage": 0.2
+      }
+    ],
+    "main_issue": "The unconstrained CrossEncoder is semantically interesting but unsafe as a main engine because it promotes low must-have coverage candidates."
+  },
+  "constrained_cross_encoder_summary": {
+    "method": "FAISS top20 filtered by must_have_coverage >= 0.6, then CrossEncoder reranking",
+    "model_used": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "must_have_threshold": 0.6,
+    "latency_seconds": 16.0494,
+    "top_n_faiss_input": 20,
+    "candidates_before_filter": 20,
+    "candidates_after_filter": 3,
+    "excluded_candidates_count": 17,
+    "validation_result": "passed",
+    "validation_criterion": "No candidate with must_have_coverage < 0.6 appears in reranked_top_10.",
+    "top_candidates": [
+      {
+        "ce_rank": 1,
+        "full_name": "MOHAMED AZIZ BELAWEID",
+        "faiss_rank": 3,
+        "rank_change": 2,
+        "must_have_coverage": 0.6
+      },
+      {
+        "ce_rank": 2,
+        "full_name": "Candidate (ID: candidate_8eea1b635447)",
+        "faiss_rank": 2,
+        "rank_change": 0,
+        "must_have_coverage": 0.8
+      },
+      {
+        "ce_rank": 3,
+        "full_name": "Hichem Bensalah",
+        "faiss_rank": 1,
+        "rank_change": -2,
+        "must_have_coverage": 0.8
+      }
+    ],
+    "main_effect": "The constrained run blocks low-coverage candidates such as JEFFERYGORCZANY and Trisha Stamm before CrossEncoder reranking."
+  },
+  "key_observations": [
+    "CrossEncoder alone can reward semantic similarity even when must-have skill coverage is weak.",
+    "The unconstrained run promoted JEFFERYGORCZANY to rank 1 despite must_have_coverage = 0.4.",
+    "The unconstrained run allowed Trisha Stamm into the top 10 despite must_have_coverage = 0.2.",
+    "The constrained run prevents candidates below 0.6 coverage from entering the CrossEncoder reranking stage.",
+    "The constrained run is safer, but only 3 of 20 FAISS candidates passed the filter, which makes it too restrictive as a final production ranking strategy."
+  ],
+  "risks": [
+    "Using unconstrained CrossEncoder as the main ranking engine can produce business-invalid recommendations.",
+    "Using the constrained CrossEncoder as the final engine may over-filter the pool and reduce recruiter choice.",
+    "The current evidence is based on one demo job profile, so generalization across roles is not proven.",
+    "CrossEncoder latency is acceptable for experimentation, but should be evaluated on larger candidate pools before productization."
+  ],
+  "decision": {
+    "official_baseline_decision": "FAISS + Matching V3 normalized reste la baseline officielle.",
+    "unconstrained_cross_encoder_decision": "CrossEncoder non contraint est rejete comme moteur principal.",
+    "constrained_cross_encoder_decision": "CrossEncoder contraint est valide comme experience controlee, mais reste experimental.",
+    "main_reason": "Il corrige la remontee de candidats faibles, mais seulement 3 candidats sur 20 passent le filtre, donc il est trop restrictif comme moteur final."
+  },
+  "recommended_next_step": {
+    "short_term": "Keep FAISS + Matching V3 normalized as the official demo and evaluation baseline.",
+    "experimental_next_step": "Test a hybrid strategy where must-have coverage remains a hard guardrail and CrossEncoder is used only as a secondary tie-breaker among admissible candidates.",
+    "future_work": "Evaluate several job profiles and thresholds before deciding whether CrossEncoder belongs in the final matching module."
+  },
+  "demo_guidance": {
+    "main_demo": [
+      "Show FAISS + Matching V3 normalized as the official baseline.",
+      "Explain the score using semantic similarity, must-have coverage, matched skills, missing skills, and profile quality.",
+      "Use Hichem Bensalah, Candidate_8eea1b635447, and MOHAMED AZIZ BELAWEID as the main top candidates."
+    ],
+    "experimentation_only": [
+      "Mention the unconstrained CrossEncoder only as an experiment that exposed a risk.",
+      "Mention the constrained CrossEncoder as a controlled experiment that fixes the low-coverage promotion issue.",
+      "Use this ablation to show that the project made a justified architecture decision rather than blindly adding a reranker."
+    ],
+    "do_not_present_as_baseline": [
+      "Do not present CrossEncoder non contraint as the final matching engine.",
+      "Do not present CrossEncoder contraint as production-ready or as the official baseline.",
+      "Do not claim that the constrained CrossEncoder is superior overall; it is safer but too restrictive on the current job."
+    ]
+  }
+}

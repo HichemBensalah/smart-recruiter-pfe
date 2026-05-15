@@ -1,0 +1,61 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_81.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_81.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T124624Z",
+  "profile": {
+    "source_id": "pdf:Image_81",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Bree Anderson",
+      "email": null,
+      "phone": null,
+      "location": "5021 Waters Fall, Philadelphia, PA"
+    },
+    "expertise": {
+      "summary": "Data science consultant with expertise in data modeling, machine learning optimization and simulation models using Python, R, C++, Java. Familiarity with big data processing and streaming platforms, domain knowledge in airline industry.",
+      "hard_skills": [
+        "Python",
+        "Java",
+        "Apache Spark",
+        "Apache Kafka",
+        "Hadoop"
+      ],
+      "soft_skills": [
+        "Business analysis",
+        "Consultative approach",
+        "Deep learning",
+        "Natural language processing",
+        "Cloud platforms",
+        "Parallel processing",
+        "Machine learning principles"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "FRAnekki, Schröeder und Pauchek",
+        "start_date": "10/2019-present",
+        "end_date": null,
+        "city": "Philadelphia, PA",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master's in Statistics",
+        "school": "School of the Heart Institute of Chicago",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T12:59:41.937988+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8038
+    }
+  }
+}

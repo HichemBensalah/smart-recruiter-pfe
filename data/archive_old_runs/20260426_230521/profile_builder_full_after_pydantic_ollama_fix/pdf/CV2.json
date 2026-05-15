@@ -1,0 +1,75 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV2.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV2.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "first.last@resumeworded.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "FIRSTLAST",
+      "email": "first.last@resumeworded.com",
+      "phone": "+1(212)123-4567",
+      "location": "NewYorkCity,NY10000"
+    },
+    "expertise": {
+      "summary": "Data Science Manager with experience in data regression analysis, customer segmentation, and competitive research",
+      "hard_skills": [
+        "Microsoft Access",
+        "Project Management",
+        "Python",
+        "Perl",
+        "SQL/SQLite3"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "DataScienceManager",
+        "company": null,
+        "start_date": "2015",
+        "end_date": "2016",
+        "city": "SanFrancisco,CA and NewYork,NY",
+        "responsibilities": [
+          "Conducted data regression analysis of the relationship between company stock prices and current industry trends, leading to 15% higher accuracy prediction of performance than the last 4 years",
+          "Led full redesign of website with findings from customer segmentation and competitive research, increasing website leads by 225%",
+          "Developed a new targeting model by segmenting potential users by behavioral attributes from survey data, generating $1.5M in sales",
+          "Designed training and peer-mentoring programs for the incoming class of 25 analysts in 2014; reduced onboarding time for new hires by 50%",
+          "Promoted within 12 months due to strong performance and organizational impact (one year ahead of schedule)"
+        ]
+      },
+      {
+        "job_title": "DataScientist",
+        "company": "GROWTHSI",
+        "start_date": "2012",
+        "end_date": "2015",
+        "city": "NewYork,NY",
+        "responsibilities": [
+          "Collaborated with other teams as a Representative of the Data Analysis department and developed key metrics to achieve business outcomes, resulting in an increase in revenue by $450,000 collectively",
+          "Collaborated with fundamental long and short portfolio managers and analysts to evaluate the predictive power of unique data sources for single stock selection"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MasterofScienceinManagementwithHonors",
+        "school": "GROWTHSI",
+        "year": "2017"
+      },
+      {
+        "degree": "BachelorofEngineering",
+        "school": "RESUMEWORDEDUNIVERSITY",
+        "year": "2011"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:25:32.574506+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8231
+    }
+  }
+}

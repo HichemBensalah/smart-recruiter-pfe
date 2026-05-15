@@ -1,0 +1,127 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\candidate_042.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\candidate_042.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.562,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nRyan Nelson\nF R E S H E R S O F T W A R E D E V E L O P E R\n\n## PROFESSIONAL SUMMARY\n\nExecutive Profile\n\n## PROFESSIONAL EXPERIENCE\n\nWork Experience\n\n## TECHNICAL SKILLS\n\nAccenture Software Developer, Apr 2019 - Dec 2020\nI consider myself a team player and ethics maintainer. When it comes to coding I always try to be be well informed about the technology and its application. Would like to join any firm as a software developer in machine learning projects.\nSkills\nMachine Learning, Software Engineering, Python, Java, SAP, C programming\nOther Activities\n\n## ACADEMIC PROJECTS\n\nWorked on multiple projects that dealt with system frame development and solution supply.\n## Projects\n**Date: ** B. Tech Computer Science From JNTU, 2019\n- Classification of Cassava Leaves\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine learning - Stanford University SAP Fundamentals - Arjuvo Limited\nHEADER\nRyan Nelson\nF R E S H E R S O F T W A R E D E V E L O P E R\nPROFESSIONAL SUMMARY\nExecutive Profile\nPROFESSIONAL EXPERIENCE\nWork Experience\nTECHNICAL SKILLS\nAccenture Software Developer, Apr 2019 - Dec 2020\nI consider myself a team player and ethics maintainer. When it comes to coding I always try to be be well informed about the technology and its application. Would like to join any firm as a software developer in machine learning projects.\nSkills\nMachine Learning, Software Engineering, Python, Java, SAP, C programming\nOther Activities\nACADEMIC PROJECTS\nWorked on multiple projects that dealt with system frame development and solution supply.\nProjects\nB.Tech Computer Science From JNTU, 2019\nClassification of Cassava Leaves\nEDUCATION\nMACHINE LEARNING & DEEP LEARNING\nMachine learning - Stanford University SAP Fundamentals - Arjuvo Limited",
+    "header_info": {
+      "full_name": "Ryan Nelson",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9124,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[0].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ryan Nelson",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Machine Learning",
+        "Software Engineering",
+        "Python",
+        "Java",
+        "SAP",
+        "C programming"
+      ],
+      "soft_skills": [
+        "team player",
+        "ethics maintainer"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Accenture",
+        "job_title": "Software Developer",
+        "start_date": "Apr 2019",
+        "end_date": "Dec 2020",
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "JNTU",
+        "degree": "B. Tech",
+        "field": "Computer Science",
+        "year": 2019
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "SAP Fundamentals"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T09:25:50.598252+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:27.247602+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

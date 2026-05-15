@@ -1,0 +1,70 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_78.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_78.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T124624Z",
+  "profile": {
+    "source_id": "pdf:Image_78",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "ROXANNA HERZOG",
+      "email": null,
+      "phone": "+1 (555) 590 8187",
+      "location": "Phoenix, AZ"
+    },
+    "expertise": {
+      "summary": "Data Science professional with experience in database technology, query languages, and predictive modeling techniques",
+      "hard_skills": [
+        "Databricks Spark",
+        "Pytorch",
+        "Azure",
+        "Amazon Web Services",
+        "Excel"
+      ],
+      "soft_skills": [
+        "People management",
+        "Mentoring"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Data Science",
+        "company": "BRAKUS-SHIELDS",
+        "start_date": "12/2018",
+        "end_date": null,
+        "city": "Phoenix, AZ",
+        "responsibilities": [
+          "Hands-on experience working with healthcare claims data",
+          "Quantitative analysis and data manipulation of large data assets",
+          "Healthcare or pharmaceutical industry experience"
+        ]
+      },
+      {
+        "job_title": "Data Science",
+        "company": "MCCLURE, GERLACH AND FARRELL",
+        "start_date": "04/2016",
+        "end_date": "07/2018",
+        "city": "Phoenix, AZ",
+        "responsibilities": [
+          "Hands-on work or classroom experience with logistic regression, time series, forecasting, and other predictive modeling techniques"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's",
+        "school": "DREXEL UNIVERSITY",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T12:46:26.242915+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.5746
+    }
+  }
+}

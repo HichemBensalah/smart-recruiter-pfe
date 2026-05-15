@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\images\\5_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\5_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\images\\5_image.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "from Resume Genius",
+      "email": "email@gmail.com",
+      "phone": null,
+      "location": "43 Smith Dr., Pittsburgh, PA, 09867"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "PHP/Ruby on Rails/Java/C++/Python",
+        "MySQL/SQ Lite 3/MongoDB/JSON"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Collaboration",
+        "Handling Pressure",
+        "Problem Solving",
+        "Data Mining",
+        "Data Management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Microsoft, Tucson, AZ",
+        "start_date": "September 2015",
+        "end_date": null,
+        "city": "Tucson, AZ",
+        "responsibilities": [
+          "achieve a 15% more accurate prediction of performance than previous years",
+          "utilize web scraping techniques to extract and organize competitor data"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Hewlett-Packard, San Francisco, CA",
+        "start_date": "June 2013",
+        "end_date": "August 2015",
+        "city": "San Francisco, CA",
+        "responsibilities": [
+          "improve data mining processes, resulting in a 20% decrease in time needed to infer insights from customer data used to develop marketing strategies"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B. S. COMPUTERSCIENCE",
+        "school": "University of Arizona, Tucson, AZ",
+        "year": "2010"
+      },
+      {
+        "degree": null,
+        "school": "University of California, Berkeley, CA",
+        "year": "2013"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T13:57:18.590403+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.901,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV20.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV20.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8155,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nTrish Mathers\ntmathers@email.com (123)456-7890 Bellevue, WA Linkedin\nEntry-Level Data Scientist\n\n## PROFESSIONAL EXPERIENCE\n\nInnovativeandscientificallyrigorousgraduatewithsignificantdatascience internshipexperiencetobringtothetable. Withateam-orientedattitude I'meagertocontributemyabilitiesinquantitativemodelingand experimentationtoenhancetheexperienceofglobal Pinterestusers.\nWORKEXPERIENCE\nNiantic\n## Data Scientist Intern Seattle, WA|April 2022-December 2022\n- ·Developedaprogramin SASthatautomatedrefinementoflinear regressionmodelsforspecificsegmentsofacustomerbasethat saved 22 hoursoflaborpermonth.\n## Seattle University Tutor Center\n- Received, cleaned, andpreppeddatafromclientusing SAS, QL, and Exceltohelpdatascientistsbuildmarketingmixmodelsthatresulted inaliftin ROlof 10 basispoints.\n## Statisticsand Mathematics Tutor Seattle, WA|April 2020-April 2022\n·Assessedstudents'learningtodeterminelearningweaknessesand needs, successfullyhelpingstudentsperform 13%betterinalgebra, pre-calculus, calculus, andstatisticsundergraduatecourses.\n- Metwith 30+studentsperweekthroughonlinelearningplatformsor ina 1: 1 settingatthetutorcenter.\nScheduledweeklyappointmentsforstudents, andsetschedulesfor studentstatisticsandmathtutors.\nCommunicatedwithprofessorsaboutcurriculum, andsubmitted reports 2 timesperweektomaintainup-to-datelearningplansfor students.\n\n## TECHNICAL SKILLS\n\nSKILLS\nProgramming: SAS(base SASand Macros), SQL\nSupervised Learning: linearandlogistic regressions, decision trees, supportvector machines(SVM)\nUnsupervised Learning: kmeansclustering, principalcomponent analysis(PCA)\nData Visualization: Excel Google Sheets\n\n## EDUCATION\n\nB. S.\nMathematicsand Economics\n## Seattle University September 2019-April 2023 Seattle, WA GPA: 3. 7\n- Relevantcourses\n- Intermediate programming\n- Probability & Statistics\n- Linear Algebra\n- Applied Econometrics\n- Game Theory\n- Calculus 1-3\n\n## ACADEMIC PROJECTS\n\nPROJECTS\nFantasy Football Models\nAggregatedandprepped 3 yearsoffantasyfootballprojectiondata from 3 independentsourcesintoa My SQLdatabase.\nCreatedarandomforestmodelin SAS, combiningdisparatesources intooneprojectionthatoutperformedthemeanabsoluteerrorof thenextbestprojectionby_15%\n- Entertainment Engine\nAggregated data from IMDBand Rotten Tomatoes, and usedknearest-neighborsin SAS, constructinganenhancedentertainment selectiontargetedtoreach 15-to 25-year-olds.\n- Improvedmethodologiestosaveanaverageof 12 minutesper movieselectionand 3 minutespersongselection.\nHEADER\nTrishMathers\ntmathers@email.com (123)456-7890 Bellevue, WA Linkedin\nEntry-LevelDataScientist\nPROFESSIONAL EXPERIENCE\nInnovativeandscientificallyrigorousgraduatewithsignificantdatascience internshipexperiencetobringtothetable.Withateam-orientedattitude I'meagertocontributemyabilitiesinquantitativemodelingand experimentationtoenhancetheexperienceofglobalPinterestusers.\nWORKEXPERIENCE\nNiantic\nDataScientistIntern Seattle, WA|April2022-December2022\n·DevelopedaprograminSASthatautomatedrefinementoflinear regressionmodelsforspecificsegmentsofacustomerbasethat saved22hoursoflaborpermonth.\nSeattleUniversityTutorCenter\nReceived, cleaned, andpreppeddatafromclientusingSAS, QL, and Exceltohelpdatascientistsbuildmarketingmixmodelsthatresulted inaliftinROlof10basispoints.\nStatisticsandMathematicsTutor Seattle, WA|April2020-April2022\n·Assessedstudents'learningtodeterminelearningweaknessesand needs, successfullyhelpingstudentsperform13%betterinalgebra, pre-calculus, calculus, andstatisticsundergraduatecourses.\nMetwith30+studentsperweekthroughonlinelearningplatformsor ina 1: 1settingatthetutorcenter.\nScheduledweeklyappointmentsforstudents, andsetschedulesfor studentstatisticsandmathtutors.\nCommunicatedwithprofessorsaboutcurriculum, andsubmitted reports2timesperweektomaintainup-to-datelearningplansfor students.\nTECHNICAL SKILLS\nSKILLS\nProgramming: SAS(base SASand Macros), SQL\nSupervisedLearning: linearandlogistic regressions, decision trees, supportvector machines(SVM)\nUnsupervised Learning: kmeansclustering, principalcomponent analysis(PCA)\nDataVisualization: Excel GoogleSheets\nEDUCATION\nB.S.\nMathematicsand Economics\nSeattleUniversity September2019-April2023 Seattle, WA GPA: 3.7\nRelevantcourses\nIntermediate programming\nProbability&Statistics\nLinearAlgebra\nAppliedEconometrics\nGameTheory\nCalculus1-3\nACADEMIC PROJECTS\nPROJECTS\nFantasyFootballModels\nAggregatedandprepped3yearsoffantasyfootballprojectiondata from3independentsourcesintoaMySQLdatabase.\nCreatedarandomforestmodelinSAS, combiningdisparatesources intooneprojectionthatoutperformedthemeanabsoluteerrorof thenextbestprojectionby_15%\nEntertainmentEngine\nAggregated data fromIMDBandRottenTomatoes, and usedknearest-neighborsinSAS, constructinganenhancedentertainment selectiontargetedtoreach15-to25-year-olds.\nImprovedmethodologiestosaveanaverageof12minutesper movieselectionand3minutespersongselection.",
+    "header_info": {
+      "full_name": "Trish Mathers",
+      "email": "tmathers@email.com",
+      "phone": "123)456-7890",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9631,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].city",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].responsibilities[3]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Trish Mathers",
+      "email": "tmathers@email.com",
+      "phone": "(123)456-7890",
+      "location": "Bellevue, WA",
+      "linkedin": "Linkedin",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "SAS",
+        "SQL",
+        "linear regression",
+        "logistic regression",
+        "decision trees",
+        "support vector machines (SVM)",
+        "k-means clustering",
+        "principal component analysis (PCA)",
+        "Excel",
+        "Google Sheets"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Niantic",
+        "job_title": "Data Scientist Intern",
+        "start_date": "April 2022",
+        "end_date": "December 2022",
+        "city": "Seattle, WA",
+        "responsibilities": [
+          "Developed a program in SAS that automated refinement of linear regression models for specific segments of customer base that saved 22 hours of labor per month."
+        ]
+      },
+      {
+        "company": "Seattle University Tutor Center",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Received, cleaned, and prepped data from client using SAS, QL, and Excel to help data scientists build marketing mix models that resulted in a lift in RO of 10 basis points."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Statistics and Mathematics Tutor",
+        "start_date": "April 2020",
+        "end_date": "April 2022",
+        "city": "Seattle, WA",
+        "responsibilities": [
+          "Assessed students' learning to determine learning weaknesses and needs, successfully helping students perform 13% better in algebra, pre-calculus, calculus, and statistics undergraduate courses.",
+          "Met with 30+ students per week through online learning platforms or in a 1:1 setting at the tutor center.",
+          "Scheduled weekly appointments for students, and set schedules for student statistics and math tutors.",
+          "Communicated with professors about curriculum, and submitted reports 2 times per week to maintain up-to-date learning plans for students."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Seattle University",
+        "degree": "B. S.",
+        "field": "Mathematics and Economics",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:39:22.265766+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:27.932258+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "generated_at_utc": "2026-05-07T11:08:15.053337+00:00",
+  "profiles_dir": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles",
+  "mongodb_uri": "mongodb://localhost:27017",
+  "database": "talent_intelligence",
+  "collection": "candidate_profiles",
+  "only_safe_url_fixes": true,
+  "total_profiles_checked": 90,
+  "profiles_that_would_change": 0,
+  "emails_that_would_be_fixed": 0,
+  "urls_that_would_be_fixed": 0,
+  "years_experience_that_would_be_recovered": 0,
+  "experience_level_that_would_be_recovered": 0,
+  "skipped_due_to_quality_regression": 0,
+  "risk_before_distribution": {
+    "low": 89,
+    "medium": 1
+  },
+  "risk_after_distribution_estimated": {
+    "low": 89,
+    "medium": 1
+  },
+  "reliability_regressions_count": 0,
+  "high_risk_remaining": 0,
+  "examples_of_changes": [],
+  "examples_of_url_fixes": [],
+  "safe_to_execute": true,
+  "recommendation": "Dry-run looks safe. Apply --execute only after reviewing the examples_of_url_fixes and confirming that only URL normalizations should be persisted."
+}

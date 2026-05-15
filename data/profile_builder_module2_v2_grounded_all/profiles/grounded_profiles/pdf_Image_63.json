@@ -1,0 +1,166 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_63.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_63.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7643,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nROBERTSMITH\nData Scientist\nPhone: (0123)-456-789|Emai: info@qwikresume.com|Website: Owikresume. com\n\n## PROFESSIONAL SUMMARY\n\nSUMMARY\nExpertiseinproblem solving. Excellent in working withbusinessusersand colleaguesaspart of s\nCORE COMPETENCIES\nPython, SQL, R, Java, C++, SPSS, Excelandall MS Office, Misc. LISREL, HLM; Db Visualir Google Analytics, Pu TTY, Perl CMD; Surveymonkey.\n\n## PROFESSIONAL EXPERIENCE\n\nPROFESSIONAL EXPERIENCE\nData Sclentist\nBestbuy-January 2016-2019\nKey Deliverable s:\n## Responsible lor data collection, cleansing andvariable analysis\n- Designed tochnical solutionroadmap to dealwith noise insalesdata\n- Data Scientist\n- ABCCorporation-December 2014-December 2015\n- Key Deliverables:\nResponslbilitie Worked with dlfferent departments for data source, responsible for collecting Macro-economy datasats:\n- Responsible in data pattem recognition and data cleaning.\n\n## EDUCATION\n\nWorked on commercialand customer activity data analysis, including data collection, table treatment, database information, problem analysis, soluition proposal andimplementation.\n- Proposed three solutionsto deal with Promotion Effective Analysiswith methodsto calculate sales baseline and lit.\n- Finished multiple linear ornonlinear regression models tor testing case and achievedvery goodpredictingresults in scenario tests.\n- Developedautomationprocessforvaniable selection and modeltesting andusedthe methodonover 5. 000 SKus.\n- Worked on Noise Reduction/Moving Averagemethods-exponentialsmoothing and Fast Founier Transtomation methods-andcompared them withregresslon methods\n- Worked on data transtormation & accessedrawmarketing data in variedfomatswith\nWorkedwith Bl team in data investigation, responsible for interpreting variables, making instructions and also data dictionary.\nldentifymissinginvalid values and outliers, analyze and categorize variablesofdatasets.\nChecked data fordistnbution, classification, missingvalues, outliers, etc, worked with Bl team lor Macro-Economyvariable selection to get deeperunderstanding ot datasets.\n**Location: ** 2259 Oak Streel, Old Forge. New York. 13420\n- This Free Resume Template is the copyrighi of Owikresumc. com. Usage Guidelines\nHEADER\nROBERTSMITH\nData Scientist\nPhone: (0123)-456-789|Emai: info@qwikresume.com|Website: Owikresume.com\nPROFESSIONAL SUMMARY\nSUMMARY\nExpertiseinproblem solving.Excellent in working withbusinessusersand colleaguesaspart of s\nCORECOMPETENCIES\nPython, SQL, R, Java, C++, SPSS, ExcelandallMS Office, Misc.LISREL, HLM; DbVisualir Google Analytics, PuTTY, Perl CMD; Surveymonkey.\nPROFESSIONAL EXPERIENCE\nPROFESSIONALEXPERIENCE\nData Sclentist\nBestbuy-January2016-2019\nKey Deliverable s:\nResponsible lor data collection, cleansing andvariable analysis\nDesigned tochnical solutionroadmap to dealwith noise insalesdata\nData Scientist\nABCCorporation-December2014-December2015\nKeyDeliverables:\nResponslbilitie Worked with dlfferent departments for data source, responsible for collecting Macro-economy datasats:\nResponsible in data pattem recognition and data cleaning.\nEDUCATION\nWorked on commercialand customer activity data analysis, including data collection, table treatment, database information, problem analysis, soluition proposal andimplementation.\nProposed three solutionsto deal with Promotion EffectiveAnalysiswith methodsto calculate sales baseline and lit.\nFinished multiple linear ornonlinear regression models tor testing case and achievedvery goodpredictingresults in scenario tests.\nDevelopedautomationprocessforvaniable selection and modeltesting andusedthe methodonover5.000SKus.\nWorked on NoiseReduction/Moving Averagemethods-exponentialsmoothing andFast Founier Transtomation methods-andcompared them withregresslon methods\nWorked on data transtormation&accessedrawmarketing data in variedfomatswith\nWorkedwith Bl team in data investigation, responsible for interpreting variables, making instructions and also data dictionary.\nldentifymissinginvalid values and outliers, analyze and categorize variablesofdatasets.\nChecked data fordistnbution, classification, missingvalues, outliers, etc, worked with Bl team lor Macro-Economyvariable selection to get deeperunderstanding ot datasets.\n2259 Oak Streel, Old Forge.New York.13420\nThis Free Resume Template is the copyrighi of Owikresumc.com.Usage Guidelines",
+    "header_info": {
+      "full_name": null,
+      "email": "info@qwikresume.com",
+      "phone": "0123)-456-789",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [
+      "info@qwikresume.com",
+      "qwikresume"
+    ],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic"
+    ],
+    "quality_score": 0.6,
+    "quality_flags": [
+      "missing_full_name",
+      "missing_skills_section",
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8793,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "ROBERTSMITH",
+      "email": null,
+      "phone": "(0123)-456-789",
+      "location": "2259 Oak Street, Old Forge, New York. 13420",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid",
+      "years_experience": 4,
+      "hard_skills": [
+        "Python",
+        "SQL",
+        "R",
+        "Java",
+        "C++",
+        "SPSS",
+        "Excel",
+        "Misc. LISREL",
+        "HLM",
+        "Db Visualir",
+        "Google Analytics",
+        "Pu TTY",
+        "Perl CMD",
+        "Surveymonkey"
+      ],
+      "soft_skills": [
+        "problem solving",
+        "working with business users and colleagues as part of a team"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Bestbuy",
+        "job_title": "Data Scientist",
+        "start_date": "January 2016",
+        "end_date": "December 2019",
+        "city": null,
+        "responsibilities": [
+          "Designed technical solution roadmap to deal with noise in sales data",
+          "Responsible for collecting Macro-economy data sets",
+          "Worked with different departments for data source"
+        ]
+      },
+      {
+        "company": "ABCCorporation",
+        "job_title": "Data Scientist",
+        "start_date": "December 2014",
+        "end_date": "December 2015",
+        "city": null,
+        "responsibilities": [
+          "Responsible for collecting Macro-economy data sets"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T10:36:53.322051+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.932696+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

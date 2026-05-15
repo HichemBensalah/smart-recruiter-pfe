@@ -1,0 +1,14 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\khairi_resume.json",
+  "provider_errors": [],
+  "prompt_length": 5484,
+  "llm_status": "success",
+  "fields_nullified": [
+    "education[1].field",
+    "expertise.experience_level"
+  ],
+  "quality_flags": [
+    "unsupported_fields_nullified"
+  ]
+}

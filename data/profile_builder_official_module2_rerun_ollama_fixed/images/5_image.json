@@ -1,0 +1,82 @@
+{
+  "source_path": "data\\raw_cv\\images\\5_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\5_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T154428Z",
+  "profile": {
+    "source_id": "images:5_image",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": "43 Smith Dr., Pittsburgh, PA, 09867"
+    },
+    "expertise": {
+      "summary": "Data scientist with expertise in predictive modeling and analysis of internal data processing.",
+      "hard_skills": [
+        "Ruby on Rails",
+        "Java",
+        "Python",
+        "My SQL",
+        "Mongo DB",
+        "JSON"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Collaboration",
+        "Handling Pressure",
+        "Problem Solving",
+        "Data Mining",
+        "Data Management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Microsoft",
+        "start_date": "September 2015",
+        "end_date": "Present",
+        "city": "Tucson, AZ",
+        "responsibilities": [
+          "Achieving a 15% more accurate prediction of performance than previous years",
+          "Utilizing webscraping techniques to extract and organize competitor data",
+          "Increasing usability for non-technical staff members by 20%"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Hewlett-Packard",
+        "start_date": "June 2013",
+        "end_date": "August 2015",
+        "city": "San Francisco, CA",
+        "responsibilities": [
+          "Improving data mining processes by 20%",
+          "Using predictive analytics to develop marketing strategies with a 95% accuracy rate",
+          "Increasing data security by updating company-wide encryption and secure wireless transmission practices"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "University of Arizona, Tucson, AZ",
+        "year": "2010"
+      },
+      {
+        "degree": null,
+        "school": "University of California, Berkeley, CA",
+        "year": "2013"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T16:00:36.144534+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.5049
+    }
+  }
+}

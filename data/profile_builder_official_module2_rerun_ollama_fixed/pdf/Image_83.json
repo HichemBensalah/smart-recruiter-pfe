@@ -1,0 +1,85 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_83.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_83.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T124624Z",
+  "profile": {
+    "source_id": "gruchalla@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": "gruchalla@gmail.com",
+      "phone": null,
+      "location": "Denver, CO 80205"
+    },
+    "expertise": {
+      "summary": "Data visualization and simulation for scientific research",
+      "hard_skills": [
+        "object-oriented simulation",
+        "rule-based simulation",
+        "linear optimization",
+        "CADSw"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "National Renewable Energy Laboratory(NREL)",
+        "start_date": "June 2009-present",
+        "end_date": "null",
+        "city": "Golden, CO",
+        "responsibilities": [
+          "Scientific data visualization support of renewable energy research",
+          "Collaboration with NREL domain scientists"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Universityof Coloradoat Boulder",
+        "start_date": "April 2001-present",
+        "end_date": "null",
+        "city": "Boulder, CO",
+        "responsibilities": [
+          "Conduct research and oversee student research in scientific data visualization"
+        ]
+      },
+      {
+        "job_title": "Professional Research Assistant",
+        "company": null,
+        "start_date": "Jan 2004-Aug 2004",
+        "end_date": "Aug 2004",
+        "city": null,
+        "responsibilities": [
+          "Collaborated on the design and development of a pilot study for the use of immersive visualization as a molecular research tool"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ph. D.",
+        "school": "Universityof Coloradoat Boulder",
+        "year": "2009"
+      },
+      {
+        "degree": "M. S.",
+        "school": "Universityof Colorado at Boulder",
+        "year": "1995"
+      },
+      {
+        "degree": "B. S.",
+        "school": "New Mexico Institute of Mining and Technology",
+        "year": "1990"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T13:08:18.276899+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7363
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV5.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV5.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.6967,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nDATASCIENTISTRESUMESAMPLE\nfrom Resume Genius\n\n## PROFESSIONAL SUMMARY\n\nemail@gmail.com\nLinkedin.com/in/yourprofile\nRESUME OBJECTIVE\n\n## PROFESSIONAL EXPERIENCE\n\naccuracy, andutilityofinternaldataprocessing. Experienced atcreatingdataregressionmodels usingpredictivedatamodeling, andanalyzingdataminingalgorithmstodeliverinsightsand implementaction-orientedsolutionstocomplexbusinessproblems.\n**Location: ** 43 Smith Dr., Pittsburgh, PA, 09867\n- MySQL/SQLite 3/MongoDB/JSON\n- Leadership\n- Collaboration\n- Handling Pressure\n- Problem Solving\n- EXPERIENCE\n- DATASCIENTIST\n## Microsoft, Tucson, AZ/September 2015-Present\nindustrytrends, achievinga 15%moreaccuratepredictionofperformancethanpreviousyears\n- Utilizewebscrapingtechniquestoextractandorganizecompetitordata\nUpdatecompanydatawarehousingtechniquessuchasdatarecallandsegmentation, resulting ina 20%increaseinusabilityfornon-technicalstaffmembers\n## Modernizedatastreamliningprocesses, resultingina 25%redundancyreduction\n- DATASCIENTIST\n## Hewlett-Packard, San Francisco, CA/June 2013-August 2015\nImproveddata miningprocesses, resultingina 20%decreaseintimeneededtoinferinsights fromcustomerdatausedtodevelopmarketingstrategies\n- Usedpredictiveanalyticssuchasmachinelearninganddataminingtechniquestoforecast companysalesofnewproductswitha 95%accuracyrate\nIncreaseddatasecuritybyupdatingcompanywideencryption, steganography, IPsecurity, and securewirelesstransmissionpractices\nDeveloped ETSfordatasourcesusedforreportingbysales, inventory, andmarketing departments\n\n## TECHNICAL SKILLS\n\nSKILLS\nPHP/Rubyon Rails/Java/C++/Python\nData Management\nData Mining\n\n## EDUCATION\n\n## B. S. COMPUTERSCIENCE Universityof Arizona,\n## M. S. STATISTICS Universityof California Berkeley, CA/2013\n## Tucs 0 n, AZ/2010\nHEADER\nDATASCIENTISTRESUMESAMPLE\nfromResumeGenius\n895555555\nPROFESSIONAL SUMMARY\nemail@gmail.com\nLinkedin.com/in/yourprofile\nRESUMEOBJECTIVE\nPROFESSIONAL EXPERIENCE\naccuracy, andutilityofinternaldataprocessing.Experienced atcreatingdataregressionmodels usingpredictivedatamodeling, andanalyzingdataminingalgorithmstodeliverinsightsand implementaction-orientedsolutionstocomplexbusinessproblems.\n43SmithDr., Pittsburgh, PA, 09867\nMySQL/SQLite3/MongoDB/JSON\nLeadership\nCollaboration\nHandlingPressure\nProblem Solving\nEXPERIENCE\nDATASCIENTIST\nMicrosoft, Tucson, AZ/September2015-Present\nindustrytrends, achievinga15%moreaccuratepredictionofperformancethanpreviousyears\nUtilizewebscrapingtechniquestoextractandorganizecompetitordata\nUpdatecompanydatawarehousingtechniquessuchasdatarecallandsegmentation, resulting ina20%increaseinusabilityfornon-technicalstaffmembers\nModernizedatastreamliningprocesses, resultingina25%redundancyreduction\nDATASCIENTIST\nHewlett-Packard, SanFrancisco, CA/June2013-August2015\nImproveddata miningprocesses, resultingina20%decreaseintimeneededtoinferinsights fromcustomerdatausedtodevelopmarketingstrategies\nUsedpredictiveanalyticssuchasmachinelearninganddataminingtechniquestoforecast companysalesofnewproductswitha95%accuracyrate\nIncreaseddatasecuritybyupdatingcompanywideencryption, steganography, IPsecurity, and securewirelesstransmissionpractices\nDevelopedETSfordatasourcesusedforreportingbysales, inventory, andmarketing departments\nTECHNICAL SKILLS\nSKILLS\nPHP/RubyonRails/Java/C++/Python\nData Management\nData Mining\nEDUCATION\nB.S.COMPUTERSCIENCE UniversityofArizona,\nM.S.STATISTICS UniversityofCalifornia Berkeley, CA/2013\nTucs0n, AZ/2010\nMICROSOFTCERTIFIED SOLUTIONSEXPERT 2016",
+    "header_info": {
+      "full_name": "from Resume Genius",
+      "email": "email@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "Linkedin.com/in/yourprofile",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9393,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "from Resume Genius",
+      "email": "email@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "Linkedin.com/in/yourprofile/",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 12,
+      "hard_skills": [
+        "MySQL",
+        "SQLite 3",
+        "MongoDB",
+        "JSON",
+        "PHP",
+        "Ruby on Rails",
+        "Java",
+        "C++",
+        "Python",
+        "Data Management",
+        "Data Mining"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Collaboration",
+        "Handling Pressure",
+        "Problem Solving"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Microsoft",
+        "job_title": "DATASCIENTIST",
+        "start_date": "September 2015",
+        "end_date": "Present",
+        "city": "Tucson, AZ",
+        "responsibilities": [
+          "Utilize web scraping techniques to extract and organize competitor data",
+          "Update company data warehousing techniques such as data recall and segmentation, resulting in a 20% increase in usability for non-technical staff members",
+          "Modernize data streamlining processes, resulting in a 25% redundancy reduction"
+        ]
+      },
+      {
+        "company": "Hewlett-Packard",
+        "job_title": "DATASCIENTIST",
+        "start_date": "June 2013",
+        "end_date": "August 2015",
+        "city": "San Francisco, CA",
+        "responsibilities": [
+          "Improved data mining processes, resulting in a 20% decrease in time needed to infer insights from customer data used to develop marketing strategies",
+          "Used predictive analytics such as machine learning and data mining techniques to forecast company sales of new products with a 95% accuracy rate",
+          "Increased data security by updating company-wide encryption, steganography, IP security, and secure wireless transmission practices",
+          "Developed ETS for data sources used for reporting by sales, inventory, and marketing departments"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Arizona",
+        "degree": "B. S. COMPUTER SCIENCE",
+        "field": null,
+        "year": "2010"
+      },
+      {
+        "institution": "University of California Berkeley",
+        "degree": "M. S. STATISTICS",
+        "field": null,
+        "year": "2013"
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:45:56.449687+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.214756+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

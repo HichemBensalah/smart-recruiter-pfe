@@ -1,0 +1,73 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV36.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV36.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "first.last@resumeworded.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "FIRSTLAST",
+      "email": "first.last@resumeworded.com",
+      "phone": "+44123456789",
+      "location": "NewYork,NY"
+    },
+    "expertise": {
+      "summary": "Data science and analysis professional with experience in data pipeline architecture and visualization",
+      "hard_skills": [
+        "Javascript",
+        "HTML/CSS",
+        "MATLAB",
+        "Python",
+        "Tableau"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "RESUME WORDED & CO.",
+        "start_date": "Jun 2017",
+        "end_date": "Sep 2017",
+        "city": "NewYork,NY",
+        "responsibilities": [
+          "Built Tableau dashboard to visualize core business KPIs",
+          "Aggregated unstructured data from 20+ sources to build the foundation of a new product",
+          "Designed the data pipeline architecture for a new product"
+        ]
+      },
+      {
+        "job_title": "Data Analyst Intern",
+        "company": "EXCITINGCOMPANY",
+        "start_date": "Jun 2016",
+        "end_date": "Sep 2016",
+        "city": "New York,NY",
+        "responsibilities": [
+          "Led the transition to a paperless practice by implementing an electronic booking system",
+          "Analyzed data from 25000 monthly active users and used outputs to guide marketing and product strategies"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering",
+        "school": "RESUMEWORDEDUNIVERSITY",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "LONDONSCHOOLOFECONOMICSANDPOLITICALSCIENCE",
+        "year": "2019"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:33:58.176876+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.862
+    }
+  }
+}

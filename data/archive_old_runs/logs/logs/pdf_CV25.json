@@ -1,0 +1,21 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV25.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV25.json",
+  "provider_errors": [
+    "groq_secondary:429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "groq_secondary:429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "groq_secondary:429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "groq_secondary:429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "groq_secondary:429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "groq_secondary:429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions"
+  ],
+  "prompt_length": 4060,
+  "llm_status": "partial",
+  "fields_nullified": [
+    "certifications[0]",
+    "expertise.hard_skills[2]"
+  ],
+  "quality_flags": [
+    "unsupported_fields_nullified"
+  ]
+}

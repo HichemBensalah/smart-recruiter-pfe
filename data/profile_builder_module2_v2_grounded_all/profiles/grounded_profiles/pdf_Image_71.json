@@ -1,0 +1,160 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_71.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_71.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.4807,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nClara Boyer\n797 Raynor Inlet, Dallas, TX\nMobilephone:\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n## Directorof Data Science-Marvin LLC, Dallas, TX\n**Date: ** 07/2018-Present\n- scale\n- ·Leadershipexperience hiringandmentoring toptalentin Data Engineeringand analytics\n## Data Science -Von Group, Dallas, TX\n**Date: ** 12/2015-01/2018\n·Experiencedinvariousclustertechniquesinrealworldbusinessapplications, includingk-means, factorial analysis, discriminateanalysis\n·Experiencedwithnumerical optimizationtechniquesincluding Linear Programs, Quadratic Programs, Nonlinear optimizationandmulti-objectiveoptimization\n- ·Advancedexperienceworkingwith Ror Python\n·Proficiencywithclassical Generalized Linear Models, statistical inference, andre-sampling methods\n\n## TECHNICAL SKILLS\n\n·Experience inbuilding software on cloud computing infrastructure such Aw S or GCP\nSKILLS\n\n## EDUCATION\n\nLim College-Bachelor'sin Computer Science\nHEADER\nClara Boyer\n797Raynor Inlet, Dallas, TX\nMobilephone:\n+1(555)1810441\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nDirectorofDataScience-MarvinLLC, Dallas, TX\n07/2018-Present\nscale\n·Leadershipexperience hiringandmentoring toptalentinDataEngineeringand analytics\nData Science -Von Group, Dallas, TX\n12/2015-01/2018\n·Experiencedinvariousclustertechniquesinrealworldbusinessapplications, includingk-means, factorial analysis, discriminateanalysis\n·Experiencedwithnumerical optimizationtechniquesincludingLinearPrograms, QuadraticPrograms, Nonlinear optimizationandmulti-objectiveoptimization\n·AdvancedexperienceworkingwithRorPython\n·Proficiencywithclassical Generalized LinearModels, statistical inference, andre-sampling methods\nTECHNICAL SKILLS\n·Experience inbuilding software on cloud computing infrastructure suchAwS orGCP\nSKILLS\nEDUCATION\nLimCollege-Bachelor'sinComputerScience",
+    "header_info": {
+      "full_name": "Clara Boyer",
+      "email": null,
+      "phone": null,
+      "location": "797 Raynor Inlet, Dallas, TX",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8961,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Clara Boyer",
+      "email": null,
+      "phone": null,
+      "location": "797 Raynor Inlet, Dallas, TX",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 11,
+      "hard_skills": [
+        "R",
+        "Python",
+        "Linear Programs",
+        "Quadratic Programs",
+        "Nonlinear optimization",
+        "multi-objective optimization",
+        "Generalized Linear Models",
+        "statistical inference",
+        "re-sampling methods",
+        "AWS",
+        "GCP"
+      ],
+      "soft_skills": [
+        "Leadership"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Marvin LLC",
+        "job_title": "Director of Data Science",
+        "start_date": "07/2018",
+        "end_date": "Present",
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "scale",
+          "Leadership experience hiring and mentoring top talent in Data Engineering and analytics"
+        ]
+      },
+      {
+        "company": "Von Group",
+        "job_title": "Data Science",
+        "start_date": "12/2015",
+        "end_date": "01/2018",
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Experienced in various cluster techniques in real world business applications, including k-means, factorial analysis, discriminate analysis",
+          "Experienced with numerical optimization techniques including Linear Programs, Quadratic Programs, Nonlinear optimization and multi-objective optimization",
+          "Advanced experience working with R or Python",
+          "Proficiency with classical Generalized Linear Models, statistical inference, and re-sampling methods"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Lim College",
+        "degree": "Bachelor's",
+        "field": "Computer Science",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T11:14:48.977182+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:30.100123+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

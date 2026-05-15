@@ -1,0 +1,49 @@
+## HEADER
+
+MARKUSROHAN
+79608 Cliff Lights, Los Angeles, CA
+
+## EDUCATION
+
+RHODEISLANDSCHOOLOFDESIGN
+Bachelor'sin Computer Science
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+### WUNSCH, STARKANDBAUMBACH
+### Phoenix, AZ|Directorof Data Science 07/2018-present
+·Manage, mentorandmotivatedirectreports across alllevelsto encouragetheirprofessionaldevelopmentwhileprovidingdaily supervisionandguidance
+- Experienceinmarketing mixmodelling andoptimization
+- Experienceworkingwithopen source technologies and communitiesforinnovative
+Graduatestudentin Epidemiology, Biomedical Engineeringprogram orrelatedfield enrolledinthe Fall Semester aftercompleting the internship
+- ·Experiencein conducting analyses todrivebusiness impact
+- Interactswith other departments asdirected to complete assigned tasks
+### Experiencewithstatistical analysisandpackagessuchasscikit-learn, spa Cy, Num Py
+- ·Demonstrates strong proficiency in verbal and written communication
+- Goodunderstandingof Dockerand Kubernetes
+- ·Previousanalyticsexperienceat an Agencyorin Retail
+- Experience in leveraging best practicesin advanced analytics
+- Highlevel ofproficiencywithstatistical and databaseconcepts
+
+## TECHNICAL SKILLS
+
+SKILLS
+Experiencewithsoftware languages(Python, R, SAS)
+Experiencewith SQLandrelational databases, queryauthoring(SQL) and tuningworkingfamiliaritywith avariety of databases including Hadoop/Hive
+Understanding of different development methodologies
+Comfortablewith cloud-based platforms(AWS, Azure, Google)
+High-endknowledge of data science, data mining, machinelearningandstatistics
+·Manage all phases of fullife-cycle implementation projects, including blueprinting, design, development, testing, deploymentandsupport
+·Knowledgeof Rand Rplottingand/or Pythonmatplotlib Scikit, Julia, ark, Shark, Map Rduce, Hap, Hiv Pig
+Identify andremoveobstacles, mitigaterisksforflawlessexecutionand solution delivery
+Ensure consistent definitions andmetrics across the organization
+ROGAHN-TORP
+Phoenix, AZ|Data Science 01/2015-05/2018
+Knowledgeof adserving toolsandmulti-touchattribution
+Experiencewithvisualizationtoolssuchas Tableau, Power Blor Qlik View
+Outstanding communicationskillswithsignificant experienceworking closelywithexecutiveleadership
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Knowledgeofdatascience, datamining, machine learningandstatistics

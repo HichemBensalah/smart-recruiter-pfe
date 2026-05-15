@@ -1,0 +1,71 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV31.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV31.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:CV31",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data Analyst.",
+      "hard_skills": [
+        "Python",
+        "Hive"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Borer Ltd",
+        "start_date": "2000-2001",
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Data Science Intern (2013-2015)",
+        "company": "Heller LLC",
+        "start_date": "2013",
+        "end_date": "2015",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Business Development Intern (2006-2010)",
+        "company": "Rolfson",
+        "start_date": "2006",
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.E. Computer Science Engineering",
+        "school": "Chitkara University",
+        "year": "2001"
+      },
+      {
+        "degree": "Bachelor of Science (Mathematics)",
+        "school": "Middle East Technical University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:29:01.708655+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7834
+    }
+  }
+}

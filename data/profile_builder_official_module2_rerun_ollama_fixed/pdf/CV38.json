@@ -1,0 +1,54 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV38.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV38.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "stephen@beamjobs.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Stephen Greet",
+      "email": "stephen@beamjobs.com",
+      "phone": null,
+      "location": "Brooklyn, NY 11222"
+    },
+    "expertise": {
+      "summary": "Data Science Manager and Senior Data Scientist with expertise in Python, NumPy, Pandas, Scikit-learn, Keras, Flask, SQL (Redshift, MySQL, Postgres, NoSQL), Git",
+      "hard_skills": [
+        "Python",
+        "Num Py",
+        "Pandas",
+        "Scikit-learn",
+        "Keras",
+        "Flask",
+        "Redshift",
+        "MySQL",
+        "Postgres",
+        "NoSQL"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Lead Data Scientist/ Senior Data Scientist/ Data Scientist",
+        "company": "Consumer Finance SaaS",
+        "start_date": "February 2018-Present",
+        "end_date": null,
+        "city": "New York, NY",
+        "responsibilities": [
+          "Worked with the product and marketing teams to identify which customer interactions during their free trial maximize the likelihood of conversions resulting in a conversion rate increase of 14%"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:58:51.558196+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7039
+    }
+  }
+}

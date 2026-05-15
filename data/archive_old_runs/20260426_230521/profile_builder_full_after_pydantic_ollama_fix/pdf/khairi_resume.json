@@ -1,0 +1,51 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\khairi_resume.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:khairi_resume",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Khaireddine Suibgui",
+      "email": null,
+      "phone": null,
+      "location": "El Ghazela, Ariana"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:51:27.366964+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9449
+    }
+  }
+}

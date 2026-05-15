@@ -1,0 +1,65 @@
+{
+  "source_path": "data\\raw_cv\\images\\0_image.jpg",
+  "artifact_path": "data\\processed_final_rerun_20260414\\images\\0_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "images:0_image",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Diana Dawa",
+      "email": null,
+      "phone": "",
+      "location": ""
+    },
+    "expertise": {
+      "summary": "Data Scientist with broad-based experience in building data-intensive applications, overcoming complex architecturally and scalability issues in diverse industries. Proficient in predictive modeling, data processing, and data mining algo...",
+      "hard_skills": [
+        "SQL Server",
+        "Windows",
+        "Linux",
+        "Django"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "Future Energy Ltd.",
+        "start_date": null,
+        "end_date": null,
+        "city": "Palo Alto, CA",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": null,
+        "start_date": "06/2018",
+        "end_date": null,
+        "city": "Palo Alto, CA",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:59:27.873928+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6838
+    }
+  }
+}

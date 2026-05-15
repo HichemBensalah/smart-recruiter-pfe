@@ -1,0 +1,67 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\1901841_RESUME.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\1901841_RESUME.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "anuvagoyal111@gmail.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "ANUVA GOYAL",
+      "email": "anuvagoyal111@gmail.com",
+      "phone": "+91 9520349542",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Engineering undergraduate with experience in Machine Learning, NLP, and Deep Learning",
+      "hard_skills": [
+        "Python",
+        "Pytesseract",
+        "NER Text Classification Model",
+        "JAVA",
+        "HTML",
+        "Java Script",
+        "Open CV",
+        "Tensor Flow"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "VUGS Technologies",
+        "start_date": "May 2021",
+        "end_date": "June 2021",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "Genisup India Pvt. Ltd.",
+        "start_date": "July 2021",
+        "end_date": "August 2021",
+        "city": null,
+        "responsibilities": [
+          "Worked on proxy rotation and utilization",
+          "Learnt Web Scraping using bs 4 and performed LDA Topic Modeling on 'The Hindu' news articles"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:19:29.687942+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7575
+    }
+  }
+}

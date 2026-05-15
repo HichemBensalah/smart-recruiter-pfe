@@ -1,0 +1,59 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV2.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV2.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "first.last@resumeworded.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "FIRSTLAST",
+      "email": "first.last@resumeworded.com",
+      "phone": "+1(212)123-4567",
+      "location": "New York City, NY 10000"
+    },
+    "expertise": {
+      "summary": "Data Science Manager with experience in data regression analysis, customer segmentation, and predictive modeling.",
+      "hard_skills": [
+        "Python",
+        "Project Management",
+        "Perl",
+        "Microsoft Access"
+      ],
+      "soft_skills": [
+        "Data Analysis"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Management with Honors",
+        "school": "GROWTHSI",
+        "year": "2017-2018"
+      },
+      {
+        "degree": "Bachelor of Engineering, Major in Computer Science;Minor in Mathematics",
+        "school": "RESUMEWORDED UNIVERSITY",
+        "year": "2011-2012"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:45:05.375004+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8231
+    }
+  }
+}

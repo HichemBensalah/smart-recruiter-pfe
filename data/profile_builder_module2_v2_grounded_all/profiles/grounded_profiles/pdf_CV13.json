@@ -1,0 +1,165 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV13.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV13.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.5201,
+  "normalization": {
+    "cleaned_markdown": "## JOHN DOE\n\nDATASCIENTIST\n12+YRSEXP.\nMumbai, INData_scientist@example.com +913658965231\nAccomplished Data Scientistwithapassionfordeliveringvaluabledata through analyticalfunctionsanddataretrieval methods. Committedtohelpingcompaniesadvancebyhelpingthemtodevelopstrategicplansbased onpredictivemodeling andfindings. Bringingforthaproventrackrecordofanalyzingcomplexdatasets andservingasastrongadvisor.\n\n## PROFESSIONAL EXPERIENCE\n\nPROFESSIONAL EXPERIENCE\nData Scientist\nOPENSYSTEMTECHNOLOGIESApr 2013-Present\nAnalyzeddatasetsand helpedcompaniesmakedecisionsbasedonfindings.\n## ·Served asa thoughtful advisor, workingwith Salesand Marketingprofessionals.\n- ·Created and presentedportfolios of growth, pointing outkey trends.\n\n## TECHNICAL SKILLS\n\n·Utilized algorithmicandprogramming toolstobuildhelpfulpredictivemodels.\n·Performed exploratory data analysis and discoverednotablerelationships.\n·Trackedperformance and identified businessimprovement trends.\nData Scientist\nMAXWELLRESEARCHGROUPNov 2008-Mar 2013\nWorked toassess the company's needs andresolve issueswith the use of data.\n·Effectivelyminedunstructureddata.\n·Identifiednewexternal datasources.\n·Explainedcomplexmodelinginanunderstandableandrelatableway.\n·Workedtoimprove analyticaltoolsandachievegreaterresultsandawareness.\nBachelorof Communications\nLondon Collegeof Science\nAug 2003-May 2007-London, GB\nKEYSKILLS\nPredictive Modeling\nData Verificationand Maintenance\nExcellent Communication Skills\nLeadership Skills\n\n## EDUCATION\n\nHigh School Diploma\n## Maria Regina High School Sep 1999-May 2003-London, GB\nJOHN DOE\nDATASCIENTIST\n12+YRSEXP.\nMumbai, INData_scientist@example.com +913658965231\nAccomplishedDataScientistwithapassionfordeliveringvaluabledata through analyticalfunctionsanddataretrieval methods.Committedtohelpingcompaniesadvancebyhelpingthemtodevelopstrategicplansbased onpredictivemodeling andfindings.Bringingforthaproventrackrecordofanalyzingcomplexdatasets andservingasastrongadvisor.\nPROFESSIONAL EXPERIENCE\nPROFESSIONALEXPERIENCE\nData Scientist\nOPENSYSTEMTECHNOLOGIESApr2013-Present\nAnalyzeddatasetsand helpedcompaniesmakedecisionsbasedonfindings.\n·Served asa thoughtful advisor, workingwithSalesandMarketingprofessionals.\n·Created and presentedportfolios of growth, pointing outkey trends.\nTECHNICAL SKILLS\n·Utilized algorithmicandprogramming toolstobuildhelpfulpredictivemodels.\n·Performed exploratory data analysis and discoverednotablerelationships.\n·Trackedperformance and identified businessimprovement trends.\nData Scientist\nMAXWELLRESEARCHGROUPNov2008-Mar2013\nWorked toassess the company's needs andresolve issueswith the use of data.\n·Effectivelyminedunstructureddata.\n·Identifiednewexternal datasources.\n·Explainedcomplexmodelinginanunderstandableandrelatableway.\n·Workedtoimprove analyticaltoolsandachievegreaterresultsandawareness.\nBachelorof Communications\nLondonCollegeofScience\nAug2003-May2007-London, GB\nKEYSKILLS\nPredictiveModeling\nDataVerificationandMaintenance\nExcellent CommunicationSkills\nLeadership Skills\nEDUCATION\nHighSchool Diploma\nMariaReginaHighSchool Sep1999-May2003-London, GB",
+    "header_info": {
+      "full_name": "JOHN DOE",
+      "email": "INData_scientist@example.com",
+      "phone": "+913658965231",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [
+      "example.com"
+    ],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.85,
+    "quality_flags": [
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8282,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "JOHN DOE",
+      "email": null,
+      "phone": "+913658965231",
+      "location": "Mumbai",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 12,
+      "hard_skills": [
+        "algorithmic and programming tools",
+        "Predictive Modeling",
+        "Data Verification and Maintenance"
+      ],
+      "soft_skills": [
+        "Excellent Communication Skills",
+        "Leadership Skills"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "OPEN SYSTEM TECHNOLOGIES",
+        "job_title": "Data Scientist",
+        "start_date": "Apr 2013",
+        "end_date": "Present",
+        "city": null,
+        "responsibilities": [
+          "Analyzed datasets and helped companies make decisions based on findings.",
+          "Served as a thoughtful advisor, working with Sales and Marketing professionals.",
+          "Created and presented portfolios of growth, pointing out key trends."
+        ]
+      },
+      {
+        "company": "MAXWELL RESEARCH GROUP",
+        "job_title": "Data Scientist",
+        "start_date": "Nov 2008",
+        "end_date": "Mar 2013",
+        "city": null,
+        "responsibilities": [
+          "Worked to assess the company's needs and resolve issues with the use of data.",
+          "Effectively mined unstructured data.",
+          "Identified new external data sources.",
+          "Explained complex modeling in an understandable and relatable way.",
+          "Worked to improve analytical tools and achieve greater results and awareness."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "London College of Science",
+        "degree": "Bachelor of Communications",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Maria Regina High School",
+        "degree": "High School Diploma",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:37:12.042774+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:27.605634+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

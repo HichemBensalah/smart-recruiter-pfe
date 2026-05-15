@@ -1,0 +1,73 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV36.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV36.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "first.last@resumeworded.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "FirstLast",
+      "email": "first.last@resumeworded.com",
+      "phone": "+44123456789",
+      "location": "New York, NY"
+    },
+    "expertise": {
+      "summary": "Data Science and Machine Learning with expertise in SQL and python for analysis and web development.",
+      "hard_skills": [
+        "Javascript",
+        "HTML/CSS",
+        "MATLAB",
+        "Python",
+        "Tableau"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Resume Wored & Co.",
+        "start_date": "Jun 2017",
+        "end_date": "Sep 2017",
+        "city": "New York, NY",
+        "responsibilities": [
+          "Built Tableau dashboard to visualize core business KPIs (e.g. Monthly Recurring Revenue)",
+          "Aggregated unstructured data from 20+ sources to build the foundation of a new product; led to $100,000 in new revenue",
+          "Designed the data pipeline architecture in team of 5 for a new product that scaled from 0 to 100,000 daily active users"
+        ]
+      },
+      {
+        "job_title": "Data Analyst Intern",
+        "company": "EXCITINGCOMPANY",
+        "start_date": "Jun 2016",
+        "end_date": "Sep 2016",
+        "city": "New York, NY",
+        "responsibilities": [
+          "Led the transition to a paperless practice by implementing an electronic booking system and faster, safer and more accurate",
+          "Analyzed data from 25,000 monthly active users and used outputs to guide marketing and product strategies; increased average app engagement time by 2x, decreased drop off rate by 30%, and 3x shares on social media"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "RESUMEWORDEDUNIVERSITY",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "LONDONSCHOOLOFECONOMICSANDPOLITICALSCIENCE",
+        "year": "Expected May 2019"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:52:12.600790+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.862
+    }
+  }
+}

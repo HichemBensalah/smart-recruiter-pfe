@@ -1,0 +1,83 @@
+{
+  "source_path": "data\\raw_cv\\images\\6_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\6_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\images\\6_image.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "EMILYSAAVEDRA",
+      "email": "emilysaavedra@gmail.com",
+      "phone": "07835150056",
+      "location": ""
+    },
+    "expertise": {
+      "summary": "Data Scientist with extensive analytical skills, strong attention to detail, and ability to work in team environments.",
+      "hard_skills": [
+        "Microsoft Office",
+        "MSSQL Server",
+        "Sisense",
+        "Zoho Analytics",
+        "Good Data",
+        "Qlik Sense"
+      ],
+      "soft_skills": [
+        "Accuracy",
+        "Analytical Skills",
+        "Detail",
+        "Orientation",
+        "Good Team Player",
+        "Multitasking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "Spy Biotech, Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": "London, United Kingdom",
+        "responsibilities": [
+          "Assisted in scientific research on DNA Acloning and analyzed the results."
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "CGL, Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": "London, United Kingdom",
+        "responsibilities": [
+          "Collected, analyzed, and interpreted raw data from various websites."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "IB Diploma Programme",
+        "school": "The International School Estepona",
+        "year": "09/2010-05/2012"
+      },
+      {
+        "degree": "First Class Honours",
+        "school": "University of Chichester",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T14:02:12.519898+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.788,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

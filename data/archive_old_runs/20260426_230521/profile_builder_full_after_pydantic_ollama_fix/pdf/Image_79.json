@@ -1,0 +1,50 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_79.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_79.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:Image_79",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Renato Dietrich",
+      "email": null,
+      "phone": "+1(555) 609 1782",
+      "location": "Houston,TX"
+    },
+    "expertise": {
+      "summary": "Data Scientist, Machine Learning Expert",
+      "hard_skills": [
+        "Machine Learning Fundamentals: Clustering, Regression, etc",
+        "Elasticsearch, Kibana"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:47:59.490833+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7307
+    }
+  }
+}

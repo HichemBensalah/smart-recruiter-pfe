@@ -1,0 +1,49 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_64.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_64.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "info@qwikresume.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "ROBERTSMITH",
+      "email": "info@qwikresume.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "ABCCorporation",
+        "start_date": "MARCH 2012",
+        "end_date": "JUNE 2015",
+        "city": null,
+        "responsibilities": [
+          "Designed and revised forms. manuals, and other company documents"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:43:17.017425+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7532
+    }
+  }
+}

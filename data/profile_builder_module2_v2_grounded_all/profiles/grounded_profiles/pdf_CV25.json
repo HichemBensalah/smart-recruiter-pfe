@@ -1,0 +1,134 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV25.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV25.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7283,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nRohan Kumar\n123 Seel Dehil, 110085|*919909999999|rk@gmai Lcom| https: /hwww. inkodin. comin/rohan-kumar|https: igihuh. com/Rohankumar\n\n## PROFESSIONAL SUMMARY\n\nObjective/Profile Summary\nSeeking a chalienging opportunity in the fieid of Data Scienoe Have good inowlierige of ensecuting data driven projodts using predictive models. Pruficient in numerous statistical, machine leaming and doep Pyton, EA 8 elc\n\n## EDUCATION\n\n## MA Statisties, University-of Delhi, 2019, 1° Division\n## BA Sustisics, University of Delhi, 2017, 1 Division\n## High Sdhodl, DPS, Commeroe, 2014, 95%\n\n## PROFESSIONAL EXPERIENCE\n\nExperience\nJuly 2019-December 2019\n## Inbern|Department af Data Analysis|Hewlett-Packard|Delh\n- Used predfictive analyais such as machine leaming and data mining techniques to forecas! company sales of new products with 95% aocuracy.\nDevelop ETS for data souroes used forreporting by sales, imventory, and marketing departments.\n- Certification\n- Duta 5 clence using SA 5 and R from Analytix Labs (lan 2 o 19 - Apnil 2019]\n\n## TECHNICAL SKILLS\n\nProficient in SAS, R Programming and Advanced MS Exoel. Leveraging SAS and R statistical tools for data managnment, explaratory analyss and data visuallzation. Business Analytical Techniques -Segmentation (RFM, K-means dusteringl, Regression anahss Cassification, Dedision Trees and Time Series Forecasting.\nAdvance Big Data Sdence from Analytii Labs(Nowember 2 ois-Aprll 2 o 18)\nLeamt data arahsis with python, Acance Statistios, Machine learming algorithms, Span SQj. B Bata Frame and MLlib\nPerformed Fraud Ad Click Oetection where developed a solution to differentiate a fraud cid from the genuine dicks and provided a method to remove thcse fraudulent didks\nHEADER\nRohanKumar\n123 SeelDehil, 110085|*919909999999|rk@gmaiLcom| https: /hwww.inkodin.comin/rohan-kumar|https: igihuh.com/Rohankumar\nPROFESSIONAL SUMMARY\nObjective/ProfileSummary\nSeeking a chalienging opportunity in the fieid of Data Scienoe Have good inowlierige of ensecuting data driven projodts using predictive models. Pruficient in numerous statistical, machine leaming and doep Pyton, EA8elc\nEDUCATION\nMA Statisties, University-of Delhi, 2019, 1° Division\nBA Sustisics, University of Delhi, 2017, 1 Division\nHigh Sdhodl, DPS, Commeroe, 2014, 95%\nPROFESSIONAL EXPERIENCE\nExperience\nJuly2019-December2019\nInbern|Department af Data Analysis|Hewlett-Packard|Delh\nUsed predfictive analyais such as machine leaming and data mining techniques to forecas! company sales of new products with 95% aocuracy.\nDevelop ETS for data souroes used forreporting by sales, imventory, and marketing departments.\nCertification\nDuta 5clence using SA5 and R from Analytix Labs (lan 2o19 - Apnil 2019]\nTECHNICAL SKILLS\nProficient in SAS, R Programming and Advanced MS Exoel. Leveraging SAS and R statistical tools for data managnment, explaratory analyss and data visuallzation. Business Analytical Techniques -Segmentation (RFM, K-means dusteringl, Regression anahss Cassification, Dedision Trees and Time Series Forecasting.\nAdvance Big Data Sdence from AnalytiiLabs(Nowember 2ois-Aprll 2o18)\nLeamt data arahsis with python, Acance Statistios, Machine learming algorithms, Span SQj. B BataFrame and MLlib\nPerformed Fraud Ad Click Oetection where developed a solution to differentiate a fraud cid from the genuine dicks and provided a method to remove thcse fraudulent didks",
+    "header_info": {
+      "full_name": "Rohan Kumar",
+      "email": null,
+      "phone": "919909999999",
+      "location": "Seeking a chalienging opportunity in the fieid of Data Scienoe Have good inowlierige of ensecuting data driven projodts using predictive models. Pruficient in numerous statistical, machine leaming and doep Pyton, EA 8 elc",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9457,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.summary"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Rohan Kumar",
+      "email": null,
+      "phone": "919909999999",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Seeking a challenging opportunity in the field of Data Science Have good inowlierige of ensecuting data driven projodts using predictive models.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "SAS",
+        "R Programming"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Hewlett-Packard",
+        "job_title": "Inbern|Department af Data Analysis",
+        "start_date": "July 2019",
+        "end_date": "December 2019",
+        "city": null,
+        "responsibilities": [
+          "Used predictive analysis such as machine learning and data mining techniques to forecast company sales of new products with 95% accuracy.",
+          "Develop ETS for data sources used for reporting by sales, inventory, and marketing departments."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University-of Delhi",
+        "degree": "MA Statisties",
+        "field": "Statisties",
+        "year": 2019
+      },
+      {
+        "institution": "University of Delhi",
+        "degree": "BA Sustisics",
+        "field": "Sustisics",
+        "year": 2017
+      },
+      {
+        "institution": "DPS, Commeroe",
+        "degree": "High Sdhodl",
+        "field": null,
+        "year": 2014
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T09:53:49.109380+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:28.224106+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

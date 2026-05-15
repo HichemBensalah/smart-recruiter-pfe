@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-05-04T14:27:20.205596+00:00",
+  "comparison_with_old_module2": {
+    "available": true,
+    "old_folder": "data\\profile_builder_official_module2_rerun_ollama_fixed",
+    "matched_profiles": 90,
+    "new_profiles_compared": 90,
+    "examples_before_after": [
+      {
+        "source_path": "data\\raw_cv\\docx\\0_anonyme.docx",
+        "old_profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\0_anonyme.json",
+        "new_profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_0_anonyme.json",
+        "new_profile_kind": "complete_profile",
+        "new_reliability_score": 0.7984,
+        "fields_nullified": [
+          "expertise.hard_skills[1]"
+        ]
+      },
+      {
+        "source_path": "data\\raw_cv\\docx\\1_anonyme.docx",
+        "old_profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\1_anonyme.json",
+        "new_profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_1_anonyme.json",
+        "new_profile_kind": "complete_profile",
+        "new_reliability_score": 0.7563,
+        "fields_nullified": [
+          "expertise.experience_level"
+        ]
+      },
+      {
+        "source_path": "data\\raw_cv\\docx\\2_anonyme.docx",
+        "old_profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\2_anonyme.json",
+        "new_profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_2_anonyme.json",
+        "new_profile_kind": "partial_profile",
+        "new_reliability_score": 0.6315,
+        "fields_nullified": [
+          "experiences[0].responsibilities[3]",
+          "expertise.hard_skills[6]"
+        ]
+      },
+      {
+        "source_path": "data\\raw_cv\\docx\\3_anonyme.docx",
+        "old_profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\3_anonyme.json",
+        "new_profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_3_anonyme.json",
+        "new_profile_kind": "complete_profile",
+        "new_reliability_score": 0.9529,
+        "fields_nullified": []
+      },
+      {
+        "source_path": "data\\raw_cv\\docx\\Aziz_resumer.docx",
+        "old_profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\Aziz_resumer.json",
+        "new_profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_Aziz_resumer.json",
+        "new_profile_kind": "complete_profile",
+        "new_reliability_score": 0.8196,
+        "fields_nullified": [
+          "expertise.soft_skills[7]"
+        ]
+      },
+      {
+        "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+        "old_profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Hichem_resume.json",
+        "new_profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_Hichem_resume.json",
+        "new_profile_kind": "complete_profile",
+        "new_reliability_score": 0.9776,
+        "fields_nullified": []
+      },
+      {
+        "source_path": "data\\raw_cv\\docx\\resume_khairi.docx",
+        "old_profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\resume_khairi.json",
+        "new_profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_resume_khairi.json",
+        "new_profile_kind": "complete_profile",
+        "new_reliability_score": 0.8239,
+        "fields_nullified": [
+          "education[2].field"
+        ]
+      },
+      {
+        "source_path": "data\\raw_cv\\images\\0_image.jpg",
+        "old_profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\0_image.json",
+        "new_profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_0_image.json",
+        "new_profile_kind": "complete_profile",
+        "new_reliability_score": 0.9368,
+        "fields_nullified": []
+      },
+      {
+        "source_path": "data\\raw_cv\\images\\1_image.jpg",
+        "old_profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\1_image.json",
+        "new_profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_1_image.json",
+        "new_profile_kind": "minimal_profile",
+        "new_reliability_score": 0.1746,
+        "fields_nullified": [
+          "bio.email",
+          "bio.full_name",
+          "expertise.soft_skills[0]",
+          "expertise.soft_skills[1]",
+          "expertise.soft_skills[2]",
+          "expertise.soft_skills[3]"
+        ]
+      },
+      {
+        "source_path": "data\\raw_cv\\images\\2_image.jpg",
+        "old_profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\2_image.json",
+        "new_profile_file": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_2_image.json",
+        "new_profile_kind": "partial_profile",
+        "new_reliability_score": 0.6713,
+        "fields_nullified": [
+          "bio.email",
+          "expertise.soft_skills[1]"
+        ]
+      }
+    ]
+  },
+  "statement": "The new V2 grounded pipeline reduces hallucination by nullifying unsupported fields and producing partial profiles when evidence is insufficient."
+}

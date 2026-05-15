@@ -1,0 +1,161 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV8.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV8.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.5535,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nRESUME OBJECTIVE\n\n## PROFESSIONAL EXPERIENCE\n\nData Scientistwith 5+yearsofexperience executingdata-driven solutionstoincreaseefficiency accuracy. and utility ofinternal data processing. Experienced atcreatingdataregression models,\n- usingpredictive data modeling. and analyzing data miningalgorithms todeliverinsights and implementaction-orientedsolutionstocomplexbusinessproblems.\n- EXPERIENCE\n- DATASCIENTIST\nMicrosoft Tucson, AZ/September 2015-Present industry trends, achievinga 15%moreaccurateprediction ofperformance thanpreviousyears\n- Utilizewebscrapingtechniques to extract and organizecompetitor data\nUpdate company data warehousingtechniquessuch as datarecall andsegmentation, resulting ina 2 o%increaseinusabilityfornon-technical staffmembers\n## Modernize data streamliningprocesses, resultingina 25%redundancyreduction\n- DATASCIENTIST\n## Hewlett-Packard, San Francisco, CA/June 2013-August 2015\nImproved data miningprocesses, resultingina 20% decrease in time needed to inferinsights fromcustomerdataused todevelopmarketingstrategies\n- Usedpredictive analyticssuch asmachine learningand dataminingtechniquesto forecast companysalesofnewproductswitha 95%accuracyrate\n\n## TECHNICAL SKILLS\n\nSKILLS\nPHP/Rubyon Rails/Java/C++/Python\nMySQL/SQLite 3/MongoDB/JSON\nLeadership\nCollaboration\nHandling Pressure\nProblem Solving\nData Mining\nData Management\n\n## MACHINE LEARNING & DEEP LEARNING\n\nIncreased data securitybyupdatingcompanywide encryption, steganography, IPsecurity, and securewirelesstransmission practices\nHEADER\nRESUMEOBJECTIVE\nPROFESSIONAL EXPERIENCE\nDataScientistwith5+yearsofexperience executingdata-driven solutionstoincreaseefficiency accuracy.and utility ofinternal data processing.Experienced atcreatingdataregression models,\nusingpredictive data modeling.and analyzing data miningalgorithms todeliverinsights and implementaction-orientedsolutionstocomplexbusinessproblems.\nEXPERIENCE\nDATASCIENTIST\nMicrosoftTucson, AZ/September2015-Present industry trends, achievinga15%moreaccurateprediction ofperformance thanpreviousyears\nUtilizewebscrapingtechniques to extract and organizecompetitor data\nUpdate company data warehousingtechniquessuch as datarecall andsegmentation, resulting ina2o%increaseinusabilityfornon-technical staffmembers\nModernize data streamliningprocesses, resultingina25%redundancyreduction\nDATASCIENTIST\nHewlett-Packard, SanFrancisco, CA/June2013-August2015\nImproved data miningprocesses, resultingina 20% decrease in time needed to inferinsights fromcustomerdataused todevelopmarketingstrategies\nUsedpredictive analyticssuch asmachine learningand dataminingtechniquesto forecast companysalesofnewproductswitha95%accuracyrate\nTECHNICAL SKILLS\nSKILLS\nPHP/RubyonRails/Java/C++/Python\nMySQL/SQLite3/MongoDB/JSON\nLeadership\nCollaboration\nHandlingPressure\nProblem Solving\nData Mining\nData Management\nMACHINE LEARNING & DEEP LEARNING\nIncreased data securitybyupdatingcompanywide encryption, steganography, IPsecurity, and securewirelesstransmission practices",
+    "header_info": {
+      "full_name": "RESUME OBJECTIVE",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9107,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "RESUME OBJECTIVE",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid",
+      "years_experience": 5,
+      "hard_skills": [
+        "PHP",
+        "Ruby on Rails",
+        "Java",
+        "C++",
+        "Python",
+        "MySQL",
+        "SQLite 3",
+        "MongoDB",
+        "JSON"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Collaboration",
+        "Handling Pressure",
+        "Problem Solving",
+        "Data Mining",
+        "Data Management"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Microsoft",
+        "job_title": "Data Scientist",
+        "start_date": "September 2015",
+        "end_date": "Present",
+        "city": "Tucson, AZ",
+        "responsibilities": [
+          "using predictive data modeling",
+          "analyzing data mining algorithms to deliver insights and implement action-oriented solutions to complex business problems",
+          "Utilize web scraping techniques to extract and organize competitor data",
+          "Update company data warehousing techniques such as data recall and segmentation",
+          "Modernize data streamlining processes"
+        ]
+      },
+      {
+        "company": "Hewlett-Packard",
+        "job_title": "Data Scientist",
+        "start_date": "June 2013",
+        "end_date": "August 2015",
+        "city": "San Francisco, CA",
+        "responsibilities": [
+          "Improved data mining processes",
+          "Used predictive analytics such as machine learning and data mining techniques to forecast company sales of new products"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:46:00.030013+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.374783+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

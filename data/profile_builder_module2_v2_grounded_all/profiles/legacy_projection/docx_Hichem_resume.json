@@ -1,0 +1,126 @@
+{
+  "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+  "artifact_path": "data\\processed_official_module1\\docx\\Hichem_resume.json",
+  "source_format": "docx",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\docx\\Hichem_resume.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hichem Bensalah",
+      "email": "1512@gmail.com",
+      "phone": "+216 97 118 755",
+      "location": "Ariana, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "R",
+        "Java",
+        "JavaScript",
+        "C",
+        "C++",
+        "C#",
+        "Docker",
+        "Git",
+        "GitHub Actions",
+        "Flask",
+        "FastAPI",
+        "Streamlit",
+        "AWS",
+        "S3",
+        "EC2",
+        "SageMaker",
+        "ETL",
+        "Power BI",
+        "SSIS",
+        "SSRS",
+        "SQL Server",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Neo4j",
+        "Oracle",
+        "Apache Cassandra",
+        "Apache Spark",
+        "PySpark",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "OpenCV",
+        "YOLO",
+        "spaCy",
+        "NLTK",
+        "VS Code",
+        "Jupyter",
+        "Anaconda"
+      ],
+      "soft_skills": [
+        "Problem-solving",
+        "Teamwork",
+        "Communication",
+        "Critical thinking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "AI & Data Science Intern",
+        "company": "TUDIGISEC, TDS Global Technologies",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Summer Training",
+        "company": "Tek-Up University",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree",
+        "school": "Tek-Up University",
+        "year": "2023-2026"
+      },
+      {
+        "degree": null,
+        "school": "ENIG Gabès",
+        "year": "2020-2022"
+      },
+      {
+        "degree": null,
+        "school": "FSS Sfax",
+        "year": "2017-2020"
+      },
+      {
+        "degree": "Baccalauréat",
+        "school": "Skhira–Sfax",
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T12:59:49.703084+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9776,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV6.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV6.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7713,
+  "normalization": {
+    "cleaned_markdown": "## EMILY SAAVEDRA\n\n88 Hendford Hill, London B 220 GX, United Kingdom|07835150056|emilysaavedra@gmail.com\n\n## PROFESSIONAL SUMMARY\n\n1 Profile\n\n## EDUCATION\n\nIBDiploma Programme\n## The International School Estepona, El Paraiso, Spain\n**Date: ** 09/2010-05/2012\n- Graduatedwith Distinction(Grade 1-A/excellent equivalentinall 6 subjects)\n## Participatedinmonthlymeetingswith executives, providedinformationonthe progress.\n**Date: ** 07/2016-09/2017\n- Data Scientist\n## CGL, Inc., London, United Kingdom\n## Collected, analyzed, andinterpretedrawdata fromvariouswebsites.\n**Date: ** 09/2012-05/2016\n**Location: ** English Tutor Go Overseas, Suva, Fiji\n- Mathematicsand Statistics\n## Universityof Chichester, Chichester, United Kingdom\n**Date: ** 03/2012\n## First Class Honours Clubsand Societies: Business Club, Golf Club, Riding Club\n\n## TECHNICAL SKILLS\n\nHighlyaccurateand experienced Data Scientist adeptatcollecting, analyzing, and interpreting large datasets, developing newforecasting models, andperformingdatamanagementtasks. Possessing an extensive analytical skills, strong attentiontodetail, and asignificantabilityto workinteamenvironments, Emilyispresently lookingfora Data Scientistpositionwitha forward-movingcompany.\nSkills\nNative Full Limited\nComputer/Data Analytics Skills\nMicrosoft Office MSSQLServer Sisense, Zoho Analytics Good Data, Qlik Sense\nInterpersonal Skills\nAccuracy Analytical Skills Detail Orientation Good Team Player Multitasking\nVolunteering\nCollaboratedwiththe Operationsand Technology Departmentonthedevelopment ofnewautomateddata management/analysissoftwarewhich increasedtheoverallproductivityandcut unnecessarycosts.\n·Maintainedandmanaged company's MSSQL server.\nIncreased the accuracyof forecasting softwarefrom 80%to 95%.\n\n## PROFESSIONAL EXPERIENCE\n\nWorkexperience\nSpanish English French\n## Spy Biotech, Inc.\n## Data Scientist, London, United Kingdom\n- ·Assisted in scientificresearch on DNAcloning and analyzedtheresults.\nCollected, studied, andinterpreted large datasets; conductedreports; performed accurate, successfuldatamanagement.\n- Developedand implementednewforecasting modelswhichincreased company productivity and efficiency.\n\n## CERTIFICATES (IN PROGRESS)\n\nCertificates\nProfessional Certificatein Data Analysis\nThe Chartered Institutefor IT\nDriving Licence Driving School\nHobbies\nExploring\nGetting lost in agoodbook\nEverykindof sport\ndistantlands\nEMILY SAAVEDRA\n88HendfordHill, LondonB220GX, UnitedKingdom|07835150056|emilysaavedra@gmail.com\nPROFESSIONAL SUMMARY\n1Profile\nEDUCATION\nIBDiplomaProgramme\nTheInternationalSchoolEstepona, ElParaiso, Spain\n09/2010-05/2012\nGraduatedwithDistinction(Grade1-A/excellent equivalentinall6subjects)\nParticipatedinmonthlymeetingswith executives, providedinformationonthe progress.\n07/2016-09/2017\nDataScientist\nCGL, Inc., London, UnitedKingdom\nCollected, analyzed, andinterpretedrawdata fromvariouswebsites.\n09/2012-05/2016\nEnglishTutor GoOverseas, Suva, Fiji\nMathematicsand Statistics\nUniversityofChichester, Chichester, United Kingdom\n03/2012\nFirstClassHonours ClubsandSocieties: Business Club, Golf Club, Riding Club\nTECHNICAL SKILLS\nHighlyaccurateand experiencedDataScientist adeptatcollecting, analyzing, and interpreting large datasets, developing newforecasting models, andperformingdatamanagementtasks. Possessing an extensive analytical skills, strong attentiontodetail, and asignificantabilityto workinteamenvironments, Emilyispresently lookingforaDataScientistpositionwitha forward-movingcompany.\nSkills\nNative Full Limited\nComputer/DataAnalyticsSkills\nMicrosoftOffice MSSQLServer Sisense, ZohoAnalytics GoodData, QlikSense\nInterpersonalSkills\nAccuracy AnalyticalSkills DetailOrientation GoodTeamPlayer Multitasking\nVolunteering\nCollaboratedwiththeOperationsand TechnologyDepartmentonthedevelopment ofnewautomateddata management/analysissoftwarewhich increasedtheoverallproductivityandcut unnecessarycosts.\n·Maintainedandmanaged company'sMSSQL server.\nIncreased the accuracyof forecasting softwarefrom80%to95%.\nLANGUAGES\nPROFESSIONAL EXPERIENCE\nWorkexperience\nSpanish English French\n09/2017-02/2019\nSpyBiotech, Inc.\nDataScientist, London, UnitedKingdom\n·Assisted in scientificresearch onDNAcloning and analyzedtheresults.\nCollected, studied, andinterpreted large datasets; conductedreports; performed accurate, successfuldatamanagement.\nDevelopedand implementednewforecasting modelswhichincreased company productivity and efficiency.\nCERTIFICATES (IN PROGRESS)\nCertificates\nProfessional Certificatein Data Analysis\nTheCharteredInstituteforIT\nDriving Licence Driving School\nHobbies\nExploring\nGetting lost in agoodbook\nEverykindof sport\ndistantlands",
+    "header_info": {
+      "full_name": "EMILY SAAVEDRA",
+      "email": "emilysaavedra@gmail.com",
+      "phone": "07835150056",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9543,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "EMILY SAAVEDRA",
+      "email": "emilysaavedra@gmail.com",
+      "phone": "07835150056",
+      "location": "London, United Kingdom",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid",
+      "years_experience": 2,
+      "hard_skills": [
+        "Microsoft Office",
+        "MSSQLServer",
+        "Sisense",
+        "Zoho Analytics",
+        "Good Data",
+        "Qlik Sense"
+      ],
+      "soft_skills": [
+        "Accuracy",
+        "Analytical Skills",
+        "Detail Orientation",
+        "Good Team Player",
+        "Multitasking"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "CGL, Inc.",
+        "job_title": "Data Scientist",
+        "start_date": "07/2016",
+        "end_date": "09/2017",
+        "city": "London",
+        "responsibilities": [
+          "Collected, analyzed, and interpreted raw data from various websites."
+        ]
+      },
+      {
+        "company": "English Tutor Go Overseas",
+        "job_title": null,
+        "start_date": "09/2012",
+        "end_date": "05/2016",
+        "city": "Suva",
+        "responsibilities": [
+          "Mathematics and Statistics"
+        ]
+      },
+      {
+        "company": "Spy Biotech, Inc.",
+        "job_title": "Data Scientist",
+        "start_date": null,
+        "end_date": null,
+        "city": "London",
+        "responsibilities": [
+          "Assisted in scientific research on DNA cloning and analyzed the results.",
+          "Collected, studied, and interpreted large datasets; conducted reports; performed accurate, successful data management.",
+          "Developed and implemented new forecasting models which increased company productivity and efficiency."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "The International School Estepona",
+        "degree": "IB Diploma Programme",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "University of Chichester",
+        "degree": "First Class Honours",
+        "field": null,
+        "year": "03/2012"
+      }
+    ],
+    "languages": [
+      "Spanish",
+      "English",
+      "French"
+    ],
+    "certifications": [
+      "Professional Certificate in Data Analysis",
+      "Driving Licence"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:45:57.878373+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.265758+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

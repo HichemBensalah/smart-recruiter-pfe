@@ -1,0 +1,4279 @@
+{
+  "generated_at": "2026-05-03T19:21:20.976622Z",
+  "scope": {
+    "module2_dir": "data\\profile_builder_official_module2_rerun_ollama_fixed",
+    "module1_dir": "data\\processed_official_module1",
+    "included_status": "success",
+    "excluded": [
+      "run_report.json",
+      "final_manual_summary.json",
+      "_continuation_inputs/",
+      "failed/non-exploitable files"
+    ]
+  },
+  "summary": {
+    "total_profiles_success_analyzed": 86,
+    "profiles_with_critical_hallucination": 14,
+    "profiles_with_major_hallucination": 38,
+    "profiles_clean_or_acceptable": 34,
+    "reliable_profiles_keep": 34,
+    "reliable_profile_rate_percent": 39.53,
+    "profiles_to_exclude_from_matching": 27,
+    "profiles_to_review": 25,
+    "profiles_safe_to_keep": 34,
+    "issue_counts_by_severity": {
+      "critical": 26,
+      "minor": 76,
+      "major": 104
+    },
+    "top_issue_types": [
+      [
+        "summary_unsupported",
+        58
+      ],
+      [
+        "experience_responsibility_unsupported",
+        49
+      ],
+      [
+        "experience_unsupported",
+        40
+      ],
+      [
+        "education_unsupported",
+        25
+      ],
+      [
+        "identity_template_value",
+        15
+      ],
+      [
+        "generic_template_field",
+        15
+      ],
+      [
+        "identity_unsupported",
+        4
+      ]
+    ],
+    "provider_route_distribution": {
+      "ollama_local": 55,
+      "groq_secondary": 31
+    }
+  },
+  "examples": [
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV32.json",
+      "source_path": "data\\raw_cv\\pdf\\CV32.pdf",
+      "candidate_name": "None",
+      "field_name": "bio.full_name",
+      "issue_category": "identity_unsupported",
+      "json_value": "None",
+      "evidence_status": "absent",
+      "severity": "critical",
+      "recommendation": "exclude_from_matching",
+      "comment": "full_name not clearly supported by Module 1 source.",
+      "evidence_snippet": "- Office:"
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV32.json",
+      "source_path": "data\\raw_cv\\pdf\\CV32.pdf",
+      "candidate_name": "None",
+      "field_name": "expertise.summary",
+      "issue_category": "summary_unsupported",
+      "json_value": "Data Visualization, Scientific Computing, Renewable Energy Systems",
+      "evidence_status": "weak",
+      "severity": "minor",
+      "recommendation": "keep",
+      "comment": "Summary adds facts not clearly present in Module 1 source.",
+      "evidence_snippet": "- Departmentof Computer Science."
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV32.json",
+      "source_path": "data\\raw_cv\\pdf\\CV32.pdf",
+      "candidate_name": "None",
+      "field_name": "experiences[0].end_date",
+      "issue_category": "experience_unsupported",
+      "json_value": "null",
+      "evidence_status": "absent",
+      "severity": "major",
+      "recommendation": "review",
+      "comment": "Experience end_date not clearly supported by source.",
+      "evidence_snippet": "- Cell:"
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV34.json",
+      "source_path": "data\\raw_cv\\pdf\\CV34.pdf",
+      "candidate_name": "Robert Smith",
+      "field_name": "bio.email",
+      "issue_category": "identity_template_value",
+      "json_value": "info@qwikresume.com",
+      "evidence_status": "placeholder",
+      "severity": "critical",
+      "recommendation": "exclude_from_matching",
+      "comment": "Placeholder or template-like value used as real email.",
+      "evidence_snippet": ""
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV34.json",
+      "source_path": "data\\raw_cv\\pdf\\CV34.pdf",
+      "candidate_name": "Robert Smith",
+      "field_name": "expertise.summary",
+      "issue_category": "summary_unsupported",
+      "json_value": "Data Architect in a collaborative environment utilizing creativity and technical skills for data modeling, analytics, and solution architecture expertise.",
+      "evidence_status": "weak",
+      "severity": "minor",
+      "recommendation": "keep",
+      "comment": "Summary adds facts not clearly present in Module 1 source.",
+      "evidence_snippet": "Toobtaln apositlonasa Data Architectina collaborativeenvironment utilizing my creativity and technlcal skills."
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV34.json",
+      "source_path": "data\\raw_cv\\pdf\\CV34.pdf",
+      "candidate_name": "Robert Smith",
+      "field_name": "experiences[0].start_date",
+      "issue_category": "experience_unsupported",
+      "json_value": "2012-04",
+      "evidence_status": "absent",
+      "severity": "major",
+      "recommendation": "review",
+      "comment": "Experience start_date not clearly supported by source.",
+      "evidence_snippet": "ABCCorporation-2012-2014"
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\1_anonyme.json",
+      "source_path": "data\\raw_cv\\docx\\1_anonyme.docx",
+      "candidate_name": "null",
+      "field_name": "bio.full_name",
+      "issue_category": "identity_template_value",
+      "json_value": "null",
+      "evidence_status": "placeholder",
+      "severity": "critical",
+      "recommendation": "exclude_from_matching",
+      "comment": "Placeholder or template-like value used as real full_name.",
+      "evidence_snippet": ""
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\1_anonyme.json",
+      "source_path": "data\\raw_cv\\docx\\1_anonyme.docx",
+      "candidate_name": "null",
+      "field_name": "bio.location",
+      "issue_category": "identity_template_value",
+      "json_value": "null",
+      "evidence_status": "placeholder",
+      "severity": "major",
+      "recommendation": "review",
+      "comment": "Placeholder or template-like value used as real location.",
+      "evidence_snippet": ""
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\1_anonyme.json",
+      "source_path": "data\\raw_cv\\docx\\1_anonyme.docx",
+      "candidate_name": "null",
+      "field_name": "bio.full_name",
+      "issue_category": "generic_template_field",
+      "json_value": "null",
+      "evidence_status": "placeholder",
+      "severity": "critical",
+      "recommendation": "exclude_from_matching",
+      "comment": "Template/example value leaked into final profile.",
+      "evidence_snippet": ""
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\2_image.json",
+      "source_path": "data\\raw_cv\\images\\2_image.jpg",
+      "candidate_name": "Alexander Eakins",
+      "field_name": "bio.email",
+      "issue_category": "identity_template_value",
+      "json_value": "email@youremail.com",
+      "evidence_status": "placeholder",
+      "severity": "critical",
+      "recommendation": "exclude_from_matching",
+      "comment": "Placeholder or template-like value used as real email.",
+      "evidence_snippet": ""
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\2_image.json",
+      "source_path": "data\\raw_cv\\images\\2_image.jpg",
+      "candidate_name": "Alexander Eakins",
+      "field_name": "expertise.summary",
+      "issue_category": "summary_unsupported",
+      "json_value": "Data analysis and modeling in streaming platforms using statistical techniques.",
+      "evidence_status": "absent",
+      "severity": "major",
+      "recommendation": "review",
+      "comment": "Summary adds facts not clearly present in Module 1 source.",
+      "evidence_snippet": "Springboard Data Science Course-Data Science Capstone Project:Specialized Analysisof Streaming Platform Patterns"
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\2_image.json",
+      "source_path": "data\\raw_cv\\images\\2_image.jpg",
+      "candidate_name": "Alexander Eakins",
+      "field_name": "experiences[0].city",
+      "issue_category": "experience_unsupported",
+      "json_value": "Unknown",
+      "evidence_status": "absent",
+      "severity": "major",
+      "recommendation": "review",
+      "comment": "Experience city not clearly supported by source.",
+      "evidence_snippet": "SKILLS & KNOWLEDGE"
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV17.json",
+      "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+      "candidate_name": "Kevin Brandon",
+      "field_name": "bio.email",
+      "issue_category": "identity_template_value",
+      "json_value": "info@resumekraft.com",
+      "evidence_status": "placeholder",
+      "severity": "critical",
+      "recommendation": "exclude_from_matching",
+      "comment": "Placeholder or template-like value used as real email.",
+      "evidence_snippet": ""
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV17.json",
+      "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+      "candidate_name": "Kevin Brandon",
+      "field_name": "expertise.summary",
+      "issue_category": "summary_unsupported",
+      "json_value": "Data Scientist with expertise in statistical, algebraic and analytical techniques",
+      "evidence_status": "weak",
+      "severity": "minor",
+      "recommendation": "keep",
+      "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+      "evidence_snippet": "Advancedunderstandingofstatistical, algebraicandotheranalyticaltechniques."
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV17.json",
+      "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+      "candidate_name": "Kevin Brandon",
+      "field_name": "experiences[2].end_date",
+      "issue_category": "experience_unsupported",
+      "json_value": "Oct 2019",
+      "evidence_status": "absent",
+      "severity": "major",
+      "recommendation": "review",
+      "comment": "Experience end_date not clearly supported by source.",
+      "evidence_snippet": "Contact"
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV2.json",
+      "source_path": "data\\raw_cv\\pdf\\CV2.pdf",
+      "candidate_name": "FIRSTLAST",
+      "field_name": "bio.full_name",
+      "issue_category": "identity_template_value",
+      "json_value": "FIRSTLAST",
+      "evidence_status": "placeholder",
+      "severity": "critical",
+      "recommendation": "exclude_from_matching",
+      "comment": "Placeholder or template-like value used as real full_name.",
+      "evidence_snippet": ""
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV2.json",
+      "source_path": "data\\raw_cv\\pdf\\CV2.pdf",
+      "candidate_name": "FIRSTLAST",
+      "field_name": "expertise.summary",
+      "issue_category": "summary_unsupported",
+      "json_value": "Data Science Manager with experience in data regression analysis, customer segmentation, and predictive modeling.",
+      "evidence_status": "weak",
+      "severity": "minor",
+      "recommendation": "keep",
+      "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+      "evidence_snippet": "Ledfull redesign of website with findingsfrom customer segmentation and competitive research, increasing websiteleadsby 225%."
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV2.json",
+      "source_path": "data\\raw_cv\\pdf\\CV2.pdf",
+      "candidate_name": "FIRSTLAST",
+      "field_name": "education[0].year",
+      "issue_category": "education_unsupported",
+      "json_value": "2017-2018",
+      "evidence_status": "weak",
+      "severity": "minor",
+      "recommendation": "keep",
+      "comment": "Education year not clearly grounded in source.",
+      "evidence_snippet": "2015-2016"
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV3.json",
+      "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+      "candidate_name": "Alexander Eakins",
+      "field_name": "bio.email",
+      "issue_category": "identity_template_value",
+      "json_value": "email@youremail.com",
+      "evidence_status": "placeholder",
+      "severity": "critical",
+      "recommendation": "exclude_from_matching",
+      "comment": "Placeholder or template-like value used as real email.",
+      "evidence_snippet": ""
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV3.json",
+      "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+      "candidate_name": "Alexander Eakins",
+      "field_name": "expertise.summary",
+      "issue_category": "summary_unsupported",
+      "json_value": "Data science professional with expertise in data analysis and processing",
+      "evidence_status": "absent",
+      "severity": "major",
+      "recommendation": "review",
+      "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+      "evidence_snippet": "## PROFESSIONAL EXPERIENCE"
+    }
+  ],
+  "profiles": [
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV32.json",
+      "source_path": "data\\raw_cv\\pdf\\CV32.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV32.json",
+      "candidate_name": "None",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7321,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 7,
+      "severity_breakdown": {
+        "critical": 1,
+        "minor": 2,
+        "major": 4
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_unsupported",
+          "field_name": "bio.full_name",
+          "json_value": "None",
+          "evidence_status": "absent",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "full_name not clearly supported by Module 1 source.",
+          "evidence_snippet": "- Office:"
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Visualization, Scientific Computing, Renewable Energy Systems",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "- Departmentof Computer Science."
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].end_date",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "- Cell:"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "Leads NREL's scientific data visualization efforts in support of renewable energy research",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Ilead NREL'sscientificdatavisualizationeffortsinsupportofrenewableenergyresearch, collaboratingwith NRELdomainscientistsinthevisualizationofcomplex, large, multivariate data."
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].end_date",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "- Cell:"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[2].end_date",
+          "json_value": "Feb 2010",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "2009"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[3].start_date",
+          "json_value": "Jun 1999",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience start_date not clearly supported by source.",
+          "evidence_snippet": "1995"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV34.json",
+      "source_path": "data\\raw_cv\\pdf\\CV34.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV34.json",
+      "candidate_name": "Robert Smith",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8455,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 5,
+      "severity_breakdown": {
+        "critical": 2,
+        "minor": 1,
+        "major": 2
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.email",
+          "json_value": "info@qwikresume.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real email.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Architect in a collaborative environment utilizing creativity and technical skills for data modeling, analytics, and solution architecture expertise.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Toobtaln apositlonasa Data Architectina collaborativeenvironment utilizing my creativity and technlcal skills."
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].start_date",
+          "json_value": "2012-04",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience start_date not clearly supported by source.",
+          "evidence_snippet": "ABCCorporation-2012-2014"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].end_date",
+          "json_value": "2014-03",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "ABCCorporation-2012-2014"
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.email",
+          "json_value": "info@qwikresume.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\1_anonyme.json",
+      "source_path": "data\\raw_cv\\docx\\1_anonyme.docx",
+      "artifact_path": "data\\processed_official_module1\\docx\\1_anonyme.json",
+      "candidate_name": "null",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.5315,
+      "module1_quality_flags": [],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "critical": 2,
+        "major": 2
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.full_name",
+          "json_value": "null",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real full_name.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.location",
+          "json_value": "null",
+          "evidence_status": "placeholder",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Placeholder or template-like value used as real location.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.full_name",
+          "json_value": "null",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.location",
+          "json_value": "null",
+          "evidence_status": "placeholder",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\2_image.json",
+      "source_path": "data\\raw_cv\\images\\2_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\2_image.json",
+      "candidate_name": "Alexander Eakins",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6044,
+      "module1_quality_flags": [
+        "unstable_segmentation",
+        "high_ocr_noise"
+      ],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "critical": 2,
+        "major": 2
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.email",
+          "json_value": "email@youremail.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real email.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data analysis and modeling in streaming platforms using statistical techniques.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Springboard Data Science Course-Data Science Capstone Project:Specialized Analysisof Streaming Platform Patterns"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].city",
+          "json_value": "Unknown",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience city not clearly supported by source.",
+          "evidence_snippet": "SKILLS & KNOWLEDGE"
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.email",
+          "json_value": "email@youremail.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV17.json",
+      "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV17.json",
+      "candidate_name": "Kevin Brandon",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7988,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "critical": 2,
+        "minor": 1,
+        "major": 1
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.email",
+          "json_value": "info@resumekraft.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real email.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Scientist with expertise in statistical, algebraic and analytical techniques",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Advancedunderstandingofstatistical, algebraicandotheranalyticaltechniques."
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[2].end_date",
+          "json_value": "Oct 2019",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "Contact"
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.email",
+          "json_value": "info@resumekraft.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV2.json",
+      "source_path": "data\\raw_cv\\pdf\\CV2.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV2.json",
+      "candidate_name": "FIRSTLAST",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8231,
+      "module1_quality_flags": [],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "critical": 2,
+        "minor": 2
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.full_name",
+          "json_value": "FIRSTLAST",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real full_name.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science Manager with experience in data regression analysis, customer segmentation, and predictive modeling.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Ledfull redesign of website with findingsfrom customer segmentation and competitive research, increasing websiteleadsby 225%."
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].year",
+          "json_value": "2017-2018",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "2015-2016"
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.full_name",
+          "json_value": "FIRSTLAST",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV3.json",
+      "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV3.json",
+      "candidate_name": "Alexander Eakins",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7267,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "critical": 2,
+        "major": 2
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.email",
+          "json_value": "email@youremail.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real email.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data science professional with expertise in data analysis and processing",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "## PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].year",
+          "json_value": "2011-2015",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "MAY 2017-AUGU 5 T 2018"
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.email",
+          "json_value": "email@youremail.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\1_image.json",
+      "source_path": "data\\raw_cv\\images\\1_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\1_image.json",
+      "candidate_name": "FIRSTLAST",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7231,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "critical": 2,
+        "major": 1
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.full_name",
+          "json_value": "FIRSTLAST",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real full_name.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science Manager with experience in data analysis, machine learning, and team leadership",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "### RESUMEWORDED Data Science Manager Senior Data Scientist"
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.full_name",
+          "json_value": "FIRSTLAST",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV11.json",
+      "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV11.json",
+      "candidate_name": "First Last",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7882,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "critical": 2,
+        "minor": 1
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.full_name",
+          "json_value": "First Last",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real full_name.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Scientist with experience in analyzing large datasets",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Data Scientistwiththreeyearsofexperienceinanalyzinglargedatasetsandcoming s of 8-12 teammembers."
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.full_name",
+          "json_value": "First Last",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV18.json",
+      "source_path": "data\\raw_cv\\pdf\\CV18.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV18.json",
+      "candidate_name": "Eric Nathan",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6112,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise",
+        "markdown_too_weak"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "critical": 2,
+        "major": 1
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.email",
+          "json_value": "info@resumekraft.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real email.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science and Programming using various tools and languages Professional skilled in data analysis with a strong background in computer science.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Apunctual and hardworkingstudent, veryinterested inlearningnewstuffandresearchfurther tounknown information."
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.email",
+          "json_value": "info@resumekraft.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV36.json",
+      "source_path": "data\\raw_cv\\pdf\\CV36.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV36.json",
+      "candidate_name": "FirstLast",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.862,
+      "module1_quality_flags": [],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "critical": 2,
+        "major": 1
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.full_name",
+          "json_value": "FirstLast",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real full_name.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science and Machine Learning with expertise in SQL and python for analysis and web development.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Major in Computer Science; Minors in Mathematics and Psychology"
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.full_name",
+          "json_value": "FirstLast",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_63.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_63.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_63.json",
+      "candidate_name": "ROBERTSMITH",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7643,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "critical": 2,
+        "minor": 1
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.email",
+          "json_value": "info@qwikresume.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real email.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Expertise in problem solving as a Data Scientist",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Expertiseinproblem solving."
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.email",
+          "json_value": "info@qwikresume.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_64.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_64.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_64.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7532,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "critical": 2,
+        "major": 1
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.email",
+          "json_value": "info@qwikresume.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Placeholder or template-like value used as real email.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data analysis and machine learning for clinical data, physician support, predictive modeling, and quality improvement.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Used machineleaming on the data to createpredictive models regarding IVF outcomes such aslivebirth."
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.email",
+          "json_value": "info@qwikresume.com",
+          "evidence_status": "placeholder",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\4_Jessica.json",
+      "source_path": "data\\raw_cv\\pdf\\4_Jessica.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\4_Jessica.json",
+      "candidate_name": "Jessica",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7082,
+      "module1_quality_flags": [
+        "secondary_pdf_text_empty"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "critical": 1
+      },
+      "audit_status": "critical",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_unsupported",
+          "field_name": "bio.full_name",
+          "json_value": "Jessica",
+          "evidence_status": "absent",
+          "severity": "critical",
+          "recommendation": "exclude_from_matching",
+          "comment": "full_name not clearly supported by Module 1 source.",
+          "evidence_snippet": "## EDUCATION"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\2_anonyme.json",
+      "source_path": "data\\raw_cv\\docx\\2_anonyme.docx",
+      "artifact_path": "data\\processed_official_module1\\docx\\2_anonyme.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7653,
+      "module1_quality_flags": [
+        "markdown_too_weak"
+      ],
+      "issue_count": 7,
+      "severity_breakdown": {
+        "major": 5,
+        "minor": 2
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.location",
+          "json_value": "null",
+          "evidence_status": "placeholder",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Placeholder or template-like value used as real location.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].job_title",
+          "json_value": "VP of Operations at Adsystech 2020-Present, IT Manager at Relax the Back 2017-2020",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Experience job_title not clearly supported by source.",
+          "evidence_snippet": "At Adsystech I amone of three employees that have a key man insurance policy against them."
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].end_date",
+          "json_value": "2021",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "As an early adopter, in 2008 I designed and deployed a hybrid cloud environment in our data center."
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].city",
+          "json_value": "San Diego CALIFORNIA 92128-4505",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience city not clearly supported by source.",
+          "evidence_snippet": "## COMMUNICATION"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].company",
+          "json_value": "Relax the Back 2017-2020",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Experience company not clearly supported by source.",
+          "evidence_snippet": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].end_date",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "Skils"
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.location",
+          "json_value": "null",
+          "evidence_status": "placeholder",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\1_Jessica.json",
+      "source_path": "data\\raw_cv\\pdf\\1_Jessica.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\1_Jessica.json",
+      "candidate_name": "JESSICA CLAIRE",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8483,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 7,
+      "severity_breakdown": {
+        "major": 4,
+        "minor": 3
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Bioinformatics and Data Science Engineer with experience in evaluating bioinformatics data",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Forward-thinking Bioinformaticsand Data Science Engineerwiththerelatedexperienceanddedication tomake a difference toresearch andclinicaloutcomes."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[1]",
+          "json_value": "Collecting feedback and feature requirements from researchers",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "collaborativedata researchprojects"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[2]",
+          "json_value": "Contributing to monthly clinical/molecular data releases",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Build Red Capformsforclinical data abstraction"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[3]",
+          "json_value": "Developing pipelines in a Linux-based environment and DNAnexus",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Collaboratewithteammemberstoimplementpipelinesina Linuxbasedenvironmentand DNAnexus, ultimatelyuploadingmoleculardata toa My SQLdatabase"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[4]",
+          "json_value": "Translating/piloting common bioinformatics tools for non-bioinformatics biologists and clinicians",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Translating/pilotingcommonbioinformaticstoolsto applicationssuitablefornon-bioinformatics biologistsand clinicianstoquery andinterpretthemolecular/clinical data"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].city",
+          "json_value": "San Diego, CA",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience city not clearly supported by source.",
+          "evidence_snippet": "SanDieg0,CA·05/2018-12/2018"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[2].responsibilities[2]",
+          "json_value": "Following QA/QC/UAT procedures to validate cancer-related clinical data",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Follow QA/QC/UATprocedurestovalidatecancerrelatedclinicaldataforcustomersonabi-weekly basis"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV26.json",
+      "source_path": "data\\raw_cv\\pdf\\CV26.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV26.json",
+      "candidate_name": "Karina Blick",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7521,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise"
+      ],
+      "issue_count": 7,
+      "severity_breakdown": {
+        "major": 7
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science and Analytics with expertise in tools, programming languages, database concepts, data manipulation, machine learning, and statistical methods.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Design advanced analyticsmodelsincluding predictivemodeling andmachine learning to answer the business and operational question at hand"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].end_date",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "SKILLS"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].start_date",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience start_date not clearly supported by source.",
+          "evidence_snippet": "SKILLS"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].end_date",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "SKILLS"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[2].start_date",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience start_date not clearly supported by source.",
+          "evidence_snippet": "SKILLS"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[2].end_date",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "SKILLS"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].year",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "SKILLS"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV9.json",
+      "source_path": "data\\raw_cv\\pdf\\CV9.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV9.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6683,
+      "module1_quality_flags": [
+        "low_section_order_coherence"
+      ],
+      "issue_count": 7,
+      "severity_breakdown": {
+        "major": 6,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_unsupported",
+          "field_name": "bio.location",
+          "json_value": "Dublin, leland",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "location not clearly supported by Module 1 source.",
+          "evidence_snippet": "### Rolfs 0 n 2016-2017 Dublin, eland"
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science and Business Analytics",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "### Data Science Intern"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].end_date",
+          "json_value": "2017-Now",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "### Boyle Ltd 2017-Ongoing Dublin, lreiand"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].city",
+          "json_value": "Dublin, leland",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience city not clearly supported by source.",
+          "evidence_snippet": "### Rolfs 0 n 2016-2017 Dublin, eland"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].degree",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education degree not clearly grounded in source.",
+          "evidence_snippet": "vural."
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].school",
+          "json_value": "RMIT University",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education school not clearly grounded in source.",
+          "evidence_snippet": "Native"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].year",
+          "json_value": "2015-2020",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "### Rolfs 0 n 2016-2017 Dublin, eland"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\8_image.json",
+      "source_path": "data\\raw_cv\\images\\8_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\8_image.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.589,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise",
+        "markdown_too_weak",
+        "needs_ocr_repair"
+      ],
+      "issue_count": 6,
+      "severity_breakdown": {
+        "minor": 3,
+        "major": 3
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Scientist with experience in data-driven solutions and predictive modeling",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Data Scientistwith 5+yearsofexperience executingdata-drivensolutionstoincreaseefficiency."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "Analyzed industry trends to predict performance",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- industrytrends, achievinga 15%moreaccuratepredictionofperformancethanpreviousyears"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[2]",
+          "json_value": "Updated company data warehousing techniques",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Updatecompanydatawarehousingtechniquessuchasdatarecallandsegmentation, resulting ina 20%increaseinusabilityfornon-technicalstaffmembers"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[3]",
+          "json_value": "Modernized data streamlining processes",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Modernizedatastreamliningprocesses, resultingina 25%redundancyreduction"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[1]",
+          "json_value": "Used predictive analytics to forecast company sales",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Usedpredictiveanalyticssuchasmachinelearninganddataminingtechniquestoforecast companysalesofnewproductswitha 95%accuracyrate"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[2]",
+          "json_value": "Increased data security by updating encryption and security practices",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Increaseddatasecuritybyupdatingcompanywideencryption, steganography."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV19.json",
+      "source_path": "data\\raw_cv\\pdf\\CV19.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV19.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7107,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise"
+      ],
+      "issue_count": 6,
+      "severity_breakdown": {
+        "minor": 4,
+        "major": 2
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].company",
+          "json_value": "Linkedin, Facebook, and Politech LLC",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Experience company not clearly supported by source.",
+          "evidence_snippet": "Linkedin linkedin."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "Managed client-facing functions of the business...",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Managedall client-facingfunctionsof thebusinessincludingsales, marketing."
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].job_title",
+          "json_value": "Senior Strategist & Data Advisor",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience job_title not clearly supported by source.",
+          "evidence_snippet": "- Nevada State Data Director"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[0]",
+          "json_value": "Created data-targeting-technology-audiosystem",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Createdandimplementeddata, targeting."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[2].responsibilities[0]",
+          "json_value": "Managed technology team...",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "technology."
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].school",
+          "json_value": "College of Social Sciences and International Studies, Study Abroad, Universityof Exeter-United Kingdom",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Education school not clearly grounded in source.",
+          "evidence_snippet": "### Collegeof Social Sciencesand International Studies, Study Abroad"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV30.json",
+      "source_path": "data\\raw_cv\\pdf\\CV30.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV30.json",
+      "candidate_name": "NATASHAHOLLOWAY",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6824,
+      "module1_quality_flags": [
+        "low_section_order_coherence"
+      ],
+      "issue_count": 6,
+      "severity_breakdown": {
+        "major": 6
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_unsupported",
+          "field_name": "bio.location",
+          "json_value": "Dublin, ireland",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "location not clearly supported by Module 1 source.",
+          "evidence_snippet": "### Rolfs 0 n 2016-2017 Dublin, lreland"
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science Intern with experience in data analytics and strategy for scaling startups.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "- ·Developed enterprise data analyticsvision and strategyfor generating an additional cash-flow upto$2 B"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].city",
+          "json_value": "Dublin, ireland",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience city not clearly supported by source.",
+          "evidence_snippet": "### Rolfs 0 n 2016-2017 Dublin, lreland"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].city",
+          "json_value": "Dublin, ireland",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience city not clearly supported by source.",
+          "evidence_snippet": "### Rolfs 0 n 2016-2017 Dublin, lreland"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[2].city",
+          "json_value": "Dublin, ireland",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience city not clearly supported by source.",
+          "evidence_snippet": "### Rolfs 0 n 2016-2017 Dublin, lreland"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].school",
+          "json_value": "RMIT University",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education school not clearly grounded in source.",
+          "evidence_snippet": "Native"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_83.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_83.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_83.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7363,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 6,
+      "severity_breakdown": {
+        "minor": 3,
+        "major": 3
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data visualization and simulation for scientific research",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "http://kenny.gruchalla.org/research.html"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].end_date",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "- Cell:"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "Scientific data visualization support of renewable energy research",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Ilead NREL'sscientificdatavisualizationeffortsin support ofrenewableenergyresearch, collaboratingwith NRELdomainscientistsin thevisualization of complex, large, multivariate data."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[1]",
+          "json_value": "Collaboration with NREL domain scientists",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "### National Renewable Energy Laboratory(NREL),Golden, CO(June 20 o 9-present)"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].end_date",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "- Cell:"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[2].year",
+          "json_value": "1990",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "1995"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\0_image.json",
+      "source_path": "data\\raw_cv\\images\\0_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\0_image.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6838,
+      "module1_quality_flags": [
+        "low_section_order_coherence",
+        "high_ocr_noise"
+      ],
+      "issue_count": 5,
+      "severity_breakdown": {
+        "major": 4,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "create, develop, test and deploy high adaptible diverses service",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Capable ofcreating, developing, testing, anddeployinghighlyadaptivediverseservicestotranslatebusinessand functionalqualificationsintosubstantialdeliverables."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[1]",
+          "json_value": "predictiv modeling",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "## EDUCATION"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[5]",
+          "json_value": "creating deliverables",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Renewable Energy"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[2].responsibilities[1]",
+          "json_value": "provides insights and proposals",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "## CERTIFICATES (IN PROGRESS)"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].year",
+          "json_value": "2016-2020",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "01/2016-05/2018"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV25.json",
+      "source_path": "data\\raw_cv\\pdf\\CV25.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV25.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7283,
+      "module1_quality_flags": [],
+      "issue_count": 5,
+      "severity_breakdown": {
+        "major": 4,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science with expertise in predictive models, machine learning, and data processing using Python, EA Etc.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Pruficient in numerous statistical, machine leaming and doep Pyton, EA 8 elc"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "Used predictive analysis such as machine learning and data mining techniques to forecast company sales of new products with 95% accuracy.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Used predfictive analyais such as machine leaming and data mining techniques to forecas!"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].degree",
+          "json_value": "MA Statistics",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education degree not clearly grounded in source.",
+          "evidence_snippet": "### MA Statisties, University-of Delhi, 2019, 1° Division"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[1].degree",
+          "json_value": "BA Science",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education degree not clearly grounded in source.",
+          "evidence_snippet": "Experience"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[2].degree",
+          "json_value": "High School",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education degree not clearly grounded in source.",
+          "evidence_snippet": "### High Sdhodl, DPS, Commeroe, 2014, 95%"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\7_image.json",
+      "source_path": "data\\raw_cv\\images\\7_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\7_image.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7231,
+      "module1_quality_flags": [
+        "high_ocr_noise",
+        "needs_ocr_repair"
+      ],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "minor": 2,
+        "major": 2
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].job_title",
+          "json_value": "Data Scientist (Academic Project)",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Experience job_title not clearly supported by source.",
+          "evidence_snippet": "## ACADEMIC PROJECTS"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[0]",
+          "json_value": "Developed a Weather API website with Python and Open Weather Map API",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "asimple Pythonlibrary, andthe Open Weather Map A Pltocreateaweathermodelacross 5 O+world cities"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[1]",
+          "json_value": "Performed stock market analysis using Python, pandas, and JSO N APIs",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Cleanedhistoricaldataforover 6 O 0 companies(in NASDA Qand S & P 500),accessing JSO Nendpointsforeachcompanyusing(Python)Pandas"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[1].year",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "- Numpy"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\Hichem_image.json",
+      "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\Hichem_image.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.871,
+      "module1_quality_flags": [],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "minor": 2,
+        "major": 2
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Building data science pipelines with DVC/M Lflow, Git Hub Actions and Docker for ML/DL and AWS applications. Deploying CNN-Bi LSTM intrusion detection systems (NSL-KDD) with >99% accuracy.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Builtend-to-endpipelineswith DVC/M Lflow, Git Hub Actions and Docker;delivereda CNN-Bi LST Mintrusion detectionsystem(~99% accuracy) and production-ready deployments."
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].city",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience city not clearly supported by source.",
+          "evidence_snippet": "## TECHNICAL SKILLS"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].city",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience city not clearly supported by source.",
+          "evidence_snippet": "## TECHNICAL SKILLS"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[1].year",
+          "json_value": "2020-2017",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "2017"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV31.json",
+      "source_path": "data\\raw_cv\\pdf\\CV31.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV31.json",
+      "candidate_name": "Dwight Tate",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7834,
+      "module1_quality_flags": [],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "major": 3,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science and Machine Learning with experience in data analysis and visualization using Python, ggplot2, Hive, Pig, and Tableau.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Providedfrequency andempirical data analysisusing Python (pymorphy 2, re, numpy, matplotlib)"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].start_date",
+          "json_value": "2000-01-01",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience start_date not clearly supported by source.",
+          "evidence_snippet": "02/2019-03/2019"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].start_date",
+          "json_value": "2006-01-01",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience start_date not clearly supported by source.",
+          "evidence_snippet": "02/2019-03/2019"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].end_date",
+          "json_value": "2010-01-01",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "2013-2015"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV35.json",
+      "source_path": "data\\raw_cv\\pdf\\CV35.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV35.json",
+      "candidate_name": "Wenzhe(Evelyn)Xu",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8548,
+      "module1_quality_flags": [
+        "low_section_order_coherence"
+      ],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "minor": 4
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "Transfer commercial goals to data-driven objectives",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Meeting with business colleagues and transfer the commereial goal into data-driven objective"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[1]",
+          "json_value": "Respond to late-added requirements",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Quick response to the later-added requirement from business side"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[0]",
+          "json_value": "Presenting modeling results and data insights through PPT",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Presentation ofthe modeling result and data insight by PPT and building interactive dashboard through Shiny"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[2].responsibilities[0]",
+          "json_value": "Tracking stages according to scheduled timeline",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Project Management: Able to track each stage according to scheduled timeline for an independent project"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_72.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_72.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_72.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.5205,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "low_section_order_coherence",
+        "high_ocr_noise"
+      ],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "major": 2,
+        "minor": 2
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data science and machine learning, business analytics, data processing, natural language processing",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "·Background innatural languageprocessingdesirable"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[2]",
+          "json_value": "Combining data from multiple modalities using AL/ML for novel insights",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- ·Experienceusing Al/MLtocombinedatafrommultiplemodalitiesinthe pursuitofnovel insights"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[0]",
+          "json_value": "Deep understanding of data domains, models and analytics use in at least one industry",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Deepunderstandingofdatadomains, models, andimplicationsfor analyticsuseinatleastoneindustryincludingtelecommunications, cable, finance, media, advertising, orsimilar"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].year",
+          "json_value": "null",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "Skills"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_80.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_80.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_80.json",
+      "candidate_name": "LEATRICEFRIESEN",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6931,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 4,
+      "severity_breakdown": {
+        "major": 3,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "identity_template_value",
+          "field_name": "bio.location",
+          "json_value": "null",
+          "evidence_status": "placeholder",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Placeholder or template-like value used as real location.",
+          "evidence_snippet": ""
+        },
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science and Analytics expertise with experience in Google Cloud Platform, AlchemyPlatform, Kubeflow, Airflow, and PySpark.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "### Experiencewith Google Al Platform/Vertex Al, Kubeflow and Airflow"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "Experience implementingscalable, distributed, and highlry available systems",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "·Experienceimplementingscalable, distributed, andhighly available systems using Google Could Platform"
+        },
+        {
+          "issue_category": "generic_template_field",
+          "field_name": "bio.location",
+          "json_value": "null",
+          "evidence_status": "placeholder",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Template/example value leaked into final profile.",
+          "evidence_snippet": ""
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\0_anonyme.json",
+      "source_path": "data\\raw_cv\\docx\\0_anonyme.docx",
+      "artifact_path": "data\\processed_official_module1\\docx\\0_anonyme.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7472,
+      "module1_quality_flags": [],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "minor": 2,
+        "major": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Electrical engineer with experience in military flight simulators and leadership roles",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Designed electrical systems to be integrated in military flight simulators."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[2].responsibilities[1]",
+          "json_value": "Managed communication between multiple teams",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Manage communication between multiple teams including systems engineering, procurement, manufacturing and software engineering."
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[1].school",
+          "json_value": "University of Evansville",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education school not clearly grounded in source.",
+          "evidence_snippet": "## PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\3_image.json",
+      "source_path": "data\\raw_cv\\images\\3_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\3_image.json",
+      "candidate_name": "Emily Saavedra",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6207,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise",
+        "abnormal_section_titles"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "major": 3
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Scientist with experience in data analysis, forecasting, and management.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Assistedinscientificresearchon DN Acloningand analyzed theresults."
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].school",
+          "json_value": "University of Chichester, Mathematics and Statistics",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education school not clearly grounded in source.",
+          "evidence_snippet": "Mathematicsand Statistics Universityof Chichester"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[1].year",
+          "json_value": "2009-2012",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "10/2016"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\5_image.json",
+      "source_path": "data\\raw_cv\\images\\5_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\5_image.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.5049,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise",
+        "needs_ocr_repair"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "major": 3
+      },
+      "audit_status": "major",
+      "recommendation": "exclude_from_matching",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data scientist with expertise in predictive modeling and analysis of internal data processing.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "accuracy, andutilityofinternaldataprocessing."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[0]",
+          "json_value": "Improving data mining processes by 20%",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Data Mining"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[1]",
+          "json_value": "Using predictive analytics to develop marketing strategies with a 95% accuracy rate",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Usedpredictiveanalyticssuchasmachinelearninganddataminingtechniquestoforecast companysalesofnewproductswitha 95%accuracyrate"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\2_anonyme.json",
+      "source_path": "data\\raw_cv\\pdf\\2_anonyme.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\2_anonyme.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.89,
+      "module1_quality_flags": [],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "minor": 2,
+        "major": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Information Technology Manager with experience in ERP solutions, accounting and HR systems, and cloud environments design and implementation",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "I am a solutions-oriented professional with solid experience in various IT environm ents."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[1]",
+          "json_value": "Promoted to IT Manager after nine months",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "### Project Management"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[3]",
+          "json_value": "Created cyber security policies and controls",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Cyber Security (NIST HITRUST/HIPAA)"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV8.json",
+      "source_path": "data\\raw_cv\\pdf\\CV8.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV8.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.5535,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "major": 2,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data scientist with experience in predictive modeling, data mining, and data management using techniques like machine learning and data engineering.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "DataScientistwith5+yearsofexperience executingdata-driven solutionstoincreaseefficiency accuracy.and utility ofinternal data processing.Experienced atcreatingdataregression models,"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "delivering insights and implementing action-oriented solutions to complex business problems",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "and analyzing data miningalgorithms todeliverinsights and implementaction-orientedsolutionstocomplexbusinessproblems."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[0]",
+          "json_value": "forecasting company's sales of new products with a 95% accuracy rate",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Usedpredictive analyticssuch asmachine learningand dataminingtechniquesto forecast companysalesofnewproductswitha 95%accuracyrate"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_56.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_56.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_56.json",
+      "candidate_name": "Kaylin Quigley",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7875,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "major": 2,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Technical expertise in software development, data analysis, and machine learning.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "- Design and implement systemsfor large-scale data analysis andmachinelearning"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "Developing and maintaining development schedules",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Define and implement best practices and development processes"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[2].responsibilities[0]",
+          "json_value": "Defining and implementing best practices",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Define and implement best practices and development processes"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_77.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_77.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_77.json",
+      "candidate_name": "MARKUSROHAN",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7905,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "major": 2,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Manage data science projects, lead teams, and collaborate with executives to drive business impact through data-driven insights.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "- ·Experiencein conducting analyses todrivebusiness impact"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].job_title",
+          "json_value": "Data Science Intern",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience job_title not clearly supported by source.",
+          "evidence_snippet": "Phoenix, AZ|Data Science 01/2015-05/2018"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[0]",
+          "json_value": "Conducted analyses to drive business impact",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- ·Experiencein conducting analyses todrivebusiness impact"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\6_image.json",
+      "source_path": "data\\raw_cv\\images\\6_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\6_image.json",
+      "candidate_name": "EMILYSAAVEDRA",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.711,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "major": 2
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Scientist with experience in data analysis, forecasting, and data management.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Highlyaccurateandexperienced Data Scientist adeptatcollecting, analyzing, andinterpreting large datasets, developing new forecasting models, andperformingdatamanagementtasks."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[0]",
+          "json_value": "Conducted reports and managed large datasets",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Collected, analyzed, andinterpretedrawdata fromvariouswebsites."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Aziz_resume.json",
+      "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Aziz_resume.json",
+      "candidate_name": "MOHAMED AZIZ BELAWEID",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7989,
+      "module1_quality_flags": [
+        "low_section_order_coherence"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "major": 1,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[3].end_date",
+          "json_value": "September 2020",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "2020"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].year",
+          "json_value": "2017-2022",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "2022"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV22.json",
+      "source_path": "data\\raw_cv\\pdf\\CV22.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV22.json",
+      "candidate_name": "Warren Taylor",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7508,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "major": 1,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data scientist with experience in developing innovative applications",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Ahighlycompetentdatascientistwithfiveyearsofexperiencedevelopinga widerangeofinnovativeapplicationslike Credit Card Fraud Detection, Stock Sentiment Analysis Model, and Customersupportsystem."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[1]",
+          "json_value": "Identify factors that predict employee performance and benefit from a change in job position using machine learning",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- ·Identifyfactorsthatpredictwhichemployees willhavethebestperformanceandwhichwill benefitfromachangeintheirjobposition usingmachinelearning."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV28.json",
+      "source_path": "data\\raw_cv\\pdf\\CV28.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV28.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8029,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "minor": 1,
+        "major": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Scientist with expertise in Machine Learning, Data Visualization, and Critical Thinking",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "·Excelled inmachinelearninganddatasciencecoursework."
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[1].degree",
+          "json_value": "Bachelor of Science in Statistics",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education degree not clearly grounded in source.",
+          "evidence_snippet": "Statistics"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV29.json",
+      "source_path": "data\\raw_cv\\pdf\\CV29.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV29.json",
+      "candidate_name": "Zelma Kunde",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8373,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "major": 1,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Leading Data Science and Machine Learning initiatives to drive business value through data-driven insights, solutions, and storytelling.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "- ·Lead andgrowthe Data Science & Machine Learning team"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[1]",
+          "json_value": "Knowledgewhich to open source technologies",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Knowledge andexperiencewith open source technologies"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV5.json",
+      "source_path": "data\\raw_cv\\pdf\\CV5.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV5.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6967,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "major": 1,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data management and prediction modeling in industry trends.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Data Management"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].school",
+          "json_value": "University of Arizona/B. S. COMPUTERSCIENCE Universityof California Berkeley, CA/ M. S. STATISTICS Universityof Arizona,Tucs 0 n, AZ/",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Education school not clearly grounded in source.",
+          "evidence_snippet": "B.S.COMPUTERSCIENCE UniversityofArizona,"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV6.json",
+      "source_path": "data\\raw_cv\\pdf\\CV6.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV6.json",
+      "candidate_name": "EMILY SAAVEDRA",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7713,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "major": 1,
+        "minor": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Scientist with experience in data analysis and management.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "### Data Scientist, London, United Kingdom"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[0]",
+          "json_value": "Conducted reports and performed accurate data management",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Collected, studied, andinterpreted large datasets;conductedreports;performed accurate, successfuldatamanagement."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_76.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_76.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_76.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.5142,
+      "module1_quality_flags": [
+        "low_section_order_coherence",
+        "high_ocr_noise",
+        "markdown_too_weak"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "major": 2
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science Director with experience in creating product roadmaps and collaborating with stakeholders to drive data science initiatives.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "- ·Product Roadmap Creation/Collaboration"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].job_title",
+          "json_value": "Data Scientist",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience job_title not clearly supported by source.",
+          "evidence_snippet": "## EDUCATION"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\1901841_RESUME.json",
+      "source_path": "data\\raw_cv\\pdf\\1901841_RESUME.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\1901841_RESUME.json",
+      "candidate_name": "ANUVA GOYAL",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7575,
+      "module1_quality_flags": [
+        "low_section_order_coherence"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "major": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[1].end_date",
+          "json_value": "August 2021",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Experience end_date not clearly supported by source.",
+          "evidence_snippet": "(Oct 2021)"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV13.json",
+      "source_path": "data\\raw_cv\\pdf\\CV13.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV13.json",
+      "candidate_name": "John Doe",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.5201,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "low_section_order_coherence",
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "major": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Delivering valuable data analytics through predictive modeling and data retrieval methods to help companies advance by developing strategic plans.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Accomplished Data Scientistwithapassionfordeliveringvaluabledata through analyticalfunctionsanddataretrieval methods."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV42.json",
+      "source_path": "data\\raw_cv\\pdf\\CV42.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV42.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6814,
+      "module1_quality_flags": [
+        "low_section_order_coherence",
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "major": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Director of data science with expertise in continuous integration and machine learning.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "- ·Experienceworkingwithcoderepositories andcontinuousintegration (Git/Jenkins)"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV7.json",
+      "source_path": "data\\raw_cv\\pdf\\CV7.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV7.json",
+      "candidate_name": "Justine Hendrickson",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.763,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "major": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].year",
+          "json_value": "2017-2021",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "### Universityof Houston September 2017-May 2021 Houston, TX"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_62.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_62.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_62.json",
+      "candidate_name": "Rachelle Thompson",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.55,
+      "module1_quality_flags": [
+        "low_section_order_coherence",
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "major": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data analysis and data science consultant with expertise in strategy development and technical skills.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Academic Excellencein Computer Studiesand Technical Sciences"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_78.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_78.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_78.json",
+      "candidate_name": "ROXANNA HERZOG",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.5746,
+      "module1_quality_flags": [
+        "low_section_order_coherence",
+        "high_ocr_noise",
+        "markdown_too_weak"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "major": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science professional with experience in database technology, query languages, and predictive modeling techniques",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "·Hands-onworkorclassroomexperiencewithlogisticregression, time series, forecasting, andotherpredictivemodelingtechniques"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_79.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_79.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_79.json",
+      "candidate_name": "Renato Dietrich",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7307,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "major": 1
+      },
+      "audit_status": "major",
+      "recommendation": "review",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Expert in building and growing teams, managing data science teams, teaching technology and business.",
+          "evidence_status": "absent",
+          "severity": "major",
+          "recommendation": "review",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "- Experiencemanaging a Data Science Team"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV10.json",
+      "source_path": "data\\raw_cv\\pdf\\CV10.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV10.json",
+      "candidate_name": "Wenzhe(Evelyn)Xu",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8428,
+      "module1_quality_flags": [
+        "low_section_order_coherence"
+      ],
+      "issue_count": 3,
+      "severity_breakdown": {
+        "minor": 3
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data scientist with expertise in machine learning, data analysis, and data engineering",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Data Scientist Intern,MasterCard Inc.San Car/os, C4"
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].city",
+          "json_value": "San Carlos",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Experience city not clearly supported by source.",
+          "evidence_snippet": "San Car/os, C 4"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[2]",
+          "json_value": "Built PPT for presentation and interactive dashboard",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Presentation ofthe modeling result and data insight by PPT and building interactive dashboard through Shiny"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\resume_khairi.json",
+      "source_path": "data\\raw_cv\\docx\\resume_khairi.docx",
+      "artifact_path": "data\\processed_official_module1\\docx\\resume_khairi.json",
+      "candidate_name": "Khaireddine Suibgui",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.887,
+      "module1_quality_flags": [],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "minor": 2
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science engineer with a solid foundation in delivering actionable insights and applying expertise in professional environments",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "As a Data Science engineer graduated from TEK-UP university, I have developed a solid foundation in my field to deliver actionable insights."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[1]",
+          "json_value": "Integrated an intelligent system to predict potential injuries and provide personalized training recommendations",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Designed and developed a web application for managing players’ personal and sports data, integrating an intelli- gent system to predict potential injuries and provide personalized training recommendations."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV1.json",
+      "source_path": "data\\raw_cv\\pdf\\CV1.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV1.json",
+      "candidate_name": "Diana Dawa",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7333,
+      "module1_quality_flags": [
+        "low_section_order_coherence",
+        "high_ocr_noise"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "minor": 2
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data scientist with experience in building data-intensive applications and overcoming complex architectural and scalability issues",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Data Scientistwith 4+yearsofbroad-basedexperienceinbuildingdata-intensive applications, overcoming complexarchitectural, andscalabilityissuesindiverseindustries."
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[1]",
+          "json_value": "Drive the interaction and partnership between managers to ensure active cooperation in identifying analytical needs",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "- Drivetheinteractionandpartnershipbetweenthemanagers toensure activecooperation inidentifying aswellasdefining analyticalneeds, andgeneratingthepull-throughofinsights with the business."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV40.json",
+      "source_path": "data\\raw_cv\\pdf\\CV40.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV40.json",
+      "candidate_name": "Truc Viet Le",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7009,
+      "module1_quality_flags": [
+        "low_section_completeness",
+        "high_ocr_noise",
+        "markdown_too_weak"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "minor": 2
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Developing predictive models for mobility data, visualizing large and complex mobility data",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Iam alsointerestedinvisualizinglargeandcomplexmobilitydata."
+        },
+        {
+          "issue_category": "experience_unsupported",
+          "field_name": "experiences[0].job_title",
+          "json_value": "Research Student",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Experience job_title not clearly supported by source.",
+          "evidence_snippet": "Research Interests"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_71.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_71.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_71.json",
+      "candidate_name": "Clara Boyer",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.4807,
+      "module1_quality_flags": [
+        "low_text_recovery",
+        "low_section_order_coherence",
+        "high_ocr_noise",
+        "markdown_too_weak"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "minor": 2
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data science and leadership experience with cloud computing infrastructure",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "·Experience inbuilding software on cloud computing infrastructure such Aw S or GCP"
+        },
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[1].responsibilities[0]",
+          "json_value": "Experienced in various cluster techniques; includedk-means, factorial analysis,discriminateanalysis",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "·Experiencedinvariousclustertechniquesinrealworldbusinessapplications, includingk-means, factorial analysis, discriminateanalysis"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_75.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_75.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_75.json",
+      "candidate_name": "Somik Raha",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7961,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 2,
+      "severity_breakdown": {
+        "minor": 2
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[0].year",
+          "json_value": "2004-2010",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "- Sep 2004-Jun 2010"
+        },
+        {
+          "issue_category": "education_unsupported",
+          "field_name": "education[1].year",
+          "json_value": "1995-1999",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Education year not clearly grounded in source.",
+          "evidence_snippet": "Sep 1995-Aug 1999"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\4_image.json",
+      "source_path": "data\\raw_cv\\images\\4_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\4_image.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6207,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise",
+        "abnormal_section_titles"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Scientist with experience in collecting, analyzing, and interpreting large datasets, developing forecasting models, and performing data management tasks.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "Highlyaccurateandexperienced Data Scientistadept atcollecting, analyzing, andinterpretinglarge datasets, developingnewforecastingmodels, and performingdatamanagementtasks."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\9_image.json",
+      "source_path": "data\\raw_cv\\images\\9_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\9_image.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6906,
+      "module1_quality_flags": [
+        "partial_section_completeness",
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science Intern with experience in enterprise data analytics and vision; developing strategic marketing campaigns to increase campaign revenue.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "- Developed enterprise data analyticsvisionandstrategy for generating an additional cash-flow up to$2 B"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\0_Jessica.json",
+      "source_path": "data\\raw_cv\\pdf\\0_Jessica.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\0_Jessica.json",
+      "candidate_name": "Jessica Claire",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.76,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Technology Leadership and Innovation, Predictive Analytics, Data Science, and Engineering",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Technology Leadershipand Innovation"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\3_anonyme.json",
+      "source_path": "data\\raw_cv\\pdf\\3_anonyme.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\3_anonyme.json",
+      "candidate_name": "Kevin L. Trostle",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7815,
+      "module1_quality_flags": [
+        "low_section_completeness",
+        "abnormal_section_titles"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "experience_responsibility_unsupported",
+          "field_name": "experiences[0].responsibilities[1]",
+          "json_value": "Supervise personnel",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Responsibility appears rewritten beyond clear evidence.",
+          "evidence_snippet": "Trained and supervised personnel."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV15.json",
+      "source_path": "data\\raw_cv\\pdf\\CV15.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV15.json",
+      "candidate_name": "Trisha Stamm",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7242,
+      "module1_quality_flags": [
+        "low_section_order_coherence",
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data scientist with expertise in data modeling, machine learning, statistics, and data visualization.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "- ·Excelled inmachinelearning anddatasciencecoursework."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV20.json",
+      "source_path": "data\\raw_cv\\pdf\\CV20.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV20.json",
+      "candidate_name": "Trish Mathers",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8155,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science, Quantitative Modeling and Machine Learning with SAS, SQL, Python, Excel, Google Sheets",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Data Visualization:Excel Google Sheets"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV24.json",
+      "source_path": "data\\raw_cv\\pdf\\CV24.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV24.json",
+      "candidate_name": "Trisha Stamm",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8017,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Scientist and leader in machine learning.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "Machine Learning"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV37.json",
+      "source_path": "data\\raw_cv\\pdf\\CV37.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV37.json",
+      "candidate_name": "JefferyGorczany",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7026,
+      "module1_quality_flags": [
+        "low_section_order_coherence"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data science director with expertise in statistical algorithms development and predictive modeling using Python and AWS.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "- ·Strong hands-on experience in Python with the focus being on statistical algorithms development"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV4.json",
+      "source_path": "data\\raw_cv\\pdf\\CV4.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV4.json",
+      "candidate_name": "Emily Saavedra",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7093,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Scientist with extensive analytical skills and strong attention to detail.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "### Participated inmonthlymeetingswithexecutives, provided informationontheprogress."
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV41.json",
+      "source_path": "data\\raw_cv\\pdf\\CV41.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV41.json",
+      "candidate_name": "Julio Cremin",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7823,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science Consultant with experience in Big Data solutions, web development, and data visualization",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "### Experiencewith Big Data solutions(Hadoop, Spark, No SQL, AWS)will be"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_73.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_73.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_73.json",
+      "candidate_name": "SONA MAYERT",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6788,
+      "module1_quality_flags": [],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data Science with a focus on healthcare analytics and leading data transformation initiatives.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary adds facts not clearly present in Module 1 source.",
+          "evidence_snippet": "- ·Results-oriented leader with a proven trackrecord of leading a data transformationinitiative"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_81.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_81.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_81.json",
+      "candidate_name": "Bree Anderson",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8038,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 1,
+      "severity_breakdown": {
+        "minor": 1
+      },
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": [
+        {
+          "issue_category": "summary_unsupported",
+          "field_name": "expertise.summary",
+          "json_value": "Data science consultant with expertise in data modeling, machine learning optimization and simulation models using Python, R, C++, Java. Familiarity with big data processing and streaming platforms, domain knowledge in airline industry.",
+          "evidence_status": "weak",
+          "severity": "minor",
+          "recommendation": "keep",
+          "comment": "Summary is generic/abstractive and not clearly grounded in source.",
+          "evidence_snippet": "- Practical experience designing andbuildingmachine learning optimizationandsimulationmodels"
+        }
+      ]
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\Aziz_resumer.json",
+      "source_path": "data\\raw_cv\\docx\\Aziz_resumer.docx",
+      "artifact_path": "data\\processed_official_module1\\docx\\Aziz_resumer.json",
+      "candidate_name": "MOHAMED AZIZ BELAWEID",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8147,
+      "module1_quality_flags": [],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\Hichem_resume.json",
+      "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+      "artifact_path": "data\\processed_official_module1\\docx\\Hichem_resume.json",
+      "candidate_name": "Hichem Bensalah",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8878,
+      "module1_quality_flags": [],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\khairi_image.json",
+      "source_path": "data\\raw_cv\\images\\khairi_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\khairi_image.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7849,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\0_anonyme.json",
+      "source_path": "data\\raw_cv\\pdf\\0_anonyme.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\0_anonyme.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7603,
+      "module1_quality_flags": [
+        "low_section_order_coherence"
+      ],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\1_anonyme.json",
+      "source_path": "data\\raw_cv\\pdf\\1_anonyme.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\1_anonyme.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.5665,
+      "module1_quality_flags": [
+        "secondary_pdf_native_text_short"
+      ],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\2_Jessica.json",
+      "source_path": "data\\raw_cv\\pdf\\2_Jessica.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\2_Jessica.json",
+      "candidate_name": "JESSICACLAIRE",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8559,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\AnuvaGoyal_Latex.json",
+      "source_path": "data\\raw_cv\\pdf\\AnuvaGoyal_Latex.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\AnuvaGoyal_Latex.json",
+      "candidate_name": "ANUVA GOYAL",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.718,
+      "module1_quality_flags": [
+        "low_section_order_coherence"
+      ],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV12.json",
+      "source_path": "data\\raw_cv\\pdf\\CV12.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV12.json",
+      "candidate_name": "Paul Desmond",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8179,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV23.json",
+      "source_path": "data\\raw_cv\\pdf\\CV23.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV23.json",
+      "candidate_name": "Anne Lounsberry",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.6877,
+      "module1_quality_flags": [],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV38.json",
+      "source_path": "data\\raw_cv\\pdf\\CV38.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV38.json",
+      "candidate_name": "Stephen Greet",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7039,
+      "module1_quality_flags": [
+        "low_section_order_coherence"
+      ],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Hichem_resume.json",
+      "source_path": "data\\raw_cv\\pdf\\Hichem_resume.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Hichem_resume.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.9515,
+      "module1_quality_flags": [],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_60.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_60.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_60.json",
+      "candidate_name": "EMILYSAAVEDRA",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.8095,
+      "module1_quality_flags": [
+        "high_ocr_noise"
+      ],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_70.json",
+      "source_path": "data\\raw_cv\\pdf\\Image_70.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_70.json",
+      "candidate_name": "MILDREDZEMLAK",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.7063,
+      "module1_quality_flags": [],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\candidate_018.json",
+      "source_path": "data\\raw_cv\\pdf\\candidate_018.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\candidate_018.json",
+      "candidate_name": "<unknown>",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.4787,
+      "module1_quality_flags": [
+        "low_section_completeness"
+      ],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\candidate_042.json",
+      "source_path": "data\\raw_cv\\pdf\\candidate_042.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\candidate_042.json",
+      "candidate_name": "Ryan Nelson",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.562,
+      "module1_quality_flags": [
+        "low_text_recovery",
+        "markdown_too_weak"
+      ],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    },
+    {
+      "profile_file": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\khairi_resume.json",
+      "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\khairi_resume.json",
+      "candidate_name": "Khaireddine Suibgui",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "module1_document_status": "validated",
+      "module1_confidence_score": 0.9449,
+      "module1_quality_flags": [],
+      "issue_count": 0,
+      "severity_breakdown": {},
+      "audit_status": "acceptable",
+      "recommendation": "keep",
+      "issues": []
+    }
+  ]
+}

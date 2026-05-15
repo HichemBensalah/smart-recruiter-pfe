@@ -1,0 +1,52 @@
+## HEADER
+
+Kenny Gruchalla Curriculum Vitae
+
+## EDUCATION
+
+Personal Information
+(available uponrequest)
+Postal Address:
+### Denver, CO 80205
+- Office:
+- Cell:
+- gruchalla@gmail. com
+- E-mail:
+- http://kenny. gruchalla. org/research. html
+- Web:
+### Ph. D. Computer Science, Universityof Coloradoat Boulder, Boulder, CO.
+**Date:** 2009
+- Thesis:Progressive Visualization-Driven Multivariate Feature Definition and Analysis Advisor:Prolessor Elizabeth Bradley GPA:3. 9/4. 0
+### M. S. Computer Science, Universityof Colorado at Boulder, Boulder, CO.
+**Date:** 1995
+- Thesis:Immersive Well-Path Planning:Irvestigating theaddedvalueofimmersivevisualization Advisor:Professor Clayton Lewis
+- GPA:3. 9/4. 0
+B. S. Computer Science, New Mexico Institute of Mining and Technology, Socorro, NM. GPA:3. 5/4. 0
+
+## PROFESSIONAL EXPERIENCE
+
+Experience
+### National Renewable Energy Laboratory(NREL),Golden, CO(June 20 o 9-present)
+- Senior Scientist.
+- Jun 2009-present
+Ilead NREL'sscientificdatavisualizationeffortsin support ofrenewableenergyresearch, collaboratingwith NRELdomainscientistsin thevisualization of complex, large, multivariate data.
+### Universityof Coloradoat Boulder, Boulder, CO（April 2001-present)
+### Assistant Professor Adjunct,
+- May 2011-present
+- Departmentof Computer Science.
+- Iconductresearchandoverseestudentresearchinscientificdatavisualization.
+### Professional Research Assistant,
+**Date:** Jan 2004-Aug 2004
+- Apr 2001-Mar 2006
+- Jul 2002-Aug 2003
+- KGruchall
+
+## TECHNICAL SKILLS
+
+CADSw ES(Centerfor Advanced Decision Supportfor Waterand Environmental Systems). mercialgraphically-based decision support software system implementing object-oriented simulation, rule-basedsimulation, andlinearoptimization tomodel watershedphysicalpro- cesses, waterownership, and policy.
+Professional Research Assistant,
+Departmentof Molecular, Cellular, and Developmental Biology.
+Icollaborated on thedesignanddevelopmentofapilotstudy toinvestigate theaddedvalue ofusingimmersivevisualizationasa molecularresearch tool.
+Graduate Research Assistant,
+BPCenterfor Visualization.
+Idesignedanddevelopedaninteractive 3 Dimmersive applicationcapableof integratingge- ological, geophysical, reservoirandwelldatawithdrillingandplatformplanninginanimmer- sivevirtualerwironment.

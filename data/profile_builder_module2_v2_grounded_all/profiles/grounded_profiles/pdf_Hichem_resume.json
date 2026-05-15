@@ -1,0 +1,270 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hichem_resume.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hichem_resume.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.9515,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nhichem. salah 1512@gmail.com +216 97 118 755\nAriana, Tunisia\nhttps: //www.linkedin.com/in/hichem-bensalah-7173 b 0335/github.com/Hichem Bensalah\n\n## PROFESSIONAL SUMMARY\n\nHichem Bensalah Final-year Data Science & AI Engineering Student, Tek-Up University\n\n## TECHNICAL SKILLS\n\nProgramming Languages\nPython: NumPy, Pandas, scikit-learn, Matplotlib, Seaborn\nOther: R, Java, JavaScript, C, C++, C#\nMLOps, Deployment & Cloud\nDevOps/CI/CD: Docker, Git, GitHub, GitHub Actions (CI/CD)\nDeployment Tools: Flask, FastAPI, Streamlit\nFrameworks: TensorFlow, Keras, PyTorch\nCloud (AWS): S 3, EC 2, SageMaker (AWS SAA preparation)\nData Engineering & Databases\nBI & ETL Tools: ETL, Power BI, SSIS, SSRS, SQL Server\nDatabases: MySQL, PostgreSQL, MongoDB, Neo4j, Oracle, Apache Cassandra (NoSQL)\nBig Data & Distributed Processing: Apache Spark, PySpark (RDD, DataFrames, Spark SQL)\nTelco Churn - End-to-End ML & MLOps Pipeline, Tek-Up University\n\n## EDUCATION\n\n## Engineering Degree - Data Science & AI | Tek-Up University\n**Date: ** 2023 - 2026\n## Civil Engineering Studies (ENIG) | ENIG Gabès\n**Date: ** 2020 - 2022\n## Preparatory Cycle in Engineering| FSS Sfax\n**Date: ** 2017 - 2020\n## Baccalauréat in Mathematics| Skhira-Sfax\n**Date: ** 2017\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning: classification, regression, clustering, anomaly detection\nNeural Networks: ANN, CNN, RNN (LSTM, GRU)\nTransfer Learning: feature extraction, fine-tuning\nGenerative Models: GAN, VAE, Diffusion Models\nSentiment Analysis (IMDb) - Deep Learning CNN/LSTM (Keras/TensorFlow), Tek-Up University\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nCV: OpenCV, YOLO, image/video processing (Tensor RT)\nNLP: spaCy (tokenization, lemmatization), NLTK, embeddings (Word 2 Vec, GloVe, fastText), Transformers (Hugging Face), LLMs\n\n## IDES & SOFTWARE\n\nVS Code | Jupyter | Git | Anaconda\n\n## PROFESSIONAL EXPERIENCE\n\n## AI & Data Science Intern, TUDIGISEC, TDS Global Technologies\n**Date: ** 07/2025 - 09/2025\n**Location: ** Tunis, Tunisia\n- Delivered a Flask + Flask-Socket IO web demo with tested/predict API and basic real-time interface.\n- Final-year Data Science & AI Engineering student ( PFE Jan-Jun 2026 ) focused on ML/DL, MLOps and AWS . Built end-to-end pipelines with DVC/MLflow, GitHub Actions and Docker; delivered a CNN-BiLSTM intrusion detection system ( ~99% accuracy ) and production-ready deployments .\n- Built a CNN-BiLSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy .\n- Implemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports).\n## Summer Training, Tek-Up University\n**Date: ** 07/2024 - 08/2024\n**Location: ** Ariana, Tunisia\n- Developed a web scraping module to automatically collect reviews starting from a movie title.\n- Python ( PCAP prep ) & Java ( OCA prep ): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints.\n- Built an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews, including preprocessing, training and evaluation.\n\n## ACADEMIC PROJECTS\n\n## Business Intelligence Project - Autism Prediction, Tek-Up University\n**Date: ** 11/2025\n- Developed a BI solution to predict autism likelihood using medical and behavioural data from Kaggle .\n- Used Docker and GitHub Actions CI/CD to test and build the FastAPI service for local deployment in a production-like environment.\n- Added monitoring and drift reports on locally served predictions to detect model degradation over time and support timely retraining .\n- Used SQL Server and Power BI for data preparation and interactive dashboards, and deployed Decision Tree, Random Forest and XGBoost models as a Flask web application .\n- Wrapped the model in a FastAPI service and integrated it with an LLM chatbot (Groq API) that orchestrates scraping and prediction.\n- Versioned data and models with DVC and tracked experiments in MLflow, ensuring reproducible churn prediction training .\n\n## LANGUAGES\n\nArabic (Native), French (Fluent), English (Professional - B 1-B 2)\n\n## SOFT SKILLS\n\nProblem-solving | Teamwork | Communication | Critical thinking\n\n## CERTIFICATES (IN PROGRESS)\n\nPCAP | AWS CCP | AWS ML Eng-Assoc.\nHEADER\nhichem.salah1512@gmail.com +216 97 118 755\nAriana, Tunisia\nhttps: //www.linkedin.com/in/hichem-bensalah-7173b0335/\ngithub.com/HichemBensalah\nPROFESSIONAL SUMMARY\nHichem Bensalah Final-year Data Science & AI Engineering Student, Tek-Up University\nTECHNICAL SKILLS\nProgramming Languages\nPython: NumPy, Pandas, scikit-learn, Matplotlib, Seaborn\nOther: R, Java, JavaScript, C, C++, C#\nMLOps, Deployment & Cloud\nDevOps / CI/CD: Docker, Git, GitHub, GitHub Actions (CI/CD)\nDeployment Tools: Flask, FastAPI, Streamlit\nFrameworks: TensorFlow, Keras, PyTorch\nCloud (AWS): S3, EC2, SageMaker (AWS SAA preparation)\nData Engineering & Databases\nBI & ETL Tools: ETL, Power BI, SSIS, SSRS, SQL Server\nDatabases: MySQL, PostgreSQL, MongoDB, Neo4j, Oracle, Apache Cassandra (NoSQL)\nBig Data & Distributed Processing: Apache Spark, PySpark (RDD, DataFrames, Spark SQL)\nTelco Churn - End-to-End ML & MLOps Pipeline, Tek-Up University\nEDUCATION\nEngineering Degree - Data Science & AI | Tek-Up University\n2023 - 2026\nCivil Engineering Studies (ENIG) | ENIG Gabès\n2020 - 2022\nPreparatory Cycle in Engineering| FSS Sfax\n2017 - 2020\nBaccalauréat in Mathematics| Skhira-Sfax\n2017\nMACHINE LEARNING & DEEP LEARNING\nMachine Learning: classification, regression, clustering, anomaly detection\nNeural Networks: ANN, CNN, RNN (LSTM, GRU)\nTransfer Learning: feature extraction, fine-tuning\nGenerative Models: GAN, VAE, Diffusion Models\nSentiment Analysis (IMDb) - Deep Learning CNN/LSTM (Keras/TensorFlow), Tek-Up University\nCOMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\nCV: OpenCV, YOLO, image/video processing (TensorRT)\nNLP: spaCy (tokenization, lemmatization), NLTK, embeddings (Word2Vec, GloVe, fastText), Transformers (Hugging Face), LLMs\nIDES & SOFTWARE\nVS Code | Jupyter | Git | Anaconda\nPROFESSIONAL EXPERIENCE\nAI & Data Science Intern, TUDIGISEC, TDS Global Technologies\n07/2025 - 09/2025\nTunis, Tunisia\nDelivered a Flask + Flask-SocketIO web demo with tested /predict API and basic real-time interface.\nFinal-year Data Science & AI Engineering student ( PFE Jan-Jun 2026 ) focused on ML/DL, MLOps and AWS . Built end-to-end pipelines with DVC/MLflow, GitHub Actions and Docker; delivered a CNN-BiLSTM intrusion detection system ( ~99% accuracy ) and production-ready deployments .\nBuilt a CNN-BiLSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy .\nImplemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports).\nSummer Training, Tek-Up University\n07/2024 - 08/2024\nAriana, Tunisia\nDeveloped a web scraping module to automatically collect reviews starting from a movie title.\nPython ( PCAP prep ) & Java ( OCA prep ): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints.\nBuilt an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews, including preprocessing, training and evaluation.\nACADEMIC PROJECTS\nBusiness Intelligence Project - Autism Prediction, Tek-Up University\n11/2025\nDeveloped a BI solution to predict autism likelihood using medical and behavioural data from Kaggle .\nUsed Docker and GitHub Actions CI/CD to test and build the FastAPI service for local deployment in a production-like environment.\nAdded monitoring and drift reports on locally served predictions to detect model degradation over time and support timely retraining .\nUsed SQL Server and Power BI for data preparation and interactive dashboards, and deployed Decision Tree, Random Forest and XGBoost models as a Flask web application .\nWrapped the model in a FastAPI service and integrated it with an LLM chatbot (Groq API) that orchestrates scraping and prediction.\nVersioned data and models with DVC and tracked experiments in MLflow, ensuring reproducible churn prediction training .\nLANGUAGES\nArabic (Native), French (Fluent), English (Professional - B1-B2)\nSOFT SKILLS\nProblem-solving | Teamwork | Communication | Critical thinking\nCERTIFICATES (IN PROGRESS)\nPCAP | AWS CCP | AWS ML Eng-Assoc.",
+    "header_info": {
+      "full_name": "Ariana, Tunisia",
+      "email": "1512@gmail.com",
+      "phone": "+216 97 118 755",
+      "location": "Ariana, Tunisia",
+      "linkedin": "www.linkedin.com/in/hichem-bensalah-7173",
+      "github": "github.com/Hichem"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9903,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "education[3].degree",
+      "education[3].institution",
+      "education[3].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[33]",
+      "expertise.hard_skills[34]",
+      "expertise.hard_skills[35]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Hichem Bensalah",
+      "email": "hichem.salah1512@gmail.com",
+      "phone": "+216 97 118 755",
+      "location": "Ariana, Tunisia",
+      "linkedin": "https://www.linkedin.com/in/hichem-bensalah-7173b0335/",
+      "github": "github.com/HichemBensalah"
+    },
+    "expertise": {
+      "summary": "Final-year Data Science & AI Engineering Student, Tek-Up University",
+      "experience_level": "junior",
+      "years_experience": 1,
+      "hard_skills": [
+        "Python",
+        "R",
+        "Java",
+        "JavaScript",
+        "C",
+        "C++",
+        "C#",
+        "NumPy",
+        "Pandas",
+        "scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "Docker",
+        "Git",
+        "GitHub",
+        "GitHub Actions",
+        "Flask",
+        "FastAPI",
+        "Streamlit",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "AWS",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Neo4j",
+        "Oracle",
+        "Apache Cassandra",
+        "Apache Spark",
+        "PySpark",
+        "OpenCV",
+        "YOLO",
+        "spaCy",
+        "NLTK",
+        "Transformers"
+      ],
+      "soft_skills": [
+        "Problem-solving",
+        "Teamwork",
+        "Communication",
+        "Critical thinking"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "TUDIGISEC, TDS Global Technologies",
+        "job_title": "AI & Data Science Intern",
+        "start_date": "07/2025",
+        "end_date": "09/2025",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Delivered a Flask + Flask-Socket IO web demo with tested/predict API and basic real-time interface.",
+          "Built end-to-end pipelines with DVC/MLflow, GitHub Actions and Docker; delivered a CNN-BiLSTM intrusion detection system ( ~99% accuracy ) and production-ready deployments .",
+          "Built a CNN-BiLSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy .",
+          "Implemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports)."
+        ]
+      },
+      {
+        "company": "Tek-Up University",
+        "job_title": null,
+        "start_date": "07/2024",
+        "end_date": "08/2024",
+        "city": "Ariana, Tunisia",
+        "responsibilities": [
+          "Developed a web scraping module to automatically collect reviews starting from a movie title.",
+          "Python ( PCAP prep ) & Java ( OCA prep ): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints.",
+          "Built an LSTM-based sentiment analysis pipeline (Keras/TensorFlow) on IMDb movie reviews, including preprocessing, training and evaluation."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Tek-Up University",
+        "degree": "Engineering Degree - Data Science & AI",
+        "field": null,
+        "year": "2023-2026"
+      },
+      {
+        "institution": "ENIG Gabès",
+        "degree": "Civil Engineering Studies",
+        "field": null,
+        "year": "2020-2022"
+      },
+      {
+        "institution": "FSS Sfax",
+        "degree": "Preparatory Cycle in Engineering",
+        "field": null,
+        "year": "2017-2020"
+      },
+      {
+        "institution": "Skhira-Sfax",
+        "degree": "Baccalauréat in Mathematics",
+        "field": null,
+        "year": "2017"
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "certifications": [
+      "PCAP",
+      "AWS CCP",
+      "AWS ML Eng-Assoc"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:46:03.246687+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.729853+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

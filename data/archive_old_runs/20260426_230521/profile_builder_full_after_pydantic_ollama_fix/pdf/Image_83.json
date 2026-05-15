@@ -1,0 +1,78 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_83.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_83.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:Image_83",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Kenny Gruchalla",
+      "email": null,
+      "phone": "",
+      "location": "Denver,CO80205"
+    },
+    "expertise": {
+      "summary": "Senior Scientific Specialist",
+      "hard_skills": [],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "SeniorScientist",
+        "company": "National Renewable Energy Laboratory (NREL)",
+        "start_date": null,
+        "end_date": null,
+        "city": "Golden, CO",
+        "responsibilities": []
+      },
+      {
+        "job_title": "AssistantProfessorAdjunct",
+        "company": "University of Colorado at Boulder",
+        "start_date": "April 2001",
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Professional Research Assistant",
+        "company": "---",
+        "start_date": "Jan 2004",
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "University of Colorado at Boulder",
+        "year": null
+      },
+      {
+        "degree": "Ph.D.",
+        "school": "University of Colorado at Boulder",
+        "year": "2009"
+      },
+      {
+        "degree": "M.S.",
+        "school": "University of Colorado at Boulder",
+        "year": "1995"
+      },
+      {
+        "degree": "B.S.",
+        "school": "New Mexico Institute of Mining and Technology",
+        "year": "1990"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:50:33.662871+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7363
+    }
+  }
+}

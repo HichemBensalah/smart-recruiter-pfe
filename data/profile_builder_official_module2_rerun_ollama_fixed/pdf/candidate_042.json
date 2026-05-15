@@ -1,0 +1,52 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\candidate_042.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\candidate_042.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:candidate_042",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ryan Nelson",
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Software developer with experience in machine learning projects",
+      "hard_skills": [
+        "Software Engineering",
+        "Python",
+        "Java",
+        "C programming"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Software Developer",
+        "company": "Accenture",
+        "start_date": "Apr 2019",
+        "end_date": "Dec 2020",
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "B. Tech Computer Science",
+        "school": "JNTU",
+        "year": "2019"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:21:07.962527+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.562
+    }
+  }
+}

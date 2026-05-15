@@ -1,0 +1,68 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_60.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_60.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T112502Z",
+  "profile": {
+    "source_id": "emilysaavedra@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "EMILYSAAVEDRA",
+      "email": "emilysaavedra@gmail.com",
+      "phone": "07835150056",
+      "location": "London B 220 GX, United Kingdom"
+    },
+    "expertise": {
+      "summary": "Data Scientist adept at collecting, analyzing, and interpreting large datasets, developing new forecasting models, and performing data management tasks.",
+      "hard_skills": [
+        "Microsoft Office",
+        "MSSQL Server",
+        "Sisense",
+        "Zoho Analytics",
+        "Good Data",
+        "Qlik Sense"
+      ],
+      "soft_skills": [
+        "Accuracy",
+        "Analytical Skills",
+        "Detail Orientation",
+        "Good Team Player",
+        "Multitasking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "Spy Biotech, Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Assisted in scientific research on DNA cloning and analyzed the results.",
+          "Collected, studied, and interpreted large datasets; conducted reports; performed accurate, successful data management."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "IB Diploma",
+        "school": "The International School Estepona, El Paraiso, Spain",
+        "year": "05/2012"
+      },
+      {
+        "degree": "First Class Honours",
+        "school": "University of Chichester, Chichester, United Kingdom",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T11:47:23.570638+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8095
+    }
+  }
+}

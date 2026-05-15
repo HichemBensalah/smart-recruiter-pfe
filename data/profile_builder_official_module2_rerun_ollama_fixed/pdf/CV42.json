@@ -1,0 +1,68 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV42.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV42.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:CV42",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": "+1(555) 730 9695",
+      "location": "Los Angeles, CA"
+    },
+    "expertise": {
+      "summary": "Director of data science with expertise in continuous integration and machine learning.",
+      "hard_skills": [
+        "Jenkins"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Directorof Data Science",
+        "company": "SCHMIDT, BAILEYANDTHOMPSON",
+        "start_date": null,
+        "end_date": null,
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Experience working with code repositories and continuous integration",
+          "Proficient in selecting and leading strategic relationships"
+        ]
+      },
+      {
+        "job_title": "Data Science",
+        "company": "PRICE-CARROLL",
+        "start_date": null,
+        "end_date": null,
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Experience in Machine learning",
+          "Depth and breadth in quantitative knowledge"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "RHODE ISLAND SCHOOL OF design",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T11:14:14.016323+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6814
+    }
+  }
+}

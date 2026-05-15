@@ -1,0 +1,75 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV28.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV28.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "trishastamm@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": "trishastamm@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data Scientist with expertise in Machine Learning, Data Visualization, and Critical Thinking",
+      "hard_skills": [
+        "R Studio",
+        "Python",
+        "PERL",
+        "No SQL",
+        "Hadoop",
+        "Cloudera"
+      ],
+      "soft_skills": [
+        "Interpersonal Skills",
+        "Critical Thinking",
+        "Creative Thinking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Supracy Real Estate Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Problem Solving"
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "Exend Capital Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Fulfilled all data sciencedutiesfora high-endcapital managementfirm."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Boylston St. Soup Kitchen",
+        "year": null
+      },
+      {
+        "degree": "Bachelor of Science in Statistics",
+        "school": "Syracuse University",
+        "year": "2013-10"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:14:20.657273+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8029
+    }
+  }
+}

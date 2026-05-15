@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-05-04T13:27:23.650250+00:00",
+  "groq_key_present": true,
+  "groq_available": true,
+  "groq_status": "ok",
+  "ollama_available": true,
+  "ollama_status": "ok",
+  "ollama_model_detected": "llama3.2:3b",
+  "ollama_models": [
+    "llama3.2:3b"
+  ],
+  "ollama_timeout": 600.0,
+  "selected_provider": "ollama_local",
+  "fallback_provider": "groq_secondary",
+  "provider_preflight_status": "ok",
+  "recommended_provider": "ollama_local",
+  "recommended_next_action": null,
+  "providers": {
+    "ollama_local": {
+      "provider": "ollama_local",
+      "available": true,
+      "status": "ok",
+      "action_required": null,
+      "groq_key_present": null,
+      "ollama_model_detected": "llama3.2:3b",
+      "ollama_models": [
+        "llama3.2:3b"
+      ],
+      "ollama_timeout": 600.0
+    },
+    "groq_secondary": {
+      "provider": "groq_secondary",
+      "available": true,
+      "status": "ok",
+      "action_required": null,
+      "groq_key_present": true,
+      "ollama_model_detected": null
+    }
+  }
+}

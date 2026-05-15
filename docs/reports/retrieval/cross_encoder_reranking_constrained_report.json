@@ -1,0 +1,520 @@
+{
+  "experiment_name": "cross_encoder_reranking_constrained_must_have_coverage",
+  "generated_at_utc": "2026-05-11T10:27:10.994386+00:00",
+  "model_used": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "baseline_report_used": "docs\\reports\\matching\\v3\\matching_report_v3_normalized.json",
+  "input_source": "computed_top20_from_existing_faiss_index_in_memory; input_report_only_had_10_recommendations",
+  "top_n_faiss_input": 20,
+  "must_have_threshold": 0.6,
+  "candidates_before_filter": 20,
+  "candidates_after_filter": 3,
+  "excluded_candidates": [
+    {
+      "candidate_id": "candidate_1df043636ea4",
+      "matched_profile_id": "profile_133336b99224",
+      "full_name": "JEFFERYGORCZANY",
+      "faiss_rank": 4,
+      "raw_faiss_retrieval_rank": 3,
+      "faiss_score": 0.56,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 4,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.4000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_073b7a3d39ba",
+      "matched_profile_id": "profile_5c10a3b5e6c5",
+      "full_name": "Markus Rohan",
+      "faiss_rank": 5,
+      "raw_faiss_retrieval_rank": 11,
+      "faiss_score": 0.4579,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 5,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.4000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_71e03ea99985",
+      "matched_profile_id": "profile_4e6ce456eccc",
+      "full_name": "Candidate (ID: candidate_71e03ea99985)",
+      "faiss_rank": 6,
+      "raw_faiss_retrieval_rank": 12,
+      "faiss_score": 0.457,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 6,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.4000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_c564b8eceb3d",
+      "matched_profile_id": "profile_41aac6a912f1",
+      "full_name": "Candidate (ID: candidate_c564b8eceb3d)",
+      "faiss_rank": 7,
+      "raw_faiss_retrieval_rank": 18,
+      "faiss_score": 0.4388,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 7,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.4000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_1d475044c93c",
+      "matched_profile_id": "profile_02aa18c661e7",
+      "full_name": "Candidate (ID: candidate_1d475044c93c)",
+      "faiss_rank": 8,
+      "raw_faiss_retrieval_rank": 33,
+      "faiss_score": 0.3878,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 8,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.4000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_e1fda1d70be1",
+      "matched_profile_id": "profile_6fef4a9c24f0",
+      "full_name": "LEATRICEFRIESEN",
+      "faiss_rank": 9,
+      "raw_faiss_retrieval_rank": 4,
+      "faiss_score": 0.5114,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 9,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_4eef95d3a3fa",
+      "matched_profile_id": "profile_070e372f3c0e",
+      "full_name": "Justine Hendrickson",
+      "faiss_rank": 10,
+      "raw_faiss_retrieval_rank": 9,
+      "faiss_score": 0.4785,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 10,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_d813a4aedd03",
+      "matched_profile_id": "profile_98d4b26839c0",
+      "full_name": "MILDREDZEMLAK",
+      "faiss_rank": 11,
+      "raw_faiss_retrieval_rank": 6,
+      "faiss_score": 0.4856,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 11,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_a3c2a6c7cdc8",
+      "matched_profile_id": "profile_e558bf1890f2",
+      "full_name": "Khaireddine Suibgui",
+      "faiss_rank": 12,
+      "raw_faiss_retrieval_rank": 21,
+      "faiss_score": 0.4217,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 12,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_664415ab2fe1",
+      "matched_profile_id": "profile_caab46c986ad",
+      "full_name": "Karina Blick",
+      "faiss_rank": 13,
+      "raw_faiss_retrieval_rank": 14,
+      "faiss_score": 0.4504,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 13,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_36923c8bf20e",
+      "matched_profile_id": "profile_33b6d9cde135",
+      "full_name": "Lina Stark",
+      "faiss_rank": 14,
+      "raw_faiss_retrieval_rank": 17,
+      "faiss_score": 0.4485,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 14,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_351493983fdf",
+      "matched_profile_id": "profile_5f60eed7e725",
+      "full_name": "Breeanderson",
+      "faiss_rank": 15,
+      "raw_faiss_retrieval_rank": 28,
+      "faiss_score": 0.4131,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 15,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_c209d5b426bb",
+      "matched_profile_id": "profile_26253865c9fa",
+      "full_name": "Kaylin Quigley",
+      "faiss_rank": 16,
+      "raw_faiss_retrieval_rank": 26,
+      "faiss_score": 0.4134,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 16,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_56424ea73690",
+      "matched_profile_id": "profile_e1e6c2c5e6ba",
+      "full_name": "ELLIOTTABBOTT",
+      "faiss_rank": 17,
+      "raw_faiss_retrieval_rank": 22,
+      "faiss_score": 0.4215,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 17,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_c079eeaa1417",
+      "matched_profile_id": "profile_bca836a989dc",
+      "full_name": "Paul Desmond",
+      "faiss_rank": 18,
+      "raw_faiss_retrieval_rank": 36,
+      "faiss_score": 0.3825,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 18,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_ef0e8855357d",
+      "matched_profile_id": "profile_5807b39461fe",
+      "full_name": "Trisha Stamm",
+      "faiss_rank": 19,
+      "raw_faiss_retrieval_rank": 31,
+      "faiss_score": 0.3911,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 19,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    },
+    {
+      "candidate_id": "candidate_f74acce78f96",
+      "matched_profile_id": "profile_673e7db3cd79",
+      "full_name": "SONA MAYERT",
+      "faiss_rank": 20,
+      "raw_faiss_retrieval_rank": 27,
+      "faiss_score": 0.4133,
+      "ce_rank": 0,
+      "ce_score": null,
+      "ce_score_normalized": null,
+      "rank_change": 20,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "exclusion_reason": "must_have_coverage_below_threshold: 0.2000 < 0.6000"
+    }
+  ],
+  "reranked_top_10": [
+    {
+      "candidate_id": "candidate_206d746034ef",
+      "matched_profile_id": "profile_0e54d2a788d4",
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "faiss_rank": 3,
+      "raw_faiss_retrieval_rank": 20,
+      "faiss_score": 0.4238,
+      "ce_rank": 1,
+      "ce_score": 0.536082,
+      "ce_score_normalized": 1.0,
+      "rank_change": 2,
+      "must_have_coverage": 0.6,
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "MongoDB",
+        "REST API"
+      ]
+    },
+    {
+      "candidate_id": "candidate_8eea1b635447",
+      "matched_profile_id": "profile_55f949a128da",
+      "full_name": "Candidate (ID: candidate_8eea1b635447)",
+      "faiss_rank": 2,
+      "raw_faiss_retrieval_rank": 10,
+      "faiss_score": 0.4646,
+      "ce_rank": 2,
+      "ce_score": 0.056109,
+      "ce_score_normalized": 0.2125,
+      "rank_change": 0,
+      "must_have_coverage": 0.8,
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ]
+    },
+    {
+      "candidate_id": "candidate_1487f3187f7b",
+      "matched_profile_id": "profile_a7708a628908",
+      "full_name": "Hichem Bensalah",
+      "faiss_rank": 1,
+      "raw_faiss_retrieval_rank": 2,
+      "faiss_score": 0.593,
+      "ce_rank": 3,
+      "ce_score": -0.073376,
+      "ce_score_normalized": 0.0,
+      "rank_change": -2,
+      "must_have_coverage": 0.8,
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ]
+    }
+  ],
+  "rank_changes_vs_faiss": [
+    {
+      "candidate_id": "candidate_206d746034ef",
+      "matched_profile_id": "profile_0e54d2a788d4",
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "faiss_rank": 3,
+      "ce_rank": 1,
+      "rank_change": 2,
+      "must_have_coverage": 0.6,
+      "ce_score": 0.536082,
+      "ce_score_normalized": 1.0
+    },
+    {
+      "candidate_id": "candidate_8eea1b635447",
+      "matched_profile_id": "profile_55f949a128da",
+      "full_name": "Candidate (ID: candidate_8eea1b635447)",
+      "faiss_rank": 2,
+      "ce_rank": 2,
+      "rank_change": 0,
+      "must_have_coverage": 0.8,
+      "ce_score": 0.056109,
+      "ce_score_normalized": 0.2125
+    },
+    {
+      "candidate_id": "candidate_1487f3187f7b",
+      "matched_profile_id": "profile_a7708a628908",
+      "full_name": "Hichem Bensalah",
+      "faiss_rank": 1,
+      "ce_rank": 3,
+      "rank_change": -2,
+      "must_have_coverage": 0.8,
+      "ce_score": -0.073376,
+      "ce_score_normalized": 0.0
+    }
+  ],
+  "latency_seconds": 16.0494,
+  "phase3_validated": true,
+  "metadata": {
+    "baseline_modified": false,
+    "normalized_matching_report_modified": false,
+    "faiss_reindexed": false,
+    "mongodb_profiles_modified": false,
+    "markdown_created": false,
+    "module1_rerun": false,
+    "module2_rerun": false,
+    "normalization_profiles_loaded": 90
+  },
+  "conclusion": "Le CrossEncoder contraint corrige partiellement le probleme de remontee de candidats faibles en must-have coverage, mais reste experimental. La baseline officielle demeure FAISS + Matching V3."
+}

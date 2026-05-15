@@ -2,9 +2,11 @@ from __future__ import annotations
 
 from typing import Any
 
+from .skill_normalizer import normalize_skills
+
 
 def build_required_skills_text(job_profile: dict[str, Any]) -> str:
-    skills = _normalize_string_list(job_profile.get("required_skills"))
+    skills = normalize_skills(_normalize_string_list(job_profile.get("required_skills")))
     if not skills:
         return ""
     return ", ".join(skills)
@@ -18,12 +20,11 @@ def build_responsibilities_text(job_profile: dict[str, Any]) -> str:
 
 
 def build_job_text(job_profile: dict[str, Any]) -> str:
-    """Build an embedding-ready job text emphasizing required skills and responsibilities."""
     job_title = _clean_text(job_profile.get("job_title"))
     seniority_level = _clean_text(job_profile.get("seniority_level"))
     years_experience_required = job_profile.get("years_experience_required")
     required_skills = build_required_skills_text(job_profile)
-    nice_to_have_skills = ", ".join(_normalize_string_list(job_profile.get("nice_to_have_skills")))
+    nice_to_have_skills = ", ".join(normalize_skills(_normalize_string_list(job_profile.get("nice_to_have_skills"))))
     responsibilities = build_responsibilities_text(job_profile)
     domain = _clean_text(job_profile.get("domain"))
     location = _clean_text(job_profile.get("location"))
@@ -38,7 +39,7 @@ def build_job_text(job_profile: dict[str, Any]) -> str:
             else None
         ),
         f"Required Skills: {required_skills}" if required_skills else None,
-        f"Required Skills Repeated: {required_skills}" if required_skills else None,
+        f"Required Skills Emphasis: {required_skills}" if required_skills else None,
         f"Nice To Have Skills: {nice_to_have_skills}" if nice_to_have_skills else None,
         f"Responsibilities:\n{responsibilities}" if responsibilities else None,
         f"Domain: {domain}" if domain else None,

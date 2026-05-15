@@ -1,0 +1,172 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV32.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV32.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7321,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nKenny Gruchalla Curriculum Vitae\n\n## EDUCATION\n\nPersonal Information\nPostal Address:\n(availableuponrequest)\n## Denver, CO 80205\n- Office:\n- Cell:\n- gruchalla@gmail.com\n- E-mail\n- http: //kenny. gruchalla. org/research. html\n- Web:\n## Ph. D. Computer Science, Universityof Coloradoat Boulder, Boulder, CO.\n**Date: ** 2009\n- Thesis: Progressive Visualization-Driven Multivariate Feature Definitionand Analysis Advisor: Professor Elizabeth Bradley GPA: 3. 9/4. 0\n## M. S. Computer Science, Universityof Coloradoat Boulder, Boulder, CO.\n**Date: ** 1995\n- Thesis: Immersive Well-Path Planning: Investigatingtheaddedvalueofimmersivevisualization Advisor: Professor Clayton Lewis\n- GPA: 3. 9/4. 0\nB. S. Computer Science, New Mexico Instituteof Mining and Technology, Socorro, NM. GPA: 3. 5/4. 0\n\n## PROFESSIONAL EXPERIENCE\n\nExperience\n## National Renewable Energy Laboratory(NREL), Golden, CO(June 2009-present)\n- Senior Scientist.\n- Jun 2009-present\nIlead NREL'sscientificdatavisualizationeffortsinsupportofrenewableenergyresearch, collaboratingwith NRELdomainscientistsinthevisualizationofcomplex, large, multivariate data.\n## Universityof Coloradoat Boulder, Boulder, CO(April 2001-present)\n## Assistant Professor Adjunct,\n- May 2011-present\n- Departmentof Computer Science.\n- Iconductresearchandoverseestudentresearchinscientificdatavisualization.\n## Professional Research Assistant,\n- Apr 2001-Mar 2006\n- Jan 2004-Aug 2004\n- Jul 2002-Aug 2003\n- KGruchalla\n\n## TECHNICAL SKILLS\n\nCADs WES(Centerfor Advanced Decision Supportfor Waterand Environmental Systems). Iworkedinaninterdisciplinaryresearchcenteronthedesignandthedevelopmentofacom- mercialgraphically-baseddecisionsupportsoftwaresystemimplementingobject-oriented simulation, rule-basedsimulation, andlinearoptimizationtomodelwatershedphysicalpro- cesses, waterownership, andpolicy.\nProfessional Research Assistant,\nDepartmentof Molecular, Cellular, and Developmental Biology.\nofusingimmersivevisualizationasamolecularresearchtool.\nGraduate Research Assistant,\nBPCenterfor Visualization.\nIdesignedanddeveloped aninteractive 3 Dimmersive applicationcapableof integratingge- ological, geophysical, reservoirandwelldatawithdrillingandplatformplanninginanimmer- sivevirtualenvironment.\nHEADER\nKenny Gruchalla CurriculumVitae\nEDUCATION\nPersonalInformation\nPostalAddress:\n(availableuponrequest)\nDenver, CO80205\n303-275-3713\nOffice:\n720-394-9347\nCell:\ngruchalla@gmail.com\nE-mail\nhttp: //kenny.gruchalla.org/research.html\nWeb:\nPh.D.ComputerScience, UniversityofColoradoatBoulder, Boulder, CO.\n2009\nThesis: ProgressiveVisualization-DrivenMultivariateFeatureDefinitionandAnalysis Advisor: ProfessorElizabethBradley GPA: 3.9/4.0\nM.S.ComputerScience, UniversityofColoradoatBoulder, Boulder, CO.\n1995\nThesis: ImmersiveWell-PathPlanning: Investigatingtheaddedvalueofimmersivevisualization Advisor: ProfessorClaytonLewis\nGPA: 3.9/4.0\nB.S.ComputerScience, NewMexicoInstituteofMining andTechnology, Socorro, NM. GPA: 3.5/4.0\nPROFESSIONAL EXPERIENCE\nExperience\nNational RenewableEnergyLaboratory(NREL), Golden, CO(June2009-present)\nSenior Scientist.\nJun2009-present\nIleadNREL'sscientificdatavisualizationeffortsinsupportofrenewableenergyresearch, collaboratingwithNRELdomainscientistsinthevisualizationofcomplex, large, multivariate data.\nUniversityofColoradoatBoulder, Boulder, CO(April2001-present)\nAssistant ProfessorAdjunct,\nMay2011-present\nDepartmentofComputerScience.\nIconductresearchandoverseestudentresearchinscientificdatavisualization.\nProfessional ResearchAssistant,\nApr2001-Mar2006\nJan2004-Aug2004\nJul2002-Aug2003\nKGruchalla\nTECHNICAL SKILLS\nCADsWES(CenterforAdvancedDecisionSupportforWaterandEnvironmentalSystems). Iworkedinaninterdisciplinaryresearchcenteronthedesignandthedevelopmentofacom- mercialgraphically-baseddecisionsupportsoftwaresystemimplementingobject-oriented simulation, rule-basedsimulation, andlinearoptimizationtomodelwatershedphysicalpro- cesses, waterownership, andpolicy.\nProfessional ResearchAssistant,\nDepartmentofMolecular, Cellular, andDevelopmentalBiology.\nofusingimmersivevisualizationasamolecularresearchtool.\nGraduate ResearchAssistant,\nBPCenterforVisualization.\nIdesignedanddeveloped aninteractive3Dimmersive applicationcapableof integratingge- ological, geophysical, reservoirandwelldatawithdrillingandplatformplanninginanimmer- sivevirtualenvironment.",
+    "header_info": {
+      "full_name": "Kenny Gruchalla Curriculum Vitae",
+      "email": null,
+      "phone": null,
+      "location": "Denver, CO 80205",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9464,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].field",
+      "education[2].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Kenny Gruchalla",
+      "email": "gruchalla@gmail.com",
+      "phone": null,
+      "location": "Denver, CO 80205",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 26,
+      "hard_skills": [
+        "CADs WES",
+        "object-oriented simulation",
+        "rule-based simulation",
+        "linear optimization"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "National Renewable Energy Laboratory(NREL)",
+        "job_title": "Senior Scientist",
+        "start_date": "June 2009",
+        "end_date": "present",
+        "city": "Golden, CO",
+        "responsibilities": [
+          "I lead NREL's scientific data visualization efforts in support of renewable energy research, collaborating with NREL domain scientists in the visualization of complex, large, multivariate data."
+        ]
+      },
+      {
+        "company": "University of Colorado at Boulder",
+        "job_title": "Assistant Professor Adjunct",
+        "start_date": "May 2011",
+        "end_date": "present",
+        "city": "Boulder, CO",
+        "responsibilities": [
+          "I conduct research and oversee student research in scientific data visualization."
+        ]
+      },
+      {
+        "company": "University of Colorado at Boulder",
+        "job_title": "Professional Research Assistant",
+        "start_date": "April 2001",
+        "end_date": null,
+        "city": "Boulder, CO",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Colorado at Boulder",
+        "degree": "Ph.D. Computer Science",
+        "field": "Computer Science",
+        "year": 2009
+      },
+      {
+        "institution": "University of Colorado at Boulder",
+        "degree": "M.S. Computer Science",
+        "field": "Computer Science",
+        "year": 1995
+      },
+      {
+        "institution": "New Mexico Institute of Mining and Technology",
+        "degree": "B.S. Computer Science",
+        "field": "Computer Science",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:41:40.177641+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:28.578496+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV23.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV23.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:CV23",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Anne Lounsberry",
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data visualization and big data modeling to increase investment returns.",
+      "hard_skills": [
+        "Python",
+        "Java",
+        "Scala"
+      ],
+      "soft_skills": [
+        "data mining",
+        "machine learning"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Senior Data Scientist",
+        "company": "ACBInc.",
+        "start_date": "2013",
+        "end_date": null,
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "Developed end-to-end machine learning prototypes and scaled them to run in production environments. Increased efficiency by 23%"
+        ]
+      },
+      {
+        "job_title": "Machine Learning Specialist",
+        "company": "Any Company",
+        "start_date": "2008",
+        "end_date": null,
+        "city": "San Diego, CA",
+        "responsibilities": [
+          "Collaborated with all team members to optimize Customer firm.",
+          "Increased repeat business among real estate investors by 25%."
+        ]
+      },
+      {
+        "job_title": "Junior Data Analyst",
+        "company": "Capgemini",
+        "start_date": "2005",
+        "end_date": null,
+        "city": "San Diego, CA",
+        "responsibilities": [
+          "Consulted and worked with development teams to determine, execute and deliver relevant solutions."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc in Statistics",
+        "school": "UCLA",
+        "year": "2005"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:58:42.872505+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6877
+    }
+  }
+}

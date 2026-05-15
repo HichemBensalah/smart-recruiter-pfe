@@ -1,0 +1,71 @@
+{
+  "source_path": "data\\raw_cv\\images\\7_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\7_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T160334Z",
+  "profile": {
+    "source_id": "images:7_image",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": "(123)456-7890",
+      "location": "Houston, TX"
+    },
+    "expertise": {
+      "summary": "Data science professional with a passion for data integrity visualization and statistics.",
+      "hard_skills": [
+        "Python",
+        "Tableau",
+        "Hadoop",
+        "Numpy",
+        "Certified Data Scientist"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Metadata Scientist (Entry-Level)",
+        "company": "Labcorp",
+        "start_date": null,
+        "end_date": null,
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Identified appropriate quantitative methodology and built relevant datasets to address challenges across 6 different domains"
+        ]
+      },
+      {
+        "job_title": "Data Scientist (Academic Project)",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed a Weather API website with Python and Open Weather Map API",
+          "Performed stock market analysis using Python, pandas, and JSO N APIs"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "University of Houston",
+        "year": "May 2021"
+      },
+      {
+        "degree": "B.S",
+        "school": "Computer Science",
+        "year": "null"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T16:06:18.861159+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7231
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "generated_at_utc": "2026-04-27T16:21:39.752490+00:00",
+  "module": "Module 2 profile_builder",
+  "mode": "dry-run",
+  "total_expected": 90,
+  "total_json_generated": 90,
+  "missing_outputs": [],
+  "success_total": 86,
+  "failed_total": 4,
+  "success_rate_module2": 0.9556,
+  "success_rate_module2_percent": 95.56,
+  "profile_kind_counts": {
+    "complete_profile": 31,
+    "partial_profile": 55,
+    "total_failure": 4
+  },
+  "success_by_provider_route": {
+    "groq_secondary": 31,
+    "ollama_local": 55
+  },
+  "status_counts": {
+    "failed": 4,
+    "success": 86
+  },
+  "failure_type_counts": {
+    "schema_error": 3,
+    "unknown_error": 1
+  },
+  "main_errors": [
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV21.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV21.json",
+      "output_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV21.json",
+      "status": "failed",
+      "failure_type": "schema_error",
+      "error": "1 validation error for CandidateProfilePayload\nlanguages\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['English', 'French', 'Spanish'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\CV33.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\CV33.json",
+      "output_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV33.json",
+      "status": "failed",
+      "failure_type": "schema_error",
+      "error": "4 validation errors for CandidateProfilePayload\nbio.email\n  Value error, Invalid email address. [type=value_error, input_value='+1(555)7955486', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error\nsummary\n  Extra inputs are not permitted [type=extra_forbidden, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden\nhard_skills\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden\nsoft_skills\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['Highly analytical', 'St...igh proficiency in SQL'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+    },
+    {
+      "source_path": "data\\raw_cv\\pdf\\Image_66.pdf",
+      "artifact_path": "data\\processed_official_module1\\pdf\\Image_66.json",
+      "output_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_66.json",
+      "status": "failed",
+      "failure_type": "schema_error",
+      "error": "1 validation error for CandidateProfilePayload\nbio.Phone\n  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+    },
+    {
+      "source_path": "data\\raw_cv\\docx\\3_anonyme.docx",
+      "artifact_path": "data\\processed_official_module1\\docx\\3_anonyme.json",
+      "output_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\3_anonyme.json",
+      "status": "failed",
+      "failure_type": "unknown_error",
+      "error": "total_failure_after_cloud_and_local_fallback | artifact=data\\processed_official_module1\\docx\\3_anonyme.json | provider_errors=['secondary_groq:{\"url\": \"https://api.groq.com/openai/v1/chat/completions\", \"attempts\": 3, \"error_type\": \"transient_http_error\", \"status_code\": 429, \"message\": \"{\\\\\"error\\\\\":{\\\\\"message\\\\\":\\\\\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99309, Requested 2371. Please try again in 24m11.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\\\\\",\\\\\"type\\\\\":\\\\\"tokens\\\\\",\\\\\"code\\\\\":\\\\\"rate_limit_exceeded\\\\\"}}\\\\n\", \"retryable\": true}', 'local_ollama:{\"url\": \"http://localhost:11434/v1/chat/completions\", \"attempts\": 3, \"error_type\": \"timeout\", \"status_code\": null, \"message\": \"Timeout while calling provider: HTTPConnectionPool(host=\\'localhost\\', port=11434): Read timed out. (read timeout=180)\", \"retryable\": true}']"
+    }
+  ],
+  "provider_errors": {
+    "count": 1,
+    "items": [
+      {
+        "source_path": "data\\raw_cv\\docx\\3_anonyme.docx",
+        "artifact_path": "data\\processed_official_module1\\docx\\3_anonyme.json",
+        "output_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\docx\\3_anonyme.json",
+        "status": "failed",
+        "failure_type": "unknown_error",
+        "error": "total_failure_after_cloud_and_local_fallback | artifact=data\\processed_official_module1\\docx\\3_anonyme.json | provider_errors=['secondary_groq:{\"url\": \"https://api.groq.com/openai/v1/chat/completions\", \"attempts\": 3, \"error_type\": \"transient_http_error\", \"status_code\": 429, \"message\": \"{\\\\\"error\\\\\":{\\\\\"message\\\\\":\\\\\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jsp6jnszfrqvn4rgj6drj0sz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99309, Requested 2371. Please try again in 24m11.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\\\\\",\\\\\"type\\\\\":\\\\\"tokens\\\\\",\\\\\"code\\\\\":\\\\\"rate_limit_exceeded\\\\\"}}\\\\n\", \"retryable\": true}', 'local_ollama:{\"url\": \"http://localhost:11434/v1/chat/completions\", \"attempts\": 3, \"error_type\": \"timeout\", \"status_code\": null, \"message\": \"Timeout while calling provider: HTTPConnectionPool(host=\\'localhost\\', port=11434): Read timed out. (read timeout=180)\", \"retryable\": true}']",
+        "providers_detected": [
+          "local_ollama",
+          "secondary_groq"
+        ]
+      }
+    ]
+  },
+  "schema_errors": {
+    "count": 3,
+    "items": [
+      {
+        "source_path": "data\\raw_cv\\pdf\\CV21.pdf",
+        "artifact_path": "data\\processed_official_module1\\pdf\\CV21.json",
+        "output_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV21.json",
+        "status": "failed",
+        "failure_type": "schema_error",
+        "error": "1 validation error for CandidateProfilePayload\nlanguages\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['English', 'French', 'Spanish'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+      },
+      {
+        "source_path": "data\\raw_cv\\pdf\\CV33.pdf",
+        "artifact_path": "data\\processed_official_module1\\pdf\\CV33.json",
+        "output_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\CV33.json",
+        "status": "failed",
+        "failure_type": "schema_error",
+        "error": "4 validation errors for CandidateProfilePayload\nbio.email\n  Value error, Invalid email address. [type=value_error, input_value='+1(555)7955486', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error\nsummary\n  Extra inputs are not permitted [type=extra_forbidden, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden\nhard_skills\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden\nsoft_skills\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['Highly analytical', 'St...igh proficiency in SQL'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+      },
+      {
+        "source_path": "data\\raw_cv\\pdf\\Image_66.pdf",
+        "artifact_path": "data\\processed_official_module1\\pdf\\Image_66.json",
+        "output_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\pdf\\Image_66.json",
+        "status": "failed",
+        "failure_type": "schema_error",
+        "error": "1 validation error for CandidateProfilePayload\nbio.Phone\n  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+      }
+    ]
+  },
+  "business_validation_errors": {
+    "count": 0,
+    "items": []
+  },
+  "parse_errors": {
+    "count": 0,
+    "items": []
+  },
+  "input_accepted_path": "data\\processed_official_module1\\handoff\\accepted.json",
+  "final_folder_path": "data\\profile_builder_official_module2_rerun_ollama_fixed",
+  "run_report_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\run_report.json",
+  "run_report_note": "run_report.json exists but reflects only the most recent profile_builder invocation, not the full 90-CV aggregate.",
+  "continuation_inputs": {
+    "remaining_after_relogin_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\_continuation_inputs\\remaining_after_relogin.json",
+    "processed_lots": [
+      "todo_small_chunk_05.json",
+      "todo_small_chunk_06.json",
+      "todo_small_chunk_07.json"
+    ]
+  },
+  "expected_by_source_format": {
+    "docx": 7,
+    "images": 12,
+    "pdf": 71
+  }
+}

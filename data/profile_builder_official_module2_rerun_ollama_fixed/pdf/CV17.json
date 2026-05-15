@@ -1,0 +1,82 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV17.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "info@resumekraft.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Kevin Brandon",
+      "email": "info@resumekraft.com",
+      "phone": null,
+      "location": "Chicago, Illinois, US"
+    },
+    "expertise": {
+      "summary": "Data Scientist with expertise in statistical, algebraic and analytical techniques",
+      "hard_skills": [
+        "Tableau",
+        "Minitab",
+        "Microsoft Office",
+        "RStudio",
+        "Visual Studio",
+        "Python",
+        "Java Script"
+      ],
+      "soft_skills": [
+        "Highly organized",
+        "Diligent"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Research Assistant",
+        "company": "University of New York",
+        "start_date": "Sep 2019",
+        "end_date": "Present",
+        "city": null,
+        "responsibilities": [
+          "Tested websites and performed troubleshooting prior to deployment"
+        ]
+      },
+      {
+        "job_title": "Data Analyst and Business Intern",
+        "company": "Exxon Mobil",
+        "start_date": "Jun 2017",
+        "end_date": "Aug 2017",
+        "city": null,
+        "responsibilities": [
+          "Analyzed different aspects in Blockchain to incorporate parking availability for the citizens of Detroit",
+          "Researched new technologies, software packages and hardware products for use in website projects",
+          "Applied knowledge of data modeling and statistical analysis to note trends and draw conclusions"
+        ]
+      },
+      {
+        "job_title": "Lead Data Analyst, Web Developer, and Communications Liaison",
+        "company": "Bank of America",
+        "start_date": "Sep 2018",
+        "end_date": "Oct 2019",
+        "city": null,
+        "responsibilities": [
+          "Analyzed demographics of students at Dearborn and keynote speakers to optimize UI"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "San Jose State University",
+        "year": "Sep 2018-Present"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:32:04.213081+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7988
+    }
+  }
+}

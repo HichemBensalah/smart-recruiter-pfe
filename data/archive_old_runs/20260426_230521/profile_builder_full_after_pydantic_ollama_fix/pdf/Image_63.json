@@ -1,0 +1,11 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_63.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_63.json",
+  "source_format": "pdf",
+  "status": "failed",
+  "failure_type": "schema_error",
+  "mode": "dry-run",
+  "error": "1 validation error for CandidateProfilePayload\n bio\n  Extra inputs are not permitted [type=extra_forbidden, input_value={'full_name': 'ROBERTSMIT...Forge, New York. 13420'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden",
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": null
+}

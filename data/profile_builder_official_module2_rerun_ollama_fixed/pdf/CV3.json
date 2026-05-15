@@ -1,0 +1,65 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV3.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "email@youremail.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Alexander Eakins",
+      "email": "email@youremail.com",
+      "phone": "(111)111-1111",
+      "location": "777 Springboard St.#144 Los Angeles, CA 90001"
+    },
+    "expertise": {
+      "summary": "Data science professional with expertise in data analysis and processing",
+      "hard_skills": [
+        "Data mining/processing",
+        "Statistical analysis",
+        "My SQL",
+        "Python",
+        "Excel"
+      ],
+      "soft_skills": [
+        "Strategic planning",
+        "Business acumen"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Random Corp",
+        "start_date": "MAY 2017",
+        "end_date": "AUGUST 5, 2018",
+        "city": null,
+        "responsibilities": [
+          "Report actionable, statistical, and analytical insights to executives for effective strategic positioning in the market place",
+          "Shadow data scientists and assist in developing algorithms for predictive modeling",
+          "Analyze and process sophisticated data sets using SAS, My SQL, and Excel"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science, Data Science",
+        "school": "Harvard University",
+        "year": "2011-2015"
+      },
+      {
+        "degree": "Data Science Certificate",
+        "school": "Springboard",
+        "year": "MAY 2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:19:43.932372+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7267
+    }
+  }
+}

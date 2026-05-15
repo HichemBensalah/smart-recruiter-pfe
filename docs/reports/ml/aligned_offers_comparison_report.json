@@ -1,0 +1,95 @@
+{
+  "generated_at_utc": "2026-05-14T22:46:37.786673+00:00",
+  "old_dataset": {
+    "total_rows": 250,
+    "label_distribution": {
+      "0": 197,
+      "1": 43,
+      "2": 6,
+      "3": 4
+    },
+    "positive_count": 10,
+    "positive_rate": 4.0,
+    "distribution_per_job": {
+      "backend_python_fastapi_mongodb": {
+        "0": 42,
+        "1": 5,
+        "2": 1,
+        "3": 2
+      },
+      "data_engineer_python_sql": {
+        "0": 21,
+        "1": 24,
+        "2": 3,
+        "3": 2
+      },
+      "devops_docker_kubernetes": {
+        "0": 46,
+        "1": 2,
+        "2": 2,
+        "3": 0
+      },
+      "frontend_react_nextjs": {
+        "0": 45,
+        "1": 5,
+        "2": 0,
+        "3": 0
+      },
+      "fullstack_react_node_mongodb": {
+        "0": 43,
+        "1": 7,
+        "2": 0,
+        "3": 0
+      }
+    }
+  },
+  "aligned_dataset": {
+    "total_rows": 250,
+    "label_distribution": {
+      "0": 104,
+      "1": 103,
+      "2": 32,
+      "3": 11
+    },
+    "positive_count": 43,
+    "positive_rate": 17.2,
+    "distribution_per_job": {
+      "backend_python_django_postgresql": {
+        "0": 23,
+        "1": 21,
+        "2": 2,
+        "3": 4
+      },
+      "backend_python_fastapi_mongodb_aligned": {
+        "0": 17,
+        "1": 28,
+        "2": 3,
+        "3": 2
+      },
+      "data_analyst_python_sql_powerbi": {
+        "0": 16,
+        "1": 21,
+        "2": 12,
+        "3": 1
+      },
+      "data_engineer_python_sql_etl_aligned": {
+        "0": 20,
+        "1": 18,
+        "2": 10,
+        "3": 2
+      },
+      "machine_learning_python_nlp": {
+        "0": 28,
+        "1": 15,
+        "2": 5,
+        "3": 2
+      }
+    }
+  },
+  "delta": {
+    "positive_count_delta": 33,
+    "positive_rate_delta": 13.2
+  },
+  "recommendation": "aligned_dataset_can_be_considered_for_next_evaluation_step",
+  "methodology_warning": "Comparaison basée sur des pseudo-labels métier contrôlés, pas sur des labels recruteur."
+}

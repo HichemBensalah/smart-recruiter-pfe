@@ -1,0 +1,11 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV33.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV33.json",
+  "source_format": "pdf",
+  "status": "failed",
+  "failure_type": "schema_error",
+  "mode": "dry-run",
+  "error": "4 validation errors for CandidateProfilePayload\nbio.email\n  Value error, Invalid email address. [type=value_error, input_value='+1(555)7955486', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error\nsummary\n  Extra inputs are not permitted [type=extra_forbidden, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden\nhard_skills\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden\nsoft_skills\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['Highly analytical', 'St...igh proficiency in SQL'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden",
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": null
+}

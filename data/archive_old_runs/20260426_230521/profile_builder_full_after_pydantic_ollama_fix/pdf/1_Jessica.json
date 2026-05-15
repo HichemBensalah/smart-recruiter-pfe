@@ -1,0 +1,114 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\1_Jessica.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\1_Jessica.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "resumesample@example.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "JESSICA CLAIRE",
+      "email": "resumesample@example.com",
+      "phone": "(555)432-1000",
+      "location": "100 Montgomery St. 10th Floor"
+    },
+    "expertise": {
+      "summary": "Forward-thinking Bioinformatics and Data Science Engineer",
+      "hard_skills": [
+        "R-Programming",
+        "Python",
+        "Java",
+        "Visual Basic",
+        "QlikSense",
+        "iStar",
+        "Jira",
+        "MySQL",
+        "Microsoft SQL Server",
+        "Apache Drill",
+        "Linux",
+        "bash",
+        "DNAnexus"
+      ],
+      "soft_skills": [
+        "Excellent documentation",
+        "reporting",
+        "presentation",
+        "public speaking",
+        "teamwork",
+        "problem solving",
+        "customer service"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Bioinformatics and Data Science Engineer",
+        "company": "Konica Minolta",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "demonstrating ORIEN Informatics portal",
+          "collecting feedback and feature requirements from researchers",
+          "contributing to monthly clinical/molecular data releases",
+          "connecting to relational database models and SQL databases",
+          "collaborating with team members to implement pipelines"
+        ]
+      },
+      {
+        "job_title": "BMT Data Analyst",
+        "company": "Bionano Genomics, Inc.",
+        "start_date": "05/2018",
+        "end_date": "12/2018",
+        "city": "San Diego, CA",
+        "responsibilities": [
+          "knowledge of QlikSense",
+          "experience using iStar and Jira for triaging database issues"
+        ]
+      },
+      {
+        "job_title": "Data Project Analyst",
+        "company": "Moffitt Cancer Center (M2Gen)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "demonstrating initiative by completing Moffitt Cancer Center classes in Bioinformatics and Biostatistics",
+          "building RedCap forms for clinical data abstraction",
+          "following QA/QC/UAT procedures to validate cancer-related clinical data"
+        ]
+      },
+      {
+        "job_title": "Bioinformatics Intern",
+        "company": "Moffitt Cancer Center (M2Gen)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "working directly with Executive Leadership to datamine clinicaltrials.gov and PubMed using R Programming",
+          "using R to extract drug elements from XML files to summarize FDA approval of drugs"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science: Honors Biochemistry",
+        "school": "University of Waterloo",
+        "year": "06/2015"
+      },
+      {
+        "degree": "High School Diploma",
+        "school": "Heart Lake Secondary School",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:23:55.794289+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8483
+    }
+  }
+}

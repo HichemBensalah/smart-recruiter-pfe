@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-05-11T12:53:03.111885+00:00",
+  "baseline_name": "CV bruts -> Module 1 Parser -> Module 2 V2 Grounded -> MongoDB -> FAISS -> Matching V3 normalized -> Decision Cards v3 normalized",
+  "checks": [
+    {
+      "id": "check_01",
+      "description": "accepted.json exists and has 90 accepted",
+      "path": "data\\processed_official_module1\\handoff\\accepted.json",
+      "expected": 90,
+      "actual": 90,
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "id": "check_02",
+      "description": "Grounded Module 2 profiles folder exists and contains 90 JSON files",
+      "path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles",
+      "expected": 90,
+      "actual": 90,
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "id": "check_03",
+      "description": "FAISS index file exists and is readable",
+      "path": "data\\indexes\\faiss\\cv_index.faiss",
+      "expected": true,
+      "actual": true,
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "id": "check_04",
+      "description": "FAISS id_map file exists and is readable",
+      "path": "data\\indexes\\faiss\\id_map.pkl",
+      "expected": true,
+      "actual": true,
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "id": "check_05",
+      "description": "FAISS index_report exists and profiles_indexed is 90 (if key available)",
+      "path": "data\\indexes\\faiss\\index_report.json",
+      "expected": 90,
+      "actual": 90,
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "id": "check_06",
+      "description": "Backend job profile exists and is readable",
+      "path": "data\\job_profiles\\backend_python_fastapi_mongodb.json",
+      "expected": true,
+      "actual": true,
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "id": "check_07",
+      "description": "Matching report v3 normalized exists and contains 10 recommendations",
+      "path": "docs\\reports\\matching\\v3\\matching_report_v3_normalized.json",
+      "expected": 10,
+      "actual": 10,
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "id": "check_08",
+      "description": "Decision cards v3 normalized exists and contains 10 cards",
+      "path": "docs\\reports\\matching\\v3\\decision_cards_v3_normalized.json",
+      "expected": 10,
+      "actual": 10,
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "id": "check_09",
+      "description": "FAISS CrossEncoder ablation summary exists and is readable",
+      "path": "docs\\reports\\retrieval\\faiss_cross_encoder_ablation_summary.json",
+      "expected": true,
+      "actual": true,
+      "status": "passed",
+      "message": ""
+    }
+  ],
+  "passed_count": 9,
+  "failed_count": 0,
+  "warnings": [],
+  "demo_ready": true,
+  "next_actions": [
+    "Proceed with demo dry-run using existing official baseline artifacts.",
+    "Keep this report as evidence of technical readiness."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "retrieval_current_state": {
+    "engine": "faiss",
+    "index_path": "data/indexes/faiss/cv_index.faiss",
+    "id_map_path": "data/indexes/faiss/id_map.pkl",
+    "job_text_builder": "src/core/matching/job_text_builder.py",
+    "candidate_hydration": "MongoDB candidate_profiles read-only",
+    "business_scoring": "src/core/matching/scoring.py"
+  },
+  "cross_encoder_insertion_point": "after FAISS top-N retrieval and MongoDB hydration, before business scoring and candidate grouping",
+  "texts_used": {
+    "job_text": "build_job_text(job_profile)",
+    "candidate_text": "build_candidate_text(profile_doc)"
+  },
+  "report_fields_to_add": [
+    "faiss_rank",
+    "faiss_score",
+    "cross_encoder_rank",
+    "cross_encoder_score",
+    "cross_encoder_score_normalized",
+    "cross_encoder_error"
+  ],
+  "files_created": [
+    "src/core/retrieval/__init__.py",
+    "src/core/retrieval/cross_encoder_reranker.py",
+    "src/core/retrieval/cross_encoder_comparison.py",
+    "docs/reports/cross_encoder/cross_encoder_integration_audit.md",
+    "docs/reports/cross_encoder/cross_encoder_integration_audit.json"
+  ],
+  "files_modified": [
+    "src/core/matching/recommender.py",
+    "src/core/matching/evaluation.py"
+  ],
+  "baseline_protection": {
+    "cross_encoder_is_opt_in": true,
+    "baseline_reports_preserved": true,
+    "faiss_index_rebuilt": false,
+    "mongodb_modified": false,
+    "module1_modified": false,
+    "module2_modified": false,
+    "new_report_root": "docs/reports/cross_encoder/"
+  }
+}

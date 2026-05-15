@@ -1,0 +1,167 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV9.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV9.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.6683,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nNATASHAHOLLOWAY\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nSTRENGTHS\n★Strategic thinking\n## Data Science Intern\n- How did you acquire it? What dld it resultin?\n## Boyle Ltd 2017-Ongoing Dublin, lreiand\n- Peoplefocused servant leadership\n- Boyle Ltd isa company thatoffers B 2 B Sales Prospecting Solution for Scaling Startups and Fast Growth Companies.\n- How-dld you acquire it? What dld it result in?\n- generating an additional cash-flow up to$2 B\n- Ability to keep caim in stressful situations\n- Build a real-time analytics dashboard using Tableau and D 3. js that portrays the processed output.\n- Acquired using practicing mindfulness\n- ·Delivered businessrecommendations that increasedcampaign revenue in 300 k+USD/month\n- Created and implemented strategic marketing campaigns that resulted in $26 millionin profits\n## Data Science Intern\n- Sakha\n## Rolfs 0 n 2016-2017 Dublin, eland\n- workin theoffice 3 dayseachweek.\n## behavior, used by 300+city teams\n- Developed enterprise data analytics vision and strategy for generating anadditional cash-flowup to$2 B\n- Improved Transaction Categorisation to 0. 97 f 1-score\n- Able to capture~30%of churned customerswitha conversionrate of 13% in its first decile.\n## Data Science Intern\n\n## LANGUAGES\n\nRussian\nNative\nNative\nREFERENCES\nDr Vural Aksakalli\nvural.aksakalli@rmit.edu.au +61401300586\nAmy Harrington\namy.harrington@rmit.edu.au\nMatt Bolton\nmatt@m 3 it. com. au +61419444145\nPASSIONS\nTraveling\nHighlights: Mexico for half-year exchange, North Korea for half-marathon trip\nPowered by\nCEnhancu\n\n## TECHNICAL SKILLS\n\nKoepp lnc 2015-2016 Dublin, lreland coaching tools forsportsteams\n\n## EDUCATION\n\n-Data Cleaning: Processed data toextractrelevant information using Advanced Query Tool, (AQT) IBMDB 2\nDeveloped 3 Churn modelsofcar & home insurances to determine the propensity of customers to churn.\nUsing K-Means method of clustering. 4 clusters were formed using SAS Enterprise Miner\ngenerating anadditional cash-flow up to$2 B\nwww. enhancv. com\nHEADER\nNATASHAHOLLOWAY\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nSTRENGTHS\n★Strategic thinking\nData ScienceIntern\nHow did you acquire it? What dld it resultin?\nBoyle Ltd 2017-Ongoing Dublin, lreiand\nPeoplefocused servant leadership\nBoyle Ltd isa company thatoffers B2B SalesProspecting Solution for Scaling Startups andFast Growth Companies.\nHow-dld you acquire it? What dld it result in?\ngenerating an additional cash-flow up to$2B\nAbility to keep caim in stressful situations\nBuild a real-time analytics dashboard using Tableau and D3.js that portrays the processed output.\nAcquired using practicing mindfulness\n·Delivered businessrecommendations that increasedcampaign revenue in 300k+USD/month\nCreated and implemented strategic marketing campaigns that resulted in $26 millionin profits\nDataScienceIntern\nSakha\nRolfs0n2016-2017Dublin, eland\nworkin theoffice3dayseachweek.\nbehavior, used by 300+city teams\nDeveloped enterprise data analytics vision and strategy for generating anadditional cash-flowup to$2B\nImprovedTransaction Categorisation to 0.97 f1-score\nAble to capture~30%of churned customerswitha conversionrate of 13% in its first decile.\nData Science Intern\nLANGUAGES\nRussian\nNative\nNative\nREFERENCES\nDrVural Aksakalli\nvural.aksakalli@rmit.edu.au +61401300586\nAmy Harrington\namy.harrington@rmit.edu.au\nMatt Bolton\nmatt@m3it.com.au +61419444145\nPASSIONS\nTraveling\nHighlights: Mexico for half-year exchange, North Korea for half-marathon trip\nPowered by\nCEnhancu\nTECHNICAL SKILLS\nKoepp lnc 2015-2016 Dublin, lreland coaching tools forsportsteams\nEDUCATION\n-Data Cleaning: Processed data toextractrelevant information using Advanced Query Tool, (AQT) IBMDB2\nDeveloped3Churn modelsofcar&home insurances to determine the propensity of customers to churn.\nUsingK-Means method of clustering.4 clusters were formed using SAS Enterprise Miner\ngenerating anadditional cash-flow up to$2B\nwww.enhancv.com",
+    "header_info": {
+      "full_name": "★Strategic thinking",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9337,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience",
+      "languages[0]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "NATASHAHOLLOWAY",
+      "email": "vural.aksakalli@rmit.edu.au",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 11,
+      "hard_skills": [
+        "Tableau",
+        "D3.js",
+        "Advanced Query Tool",
+        "AQT",
+        "IBMDB2",
+        "SAS Enterprise Miner"
+      ],
+      "soft_skills": [
+        "Strategic thinking",
+        "People-focused servant leadership",
+        "Ability to keep calm in stressful situations"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Boyle Ltd",
+        "job_title": "Data Science Intern",
+        "start_date": "2017",
+        "end_date": "Ongoing",
+        "city": "Dublin",
+        "responsibilities": [
+          "Build a real-time analytics dashboard using Tableau and D3.js that portrays the processed output",
+          "Delivered business recommendations that increased campaign revenue in 300 k+USD/month",
+          "Created and implemented strategic marketing campaigns that resulted in $26 million in profits"
+        ]
+      },
+      {
+        "company": "Rolfs",
+        "job_title": "Data Science Intern",
+        "start_date": "2016",
+        "end_date": "2017",
+        "city": "Dublin",
+        "responsibilities": [
+          "Developed enterprise data analytics vision and strategy for generating an additional cash-flow up to $2 B",
+          "Improved Transaction Categorisation to 0.97 f1-score",
+          "Able to capture ~30% of churned customers with a conversion rate of 13% in its first decile"
+        ]
+      },
+      {
+        "company": "Koepp Inc",
+        "job_title": null,
+        "start_date": "2015",
+        "end_date": "2016",
+        "city": "Dublin",
+        "responsibilities": [
+          "Coaching tools for sports teams"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Russian"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:46:01.311154+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.426294+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

@@ -1,0 +1,711 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV16.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "partial",
+  "raw_text": "HEADER\nMalikRabb\nSeattle,WA·（123)456-7891 mrabb@email.com\nPROFESSIONAL SUMMARY\nSUMMARY\nPROFESSIONAL EXPERIENCE\nDataScientistwithstrongmathbackground and3+yearsofexperienceusingpredictivemodeling dataprocessing.anddataminingalgorithmstosolvechallengingbusinessproblems.Involvedin Pythonopensourcecommunityandpassionateaboutdeepreinforcementleaming.\nEXPERIENCE\nJul19-Current\nRiverTech.Data Scientist\nBuiltfuzzymatching algorithmusingk-nearestneighborstoidentifynon-exactmatching duplicates\nDesignedanddevelopedrealtimerecommendationenginetoranksalesleadsforupsell opportunities\nRefinedpersonalizationalgorithmsfor1M+customersonwebandmobile\nTransfomedrawdataintoMySQLwithcustom-madeETLapplicationtoprepareunrulydatafor machineleaning\nRetail Ocean,Data Scientist\nAug'15-Jul'19\nLeveraged2ooM+tweetstodevelopsentimentanalysismodelthathelpedimprovesalesand marketingstrategies\nEDUCATION\nCurrent-Current\nCoralSpringsUniversity\nBachelorofScienceinMathematics\nTECHNICAL SKILLS\nHelpedbuild toolsfordetectingbotnetswithmachinelearninganddatamining",
+  "markdown": "## HEADER\n\nMalikRabb\nSeattle,WA·（123)456-7891 mrabb@email.com\n\n## PROFESSIONAL SUMMARY\n\nSUMMARY\n\n## PROFESSIONAL EXPERIENCE\n\nDataScientistwithstrongmathbackground and3+yearsofexperienceusingpredictivemodeling dataprocessing.anddataminingalgorithmstosolvechallengingbusinessproblems.Involvedin Pythonopensourcecommunityandpassionateaboutdeepreinforcementleaming.\nEXPERIENCE\nJul19-Current\nRiverTech.Data Scientist\nBuiltfuzzymatching algorithmusingk-nearestneighborstoidentifynon-exactmatching duplicates\nDesignedanddevelopedrealtimerecommendationenginetoranksalesleadsforupsell opportunities\nRefinedpersonalizationalgorithmsfor1M+customersonwebandmobile\nTransfomedrawdataintoMySQLwithcustom-madeETLapplicationtoprepareunrulydatafor machineleaning\n### Retail Ocean,Data Scientist\n- Aug'15-Jul'19\n- Leveraged2ooM+tweetstodevelopsentimentanalysismodelthathelpedimprovesalesand marketingstrategies\n\n## EDUCATION\n\nCurrent-Current\n### CoralSpringsUniversity\n- BachelorofScienceinMathematics\n\n## TECHNICAL SKILLS\n\nHelpedbuild toolsfordetectingbotnetswithmachinelearninganddatamining",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "MalikRabb",
+        "Seattle,WA·（123)456-7891 mrabb@email.com"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "MalikRabb",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 11.0,
+            "top": 522.4400024414062,
+            "right": 110.33333333333333,
+            "bottom": 539.1066691080729
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Seattle,WA·（123)456-7891 mrabb@email.com",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 10.666666666666666,
+            "top": 480.10666910807294,
+            "right": 182.0,
+            "bottom": 510.10666910807294
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL SUMMARY",
+      "section_type": "summary",
+      "content": [
+        "SUMMARY"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "SUMMARY",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 11.0,
+            "top": 446.77333577473956,
+            "right": 106.66666666666667,
+            "bottom": 463.44000244140625
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "DataScientistwithstrongmathbackground and3+yearsofexperienceusingpredictivemodeling dataprocessing.anddataminingalgorithmstosolvechallengingbusinessproblems.Involvedin Pythonopensourcecommunityandpassionateaboutdeepreinforcementleaming.",
+        "EXPERIENCE",
+        "Jul19-Current",
+        "RiverTech.Data Scientist",
+        "Builtfuzzymatching algorithmusingk-nearestneighborstoidentifynon-exactmatching duplicates",
+        "Designedanddevelopedrealtimerecommendationenginetoranksalesleadsforupsell opportunities",
+        "Refinedpersonalizationalgorithmsfor1M+customersonwebandmobile",
+        "TransfomedrawdataintoMySQLwithcustom-madeETLapplicationtoprepareunrulydatafor machineleaning"
+      ],
+      "items": [
+        {
+          "title": "Retail Ocean,Data Scientist",
+          "date": null,
+          "location": null,
+          "details": [
+            "Aug'15-Jul'19",
+            "Leveraged2ooM+tweetstodevelopsentimentanalysismodelthathelpedimprovesalesand marketingstrategies"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Retail Ocean,Data Scientist",
+              "page_no": 1,
+              "block_indices": [
+                15
+              ],
+              "bbox": {
+                "left": 11.0,
+                "top": 80.10666910807294,
+                "right": 189.0,
+                "bottom": 92.77333577473956
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Aug'15-Jul'19",
+              "page_no": 1,
+              "block_indices": [
+                16
+              ],
+              "bbox": {
+                "left": 513.3333333333334,
+                "top": 78.10666910807294,
+                "right": 615.0,
+                "bottom": 93.44000244140625
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Leveraged2ooM+tweetstodevelopsentimentanalysismodelthathelpedimprovesalesand marketingstrategies",
+              "page_no": 1,
+              "block_indices": [
+                17
+              ],
+              "bbox": {
+                "left": 31.0,
+                "top": 42.44000244140625,
+                "right": 587.6666666666666,
+                "bottom": 72.77333577473956
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "DataScientistwithstrongmathbackground and3+yearsofexperienceusingpredictivemodeling dataprocessing.anddataminingalgorithmstosolvechallengingbusinessproblems.Involvedin Pythonopensourcecommunityandpassionateaboutdeepreinforcementleaming.",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 10.333333333333334,
+            "top": 380.44000244140625,
+            "right": 588.6666666666666,
+            "bottom": 430.44000244140625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "EXPERIENCE",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 12.333333333333334,
+            "top": 265.10666910807294,
+            "right": 130.33333333333334,
+            "bottom": 280.77333577473956
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Jul19-Current",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 513.6666666666666,
+            "top": 233.10666910807294,
+            "right": 615.6666666666666,
+            "bottom": 245.10666910807294
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "RiverTech.Data Scientist",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 11.333333333333334,
+            "top": 233.10666910807294,
+            "right": 175.33333333333334,
+            "bottom": 244.77333577473956
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Builtfuzzymatching algorithmusingk-nearestneighborstoidentifynon-exactmatching duplicates",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 28.666666666666668,
+            "top": 195.10666910807294,
+            "right": 552.3333333333334,
+            "bottom": 226.77333577473956
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Designedanddevelopedrealtimerecommendationenginetoranksalesleadsforupsell opportunities",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 36.333333333333336,
+            "top": 178.44000244140625,
+            "right": 559.6666666666666,
+            "bottom": 191.44000244140625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Refinedpersonalizationalgorithmsfor1M+customersonwebandmobile",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 36.333333333333336,
+            "top": 144.44000244140625,
+            "right": 472.3333333333333,
+            "bottom": 157.44000244140625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "TransfomedrawdataintoMySQLwithcustom-madeETLapplicationtoprepareunrulydatafor machineleaning",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 35.333333333333336,
+            "top": 108.10666910807294,
+            "right": 600.6666666666666,
+            "bottom": 140.77333577473956
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Retail Ocean,Data Scientist",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 11.0,
+            "top": 80.10666910807294,
+            "right": 189.0,
+            "bottom": 92.77333577473956
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Aug'15-Jul'19",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 513.3333333333334,
+            "top": 78.10666910807294,
+            "right": 615.0,
+            "bottom": 93.44000244140625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Leveraged2ooM+tweetstodevelopsentimentanalysismodelthathelpedimprovesalesand marketingstrategies",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 31.0,
+            "top": 42.44000244140625,
+            "right": 587.6666666666666,
+            "bottom": 72.77333577473956
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [
+        "Current-Current"
+      ],
+      "items": [
+        {
+          "title": "CoralSpringsUniversity",
+          "date": null,
+          "location": null,
+          "details": [
+            "BachelorofScienceinMathematics"
+          ],
+          "evidence_spans": [
+            {
+              "text": "CoralSpringsUniversity",
+              "page_no": 1,
+              "block_indices": [
+                5
+              ],
+              "bbox": {
+                "left": 10.666666666666666,
+                "top": 315.1066691080729,
+                "right": 166.0,
+                "bottom": 329.1066691080729
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "BachelorofScienceinMathematics",
+              "page_no": 1,
+              "block_indices": [
+                6
+              ],
+              "bbox": {
+                "left": 11.0,
+                "top": 297.7733357747396,
+                "right": 222.33333333333334,
+                "bottom": 309.7733357747396
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Current-Current",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 506.6666666666667,
+            "top": 316.7733357747396,
+            "right": 615.3333333333334,
+            "bottom": 328.7733357747396
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "CoralSpringsUniversity",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 10.666666666666666,
+            "top": 315.1066691080729,
+            "right": 166.0,
+            "bottom": 329.1066691080729
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "BachelorofScienceinMathematics",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 11.0,
+            "top": 297.7733357747396,
+            "right": 222.33333333333334,
+            "bottom": 309.7733357747396
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Helpedbuild toolsfordetectingbotnetswithmachinelearninganddatamining"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Helpedbuild toolsfordetectingbotnetswithmachinelearninganddatamining",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 35.0,
+            "top": 7.44000244140625,
+            "right": 499.0,
+            "bottom": 23.10666910807288
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.6,
+    "status": "partial",
+    "signals": {
+      "useful_text_chars": 1035,
+      "section_completeness": 0.8333,
+      "ordering_coherence": 0.8,
+      "segmentation_stability": 0.8,
+      "layout_block_coverage": 0.5938,
+      "ocr_noise_ratio": 0.5833,
+      "weird_section_ratio": 0.0,
+      "section_count": 5,
+      "expected_section_hits": 5,
+      "router_is_scanned": true,
+      "router_ocr_required": true,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because extracted text density or text-page coverage is below thresholds\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.05
+    },
+    "warnings": [
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "repair_required",
+    "eligible_for_module2": false,
+    "decision_reason": "Document partiel; reparation et re-evaluation obligatoires avant Module 2.",
+    "decision_rules": [
+      "partial -> repair_required",
+      "partial from pdf/docx -> repair_required until revalidated"
+    ],
+    "quality_flags": [
+      "high_ocr_noise"
+    ],
+    "repair_status": "pending_repair",
+    "repair_reason": "partial_document_requires_repair",
+    "quarantine_reason": null,
+    "next_action": "send_to_repair_queue"
+  },
+  "evidence_spans": [
+    {
+      "text": "MalikRabb",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 11.0,
+        "top": 522.4400024414062,
+        "right": 110.33333333333333,
+        "bottom": 539.1066691080729
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Seattle,WA·（123)456-7891 mrabb@email.com",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 10.666666666666666,
+        "top": 480.10666910807294,
+        "right": 182.0,
+        "bottom": 510.10666910807294
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "SUMMARY",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 11.0,
+        "top": 446.77333577473956,
+        "right": 106.66666666666667,
+        "bottom": 463.44000244140625
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "DataScientistwithstrongmathbackground and3+yearsofexperienceusingpredictivemodeling dataprocessing.anddataminingalgorithmstosolvechallengingbusinessproblems.Involvedin Pythonopensourcecommunityandpassionateaboutdeepreinforcementleaming.",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 10.333333333333334,
+        "top": 380.44000244140625,
+        "right": 588.6666666666666,
+        "bottom": 430.44000244140625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "EXPERIENCE",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 12.333333333333334,
+        "top": 265.10666910807294,
+        "right": 130.33333333333334,
+        "bottom": 280.77333577473956
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Jul19-Current",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 513.6666666666666,
+        "top": 233.10666910807294,
+        "right": 615.6666666666666,
+        "bottom": 245.10666910807294
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "RiverTech.Data Scientist",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 11.333333333333334,
+        "top": 233.10666910807294,
+        "right": 175.33333333333334,
+        "bottom": 244.77333577473956
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Builtfuzzymatching algorithmusingk-nearestneighborstoidentifynon-exactmatching duplicates",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 28.666666666666668,
+        "top": 195.10666910807294,
+        "right": 552.3333333333334,
+        "bottom": 226.77333577473956
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Designedanddevelopedrealtimerecommendationenginetoranksalesleadsforupsell opportunities",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 36.333333333333336,
+        "top": 178.44000244140625,
+        "right": 559.6666666666666,
+        "bottom": 191.44000244140625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Refinedpersonalizationalgorithmsfor1M+customersonwebandmobile",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 36.333333333333336,
+        "top": 144.44000244140625,
+        "right": 472.3333333333333,
+        "bottom": 157.44000244140625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "TransfomedrawdataintoMySQLwithcustom-madeETLapplicationtoprepareunrulydatafor machineleaning",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 35.333333333333336,
+        "top": 108.10666910807294,
+        "right": 600.6666666666666,
+        "bottom": 140.77333577473956
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Retail Ocean,Data Scientist",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 11.0,
+        "top": 80.10666910807294,
+        "right": 189.0,
+        "bottom": 92.77333577473956
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Aug'15-Jul'19",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 513.3333333333334,
+        "top": 78.10666910807294,
+        "right": 615.0,
+        "bottom": 93.44000244140625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Leveraged2ooM+tweetstodevelopsentimentanalysismodelthathelpedimprovesalesand marketingstrategies",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 31.0,
+        "top": 42.44000244140625,
+        "right": 587.6666666666666,
+        "bottom": 72.77333577473956
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Current-Current",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 506.6666666666667,
+        "top": 316.7733357747396,
+        "right": 615.3333333333334,
+        "bottom": 328.7733357747396
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "CoralSpringsUniversity",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 10.666666666666666,
+        "top": 315.1066691080729,
+        "right": 166.0,
+        "bottom": 329.1066691080729
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "BachelorofScienceinMathematics",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 11.0,
+        "top": 297.7733357747396,
+        "right": 222.33333333333334,
+        "bottom": 309.7733357747396
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Helpedbuild toolsfordetectingbotnetswithmachinelearninganddatamining",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 35.0,
+        "top": 7.44000244140625,
+        "right": 499.0,
+        "bottom": 23.10666910807288
+      },
+      "section_title": "TECHNICAL SKILLS"
+    }
+  ]
+}

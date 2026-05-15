@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-05-04T14:27:20.205596+00:00",
+  "total_accepted_cvs_found": 90,
+  "total_processed": 90,
+  "complete_profile": 73,
+  "partial_profile": 16,
+  "minimal_profile": 1,
+  "unreadable": 0,
+  "failed": 0,
+  "skipped_existing": 78,
+  "average_reliability_score": 0.8441,
+  "hallucination_risk_distribution": {
+    "medium": 42,
+    "low": 47,
+    "high": 1
+  },
+  "templates_detected": {
+    "FIRSTLAST": 4,
+    "resumeworded": 4,
+    "email@youremail.com": 2,
+    "example.com": 4,
+    "resumesample": 3,
+    "info@resumekraft.com": 2,
+    "resumekraft": 2,
+    "info@qwikresume.com": 4,
+    "qwikresume": 4
+  },
+  "full_name_rejected_count": 23,
+  "fields_nullified_count": 73,
+  "unsupported_field_types": {
+    "expertise": 31,
+    "experiences": 10,
+    "education": 4,
+    "bio": 1,
+    "certifications": 1
+  },
+  "mongodb_import_readiness": "not_ready_without_review",
+  "faiss_rebuild_readiness": "not_ready_without_review"
+}

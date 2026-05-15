@@ -1,0 +1,14 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_64.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_64.json",
+  "provider_errors": [],
+  "prompt_length": 4183,
+  "llm_status": "partial",
+  "fields_nullified": [
+    "bio.email"
+  ],
+  "quality_flags": [
+    "template_detected",
+    "unsupported_fields_nullified"
+  ]
+}

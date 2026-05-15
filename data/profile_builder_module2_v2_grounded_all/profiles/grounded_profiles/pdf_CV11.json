@@ -1,0 +1,190 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV11.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7882,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nFirst Last\nSan Francisco, CA 12345 +1234567-890 first.last@resumeworded.com linkedin.com/in/resumeworded\nData Scientist\n\n## PROFESSIONAL EXPERIENCE\n\nData Scientistwiththreeyearsofexperienceinanalyzinglargedatasetsandcoming s of 8-12 teammembers.\nEXPERIENCE\n## Resume Worded, New York, NY Data Scientist\n- January 2018-Present\nProposedandimplementedanewtargetingmodel, generating Si Min wealthmanagementsales.\nLedteamof 8 peerstoresearchmarketentrystrategiesforanewbusiness line, increasingmarket penetration in 12 states.\nWorkedwith Sales, ITandmarketingteamstooptimizekeyworkflowsto identifycosts, results and opportunities, streamliningbusinessresources by improvinginternal system integration.\n## Growthsi, Boston, MA Associate Data Scientist\n- July 2015-January 2018\nContributed to company blog posts, promoting the company's analytics platform, increasingcustomer trafficby 75%.\n**Date: ** May 2015\n**Location: ** New York, NY\n\n## TECHNICAL SKILLS\n\nSKILLS\nJava C++ Python MySQL/SQL Hadoop Customerrequirement prioritization Problem Solving Data optimization Knowledge\nand skills\n\n## EDUCATION\n\n## Resume Worded University\n- Bachelor of Science: Computerand Information Sciences\n## Completedone-year study abroadwith Singapore University.\n- OTHER\nOfferedapproachestosimplifydataintegrationprocessesandstandardize datafeeds acrosssystems, reducingdata latencyfrom 8 daysto 1 day.\n\n## ACADEMIC PROJECTS\n\nImplementeddemandforecastingmodels, improvingdataforecastaccuracy by 45%, also won'Innovation award'for the same project.\n- Providedguidancetomembersandparticipatedincross-departmental projectsestablishingthecompanyasaleaderindatascience.\n## Resume Worded, Boston, MA Data Scientist Intern\n**Date: ** Awards: Dean's List 2015 (Top 10%).\n- January 2015-June 2015\n- Workedacrossmultiplefunctionaldepartmentstranslatingbusiness problemsintosolvablecaseswith emphasisonanticipatingfuture ad-hoc needs.\n## Volunteeredina 3-monthdatascience Project, run by ACB Corporation Inc.\n- Collaboratedwithotherteamsacross Microsoftanddevelopedkeymetrics to achievebusinessoutcomes.\nConsideredavaluabledevelopmentteam asset, awardedwith'Intern Appreciation Letter'oncompletinginternship\nHEADER\nFirst Last\nSanFrancisco, CA12345 +1234567-890 first.last@resumeworded.com linkedin.com/in/resumeworded\nData Scientist\nPROFESSIONAL EXPERIENCE\nDataScientistwiththreeyearsofexperienceinanalyzinglargedatasetsandcoming s of8-12teammembers.\nEXPERIENCE\nResume Worded, New York, NY DataScientist\nJanuary2018-Present\nProposedandimplementedanewtargetingmodel, generatingSiMin wealthmanagementsales.\nLedteamof8peerstoresearchmarketentrystrategiesforanewbusiness line, increasingmarket penetration in12 states.\nWorkedwithSales, ITandmarketingteamstooptimizekeyworkflowsto identifycosts, results and opportunities, streamliningbusinessresources by improvinginternal system integration.\nGrowthsi, Boston, MA AssociateDataScientist\nJuly2015-January2018\nContributed to company blog posts, promoting the company's analytics platform, increasingcustomer trafficby 75%.\nMay 2015\nNewYork, NY\nTECHNICAL SKILLS\nSKILLS\nJava C++ Python MySQL/SQL Hadoop Customerrequirement prioritization Problem Solving Data optimization Knowledge\nand skills\nEDUCATION\nResume Worded University\nBachelor ofScience: ComputerandInformation Sciences\nCompletedone-year study abroadwith Singapore University.\nOTHER\nOfferedapproachestosimplifydataintegrationprocessesandstandardize datafeeds acrosssystems, reducingdata latencyfrom8daysto1day.\nACADEMIC PROJECTS\nImplementeddemandforecastingmodels, improvingdataforecastaccuracy by 45%, also won'Innovation award'for the same project.\nProvidedguidancetomembersandparticipatedincross-departmental projectsestablishingthecompanyasaleaderindatascience.\nResumeWorded, Boston, MA DataScientistIntern\nAwards: Dean'sList 2015 (Top 10%).\nJanuary2015-June2015\nWorkedacrossmultiplefunctionaldepartmentstranslatingbusiness problemsintosolvablecaseswith emphasisonanticipatingfuture ad-hoc needs.\nVolunteeredina 3-monthdatascience Project, run byACB CorporationInc.\nCollaboratedwithotherteamsacrossMicrosoftanddevelopedkeymetrics to achievebusinessoutcomes.\nConsideredavaluabledevelopmentteam asset, awardedwith'Intern AppreciationLetter'oncompletinginternship",
+    "header_info": {
+      "full_name": null,
+      "email": "first.last@resumeworded.com",
+      "phone": "+1234567-890",
+      "location": null,
+      "linkedin": "linkedin.com/in/resumeworded",
+      "github": null
+    },
+    "detected_templates": [
+      "FIRSTLAST",
+      "first.last@",
+      "resumeworded"
+    ],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.55,
+    "quality_flags": [
+      "missing_full_name",
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8155,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email",
+      "bio.linkedin"
+    ],
+    "fields_supported": [
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": "+1234567-890",
+      "location": "San Francisco, CA 12345",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid",
+      "years_experience": 3,
+      "hard_skills": [
+        "Java",
+        "C++",
+        "Python",
+        "MySQL/SQL",
+        "Hadoop"
+      ],
+      "soft_skills": [
+        "Customer requirement prioritization",
+        "Problem Solving",
+        "Data optimization"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Resume Worded",
+        "job_title": "Data Scientist",
+        "start_date": "January 2018",
+        "end_date": "Present",
+        "city": "New York, NY",
+        "responsibilities": [
+          "Proposed and implemented a new targeting model, generating significant wealth management sales.",
+          "Led team of 8 peers to research market entry strategies for a new business line, increasing market penetration in 12 states.",
+          "Worked with Sales, IT and marketing teams to optimize key workflows to identify costs, results and opportunities, streamlining business resources by improving internal system integration."
+        ]
+      },
+      {
+        "company": "Growthsi",
+        "job_title": "Associate Data Scientist",
+        "start_date": "July 2015",
+        "end_date": "January 2018",
+        "city": "Boston, MA",
+        "responsibilities": [
+          "Contributed to company blog posts, promoting the company's analytics platform, increasing customer traffic by 75%."
+        ]
+      },
+      {
+        "company": "Resume Worded",
+        "job_title": "Data Scientist Intern",
+        "start_date": "January 2015",
+        "end_date": "June 2015",
+        "city": "Boston, MA",
+        "responsibilities": [
+          "Worked across multiple functional departments translating business problems into solvable cases with emphasis on anticipating future ad-hoc needs."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Resume Worded University",
+        "degree": "Bachelor of Science",
+        "field": "Computer and Information Sciences",
+        "year": null
+      },
+      {
+        "institution": "Singapore University",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:37:09.268106+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:27.517157+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

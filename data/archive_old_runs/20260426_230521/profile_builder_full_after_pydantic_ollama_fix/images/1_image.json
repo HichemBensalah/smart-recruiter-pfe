@@ -1,0 +1,81 @@
+{
+  "source_path": "data\\raw_cv\\images\\1_image.jpg",
+  "artifact_path": "data\\processed_final_rerun_20260414\\images\\1_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "first.last@resumeworded.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "FIRSTLAST",
+      "email": "first.last@resumeworded.com",
+      "phone": "+1 (212) 123-4567",
+      "location": "New York City, NY 10000"
+    },
+    "expertise": {
+      "summary": "Data Science Manager with experience in data analysis, machine learning, and team leadership",
+      "hard_skills": [
+        "Python",
+        "Perl",
+        "Microsoft Access",
+        "Project Management"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Manager",
+        "company": "RESUMEWORDED",
+        "start_date": "2016",
+        "end_date": "Present",
+        "city": "San Francisco, CA and New York, NY",
+        "responsibilities": [
+          "Conducted data regression analysis of the relationship between company stock prices and current industry trends",
+          "Led full redesign of website with findings from customer segmentation and competitive research",
+          "Developed a new targeting model by segmenting potential users by behavioral attributes from survey data",
+          "Designed training and peer-mentoring programs for the incoming class of 25 analysts in 2014"
+        ]
+      },
+      {
+        "job_title": "Senior Data Scientist",
+        "company": null,
+        "start_date": "2015",
+        "end_date": "2016",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "GROWTHSI",
+        "start_date": null,
+        "end_date": null,
+        "city": "San Francisco, CA",
+        "responsibilities": [
+          "Developed and maintained ETL scripts in Python and Perl to scrape data from external websites into a SQL database",
+          "Collaborated with other teams as a Representative of the Data Analysis department and developed key metrics to achieve business outcomes"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Management",
+        "school": "GROWTHSI",
+        "year": "2011-2012"
+      },
+      {
+        "degree": "Bachelor of Engineering",
+        "school": "RESUMEWORDEDUNIVERSITY",
+        "year": "2007-2011"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:59:29.259997+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7231
+    }
+  }
+}

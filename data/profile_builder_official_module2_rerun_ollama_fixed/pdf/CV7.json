@@ -1,0 +1,61 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV7.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV7.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T112502Z",
+  "profile": {
+    "source_id": "just h@email. com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Justine Hendrickson",
+      "email": "Just H@email. com",
+      "phone": "(123)456-7890",
+      "location": "Houston, TX"
+    },
+    "expertise": {
+      "summary": "Data science graduate with a passion for data integrity, visualization, and statistics",
+      "hard_skills": [
+        "Python",
+        "Tableau",
+        "Hadoop",
+        "Numpy",
+        "Data ETL",
+        "API frameworks",
+        "JSON",
+        "Pandas",
+        "HTML 5",
+        "Bootstrap"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Entry-Level Metadata Scientist",
+        "company": "Labcorp",
+        "start_date": "July 2021",
+        "end_date": null,
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Identified appropriate quantitative methods and built relevant datasets to address challenges across 6 different domains",
+          "Implemented 32 statistical and machine learning solutions end-to-end"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B. S.",
+        "school": "University of Houston",
+        "year": "2017-2021"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T11:31:19.302186+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.763
+    }
+  }
+}

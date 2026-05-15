@@ -1,0 +1,94 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV12.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV12.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pa.desmond038@gmail.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Paul Desmond",
+      "email": "pa.desmond038@gmail.com",
+      "phone": "796-294-2948",
+      "location": "Lowell, Massachusetts"
+    },
+    "expertise": {
+      "summary": "Data scientist with 10 years of experience creating models that predict stock prices and investment returns",
+      "hard_skills": [
+        "RStudio",
+        "Python",
+        "Cloudera",
+        "Data Visualization",
+        "Modeling",
+        "Statistics"
+      ],
+      "soft_skills": [
+        "Problem Solving",
+        "Critical & Creative Thinking",
+        "Communication",
+        "Time Management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Principal Data Scientist",
+        "company": "Danaher",
+        "start_date": "April 2017",
+        "end_date": "March 2021",
+        "city": "Cortland",
+        "responsibilities": [
+          "Led & supported the development, optimization and migration of new or existing technologies",
+          "Assisted in implementation of technology from R&D to launch",
+          "Supported intellectual property, marketing and sales departments with relevant expertise",
+          "Collaborated with software teams to implement algorithms on embedded hardware",
+          "Performed variability analyses for model optimization",
+          "Communicated algorithm designs and performance results to cross-functional stakeholders"
+        ]
+      },
+      {
+        "job_title": "Technical Data Scientist",
+        "company": "DELL",
+        "start_date": "January 2013",
+        "end_date": "August 2014",
+        "city": "Hopkinton",
+        "responsibilities": [
+          "Provided thought leadership to deliver transformative AI Ops solutions on our SaaS platform",
+          "Provided strategic direction to the planning, design and architecture of high quality, complex software systems",
+          "Worked with customers and product experts to blaze a trail in autonomous data center management",
+          "Solved customers' complex IT problems using innovative analytical processes and techniques"
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "Abiomed",
+        "start_date": "2008",
+        "end_date": "2010",
+        "city": "Longmeadow",
+        "responsibilities": [
+          "Evaluated algorithm performance in offline (in silico) and live (in vitro, in vivo) environments"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master's",
+        "school": "Bay Path University",
+        "year": null
+      },
+      {
+        "degree": "Bachelor of Science",
+        "school": "Becker College",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:25:00.064868+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8179
+    }
+  }
+}

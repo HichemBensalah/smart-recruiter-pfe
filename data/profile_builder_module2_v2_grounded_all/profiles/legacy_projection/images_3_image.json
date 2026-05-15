@@ -1,0 +1,92 @@
+{
+  "source_path": "data\\raw_cv\\images\\3_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\3_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\images\\3_image.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Emily Saavedra",
+      "email": null,
+      "phone": "07835150056",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Microsoft Office",
+        "MSSQL Server",
+        "Sisense",
+        "Zoho Analytics",
+        "Qlik Sense"
+      ],
+      "soft_skills": [
+        "Accuracy",
+        "Analytical Skills",
+        "Detail",
+        "Orientation",
+        "Good Team Player",
+        "Multitasking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "Spy Biotech, Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": "London, United Kingdom",
+        "responsibilities": [
+          "Developed and implemented new forecasting models which increased company productivity and efficiency."
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "CGL, Inc.",
+        "start_date": "07/2016-09/2017",
+        "end_date": null,
+        "city": "London, United Kingdom",
+        "responsibilities": [
+          "Collected, analyzed, and interpreted raw data from various websites."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "English Tutor Go Overseas",
+        "start_date": "06/2014-08/2014",
+        "end_date": null,
+        "city": "Suva, Fiji",
+        "responsibilities": [
+          "Maintained and managed company's MSSQL server."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "First Class Honours",
+        "school": "Mathematics and Statistics University of Chichester",
+        "year": null
+      },
+      {
+        "degree": "IB Diploma Programme",
+        "school": "The International School Estepona",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T13:49:10.408354+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9241,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

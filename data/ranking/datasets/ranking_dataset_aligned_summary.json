@@ -1,0 +1,44 @@
+{
+  "generated_at_utc": "2026-05-14T22:46:26.895964+00:00",
+  "dataset_id": "ranking_dataset_aligned_v1",
+  "input_dir": "data\\ranking\\features",
+  "include_job_ids": [
+    "backend_python_django_postgresql",
+    "backend_python_fastapi_mongodb_aligned",
+    "data_analyst_python_sql_powerbi",
+    "data_engineer_python_sql_etl_aligned",
+    "machine_learning_python_nlp"
+  ],
+  "total_rows": 250,
+  "jobs": [
+    "backend_python_django_postgresql",
+    "backend_python_fastapi_mongodb_aligned",
+    "data_analyst_python_sql_powerbi",
+    "data_engineer_python_sql_etl_aligned",
+    "machine_learning_python_nlp"
+  ],
+  "rows_per_job": {
+    "backend_python_django_postgresql": 50,
+    "backend_python_fastapi_mongodb_aligned": 50,
+    "data_analyst_python_sql_powerbi": 50,
+    "data_engineer_python_sql_etl_aligned": 50,
+    "machine_learning_python_nlp": 50
+  },
+  "feature_count": 12,
+  "feature_names": [
+    "vector_similarity",
+    "final_score_v3",
+    "must_have_coverage",
+    "required_skills_overlap",
+    "nice_to_have_overlap",
+    "experience_match_score",
+    "seniority_alignment",
+    "profile_quality_score",
+    "reliability_score",
+    "hallucination_risk_encoded",
+    "missing_required_count",
+    "matched_required_count"
+  ],
+  "label_status": "unlabeled",
+  "warnings": []
+}

@@ -1,0 +1,96 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\2_anonyme.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\2_anonyme.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:2_anonyme",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Information Technology Manager with experience in ERP solutions, accounting and HR systems, and cloud environments design and implementation",
+      "hard_skills": [
+        "Cloud Environments Design & Implementation",
+        "Network Design & Implementation",
+        "VOIP",
+        "Cyber Security",
+        "NIST HITRUST/HIPAA",
+        "Cisco Routers",
+        "Firewalls",
+        "Windows Server"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Communication",
+        "Collaboration",
+        "Project Management",
+        "Budget Management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Inform ation technology",
+        "company": "City",
+        "start_date": "Sep 2005",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Managed the ERP solution at the manufacturing plant in Boston and accounting and HR systems at the corporate office",
+          "Promoted to IT Manager after nine months",
+          "Designed and deployed the first data center for the company",
+          "Created cyber security policies and controls",
+          "Put together a team to support the data center and provide technical support for the new product offering"
+        ]
+      },
+      {
+        "job_title": "Information technology Manager",
+        "company": null,
+        "start_date": "Sep 2003",
+        "end_date": "Sep 2005",
+        "city": null,
+        "responsibilities": [
+          "Managed the day-to-day responsibilities of a 24x7x365 IT organization",
+          "Managed a large IT environment with ~10,000 SaaS",
+          "Assigned clear authority and held others accountable for goal achievement"
+        ]
+      },
+      {
+        "job_title": "Information technology Manager",
+        "company": null,
+        "start_date": "1998",
+        "end_date": "Mar 2003",
+        "city": null,
+        "responsibilities": [
+          "Supervised network administrators",
+          "Responsible for all high-level network design and architecture for the organization"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Masters of Science Degree",
+        "school": "Mihaylo College of Business and Economics, California State University",
+        "year": null
+      },
+      {
+        "degree": "Bachelors of Science Degree",
+        "school": "University of Phoenix",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:19:40.855672+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.89
+    }
+  }
+}

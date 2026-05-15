@@ -1,0 +1,169 @@
+{
+  "generated_at_utc": "2026-05-15T10:15:48.540702+00:00",
+  "status": "available",
+  "examples": [
+    {
+      "job_id": "backend_python_django_postgresql",
+      "candidate_id": "candidate_b6f7add66ffc",
+      "label": 3,
+      "label_binary": 1,
+      "predicted_probability": 0.9825757741928101,
+      "top_positive_shap_contributions": [
+        {
+          "feature": "final_score_v3",
+          "shap_value": 4.582131385803223,
+          "feature_value": 0.7754
+        },
+        {
+          "feature": "must_have_coverage",
+          "shap_value": 0.6870032548904419,
+          "feature_value": 0.8
+        },
+        {
+          "feature": "vector_similarity",
+          "shap_value": 0.16508948802947998,
+          "feature_value": 0.4296
+        },
+        {
+          "feature": "profile_quality_score",
+          "shap_value": 0.08703912794589996,
+          "feature_value": 0.9368
+        },
+        {
+          "feature": "experience_match_score",
+          "shap_value": 0.019998665899038315,
+          "feature_value": 1.0
+        }
+      ],
+      "top_negative_shap_contributions": [],
+      "interpretation": "Pour cet exemple pseudo-labellisé 1, les signaux les plus favorables au modèle sont dominés par final_score_v3; les signaux qui réduisent le score sont dominés par aucune contribution négative nette. Cette lecture explique le modèle expérimental, pas une décision recruteur."
+    },
+    {
+      "job_id": "backend_python_fastapi_mongodb_aligned",
+      "candidate_id": "candidate_1487f3187f7b",
+      "label": 3,
+      "label_binary": 1,
+      "predicted_probability": 0.9718322157859802,
+      "top_positive_shap_contributions": [
+        {
+          "feature": "final_score_v3",
+          "shap_value": 4.5683393478393555,
+          "feature_value": 0.7201
+        },
+        {
+          "feature": "must_have_coverage",
+          "shap_value": 0.6386519074440002,
+          "feature_value": 0.8
+        },
+        {
+          "feature": "profile_quality_score",
+          "shap_value": 0.08703912794589996,
+          "feature_value": 0.8377
+        },
+        {
+          "feature": "experience_match_score",
+          "shap_value": 0.019998665899038315,
+          "feature_value": 1.0
+        },
+        {
+          "feature": "reliability_score",
+          "shap_value": 0.015316840261220932,
+          "feature_value": 0.8377
+        }
+      ],
+      "top_negative_shap_contributions": [
+        {
+          "feature": "vector_similarity",
+          "shap_value": -0.2640800476074219,
+          "feature_value": 0.6319
+        }
+      ],
+      "interpretation": "Pour cet exemple pseudo-labellisé 1, les signaux les plus favorables au modèle sont dominés par final_score_v3; les signaux qui réduisent le score sont dominés par vector_similarity. Cette lecture explique le modèle expérimental, pas une décision recruteur."
+    },
+    {
+      "job_id": "backend_python_django_postgresql",
+      "candidate_id": "candidate_e1fda1d70be1",
+      "label": 1,
+      "label_binary": 0,
+      "predicted_probability": 0.004225806798785925,
+      "top_positive_shap_contributions": [
+        {
+          "feature": "profile_quality_score",
+          "shap_value": 0.04184660315513611,
+          "feature_value": 0.9386
+        },
+        {
+          "feature": "reliability_score",
+          "shap_value": 0.00846708845347166,
+          "feature_value": 0.9386
+        },
+        {
+          "feature": "experience_match_score",
+          "shap_value": 0.006979441270232201,
+          "feature_value": 1.0
+        }
+      ],
+      "top_negative_shap_contributions": [
+        {
+          "feature": "final_score_v3",
+          "shap_value": -3.364246368408203,
+          "feature_value": 0.4349
+        },
+        {
+          "feature": "must_have_coverage",
+          "shap_value": -0.5319093465805054,
+          "feature_value": 0.4
+        },
+        {
+          "feature": "vector_similarity",
+          "shap_value": -0.09918835014104843,
+          "feature_value": 0.5635
+        }
+      ],
+      "interpretation": "Pour cet exemple pseudo-labellisé 0, les signaux les plus favorables au modèle sont dominés par profile_quality_score; les signaux qui réduisent le score sont dominés par final_score_v3. Cette lecture explique le modèle expérimental, pas une décision recruteur."
+    },
+    {
+      "job_id": "backend_python_django_postgresql",
+      "candidate_id": "candidate_073b7a3d39ba",
+      "label": 1,
+      "label_binary": 0,
+      "predicted_probability": 0.0038405819796025753,
+      "top_positive_shap_contributions": [
+        {
+          "feature": "vector_similarity",
+          "shap_value": 0.008409086614847183,
+          "feature_value": 0.5213
+        },
+        {
+          "feature": "experience_match_score",
+          "shap_value": 0.006979441270232201,
+          "feature_value": 1.0
+        }
+      ],
+      "top_negative_shap_contributions": [
+        {
+          "feature": "final_score_v3",
+          "shap_value": -3.4604651927948,
+          "feature_value": 0.4297
+        },
+        {
+          "feature": "must_have_coverage",
+          "shap_value": -0.5829831957817078,
+          "feature_value": 0.4
+        },
+        {
+          "feature": "reliability_score",
+          "shap_value": -0.0036804687697440386,
+          "feature_value": 0.9581
+        },
+        {
+          "feature": "profile_quality_score",
+          "shap_value": -0.002283194102346897,
+          "feature_value": 0.9581
+        }
+      ],
+      "interpretation": "Pour cet exemple pseudo-labellisé 0, les signaux les plus favorables au modèle sont dominés par vector_similarity; les signaux qui réduisent le score sont dominés par final_score_v3. Cette lecture explique le modèle expérimental, pas une décision recruteur."
+    }
+  ],
+  "methodology_warning": "Ces explications SHAP concernent un modèle entraîné sur pseudo-labels métier contrôlés, pas sur labels recruteur."
+}

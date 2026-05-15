@@ -1,0 +1,86 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV18.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV18.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "info@resumekraft.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Eric Nathan",
+      "email": "info@resumekraft.com",
+      "phone": null,
+      "location": "Chicago, Illinois, US"
+    },
+    "expertise": {
+      "summary": "Data Science and Programming using various tools and languages Professional skilled in data analysis with a strong background in computer science.",
+      "hard_skills": [
+        "Node",
+        "Tableau",
+        "Python",
+        "Javascript",
+        "Angular",
+        "Java",
+        "Dot Net"
+      ],
+      "soft_skills": [
+        "Coding",
+        "Teamwork"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Jan 2021",
+        "end_date": null,
+        "city": "Chicago",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Intern",
+        "company": null,
+        "start_date": "23 March 2020-21 June 2020",
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": "2018-02-07",
+        "city": "Chicago",
+        "responsibilities": [
+          "EXTRACURRICULAR"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master",
+        "school": "San Jose State University",
+        "year": "Jul 2017 - Present"
+      },
+      {
+        "degree": "Bachelor",
+        "school": "Northeastern University",
+        "year": null
+      },
+      {
+        "degree": "Internship Duration",
+        "school": "Data Science",
+        "year": "Jan 2021"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:34:30.112009+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6112
+    }
+  }
+}

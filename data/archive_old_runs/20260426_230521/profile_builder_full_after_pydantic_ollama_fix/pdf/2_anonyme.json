@@ -1,0 +1,95 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\2_anonyme.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\2_anonyme.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:2_anonyme",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "IT professional with experience in managing ERP solutions, accounting and HR systems, and cloud environments",
+      "hard_skills": [
+        "Cloud Environments Design & Implementation",
+        "Network Design & Implementation",
+        "VOIP",
+        "Cyber Security",
+        "NIST",
+        "HITRUST/HIPAA",
+        "SaaS",
+        "Cisco Routers",
+        "Firewalls",
+        "Windows Server"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Communication",
+        "Collaboration",
+        "Project Management",
+        "Budget Management",
+        "Strategic Planning"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Inform ation technology",
+        "company": "City",
+        "start_date": "Sep 2005",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Managing the overall management, infrastructure and strategic planning of the National point of sale network",
+          "Acting as liaison between vendors, operation staff and the CFO for all major projects"
+        ]
+      },
+      {
+        "job_title": "Inform ation technology Manager",
+        "company": "City",
+        "start_date": "Sep 2003",
+        "end_date": "Sep 2005",
+        "city": null,
+        "responsibilities": [
+          "Managing the day-to-day responsibilities of a 24x7x365 IT organization",
+          "Managing a large IT environment with ~10,000 SaaS"
+        ]
+      },
+      {
+        "job_title": "Inform ation technology Manager",
+        "company": "City",
+        "start_date": "1998",
+        "end_date": "Mar 2003",
+        "city": null,
+        "responsibilities": [
+          "Supervising network administrators",
+          "Evaluating the security risks, ensuring HITECH/HIPAA protocol were followed"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Masters of Science Degree",
+        "school": "California State University",
+        "year": null
+      },
+      {
+        "degree": "Bachelors of Science Degree",
+        "school": "University of Phoenix",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:23:57.329625+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.89
+    }
+  }
+}

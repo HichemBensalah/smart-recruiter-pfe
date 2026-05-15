@@ -1,0 +1,66 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV20.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV20.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:CV20",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Trish Mathers",
+      "email": null,
+      "phone": "(123)456-7890",
+      "location": "Bellevue, WA"
+    },
+    "expertise": {
+      "summary": "Data Science, Quantitative Modeling and Machine Learning with SAS, SQL, Python, Excel, Google Sheets",
+      "hard_skills": [
+        "Excel",
+        "Google Sheets"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Niantic",
+        "start_date": "April 2022",
+        "end_date": "December 2022",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Statistics and Mathematics Tutor at Seattle University Tutor Center",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Seattle, WA",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Statistics and Mathematics Tutor at Seattle University",
+        "company": null,
+        "start_date": "April 2020",
+        "end_date": "April 2022",
+        "city": "Seattle, WA",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "B. S.",
+        "school": "Seattle University",
+        "year": "September 2019-April 2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:50:49.321366+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8155
+    }
+  }
+}

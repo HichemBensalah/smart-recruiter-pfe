@@ -1,0 +1,146 @@
+[
+  {
+    "source_path": "data\\raw_cv\\pdf\\CV6.pdf",
+    "artifact_path": "data\\processed_official_module1\\pdf\\CV6.json",
+    "source_format": "pdf",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.7713,
+    "quality_flags": [
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\pdf\\CV7.pdf",
+    "artifact_path": "data\\processed_official_module1\\pdf\\CV7.json",
+    "source_format": "pdf",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.763,
+    "quality_flags": [
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\pdf\\CV8.pdf",
+    "artifact_path": "data\\processed_official_module1\\pdf\\CV8.json",
+    "source_format": "pdf",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.5535,
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\pdf\\CV9.pdf",
+    "artifact_path": "data\\processed_official_module1\\pdf\\CV9.json",
+    "source_format": "pdf",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.6683,
+    "quality_flags": [
+      "low_section_order_coherence"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\pdf\\Hichem_resume.pdf",
+    "artifact_path": "data\\processed_official_module1\\pdf\\Hichem_resume.json",
+    "source_format": "pdf",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.9515,
+    "quality_flags": [],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=4065\", \"pdf_total_text_words=549\", \"pdf_avg_text_chars_per_page=4065.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\pdf\\Image_56.pdf",
+    "artifact_path": "data\\processed_official_module1\\pdf\\Image_56.json",
+    "source_format": "pdf",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.7875,
+    "quality_flags": [
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\pdf\\Image_60.pdf",
+    "artifact_path": "data\\processed_official_module1\\pdf\\Image_60.json",
+    "source_format": "pdf",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.8095,
+    "quality_flags": [
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\pdf\\Image_62.pdf",
+    "artifact_path": "data\\processed_official_module1\\pdf\\Image_62.json",
+    "source_format": "pdf",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.55,
+    "quality_flags": [
+      "low_section_order_coherence",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=0\", \"pdf_total_text_words=0\", \"pdf_avg_text_chars_per_page=0.0\", \"pdf_text_page_ratio=0.00\", \"pdf_image_page_ratio=1.00\", \"classification=scanned_pdf because the PDF is image-heavy and the text layer stays weak\", \"ocr_forced_due_to_image_heavy_pdf(image_ratio>=0.8, avg_chars<140.0)\", \"route=docling_structured with OCR enabled because PDF behaves like a scan\"]}"
+  }
+]

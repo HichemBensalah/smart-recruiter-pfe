@@ -1,0 +1,87 @@
+{
+  "source_path": "data\\raw_cv\\docx\\0_anonyme.docx",
+  "artifact_path": "data\\processed_final_rerun_20260414\\docx\\0_anonyme.json",
+  "source_format": "docx",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "docx:0_anonyme",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Airman First Class [Full Name]",
+      "email": null,
+      "phone": null,
+      "location": ""
+    },
+    "expertise": {
+      "summary": "Electrical engineer with experience in designing, developing and manufacturing electronic systems for military flight simulators.",
+      "hard_skills": [
+        "AC/DC power distribution",
+        "Video distribution",
+        "Control loaders",
+        "Communication systems"
+      ],
+      "soft_skills": [
+        "Design specifications",
+        "Schematics and assembly drawings"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Electrical Engineer",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Designed electrical systems to be integrated in military flight simulators"
+        ]
+      },
+      {
+        "job_title": "Multi-Skiled Engineering Manager",
+        "company": "Company Name",
+        "start_date": "03/2015",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Led multiple initiatives with a goal of continuous improvement"
+        ]
+      },
+      {
+        "job_title": "Technical Lead Engineer (Hardware Engineering Integrated Product Team - IPT)",
+        "company": "Boeing's GS&S division",
+        "start_date": "11/2001",
+        "end_date": "05/2005",
+        "city": null,
+        "responsibilities": [
+          "Tested and implemented first time quality metrics across Boeing's GS&S division"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": "Master of Business Administration",
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": "Bachelor of Science: Electrical Engineering",
+        "school": "University of Evansville",
+        "year": "1985"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:53:05.610349+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7472
+    }
+  }
+}

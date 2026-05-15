@@ -1,0 +1,77 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_70.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_70.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T121037Z",
+  "profile": {
+    "source_id": "pdf:Image_70",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MILDREDZEMLAK",
+      "email": null,
+      "phone": null,
+      "location": "NEWYORK, NY"
+    },
+    "expertise": {
+      "summary": "Data science and analytics professional with experience in team management, advanced analytics, and data science open-source platforms",
+      "hard_skills": [
+        "Python",
+        "scikit-learn",
+        "Tensorflow",
+        "kera",
+        "Azure",
+        "Snowflake",
+        "Air 9",
+        "Spark ML",
+        "caret",
+        "mllib"
+      ],
+      "soft_skills": [
+        "teamwork",
+        "initiative",
+        "attention to detail"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Data Science",
+        "company": "Daniel, Lubowitzand Wisozk",
+        "start_date": "09/2019",
+        "end_date": "present",
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Retain and recruit a large and growing data science, analytics and engineering team",
+          "Create a virtuous cycle of platform adoption with improved data insights and streamlined publishing/access",
+          "Drive revenue and cost optimization decisions and experiment ideas with business leaders based on data insights"
+        ]
+      },
+      {
+        "job_title": "Data Science",
+        "company": "Goyette Inc",
+        "start_date": "02/2014",
+        "end_date": "07/2019",
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Building & managing a large analytics team, working cross-functionally, and managing vendor relationships and contracts",
+          "Hands on experience in advanced analytics, Machine Learning and data science open-source platforms such as R and Python along with DW platforms such as Hana, Hadoop"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's",
+        "school": "Lim College",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T12:19:31.324378+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7063
+    }
+  }
+}

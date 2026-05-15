@@ -1,0 +1,169 @@
+{
+  "demo_title": "Smart Recruiter PFE - Demo baseline officielle (5-7 min)",
+  "duration_target_minutes": 6,
+  "files_to_open_in_order": [
+    {
+      "step": 1,
+      "path": "README.md",
+      "purpose": "Poser le contexte, le perimetre et la baseline officielle."
+    },
+    {
+      "step": 2,
+      "path": "docs/reports/demo/demo_readiness_check.json",
+      "purpose": "Montrer que tous les artefacts de demo sont presents et lisibles."
+    },
+    {
+      "step": 3,
+      "path": "data/processed_official_module1/handoff/accepted.json",
+      "purpose": "Prouver le handoff Module 1 vers Module 2 (90 accepted)."
+    },
+    {
+      "step": 4,
+      "path": "data/processed_official_module1/pdf/Hichem_resume.md",
+      "purpose": "Montrer un exemple concret de sortie Markdown Module 1."
+    },
+    {
+      "step": 5,
+      "path": "data/profile_builder_module2_v2_grounded_all/profiles/grounded_profiles/pdf_Hichem_resume.json",
+      "purpose": "Montrer un exemple concret de profil JSON grounded Module 2."
+    },
+    {
+      "step": 6,
+      "path": "data/indexes/faiss/index_report.json",
+      "purpose": "Prouver l'indexation FAISS officielle (90 profils indexes)."
+    },
+    {
+      "step": 7,
+      "path": "data/job_profiles/backend_python_fastapi_mongodb.json",
+      "purpose": "Montrer le profil de poste utilise pour le matching."
+    },
+    {
+      "step": 8,
+      "path": "docs/reports/matching/v3/matching_report_v3_normalized.json",
+      "purpose": "Presenter le resultat officiel de matching V3 normalized."
+    },
+    {
+      "step": 9,
+      "path": "docs/reports/matching/v3/decision_cards_v3_normalized.json",
+      "purpose": "Presenter l'explication officielle des recommandations."
+    },
+    {
+      "step": 10,
+      "path": "docs/reports/retrieval/faiss_cross_encoder_ablation_summary.json",
+      "purpose": "Annexe experimentale uniquement si question du jury sur CrossEncoder."
+    }
+  ],
+  "speech_by_step": [
+    {
+      "step": 1,
+      "timebox_seconds": 30,
+      "talk_track": "Nous presentons la baseline officielle: CV bruts -> Module 1 Parser -> Module 2 grounded -> MongoDB -> FAISS -> Matching V3 normalized -> Decision Cards."
+    },
+    {
+      "step": 2,
+      "timebox_seconds": 25,
+      "talk_track": "Le readiness check confirme que les artefacts obligatoires existent et sont coherents pour la demo."
+    },
+    {
+      "step": 3,
+      "timebox_seconds": 35,
+      "talk_track": "Ici, accepted.json montre 90 documents valides transmis depuis Module 1."
+    },
+    {
+      "step": 4,
+      "timebox_seconds": 30,
+      "talk_track": "Exemple de rendu Module 1 en Markdown: extraction structuree et lisible."
+    },
+    {
+      "step": 5,
+      "timebox_seconds": 35,
+      "talk_track": "Exemple de profil grounded Module 2: structure propre, champs exploitables pour retrieval et matching."
+    },
+    {
+      "step": 6,
+      "timebox_seconds": 30,
+      "talk_track": "FAISS est deja indexe et pret, avec 90 profils indexes."
+    },
+    {
+      "step": 7,
+      "timebox_seconds": 20,
+      "talk_track": "Ce job profile definit les competences cibles du poste backend Python/FastAPI/MongoDB."
+    },
+    {
+      "step": 8,
+      "timebox_seconds": 55,
+      "talk_track": "Le matching V3 normalized fournit le classement officiel des candidats pour ce poste."
+    },
+    {
+      "step": 9,
+      "timebox_seconds": 55,
+      "talk_track": "Les Decision Cards expliquent chaque recommendation, forces, faiblesses et points d'entretien."
+    },
+    {
+      "step": 10,
+      "timebox_seconds": 25,
+      "talk_track": "CrossEncoder est montre uniquement en annexe experimentale, pas comme baseline."
+    }
+  ],
+  "do_not_show": [
+    ".venv/",
+    ".env",
+    "data/archive_old_runs/",
+    "reruns historiques",
+    "scripts de patch",
+    "scripts/cleanup_project_artifacts.py",
+    "src/api/ si incomplet",
+    "ui/ si incomplet",
+    "src/core/chatbot/ si incomplet"
+  ],
+  "do_not_say": [
+    "CrossEncoder est la baseline officielle.",
+    "Qdrant est un composant prevu de la version finale.",
+    "XGBoost sera ajoute sans labels.",
+    "Les Decision Cards remplacent le recruteur.",
+    "L'API/UI est complete."
+  ],
+  "experimental_part": {
+    "status": "optionnel_annexe",
+    "items": [
+      "CrossEncoder non contraint",
+      "CrossEncoder contraint"
+    ],
+    "rule": "N'en parler que si question explicite du jury; toujours rappeler que la baseline officielle reste FAISS + Matching V3 normalized."
+  },
+  "expected_questions_and_short_answers": [
+    {
+      "question": "Pourquoi FAISS ?",
+      "short_answer": "FAISS offre un retrieval vectoriel rapide, reproductible et local, suffisant pour la baseline officielle."
+    },
+    {
+      "question": "Pourquoi pas Qdrant ?",
+      "short_answer": "Qdrant est hors perimetre de cette baseline; nous avons fige la version officielle sur FAISS pour stabilite et soutenance."
+    },
+    {
+      "question": "Pourquoi CrossEncoder n'est pas baseline ?",
+      "short_answer": "CrossEncoder est plus couteux et encore en phase experimentale; il sert d'annexe comparative, pas de reference officielle."
+    },
+    {
+      "question": "Pourquoi 90 profils deviennent 75 candidats ?",
+      "short_answer": "Un candidat peut avoir plusieurs profils/sources; dedup et consolidation reduisent le nombre d'entites candidates finales."
+    },
+    {
+      "question": "Pourquoi XGBoost n'est pas encore fait ?",
+      "short_answer": "XGBoost + SHAP necessitent des labels fiables; sans labels, cela resterait non robuste scientifiquement."
+    },
+    {
+      "question": "Est-ce que le systeme remplace le recruteur ?",
+      "short_answer": "Non. Le systeme assiste et priorise; la decision finale reste humaine."
+    },
+    {
+      "question": "Les Decision Cards inventent-elles des informations ?",
+      "short_answer": "Non, elles sont generees a partir des champs existants du rapport de matching sans enrichment LLM."
+    },
+    {
+      "question": "Pourquoi Docling + PyTesseract ?",
+      "short_answer": "Docling est le parseur principal; PyTesseract sert de fallback sur les cas difficiles/scannes pour ameliorer la robustesse."
+    }
+  ],
+  "final_message": "La baseline officielle est stable, traçable et prete pour la soutenance: parsing, structuration grounded, retrieval FAISS, matching V3 normalized et Decision Cards explicatives."
+}

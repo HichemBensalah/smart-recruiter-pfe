@@ -1,0 +1,69 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV9.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV9.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T112502Z",
+  "profile": {
+    "source_id": "pdf:CV9",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": "Dublin, leland"
+    },
+    "expertise": {
+      "summary": "Data Science and Business Analytics",
+      "hard_skills": [
+        "Tableau",
+        "D 3. js",
+        "SAS Enterprise Miner",
+        "IBMDB 2"
+      ],
+      "soft_skills": [
+        "servant leadership",
+        "mindfulness"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Boyle Ltd",
+        "start_date": null,
+        "end_date": "2017-Now",
+        "city": "Dublin, leland",
+        "responsibilities": [
+          "Delivering business recommendations that increased campaign revenue in 300k+USD/month",
+          "Creating and implementing strategic marketing campaigns that resulted in $26 million in profits",
+          "Building a real-time analytics dashboard using Tableau and D3.js that portrays the processed output"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Rolfs",
+        "start_date": "2016-2017",
+        "end_date": null,
+        "city": "Dublin, eland",
+        "responsibilities": [
+          "Developing enterprise data analytics vision and strategy for generating an additional cash-flow up to $2B"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "null",
+        "school": "RMIT University",
+        "year": "2015-2020"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T11:35:53.366694+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6683
+    }
+  }
+}

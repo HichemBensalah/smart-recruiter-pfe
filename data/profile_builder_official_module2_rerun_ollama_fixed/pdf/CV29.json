@@ -1,0 +1,66 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV29.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV29.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:CV29",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Zelma Kunde",
+      "email": null,
+      "phone": "+1(555)4931757",
+      "location": "Houston, TX"
+    },
+    "expertise": {
+      "summary": "Leading Data Science and Machine Learning initiatives to drive business value through data-driven insights, solutions, and storytelling.",
+      "hard_skills": [
+        "Analytics"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Lead and growthe Data Science & Machine Learning team",
+          "Knowledgewhich to open source technologies",
+          "Actquickly onnewideas",
+          "Strongrecord ofpriorresearchand/orproductdevelopmentexperience"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Philadelphia, PA",
+        "responsibilities": [
+          "Workcrossfunctionallywithstakeholders",
+          "Developtechnique/algorithms/measurementforresearchandanalysiswork",
+          "Wrangling datafrom multiple sources"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "UNIVERSITYOFMEMPHIS",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:19:42.609582+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8373
+    }
+  }
+}

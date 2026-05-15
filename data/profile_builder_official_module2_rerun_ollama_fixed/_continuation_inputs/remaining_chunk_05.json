@@ -1,0 +1,159 @@
+[
+  {
+    "source_path": "data\\raw_cv\\images\\1_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\1_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.7231,
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\2_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\2_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.6044,
+    "quality_flags": [
+      "unstable_segmentation",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\3_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\3_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.6207,
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise",
+      "abnormal_section_titles"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\4_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\4_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.6207,
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise",
+      "abnormal_section_titles"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\5_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\5_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.5049,
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise",
+      "needs_ocr_repair"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\6_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\6_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.711,
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\7_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\7_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.7231,
+    "quality_flags": [
+      "high_ocr_noise",
+      "needs_ocr_repair"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\8_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\8_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.589,
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise",
+      "markdown_too_weak",
+      "needs_ocr_repair"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  }
+]

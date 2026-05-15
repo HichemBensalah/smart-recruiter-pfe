@@ -1,0 +1,177 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV17.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV17.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7988,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nKevin Brandon\n\n## DATA SCIENTIST\n\nContact\n\n## PROFESSIONAL SUMMARY\n\nSummary\ninfo@resumekraft.com\nData Scientistfamiliarwithgathering, cleaning andorganizingdataforuseby technical andnon-technicalpersonnel. Advancedunderstandingofstatistical, algebraicandotheranalyticaltechniques. Highlyorganized, motivatedand diligentwithsignificantbackground inanalytics.\nChicago, lllinois, US\ninlinkedin.com/resumekraft\n\n## PROFESSIONAL EXPERIENCE\n\nExperience\nResearch Assistant\n## Universityof Newyork Sep 2019-Present\n\n## TECHNICAL SKILLS\n\nSoftware\nTableau\nMinitab\nMicrosoft Office\nRStudio\nVisual Studio\nTechnical\nSQL\nPython\nC++\nTestedwebsitesandperformed troubleshootingpriortodeployment.\nData Analyst and Business Intern Exxon Mobil Jun 2017-Aug 2017\n·Analyzeddifferent aspectsin Blockchaintoincorporateparkingavailability for the citizensof Detroit.\nResearchednewtechnologies, softwarepackagesandhardwareproducts foruseinwebsiteprojects.\nAppliedknowledgeofdatamodelingandstatistical analysistonote trends anddrawconclusions.\n\n## ACADEMIC PROJECTS\n\n·Developed and lead Arduinoprojectsbasedon C++.\nLecturedon C++toapproximately 200 students.\nAssistedfacultywithin-depthdataresearchinbothlabandoffice environments.\nUsed Excel to enterdata intoprojectdatabase andprovided updateson weeklybasis.\n## Projects\n**Date: ** Data Science in Python 2019-07-19\n- Mass Shootings Model\n- ·Formulateddataregressionanalysisoftherelationshipsbetween 5 factorsoftheoffenderand 60 yearsofmassshootingdata\n\n## EDUCATION\n\nValidatedincomingdatatocheckinformationaccuracyandintegritywhile independentlylocatingandcorrectingconcerns.\nLead Data Analyst, Web Developer, and Communications Liaison Bankof America Sep 2018-0 ct 2019\n- ·Analyzeddemographicsofstudentsat Dearbornandkeynotespeakersto optimize UI.\n- Data Science\n## San Jose State University Sep 2018-Present\n- ·Memberof SWE\nPlanned andconceivedcomputersystemsusinginformationengineering, datamodeling andstructuredanalysis.\n**Date: ** ·Dean's List Winterand Fall 2019\nExpeditedindustry-widerecognition, companyawareness, andvaluable insightsfor Detroit\nCourseworkin Computational Analytics, Data Analytics/Managementand Algorithmsand Design\n## Usedprogrammingcapabilitiesin PHP, SQLand Java Scriptandother librariesasneeded.\n- Certification\nHEADER\nKevin Brandon\nDATA SCIENTIST\nContact\nPROFESSIONAL SUMMARY\nSummary\ninfo@resumekraft.com\n202-555-0120\nDataScientistfamiliarwithgathering, cleaning andorganizingdataforuseby technical andnon-technicalpersonnel.Advancedunderstandingofstatistical, algebraicandotheranalyticaltechniques.Highlyorganized, motivatedand diligentwithsignificantbackground inanalytics.\nChicago, lllinois, US\ninlinkedin.com/resumekraft\nPROFESSIONAL EXPERIENCE\nExperience\nResearch Assistant\nUniversityofNewyork Sep2019-Present\nTECHNICAL SKILLS\nSoftware\nTableau\nMinitab\nMicrosoftOffice\nRStudio\nVisual Studio\nTechnical\nSQL\nPython\nC++\nTestedwebsitesandperformed troubleshootingpriortodeployment.\nData Analyst and Business Intern ExxonMobil Jun2017-Aug2017\n·Analyzeddifferent aspectsinBlockchaintoincorporateparkingavailability for the citizensofDetroit.\nResearchednewtechnologies, softwarepackagesandhardwareproducts foruseinwebsiteprojects.\nAppliedknowledgeofdatamodelingandstatistical analysistonote trends anddrawconclusions.\nACADEMIC PROJECTS\n·Developed and leadArduinoprojectsbasedon C++.\nLecturedonC++toapproximately200students.\nAssistedfacultywithin-depthdataresearchinbothlabandoffice environments.\nUsed Excel to enterdata intoprojectdatabase andprovided updateson weeklybasis.\nProjects\nData Science in Python 2019-07-19\nMass Shootings Model\n·Formulateddataregressionanalysisoftherelationshipsbetween5 factorsoftheoffenderand60yearsofmassshootingdata\nEDUCATION\nValidatedincomingdatatocheckinformationaccuracyandintegritywhile independentlylocatingandcorrectingconcerns.\nR\nLead Data Analyst, Web Developer, and Communications Liaison BankofAmericaSep2018-0ct2019\n·AnalyzeddemographicsofstudentsatDearbornandkeynotespeakersto optimize UI.\nData Science\nSan Jose State University Sep2018-Present\n·MemberofSWE\nPlanned andconceivedcomputersystemsusinginformationengineering, datamodeling andstructuredanalysis.\n·Dean'sListWinterandFall 2019\nExpeditedindustry-widerecognition, companyawareness, andvaluable insightsforDetroit\nCourseworkinComputational Analytics, Data Analytics/Managementand AlgorithmsandDesign\nUsedprogrammingcapabilitiesinPHP, SQLandJavaScriptandother librariesasneeded.\nCertification",
+    "header_info": {
+      "full_name": "Kevin Brandon",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [
+      "info@resumekraft.com",
+      "resumekraft"
+    ],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.7,
+    "quality_flags": [
+      "missing_email",
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.814,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email",
+      "bio.linkedin"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Kevin Brandon",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Data Scientist familiar with gathering, cleaning and organizing data for use by technical and non-technical personnel. Advanced understanding of statistical, algebraic and other analytical techniques. Highly organized, motivated and diligent with significant background in analytics.",
+      "experience_level": "senior",
+      "years_experience": 8,
+      "hard_skills": [
+        "Tableau",
+        "Minitab",
+        "Microsoft Office",
+        "RStudio",
+        "Visual Studio",
+        "SQL",
+        "Python",
+        "C++",
+        "PHP",
+        "Java Script"
+      ],
+      "soft_skills": [
+        "Highly organized",
+        "motivated",
+        "diligent"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "University of New York",
+        "job_title": "Research Assistant",
+        "start_date": "Sep 2019",
+        "end_date": "Present",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": "Exxon Mobil",
+        "job_title": "Data Analyst and Business Intern",
+        "start_date": "Jun 2017",
+        "end_date": "Aug 2017",
+        "city": null,
+        "responsibilities": [
+          "Analyzed different aspects in Blockchain to incorporate parking availability for the citizens of Detroit.",
+          "Researched new technologies, software packages and hardware products for use in website projects.",
+          "Applied knowledge of data modeling and statistical analysis to note trends and draw conclusions."
+        ]
+      },
+      {
+        "company": "Bank of America",
+        "job_title": "Lead Data Analyst, Web Developer, and Communications Liaison",
+        "start_date": "Sep 2018",
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "San Jose State University",
+        "degree": null,
+        "field": "Data Science",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:37:14.947279+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:27.703313+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

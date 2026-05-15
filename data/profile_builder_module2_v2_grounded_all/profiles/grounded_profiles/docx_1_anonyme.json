@@ -1,0 +1,180 @@
+{
+  "source_path": "data\\raw_cv\\docx\\1_anonyme.docx",
+  "artifact_path": "data\\processed_official_module1\\docx\\1_anonyme.json",
+  "source_format": "docx",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.5315,
+  "normalization": {
+    "cleaned_markdown": "## PROFESSIONAL SUMMARY\n\nMotivated Entry Level Civil Engineer with technical knowledge and a quality assurance mindset necessary to conquer unforeseen obstacles.\nOrganized, detail-oriented, and efficient work ethics.\nCommitted to high performance and mastering tasks to better future duties. Â Â Relevant Courses\nMaterials of Construction Construction Management Reinforced Concrete Structural Steel Design SurveyÂ\nEngineering Leadership Foundation Design Environmental Engineering Soil Engineering Transportation Engineering\n\n## PROFESSIONAL EXPERIENCE\n\nCompany Name City, State Engineering Intern 05/2017 to 08/2017\nSpreadsheets Estimating\nDealt with Subcontractors/Suppliers Plan Revisions\nCompany Name City, State Field Engineering Intern 05/2016 to 08/2016 Dril Logs\nTime Cards\nDriled Shaft Concrete Pours Quantities\nCompany Name City, State Field Engineering Intern 05/2015 to 08/2015 Spreadsheets\nConcrete RFI's\nSoil Nail Wa l Insta lation\nSkils\n\n## EDUCATION\n\nBachelor of Science: Civil Engineering 2018 University of Pittsburgh at Johnstown, City, State GPA: 3. 01 Activities and Honors\nDean's List - 2013\nHEADER\nENGINEERING INTERN\nPROFESSIONAL SUMMARY\nMotivated Entry Level Civil Engineer with technical knowledge and a quality assurance mindset necessary to conquer unforeseen obstacles.\nOrganized, detail-oriented, and efficient work ethics.\nCommitted to high performance and mastering tasks to better future duties.Â Â Relevant Courses\nMaterials of Construction Construction Management Reinforced Concrete Structural Steel Design SurveyÂ\nEngineering Leadership Foundation Design Environmental Engineering Soil Engineering Transportation Engineering\nPROFESSIONAL EXPERIENCE\nCompany Name City, State Engineering Intern 05/2017 to 08/2017\nSpreadsheets Estimating\nDealt with Subcontractors/Suppliers Plan Revisions\nCompany Name City, State Field Engineering Intern 05/2016 to 08/2016 Dril Logs\nTime Cards\nDriled Shaft Concrete Pours Quantities\nCompany Name City, State Field Engineering Intern 05/2015 to 08/2015 Spreadsheets\nConcrete RFI's\nSoil Nail Wa l Insta lation\nSkils\nEDUCATION\nBachelor of Science: Civil Engineering 2018 University of Pittsburgh at Johnstown, City, State GPA: 3.01 Activities and Honors\nDean's List - 2013",
+    "header_info": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_full_name",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9063,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Motivated Entry Level Civil Engineer with technical knowledge and a quality assurance mindset necessary to conquer unforeseen obstacles.",
+      "experience_level": "junior",
+      "years_experience": 1,
+      "hard_skills": [
+        "Materials of Construction",
+        "Construction Management",
+        "Reinforced Concrete",
+        "Structural Steel Design",
+        "Survey",
+        "Engineering Leadership",
+        "Foundation Design",
+        "Environmental Engineering",
+        "Soil Engineering",
+        "Transportation Engineering"
+      ],
+      "soft_skills": [
+        "Organized",
+        "detail-oriented",
+        "efficient work ethics",
+        "Committed to high performance",
+        "mastering tasks"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Company Name",
+        "job_title": "Engineering Intern",
+        "start_date": "05/2017",
+        "end_date": "08/2017",
+        "city": null,
+        "responsibilities": [
+          "Spreadsheets Estimating",
+          "Dealt with Subcontractors/Suppliers Plan Revisions"
+        ]
+      },
+      {
+        "company": "Company Name",
+        "job_title": "Field Engineering Intern",
+        "start_date": "05/2016",
+        "end_date": "08/2016",
+        "city": null,
+        "responsibilities": [
+          "Dril Logs",
+          "Time Cards",
+          "Driled Shaft Concrete Pours Quantities"
+        ]
+      },
+      {
+        "company": "Company Name",
+        "job_title": "Field Engineering Intern",
+        "start_date": "05/2015",
+        "end_date": "08/2015",
+        "city": null,
+        "responsibilities": [
+          "Spreadsheets",
+          "Concrete RFI's",
+          "Soil Nail Wa l Insta lation"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Pittsburgh at Johnstown",
+        "degree": "Bachelor of Science: Civil Engineering",
+        "field": null,
+        "year": 2018
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T12:32:47.382956+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:23.052998+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

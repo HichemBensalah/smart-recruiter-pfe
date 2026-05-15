@@ -1,0 +1,155 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_79.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_79.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7307,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nRenato Dietrich\n81118 Cummings Inlet, Houston, TX\nPHONE\n\n## EDUCATION\n\nColumbus Collegeof Artand Design\nBachelor'sin Computer Science\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nEmard-Aufderhar\n## Houston, TX//Directorof Data Science//11/2018-present\n- ·Experienceinbuilding andgrowing teams andproviding mentorshiptojuniorteammembers\n- Experiencemanaging a Data Science Team\n- Ateacheroftechnologyandbusinessinateamsetting\n- Experiencein the analysisofbothstructured and unstructured data\n·Serveasanexpertthroughoutthefull DSproduct lifecycle, from inceptiontodelivery and ongoing monitoring\n## Witting, Leschand Kiehn\n## Houston, TX//Data Science//01/2013-08/2018\n\n## TECHNICAL SKILLS\n\nSKILLS\n·Familiarwithphysiological datafromwearablesdevices, data from cognitive and behavioral assessments, and medical data from Electronic Medical Record data(i. e., chronicpain, aging and Alzheimer'sdisease, heart failure, addiction)\n·Familiaritywithmachinelearningfundamentals (clustering, regression, etc)\n·Undergraduate or graduate in an Engineering, Mathematics, Physics, or Computer Science\n·Knowledgeofopen-sourcetoolssuch as Elasticsearch, Kibana\n·Strongrelational databaseskills-SQL, storedprocedure developmentandaknowledgeofdatabasedevelopment\n\n## MACHINE LEARNING & DEEP LEARNING\n\n·Advanced level understanding of machine learning fundamentalsandmodel developmentprinciples (Generalization, Bias-Variance Tradeoff, GLMs, NLMs, etc.)\n·Leveraging and sharing the latest machine and deep learning techniquestochallengethecurrentpractices acrossthebusinessunits\n·Developingandimplementingour Innovation Program for New Technologies acrossour Business Units\n·Enhancing and maintaining our communication channels for New Technologies\n·Researchingfornewtechnologiesforbusiness solutions\n·Developingthe Citizen Data Scienceprogramcontentto train & mentoroursubjectmatterexperts\nHEADER\nRenato Dietrich\n81118 Cummings Inlet, Houston, TX\nPHONE\n+1(555) 609 1782\nEDUCATION\nColumbusCollegeofArtandDesign\nBachelor'sinComputerScience\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nEmard-Aufderhar\nHouston, TX//DirectorofDataScience//11/2018-present\n·Experienceinbuilding andgrowing teams andproviding mentorshiptojuniorteammembers\nExperiencemanaging aDataScienceTeam\nAteacheroftechnologyandbusinessinateamsetting\nExperiencein the analysisofbothstructured and unstructured data\n·Serveasanexpertthroughoutthefull DSproduct lifecycle, from inceptiontodelivery and ongoing monitoring\nWitting, LeschandKiehn\nHouston, TX//DataScience//01/2013-08/2018\nTECHNICAL SKILLS\nSKILLS\n·Familiarwithphysiological datafromwearablesdevices, data from cognitive and behavioral assessments, and medical data from ElectronicMedical Record data(i.e., chronicpain, aging and Alzheimer'sdisease, heart failure, addiction)\n·Familiaritywithmachinelearningfundamentals (clustering, regression, etc)\n·Undergraduate or graduate in an Engineering, Mathematics, Physics, orComputerScience\n·Knowledgeofopen-sourcetoolssuch asElasticsearch, Kibana\n·Strongrelational databaseskills-SQL, storedprocedure developmentandaknowledgeofdatabasedevelopment\nMACHINE LEARNING & DEEP LEARNING\n·Advanced level understanding of machine learning fundamentalsandmodel developmentprinciples (Generalization, Bias-VarianceTradeoff, GLMs, NLMs, etc.)\n·Leveraging and sharing the latest machine and deep learning techniquestochallengethecurrentpractices acrossthebusinessunits\n·DevelopingandimplementingourInnovationProgram forNewTechnologies acrossourBusinessUnits\n·Enhancing and maintaining our communication channels for New Technologies\n·Researchingfornewtechnologiesforbusiness solutions\n·DevelopingtheCitizenDataScienceprogramcontentto train&mentoroursubjectmatterexperts",
+    "header_info": {
+      "full_name": "Renato Dietrich",
+      "email": null,
+      "phone": null,
+      "location": "81118 Cummings Inlet, Houston, TX",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9461,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Renato Dietrich",
+      "email": null,
+      "phone": "PHONE",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 14,
+      "hard_skills": [
+        "Familiarwithphysiological datafromwearablesdevices, data from cognitive and behavioral assessments, and medical data from Electronic Medical Record data(i. e., chronicpain, aging and Alzheimer'sdisease, heart failure, addiction)",
+        "Familiaritywithmachinelearningfundamentals (clustering, regression, etc)",
+        "Undergraduate or graduate in an Engineering, Mathematics, Physics, or Computer Science",
+        "Knowledgeofopen-sourcetoolssuch as Elasticsearch, Kibana",
+        "Strongrelational databaseskills-SQL, storedprocedure developmentandaknowledgeofdatabasedevelopment"
+      ],
+      "soft_skills": [
+        "Experienceinbuilding andgrowing teams andproviding mentorshiptojuniorteammembers",
+        "Experiencemanaging a Data Science Team",
+        "Ateacheroftechnologyandbusinessinateamsetting",
+        "Serveasanexpertthroughoutthefull DSproduct lifecycle, from inceptiontodelivery and ongoing monitoring"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Emard-Aufderhar",
+        "job_title": "Director of Data Science",
+        "start_date": "11/2018-present",
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Experienceinbuilding andgrowing teams andproviding mentorshiptojuniorteammembers",
+          "Experiencemanaging a Data Science Team",
+          "Ateacheroftechnologyandbusinessinateamsetting",
+          "Experiencein the analysisofbothstructured and unstructured data",
+          "Serveasanexpertthroughoutthefull DSproduct lifecycle, from inceptiontodelivery and ongoing monitoring"
+        ]
+      },
+      {
+        "company": "Witting, Leschand Kiehn",
+        "job_title": "Data Science",
+        "start_date": "01/2013-08/2018",
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Experienceinbuilding andgrowing teams andproviding mentorshiptojuniorteammembers",
+          "Experiencemanaging a Data Science Team",
+          "Ateacheroftechnologyandbusinessinateamsetting",
+          "Experiencein the analysisofbothstructured and unstructured data"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Columbus College of Art and Design",
+        "degree": "Bachelor's in Computer Science",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T12:07:36.348396+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:30.376711+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

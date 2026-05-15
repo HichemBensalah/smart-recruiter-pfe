@@ -1,0 +1,76 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\khairi_resume.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\khairi_resume.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Khaireddine Suibgui",
+      "email": "suibguikhairi 2021@gmail.com",
+      "phone": "+216 55470669",
+      "location": "El Ghazela, Ariana"
+    },
+    "expertise": {
+      "summary": "Data Science engineer with a solid foundation in delivering actionable insights and passion for using technology to achieve impactful solutions.",
+      "hard_skills": [
+        "Angular",
+        "NodeJS",
+        "MongoDB",
+        "Express Js",
+        "Machine Learning",
+        "Git"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Club Africain, Tunis",
+        "start_date": "March - August 2025",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Designed and developed a web application for managing players' personal and sports data"
+        ]
+      },
+      {
+        "job_title": "Summer Internship",
+        "company": "TEK-UP, Ariana",
+        "start_date": "July - August 2024",
+        "end_date": null,
+        "city": "Ariana",
+        "responsibilities": [
+          "Developed a speech synthesis system capable of transforming written text into audibles speech using deep learning"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "TEK-UP University, Ariana",
+        "year": "2022 - 2025"
+      },
+      {
+        "degree": "BACCALAUREATE",
+        "school": "Pioneer School of Kasserine",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T13:33:38.590472+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6774,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

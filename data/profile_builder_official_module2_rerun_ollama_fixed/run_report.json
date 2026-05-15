@@ -1,0 +1,78 @@
+{
+  "run_id": "profile_builder_20260427T160334Z",
+  "accepted_file_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\_continuation_inputs\\todo_small_chunk_07.json",
+  "mode": "dry-run",
+  "total_processed": 5,
+  "success": 5,
+  "failed": 0,
+  "skipped": 0,
+  "ignored": 0,
+  "batch_size": 5,
+  "batch_delay_seconds": 0.0,
+  "resume_failed_from": null,
+  "resumed_from_failed_count": 0,
+  "stopped_early": false,
+  "stop_reason": null,
+  "failure_categories": {},
+  "diagnostic_summary": {
+    "total_failed_items": 0,
+    "dominant_failure_causes": []
+  },
+  "items": [
+    {
+      "source_path": "data\\raw_cv\\images\\7_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\7_image.json",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260427T160334Z",
+      "preview_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\7_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\8_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\8_image.json",
+      "status": "success",
+      "profile_kind": "complete_profile",
+      "provider_route": "groq_secondary",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260427T160334Z",
+      "preview_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\8_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\9_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\9_image.json",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260427T160334Z",
+      "preview_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\9_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\Hichem_image.json",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260427T160334Z",
+      "preview_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\Hichem_image.json"
+    },
+    {
+      "source_path": "data\\raw_cv\\images\\khairi_image.jpg",
+      "artifact_path": "data\\processed_official_module1\\images\\khairi_image.json",
+      "status": "success",
+      "profile_kind": "partial_profile",
+      "provider_route": "ollama_local",
+      "mode": "dry-run",
+      "error": null,
+      "run_id": "profile_builder_20260427T160334Z",
+      "preview_path": "data\\profile_builder_official_module2_rerun_ollama_fixed\\images\\khairi_image.json"
+    }
+  ]
+}

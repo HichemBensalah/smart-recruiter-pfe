@@ -1,0 +1,151 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_76.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_76.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.5142,
+  "normalization": {
+    "cleaned_markdown": "## JERROLD JOHNSTON\n\n78789 Thomas Lake, Chicago, IL\nPHONE\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nMuller Inc\n## New York, NY//Directorof Data Science//02/2019-present\n- ·Product Roadmap Creation/Collaboration\n## Hyatt, Jacobs and Lindgren\n**Date: ** New York, NY//Data Science//11/2014-09/2018\n·Activelyenrolledina Bachelor's, Master'sor Ph Dprogramin Computer Science, Mathematics, Statistics, orrelatedarea withdemonstratedexperiencebuildingmachinelearningmodels\n\n## ACADEMIC PROJECTS\n\n·Champion Al/analyticsprojectstoallstakeholders\n·Implementandsecuremechanismstoenforcedataprivacyanddataprotectionregulations\n\n## TECHNICAL SKILLS\n\n·Softwareskillsin Pythonandapassiontodevelopthem\n·Workasa Business Analysttoconvert Subject Matter Expertand Customerconceptsintoconcisebusinesscases\nSKILLS\n·Usingdatavisualizationtools\n·Programming languages such as Python and/or R\n·Handlingterabytesizedatasets\n·Writing and tuning SQL\n\n## EDUCATION\n\nRhode Island Schoolof Design\nBachelor'sin Computer Science\n\n## LANGUAGES\n\n·Imperativeprogramminglanguagessuchas Javaor C/C++\n·AWStechnologieslike Redshift, S 3, EC 2, Data Pipeline, EMR\nJERROLD JOHNSTON\n78789 Thomas Lake, Chicago, IL\nPHONE\n+1(555)338 0835\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nMuller Inc\nNewYork, NY//DirectorofDataScience//02/2019-present\ns\n·ProductRoadmapCreation/Collaboration\nHyatt, Jacobs and Lindgren\nNewYork, NY//DataScience//11/2014-09/2018\n·ActivelyenrolledinaBachelor's, Master'sorPhDprograminComputerScience, Mathematics, Statistics, orrelatedarea withdemonstratedexperiencebuildingmachinelearningmodels\nACADEMIC PROJECTS\n·ChampionAl/analyticsprojectstoallstakeholders\n·Implementandsecuremechanismstoenforcedataprivacyanddataprotectionregulations\nTECHNICAL SKILLS\n·SoftwareskillsinPythonandapassiontodevelopthem\n·WorkasaBusinessAnalysttoconvertSubjectMatterExpertandCustomerconceptsintoconcisebusinesscases\nSKILLS\n·Usingdatavisualizationtools\n·Programming languages such asPython and/or R\n·Handlingterabytesizedatasets\n·Writing and tuning SQL\nEDUCATION\nRhodeIslandSchoolofDesign\nBachelor'sinComputerScience\nLANGUAGES\n·ImperativeprogramminglanguagessuchasJavaorC/C++\n·AWStechnologieslikeRedshift, S3, EC2, DataPipeline, EMR",
+    "header_info": {
+      "full_name": "JERROLD JOHNSTON",
+      "email": null,
+      "phone": null,
+      "location": "78789 Thomas Lake, Chicago, IL",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9028,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "JERROLD JOHNSTON",
+      "email": null,
+      "phone": null,
+      "location": "78789 Thomas Lake, Chicago, IL",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 12,
+      "hard_skills": [
+        "Python",
+        "R",
+        "SQL",
+        "Data Visualization tools",
+        "AWStechnologies",
+        "Java",
+        "C/C++"
+      ],
+      "soft_skills": [
+        "Data Science",
+        "Product Roadmap Creation",
+        "Collaboration",
+        "Programming languages"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Muller Inc",
+        "job_title": "Director of Data Science",
+        "start_date": "02/2019-present",
+        "city": "New York, NY",
+        "responsibilities": [
+          "Product Roadmap Creation/Collaboration"
+        ]
+      },
+      {
+        "company": "Hyatt, Jacobs and Lindgren",
+        "job_title": "Data Science",
+        "start_date": "11/2014-09/2018",
+        "city": "New York, NY",
+        "responsibilities": [
+          "Actively enrolled in Bachelor's, Master's or Ph D program in Computer Science, Mathematics, Statistics or related area with demonstrated experience building machine learning models"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Rhode Island School of Design",
+        "degree": "Bachelor's",
+        "field": "Computer Science"
+      }
+    ],
+    "languages": [
+      "Imperative programming languages such as Java or C/C++",
+      "AWStechnologies like Redshift, S 3, EC 2, Data Pipeline, EMR"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T11:57:14.195357+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:30.278544+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

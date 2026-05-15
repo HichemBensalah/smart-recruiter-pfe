@@ -1,0 +1,64 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV25.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV25.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:CV25",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "RohanKumar",
+      "email": null,
+      "phone": "*919909999999",
+      "location": "123 SeelDehil, 110085"
+    },
+    "expertise": {
+      "summary": "Data Science professional with experience in executing data-driven projects using predictive models",
+      "hard_skills": [
+        "Python",
+        "Data Mining",
+        "MLlib"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Inbern",
+        "company": "Hewlett-Packard",
+        "start_date": "July2019",
+        "end_date": "December2019",
+        "city": "Delh",
+        "responsibilities": [
+          "Used predictive analysis such as machine learning and data mining techniques to forecast company sales of new products with 95% accuracy",
+          "Develop ETS for data sources used for reporting by sales, inventory, and marketing departments"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MA Statistics",
+        "school": "University-of Delhi",
+        "year": "2019"
+      },
+      {
+        "degree": "BA Statistics",
+        "school": "University of Delhi",
+        "year": "2017"
+      },
+      {
+        "degree": "High School",
+        "school": "DPS, Commeroe",
+        "year": "2014"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:26:24.369454+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7283
+    }
+  }
+}

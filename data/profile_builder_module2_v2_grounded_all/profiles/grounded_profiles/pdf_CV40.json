@@ -1,0 +1,126 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV40.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV40.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7009,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nTruc Viet Le's Curriculum Vitae\nTruc Viet Le\nAddress\nTruc Viet Le 2200 Wightman St. Pittsburgh PA 15217\nhttp: //vietletruc. com/Links github.com/vietexob Email|vietexob@gmail.com Mobile|+14124820635\nResearch Interests\nIamcurrentlyinterestedindevelopingpredictivemodelsformobilitydata(e. g., spatiotemporaloractivitypatterns ofhumansinaspatialareaduringacertaintimeperiod), where Iproposemodelstolearnandpredictamobile agent'ssequentialactionsovertime andunderuncertaintyusingdataminingandmachinelearningmethods. Iam alsointerestedinvisualizinglargeandcomplexmobilitydata.\n\n## EDUCATION\n\nheinz. cmu. edu larc. smu. edu. sg\n## Heinz College, Carnegie Mellon University, Pittsburgh, P. A.\n- Visiting Ph. D. Studentin Information Systems: Aug 2014-May 2015\nAdvisors: Siyuan Liu, Ramayya Krishnan Coursework: Machine Learning, Dynamic Optimization, Mobile Intelligence & Business\n## Singapore Management University, Singapore\nPh. D. in Information Systems: Jan 2013-Present Advisors: Hoong Chuin Lau, Robert).Kauffman\n- ntu. edu. sg\n## Nanyang Technological University, Singapore\n- M. Sc. in Mathematics(by Research): Jan 2011-Jul 2012 B. Eng. in Computer Engineering: Aug 2005-Jul 2009\n- Selected Publications\n- Predicting Bundlesof Spatial Locationsfrom Learning Revealed Preference Data\nTruc Viet Le, Siyuan Liu, Hoong Chuin Lau, & Ramayya Krishnan 14 th International Conferenceon Autonomous Agentsand Multiagent Systems(AAMAS 2015).\n- A Quantitative Analysisof Decision Processin Social Groups Using Human Trajectories\n## Truc Viet Le, Siyuan Liu, Hoong Chuin Lau, & Ramayya Krishnan\n13 th International Conference on Autonomous Agents and Multiagent Systems(AAMAS 2014).\n- An Empirical Analysisofa Networkof Expertise\n- Truc Viet Le & Minh Thap Nguyen\n2013 IEEE/ACMInternational Conferenceon Advancesin Social Networks Analysisand Mining(ASONAM).\n- Trend Analysisof Lengthof Stay Datavia Phase-Type Models\nTruc Viet Le, Chee Keong Kwoh, Kheng Hock Lee, & Eng Soon Teo(2011) International Journalof Knowledge Discoveryin Bioinformatics（lj KDB), 2(3), 37-51.\n- file: //Users/larcuser/Documents/workspace/cv/cv. html\nHEADER\nTrucViet Le'sCurriculum Vitae\n4/2/2015\nTrucViet Le\nAddress\nTrucVietLe 2200WightmanSt. Pittsburgh PA15217\nhttp: //vietletruc.com/Links github.com/vietexob Email|vietexob@gmail.com Mobile|+14124820635\nResearch Interests\nIamcurrentlyinterestedindevelopingpredictivemodelsformobilitydata(e.g., spatiotemporaloractivitypatterns ofhumansinaspatialareaduringacertaintimeperiod), whereIproposemodelstolearnandpredictamobile agent'ssequentialactionsovertime andunderuncertaintyusingdataminingandmachinelearningmethods.Iam alsointerestedinvisualizinglargeandcomplexmobilitydata.\nEDUCATION\nheinz.cmu.edu larc.smu.edu.sg\nHeinzCollege, CarnegieMellonUniversity, Pittsburgh, P.A.\nVisitingPh.D.StudentinInformationSystems: Aug2014-May2015\nAdvisors: SiyuanLiu, RamayyaKrishnan Coursework: MachineLearning, DynamicOptimization, MobileIntelligence&Business\nSingaporeManagementUniversity, Singapore\nPh.D.inInformationSystems: Jan2013-Present Advisors: HoongChuinLau, Robert).Kauffman\nntu.edu.sg\nNanyangTechnological University, Singapore\nM.Sc.inMathematics(byResearch): Jan2011-Jul 2012 B.Eng.inComputerEngineering: Aug2005-Jul2009\nSelected Publications\nPredictingBundlesofSpatialLocationsfromLearningRevealedPreferenceData\nTrucVietLe, SiyuanLiu, HoongChuinLau, &RamayyaKrishnan 14thInternational ConferenceonAutonomousAgentsandMultiagentSystems(AAMAS2015).\nA QuantitativeAnalysisofDecisionProcessinSocial GroupsUsingHumanTrajectories\nTrucVietLe, SiyuanLiu, HoongChuinLau, &RamayyaKrishnan\n13thInternationalConference onAutonomousAgents and MultiagentSystems(AAMAS2014).\nAnEmpiricalAnalysisofaNetworkofExpertise\nTrucVietLe&MinhThapNguyen\n2013IEEE/ACMInternationalConferenceonAdvancesinSocialNetworksAnalysisandMining(ASONAM).\nTrendAnalysisofLengthofStayDataviaPhase-TypeModels\nTrucVietLe, CheeKeongKwoh, KhengHockLee, &EngSoonTeo(2011) InternationalJournalofKnowledgeDiscoveryinBioinformatics（ljKDB), 2(3), 37-51.\n1/2\nfile: //Users/larcuser/Documents/workspace/cv/cv.html",
+    "header_info": {
+      "full_name": "Truc Viet Le's Curriculum Vitae",
+      "email": "vietexob@gmail.com",
+      "phone": "+14124820635",
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/vietexob"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9402,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].field",
+      "education[2].institution",
+      "education[3].degree",
+      "education[3].field",
+      "education[3].institution",
+      "expertise.experience_level",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Truc Viet Le",
+      "email": "vietexob@gmail.com",
+      "phone": "+14124820635",
+      "location": "2200 Wightman St. Pittsburgh PA 15217",
+      "linkedin": null,
+      "github": "github.com/vietexob"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 14,
+      "hard_skills": [],
+      "soft_skills": []
+    },
+    "experiences": [],
+    "education": [
+      {
+        "institution": "Heinz College, Carnegie Mellon University",
+        "degree": "Visiting Ph.D. Student",
+        "field": "Information Systems",
+        "year": null
+      },
+      {
+        "institution": "Singapore Management University",
+        "degree": "Ph.D.",
+        "field": "Information Systems",
+        "year": null
+      },
+      {
+        "institution": "Nanyang Technological University",
+        "degree": "M.Sc.",
+        "field": "Mathematics",
+        "year": null
+      },
+      {
+        "institution": "Nanyang Technological University",
+        "degree": "B.Eng.",
+        "field": "Computer Engineering",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:43:51.192739+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.042719+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

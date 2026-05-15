@@ -1,0 +1,41 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_81.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_81.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:Image_81",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "BREEANDERSON",
+      "email": null,
+      "phone": "+1(555)3357759",
+      "location": "Philadelphia, PA"
+    },
+    "expertise": {
+      "summary": "Data Scientist with experience in data transformations, filtering, and data aggregation using Microsoft technologies.",
+      "hard_skills": [],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Consultant",
+        "company": "EXPERIENCE",
+        "start_date": "10/2019",
+        "end_date": null,
+        "city": "Philadelphia, PA",
+        "responsibilities": []
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:49:14.416259+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8038
+    }
+  }
+}

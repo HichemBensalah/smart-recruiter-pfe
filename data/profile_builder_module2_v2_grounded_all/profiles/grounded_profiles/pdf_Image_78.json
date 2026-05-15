@@ -1,0 +1,137 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_78.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_78.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.5746,
+  "normalization": {
+    "cleaned_markdown": "## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n·Strongexperiencein at least onedatabase technology\n·Experienceworkingwithquerylanguages\n## 60123 Legros Manor, Los Angeles, CA\n**Date: ** Data Science. 04/2016-07/2018\n**Location: ** MCCLURE, GERLACHANDFARRELLPhoeni X, AZ\n- p: +1 (555) 590 8187\n·Hands-onworkorclassroomexperiencewithlogisticregression, time series, forecasting, andotherpredictivemodelingtechniques\n## DREXELUNIVERSITYBachelor'sin Computer Science,\n- ·Hands-onexperienceworkingwithhealthcareclaimsdata\n- ·Experienceinquantitativeanalysisanddatamanipulationoflargedata assets\n- ·Healthcareorpharmaceuticalindustryexperience\n- ·Peoplemanagementandmentoringexperience\n- toincorporatestatisticalresultsintoanalyses\n\n## ROXANNA HERZOG\n\nBRAKUS-SHIELDSPhoenix, AZ Directorof Data Science. 12/2018-present\n\n## TECHNICAL SKILLS\n\n·Experiencewithlarge scale distributed databases and computing systems like Databricks Spark, EMR\n·Expertiseinpredictiveanalytics/datamining/machinelearningalgorithms\nPytorch\n·Understanding and experienceworkingwithcloud infrastructure services like Azureand Amazon Web Services\n·Data Science, Data Analytics, Computer science or computer engineering, orlikeengineeringfield\n·Basic, practicalunderstanding ofdata structures, statistics, and computer science\nSKILLS\n·Intermediatetoadvancedskillsin Excel\n\n## ACADEMIC PROJECTS\n\n·Canmanagemultipleprojectsandbalancemultiplepriorities\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\n·Strongexperiencein at least onedatabase technology\n·Experienceworkingwithquerylanguages\n60123LegrosManor, LosAngeles, CA\nDataScience.04/2016-07/2018\nMCCLURE, GERLACHANDFARRELLPhoeniX, AZ\np: +1 (555) 590 8187\n·Hands-onworkorclassroomexperiencewithlogisticregression, time series, forecasting, andotherpredictivemodelingtechniques\nDREXELUNIVERSITYBachelor'sinComputerScience,\n·Hands-onexperienceworkingwithhealthcareclaimsdata\ns\n·Experienceinquantitativeanalysisanddatamanipulationoflargedata assets\n·Healthcareorpharmaceuticalindustryexperience\n·Peoplemanagementandmentoringexperience\ntoincorporatestatisticalresultsintoanalyses\nROXANNA HERZOG\nBRAKUS-SHIELDSPhoenix, AZ DirectorofDataScience.12/2018-present\nTECHNICAL SKILLS\n·Experiencewithlarge scale distributed databases and computing systems likeDatabricksSpark, EMR\n·Expertiseinpredictiveanalytics/datamining/machinelearningalgorithms\nPytorch\n·Understanding and experienceworkingwithcloud infrastructure services likeAzureandAmazonWebServices\n·Data Science, Data Analytics, Computer science or computer engineering, orlikeengineeringfield\n·Basic, practicalunderstanding ofdata structures, statistics, and computer science\nSKILLS\n·IntermediatetoadvancedskillsinExcel\nEDUCATION\nACADEMIC PROJECTS\n·Canmanagemultipleprojectsandbalancemultiplepriorities",
+    "header_info": {
+      "full_name": "·Strongexperiencein at least onedatabase technology",
+      "email": null,
+      "phone": "04/2016-07/2018",
+      "location": "60123 Legros Manor, Los Angeles, CA",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9149,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Roxanna Herzog",
+      "email": null,
+      "phone": "+1 (555) 590 8187",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid",
+      "years_experience": 2,
+      "hard_skills": [
+        "Databricks Spark",
+        "EMR",
+        "Pytorch",
+        "Azure",
+        "Amazon Web Services"
+      ],
+      "soft_skills": [
+        "People management and mentoring experience",
+        "Basic, practical understanding of data structures, statistics, and computer science"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Director of Data Science",
+        "start_date": "12/2018-present",
+        "end_date": null,
+        "city": "Phoenix, AZ",
+        "responsibilities": [
+          "Data Science, Data Analytics, Computer science or computer engineering, or like engineering field"
+        ]
+      },
+      {
+        "company": "MCCLURE, GERLACHANDFARRELLPhoeni X, AZ",
+        "job_title": null,
+        "start_date": "04/2016-07/2018",
+        "end_date": null,
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "Hands-on work or classroom experience with logistic regression, time series, forecasting, and other predictive modeling techniques"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Drexel University",
+        "degree": "Bachelor's in Computer Science",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T12:03:26.636513+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:30.346073+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

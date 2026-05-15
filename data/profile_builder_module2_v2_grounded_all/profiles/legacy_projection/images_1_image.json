@@ -1,0 +1,84 @@
+{
+  "source_path": "data\\raw_cv\\images\\1_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\1_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\images\\1_image.json",
+    "profile_kind": "minimal_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": "+1 (212) 123-4567",
+      "location": "San Francisco, CA and New York, NY"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Perl",
+        "SQL",
+        "Project Management",
+        "Microsoft Access"
+      ],
+      "soft_skills": [
+        "Time management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Manager Senior Data Scientist",
+        "company": null,
+        "start_date": "2012-2015",
+        "end_date": null,
+        "city": "San Francisco, CA and New York, NY",
+        "responsibilities": [
+          "Conducted data regression analysis of the relationship between company stock prices and current industry trends, leading to 15% higher accuracy prediction of performance than the last 4 years.",
+          "Led full redesign of website with findings from customer segmentation and competitor research, increasing website leads by 225%.",
+          "Developed a new targeting model by segmenting potential users by behavioral attributes from survey data, generating $1.5 M in sales.",
+          "Designed training and peer-mentoring programs for the incoming class of 25 analysts in 2014; reduced onboarding time for new hires by 50%."
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed and maintained ETL scripts in Python and Perl to scrape data from external websites into a SQL database.",
+          "Collaborated with other teams as a Representative of the Data Analysis department and developed key metrics to achieve business outcomes, resulting in an increase in revenue by $450,000 collectively."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Management with Honors",
+        "school": null,
+        "year": "2012"
+      },
+      {
+        "degree": "Bachelor of Engineering, Major in Computer Science; Minor in Mathematics",
+        "school": "GROWTHSI University",
+        "year": "2011"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T13:40:32.210915+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.1746,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "low_grounded_reliability",
+        "summary_not_enough_evidence",
+        "template_detected",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

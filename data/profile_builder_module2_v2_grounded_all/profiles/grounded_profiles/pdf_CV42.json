@@ -1,0 +1,186 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV42.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV42.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.6814,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nELLIOTTABBOTT\n36266 Nobuko Prairie, Los Angeles, CA +1(555) 730 9695\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n## 10/2020-present Dallas, TX\n**Location: ** SCHMIDT, BAILEYANDTHOMPSON\n- Directorof Data Science\n- ·Experienceworkingwithcoderepositories andcontinuousintegration (Git/Jenkins)\n·Proficient in communicating, building influence, and developing relationships withfunctional and technicalleaders, withhigh-levelvendorpartners, and across all levelsin the organization\n- ·Proficient in selecting and leading strategic relationships or acting as the primary point of contact for strategic partnerships\n·Masters or Ph D in a quantitative field(Computer Science, Math, Statistics, ） or equivalentworkexperience\n- ·Experiencewithcommercialrecommendersystemsoraleadroleinanadvanced researchrecommender system project\n·Working experience with deep learning, particularly in the areas different form the computer vision\n- PRICE-CARROLL\n## 09/2017-06/2020 Dallas, TX\n- Data Science\n·Experience in Machine learning(decision trees, multivariate and logistic regression, k NN, k Means)\n- ·Experience in projects involving cross-functional teams\n- ·Depth andbreadth inquantitative knowledge\n·Experience processing, filtering, and presenting large quantities Millions to Billions of rows)of data\n- ·Graphdesign and analysis\n·Hands on experience in advanced analytics, Machine Learning and data science open-source platforms such as R and Python alongwith DWplatforms such as Hana, Hadoop etc\n## ·Strategy, management and leadership experience\n- ·Competent Pythondeveloper\n## ·Masters, Ph Dorequivalentexperience\n## ·Enrolled in a Bachelor's, Master's, or Ph. D\n\n## TECHNICAL SKILLS\n\n·Exposure to database query andmanagement tools (SQL, Spark, Hive/HQL)\n·Combinationofdeeptechnical skillsand businesssavvy enough tointerface with alllevels anddisciplineswithin our customer's organization\n·Machinelearningframeworkslike PyTorch or Tensorflow\nRHODEISLANDSCHOOLOFDESIGN\nSKILLS\n·English language (fluency preferred)\n·Demonstrate knowledge ofusing common data engineering techniques (SQL, NoSQL)\n·Demonstrate knowledge of using common statistical programming languages (Python, R, or SAS)\n\n## EDUCATION\n\nBachelor'sin Computer Science\nHEADER\nELLIOTTABBOTT\n36266NobukoPrairie, LosAngeles, CA +1(555) 730 9695\nEA\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\n10/2020-present Dallas, TX\nSCHMIDT, BAILEYANDTHOMPSON\nDirectorofDataScience\n·Experienceworkingwithcoderepositories andcontinuousintegration (Git/Jenkins)\n·Proficient in communicating, building influence, and developing relationships withfunctional and technicalleaders, withhigh-levelvendorpartners, and across all levelsin the organization\n·Proficient in selecting and leading strategic relationships or acting as the primary point of contact for strategic partnerships\n·Masters or PhD in a quantitative field(Computer Science, Math, Statistics, ） or equivalentworkexperience\n·Experiencewithcommercialrecommendersystemsoraleadroleinanadvanced researchrecommender system project\n·Working experience with deep learning, particularly in the areas different form the computer vision\nPRICE-CARROLL\n09/2017-06/2020 Dallas, TX\nDataScience\n·Experience inMachine learning(decision trees, multivariate and logistic regression, kNN, kMeans)\n·Experience in projects involving cross-functional teams\n·Depth andbreadth inquantitative knowledge\n·Experience processing, filtering, and presenting large quantities Millions to Billions of rows)of data\n·Graphdesign and analysis\n·Hands on experience in advanced analytics, Machine Learning and data science open-source platforms such as R and Python alongwithDWplatforms such as Hana, Hadoop etc\n·Strategy, management and leadership experience\n·CompetentPythondeveloper\n·Masters, PhDorequivalentexperience\n·Enrolled in a Bachelor's, Master's, orPh.D\nTECHNICAL SKILLS\n·Exposure to database query andmanagement tools (SQL, Spark, Hive /HQL)\n·Combinationofdeeptechnical skillsand businesssavvy enough tointerface with alllevels anddisciplineswithin our customer's organization\n·MachinelearningframeworkslikePyTorch orTensorflow\nRHODEISLANDSCHOOLOFDESIGN\nSKILLS\n·English language (fluency preferred)\n·Demonstrate knowledge ofusing common data engineering techniques (SQL, noSQL)\n·Demonstrate knowledge of using common statistical programming languages (Python, R, or SAS)\nEDUCATION\nBachelor'sinComputerScience",
+    "header_info": {
+      "full_name": null,
+      "email": null,
+      "phone": "+1(555) 730 9695",
+      "location": "10/2020-present Dallas, TX",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9363,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[1].responsibilities[5]",
+      "experiences[1].responsibilities[6]",
+      "experiences[1].responsibilities[7]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience",
+      "languages[0]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "ELLIOTTABBOTT",
+      "email": null,
+      "phone": "+1(555) 730 9695",
+      "location": "36266 Nobuko Prairie, Los Angeles, CA",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 9,
+      "hard_skills": [
+        "Git",
+        "Jenkins",
+        "SQL",
+        "Spark",
+        "Hive/HQL",
+        "PyTorch",
+        "Tensorflow",
+        "Python",
+        "R",
+        "SAS",
+        "NoSQL"
+      ],
+      "soft_skills": [
+        "communicating",
+        "building influence",
+        "developing relationships"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "SCHMIDT, BAILEYANDTHOMPSON",
+        "job_title": "Directorof Data Science",
+        "start_date": "10/2020",
+        "end_date": "present",
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Experienceworkingwithcoderepositories andcontinuousintegration (Git/Jenkins)",
+          "Proficient in communicating, building influence, and developing relationships withfunctional and technicalleaders, withhigh-levelvendorpartners, and across all levelsin the organization",
+          "Proficient in selecting and leading strategic relationships or acting as the primary point of contact for strategic partnerships",
+          "Experiencewithcommercialrecommendersystemsoraleadroleinanadvanced researchrecommender system project",
+          "Working experience with deep learning, particularly in the areas different form the computer vision"
+        ]
+      },
+      {
+        "company": "PRICE-CARROLL",
+        "job_title": "Data Science",
+        "start_date": "09/2017",
+        "end_date": "06/2020",
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Experience in Machine learning(decision trees, multivariate and logistic regression, k NN, k Means)",
+          "Experience in projects involving cross-functional teams",
+          "Depth andbreadth inquantitative knowledge",
+          "Experience processing, filtering, and presenting large quantities Millions to Billions of rows)of data",
+          "Graphdesign and analysis",
+          "Hands on experience in advanced analytics, Machine Learning and data science open-source platforms such as R and Python alongwith DWplatforms such as Hana, Hadoop etc",
+          "Strategy, management and leadership experience",
+          "Competent Pythondeveloper"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Bachelor'sin Computer Science",
+        "field": "Computer Science",
+        "year": null
+      }
+    ],
+    "languages": [
+      "English"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:45:55.083435+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.166235+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

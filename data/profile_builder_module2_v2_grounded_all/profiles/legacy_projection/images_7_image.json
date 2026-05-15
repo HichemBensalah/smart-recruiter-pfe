@@ -1,0 +1,64 @@
+{
+  "source_path": "data\\raw_cv\\images\\7_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\7_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\images\\7_image.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Justine Hendrickson",
+      "email": "H@email.com",
+      "phone": "(123)456-7890",
+      "location": "Houston, TX"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        ".Python",
+        "SQL",
+        "Tableau",
+        "Hadoop",
+        "Numpy"
+      ],
+      "soft_skills": [
+        "statistics"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Metadata Scientist",
+        "company": "Labcorp",
+        "start_date": "1 July 2021",
+        "end_date": null,
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Identified appropriate quantitative methods and built relevant datasets to address challenges across 6 different domains",
+          "Implemented 32 statistical and machine learning solutions end-to-end through the lifecycle of deploying and maintaining metadata at scale"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B. S.",
+        "school": "University of Houston",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T14:05:22.080965+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6119,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

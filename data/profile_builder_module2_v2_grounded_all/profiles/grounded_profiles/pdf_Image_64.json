@@ -1,0 +1,133 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_64.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_64.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7532,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nROBERTSMITH\nAssociate Data Scientist\n\n## PROFESSIONAL SUMMARY\n\ninfo@qwikresume.com|Linkedin Profile|Qwikresume. com\nSearched, organized, and analyzed clinical dataregarding Invitro fertilization.\nUsed machineleaming on the data to createpredictive models regarding IVF outcomes such aslivebirth. pregnancy. andmultiple birth.\nDiscusseddata and modelswith research and devdopmentteam to makethebestpossibleproductsfor consumers.\nThisincludesproductinput formstesresultsforms, and otherfiles thatareforinternalandexternal use\nConceptualized and Built a model whichimplementspredictivefiling ofclinical fieldswithin an EMRusing historicaldata tamaking it easierfor Physicianstodocumentand alsoinaidingphysiciansmake better clinical decisions\nDevelopedaprototypetolnvestigateoccurrencesofmedication prescriptionleading tounexpected diagnosiswith aview toprevent and monitor undesirableimpact ofmedication on patients\nThemodeldeveoped wasproventohelpassistdoctorsmakebetter clinicaldecisions..\nThis Free Resume Template Isthe copyrghtof Qwikresume. com, Usage Guldelines\n\n## TECHNICAL SKILLS\n\nTo further my career in mathematics by obtaining an analyticposition in data software development, and/or strategy.\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nAssociate Data Scientist\nABCCorporation-MARCH 2012-JUNE 2015\nUsed satisticalanalysisto determine data behavior\n## Designed and revised forms. manuals, and other company documents,\n\n## ACADEMIC PROJECTS\n\nManaged coworkers on certainprojects regarding QA testing and product development.\nData Scientist ABCCorporation-2011-2012\nBuilt a Mode to data mine clinical data from bothpayers and providersto derivepatternsand insights.\nConceptualizedandimplemented amonitoring algorithm which enablesearly detectlon of adverseeventsto. medicalpractices.\nTheadverseeventdetectionisavastimprovementonexisting methodstoflagadverseevents\nusing existing EMR data with the application of machine leaming algorithms\nHEADER\nROBERTSMITH\nAssociate Data Scientist\nPROFESSIONAL SUMMARY\ninfo@qwikresume.com|LinkedinProfile|Qwikresume.com\nSearched, organized, and analyzed clinical dataregarding Invitro fertilization.\nUsed machineleaming on the data to createpredictive models regarding IVF outcomes such aslivebirth.pregnancy.andmultiple birth.\nDiscusseddata and modelswith research and devdopmentteam to makethebestpossibleproductsfor consumers.\nThisincludesproductinput formstesresultsforms, and otherfiles thatareforinternalandexternal use\nConceptualized and Built a model whichimplementspredictivefiling ofclinical fieldswithin an EMRusing historicaldata tamaking it easierforPhysicianstodocumentand alsoinaidingphysiciansmake better clinical decisions\nDevelopedaprototypetolnvestigateoccurrencesofmedication prescriptionleading tounexpected diagnosiswith aview toprevent and monitor undesirableimpact ofmedication on patients\nThemodeldeveoped wasproventohelpassistdoctorsmakebetter clinicaldecisions..\nThisFree Resume Template Isthe copyrghtof Qwikresume.com, Usage Guldelines\nTECHNICAL SKILLS\nTo further my career in mathematics by obtaining an analyticposition in data software development, and/or strategy.\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nAssociate Data Scientist\nABCCorporation-MARCH2012-JUNE2015\nUsed satisticalanalysisto determine data behavior\nDesigned and revised forms. manuals, and other company documents,\nACADEMIC PROJECTS\nManaged coworkers on certainprojects regarding QA testing and product development.\nData Scientist ABCCorporation-2011-2012\nBuilt a Mode to data mine clinical data from bothpayers and providersto derivepatternsand insights.\nConceptualizedandimplemented amonitoring algorithm which enablesearly detectlon of adverseeventsto.medicalpractices.\nTheadverseeventdetectionisavastimprovementonexisting methodstoflagadverseevents\nusing existing EMR data with the application of machine leaming algorithms",
+    "header_info": {
+      "full_name": null,
+      "email": "info@qwikresume.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [
+      "info@qwikresume.com",
+      "qwikresume"
+    ],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.6,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_full_name",
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_common_merged_words",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8506,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "ROBERTSMITH",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Searched, organized, and analyzed clinical data regarding Invitro fertilization. Used machine learning on the data to create predictive models regarding IVF outcomes such as live birth. pregnancy. and multiple birth. Discussed data and models with research and development team to make the best possible products for consumers.",
+      "experience_level": "mid",
+      "years_experience": 2,
+      "hard_skills": [],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "ABCCorporation",
+        "job_title": "Associate Data Scientist",
+        "start_date": "MARCH 2012",
+        "end_date": "JUNE 2015",
+        "city": null,
+        "responsibilities": [
+          "Used statistical analysis to determine data behavior",
+          "Designed and revised forms, manuals, and other company documents"
+        ]
+      },
+      {
+        "company": "ABCCorporation",
+        "job_title": "Data Scientist",
+        "start_date": "2011",
+        "end_date": "2012",
+        "city": null,
+        "responsibilities": [
+          "Built a Mode to data mine clinical data from both payers and providers to derive patterns and insights"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T10:37:04.723637+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.947294+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

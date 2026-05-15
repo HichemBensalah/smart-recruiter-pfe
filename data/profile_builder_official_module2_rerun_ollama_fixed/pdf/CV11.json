@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV11.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV11.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "first.last@resumeworded.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "First Last",
+      "email": "first.last@resumeworded.com",
+      "phone": "+1234567-890",
+      "location": "San Francisco, CA 12345"
+    },
+    "expertise": {
+      "summary": "Data Scientist with experience in analyzing large datasets",
+      "hard_skills": [
+        "Java",
+        "Python",
+        "My SQL/SQL",
+        "Hadoop"
+      ],
+      "soft_skills": [
+        "Customer requirement prioritization",
+        "Problem Solving",
+        "Data optimization"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "Resume Worded",
+        "start_date": "January 2018",
+        "end_date": "Present",
+        "city": "New York, NY",
+        "responsibilities": [
+          "Proposed and implemented a new targeting model, generating significant wealth management sales",
+          "Led team of 8 peers to research market entry strategies for a new business line, increasing market penetration in 12 states",
+          "Worked with Sales, IT and marketing teams to optimize key workflows to identify costs, results and opportunities, streamlining business resources by improving internal system integration"
+        ]
+      },
+      {
+        "job_title": "Associate Data Scientist",
+        "company": "Growthsi",
+        "start_date": "July 2015",
+        "end_date": "January 2018",
+        "city": "Boston, MA",
+        "responsibilities": [
+          "Contributed to company blog posts, promoting the company's analytics platform, increasing customer traffic by 75%"
+        ]
+      },
+      {
+        "job_title": "Data Scientist Intern",
+        "company": "Resume Worded",
+        "start_date": "January 2015",
+        "end_date": "June 2015",
+        "city": "Boston, MA",
+        "responsibilities": [
+          "Worked across multiple functional departments translating business problems into solvable cases with emphasis on anticipating future ad-hoc needs"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "school": "Resume Worded University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:21:41.542279+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7882
+    }
+  }
+}

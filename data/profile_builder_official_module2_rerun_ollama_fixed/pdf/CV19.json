@@ -1,0 +1,81 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV19.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV19.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "christopher. coger@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": "christopher. coger@gmail.com",
+      "phone": null,
+      "location": "American University-Washington, DC"
+    },
+    "expertise": {
+      "summary": "Data Science Analytics, Product Management, Customer Service, Marketing, and more.",
+      "hard_skills": [
+        "Excel",
+        "Salesforce",
+        "Tableau",
+        "Photoshop",
+        "HTML 5",
+        "Rubyon",
+        "UNIX",
+        "Ralls"
+      ],
+      "soft_skills": [
+        "Marketing"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Co-Founder & Partner",
+        "company": "Linkedin, Facebook, and Politech LLC",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Managed client-facing functions of the business..."
+        ]
+      },
+      {
+        "job_title": "Senior Strategist & Data Advisor",
+        "company": "Obamafor America",
+        "start_date": null,
+        "end_date": null,
+        "city": "Las Vegas, Nevada",
+        "responsibilities": [
+          "Created data-targeting-technology-audiosystem",
+          "Architected data-driventargetingprogramresultinginover 5 oo ooocalls..."
+        ]
+      },
+      {
+        "job_title": "Nevada State Data Director and Product Manager",
+        "company": "Obamafor America",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Managed technology team..."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "College of Social Sciences and International Studies, Study Abroad, Universityof Exeter-United Kingdom",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:39:46.353852+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7107
+    }
+  }
+}

@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import logging
+import math
 import os
 import re
 import time
@@ -12,7 +14,7 @@ from pathlib import Path
 from typing import Any
 
 import requests
-from pydantic import BaseModel, ConfigDict, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_validator
 
 try:
     from dotenv import load_dotenv
@@ -26,14 +28,32 @@ if load_dotenv is not None:
 LOGGER = logging.getLogger("profile_builder")
 
 ACCEPTED_PATH = Path(os.getenv("MODULE1_ACCEPTED_PATH", "data/processed/handoff/accepted.json"))
-DEFAULT_OPENAI_MODEL = os.getenv("PROFILE_BUILDER_MODEL", "llama-3.3-70b-specdec")
-OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.groq.com/openai/v1")
+PRIMARY_OPENAI_BASE_URL = os.getenv("PROFILE_BUILDER_PRIMARY_OPENAI_BASE_URL", "https://api.openai.com/v1")
+PRIMARY_OPENAI_MODEL = os.getenv("PROFILE_BUILDER_PRIMARY_OPENAI_MODEL", "gpt-4.1-mini")
+SECONDARY_GROQ_BASE_URL = os.getenv("PROFILE_BUILDER_SECONDARY_GROQ_BASE_URL", "https://api.groq.com/openai/v1")
+SECONDARY_GROQ_MODEL = os.getenv(
+    "PROFILE_BUILDER_SECONDARY_GROQ_MODEL",
+    os.getenv("PROFILE_BUILDER_MODEL", "llama-3.3-70b-specdec"),
+)
+LOCAL_OLLAMA_BASE_URL = os.getenv("PROFILE_BUILDER_LOCAL_OLLAMA_BASE_URL", "http://localhost:11434/v1")
+LOCAL_OLLAMA_MODEL = os.getenv("PROFILE_BUILDER_LOCAL_OLLAMA_MODEL", "llama3.2:3b")
 MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
 MONGODB_DATABASE = os.getenv("MONGODB_DATABASE", "talent_intelligence")
 MONGODB_COLLECTION = os.getenv("MONGODB_COLLECTION", "profiles")
 MONGODB_RUNS_COLLECTION = os.getenv("MONGODB_RUNS_COLLECTION", "profile_builder_runs")
 PREVIEW_ROOT = Path(os.getenv("PROFILE_BUILDER_PREVIEW_ROOT", "data/profile_builder_preview"))
 RUN_REPORT_PATH = PREVIEW_ROOT / "run_report.json"
+DEFAULT_BATCH_SIZE = int(os.getenv("PROFILE_BUILDER_BATCH_SIZE", "0"))
+DEFAULT_BATCH_DELAY_SECONDS = float(os.getenv("PROFILE_BUILDER_BATCH_DELAY_SECONDS", "0"))
+DEFAULT_PROVIDER_SATURATION_CONSECUTIVE = int(
+    os.getenv("PROFILE_BUILDER_PROVIDER_SATURATION_CONSECUTIVE", "3")
+)
+DEFAULT_PROVIDER_SATURATION_BATCH_RATIO = float(
+    os.getenv("PROFILE_BUILDER_PROVIDER_SATURATION_BATCH_RATIO", "0.8")
+)
+DEFAULT_PROVIDER_SATURATION_MIN_BATCH_ERRORS = int(
+    os.getenv("PROFILE_BUILDER_PROVIDER_SATURATION_MIN_BATCH_ERRORS", "3")
+)
 MIN_MARKDOWN_CHARS = 120
 MIN_MARKDOWN_WORDS = 25
 MAX_SUMMARY_CHARS = 240
@@ -95,6 +115,22 @@ SOURCE_FORMAT_PRIORITY = {
     "scans": 3,
     "scan": 3,
 }
+STRUCTURAL_SECTION_HEADINGS = {
+    "experience",
+    "experiences",
+    "professional experience",
+    "employment",
+    "work experience",
+    "education",
+    "formations",
+    "formation",
+    "skills",
+    "technical skills",
+    "competencies",
+    "summary",
+    "profile",
+    "projects",
+}
 
 
 class DocumentSkipError(RuntimeError):
@@ -105,12 +141,50 @@ class BusinessValidationError(RuntimeError):
     """Raised when a structured profile is valid JSON but fails factual guardrails."""
 
 
+class ProviderCallError(RuntimeError):
+    """Structured provider error raised after the retry budget is exhausted."""
+
+    def __init__(
+        self,
+        *,
+        url: str,
+        attempts: int,
+        error_type: str,
+        status_code: int | None = None,
+        message: str,
+        retryable: bool,
+    ) -> None:
+        self.url = url
+        self.attempts = attempts
+        self.error_type = error_type
+        self.status_code = status_code
+        self.message = message
+        self.retryable = retryable
+        super().__init__(self.__str__())
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "url": self.url,
+            "attempts": self.attempts,
+            "error_type": self.error_type,
+            "status_code": self.status_code,
+            "message": self.message,
+            "retryable": self.retryable,
+        }
+
+    def __str__(self) -> str:
+        return json.dumps(self.to_dict(), ensure_ascii=False)
+
+
 class ExperienceItem(BaseModel):
     """Professional experience item extracted from the Module 1 markdown."""
 
     model_config = ConfigDict(extra="forbid", str_strip_whitespace=True, validate_assignment=True)
 
-    job_title: str = Field(..., description="Candidate role title exactly as supported by the source text.")
+    job_title: str | None = Field(
+        default=None,
+        description="Candidate role title exactly as supported by the source text when available.",
+    )
     company: str | None = Field(default=None, description="Employer or organization name if present.")
     start_date: str | None = Field(default=None, description="Best-effort normalized start date.")
     end_date: str | None = Field(default=None, description="Best-effort normalized end date or 'Present'.")
@@ -126,7 +200,10 @@ class EducationItem(BaseModel):
 
     model_config = ConfigDict(extra="forbid", str_strip_whitespace=True, validate_assignment=True)
 
-    degree: str = Field(..., description="Degree or diploma name as supported by the source text.")
+    degree: str | None = Field(
+        default=None,
+        description="Degree or diploma name as supported by the source text when available.",
+    )
     school: str | None = Field(default=None, description="School or university name if present.")
     year: str | None = Field(default=None, description="Graduation year or best-effort completion year.")
 
@@ -159,7 +236,7 @@ class CandidateExpertise(BaseModel):
     model_config = ConfigDict(extra="forbid", str_strip_whitespace=True, validate_assignment=True)
 
     summary: str = Field(
-        ...,
+        default="",
         description="Short factual summary grounded only in the provided markdown. No invented claims.",
     )
     hard_skills: list[str] = Field(
@@ -179,6 +256,7 @@ class CandidateMetadata(BaseModel):
 
     extraction_date: str = Field(..., description="UTC timestamp when the profile builder processed the document.")
     model_used: str = Field(..., description="LLM model or provider route used to build the profile.")
+    provider_route: str = Field(..., description="Provider route that produced the structured payload.")
     confidence_score: float = Field(
         ...,
         ge=0.0,
@@ -196,6 +274,10 @@ class CandidateProfile(BaseModel):
         ...,
         min_length=1,
         description="Stable identifier derived from a trusted email when available, otherwise from the source file.",
+    )
+    profile_kind: str = Field(
+        ...,
+        description="Profile completeness level: complete_profile, partial_profile, or minimal_fallback_profile.",
     )
     bio: CandidateBio = Field(..., description="Candidate identity and contact information.")
     expertise: CandidateExpertise = Field(..., description="Candidate expertise summary and skills.")
@@ -247,6 +329,16 @@ class DocumentContext:
     markdown_path: Path
     artifact: dict[str, Any]
     markdown: str
+
+
+@dataclass(slots=True)
+class ProviderExtractionResult:
+    """One extraction attempt outcome before Pydantic validation."""
+
+    payload: dict[str, Any]
+    model_used: str
+    provider_route: str
+    profile_kind_candidate: str
 
 
 def configure_logging(level: int = logging.INFO) -> None:
@@ -337,33 +429,324 @@ def build_document_context(entry: AcceptedArtifactRef) -> DocumentContext:
 
 def build_candidate_profile(context: DocumentContext) -> CandidateProfile:
     """Create one structured candidate profile from a trusted Module 1 document."""
-    llm_payload, model_used = extract_profile_payload(context)
-    llm_payload = prepare_llm_payload(llm_payload)
-    payload = CandidateProfilePayload.model_validate(llm_payload)
-    profile = build_final_profile(payload, context, model_used=model_used)
+    extraction_result = extract_profile_payload(context)
+    raw_payload = extraction_result.payload
+
+    if extraction_result.provider_route == "ollama_local":
+        raw_payload = _normalize_ollama_payload(raw_payload)
+    else:
+        raw_payload = _normalize_payload_for_validation(raw_payload)
+
+    payload = _validate_candidate_payload(context, raw_payload)
+
+    profile = build_final_profile(
+        payload,
+        context,
+        model_used=extraction_result.model_used,
+        provider_route=extraction_result.provider_route,
+        profile_kind=extraction_result.profile_kind_candidate,
+    )
     profile = apply_quality_guards(profile, context)
     profile = validate_profile_business_rules(profile, context)
-    profile = enrich_profile(profile, context, model_used=model_used)
+    profile = enrich_profile(
+        profile,
+        context,
+        model_used=extraction_result.model_used,
+        provider_route=extraction_result.provider_route,
+    )
     return profile
 
 
-def extract_profile_payload(context: DocumentContext) -> tuple[dict[str, Any], str]:
-    """
-    Extract a strict JSON object from the accepted markdown using Groq.
+def _normalize_payload_for_validation(payload: dict[str, Any]) -> dict[str, Any]:
+    """Normalize provider payload structure before strict Pydantic validation."""
+    normalized = copy.deepcopy(payload) if isinstance(payload, dict) else {}
 
-    This Module 2 rollout is now Groq-only and intentionally ignores Gemini/Ollama.
-    """
-    openai_api_key = os.getenv("OPENAI_API_KEY")
-    if openai_api_key:
-        payload = extract_with_openai(context, api_key=openai_api_key, model=DEFAULT_OPENAI_MODEL)
-        return payload, DEFAULT_OPENAI_MODEL
+    bio = normalized.get("bio")
+    normalized["bio"] = bio if isinstance(bio, dict) else {}
 
+    expertise = normalized.get("expertise")
+    if not isinstance(expertise, dict):
+        expertise = {}
+    expertise = {k: v for k, v in expertise.items() if k in {"summary", "hard_skills", "soft_skills"}}
+    summary = expertise.get("summary")
+    expertise["summary"] = "" if summary is None else str(summary) if not isinstance(summary, str) else summary
+    expertise["hard_skills"] = _normalize_string_list(expertise.get("hard_skills"))
+    expertise["soft_skills"] = _normalize_string_list(expertise.get("soft_skills"))
+    normalized["expertise"] = expertise
+
+    experiences = normalized.get("experiences")
+    if not isinstance(experiences, list):
+        experiences = []
+    cleaned_experiences: list[dict[str, Any]] = []
+    for item in experiences:
+        if not isinstance(item, dict):
+            continue
+        cleaned_item = {
+            key: value
+            for key, value in item.items()
+            if key in {"job_title", "company", "start_date", "end_date", "city", "responsibilities"}
+        }
+        cleaned_item["job_title"] = _normalize_nullable_text(cleaned_item.get("job_title"))
+        cleaned_item["company"] = _normalize_nullable_text(cleaned_item.get("company"))
+        cleaned_item["city"] = _normalize_nullable_text(cleaned_item.get("city"))
+        cleaned_item["start_date"] = _normalize_nullable_date_text(cleaned_item.get("start_date"))
+        cleaned_item["end_date"] = _normalize_nullable_date_text(cleaned_item.get("end_date"))
+        cleaned_item["responsibilities"] = _normalize_string_list(cleaned_item.get("responsibilities"))
+        cleaned_experiences.append(cleaned_item)
+    normalized["experiences"] = cleaned_experiences
+
+    education = normalized.get("education")
+    if not isinstance(education, list):
+        education = []
+    cleaned_education: list[dict[str, Any]] = []
+    for item in education:
+        if not isinstance(item, dict):
+            continue
+        cleaned_item = {
+            key: value
+            for key, value in item.items()
+            if key in {"degree", "school", "year"}
+        }
+        cleaned_item["degree"] = _normalize_nullable_text(cleaned_item.get("degree"))
+        cleaned_item["school"] = _normalize_nullable_text(cleaned_item.get("school"))
+        cleaned_item["year"] = _normalize_nullable_date_text(cleaned_item.get("year"))
+        cleaned_education.append(cleaned_item)
+    normalized["education"] = cleaned_education
+
+    return normalized
+
+
+def _normalize_ollama_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    """Normalize only the Ollama fallback payload so it is more likely to pass Pydantic."""
+    return _normalize_payload_for_validation(payload)
+
+
+def _normalize_string_list(value: Any) -> list[str]:
+    """Normalize one provider value into a clean list of strings."""
+    if not isinstance(value, list):
+        return []
+    cleaned: list[str] = []
+    for item in value:
+        if not isinstance(item, str):
+            continue
+        normalized = item.strip()
+        if normalized:
+            cleaned.append(normalized)
+    return cleaned
+
+
+def _normalize_nullable_text(value: Any) -> str | None:
+    """Keep only clean strings for nullable text fields."""
+    if value is None:
+        return None
+    if isinstance(value, str):
+        normalized = value.strip()
+        return normalized or None
+    return None
+
+
+def _normalize_nullable_date_text(value: Any) -> str | None:
+    """Accept null or a best-effort string representation for date-like fields."""
+    if value is None:
+        return None
+    if isinstance(value, (int, float)):
+        return str(value)
+    if isinstance(value, str):
+        normalized = value.strip()
+        return normalized or None
+    return None
+
+
+def _validate_candidate_payload(context: DocumentContext, raw_payload: dict[str, Any]) -> CandidateProfilePayload:
+    """Run Pydantic validation with one controlled local recovery pass."""
+    llm_payload = prepare_llm_payload(raw_payload)
+    try:
+        return CandidateProfilePayload.model_validate(llm_payload)
+    except ValidationError as exc:
+        error_summary = _summarize_validation_errors(exc)
+        LOGGER.warning(
+            "Module 2 schema invalid | artifact=%s | source=%s | details=%s",
+            context.accepted_entry.artifact_path,
+            context.accepted_entry.source_path,
+            error_summary,
+        )
+        recovered_payload = _recover_simple_validation_errors(llm_payload, exc)
+        if recovered_payload is not None:
+            try:
+                payload = CandidateProfilePayload.model_validate(recovered_payload)
+            except ValidationError as recovery_exc:
+                LOGGER.error(
+                    "Module 2 schema recovery failed | artifact=%s | source=%s | details=%s",
+                    context.accepted_entry.artifact_path,
+                    context.accepted_entry.source_path,
+                    _summarize_validation_errors(recovery_exc),
+                )
+                raise
+            LOGGER.info(
+                "Module 2 schema recovery succeeded | artifact=%s | source=%s",
+                context.accepted_entry.artifact_path,
+                context.accepted_entry.source_path,
+            )
+            return payload
+
+        LOGGER.error(
+            "Module 2 schema recovery not attempted | artifact=%s | source=%s",
+            context.accepted_entry.artifact_path,
+            context.accepted_entry.source_path,
+        )
+        raise
+
+
+def extract_profile_payload(context: DocumentContext) -> ProviderExtractionResult:
+    """Try the Groq cloud route first, then the local Ollama fallback, and fail cleanly otherwise."""
+    errors: list[str] = []
+
+    for provider_call in (
+        _extract_with_secondary_groq_provider,
+        _extract_with_local_ollama_provider,
+    ):
+        try:
+            return provider_call(context)
+        except Exception as exc:
+            provider_name = provider_call.__name__.replace("_extract_with_", "").replace("_provider", "")
+            errors.append(f"{provider_name}:{exc}")
+            LOGGER.warning(
+                "Module 2 provider route failed | route=%s | artifact=%s | source=%s | erreur=%s",
+                provider_name,
+                context.accepted_entry.artifact_path,
+                context.accepted_entry.source_path,
+                exc,
+            )
+
+    LOGGER.error(
+        "Module 2 total failure after Groq and Ollama fallback | artifact=%s | source=%s | provider_errors=%s",
+        context.accepted_entry.artifact_path,
+        context.accepted_entry.source_path,
+        errors,
+    )
     raise RuntimeError(
-        "No Groq/OpenAI-compatible provider configured. Set OPENAI_API_KEY."
+        "total_failure_after_cloud_and_local_fallback"
+        f" | artifact={context.accepted_entry.artifact_path}"
+        f" | provider_errors={errors}"
     )
 
-def extract_with_openai(context: DocumentContext, *, api_key: str, model: str) -> dict[str, Any]:
-    """Call a Groq OpenAI-compatible endpoint and force JSON object output."""
+
+def _extract_with_primary_openai_provider(context: DocumentContext) -> ProviderExtractionResult:
+    """Run the primary cloud provider route."""
+    api_key = os.getenv("PROFILE_BUILDER_PRIMARY_OPENAI_API_KEY") or os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError("primary_openai_not_configured")
+    payload = extract_with_openai(
+        context,
+        api_key=api_key,
+        model=PRIMARY_OPENAI_MODEL,
+        base_url=PRIMARY_OPENAI_BASE_URL,
+        provider_label="openai_primary",
+    )
+    return ProviderExtractionResult(
+        payload=payload,
+        model_used=PRIMARY_OPENAI_MODEL,
+        provider_route="openai_primary",
+        profile_kind_candidate="complete_profile",
+    )
+
+
+def _extract_with_secondary_groq_provider(context: DocumentContext) -> ProviderExtractionResult:
+    """Run the secondary Groq route when the primary cloud provider fails."""
+    api_key = (
+        os.getenv("PROFILE_BUILDER_SECONDARY_GROQ_API_KEY")
+        or os.getenv("GROQ_API_KEY")
+        or os.getenv("OPENAI_API_KEY")
+    )
+    if not api_key:
+        raise RuntimeError("secondary_groq_not_configured")
+    payload = extract_with_openai(
+        context,
+        api_key=api_key,
+        model=SECONDARY_GROQ_MODEL,
+        base_url=SECONDARY_GROQ_BASE_URL,
+        provider_label="groq_secondary",
+    )
+    return ProviderExtractionResult(
+        payload=payload,
+        model_used=SECONDARY_GROQ_MODEL,
+        provider_route="groq_secondary",
+        profile_kind_candidate="complete_profile",
+    )
+
+
+def _extract_with_local_ollama_provider(context: DocumentContext) -> ProviderExtractionResult:
+    """Run the local Ollama fallback for a degraded but still structured profile."""
+    payload = extract_with_openai(
+        context,
+        api_key=os.getenv("PROFILE_BUILDER_LOCAL_OLLAMA_API_KEY"),
+        model=LOCAL_OLLAMA_MODEL,
+        base_url=LOCAL_OLLAMA_BASE_URL,
+        provider_label="ollama_local",
+    )
+    return ProviderExtractionResult(
+        payload=payload,
+        model_used=LOCAL_OLLAMA_MODEL,
+        provider_route="ollama_local",
+        profile_kind_candidate="partial_profile",
+    )
+
+
+def _build_minimal_fallback_result(context: DocumentContext, *, reason: str) -> ProviderExtractionResult:
+    """Build a guaranteed minimal JSON payload from the accepted artifact itself."""
+    return ProviderExtractionResult(
+        payload=_build_minimal_fallback_payload(context),
+        model_used=f"minimal_fallback_local:{reason}",
+        provider_route="minimal_fallback_local",
+        profile_kind_candidate="minimal_fallback_profile",
+    )
+
+
+def _build_minimal_fallback_payload(context: DocumentContext) -> dict[str, Any]:
+    """Produce the weakest acceptable JSON from Module 1 content without inventing data."""
+    return {
+        "bio": {
+            "full_name": _guess_full_name_from_markdown(context.markdown),
+            "email": None,
+            "phone": None,
+            "location": None,
+        },
+        "expertise": {
+            "summary": "",
+            "hard_skills": [],
+            "soft_skills": [],
+        },
+        "experiences": [],
+        "education": [],
+    }
+
+
+def _guess_full_name_from_markdown(markdown: str) -> str | None:
+    """Best-effort full-name extraction from the first clean heading-like line."""
+    for raw_line in markdown.splitlines()[:8]:
+        line = raw_line.strip().strip("#*- ").strip()
+        if not line:
+            continue
+        lowered = line.lower()
+        if lowered in STRUCTURAL_SECTION_HEADINGS:
+            continue
+        if "@" in line or re.search(r"\d{4,}", line):
+            continue
+        word_count = len(line.split())
+        if 2 <= word_count <= 5:
+            return line
+    return None
+
+
+def extract_with_openai(
+    context: DocumentContext,
+    *,
+    api_key: str | None,
+    model: str,
+    base_url: str,
+    provider_label: str,
+) -> dict[str, Any]:
+    """Call an OpenAI-compatible endpoint and force JSON object output."""
     body = {
         "model": model,
         "messages": [
@@ -379,19 +762,72 @@ def extract_with_openai(context: DocumentContext, *, api_key: str, model: str) -
         "response_format": {"type": "json_object"},
     }
 
-    response = _http_post_json(
-        _chat_completions_url(OPENAI_BASE_URL),
-        body,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        },
-    )
+    try:
+        response = _http_post_json(
+            _chat_completions_url(base_url),
+            body,
+            headers=_provider_headers(api_key),
+        )
+    except ProviderCallError:
+        LOGGER.error(
+            "Module 2 provider/network error | provider=%s | artifact=%s | source=%s",
+            provider_label,
+            context.accepted_entry.artifact_path,
+            context.accepted_entry.source_path,
+        )
+        raise
 
     text = _extract_chat_completions_text(response)
     if not text:
-        raise RuntimeError(f"Groq response did not contain JSON output: {response}")
-    return json.loads(text)
+        raise RuntimeError(f"{provider_label} response did not contain JSON output: {response}")
+
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError as exc:
+        LOGGER.warning(
+            "Module 2 malformed JSON received | provider=%s | artifact=%s | tentative_recovery=1 | erreur=%s",
+            provider_label,
+            context.accepted_entry.artifact_path,
+            exc,
+        )
+        recovered_text = _recover_json_object_text(text)
+        if recovered_text is not None:
+            try:
+                recovered_payload = json.loads(recovered_text)
+            except json.JSONDecodeError as recovery_exc:
+                LOGGER.error(
+                    "Module 2 JSON recovery failed | provider=%s | artifact=%s | erreur=%s",
+                    provider_label,
+                    context.accepted_entry.artifact_path,
+                    recovery_exc,
+                )
+                raise RuntimeError(
+                    f"Malformed JSON from provider after one controlled recovery attempt: {recovery_exc}"
+                ) from recovery_exc
+
+            LOGGER.info(
+                "Module 2 JSON recovery succeeded | provider=%s | artifact=%s",
+                provider_label,
+                context.accepted_entry.artifact_path,
+            )
+            return recovered_payload
+
+        LOGGER.error(
+            "Module 2 malformed JSON unrecoverable | provider=%s | artifact=%s",
+            provider_label,
+            context.accepted_entry.artifact_path,
+        )
+        raise RuntimeError(
+            f"Malformed JSON from provider after one controlled recovery attempt: {exc}"
+        ) from exc
+
+
+def _provider_headers(api_key: str | None) -> dict[str, str]:
+    """Build minimal JSON headers and add authorization only when required."""
+    headers = {"Content-Type": "application/json"}
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+    return headers
 
 
 def build_final_profile(
@@ -399,6 +835,8 @@ def build_final_profile(
     context: DocumentContext,
     *,
     model_used: str,
+    provider_route: str,
+    profile_kind: str,
 ) -> CandidateProfile:
     """Build the final profile with deterministic fields injected locally."""
     summary = sanitize_summary(payload.expertise.summary)
@@ -406,10 +844,12 @@ def build_final_profile(
     metadata = CandidateMetadata(
         extraction_date=datetime.now(timezone.utc).isoformat(),
         model_used=model_used,
+        provider_route=provider_route,
         confidence_score=float(context.accepted_entry.document_confidence_score),
     )
     return CandidateProfile(
         source_id="pending_source_id",
+        profile_kind=profile_kind,
         bio=payload.bio,
         expertise=expertise,
         experiences=payload.experiences,
@@ -418,7 +858,13 @@ def build_final_profile(
     )
 
 
-def enrich_profile(profile: CandidateProfile, context: DocumentContext, *, model_used: str) -> CandidateProfile:
+def enrich_profile(
+    profile: CandidateProfile,
+    context: DocumentContext,
+    *,
+    model_used: str,
+    provider_route: str,
+) -> CandidateProfile:
     """Fill deterministic metadata and normalize the source identifier after LLM extraction."""
     email = profile.bio.email
     source_stem = context.artifact_path.stem
@@ -427,6 +873,7 @@ def enrich_profile(profile: CandidateProfile, context: DocumentContext, *, model
     metadata = CandidateMetadata(
         extraction_date=datetime.now(timezone.utc).isoformat(),
         model_used=model_used,
+        provider_route=provider_route,
         confidence_score=float(context.accepted_entry.document_confidence_score),
     )
     return profile.model_copy(
@@ -484,6 +931,7 @@ def build_persistence_document(
         "candidate_key": candidate_key,
         "identity_confidence": identity_confidence,
         "identity_ambiguous": identity_ambiguous,
+        "profile_kind": profile.profile_kind,
         "bio": profile.bio.model_dump(mode="json"),
         "expertise": profile.expertise.model_dump(mode="json"),
         "experiences": _clean_experience_documents([item.model_dump(mode="json") for item in profile.experiences]),
@@ -622,19 +1070,26 @@ def prepare_llm_payload(payload: dict[str, Any]) -> dict[str, Any]:
 
 def validate_profile_business_rules(profile: CandidateProfile, context: DocumentContext) -> CandidateProfile:
     """Reject profiles that are structurally valid but not sufficiently grounded in the markdown."""
+    if profile.profile_kind == "minimal_fallback_profile":
+        return profile
+
     markdown = context.markdown
     normalized_markdown = _normalize_for_match(markdown)
     normalized_markdown_digits = _digits_only(markdown)
+    bio_updates: dict[str, Any] = {}
 
     if profile.bio.email:
         normalized_email = _normalize_for_match(profile.bio.email)
         if normalized_email not in normalized_markdown:
-            raise BusinessValidationError("email_not_grounded_in_markdown")
+            bio_updates["email"] = None
 
     if profile.bio.phone:
         phone_digits = _digits_only(profile.bio.phone)
         if len(phone_digits) < 6 or phone_digits not in normalized_markdown_digits:
-            raise BusinessValidationError("phone_not_grounded_in_markdown")
+            bio_updates["phone"] = None
+
+    if bio_updates:
+        profile = profile.model_copy(update={"bio": profile.bio.model_copy(update=bio_updates)})
 
     if not _has_structured_anchor(profile, markdown):
         raise BusinessValidationError("no_structured_anchor_found")
@@ -1157,17 +1612,123 @@ def write_run_record(report: dict[str, Any]) -> None:
         client.close()
 
 
+def _classify_module2_error(exc: Exception) -> str:
+    """Map runtime failures to stable reporting categories."""
+    if isinstance(exc, ProviderCallError):
+        return "provider_error"
+    if isinstance(exc, ValidationError):
+        return "schema_error"
+    if isinstance(exc, BusinessValidationError):
+        return "business_validation_error"
+    if isinstance(exc, RuntimeError) and "Malformed JSON from provider" in str(exc):
+        return "json_error"
+    return "unknown_error"
+
+
+def _summarize_failure_categories(items: list[dict[str, Any]]) -> dict[str, int]:
+    """Aggregate failure categories for the run report summary."""
+    counts: dict[str, int] = {}
+    for item in items:
+        if item.get("status") not in {"failed", "rejected"}:
+            continue
+        category = str(item.get("failure_type") or "unknown_error")
+        counts[category] = counts.get(category, 0) + 1
+    return counts
+
+
+def _normalize_failure_cause(message: str, failure_type: str) -> str:
+    """Collapse noisy runtime messages into stable diagnostic causes."""
+    text = (message or "").strip()
+
+    if failure_type == "provider_error":
+        if "429" in text or "rate_limit" in text.lower():
+            return "groq_rate_limit"
+        if "timeout" in text.lower():
+            return "provider_timeout"
+        return "provider_transient_error"
+
+    if failure_type == "json_error":
+        return "malformed_llm_json"
+
+    if failure_type == "schema_error":
+        lowered = text.lower()
+        if "education" in lowered and "degree" in lowered:
+            return "missing_education_degree"
+        if "experiences" in lowered and "job_title" in lowered:
+            return "missing_experience_job_title"
+        if "email" in lowered:
+            return "invalid_email"
+        return "schema_validation_error"
+
+    if failure_type == "business_validation_error":
+        return text or "business_validation_error"
+
+    return "unknown_error"
+
+
+def _build_diagnostic_summary(items: list[dict[str, Any]]) -> dict[str, Any]:
+    """Build a compact diagnostic summary of dominant failure causes for the run report."""
+    failed_items = [item for item in items if item.get("status") in {"failed", "rejected"}]
+    total_failed = len(failed_items)
+    cause_counts: dict[str, int] = {}
+
+    for item in failed_items:
+        failure_type = str(item.get("failure_type") or "unknown_error")
+        cause = _normalize_failure_cause(str(item.get("error") or ""), failure_type)
+        cause_counts[cause] = cause_counts.get(cause, 0) + 1
+
+    sorted_causes = sorted(cause_counts.items(), key=lambda pair: (-pair[1], pair[0]))
+    dominant_causes = [
+        {
+            "cause": cause,
+            "count": count,
+            "frequency": round(count / total_failed, 4) if total_failed else 0.0,
+        }
+        for cause, count in sorted_causes
+    ]
+
+    return {
+        "total_failed_items": total_failed,
+        "dominant_failure_causes": dominant_causes,
+    }
+
+
+def _load_failed_artifact_paths(run_report_path: Path) -> set[str]:
+    """Read a previous run report and collect only items that truly failed."""
+    report = json.loads(run_report_path.read_text(encoding="utf-8"))
+    return {
+        str(item.get("artifact_path"))
+        for item in report.get("items", [])
+        if item.get("status") == "failed" and item.get("artifact_path")
+    }
+
+
 def run_profile_builder(
     accepted_path: Path = ACCEPTED_PATH,
     *,
     dry_run: bool = False,
     limit: int | None = None,
     preview_root: Path = PREVIEW_ROOT,
+    batch_size: int | None = None,
+    batch_delay_seconds: float | None = None,
+    resume_failed_from: Path | None = None,
 ) -> dict[str, Any]:
     """Main process: read accepted artifacts, build profiles, and upsert them one by one."""
     configure_logging()
     preview_root.mkdir(parents=True, exist_ok=True)
     entries, ignored_rows = load_accepted_entries(accepted_path)
+    resumed_from_failed_count = 0
+    if resume_failed_from is not None:
+        failed_artifact_paths = _load_failed_artifact_paths(resume_failed_from)
+        original_count = len(entries)
+        entries = [entry for entry in entries if entry.artifact_path in failed_artifact_paths]
+        resumed_from_failed_count = len(entries)
+        LOGGER.info(
+            "Resume failed mode active | previous_report=%s | failed_items=%s | filtered_from=%s",
+            resume_failed_from,
+            resumed_from_failed_count,
+            original_count,
+        )
     if limit is not None:
         entries = entries[:limit]
 
@@ -1178,137 +1739,239 @@ def run_profile_builder(
     report_items: list[dict[str, Any]] = list(ignored_rows)
     mode = "dry-run" if dry_run else "live"
     run_id = f"profile_builder_{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}"
+    effective_batch_size = batch_size if batch_size is not None else DEFAULT_BATCH_SIZE
+    effective_batch_delay = (
+        batch_delay_seconds if batch_delay_seconds is not None else DEFAULT_BATCH_DELAY_SECONDS
+    )
+    if effective_batch_size is None or effective_batch_size <= 0:
+        effective_batch_size = total if total > 0 else 1
+    total_batches = math.ceil(total / effective_batch_size) if total else 0
+    consecutive_provider_errors = 0
+    stopped_early = False
+    stop_reason: str | None = None
 
     LOGGER.info(
-        "Chargement de %s documents accepted depuis %s | ignores=%s | mode=%s",
+        "Chargement de %s documents accepted depuis %s | ignores=%s | mode=%s | batch_size=%s | batch_delay=%.2fs",
         total,
         accepted_path,
         len(ignored_rows),
         mode,
+        effective_batch_size,
+        effective_batch_delay,
     )
 
-    for index, entry in enumerate(entries, start=1):
-        preview_path = _preview_path_for_entry(entry, preview_root)
-        try:
-            context = build_document_context(entry)
-            profile = build_candidate_profile(context)
-            preview_payload = {
-                "source_path": entry.source_path,
-                "artifact_path": entry.artifact_path,
-                "source_format": entry.source_format,
-                "status": "success",
-                "mode": mode,
-                "error": None,
-                "run_id": run_id,
-                "profile": profile.model_dump(mode="json"),
-            }
-            _write_preview(preview_path, preview_payload)
-            if not dry_run:
-                persist_profile(profile, context, run_id=run_id, mode=mode, accepted_path=accepted_path)
-            success += 1
-            report_items.append(
-                {
+    for batch_start in range(0, total, effective_batch_size):
+        batch_number = batch_start // effective_batch_size + 1
+        batch_entries = entries[batch_start : batch_start + effective_batch_size]
+        batch_provider_errors = 0
+        batch_failed = 0
+        batch_skipped = 0
+        batch_success = 0
+
+        LOGGER.info(
+            "Debut batch %s/%s | taille=%s | indices=%s-%s",
+            batch_number,
+            total_batches,
+            len(batch_entries),
+            batch_start + 1,
+            batch_start + len(batch_entries),
+        )
+
+        for offset, entry in enumerate(batch_entries, start=1):
+            index = batch_start + offset
+            preview_path = _preview_path_for_entry(entry, preview_root)
+            try:
+                context = build_document_context(entry)
+                profile = build_candidate_profile(context)
+                preview_payload = {
                     "source_path": entry.source_path,
                     "artifact_path": entry.artifact_path,
+                    "source_format": entry.source_format,
                     "status": "success",
                     "mode": mode,
                     "error": None,
                     "run_id": run_id,
-                    "preview_path": str(preview_path),
+                    "profile": profile.model_dump(mode="json"),
                 }
-            )
-            LOGGER.info("Traitement %s/%s termine | source_id=%s | mode=%s", index, total, profile.source_id, mode)
-        except DocumentSkipError as exc:
-            skipped += 1
-            message = str(exc)
-            _write_preview(
-                preview_path,
-                {
-                    "source_path": entry.source_path,
-                    "artifact_path": entry.artifact_path,
-                    "source_format": entry.source_format,
-                    "status": "skipped",
-                    "mode": mode,
-                    "error": message,
-                    "run_id": run_id,
-                    "profile": None,
-                },
-            )
-            report_items.append(
-                {
-                    "source_path": entry.source_path,
-                    "artifact_path": entry.artifact_path,
-                    "status": "skipped",
-                    "mode": mode,
-                    "error": message,
-                    "run_id": run_id,
-                    "preview_path": str(preview_path),
-                }
-            )
-            LOGGER.warning("Traitement %s/%s ignore | artifact=%s | raison=%s", index, total, entry.artifact_path, message)
-        except BusinessValidationError as exc:
-            failed += 1
-            message = str(exc)
-            _write_preview(
-                preview_path,
-                {
-                    "source_path": entry.source_path,
-                    "artifact_path": entry.artifact_path,
-                    "source_format": entry.source_format,
-                    "status": "rejected",
-                    "mode": mode,
-                    "error": message,
-                    "run_id": run_id,
-                    "profile": None,
-                },
-            )
-            report_items.append(
-                {
-                    "source_path": entry.source_path,
-                    "artifact_path": entry.artifact_path,
-                    "status": "rejected",
-                    "mode": mode,
-                    "error": message,
-                    "run_id": run_id,
-                    "preview_path": str(preview_path),
-                }
-            )
-            LOGGER.warning("Traitement %s/%s rejete | artifact=%s | raison=%s", index, total, entry.artifact_path, message)
-        except Exception as exc:
-            failed += 1
-            message = str(exc)
-            _write_preview(
-                preview_path,
-                {
-                    "source_path": entry.source_path,
-                    "artifact_path": entry.artifact_path,
-                    "source_format": entry.source_format,
-                    "status": "failed",
-                    "mode": mode,
-                    "error": message,
-                    "run_id": run_id,
-                    "profile": None,
-                },
-            )
-            report_items.append(
-                {
-                    "source_path": entry.source_path,
-                    "artifact_path": entry.artifact_path,
-                    "status": "failed",
-                    "mode": mode,
-                    "error": message,
-                    "run_id": run_id,
-                    "preview_path": str(preview_path),
-                }
-            )
-            LOGGER.exception(
-                "Traitement %s/%s echoue | artifact=%s | erreur=%s",
-                index,
-                total,
-                entry.artifact_path,
-                exc,
-            )
+                _write_preview(preview_path, preview_payload)
+                if not dry_run:
+                    persist_profile(profile, context, run_id=run_id, mode=mode, accepted_path=accepted_path)
+                success += 1
+                batch_success += 1
+                consecutive_provider_errors = 0
+                report_items.append(
+                    {
+                        "source_path": entry.source_path,
+                        "artifact_path": entry.artifact_path,
+                        "status": "success",
+                        "profile_kind": profile.profile_kind,
+                        "provider_route": profile.metadata.provider_route,
+                        "mode": mode,
+                        "error": None,
+                        "run_id": run_id,
+                        "preview_path": str(preview_path),
+                    }
+                )
+                LOGGER.info("Traitement %s/%s termine | source_id=%s | mode=%s", index, total, profile.source_id, mode)
+            except DocumentSkipError as exc:
+                skipped += 1
+                batch_skipped += 1
+                consecutive_provider_errors = 0
+                message = str(exc)
+                _write_preview(
+                    preview_path,
+                    {
+                        "source_path": entry.source_path,
+                        "artifact_path": entry.artifact_path,
+                        "source_format": entry.source_format,
+                        "status": "skipped",
+                        "mode": mode,
+                        "error": message,
+                        "run_id": run_id,
+                        "profile": None,
+                    },
+                )
+                report_items.append(
+                    {
+                        "source_path": entry.source_path,
+                        "artifact_path": entry.artifact_path,
+                        "status": "skipped",
+                        "mode": mode,
+                        "error": message,
+                        "run_id": run_id,
+                        "preview_path": str(preview_path),
+                    }
+                )
+                LOGGER.warning("Traitement %s/%s ignore | artifact=%s | raison=%s", index, total, entry.artifact_path, message)
+            except BusinessValidationError as exc:
+                failed += 1
+                batch_failed += 1
+                consecutive_provider_errors = 0
+                message = str(exc)
+                failure_type = "business_validation_error"
+                _write_preview(
+                    preview_path,
+                    {
+                        "source_path": entry.source_path,
+                        "artifact_path": entry.artifact_path,
+                        "source_format": entry.source_format,
+                        "status": "rejected",
+                        "failure_type": failure_type,
+                        "mode": mode,
+                        "error": message,
+                        "run_id": run_id,
+                        "profile": None,
+                    },
+                )
+                report_items.append(
+                    {
+                        "source_path": entry.source_path,
+                        "artifact_path": entry.artifact_path,
+                        "status": "rejected",
+                        "failure_type": failure_type,
+                        "mode": mode,
+                        "error": message,
+                        "run_id": run_id,
+                        "preview_path": str(preview_path),
+                    }
+                )
+                LOGGER.warning(
+                    "Traitement %s/%s rejete | artifact=%s | type=%s | raison=%s",
+                    index,
+                    total,
+                    entry.artifact_path,
+                    failure_type,
+                    message,
+                )
+            except Exception as exc:
+                failed += 1
+                batch_failed += 1
+                message = str(exc)
+                failure_type = _classify_module2_error(exc)
+                if failure_type == "provider_error":
+                    consecutive_provider_errors += 1
+                    batch_provider_errors += 1
+                else:
+                    consecutive_provider_errors = 0
+                _write_preview(
+                    preview_path,
+                    {
+                        "source_path": entry.source_path,
+                        "artifact_path": entry.artifact_path,
+                        "source_format": entry.source_format,
+                        "status": "failed",
+                        "failure_type": failure_type,
+                        "mode": mode,
+                        "error": message,
+                        "run_id": run_id,
+                        "profile": None,
+                    },
+                )
+                report_items.append(
+                    {
+                        "source_path": entry.source_path,
+                        "artifact_path": entry.artifact_path,
+                        "status": "failed",
+                        "failure_type": failure_type,
+                        "mode": mode,
+                        "error": message,
+                        "run_id": run_id,
+                        "preview_path": str(preview_path),
+                    }
+                )
+                LOGGER.exception(
+                    "Traitement %s/%s echoue | artifact=%s | type=%s | erreur=%s",
+                    index,
+                    total,
+                    entry.artifact_path,
+                    failure_type,
+                    exc,
+                )
 
+        LOGGER.info(
+            "Fin batch %s/%s | traites=%s | success=%s | failed=%s | skipped=%s | provider_errors=%s",
+            batch_number,
+            total_batches,
+            len(batch_entries),
+            batch_success,
+            batch_failed,
+            batch_skipped,
+            batch_provider_errors,
+        )
+
+        batch_provider_error_ratio = batch_provider_errors / len(batch_entries) if batch_entries else 0.0
+        if consecutive_provider_errors >= DEFAULT_PROVIDER_SATURATION_CONSECUTIVE:
+            stopped_early = True
+            stop_reason = "provider_saturation_consecutive_errors"
+        elif (
+            batch_provider_errors >= DEFAULT_PROVIDER_SATURATION_MIN_BATCH_ERRORS
+            and batch_provider_error_ratio >= DEFAULT_PROVIDER_SATURATION_BATCH_RATIO
+        ):
+            stopped_early = True
+            stop_reason = "provider_saturation_batch_error_ratio"
+
+        if stopped_early:
+            LOGGER.warning(
+                "Stopping run early due to provider saturation | reason=%s | batch=%s/%s | consecutive_provider_errors=%s | batch_provider_errors=%s",
+                stop_reason,
+                batch_number,
+                total_batches,
+                consecutive_provider_errors,
+                batch_provider_errors,
+            )
+            break
+
+        if effective_batch_delay > 0 and batch_number < total_batches:
+            LOGGER.info(
+                "Pause inter-batch | batch=%s/%s | attente=%.2fs",
+                batch_number,
+                total_batches,
+                effective_batch_delay,
+            )
+            time.sleep(effective_batch_delay)
+
+    failure_categories = _summarize_failure_categories(report_items)
+    diagnostic_summary = _build_diagnostic_summary(report_items)
     summary = {
         "run_id": run_id,
         "accepted_file_path": str(accepted_path),
@@ -1318,6 +1981,14 @@ def run_profile_builder(
         "failed": failed,
         "skipped": skipped,
         "ignored": len(ignored_rows),
+        "batch_size": effective_batch_size,
+        "batch_delay_seconds": effective_batch_delay,
+        "resume_failed_from": str(resume_failed_from) if resume_failed_from is not None else None,
+        "resumed_from_failed_count": resumed_from_failed_count,
+        "stopped_early": stopped_early,
+        "stop_reason": stop_reason,
+        "failure_categories": failure_categories,
+        "diagnostic_summary": diagnostic_summary,
         "items": report_items,
     }
     RUN_REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -1361,7 +2032,7 @@ def candidate_profile_payload_schema() -> dict[str, Any]:
                     "type": "object",
                     "additionalProperties": False,
                     "properties": {
-                        "job_title": {"type": "string"},
+                        "job_title": {"type": ["string", "null"]},
                         "company": {"type": ["string", "null"]},
                         "start_date": {"type": ["string", "null"]},
                         "end_date": {"type": ["string", "null"]},
@@ -1384,7 +2055,7 @@ def candidate_profile_payload_schema() -> dict[str, Any]:
                     "type": "object",
                     "additionalProperties": False,
                     "properties": {
-                        "degree": {"type": "string"},
+                        "degree": {"type": ["string", "null"]},
                         "school": {"type": ["string", "null"]},
                         "year": {"type": ["string", "null"]},
                     },
@@ -1408,7 +2079,7 @@ def system_prompt() -> str:
         "Return ONLY a valid JSON matching exactly the schema. No extra fields. "
         "Output one JSON object and nothing else. "
         "Never invent missing information. "
-        "If a value is absent, use null or an empty list. "
+        "If a value is absent, use null for nullable scalars, an empty list for list fields, and an empty string only for expertise.summary. "
         "Use only facts grounded in the provided Markdown and metadata. "
         "Do not infer companies, dates, emails, phones, locations, or names that are not explicitly supported. "
         "Use these exact top-level keys only: bio, expertise, experiences, education. "
@@ -1451,34 +2122,104 @@ def user_prompt(context: DocumentContext) -> str:
 
 
 def _http_post_json(url: str, payload: dict[str, Any], *, headers: dict[str, str]) -> dict[str, Any]:
-    """POST JSON with requests for provider compatibility and clearer errors."""
-    last_error: RuntimeError | None = None
+    """
+    POST JSON with a small retry budget for transient provider failures.
+
+    Usage:
+        response = _http_post_json(url, payload, headers=headers)
+    """
+    last_error: ProviderCallError | None = None
     for attempt in range(1, 4):
         try:
             response = requests.post(url, headers=headers, json=payload, timeout=180)
+        except requests.Timeout as exc:
+            last_error = ProviderCallError(
+                url=url,
+                attempts=attempt,
+                error_type="timeout",
+                message=f"Timeout while calling provider: {exc}",
+                retryable=True,
+            )
+            if attempt < 3:
+                wait_seconds = _compute_retry_delay_seconds(attempt)
+                LOGGER.warning(
+                    "Groq timeout | tentative=%s/3 | attente=%.2fs | url=%s",
+                    attempt,
+                    wait_seconds,
+                    url,
+                )
+                time.sleep(wait_seconds)
+                continue
+            raise last_error from exc
         except requests.RequestException as exc:
-            raise RuntimeError(f"Unable to reach {url}: {exc}") from exc
+            last_error = ProviderCallError(
+                url=url,
+                attempts=attempt,
+                error_type="transient_request_error",
+                message=f"Transient request failure while calling provider: {exc}",
+                retryable=True,
+            )
+            if attempt < 3:
+                wait_seconds = _compute_retry_delay_seconds(attempt)
+                LOGGER.warning(
+                    "Groq transient request error | tentative=%s/3 | attente=%.2fs | url=%s | erreur=%s",
+                    attempt,
+                    wait_seconds,
+                    url,
+                    type(exc).__name__,
+                )
+                time.sleep(wait_seconds)
+                continue
+            raise last_error from exc
 
         if response.ok:
             return response.json()
 
         body = response.text
-        if response.status_code == 429 and attempt < 3:
-            wait_seconds = _extract_retry_after_seconds(body)
-            LOGGER.warning(
-                "Rate limit provider detecte | tentative=%s/3 | attente=%.2fs",
-                attempt,
-                wait_seconds,
+        if _is_transient_http_status(response.status_code):
+            last_error = ProviderCallError(
+                url=url,
+                attempts=attempt,
+                error_type="transient_http_error",
+                status_code=response.status_code,
+                message=body,
+                retryable=True,
             )
-            time.sleep(wait_seconds)
-            continue
+            if attempt < 3:
+                wait_seconds = _compute_retry_delay_seconds(
+                    attempt,
+                    retry_after_hint=_extract_retry_after_seconds(body),
+                )
+                LOGGER.warning(
+                    "Groq transient HTTP error | tentative=%s/3 | statut=%s | attente=%.2fs | url=%s",
+                    attempt,
+                    response.status_code,
+                    wait_seconds,
+                    url,
+                )
+                time.sleep(wait_seconds)
+                continue
+            raise last_error
 
-        last_error = RuntimeError(f"HTTP {response.status_code} calling {url}: {body}")
-        break
+        last_error = ProviderCallError(
+            url=url,
+            attempts=attempt,
+            error_type="non_retryable_http_error",
+            status_code=response.status_code,
+            message=body,
+            retryable=False,
+        )
+        raise last_error
 
     if last_error is not None:
         raise last_error
-    raise RuntimeError(f"HTTP call failed unexpectedly for {url}")
+    raise ProviderCallError(
+        url=url,
+        attempts=3,
+        error_type="unknown_provider_error",
+        message="HTTP call failed unexpectedly.",
+        retryable=False,
+    )
 
 
 def _extract_chat_completions_text(response: dict[str, Any]) -> str | None:
@@ -1503,11 +2244,97 @@ def _chat_completions_url(base_url: str) -> str:
 
 
 def _extract_retry_after_seconds(body: str) -> float:
-    """Read a Groq-style retry hint and return a small safe backoff."""
+    """Read a Groq-style retry hint and return provider-guided seconds when available."""
     match = re.search(r"Please try again in ([0-9]+(?:\.[0-9]+)?)s", body)
     if match:
-        return min(float(match.group(1)) + 0.5, 15.0)
-    return 5.0
+        return float(match.group(1)) + 0.5
+    return 0.0
+
+
+def _recover_json_object_text(text: str) -> str | None:
+    """
+    Attempt one controlled recovery for malformed LLM JSON output.
+
+    Strategy:
+    - strip optional markdown code fences
+    - isolate the outermost JSON object between the first '{' and the last '}'
+    - remove trailing commas before closing braces/brackets
+    """
+    candidate = text.strip()
+    candidate = re.sub(r"^\s*```(?:json)?\s*", "", candidate, flags=re.IGNORECASE)
+    candidate = re.sub(r"\s*```\s*$", "", candidate)
+
+    start = candidate.find("{")
+    end = candidate.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        return None
+
+    candidate = candidate[start : end + 1]
+    candidate = re.sub(r",(\s*[}\]])", r"\1", candidate)
+    return candidate.strip()
+
+
+def _summarize_validation_errors(exc: ValidationError) -> str:
+    """Build a compact summary of schema violations for logs and run diagnostics."""
+    parts: list[str] = []
+    for error in exc.errors():
+        loc = ".".join(str(part) for part in error.get("loc", ()))
+        err_type = str(error.get("type") or "unknown")
+        parts.append(f"{loc}:{err_type}")
+    return " | ".join(parts[:8])
+
+
+def _recover_simple_validation_errors(payload: dict[str, Any], exc: ValidationError) -> dict[str, Any] | None:
+    """
+    Attempt one controlled recovery for local, non-business-critical schema errors.
+
+    Supported recoveries:
+    - invalid email -> set bio.email to null
+    - education item missing/invalid degree -> drop that education item
+    - experience item missing/invalid job_title -> drop that experience item
+    """
+    recovered = copy.deepcopy(payload)
+    mutated = False
+
+    for error in exc.errors():
+        loc = tuple(error.get("loc", ()))
+        err_type = str(error.get("type") or "")
+
+        if loc == ("bio", "email") and err_type == "value_error":
+            bio = recovered.get("bio")
+            if isinstance(bio, dict) and bio.get("email") is not None:
+                bio["email"] = None
+                mutated = True
+            continue
+
+        if len(loc) == 3 and loc[0] == "education" and isinstance(loc[1], int) and loc[2] == "degree":
+            education = recovered.get("education")
+            if isinstance(education, list) and 0 <= loc[1] < len(education):
+                education.pop(loc[1])
+                mutated = True
+            continue
+
+        if len(loc) == 3 and loc[0] == "experiences" and isinstance(loc[1], int) and loc[2] == "job_title":
+            experiences = recovered.get("experiences")
+            if isinstance(experiences, list) and 0 <= loc[1] < len(experiences):
+                experiences.pop(loc[1])
+                mutated = True
+            continue
+
+        return None
+
+    return recovered if mutated else None
+
+
+def _compute_retry_delay_seconds(attempt: int, *, retry_after_hint: float = 0.0) -> float:
+    """Compute a bounded exponential backoff and honor provider hints when larger."""
+    exponential_backoff = min(2 ** (attempt - 1), 8)
+    return max(exponential_backoff, retry_after_hint)
+
+
+def _is_transient_http_status(status_code: int) -> bool:
+    """Treat rate limiting and upstream instability as retryable."""
+    return status_code == 429 or status_code in {408, 409, 425} or 500 <= status_code < 600
 
 
 def _preview_path_for_entry(entry: AcceptedArtifactRef, preview_root: Path) -> Path:
@@ -1531,9 +2358,18 @@ def parse_args() -> argparse.Namespace:
     mode_group.add_argument("--dry-run", action="store_true", help="Generate local previews without writing to MongoDB.")
     mode_group.add_argument("--live", action="store_true", help="Persist validated profiles into MongoDB.")
     parser.add_argument("--limit", type=int, default=None, help="Limit the number of accepted entries to process.")
+    parser.add_argument("--batch-size", type=int, default=None, help="Process accepted entries by batches. Default keeps the current continuous mode.")
+    parser.add_argument("--batch-delay-seconds", type=float, default=None, help="Sleep duration between batches in seconds.")
+    parser.add_argument("--resume-failed-from", type=Path, default=None, help="Path to a previous run_report.json to rerun only items with status=failed.")
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     args = parse_args()
-    run_profile_builder(dry_run=not args.live, limit=args.limit)
+    run_profile_builder(
+        dry_run=not args.live,
+        limit=args.limit,
+        batch_size=args.batch_size,
+        batch_delay_seconds=args.batch_delay_seconds,
+        resume_failed_from=args.resume_failed_from,
+    )

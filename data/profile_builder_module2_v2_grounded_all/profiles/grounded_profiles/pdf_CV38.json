@@ -1,0 +1,192 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV38.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV38.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7039,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nBrooklyn, NY 11222\nStephen Greet\nstephen@beamjobs.com\nData Science Manager/in/stephen-greet 2020 Data Science Resume Guide\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nConsumer Finance Saa S\nFebruary 2018-Present New York NY\nLead Data Scientist\nWorked with the product and marketing teams to ldentify which customer Interactions during their free trial maximize the likelihood of conversions resulting ina conversion rate increase of 14%\nLeadership Experience 2 years\nEd Tech Company\n## January 2015 - February 2018, New York. NY\n- Senior Data Scientist\n- Recommendation Engines Customer Segmentatlon Propensity Modeling Productionizing Models 6 yedrs\n- Worked closely with the product team tobuilda productlon recommendation engine In Python that improves the average time on page for users and resulted in S 325 k in incremental annual revenue\n- Built a customer attrition random forest model thatimproved monthly retentionbyiobasispoints for customerswho were likely to attrit by servicingrelevant product featuresfor them\n- Insurance Company\n## Aprll 2012-january 2015, Washington DC\n**Date: ** September 2008-Apri 2012 Pitsburgh PA\n- Data Scientist\n- Usingvarious clustering techniques in Python I Identified groups ofstates where our national underwriting models were underperforningand made improvementsto increase thein profitability by 5%\n- Data Analyst\n- Identifled procedural areasofimprovementthrough customer data to helplmprove theprofitablity of anationwide retention program by 7%\n\n## TECHNICAL SKILLS\n\nSKILLS\nPython(NumPy, Pandas, Scikit-learn, Keras, Flask) Syears\nLead a team of 2 data scientists and 1 data engineer in developing marketing mixmodelsthathave led to an Rol Improvement of 25%on digital marketing spendover thelast sixmonths\nSQL(Redshift, MySQL, Postgres, NoSQL) Syeors\nGit 5 years\n\n## EDUCATION\n\n## University of Pittsburgh\n- B. S. in Mathematicsand Economics\nUsing Python, SOL, and Excel I developed and owmed the reporting for a nationwide retention program, saving-1 oo hours\nHEADER\nBrooklyn, NY 11222\n(123) 456-7890\nStephen Greet\nstephen@beamjobs.com\nDataScienceManager\n/in/stephen-greet 2020 Data Science Resume Guide\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nConsumerFinance SaaS\nFebruary 2018-PresentNew York NY\nLead Data Scientist\nWorked with the product and marketing teams to ldentify which customer Interactions during their free trial maximize the likelihood of conversions resulting ina conversion rate increase of14%\nLeadership Experience 2years\nEdTech Company\nJanuary 2015 - February 2018, New York. NY\nSeniorDataScientist\nRecommendation Engines Customer Segmentatlon Propensity Modeling ProductionizingModels 6yedrs\nWorked closely with the product team tobuilda productlon recommendation engine In Python that improves the average time on page for users and resulted in S325k in incremental annual revenue\nBuilt a customer attrition random forest model thatimproved monthly retentionbyiobasispoints for customerswho were likely to attrit by servicingrelevant product featuresfor them\nInsurance Company\nAprll2012-january2015, WashingtonDC\nSeptember2008-Apri 2012 Pitsburgh PA\nData Scientist\nUsingvarious clustering techniques inPythonI Identified groups ofstates where our national underwriting models were underperforningand made improvementsto increase thein profitability by 5%\nData Analyst\nIdentifled procedural areasofimprovementthrough customer data to helplmprove theprofitablity of anationwide retention program by7%\nTECHNICAL SKILLS\nSKILLS\nPython(NumPy, Pandas, Scikit-learn, Keras, Flask) Syears\nLead a team of 2 data scientists and 1 data engineer in developing marketing mixmodelsthathave led to an Rol Improvement of 25%on digital marketing spendover thelast sixmonths\nSQL(Redshift, MySQL, Postgres, NoSQL) Syeors\nGit 5years\nEDUCATION\nUniversity ofPittsburgh\nB.S.in Mathematicsand Economics\nUsingPython, SOL, and Excel I developed and owmed the reporting for a nationwide retention program, saving-1oo hours",
+    "header_info": {
+      "full_name": "Stephen Greet",
+      "email": "stephen@beamjobs.com",
+      "phone": null,
+      "location": "Brooklyn, NY 11222",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9408,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Stephen Greet",
+      "email": "stephen@beamjobs.com",
+      "phone": null,
+      "location": "Brooklyn, NY 11222",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 9,
+      "hard_skills": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "Keras",
+        "Flask",
+        "SQL",
+        "Redshift",
+        "MySQL",
+        "Postgres",
+        "NoSQL",
+        "Git"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Consumer Finance Saa S",
+        "job_title": "Lead Data Scientist",
+        "start_date": "February 2018",
+        "end_date": "Present",
+        "city": "New York NY",
+        "responsibilities": [
+          "Worked with the product and marketing teams to ldentify which customer Interactions during their free trial maximize the likelihood of conversions resulting ina conversion rate increase of 14%"
+        ]
+      },
+      {
+        "company": "Ed Tech Company",
+        "job_title": "Senior Data Scientist",
+        "start_date": "January 2015",
+        "end_date": "February 2018",
+        "city": "New York. NY",
+        "responsibilities": [
+          "Recommendation Engines Customer Segmentatlon Propensity Modeling Productionizing Models 6 yedrs",
+          "Worked closely with the product team tobuilda productlon recommendation engine In Python that improves the average time on page for users and resulted in S 325 k in incremental annual revenue",
+          "Built a customer attrition random forest model thatimproved monthly retentionbyiobasispoints for customerswho were likely to attrit by servicingrelevant product featuresfor them"
+        ]
+      },
+      {
+        "company": "Insurance Company",
+        "job_title": "Data Scientist",
+        "start_date": null,
+        "end_date": "January 2015",
+        "city": "Washington DC",
+        "responsibilities": [
+          "Usingvarious clustering techniques in Python I Identified groups ofstates where our national underwriting models were underperforningand made improvementsto increase thein profitability by 5%"
+        ]
+      },
+      {
+        "company": "Insurance Company",
+        "job_title": "Data Analyst",
+        "start_date": "September 2008",
+        "end_date": null,
+        "city": "Pitsburgh PA",
+        "responsibilities": [
+          "Identifled procedural areasofimprovementthrough customer data to helplmprove theprofitablity of anationwide retention program by 7%"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Pittsburgh",
+        "degree": "B. S.",
+        "field": "Mathematics and Economics",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:43:49.128348+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:28.978370+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

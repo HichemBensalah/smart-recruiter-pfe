@@ -1,0 +1,123 @@
+{
+  "source_path": "data\\raw_cv\\docx\\Aziz_resumer.docx",
+  "artifact_path": "data\\processed_official_module1\\docx\\Aziz_resumer.json",
+  "source_format": "docx",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\docx\\Aziz_resumer.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "email": "azizbelaweid@gmail.com",
+      "phone": "+4917668727956",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Big Query",
+        "Airflow",
+        "SQL",
+        "Lo RA",
+        "8 bit Quantization",
+        "PyTorch",
+        "TensorFlow",
+        "Paddle Paddle",
+        "BERT",
+        "Nvidea Ne Mo",
+        "Pytorch Lightning",
+        "Efficient Det",
+        "Yolo-v 4",
+        "Efficient Net",
+        "Tensor RT",
+        "Docker"
+      ],
+      "soft_skills": [
+        "data augmentation methods (Cut Mix, Cut Out and Grid Mask)",
+        "labeling tool (Prodigy)",
+        "error analysis",
+        "data enhancement",
+        "summarizing research papers",
+        "customer support experience",
+        "sentiment classification"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Machine Learning Engineer",
+        "company": "Sound Cloud *Berlin, Germany*",
+        "start_date": "July 2023 - Present",
+        "end_date": null,
+        "city": "Berlin, Germany",
+        "responsibilities": [
+          "Created track features and pipelines using Big Query and Airflow that resulting in an increase of 10 min of listening time for 3 M users.",
+          "Created tool that allowed music teams to curate playlists and select tracks from 300 million using SQL and Looker."
+        ]
+      },
+      {
+        "job_title": "Machine Learning Engineer",
+        "company": "Jina AI *Berlin, Germany*",
+        "start_date": "May 2021 - June 2023",
+        "end_date": null,
+        "city": "Berlin, Germany",
+        "responsibilities": [
+          "Finetune LLMs on coding data using Lo RA and 8 bit Quantization techniques on 3 3090 GPUs.",
+          "Developed a multimodal search system using CLIP’s semantic representation for image and text, replacing keyword-based search and eliminating tedious labelling for 100 k+ gifs."
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "Relational AI *Berkeley, CA US*",
+        "start_date": "Jan. 2021 – Oct. 2021",
+        "end_date": null,
+        "city": "Berkeley, CA US",
+        "responsibilities": [
+          "Pretrained BERT from scratch using Nvidea Ne Mo and Pytorch Lightning on 4 V 100 GPUs for MLM and NSP tasks.",
+          "Worked with a team of lawyers to annotate and clean data for named entity recognition using Prodigy labeling tool."
+        ]
+      },
+      {
+        "job_title": "Artificial Intelligence R & D Intern",
+        "company": "Vneuron *Tunis, TUN*",
+        "start_date": "July. 2020 – Sep. 2020",
+        "end_date": null,
+        "city": "Tunis, TUN",
+        "responsibilities": [
+          "Automated customer review analysis in English, French, Arabic, and Tunisian dialect, accelerating the process from 1 week to 2 days."
+        ]
+      },
+      {
+        "job_title": "GitHub Repository: Computer Vision Intern",
+        "company": "Datavision *Tunis, TUN*",
+        "start_date": "May. 2020 – July. 2020",
+        "end_date": null,
+        "city": "Tunis, TUN",
+        "responsibilities": [
+          "Developed a mask detection model using Efficient Det and Yolo-v 4."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Software Engineering",
+        "school": "National Institute of Applied Sciences and Technology (INSAT)",
+        "year": "Sep. 2017 – June. 2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T12:58:05.776819+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8196,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

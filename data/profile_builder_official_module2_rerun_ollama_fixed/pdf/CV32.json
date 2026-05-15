@@ -1,0 +1,93 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV32.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV32.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "gruchalla@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "None",
+      "email": "gruchalla@gmail.com",
+      "phone": null,
+      "location": "(availableuponrequest), Denver, CO 80205"
+    },
+    "expertise": {
+      "summary": "Data Visualization, Scientific Computing, Renewable Energy Systems",
+      "hard_skills": [
+        "WES(Center for Advanced Decision Support for Water and Environmental Systems)"
+      ],
+      "soft_skills": [
+        "Interdisciplinary Research"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Senior Scientist",
+        "company": "National Renewable Energy Laboratory (NREL), Golden, CO",
+        "start_date": "Jun 2009",
+        "end_date": "null",
+        "city": "Golden, CO",
+        "responsibilities": [
+          "Leads NREL's scientific data visualization efforts in support of renewable energy research"
+        ]
+      },
+      {
+        "job_title": "Assistant Professor Adjunct",
+        "company": "University of Colorado at Boulder, Boulder, CO",
+        "start_date": "May 2011",
+        "end_date": "null",
+        "city": "Boulder, CO",
+        "responsibilities": [
+          "Conducts research and oversees student research in scientific data visualization"
+        ]
+      },
+      {
+        "job_title": "Professional Research Assistant",
+        "company": "Department of Molecular, Cellular, and Developmental Biology",
+        "start_date": "Apr 2001",
+        "end_date": "Feb 2010",
+        "city": "Boulder, CO",
+        "responsibilities": [
+          "Works with immersive visualization as a molecular research tool"
+        ]
+      },
+      {
+        "job_title": "Graduate Research Assistant",
+        "company": "BPCenter for Visualization",
+        "start_date": "Jun 1999",
+        "end_date": "Aug 2003",
+        "city": "Golden, CO",
+        "responsibilities": [
+          "Designed and developed an interactive 3D immersive application"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ph.D.",
+        "school": "University of Colorado at Boulder, Boulder, CO",
+        "year": "2009"
+      },
+      {
+        "degree": "M.S.",
+        "school": "University of Colorado at Boulder, Boulder, CO",
+        "year": "1995"
+      },
+      {
+        "degree": "B.S.",
+        "school": "New Mexico Institute of Mining and Technology, Socorro, NM",
+        "year": "1995"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:33:51.594722+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7321
+    }
+  }
+}

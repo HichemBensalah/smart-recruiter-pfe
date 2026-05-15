@@ -1,0 +1,51 @@
+{
+  "source_path": "data\\raw_cv\\images\\2_image.jpg",
+  "artifact_path": "data\\processed_final_rerun_20260414\\images\\2_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "images:2_image",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "",
+      "email": null,
+      "phone": "",
+      "location": ""
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Data Mining/Processing"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Business Acumen"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T20:00:09.131468+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6044
+    }
+  }
+}

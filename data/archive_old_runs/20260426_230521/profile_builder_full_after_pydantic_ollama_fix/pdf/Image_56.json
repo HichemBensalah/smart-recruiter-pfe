@@ -1,0 +1,62 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_56.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_56.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:Image_56",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data Engineer, Machine Learning Engineer, Cloud Architect",
+      "hard_skills": [],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Develops, maintains, and communicates current development schedules, timelines, and development status"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": "Bachelor",
+        "school": "Columbia University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:40:37.272903+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7875
+    }
+  }
+}

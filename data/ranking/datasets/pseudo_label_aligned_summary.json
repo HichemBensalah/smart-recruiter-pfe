@@ -1,0 +1,66 @@
+{
+  "generated_at_utc": "2026-05-14T22:46:33.198219+00:00",
+  "total_rows": 250,
+  "label_distribution": {
+    "0": 104,
+    "1": 103,
+    "2": 32,
+    "3": 11
+  },
+  "label_percentages": {
+    "0": 41.6,
+    "1": 41.2,
+    "2": 12.8,
+    "3": 4.4
+  },
+  "positive_count": 43,
+  "positive_rate": 17.2,
+  "rows_per_job": {
+    "backend_python_django_postgresql": 50,
+    "backend_python_fastapi_mongodb_aligned": 50,
+    "data_analyst_python_sql_powerbi": 50,
+    "data_engineer_python_sql_etl_aligned": 50,
+    "machine_learning_python_nlp": 50
+  },
+  "distribution_per_job": {
+    "backend_python_django_postgresql": {
+      "0": 23,
+      "1": 21,
+      "2": 2,
+      "3": 4
+    },
+    "backend_python_fastapi_mongodb_aligned": {
+      "0": 17,
+      "1": 28,
+      "2": 3,
+      "3": 2
+    },
+    "data_analyst_python_sql_powerbi": {
+      "0": 16,
+      "1": 21,
+      "2": 12,
+      "3": 1
+    },
+    "data_engineer_python_sql_etl_aligned": {
+      "0": 20,
+      "1": 18,
+      "2": 10,
+      "3": 2
+    },
+    "machine_learning_python_nlp": {
+      "0": 28,
+      "1": 15,
+      "2": 5,
+      "3": 2
+    }
+  },
+  "jobs": [
+    "backend_python_django_postgresql",
+    "backend_python_fastapi_mongodb_aligned",
+    "data_analyst_python_sql_powerbi",
+    "data_engineer_python_sql_etl_aligned",
+    "machine_learning_python_nlp"
+  ],
+  "labeling_strategy": "multi_criteria_v2",
+  "methodology_warning": "Ces labels sont des pseudo-labels métier contrôlés et non des labels recruteur."
+}

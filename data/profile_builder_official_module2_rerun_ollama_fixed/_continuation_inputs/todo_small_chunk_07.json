@@ -1,0 +1,95 @@
+[
+  {
+    "source_path": "data\\raw_cv\\images\\7_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\7_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.7231,
+    "quality_flags": [
+      "high_ocr_noise",
+      "needs_ocr_repair"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\8_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\8_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.589,
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise",
+      "markdown_too_weak",
+      "needs_ocr_repair"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\9_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\9_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.6906,
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\Hichem_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.871,
+    "quality_flags": [],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  },
+  {
+    "source_path": "data\\raw_cv\\images\\khairi_image.jpg",
+    "artifact_path": "data\\processed_official_module1\\images\\khairi_image.json",
+    "source_format": "images",
+    "document_status": "validated",
+    "handoff_lane": "accepted",
+    "eligible_for_module2": true,
+    "parser_used": "docling_structured",
+    "document_confidence_score": 0.7849,
+    "quality_flags": [
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2",
+    "routing_decision": "{\"source_format\": \"images\", \"is_scanned\": true, \"ocr_required\": true, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=images\", \"extension=.jpg detected\", \"raster image input has no reliable embedded text layer\", \"route=docling_structured with OCR enabled\"]}"
+  }
+]

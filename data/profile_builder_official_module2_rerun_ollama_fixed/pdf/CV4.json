@@ -1,0 +1,79 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV4.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV4.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "emilysaavedra@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Emily Saavedra",
+      "email": "emilysaavedra@gmail.com",
+      "phone": "07835150056",
+      "location": "London B 220 GX, United Kingdom"
+    },
+    "expertise": {
+      "summary": "Data Scientist with extensive analytical skills and strong attention to detail.",
+      "hard_skills": [
+        "Microsoft Office",
+        "MSSQLServer",
+        "Sisense",
+        "Zoho Analytics",
+        "Good Data",
+        "Qlik Sense",
+        "DNA cloning"
+      ],
+      "soft_skills": [
+        "Accuracy",
+        "Analytical Skills",
+        "Detail",
+        "Orientation",
+        "Good Team Player",
+        "Multitasking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "CGL, Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": "LONDON, UNITEDKINGDOM",
+        "responsibilities": [
+          "Collected, analyzed, and interpreted raw data from various websites."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Spy Biotech, Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Assisted in scientific research on DNA cloning and analyzed results."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "University of Chichester",
+        "year": "First Class Honours"
+      },
+      {
+        "degree": "IB Diploma",
+        "school": "The International School Estepona",
+        "year": "(Graduated with Distinction)"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T11:04:00.731854+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7093
+    }
+  }
+}

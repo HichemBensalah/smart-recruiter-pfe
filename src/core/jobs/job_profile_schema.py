@@ -1,6 +1,8 @@
 from __future__ import annotations
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, field_validator
+
+from src.core.common.seniority import normalize_seniority
 
 
 class JobMetadata(BaseModel):
@@ -25,8 +27,9 @@ class CanonicalJobProfile(BaseModel):
 
     model_config = ConfigDict(extra="forbid", str_strip_whitespace=True, validate_assignment=True)
 
+    job_id: str | None = Field(default=None, description="Stable job identifier used for multi-offer ranking.")
     job_title: str = Field(..., min_length=1, description="Best-effort normalized job title.")
-    seniority_level: str | None = Field(default=None, description="junior, mid, senior, lead, or principal.")
+    seniority_level: str | None = Field(default=None, description="junior, mid_level, senior, lead, or principal.")
     years_experience_required: float | None = Field(
         default=None,
         ge=0.0,
@@ -40,5 +43,11 @@ class CanonicalJobProfile(BaseModel):
     language_requirements: list[str] = Field(default_factory=list, description="Required or preferred languages.")
     contract_type: str | None = Field(default=None, description="full_time, part_time, contract, internship, freelance.")
     remote_policy: str | None = Field(default=None, description="remote, hybrid, or on_site.")
+    description: str | None = Field(default=None, description="Short human-readable job summary.")
     raw_job_description: str = Field(..., min_length=1, description="Original job description text.")
     metadata: JobMetadata = Field(..., description="Traceability metadata for this structured job profile.")
+
+    @field_validator("seniority_level", mode="before")
+    @classmethod
+    def normalize_seniority_level(cls, value: str | None) -> str | None:
+        return normalize_seniority(value)

@@ -1,0 +1,76 @@
+{
+  "source_path": "data\\raw_cv\\images\\4_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\4_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T154428Z",
+  "profile": {
+    "source_id": "emilysaavedra@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "",
+      "email": "emilysaavedra@gmail.com",
+      "phone": "07835150056",
+      "location": "88 Hendford Hill, London B 220 GX, United Kingdom"
+    },
+    "expertise": {
+      "summary": "Data Scientist with experience in collecting, analyzing, and interpreting large datasets, developing forecasting models, and performing data management tasks.",
+      "hard_skills": [
+        "Microsoft Office",
+        "MS SQL Server",
+        "Sisense",
+        "Zoho Analytics",
+        "Good Data",
+        "Qlik Sense"
+      ],
+      "soft_skills": [
+        "Accuracy",
+        "Analytical Skills",
+        "Detail Orientation",
+        "Good Team Player",
+        "Multitasking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Collected, analyzed, andinterpretedrawdata fromvariouswebsites.",
+          "Developedandimplementednewforecasting modelswhichincreasedcompanyproductivityand efficiency."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Spy Biotech, Inc.",
+        "start_date": "09/2017",
+        "end_date": "02/2019",
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Mathematics and Statistics University of Chichester",
+        "year": "First Class Honours"
+      },
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T15:57:42.139139+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6207
+    }
+  }
+}

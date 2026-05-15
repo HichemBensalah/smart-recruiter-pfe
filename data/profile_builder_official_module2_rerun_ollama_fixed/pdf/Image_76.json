@@ -1,0 +1,66 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_76.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_76.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T122218Z",
+  "profile": {
+    "source_id": "pdf:Image_76",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": "78789 Thomas Lake, Chicago, IL"
+    },
+    "expertise": {
+      "summary": "Data Science Director with experience in creating product roadmaps and collaborating with stakeholders to drive data science initiatives.",
+      "hard_skills": [
+        "Python",
+        "AWStechnologies",
+        "Java",
+        "Redshift"
+      ],
+      "soft_skills": [
+        "Data Visualization",
+        "Machine Learning",
+        "Product Roadmap Creation"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Data Science",
+        "company": "Muller Inc",
+        "start_date": null,
+        "end_date": null,
+        "city": "New York, NY",
+        "responsibilities": [
+          "Product Roadmap Creation/Collaboration"
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "Hyatt, Jacobs and Lindgren",
+        "start_date": "11/2014",
+        "end_date": "09/2018",
+        "city": "New York, NY",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Rhode Island School of Design",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T12:37:10.772959+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.5142
+    }
+  }
+}

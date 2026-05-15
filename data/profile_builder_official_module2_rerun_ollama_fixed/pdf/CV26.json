@@ -1,0 +1,87 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV26.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV26.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:CV26",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Karina Blick",
+      "email": null,
+      "phone": "+1（555）3342620",
+      "location": "New York, NY"
+    },
+    "expertise": {
+      "summary": "Data Science and Analytics with expertise in tools, programming languages, database concepts, data manipulation, machine learning, and statistical methods.",
+      "hard_skills": [
+        "Python",
+        "Knime",
+        "Mat Lab",
+        "Data science toolkits"
+      ],
+      "soft_skills": [
+        "Teamworker",
+        "Curious",
+        "Proactive",
+        "Fast learner",
+        "Strong work ethic",
+        "Personal integrity",
+        "Self-directed"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "DATASCIENTIST, ANALYTICS",
+        "company": "Nokia and operator",
+        "start_date": "09/2015",
+        "end_date": "null",
+        "city": "Detroit, MI",
+        "responsibilities": [
+          "Build and develop trust-based relationship with operator customer's middle and senior management in relation to product attached consulting engagements",
+          "Develop tools and templates to assist in operationalizing analytics insights",
+          "Provide opportunity leads to sales to maximize business value of Nokia solution to the customer"
+        ]
+      },
+      {
+        "job_title": "DATASCIENTIST, ANALYTICS",
+        "company": "Nokia and operator",
+        "start_date": "null",
+        "end_date": "null",
+        "city": null,
+        "responsibilities": [
+          "Building and analyzing dashboards and reports",
+          "Spreading best practices to analytics and product teams",
+          "Evaluating and defining metrics",
+          "Communicating of state of business, experiment results, etc. to product teams"
+        ]
+      },
+      {
+        "job_title": "DATASCIENTISTANALYTICS",
+        "company": null,
+        "start_date": "null",
+        "end_date": "null",
+        "city": null,
+        "responsibilities": [
+          "Authoring pipelines via SQL and python-based ETL framework"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's Degree in Computer Science",
+        "school": "INDIANA UNIVERSITY",
+        "year": "null"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:09:30.701524+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7521
+    }
+  }
+}

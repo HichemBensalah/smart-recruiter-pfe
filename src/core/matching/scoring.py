@@ -1,9 +1,11 @@
 from __future__ import annotations
 
-import math
 import re
 from datetime import datetime
 from typing import Any
+
+from .matching_quality_filters import build_display_name, enrich_grounded_quality
+from .skill_normalizer import flatten_skill_sources, normalize_skills, skills_overlap
 
 
 WEIGHT_SKILLS = 0.40
@@ -11,18 +13,33 @@ WEIGHT_TEXT_SIMILARITY = 0.30
 WEIGHT_EXPERIENCE = 0.20
 WEIGHT_PROFILE_QUALITY = 0.10
 
+MUST_HAVE_PENALTY_TIERS = [
+    (0.8, 1.00),
+    (0.6, 0.85),
+    (0.4, 0.65),
+    (0.0, 0.45),
+]
+
+RISK_MULTIPLIERS = {
+    "low": 1.00,
+    "medium": 0.90,
+    "high": 0.70,
+}
+
+PROFILE_KIND_MULTIPLIERS = {
+    "complete_profile": 1.00,
+    "partial_profile": 0.95,
+    "minimal_profile": 0.80,
+    "unreadable": 0.65,
+}
+
 
 def compute_skill_score(job_profile: dict[str, Any], candidate_profile: dict[str, Any]) -> float:
-    required_skills = _normalize_tokens(job_profile.get("required_skills"))
-    if not required_skills:
+    matched, missing = _skill_overlap(job_profile, candidate_profile)
+    total = len(matched) + len(missing)
+    if total == 0:
         return 0.5
-
-    candidate_skills = _candidate_skill_tokens(candidate_profile)
-    if not candidate_skills:
-        return 0.0
-
-    matched = required_skills & candidate_skills
-    return round(len(matched) / max(len(required_skills), 1), 4)
+    return round(len(matched) / total, 4)
 
 
 def compute_experience_score(job_profile: dict[str, Any], candidate_profile: dict[str, Any]) -> float:
@@ -50,71 +67,170 @@ def compute_profile_quality_score(candidate_profile: dict[str, Any]) -> float:
     return round(min(max(score, 0.0), 1.0), 4)
 
 
+def compute_grounded_quality_score(candidate_profile: dict[str, Any]) -> float:
+    reliability = float(candidate_profile.get("reliability_score") or 0.0)
+    profile_kind = str(candidate_profile.get("profile_kind") or "").lower()
+    quality_flags = [str(flag) for flag in (candidate_profile.get("quality_flags") or [])]
+    grounded_quality = enrich_grounded_quality(candidate_profile)
+
+    kind_factor = {
+        "complete_profile": 1.00,
+        "partial_profile": 0.88,
+        "minimal_profile": 0.65,
+        "unreadable": 0.35,
+    }.get(profile_kind, 0.75)
+    risk_factor = {
+        "low": 1.00,
+        "medium": 0.82,
+        "high": 0.55,
+    }.get(grounded_quality["hallucination_risk"], 0.75)
+
+    nullified_penalty = min(grounded_quality["fields_nullified_count"] * 0.03, 0.18)
+    quality_penalty = min(len(quality_flags) * 0.015, 0.10)
+    score = (
+        reliability * 0.65
+        + kind_factor * 0.20
+        + risk_factor * 0.15
+        - nullified_penalty
+        - quality_penalty
+    )
+    return round(min(max(score, 0.0), 1.0), 4)
+
+
+def compute_quality_penalty_multiplier(candidate_profile: dict[str, Any]) -> float:
+    profile_kind = str(candidate_profile.get("profile_kind") or "").lower()
+    grounded_quality = enrich_grounded_quality(candidate_profile)
+    risk_multiplier = RISK_MULTIPLIERS.get(grounded_quality["hallucination_risk"], 0.90)
+    kind_multiplier = PROFILE_KIND_MULTIPLIERS.get(profile_kind, 0.90)
+
+    bio = candidate_profile.get("bio") or {}
+    _, display_name_quality, _ = build_display_name(
+        bio.get("full_name") or candidate_profile.get("full_name"),
+        candidate_profile.get("candidate_id"),
+    )
+    risk = grounded_quality["hallucination_risk"]
+    if display_name_quality == "weak":
+        name_multiplier = 0.80 if risk == "medium" else 0.72 if risk == "high" else 0.85
+    else:
+        name_multiplier = 1.00
+    multiplier = risk_multiplier * kind_multiplier * name_multiplier
+    return round(min(max(multiplier, 0.55), 1.0), 4)
+
+
 def combine_scores(
     score_text_similarity: float,
     score_skills: float,
     score_experience: float,
     score_profile_quality: float,
+    score_grounded_quality: float,
 ) -> float:
-    final_score = (
+    weighted = (
         WEIGHT_SKILLS * score_skills
         + WEIGHT_TEXT_SIMILARITY * score_text_similarity
         + WEIGHT_EXPERIENCE * score_experience
         + WEIGHT_PROFILE_QUALITY * score_profile_quality
     )
+    final_score = (weighted * 0.85) + (score_grounded_quality * 0.15)
     return round(min(max(final_score, 0.0), 1.0), 4)
 
 
 def extract_matched_skills(job_profile: dict[str, Any], candidate_profile: dict[str, Any]) -> list[str]:
-    required_skills = _normalize_tokens(job_profile.get("required_skills"))
-    if not required_skills:
-        return []
-    candidate_skill_map = _candidate_skill_map(candidate_profile)
-    matched = sorted(required_skills & set(candidate_skill_map.keys()))
-    return [candidate_skill_map[key] for key in matched]
+    matched, _ = _skill_overlap(job_profile, candidate_profile)
+    return matched
 
 
 def extract_missing_required_skills(job_profile: dict[str, Any], candidate_profile: dict[str, Any]) -> list[str]:
-    required_skill_map = _value_map(job_profile.get("required_skills"))
-    candidate_skills = _candidate_skill_tokens(candidate_profile)
-    missing = sorted(set(required_skill_map.keys()) - candidate_skills)
-    return [required_skill_map[key] for key in missing]
+    _, missing = _skill_overlap(job_profile, candidate_profile)
+    return missing
 
 
-def _candidate_skill_tokens(candidate_profile: dict[str, Any]) -> set[str]:
+def compute_must_have_coverage(
+    job_profile: dict[str, Any],
+    candidate_profile: dict[str, Any],
+) -> float:
+    matched, missing = _skill_overlap(job_profile, candidate_profile)
+    total = len(matched) + len(missing)
+    if total == 0:
+        return 1.0
+    return round(len(matched) / total, 4)
+
+
+def apply_must_have_penalty(base_score: float, must_have_coverage: float) -> tuple[float, float, bool]:
+    for threshold, multiplier in MUST_HAVE_PENALTY_TIERS:
+        if must_have_coverage >= threshold:
+            penalty_applied = multiplier < 1.0
+            penalized = round(min(max(base_score * multiplier, 0.0), 1.0), 4)
+            return penalized, multiplier, penalty_applied
+    return round(base_score * 0.45, 4), 0.45, True
+
+
+def score_candidate(
+    job_profile: dict[str, Any],
+    candidate_profile: dict[str, Any],
+    score_text_similarity: float,
+) -> dict[str, Any]:
+    score_skills = compute_skill_score(job_profile, candidate_profile)
+    score_experience = compute_experience_score(job_profile, candidate_profile)
+    score_profile_quality = compute_profile_quality_score(candidate_profile)
+    score_grounded_quality = compute_grounded_quality_score(candidate_profile)
+
+    base_score = combine_scores(
+        score_text_similarity=score_text_similarity,
+        score_skills=score_skills,
+        score_experience=score_experience,
+        score_profile_quality=score_profile_quality,
+        score_grounded_quality=score_grounded_quality,
+    )
+
+    must_have_coverage = compute_must_have_coverage(job_profile, candidate_profile)
+    score_after_must_have, penalty_multiplier, penalty_applied = apply_must_have_penalty(base_score, must_have_coverage)
+    quality_penalty_multiplier = compute_quality_penalty_multiplier(candidate_profile)
+    final_score = round(min(max(score_after_must_have * quality_penalty_multiplier, 0.0), 1.0), 4)
+
+    matched_skills = extract_matched_skills(job_profile, candidate_profile)
+    missing_skills = extract_missing_required_skills(job_profile, candidate_profile)
+    grounded_quality = enrich_grounded_quality(candidate_profile)
+    bio = candidate_profile.get("bio") or {}
+    _, display_name_quality, name_warning = build_display_name(
+        bio.get("full_name") or candidate_profile.get("full_name"),
+        candidate_profile.get("candidate_id"),
+    )
+
+    return {
+        "final_score": final_score,
+        "base_score_before_penalty": base_score,
+        "score_text_similarity": round(score_text_similarity, 4),
+        "score_skills": score_skills,
+        "score_experience": score_experience,
+        "score_profile_quality": score_profile_quality,
+        "score_grounded_quality": score_grounded_quality,
+        "must_have_coverage": must_have_coverage,
+        "must_have_penalty_multiplier": penalty_multiplier,
+        "must_have_penalty_applied": penalty_applied,
+        "quality_penalty_multiplier": quality_penalty_multiplier,
+        "matched_skills": matched_skills,
+        "missing_required_skills": missing_skills,
+        "reliability_score": round(float(candidate_profile.get("reliability_score") or 0.0), 4),
+        "profile_kind": candidate_profile.get("profile_kind"),
+        "hallucination_risk": grounded_quality["hallucination_risk"],
+        "quality_flags": list(candidate_profile.get("quality_flags") or []),
+        "fields_nullified_count": grounded_quality["fields_nullified_count"],
+        "display_name_quality": display_name_quality,
+        "name_warning": name_warning,
+    }
+
+
+def _skill_overlap(job_profile: dict[str, Any], candidate_profile: dict[str, Any]) -> tuple[list[str], list[str]]:
+    job_skills = normalize_skills(list(job_profile.get("required_skills") or []))
+    candidate_skills = _candidate_skills(candidate_profile)
+    return skills_overlap(job_skills, candidate_skills)
+
+
+def _candidate_skills(candidate_profile: dict[str, Any]) -> list[str]:
     expertise = candidate_profile.get("expertise") or {}
     hard_skills = expertise.get("hard_skills") or []
     soft_skills = expertise.get("soft_skills") or []
-    return set(_value_map(list(hard_skills) + list(soft_skills)).keys())
-
-
-def _candidate_skill_map(candidate_profile: dict[str, Any]) -> dict[str, str]:
-    expertise = candidate_profile.get("expertise") or {}
-    hard_skills = expertise.get("hard_skills") or []
-    soft_skills = expertise.get("soft_skills") or []
-    return _value_map(list(hard_skills) + list(soft_skills))
-
-
-def _value_map(values: Any) -> dict[str, str]:
-    result: dict[str, str] = {}
-    if not isinstance(values, list):
-        return result
-    for value in values:
-        if not isinstance(value, str):
-            continue
-        cleaned = " ".join(value.split()).strip()
-        if not cleaned:
-            continue
-        result.setdefault(_normalize_token(cleaned), cleaned)
-    return result
-
-
-def _normalize_tokens(values: Any) -> set[str]:
-    return set(_value_map(values).keys())
-
-
-def _normalize_token(value: str) -> str:
-    return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
+    return flatten_skill_sources(hard_skills, soft_skills)
 
 
 def _estimate_candidate_years(experiences: list[Any]) -> float:

@@ -1,0 +1,86 @@
+{
+  "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\Hichem_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T160334Z",
+  "profile": {
+    "source_id": "1512@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": "1512@gmail.com",
+      "phone": null,
+      "location": "O Ariana, Tunisia"
+    },
+    "expertise": {
+      "summary": "Building data science pipelines with DVC/M Lflow, Git Hub Actions and Docker for ML/DL and AWS applications. Deploying CNN-Bi LSTM intrusion detection systems (NSL-KDD) with >99% accuracy.",
+      "hard_skills": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "GitHub Actions"
+      ],
+      "soft_skills": [
+        "Problem-solving",
+        "Teamwork",
+        "Communication",
+        "Critical thinking",
+        "DevOps",
+        "CI/CD",
+        "Generative Models"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "TUDIGISEC, TDS Global Technologies",
+        "start_date": null,
+        "end_date": null,
+        "city": "null",
+        "responsibilities": [
+          "Built CNN-Bi LST Mintrusion detectionsystem (~99% accuracy) in Tensor Flow/Keras with >99% testaccuracy."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Tek-Up University",
+        "start_date": "07/2024-08/2024",
+        "end_date": "11/2025",
+        "city": "null",
+        "responsibilities": [
+          "Strengthened OOP, data structures, and problem-solving under time constraints.",
+          "Developed a web scraping module to automatically collect reviews starting from a movie title.",
+          "Wrapped the model in FastAPI service and integrated it with an LL Mchatbot (Groq API) to orchestrate scraping and prediction.",
+          "Versioned data and models with DVC and tracked experiments in M Lflow, ensuring reproducible churn prediction training."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Tek-Up University",
+        "year": null
+      },
+      {
+        "degree": "civil engineering",
+        "school": "ENIG Gabes",
+        "year": "2020-2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T16:14:55.922642+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.871
+    }
+  }
+}

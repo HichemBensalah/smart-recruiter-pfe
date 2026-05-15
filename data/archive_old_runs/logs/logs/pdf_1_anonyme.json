@@ -1,0 +1,13 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\1_anonyme.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\1_anonyme.json",
+  "provider_errors": [],
+  "prompt_length": 3401,
+  "llm_status": "success",
+  "fields_nullified": [
+    "expertise.experience_level"
+  ],
+  "quality_flags": [
+    "unsupported_fields_nullified"
+  ]
+}

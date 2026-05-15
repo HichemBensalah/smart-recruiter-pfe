@@ -1,0 +1,147 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV34.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV34.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8455,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nCONTACTDETAILS\nRobert Smith\n1737 Marshville Road.\nAlabama info@qwikresume.com\nData Scientist Trainee\nwww. qwikresume. com\nPERSONALSTATEMENT\n\n## TECHNICAL SKILLS\n\nSKILLS\nData Architecture, Data Modeling. Big Data, SQL\nToobtaln apositlonasa Data Architectina collaborativeenvironment utilizing my creativity and technlcal skills. The position mustdemand a high degreeofself-rmotivationand theabllityto drivedata-centricsolutionsfor data modeling, analytics，and solution architecture expertise.\nBusiness Opportunity Network Kinetixprovides Business Assuraniceand live networktrafficfor lmmediate analysis, decislons, andaction on revenue-impactingevents.\nDeployed on the HPHelion Public Cloud demonstratinga scalablecloud verslon ofnetwork data analyticsapplication\nData Scientist\nABCCorporation-2012-2014\nRe sponsibiities:\n\n## LANGUAGES\n\nEnglish (Native) French(Professional) Spanish(Professlonal)\nINTERESTS\nClimbing Snowboarding Cooking Reading\nREEERENCES\nReference-l(Compary Name) Reference-2(Compary\n\n## PROFESSIONAL EXPERIENCE\n\nWORKEXPERIENCE\nData Scientist Trainee\nABCCorporation-March 2014-April 2016\nRe sponsibiities.\n## Operatlons, and Customer Experience.\nMy Contributions Model complexmobilecarrier problems throughusing statistical, algorithmic, mining. and visuallzation technlques.\n- Integratelive data from muitiple networkprotocols.\n\n## MACHINE LEARNING & DEEP LEARNING\n\nProduce operable insights using supervised andunsupervised machine learning.\nCreate llve data analyticsapplications thatmake data-driven decisions throughmachinelearning.\n\n## ACADEMIC PROJECTS\n\nworked on, muitipleprojectsto leverage statistical learnirig/machine learning algorithmsto automate Alternate Asset Servicing.\n- Theautomationhelped NT toreduceerrorsandimprove operational efficiency.\nFurther. developed Bl reports that provided predictive analytics & Reporting with dashboards onanalystperforrmance, client activity. future workload & anomaliesbased on-data collected fromdiscrete appllcations.\nDefined Project Scope. project Charter & Business Case Prototype machinelearningalgorithm for POc(Proof Of Concept)Performed Data Cleanlng. featuresscaling. featuresengineering. Developedpredictive modelsforuse inmachine learning platforrm using the scikit-learn python frarmework Improvedstatistical modelsusing learning curves, parameter curves, feature selection, and regularization.\n- Performed ad-hocdata analysisforcustormer Insightsusinghiveon This Eree Besutne Template isthe copyright of Qwikresume com. Lsage Guidelines\nHEADER\nCONTACTDETAILS\nRobert Smith\n1737 Marshville Road.\nAlabama info@qwikresume.com\nDataScientistTrainee\n(123)-456-7899\nwww.qwikresume.com\nPERSONALSTATEMENT\nTECHNICAL SKILLS\nSKILLS\nData Architecture, Data Modeling.Big Data, SQL\nToobtaln apositlonasaDataArchitectina collaborativeenvironment utilizing my creativity and technlcal skills.The position mustdemand a high degreeofself-rmotivationand theabllityto drivedata-centricsolutionsfor data modeling, analytics，and solution architecture expertise.\nBusinessOpportunity NetworkKinetixprovidesBusinessAssuraniceand live networktrafficfor lmmediate analysis, decislons, andaction on revenue-impactingevents.\nDeployed on theHPHelionPublicCloud demonstratinga scalablecloud verslon ofnetwork data analyticsapplication\nData Scientist\nABCCorporation-2012-2014\nRe sponsibiities:\nLANGUAGES\nEnglish (Native) French(Professional) Spanish(Professlonal)\nINTERESTS\nClimbing Snowboarding Cooking Reading\nREEERENCES\nReference-l(Compary Name) Reference-2(Compary\nPROFESSIONAL EXPERIENCE\nWORKEXPERIENCE\nData ScientistTrainee\nABCCorporation-March2014-April2016\nRe sponsibiities.\nOperatlons, and Customer Experience.\nMy Contributions Model complexmobilecarrier problems throughusing statistical, algorithmic, mining.and visuallzation technlques.\nIntegratelive data from muitiple networkprotocols.\nMACHINE LEARNING & DEEP LEARNING\nProduce operable insights using supervised andunsupervised machine learning.\nCreate llve data analyticsapplications thatmake data-driven decisions throughmachinelearning.\nACADEMIC PROJECTS\nworked on, muitipleprojectsto leverage statistical learnirig/machine learning algorithmsto automate Alternate AssetServicing.\nTheautomationhelpedNT toreduceerrorsandimprove operational efficiency.\nFurther.developed Bl reports that provided predictive analytics& Reporting with dashboards onanalystperforrmance, client activity. future workload&anomaliesbased on-data collected fromdiscrete appllcations.\nDefined Project Scope.project Charter & Business Case Prototype machinelearningalgorithm forPOc(Proof Of Concept)PerformedData Cleanlng.featuresscaling.featuresengineering.Developedpredictive modelsforuse inmachine learning platforrm using the scikit-learn python frarmeworkImprovedstatistical modelsusing learning curves, parameter curves, feature selection, and regularization.\nPerformed ad-hocdata analysisforcustormerInsightsusinghiveon This Eree Besutne Template isthe copyright of Qwikresume com.Lsage Guidelines",
+    "header_info": {
+      "full_name": "Robert Smith",
+      "email": "info@qwikresume.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [
+      "info@qwikresume.com",
+      "qwikresume"
+    ],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.6,
+    "quality_flags": [
+      "missing_education_section",
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8858,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Robert Smith",
+      "email": null,
+      "phone": null,
+      "location": "Alabama",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid",
+      "years_experience": 3,
+      "hard_skills": [
+        "Data Architecture",
+        "Data Modeling",
+        "Big Data",
+        "SQL"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "ABCCorporation",
+        "job_title": "Data Scientist",
+        "start_date": "2012",
+        "end_date": "2014",
+        "city": null,
+        "responsibilities": [
+          "Model complex mobile carrier problems through using statistical, algorithmic, mining, and visualization techniques",
+          "Integrate live data from multiple network protocols"
+        ]
+      },
+      {
+        "company": "ABCCorporation",
+        "job_title": "Data Scientist Trainee",
+        "start_date": "March 2014",
+        "end_date": "April 2016",
+        "city": null,
+        "responsibilities": [
+          "Model complex mobile carrier problems through using statistical, algorithmic, mining, and visualization techniques",
+          "Integrate live data from multiple network protocols"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "English",
+      "French",
+      "Spanish"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:43:43.664935+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:28.692582+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

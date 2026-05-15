@@ -1,0 +1,14 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV30.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV30.json",
+  "provider_errors": [],
+  "prompt_length": 4314,
+  "llm_status": "partial",
+  "fields_nullified": [
+    "education[0]"
+  ],
+  "quality_flags": [
+    "summary_not_enough_evidence",
+    "unsupported_fields_nullified"
+  ]
+}

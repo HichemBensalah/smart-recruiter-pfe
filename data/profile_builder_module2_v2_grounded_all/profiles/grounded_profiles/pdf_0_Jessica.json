@@ -1,0 +1,193 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\0_Jessica.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\0_Jessica.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.76,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nJessica Claire\nMontgomery Street, San Francisco, CA 94105\nresumesample@example.com\nOBJECTIVE\n\n## TECHNICAL SKILLS\n\nmodernsoftwareproductsandplatforms.\n\n## PROFESSIONAL SUMMARY\n\nEXECUTIVESUMMARY\nPlanning, Cross Functionaland Cross Team Coordination, Team Development, Tactical Reorganization,\nConsensus Buildingand Operations Management\nAREASOFEXPERTISE\nTechnology Leadershipand Innovation\nPredictive Analytics\nProduct Planningand OKRDefinition\nData Scienceand Engineering\nMachine Learning and Distributed Computing\nLeading MVPDefinitionand Development\nStrategic Annual and Quarterly Planning\nHigh Performance Computing\nFostering Strategic Partnerships\nOptimizationand Simulation\nAlgorithmsand Data Structures\nand Profiling\nHealthcare-Orthotix Personalization, Customizationand Recommendations Engine\nStorage Area Network-Operational Control, Metrics Reportingand Analytics, Recommendations\n07/2014 to CURRENT\n\n## ACADEMIC PROJECTS\n\n## Projectand Resource Planning\n- Managing Multiple Scrum Teams\n## Java, Python, Spark, Map Reduce\n- Product Architectureand Design\n- PRODUCTPORTFOLIO\nRetail-Personalized Recommendations APl, Rules Engine, Chat Ops, Feedback Data Collection\n## Impressions Analysis, Operational Monitoringand SLAAlerting\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n## PRINCIPAL, DATASCIENCEANDENGINEERING\n**Location: ** Engine, Visualization and SLA Monitoring\n## Target|City, STATE\n- Deliveringagainst OKRs\n- PRONCIPALENGINEER/PRODUCTOWNER\n## Hitachi Data Systems|City, STATE\n**Date: ** 02/2011 to 06/2014\n- Managementand Visualization\n\n## LEOD SDKARCHITECT\n\nPlayfirst Inc.|City, STATE\nSocial Games SDKDesignfor Flagship Social Games Chocolatierand Diner Dash\n\n## EDUCATION\n\nEDUCATIONAND\n## Masterof Science|Electricaland Computer Engieering\n**Date: ** 2015\n- TRAINING\n## Carnegie Mellon University, Pittsburgh, PA\n## Ba Chelorof Science|Computer Scienceand Engineering\n**Date: ** 2001\n## Amravati University, Shegaon, Maharashtra\nHEADER\nJessicaClaire\nMontgomery Street, San Francisco, CA 94105\n（555）432-1000\nresumesample@example.com\nOBJECTIVE\nTECHNICAL SKILLS\nmodernsoftwareproductsandplatforms.\nPROFESSIONAL SUMMARY\nEXECUTIVESUMMARY\nPlanning, CrossFunctionaland CrossTeamCoordination, TeamDevelopment, Tactical Reorganization,\nConsensusBuildingandOperationsManagement\nAREASOFEXPERTISE\nTechnologyLeadershipandInnovation\nPredictiveAnalytics\nProductPlanningandOKRDefinition\nDataScienceandEngineering\nMachineLearning and Distributed Computing\nLeadingMVPDefinitionandDevelopment\nStrategicAnnual andQuarterlyPlanning\nHighPerformanceComputing\nFostering StrategicPartnerships\nOptimizationandSimulation\nAlgorithmsandDataStructures\nandProfiling\nHealthcare-OrthotixPersonalization, CustomizationandRecommendationsEngine\nStorageAreaNetwork-Operational Control, MetricsReportingandAnalytics, Recommendations\n07/2014toCURRENT\nACADEMIC PROJECTS\nProjectandResourcePlanning\nManagingMultipleScrumTeams\nJava, Python, Spark, MapReduce\nProductArchitectureand Design\nPRODUCTPORTFOLIO\nRetail-PersonalizedRecommendationsAPl, RulesEngine, ChatOps, FeedbackDataCollection\nImpressionsAnalysis, Operational MonitoringandSLAAlerting\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nPRINCIPAL, DATASCIENCEANDENGINEERING\nEngine, Visualization and SLA Monitoring\nTarget|City, STATE\nDeliveringagainstOKRs\nPRONCIPALENGINEER/PRODUCTOWNER\nHitachi Data Systems|City, STATE\n02/2011to06/2014\nManagementandVisualization\nLEOD SDKARCHITECT\nPlayfirst Inc.|City, STATE\nSocial GamesSDKDesignforFlagshipSocial Games ChocolatierandDinerDash\nEDUCATION\nEDUCATIONAND\nMasterofScience|ElectricalandComputerEngieering\n2015\nTRAINING\nCarnegie Mellon University, Pittsburgh, PA\nBaChelorofScience|ComputerScienceand Engineering\n2001\nAmravati University, Shegaon, Maharashtra",
+    "header_info": {
+      "full_name": "Jessica Claire",
+      "email": "resumesample@example.com",
+      "phone": null,
+      "location": "Montgomery Street, San Francisco, CA 94105",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [
+      "example.com",
+      "resumesample"
+    ],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.7,
+    "quality_flags": [
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8834,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].city",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Jessica Claire",
+      "email": null,
+      "phone": null,
+      "location": "Montgomery Street, San Francisco, CA 94105",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Planning, Cross Functional and Cross Team Coordination, Team Development, Tactical Reorganization, Consensus Building and Operations Management",
+      "experience_level": "senior",
+      "years_experience": 16,
+      "hard_skills": [
+        "modern software products and platforms",
+        "Predictive Analytics",
+        "Data Science and Engineering",
+        "Machine Learning and Distributed Computing",
+        "Algorithms and Data Structures",
+        "Java",
+        "Python",
+        "Spark",
+        "Map Reduce"
+      ],
+      "soft_skills": [
+        "Team Development",
+        "Tactical Reorganization",
+        "Consensus Building",
+        "Operations Management",
+        "Strategic Partnerships"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Hitachi Data Systems",
+        "job_title": "PRINCIPAL ENGINEER/PRODUCT OWNER",
+        "start_date": "02/2011",
+        "end_date": "06/2014",
+        "city": "City, STATE",
+        "responsibilities": [
+          "Management and Visualization"
+        ]
+      },
+      {
+        "company": "Playfirst Inc.",
+        "job_title": "LEAD SDK ARCHITECT",
+        "start_date": null,
+        "end_date": null,
+        "city": "City, STATE",
+        "responsibilities": [
+          "Social Games SDK Design for Flagship Social Games Chocolatier and Diner Dash"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "PRINCIPAL, DATA SCIENCE AND ENGINEERING",
+        "start_date": "07/2014",
+        "end_date": "CURRENT",
+        "city": "Target|City, STATE",
+        "responsibilities": [
+          "Delivering against OKRs"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Carnegie Mellon University, Pittsburgh, PA",
+        "degree": "Master of Science",
+        "field": "Electrical and Computer Engineering",
+        "year": 2015
+      },
+      {
+        "institution": "Amravati University, Shegaon, Maharashtra",
+        "degree": "Bachelor of Science",
+        "field": "Computer Science and Engineering",
+        "year": 2001
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:32:44.091046+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:25.258301+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

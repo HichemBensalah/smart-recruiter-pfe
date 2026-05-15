@@ -1,0 +1,103 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\3_anonyme.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\3_anonyme.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:3_anonyme",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Kevin L. Trostle",
+      "email": null,
+      "phone": "DSN 266-4800, COMM. 336-4800",
+      "location": "City, State"
+    },
+    "expertise": {
+      "summary": "Information Technology Specialist with experience in IT/communications environment management, project management, and circuit management",
+      "hard_skills": [
+        "cabling",
+        "Cisco",
+        "hardware",
+        "networking",
+        "networks",
+        "routers",
+        "system design",
+        "Telecommunications",
+        "telephone systems",
+        "troubleshooting",
+        "upgrades",
+        "video",
+        "wiring"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Information Technology Specialist GS 11",
+        "company": "Company Name",
+        "start_date": "07/2004",
+        "end_date": "Current",
+        "city": "City",
+        "responsibilities": [
+          "Manage the assigned IT/communications environment",
+          "Supervise personnel",
+          "Project management",
+          "Circuit management",
+          "Alarm management",
+          "Training",
+          "Supply",
+          "Quality Assurance"
+        ]
+      },
+      {
+        "job_title": "Cyber Transport/Client Systems Workcenter Supervisor",
+        "company": "Company Name",
+        "start_date": "02/2001",
+        "end_date": "Current",
+        "city": "City",
+        "responsibilities": [
+          "Manage Cyber Transport/Client Systems work center personnel",
+          "Set and adjust work priorities",
+          "Evaluate and counsel subordinates",
+          "Document training of personnel"
+        ]
+      },
+      {
+        "job_title": "F-16 Ejection System Technician",
+        "company": "Company Name",
+        "start_date": "07/1996",
+        "end_date": "07/2000",
+        "city": "City",
+        "responsibilities": [
+          "Troubleshot, removed, tested, inspected, repaired, modified, and installed explosive and non-explosive components and assemblies",
+          "Performed preventative maintenance",
+          "Ran entire supply system",
+          "Hazardous materials monitor",
+          "Explosive inspector",
+          "Trained and supervised personnel"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "HS Diploma",
+        "school": "Brockport High School",
+        "year": "JUN 1996"
+      },
+      {
+        "degree": "BS Degree",
+        "school": "University of TN",
+        "year": "MAY 2003"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:20:08.658026+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7815
+    }
+  }
+}

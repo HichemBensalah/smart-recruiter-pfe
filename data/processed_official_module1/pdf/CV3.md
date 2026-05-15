@@ -1,0 +1,49 @@
+## HEADER
+
+777 Springboard St.#144 Los Angeles, CA 90001
+Alexander Eakins
+(111)111-1111 email@youremail. com
+
+## EDUCATION
+
+### Harvard University-Bachelorof Science, Data Science AUGUST 2011-MAY 2015
+- Springboard-Data Science Certificate
+- MAY 2017
+
+## TECHNICAL SKILLS
+
+SKILLS & KNOWLEDGE
+Data mining/processing
+Statistical analysis
+Businessacumen
+Oral/writtencomm
+Strategic planning
+Walnut Festival International Fingerstyle Guitar Championship|ist Place
+Writersofthe Future Contest (S 750 prize)12 nd Place
+
+## LANGUAGES
+
+My SQL
+Python
+PHP
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+
+## SOFT SKILLS
+
+Random Corp, 141 Random Circle Suite#991 Data Science Intern
+MAY 2017-AUGU 5 T 2018
+Report actionable, statistical, and analyticalinsightsto executivesforeffectivestrategicpositioninginmarket place
+AWARDS
+Shadow data scientists and assist in developingalgorithms forpredictivemodeling
+Analyze andprocess sophisticated data setsusing SAS, My SQL, and Excel
+
+## ACADEMIC PROJECTS
+
+Writepythonscriptsto automateeverydaytaskssuch as organizingdesktopfiles, automaticallyredefiningstrings in My SQL database to promoteconsistency, and creating file and folder structuresfornewprojects
+Springboard Data Science Course-Data Science Capstone Project:Specialized Analysisof Streaming Platform Patterns
+- MAY 2017
+Analyzed data from 233 streamersin 30 countries across 5 differentplatformsover 30 days, totalingnearly 3 o 0, 000 hours of streaming
+- Confirmed hypothesis that data supports anupwardtrend ofnight-time streaming

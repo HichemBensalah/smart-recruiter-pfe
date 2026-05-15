@@ -1,0 +1,64 @@
+## HEADER
+
+Emily Saavedra
+88 Hendford Hill, London B 220 GX, United Kingdom|07835150056|emilysaavedra@gmail. com
+
+## EDUCATION
+
+### Participated inmonthlymeetingswithexecutives, provided informationontheprogress.
+**Date:** 06/2014-08/2014 SUVA, FIJI
+
+## PROFESSIONAL SUMMARY
+
+Profile
+
+## 09/2012-05/2016 CHICHESTER, UNITEDKINGDOM
+
+Mathematicsand Statistics Universityof Chichester
+First Class Honours
+Clubs and Societies:Business Club, Golf Club, Riding Club
+IBDiploma Programme The International School Estepona
+Graduatedwith Distinction(Grade 1-A/excellent equivalentinall 6 subjects)
+
+## PROFESSIONAL EXPERIENCE
+
+Highlyaccurateandexperienced Data Scientistadept atcollecting, analyzing, andinterpretinglarge datasets, developingnewforecastingmodels, and performingdata managementtasks.
+**Date:** 09/2010-05/2012 ELPARAIS 0, SPAIN
+- 白Work experience
+- Developed andimplementednewforecasting modelswhichincreasedcompanyproductivityand efficiency.
+
+## TECHNICAL SKILLS
+
+Possessing anextensive analytical skills, strong attentiontodetail, andasignificantabilitytoworkin teamenvironments, Emilyispresentlylookingfora Data Scientistpositionwithaforward-moving company.
+Skills
+Spy Biotech, Inc. Data Scientist
+·Assisted inscientificresearchon DNAcloningand analyzed theresults.
+Spanish
+English
+Collected, studied, and interpreted largedatasets; conductedreports;performed accurate, successfuldatamanagement.
+French
+COMPUTER/DATAANALYTICSSKILLS
+Microsoft Office MSSQLServer Sisense, Zoho Analytics Good Data, Qlik Sense
+INTERPERSONALSKILLS
+Accuracy Analytical Skills Detail Orientation Good Team Player Multitasking
+Collaboratedwiththe Operationsand Technology Departmentonthedevelopmentofnew automateddatamanagement/analysissoftware whichincreasedtheoverallproductivityandcut unnecessary costs.
+Volunteering
+Maintainedandmanagedcompany's MSSQL server.
+English Tutor Go Overseas
+Increasedtheaccuracyofforecastingsoftware from 80%to 95%.
+Professional Certificate in Data Analysis The Chartered Institutefor IT
+
+## LANGUAGES
+
+Native
+Full
+Limited
+
+## 07/2016-09/2017 LONDON, UNITEDKINGDOM
+
+Data Scientist CGL, Inc.
+·Collected, analyzed, andinterpretedrawdata fromvariouswebsites.
+
+## CERTIFICATES (IN PROGRESS)
+
+Certificates

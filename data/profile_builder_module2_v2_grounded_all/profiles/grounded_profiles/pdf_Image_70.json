@@ -1,0 +1,173 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_70.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_70.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7063,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMILDREDZEMLAK\n236 OBERBRUNNERRIDGES, NEWYORK, NY\nPHONE\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n## Daniel, Lubowitzand Wisozk\n## Houston, TX//Director of Data Science//09/2019-present\n·Retain andrecruit alarge and growing data science, analytics and engineering team\n- ·Create a virtuous cycle of platform adoptionwith improved data insights and streamlined publishing/access\n- ·Driverevenue and cost optimizationdecisions and experimentideaswithbusinessleadersbased ondata insights\nFocus on delivering solutions to improve decision-making, optimize research processes, increase operational efficiency, and ultimately, transform data into actionable insights\n- Goyette Inc\n## Houston, TX//Data Science//02/2014-07/2019\nExperience building & managing a large analytics team, working cross-functionally, and managing vendor relationships and contracts\n·Hands on experience in advanced analytics, Machine Learning and data science open-source platforms such as R and Python along with DW platforms such as Hana, Hadoop\n- ·Strong experiencein managing strategic projects/programs and experiencein engagingwith senior management\n- ·Experiencewith Visual Basicfor Applications and Javaishighly desirable\n\n## EDUCATION\n\n·Experienceinleadingdata-driventransformationsand/oradvanced analyticsprojects\n·Masters/Ph Din any quantitativefield such as Statistics, Mathematics, Engineering, Economics\n- Lim College\n- Bachelor's in Computer Science\n## ·Demonstratesexcellentattentiontodetail, teamworkandinitiative\n\n## TECHNICAL SKILLS\n\nSKILLS\n·Working knowledge of Python, R, scikit-learn, Tensorflow, kera, and cloud computing (Azure)\n·BIreportingandanalysis\n·Data Warehousingconcepts, SDLC, testing, andimplementation\n·Familiarity with Cloud tools, such as Snowflake, Air 9, etc\n·Spark ML\n·Using ML libraries, such as scikit-learn, caret, mlr, mllib\nHEADER\nMILDREDZEMLAK\n236OBERBRUNNERRIDGES, NEWYORK, NY\nPHONE\n+1(555)8500153\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nDaniel, LubowitzandWisozk\nHouston, TX //Director ofDataScience//09/2019-present\n·Retain andrecruit alarge and growing data science, analytics and engineering team\n·Create a virtuous cycle of platform adoptionwith improved data insights and streamlined publishing/access\n·Driverevenue and cost optimizationdecisions and experimentideaswithbusinessleadersbased ondata insights\nFocus on delivering solutions to improve decision-making, optimize research processes, increase operational efficiency, and ultimately, transform data into actionable insights\nGoyette Inc\nHouston, TX//DataScience //02/2014-07/2019\nExperience building & managing a large analytics team, working cross-functionally, and managing vendor relationships and contracts\n·Hands on experience in advanced analytics, Machine Learning and data science open-source platforms such as R and Python along with DW platforms such as Hana, Hadoop\n·Strong experiencein managing strategic projects/programs and experiencein engagingwith senior management\n·ExperiencewithVisual Basicfor Applications andJavaishighly desirable\nEDUCATION\n·Experienceinleadingdata-driventransformationsand/oradvanced analyticsprojects\n·Masters/PhDin any quantitativefield such asStatistics, Mathematics, Engineering, Economics\nLim College\nBachelor's in Computer Science\n·Demonstratesexcellentattentiontodetail, teamworkandinitiative\nTECHNICAL SKILLS\nSKILLS\n·Working knowledge of Python, R, scikit-learn, Tensorflow, kera, and cloud computing (Azure)\n·BIreportingandanalysis\n·DataWarehousingconcepts, SDLC, testing, andimplementation\n·Familiarity with Cloud tools, such as Snowflake, Air9, etc\n·SparkML\n·Using ML libraries, such as scikit-learn, caret, mlr, mllib",
+    "header_info": {
+      "full_name": "Daniel, Lubowitzand Wisozk",
+      "email": null,
+      "phone": null,
+      "location": "236 OBERBRUNNERRIDGES, NEWYORK, NY",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9413,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MILDREDZEMLAK",
+      "email": null,
+      "phone": null,
+      "location": "236 OBERBRUNNERRIDGES, NEWYORK, NY",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 13,
+      "hard_skills": [
+        "Python",
+        "R",
+        "scikit-learn",
+        "Tensorflow",
+        "kera",
+        "Azure",
+        "BI reporting",
+        "Data Warehousing",
+        "SDLC",
+        "Spark ML",
+        "Snowflake",
+        "Air 9",
+        "caret",
+        "mlr",
+        "mllib"
+      ],
+      "soft_skills": [
+        "teamwork",
+        "initiative",
+        "attention to detail"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Goyette Inc",
+        "job_title": "Data Science",
+        "start_date": "02/2014",
+        "end_date": "07/2019",
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Experience building & managing a large analytics team, working cross-functionally, and managing vendor relationships and contracts",
+          "Hands on experience in advanced analytics, Machine Learning and data science open-source platforms such as R and Python along with DW platforms such as Hana, Hadoop",
+          "Strong experience in managing strategic projects/programs and experience in engaging with senior management"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Director of Data Science",
+        "start_date": "09/2019",
+        "end_date": "present",
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Retain and recruit a large and growing data science, analytics and engineering team",
+          "Create a virtuous cycle of platform adoption with improved data insights and streamlined publishing/access",
+          "Drive revenue and cost optimization decisions and experiment ideas with business leaders based on data insights",
+          "Focus on delivering solutions to improve decision-making, optimize research processes, increase operational efficiency, and ultimately, transform data into actionable insights"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Lim College",
+        "degree": "Bachelor's",
+        "field": "Computer Science",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T10:59:05.937788+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:30.076340+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

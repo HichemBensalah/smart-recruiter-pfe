@@ -1,0 +1,101 @@
+{
+  "generated_at_utc": "2026-05-14T22:21:02.574898+00:00",
+  "dataset_path": "data\\ranking\\datasets\\ranking_dataset_unlabeled.jsonl",
+  "dataset_sha256_before": "e0cda1df2b8897dfe47066ec986e1e668479e8722c315905b4b552ab0963678a",
+  "dataset_sha256_after": "e0cda1df2b8897dfe47066ec986e1e668479e8722c315905b4b552ab0963678a",
+  "dataset_unchanged": true,
+  "total_rows": 250,
+  "distribution_v1": {
+    "0": 145,
+    "1": 95,
+    "2": 7,
+    "3": 3
+  },
+  "distribution_v2": {
+    "0": 197,
+    "1": 43,
+    "2": 6,
+    "3": 4
+  },
+  "percentage_v1": {
+    "0": 58.0,
+    "1": 38.0,
+    "2": 2.8,
+    "3": 1.2
+  },
+  "percentage_v2": {
+    "0": 78.8,
+    "1": 17.2,
+    "2": 2.4,
+    "3": 1.6
+  },
+  "positive_count_v1": 10,
+  "positive_count_v2": 10,
+  "positive_rate_v1": 4.0,
+  "positive_rate_v2": 4.0,
+  "distribution_per_job_v1": {
+    "backend_python_fastapi_mongodb": {
+      "0": 29,
+      "1": 18,
+      "2": 2,
+      "3": 1
+    },
+    "data_engineer_python_sql": {
+      "0": 4,
+      "1": 41,
+      "2": 3,
+      "3": 2
+    },
+    "devops_docker_kubernetes": {
+      "0": 35,
+      "1": 13,
+      "2": 2,
+      "3": 0
+    },
+    "frontend_react_nextjs": {
+      "0": 43,
+      "1": 7,
+      "2": 0,
+      "3": 0
+    },
+    "fullstack_react_node_mongodb": {
+      "0": 34,
+      "1": 16,
+      "2": 0,
+      "3": 0
+    }
+  },
+  "distribution_per_job_v2": {
+    "backend_python_fastapi_mongodb": {
+      "0": 42,
+      "1": 5,
+      "2": 1,
+      "3": 2
+    },
+    "data_engineer_python_sql": {
+      "0": 21,
+      "1": 24,
+      "2": 3,
+      "3": 2
+    },
+    "devops_docker_kubernetes": {
+      "0": 46,
+      "1": 2,
+      "2": 2,
+      "3": 0
+    },
+    "frontend_react_nextjs": {
+      "0": 45,
+      "1": 5,
+      "2": 0,
+      "3": 0
+    },
+    "fullstack_react_node_mongodb": {
+      "0": 43,
+      "1": 7,
+      "2": 0,
+      "3": 0
+    }
+  },
+  "recommendation": "v2_still_too_strict"
+}

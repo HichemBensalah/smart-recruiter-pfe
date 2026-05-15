@@ -1,0 +1,85 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV35.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV35.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:CV35",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Wenzhe(Evelyn)Xu",
+      "email": null,
+      "phone": "217-417-9270",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data Scientist and Engineer with expertise in R, Python, SQL, Apache Impala, Hadoop, Cloudera CDH, and Apache Spark.",
+      "hard_skills": [
+        "Python",
+        "Apache Impala",
+        "Apache Hadoop",
+        "Cloudera CDH",
+        "Apache Spark",
+        "SPSS",
+        "Linux",
+        "MapReduce"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Transfer commercial goals to data-driven objectives",
+          "Respond to late-added requirements"
+        ]
+      },
+      {
+        "job_title": "Tech-Sale Analytics Intern",
+        "company": "Anheuser-Busch Inbev",
+        "start_date": "/L",
+        "end_date": null,
+        "city": "Champaign",
+        "responsibilities": [
+          "Presenting modeling results and data insights through PPT"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Tracking stages according to scheduled timeline",
+          "Collaborating on tasks from other projects"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Statistics-Analytics Major",
+        "school": null,
+        "year": "3.96/4.0"
+      },
+      {
+        "degree": "Bachelor of Science in Statistics",
+        "school": null,
+        "year": "3.75/4.0"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:46:32.931500+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8548
+    }
+  }
+}

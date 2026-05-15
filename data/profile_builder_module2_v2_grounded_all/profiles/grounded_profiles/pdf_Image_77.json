@@ -1,0 +1,154 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_77.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_77.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7905,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMARKUSROHAN\n79608 Cliff Lights, Los Angeles, CA\n\n## EDUCATION\n\nRHODEISLANDSCHOOLOFDESIGN\nBachelor'sin Computer Science\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n## WUNSCH, STARKANDBAUMBACH\n## Phoenix, AZ|Directorof Data Science 07/2018-present\n·Manage, mentorandmotivatedirectreports across alllevelsto encouragetheirprofessionaldevelopmentwhileprovidingdaily supervisionandguidance\n- Experienceinmarketing mixmodelling andoptimization\n- Experienceworkingwithopen source technologies and communitiesforinnovative\nGraduatestudentin Epidemiology, Biomedical Engineeringprogram orrelatedfield enrolledinthe Fall Semester aftercompleting the internship\n- ·Experiencein conducting analyses todrivebusiness impact\n- Interactswith other departments asdirected to complete assigned tasks\n## Experiencewithstatistical analysisandpackagessuchasscikit-learn, spaCy, NumPy\n- ·Demonstrates strong proficiency in verbal and written communication\n- Goodunderstandingof Dockerand Kubernetes\n- ·Previousanalyticsexperienceat an Agencyorin Retail\n- Experience in leveraging best practicesin advanced analytics\n- Highlevel ofproficiencywithstatistical and databaseconcepts\n\n## TECHNICAL SKILLS\n\nSKILLS\nExperiencewithsoftware languages(Python, R, SAS)\nExperiencewith SQLandrelational databases, queryauthoring(SQL) and tuningworkingfamiliaritywith avariety of databases including Hadoop/Hive\nUnderstanding of different development methodologies\nComfortablewith cloud-based platforms(AWS, Azure, Google)\nHigh-endknowledge of data science, data mining, machinelearningandstatistics\n·Manage all phases of fullife-cycle implementation projects, including blueprinting, design, development, testing, deploymentandsupport\n·Knowledgeof Rand Rplottingand/or Pythonmatplotlib Scikit, Julia, ark, Shark, Map Rduce, Hap, Hiv Pig\nIdentify andremoveobstacles, mitigaterisksforflawlessexecutionand solution delivery\nEnsure consistent definitions andmetrics across the organization\nROGAHN-TORP\nPhoenix, AZ|Data Science 01/2015-05/2018\nKnowledgeof adserving toolsandmulti-touchattribution\nExperiencewithvisualizationtoolssuchas Tableau, Power Blor Qlik View\nOutstanding communicationskillswithsignificant experienceworking closelywithexecutiveleadership\n\n## MACHINE LEARNING & DEEP LEARNING\n\nKnowledgeofdatascience, datamining, machine learningandstatistics\nHEADER\nMARKUSROHAN\n79608CliffLights, LosAngeles, CA\n+1(555)412 9591\nEDUCATION\nRHODEISLANDSCHOOLOFDESIGN\nBachelor'sinComputerScience\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nWUNSCH, STARKANDBAUMBACH\nPhoenix, AZ|DirectorofDataScience07/2018-present\n·Manage, mentorandmotivatedirectreports across alllevelsto encouragetheirprofessionaldevelopmentwhileprovidingdaily supervisionandguidance\nExperienceinmarketing mixmodelling andoptimization\nExperienceworkingwithopen source technologies and communitiesforinnovative\nGraduatestudentinEpidemiology, Biomedical Engineeringprogram orrelatedfield enrolledintheFall Semester aftercompleting the internship\n·Experiencein conducting analyses todrivebusiness impact\nInteractswith other departments asdirected to complete assigned tasks\nExperiencewithstatistical analysisandpackagessuchasscikit-learn, spaCy, NumPy\n·Demonstrates strong proficiency in verbal and written communication\nGoodunderstandingofDockerandKubernetes\n·Previousanalyticsexperienceat anAgencyorinRetail\nExperience in leveraging best practicesin advanced analytics\nHighlevel ofproficiencywithstatistical and databaseconcepts\nTECHNICAL SKILLS\nSKILLS\nExperiencewithsoftware languages(Python, R, SAS)\nExperiencewithSQLandrelational databases, queryauthoring(SQL) and tuningworkingfamiliaritywith avariety of databases including Hadoop/Hive\nUnderstanding of different development methodologies\nComfortablewith cloud-based platforms(AWS, Azure, Google)\nHigh-endknowledge of data science, data mining, machinelearningandstatistics\n·Manage all phases of fullife-cycle implementation projects, including blueprinting, design, development, testing, deploymentandsupport\n·Knowledgeof RandRplottingand/orPythonmatplotlib Scikit, Julia, ark, Shark, MapRduce, Hap, Hiv Pig\nIdentify andremoveobstacles, mitigaterisksforflawlessexecutionand solution delivery\nEnsure consistent definitions andmetrics across the organization\nROGAHN-TORP\nPhoenix, AZ|DataScience01/2015-05/2018\nKnowledgeof adserving toolsandmulti-touchattribution\nExperiencewithvisualizationtoolssuchasTableau, PowerBlor QlikView\nOutstanding communicationskillswithsignificant experienceworking closelywithexecutiveleadership\nMACHINE LEARNING & DEEP LEARNING\nKnowledgeofdatascience, datamining, machine learningandstatistics",
+    "header_info": {
+      "full_name": "Bachelor'sin Computer Science",
+      "email": null,
+      "phone": null,
+      "location": "79608 Cliff Lights, Los Angeles, CA",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9581,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Markus Rohan",
+      "email": null,
+      "phone": null,
+      "location": "79608 Cliff Lights, Los Angeles, CA",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 12,
+      "hard_skills": [
+        "Python",
+        "R",
+        "SAS",
+        "SQL",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "Google",
+        "Hadoop/Hive"
+      ],
+      "soft_skills": [
+        "verbal and written communication",
+        "statistical and database concepts",
+        "cloud-based platforms",
+        "data science, data mining, machine learning, statistics"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Wunsch, StarkandBaumbach",
+        "job_title": "Director of Data Science",
+        "start_date": "07/2018-present",
+        "city": "Phoenix, AZ",
+        "responsibilities": [
+          "Manage, mentor and motivate direct reports across all levels to encourage their professional development while providing daily supervision and guidance"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Data Science",
+        "start_date": "01/2015-05/2018",
+        "city": "Phoenix, AZ",
+        "responsibilities": [
+          "Knowledge of adserving tools and multi-touch attribution"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Rhodes Island School of Design",
+        "degree": "Bachelor's in Computer Science",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T12:00:32.307654+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:30.325058+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

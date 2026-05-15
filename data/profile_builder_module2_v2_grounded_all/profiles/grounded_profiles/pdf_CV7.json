@@ -1,0 +1,143 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV7.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV7.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.763,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nJustine Hendrickson Metadata Scientist\nJust H@email.com (123)456-7890 Houston, TX Linkedln Twitter\nData Sciencegraduatewithapassionfordataintegrityvisualization, and statistics. I'mexcitedtoapplymypassionfordatasciencetothecollaborative effortsofa Chevronteamfocusedoninsightful, high-qualitydataanalyticsand visualizations.\n\n## TECHNICAL SKILLS\n\nSKILLS\nPython\nSQL\nTableau\nHadoop\nNumpy\nHelpedshapethetechnicalvisionandstrategiesof 2 engineering partnerteamsthroughdata-drivenrecommendations\nDisplayedaworkingknowledgeof Data ETL, Visualization, API frameworks, andstatisticalmethodsin Pythontodevelopvisualizations andimplementanalyses\nCleanedhistorical dataforover 6 OOcompanies(in NASDAQand S & P 500), accessing JSONendpointsforeachcompany using(Python)Pandas\n\n## PROFESSIONAL EXPERIENCE\n\nWORKEXPERIENCE\nLabcorp\nEntry-Level Metadata Scientist\n## Houston, TX|July 2021-current\n- ·Identifiedappropriatequantitativemethodsandbuiltrelevantdatasets toaddresschallengesacross 6 differentdomains\n- Implemented 32 statisticalandmachinelearningsolutionsend-to-end\n\n## EDUCATION\n\nB. S.\nComputer Science\n\n## ACADEMIC PROJECTS\n\nCommunicatedprojectresultsandrecommendationsto 24 stakeholders andcross-functionalpartners\n## Universityof Houston September 2017-May 2021 Houston, TX\n- PROJECTS\n- Weather APISite\n- Creator\n- Developedmeasurementsolutionsandexperimentationframeworksto ensure 10 o%informedandeffectivedata-drivendecisionmaking\nUsed HTML 5 todesignadashboardvisualinterfaceofaprevious Weather APlappwithcitipy. asimple Pythonlibrary, andthe Open Weather Map APltocreateaweathermodelacross 5 O+world cities\nAddedfeaturestotheappbyapplyinga Bootstraptemplate, designing thewebsitelayout, andaddingapicture carousel ofcities usedinthe Open Weather Map APlproject\nDrafteddetailed documentationofcodeutilizing GitHub, completewith chartsandnotesabouteachsub-page\n- Stock Analysis\n- Creator\n- Usedstockmarket KPlstodeterminewhetherthetechsectorofthe stockmarketwasinabubble\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nAWS\nCertified Data Scientist\nHEADER\nJustine Hendrickson MetadataScientist\nJustH@email.com (123)456-7890 Houston, TX Linkedln Twitter\nDataSciencegraduatewithapassionfordataintegrityvisualization, and statistics.I'mexcitedtoapplymypassionfordatasciencetothecollaborative effortsofaChevronteamfocusedoninsightful, high-qualitydataanalyticsand visualizations.\nTECHNICAL SKILLS\nSKILLS\nPython\n·R\nSQL\nTableau\nHadoop\nNumpy\nHelpedshapethetechnicalvisionandstrategiesof2engineering partnerteamsthroughdata-drivenrecommendations\nDisplayedaworkingknowledgeofDataETL, Visualization, API frameworks, andstatisticalmethodsinPythontodevelopvisualizations andimplementanalyses\nCleanedhistorical dataforover6OOcompanies(inNASDAQandS&P 500), accessingJSONendpointsforeachcompany using(Python)Pandas\nPROFESSIONAL EXPERIENCE\nWORKEXPERIENCE\nLabcorp\nEntry-LevelMetadataScientist\nHouston, TX|July2021-current\n·Identifiedappropriatequantitativemethodsandbuiltrelevantdatasets toaddresschallengesacross6differentdomains\nImplemented32statisticalandmachinelearningsolutionsend-to-end\nEDUCATION\nB.S.\nComputerScience\nACADEMIC PROJECTS\nCommunicatedprojectresultsandrecommendationsto24stakeholders andcross-functionalpartners\nUniversityofHouston September2017-May2021 Houston, TX\nPROJECTS\nWeatherAPISite\nCreator\nDevelopedmeasurementsolutionsandexperimentationframeworksto ensure10o%informedandeffectivedata-drivendecisionmaking\nUsedHTML5todesignadashboardvisualinterfaceofaprevious WeatherAPlappwithcitipy.asimplePythonlibrary, andthe OpenWeatherMapAPltocreateaweathermodelacross5O+world cities\nAddedfeaturestotheappbyapplyingaBootstraptemplate, designing thewebsitelayout, andaddingapicture carousel ofcities usedinthe OpenWeatherMapAPlproject\nDrafteddetailed documentationofcodeutilizingGitHub, completewith chartsandnotesabouteachsub-page\nStockAnalysis\nCreator\nUsedstockmarketKPlstodeterminewhetherthetechsectorofthe stockmarketwasinabubble\nCERTIFICATES (IN PROGRESS)\nCERTIFICATIONS\nAWS\nCertified DataScientist",
+    "header_info": {
+      "full_name": null,
+      "email": "H@email.com",
+      "phone": "123)456-7890",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9526,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Justine Hendrickson",
+      "email": "justh@email.com",
+      "phone": "(123)456-7890",
+      "location": "Houston, TX",
+      "linkedin": "Linkedln",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Hadoop",
+        "Numpy",
+        "HTML 5",
+        "Bootstrap"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Labcorp",
+        "job_title": "Entry-Level Metadata Scientist",
+        "start_date": "July 2021",
+        "end_date": "current",
+        "city": "Houston, TX",
+        "responsibilities": [
+          "Identified appropriate quantitative methods and built relevant datasets to address challenges across 6 different domains",
+          "Implemented 32 statistical and machine learning solutions end-to-end"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Houston",
+        "degree": "B. S.",
+        "field": "Computer Science",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "AWS Certified Data Scientist"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:45:58.876995+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:29.302783+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

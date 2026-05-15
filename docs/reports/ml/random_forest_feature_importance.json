@@ -1,0 +1,57 @@
+{
+  "generated_at_utc": "2026-05-15T10:02:53.447048+00:00",
+  "model": "data\\ranking\\models\\random_forest.joblib",
+  "feature_names": "data\\ranking\\models\\feature_names.json",
+  "method": "random_forest_feature_importances_",
+  "top_features": [
+    {
+      "feature": "final_score_v3",
+      "importance": 0.2287671334306593
+    },
+    {
+      "feature": "missing_required_count",
+      "importance": 0.2143714276814553
+    },
+    {
+      "feature": "required_skills_overlap",
+      "importance": 0.18957845632054068
+    },
+    {
+      "feature": "matched_required_count",
+      "importance": 0.17393887423450105
+    },
+    {
+      "feature": "must_have_coverage",
+      "importance": 0.17001457431591865
+    },
+    {
+      "feature": "reliability_score",
+      "importance": 0.005580496867536634
+    },
+    {
+      "feature": "vector_similarity",
+      "importance": 0.005579810802637132
+    },
+    {
+      "feature": "experience_match_score",
+      "importance": 0.005361361216134353
+    },
+    {
+      "feature": "seniority_alignment",
+      "importance": 0.003450935326379264
+    },
+    {
+      "feature": "profile_quality_score",
+      "importance": 0.0030756701755446647
+    },
+    {
+      "feature": "hallucination_risk_encoded",
+      "importance": 0.0002812596286930045
+    },
+    {
+      "feature": "nice_to_have_overlap",
+      "importance": 0.0
+    }
+  ],
+  "methodology_warning": "Ces importances sont calculées sur un modèle entraîné avec des pseudo-labels métier contrôlés. Elles indiquent quelles features aident à reproduire la règle de pseudo-labeling, pas nécessairement les critères réels d’un recruteur."
+}

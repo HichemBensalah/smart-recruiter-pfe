@@ -34,6 +34,7 @@ try:
     )
     from .handoff_policy import HandoffQueueEntry, build_handoff_registry, build_queue_entry, decide_handoff
     from .document_router import RoutingDecision, route_document
+    from .markdown_quality import clean_markdown_for_module2
     from .postprocess_docling import postprocess_docling, postprocess_docx_markdown
     from .secondary_parser import parse_with_secondary_parser
 except ImportError:
@@ -69,6 +70,7 @@ except ImportError:
         decide_handoff,
     )
     from src.core.parser.document_router import RoutingDecision, route_document  # type: ignore
+    from src.core.parser.markdown_quality import clean_markdown_for_module2  # type: ignore
     from src.core.parser.postprocess_docling import (  # type: ignore
         postprocess_docling,
         postprocess_docx_markdown,
@@ -384,9 +386,12 @@ def _document_confidence(
     parser_used: ParserUsed,
     *,
     fallback_used: bool,
+    markdown_signals: dict[str, int | float | bool] | None = None,
     extra_warnings: list[str] | None = None,
 ) -> DocumentConfidence:
     parser_signals = dict(quality["signals"])
+    if markdown_signals:
+        parser_signals.update(markdown_signals)
     parser_signals.update(
         {
             "router_is_scanned": decision.is_scanned,
@@ -404,6 +409,7 @@ def _document_confidence(
     warnings = list(quality["warnings"])
     if extra_warnings:
         warnings.extend(extra_warnings)
+    warnings = list(dict.fromkeys(warnings))
 
     status = classify_document_status(
         confidence=adjusted_score,
@@ -412,6 +418,10 @@ def _document_confidence(
         warnings=warnings,
         source_format=decision.source_format.value,
     )
+    if _markdown_requires_repair(parser_signals):
+        status = DocumentStatus.PARTIAL.value
+    elif status == DocumentStatus.PARTIAL.value:
+        status = DocumentStatus.VALIDATED.value
 
     parser_signals["confidence_penalty"] = round(penalty, 4)
 
@@ -421,6 +431,28 @@ def _document_confidence(
         signals=parser_signals,
         warnings=warnings,
     )
+
+
+def _markdown_requires_repair(signals: dict[str, object]) -> bool:
+    """Block only markdown that is too weak to be useful for an LLM attempt."""
+    chars = int(signals.get("markdown_chars") or 0)
+    words = int(signals.get("markdown_words") or 0)
+    useful_sections = int(signals.get("markdown_useful_section_count") or 0)
+    weird_ratio = float(signals.get("markdown_weird_char_ratio") or 0.0)
+    ocr_noise_ratio = float(signals.get("markdown_ocr_noise_ratio") or 0.0)
+    glued_lines = int(signals.get("markdown_glued_line_count") or 0)
+
+    if chars == 0 or words == 0:
+        return True
+    if chars < 300 or words < 40:
+        return True
+    if useful_sections == 0 and words < 120:
+        return True
+    if weird_ratio > 0.08 or ocr_noise_ratio > 0.35:
+        return True
+    if glued_lines >= 18 and words < 90:
+        return True
+    return False
 
 
 def _build_artifact(
@@ -456,12 +488,18 @@ def _build_artifact(
             ]
 
     markdown = markdown_override or _logical_sections_to_markdown(logical_sections)
+    markdown_quality = clean_markdown_for_module2(
+        markdown,
+        source_format=decision.source_format.value,
+    )
+    markdown = markdown_quality.markdown
     confidence = _document_confidence(
         quality,
         decision,
         parser_used,
         fallback_used=fallback_used,
-        extra_warnings=extra_warnings,
+        markdown_signals=markdown_quality.signals,
+        extra_warnings=[*(extra_warnings or []), *markdown_quality.warnings],
     )
 
     if not raw_text.strip() and markdown.strip():

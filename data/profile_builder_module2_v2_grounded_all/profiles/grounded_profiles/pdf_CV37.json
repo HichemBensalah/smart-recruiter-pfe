@@ -1,0 +1,156 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV37.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV37.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7026,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nJEFFERYGORCZANY\n56009 MACGYVERPARKWAY, PHILADELPHIA, PA\nPHONE\nMURRAYANDSONS\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n## Los Angeles, CA//Directorof Data Science\n**Date: ** 01/2020-present\n- Experience directing or managing small to medium projects\n- ·Experience managing others in a supervisory and/or project management capacity\n- ·Strong hands-on experience in Python with the focus being on statistical algorithms development\n## ·Experiencewith Aws, docker, and developmentmethodologies-an advantage\n- ·Hands-onexperiencewritingproduction-grade ML code\n- ·Hands on coding experience in Python/R/Scala/Java or any other OOP\n\n## TECHNICAL SKILLS\n\n·Advanced python and related programming skills\n·Knowledge of and experience in complex data visualization and knowledge of predictive modelingtools and techniques\n·Knowledge of statistics, research design and methods\nBERGSTROMINC\nLos Angeles, CA//Data Science\n·Extensive experience using statistics, mathematics, algorithms and programming languages to solvebigdatachallenges\n·Active Github, Kaggle member- an advantage\nRHODEISLANDSCHOOLOFDESIGN\nSKILLS\n·Awareness and understanding of who has key skills and knowledge, liaising with Managers as appropriateto undertake skillsplanningwithreference toindustry developments\nProactively providing and sharing key knowledge and skills with others (across Analytics, Digital, Tools and Technologies, Methodologies, Big Data, Research, Problem Solving etc.) Sharinganalytical specialism andcontinuallyupskilling\nProven leadership and negotiation skills, along with good analytical and problem-solving skills\n\n## EDUCATION\n\n·Knowledgeof alllevelsofthe USeducationsystemandthechallengesfacingadministrators, educatorsandstudents\n·Fluent in structured and unstructured data, its management, and modern data transformation methodologies\n**Date: ** 09/2016 - 12/2019\n- ·Effectively and creatively tell stories andcreatevisualizations to describe and communicate data insights\n- Bachelor'sin Computer Science\nHEADER\nJEFFERYGORCZANY\n56009MACGYVERPARKWAY, PHILADELPHIA, PA\nPHONE\n+1(555) 638 2366\nMURRAYANDSONS\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nLosAngeles, CA//DirectorofDataScience\n01/2020-present\nExperience directing or managing small to medium projects\n·Experience managing others in a supervisory and/or project management capacity\n·Strong hands-on experience in Python with the focus being on statistical algorithms development\n·ExperiencewithAws, docker, and developmentmethodologies-an advantage\n·Hands-onexperiencewritingproduction-gradeML code\n·Hands on coding experience inPython/R/Scala/Java or any other OOP\nTECHNICAL SKILLS\n·Advanced python and related programming skills\n·Knowledge of and experience in complex data visualization and knowledge of predictive modelingtools and techniques\n·Knowledge of statistics, research design and methods\nBERGSTROMINC\nLos Angeles, CA// Data Science\n·Extensive experience using statistics, mathematics, algorithms and programming languages to solvebigdatachallenges\n·Active Github, Kaggle member- an advantage\nRHODEISLANDSCHOOLOFDESIGN\nSKILLS\n·Awareness and understanding of who has key skills and knowledge, liaising with Managers as appropriateto undertake skillsplanningwithreference toindustry developments\nProactively providing and sharing key knowledge and skills with others (across Analytics, Digital, Tools and Technologies, Methodologies, Big Data, Research, Problem Solving etc.) Sharinganalytical specialism andcontinuallyupskilling\nProven leadership and negotiation skills, along with good analytical and problem-solving skills\nEDUCATION\n·Knowledgeof alllevelsoftheUSeducationsystemandthechallengesfacingadministrators, educatorsandstudents\n·Fluent in structured and unstructured data, its management, and modern data transformation methodologies\n09/2016 - 12/2019\n·Effectively and creatively tell stories andcreatevisualizations to describe and communicate data insights\nBachelor'sinComputerScience",
+    "header_info": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": "56009 MACGYVERPARKWAY, PHILADELPHIA, PA",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9405,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "JEFFERYGORCZANY",
+      "email": null,
+      "phone": "MURRAYANDSONS",
+      "location": "56009 MACGYVERPARKWAY, PHILADELPHIA, PA",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 7,
+      "hard_skills": [
+        "Python",
+        "Aws",
+        "docker",
+        "ML",
+        "R",
+        "Scala",
+        "Java"
+      ],
+      "soft_skills": [
+        "leadership",
+        "negotiation",
+        "analytical",
+        "problem-solving"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Director of Data Science",
+        "start_date": "01/2020",
+        "end_date": "present",
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "Experience directing or managing small to medium projects",
+          "Experience managing others in a supervisory and/or project management capacity",
+          "Strong hands-on experience in Python with the focus being on statistical algorithms development",
+          "Hands-on experience writing production-grade ML code",
+          "Hands on coding experience in Python/R/Scala/Java or any other OOP"
+        ]
+      },
+      {
+        "company": "BERGSTROMINC",
+        "job_title": "Data Science",
+        "start_date": null,
+        "end_date": null,
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "Extensive experience using statistics, mathematics, algorithms and programming languages to solve big data challenges"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "RHODEISLANDSCHOOLOFDESIGN",
+        "degree": "Bachelor's in Computer Science",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:43:47.721958+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:28.919197+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

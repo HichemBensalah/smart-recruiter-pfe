@@ -1,0 +1,81 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\AnuvaGoyal_Latex.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\AnuvaGoyal_Latex.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "anuvagoyal111@gmail.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "ANUVA GOYAL",
+      "email": "anuvagoyal111@gmail.com",
+      "phone": null,
+      "location": "Agra, Uttar Pradesh, India"
+    },
+    "expertise": {
+      "summary": "Proficient in machine learning, natural language processing, and computer vision",
+      "hard_skills": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "TensorFlow",
+        "Scikit-Learn",
+        "OpenCV",
+        "Pytesseract",
+        "Beautiful Soup"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Summer Intern",
+        "company": "Genisup India Pvt. Ltd.",
+        "start_date": "June 2021",
+        "end_date": "Aug 2021",
+        "city": "Hosur, Tamil Nadu",
+        "responsibilities": [
+          "Built an OCR using Pytesseract and NER Text Classification Model",
+          "Created an OCR for Handwritten text using CNN architecture",
+          "Built a Face Recognition Model and Face Mask Detection Model using OpenCV and Haar Cascade Classifier"
+        ]
+      },
+      {
+        "job_title": "Intern Trainee",
+        "company": "VUGS Technologies Pvt. Ltd.",
+        "start_date": "May 2021",
+        "end_date": "June 2021",
+        "city": "Agra, Uttar Pradesh",
+        "responsibilities": [
+          "Worked on proxy rotation and Web Scraping",
+          "Performed LDA Topic Modeling on 'The Hindu' news articles"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B. Tech, Electrical Engineering with Computer Science Specialisation",
+        "school": "Dayalbagh Educational Institute, Agra",
+        "year": "2019- Present"
+      },
+      {
+        "degree": "Higher Secondary School Certificate",
+        "school": "St. Clare's Senior Secondary School, Agra",
+        "year": "2019"
+      },
+      {
+        "degree": "Secondary School Certificate",
+        "school": "St. Clare's Senior Secondary School, Agra",
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:20:38.932117+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.718
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV13.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV13.json",
+  "provider_errors": [],
+  "prompt_length": 3852,
+  "llm_status": "partial",
+  "fields_nullified": [
+    "bio.email"
+  ],
+  "quality_flags": [
+    "summary_not_enough_evidence",
+    "template_detected",
+    "unsupported_fields_nullified"
+  ]
+}

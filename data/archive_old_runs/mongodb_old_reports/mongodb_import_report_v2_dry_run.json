@@ -1,0 +1,349 @@
+{
+  "generated_at_utc": "2026-05-04T14:35:36.818744+00:00",
+  "execution_mode": "dry_run",
+  "strategy_version": "dedup_v2_two_collections",
+  "module2_root": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection",
+  "accepted_path": "data\\processed_official_module1\\handoff\\accepted.json",
+  "report_path": "data\\mongodb_import_report_v2_dry_run.json",
+  "database_used": "talent_intelligence",
+  "mongodb_uri": "mongodb://localhost:27017",
+  "candidates_collection_used": "candidates",
+  "candidate_profiles_collection_used": "candidate_profiles",
+  "total_json_read": 16,
+  "success_profiles": 16,
+  "success_ready_for_import": 16,
+  "failed_ignored": 0,
+  "candidate_profiles_to_import": 16,
+  "candidates_to_create": 13,
+  "real_email_count": 11,
+  "generic_email_count": 0,
+  "missing_email_count": 5,
+  "phones_detected": 12,
+  "real_phone_count": 9,
+  "linkedin_detected_count": 0,
+  "github_detected_count": 0,
+  "strong_merges_count": 2,
+  "possible_duplicates_count": 1,
+  "conflicts_count": 1,
+  "risky_merges_prevented": [],
+  "groups_auto_merged": [
+    {
+      "candidate_id": "candidate_a3c2a6c7cdc8",
+      "dedup_level": "A",
+      "dedup_status": "auto_merged",
+      "dedup_confidence": 0.98,
+      "dedup_evidence": {
+        "type": "real_email",
+        "value": "suibguikhairi2021@gmail.com",
+        "level": "A",
+        "rule": "A: identical real_email and no obvious identity conflict"
+      },
+      "profile_count": 2,
+      "profiles": [
+        {
+          "profile_id": "profile_a4bc7ce01a29",
+          "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection\\docx_resume_khairi.json",
+          "source_path": "data\\raw_cv\\docx\\resume_khairi.docx",
+          "artifact_path": "data\\processed_official_module1\\docx\\resume_khairi.json",
+          "source_format": "docx",
+          "profile_kind": "complete_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Khaireddine Suibgui",
+          "email_raw": "suibguikhairi 2021@gmail.com",
+          "email_normalized": "suibguikhairi2021@gmail.com",
+          "email_class": "real",
+          "phone_raw": "216 55470669",
+          "phone_normalized": "21655470669",
+          "phone_class": "real",
+          "location": null,
+          "source_id": "data\\processed_official_module1\\docx\\resume_khairi.json",
+          "schools": [
+            "TEK-UP University - Ariana",
+            "FSM - Monastir",
+            "Pioneer School of Kasserine"
+          ]
+        },
+        {
+          "profile_id": "profile_e558bf1890f2",
+          "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection\\pdf_khairi_resume.json",
+          "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\khairi_resume.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Khaireddine Suibgui",
+          "email_raw": "suibguikhairi 2021@gmail.com",
+          "email_normalized": "suibguikhairi2021@gmail.com",
+          "email_class": "real",
+          "phone_raw": "+216 55470669",
+          "phone_normalized": "21655470669",
+          "phone_class": "real",
+          "location": "El Ghazela, Ariana",
+          "source_id": "data\\processed_official_module1\\pdf\\khairi_resume.json",
+          "schools": [
+            "TEK-UP University, Ariana",
+            "Pioneer School of Kasserine"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate_850913e4d2fe",
+      "dedup_level": "A",
+      "dedup_status": "auto_merged",
+      "dedup_confidence": 0.95,
+      "dedup_evidence": {
+        "type": "real_phone",
+        "value": "07835150056",
+        "level": "A",
+        "rule": "A: identical real_phone and no obvious identity conflict"
+      },
+      "profile_count": 3,
+      "profiles": [
+        {
+          "profile_id": "profile_0eba04ba978a",
+          "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection\\images_3_image.json",
+          "source_path": "data\\raw_cv\\images\\3_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\3_image.json",
+          "source_format": "images",
+          "profile_kind": "complete_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Emily Saavedra",
+          "email_raw": null,
+          "email_normalized": null,
+          "email_class": "missing",
+          "phone_raw": "07835150056",
+          "phone_normalized": "07835150056",
+          "phone_class": "real",
+          "location": null,
+          "source_id": "data\\processed_official_module1\\images\\3_image.json",
+          "schools": [
+            "Mathematics and Statistics University of Chichester",
+            "The International School Estepona"
+          ]
+        },
+        {
+          "profile_id": "profile_dfb613ef8ce2",
+          "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection\\images_4_image.json",
+          "source_path": "data\\raw_cv\\images\\4_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\4_image.json",
+          "source_format": "images",
+          "profile_kind": "complete_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Emily Saavedra",
+          "email_raw": null,
+          "email_normalized": null,
+          "email_class": "missing",
+          "phone_raw": "07835150056",
+          "phone_normalized": "07835150056",
+          "phone_class": "real",
+          "location": null,
+          "source_id": "data\\processed_official_module1\\images\\4_image.json",
+          "schools": [
+            "Mathematics and Statistics University of Chichester",
+            "The International School Estepona"
+          ]
+        },
+        {
+          "profile_id": "profile_7ed301b399ac",
+          "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection\\images_6_image.json",
+          "source_path": "data\\raw_cv\\images\\6_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\6_image.json",
+          "source_format": "images",
+          "profile_kind": "complete_profile",
+          "provider_route": "ollama_local",
+          "full_name": "EMILYSAAVEDRA",
+          "email_raw": "emilysaavedra@gmail.com",
+          "email_normalized": "emilysaavedra@gmail.com",
+          "email_class": "real",
+          "phone_raw": "07835150056",
+          "phone_normalized": "07835150056",
+          "phone_class": "real",
+          "location": "",
+          "source_id": "data\\processed_official_module1\\images\\6_image.json",
+          "schools": [
+            "The International School Estepona",
+            "University of Chichester"
+          ]
+        }
+      ]
+    }
+  ],
+  "groups_not_merged": [
+    {
+      "dedup_status": "possible_duplicate_needs_review",
+      "possible_duplicate_type": "same_normalized_name",
+      "evidence": {
+        "value": "khaireddinesuibgui"
+      },
+      "reason": "Same normalized name but not enough strong evidence for automatic merge.",
+      "profile_count": 3,
+      "profiles": [
+        {
+          "profile_id": "profile_a4bc7ce01a29",
+          "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection\\docx_resume_khairi.json",
+          "source_path": "data\\raw_cv\\docx\\resume_khairi.docx",
+          "artifact_path": "data\\processed_official_module1\\docx\\resume_khairi.json",
+          "source_format": "docx",
+          "profile_kind": "complete_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Khaireddine Suibgui",
+          "email_raw": "suibguikhairi 2021@gmail.com",
+          "email_normalized": "suibguikhairi2021@gmail.com",
+          "email_class": "real",
+          "phone_raw": "216 55470669",
+          "phone_normalized": "21655470669",
+          "phone_class": "real",
+          "location": null,
+          "source_id": "data\\processed_official_module1\\docx\\resume_khairi.json",
+          "schools": [
+            "TEK-UP University - Ariana",
+            "FSM - Monastir",
+            "Pioneer School of Kasserine"
+          ]
+        },
+        {
+          "profile_id": "profile_4338a139faef",
+          "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection\\images_khairi_image.json",
+          "source_path": "data\\raw_cv\\images\\khairi_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\khairi_image.json",
+          "source_format": "images",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Khaireddine Suibgui",
+          "email_raw": "2021@gmail.com",
+          "email_normalized": "2021@gmail.com",
+          "email_class": "real",
+          "phone_raw": "+21655470669",
+          "phone_normalized": "21655470669",
+          "phone_class": "real",
+          "location": "El Ghazela, Ariana",
+          "source_id": "data\\processed_official_module1\\images\\khairi_image.json",
+          "schools": [
+            "TEK-UP University - Ariana, Data Science",
+            "Pioneer School of Kasserine-Kasserine"
+          ]
+        },
+        {
+          "profile_id": "profile_e558bf1890f2",
+          "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection\\pdf_khairi_resume.json",
+          "source_path": "data\\raw_cv\\pdf\\khairi_resume.pdf",
+          "artifact_path": "data\\processed_official_module1\\pdf\\khairi_resume.json",
+          "source_format": "pdf",
+          "profile_kind": "partial_profile",
+          "provider_route": "ollama_local",
+          "full_name": "Khaireddine Suibgui",
+          "email_raw": "suibguikhairi 2021@gmail.com",
+          "email_normalized": "suibguikhairi2021@gmail.com",
+          "email_class": "real",
+          "phone_raw": "+216 55470669",
+          "phone_normalized": "21655470669",
+          "phone_class": "real",
+          "location": "El Ghazela, Ariana",
+          "source_id": "data\\processed_official_module1\\pdf\\khairi_resume.json",
+          "schools": [
+            "TEK-UP University, Ariana",
+            "Pioneer School of Kasserine"
+          ]
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "conflict_type": "real_email_name_conflict",
+      "evidence": {
+        "email": "1512@gmail.com"
+      },
+      "reason": "Same real email but materially different names; no automatic candidate merge.",
+      "name_conflicts": [
+        {
+          "left": "Hichem Bensalah",
+          "right": "O Ariana, Tunisia",
+          "similarity": 0.2857
+        }
+      ],
+      "profiles": [
+        {
+          "profile_id": "profile_bcffa3bb70fb",
+          "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection\\docx_Hichem_resume.json",
+          "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+          "artifact_path": "data\\processed_official_module1\\docx\\Hichem_resume.json",
+          "source_format": "docx",
+          "profile_kind": "complete_profile",
+          "provider_route": "groq_secondary",
+          "full_name": "Hichem Bensalah",
+          "email_raw": "1512@gmail.com",
+          "email_normalized": "1512@gmail.com",
+          "email_class": "real",
+          "phone_raw": "+216 97 118 755",
+          "phone_normalized": "21697118755",
+          "phone_class": "real",
+          "location": "Ariana, Tunisia",
+          "source_id": "data\\processed_official_module1\\docx\\Hichem_resume.json",
+          "schools": [
+            "Tek-Up University",
+            "ENIG Gabès",
+            "FSS Sfax",
+            "Skhira–Sfax"
+          ]
+        },
+        {
+          "profile_id": "profile_55f949a128da",
+          "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\legacy_projection\\images_Hichem_image.json",
+          "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+          "artifact_path": "data\\processed_official_module1\\images\\Hichem_image.json",
+          "source_format": "images",
+          "profile_kind": "complete_profile",
+          "provider_route": "ollama_local",
+          "full_name": "O Ariana, Tunisia",
+          "email_raw": "1512@gmail.com",
+          "email_normalized": "1512@gmail.com",
+          "email_class": "real",
+          "phone_raw": null,
+          "phone_normalized": null,
+          "phone_class": "missing",
+          "location": "O Ariana, Tunisia",
+          "source_id": "data\\processed_official_module1\\images\\Hichem_image.json",
+          "schools": [
+            "Tek-Up University",
+            "ENIG Gabes",
+            "FSS Sfax",
+            "Skhira-Sfax"
+          ]
+        }
+      ]
+    }
+  ],
+  "old_unique_candidates_count": 66,
+  "new_candidates_count": 13,
+  "profile_documents_count": 16,
+  "complete_profile_ready_for_import": 11,
+  "partial_profile_ready_for_import": 4,
+  "complete_profile_imported": 0,
+  "partial_profile_imported": 0,
+  "candidate_profiles_created": 0,
+  "candidate_profiles_updated": 0,
+  "candidate_profiles_upserted": 0,
+  "candidates_created": 0,
+  "candidates_updated": 0,
+  "candidates_upserted": 0,
+  "status_counts": {
+    "success": 16
+  },
+  "profile_kind_counts": {
+    "complete_profile": 11,
+    "minimal_profile": 1,
+    "partial_profile": 4
+  },
+  "provider_route_counts": {
+    "groq_secondary": 2,
+    "ollama_local": 14
+  },
+  "errors_import": [],
+  "failed_ignored_items": [],
+  "recommendation": {
+    "can_execute_after_validation": true,
+    "summary": "Dry-run uses two collections: every successful Module 2 JSON is preserved in candidate_profiles, while candidates is a conservative consolidated view. Generic/template emails are not used as automatic merge keys."
+  }
+}

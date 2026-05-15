@@ -1,0 +1,66 @@
+{
+  "generated_at_utc": "2026-05-14T22:21:11.780588+00:00",
+  "total_rows": 250,
+  "label_distribution": {
+    "0": 197,
+    "1": 43,
+    "2": 6,
+    "3": 4
+  },
+  "label_percentages": {
+    "0": 78.8,
+    "1": 17.2,
+    "2": 2.4,
+    "3": 1.6
+  },
+  "positive_count": 10,
+  "positive_rate": 4.0,
+  "rows_per_job": {
+    "backend_python_fastapi_mongodb": 50,
+    "data_engineer_python_sql": 50,
+    "devops_docker_kubernetes": 50,
+    "frontend_react_nextjs": 50,
+    "fullstack_react_node_mongodb": 50
+  },
+  "distribution_per_job": {
+    "backend_python_fastapi_mongodb": {
+      "0": 42,
+      "1": 5,
+      "2": 1,
+      "3": 2
+    },
+    "data_engineer_python_sql": {
+      "0": 21,
+      "1": 24,
+      "2": 3,
+      "3": 2
+    },
+    "devops_docker_kubernetes": {
+      "0": 46,
+      "1": 2,
+      "2": 2,
+      "3": 0
+    },
+    "frontend_react_nextjs": {
+      "0": 45,
+      "1": 5,
+      "2": 0,
+      "3": 0
+    },
+    "fullstack_react_node_mongodb": {
+      "0": 43,
+      "1": 7,
+      "2": 0,
+      "3": 0
+    }
+  },
+  "jobs": [
+    "backend_python_fastapi_mongodb",
+    "data_engineer_python_sql",
+    "devops_docker_kubernetes",
+    "frontend_react_nextjs",
+    "fullstack_react_node_mongodb"
+  ],
+  "labeling_strategy": "multi_criteria_v2",
+  "methodology_warning": "Ces labels sont des pseudo-labels métier contrôlés et non des labels recruteur."
+}

@@ -1,0 +1,148 @@
+{
+  "source_path": "data\\raw_cv\\images\\8_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\8_image.json",
+  "source_format": "images",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.589,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nRESUME OBJECTIVE\nSKILLS\nPHP/Rubyon Rails/Java/C++/Python\nMySQL/SQ Lite 3/MongoDB/JSON\nLeadership\nCollaboration\nHandling Pressure\nProblem Solving\nData Mining\nData Management\n\n## PROFESSIONAL SUMMARY\n\nData Scientistwith 5+yearsofexperience executingdata-drivensolutionstoincreaseefficiency. accuracy, and utilityof internal dataprocessing. Experiencedatcreatingdataregressionmodels usingpredictivedatamodeling. andanalyzingdataminingalgorithmsto deliverinsightsand implementaction-orientedsolutionstocomplexbusinessproblems.\n\n## PROFESSIONAL EXPERIENCE\n\n## DATASCIENTIST\n- Microsoft Tucson, AZ/September 2015-Present\n- industrytrends, achievinga 15%moreaccuratepredictionofperformancethanpreviousyears\n- Utilizewebscrapingtechniquestoextractandorganizecompetitordata\n- Updatecompanydatawarehousingtechniquessuchasdatarecallandsegmentation, resulting ina 20%increaseinusabilityfornon-technicalstaffmembers\n- Modernizedatastreamliningprocesses, resultingina 25%redundancyreduction\n## DATASCIENTIST\n- Hewlett-Packard, San Francisco, CA/june 2013-August 2015\n- Improveddata miningprocesses, resultingina 20%decreaseintimeneeded toinferinsights fromcustomerdataused todevelopmarketingstrategies\n- Usedpredictiveanalyticssuchasmachinelearninganddataminingtechniquestoforecast companysalesofnewproductswitha 95%accuracyrate\n- Increaseddatasecuritybyupdatingcompanywideencryption, steganography. I Psecurity, and Securewireless missionpractices\nHEADER\nRESUMEOBJECTIVE\nSKILLS\nPHP/Rubyon Rails/Java/C++/Python\nMySQL/SQ Lite3/MongoDB/JSON\nLeadership\nCollaboration\nHandling Pressure\nProblem Solving\nData Mining\nData Management\nPROFESSIONAL SUMMARY\nData Scientistwith5+yearsofexperience executingdata-drivensolutionstoincreaseefficiency. accuracy, and utilityof internal dataprocessing. Experiencedatcreatingdataregressionmodels usingpredictivedatamodeling. andanalyzingdataminingalgorithmsto deliverinsightsand implementaction-orientedsolutionstocomplexbusinessproblems.\nPROFESSIONAL EXPERIENCE\nDATASCIENTIST\nMicrosoft Tucson, AZ/September2015-Present\nindustrytrends, achievinga15%moreaccuratepredictionofperformancethanpreviousyears\nUtilizewebscrapingtechniquestoextractandorganizecompetitordata\nUpdatecompanydatawarehousingtechniquessuchasdatarecallandsegmentation, resulting ina20%increaseinusabilityfornon-technicalstaffmembers\nModernizedatastreamliningprocesses, resultingina25%redundancyreduction\nDATASCIENTIST\nHewlett-Packard, San Francisco, CA/june2013-August2015\nImproveddata miningprocesses, resultingina20%decreaseintimeneeded toinferinsights fromcustomerdataused todevelopmarketingstrategies\nUsedpredictiveanalyticssuchasmachinelearninganddataminingtechniquestoforecast companysalesofnewproductswitha95%accuracyrate\nIncreaseddatasecuritybyupdatingcompanywideencryption, steganography. I Psecurity, and Securewireless missionpractices",
+    "header_info": {
+      "full_name": "RESUME OBJECTIVE",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9178,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Data Scientist",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Data Scientist with 5+ years of experience executing data-driven solutions to increase efficiency, accuracy, and utility of internal data processing.",
+      "experience_level": "mid",
+      "years_experience": "5+",
+      "hard_skills": [
+        "PHP",
+        "Ruby on Rails",
+        "Java",
+        "C++",
+        "Python",
+        "MySQL",
+        "SQ Lite 3",
+        "MongoDB",
+        "JSON"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Collaboration",
+        "Handling Pressure",
+        "Problem Solving",
+        "Data Mining",
+        "Data Management"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Microsoft Tucson, AZ",
+        "job_title": "DATASCIENTIST",
+        "start_date": "September 2015",
+        "end_date": "Present",
+        "city": "Tucson, AZ",
+        "responsibilities": [
+          "Achieving a 15% more accurate prediction of performance than previous years"
+        ]
+      },
+      {
+        "company": "Hewlett-Packard, San Francisco, CA",
+        "job_title": "DATASCIENTIST",
+        "start_date": "June 2013",
+        "end_date": "August 2015",
+        "city": "San Francisco, CA",
+        "responsibilities": []
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T14:09:18.371052+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:24.466196+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

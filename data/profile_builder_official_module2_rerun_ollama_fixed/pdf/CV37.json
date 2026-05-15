@@ -1,0 +1,66 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV37.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV37.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:CV37",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "JefferyGorczany",
+      "email": null,
+      "phone": null,
+      "location": "56009 MACGYVERPARKWAY, PHILADELPHIA, PA"
+    },
+    "expertise": {
+      "summary": "Data science director with expertise in statistical algorithms development and predictive modeling using Python and AWS.",
+      "hard_skills": [
+        "Python"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Negotiation",
+        "Problem-solving skills"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "01/2020",
+        "end_date": null,
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "Experience directing or managing small to medium projects",
+          "Hands-on experience in Python with the focus being on statistical algorithms development"
+        ]
+      },
+      {
+        "job_title": "Data Science",
+        "company": "BERGSTROMINC",
+        "start_date": null,
+        "end_date": null,
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "Extensive experience using statistics, mathematics, algorithms and programming languages to solve big data challenges"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's in Computer Science",
+        "school": "RHODEISLANDSCHOOLOFDESIGN",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:54:27.280381+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7026
+    }
+  }
+}

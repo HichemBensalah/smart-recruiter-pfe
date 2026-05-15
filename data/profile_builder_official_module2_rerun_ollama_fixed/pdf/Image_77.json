@@ -1,0 +1,78 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_77.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_77.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T122218Z",
+  "profile": {
+    "source_id": "pdf:Image_77",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "MARKUSROHAN",
+      "email": null,
+      "phone": null,
+      "location": "79608 Cliff Lights, Los Angeles, CA"
+    },
+    "expertise": {
+      "summary": "Manage data science projects, lead teams, and collaborate with executives to drive business impact through data-driven insights.",
+      "hard_skills": [
+        "Python",
+        "Azure",
+        "Google",
+        "Hadoop/Hive",
+        "Tableau",
+        "Qlik View",
+        "NumPy"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Leadership"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Data Science",
+        "company": "Wunsch, StarkanDBaumbach",
+        "start_date": "07/2018",
+        "end_date": null,
+        "city": "Phoenix, AZ",
+        "responsibilities": [
+          "Manage direct reports across all levels to encourage professional development while providing daily supervision and guidance",
+          "Experience in marketing mix modeling and optimization",
+          "Experience working with open source technologies and communities for innovative solutions"
+        ]
+      },
+      {
+        "job_title": "Data Science Intern",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conducted analyses to drive business impact",
+          "Interacted with other departments as directed to complete assigned tasks"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's in Computer Science",
+        "school": "Rhodes School of Design",
+        "year": null
+      },
+      {
+        "degree": "Graduate Student in Epidemiology, Biomedical Engineering program",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T12:46:07.550143+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7905
+    }
+  }
+}

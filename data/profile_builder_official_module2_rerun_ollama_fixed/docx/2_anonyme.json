@@ -1,0 +1,57 @@
+{
+  "source_path": "data\\raw_cv\\docx\\2_anonyme.docx",
+  "artifact_path": "data\\processed_official_module1\\docx\\2_anonyme.json",
+  "source_format": "docx",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T130837Z",
+  "profile": {
+    "source_id": "docx:2_anonyme",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": "null"
+    },
+    "expertise": {
+      "summary": "Making strategic judgments and evaluating the impact in Cloud Environments Design & Implementation, Network Design & Implementation VOIP, Cyber Security (NIST HITRUST/HIPAA), Project Management, Technical Support Management, Budget Manag...",
+      "hard_skills": [
+        "Project Management"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "VP of Operations at Adsystech 2020-Present, IT Manager at Relax the Back 2017-2020",
+        "company": "Adsystech",
+        "start_date": "2004",
+        "end_date": "2021",
+        "city": "San Diego CALIFORNIA 92128-4505",
+        "responsibilities": [
+          "Managing a large IT environment with ~10,000 Saas.",
+          "Assigning clear authority and holding others accountable for goal achievement.",
+          "Co laborating with clients and fostering a positive business relationship to meet all levels of IT service demands (Technical, R & D and operations and maintenance)"
+        ]
+      },
+      {
+        "job_title": "IT Manager at Relax the Back",
+        "company": "Relax the Back 2017-2020",
+        "start_date": null,
+        "end_date": "null",
+        "city": null,
+        "responsibilities": [
+          "Skils"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-04-27T13:22:50.049109+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7653
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV34.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV34.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "info@qwikresume.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Robert Smith",
+      "email": "info@qwikresume.com",
+      "phone": "123)-456-7899",
+      "location": "www.qwikresume.com"
+    },
+    "expertise": {
+      "summary": "Data Scientist Trainee",
+      "hard_skills": [
+        "Data Architecture",
+        "Data Modeling"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist Trainee",
+        "company": "ABCCorporation",
+        "start_date": "March 2014",
+        "end_date": "April 2016",
+        "city": null,
+        "responsibilities": [
+          "Model complex mobile carrier problems",
+          "Integrate live data from multiple network protocols"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:32:28.956223+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8455
+    }
+  }
+}

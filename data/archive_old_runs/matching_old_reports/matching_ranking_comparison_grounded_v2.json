@@ -1,0 +1,445 @@
+{
+  "old_report": "data\\matching_single_job_report_after_fix.json",
+  "new_report": "data\\matching_single_job_report_grounded_v2.json",
+  "old_top10_names": [
+    "Hichem Bensalah",
+    "MOHAMED AZIZ BELAWEID",
+    "JefferyGorczany",
+    "Candidate (ID: candidate_f9f052160651)",
+    "Wenzhe(Evelyn)Xu",
+    "JESSICACLAIRE",
+    "Candidate (ID: candidate_c6a411e09ae7)",
+    "MILDREDZEMLAK",
+    "Candidate (ID: candidate_ef0e8855357d)",
+    "Candidate (ID: candidate_e25119c3eefc)"
+  ],
+  "new_top10_names": [
+    "Hichem Bensalah",
+    "O Ariana, Tunisia",
+    "MOHAMED AZIZ BELAWEID",
+    "JEFFERYGORCZANY",
+    "Data Scientist",
+    "RESUME OBJECTIVE",
+    "from Resume Genius",
+    "Markus Rohan",
+    "Justine Hendrickson",
+    "MILDREDZEMLAK"
+  ],
+  "top3_old": [
+    {
+      "candidate_id": "candidate_1487f3187f7b",
+      "matched_profile_id": "profile_f3fbf32693be",
+      "full_name": "Hichem Bensalah",
+      "profile_kind": "complete_profile",
+      "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+      "provider_route": "groq_secondary",
+      "final_score": 0.5749,
+      "base_score_before_penalty": 0.6764,
+      "score_text_similarity": 0.4732,
+      "score_skills": 0.6,
+      "score_experience": 1.0,
+      "score_profile_quality": 0.9439,
+      "must_have_coverage": 0.6,
+      "must_have_penalty_multiplier": 0.85,
+      "must_have_penalty_applied": true,
+      "matched_skills": [
+        "Docker",
+        "MongoDB",
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "REST API"
+      ],
+      "explanation": "Hichem Bensalah matches on Docker, MongoDB, Python. Text similarity=0.47, experience score=1.00. Missing required skills include FastAPI, REST API.",
+      "profile_count": 2,
+      "rank": 1
+    },
+    {
+      "candidate_id": "candidate_206d746034ef",
+      "matched_profile_id": "profile_260f5bc0f7ae",
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "profile_kind": "complete_profile",
+      "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+      "provider_route": "groq_secondary",
+      "final_score": 0.3537,
+      "base_score_before_penalty": 0.5441,
+      "score_text_similarity": 0.5359,
+      "score_skills": 0.4,
+      "score_experience": 0.6667,
+      "score_profile_quality": 0.8995,
+      "must_have_coverage": 0.4,
+      "must_have_penalty_multiplier": 0.65,
+      "must_have_penalty_applied": true,
+      "matched_skills": [
+        "Docker",
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "explanation": "MOHAMED AZIZ BELAWEID matches on Docker, Python. Text similarity=0.54, experience score=0.67. Missing required skills include FastAPI, MongoDB, REST API.",
+      "profile_count": 2,
+      "rank": 2
+    },
+    {
+      "candidate_id": "candidate_a4bef39ff800",
+      "matched_profile_id": "profile_a6427d46204c",
+      "full_name": "JefferyGorczany",
+      "profile_kind": "partial_profile",
+      "source_path": "data\\raw_cv\\pdf\\CV37.pdf",
+      "provider_route": "ollama_local",
+      "final_score": 0.2342,
+      "base_score_before_penalty": 0.5205,
+      "score_text_similarity": 0.5528,
+      "score_skills": 0.2,
+      "score_experience": 1.0,
+      "score_profile_quality": 0.7463,
+      "must_have_coverage": 0.2,
+      "must_have_penalty_multiplier": 0.45,
+      "must_have_penalty_applied": true,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "explanation": "JefferyGorczany matches on Python. Text similarity=0.55, experience score=1.00. Missing required skills include Docker, FastAPI, MongoDB.",
+      "profile_count": 1,
+      "rank": 3
+    }
+  ],
+  "top3_new": [
+    {
+      "candidate_id": "candidate_1487f3187f7b",
+      "matched_profile_id": "profile_bcffa3bb70fb",
+      "full_name": "Hichem Bensalah",
+      "profile_kind": "complete_profile",
+      "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+      "provider_route": "groq_secondary",
+      "final_score": 0.7671,
+      "base_score_before_penalty": 0.7671,
+      "score_text_similarity": 0.4939,
+      "score_skills": 0.8,
+      "score_experience": 1.0,
+      "score_profile_quality": 0.9888,
+      "must_have_coverage": 0.8,
+      "must_have_penalty_multiplier": 1.0,
+      "must_have_penalty_applied": false,
+      "matched_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "Python"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ],
+      "explanation": "Hichem Bensalah matches on Docker, FastAPI, MongoDB, Python. Text similarity=0.49, experience score=1.00. Missing required skills include REST API.",
+      "profile_count": 2,
+      "rank": 1
+    },
+    {
+      "candidate_id": "candidate_8eea1b635447",
+      "matched_profile_id": "profile_55f949a128da",
+      "full_name": "O Ariana, Tunisia",
+      "profile_kind": "complete_profile",
+      "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+      "provider_route": "ollama_local",
+      "final_score": 0.763,
+      "base_score_before_penalty": 0.763,
+      "score_text_similarity": 0.514,
+      "score_skills": 0.8,
+      "score_experience": 1.0,
+      "score_profile_quality": 0.8881,
+      "must_have_coverage": 0.8,
+      "must_have_penalty_multiplier": 1.0,
+      "must_have_penalty_applied": false,
+      "matched_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "Python"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ],
+      "explanation": "O Ariana, Tunisia matches on Docker, FastAPI, MongoDB, Python. Text similarity=0.51, experience score=1.00. Missing required skills include REST API.",
+      "profile_count": 1,
+      "rank": 2
+    },
+    {
+      "candidate_id": "candidate_206d746034ef",
+      "matched_profile_id": "profile_0e54d2a788d4",
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "profile_kind": "complete_profile",
+      "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+      "provider_route": "groq_secondary",
+      "final_score": 0.5362,
+      "base_score_before_penalty": 0.6308,
+      "score_text_similarity": 0.5317,
+      "score_skills": 0.6,
+      "score_experience": 0.6667,
+      "score_profile_quality": 0.9799,
+      "must_have_coverage": 0.6,
+      "must_have_penalty_multiplier": 0.85,
+      "must_have_penalty_applied": true,
+      "matched_skills": [
+        "Docker",
+        "FastAPI",
+        "Python"
+      ],
+      "missing_required_skills": [
+        "MongoDB",
+        "REST API"
+      ],
+      "explanation": "MOHAMED AZIZ BELAWEID matches on Docker, FastAPI, Python. Text similarity=0.53, experience score=0.67. Missing required skills include MongoDB, REST API.",
+      "profile_count": 2,
+      "rank": 3
+    }
+  ],
+  "movements": [
+    {
+      "candidate": "Hichem Bensalah",
+      "old_rank": 1,
+      "new_rank": 1,
+      "old_score": 0.5749,
+      "new_score": 0.7671,
+      "old_missing_required_skills": [
+        "FastAPI",
+        "REST API"
+      ],
+      "new_missing_required_skills": [
+        "REST API"
+      ]
+    },
+    {
+      "candidate": "O Ariana, Tunisia",
+      "old_rank": null,
+      "new_rank": 2,
+      "old_score": null,
+      "new_score": 0.763,
+      "old_missing_required_skills": null,
+      "new_missing_required_skills": [
+        "REST API"
+      ]
+    },
+    {
+      "candidate": "MOHAMED AZIZ BELAWEID",
+      "old_rank": 2,
+      "new_rank": 3,
+      "old_score": 0.3537,
+      "new_score": 0.5362,
+      "old_missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "new_missing_required_skills": [
+        "MongoDB",
+        "REST API"
+      ]
+    },
+    {
+      "candidate": "JEFFERYGORCZANY",
+      "old_rank": null,
+      "new_rank": 4,
+      "old_score": null,
+      "new_score": 0.4139,
+      "old_missing_required_skills": null,
+      "new_missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ]
+    },
+    {
+      "candidate": "Data Scientist",
+      "old_rank": null,
+      "new_rank": 5,
+      "old_score": null,
+      "new_score": 0.3881,
+      "old_missing_required_skills": null,
+      "new_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "REST API"
+      ]
+    },
+    {
+      "candidate": "RESUME OBJECTIVE",
+      "old_rank": null,
+      "new_rank": 6,
+      "old_score": null,
+      "new_score": 0.3867,
+      "old_missing_required_skills": null,
+      "new_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "REST API"
+      ]
+    },
+    {
+      "candidate": "from Resume Genius",
+      "old_rank": null,
+      "new_rank": 7,
+      "old_score": null,
+      "new_score": 0.3764,
+      "old_missing_required_skills": null,
+      "new_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "REST API"
+      ]
+    },
+    {
+      "candidate": "Markus Rohan",
+      "old_rank": null,
+      "new_rank": 8,
+      "old_score": null,
+      "new_score": 0.3712,
+      "old_missing_required_skills": null,
+      "new_missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ]
+    },
+    {
+      "candidate": "Justine Hendrickson",
+      "old_rank": null,
+      "new_rank": 9,
+      "old_score": null,
+      "new_score": 0.2355,
+      "old_missing_required_skills": null,
+      "new_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ]
+    },
+    {
+      "candidate": "MILDREDZEMLAK",
+      "old_rank": 8,
+      "new_rank": 10,
+      "old_score": 0.2259,
+      "new_score": 0.2316,
+      "old_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "new_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ]
+    },
+    {
+      "candidate": "JefferyGorczany",
+      "old_rank": 3,
+      "new_rank": null,
+      "old_score": 0.2342,
+      "new_score": null,
+      "old_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "new_missing_required_skills": null
+    },
+    {
+      "candidate": "Candidate (ID: candidate_f9f052160651)",
+      "old_rank": 4,
+      "new_rank": null,
+      "old_score": 0.229,
+      "new_score": null,
+      "old_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "new_missing_required_skills": null
+    },
+    {
+      "candidate": "Wenzhe(Evelyn)Xu",
+      "old_rank": 5,
+      "new_rank": null,
+      "old_score": 0.228,
+      "new_score": null,
+      "old_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "new_missing_required_skills": null
+    },
+    {
+      "candidate": "JESSICACLAIRE",
+      "old_rank": 6,
+      "new_rank": null,
+      "old_score": 0.2267,
+      "new_score": null,
+      "old_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "new_missing_required_skills": null
+    },
+    {
+      "candidate": "Candidate (ID: candidate_c6a411e09ae7)",
+      "old_rank": 7,
+      "new_rank": null,
+      "old_score": 0.2262,
+      "new_score": null,
+      "old_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "new_missing_required_skills": null
+    },
+    {
+      "candidate": "Candidate (ID: candidate_ef0e8855357d)",
+      "old_rank": 9,
+      "new_rank": null,
+      "old_score": 0.2258,
+      "new_score": null,
+      "old_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "new_missing_required_skills": null
+    },
+    {
+      "candidate": "Candidate (ID: candidate_e25119c3eefc)",
+      "old_rank": 10,
+      "new_rank": null,
+      "old_score": 0.2253,
+      "new_score": null,
+      "old_missing_required_skills": [
+        "Docker",
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "new_missing_required_skills": null
+    }
+  ]
+}

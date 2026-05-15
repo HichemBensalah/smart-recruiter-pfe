@@ -1,0 +1,82 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV32.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV32.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:CV32",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Kenny Gruchalla",
+      "email": null,
+      "phone": "303-275-3713",
+      "location": "Denver, CO"
+    },
+    "expertise": {
+      "summary": "Senior Scientist & Adjunct Professor in Computer Science at the University of Colorado Boulder.",
+      "hard_skills": [
+        "Progressive Visualization",
+        "Multivariate Feature Definition and Analysis"
+      ],
+      "soft_skills": [
+        "Immersive Well-Path Planning"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Senior Scientist",
+        "company": "National Renewable Energy Laboratory (NREL)",
+        "start_date": "Jun 2009",
+        "end_date": null,
+        "city": "Golden, CO",
+        "responsibilities": [
+          "Scientific data visualization efforts supporting renewable energy research"
+        ]
+      },
+      {
+        "job_title": "Assistant Professor (Adjunct)",
+        "company": "University of Colorado at Boulder",
+        "start_date": "Apr 2001",
+        "end_date": "Apr 2011",
+        "city": "Boulder, CO",
+        "responsibilities": [
+          "Research and overseen student research in scientific data visualization"
+        ]
+      },
+      {
+        "job_title": "Professional Research Assistant",
+        "company": "CPCforAdvancedDecisionSupportforWaterandEnvironmentalSystems",
+        "start_date": "Jan 2004",
+        "end_date": "Aug 2004",
+        "city": "Golden, CO",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "University of Colorado Boulder",
+        "year": "Ph.D."
+      },
+      {
+        "degree": null,
+        "school": "University of Colorado Boulder",
+        "year": "M.S."
+      },
+      {
+        "degree": null,
+        "school": "University of Colorado Boulder",
+        "year": "B.S."
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:30:31.252569+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7321
+    }
+  }
+}

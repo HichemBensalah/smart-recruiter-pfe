@@ -1,0 +1,146 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_75.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_75.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7961,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSomik Raha\n1329 Park Drive#12, Mountain View, CA 94040\nPhone: 650-450-8246, E-mail: somik@stanford.edu\nPower Statement\n\n## EDUCATION\n\n## STANFORDUNIVERSITY, USA\n- Sep 2004-Jun 2010\nPh. D.(Decision Analysis -GPA 3. 875), dissertation title: \"Achieving Clarity on Value, Masters in Mgmt Sc. & Engg. (Org Behavior & Strategy)\n## BANGALOREINTITUTEOFTECHNOLOGY, Bangalore, India\n**Date: ** Sep 1995-Aug 1999\n- Defects\n- Designedonlineversionof Portfolio Gameforexecutiveeducation\n- Simplified architecture ofcore decision analysismodule of Smart Org's flagshipproduct\n## Strategic Decisions Group, Palo Alto, CA\n**Date: ** July 2008-Sep 2008\n## Summer Intern\n\n## ACADEMIC PROJECTS\n\nRelevant Courses: Decision Analysis I, II & IIl, Strategy for Hi-Tech Companies, Org. Behavior and Mgmt., Org. Design for Projects & Companies, Probabilistic Analysis, Optimization, Quantitative Analysis\nOther Research: Credit Risk Modelling(O 7), Global Teamwork (Dr. Fruchter, Win 05-Spr 06)\nProjects: Strategy Analysis for Danoo, Decision model for Daimler Chrysler engineering decisions, Brainstorm tool for Intel, Strategy Analysisfor Google\nBachelor of Engineering, Computer Science & Engineering, Graduated First Classwith Distinction\n- Developedvaluationframeworkfortacticaldecisionsinvolvingforestconservationinthe Amazon\n- Provided clarity of action to the decision team and made the decisionprocess transparent\n- Helped with testing strategy tomake complex mathematical logic more testable and transparent\nCreated 1\"versionof Decision Professionals Network(DPN), nowcalled Society of Decision Professionals\n**Date: ** July 2007-Sep 2007\n\n## PROFESSIONAL EXPERIENCE\n\n## The Gordon & Betty Moore Foundation, Palo Alto, CA\n**Date: ** Jul 2010-Present\n- Consultant\n- framework(Reductionof Emissionsfrom Deforestation and Degradation)\n## Smart Org, Inc., Menlo Park, CA\n**Date: ** Jun 2009-Sep 2009\n## Summer Intern\n\n## TECHNICAL SKILLS\n\nUtilized Decision Analysis and Software engineering experience to manage development process of DPN\nNucleus Software & Exports Ltd., Noida, India\nDecisionand Risk Analyst(Summer Internship)\nModeled business strategy decision on pricing new products\nModeledcreditriskandoperationalriskfor BASEL 2 compliance\nModeledsoftwareprocess adoptiondecision\nModeled HRrecruitmentdecision\nHEADER\nSomikRaha\n1329ParkDrive#12, MountainView, CA94040\nPhone: 650-450-8246, E-mail: somik@stanford.edu\nPower Statement\nEDUCATION\nSTANFORDUNIVERSITY, USA\nSep2004-Jun2010\nPh.D.(Decision Analysis -GPA 3.875), dissertation title: \"Achieving Clarity on Value, Masters in Mgmt Sc.& Engg. (Org Behavior & Strategy)\nBANGALOREINTITUTEOFTECHNOLOGY, Bangalore, India\nSep 1995-Aug 1999\nDefects\nDesignedonlineversionofPortfolioGameforexecutiveeducation\nSimplified architecture ofcore decision analysismodule ofSmartOrg's flagshipproduct\nStrategicDecisions Group, PaloAlto, CA\nJuly 2008-Sep 2008\nSummer Intern\nACADEMIC PROJECTS\nRelevant Courses: Decision Analysis I, II & IIl, Strategy for Hi-Tech Companies, Org. Behavior and Mgmt., Org. Design for Projects & Companies, Probabilistic Analysis, Optimization, Quantitative Analysis\nOtherResearch: Credit Risk Modelling(O7), Global Teamwork (Dr.Fruchter, Win 05-Spr 06)\nProjects: Strategy Analysis for Danoo, Decision model for Daimler Chrysler engineering decisions, Brainstorm tool for Intel, Strategy Analysisfor Google\nBachelor ofEngineering, ComputerScience&Engineering, GraduatedFirst ClasswithDistinction\nDevelopedvaluationframeworkfortacticaldecisionsinvolvingforestconservationintheAmazon\nProvided clarity of action to the decision team and made the decisionprocess transparent\nHelped with testing strategy tomake complex mathematical logic more testable and transparent\nCreated1\"versionof DecisionProfessionalsNetwork(DPN), nowcalledSociety of DecisionProfessionals\nJuly 2007-Sep 2007\nPROFESSIONAL EXPERIENCE\nTheGordon&BettyMooreFoundation, PaloAlto, CA\nJul 2010-Present\nConsultant\nframework(ReductionofEmissionsfromDeforestation andDegradation)\nSmartOrg, Inc., Menlo Park, CA\nJun 2009-Sep 2009\nSummer Intern\nTECHNICAL SKILLS\nUtilized Decision Analysis and Software engineering experience to manage development process of DPN\nNucleusSoftware&ExportsLtd., Noida, India\nDecisionandRiskAnalyst(SummerInternship)\nModeled business strategy decision on pricing new products\nModeledcreditriskandoperationalriskforBASEL2compliance\nModeledsoftwareprocess adoptiondecision\nModeledHRrecruitmentdecision",
+    "header_info": {
+      "full_name": "Somik Raha",
+      "email": "somik@stanford.edu",
+      "phone": "650-450-8246",
+      "location": "1329 Park Drive#12, Mountain View, CA 94040",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9592,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Somik Raha",
+      "email": "somik@stanford.edu",
+      "phone": "650-450-8246",
+      "location": "1329 Park Drive#12, Mountain View, CA 94040",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 17,
+      "hard_skills": [
+        "Decision Analysis",
+        "Software engineering"
+      ],
+      "soft_skills": [
+        "Clarity of action",
+        "Testing strategy"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "The Gordon & Betty Moore Foundation, Palo Alto, CA",
+        "job_title": "Consultant",
+        "start_date": "Jul 2010",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "framework(Reduction of Emissions from Deforestation and Degradation)"
+        ]
+      },
+      {
+        "company": "Smart Org, Inc., Menlo Park, CA",
+        "job_title": "Summer Intern",
+        "start_date": "Jun 2009",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Modeled business strategy decision on pricing new products"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Stanford University, USA",
+        "degree": "Ph. D.(Decision Analysis)",
+        "field": "Decision Analysis",
+        "year": 2010
+      },
+      {
+        "institution": "Bangalore Institute of Technology, Bangalore, India",
+        "degree": null,
+        "field": null,
+        "year": 1999
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T11:54:13.762220+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:30.256963+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

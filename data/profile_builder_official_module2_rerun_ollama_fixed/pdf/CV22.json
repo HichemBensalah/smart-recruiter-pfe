@@ -1,0 +1,84 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV22.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV22.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "warren.taylor@gmail.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Warren Taylor",
+      "email": "warren.taylor@gmail.com",
+      "phone": null,
+      "location": "Ithaca, New York"
+    },
+    "expertise": {
+      "summary": "Data scientist with experience in developing innovative applications",
+      "hard_skills": [
+        "Python",
+        "NLTK",
+        "Open CV",
+        "SPSS",
+        "STATA",
+        "Power BI",
+        "Spotfire",
+        "Matplotlib"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Motivation to learn",
+        "Result-oriented",
+        "Analytical mind",
+        "Enthusiasm & optimism",
+        "Critical Thinking",
+        "Presentation Skills"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "Info Tech Solutions-New York",
+        "start_date": "Oct 2018",
+        "end_date": "Present",
+        "city": "New York",
+        "responsibilities": [
+          "Predict house prices using time series analysis and neural networks",
+          "Identify factors that predict employee performance and benefit from a change in job position using machine learning"
+        ]
+      },
+      {
+        "job_title": "Data Scientist Consultant",
+        "company": "JPMorgan Asset Management-Florida",
+        "start_date": "May 2018",
+        "end_date": "Sep 2018",
+        "city": "Florida",
+        "responsibilities": [
+          "Predicting the stock price using sentiment analysis model",
+          "Finding daily stock market patterns and creating a meaningful solution to the business",
+          "Identifying multi-bagger stocks using machine learning and AI"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Computer Application",
+        "school": "Cornell University-Ithaca, New York",
+        "year": "2019"
+      },
+      {
+        "degree": "Bachelor of Computer Science",
+        "school": null,
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:55:50.920387+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7508
+    }
+  }
+}

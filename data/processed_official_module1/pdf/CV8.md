@@ -1,0 +1,34 @@
+## HEADER
+
+RESUME OBJECTIVE
+
+## PROFESSIONAL EXPERIENCE
+
+Data Scientistwith 5+yearsofexperience executingdata-driven solutionstoincreaseefficiency accuracy. and utility ofinternal data processing. Experienced atcreatingdataregression models,
+- usingpredictive data modeling. and analyzing data miningalgorithms todeliverinsights and implementaction-orientedsolutionstocomplexbusinessproblems.
+- EXPERIENCE
+- DATASCIENTIST
+Microsoft Tucson, AZ/September 2015-Present industry trends, achievinga 15%moreaccurateprediction ofperformance thanpreviousyears
+- Utilizewebscrapingtechniques to extract and organizecompetitor data
+Update company data warehousingtechniquessuch as datarecall andsegmentation, resulting ina 2 o%increaseinusabilityfornon-technical staffmembers
+### Modernize data streamliningprocesses, resultingina 25%redundancyreduction
+- DATASCIENTIST
+### Hewlett-Packard, San Francisco, CA/June 2013-August 2015
+Improved data miningprocesses, resultingina 20% decrease in time needed to inferinsights fromcustomerdataused todevelopmarketingstrategies
+- Usedpredictive analyticssuch asmachine learningand dataminingtechniquesto forecast companysalesofnewproductswitha 95%accuracyrate
+
+## TECHNICAL SKILLS
+
+SKILLS
+PHP/Rubyon Rails/Java/C++/Python
+My SQL/SQLite 3/Mongo DB/JSON
+Leadership
+Collaboration
+Handling Pressure
+Problem Solving
+Data Mining
+Data Management
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Increased data securitybyupdatingcompanywide encryption, steganography, IPsecurity, and securewirelesstransmission practices

@@ -1,0 +1,166 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV3.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV3.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7267,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\n777 Springboard St.#144 Los Angeles, CA 90001\nAlexander Eakins\n(111)111-1111 email@youremail.com\n\n## EDUCATION\n\n## Harvard University-Bachelorof Science, Data Science AUGUST 2011-MAY 2015\n- Springboard-Data Science Certificate\n- MAY 2017\n\n## TECHNICAL SKILLS\n\nSKILLS & KNOWLEDGE\nData mining/processing\nStatistical analysis\nBusinessacumen\nOral/writtencomm\nStrategic planning\nWalnut Festival International Fingerstyle Guitar Championship|ist Place\nWritersofthe Future Contest (S 750 prize)12 nd Place\n\n## LANGUAGES\n\nMySQL\nPython\nPHP\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n\n## SOFT SKILLS\n\nRandom Corp, 141 Random Circle Suite#991 Data Science Intern\nMAY 2017-AUGU 5 T 2018\nReport actionable, statistical, and analyticalinsightsto executivesforeffectivestrategicpositioninginmarket place\nAWARDS\nShadow data scientists and assist in developingalgorithms forpredictivemodeling\nAnalyze andprocess sophisticated data setsusing SAS, MySQL, and Excel\n\n## ACADEMIC PROJECTS\n\nWritepythonscriptsto automateeverydaytaskssuch as organizingdesktopfiles, automaticallyredefiningstrings in MySQL database to promoteconsistency, and creating file and folder structuresfornewprojects\nSpringboard Data Science Course-Data Science Capstone Project: Specialized Analysisof Streaming Platform Patterns\n- MAY 2017\nAnalyzed data from 233 streamersin 30 countries across 5 differentplatformsover 30 days, totalingnearly 3 o 0, 000 hours of streaming\n- Confirmed hypothesis that data supports anupwardtrend ofnight-time streaming\nHEADER\n777 Springboard St.#144 Los Angeles, CA 90001\nAlexander Eakins\n(111)111-1111 email@youremail.com\nEDUCATION\nHarvardUniversity-BachelorofScience, DataScience AUGUST2011-MAY2015\nSpringboard-DataScienceCertificate\nMAY2017\nTECHNICAL SKILLS\nSKILLS&KNOWLEDGE\nData mining/processing\nStatistical analysis\nBusinessacumen\nOral/writtencomm\nStrategic planning\nWalnut Festival International Fingerstyle Guitar Championship|istPlace\nWritersofthe Future Contest (S750prize)12nd Place\nLANGUAGES\nR\nMySQL\nPython\nPHP\nC\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nSOFT SKILLS\nRandom Corp, 141Random CircleSuite#991 DataScienceIntern\nMAY2017-AUGU5T2018\nReport actionable, statistical, and analyticalinsightsto executivesforeffectivestrategicpositioninginmarket place\nAWARDS\nShadow data scientists and assist in developingalgorithms forpredictivemodeling\nAnalyze andprocess sophisticated data setsusingSAS, MySQL, and Excel\nACADEMIC PROJECTS\nWritepythonscriptsto automateeverydaytaskssuch as organizingdesktopfiles, automaticallyredefiningstrings in MySQL database to promoteconsistency, and creating file and folder structuresfornewprojects\nSpringboardDataScience Course-DataScience CapstoneProject: Specialized AnalysisofStreaming PlatformPatterns\nMAY2017\nAnalyzed data from233streamersin30 countries across5 differentplatformsover30 days, totalingnearly3o0, 000 hours of streaming\nConfirmed hypothesis that data supports anupwardtrend ofnight-time streaming",
+    "header_info": {
+      "full_name": "Alexander Eakins",
+      "email": "email@youremail.com",
+      "phone": "111)111-1111",
+      "location": "777 Springboard St.#144 Los Angeles, CA 90001",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [
+      "email@youremail.com"
+    ],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.85,
+    "quality_flags": [
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8687,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Alexander Eakins",
+      "email": null,
+      "phone": "(111)111-1111",
+      "location": "777 Springboard St.#144 Los Angeles, CA 90001",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Data mining/processing",
+        "Statistical analysis",
+        "SAS",
+        "MySQL",
+        "Excel",
+        "Python",
+        "PHP"
+      ],
+      "soft_skills": [
+        "Business acumen",
+        "Oral/written comm",
+        "Strategic planning"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Random Corp",
+        "job_title": "Data Science Intern",
+        "start_date": "MAY 2017",
+        "end_date": "AUGU 5 T 2018",
+        "city": null,
+        "responsibilities": [
+          "Report actionable, statistical, and analytical insights to executives for effective strategic positioning in market place",
+          "Shadow data scientists and assist in developing algorithms for predictive modeling",
+          "Analyze and process sophisticated data sets using SAS, MySQL, and Excel"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Harvard University",
+        "degree": "Bachelor of Science, Data Science",
+        "field": "Data Science",
+        "year": null
+      },
+      {
+        "institution": "Springboard",
+        "degree": "Data Science Certificate",
+        "field": null,
+        "year": "MAY 2017"
+      }
+    ],
+    "languages": [
+      "MySQL",
+      "Python",
+      "PHP"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:41:35.692931+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:28.440023+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

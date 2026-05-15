@@ -1,0 +1,37 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_62.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_62.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T112502Z",
+  "profile": {
+    "source_id": "thompson.rach@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Rachelle Thompson",
+      "email": "thompson.rach@gmail.com",
+      "phone": "912-965-3457",
+      "location": "Madison, I. USA."
+    },
+    "expertise": {
+      "summary": "Data analysis and data science consultant with expertise in strategy development and technical skills.",
+      "hard_skills": [
+        "Minitab",
+        "SPSS",
+        "Python",
+        "HTML"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-04-27T11:48:51.870171+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.55
+    }
+  }
+}

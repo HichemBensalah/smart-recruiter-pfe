@@ -1,0 +1,76 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_72.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_72.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T122218Z",
+  "profile": {
+    "source_id": "pdf:Image_72",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data science and machine learning, business analytics, data processing, natural language processing",
+      "hard_skills": [
+        "AWS Lambda",
+        "AWS S3",
+        "Kafka",
+        "Redshift",
+        "SageMaker",
+        "Python",
+        "Tableau",
+        "Power BI"
+      ],
+      "soft_skills": [
+        "Teambuilding",
+        "Leadership Skills",
+        "Problem Solving",
+        "Conflict Resolution"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "08/2012",
+        "end_date": "11/2017",
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "Professional problem solving and conflict resolution",
+          "Experience with NLP problems",
+          "Combining data from multiple modalities using AL/ML for novel insights",
+          "Developing and delivering Explainable Al solutions"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "04/2018",
+        "end_date": null,
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "Deep understanding of data domains, models and analytics use in at least one industry"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's",
+        "school": "Fashion Institute of Technology",
+        "year": "null"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T12:25:22.608262+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.5205
+    }
+  }
+}

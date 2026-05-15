@@ -1,0 +1,30 @@
+## HEADER
+
+RESUME OBJECTIVE
+SKILLS
+PHP/Rubyon Rails/Java/C++/Python
+My SQL/SQ Lite 3/Mongo DB/JSON
+Leadership
+Collaboration
+Handling Pressure
+Problem Solving
+Data Mining
+Data Management
+
+## PROFESSIONAL SUMMARY
+
+Data Scientistwith 5+yearsofexperience executingdata-drivensolutionstoincreaseefficiency. accuracy, and utilityof internal dataprocessing. Experiencedatcreatingdataregressionmodels usingpredictivedatamodeling. andanalyzingdataminingalgorithmsto deliverinsightsand implementaction-orientedsolutionstocomplexbusinessproblems.
+
+## PROFESSIONAL EXPERIENCE
+
+### DATASCIENTIST
+- Microsoft Tucson, AZ/September 2015-Present
+- industrytrends, achievinga 15%moreaccuratepredictionofperformancethanpreviousyears
+- Utilizewebscrapingtechniquestoextractandorganizecompetitordata
+- Updatecompanydatawarehousingtechniquessuchasdatarecallandsegmentation, resulting ina 20%increaseinusabilityfornon-technicalstaffmembers
+- Modernizedatastreamliningprocesses, resultingina 25%redundancyreduction
+### DATASCIENTIST
+- Hewlett-Packard, San Francisco, CA/june 2013-August 2015
+- Improveddata miningprocesses, resultingina 20%decreaseintimeneeded toinferinsights fromcustomerdataused todevelopmarketingstrategies
+- Usedpredictiveanalyticssuchasmachinelearninganddataminingtechniquestoforecast companysalesofnewproductswitha 95%accuracyrate
+- Increaseddatasecuritybyupdatingcompanywideencryption, steganography. I Psecurity, and Securewireless missionpractices

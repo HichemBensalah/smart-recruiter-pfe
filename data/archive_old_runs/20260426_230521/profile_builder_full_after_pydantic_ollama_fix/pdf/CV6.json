@@ -1,0 +1,73 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV6.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV6.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:CV6",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "EMILY SAAVEDRA",
+      "email": null,
+      "phone": null,
+      "location": "London B20 X"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "SpyBiotech,Inc.",
+        "start_date": null,
+        "end_date": null,
+        "city": "London",
+        "responsibilities": []
+      },
+      {
+        "job_title": "DataScientist",
+        "company": "CGL, Inc.",
+        "start_date": "09/2012-05/2016",
+        "end_date": "null",
+        "city": "London",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Python Developer",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "The International School of Estepona",
+        "year": "09/2010-05/2012"
+      },
+      {
+        "degree": null,
+        "school": "University of Chichester",
+        "year": "03/2012"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:36:12.766995+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7713
+    }
+  }
+}

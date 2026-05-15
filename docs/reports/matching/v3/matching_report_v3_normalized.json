@@ -1,0 +1,1989 @@
+{
+  "generated_at_utc": "2026-05-14T10:28:52.411994+00:00",
+  "job_profile_file": "data\\job_profiles\\backend_python_fastapi_mongodb.json",
+  "job_title": "Backend Python Engineer",
+  "top_k": 10,
+  "sentence_transformer_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "faiss_index_path": "data\\indexes\\faiss\\cv_index.faiss",
+  "faiss_index_report_path": "data\\indexes\\faiss\\index_report.json",
+  "metadata": {
+    "retrieval_engine": "faiss",
+    "reranker": "none",
+    "normalization_mode": "skills_taxonomy_in_memory",
+    "original_profiles_overwritten": false,
+    "frozen_report_modified": false
+  },
+  "execution_time_seconds": 18.0311,
+  "normalization": {
+    "audit_path": "data\\skills_audit\\raw_skills_variants.json",
+    "taxonomy_path": "data\\skills_taxonomy.yaml",
+    "profiles_scanned": 90,
+    "unique_hard_skills_count": 432,
+    "total_hard_skill_occurrences": 916,
+    "unique_soft_skills_count": 187,
+    "total_soft_skill_occurrences": 280,
+    "unique_skill_variants_normalized": 100,
+    "unique_skill_variants_normalized_examples": [
+      ".Python",
+      "Airflow",
+      "Amazon Web Services",
+      "Angular.js",
+      "ANN",
+      "Apache Hadoop",
+      "Aws",
+      "AWStechnologies",
+      "C programming",
+      "C/C++",
+      "Cloud (AWS)",
+      "clustering",
+      "D 3",
+      "D3",
+      "data science",
+      "data visualization",
+      "data warehousing",
+      "Databricks Spark",
+      "decision trees",
+      "deep learning",
+      "DevOps/CI/CD",
+      "docker",
+      "Express Js",
+      "generalized linear models",
+      "HADOOP",
+      "Hadoop/Hive",
+      "hardware",
+      "HIVE",
+      "Hive/HQL",
+      "HTML 5",
+      "HTML/CSS",
+      "JAVA",
+      "Java Script",
+      "Javascript",
+      "JS",
+      "k-means clustering",
+      "K-Means method",
+      "K-Means method of clustering",
+      "Kafka",
+      "kera",
+      "Machine learning",
+      "machine learning",
+      "Mat Lab",
+      "Matlab",
+      "matplotlib",
+      "Microsoft Power Bl",
+      "Microsoft SQL Server",
+      "ML",
+      "ML/Al",
+      "mllib",
+      "Ms Office",
+      "MSSQL Server",
+      "MSSQLServer",
+      "MySQL/SQ Lite 3/MongoDB/JSON",
+      "MySQL/SQL",
+      "Neural networks",
+      "neural networks",
+      "Node",
+      "node.js",
+      "NodeJS"
+    ],
+    "profiles_normalized": 90,
+    "profiles_with_skill_changes": 64,
+    "skill_occurrences_seen": 1196,
+    "hard_skill_occurrences_seen": 916,
+    "soft_skill_occurrences_seen": 280,
+    "skill_occurrences_normalized": 141,
+    "hard_skill_occurrences_normalized": 135,
+    "soft_skill_occurrences_normalized": 6,
+    "skill_occurrences_expanded": 14,
+    "duplicates_removed_after_normalization": 7,
+    "profile_change_examples": [
+      {
+        "profile_id": "profile_52deaac00523",
+        "candidate_id": "candidate_9db3b898d6d9",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_3_anonyme.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "cabling",
+              "cisco",
+              "hardware",
+              "LAN",
+              "networking",
+              "routers",
+              "Telecommunications",
+              "Telephone Systems"
+            ],
+            "after": [
+              "cabling",
+              "cisco",
+              "Hardware",
+              "LAN",
+              "networking",
+              "routers",
+              "Telecommunications",
+              "Telephone Systems"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_bac609d0f7a3",
+        "candidate_id": "candidate_206d746034ef",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_Aziz_resumer.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "Big Query",
+              "Airflow",
+              "SQL",
+              "Lo RA",
+              "8 bit Quantization",
+              "PyTorch",
+              "TensorFlow",
+              "Paddle Paddle",
+              "BERT",
+              "Nvidea Ne Mo",
+              "Pytorch Lightning",
+              "Efficient Det",
+              "Yolo-v 4",
+              "Efficient Net",
+              "Tensor RT",
+              "Docker"
+            ],
+            "after": [
+              "Big Query",
+              "Apache Airflow",
+              "SQL",
+              "Lo RA",
+              "8 bit Quantization",
+              "PyTorch",
+              "TensorFlow",
+              "Paddle Paddle",
+              "BERT",
+              "Nvidea Ne Mo",
+              "Efficient Det",
+              "Yolo-v 4",
+              "Efficient Net",
+              "Tensor RT",
+              "Docker"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_bcffa3bb70fb",
+        "candidate_id": "candidate_1487f3187f7b",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_Hichem_resume.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "Python",
+              "NumPy",
+              "Pandas",
+              "scikit-learn",
+              "Matplotlib",
+              "Seaborn",
+              "R",
+              "Java",
+              "JavaScript",
+              "C",
+              "C++",
+              "C#",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Flask",
+              "FastAPI",
+              "Streamlit",
+              "AWS",
+              "S3",
+              "EC2",
+              "SageMaker",
+              "ETL",
+              "Power BI",
+              "SSIS",
+              "SSRS",
+              "SQL Server",
+              "MySQL",
+              "PostgreSQL",
+              "MongoDB",
+              "Neo4j",
+              "Oracle",
+              "Apache Cassandra",
+              "Apache Spark",
+              "PySpark",
+              "TensorFlow",
+              "Keras",
+              "PyTorch",
+              "OpenCV",
+              "YOLO",
+              "spaCy",
+              "NLTK",
+              "VS Code",
+              "Jupyter",
+              "Anaconda"
+            ],
+            "after": [
+              "Python",
+              "NumPy",
+              "Pandas",
+              "scikit-learn",
+              "Matplotlib",
+              "Seaborn",
+              "R",
+              "Java",
+              "JavaScript",
+              "C",
+              "C++",
+              "C#",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Flask",
+              "FastAPI",
+              "Streamlit",
+              "AWS",
+              "AWS S3",
+              "EC2",
+              "SageMaker",
+              "ETL",
+              "Power BI",
+              "SSIS",
+              "SSRS",
+              "Microsoft SQL Server",
+              "SQL",
+              "MySQL",
+              "PostgreSQL",
+              "MongoDB",
+              "Neo4j",
+              "Oracle",
+              "Apache Cassandra",
+              "Apache Spark",
+              "PySpark",
+              "TensorFlow",
+              "Keras",
+              "PyTorch",
+              "OpenCV",
+              "YOLO",
+              "spaCy",
+              "NLTK",
+              "VS Code",
+              "Jupyter",
+              "Anaconda"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_a4bc7ce01a29",
+        "candidate_id": "candidate_a3c2a6c7cdc8",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\docx_resume_khairi.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "Angular",
+              "NodeJS",
+              "MongoDB",
+              "Express Js",
+              "Machine Learning",
+              "Git"
+            ],
+            "after": [
+              "Angular",
+              "Node.js",
+              "MongoDB",
+              "Express.js",
+              "Machine Learning",
+              "Git"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_69902fee2fa3",
+        "candidate_id": "candidate_b6f7add66ffc",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_0_image.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "Machine Learning",
+              "Deep Learning",
+              "Python",
+              "Java",
+              "MySQL",
+              "Postgres",
+              "SQL Server",
+              "Natural Language Processing",
+              "Hadoop",
+              "R Programming",
+              "Django",
+              "Angular.js",
+              "HTML",
+              "JavaScript",
+              "PHP"
+            ],
+            "after": [
+              "Machine Learning",
+              "Deep Learning",
+              "Python",
+              "Java",
+              "MySQL",
+              "PostgreSQL",
+              "Microsoft SQL Server",
+              "SQL",
+              "Natural Language Processing",
+              "Hadoop",
+              "R",
+              "Django",
+              "Angular",
+              "HTML",
+              "JavaScript",
+              "PHP"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_0eba04ba978a",
+        "candidate_id": "candidate_850913e4d2fe",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_3_image.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "Microsoft Office",
+              "MSSQL Server",
+              "Sisense",
+              "Zoho Analytics",
+              "Qlik Sense"
+            ],
+            "after": [
+              "Microsoft Office",
+              "Microsoft SQL Server",
+              "Sisense",
+              "Zoho Analytics",
+              "Qlik Sense"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_dfb613ef8ce2",
+        "candidate_id": "candidate_850913e4d2fe",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_4_image.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "Microsoft Office",
+              "MSSQL Server",
+              "Sisense",
+              "Zoho Analytics",
+              "Qlik Sense"
+            ],
+            "after": [
+              "Microsoft Office",
+              "Microsoft SQL Server",
+              "Sisense",
+              "Zoho Analytics",
+              "Qlik Sense"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_9dda52dfa515",
+        "candidate_id": "candidate_1d475044c93c",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_5_image.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "PHP/Ruby on Rails/Java/C++/Python",
+              "MySQL/SQ Lite 3/MongoDB/JSON"
+            ],
+            "after": [
+              "C++",
+              "Java",
+              "PHP",
+              "Python",
+              "Ruby on Rails",
+              "MongoDB",
+              "MySQL",
+              "SQLite"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_7ed301b399ac",
+        "candidate_id": "candidate_ecc1fcef13a6",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_6_image.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "Microsoft Office",
+              "MSSQL Server",
+              "Sisense",
+              "Zoho Analytics",
+              "Good Data",
+              "Qlik Sense"
+            ],
+            "after": [
+              "Microsoft Office",
+              "Microsoft SQL Server",
+              "Sisense",
+              "Zoho Analytics",
+              "Good Data",
+              "Qlik Sense"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_6b9de0a8c4c8",
+        "candidate_id": "candidate_4eef95d3a3fa",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_7_image.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              ".Python",
+              "SQL",
+              "Tableau",
+              "Hadoop",
+              "Numpy"
+            ],
+            "after": [
+              "Python",
+              "SQL",
+              "Tableau",
+              "Hadoop",
+              "NumPy"
+            ]
+          },
+          {
+            "field": "soft_skills",
+            "before": [
+              "statistics"
+            ],
+            "after": [
+              "Statistics"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_41aac6a912f1",
+        "candidate_id": "candidate_c564b8eceb3d",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_8_image.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "PHP",
+              "Ruby on Rails",
+              "Java",
+              "C++",
+              "Python",
+              "MySQL",
+              "SQ Lite 3",
+              "MongoDB",
+              "JSON"
+            ],
+            "after": [
+              "PHP",
+              "Ruby on Rails",
+              "Java",
+              "C++",
+              "Python",
+              "MySQL",
+              "SQLite",
+              "MongoDB",
+              "JSON"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "profile_ddaef382eb94",
+        "candidate_id": "candidate_3cbbbad1bf0f",
+        "module2_file_path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles\\images_9_image.json",
+        "changes": [
+          {
+            "field": "hard_skills",
+            "before": [
+              "Data Science",
+              "Tableau",
+              "D3.js",
+              "SAS Enterprise Miner",
+              "K-Means method"
+            ],
+            "after": [
+              "Data Science",
+              "Tableau",
+              "D3.js",
+              "SAS Enterprise Miner",
+              "K-Means"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "results": [
+    {
+      "job_profile_file": "data\\job_profiles\\backend_python_fastapi_mongodb.json",
+      "job_title": "Backend Python Engineer",
+      "top_k": 10,
+      "recommendations_count": 10,
+      "recommendations": [
+        {
+          "candidate_id": "candidate_1487f3187f7b",
+          "matched_profile_id": "profile_a7708a628908",
+          "full_name": "Hichem Bensalah",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Hichem_resume.pdf",
+          "provider_route": "groq_secondary",
+          "job_seniority": "mid_level",
+          "candidate_seniority": "junior",
+          "seniority_alignment": 0.7,
+          "seniority_warning": null,
+          "reliability_score": 0.9903,
+          "hallucination_risk": "low",
+          "faiss_rank": 1,
+          "faiss_score": 0.5925,
+          "cross_encoder_rank": null,
+          "cross_encoder_score": null,
+          "cross_encoder_score_normalized": null,
+          "cross_encoder_error": null,
+          "quality_flags": [],
+          "fields_nullified_count": 0,
+          "final_score": 0.7701,
+          "base_score_before_penalty": 0.7701,
+          "score_text_similarity": 0.5925,
+          "score_skills": 0.8,
+          "score_experience": 0.6667,
+          "score_profile_quality": 0.9951,
+          "score_grounded_quality": 0.9937,
+          "must_have_coverage": 0.8,
+          "must_have_penalty_multiplier": 1.0,
+          "must_have_penalty_applied": false,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python",
+            "FastAPI",
+            "MongoDB",
+            "Docker"
+          ],
+          "missing_required_skills": [
+            "REST API"
+          ],
+          "explanation": "Hichem Bensalah matches on Python, FastAPI, MongoDB, Docker. Text similarity=0.59, experience score=0.67, profile kind=complete_profile, hallucination risk=low. Missing required skills include REST API.",
+          "profile_count": 2,
+          "rank": 1
+        },
+        {
+          "candidate_id": "candidate_8eea1b635447",
+          "matched_profile_id": "profile_55f949a128da",
+          "full_name": "Candidate (ID: candidate_8eea1b635447)",
+          "display_name_quality": "weak",
+          "name_warning": "missing_or_rejected_full_name",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+          "provider_route": "ollama_local",
+          "job_seniority": "mid_level",
+          "candidate_seniority": "junior",
+          "seniority_alignment": 0.7,
+          "seniority_warning": null,
+          "reliability_score": 0.9742,
+          "hallucination_risk": "low",
+          "faiss_rank": 10,
+          "faiss_score": 0.4629,
+          "cross_encoder_rank": null,
+          "cross_encoder_score": null,
+          "cross_encoder_score_normalized": null,
+          "cross_encoder_error": null,
+          "quality_flags": [],
+          "fields_nullified_count": 0,
+          "final_score": 0.6706,
+          "base_score_before_penalty": 0.7889,
+          "score_text_similarity": 0.4629,
+          "score_skills": 0.8,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9571,
+          "score_grounded_quality": 0.9832,
+          "must_have_coverage": 0.8,
+          "must_have_penalty_multiplier": 1.0,
+          "must_have_penalty_applied": false,
+          "quality_penalty_multiplier": 0.85,
+          "matched_skills": [
+            "Python",
+            "FastAPI",
+            "MongoDB",
+            "Docker"
+          ],
+          "missing_required_skills": [
+            "REST API"
+          ],
+          "explanation": "Candidate (ID: candidate_8eea1b635447) matches on Python, FastAPI, MongoDB, Docker. Text similarity=0.46, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include REST API.",
+          "profile_count": 1,
+          "rank": 2
+        },
+        {
+          "candidate_id": "candidate_206d746034ef",
+          "matched_profile_id": "profile_0e54d2a788d4",
+          "full_name": "MOHAMED AZIZ BELAWEID",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+          "provider_route": "groq_secondary",
+          "job_seniority": "mid_level",
+          "candidate_seniority": "mid_level",
+          "seniority_alignment": 1.0,
+          "seniority_warning": null,
+          "reliability_score": 0.9598,
+          "hallucination_risk": "low",
+          "faiss_rank": 21,
+          "faiss_score": 0.4199,
+          "cross_encoder_rank": null,
+          "cross_encoder_score": null,
+          "cross_encoder_score_normalized": null,
+          "cross_encoder_error": null,
+          "quality_flags": [
+            "summary_not_enough_evidence"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.5538,
+          "base_score_before_penalty": 0.6515,
+          "score_text_similarity": 0.4199,
+          "score_skills": 0.6,
+          "score_experience": 0.6667,
+          "score_profile_quality": 0.9799,
+          "score_grounded_quality": 0.9589,
+          "must_have_coverage": 0.6,
+          "must_have_penalty_multiplier": 0.85,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python",
+            "FastAPI",
+            "Docker"
+          ],
+          "missing_required_skills": [
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "MOHAMED AZIZ BELAWEID matches on Python, FastAPI, Docker. Text similarity=0.42, experience score=0.67, profile kind=complete_profile, hallucination risk=low. Missing required skills include MongoDB, REST API.",
+          "profile_count": 1,
+          "rank": 3
+        },
+        {
+          "candidate_id": "candidate_1df043636ea4",
+          "matched_profile_id": "profile_133336b99224",
+          "full_name": "JEFFERYGORCZANY",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV37.pdf",
+          "provider_route": "groq_secondary",
+          "job_seniority": "mid_level",
+          "candidate_seniority": "senior",
+          "seniority_alignment": 0.85,
+          "seniority_warning": null,
+          "reliability_score": 0.9405,
+          "hallucination_risk": "low",
+          "faiss_rank": 3,
+          "faiss_score": 0.5528,
+          "cross_encoder_rank": null,
+          "cross_encoder_score": null,
+          "cross_encoder_score_normalized": null,
+          "cross_encoder_error": null,
+          "quality_flags": [
+            "missing_email",
+            "missing_full_name",
+            "summary_not_enough_evidence"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.4335,
+          "base_score_before_penalty": 0.6669,
+          "score_text_similarity": 0.5528,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9703,
+          "score_grounded_quality": 0.9163,
+          "must_have_coverage": 0.4,
+          "must_have_penalty_multiplier": 0.65,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python",
+            "Docker"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "JEFFERYGORCZANY matches on Python, Docker. Text similarity=0.55, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, REST API.",
+          "profile_count": 1,
+          "rank": 4
+        },
+        {
+          "candidate_id": "candidate_073b7a3d39ba",
+          "matched_profile_id": "profile_5c10a3b5e6c5",
+          "full_name": "Markus Rohan",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_77.pdf",
+          "provider_route": "ollama_local",
+          "job_seniority": "mid_level",
+          "candidate_seniority": "senior",
+          "seniority_alignment": 0.85,
+          "seniority_warning": null,
+          "reliability_score": 0.9581,
+          "hallucination_risk": "low",
+          "faiss_rank": 12,
+          "faiss_score": 0.4584,
+          "cross_encoder_rank": null,
+          "cross_encoder_score": null,
+          "cross_encoder_score_normalized": null,
+          "cross_encoder_error": null,
+          "quality_flags": [
+            "missing_email",
+            "summary_not_enough_evidence"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.4193,
+          "base_score_before_penalty": 0.645,
+          "score_text_similarity": 0.4584,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9491,
+          "score_grounded_quality": 0.9428,
+          "must_have_coverage": 0.4,
+          "must_have_penalty_multiplier": 0.65,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python",
+            "Docker"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "Markus Rohan matches on Python, Docker. Text similarity=0.46, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, REST API.",
+          "profile_count": 1,
+          "rank": 5
+        },
+        {
+          "candidate_id": "candidate_71e03ea99985",
+          "matched_profile_id": "profile_4e6ce456eccc",
+          "full_name": "Candidate (ID: candidate_71e03ea99985)",
+          "display_name_quality": "weak",
+          "name_warning": "missing_or_rejected_full_name",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV8.pdf",
+          "provider_route": "groq_secondary",
+          "job_seniority": "mid_level",
+          "candidate_seniority": "mid_level",
+          "seniority_alignment": 1.0,
+          "seniority_warning": null,
+          "reliability_score": 0.9107,
+          "hallucination_risk": "low",
+          "faiss_rank": 11,
+          "faiss_score": 0.4598,
+          "cross_encoder_rank": null,
+          "cross_encoder_score": null,
+          "cross_encoder_score_normalized": null,
+          "cross_encoder_error": null,
+          "quality_flags": [
+            "missing_education_section",
+            "missing_email",
+            "summary_not_enough_evidence"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.353,
+          "base_score_before_penalty": 0.639,
+          "score_text_similarity": 0.4598,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9553,
+          "score_grounded_quality": 0.897,
+          "must_have_coverage": 0.4,
+          "must_have_penalty_multiplier": 0.65,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 0.85,
+          "matched_skills": [
+            "Python",
+            "MongoDB"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "Docker",
+            "REST API"
+          ],
+          "explanation": "Candidate (ID: candidate_71e03ea99985) matches on Python, MongoDB. Text similarity=0.46, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, Docker, REST API.",
+          "profile_count": 1,
+          "rank": 6
+        },
+        {
+          "candidate_id": "candidate_c564b8eceb3d",
+          "matched_profile_id": "profile_41aac6a912f1",
+          "full_name": "Candidate (ID: candidate_c564b8eceb3d)",
+          "display_name_quality": "weak",
+          "name_warning": "missing_or_rejected_full_name",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\images\\8_image.jpg",
+          "provider_route": "ollama_local",
+          "job_seniority": "mid_level",
+          "candidate_seniority": "mid_level",
+          "seniority_alignment": 1.0,
+          "seniority_warning": null,
+          "reliability_score": 0.9178,
+          "hallucination_risk": "low",
+          "faiss_rank": 18,
+          "faiss_score": 0.439,
+          "cross_encoder_rank": null,
+          "cross_encoder_score": null,
+          "cross_encoder_score_normalized": null,
+          "cross_encoder_error": null,
+          "quality_flags": [
+            "missing_education_section",
+            "missing_email"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.3505,
+          "base_score_before_penalty": 0.6344,
+          "score_text_similarity": 0.439,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9289,
+          "score_grounded_quality": 0.9166,
+          "must_have_coverage": 0.4,
+          "must_have_penalty_multiplier": 0.65,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 0.85,
+          "matched_skills": [
+            "Python",
+            "MongoDB"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "Docker",
+            "REST API"
+          ],
+          "explanation": "Candidate (ID: candidate_c564b8eceb3d) matches on Python, MongoDB. Text similarity=0.44, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, Docker, REST API.",
+          "profile_count": 1,
+          "rank": 7
+        },
+        {
+          "candidate_id": "candidate_1d475044c93c",
+          "matched_profile_id": "profile_02aa18c661e7",
+          "full_name": "Candidate (ID: candidate_1d475044c93c)",
+          "display_name_quality": "weak",
+          "name_warning": "missing_or_rejected_full_name",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV5.pdf",
+          "provider_route": "groq_secondary",
+          "job_seniority": "mid_level",
+          "candidate_seniority": "senior",
+          "seniority_alignment": 0.85,
+          "seniority_warning": null,
+          "reliability_score": 0.9393,
+          "hallucination_risk": "low",
+          "faiss_rank": 31,
+          "faiss_score": 0.3941,
+          "cross_encoder_rank": null,
+          "cross_encoder_score": null,
+          "cross_encoder_score_normalized": null,
+          "cross_encoder_error": null,
+          "quality_flags": [
+            "summary_not_enough_evidence"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.3485,
+          "base_score_before_penalty": 0.6307,
+          "score_text_similarity": 0.3941,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9696,
+          "score_grounded_quality": 0.9455,
+          "must_have_coverage": 0.4,
+          "must_have_penalty_multiplier": 0.65,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 0.85,
+          "matched_skills": [
+            "Python",
+            "MongoDB"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "Docker",
+            "REST API"
+          ],
+          "explanation": "Candidate (ID: candidate_1d475044c93c) matches on Python, MongoDB. Text similarity=0.39, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, Docker, REST API.",
+          "profile_count": 2,
+          "rank": 8
+        },
+        {
+          "candidate_id": "candidate_e1fda1d70be1",
+          "matched_profile_id": "profile_6fef4a9c24f0",
+          "full_name": "LEATRICEFRIESEN",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_80.pdf",
+          "provider_route": "ollama_local",
+          "job_seniority": "mid_level",
+          "candidate_seniority": "senior",
+          "seniority_alignment": 0.85,
+          "seniority_warning": null,
+          "reliability_score": 0.9386,
+          "hallucination_risk": "low",
+          "faiss_rank": 4,
+          "faiss_score": 0.5081,
+          "cross_encoder_rank": null,
+          "cross_encoder_score": null,
+          "cross_encoder_score_normalized": null,
+          "cross_encoder_error": null,
+          "quality_flags": [
+            "missing_email",
+            "summary_not_enough_evidence"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.2641,
+          "base_score_before_penalty": 0.5869,
+          "score_text_similarity": 0.5081,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9393,
+          "score_grounded_quality": 0.9301,
+          "must_have_coverage": 0.2,
+          "must_have_penalty_multiplier": 0.45,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "MongoDB",
+            "Docker",
+            "REST API"
+          ],
+          "explanation": "LEATRICEFRIESEN matches on Python. Text similarity=0.51, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, Docker.",
+          "profile_count": 1,
+          "rank": 9
+        },
+        {
+          "candidate_id": "candidate_4eef95d3a3fa",
+          "matched_profile_id": "profile_070e372f3c0e",
+          "full_name": "Justine Hendrickson",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV7.pdf",
+          "provider_route": "groq_secondary",
+          "job_seniority": "mid_level",
+          "candidate_seniority": "senior",
+          "seniority_alignment": 0.85,
+          "seniority_warning": null,
+          "reliability_score": 0.9526,
+          "hallucination_risk": "low",
+          "faiss_rank": 7,
+          "faiss_score": 0.4817,
+          "cross_encoder_rank": null,
+          "cross_encoder_score": null,
+          "cross_encoder_score_normalized": null,
+          "cross_encoder_error": null,
+          "quality_flags": [
+            "missing_full_name",
+            "summary_not_enough_evidence"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.2631,
+          "base_score_before_penalty": 0.5847,
+          "score_text_similarity": 0.4817,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9763,
+          "score_grounded_quality": 0.9392,
+          "must_have_coverage": 0.2,
+          "must_have_penalty_multiplier": 0.45,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "MongoDB",
+            "Docker",
+            "REST API"
+          ],
+          "explanation": "Justine Hendrickson matches on Python. Text similarity=0.48, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, Docker.",
+          "profile_count": 2,
+          "rank": 10
+        }
+      ]
+    }
+  ],
+  "top_10_candidates": [
+    {
+      "rank": 1,
+      "candidate_id": "candidate_1487f3187f7b",
+      "matched_profile_id": "profile_a7708a628908",
+      "full_name": "Hichem Bensalah",
+      "final_score": 0.7701,
+      "job_seniority": "mid_level",
+      "candidate_seniority": "junior",
+      "seniority_alignment": 0.7,
+      "must_have_coverage": 0.8,
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ],
+      "scores": {
+        "final_score": 0.7701,
+        "base_score_before_penalty": 0.7701,
+        "score_text_similarity": 0.5925,
+        "score_skills": 0.8,
+        "score_experience": 0.6667,
+        "score_profile_quality": 0.9951,
+        "score_grounded_quality": 0.9937
+      }
+    },
+    {
+      "rank": 2,
+      "candidate_id": "candidate_8eea1b635447",
+      "matched_profile_id": "profile_55f949a128da",
+      "full_name": "Candidate (ID: candidate_8eea1b635447)",
+      "final_score": 0.6706,
+      "job_seniority": "mid_level",
+      "candidate_seniority": "junior",
+      "seniority_alignment": 0.7,
+      "must_have_coverage": 0.8,
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ],
+      "scores": {
+        "final_score": 0.6706,
+        "base_score_before_penalty": 0.7889,
+        "score_text_similarity": 0.4629,
+        "score_skills": 0.8,
+        "score_experience": 1.0,
+        "score_profile_quality": 0.9571,
+        "score_grounded_quality": 0.9832
+      }
+    },
+    {
+      "rank": 3,
+      "candidate_id": "candidate_206d746034ef",
+      "matched_profile_id": "profile_0e54d2a788d4",
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "final_score": 0.5538,
+      "job_seniority": "mid_level",
+      "candidate_seniority": "mid_level",
+      "seniority_alignment": 1.0,
+      "must_have_coverage": 0.6,
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "MongoDB",
+        "REST API"
+      ],
+      "scores": {
+        "final_score": 0.5538,
+        "base_score_before_penalty": 0.6515,
+        "score_text_similarity": 0.4199,
+        "score_skills": 0.6,
+        "score_experience": 0.6667,
+        "score_profile_quality": 0.9799,
+        "score_grounded_quality": 0.9589
+      }
+    },
+    {
+      "rank": 4,
+      "candidate_id": "candidate_1df043636ea4",
+      "matched_profile_id": "profile_133336b99224",
+      "full_name": "JEFFERYGORCZANY",
+      "final_score": 0.4335,
+      "job_seniority": "mid_level",
+      "candidate_seniority": "senior",
+      "seniority_alignment": 0.85,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "scores": {
+        "final_score": 0.4335,
+        "base_score_before_penalty": 0.6669,
+        "score_text_similarity": 0.5528,
+        "score_skills": 0.4,
+        "score_experience": 1.0,
+        "score_profile_quality": 0.9703,
+        "score_grounded_quality": 0.9163
+      }
+    },
+    {
+      "rank": 5,
+      "candidate_id": "candidate_073b7a3d39ba",
+      "matched_profile_id": "profile_5c10a3b5e6c5",
+      "full_name": "Markus Rohan",
+      "final_score": 0.4193,
+      "job_seniority": "mid_level",
+      "candidate_seniority": "senior",
+      "seniority_alignment": 0.85,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "scores": {
+        "final_score": 0.4193,
+        "base_score_before_penalty": 0.645,
+        "score_text_similarity": 0.4584,
+        "score_skills": 0.4,
+        "score_experience": 1.0,
+        "score_profile_quality": 0.9491,
+        "score_grounded_quality": 0.9428
+      }
+    },
+    {
+      "rank": 6,
+      "candidate_id": "candidate_71e03ea99985",
+      "matched_profile_id": "profile_4e6ce456eccc",
+      "full_name": "Candidate (ID: candidate_71e03ea99985)",
+      "final_score": 0.353,
+      "job_seniority": "mid_level",
+      "candidate_seniority": "mid_level",
+      "seniority_alignment": 1.0,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "scores": {
+        "final_score": 0.353,
+        "base_score_before_penalty": 0.639,
+        "score_text_similarity": 0.4598,
+        "score_skills": 0.4,
+        "score_experience": 1.0,
+        "score_profile_quality": 0.9553,
+        "score_grounded_quality": 0.897
+      }
+    },
+    {
+      "rank": 7,
+      "candidate_id": "candidate_c564b8eceb3d",
+      "matched_profile_id": "profile_41aac6a912f1",
+      "full_name": "Candidate (ID: candidate_c564b8eceb3d)",
+      "final_score": 0.3505,
+      "job_seniority": "mid_level",
+      "candidate_seniority": "mid_level",
+      "seniority_alignment": 1.0,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "scores": {
+        "final_score": 0.3505,
+        "base_score_before_penalty": 0.6344,
+        "score_text_similarity": 0.439,
+        "score_skills": 0.4,
+        "score_experience": 1.0,
+        "score_profile_quality": 0.9289,
+        "score_grounded_quality": 0.9166
+      }
+    },
+    {
+      "rank": 8,
+      "candidate_id": "candidate_1d475044c93c",
+      "matched_profile_id": "profile_02aa18c661e7",
+      "full_name": "Candidate (ID: candidate_1d475044c93c)",
+      "final_score": 0.3485,
+      "job_seniority": "mid_level",
+      "candidate_seniority": "senior",
+      "seniority_alignment": 0.85,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "scores": {
+        "final_score": 0.3485,
+        "base_score_before_penalty": 0.6307,
+        "score_text_similarity": 0.3941,
+        "score_skills": 0.4,
+        "score_experience": 1.0,
+        "score_profile_quality": 0.9696,
+        "score_grounded_quality": 0.9455
+      }
+    },
+    {
+      "rank": 9,
+      "candidate_id": "candidate_e1fda1d70be1",
+      "matched_profile_id": "profile_6fef4a9c24f0",
+      "full_name": "LEATRICEFRIESEN",
+      "final_score": 0.2641,
+      "job_seniority": "mid_level",
+      "candidate_seniority": "senior",
+      "seniority_alignment": 0.85,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "scores": {
+        "final_score": 0.2641,
+        "base_score_before_penalty": 0.5869,
+        "score_text_similarity": 0.5081,
+        "score_skills": 0.2,
+        "score_experience": 1.0,
+        "score_profile_quality": 0.9393,
+        "score_grounded_quality": 0.9301
+      }
+    },
+    {
+      "rank": 10,
+      "candidate_id": "candidate_4eef95d3a3fa",
+      "matched_profile_id": "profile_070e372f3c0e",
+      "full_name": "Justine Hendrickson",
+      "final_score": 0.2631,
+      "job_seniority": "mid_level",
+      "candidate_seniority": "senior",
+      "seniority_alignment": 0.85,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "scores": {
+        "final_score": 0.2631,
+        "base_score_before_penalty": 0.5847,
+        "score_text_similarity": 0.4817,
+        "score_skills": 0.2,
+        "score_experience": 1.0,
+        "score_profile_quality": 0.9763,
+        "score_grounded_quality": 0.9392
+      }
+    }
+  ],
+  "comparison_to_frozen": {
+    "frozen_report_path": "docs\\reports\\matching\\v3\\matching_single_job_report_grounded_v3.json",
+    "rank_changes": [
+      {
+        "candidate_id": "candidate_8eea1b635447",
+        "full_name_before": "Candidate (ID: candidate_8eea1b635447)",
+        "full_name_after": "Candidate (ID: candidate_8eea1b635447)",
+        "rank_before": 3,
+        "rank_after": 2,
+        "rank_delta": -1
+      },
+      {
+        "candidate_id": "candidate_206d746034ef",
+        "full_name_before": "MOHAMED AZIZ BELAWEID",
+        "full_name_after": "MOHAMED AZIZ BELAWEID",
+        "rank_before": 2,
+        "rank_after": 3,
+        "rank_delta": 1
+      },
+      {
+        "candidate_id": "candidate_073b7a3d39ba",
+        "full_name_before": "Markus Rohan",
+        "full_name_after": "Markus Rohan",
+        "rank_before": 7,
+        "rank_after": 5,
+        "rank_delta": -2
+      },
+      {
+        "candidate_id": "candidate_71e03ea99985",
+        "full_name_before": "Candidate (ID: candidate_71e03ea99985)",
+        "full_name_after": "Candidate (ID: candidate_71e03ea99985)",
+        "rank_before": 5,
+        "rank_after": 6,
+        "rank_delta": 1
+      },
+      {
+        "candidate_id": "candidate_c564b8eceb3d",
+        "full_name_before": "Candidate (ID: candidate_c564b8eceb3d)",
+        "full_name_after": "Candidate (ID: candidate_c564b8eceb3d)",
+        "rank_before": 8,
+        "rank_after": 7,
+        "rank_delta": -1
+      },
+      {
+        "candidate_id": "candidate_1d475044c93c",
+        "full_name_before": "Candidate (ID: candidate_1d475044c93c)",
+        "full_name_after": "Candidate (ID: candidate_1d475044c93c)",
+        "rank_before": 6,
+        "rank_after": 8,
+        "rank_delta": 2
+      },
+      {
+        "candidate_id": "candidate_e1fda1d70be1",
+        "full_name_before": null,
+        "full_name_after": "LEATRICEFRIESEN",
+        "rank_before": null,
+        "rank_after": 9,
+        "rank_delta": null
+      },
+      {
+        "candidate_id": "candidate_d813a4aedd03",
+        "full_name_before": "MILDREDZEMLAK",
+        "full_name_after": null,
+        "rank_before": 9,
+        "rank_after": null,
+        "rank_delta": null
+      }
+    ],
+    "must_have_coverage_changes": [],
+    "top10_before": [
+      {
+        "rank": 1,
+        "candidate_id": "candidate_1487f3187f7b",
+        "matched_profile_id": "profile_bcffa3bb70fb",
+        "full_name": "Hichem Bensalah",
+        "final_score": 0.8172,
+        "job_seniority": null,
+        "candidate_seniority": null,
+        "seniority_alignment": null,
+        "must_have_coverage": 0.8,
+        "matched_skills": [
+          "Python",
+          "FastAPI",
+          "MongoDB",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.8172,
+          "base_score_before_penalty": 0.8172,
+          "score_text_similarity": 0.5976,
+          "score_skills": 0.8,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9888,
+          "score_grounded_quality": 0.9254
+        }
+      },
+      {
+        "rank": 2,
+        "candidate_id": "candidate_206d746034ef",
+        "matched_profile_id": "profile_0e54d2a788d4",
+        "full_name": "MOHAMED AZIZ BELAWEID",
+        "final_score": 0.5528,
+        "job_seniority": null,
+        "candidate_seniority": null,
+        "seniority_alignment": null,
+        "must_have_coverage": 0.6,
+        "matched_skills": [
+          "Python",
+          "FastAPI",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "MongoDB",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.5528,
+          "base_score_before_penalty": 0.6503,
+          "score_text_similarity": 0.4238,
+          "score_skills": 0.6,
+          "score_experience": 0.6667,
+          "score_profile_quality": 0.9799,
+          "score_grounded_quality": 0.9439
+        }
+      },
+      {
+        "rank": 3,
+        "candidate_id": "candidate_8eea1b635447",
+        "matched_profile_id": "profile_55f949a128da",
+        "full_name": "Candidate (ID: candidate_8eea1b635447)",
+        "final_score": 0.5466,
+        "job_seniority": null,
+        "candidate_seniority": null,
+        "seniority_alignment": null,
+        "must_have_coverage": 0.8,
+        "matched_skills": [
+          "Python",
+          "FastAPI",
+          "MongoDB",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.5466,
+          "base_score_before_penalty": 0.7592,
+          "score_text_similarity": 0.4646,
+          "score_skills": 0.8,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8881,
+          "score_grounded_quality": 0.8215
+        }
+      },
+      {
+        "rank": 4,
+        "candidate_id": "candidate_1df043636ea4",
+        "matched_profile_id": "profile_133336b99224",
+        "full_name": "JEFFERYGORCZANY",
+        "final_score": 0.4332,
+        "job_seniority": null,
+        "candidate_seniority": null,
+        "seniority_alignment": null,
+        "must_have_coverage": 0.4,
+        "matched_skills": [
+          "Python",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.4332,
+          "base_score_before_penalty": 0.6665,
+          "score_text_similarity": 0.56,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9703,
+          "score_grounded_quality": 0.9013
+        }
+      },
+      {
+        "rank": 5,
+        "candidate_id": "candidate_71e03ea99985",
+        "matched_profile_id": "profile_4e6ce456eccc",
+        "full_name": "Candidate (ID: candidate_71e03ea99985)",
+        "final_score": 0.3502,
+        "job_seniority": null,
+        "candidate_seniority": null,
+        "seniority_alignment": null,
+        "must_have_coverage": 0.4,
+        "matched_skills": [
+          "Python",
+          "MongoDB"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "Docker",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.3502,
+          "base_score_before_penalty": 0.6338,
+          "score_text_similarity": 0.457,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9553,
+          "score_grounded_quality": 0.867
+        }
+      },
+      {
+        "rank": 6,
+        "candidate_id": "candidate_1d475044c93c",
+        "matched_profile_id": "profile_02aa18c661e7",
+        "full_name": "Candidate (ID: candidate_1d475044c93c)",
+        "final_score": 0.3464,
+        "job_seniority": null,
+        "candidate_seniority": null,
+        "seniority_alignment": null,
+        "must_have_coverage": 0.4,
+        "matched_skills": [
+          "Python",
+          "MongoDB"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "Docker",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.3464,
+          "base_score_before_penalty": 0.6269,
+          "score_text_similarity": 0.3878,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9696,
+          "score_grounded_quality": 0.9305
+        }
+      },
+      {
+        "rank": 7,
+        "candidate_id": "candidate_073b7a3d39ba",
+        "matched_profile_id": "profile_5c10a3b5e6c5",
+        "full_name": "Markus Rohan",
+        "final_score": 0.3181,
+        "job_seniority": null,
+        "candidate_seniority": null,
+        "seniority_alignment": null,
+        "must_have_coverage": 0.4,
+        "matched_skills": [
+          "Python",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.3181,
+          "base_score_before_penalty": 0.5725,
+          "score_text_similarity": 0.4552,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7165,
+          "score_grounded_quality": 0.5969
+        }
+      },
+      {
+        "rank": 8,
+        "candidate_id": "candidate_c564b8eceb3d",
+        "matched_profile_id": "profile_41aac6a912f1",
+        "full_name": "Candidate (ID: candidate_c564b8eceb3d)",
+        "final_score": 0.2731,
+        "job_seniority": null,
+        "candidate_seniority": null,
+        "seniority_alignment": null,
+        "must_have_coverage": 0.4,
+        "matched_skills": [
+          "Python",
+          "MongoDB"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "Docker",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.2731,
+          "base_score_before_penalty": 0.5835,
+          "score_text_similarity": 0.3983,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8522,
+          "score_grounded_quality": 0.6898
+        }
+      },
+      {
+        "rank": 9,
+        "candidate_id": "candidate_d813a4aedd03",
+        "matched_profile_id": "profile_98d4b26839c0",
+        "full_name": "MILDREDZEMLAK",
+        "final_score": 0.2628,
+        "job_seniority": null,
+        "candidate_seniority": null,
+        "seniority_alignment": null,
+        "must_have_coverage": 0.2,
+        "matched_skills": [
+          "Python"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "Docker",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.2628,
+          "base_score_before_penalty": 0.5841,
+          "score_text_similarity": 0.4856,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9707,
+          "score_grounded_quality": 0.9318
+        }
+      },
+      {
+        "rank": 10,
+        "candidate_id": "candidate_4eef95d3a3fa",
+        "matched_profile_id": "profile_070e372f3c0e",
+        "full_name": "Justine Hendrickson",
+        "final_score": 0.2573,
+        "job_seniority": null,
+        "candidate_seniority": null,
+        "seniority_alignment": null,
+        "must_have_coverage": 0.2,
+        "matched_skills": [
+          "Python"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "Docker",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.2573,
+          "base_score_before_penalty": 0.5718,
+          "score_text_similarity": 0.44,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9763,
+          "score_grounded_quality": 0.9242
+        }
+      }
+    ],
+    "top10_after": [
+      {
+        "rank": 1,
+        "candidate_id": "candidate_1487f3187f7b",
+        "matched_profile_id": "profile_a7708a628908",
+        "full_name": "Hichem Bensalah",
+        "final_score": 0.7701,
+        "job_seniority": "mid_level",
+        "candidate_seniority": "junior",
+        "seniority_alignment": 0.7,
+        "must_have_coverage": 0.8,
+        "matched_skills": [
+          "Python",
+          "FastAPI",
+          "MongoDB",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.7701,
+          "base_score_before_penalty": 0.7701,
+          "score_text_similarity": 0.5925,
+          "score_skills": 0.8,
+          "score_experience": 0.6667,
+          "score_profile_quality": 0.9951,
+          "score_grounded_quality": 0.9937
+        }
+      },
+      {
+        "rank": 2,
+        "candidate_id": "candidate_8eea1b635447",
+        "matched_profile_id": "profile_55f949a128da",
+        "full_name": "Candidate (ID: candidate_8eea1b635447)",
+        "final_score": 0.6706,
+        "job_seniority": "mid_level",
+        "candidate_seniority": "junior",
+        "seniority_alignment": 0.7,
+        "must_have_coverage": 0.8,
+        "matched_skills": [
+          "Python",
+          "FastAPI",
+          "MongoDB",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.6706,
+          "base_score_before_penalty": 0.7889,
+          "score_text_similarity": 0.4629,
+          "score_skills": 0.8,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9571,
+          "score_grounded_quality": 0.9832
+        }
+      },
+      {
+        "rank": 3,
+        "candidate_id": "candidate_206d746034ef",
+        "matched_profile_id": "profile_0e54d2a788d4",
+        "full_name": "MOHAMED AZIZ BELAWEID",
+        "final_score": 0.5538,
+        "job_seniority": "mid_level",
+        "candidate_seniority": "mid_level",
+        "seniority_alignment": 1.0,
+        "must_have_coverage": 0.6,
+        "matched_skills": [
+          "Python",
+          "FastAPI",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "MongoDB",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.5538,
+          "base_score_before_penalty": 0.6515,
+          "score_text_similarity": 0.4199,
+          "score_skills": 0.6,
+          "score_experience": 0.6667,
+          "score_profile_quality": 0.9799,
+          "score_grounded_quality": 0.9589
+        }
+      },
+      {
+        "rank": 4,
+        "candidate_id": "candidate_1df043636ea4",
+        "matched_profile_id": "profile_133336b99224",
+        "full_name": "JEFFERYGORCZANY",
+        "final_score": 0.4335,
+        "job_seniority": "mid_level",
+        "candidate_seniority": "senior",
+        "seniority_alignment": 0.85,
+        "must_have_coverage": 0.4,
+        "matched_skills": [
+          "Python",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.4335,
+          "base_score_before_penalty": 0.6669,
+          "score_text_similarity": 0.5528,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9703,
+          "score_grounded_quality": 0.9163
+        }
+      },
+      {
+        "rank": 5,
+        "candidate_id": "candidate_073b7a3d39ba",
+        "matched_profile_id": "profile_5c10a3b5e6c5",
+        "full_name": "Markus Rohan",
+        "final_score": 0.4193,
+        "job_seniority": "mid_level",
+        "candidate_seniority": "senior",
+        "seniority_alignment": 0.85,
+        "must_have_coverage": 0.4,
+        "matched_skills": [
+          "Python",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.4193,
+          "base_score_before_penalty": 0.645,
+          "score_text_similarity": 0.4584,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9491,
+          "score_grounded_quality": 0.9428
+        }
+      },
+      {
+        "rank": 6,
+        "candidate_id": "candidate_71e03ea99985",
+        "matched_profile_id": "profile_4e6ce456eccc",
+        "full_name": "Candidate (ID: candidate_71e03ea99985)",
+        "final_score": 0.353,
+        "job_seniority": "mid_level",
+        "candidate_seniority": "mid_level",
+        "seniority_alignment": 1.0,
+        "must_have_coverage": 0.4,
+        "matched_skills": [
+          "Python",
+          "MongoDB"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "Docker",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.353,
+          "base_score_before_penalty": 0.639,
+          "score_text_similarity": 0.4598,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9553,
+          "score_grounded_quality": 0.897
+        }
+      },
+      {
+        "rank": 7,
+        "candidate_id": "candidate_c564b8eceb3d",
+        "matched_profile_id": "profile_41aac6a912f1",
+        "full_name": "Candidate (ID: candidate_c564b8eceb3d)",
+        "final_score": 0.3505,
+        "job_seniority": "mid_level",
+        "candidate_seniority": "mid_level",
+        "seniority_alignment": 1.0,
+        "must_have_coverage": 0.4,
+        "matched_skills": [
+          "Python",
+          "MongoDB"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "Docker",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.3505,
+          "base_score_before_penalty": 0.6344,
+          "score_text_similarity": 0.439,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9289,
+          "score_grounded_quality": 0.9166
+        }
+      },
+      {
+        "rank": 8,
+        "candidate_id": "candidate_1d475044c93c",
+        "matched_profile_id": "profile_02aa18c661e7",
+        "full_name": "Candidate (ID: candidate_1d475044c93c)",
+        "final_score": 0.3485,
+        "job_seniority": "mid_level",
+        "candidate_seniority": "senior",
+        "seniority_alignment": 0.85,
+        "must_have_coverage": 0.4,
+        "matched_skills": [
+          "Python",
+          "MongoDB"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "Docker",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.3485,
+          "base_score_before_penalty": 0.6307,
+          "score_text_similarity": 0.3941,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9696,
+          "score_grounded_quality": 0.9455
+        }
+      },
+      {
+        "rank": 9,
+        "candidate_id": "candidate_e1fda1d70be1",
+        "matched_profile_id": "profile_6fef4a9c24f0",
+        "full_name": "LEATRICEFRIESEN",
+        "final_score": 0.2641,
+        "job_seniority": "mid_level",
+        "candidate_seniority": "senior",
+        "seniority_alignment": 0.85,
+        "must_have_coverage": 0.2,
+        "matched_skills": [
+          "Python"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "Docker",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.2641,
+          "base_score_before_penalty": 0.5869,
+          "score_text_similarity": 0.5081,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9393,
+          "score_grounded_quality": 0.9301
+        }
+      },
+      {
+        "rank": 10,
+        "candidate_id": "candidate_4eef95d3a3fa",
+        "matched_profile_id": "profile_070e372f3c0e",
+        "full_name": "Justine Hendrickson",
+        "final_score": 0.2631,
+        "job_seniority": "mid_level",
+        "candidate_seniority": "senior",
+        "seniority_alignment": 0.85,
+        "must_have_coverage": 0.2,
+        "matched_skills": [
+          "Python"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "Docker",
+          "REST API"
+        ],
+        "scores": {
+          "final_score": 0.2631,
+          "base_score_before_penalty": 0.5847,
+          "score_text_similarity": 0.4817,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9763,
+          "score_grounded_quality": 0.9392
+        }
+      }
+    ]
+  }
+}

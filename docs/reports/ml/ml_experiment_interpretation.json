@@ -1,0 +1,114 @@
+{
+  "generated_at_utc": "2026-05-15T10:02:51.652552+00:00",
+  "objective": "Documenter une première expérimentation ML contrôlée sur le dataset aligné pseudo-labellisé.",
+  "dataset": "data\\ranking\\datasets\\ranking_dataset_aligned_pseudo_labeled.jsonl",
+  "target": "label_binary",
+  "row_count": 250,
+  "label_distribution": {
+    "0": 104,
+    "1": 103,
+    "2": 32,
+    "3": 11
+  },
+  "label_binary_distribution": {
+    "0": 207,
+    "1": 43
+  },
+  "trained_models": [
+    "logistic_regression",
+    "random_forest",
+    "xgboost"
+  ],
+  "split_strategy": "LeaveOneGroupOut par job_id: entrainement sur 4 offres, test sur 1 offre.",
+  "model_comparison": {
+    "logistic_regression": {
+      "classification": {
+        "accuracy": 0.9960000000000001,
+        "macro_f1": 0.9946666666666667,
+        "precision": 0.9846153846153847,
+        "recall": 1.0,
+        "roc_auc": 0.9978070175438596
+      },
+      "ranking": {
+        "precision@5": 1.0,
+        "precision@10": 0.74,
+        "ndcg@10": 0.9861137556126446,
+        "mrr": 1.0
+      }
+    },
+    "random_forest": {
+      "classification": {
+        "accuracy": 0.9960000000000001,
+        "macro_f1": 0.9946666666666667,
+        "precision": 0.9846153846153847,
+        "recall": 1.0,
+        "roc_auc": 0.9986842105263157
+      },
+      "ranking": {
+        "precision@5": 1.0,
+        "precision@10": 0.76,
+        "ndcg@10": 1.0,
+        "mrr": 1.0
+      }
+    },
+    "xgboost": {
+      "classification": {
+        "accuracy": 0.9879999999999999,
+        "macro_f1": 0.983701754385965,
+        "precision": 0.9846153846153847,
+        "recall": 0.9692307692307693,
+        "roc_auc": 0.9969298245614034
+      },
+      "ranking": {
+        "precision@5": 1.0,
+        "precision@10": 0.74,
+        "ndcg@10": 0.9872758423602097,
+        "mrr": 1.0
+      }
+    },
+    "matching_v3_baseline": {
+      "classification": null,
+      "ranking": {
+        "precision@5": 1.0,
+        "precision@10": 0.76,
+        "ndcg@10": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  "why_metrics_are_high": [
+    "Les pseudo-labels sont dérivés de règles métier contrôlées.",
+    "Plusieurs features utilisées pour créer les pseudo-labels sont aussi utilisées pour entraîner les modèles.",
+    "Cette réutilisation crée une circularité partielle entre la cible et les variables explicatives.",
+    "Le modèle apprend principalement à reproduire la logique de pseudo-labeling.",
+    "Les résultats valident le pipeline ML end-to-end, mais ne prouvent pas une supériorité réelle sur des labels recruteur."
+  ],
+  "methodological_limits": [
+    "Les labels sont des pseudo-labels métier contrôlés, pas des labels recruteur.",
+    "Le dataset reste petit avec 250 lignes et 43 exemples positifs binaires.",
+    "La cible label_binary est construite à partir des labels 0/1/2/3 pseudo-labellisés.",
+    "final_score_v3 est utilisé seulement comme score de baseline Matching V3, jamais comme label.",
+    "Les métriques très élevées doivent être interprétées comme un contrôle technique du pipeline."
+  ],
+  "validated": [
+    "construction du dataset",
+    "génération de pseudo-labels",
+    "entraînement de modèles",
+    "évaluation LeaveOneGroupOut par job_id",
+    "comparaison avec Matching V3",
+    "sauvegarde des modèles"
+  ],
+  "not_validated": [
+    "un modèle final",
+    "un modèle prêt pour production",
+    "une supériorité réelle sur des décisions recruteur"
+  ],
+  "decision": {
+    "matching_v3": "baseline officielle",
+    "random_forest": "baseline ML expérimentale",
+    "logistic_regression": "baseline ML simple",
+    "xgboost": "baseline ML expérimentale testée",
+    "human_validation": "nécessaire pour conclure"
+  },
+  "next_step": "Construire un petit jeu de labels humains/recruteur et réévaluer les modèles sans conclure uniquement à partir des pseudo-labels."
+}

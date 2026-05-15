@@ -1,0 +1,148 @@
+{
+  "source_path": "data\\raw_cv\\images\\2_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\2_image.json",
+  "source_format": "images",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6044,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\n777 Springboard St.#144 Los Angeles, CA 90001\nAlexander Eakins\n(111)111-1111 email@youremail.com\n\n## EDUCATION\n\n## Harvard University-Bachelorof Science, Data Science AUGUST 2011-MAY 2015\n**Date: ** AUGUST 2011-MAY 2015\n- MySQL\n- Python\n- Springboard-Data Science Certificate\n- PHP\n- MAY 2017\n\n## LANGUAGES\n\n## TECHNICAL SKILLS\n\nData mining/processing\n\n## PROFESSIONAL EXPERIENCE\n\nStatistical analysis\n\n## SOFT SKILLS\n\nRandom Corp, 141 Random Circle Suite#991 Data Science Intern\nBusiness acumen\nOral/writtencomm\nMAY 2017-AUGUST 2018\nStrategicplanning\nReport actionable, statistical, andanalyticalinsightsto executivesforeffectivestrategicpositioningin market place\nAWARDS\nShadow datascientists and assistin developingalgorithms forpredictivemodeling\nWalnut Festival International Fingerstyle Guitar Championship Iist Place\nAnalyze andprocess sophisticated data setsusing S As, MySQL, and Excel\nWritersofthe Future Contest ($750 prize)12 nd Place\nWritepythonscriptsto automateeverydaytaskssuchas organizingdesktopfiles, automaticallyredefiningstrings file and folder structuresfornewprojects\nSpringboard Data Science Course-Data Science Capstone Project: Specialized Analysisof Streaming Platform Patterns\nMAY 2017\nAnalyzeddata from 233 streamersin 30 countries across 5 differentplatformsover 30 days, totalingnearly 300, 000 hours of streaming\nConfirmed hypothesis that data supportsanupwardtrend ofnight-time streaming\nHEADER\n777Springboard St.#144 Los Angeles, CA 90001\nAlexander Eakins\n(111)111-1111 email@youremail.com\nSKILLS & KNOWLEDGE\nEDUCATION\nHarvard University-Bachelorof Science, Data Science AUGUST2011-MAY2015\nAUGUST2011-MAY2015\nMySQL\nPython\nSpringboard-Data Science Certificate\nPHP\nMAY2017\nC\nLANGUAGES\nR\nTECHNICAL SKILLS\nData mining/processing\nPROFESSIONAL EXPERIENCE\nStatistical analysis\nSOFT SKILLS\nRandom Corp, 141Random Circle Suite#991 Data Science Intern\nBusiness acumen\nOral/writtencomm\nMAY2017-AUGUST2018\nStrategicplanning\nReport actionable, statistical, andanalyticalinsightsto executivesforeffectivestrategicpositioningin market place\nAWARDS\nShadow datascientists and assistin developingalgorithms forpredictivemodeling\nWalnut Festival International Fingerstyle Guitar Championship Iist Place\nAnalyze andprocess sophisticated data setsusing S As, MySQL, and Excel\nWritersofthe Future Contest ($750prize)12nd Place\nWritepythonscriptsto automateeverydaytaskssuchas organizingdesktopfiles, automaticallyredefiningstrings file and folder structuresfornewprojects\nSpringboard Data Science Course-Data Science Capstone Project: Specialized Analysisof Streaming Platform Patterns\nMAY2017\nAnalyzeddata from233streamersin30 countries across5 differentplatformsover30 days, totalingnearly300, 000 hours of streaming\nConfirmed hypothesis that data supportsanupwardtrend ofnight-time streaming",
+    "header_info": {
+      "full_name": "Alexander Eakins",
+      "email": "email@youremail.com",
+      "phone": "111)111-1111",
+      "location": "777 Springboard St.#144 Los Angeles, CA 90001",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [
+      "email@youremail.com"
+    ],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.85,
+    "quality_flags": [
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8345,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Alexander Eakins",
+      "email": null,
+      "phone": "(111)111-1111",
+      "location": "Los Angeles, CA 90001",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "MySQL",
+        "Python",
+        "Springboard-Data Science Certificate",
+        "PHP"
+      ],
+      "soft_skills": [
+        "Business acumen",
+        "Strategic planning"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Random Corp",
+        "job_title": "Data Science Intern",
+        "start_date": "MAY 2017",
+        "end_date": "AUGUST 2018",
+        "city": null,
+        "responsibilities": [
+          "Analyze and process sophisticated data sets using S As, MySQL, and Excel",
+          "Write python scripts to automate everyday tasks such as organizing desktop files, automatically redefining strings file and folder structures for new projects"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Harvard University",
+        "degree": "Bachelor of Science in Data Science",
+        "field": null,
+        "year": "AUGUST 2011-MAY 2015"
+      },
+      {
+        "institution": "Springboard",
+        "degree": "Data Science Certificate",
+        "field": null,
+        "year": "MAY 2017"
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T13:43:26.631828+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:24.251851+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

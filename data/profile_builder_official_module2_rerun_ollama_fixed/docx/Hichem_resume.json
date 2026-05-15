@@ -1,0 +1,112 @@
+{
+  "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+  "artifact_path": "data\\processed_official_module1\\docx\\Hichem_resume.json",
+  "source_format": "docx",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T153437Z",
+  "profile": {
+    "source_id": "hichem.salah1512@gmail.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hichem Bensalah",
+      "email": "hichem.salah1512@gmail.com",
+      "phone": "+216 97 118 755",
+      "location": "Ariana, Tunisia"
+    },
+    "expertise": {
+      "summary": "Data Science & AI Engineering student focused on ML/DL, MLOps, and AWS",
+      "hard_skills": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "Java",
+        "JavaScript",
+        "Docker",
+        "GitHub",
+        "GitHub Actions",
+        "Flask",
+        "Fast API",
+        "Streamlit",
+        "SageMaker",
+        "SQL Server",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Neo4j",
+        "Oracle",
+        "Apache Cassandra",
+        "Apache Spark",
+        "PySpark",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "OpenCV",
+        "NLTK",
+        "spaCy"
+      ],
+      "soft_skills": [
+        "Problem-solving",
+        "Teamwork",
+        "Communication",
+        "Critical thinking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "AI & Data Science Intern",
+        "company": "TUDIGISEC, TDS Global Technologies",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Built a CNN–Bi LSTM Network Intrusion Detection System (NSL-KDD) in TensorFlow/Keras with >99% test accuracy",
+          "Implemented a full ML pipeline (preprocessing, train/val/test split, model training, MLflow tracking, evaluation reports)",
+          "Delivered a Flask + Flask-Socket IO web demo with tested/predict API and basic real-time interface"
+        ]
+      },
+      {
+        "job_title": "Summer Training",
+        "company": "Tek-Up University",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Python (PCAP prep) & Java (OCA prep): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree — Data Science & AI",
+        "school": "Tek-Up University",
+        "year": "2023 – 2026"
+      },
+      {
+        "degree": "Civil Engineering Studies (ENIG)",
+        "school": "ENIG Gabès",
+        "year": "2020 – 2022"
+      },
+      {
+        "degree": "Preparatory Cycle in Engineering",
+        "school": "FSS Sfax",
+        "year": "2017 – 2020"
+      },
+      {
+        "degree": "Baccalauréat in Mathematics",
+        "school": "Skhira–Sfax",
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T15:34:43.448677+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8878
+    }
+  }
+}

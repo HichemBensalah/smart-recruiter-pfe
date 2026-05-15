@@ -1,0 +1,85 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV10.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV10.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "wxu23@illinois.edu",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Wenzhe (Evelyn) Xu",
+      "email": "wxu23@illinois.edu",
+      "phone": "217-417-9270",
+      "location": "100 24 Ave #3, San Mateo, CA 94403"
+    },
+    "expertise": {
+      "summary": "Data scientist with experience in machine learning, data analysis, and software development",
+      "hard_skills": [
+        "dplyr",
+        "ggplot2",
+        "shiny",
+        "Python",
+        "Scipy",
+        "numpy",
+        "pandas",
+        "scikit-learn",
+        "SPSS",
+        "Looker",
+        "Linux",
+        "CentOS6.5"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Presentation",
+        "Project management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist Intern",
+        "company": "MasterCard Inc.",
+        "start_date": "6/2015",
+        "end_date": "12/2015",
+        "city": "San Carlos",
+        "responsibilities": [
+          "Designed the automatic anomalies detection system for business metrics time series data",
+          "Read package source code of R and re-organized the logic and input to fit the business metrics data application scenario",
+          "Used Impala/SQL for ETL the data from production"
+        ]
+      },
+      {
+        "job_title": "Tech-Sale Analytes Intern",
+        "company": "Anheuser-Busch Inbev",
+        "start_date": null,
+        "end_date": null,
+        "city": "Champaign",
+        "responsibilities": [
+          "Customer profiling with social media data source and internal wholesaler database",
+          "Predicted volume for each POC through logistic models and learning algorithms",
+          "Used regression tree to predict the number of pipe needed by the target volume for Belgium on-premise market"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Statistics-Analytics",
+        "school": "University of Illinois at Urbana-Champaign",
+        "year": "8/2013-5/2015"
+      },
+      {
+        "degree": "Bachelor of Science in Statistics",
+        "school": "Tianjin University of Finance and Economics",
+        "year": "9/2009-6/2013"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:24:38.452433+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8428
+    }
+  }
+}

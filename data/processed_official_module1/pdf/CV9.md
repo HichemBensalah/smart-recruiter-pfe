@@ -1,0 +1,60 @@
+## HEADER
+
+NATASHAHOLLOWAY
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+STRENGTHS
+★Strategic thinking
+### Data Science Intern
+- How did you acquire it?What dld it resultin?
+### Boyle Ltd 2017-Ongoing Dublin, lreiand
+- Peoplefocused servant leadership
+- Boyle Ltd isa company thatoffers B 2 B Sales Prospecting Solution for Scaling Startups and Fast Growth Companies.
+- How-dld you acquire it?What dld it result in?
+- generating an additional cash-flow up to$2 B
+- Ability to keep caim in stressful situations
+- Build a real-time analytics dashboard using Tableau and D 3. js that portrays the processed output.
+- Acquired using practicing mindfulness
+- ·Delivered businessrecommendations that increasedcampaign revenue in 300 k+USD/month
+- Created and implemented strategic marketing campaigns that resulted in $26 millionin profits
+### Data Science Intern
+- Sakha
+### Rolfs 0 n 2016-2017 Dublin, eland
+- workin theoffice 3 dayseachweek.
+### behavior, used by 300+city teams
+- Developed enterprise data analytics vision and strategy for generating anadditional cash-flowup to$2 B
+- Improved Transaction Categorisation to 0. 97 f 1-score
+- Able to capture~30%of churned customerswitha conversionrate of 13% in its first decile.
+### Data Science Intern
+
+## LANGUAGES
+
+Russian
+Native
+Native
+REFERENCES
+Dr Vural Aksakalli
+vural. aksakalli@rmit. edu. au +61401300586
+Amy Harrington
+amy. harrington@rmit. edu. au
+Matt Bolton
+matt@m 3 it. com. au +61419444145
+PASSIONS
+Traveling
+Highlights:Mexico for half-year exchange, North Korea for half-marathon trip
+Powered by
+CEnhancu
+
+## TECHNICAL SKILLS
+
+Koepp lnc 2015-2016 Dublin, lreland coaching tools forsportsteams
+
+## EDUCATION
+
+-Data Cleaning:Processed data toextractrelevant information using Advanced Query Tool,(AQT) IBMDB 2
+Developed 3 Churn modelsofcar & home insurances to determine the propensity of customers to churn.
+Using K-Means method of clustering. 4 clusters were formed using SAS Enterprise Miner
+generating anadditional cash-flow up to$2 B
+www. enhancv. com

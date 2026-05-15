@@ -1,0 +1,205 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Aziz_resume.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7989,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nDeveloped a mask detection model using Efficient Det and Yolo-v 4, calculating the percentage of masked vs unmasked people in public places and restaurants/coffees, enforcing COVID regulations for business owners.\nDeveloped an age and gender classification model 92% accuracy by fine-tuning the Efficient Net architecture using AWS EC 2 instances and S 3 storage, helping business owners understand the customer demographic and finetune product placement quality resulting in 15% profit increase .\nOptimized inference time by 20% using Tensor RT and deployed the model using Docker and TensorFlow Serving, making predictions faster with a lighter model.\n\n## MOHAMED AZIZ BELAWEID\n\n+4917668727956 ⋄ Berlin, Germany azizbelaweid@gmail.com ⋄ linkedin.com/in/mohamed-aziz-belaweid/⋄ github.com/azayz\nCreated track features and pipelines using Big Query and Airflow that resulting in an increase of 10 min of listening time for 3 M users.\nCreated tool that allowed music teams to curate playlists and select tracks from 300 million using SQL and Looker.\nDeveloped a multimodal search system using CLIP's semantic representation for image and text, replacing keyword-based search and eliminating tedious labelling for 100 k+ gifs .\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nAutomated customer review analysis in English, French, Arabic, and Tunisian dialect, accelerating the process from 1 week to 2 days and improving customer support experience by finetuning a Multilingual Distil BERT model for the Tunisian/Arabic dialect for sentiment classification with TensorFlow (98% accuracy).\n**Date: ** July. 2020 - Sep. 2020\n- Created Data for finetuning LLMs using self-instruct, LIMA and self chat papers.\nImproved model performance by 6% by scraping customer reviews from Google Maps using Selenium and Beautiful Soup, providing more accurate customer satisfaction results.\nDeployed a Flask app to showcase the model's performance and test manual examples, resulting in faster experimentation and debugging.\n**Date: ** May. 2020 - July. 2020\n**Location: ** Tunis, TUN\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning Engineer\nMachine Learning Engineer\nJina AI\nFinetune LLMs on coding data, using Lo RA and 8 bit Quantization techniques on 3 3090 GPUs.\nhttps: //github.com/jina-ai/finetuner/pull/249, https: //github.com/jina-ai/finetuner/pull/266\nData Scientist\nRelational AI\nPaper: https: //ieeexplore. ieee. org/abstract/document/10020873\nArtificial Intelligence R & D Intern\nVneuron\nGitHub Repository: https: //github.com/azayz/Tunisian-Arabic-Dialect-Sentiment-Analysis\n\n## TECHNICAL SKILLS\n\nSound Cloud\nMaster of Software Engineering, National Institute of Applied Sciences and Technology (INSAT) Sep. 2017 June. 2022\nRelevant Coursework: OOP, Design Patterns, Parallel Computing, Software Architecture, Databases, Calculus, Linear Algebra, Probability and Statistics, Data Structures and Algorithms.\nSKILLS\nPython, Java, C++, SQL\nProgramming Languages Frameworks\nPytorch, Jax, Flask, FastAPI, Pytest, Pandas, NumPy, Scikit-learn, Huggingface Git, Linux, Weights and Biases, Docker\nTools\n\n## EDUCATION\n\nDeveloped an information retrieval pipeline that parses technical documentation and created embeddings using Dense Passage Retrieval and Tf Idf, Eliminating 60% of support workload .\n**Date: ** July 2023 - Present\n**Location: ** Berlin, Germany\nImplemented a callback wrapper for PyTorch, TensorFlow, and Paddle Paddle, making the finetuner API easier to use for 250 monthly developers.\n**Date: ** Jan. 2021 - Oct. 2021\nPretrained BERT from scratch using Nvidea Ne Mo and Pytorch Lightning on 4 V 100 GPUs for MLM and NSP tasks . Trained on 12 GB of legal data, monitored using Tensorboard. Resulting in a betterperforming named entity recognition model than legal BERT after finetuning with an average 94% F 1 score for entities .\n**Location: ** Berkeley, CA US\n- Worked with a team of lawyers to annotate and clean data for named entity recognition using Prodigy labeling tool. Trained spaCy NER models (CNN sliding window) and BiLSTM-CRF to label more data and conducted error analysis and data enhancement. Resulted in a 4 x speed up in data labeling and improved quality .\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nComputer Vision Intern\nDatavision\n\n## PROJECTS AND AWARDS\n\nTop 1% (5/1317) in the Plant Pathology Research Competition on Kaggle This competition is part of Fine Grained Visual Categorization (FGVC) workshop at CVPR 2020. My personal result: 0. 9806 AUC. Used multiple data augmentation methods such as Cut Mix, Cut Out and Grid Mask . (Solution Notebook here.)\nCertified Tensorflow Developper Passed Tensfor Flow certification exam.\nBlog to Summarize and Discuss Research Papers Actively write blog posts viewed by over 22 K+ data scientists and engineers, summarizing most recent research papers.\nHEADER\nDeveloped a mask detection model using EfficientDet and Yolo-v4, calculating the percentage of masked vs unmasked people in public places and restaurants/coffees, enforcing COVID regulations for business owners.\nDeveloped an age and gender classification model 92% accuracy by fine-tuning the EfficientNet architecture using AWS EC2 instances and S3 storage, helping business owners understand the customer demographic and finetune product placement quality resulting in 15% profit increase .\nOptimized inference time by 20% using TensorRT and deployed the model using Docker and TensorFlow Serving, making predictions faster with a lighter model.\nMOHAMED AZIZ BELAWEID\n+4917668727956 ⋄ Berlin, Germany azizbelaweid@gmail.com ⋄ linkedin.com/in/mohamed-aziz-belaweid/ ⋄ github.com/azayz\nCreated track features and pipelines using BigQuery and Airflow that resulting in an increase of 10 min of listening time for 3M users.\nCreated tool that allowed music teams to curate playlists and select tracks from 300 million using SQL and Looker.\nDeveloped a multimodal search system using CLIP's semantic representation for image and text, replacing keyword-based search and eliminating tedious labelling for 100k+ gifs .\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nAutomated customer review analysis in English, French, Arabic, and Tunisian dialect, accelerating the process from 1 week to 2 days and improving customer support experience by finetuning a Multilingual DistilBERT model for the Tunisian/Arabic dialect for sentiment classification with TensorFlow (98% accuracy).\nJuly. 2020 - Sep. 2020\nCreated Data for finetuning LLMs using self-instruct, LIMA and self chat papers.\nImproved model performance by 6% by scraping customer reviews from Google Maps using Selenium and BeautifulSoup, providing more accurate customer satisfaction results.\nDeployed a Flask app to showcase the model's performance and test manual examples, resulting in faster experimentation and debugging.\nMay. 2020 - July. 2020\nTunis, TUN\nMACHINE LEARNING & DEEP LEARNING\nMachine Learning Engineer\nMachine Learning Engineer\nJinaAI\nFinetune LLMs on coding data, using LoRA and 8 bit Quantization techniques on 3 3090 GPUs.\nhttps: //github.com/jina-ai/finetuner/pull/249, https: //github.com/jina-ai/finetuner/pull/266\nData Scientist\nRelationalAI\nPaper: https: //ieeexplore.ieee.org/abstract/document/10020873\nArtificial Intelligence R&D Intern\nVneuron\nGitHub Repository: https: //github.com/azayz/Tunisian-Arabic-Dialect-Sentiment-Analysis\nTECHNICAL SKILLS\nSoundCloud\nMaster of Software Engineering, National Institute of Applied Sciences and Technology (INSAT) Sep. 2017 June. 2022\nRelevant Coursework: OOP, Design Patterns, Parallel Computing, Software Architecture, Databases, Calculus, Linear Algebra, Probability and Statistics, Data Structures and Algorithms.\nSKILLS\nPython, Java, C++, SQL\nProgramming Languages Frameworks\nPytorch, Jax, Flask, FastAPI, Pytest, Pandas, NumPy, Scikit-learn, Huggingface Git, Linux, Weights and Biases, Docker\nTools\nEDUCATION\nDeveloped an information retrieval pipeline that parses technical documentation and created embeddings using Dense Passage Retrieval and Tf Idf, Eliminating 60% of support workload .\nJuly 2023 - Present\nBerlin, Germany\nImplemented a callback wrapper for PyTorch, TensorFlow, and PaddlePaddle, making the finetuner API easier to use for 250 monthly developers.\nJan. 2021 - Oct. 2021\nPretrained BERT from scratch using Nvidea NeMo and Pytorch Lightning on 4 V100 GPUs for MLM and NSP tasks . Trained on 12GB of legal data, monitored using Tensorboard. Resulting in a betterperforming named entity recognition model than legal BERT after finetuning with an average 94% F1 score for entities .\nBerkeley, CA US\nWorked with a team of lawyers to annotate and clean data for named entity recognition using Prodigy labeling tool. Trained SpaCy NER models (CNN sliding window) and BiLSTM-CRF to label more data and conducted error analysis and data enhancement. Resulted in a 4x speed up in data labeling and improved quality .\nCOMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\nComputer Vision Intern\nDatavision\nPROJECTS AND AWARDS\nTop 1% (5/1317) in the Plant Pathology Research Competition on Kaggle This competition is part of FineGrained Visual Categorization (FGVC) workshop at CVPR 2020. My personal result: 0.9806 AUC. Used multiple data augmentation methods such as CutMix, CutOut and GridMask . (Solution Notebook here.)\nCertified Tensorflow Developper Passed TensforFlow certification exam.\nBlog to Summarize and Discuss Research Papers Actively write blog posts viewed by over 22K+ data scientists and engineers, summarizing most recent research papers.",
+    "header_info": {
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "email": "azizbelaweid@gmail.com",
+      "phone": "+4917668727956",
+      "location": null,
+      "linkedin": "linkedin.com/in/mohamed-aziz-belaweid/⋄",
+      "github": "github.com/azayz"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9598,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[3].city",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].responsibilities[2]",
+      "experiences[3].responsibilities[3]",
+      "experiences[3].start_date",
+      "experiences[4].city",
+      "experiences[4].end_date",
+      "experiences[4].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "email": "azizbelaweid@gmail.com",
+      "phone": "+4917668727956",
+      "location": "Berlin, Germany",
+      "linkedin": "linkedin.com/in/mohamed-aziz-belaweid/⋄",
+      "github": "https://github.com/azayz/Tunisian-Arabic-Dialect-Sentiment-Analysis"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid",
+      "years_experience": 4,
+      "hard_skills": [
+        "Python",
+        "Java",
+        "C++",
+        "SQL",
+        "Pytorch",
+        "Jax",
+        "Flask",
+        "FastAPI",
+        "Pytest",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Huggingface",
+        "Git",
+        "Linux",
+        "Weights and Biases",
+        "Docker"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Jina AI",
+        "job_title": "Machine Learning Engineer",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Finetune LLMs on coding data, using Lo RA and 8 bit Quantization techniques on 3 3090 GPUs"
+        ]
+      },
+      {
+        "company": "Relational AI",
+        "job_title": "Data Scientist",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": "Vneuron",
+        "job_title": "Artificial Intelligence R & D Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "July. 2020",
+        "end_date": "Sep. 2020",
+        "city": "Tunis, TUN",
+        "responsibilities": [
+          "Automated customer review analysis in English, French, Arabic, and Tunisian dialect, accelerating the process from 1 week to 2 days and improving customer support experience by finetuning a Multilingual Distil BERT model for the Tunisian/Arabic dialect for sentiment classification with TensorFlow (98% accuracy)",
+          "Created Data for finetuning LLMs using self-instruct, LIMA and self chat papers",
+          "Improved model performance by 6% by scraping customer reviews from Google Maps using Selenium and Beautiful Soup, providing more accurate customer satisfaction results",
+          "Deployed a Flask app to showcase the model's performance and test manual examples, resulting in faster experimentation and debugging"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "May. 2020",
+        "end_date": "July. 2020",
+        "city": "Tunis, TUN",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "National Institute of Applied Sciences and Technology (INSAT)",
+        "degree": "Master of Software Engineering",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "Certified Tensorflow Developper"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T08:35:01.907659+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:27.194641+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

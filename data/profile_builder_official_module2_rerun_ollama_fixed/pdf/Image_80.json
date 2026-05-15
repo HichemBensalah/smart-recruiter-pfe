@@ -1,0 +1,70 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_80.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_80.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T124624Z",
+  "profile": {
+    "source_id": "pdf:Image_80",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "LEATRICEFRIESEN",
+      "email": null,
+      "phone": null,
+      "location": "null"
+    },
+    "expertise": {
+      "summary": "Data Science and Analytics expertise with experience in Google Cloud Platform, AlchemyPlatform, Kubeflow, Airflow, and PySpark.",
+      "hard_skills": [
+        "Py Spark",
+        "Vertex",
+        "Kubeflow",
+        "Airflow"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Data Science",
+        "company": "Dare Inc./Boehm, Borerand Effertz",
+        "start_date": "07/2019",
+        "end_date": null,
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Experience implementingscalable, distributed, and highlry available systems",
+          "Experience with Google AlPlatform/VertexAl, Kubeflow and Airflow",
+          "Experience in dataprocessingusing SQL and Py Spark",
+          "Database/SQL experience"
+        ]
+      },
+      {
+        "job_title": "Data Science",
+        "company": "Dare Inc./Boehm, Borerand Effertz",
+        "start_date": "12/2013",
+        "end_date": "02/2019",
+        "city": "Dallas, TX",
+        "responsibilities": [
+          "Cyberanalysis SEi Msystems",
+          "Pharmaceutical product use managed care medical hospital claims",
+          "Analyticexperience with longiudinal consumer data",
+          "Useofhighvolumehealthcaredata"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor",
+        "school": "Fashion Institute of Design and Merchandising",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T12:54:19.634795+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6931
+    }
+  }
+}

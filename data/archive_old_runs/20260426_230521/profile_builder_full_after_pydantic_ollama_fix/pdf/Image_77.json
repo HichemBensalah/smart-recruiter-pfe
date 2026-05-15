@@ -1,0 +1,49 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_77.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Image_77.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:Image_77",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Data Science",
+        "company": "Stark Bank & Trust",
+        "start_date": "07/2018",
+        "end_date": null,
+        "city": "Phoenix, AZ",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Graduate Student in Epidemiology / Biomedical Engineering Program",
+        "company": null,
+        "start_date": "Fall Semester After Completing Internship",
+        "end_date": null,
+        "city": "Biomedical Engineering",
+        "responsibilities": []
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:47:11.380920+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7905
+    }
+  }
+}

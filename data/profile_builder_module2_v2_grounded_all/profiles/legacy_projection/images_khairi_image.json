@@ -1,0 +1,82 @@
+{
+  "source_path": "data\\raw_cv\\images\\khairi_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\khairi_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\images\\khairi_image.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Khaireddine Suibgui",
+      "email": "2021@gmail.com",
+      "phone": "+21655470669",
+      "location": "El Ghazela, Ariana"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "NodeJS",
+        "MongoDB",
+        "Express Js",
+        "Machine Learning",
+        "Git",
+        "Tensorflow",
+        "PyTorch",
+        "Apache Spark",
+        "NLTK",
+        "Keras"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Club Africain, Tunis",
+        "start_date": "March-August 2025",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "gent system to predict potential injuries and provide personalized training recommendations."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "TEK-UP, Ariana",
+        "start_date": "July-August 2024",
+        "end_date": null,
+        "city": "Ariana",
+        "responsibilities": [
+          "gent system to predict potential injuries and provide personalized training recommendations."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Data Science",
+        "school": "TEK-UP University - Ariana, Data Science",
+        "year": "2018-2021"
+      },
+      {
+        "degree": "Baccalaureate",
+        "school": "Pioneer School of Kasserine-Kasserine",
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T14:27:20.074647+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.4984,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

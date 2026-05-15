@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_56.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_56.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T112502Z",
+  "profile": {
+    "source_id": "pdf:Image_56",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Kaylin Quigley",
+      "email": null,
+      "phone": "",
+      "location": ""
+    },
+    "expertise": {
+      "summary": "Technical expertise in software development, data analysis, and machine learning.",
+      "hard_skills": [
+        "Java",
+        "Mongo DB",
+        "Couch DB",
+        "Redis",
+        "Oracle",
+        "My SQL"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Teamwork",
+        "Innovation"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "05/2016",
+        "end_date": null,
+        "city": "Phoenix, AZ",
+        "responsibilities": [
+          "Developing and maintaining development schedules"
+        ]
+      },
+      {
+        "job_title": "SENIORDATAENGINEER, DATASCIENCE",
+        "company": "San Francisco, CA",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Solving technical challenges for data scientists"
+        ]
+      },
+      {
+        "job_title": "SENIORDATAENGINEER, DATASCIENCE",
+        "company": "Houston, TX",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Defining and implementing best practices"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "COLUMBIAUNIVERSITY",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T11:44:47.500937+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7875
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "source_path": "data\\raw_cv\\images\\9_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\9_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\images\\9_image.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "NATASHAHOLLOWAY",
+      "email": "natashaholloway@gmail.comwilter.com/natashaholloway",
+      "phone": "+1-988-701-2005",
+      "location": "9 Dublin, ireland"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Data Science",
+        "Tableau",
+        "D3.js",
+        "SAS Enterprise Miner",
+        "K-Means method"
+      ],
+      "soft_skills": [
+        "People focused servant leadership",
+        "Ability to keep calm in stressful situations",
+        "Developed enterprise data analytics vision and strategy"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Boyle Ltd",
+        "start_date": "2017",
+        "end_date": null,
+        "city": "Dublin, ireland",
+        "responsibilities": [
+          "Developed enterprise data analytics vision and strategy for generating an additional cash-flow up to $2 B",
+          "Built a real-time analytics dashboard using Tableau and D3.js that portrays the processed output"
+        ]
+      },
+      {
+        "job_title": "Data Science Intern",
+        "company": "Koepplnc",
+        "start_date": "2015-2016",
+        "end_date": null,
+        "city": "Dublin, ireland",
+        "responsibilities": [
+          "Developed 3 Churn models of car & home insurance to determine the propensity of customers to churn"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-05-04T14:13:56.405621+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9381,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

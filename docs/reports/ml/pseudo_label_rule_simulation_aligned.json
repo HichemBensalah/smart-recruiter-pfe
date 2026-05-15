@@ -1,0 +1,101 @@
+{
+  "generated_at_utc": "2026-05-14T22:46:29.993106+00:00",
+  "dataset_path": "data\\ranking\\datasets\\ranking_dataset_aligned_unlabeled.jsonl",
+  "dataset_sha256_before": "3c106ed8c0dd1474afdc4a63562f457b1278afa8437cf8aac6e550f402350fbd",
+  "dataset_sha256_after": "3c106ed8c0dd1474afdc4a63562f457b1278afa8437cf8aac6e550f402350fbd",
+  "dataset_unchanged": true,
+  "total_rows": 250,
+  "distribution_v1": {
+    "0": 26,
+    "1": 181,
+    "2": 32,
+    "3": 11
+  },
+  "distribution_v2": {
+    "0": 104,
+    "1": 103,
+    "2": 32,
+    "3": 11
+  },
+  "percentage_v1": {
+    "0": 10.4,
+    "1": 72.4,
+    "2": 12.8,
+    "3": 4.4
+  },
+  "percentage_v2": {
+    "0": 41.6,
+    "1": 41.2,
+    "2": 12.8,
+    "3": 4.4
+  },
+  "positive_count_v1": 43,
+  "positive_count_v2": 43,
+  "positive_rate_v1": 17.2,
+  "positive_rate_v2": 17.2,
+  "distribution_per_job_v1": {
+    "backend_python_django_postgresql": {
+      "0": 10,
+      "1": 34,
+      "2": 2,
+      "3": 4
+    },
+    "backend_python_fastapi_mongodb_aligned": {
+      "0": 8,
+      "1": 37,
+      "2": 3,
+      "3": 2
+    },
+    "data_analyst_python_sql_powerbi": {
+      "0": 1,
+      "1": 36,
+      "2": 12,
+      "3": 1
+    },
+    "data_engineer_python_sql_etl_aligned": {
+      "0": 4,
+      "1": 34,
+      "2": 10,
+      "3": 2
+    },
+    "machine_learning_python_nlp": {
+      "0": 3,
+      "1": 40,
+      "2": 5,
+      "3": 2
+    }
+  },
+  "distribution_per_job_v2": {
+    "backend_python_django_postgresql": {
+      "0": 23,
+      "1": 21,
+      "2": 2,
+      "3": 4
+    },
+    "backend_python_fastapi_mongodb_aligned": {
+      "0": 17,
+      "1": 28,
+      "2": 3,
+      "3": 2
+    },
+    "data_analyst_python_sql_powerbi": {
+      "0": 16,
+      "1": 21,
+      "2": 12,
+      "3": 1
+    },
+    "data_engineer_python_sql_etl_aligned": {
+      "0": 20,
+      "1": 18,
+      "2": 10,
+      "3": 2
+    },
+    "machine_learning_python_nlp": {
+      "0": 28,
+      "1": 15,
+      "2": 5,
+      "3": 2
+    }
+  },
+  "recommendation": "v2_acceptable"
+}

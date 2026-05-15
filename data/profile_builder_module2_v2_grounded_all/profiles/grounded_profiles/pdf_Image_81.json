@@ -1,0 +1,185 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_81.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_81.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8038,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nBREEANDERSON\n5021 Waters Fall, Philadelphia, PA\n\n## EDUCATION\n\nSCHOOLOFTHEARTINSTITUTEOFCHICAGO\nMaster'sin Statistics\n## Priorexperiencewithdata transformations, filtering, dataaggregationis useful\nYourfuture colleagues helpyouwith questionsand challenges. Moreover, thereisapleasant, informal workingatmosphere\nWithyourpassion, youcanmakeadailydifferencefor ourcustomers intheenterprisemarketwith thehelpof thelatest Microsofttechnology\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n## FRANECKI, SCHROEDERANDPAUCEK\n## Philadelphia, PA|Data Science Consultant 10/2019-present\n- ·Extensiveexperiencewithstatistical modellingtechniques\n- Experienceconnecting Tableauorothervisualizationsystemsand usingfordashboardingoranalysis\nExperiencewith Machine Learningalgorithmsusing Spark ML/MLlib TensorFlow, Rand Notebooks like Zeppelin, Jupyter\n## Experience with at least one programming language (e. g., Python, R, C++, Java)\n- Practical experience designing andbuildingmachine learning optimizationandsimulationmodels\n- ·Wehave a strong focuson thecareer and development opportunities. Everycolleaguewill havea careeradvisor whoworkswithyoutocreateaplanandguidesyou through themany training opportunitiesweoffer\n\n## TECHNICAL SKILLS\n\nSKILLS\nWorking Knowledgeorexperienceof usingmodeling toolslike Knime, Rapidminer, H 2 O, SAS\nYouhavedevelopedcapabilitieswithdatamodeling and complexbigdataanalyses\nYou arebusinessfacingwithstrong businessanalysis skillsand aprovenconsultativeapproach\nData engineering skills inusing big data processing and streaming platforms Apache Sparkand Apache Kafka, Hadoop\nIn-depth understandingof SQL and Power Bl\n·Depth of knowledge in at least one OR/ML skillarea(e. g., optimization, simulation, machinelearning, statistics)\nFamiliaritywithdeeplearning, natural languageprocessing, computr vision, recommendersystems, experimentation(e. g., A/B testing)\nExperience inusingcloudplatforms andparallelprocessingtoscale modeldevelopment/deployment\nDomainknowledgeintheairlineindustry\nPh Din Stats, Operations Research, Applied Math, Physics Engineering, Economics(appliedmicro, appliedeconometrics empirical O, labor, finance, behavioral, appliedmacro/timeseries), r related technicalfield\n\n## MACHINE LEARNING & DEEP LEARNING\n\nCompetent in machine learning principles and techniques\nWHITEINC\nPhiladelphia, PA|Data Science Consultant 02/2015-06/2019\nDemonstrated aptitudeforindependent learning, logical analysis, problem identification, andproblemsolving\nHEADER\nBREEANDERSON\n5021WatersFall, Philadelphia, PA\n+1（555)3357759\nEDUCATION\nSCHOOLOFTHEARTINSTITUTEOFCHICAGO\nMaster'sinStatistics\nPriorexperiencewithdata transformations, filtering, dataaggregationis useful\nYourfuture colleagues helpyouwith questionsand challenges.Moreover, thereisapleasant, informal workingatmosphere\nWithyourpassion, youcanmakeadailydifferencefor ourcustomers intheenterprisemarketwith thehelpof thelatestMicrosofttechnology\nPROFESSIONAL EXPERIENCE\nEXPERIENCE\nFRANECKI, SCHROEDERANDPAUCEK\nPhiladelphia, PA|DataScienceConsultant 10/2019-present\n·Extensiveexperiencewithstatistical modellingtechniques\nExperienceconnectingTableauorothervisualizationsystemsand usingfordashboardingoranalysis\nExperiencewithMachineLearningalgorithmsusingSparkML/MLlib TensorFlow, RandNotebooks likeZeppelin, Jupyter\nExperience with at least one programming language (e.g., Python, R, C++, Java)\nPractical experience designing andbuildingmachine learning optimizationandsimulationmodels\n·Wehave a strong focuson thecareer and development opportunities.Everycolleaguewill havea careeradvisor whoworkswithyoutocreateaplanandguidesyou through themany training opportunitiesweoffer\nTECHNICAL SKILLS\nSKILLS\nWorkingKnowledgeorexperienceof usingmodeling toolslikeKnime, Rapidminer, H2O, SAS\nYouhavedevelopedcapabilitieswithdatamodeling and complexbigdataanalyses\nYou arebusinessfacingwithstrong businessanalysis skillsand aprovenconsultativeapproach\nData engineering skills inusing big data processing and streaming platformsApacheSparkandApacheKafka, Hadoop\nIn-depth understandingof SQL andPowerBl\n·Depth of knowledge in at least one OR/ML skillarea(e.g., optimization, simulation, machinelearning, statistics)\nFamiliaritywithdeeplearning, natural languageprocessing, computr vision, recommendersystems, experimentation(e.g., A/B testing)\nExperience inusingcloudplatforms andparallelprocessingtoscale modeldevelopment/deployment\nDomainknowledgeintheairlineindustry\nPhDinStats, OperationsResearch, AppliedMath, Physics Engineering, Economics(appliedmicro, appliedeconometrics empiricalO, labor, finance, behavioral, appliedmacro/timeseries), r related technicalfield\nMACHINE LEARNING & DEEP LEARNING\nCompetent in machine learning principles and techniques\nWHITEINC\nPhiladelphia, PA|DataScienceConsultant02/2015-06/2019\nDemonstrated aptitudeforindependent learning, logical analysis, problem identification, andproblemsolving",
+    "header_info": {
+      "full_name": "Master'sin Statistics",
+      "email": null,
+      "phone": null,
+      "location": "5021 Waters Fall, Philadelphia, PA",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9608,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.soft_skills[8]",
+      "expertise.soft_skills[9]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Breeanderson",
+      "email": null,
+      "phone": null,
+      "location": "5021 Waters Fall, Philadelphia, PA",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 12,
+      "hard_skills": [
+        "Tableau",
+        "Spark ML/MLlib",
+        "TensorFlow",
+        "Zeppelin",
+        "Jupyter",
+        "Python",
+        "R",
+        "C++",
+        "Java",
+        "Knime",
+        "Rapidminer",
+        "H 2 O",
+        "SAS",
+        "Apache Spark",
+        "Apache Kafka",
+        "Hadoop",
+        "SQL",
+        "Power Bl"
+      ],
+      "soft_skills": [
+        "business analysis",
+        "consultative approach",
+        "data engineering",
+        "big data processing and streaming",
+        "parallel processing",
+        "cloud platforms",
+        "domain knowledge in the airline industry",
+        "problem identification and problem solving",
+        "logical analysis",
+        "independent learning"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "FRANECKI, SCHROEDERANDPAUCEK",
+        "job_title": "Data Science Consultant",
+        "start_date": "10/2019-present",
+        "end_date": null,
+        "city": "Philadelphia, PA",
+        "responsibilities": [
+          "Experience with Machine Learning algorithms using Spark ML/MLlib TensorFlow, Rand Notebooks like Zeppelin, Jupyter"
+        ]
+      },
+      {
+        "company": "WHITEINC",
+        "job_title": "Data Science Consultant",
+        "start_date": "02/2015-06/2019",
+        "end_date": null,
+        "city": "Philadelphia, PA",
+        "responsibilities": [
+          "Demonstrated aptitude for independent learning, logical analysis, problem identification, and problemsolving"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "SCHOOL OF HEART INSTITUTE OF CHICAGO",
+        "degree": "Master's in Statistics",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T12:15:15.898013+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:30.509745+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

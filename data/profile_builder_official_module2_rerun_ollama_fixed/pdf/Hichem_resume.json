@@ -1,0 +1,98 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hichem_resume.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hichem_resume.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T112502Z",
+  "profile": {
+    "source_id": "pdf:Hichem_resume",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": "+216 97 118 755",
+      "location": "Ariana, Tunisia"
+    },
+    "expertise": {
+      "summary": "Data Science & AI Engineering Student with experience in MLOps, Cloud Deployment, Big Data Processing, and Natural Language Processing.",
+      "hard_skills": [
+        "Num Py",
+        "Pandas",
+        "scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "Java",
+        "JavaScript",
+        "Docker",
+        "Git Hub Actions (CI/CD)",
+        "Flask",
+        "Fast API",
+        "Streamlit",
+        "Tensor Flow",
+        "Keras",
+        "Py Torch",
+        "Apache Spark"
+      ],
+      "soft_skills": [
+        "Problem-solving",
+        "Teamwork",
+        "Communication",
+        "Critical thinking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "TDS Global Technologies",
+        "start_date": "07/2025",
+        "end_date": "09/2025",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Delivered a Flask + Flask-Socket IO web demo with tested/predict API and basic real-time interface.",
+          "Final-year Data Science & AI Engineering student (PFE Jan-Jun 2026) focused on ML/DL, MLOps and AWS. Built end-to-end pipelines with DVC/MLflow, Git Hub Actions and Docker; delivered a CNN-Bi LSTM intrusion detection system (~99% accuracy) and production-ready deployments."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Tek-Up University",
+        "start_date": "07/2024",
+        "end_date": "08/2024",
+        "city": "Ariana, Tunisia",
+        "responsibilities": [
+          "Developed a web scraping module to automatically collect reviews starting from a movie title.",
+          "Python (PCAP prep) & Java (OCA prep): hands-on labs; strengthened OOP, data structures, and problem-solving under time constraints."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": "2023-2026"
+      },
+      {
+        "degree": null,
+        "school": "ENIG Gabès",
+        "year": "2020-2022"
+      },
+      {
+        "degree": null,
+        "school": "FSS Sfax",
+        "year": "2017-2020"
+      },
+      {
+        "degree": null,
+        "school": null,
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T11:42:01.001867+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9515
+    }
+  }
+}

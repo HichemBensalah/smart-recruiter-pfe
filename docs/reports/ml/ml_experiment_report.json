@@ -1,0 +1,550 @@
+{
+  "generated_at_utc": "2026-05-15T10:01:21.238021+00:00",
+  "dataset": "data\\ranking\\datasets\\ranking_dataset_aligned_pseudo_labeled.jsonl",
+  "target": "label_binary",
+  "row_count": 250,
+  "label_distribution": {
+    "0": 104,
+    "1": 103,
+    "2": 32,
+    "3": 11
+  },
+  "label_binary_distribution": {
+    "0": 207,
+    "1": 43
+  },
+  "features": [
+    "vector_similarity",
+    "final_score_v3",
+    "must_have_coverage",
+    "required_skills_overlap",
+    "nice_to_have_overlap",
+    "experience_match_score",
+    "seniority_alignment",
+    "profile_quality_score",
+    "reliability_score",
+    "hallucination_risk_encoded",
+    "missing_required_count",
+    "matched_required_count"
+  ],
+  "trained_models": [
+    "logistic_regression",
+    "random_forest",
+    "xgboost"
+  ],
+  "saved_models": [
+    "data\\ranking\\models\\logistic_regression.joblib",
+    "data\\ranking\\models\\random_forest.joblib",
+    "data\\ranking\\models\\xgboost.joblib"
+  ],
+  "split_strategy": "LeaveOneGroupOut par job_id: entrainement sur 4 offres, test sur 1 offre.",
+  "fold_count": 5,
+  "models": {
+    "logistic_regression": {
+      "folds": [
+        {
+          "fold": 1,
+          "train_job_ids": [
+            "backend_python_fastapi_mongodb_aligned",
+            "data_analyst_python_sql_powerbi",
+            "data_engineer_python_sql_etl_aligned",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "backend_python_django_postgresql",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.6,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 6,
+            "0": 44
+          }
+        },
+        {
+          "fold": 2,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "data_analyst_python_sql_powerbi",
+            "data_engineer_python_sql_etl_aligned",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "backend_python_fastapi_mongodb_aligned",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.5,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 5,
+            "0": 45
+          }
+        },
+        {
+          "fold": 3,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "backend_python_fastapi_mongodb_aligned",
+            "data_engineer_python_sql_etl_aligned",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "data_analyst_python_sql_powerbi",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 1.0,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 13,
+            "0": 37
+          }
+        },
+        {
+          "fold": 4,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "backend_python_fastapi_mongodb_aligned",
+            "data_analyst_python_sql_powerbi",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "data_engineer_python_sql_etl_aligned",
+          "classification_metrics": {
+            "accuracy": 0.98,
+            "macro_f1": 0.9733333333333334,
+            "precision": 0.9230769230769231,
+            "recall": 1.0,
+            "roc_auc": 0.9890350877192983
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.9,
+            "ndcg@10": 0.9305687780632227,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 12,
+            "0": 38
+          }
+        },
+        {
+          "fold": 5,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "backend_python_fastapi_mongodb_aligned",
+            "data_analyst_python_sql_powerbi",
+            "data_engineer_python_sql_etl_aligned"
+          ],
+          "test_job_id": "machine_learning_python_nlp",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.7,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 7,
+            "0": 43
+          }
+        }
+      ],
+      "mean_classification_metrics": {
+        "accuracy": 0.9960000000000001,
+        "macro_f1": 0.9946666666666667,
+        "precision": 0.9846153846153847,
+        "recall": 1.0,
+        "roc_auc": 0.9978070175438596
+      },
+      "mean_ranking_metrics": {
+        "precision@5": 1.0,
+        "precision@10": 0.74,
+        "ndcg@10": 0.9861137556126446,
+        "mrr": 1.0
+      }
+    },
+    "random_forest": {
+      "folds": [
+        {
+          "fold": 1,
+          "train_job_ids": [
+            "backend_python_fastapi_mongodb_aligned",
+            "data_analyst_python_sql_powerbi",
+            "data_engineer_python_sql_etl_aligned",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "backend_python_django_postgresql",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.6,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 6,
+            "0": 44
+          }
+        },
+        {
+          "fold": 2,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "data_analyst_python_sql_powerbi",
+            "data_engineer_python_sql_etl_aligned",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "backend_python_fastapi_mongodb_aligned",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.5,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 5,
+            "0": 45
+          }
+        },
+        {
+          "fold": 3,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "backend_python_fastapi_mongodb_aligned",
+            "data_engineer_python_sql_etl_aligned",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "data_analyst_python_sql_powerbi",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 1.0,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 13,
+            "0": 37
+          }
+        },
+        {
+          "fold": 4,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "backend_python_fastapi_mongodb_aligned",
+            "data_analyst_python_sql_powerbi",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "data_engineer_python_sql_etl_aligned",
+          "classification_metrics": {
+            "accuracy": 0.98,
+            "macro_f1": 0.9733333333333334,
+            "precision": 0.9230769230769231,
+            "recall": 1.0,
+            "roc_auc": 0.993421052631579
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 1.0,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 12,
+            "0": 38
+          }
+        },
+        {
+          "fold": 5,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "backend_python_fastapi_mongodb_aligned",
+            "data_analyst_python_sql_powerbi",
+            "data_engineer_python_sql_etl_aligned"
+          ],
+          "test_job_id": "machine_learning_python_nlp",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.7,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 7,
+            "0": 43
+          }
+        }
+      ],
+      "mean_classification_metrics": {
+        "accuracy": 0.9960000000000001,
+        "macro_f1": 0.9946666666666667,
+        "precision": 0.9846153846153847,
+        "recall": 1.0,
+        "roc_auc": 0.9986842105263157
+      },
+      "mean_ranking_metrics": {
+        "precision@5": 1.0,
+        "precision@10": 0.76,
+        "ndcg@10": 1.0,
+        "mrr": 1.0
+      }
+    },
+    "xgboost": {
+      "folds": [
+        {
+          "fold": 1,
+          "train_job_ids": [
+            "backend_python_fastapi_mongodb_aligned",
+            "data_analyst_python_sql_powerbi",
+            "data_engineer_python_sql_etl_aligned",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "backend_python_django_postgresql",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.6,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 6,
+            "0": 44
+          }
+        },
+        {
+          "fold": 2,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "data_analyst_python_sql_powerbi",
+            "data_engineer_python_sql_etl_aligned",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "backend_python_fastapi_mongodb_aligned",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.5,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 5,
+            "0": 45
+          }
+        },
+        {
+          "fold": 3,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "backend_python_fastapi_mongodb_aligned",
+            "data_engineer_python_sql_etl_aligned",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "data_analyst_python_sql_powerbi",
+          "classification_metrics": {
+            "accuracy": 0.96,
+            "macro_f1": 0.9451754385964912,
+            "precision": 1.0,
+            "recall": 0.8461538461538461,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 1.0,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 13,
+            "0": 37
+          }
+        },
+        {
+          "fold": 4,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "backend_python_fastapi_mongodb_aligned",
+            "data_analyst_python_sql_powerbi",
+            "machine_learning_python_nlp"
+          ],
+          "test_job_id": "data_engineer_python_sql_etl_aligned",
+          "classification_metrics": {
+            "accuracy": 0.98,
+            "macro_f1": 0.9733333333333334,
+            "precision": 0.9230769230769231,
+            "recall": 1.0,
+            "roc_auc": 0.9846491228070174
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.9,
+            "ndcg@10": 0.9363792118010483,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 12,
+            "0": 38
+          }
+        },
+        {
+          "fold": 5,
+          "train_job_ids": [
+            "backend_python_django_postgresql",
+            "backend_python_fastapi_mongodb_aligned",
+            "data_analyst_python_sql_powerbi",
+            "data_engineer_python_sql_etl_aligned"
+          ],
+          "test_job_id": "machine_learning_python_nlp",
+          "classification_metrics": {
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "roc_auc": 1.0
+          },
+          "ranking_metrics": {
+            "precision@5": 1.0,
+            "precision@10": 0.7,
+            "ndcg@10": 1.0,
+            "mrr": 1.0
+          },
+          "test_label_binary_distribution": {
+            "1": 7,
+            "0": 43
+          }
+        }
+      ],
+      "mean_classification_metrics": {
+        "accuracy": 0.9879999999999999,
+        "macro_f1": 0.983701754385965,
+        "precision": 0.9846153846153847,
+        "recall": 0.9692307692307693,
+        "roc_auc": 0.9969298245614034
+      },
+      "mean_ranking_metrics": {
+        "precision@5": 1.0,
+        "precision@10": 0.74,
+        "ndcg@10": 0.9872758423602097,
+        "mrr": 1.0
+      }
+    }
+  },
+  "matching_v3_baseline": {
+    "per_job": {
+      "backend_python_django_postgresql": {
+        "precision@5": 1.0,
+        "precision@10": 0.6,
+        "ndcg@10": 1.0,
+        "mrr": 1.0
+      },
+      "backend_python_fastapi_mongodb_aligned": {
+        "precision@5": 1.0,
+        "precision@10": 0.5,
+        "ndcg@10": 1.0,
+        "mrr": 1.0
+      },
+      "data_analyst_python_sql_powerbi": {
+        "precision@5": 1.0,
+        "precision@10": 1.0,
+        "ndcg@10": 1.0,
+        "mrr": 1.0
+      },
+      "data_engineer_python_sql_etl_aligned": {
+        "precision@5": 1.0,
+        "precision@10": 1.0,
+        "ndcg@10": 1.0,
+        "mrr": 1.0
+      },
+      "machine_learning_python_nlp": {
+        "precision@5": 1.0,
+        "precision@10": 0.7,
+        "ndcg@10": 1.0,
+        "mrr": 1.0
+      }
+    },
+    "mean_metrics": {
+      "precision@5": 1.0,
+      "precision@10": 0.76,
+      "ndcg@10": 1.0,
+      "mrr": 1.0
+    }
+  },
+  "best_model_by_ndcg@10": "random_forest",
+  "label_binary_added_or_updated": false,
+  "warnings": [],
+  "methodology_warnings": [
+    "Les labels sont des pseudo-labels metier controles.",
+    "Ce ne sont pas des labels recruteur.",
+    "Le dataset reste petit.",
+    "L'evaluation mesure une experimentation ML, pas un modele final valide."
+  ],
+  "decision": "Modele experimental acceptable comme baseline de recherche, non acceptable comme modele final production sans labels recruteur et validation supplementaire."
+}

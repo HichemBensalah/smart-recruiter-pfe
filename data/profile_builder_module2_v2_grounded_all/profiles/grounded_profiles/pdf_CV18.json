@@ -1,0 +1,183 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV18.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV18.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.6112,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nEric Nathan\nCOMPUTERSCIENCE(DATASCIENCE)\ninfo@resumekraft.com\ninlinkedin.com/resumekraft\n\n## EDUCATION\n\nApunctual and hardworkingstudent, veryinterested inlearningnewstuffandresearchfurther tounknown information. Lookingforwardtoadaptandlearnfromtraininginthenewenvironment, alsomeetingnew friendsandtoworktogetherwiththemasateam.\n**Location: ** Chicago, Illinois, US\n- PROGRAMMINGLANGUAGE\n- Node\n- D 3\n- HTML\n- NPM\n- Tableau\n- Python\n- Javascript\n- Angular\n- Java\n- Dot Net\n- Jan 2021\n## Mastersin Computer Science San Jose State University\n- ·Specilizationin Data Science\n- jul 2017-Present\n## Bachelorof Computer Science Northeastern University\n- Current CGPA 2. 65\n## ·Internship Duration:\n**Date: ** 2018-02-07\n- 23 March 2020-21 June 2020\n- EXTRACURRICULAR\n- Volleyball Achievement\n- Jermyn\n## ·Activelyinvolvedinclubactivities, joined interuniversitytournamentduring 2018.\n- Appointedasoneofthecommitteememberofclub. Directorof Side Out Amateur Tournament(January 2019)\n## Captainof Volleyball Team Multimedia University 2018-present.\n- Arabic\n- German\n- Sports\n- Teamwork\n\n## LANGUAGES\n\nEnglish\nFrench\n\n## TECHNICAL SKILLS\n\nPERSONALSKILLS\nPhotography\nData Analysis\nCoding\nHEADER\nEricNathan\nCOMPUTERSCIENCE(DATASCIENCE)\n202-555-0120\ninfo@resumekraft.com\ninlinkedin.com/resumekraft\nEDUCATION\nApunctual and hardworkingstudent, veryinterested inlearningnewstuffandresearchfurther tounknown information.Lookingforwardtoadaptandlearnfromtraininginthenewenvironment, alsomeetingnew friendsandtoworktogetherwiththemasateam.\nChicago, Illinois, US\nPROGRAMMINGLANGUAGE\nNode\nD3\nR\nHTML\nNPM\nTableau\nPython\nJavascript\nAngular\nJava\nDotNet\nJan2021\nMastersinComputerScience San Jose State University\n·SpecilizationinDataScience\njul2017-Present\nBachelorof ComputerScience Northeastern University\nCurrentCGPA2.65\n·Internship Duration:\n2018-02-07\n23March2020-21June2020\nEXTRACURRICULAR\nVolleyball Achievement\nJermyn\n·Activelyinvolvedinclubactivities, joined interuniversitytournamentduring 2018.\nAppointedasoneofthecommitteememberofclub.DirectorofSideOut AmateurTournament(January2019)\nCaptainofVolleyball TeamMultimediaUniversity2018-present.\nArabic\nGerman\nSports\nTeamwork\nLANGUAGES\nEnglish\nFrench\nTECHNICAL SKILLS\nPERSONALSKILLS\nPhotography\nData Analysis\nCoding",
+    "header_info": {
+      "full_name": "Eric Nathan",
+      "email": "info@resumekraft.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/resumekraft",
+      "github": null
+    },
+    "detected_templates": [
+      "info@resumekraft.com",
+      "resumekraft"
+    ],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.6,
+    "quality_flags": [
+      "missing_experience_section",
+      "template_detected"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7752,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "template_detected",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email",
+      "bio.linkedin"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].start_date",
+      "experiences[1].job_title",
+      "experiences[1].start_date",
+      "experiences[2].job_title",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Eric Nathan",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 10,
+      "hard_skills": [
+        "Node",
+        "D 3",
+        "HTML",
+        "NPM",
+        "Tableau",
+        "Python",
+        "Javascript",
+        "Angular",
+        "Java",
+        "Dot Net",
+        "Data Analysis",
+        "Coding",
+        "Photography"
+      ],
+      "soft_skills": [
+        "Teamwork"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Captain of Volleyball Team",
+        "start_date": "2018",
+        "end_date": "present",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": null,
+        "job_title": "Director of Side Out Amateur Tournament",
+        "start_date": "January 2019",
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": null,
+        "job_title": "Committee member of club",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "San Jose State University",
+        "degree": "Masters in Computer Science",
+        "field": "Data Science",
+        "year": null
+      },
+      {
+        "institution": "Northeastern University",
+        "degree": "Bachelor of Computer Science",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Arabic",
+      "German"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T09:33:58.158047+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:27.735880+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

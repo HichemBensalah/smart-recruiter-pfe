@@ -1,0 +1,28 @@
+## HEADER
+
+Clara Boyer
+797 Raynor Inlet, Dallas, TX
+Mobilephone:
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+### Directorof Data Science-Marvin LLC, Dallas, TX
+**Date:** 07/2018-Present
+- scale
+- ·Leadershipexperience hiringandmentoring toptalentin Data Engineeringand analytics
+### Data Science -Von Group, Dallas, TX
+**Date:** 12/2015-01/2018
+·Experiencedinvariousclustertechniquesinrealworldbusinessapplications, includingk-means, factorial analysis, discriminateanalysis
+·Experiencedwithnumerical optimizationtechniquesincluding Linear Programs, Quadratic Programs, Nonlinear optimizationandmulti-objectiveoptimization
+- ·Advancedexperienceworkingwith Ror Python
+·Proficiencywithclassical Generalized Linear Models, statistical inference, andre-sampling methods
+
+## TECHNICAL SKILLS
+
+·Experience inbuilding software on cloud computing infrastructure such Aw S or GCP
+SKILLS
+
+## EDUCATION
+
+Lim College-Bachelor'sin Computer Science

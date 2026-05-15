@@ -1,0 +1,46 @@
+{
+  "audit_date": "2026-05-04",
+  "source": "matching_grounded_v2",
+  "how_profiles_are_read": "The current matcher reads candidate_profiles from MongoDB collection talent_intelligence.candidate_profiles through recommender.py and faiss_indexer.py. FAISS id_map gives profile_id/candidate_id rows, then recommender fetches MongoDB documents by profile_id with status=success.",
+  "fields_used_in_candidate_text_v2": [
+    "bio.full_name",
+    "bio.location",
+    "expertise.summary",
+    "expertise.hard_skills",
+    "expertise.soft_skills",
+    "experiences",
+    "education"
+  ],
+  "fields_ignored_but_should_be_used": [
+    "reliability_score",
+    "profile_kind",
+    "hallucination_risk",
+    "quality_flags",
+    "fields_nullified",
+    "suspect_or_missing_full_name"
+  ],
+  "root_causes": [
+    {
+      "area": "MongoDB content",
+      "finding": "Grounded profiles were imported, but some documents still contain weak bio.full_name values inherited from OCR or noisy headers."
+    },
+    {
+      "area": "profile_text_builder",
+      "finding": "The previous text builder injected raw full_name and summary into the embedding text, which amplified OCR titles and placeholders like O Ariana, Tunisia or RESUME OBJECTIVE."
+    },
+    {
+      "area": "scoring",
+      "finding": "The previous scorer used reliability_score/profile_kind lightly, but it ignored hallucination_risk, fields_nullified and weak display-name handling."
+    },
+    {
+      "area": "display_name",
+      "finding": "The previous recommender displayed any non-empty full_name, even when it looked like a title or OCR header."
+    },
+    {
+      "area": "FAISS",
+      "finding": "FAISS itself is not the root cause; it indexed whatever candidate text was built upstream. The issue came from the text and quality signals fed into it."
+    }
+  ],
+  "why_false_names_appeared": "False names appeared because noisy full_name values were imported from grounded profiles, then copied both into embedding text and into report display logic without suspicion checks.",
+  "conclusion": "The issue was a mix of noisy source content plus matching-layer consumption problems. MongoDB contained some weak names, but the larger failure was that matching treated those weak names as semantic evidence and trusted labels."
+}

@@ -1,0 +1,291 @@
+﻿{
+  "generated_at_utc": "2026-05-07T12:04:15.943673+00:00",
+  "decision": "ready_for_technical_demo",
+  "ready_for_demo": true,
+  "module1": {
+    "state": "validated_existing_outputs_not_rerun",
+    "accepted_outputs": 90,
+    "accepted_path": "data\\processed_official_module1\\handoff\\accepted.json"
+  },
+  "module2_v2_grounded": {
+    "state": "validated_existing_outputs_not_rerun",
+    "grounded_profiles_count": 90,
+    "current_profile_kind_distribution": {
+      "complete_profile": 90
+    },
+    "current_hallucination_risk_distribution": {
+      "low": 89,
+      "medium": 1
+    },
+    "current_average_reliability_score": 0.9286,
+    "historical_quality_report": "data\\profile_builder_module2_v2_grounded_all\\reports\\grounded_quality_report.json"
+  },
+  "mongodb": {
+    "state": "validated_read_only",
+    "available": true,
+    "candidate_profiles_count": 90,
+    "candidates_count": 75,
+    "candidate_profiles_risk_distribution": {
+      "low": 89,
+      "medium": 1
+    },
+    "aziz_linkedin_after_patch": "https://www.linkedin.com/in/mohamed-aziz-belaweid/"
+  },
+  "faiss": {
+    "state": "existing_index_validated_not_rebuilt",
+    "profiles_indexed": 90,
+    "profiles_read_from_mongodb": 90,
+    "embedding_dimension": 384,
+    "metric": "inner_product_on_normalized_vectors",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "index_path": "data\\indexes\\faiss\\cv_index.faiss",
+    "id_map_path": "data\\indexes\\faiss\\id_map.pkl",
+    "index_file_exists": true,
+    "id_map_file_exists": true,
+    "rebuild_required_now": false,
+    "rebuild_note": "No rebuild needed for the LinkedIn-only contact normalization; matching text did not change."
+  },
+  "matching_v3": {
+    "state": "existing_report_validated_not_rerun",
+    "report_path": "data\\matching_single_job_report_grounded_v3.json",
+    "job_title": "Backend Python Engineer",
+    "top_k": 10,
+    "top1": {
+      "rank": 1,
+      "full_name": "Hichem Bensalah",
+      "candidate_id": "candidate_1487f3187f7b",
+      "final_score": 0.8172,
+      "profile_kind": "complete_profile",
+      "hallucination_risk": "low",
+      "display_name_quality": "ok",
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ]
+    },
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "Hichem Bensalah",
+        "candidate_id": "candidate_1487f3187f7b",
+        "final_score": 0.8172,
+        "profile_kind": "complete_profile",
+        "hallucination_risk": "low",
+        "display_name_quality": "ok",
+        "matched_skills": [
+          "Python",
+          "FastAPI",
+          "MongoDB",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "REST API"
+        ]
+      },
+      {
+        "rank": 2,
+        "full_name": "MOHAMED AZIZ BELAWEID",
+        "candidate_id": "candidate_206d746034ef",
+        "final_score": 0.5528,
+        "profile_kind": "complete_profile",
+        "hallucination_risk": "low",
+        "display_name_quality": "ok",
+        "matched_skills": [
+          "Python",
+          "FastAPI",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "MongoDB",
+          "REST API"
+        ]
+      },
+      {
+        "rank": 3,
+        "full_name": "Candidate (ID: candidate_8eea1b635447)",
+        "candidate_id": "candidate_8eea1b635447",
+        "final_score": 0.5466,
+        "profile_kind": "complete_profile",
+        "hallucination_risk": "medium",
+        "display_name_quality": "weak",
+        "matched_skills": [
+          "Python",
+          "FastAPI",
+          "MongoDB",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "REST API"
+        ]
+      },
+      {
+        "rank": 4,
+        "full_name": "JEFFERYGORCZANY",
+        "candidate_id": "candidate_1df043636ea4",
+        "final_score": 0.4332,
+        "profile_kind": "complete_profile",
+        "hallucination_risk": "low",
+        "display_name_quality": "ok",
+        "matched_skills": [
+          "Python",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "REST API"
+        ]
+      },
+      {
+        "rank": 5,
+        "full_name": "Candidate (ID: candidate_71e03ea99985)",
+        "candidate_id": "candidate_71e03ea99985",
+        "final_score": 0.3502,
+        "profile_kind": "complete_profile",
+        "hallucination_risk": "low",
+        "display_name_quality": "weak",
+        "matched_skills": [
+          "Python",
+          "MongoDB"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "Docker",
+          "REST API"
+        ]
+      },
+      {
+        "rank": 6,
+        "full_name": "Candidate (ID: candidate_1d475044c93c)",
+        "candidate_id": "candidate_1d475044c93c",
+        "final_score": 0.3464,
+        "profile_kind": "complete_profile",
+        "hallucination_risk": "low",
+        "display_name_quality": "weak",
+        "matched_skills": [
+          "Python",
+          "MongoDB"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "Docker",
+          "REST API"
+        ]
+      },
+      {
+        "rank": 7,
+        "full_name": "Markus Rohan",
+        "candidate_id": "candidate_073b7a3d39ba",
+        "final_score": 0.3181,
+        "profile_kind": "partial_profile",
+        "hallucination_risk": "medium",
+        "display_name_quality": "ok",
+        "matched_skills": [
+          "Python",
+          "Docker"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "REST API"
+        ]
+      },
+      {
+        "rank": 8,
+        "full_name": "Candidate (ID: candidate_c564b8eceb3d)",
+        "candidate_id": "candidate_c564b8eceb3d",
+        "final_score": 0.2731,
+        "profile_kind": "complete_profile",
+        "hallucination_risk": "medium",
+        "display_name_quality": "weak",
+        "matched_skills": [
+          "Python",
+          "MongoDB"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "Docker",
+          "REST API"
+        ]
+      },
+      {
+        "rank": 9,
+        "full_name": "MILDREDZEMLAK",
+        "candidate_id": "candidate_d813a4aedd03",
+        "final_score": 0.2628,
+        "profile_kind": "complete_profile",
+        "hallucination_risk": "low",
+        "display_name_quality": "ok",
+        "matched_skills": [
+          "Python"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "Docker",
+          "REST API"
+        ]
+      },
+      {
+        "rank": 10,
+        "full_name": "Justine Hendrickson",
+        "candidate_id": "candidate_4eef95d3a3fa",
+        "final_score": 0.2573,
+        "profile_kind": "complete_profile",
+        "hallucination_risk": "low",
+        "display_name_quality": "ok",
+        "matched_skills": [
+          "Python"
+        ],
+        "missing_required_skills": [
+          "FastAPI",
+          "MongoDB",
+          "Docker",
+          "REST API"
+        ]
+      }
+    ],
+    "top1_explanation": "Hichem Bensalah matches on Python, FastAPI, MongoDB, Docker. Text similarity=0.60, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include REST API."
+  },
+  "patch_linkedin": {
+    "state": "applied_without_quality_regression",
+    "profile_modified": "docx_Aziz_resumer.json",
+    "urls_fixed": 1,
+    "mongodb_update_result": {
+      "matched_count": 1,
+      "modified_count": 1
+    },
+    "risk_before_distribution": {
+      "low": 89,
+      "medium": 1
+    },
+    "risk_after_distribution": {
+      "low": 89,
+      "medium": 1
+    },
+    "reliability_regressions_count": 0,
+    "faiss_rebuilt": false
+  },
+  "limitations": [
+    "Le rapport qualite Module 2 historique a ete genere avant les corrections finales; pour la demo, la distribution actuelle est prise depuis les profils grounded et MongoDB.",
+    "Un profil medium-risk reste dans les donnees et peut apparaitre dans le Top 10 avec penalite qualite, ce qui est volontaire mais a expliquer.",
+    "Certains noms faibles sont masques sous forme Candidate (ID: ...); c'est plus sur que d'afficher un nom hallucine, mais moins lisible en demo."
+  ],
+  "files_to_show_in_demo": [
+    "docs/reports/demo/demo_validation_report.md",
+    "docs/reports/baselines/faiss_matching_v3/baseline1_faiss_state_report.md",
+    "docs/reports/baselines/faiss_matching_v3/baseline1_faiss_matching_report.json",
+    "docs/reports/baselines/faiss_matching_v3/baseline1_faiss_ranking_comparison.md",
+    "data/indexes/faiss/index_report.json",
+    "docs/reports/patches/module2_v2_url_fixes/patch_report_v2_fixes.json"
+  ],
+  "cleanup": {
+    "files_deleted": [],
+    "note": "No deletion performed because the request did not name exact files. Recommend archiving old rerun folders separately after explicit confirmation."
+  }
+}

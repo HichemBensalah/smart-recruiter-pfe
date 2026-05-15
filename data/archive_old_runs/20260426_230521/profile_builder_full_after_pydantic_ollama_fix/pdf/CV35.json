@@ -1,0 +1,55 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV35.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV35.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "pdf:CV35",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist Intern",
+        "company": "MasterCard Inc.",
+        "start_date": "6/2015",
+        "end_date": "12/2015",
+        "city": "San Carlos, CA",
+        "responsibilities": [
+          "Automated Anomaly Detection System",
+          "S-H-ES D Test"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Statistics-Analytics",
+        "school": "University of Illinois at Urbana-Champaign",
+        "year": "5/2015"
+      },
+      {
+        "degree": "Bachelor of Science in Statistics | Overall GPA: 4.0/4.0",
+        "school": "Tianjin University of Finance and Economics, Tianjin, China",
+        "year": "6/2009-6/2013"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:33:56.739647+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8548
+    }
+  }
+}

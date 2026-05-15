@@ -1,0 +1,72 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV6.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV6.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T112502Z",
+  "profile": {
+    "source_id": "emilysaavedra@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "EMILY SAAVEDRA",
+      "email": "emilysaavedra@gmail.com",
+      "phone": "07835150056",
+      "location": "London B 220 GX, United Kingdom"
+    },
+    "expertise": {
+      "summary": "Data Scientist with experience in data analysis and management.",
+      "hard_skills": [
+        "Microsoft Office",
+        "MSSQLServer",
+        "Sisense",
+        "Zoho Analytics",
+        "Good Data",
+        "Qlik Sense",
+        "Computer/Data Analytics Skills"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist, London, United Kingdom",
+        "company": "Spanish English French ( Spy Biotech, Inc.)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Collected and studied large datasets"
+        ]
+      },
+      {
+        "job_title": "Data Scientist, London, United Kingdom",
+        "company": "Spanish English French ( Spy Biotech, Inc.)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conducted reports and performed accurate data management"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Graduated with Distinction (Grade 1-A/excellent equivalent in all 6 subjects)",
+        "school": "The International School Estepona, El Paraiso, Spain",
+        "year": "05/2012"
+      },
+      {
+        "degree": "Data Scientist",
+        "school": "CGL, Inc., London, United Kingdom",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T11:30:38.634330+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7713
+    }
+  }
+}

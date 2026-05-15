@@ -8,8 +8,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from src.core.common.seniority import normalize_seniority
+
 from .job_profile_schema import CanonicalJobProfile, JobMetadata
 
+INPUT_DIR = Path("data/job_descriptions")
 OUTPUT_DIR = Path("data/job_profiles")
 REPORT_PATH = OUTPUT_DIR / "job_profile_builder_report.json"
 
@@ -107,58 +110,6 @@ LOCATION_PATTERNS = [
     re.compile(r"\bin ([A-Z][A-Za-z .-]+(?:,\s*[A-Z][A-Za-z .-]+)?)"),
 ]
 
-TEST_JOB_DESCRIPTIONS = [
-    {
-        "slug": "backend_python_fastapi_mongodb",
-        "raw_job_description": (
-            "Backend Python Engineer\n"
-            "We are hiring a backend engineer to design and maintain REST APIs for our recruiting platform. "
-            "You will build services with Python, FastAPI and MongoDB, collaborate with product and ensure API performance. "
-            "Requirements: 3+ years of experience, Python, FastAPI, MongoDB, REST API, Docker. "
-            "Nice to have: AWS and CI/CD. Full-time hybrid role based in Tunis. English required."
-        ),
-    },
-    {
-        "slug": "data_science_machine_learning_python",
-        "raw_job_description": (
-            "Senior Data Scientist\n"
-            "Our AI team is looking for a senior data scientist to develop machine learning models and analyze large datasets. "
-            "Responsibilities include experimentation, feature engineering, model evaluation and stakeholder communication. "
-            "Must have Python, Pandas, Scikit-learn, SQL and Machine Learning. "
-            "Bonus: Deep Learning and PyTorch. Remote position. 5 years of experience preferred. English is required."
-        ),
-    },
-    {
-        "slug": "frontend_react",
-        "raw_job_description": (
-            "Frontend React Developer wanted for a web product team. "
-            "You will implement user interfaces, improve usability, collaborate with designers and maintain component quality. "
-            "Required skills: React, TypeScript, JavaScript, HTML, CSS. "
-            "Nice to have: FastAPI exposure. On-site in Sfax. Mid-level preferred."
-        ),
-    },
-    {
-        "slug": "devops_docker_cicd",
-        "raw_job_description": (
-            "DevOps Engineer\n"
-            "Mission: automate deployments, improve infrastructure reliability and maintain CI/CD pipelines. "
-            "The role involves Docker, Kubernetes, Terraform, Linux and GitHub Actions. "
-            "At least 4 years of experience. Contract position, hybrid in Paris. French and English are a plus."
-        ),
-    },
-    {
-        "slug": "data_engineer_sql_hadoop_spark",
-        "raw_job_description": (
-            "Data Engineer\n"
-            "Join our analytics platform team to build ETL workflows and scalable data pipelines. "
-            "You are responsible for Spark jobs, Hadoop ecosystem integration, SQL optimization and Airflow orchestration. "
-            "Required: SQL, Spark, Hadoop, Airflow, Data Modeling. "
-            "Preferred: Python and AWS. Senior profile. Full-time remote."
-        ),
-    },
-]
-
-
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
@@ -222,7 +173,7 @@ def detect_seniority(text: str, job_title: str | None) -> str | None:
     search_space = f"{job_title or ''}\n{text}"
     for label in ("principal", "lead", "senior", "mid", "junior"):
         if SENIORITY_PATTERNS[label].search(search_space):
-            return label
+            return normalize_seniority(label)
     return None
 
 
@@ -252,6 +203,8 @@ def extract_skills(text: str) -> tuple[list[str], list[str]]:
 def extract_responsibilities(text: str) -> list[str]:
     responsibilities: list[str] = []
     for sentence in split_sentences(text):
+        if sentence.lower() == "responsibilities":
+            continue
         lowered = sentence.lower()
         if any(starter in lowered for starter in RESPONSIBILITY_STARTERS):
             responsibilities.append(sentence)
@@ -276,7 +229,14 @@ def detect_location(text: str) -> str | None:
     for pattern in LOCATION_PATTERNS:
         match = pattern.search(text)
         if match:
-            return normalize_space(match.group(1).rstrip("."))
+            location = normalize_space(match.group(1).rstrip("."))
+            location = re.split(
+                r"\s+(?:and follows|and is|with|for|where)\b|\b(?:remote|hybrid|on[- ]site|onsite)\b",
+                location,
+                maxsplit=1,
+                flags=re.I,
+            )[0].rstrip(", ")
+            return normalize_space(location) or None
     return None
 
 
@@ -332,7 +292,7 @@ def build_job_profile(raw_job_description: str) -> CanonicalJobProfile:
 
     required_skills, nice_to_have_skills = extract_skills(raw_job_description)
     responsibilities = extract_responsibilities(raw_job_description)
-    seniority_level = detect_seniority(raw_job_description, job_title)
+    seniority_level = normalize_seniority(detect_seniority(raw_job_description, job_title))
     years_experience_required = detect_years_experience(raw_job_description)
     domain = detect_domain(raw_job_description)
     location = detect_location(raw_job_description)
@@ -354,6 +314,7 @@ def build_job_profile(raw_job_description: str) -> CanonicalJobProfile:
         warnings.append("low_information_job_description")
 
     payload = {
+        "job_id": slugify(job_title),
         "job_title": job_title,
         "seniority_level": seniority_level,
         "years_experience_required": years_experience_required,
@@ -365,6 +326,7 @@ def build_job_profile(raw_job_description: str) -> CanonicalJobProfile:
         "language_requirements": language_requirements,
         "contract_type": contract_type,
         "remote_policy": remote_policy,
+        "description": raw_text,
         "raw_job_description": raw_job_description,
     }
     metadata = JobMetadata(
@@ -382,29 +344,54 @@ def slugify(value: str) -> str:
     return slug or "job_profile"
 
 
+def load_job_descriptions(input_dir: Path) -> list[dict[str, str]]:
+    if not input_dir.exists():
+        return []
+
+    jobs: list[dict[str, str]] = []
+    for path in sorted(input_dir.glob("*.txt")):
+        raw_job_description = path.read_text(encoding="utf-8").strip()
+        jobs.append(
+            {
+                "slug": slugify(path.stem),
+                "source_path": str(path),
+                "raw_job_description": raw_job_description,
+            }
+        )
+    return jobs
+
+
 def run_test_jobs() -> dict[str, Any]:
     started = time.perf_counter()
+    INPUT_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    job_descriptions = load_job_descriptions(INPUT_DIR)
     generated_files: list[str] = []
     extracted_skill_examples: list[dict[str, Any]] = []
     warnings_total = 0
     success = 0
     failed = 0
 
-    for job in TEST_JOB_DESCRIPTIONS:
+    for job in job_descriptions:
         slug = job["slug"]
         output_path = OUTPUT_DIR / f"{slug}.json"
         try:
             profile = build_job_profile(job["raw_job_description"])
+            profile.job_id = slug
             write_json(output_path, profile.model_dump())
             generated_files.append(str(output_path))
             extracted_skill_examples.append(
                 {
                     "job_slug": slug,
+                    "source_path": job["source_path"],
                     "job_title": profile.job_title,
                     "required_skills": profile.required_skills[:8],
                     "nice_to_have_skills": profile.nice_to_have_skills[:8],
+                    "years_experience_required": profile.years_experience_required,
+                    "remote_policy": profile.remote_policy,
+                    "warnings": profile.metadata.warnings,
+                    "generated_json_path": str(output_path),
                 }
             )
             warnings_total += len(profile.metadata.warnings)
@@ -414,6 +401,7 @@ def run_test_jobs() -> dict[str, Any]:
             extracted_skill_examples.append(
                 {
                     "job_slug": slug,
+                    "source_path": job.get("source_path"),
                     "error": str(exc),
                 }
             )
@@ -422,7 +410,10 @@ def run_test_jobs() -> dict[str, Any]:
     report = {
         "generated_at": utc_now(),
         "parser_route": "rule_based_v1",
-        "total_jobs": len(TEST_JOB_DESCRIPTIONS),
+        "input_dir": str(INPUT_DIR),
+        "output_dir": str(OUTPUT_DIR),
+        "txt_files_read": len(job_descriptions),
+        "total_jobs": len(job_descriptions),
         "success": success,
         "failed": failed,
         "warnings": warnings_total,

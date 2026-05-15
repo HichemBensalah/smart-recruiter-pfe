@@ -1,0 +1,74 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV15.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV15.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "trishastamm@gmail.com",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Trisha Stamm",
+      "email": "trishastamm@gmail.com",
+      "phone": "",
+      "location": ""
+    },
+    "expertise": {
+      "summary": "Data scientist with expertise in data modeling, machine learning, statistics, and data visualization.",
+      "hard_skills": [
+        "Python",
+        "RStudio",
+        "PERL",
+        "No SQL",
+        "Hadoop",
+        "Cloudera"
+      ],
+      "soft_skills": [
+        "Interpersonal Skills"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "2017-12",
+        "end_date": null,
+        "city": "Data Scientist, Microsoft Certified",
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "2012-06",
+        "end_date": null,
+        "city": "Freelance Data Scientist",
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "Supracy Real Estate Inc.",
+        "start_date": "2012-06",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Collaborated with all team members to optimize Customer Relationship Management database for a high-volumerealestatefirm."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Syracuse University",
+        "year": "2012"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T09:32:02.995017+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7242
+    }
+  }
+}

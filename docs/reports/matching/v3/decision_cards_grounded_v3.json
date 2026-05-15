@@ -1,0 +1,367 @@
+{
+  "source_report": "docs\\reports\\matching\\v3\\matching_single_job_report_grounded_v3.json",
+  "cards_count": 10,
+  "decision_cards": [
+    {
+      "rank": 1,
+      "candidate_id": "candidate_1487f3187f7b",
+      "display_name": "Hichem Bensalah",
+      "verdict": "Présélection recommandée",
+      "final_score": 0.8172,
+      "risk": "low",
+      "profile_kind": "complete_profile",
+      "reliability_score": 0.9776,
+      "must_have_coverage": 0.8,
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ],
+      "strengths": [
+        "Compétences correspondantes : Python, FastAPI, MongoDB, Docker",
+        "Très bonne couverture des compétences obligatoires",
+        "Risque d’hallucination faible",
+        "Profil complet",
+        "Profil très fiable selon le score de fiabilité"
+      ],
+      "weaknesses": [
+        "Compétences obligatoires manquantes : REST API"
+      ],
+      "interview_focus": [
+        "Vérifier la compétence manquante : REST API",
+        "Valider l’expérience REST API en pratique",
+        "Confirmer l’usage de Docker sur un projet réel"
+      ],
+      "explanation": "Hichem Bensalah est classé #1 car il couvre une partie importante des compétences obligatoires, notamment Python, FastAPI, MongoDB, Docker. Son profil est complet et le risque d’hallucination est faible. La compétence REST API doit être vérifiée en entretien."
+    },
+    {
+      "rank": 2,
+      "candidate_id": "candidate_206d746034ef",
+      "display_name": "MOHAMED AZIZ BELAWEID",
+      "verdict": "À considérer",
+      "final_score": 0.5528,
+      "risk": "low",
+      "profile_kind": "complete_profile",
+      "reliability_score": 0.9598,
+      "must_have_coverage": 0.6,
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "MongoDB",
+        "REST API"
+      ],
+      "strengths": [
+        "Compétences correspondantes : Python, FastAPI, Docker",
+        "Couverture correcte des compétences obligatoires",
+        "Risque d’hallucination faible",
+        "Profil complet",
+        "Profil très fiable selon le score de fiabilité"
+      ],
+      "weaknesses": [
+        "Compétences obligatoires manquantes : MongoDB, REST API"
+      ],
+      "interview_focus": [
+        "Vérifier la compétence manquante : MongoDB",
+        "Vérifier la compétence manquante : REST API",
+        "Valider l’expérience REST API en pratique"
+      ],
+      "explanation": "MOHAMED AZIZ BELAWEID est classé #2 car il couvre une partie importante des compétences obligatoires, notamment Python, FastAPI, Docker. Son profil est complet et le risque d’hallucination est faible. La compétence MongoDB, REST API doit être vérifiée en entretien."
+    },
+    {
+      "rank": 3,
+      "candidate_id": "candidate_8eea1b635447",
+      "display_name": "Candidate (ID: candidate_8eea1b635447)",
+      "verdict": "À considérer",
+      "final_score": 0.5466,
+      "risk": "medium",
+      "profile_kind": "complete_profile",
+      "reliability_score": 0.8361,
+      "must_have_coverage": 0.8,
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ],
+      "strengths": [
+        "Compétences correspondantes : Python, FastAPI, MongoDB, Docker",
+        "Très bonne couverture des compétences obligatoires",
+        "Profil complet"
+      ],
+      "weaknesses": [
+        "Compétences obligatoires manquantes : REST API",
+        "Profil à vérifier : risque d’hallucination moyen",
+        "Nom candidat absent ou non fiable"
+      ],
+      "interview_focus": [
+        "Vérifier la compétence manquante : REST API",
+        "Valider l’expérience REST API en pratique",
+        "Confirmer l’usage de Docker sur un projet réel"
+      ],
+      "explanation": "Candidate (ID: candidate_8eea1b635447) est classé #3 car il couvre une partie importante des compétences obligatoires, notamment Python, FastAPI, MongoDB, Docker. Son profil est complet. La compétence REST API doit être vérifiée en entretien."
+    },
+    {
+      "rank": 4,
+      "candidate_id": "candidate_1df043636ea4",
+      "display_name": "JEFFERYGORCZANY",
+      "verdict": "Non prioritaire",
+      "final_score": 0.4332,
+      "risk": "low",
+      "profile_kind": "complete_profile",
+      "reliability_score": 0.9405,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "strengths": [
+        "Compétences correspondantes : Python, Docker",
+        "Risque d’hallucination faible",
+        "Profil complet",
+        "Profil très fiable selon le score de fiabilité"
+      ],
+      "weaknesses": [
+        "Compétences obligatoires manquantes : FastAPI, MongoDB, REST API",
+        "Couverture faible des compétences obligatoires"
+      ],
+      "interview_focus": [
+        "Vérifier la compétence manquante : FastAPI",
+        "Vérifier la compétence manquante : MongoDB",
+        "Vérifier la compétence manquante : REST API"
+      ],
+      "explanation": "JEFFERYGORCZANY est moins prioritaire car la couverture des compétences obligatoires est faible et plusieurs compétences importantes peuvent manquer."
+    },
+    {
+      "rank": 5,
+      "candidate_id": "candidate_71e03ea99985",
+      "display_name": "Candidate (ID: candidate_71e03ea99985)",
+      "verdict": "Non prioritaire",
+      "final_score": 0.3502,
+      "risk": "low",
+      "profile_kind": "complete_profile",
+      "reliability_score": 0.9107,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "strengths": [
+        "Compétences correspondantes : Python, MongoDB",
+        "Risque d’hallucination faible",
+        "Profil complet",
+        "Profil très fiable selon le score de fiabilité"
+      ],
+      "weaknesses": [
+        "Compétences obligatoires manquantes : FastAPI, Docker, REST API",
+        "Couverture faible des compétences obligatoires",
+        "Nom candidat absent ou non fiable"
+      ],
+      "interview_focus": [
+        "Vérifier la compétence manquante : FastAPI",
+        "Vérifier la compétence manquante : Docker",
+        "Vérifier la compétence manquante : REST API"
+      ],
+      "explanation": "Candidate (ID: candidate_71e03ea99985) est moins prioritaire car la couverture des compétences obligatoires est faible et plusieurs compétences importantes peuvent manquer."
+    },
+    {
+      "rank": 6,
+      "candidate_id": "candidate_1d475044c93c",
+      "display_name": "Candidate (ID: candidate_1d475044c93c)",
+      "verdict": "Non prioritaire",
+      "final_score": 0.3464,
+      "risk": "low",
+      "profile_kind": "complete_profile",
+      "reliability_score": 0.9393,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "strengths": [
+        "Compétences correspondantes : Python, MongoDB",
+        "Risque d’hallucination faible",
+        "Profil complet",
+        "Profil très fiable selon le score de fiabilité"
+      ],
+      "weaknesses": [
+        "Compétences obligatoires manquantes : FastAPI, Docker, REST API",
+        "Couverture faible des compétences obligatoires",
+        "Nom candidat absent ou non fiable"
+      ],
+      "interview_focus": [
+        "Vérifier la compétence manquante : FastAPI",
+        "Vérifier la compétence manquante : Docker",
+        "Vérifier la compétence manquante : REST API"
+      ],
+      "explanation": "Candidate (ID: candidate_1d475044c93c) est moins prioritaire car la couverture des compétences obligatoires est faible et plusieurs compétences importantes peuvent manquer."
+    },
+    {
+      "rank": 7,
+      "candidate_id": "candidate_073b7a3d39ba",
+      "display_name": "Markus Rohan",
+      "verdict": "Non prioritaire",
+      "final_score": 0.3181,
+      "risk": "medium",
+      "profile_kind": "partial_profile",
+      "reliability_score": 0.6429,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "strengths": [
+        "Compétences correspondantes : Python, Docker"
+      ],
+      "weaknesses": [
+        "Compétences obligatoires manquantes : FastAPI, MongoDB, REST API",
+        "Couverture faible des compétences obligatoires",
+        "Profil à vérifier : risque d’hallucination moyen",
+        "Profil partiel"
+      ],
+      "interview_focus": [
+        "Vérifier la compétence manquante : FastAPI",
+        "Vérifier la compétence manquante : MongoDB",
+        "Vérifier la compétence manquante : REST API"
+      ],
+      "explanation": "Markus Rohan est moins prioritaire car la couverture des compétences obligatoires est faible et plusieurs compétences importantes peuvent manquer."
+    },
+    {
+      "rank": 8,
+      "candidate_id": "candidate_c564b8eceb3d",
+      "display_name": "Candidate (ID: candidate_c564b8eceb3d)",
+      "verdict": "Non prioritaire",
+      "final_score": 0.2731,
+      "risk": "medium",
+      "profile_kind": "complete_profile",
+      "reliability_score": 0.7643,
+      "must_have_coverage": 0.4,
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "strengths": [
+        "Compétences correspondantes : Python, MongoDB",
+        "Profil complet"
+      ],
+      "weaknesses": [
+        "Compétences obligatoires manquantes : FastAPI, Docker, REST API",
+        "Couverture faible des compétences obligatoires",
+        "Profil à vérifier : risque d’hallucination moyen",
+        "Nom candidat absent ou non fiable"
+      ],
+      "interview_focus": [
+        "Vérifier la compétence manquante : FastAPI",
+        "Vérifier la compétence manquante : Docker",
+        "Vérifier la compétence manquante : REST API"
+      ],
+      "explanation": "Candidate (ID: candidate_c564b8eceb3d) est moins prioritaire car la couverture des compétences obligatoires est faible et plusieurs compétences importantes peuvent manquer."
+    },
+    {
+      "rank": 9,
+      "candidate_id": "candidate_d813a4aedd03",
+      "display_name": "MILDREDZEMLAK",
+      "verdict": "Non prioritaire",
+      "final_score": 0.2628,
+      "risk": "low",
+      "profile_kind": "complete_profile",
+      "reliability_score": 0.9413,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "strengths": [
+        "Compétences correspondantes : Python",
+        "Risque d’hallucination faible",
+        "Profil complet",
+        "Profil très fiable selon le score de fiabilité"
+      ],
+      "weaknesses": [
+        "Compétences obligatoires manquantes : FastAPI, MongoDB, Docker, REST API",
+        "Couverture faible des compétences obligatoires"
+      ],
+      "interview_focus": [
+        "Vérifier la compétence manquante : FastAPI",
+        "Vérifier la compétence manquante : MongoDB",
+        "Vérifier la compétence manquante : Docker"
+      ],
+      "explanation": "MILDREDZEMLAK est moins prioritaire car la couverture des compétences obligatoires est faible et plusieurs compétences importantes peuvent manquer."
+    },
+    {
+      "rank": 10,
+      "candidate_id": "candidate_4eef95d3a3fa",
+      "display_name": "Justine Hendrickson",
+      "verdict": "Non prioritaire",
+      "final_score": 0.2573,
+      "risk": "low",
+      "profile_kind": "complete_profile",
+      "reliability_score": 0.9526,
+      "must_have_coverage": 0.2,
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "strengths": [
+        "Compétences correspondantes : Python",
+        "Risque d’hallucination faible",
+        "Profil complet",
+        "Profil très fiable selon le score de fiabilité"
+      ],
+      "weaknesses": [
+        "Compétences obligatoires manquantes : FastAPI, MongoDB, Docker, REST API",
+        "Couverture faible des compétences obligatoires"
+      ],
+      "interview_focus": [
+        "Vérifier la compétence manquante : FastAPI",
+        "Vérifier la compétence manquante : MongoDB",
+        "Vérifier la compétence manquante : Docker"
+      ],
+      "explanation": "Justine Hendrickson est moins prioritaire car la couverture des compétences obligatoires est faible et plusieurs compétences importantes peuvent manquer."
+    }
+  ]
+}

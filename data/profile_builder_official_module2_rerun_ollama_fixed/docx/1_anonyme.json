@@ -1,0 +1,59 @@
+{
+  "source_path": "data\\raw_cv\\docx\\1_anonyme.docx",
+  "artifact_path": "data\\processed_official_module1\\docx\\1_anonyme.json",
+  "source_format": "docx",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T130837Z",
+  "profile": {
+    "source_id": "docx:1_anonyme",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "null",
+      "email": null,
+      "phone": null,
+      "location": "null"
+    },
+    "expertise": {
+      "summary": "Entry-level civil engineer with technical knowledge and quality assurance mindset.",
+      "hard_skills": [
+        "Materials of Construction",
+        "Construction Management",
+        "Reinforced Concrete",
+        "Structural Steel Design",
+        "Survey",
+        "Engineering Leadership",
+        "Environmental Engineering",
+        "Soil Engineering"
+      ],
+      "soft_skills": [
+        "detail-oriented",
+        "efficient"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Engineering Intern",
+        "company": "Company Name",
+        "start_date": "05/2017",
+        "end_date": "08/2017",
+        "city": "City , State",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "school": "Civil Engineering",
+        "year": "2018"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T13:14:40.011478+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.5315
+    }
+  }
+}

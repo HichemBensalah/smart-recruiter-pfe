@@ -1,0 +1,153 @@
+{
+  "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\Hichem_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\images\\Hichem_image.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "O Ariana, Tunisia",
+      "email": "1512@gmail.com",
+      "phone": null,
+      "location": "O Ariana, Tunisia"
+    },
+    "expertise": {
+      "summary": "Final-year Data Science & AI Engineering Student focused on ML/DL, ML Ops and AWS.",
+      "hard_skills": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "R",
+        "Java",
+        "JavaScript",
+        "C",
+        "C++",
+        "C#",
+        "Neural Networks",
+        "ANN",
+        "CNN",
+        "RNN",
+        "LSTM",
+        "GRU",
+        "MLOps",
+        "DevOps/CI/CD",
+        "Docker",
+        "Git",
+        "GitHub",
+        "GitHub Actions",
+        "Generative Models",
+        "GAN",
+        "VAE",
+        "Diffusion Models",
+        "Deployment Tools",
+        "Flask",
+        "FastAPI",
+        "Streamlit",
+        "Frameworks",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "Cloud (AWS)",
+        "S3",
+        "EC2",
+        "SageMaker",
+        "Computer Vision & Natural Language Processing",
+        "Data Engineering & Databases",
+        "CV",
+        "YOLO",
+        "image/video processing",
+        "Tensor RT",
+        "BI & ETL Tools",
+        "ETL",
+        "PowerBI",
+        "SSIS",
+        "SSRS",
+        "SQL Server",
+        "NLP",
+        "spaCy",
+        "NLTK",
+        "embeddings",
+        "Word 2 Vec",
+        "GloVe",
+        "fastText",
+        "Transformers",
+        "LLMs",
+        "Databases",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Neo4j",
+        "Oracle",
+        "Apache Cassandra"
+      ],
+      "soft_skills": [
+        "Problem-solving",
+        "Teamwork",
+        "Communication",
+        "Critical thinking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "AI & Data Science Intern",
+        "company": "TUDIGISEC, TDS Global Technologies",
+        "start_date": "07/2025-09/2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Built a CNN-BiLSTM Network Intrusion Detection System(NSL-KDD)in TensorFlow/Keraswith>99%testaccuracy."
+        ]
+      },
+      {
+        "job_title": "Summer Training",
+        "company": "Tek-Up University",
+        "start_date": "07/2024-08/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Python(Pc AP prep) & Java (oc A prep): hands-on labs; strengthened OOP, data structures, and problem-solvingunder time constraints."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Data Science & AI Engineering",
+        "school": "Tek-Up University",
+        "year": null
+      },
+      {
+        "degree": "Civil Engineering Studies",
+        "school": "ENIG Gabes",
+        "year": "2017"
+      },
+      {
+        "degree": "Preparatory Cycle in Engineering",
+        "school": "FSS Sfax",
+        "year": "2017"
+      },
+      {
+        "degree": "Baccalaureatin Mathematics",
+        "school": "Skhira-Sfax",
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-05-04T14:22:29.417914+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8361,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV25.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV25.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:CV25",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": "919909999999",
+      "location": "Delhi"
+    },
+    "expertise": {
+      "summary": "Data Science with expertise in predictive models, machine learning, and data processing using Python, EA Etc.",
+      "hard_skills": [
+        "R Programming",
+        "Python"
+      ],
+      "soft_skills": [
+        "Business Analytical Techniques",
+        "Segmentation (RFM, K-means dusteringl, Regression anahss Cassification, Dedision Trees and Time Series Forecasting"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "HP",
+        "start_date": "July 2019",
+        "end_date": "December 2019",
+        "city": "Delhi",
+        "responsibilities": [
+          "Used predictive analysis such as machine learning and data mining techniques to forecast company sales of new products with 95% accuracy.",
+          "Developed ETS for data sources used for reporting by sales, inventory, and marketing departments."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Inbern|Department of Data Analysis",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Certification"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MA Statistics",
+        "school": "University-of Delhi",
+        "year": "2019, 1° Division"
+      },
+      {
+        "degree": "BA Science",
+        "school": "University of Delhi",
+        "year": "2017, 1 Division"
+      },
+      {
+        "degree": "High School",
+        "school": "DPS",
+        "year": "2014, 95%"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:03:36.660699+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7283
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "source_path": "data\\raw_cv\\images\\5_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\5_image.json",
+  "source_format": "images",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.5049,
+  "normalization": {
+    "cleaned_markdown": "## PROFESSIONAL EXPERIENCE\n\n## DATASCIENTISTRESUMESAMPLE\n**Location: ** 43 Smith Dr., Pittsburgh, PA, 09867\n- from Resume Genius\n- email@gmail.com\n- Linkedin.com/in/yourprofile\n- RESUME OBJECTIVE\naccuracy, andutilityofinternaldataprocessing. Experiencedatcreatingdataregressionmodels, usingpredictivedatamodeling, andanalyzingdataminingalgorithmstodeliverinsightsand implementaction-orientedsolutionstocomplexbusinessproblems.\n- SKILLS\n- PHP/Rubyon Rails/Java/C++/Python\n- MySQL/SQ Lite 3/MongoDB/JSON\n- Leadership\n- Collaboration\n- Handling Pressure\n- Problem Solving\n- Data Mining\n- Data Management\n\n## EXPERIENCE DATASCIENTIST\n\nMicrosoft, Tucson, AZ/September 2015-Present\nindustrytrends, achievinga 15%moreaccuratepredictionofperformancethanpreviousyears\nUtilizewebscrapingtechniquestoextractandorganizecompetitordata\nina 20%increaseinusabilityfornon-technicalstaffmembers\nModernizedatastreamliningprocesses, resultingina 25%redundancyreduction\nDATASCIENTIST\nHewlett-Packard, San Francisco, CA/June 2013-August 2015\nImproved data miningprocesses, resultingina 20%decreaseintimeneededtoinferinsights fromcustomerdatausedtodevelopmarketingstrategies\nUsedpredictiveanalyticssuchasmachinelearninganddataminingtechniquestoforecast companysalesofnewproductswitha 95%accuracyrate\nIncreased datasecuritybyupdatingcompanywideencryption, steganography, Psecurity, and securewirelesstransmissionpractices\nDeveloped E Tsfordatasourcesusedforreportingbysales, inventory, andmarketing departments\n\n## EDUCATION\n\n## B. S. COMPUTERSCIENCE University of Arizona, Tucs 0 n, AZ/2010\n**Date: ** 2010\n## Universityof California, Berkeley, CA/2013\n**Date: ** 2013\nHEADER\nPROFESSIONAL EXPERIENCE\nDATASCIENTISTRESUMESAMPLE\n43Smith Dr., Pittsburgh, PA, 09867\nfrom Resume Genius\n895555555\nemail@gmail.com\nLinkedin.com/in/yourprofile\nRESUMEOBJECTIVE\naccuracy, andutilityofinternaldataprocessing. Experiencedatcreatingdataregressionmodels, usingpredictivedatamodeling, andanalyzingdataminingalgorithmstodeliverinsightsand implementaction-orientedsolutionstocomplexbusinessproblems.\nSKILLS\nPHP/Rubyon Rails/Java/C++/Python\nMySQL/SQ Lite3/MongoDB/JSON\nLeadership\nCollaboration\nHandling Pressure\nProblem Solving\nData Mining\nData Management\nEXPERIENCE DATASCIENTIST\nMicrosoft, Tucson, AZ/September2015-Present\nindustrytrends, achievinga15%moreaccuratepredictionofperformancethanpreviousyears\nUtilizewebscrapingtechniquestoextractandorganizecompetitordata\nina20%increaseinusabilityfornon-technicalstaffmembers\nModernizedatastreamliningprocesses, resultingina25%redundancyreduction\nDATASCIENTIST\nHewlett-Packard, San Francisco, CA/June2013-August2015\nImproved data miningprocesses, resultingina20%decreaseintimeneededtoinferinsights fromcustomerdatausedtodevelopmarketingstrategies\nUsedpredictiveanalyticssuchasmachinelearninganddataminingtechniquestoforecast companysalesofnewproductswitha95%accuracyrate\nIncreased datasecuritybyupdatingcompanywideencryption, steganography, Psecurity, and securewirelesstransmissionpractices\nDeveloped E Tsfordatasourcesusedforreportingbysales, inventory, andmarketing departments\nEDUCATION\nB. S. COMPUTERSCIENCE University of Arizona, Tucs0n, AZ/2010\n2010\nUniversityof California, Berkeley, CA/2013\n2013\nM. S. STATISTICS\nMICROSOFTCERTIFIED SOLUTIONSEXPERT 2016",
+    "header_info": {
+      "full_name": "from Resume Genius",
+      "email": "email@gmail.com",
+      "phone": null,
+      "location": "Location: ** 43 Smith Dr., Pittsburgh, PA, 09867",
+      "linkedin": "Linkedin.com/in/yourprofile",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.901,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "from Resume Genius",
+      "email": "email@gmail.com",
+      "phone": null,
+      "location": "43 Smith Dr., Pittsburgh, PA, 09867",
+      "linkedin": "Linkedin.com/in/yourprofile/",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 12,
+      "hard_skills": [
+        "PHP/Ruby on Rails/Java/C++/Python",
+        "MySQL/SQ Lite 3/MongoDB/JSON"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Collaboration",
+        "Handling Pressure",
+        "Problem Solving",
+        "Data Mining",
+        "Data Management"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Microsoft, Tucson, AZ",
+        "job_title": null,
+        "start_date": "September 2015",
+        "end_date": null,
+        "city": "Tucson, AZ",
+        "responsibilities": [
+          "utilize web scraping techniques to extract and organize competitor data"
+        ]
+      },
+      {
+        "company": "Hewlett-Packard, San Francisco, CA",
+        "job_title": null,
+        "start_date": "June 2013",
+        "end_date": "August 2015",
+        "city": "San Francisco, CA",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Arizona, Tucson, AZ",
+        "degree": "B. S. COMPUTERSCIENCE",
+        "field": null,
+        "year": 2010
+      },
+      {
+        "institution": "University of California, Berkeley, CA",
+        "degree": null,
+        "field": null,
+        "year": 2013
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T13:57:18.589402+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:24.356905+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

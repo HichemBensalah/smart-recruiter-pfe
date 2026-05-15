@@ -1,0 +1,66 @@
+{
+  "source_path": "data\\raw_cv\\images\\6_image.jpg",
+  "artifact_path": "data\\processed_final_rerun_20260414\\images\\6_image.json",
+  "source_format": "images",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "images:6_image",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Data Scientist with 4+ years of experience in data analysis, machine learning, and automation. Proficient in a range of tools and technologies.",
+      "hard_skills": [],
+      "soft_skills": [
+        "Attention to Detail"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "Spy Biotech, Inc.",
+        "start_date": "09/2017-02/2019",
+        "end_date": null,
+        "city": "London, United Kingdom",
+        "responsibilities": [
+          "Collected, analyzed, and interpreted large datasets; conducted reports; performed accurate data management."
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "CGL, Inc.",
+        "start_date": "06/2014-08/2014",
+        "end_date": "09/2017",
+        "city": null,
+        "responsibilities": [
+          "Collected, analyzed, and interpreted raw data from various websites; conducted monthly meetings with executives."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "IB Diploma Programme",
+        "school": "The International School Estepona, EL Paraiso, Spain",
+        "year": null
+      },
+      {
+        "degree": "Highlyaccurateandexperienced Data Scientist",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T20:02:48.231861+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.711
+    }
+  }
+}

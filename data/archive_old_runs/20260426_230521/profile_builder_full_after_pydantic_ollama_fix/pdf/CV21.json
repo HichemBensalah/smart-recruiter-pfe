@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV21.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\CV21.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "info@qwikresume.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Robert Smith",
+      "email": "info@qwikresume.com",
+      "phone": "(123)-456-7899",
+      "location": "1737 Marshville Road, Alabama"
+    },
+    "expertise": {
+      "summary": "Data scientist with experience in data management, integration, analysis, and software R&D",
+      "hard_skills": [
+        "Hadoop",
+        "Oracle SQL",
+        "Server",
+        "Java",
+        "Hypothesis Testing",
+        "Time Series Analysis",
+        "Marketing Analysis",
+        "Visualization",
+        "Excel Modeling",
+        "Map Reduce",
+        "Hive",
+        "HDFS",
+        "MR/Sqoop"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Co-Founder & Data Scientist",
+        "company": "XCGDesignCorp",
+        "start_date": "April 2016",
+        "end_date": "2019",
+        "city": null,
+        "responsibilities": [
+          "Statistical Data Modeling",
+          "Database Data Modeling",
+          "Advanced R/SQL Development",
+          "Marketing Analytics",
+          "Risk Management",
+          "Survival Analysis"
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "CyberdataTechnologiesInc",
+        "start_date": "2014",
+        "end_date": "2016",
+        "city": null,
+        "responsibilities": [
+          "Configured MR/Sqoop jobs to Import data from RDBMS Into HDFS",
+          "Created HBase tables to store variable data formats",
+          "Establishing and enhancing operational monitoring"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:25:54.332625+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7912
+    }
+  }
+}

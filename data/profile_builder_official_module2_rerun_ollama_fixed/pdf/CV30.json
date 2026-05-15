@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV30.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV30.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": {
+    "source_id": "pdf:CV30",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "NATASHAHOLLOWAY",
+      "email": null,
+      "phone": null,
+      "location": "Dublin, ireland"
+    },
+    "expertise": {
+      "summary": "Data Science Intern with experience in data analytics and strategy for scaling startups.",
+      "hard_skills": [
+        "Tableau",
+        "D3.js",
+        "IBM DB 2",
+        "SAS Enterprise Miner"
+      ],
+      "soft_skills": [
+        "strategic thinking"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Data Science Intern",
+        "company": "Boyle Ltd",
+        "start_date": "2017-ongoing",
+        "end_date": null,
+        "city": "Dublin, ireland",
+        "responsibilities": [
+          "Developed enterprise data analytics vision and strategy for generating an additional cash-flow upto $2 B",
+          "Ability to keep calm in stressful situations",
+          "Build a real-time analytics dashboard using Tableau and D3.js",
+          "Acquired using practicing mindfulness"
+        ]
+      },
+      {
+        "job_title": "Data Science Intern",
+        "company": "Rolfson",
+        "start_date": "2016-2017",
+        "end_date": null,
+        "city": "Dublin, ireland",
+        "responsibilities": [
+          "Built web app that used advanced statistical model to predict user behavior, used by 300+ city teams",
+          "Improved Transaction Categorisation to 0.97 F1-score"
+        ]
+      },
+      {
+        "job_title": "Data Science Intern",
+        "company": "Koepp Inc",
+        "start_date": "2015-2016",
+        "end_date": null,
+        "city": "Dublin, ireland",
+        "responsibilities": [
+          "Built software platform that provides video analysis and coaching tools for sport teams"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "RMIT University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T10:22:34.610657+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6824
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "generated_at_utc": "2026-05-15T10:15:48.540702+00:00",
+  "status": "available",
+  "model": "data\\ranking\\models\\xgboost.joblib",
+  "dataset": "data\\ranking\\datasets\\ranking_dataset_aligned_pseudo_labeled.jsonl",
+  "feature_names": "data\\ranking\\models\\feature_names.json",
+  "row_count": 250,
+  "top_features": [
+    {
+      "feature": "final_score_v3",
+      "mean_abs_shap": 3.6247291564941406
+    },
+    {
+      "feature": "must_have_coverage",
+      "mean_abs_shap": 0.5861210823059082
+    },
+    {
+      "feature": "vector_similarity",
+      "mean_abs_shap": 0.09756586700677872
+    },
+    {
+      "feature": "profile_quality_score",
+      "mean_abs_shap": 0.051121361553668976
+    },
+    {
+      "feature": "experience_match_score",
+      "mean_abs_shap": 0.012372246012091637
+    },
+    {
+      "feature": "reliability_score",
+      "mean_abs_shap": 0.009845570661127567
+    },
+    {
+      "feature": "required_skills_overlap",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "nice_to_have_overlap",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "seniority_alignment",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "hallucination_risk_encoded",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "missing_required_count",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "matched_required_count",
+      "mean_abs_shap": 0.0
+    }
+  ],
+  "xgboost_feature_importance_top_features": [
+    {
+      "feature": "must_have_coverage",
+      "importance": 0.5963454842567444
+    },
+    {
+      "feature": "final_score_v3",
+      "importance": 0.3827909529209137
+    },
+    {
+      "feature": "experience_match_score",
+      "importance": 0.007427670992910862
+    },
+    {
+      "feature": "profile_quality_score",
+      "importance": 0.006199022755026817
+    },
+    {
+      "feature": "vector_similarity",
+      "importance": 0.004177607595920563
+    },
+    {
+      "feature": "reliability_score",
+      "importance": 0.003059210255742073
+    },
+    {
+      "feature": "required_skills_overlap",
+      "importance": 0.0
+    },
+    {
+      "feature": "nice_to_have_overlap",
+      "importance": 0.0
+    },
+    {
+      "feature": "seniority_alignment",
+      "importance": 0.0
+    },
+    {
+      "feature": "hallucination_risk_encoded",
+      "importance": 0.0
+    },
+    {
+      "feature": "missing_required_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "matched_required_count",
+      "importance": 0.0
+    }
+  ],
+  "comparison_with_xgboost_feature_importance": "Top SHAP and XGBoost built-in importance overlap on: final_score_v3, must_have_coverage, vector_similarity, profile_quality_score, experience_match_score. Both explain a model trained to reproduce controlled business pseudo-labels.",
+  "methodology_warning": "Ces explications SHAP concernent un modèle entraîné sur pseudo-labels métier contrôlés, pas sur labels recruteur."
+}

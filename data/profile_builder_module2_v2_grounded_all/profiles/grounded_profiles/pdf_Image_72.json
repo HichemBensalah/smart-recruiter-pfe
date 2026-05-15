@@ -1,0 +1,160 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_72.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_72.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.5205,
+  "normalization": {
+    "cleaned_markdown": "## PROFESSIONAL EXPERIENCE\n\nExperience\n·Experience inmachine-learning and deep-learning\nExperienceinweb-baseduserinterfacegeneration\n·Backgroundinproteinscienceshighlypreferable\n·Experiencewithobject-orientedcodinglanguagessuchas Javaand Python\n## ·Exposureto AWSLambda, AWSS 3, Kafka, Redshift, SageMaker\n**Date: ** Los Angeles, CAIData Science 08/2012-11/2017\n- ·Aprofessionalproblemsolvingandconflictresolution\n- ·Significantexperiencewith NLPproblems\n- ·Experienceusing Al/MLtocombinedatafrommultiplemodalitiesinthe pursuitofnovel insights\n- ·Understandingofandexperiencewithdevelopinganddelivering \"Explainable Al\"solutions\n- ·Aptitudeforwritingmachinelearningalgorithms\n\n## ANITRA JACOBS\n\nPredovic-Zemlak\nLos Angeles, CAIl Directorof Data Science I 04/2018-present\nDeepunderstandingofdatadomains, models, andimplicationsfor analyticsuseinatleastoneindustryincludingtelecommunications, cable, finance, media, advertising, orsimilar\n·Deepworkingknowledgeof SDLCmethodologies(Agile/Rational)\n\n## TECHNICAL SKILLS\n\n·Strongteambuildingandleadershipskills balanceofhandsonand effectivedelegation\naddress\n838 Jamaal Forge, Houston, TX\nBogan, Heaney and Quigley\ntel\n·Fluencyin Pythonandscripting ina Unix/Linuxenvironment\n·Background innatural languageprocessingdesirable\n·Ispassionate about applications, analytics, end-userproductivity\nSkills\n·Haveexperienceindatabases, analytics, bigdatasystemsorbusiness intelligenceproducts(Tableau, Power BI)\nStudying Statistics, Economics, Computer Science, Mathematics, or anotherquantitativefield\n\n## EDUCATION\n\nFashion Institute of Technology\nBachelor'sin Computer Science\nPROFESSIONAL EXPERIENCE\nExperience\n·Experience inmachine-learning and deep-learning\nExperienceinweb-baseduserinterfacegeneration\n·Backgroundinproteinscienceshighlypreferable\n·Experiencewithobject-orientedcodinglanguagessuchasJavaand Python\n·ExposuretoAWSLambda, AWSS3, Kafka, Redshift, SageMaker\nLosAngeles, CAIDataScience08/2012-11/2017\n·Aprofessionalproblemsolvingandconflictresolution\n·SignificantexperiencewithNLPproblems\n·ExperienceusingAl/MLtocombinedatafrommultiplemodalitiesinthe pursuitofnovel insights\n·Understandingofandexperiencewithdevelopinganddelivering \"ExplainableAl\"solutions\n·Aptitudeforwritingmachinelearningalgorithms\nANITRA JACOBS\nPredovic-Zemlak\nLosAngeles, CAIlDirectorof DataScienceI04/2018-present\nDeepunderstandingofdatadomains, models, andimplicationsfor analyticsuseinatleastoneindustryincludingtelecommunications, cable, finance, media, advertising, orsimilar\n·DeepworkingknowledgeofSDLCmethodologies(Agile/Rational)\nTECHNICAL SKILLS\n·Strongteambuildingandleadershipskills balanceofhandsonand effectivedelegation\naddress\n838Jamaal Forge, Houston, TX\nBogan, Heaney and Quigley\ntel\n1+1(555)2154527\n·FluencyinPythonandscripting inaUnix/Linuxenvironment\n·Background innatural languageprocessingdesirable\n·Ispassionate about applications, analytics, end-userproductivity\nSkills\n·Haveexperienceindatabases, analytics, bigdatasystemsorbusiness intelligenceproducts(Tableau, PowerBI)\nStudyingStatistics, Economics, ComputerScience, Mathematics, or anotherquantitativefield\nEDUCATION\nFashion Institute of Technology\nBachelor'sinComputerScience",
+    "header_info": {
+      "full_name": "·Experiencewithobject-orientedcodinglanguagessuchas Javaand Python",
+      "email": null,
+      "phone": "08/2012-11/2017",
+      "location": "·Exposureto AWSLambda, AWSS 3, Kafka, Redshift, SageMaker",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9041,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Anitra Jacobs",
+      "email": null,
+      "phone": null,
+      "location": "Los Angeles, CA",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid",
+      "years_experience": 5,
+      "hard_skills": [
+        "Java",
+        "Python",
+        "AWS Lambda",
+        "AWS S3",
+        "Kafka",
+        "Redshift",
+        "SageMaker",
+        "NLP",
+        "Unix/Linux"
+      ],
+      "soft_skills": [
+        "team building",
+        "leadership",
+        "problem solving",
+        "conflict resolution"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Data Science",
+        "start_date": "08/2012",
+        "end_date": "11/2017",
+        "city": "Los Angeles, CA",
+        "responsibilities": [
+          "professional problem solving and conflict resolution",
+          "significant experience with NLP problems",
+          "experience using AI/ML to combine data from multiple modalities",
+          "understanding of and experience with developing and delivering 'Explainable AI' solutions",
+          "aptitude for writing machine learning algorithms"
+        ]
+      },
+      {
+        "company": "Predovic-Zemlak",
+        "job_title": "Director of Data Science",
+        "start_date": "04/2018",
+        "end_date": null,
+        "city": "Los Angeles, CA",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "Fashion Institute of Technology",
+        "degree": "Bachelor's",
+        "field": "Computer Science",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T11:30:31.980579+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:30.135818+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

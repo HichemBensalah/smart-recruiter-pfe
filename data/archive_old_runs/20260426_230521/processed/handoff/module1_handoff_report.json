@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "accepted": 61,
+    "repair_required": 28,
+    "quarantined": 1,
+    "eligible_for_module2": 61,
+    "blocked_from_module2": 29
+  },
+  "paths": {
+    "accepted": "data\\processed\\handoff\\accepted.json",
+    "repair_required": "data\\processed\\handoff\\repair_required.json",
+    "quarantined": "data\\processed\\handoff\\quarantined.json",
+    "report": "data\\processed\\handoff\\module1_handoff_report.json"
+  }
+}

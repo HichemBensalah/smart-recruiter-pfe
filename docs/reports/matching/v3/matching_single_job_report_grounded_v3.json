@@ -1,0 +1,433 @@
+{
+  "generated_at_utc": "2026-05-04T15:02:56.061083+00:00",
+  "job_profiles_tested": 1,
+  "top_k": 10,
+  "sentence_transformer_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "faiss_index_path": "data\\indexes\\faiss\\cv_index.faiss",
+  "faiss_index_report_path": "data\\indexes\\faiss\\index_report.json",
+  "execution_time_seconds": 12.9825,
+  "results": [
+    {
+      "job_profile_file": "data\\job_profiles\\backend_python_fastapi_mongodb.json",
+      "job_title": "Backend Python Engineer",
+      "top_k": 10,
+      "recommendations_count": 10,
+      "recommendations": [
+        {
+          "candidate_id": "candidate_1487f3187f7b",
+          "matched_profile_id": "profile_bcffa3bb70fb",
+          "full_name": "Hichem Bensalah",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\docx\\Hichem_resume.docx",
+          "provider_route": "groq_secondary",
+          "reliability_score": 0.9776,
+          "hallucination_risk": "low",
+          "quality_flags": [
+            "summary_not_enough_evidence",
+            "missing_education_section",
+            "missing_full_name",
+            "missing_skills_section"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.8172,
+          "base_score_before_penalty": 0.8172,
+          "score_text_similarity": 0.5976,
+          "score_skills": 0.8,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9888,
+          "score_grounded_quality": 0.9254,
+          "must_have_coverage": 0.8,
+          "must_have_penalty_multiplier": 1.0,
+          "must_have_penalty_applied": false,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python",
+            "FastAPI",
+            "MongoDB",
+            "Docker"
+          ],
+          "missing_required_skills": [
+            "REST API"
+          ],
+          "explanation": "Hichem Bensalah matches on Python, FastAPI, MongoDB, Docker. Text similarity=0.60, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include REST API.",
+          "profile_count": 2,
+          "rank": 1
+        },
+        {
+          "candidate_id": "candidate_206d746034ef",
+          "matched_profile_id": "profile_0e54d2a788d4",
+          "full_name": "MOHAMED AZIZ BELAWEID",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+          "provider_route": "groq_secondary",
+          "reliability_score": 0.9598,
+          "hallucination_risk": "low",
+          "quality_flags": [
+            "low_section_order_coherence",
+            "summary_not_enough_evidence"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.5528,
+          "base_score_before_penalty": 0.6503,
+          "score_text_similarity": 0.4238,
+          "score_skills": 0.6,
+          "score_experience": 0.6667,
+          "score_profile_quality": 0.9799,
+          "score_grounded_quality": 0.9439,
+          "must_have_coverage": 0.6,
+          "must_have_penalty_multiplier": 0.85,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python",
+            "FastAPI",
+            "Docker"
+          ],
+          "missing_required_skills": [
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "MOHAMED AZIZ BELAWEID matches on Python, FastAPI, Docker. Text similarity=0.42, experience score=0.67, profile kind=complete_profile, hallucination risk=low. Missing required skills include MongoDB, REST API.",
+          "profile_count": 1,
+          "rank": 2
+        },
+        {
+          "candidate_id": "candidate_8eea1b635447",
+          "matched_profile_id": "profile_55f949a128da",
+          "full_name": "Candidate (ID: candidate_8eea1b635447)",
+          "display_name_quality": "weak",
+          "name_warning": "missing_or_rejected_full_name",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\images\\Hichem_image.jpg",
+          "provider_route": "ollama_local",
+          "reliability_score": 0.8361,
+          "hallucination_risk": "medium",
+          "quality_flags": [
+            "unsupported_fields_nullified"
+          ],
+          "fields_nullified_count": 1,
+          "final_score": 0.5466,
+          "base_score_before_penalty": 0.7592,
+          "score_text_similarity": 0.4646,
+          "score_skills": 0.8,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8881,
+          "score_grounded_quality": 0.8215,
+          "must_have_coverage": 0.8,
+          "must_have_penalty_multiplier": 1.0,
+          "must_have_penalty_applied": false,
+          "quality_penalty_multiplier": 0.72,
+          "matched_skills": [
+            "Python",
+            "FastAPI",
+            "MongoDB",
+            "Docker"
+          ],
+          "missing_required_skills": [
+            "REST API"
+          ],
+          "explanation": "Candidate (ID: candidate_8eea1b635447) matches on Python, FastAPI, MongoDB, Docker. Text similarity=0.46, experience score=1.00, profile kind=complete_profile, hallucination risk=medium. Missing required skills include REST API.",
+          "profile_count": 1,
+          "rank": 3
+        },
+        {
+          "candidate_id": "candidate_1df043636ea4",
+          "matched_profile_id": "profile_133336b99224",
+          "full_name": "JEFFERYGORCZANY",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV37.pdf",
+          "provider_route": "groq_secondary",
+          "reliability_score": 0.9405,
+          "hallucination_risk": "low",
+          "quality_flags": [
+            "low_section_order_coherence",
+            "summary_not_enough_evidence",
+            "missing_email",
+            "missing_full_name"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.4332,
+          "base_score_before_penalty": 0.6665,
+          "score_text_similarity": 0.56,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9703,
+          "score_grounded_quality": 0.9013,
+          "must_have_coverage": 0.4,
+          "must_have_penalty_multiplier": 0.65,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python",
+            "Docker"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "JEFFERYGORCZANY matches on Python, Docker. Text similarity=0.56, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, REST API.",
+          "profile_count": 1,
+          "rank": 4
+        },
+        {
+          "candidate_id": "candidate_71e03ea99985",
+          "matched_profile_id": "profile_4e6ce456eccc",
+          "full_name": "Candidate (ID: candidate_71e03ea99985)",
+          "display_name_quality": "weak",
+          "name_warning": "missing_or_rejected_full_name",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV8.pdf",
+          "provider_route": "groq_secondary",
+          "reliability_score": 0.9107,
+          "hallucination_risk": "low",
+          "quality_flags": [
+            "partial_section_completeness",
+            "high_ocr_noise",
+            "summary_not_enough_evidence",
+            "missing_education_section",
+            "missing_email"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.3502,
+          "base_score_before_penalty": 0.6338,
+          "score_text_similarity": 0.457,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9553,
+          "score_grounded_quality": 0.867,
+          "must_have_coverage": 0.4,
+          "must_have_penalty_multiplier": 0.65,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 0.85,
+          "matched_skills": [
+            "Python",
+            "MongoDB"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "Docker",
+            "REST API"
+          ],
+          "explanation": "Candidate (ID: candidate_71e03ea99985) matches on Python, MongoDB. Text similarity=0.46, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, Docker, REST API.",
+          "profile_count": 1,
+          "rank": 5
+        },
+        {
+          "candidate_id": "candidate_1d475044c93c",
+          "matched_profile_id": "profile_02aa18c661e7",
+          "full_name": "Candidate (ID: candidate_1d475044c93c)",
+          "display_name_quality": "weak",
+          "name_warning": "missing_or_rejected_full_name",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV5.pdf",
+          "provider_route": "groq_secondary",
+          "reliability_score": 0.9393,
+          "hallucination_risk": "low",
+          "quality_flags": [
+            "high_ocr_noise",
+            "summary_not_enough_evidence"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.3464,
+          "base_score_before_penalty": 0.6269,
+          "score_text_similarity": 0.3878,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9696,
+          "score_grounded_quality": 0.9305,
+          "must_have_coverage": 0.4,
+          "must_have_penalty_multiplier": 0.65,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 0.85,
+          "matched_skills": [
+            "Python",
+            "MongoDB"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "Docker",
+            "REST API"
+          ],
+          "explanation": "Candidate (ID: candidate_1d475044c93c) matches on Python, MongoDB. Text similarity=0.39, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, Docker, REST API.",
+          "profile_count": 2,
+          "rank": 6
+        },
+        {
+          "candidate_id": "candidate_073b7a3d39ba",
+          "matched_profile_id": "profile_5c10a3b5e6c5",
+          "full_name": "Markus Rohan",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "partial_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_77.pdf",
+          "provider_route": "ollama_local",
+          "reliability_score": 0.6429,
+          "hallucination_risk": "medium",
+          "quality_flags": [
+            "high_ocr_noise",
+            "summary_not_enough_evidence",
+            "unsupported_fields_nullified",
+            "missing_email"
+          ],
+          "fields_nullified_count": 2,
+          "final_score": 0.3181,
+          "base_score_before_penalty": 0.5725,
+          "score_text_similarity": 0.4552,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.7165,
+          "score_grounded_quality": 0.5969,
+          "must_have_coverage": 0.4,
+          "must_have_penalty_multiplier": 0.65,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 0.855,
+          "matched_skills": [
+            "Python",
+            "Docker"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "MongoDB",
+            "REST API"
+          ],
+          "explanation": "Markus Rohan matches on Python, Docker. Text similarity=0.46, experience score=1.00, profile kind=partial_profile, hallucination risk=medium. Missing required skills include FastAPI, MongoDB, REST API.",
+          "profile_count": 1,
+          "rank": 7
+        },
+        {
+          "candidate_id": "candidate_c564b8eceb3d",
+          "matched_profile_id": "profile_41aac6a912f1",
+          "full_name": "Candidate (ID: candidate_c564b8eceb3d)",
+          "display_name_quality": "weak",
+          "name_warning": "missing_or_rejected_full_name",
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\images\\8_image.jpg",
+          "provider_route": "ollama_local",
+          "reliability_score": 0.7643,
+          "hallucination_risk": "medium",
+          "quality_flags": [
+            "partial_section_completeness",
+            "high_ocr_noise",
+            "markdown_too_weak",
+            "needs_ocr_repair",
+            "unsupported_fields_nullified",
+            "missing_education_section",
+            "missing_email"
+          ],
+          "fields_nullified_count": 1,
+          "final_score": 0.2731,
+          "base_score_before_penalty": 0.5835,
+          "score_text_similarity": 0.3983,
+          "score_skills": 0.4,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.8522,
+          "score_grounded_quality": 0.6898,
+          "must_have_coverage": 0.4,
+          "must_have_penalty_multiplier": 0.65,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 0.72,
+          "matched_skills": [
+            "Python",
+            "MongoDB"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "Docker",
+            "REST API"
+          ],
+          "explanation": "Candidate (ID: candidate_c564b8eceb3d) matches on Python, MongoDB. Text similarity=0.40, experience score=1.00, profile kind=complete_profile, hallucination risk=medium. Missing required skills include FastAPI, Docker, REST API.",
+          "profile_count": 1,
+          "rank": 8
+        },
+        {
+          "candidate_id": "candidate_d813a4aedd03",
+          "matched_profile_id": "profile_98d4b26839c0",
+          "full_name": "MILDREDZEMLAK",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\Image_70.pdf",
+          "provider_route": "groq_secondary",
+          "reliability_score": 0.9413,
+          "hallucination_risk": "low",
+          "quality_flags": [
+            "summary_not_enough_evidence",
+            "missing_email"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.2628,
+          "base_score_before_penalty": 0.5841,
+          "score_text_similarity": 0.4856,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9707,
+          "score_grounded_quality": 0.9318,
+          "must_have_coverage": 0.2,
+          "must_have_penalty_multiplier": 0.45,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "MongoDB",
+            "Docker",
+            "REST API"
+          ],
+          "explanation": "MILDREDZEMLAK matches on Python. Text similarity=0.49, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, Docker.",
+          "profile_count": 1,
+          "rank": 9
+        },
+        {
+          "candidate_id": "candidate_4eef95d3a3fa",
+          "matched_profile_id": "profile_070e372f3c0e",
+          "full_name": "Justine Hendrickson",
+          "display_name_quality": "ok",
+          "name_warning": null,
+          "profile_kind": "complete_profile",
+          "source_path": "data\\raw_cv\\pdf\\CV7.pdf",
+          "provider_route": "groq_secondary",
+          "reliability_score": 0.9526,
+          "hallucination_risk": "low",
+          "quality_flags": [
+            "high_ocr_noise",
+            "summary_not_enough_evidence",
+            "missing_full_name"
+          ],
+          "fields_nullified_count": 0,
+          "final_score": 0.2573,
+          "base_score_before_penalty": 0.5718,
+          "score_text_similarity": 0.44,
+          "score_skills": 0.2,
+          "score_experience": 1.0,
+          "score_profile_quality": 0.9763,
+          "score_grounded_quality": 0.9242,
+          "must_have_coverage": 0.2,
+          "must_have_penalty_multiplier": 0.45,
+          "must_have_penalty_applied": true,
+          "quality_penalty_multiplier": 1.0,
+          "matched_skills": [
+            "Python"
+          ],
+          "missing_required_skills": [
+            "FastAPI",
+            "MongoDB",
+            "Docker",
+            "REST API"
+          ],
+          "explanation": "Justine Hendrickson matches on Python. Text similarity=0.44, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, Docker.",
+          "profile_count": 2,
+          "rank": 10
+        }
+      ]
+    }
+  ]
+}

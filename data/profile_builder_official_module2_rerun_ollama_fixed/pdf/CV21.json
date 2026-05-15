@@ -1,0 +1,11 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\CV21.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\CV21.json",
+  "source_format": "pdf",
+  "status": "failed",
+  "failure_type": "schema_error",
+  "mode": "dry-run",
+  "error": "1 validation error for CandidateProfilePayload\nlanguages\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['English', 'French', 'Spanish'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden",
+  "run_id": "profile_builder_20260427T091925Z",
+  "profile": null
+}

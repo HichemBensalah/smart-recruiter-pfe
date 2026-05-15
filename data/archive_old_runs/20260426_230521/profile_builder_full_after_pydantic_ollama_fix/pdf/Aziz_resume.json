@@ -1,0 +1,107 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Aziz_resume.pdf",
+  "artifact_path": "data\\processed_final_rerun_20260414\\pdf\\Aziz_resume.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "azizbelaweid@gmail.com",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "email": "azizbelaweid@gmail.com",
+      "phone": "+4917668727956",
+      "location": "Berlin, Germany"
+    },
+    "expertise": {
+      "summary": "Developed multiple models for mask detection, age and gender classification, and sentiment analysis, utilizing various techniques such as EfficientDet, Yolo-v4, and Multilingual DistilBERT, with applications in COVID regulation enforceme...",
+      "hard_skills": [
+        "Python",
+        "Java",
+        "Pytorch",
+        "Flask",
+        "FastAPI",
+        "Pytest",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Huggingface",
+        "Linux",
+        "Weights and Biases",
+        "Docker",
+        "TensorFlow",
+        "TensorRT"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Machine Learning Engineer",
+        "company": "JinaAI",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Finetune LLMs on coding data, using LoRA and 8 bit Quantization techniques on 3 3090 GPUs"
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "RelationalAI",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Research and development"
+        ]
+      },
+      {
+        "job_title": "Artificial Intelligence R&D Intern",
+        "company": "Vneuron",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Sentiment analysis for Tunisian-Arabic dialect"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "July 2020",
+        "end_date": "September 2020",
+        "city": "Tunis",
+        "responsibilities": [
+          "Automated customer review analysis in English, French, Arabic, and Tunisian dialect",
+          "Finetuning a Multilingual DistilBERT model for sentiment classification with TensorFlow"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "May 2020",
+        "end_date": "July 2020",
+        "city": null,
+        "responsibilities": [
+          "Improved model performance by scraping customer reviews from Google Maps using Selenium and BeautifulSoup",
+          "Deployed a Flask app to showcase the model's performance and test manual examples"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Software Engineering",
+        "school": "National Institute of Applied Sciences and Technology (INSAT)",
+        "year": "2017-2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:24:12.855992+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.7989
+    }
+  }
+}

@@ -233,7 +233,7 @@ def extract_schools(profile: dict[str, Any]) -> list[str]:
     for item in profile.get("education") or []:
         if not isinstance(item, dict):
             continue
-        school = clean_display_text(item.get("school"))
+        school = clean_display_text(item.get("school") or item.get("institution"))
         if school:
             schools.append(school)
     return unique_strings(schools)
@@ -326,12 +326,15 @@ def build_profile_document(
     accepted_entry: dict[str, Any] | None,
     imported_at: str,
 ) -> dict[str, Any]:
+    is_grounded_v2 = isinstance(payload.get("grounding"), dict) and isinstance(payload.get("normalization"), dict)
     profile = payload.get("profile")
     if not isinstance(profile, dict):
         raise ValueError("success payload is missing profile")
 
     bio = profile.get("bio") or {}
     metadata = profile.get("metadata") or {}
+    top_level_metadata = payload.get("metadata") or {}
+    grounding = payload.get("grounding") or {}
     artifact_path = str(payload.get("artifact_path") or "")
     source_path = payload.get("source_path")
     email_raw = bio.get("email")
@@ -339,7 +342,11 @@ def build_profile_document(
     phone_raw = bio.get("phone")
     phone = normalize_phone(phone_raw)
     linkedin_urls, github_urls, portfolio_urls = extract_urls(profile)
-    reliability_score = metadata.get("confidence_score")
+    reliability_score = (
+        grounding.get("reliability_score")
+        if is_grounded_v2
+        else metadata.get("confidence_score")
+    )
     if reliability_score is None and accepted_entry:
         reliability_score = accepted_entry.get("document_confidence_score")
 
@@ -356,15 +363,19 @@ def build_profile_document(
         "artifact_path": artifact_path,
         "source_format": source_format,
         "status": payload.get("status"),
-        "profile_kind": profile.get("profile_kind"),
-        "provider_route": metadata.get("provider_route"),
+        "profile_kind": payload.get("profile_kind") if is_grounded_v2 else profile.get("profile_kind"),
+        "provider_route": payload.get("provider_used") if is_grounded_v2 else metadata.get("provider_route"),
         "bio": bio,
         "expertise": profile.get("expertise") or {},
         "experiences": list(profile.get("experiences") or []),
         "education": list(profile.get("education") or []),
-        "metadata": metadata,
+        "metadata": metadata if metadata else top_level_metadata,
         "reliability_score": float(reliability_score or 0.0),
-        "quality_flags": list((accepted_entry or {}).get("quality_flags") or []),
+        "quality_flags": unique_strings(
+            list((accepted_entry or {}).get("quality_flags") or [])
+            + list(grounding.get("quality_flags") or [])
+            + list((payload.get("normalization") or {}).get("quality_flags") or [])
+        ),
         "dedup_status": "unique_candidate",
         "dedup_confidence": 1.0,
         "dedup_evidence": {"type": "unique_source_profile", "reason": "No automatic merge evidence used."},
@@ -848,6 +859,7 @@ def import_documents(
     database_name: str,
     candidates_collection_name: str,
     candidate_profiles_collection_name: str,
+    replace_existing: bool = False,
 ) -> dict[str, Any]:
     try:
         from pymongo import MongoClient
@@ -872,12 +884,33 @@ def import_documents(
         ensure_candidate_indexes(candidates_collection)
         ensure_candidate_profile_indexes(candidate_profiles_collection)
 
+        if replace_existing:
+            artifact_paths = [doc.get("artifact_path") for doc in candidate_profiles.values() if doc.get("artifact_path")]
+            source_paths = [doc.get("source_path") for doc in candidate_profiles.values() if doc.get("source_path")]
+            candidate_profiles_collection.delete_many(
+                {
+                    "$or": [
+                        {"artifact_path": {"$in": artifact_paths}},
+                        {"source_path": {"$in": source_paths}},
+                    ]
+                }
+            )
+            candidates_collection.delete_many({})
+
         for profile_id, incoming in sorted(candidate_profiles.items()):
             try:
-                existing = candidate_profiles_collection.find_one({"profile_id": profile_id}, {"_id": 0})
+                existing = candidate_profiles_collection.find_one(
+                    {
+                        "$or": [
+                            {"profile_id": profile_id},
+                            {"artifact_path": incoming.get("artifact_path")},
+                        ]
+                    },
+                    {"_id": 0},
+                )
                 document = merge_created_at(existing, dict(incoming))
                 write_result = candidate_profiles_collection.update_one(
-                    {"profile_id": profile_id},
+                    {"artifact_path": incoming.get("artifact_path")},
                     {"$set": document},
                     upsert=True,
                 )
@@ -1013,6 +1046,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Actually write to MongoDB. Without this flag the script only analyses inputs and writes a dry-run report.",
     )
+    parser.add_argument(
+        "--replace-existing",
+        action="store_true",
+        help="Replace existing candidate_profiles for the same corpus and rebuild candidates collection from the current input set.",
+    )
     return parser.parse_args()
 
 
@@ -1033,6 +1071,7 @@ def main() -> None:
             database_name=args.database,
             candidates_collection_name=args.collection,
             candidate_profiles_collection_name=args.profiles_collection,
+            replace_existing=args.replace_existing,
         )
 
     report = build_report(

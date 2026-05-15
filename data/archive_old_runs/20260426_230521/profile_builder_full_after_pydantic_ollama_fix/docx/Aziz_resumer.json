@@ -1,0 +1,79 @@
+{
+  "source_path": "data\\raw_cv\\docx\\Aziz_resumer.docx",
+  "artifact_path": "data\\processed_final_rerun_20260414\\docx\\Aziz_resumer.json",
+  "source_format": "docx",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260425T192350Z",
+  "profile": {
+    "source_id": "docx:Aziz_resumer",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "MOHAMED AZIZ BELAWEID",
+      "email": null,
+      "phone": null,
+      "location": "Berlin, Germany"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "BigQuery",
+        "Airflow",
+        "Looker"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Machine Learning Engineer",
+        "company": null,
+        "start_date": "October 2023",
+        "end_date": null,
+        "city": "Berlin, Germany",
+        "responsibilities": [
+          "Created track features and pipelines using BigQuery and Airflow that resulting in an increase of 10 min of listening time for 3M users."
+        ]
+      },
+      {
+        "job_title": "Machine Learning Engineer",
+        "company": null,
+        "start_date": "June 2023",
+        "end_date": "July 2023",
+        "city": null,
+        "responsibilities": [
+          "Created a tool to curate playlists and select tracks from 300 million using SQL and Looker."
+        ]
+      },
+      {
+        "job_title": "Machine Learning Engineer",
+        "company": null,
+        "start_date": "June 2021",
+        "end_date": "October 2020",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Pretrained BERT from scratch on NVIDIA NeMo and Pytorch Lightning for MLM and NSP tasks.",
+          "Worked with a team of lawyers to annotate and clean data for Named Entity Recognition."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": "Master of Software Engineering",
+        "school": "National Institute of Applied Sciences and Technology (INSAT)",
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-25T19:56:00.563874+00:00",
+      "model_used": "llama3.2:1b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8147
+    }
+  }
+}

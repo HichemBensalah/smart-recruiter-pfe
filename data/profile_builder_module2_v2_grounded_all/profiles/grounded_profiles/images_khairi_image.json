@@ -1,0 +1,172 @@
+{
+  "source_path": "data\\raw_cv\\images\\khairi_image.jpg",
+  "artifact_path": "data\\processed_official_module1\\images\\khairi_image.json",
+  "source_format": "images",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7849,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nKhaireddine Suibgui\nEl Ghazela, Ariana\nasuibguikhairi 2021@gmail.com+21655470669\nin Khaireddine Suibgui\nQ suibguikhairi\nProfile\nAsa Data Science engineergraduated from TEK-UP university, Ihave developed a solid foundation in myfield to deliver expertise in a professional environment to drive innovation and optimize performance.\n\n## EDUCATION\n\n## ENGINEERINGDEGREE\n## TEK-u P University - Ariana, Data Science\n**Date: ** 2018-2021\n- PREPARATORYCYCLE\n- FSM -Monastir, Maths - Physics\n## BACCALAUREATE\n**Date: ** 2017\n- Pioneer Schoolof Kasserine-Kasserine, Mathemathics\n\n## PROFESSIONAL EXPERIENCE\n\n## Endof Studies Internship\n**Location: ** Club Africain, Tunis|March-August 2025\n- gent system to predict potential injuries and provide personalized training recommendations.\n## SUMMERINTERNSHIP\n**Location: ** TEK-UP, Ariana|July-August 2024\n\n## TECHNICAL SKILLS\n\nTools: Angular|NodeJS|MongoDB|Express Js|Machine Learning|Git.\nDeveloped a speech synthesis system capable oftransforming writtentext into audible speech using deep learning fortheconversionmodelandbigdataforstorageandprocessing.\nTools: Tensorflow|PyTorch |Apache Spark|NLTK| Git.\nDevelopa deeplearningmodeltoclassifytoxicityinusercommentsusing Tensor Flowand Keras. Itinvolved NLP, vectorization and building a sequential model with LSTM layersto detect categories of toxicity.\nTools: Tensorflow|Keras |LSTM|NLP|Git.\nTools: SVM|KNN|K-Means|Naive Bayes|Adaboost|Git.\nTools: SVM|KNN|K-Means|Microsoft Power BI|Git.\nTools: R | R Markdown |Shiny | Tidyverse |Git.\nProgramming Languages: Python|R |Matlab|SQL |JavaScript|Java|C|C++.\nFrench: Fluent\nArabic: Native\nEnglish: Fluent\n\n## ACADEMIC PROJECTS\n\nComment Toxicity Detection\nTEK-UP, Ariana|October 2024\nHeart Health\nTEK-UP, Ariana|April 2024\ndeveloped a project to analyze data on heart disease involving classification algorithms such as SVM and KNN and clustering like K-Meansto predict the presence of heart disease.\nTravel Booking\nTEK-UP, Ariana|February 2024\nTEK-UP, Ariana|December 2023\n## Tourism Analysis\n- manipulatingthedata, visualizingthedata, Creatinginteractivedashboardsandwritingareport.\n- Skills\n- Keras |PyTorch |Apache Spark |Apache Airflow |J Ax |Hadoop |AWS| Git.\nHEADER\nKhaireddine Suibgui\nEl Ghazela, Ariana\nasuibguikhairi2021@gmail.com+21655470669\nin Khaireddine Suibgui\nQ suibguikhairi\nProfile\nAsa Data Science engineergraduated from TEK-UP university, Ihave developed a solid foundation in myfield to deliver expertise in a professional environment to drive innovation and optimize performance.\nEDUCATION\n2022 - 2025\nENGINEERINGDEGREE\nTEK-u P University - Ariana, Data Science\n2018-2021\nPREPARATORYCYCLE\nFSM -Monastir, Maths - Physics\nBACCALAUREATE\n2017\nPioneer Schoolof Kasserine-Kasserine, Mathemathics\nPROFESSIONAL EXPERIENCE\nEndof Studies Internship\nClub Africain, Tunis|March-August2025\ngent system to predict potential injuries and provide personalized training recommendations.\nSUMMERINTERNSHIP\nTEK-UP, Ariana|July-August2024\nTECHNICAL SKILLS\nTools: Angular|NodeJS|MongoDB|Express Js|Machine Learning|Git.\nDeveloped a speech synthesis system capable oftransforming writtentext into audible speech using deep learning fortheconversionmodelandbigdataforstorageandprocessing.\nTools: Tensorflow|PyTorch |Apache Spark|NLTK| Git.\nDevelopa deeplearningmodeltoclassifytoxicityinusercommentsusing Tensor Flowand Keras. Itinvolved NLP, vectorization and building a sequential model with LSTM layersto detect categories of toxicity.\nTools: Tensorflow|Keras |LSTM|NLP|Git.\nTools: SVM|KNN|K-Means|Naive Bayes|Adaboost|Git.\nTools: SVM|KNN|K-Means|Microsoft Power BI|Git.\nTools: R | R Markdown |Shiny | Tidyverse |Git.\nProgramming Languages: Python|R |Matlab|SQL |JavaScript|Java|C|C++.\nFrench: Fluent\nArabic: Native\nEnglish: Fluent\nACADEMIC PROJECTS\nComment Toxicity Detection\nTEK-UP, Ariana|October2024\nHeart Health\nTEK-UP, Ariana|April2024\ndeveloped a project to analyze data on heart disease involving classification algorithms such as SVM and KNN and clustering like K-Meansto predict the presence of heart disease.\nTravel Booking\nTEK-UP, Ariana|February2024\nTEK-UP, Ariana|December2023\nTourism Analysis\nmanipulatingthedata, visualizingthedata, Creatinginteractivedashboardsandwritingareport.\nSkills\nKeras |PyTorch |Apache Spark |Apache Airflow |J Ax |Hadoop |AWS| Git.\nLANGUAGES",
+    "header_info": {
+      "full_name": "Khaireddine Suibgui",
+      "email": "2021@gmail.com",
+      "phone": "+21655470669",
+      "location": "El Ghazela, Ariana",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.957,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Khaireddine Suibgui",
+      "email": "asuibguikhairi2021@gmail.com",
+      "phone": "+21655470669",
+      "location": "El Ghazela, Ariana",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 8,
+      "hard_skills": [
+        "Angular",
+        "NodeJS",
+        "MongoDB",
+        "Express Js",
+        "Machine Learning",
+        "Git",
+        "Tensorflow",
+        "PyTorch",
+        "Apache Spark",
+        "NLTK",
+        "Keras"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Club Africain, Tunis",
+        "job_title": null,
+        "start_date": "March-August 2025",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "gent system to predict potential injuries and provide personalized training recommendations."
+        ]
+      },
+      {
+        "company": "TEK-UP, Ariana",
+        "job_title": null,
+        "start_date": "July-August 2024",
+        "end_date": null,
+        "city": "Ariana",
+        "responsibilities": [
+          "gent system to predict potential injuries and provide personalized training recommendations."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "TEK-UP University - Ariana, Data Science",
+        "degree": "Data Science",
+        "field": null,
+        "year": "2018-2021"
+      },
+      {
+        "institution": "Pioneer School of Kasserine-Kasserine",
+        "degree": "Baccalaureate",
+        "field": null,
+        "year": "2017"
+      }
+    ],
+    "languages": [
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-05-04T14:27:20.074647+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true,
+    "patched_at": "2026-05-07T10:31:25.041480+00:00",
+    "patch_script": "patch_grounded_profiles_v2.py"
+  }
+}

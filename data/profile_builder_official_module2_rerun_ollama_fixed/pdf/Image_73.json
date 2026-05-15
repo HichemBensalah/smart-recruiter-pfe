@@ -1,0 +1,71 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Image_73.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Image_73.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "dry-run",
+  "error": null,
+  "run_id": "profile_builder_20260427T122218Z",
+  "profile": {
+    "source_id": "pdf:Image_73",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "SONA MAYERT",
+      "email": null,
+      "phone": null,
+      "location": "New York, NY"
+    },
+    "expertise": {
+      "summary": "Data Science with a focus on healthcare analytics and leading data transformation initiatives.",
+      "hard_skills": [
+        "ML/Al",
+        "generalized linear models",
+        "decision trees",
+        "ensemble learning",
+        "clustering",
+        "Aws Data Lake services",
+        "experimentation methodologies"
+      ],
+      "soft_skills": [
+        "data-driven",
+        "outcome-focused",
+        "leader"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Director of Data Science",
+        "company": null,
+        "start_date": "09/2017-04/2020",
+        "end_date": null,
+        "city": "Detroit, MI",
+        "responsibilities": [
+          "conceiving, building and leading successful analytics programs utilizing key technologies (e. g.. ML/Al)withinhealthcare organizations"
+        ]
+      },
+      {
+        "job_title": "Data Science Manager",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Detroit, MI Data Science",
+        "responsibilities": [
+          "leading and conducting deep-dive analyses to identify the needs and priorities of the business"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's",
+        "school": "Kent State University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-04-27T12:28:26.508276+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6788
+    }
+  }
+}

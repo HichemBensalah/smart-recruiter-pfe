@@ -1,0 +1,56 @@
+## HEADER
+
+Kaylin Quigley
+566 Leuschke Terrace, Detroit, MIPhone:+1(555)3549388
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+### Phoenix, AZ
+**Date:** 05/2016-present
+Works with the team to develop, maintain, and communicate current development schedules, timelines and development status
+### ·Experienceinno SQLtechnologies(Mongo DB, Couch DB, Redis）is
+- Building distributedback-endsystems and/orweb-development using Java andrelated technologies
+- Teamplayer-workwell independently and in multi-group cross-discipline environments
+
+## TECHNICAL SKILLS
+
+Manages orutilizes software that isbuilt and implemented as a product, usingbest-in-class development process/lifecyclemanagement
+Drivesinnovation ofnewfeatures andperformanceimprovements
+implementationandpostdeploymentsupport
+Highlymotivatedandwillingtoworkina team environment
+Lead technical direction andmaketechnicaldecisionsfortheteam
+Goodworkingknowledgeof datamodeling, SQLand PL/SQL
+SENIORENGINEER, DATASCIENCE & ANALYTICS
+San Francisco, CA
+Understandskeybusinessdrivers and appliestheknowledge ofinternal/external businessissuesto improve productsand services
+·Participatesin thereviewof failures andprovidesfeedbacktoprevent future occurrences
+Solvescomplexproblems. Takes abroadperspective toidentifyinnovativesolutions
+Interpretsinternal/external businessissues andrecommendscompletesolutionsbased onbestpractices andproventechnologies
+Engineering, Computer Science
+SENIORDATAENGINEER, DATASCIENCE
+Houston, TX
+Define and implement best practices and development processes
+·Be akeypartner to data scientists on solving technical challenges
+Partnerwithengineeringteams ondeploymentsof data sciencedriven solutions
+Be responsible forarchitecting, planning, anddelivery ofengineering components
+·Standardizeandbuild toolsforuseacross thedatascience team
+SKILLS
+Flexible, adaptable, and able toautonomouslymanagemultiple tasksina dynamic, fast-paced environment
+Strongtrackrecordofexcellence, andofdeliveringhighqualityinnovativesoftware!
+·Strong skillsforverbal & written communication targetingtechnical andnon-technical audiences
+Self-motivated, passionate for technology, and strongdriverforresults and continual improvement
+·Strongunderstanding & usage of algorithms and data structuresinyour designs
+·Expertisein SQL technologiesand RDBMS(Oracle, My SQL)
+·Exposure to"big data"analysis and prediction modeling
+
+## ACADEMIC PROJECTS
+
+·Ensures thatprojects areproperly acceptedintotheengineeringteam, workedonin atimelyand efficient manner and smoothly transitionedinto Quality Assurance and Operations teams
+- Consistent exercise of independent judgment anddiscretion inmatters ofsignificance
+- Design and implement systemsfor large-scale data analysis andmachinelearning
+- ·Participate in trainingand mentoringof data engineers
+
+## EDUCATION COLUMBIAUNIVERSITY
+
+Bachelor's Degree in Computer Science
