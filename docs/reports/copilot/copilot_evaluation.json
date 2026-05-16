@@ -1,0 +1,384 @@
+{
+  "generated_at_utc": "2026-05-16T23:00:57.900889+00:00",
+  "architecture_evaluated": "FastAPI / LangChain Tools / LangGraph Recruiter Copilot",
+  "total_scenarios": 8,
+  "passed_scenarios": 8,
+  "failed_scenarios": 0,
+  "average_score": 1.0,
+  "hallucination_warnings": [],
+  "main_limitations": [
+    "Pas de mémoire longue conversationnelle.",
+    "Pas de planner LLM : le routage est déterministe.",
+    "La qualité dépend des artefacts exposés par les tools FastAPI.",
+    "La partie ML reste expérimentale car entraînée sur pseudo-labels métier contrôlés."
+  ],
+  "results": [
+    {
+      "id": "scenario_01_backend_search",
+      "message": "Je cherche un développeur backend Python FastAPI MongoDB",
+      "intent": "search_candidates",
+      "expected_contains": [
+        "Backend Developer",
+        "Matching V3",
+        "candidats"
+      ],
+      "scenario_score": 1.0,
+      "criteria": {
+        "has_answer": true,
+        "has_candidates": true,
+        "has_sources": true,
+        "has_warnings_field": true,
+        "contains_expected_terms": {
+          "matched": [
+            "Backend Developer",
+            "Matching V3",
+            "candidats"
+          ],
+          "missing": [],
+          "count": 3,
+          "total": 3,
+          "ratio": 1.0
+        },
+        "no_fake_candidate_ids": true,
+        "no_empty_crash": true,
+        "uses_baseline_reference": true,
+        "uses_transferability_when_relevant": true
+      },
+      "error": null,
+      "answer_excerpt": "J'ai analyse la demande recruteur: Je cherche un développeur backend Python FastAPI MongoDB\nRole cible estime: Backend Developer.\nMatching V3 reste la baseline officielle de scoring.\n\nTop candidats recommandes:\n1. `candidate_b6f7add66ffc` - rang V3 1; score V3 0.7754; score RF 0.9950; score XGBoost 0.9826; statut review_needed; transferabilite 0.2000; gaps bloquants: SQL, Git\n2. `candidate_9b0508063f03` - rang V3 2; score V3 0.7682; score RF 1.0000; score XGBoost 0.9826; statut agreement_high; transferabilite 0.3000\n3. `candidate_1487f3187f7b` - rang V3 3; score V3 0.7183; score RF 1.0000; score XGBoost 0.9718; statut agreement_high; transferabilite 0.5333; gaps bloquants: SQL\n4. `candidate_8eea1b635447` - rang V3 4; score V3 0.6688; score RF 1.0000; score XGBoost 0.9676; statut agreement_",
+      "candidate_ids": [
+        "candidate_b6f7add66ffc",
+        "candidate_9b0508063f03",
+        "candidate_1487f3187f7b",
+        "candidate_8eea1b635447",
+        "candidate_56424ea73690"
+      ],
+      "sources": [
+        "user_message",
+        "match_candidates",
+        "get_decision_card",
+        "get_transferability"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "scenario_02_data_engineer_search",
+      "message": "Trouve-moi un profil Data Engineer Python SQL",
+      "intent": "search_candidates",
+      "expected_contains": [
+        "Data Engineer",
+        "candidats"
+      ],
+      "scenario_score": 1.0,
+      "criteria": {
+        "has_answer": true,
+        "has_candidates": true,
+        "has_sources": true,
+        "has_warnings_field": true,
+        "contains_expected_terms": {
+          "matched": [
+            "Data Engineer",
+            "candidats"
+          ],
+          "missing": [],
+          "count": 2,
+          "total": 2,
+          "ratio": 1.0
+        },
+        "no_fake_candidate_ids": true,
+        "no_empty_crash": true,
+        "uses_baseline_reference": true,
+        "uses_transferability_when_relevant": true
+      },
+      "error": null,
+      "answer_excerpt": "J'ai analyse la demande recruteur: Trouve-moi un profil Data Engineer Python SQL\nRole cible estime: Data Engineer.\nMatching V3 reste la baseline officielle de scoring.\n\nTop candidats recommandes:\n1. `candidate_b6f7add66ffc` - rang V3 1; score V3 0.7754; score RF 0.9950; score XGBoost 0.9826; statut review_needed; transferabilite 0.2000; gaps bloquants: SQL, Git\n2. `candidate_9b0508063f03` - rang V3 2; score V3 0.7682; score RF 1.0000; score XGBoost 0.9826; statut agreement_high; transferabilite 0.3000\n3. `candidate_1487f3187f7b` - rang V3 3; score V3 0.7183; score RF 1.0000; score XGBoost 0.9718; statut agreement_high; transferabilite 0.5333; gaps bloquants: SQL\n4. `candidate_8eea1b635447` - rang V3 4; score V3 0.6688; score RF 1.0000; score XGBoost 0.9676; statut agreement_high; transfera",
+      "candidate_ids": [
+        "candidate_b6f7add66ffc",
+        "candidate_9b0508063f03",
+        "candidate_1487f3187f7b",
+        "candidate_8eea1b635447",
+        "candidate_56424ea73690"
+      ],
+      "sources": [
+        "user_message",
+        "match_candidates",
+        "get_decision_card",
+        "get_transferability"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "scenario_03_review_needed",
+      "message": "Quels candidats sont à vérifier ?",
+      "intent": "review_needed",
+      "expected_contains": [
+        "review_needed",
+        "vérifier"
+      ],
+      "scenario_score": 1.0,
+      "criteria": {
+        "has_answer": true,
+        "has_candidates": true,
+        "has_sources": true,
+        "has_warnings_field": true,
+        "contains_expected_terms": {
+          "matched": [
+            "review_needed",
+            "vérifier"
+          ],
+          "missing": [],
+          "count": 2,
+          "total": 2,
+          "ratio": 1.0
+        },
+        "no_fake_candidate_ids": true,
+        "no_empty_crash": true,
+        "uses_baseline_reference": true,
+        "uses_transferability_when_relevant": true
+      },
+      "error": null,
+      "answer_excerpt": "J'ai analyse la demande recruteur: Quels candidats sont à vérifier ?\nRole cible estime: Backend Developer.\nMatching V3 reste la baseline officielle de scoring.\n\nTop candidats recommandes:\n1. `candidate_b6f7add66ffc` - rang V3 1; score V3 0.7754; score RF 0.9950; score XGBoost 0.9826; statut review_needed; transferabilite 0.2000; gaps bloquants: SQL, Git\n2. `candidate_9b0508063f03` - rang V3 2; score V3 0.7682; score RF 1.0000; score XGBoost 0.9826; statut agreement_high; transferabilite 0.3000\n3. `candidate_1487f3187f7b` - rang V3 3; score V3 0.7183; score RF 1.0000; score XGBoost 0.9718; statut agreement_high; transferabilite 0.5333; gaps bloquants: SQL\n4. `candidate_8eea1b635447` - rang V3 4; score V3 0.6688; score RF 1.0000; score XGBoost 0.9676; statut agreement_high; transferabilite 0",
+      "candidate_ids": [
+        "candidate_b6f7add66ffc",
+        "candidate_9b0508063f03",
+        "candidate_1487f3187f7b",
+        "candidate_8eea1b635447",
+        "candidate_56424ea73690"
+      ],
+      "sources": [
+        "user_message",
+        "match_candidates",
+        "get_decision_card",
+        "get_transferability"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "scenario_04_explain_first_candidate",
+      "message": "Pourquoi le premier candidat est recommandé ?",
+      "intent": "explain_candidate",
+      "expected_contains": [
+        "score",
+        "Matching V3"
+      ],
+      "scenario_score": 1.0,
+      "criteria": {
+        "has_answer": true,
+        "has_candidates": true,
+        "has_sources": true,
+        "has_warnings_field": true,
+        "contains_expected_terms": {
+          "matched": [
+            "score",
+            "Matching V3"
+          ],
+          "missing": [],
+          "count": 2,
+          "total": 2,
+          "ratio": 1.0
+        },
+        "no_fake_candidate_ids": true,
+        "no_empty_crash": true,
+        "uses_baseline_reference": true,
+        "uses_transferability_when_relevant": true
+      },
+      "error": null,
+      "answer_excerpt": "J'ai analyse la demande recruteur: Pourquoi le premier candidat est recommandé ?\nRole cible estime: Backend Developer.\nMatching V3 reste la baseline officielle de scoring.\n\nTop candidats recommandes:\n1. `candidate_b6f7add66ffc` - rang V3 1; score V3 0.7754; score RF 0.9950; score XGBoost 0.9826; statut review_needed; transferabilite 0.2000; gaps bloquants: SQL, Git\n2. `candidate_9b0508063f03` - rang V3 2; score V3 0.7682; score RF 1.0000; score XGBoost 0.9826; statut agreement_high; transferabilite 0.3000\n3. `candidate_1487f3187f7b` - rang V3 3; score V3 0.7183; score RF 1.0000; score XGBoost 0.9718; statut agreement_high; transferabilite 0.5333; gaps bloquants: SQL\n4. `candidate_8eea1b635447` - rang V3 4; score V3 0.6688; score RF 1.0000; score XGBoost 0.9676; statut agreement_high; trans",
+      "candidate_ids": [
+        "candidate_b6f7add66ffc",
+        "candidate_9b0508063f03",
+        "candidate_1487f3187f7b",
+        "candidate_8eea1b635447",
+        "candidate_56424ea73690"
+      ],
+      "sources": [
+        "user_message",
+        "match_candidates",
+        "get_decision_card",
+        "get_transferability"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "scenario_05_best_candidate_gaps",
+      "message": "Quels sont les gaps du meilleur candidat ?",
+      "intent": "gap_analysis",
+      "expected_contains": [
+        "gaps"
+      ],
+      "scenario_score": 1.0,
+      "criteria": {
+        "has_answer": true,
+        "has_candidates": true,
+        "has_sources": true,
+        "has_warnings_field": true,
+        "contains_expected_terms": {
+          "matched": [
+            "gaps"
+          ],
+          "missing": [],
+          "count": 1,
+          "total": 1,
+          "ratio": 1.0
+        },
+        "no_fake_candidate_ids": true,
+        "no_empty_crash": true,
+        "uses_baseline_reference": true,
+        "uses_transferability_when_relevant": true
+      },
+      "error": null,
+      "answer_excerpt": "J'ai analyse la demande recruteur: Quels sont les gaps du meilleur candidat ?\nRole cible estime: Backend Developer.\nMatching V3 reste la baseline officielle de scoring.\n\nTop candidats recommandes:\n1. `candidate_b6f7add66ffc` - rang V3 1; score V3 0.7754; score RF 0.9950; score XGBoost 0.9826; statut review_needed; transferabilite 0.2000; gaps bloquants: SQL, Git\n2. `candidate_9b0508063f03` - rang V3 2; score V3 0.7682; score RF 1.0000; score XGBoost 0.9826; statut agreement_high; transferabilite 0.3000\n3. `candidate_1487f3187f7b` - rang V3 3; score V3 0.7183; score RF 1.0000; score XGBoost 0.9718; statut agreement_high; transferabilite 0.5333; gaps bloquants: SQL\n4. `candidate_8eea1b635447` - rang V3 4; score V3 0.6688; score RF 1.0000; score XGBoost 0.9676; statut agreement_high; transfer",
+      "candidate_ids": [
+        "candidate_b6f7add66ffc",
+        "candidate_9b0508063f03",
+        "candidate_1487f3187f7b",
+        "candidate_8eea1b635447",
+        "candidate_56424ea73690"
+      ],
+      "sources": [
+        "user_message",
+        "match_candidates",
+        "get_decision_card",
+        "get_transferability"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "scenario_06_backend_transferability",
+      "message": "Est-ce que le meilleur candidat peut évoluer vers Backend Developer ?",
+      "intent": "transferability",
+      "expected_contains": [
+        "transférabilité",
+        "gaps"
+      ],
+      "scenario_score": 1.0,
+      "criteria": {
+        "has_answer": true,
+        "has_candidates": true,
+        "has_sources": true,
+        "has_warnings_field": true,
+        "contains_expected_terms": {
+          "matched": [
+            "transférabilité",
+            "gaps"
+          ],
+          "missing": [],
+          "count": 2,
+          "total": 2,
+          "ratio": 1.0
+        },
+        "no_fake_candidate_ids": true,
+        "no_empty_crash": true,
+        "uses_baseline_reference": true,
+        "uses_transferability_when_relevant": true
+      },
+      "error": null,
+      "answer_excerpt": "J'ai analyse la demande recruteur: Est-ce que le meilleur candidat peut évoluer vers Backend Developer ?\nRole cible estime: Backend Developer.\nMatching V3 reste la baseline officielle de scoring.\n\nTop candidats recommandes:\n1. `candidate_b6f7add66ffc` - rang V3 1; score V3 0.7754; score RF 0.9950; score XGBoost 0.9826; statut review_needed; transferabilite 0.2000; gaps bloquants: SQL, Git\n2. `candidate_9b0508063f03` - rang V3 2; score V3 0.7682; score RF 1.0000; score XGBoost 0.9826; statut agreement_high; transferabilite 0.3000\n3. `candidate_1487f3187f7b` - rang V3 3; score V3 0.7183; score RF 1.0000; score XGBoost 0.9718; statut agreement_high; transferabilite 0.5333; gaps bloquants: SQL\n4. `candidate_8eea1b635447` - rang V3 4; score V3 0.6688; score RF 1.0000; score XGBoost 0.9676; stat",
+      "candidate_ids": [
+        "candidate_b6f7add66ffc",
+        "candidate_9b0508063f03",
+        "candidate_1487f3187f7b",
+        "candidate_8eea1b635447",
+        "candidate_56424ea73690"
+      ],
+      "sources": [
+        "user_message",
+        "match_candidates",
+        "get_decision_card",
+        "get_transferability"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "scenario_07_compare_first_two",
+      "message": "Compare les deux premiers candidats",
+      "intent": "compare_candidates",
+      "expected_contains": [
+        "candidat"
+      ],
+      "scenario_score": 1.0,
+      "criteria": {
+        "has_answer": true,
+        "has_candidates": true,
+        "has_sources": true,
+        "has_warnings_field": true,
+        "contains_expected_terms": {
+          "matched": [
+            "candidat"
+          ],
+          "missing": [],
+          "count": 1,
+          "total": 1,
+          "ratio": 1.0
+        },
+        "no_fake_candidate_ids": true,
+        "no_empty_crash": true,
+        "uses_baseline_reference": true,
+        "uses_transferability_when_relevant": true
+      },
+      "error": null,
+      "answer_excerpt": "J'ai analyse la demande recruteur: Compare les deux premiers candidats\nRole cible estime: Backend Developer.\nMatching V3 reste la baseline officielle de scoring.\n\nTop candidats recommandes:\n1. `candidate_b6f7add66ffc` - rang V3 1; score V3 0.7754; score RF 0.9950; score XGBoost 0.9826; statut review_needed; transferabilite 0.2000; gaps bloquants: SQL, Git\n2. `candidate_9b0508063f03` - rang V3 2; score V3 0.7682; score RF 1.0000; score XGBoost 0.9826; statut agreement_high; transferabilite 0.3000\n3. `candidate_1487f3187f7b` - rang V3 3; score V3 0.7183; score RF 1.0000; score XGBoost 0.9718; statut agreement_high; transferabilite 0.5333; gaps bloquants: SQL\n4. `candidate_8eea1b635447` - rang V3 4; score V3 0.6688; score RF 1.0000; score XGBoost 0.9676; statut agreement_high; transferabilite",
+      "candidate_ids": [
+        "candidate_b6f7add66ffc",
+        "candidate_9b0508063f03",
+        "candidate_1487f3187f7b",
+        "candidate_8eea1b635447",
+        "candidate_56424ea73690"
+      ],
+      "sources": [
+        "user_message",
+        "match_candidates",
+        "get_decision_card",
+        "get_transferability"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "scenario_08_risk_or_disagreement",
+      "message": "Donne-moi les candidats avec risque ou désaccord",
+      "intent": "risk_review",
+      "expected_contains": [
+        "review_needed",
+        "gaps"
+      ],
+      "scenario_score": 1.0,
+      "criteria": {
+        "has_answer": true,
+        "has_candidates": true,
+        "has_sources": true,
+        "has_warnings_field": true,
+        "contains_expected_terms": {
+          "matched": [
+            "review_needed",
+            "gaps"
+          ],
+          "missing": [],
+          "count": 2,
+          "total": 2,
+          "ratio": 1.0
+        },
+        "no_fake_candidate_ids": true,
+        "no_empty_crash": true,
+        "uses_baseline_reference": true,
+        "uses_transferability_when_relevant": true
+      },
+      "error": null,
+      "answer_excerpt": "J'ai analyse la demande recruteur: Donne-moi les candidats avec risque ou désaccord\nRole cible estime: Backend Developer.\nMatching V3 reste la baseline officielle de scoring.\n\nTop candidats recommandes:\n1. `candidate_b6f7add66ffc` - rang V3 1; score V3 0.7754; score RF 0.9950; score XGBoost 0.9826; statut review_needed; transferabilite 0.2000; gaps bloquants: SQL, Git\n2. `candidate_9b0508063f03` - rang V3 2; score V3 0.7682; score RF 1.0000; score XGBoost 0.9826; statut agreement_high; transferabilite 0.3000\n3. `candidate_1487f3187f7b` - rang V3 3; score V3 0.7183; score RF 1.0000; score XGBoost 0.9718; statut agreement_high; transferabilite 0.5333; gaps bloquants: SQL\n4. `candidate_8eea1b635447` - rang V3 4; score V3 0.6688; score RF 1.0000; score XGBoost 0.9676; statut agreement_high; tr",
+      "candidate_ids": [
+        "candidate_b6f7add66ffc",
+        "candidate_9b0508063f03",
+        "candidate_1487f3187f7b",
+        "candidate_8eea1b635447",
+        "candidate_56424ea73690"
+      ],
+      "sources": [
+        "user_message",
+        "match_candidates",
+        "get_decision_card",
+        "get_transferability"
+      ],
+      "warnings": []
+    }
+  ],
+  "conclusion": "Le Copilot est fonctionnel pour une démonstration contrôlée : il peut répondre à des demandes recruteur, récupérer les candidats via les tools, afficher les scores et expliquer les gaps. Les réponses restent basées sur les artefacts du pipeline. Les limites principales sont l'absence de mémoire longue, l'absence de validation recruteur réelle et la dépendance aux pseudo-labels pour la partie ML."
+}

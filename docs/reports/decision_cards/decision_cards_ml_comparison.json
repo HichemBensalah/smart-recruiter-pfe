@@ -1,0 +1,2681 @@
+{
+  "created_at": "2026-05-16T13:06:51.596300+00:00",
+  "job_id": "backend_python_django_postgresql",
+  "card_type": "ml_comparison",
+  "methodological_note": "Matching V3 reste la baseline officielle. Random Forest est le meilleur modèle ML actuel selon les métriques observées. XGBoost est conservé pour SHAP et l’analyse avancée. Les scores ML sont issus de modèles entraînés sur pseudo-labels métier contrôlés.",
+  "candidate_count": 50,
+  "official_cards_matched_count": 9,
+  "candidates": [
+    {
+      "candidate_id": "candidate_b6f7add66ffc",
+      "profile_id": "profile_69902fee2fa3",
+      "baseline_score_v3": 0.7754,
+      "baseline_rank_v3": 1,
+      "rf_score": 0.995,
+      "rf_rank": 5,
+      "xgboost_score": 0.9825757741928101,
+      "xgboost_rank": 1,
+      "rank_shift_v3_vs_rf": -4,
+      "rank_shift_v3_vs_xgb": 0,
+      "rank_shift_rf_vs_xgb": 4,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4296,
+        "final_score_v3": 0.7754,
+        "must_have_coverage": 0.8,
+        "required_skills_overlap": 0.8,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.9368,
+        "reliability_score": 0.9368,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 1.0,
+        "matched_required_count": 4.0
+      }
+    },
+    {
+      "candidate_id": "candidate_9b0508063f03",
+      "profile_id": "profile_0e8d85e344a7",
+      "baseline_score_v3": 0.7682,
+      "baseline_rank_v3": 2,
+      "rf_score": 1.0,
+      "rf_rank": 1,
+      "xgboost_score": 0.9825757741928101,
+      "xgboost_rank": 2,
+      "rank_shift_v3_vs_rf": 1,
+      "rank_shift_v3_vs_xgb": 0,
+      "rank_shift_rf_vs_xgb": -1,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.399,
+        "final_score_v3": 0.7682,
+        "must_have_coverage": 0.8,
+        "required_skills_overlap": 0.8,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9408,
+        "reliability_score": 0.9408,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 1.0,
+        "matched_required_count": 4.0
+      }
+    },
+    {
+      "candidate_id": "candidate_1487f3187f7b",
+      "profile_id": "profile_bcffa3bb70fb",
+      "baseline_score_v3": 0.7183,
+      "baseline_rank_v3": 3,
+      "rf_score": 1.0,
+      "rf_rank": 2,
+      "xgboost_score": 0.9718322157859802,
+      "xgboost_rank": 4,
+      "rank_shift_v3_vs_rf": 1,
+      "rank_shift_v3_vs_xgb": -1,
+      "rank_shift_rf_vs_xgb": -2,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.624,
+        "final_score_v3": 0.7183,
+        "must_have_coverage": 0.8,
+        "required_skills_overlap": 0.8,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.7,
+        "profile_quality_score": 0.8377,
+        "reliability_score": 0.8377,
+        "hallucination_risk_encoded": 0.5,
+        "missing_required_count": 1.0,
+        "matched_required_count": 4.0
+      },
+      "official_decision_card": {
+        "rank": 1,
+        "candidate_name": "Hichem Bensalah",
+        "verdict": "Présélection recommandée",
+        "strengths": [
+          "Compétences alignées: Python, FastAPI, MongoDB, Docker",
+          "Bonne couverture des must-have",
+          "Explication de matching disponible dans le rapport"
+        ],
+        "weaknesses": [
+          "Compétences requises manquantes: REST API"
+        ],
+        "interview_focus": [
+          "Valider la compétence manquante: REST API",
+          "Demander un exemple concret d'API FastAPI en production",
+          "Valider la conception de schéma et les index MongoDB"
+        ]
+      }
+    },
+    {
+      "candidate_id": "candidate_8eea1b635447",
+      "profile_id": "profile_55f949a128da",
+      "baseline_score_v3": 0.6688,
+      "baseline_rank_v3": 4,
+      "rf_score": 1.0,
+      "rf_rank": 3,
+      "xgboost_score": 0.9676145911216736,
+      "xgboost_rank": 5,
+      "rank_shift_v3_vs_rf": 1,
+      "rank_shift_v3_vs_xgb": -1,
+      "rank_shift_rf_vs_xgb": -2,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.4548,
+        "final_score_v3": 0.6688,
+        "must_have_coverage": 0.8,
+        "required_skills_overlap": 0.8,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.7,
+        "profile_quality_score": 0.9742,
+        "reliability_score": 0.9742,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 1.0,
+        "matched_required_count": 4.0
+      },
+      "official_decision_card": {
+        "rank": 2,
+        "candidate_name": "Candidate (ID: candidate_8eea1b635447)",
+        "verdict": "Présélection recommandée",
+        "strengths": [
+          "Compétences alignées: Python, FastAPI, MongoDB, Docker",
+          "Bonne couverture des must-have",
+          "Explication de matching disponible dans le rapport"
+        ],
+        "weaknesses": [
+          "Compétences requises manquantes: REST API"
+        ],
+        "interview_focus": [
+          "Valider la compétence manquante: REST API",
+          "Demander un exemple concret d'API FastAPI en production",
+          "Valider la conception de schéma et les index MongoDB"
+        ]
+      }
+    },
+    {
+      "candidate_id": "candidate_56424ea73690",
+      "profile_id": "profile_e1e6c2c5e6ba",
+      "baseline_score_v3": 0.6084,
+      "baseline_rank_v3": 5,
+      "rf_score": 1.0,
+      "rf_rank": 4,
+      "xgboost_score": 0.9825757741928101,
+      "xgboost_rank": 3,
+      "rank_shift_v3_vs_rf": 1,
+      "rank_shift_v3_vs_xgb": 2,
+      "rank_shift_rf_vs_xgb": 1,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.4804,
+        "final_score_v3": 0.6084,
+        "must_have_coverage": 0.6,
+        "required_skills_overlap": 0.6,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9363,
+        "reliability_score": 0.9363,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 2.0,
+        "matched_required_count": 3.0
+      }
+    },
+    {
+      "candidate_id": "candidate_206d746034ef",
+      "profile_id": "profile_0e54d2a788d4",
+      "baseline_score_v3": 0.5382,
+      "baseline_rank_v3": 6,
+      "rf_score": 0.995,
+      "rf_rank": 6,
+      "xgboost_score": 0.920931875705719,
+      "xgboost_rank": 6,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 0,
+      "rank_shift_rf_vs_xgb": 0,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.3478,
+        "final_score_v3": 0.5382,
+        "must_have_coverage": 0.6,
+        "required_skills_overlap": 0.6,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 0.6667,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.9598,
+        "reliability_score": 0.9598,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 2.0,
+        "matched_required_count": 3.0
+      },
+      "official_decision_card": {
+        "rank": 3,
+        "candidate_name": "MOHAMED AZIZ BELAWEID",
+        "verdict": "À considérer avec vérification",
+        "strengths": [
+          "Compétences alignées: Python, FastAPI, Docker",
+          "Couverture partielle acceptable des must-have",
+          "Explication de matching disponible dans le rapport"
+        ],
+        "weaknesses": [
+          "Compétences requises manquantes: MongoDB, REST API",
+          "Quality flags: summary_not_enough_evidence"
+        ],
+        "interview_focus": [
+          "Valider la compétence manquante: MongoDB",
+          "Valider la compétence manquante: REST API",
+          "Demander un exemple concret d'API FastAPI en production"
+        ]
+      }
+    },
+    {
+      "candidate_id": "candidate_e1fda1d70be1",
+      "profile_id": "profile_6fef4a9c24f0",
+      "baseline_score_v3": 0.4349,
+      "baseline_rank_v3": 7,
+      "rf_score": 0.0,
+      "rf_rank": 7,
+      "xgboost_score": 0.004225806798785925,
+      "xgboost_rank": 24,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -17,
+      "rank_shift_rf_vs_xgb": -17,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.5635,
+        "final_score_v3": 0.4349,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9386,
+        "reliability_score": 0.9386,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      },
+      "official_decision_card": {
+        "rank": 9,
+        "candidate_name": "LEATRICEFRIESEN",
+        "verdict": "Non prioritaire — gaps importants",
+        "strengths": [
+          "Compétences alignées: Python",
+          "Explication de matching disponible dans le rapport"
+        ],
+        "weaknesses": [
+          "Compétences requises manquantes: FastAPI, MongoDB, Docker, REST API",
+          "Quality flags: missing_email, summary_not_enough_evidence"
+        ],
+        "interview_focus": [
+          "Valider la compétence manquante: FastAPI",
+          "Valider la compétence manquante: MongoDB",
+          "Valider la compétence manquante: Docker"
+        ]
+      }
+    },
+    {
+      "candidate_id": "candidate_073b7a3d39ba",
+      "profile_id": "profile_5c10a3b5e6c5",
+      "baseline_score_v3": 0.4297,
+      "baseline_rank_v3": 8,
+      "rf_score": 0.0,
+      "rf_rank": 8,
+      "xgboost_score": 0.0038405819796025753,
+      "xgboost_rank": 42,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -34,
+      "rank_shift_rf_vs_xgb": -34,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.5213,
+        "final_score_v3": 0.4297,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9581,
+        "reliability_score": 0.9581,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      },
+      "official_decision_card": {
+        "rank": 5,
+        "candidate_name": "Markus Rohan",
+        "verdict": "Non prioritaire — gaps importants",
+        "strengths": [
+          "Compétences alignées: Python, Docker",
+          "Explication de matching disponible dans le rapport"
+        ],
+        "weaknesses": [
+          "Compétences requises manquantes: FastAPI, MongoDB, REST API",
+          "Quality flags: missing_email, summary_not_enough_evidence"
+        ],
+        "interview_focus": [
+          "Valider la compétence manquante: FastAPI",
+          "Valider la compétence manquante: MongoDB",
+          "Valider la compétence manquante: REST API"
+        ]
+      }
+    },
+    {
+      "candidate_id": "candidate_4eef95d3a3fa",
+      "profile_id": "profile_070e372f3c0e",
+      "baseline_score_v3": 0.4284,
+      "baseline_rank_v3": 9,
+      "rf_score": 0.0,
+      "rf_rank": 9,
+      "xgboost_score": 0.003992265090346336,
+      "xgboost_rank": 38,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -29,
+      "rank_shift_rf_vs_xgb": -29,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.5068,
+        "final_score_v3": 0.4284,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9526,
+        "reliability_score": 0.9526,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      },
+      "official_decision_card": {
+        "rank": 10,
+        "candidate_name": "Justine Hendrickson",
+        "verdict": "Non prioritaire — gaps importants",
+        "strengths": [
+          "Compétences alignées: Python",
+          "Explication de matching disponible dans le rapport"
+        ],
+        "weaknesses": [
+          "Compétences requises manquantes: FastAPI, MongoDB, Docker, REST API",
+          "Quality flags: missing_full_name, summary_not_enough_evidence"
+        ],
+        "interview_focus": [
+          "Valider la compétence manquante: FastAPI",
+          "Valider la compétence manquante: MongoDB",
+          "Valider la compétence manquante: Docker"
+        ]
+      }
+    },
+    {
+      "candidate_id": "candidate_664415ab2fe1",
+      "profile_id": "profile_caab46c986ad",
+      "baseline_score_v3": 0.4256,
+      "baseline_rank_v3": 10,
+      "rf_score": 0.0,
+      "rf_rank": 10,
+      "xgboost_score": 0.0037168425042182207,
+      "xgboost_rank": 48,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -38,
+      "rank_shift_rf_vs_xgb": -38,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4999,
+        "final_score_v3": 0.4256,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9504,
+        "reliability_score": 0.9504,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_36923c8bf20e",
+      "profile_id": "profile_33b6d9cde135",
+      "baseline_score_v3": 0.4205,
+      "baseline_rank_v3": 11,
+      "rf_score": 0.0,
+      "rf_rank": 11,
+      "xgboost_score": 0.003774868091568351,
+      "xgboost_rank": 46,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -35,
+      "rank_shift_rf_vs_xgb": -35,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4674,
+        "final_score_v3": 0.4205,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9535,
+        "reliability_score": 0.9535,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_351493983fdf",
+      "profile_id": "profile_5f60eed7e725",
+      "baseline_score_v3": 0.4182,
+      "baseline_rank_v3": 12,
+      "rf_score": 0.0,
+      "rf_rank": 12,
+      "xgboost_score": 0.004030229989439249,
+      "xgboost_rank": 28,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -16,
+      "rank_shift_rf_vs_xgb": -16,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4506,
+        "final_score_v3": 0.4182,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9608,
+        "reliability_score": 0.9608,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_851fca236e70",
+      "profile_id": "profile_411bd2988925",
+      "baseline_score_v3": 0.4073,
+      "baseline_rank_v3": 13,
+      "rf_score": 0.0,
+      "rf_rank": 13,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 7,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 6,
+      "rank_shift_rf_vs_xgb": 6,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4503,
+        "final_score_v3": 0.4073,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.904,
+        "reliability_score": 0.904,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_b5ec7c5f3f96",
+      "profile_id": "profile_910be5a4bca0",
+      "baseline_score_v3": 0.4051,
+      "baseline_rank_v3": 14,
+      "rf_score": 0.0,
+      "rf_rank": 14,
+      "xgboost_score": 0.004189371597021818,
+      "xgboost_rank": 25,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -11,
+      "rank_shift_rf_vs_xgb": -11,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3589,
+        "final_score_v3": 0.4051,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.9502,
+        "reliability_score": 0.9502,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_9f5823fd4c74",
+      "profile_id": "profile_24d15cfb082f",
+      "baseline_score_v3": 0.4025,
+      "baseline_rank_v3": 15,
+      "rf_score": 0.0,
+      "rf_rank": 15,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 8,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 7,
+      "rank_shift_rf_vs_xgb": 7,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4447,
+        "final_score_v3": 0.4025,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.8793,
+        "reliability_score": 0.8793,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_c5201502b687",
+      "profile_id": "profile_ca00cec6e74f",
+      "baseline_score_v3": 0.4023,
+      "baseline_rank_v3": 16,
+      "rf_score": 0.0,
+      "rf_rank": 16,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 9,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 7,
+      "rank_shift_rf_vs_xgb": 7,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3871,
+        "final_score_v3": 0.4023,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9028,
+        "reliability_score": 0.9028,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_418b74b9d404",
+      "profile_id": "profile_de02d03ab54b",
+      "baseline_score_v3": 0.4023,
+      "baseline_rank_v3": 17,
+      "rf_score": 0.0,
+      "rf_rank": 17,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 10,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 7,
+      "rank_shift_rf_vs_xgb": 7,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4187,
+        "final_score_v3": 0.4023,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9066,
+        "reliability_score": 0.9066,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_d46244805ac2",
+      "profile_id": "profile_161c74739856",
+      "baseline_score_v3": 0.394,
+      "baseline_rank_v3": 18,
+      "rf_score": 0.0,
+      "rf_rank": 18,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 11,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 7,
+      "rank_shift_rf_vs_xgb": 7,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3613,
+        "final_score_v3": 0.394,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.8882,
+        "reliability_score": 0.8882,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_44fbbef0784a",
+      "profile_id": "profile_f6b29076ec50",
+      "baseline_score_v3": 0.3852,
+      "baseline_rank_v3": 19,
+      "rf_score": 0.0,
+      "rf_rank": 19,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 12,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 7,
+      "rank_shift_rf_vs_xgb": 7,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3663,
+        "final_score_v3": 0.3852,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.814,
+        "reliability_score": 0.814,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_f11f0567ec68",
+      "profile_id": "profile_2393c2cd03e2",
+      "baseline_score_v3": 0.368,
+      "baseline_rank_v3": 20,
+      "rf_score": 0.0,
+      "rf_rank": 20,
+      "xgboost_score": 0.004189371597021818,
+      "xgboost_rank": 26,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -6,
+      "rank_shift_rf_vs_xgb": -6,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.356,
+        "final_score_v3": 0.368,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 0.6667,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9515,
+        "reliability_score": 0.9515,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_d278d4045bcd",
+      "profile_id": "profile_1141478aeb71",
+      "baseline_score_v3": 0.3515,
+      "baseline_rank_v3": 21,
+      "rf_score": 0.0,
+      "rf_rank": 21,
+      "xgboost_score": 0.004189371597021818,
+      "xgboost_rank": 27,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -6,
+      "rank_shift_rf_vs_xgb": -6,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.2701,
+        "final_score_v3": 0.3515,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 0.6667,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9436,
+        "reliability_score": 0.9436,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_80663f3bbd49",
+      "profile_id": "profile_eb7cead5f8b2",
+      "baseline_score_v3": 0.3404,
+      "baseline_rank_v3": 22,
+      "rf_score": 0.0,
+      "rf_rank": 22,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 13,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 9,
+      "rank_shift_rf_vs_xgb": 9,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4311,
+        "final_score_v3": 0.3404,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.866,
+        "reliability_score": 0.866,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_7eb2ad2aeb2f",
+      "profile_id": "profile_0954d86135d2",
+      "baseline_score_v3": 0.34,
+      "baseline_rank_v3": 23,
+      "rf_score": 0.0,
+      "rf_rank": 23,
+      "xgboost_score": 0.0038408341351896524,
+      "xgboost_rank": 39,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -16,
+      "rank_shift_rf_vs_xgb": -16,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4635,
+        "final_score_v3": 0.34,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.8155,
+        "reliability_score": 0.8155,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_f8961f5ffb20",
+      "profile_id": "profile_83b789e1466d",
+      "baseline_score_v3": 0.339,
+      "baseline_rank_v3": 24,
+      "rf_score": 0.0,
+      "rf_rank": 24,
+      "xgboost_score": 0.004030229989439249,
+      "xgboost_rank": 29,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -5,
+      "rank_shift_rf_vs_xgb": -5,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3929,
+        "final_score_v3": 0.339,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 0.3333,
+        "seniority_alignment": 0.7,
+        "profile_quality_score": 0.971,
+        "reliability_score": 0.971,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_8c87c4fde8c1",
+      "profile_id": "profile_ad586b8f3ff6",
+      "baseline_score_v3": 0.3326,
+      "baseline_rank_v3": 25,
+      "rf_score": 0.0,
+      "rf_rank": 25,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 14,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 11,
+      "rank_shift_rf_vs_xgb": 11,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3537,
+        "final_score_v3": 0.3326,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.888,
+        "reliability_score": 0.888,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_7fcd1b7a9f35",
+      "profile_id": "profile_07483af10e34",
+      "baseline_score_v3": 0.3059,
+      "baseline_rank_v3": 26,
+      "rf_score": 0.0,
+      "rf_rank": 26,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 15,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 11,
+      "rank_shift_rf_vs_xgb": 11,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3797,
+        "final_score_v3": 0.3059,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 0.6667,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.9002,
+        "reliability_score": 0.9002,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_66466a398907",
+      "profile_id": "profile_684a4c008351",
+      "baseline_score_v3": 0.278,
+      "baseline_rank_v3": 27,
+      "rf_score": 0.0,
+      "rf_rank": 27,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 16,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 11,
+      "rank_shift_rf_vs_xgb": 11,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3628,
+        "final_score_v3": 0.278,
+        "must_have_coverage": 0.4,
+        "required_skills_overlap": 0.4,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 0.3333,
+        "seniority_alignment": 0.7,
+        "profile_quality_score": 0.9416,
+        "reliability_score": 0.9416,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 3.0,
+        "matched_required_count": 2.0
+      }
+    },
+    {
+      "candidate_id": "candidate_1df043636ea4",
+      "profile_id": "profile_133336b99224",
+      "baseline_score_v3": 0.2748,
+      "baseline_rank_v3": 28,
+      "rf_score": 0.0,
+      "rf_rank": 28,
+      "xgboost_score": 0.0036993129178881645,
+      "xgboost_rank": 49,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -21,
+      "rank_shift_rf_vs_xgb": -21,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.5988,
+        "final_score_v3": 0.2748,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9405,
+        "reliability_score": 0.9405,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      },
+      "official_decision_card": {
+        "rank": 4,
+        "candidate_name": "JEFFERYGORCZANY",
+        "verdict": "Non prioritaire — gaps importants",
+        "strengths": [
+          "Compétences alignées: Python, Docker",
+          "Explication de matching disponible dans le rapport"
+        ],
+        "weaknesses": [
+          "Compétences requises manquantes: FastAPI, MongoDB, REST API",
+          "Quality flags: missing_email, missing_full_name, summary_not_enough_evidence"
+        ],
+        "interview_focus": [
+          "Valider la compétence manquante: FastAPI",
+          "Valider la compétence manquante: MongoDB",
+          "Valider la compétence manquante: REST API"
+        ]
+      }
+    },
+    {
+      "candidate_id": "candidate_d813a4aedd03",
+      "profile_id": "profile_98d4b26839c0",
+      "baseline_score_v3": 0.2651,
+      "baseline_rank_v3": 29,
+      "rf_score": 0.0,
+      "rf_rank": 29,
+      "xgboost_score": 0.0037817982956767082,
+      "xgboost_rank": 43,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -14,
+      "rank_shift_rf_vs_xgb": -14,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.5057,
+        "final_score_v3": 0.2651,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9413,
+        "reliability_score": 0.9413,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_ef0e8855357d",
+      "profile_id": "profile_5875fc0269e1",
+      "baseline_score_v3": 0.2602,
+      "baseline_rank_v3": 30,
+      "rf_score": 0.0,
+      "rf_rank": 30,
+      "xgboost_score": 0.004030229989439249,
+      "xgboost_rank": 30,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 0,
+      "rank_shift_rf_vs_xgb": 0,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.4521,
+        "final_score_v3": 0.2602,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9606,
+        "reliability_score": 0.9606,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_c209d5b426bb",
+      "profile_id": "profile_26253865c9fa",
+      "baseline_score_v3": 0.2592,
+      "baseline_rank_v3": 31,
+      "rf_score": 0.0,
+      "rf_rank": 31,
+      "xgboost_score": 0.004030229989439249,
+      "xgboost_rank": 31,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 0,
+      "rank_shift_rf_vs_xgb": 0,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.4541,
+        "final_score_v3": 0.2592,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9575,
+        "reliability_score": 0.9575,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_f74acce78f96",
+      "profile_id": "profile_673e7db3cd79",
+      "baseline_score_v3": 0.2578,
+      "baseline_rank_v3": 32,
+      "rf_score": 0.0,
+      "rf_rank": 32,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 17,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 15,
+      "rank_shift_rf_vs_xgb": 15,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4548,
+        "final_score_v3": 0.2578,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9358,
+        "reliability_score": 0.9358,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_62c223971113",
+      "profile_id": "profile_0ee5a8ec70c7",
+      "baseline_score_v3": 0.2578,
+      "baseline_rank_v3": 33,
+      "rf_score": 0.0,
+      "rf_rank": 33,
+      "xgboost_score": 0.0038408341351896524,
+      "xgboost_rank": 40,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -7,
+      "rank_shift_rf_vs_xgb": -7,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4617,
+        "final_score_v3": 0.2578,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.9041,
+        "reliability_score": 0.9041,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_c079eeaa1417",
+      "profile_id": "profile_bca836a989dc",
+      "baseline_score_v3": 0.2565,
+      "baseline_rank_v3": 34,
+      "rf_score": 0.0,
+      "rf_rank": 34,
+      "xgboost_score": 0.004030229989439249,
+      "xgboost_rank": 32,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 2,
+      "rank_shift_rf_vs_xgb": 2,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.4097,
+        "final_score_v3": 0.2565,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9636,
+        "reliability_score": 0.9636,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_a3c2a6c7cdc8",
+      "profile_id": "profile_e558bf1890f2",
+      "baseline_score_v3": 0.2559,
+      "baseline_rank_v3": 35,
+      "rf_score": 0.0,
+      "rf_rank": 35,
+      "xgboost_score": 0.004030229989439249,
+      "xgboost_rank": 33,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 2,
+      "rank_shift_rf_vs_xgb": 2,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.4,
+        "final_score_v3": 0.2559,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.989,
+        "reliability_score": 0.989,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_789ce8311eb4",
+      "profile_id": "profile_c356fa0d92f8",
+      "baseline_score_v3": 0.251,
+      "baseline_rank_v3": 36,
+      "rf_score": 0.0,
+      "rf_rank": 36,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 18,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 18,
+      "rank_shift_rf_vs_xgb": 18,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3754,
+        "final_score_v3": 0.251,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9375,
+        "reliability_score": 0.9375,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_dbaac42a9ede",
+      "profile_id": "profile_4338a139faef",
+      "baseline_score_v3": 0.2492,
+      "baseline_rank_v3": 37,
+      "rf_score": 0.0,
+      "rf_rank": 37,
+      "xgboost_score": 0.004030229989439249,
+      "xgboost_rank": 34,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 3,
+      "rank_shift_rf_vs_xgb": 3,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.3589,
+        "final_score_v3": 0.2492,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.957,
+        "reliability_score": 0.957,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_e8755c28e52c",
+      "profile_id": "profile_e34017515943",
+      "baseline_score_v3": 0.2476,
+      "baseline_rank_v3": 38,
+      "rf_score": 0.0,
+      "rf_rank": 38,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 19,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 19,
+      "rank_shift_rf_vs_xgb": 19,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3773,
+        "final_score_v3": 0.2476,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.8961,
+        "reliability_score": 0.8961,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_c332df515b4f",
+      "profile_id": "profile_2a7c656d5f08",
+      "baseline_score_v3": 0.2439,
+      "baseline_rank_v3": 39,
+      "rf_score": 0.0,
+      "rf_rank": 39,
+      "xgboost_score": 0.004030229989439249,
+      "xgboost_rank": 35,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 4,
+      "rank_shift_rf_vs_xgb": 4,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3029,
+        "final_score_v3": 0.2439,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9567,
+        "reliability_score": 0.9567,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_7e5aa7ad70d7",
+      "profile_id": "profile_26260f5d3ba3",
+      "baseline_score_v3": 0.2433,
+      "baseline_rank_v3": 40,
+      "rf_score": 0.0,
+      "rf_rank": 40,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 20,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 20,
+      "rank_shift_rf_vs_xgb": 20,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3649,
+        "final_score_v3": 0.2433,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.8834,
+        "reliability_score": 0.8834,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_0baa8a23f54d",
+      "profile_id": "profile_4e1af5d300b1",
+      "baseline_score_v3": 0.2369,
+      "baseline_rank_v3": 41,
+      "rf_score": 0.0,
+      "rf_rank": 41,
+      "xgboost_score": 0.004030229989439249,
+      "xgboost_rank": 36,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 5,
+      "rank_shift_rf_vs_xgb": 5,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.2388,
+        "final_score_v3": 0.2369,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.0,
+        "profile_quality_score": 0.9631,
+        "reliability_score": 0.9631,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_7a599a8c3c9d",
+      "profile_id": "profile_41cbd954239d",
+      "baseline_score_v3": 0.2343,
+      "baseline_rank_v3": 42,
+      "rf_score": 0.0,
+      "rf_rank": 42,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 21,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 21,
+      "rank_shift_rf_vs_xgb": 21,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3022,
+        "final_score_v3": 0.2343,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.8858,
+        "reliability_score": 0.8858,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_ba88f0c968f6",
+      "profile_id": "profile_0230733a0bc9",
+      "baseline_score_v3": 0.2327,
+      "baseline_rank_v3": 43,
+      "rf_score": 0.0,
+      "rf_rank": 43,
+      "xgboost_score": 0.003575586713850498,
+      "xgboost_rank": 50,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -7,
+      "rank_shift_rf_vs_xgb": -7,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4904,
+        "final_score_v3": 0.2327,
+        "must_have_coverage": 0.0,
+        "required_skills_overlap": 0.0,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9567,
+        "reliability_score": 0.9567,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 5.0,
+        "matched_required_count": 0.0
+      }
+    },
+    {
+      "candidate_id": "candidate_7a19fd397cfc",
+      "profile_id": "profile_546d1a12e380",
+      "baseline_score_v3": 0.2318,
+      "baseline_rank_v3": 44,
+      "rf_score": 0.0,
+      "rf_rank": 44,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 22,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 22,
+      "rank_shift_rf_vs_xgb": 22,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3594,
+        "final_score_v3": 0.2318,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.7752,
+        "reliability_score": 0.7752,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      }
+    },
+    {
+      "candidate_id": "candidate_e44d5f7ba23a",
+      "profile_id": "profile_efc28b8778c4",
+      "baseline_score_v3": 0.2299,
+      "baseline_rank_v3": 45,
+      "rf_score": 0.0,
+      "rf_rank": 45,
+      "xgboost_score": 0.003774868091568351,
+      "xgboost_rank": 47,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": -2,
+      "rank_shift_rf_vs_xgb": -2,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.472,
+        "final_score_v3": 0.2299,
+        "must_have_coverage": 0.0,
+        "required_skills_overlap": 0.0,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9461,
+        "reliability_score": 0.9461,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 5.0,
+        "matched_required_count": 0.0
+      }
+    },
+    {
+      "candidate_id": "candidate_edb8a0ea0a8e",
+      "profile_id": "profile_b4d2dba92bb8",
+      "baseline_score_v3": 0.2282,
+      "baseline_rank_v3": 46,
+      "rf_score": 0.0,
+      "rf_rank": 46,
+      "xgboost_score": 0.0038408341351896524,
+      "xgboost_rank": 41,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 5,
+      "rank_shift_rf_vs_xgb": 5,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.4743,
+        "final_score_v3": 0.2282,
+        "must_have_coverage": 0.0,
+        "required_skills_overlap": 0.0,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.9149,
+        "reliability_score": 0.9149,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 5.0,
+        "matched_required_count": 0.0
+      }
+    },
+    {
+      "candidate_id": "candidate_c564b8eceb3d",
+      "profile_id": "profile_41aac6a912f1",
+      "baseline_score_v3": 0.2235,
+      "baseline_rank_v3": 47,
+      "rf_score": 0.0,
+      "rf_rank": 47,
+      "xgboost_score": 0.0037817982956767082,
+      "xgboost_rank": 44,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 3,
+      "rank_shift_rf_vs_xgb": 3,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "agreement_high",
+      "features": {
+        "vector_similarity": 0.5095,
+        "final_score_v3": 0.2235,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.9178,
+        "reliability_score": 0.9178,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      },
+      "official_decision_card": {
+        "rank": 7,
+        "candidate_name": "Candidate (ID: candidate_c564b8eceb3d)",
+        "verdict": "Non prioritaire — gaps importants",
+        "strengths": [
+          "Compétences alignées: Python, MongoDB",
+          "Explication de matching disponible dans le rapport"
+        ],
+        "weaknesses": [
+          "Compétences requises manquantes: FastAPI, Docker, REST API",
+          "Quality flags: missing_education_section, missing_email"
+        ],
+        "interview_focus": [
+          "Valider la compétence manquante: FastAPI",
+          "Valider la compétence manquante: Docker",
+          "Valider la compétence manquante: REST API"
+        ]
+      }
+    },
+    {
+      "candidate_id": "candidate_ecc1fcef13a6",
+      "profile_id": "profile_db6e48140b2f",
+      "baseline_score_v3": 0.2231,
+      "baseline_rank_v3": 48,
+      "rf_score": 0.0,
+      "rf_rank": 48,
+      "xgboost_score": 0.004262549336999655,
+      "xgboost_rank": 23,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 25,
+      "rank_shift_rf_vs_xgb": 25,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3968,
+        "final_score_v3": 0.2231,
+        "must_have_coverage": 0.0,
+        "required_skills_overlap": 0.0,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.9419,
+        "reliability_score": 0.9419,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 5.0,
+        "matched_required_count": 0.0
+      }
+    },
+    {
+      "candidate_id": "candidate_71e03ea99985",
+      "profile_id": "profile_4e6ce456eccc",
+      "baseline_score_v3": 0.2231,
+      "baseline_rank_v3": 49,
+      "rf_score": 0.0,
+      "rf_rank": 49,
+      "xgboost_score": 0.0037817982956767082,
+      "xgboost_rank": 45,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 4,
+      "rank_shift_rf_vs_xgb": 4,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.508,
+        "final_score_v3": 0.2231,
+        "must_have_coverage": 0.2,
+        "required_skills_overlap": 0.2,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 1.0,
+        "profile_quality_score": 0.9107,
+        "reliability_score": 0.9107,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 4.0,
+        "matched_required_count": 1.0
+      },
+      "official_decision_card": {
+        "rank": 6,
+        "candidate_name": "Candidate (ID: candidate_71e03ea99985)",
+        "verdict": "Non prioritaire — gaps importants",
+        "strengths": [
+          "Compétences alignées: Python, MongoDB",
+          "Explication de matching disponible dans le rapport"
+        ],
+        "weaknesses": [
+          "Compétences requises manquantes: FastAPI, Docker, REST API",
+          "Quality flags: missing_education_section, missing_email, summary_not_enough_evidence"
+        ],
+        "interview_focus": [
+          "Valider la compétence manquante: FastAPI",
+          "Valider la compétence manquante: Docker",
+          "Valider la compétence manquante: REST API"
+        ]
+      }
+    },
+    {
+      "candidate_id": "candidate_e7454f1e925e",
+      "profile_id": "profile_44d89aa787f5",
+      "baseline_score_v3": 0.2222,
+      "baseline_rank_v3": 50,
+      "rf_score": 0.0,
+      "rf_rank": 50,
+      "xgboost_score": 0.004030229989439249,
+      "xgboost_rank": 37,
+      "rank_shift_v3_vs_rf": 0,
+      "rank_shift_v3_vs_xgb": 13,
+      "rank_shift_rf_vs_xgb": 13,
+      "shap_top_features": [
+        {
+          "feature": "final_score_v3",
+          "mean_abs_shap": 3.6247291564941406
+        },
+        {
+          "feature": "must_have_coverage",
+          "mean_abs_shap": 0.5861210823059082
+        },
+        {
+          "feature": "vector_similarity",
+          "mean_abs_shap": 0.09756586700677872
+        },
+        {
+          "feature": "profile_quality_score",
+          "mean_abs_shap": 0.051121361553668976
+        },
+        {
+          "feature": "experience_match_score",
+          "mean_abs_shap": 0.012372246012091637
+        }
+      ],
+      "recommendation_status": "review_needed",
+      "features": {
+        "vector_similarity": 0.3839,
+        "final_score_v3": 0.2222,
+        "must_have_coverage": 0.0,
+        "required_skills_overlap": 0.0,
+        "nice_to_have_overlap": 0.0,
+        "experience_match_score": 1.0,
+        "seniority_alignment": 0.85,
+        "profile_quality_score": 0.9675,
+        "reliability_score": 0.9675,
+        "hallucination_risk_encoded": 0.0,
+        "missing_required_count": 5.0,
+        "matched_required_count": 0.0
+      }
+    }
+  ],
+  "input_paths": {
+    "features": "data\\ranking\\features\\backend_python_django_postgresql.jsonl",
+    "rf_model": "data\\ranking\\models\\random_forest.joblib",
+    "feature_names": "data\\ranking\\models\\feature_names.json",
+    "xgb_ranking": "docs\\reports\\ml\\xgboost_primary_ranking.json",
+    "shap_global": "docs\\reports\\ml\\shap\\shap_global_summary.json",
+    "decision_cards": "docs\\reports\\matching\\v3\\decision_cards_v3_normalized.json"
+  }
+}

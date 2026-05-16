@@ -1,0 +1,214 @@
+roles:
+  - role: "Backend Developer"
+    family: "backend"
+    core_skills:
+      - Python
+      - SQL
+      - Git
+      - REST API
+    adjacent_skills:
+      - Docker
+      - MongoDB
+      - PostgreSQL
+      - Linux
+      - Django
+      - FastAPI
+    transitions_to:
+      - role: "Data Engineer"
+        condition_skills:
+          - Python
+          - SQL
+          - Pandas
+        rationale: "Un profil backend Python/SQL peut évoluer vers Data Engineering s'il maîtrise les pipelines de données."
+      - role: "Full Stack Developer"
+        condition_skills:
+          - JavaScript
+          - React
+          - REST API
+        rationale: "Un profil backend peut évoluer vers full stack si les bases frontend et API sont présentes."
+
+  - role: "Frontend Developer"
+    family: "frontend"
+    core_skills:
+      - JavaScript
+      - HTML
+      - CSS
+      - React
+    adjacent_skills:
+      - TypeScript
+      - Next.js
+      - REST API
+      - Git
+      - UI
+    transitions_to:
+      - role: "Full Stack Developer"
+        condition_skills:
+          - JavaScript
+          - React
+          - REST API
+        rationale: "Un profil frontend peut évoluer vers full stack s'il sait consommer et intégrer des APIs."
+
+  - role: "Full Stack Developer"
+    family: "fullstack"
+    core_skills:
+      - JavaScript
+      - React
+      - Node.js
+      - REST API
+    adjacent_skills:
+      - MongoDB
+      - SQL
+      - Docker
+      - TypeScript
+      - Git
+    transitions_to:
+      - role: "Backend Developer"
+        condition_skills:
+          - REST API
+          - SQL
+          - Docker
+        rationale: "Un profil full stack peut se spécialiser backend si les bases API, données et déploiement sont présentes."
+      - role: "Frontend Developer"
+        condition_skills:
+          - JavaScript
+          - React
+          - CSS
+        rationale: "Un profil full stack peut se spécialiser frontend si les compétences UI sont solides."
+
+  - role: "Data Engineer"
+    family: "data"
+    core_skills:
+      - Python
+      - SQL
+      - ETL
+      - Data Pipeline
+    adjacent_skills:
+      - Pandas
+      - Spark
+      - Airflow
+      - Docker
+      - PostgreSQL
+      - MongoDB
+    transitions_to:
+      - role: "Machine Learning Engineer"
+        condition_skills:
+          - Python
+          - Pandas
+          - Machine Learning
+        rationale: "Un profil data engineering peut évoluer vers ML engineering avec des bases ML et Python solides."
+      - role: "Data Analyst"
+        condition_skills:
+          - SQL
+          - Pandas
+          - Power BI
+        rationale: "Un profil data engineering peut couvrir l'analyse si la restitution BI est présente."
+
+  - role: "Data Analyst"
+    family: "data"
+    core_skills:
+      - SQL
+      - Excel
+      - Power BI
+      - Data Analysis
+    adjacent_skills:
+      - Python
+      - Pandas
+      - Tableau
+      - Statistics
+      - ETL
+    transitions_to:
+      - role: "Data Engineer"
+        condition_skills:
+          - Python
+          - SQL
+          - ETL
+        rationale: "Un profil analyste peut évoluer vers data engineering s'il développe des compétences Python et ETL."
+      - role: "Business Intelligence Analyst"
+        condition_skills:
+          - SQL
+          - Power BI
+          - Data Analysis
+        rationale: "Un profil analyste est proche de la BI si la restitution métier est maîtrisée."
+
+  - role: "Machine Learning Engineer"
+    family: "ml"
+    core_skills:
+      - Python
+      - Machine Learning
+      - PyTorch
+      - TensorFlow
+    adjacent_skills:
+      - SQL
+      - Pandas
+      - Docker
+      - NLP
+      - Scikit-learn
+      - Airflow
+    transitions_to:
+      - role: "Data Engineer"
+        condition_skills:
+          - Python
+          - SQL
+          - Airflow
+        rationale: "Un profil ML peut évoluer vers data engineering si les pipelines et la donnée structurée sont maîtrisés."
+      - role: "Backend Developer"
+        condition_skills:
+          - Python
+          - FastAPI
+          - Docker
+        rationale: "Un profil ML peut évoluer vers backend Python s'il sait exposer des modèles via API."
+
+  - role: "DevOps Engineer"
+    family: "devops"
+    core_skills:
+      - Docker
+      - Kubernetes
+      - Linux
+      - CI/CD
+    adjacent_skills:
+      - AWS
+      - Git
+      - Terraform
+      - Monitoring
+      - Python
+    transitions_to:
+      - role: "Backend Developer"
+        condition_skills:
+          - Python
+          - Docker
+          - REST API
+        rationale: "Un profil DevOps peut évoluer vers backend s'il combine automatisation, API et Python."
+      - role: "Data Engineer"
+        condition_skills:
+          - Docker
+          - Python
+          - Airflow
+        rationale: "Un profil DevOps peut évoluer vers data engineering sur des plateformes de pipelines."
+
+  - role: "Business Intelligence Analyst"
+    family: "bi"
+    core_skills:
+      - SQL
+      - Power BI
+      - Data Modeling
+      - Reporting
+    adjacent_skills:
+      - Excel
+      - Data Analysis
+      - Tableau
+      - Python
+      - Statistics
+    transitions_to:
+      - role: "Data Analyst"
+        condition_skills:
+          - SQL
+          - Data Analysis
+          - Excel
+        rationale: "Un profil BI peut évoluer vers data analyst si l'analyse exploratoire est présente."
+      - role: "Data Engineer"
+        condition_skills:
+          - SQL
+          - Python
+          - ETL
+        rationale: "Un profil BI peut évoluer vers data engineering avec des compétences Python et ETL."
+

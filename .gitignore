@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 *.py[cod]
+*.pyc
 
 .env
 
@@ -24,3 +25,5 @@ models/
 .ruff_cache/
 .ipynb_checkpoints/
 .DS_Store
+.tmp/
+.tmp_pytest/

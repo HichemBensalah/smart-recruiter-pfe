@@ -1,0 +1,48 @@
+{
+  "candidate_id": "docx_Aziz_resumer",
+  "job_id": "backend_python_django_postgresql",
+  "target_role": "Backend Developer",
+  "fit_direct": false,
+  "direct_fit_score": 0.2,
+  "best_source_role": "Machine Learning Engineer",
+  "transferability_score": 0.15,
+  "transitions_plausibles": [
+    {
+      "from_role": "Machine Learning Engineer",
+      "to_role": "Backend Developer",
+      "condition_skills": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "matched_condition_skills": [
+        "Docker"
+      ],
+      "condition_coverage": 0.3333,
+      "rationale": "Un profil ML peut évoluer vers backend Python s'il sait exposer des modèles via API."
+    }
+  ],
+  "matched_core_skills": [
+    "SQL"
+  ],
+  "missing_core_skills": [
+    "Python",
+    "Git",
+    "REST API",
+    "Django",
+    "PostgreSQL"
+  ],
+  "matched_adjacent_skills": [
+    "Docker"
+  ],
+  "gaps_compensables": [
+    "Python",
+    "REST API",
+    "Django",
+    "PostgreSQL"
+  ],
+  "gaps_bloquants": [
+    "Git"
+  ],
+  "explanation": "Transition depuis Machine Learning Engineer vers Backend Developer partiellement plausible, mais des gaps bloquants restent présents: Git."
+}

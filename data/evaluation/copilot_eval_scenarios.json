@@ -1,0 +1,50 @@
+[
+  {
+    "id": "scenario_01_backend_search",
+    "message": "Je cherche un développeur backend Python FastAPI MongoDB",
+    "intent": "search_candidates",
+    "expected_contains": ["Backend Developer", "Matching V3", "candidats"]
+  },
+  {
+    "id": "scenario_02_data_engineer_search",
+    "message": "Trouve-moi un profil Data Engineer Python SQL",
+    "intent": "search_candidates",
+    "expected_contains": ["Data Engineer", "candidats"]
+  },
+  {
+    "id": "scenario_03_review_needed",
+    "message": "Quels candidats sont à vérifier ?",
+    "intent": "review_needed",
+    "expected_contains": ["review_needed", "vérifier"]
+  },
+  {
+    "id": "scenario_04_explain_first_candidate",
+    "message": "Pourquoi le premier candidat est recommandé ?",
+    "intent": "explain_candidate",
+    "expected_contains": ["score", "Matching V3"]
+  },
+  {
+    "id": "scenario_05_best_candidate_gaps",
+    "message": "Quels sont les gaps du meilleur candidat ?",
+    "intent": "gap_analysis",
+    "expected_contains": ["gaps"]
+  },
+  {
+    "id": "scenario_06_backend_transferability",
+    "message": "Est-ce que le meilleur candidat peut évoluer vers Backend Developer ?",
+    "intent": "transferability",
+    "expected_contains": ["transférabilité", "gaps"]
+  },
+  {
+    "id": "scenario_07_compare_first_two",
+    "message": "Compare les deux premiers candidats",
+    "intent": "compare_candidates",
+    "expected_contains": ["candidat"]
+  },
+  {
+    "id": "scenario_08_risk_or_disagreement",
+    "message": "Donne-moi les candidats avec risque ou désaccord",
+    "intent": "risk_review",
+    "expected_contains": ["review_needed", "gaps"]
+  }
+]

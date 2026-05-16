@@ -168,6 +168,45 @@ Fichiers utiles pour vérifier rapidement l'état de la démo :
 - `docs/reports/matching/v3/decision_cards_v3_normalized.json`
 - `docs/reports/retrieval/faiss_cross_encoder_ablation_summary.json`
 
+## Démo end-to-end en une commande
+
+Objectif : régénérer les rapports principaux de démonstration sans réentraîner de modèle et sans modifier les briques métier existantes.
+
+```bash
+python scripts/run_demo_end_to_end.py \
+  --features data/ranking/features/backend_python_django_postgresql.jsonl \
+  --job data/job_profiles/backend_python_django_postgresql.json \
+  --profiles-dir data/profile_builder_module2_v2_grounded_all/profiles/grounded_profiles \
+  --graph data/graph/skills_roles_graph.yaml \
+  --rf-model data/ranking/models/random_forest.joblib \
+  --xgb-ranking docs/reports/ml/xgboost_primary_ranking.json \
+  --feature-names data/ranking/models/feature_names.json \
+  --cards-ml docs/reports/decision_cards/decision_cards_ml_comparison.json \
+  --output-dir docs/reports/demo
+```
+
+Rapports principaux à ouvrir après exécution :
+
+- `docs/reports/demo/demo_executive_summary.md` : version courte avec top 3 recommandés et top 3 à vérifier.
+- `docs/reports/demo/demo_summary_top10.md` : vue détaillée du top 10 avec Matching V3, ML, SHAP et Potential Graph.
+- `docs/reports/demo/demo_run_summary.md` : artefacts vérifiés et générés par la commande de démo.
+- `docs/reports/demo/demo_run_manifest.json` : statut machine-readable du run.
+
+## Architecture de démo
+
+- Matching V3 : baseline officielle et feature engine métier.
+- Random Forest : meilleur modèle ML actuel selon les métriques observées.
+- XGBoost : modèle avancé utilisé pour SHAP et l'analyse.
+- Potential Graph : analyse déclarative de transférabilité métier.
+- Decision Cards : interface explicative pour lire les scores, forces, limites et points à vérifier.
+
+## Limites connues
+
+- Les modèles ML utilisent des pseudo-labels métier contrôlés.
+- Les labels recruteur réels sont une amélioration future nécessaire.
+- Matching V3 reste la baseline officielle.
+- Les scores ML servent à la comparaison et à l'analyse, pas à une décision automatique finale.
+
 ## Commandes principales
 
 Module 1 Parsing :
@@ -230,4 +269,3 @@ Pour les autres expérimentations, voir `scripts/`.
 ## Note GitHub
 
 Certaines données lourdes ou sensibles peuvent être ignorées selon `.gitignore`. Le dépôt sert à présenter le code, les rapports, les résultats et l'état actuel du pipeline.
-

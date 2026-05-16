@@ -1,0 +1,189 @@
+{
+  "job_id": "backend_python_django_postgresql",
+  "source": "docs\\reports\\demo\\demo_summary_top10.json",
+  "executive_summary": {
+    "message": "Vue courte pour démo rapide: meilleurs candidats, candidats à vérifier, signaux clés et limites.",
+    "top_recommended_count": 3,
+    "needs_review_count": 3
+  },
+  "top_recommended": [
+    {
+      "candidate_id": "candidate_9b0508063f03",
+      "profile_id": "profile_0e8d85e344a7",
+      "baseline_score_v3": 0.7682,
+      "rf_score": 1.0,
+      "xgboost_score": 0.9825757741928101,
+      "recommendation_status": "agreement_high",
+      "transferability_score": 0.3,
+      "transitions_plausibles": [],
+      "gaps_compensables": [
+        "REST API",
+        "Django",
+        "PostgreSQL"
+      ],
+      "gaps_bloquants": [],
+      "short_decision_summary": "Candidat fortement recommandé : bon score V3, score RF élevé, score XGBoost élevé.",
+      "executive_reason": "Recommandé car score Matching V3 élevé, Random Forest très favorable, XGBoost favorable, pas de gap bloquant détecté."
+    },
+    {
+      "candidate_id": "candidate_1487f3187f7b",
+      "profile_id": "profile_bcffa3bb70fb",
+      "baseline_score_v3": 0.7183,
+      "rf_score": 1.0,
+      "xgboost_score": 0.9718322157859802,
+      "recommendation_status": "agreement_high",
+      "transferability_score": 0.5333,
+      "transitions_plausibles": [
+        {
+          "from_role": "Machine Learning Engineer",
+          "to_role": "Backend Developer",
+          "condition_skills": [
+            "Python",
+            "FastAPI",
+            "Docker"
+          ],
+          "matched_condition_skills": [
+            "Python",
+            "FastAPI",
+            "Docker"
+          ],
+          "condition_coverage": 1.0,
+          "rationale": "Un profil ML peut évoluer vers backend Python s'il sait exposer des modèles via API."
+        }
+      ],
+      "gaps_compensables": [
+        "REST API",
+        "Django"
+      ],
+      "gaps_bloquants": [
+        "SQL"
+      ],
+      "short_decision_summary": "Candidat fortement recommandé : bon score V3, score RF élevé, score XGBoost élevé.",
+      "executive_reason": "Recommandé car score Matching V3 élevé, Random Forest très favorable, XGBoost favorable, transition métier plausible."
+    },
+    {
+      "candidate_id": "candidate_8eea1b635447",
+      "profile_id": "profile_55f949a128da",
+      "baseline_score_v3": 0.6688,
+      "rf_score": 1.0,
+      "xgboost_score": 0.9676145911216736,
+      "recommendation_status": "agreement_high",
+      "transferability_score": 0.5333,
+      "transitions_plausibles": [
+        {
+          "from_role": "Machine Learning Engineer",
+          "to_role": "Backend Developer",
+          "condition_skills": [
+            "Python",
+            "FastAPI",
+            "Docker"
+          ],
+          "matched_condition_skills": [
+            "Python",
+            "FastAPI",
+            "Docker"
+          ],
+          "condition_coverage": 1.0,
+          "rationale": "Un profil ML peut évoluer vers backend Python s'il sait exposer des modèles via API."
+        }
+      ],
+      "gaps_compensables": [
+        "REST API",
+        "Django"
+      ],
+      "gaps_bloquants": [
+        "SQL"
+      ],
+      "short_decision_summary": "Candidat fortement recommandé : bon score V3, score RF élevé, score XGBoost élevé.",
+      "executive_reason": "Recommandé car score Matching V3 élevé, Random Forest très favorable, XGBoost favorable, transition métier plausible."
+    }
+  ],
+  "needs_review": [
+    {
+      "candidate_id": "candidate_664415ab2fe1",
+      "profile_id": "profile_caab46c986ad",
+      "baseline_score_v3": 0.4256,
+      "rf_score": 0.0,
+      "xgboost_score": 0.0037168425042182207,
+      "recommendation_status": "review_needed",
+      "transferability_score": 0.1667,
+      "transitions_plausibles": [],
+      "gaps_compensables": [
+        "REST API",
+        "Django",
+        "PostgreSQL"
+      ],
+      "gaps_bloquants": [
+        "Git"
+      ],
+      "short_decision_summary": "Candidat à vérifier : désaccord important entre XGBoost et les autres scores.",
+      "executive_reason": "À vérifier car statut review_needed, désaccord important entre les rangs, gaps bloquants: Git, score XGBoost très faible."
+    },
+    {
+      "candidate_id": "candidate_073b7a3d39ba",
+      "profile_id": "profile_5c10a3b5e6c5",
+      "baseline_score_v3": 0.4297,
+      "rf_score": 0.0,
+      "xgboost_score": 0.0038405819796025753,
+      "recommendation_status": "review_needed",
+      "transferability_score": 0.2917,
+      "transitions_plausibles": [
+        {
+          "from_role": "DevOps Engineer",
+          "to_role": "Backend Developer",
+          "condition_skills": [
+            "Python",
+            "Docker",
+            "REST API"
+          ],
+          "matched_condition_skills": [
+            "Python",
+            "Docker"
+          ],
+          "condition_coverage": 0.6667,
+          "rationale": "Un profil DevOps peut évoluer vers backend s'il combine automatisation, API et Python."
+        }
+      ],
+      "gaps_compensables": [
+        "REST API",
+        "Django",
+        "PostgreSQL"
+      ],
+      "gaps_bloquants": [
+        "Git"
+      ],
+      "short_decision_summary": "Candidat à vérifier : désaccord important entre XGBoost et les autres scores.",
+      "executive_reason": "À vérifier car statut review_needed, désaccord important entre les rangs, gaps bloquants: Git, score XGBoost très faible."
+    },
+    {
+      "candidate_id": "candidate_4eef95d3a3fa",
+      "profile_id": "profile_070e372f3c0e",
+      "baseline_score_v3": 0.4284,
+      "rf_score": 0.0,
+      "xgboost_score": 0.003992265090346336,
+      "recommendation_status": "review_needed",
+      "transferability_score": 0.1667,
+      "transitions_plausibles": [],
+      "gaps_compensables": [
+        "REST API",
+        "Django",
+        "PostgreSQL"
+      ],
+      "gaps_bloquants": [
+        "Git"
+      ],
+      "short_decision_summary": "Candidat à vérifier : désaccord important entre XGBoost et les autres scores.",
+      "executive_reason": "À vérifier car statut review_needed, désaccord important entre les rangs, gaps bloquants: Git, score XGBoost très faible."
+    }
+  ],
+  "key_metrics": {
+    "source_top_k": 10,
+    "total_cards": 50,
+    "number_fit_direct": 0,
+    "number_with_transition_plausible": 5,
+    "number_review_needed": 5,
+    "average_transferability_score": 0.3075,
+    "lookup_success_rate": 1.0
+  },
+  "methodological_note": "Cette synthèse agrège Matching V3, modèles ML entraînés sur pseudo-labels métier contrôlés, SHAP et Potential Graph. Matching V3 reste la baseline officielle, Random Forest est le meilleur modèle ML actuel selon les métriques observées, XGBoost est utilisé pour l’analyse SHAP, et Potential Graph sert à analyser la transférabilité métier."
+}

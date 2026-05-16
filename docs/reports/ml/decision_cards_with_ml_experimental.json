@@ -1,0 +1,419 @@
+{
+  "created_at": "2026-05-16T10:21:36.122838+00:00",
+  "source_decision_cards": "matching_report_v3_normalized.json",
+  "source_ml_reranking": "ml_reranking_example.json",
+  "ranking_mode": "matching_v3_with_experimental_ml_annotations",
+  "primary_score": "final_score",
+  "experimental_score": "experimental_ml_score",
+  "methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle.",
+  "cards_count": 10,
+  "ml_matched_cards_count": 9,
+  "ml_unmatched_cards_count": 1,
+  "decision_cards": [
+    {
+      "rank": 1,
+      "candidate_name": "Hichem Bensalah",
+      "candidate_id": "candidate_1487f3187f7b",
+      "final_score": 0.7702,
+      "must_have_coverage": 0.8,
+      "verdict": "Présélection recommandée",
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ],
+      "reliability_score": 0.9903,
+      "hallucination_risk": "low",
+      "strengths": [
+        "Compétences alignées: Python, FastAPI, MongoDB, Docker",
+        "Bonne couverture des must-have",
+        "Explication de matching disponible dans le rapport"
+      ],
+      "weaknesses": [
+        "Compétences requises manquantes: REST API"
+      ],
+      "interview_focus": [
+        "Valider la compétence manquante: REST API",
+        "Demander un exemple concret d'API FastAPI en production",
+        "Valider la conception de schéma et les index MongoDB"
+      ],
+      "explanation": "Hichem Bensalah matches on Python, FastAPI, MongoDB, Docker. Text similarity=0.59, experience score=0.67, profile kind=complete_profile, hallucination risk=low. Missing required skills include REST API.",
+      "source_report": "matching_report_v3_normalized.json",
+      "rank_v3": 1,
+      "experimental_ml_score": 0.9718322157859802,
+      "ml_rank": 4,
+      "score_delta": 0.2535322157859802,
+      "rank_shift": -3,
+      "ml_methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle."
+    },
+    {
+      "rank": 2,
+      "candidate_name": "Candidate (ID: candidate_8eea1b635447)",
+      "candidate_id": "candidate_8eea1b635447",
+      "final_score": 0.6709,
+      "must_have_coverage": 0.8,
+      "verdict": "Présélection recommandée",
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "REST API"
+      ],
+      "reliability_score": 0.9742,
+      "hallucination_risk": "low",
+      "strengths": [
+        "Compétences alignées: Python, FastAPI, MongoDB, Docker",
+        "Bonne couverture des must-have",
+        "Explication de matching disponible dans le rapport"
+      ],
+      "weaknesses": [
+        "Compétences requises manquantes: REST API"
+      ],
+      "interview_focus": [
+        "Valider la compétence manquante: REST API",
+        "Demander un exemple concret d'API FastAPI en production",
+        "Valider la conception de schéma et les index MongoDB"
+      ],
+      "explanation": "Candidate (ID: candidate_8eea1b635447) matches on Python, FastAPI, MongoDB, Docker. Text similarity=0.46, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include REST API.",
+      "source_report": "matching_report_v3_normalized.json",
+      "rank_v3": 2,
+      "experimental_ml_score": 0.9676145911216736,
+      "ml_rank": 5,
+      "score_delta": 0.29881459112167363,
+      "rank_shift": -3,
+      "ml_methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle."
+    },
+    {
+      "rank": 3,
+      "candidate_name": "MOHAMED AZIZ BELAWEID",
+      "candidate_id": "candidate_206d746034ef",
+      "final_score": 0.5546,
+      "must_have_coverage": 0.6,
+      "verdict": "À considérer avec vérification",
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "MongoDB",
+        "REST API"
+      ],
+      "reliability_score": 0.9598,
+      "hallucination_risk": "low",
+      "strengths": [
+        "Compétences alignées: Python, FastAPI, Docker",
+        "Couverture partielle acceptable des must-have",
+        "Explication de matching disponible dans le rapport"
+      ],
+      "weaknesses": [
+        "Compétences requises manquantes: MongoDB, REST API",
+        "Quality flags: summary_not_enough_evidence"
+      ],
+      "interview_focus": [
+        "Valider la compétence manquante: MongoDB",
+        "Valider la compétence manquante: REST API",
+        "Demander un exemple concret d'API FastAPI en production"
+      ],
+      "explanation": "MOHAMED AZIZ BELAWEID matches on Python, FastAPI, Docker. Text similarity=0.42, experience score=0.67, profile kind=complete_profile, hallucination risk=low. Missing required skills include MongoDB, REST API.",
+      "source_report": "matching_report_v3_normalized.json",
+      "rank_v3": 3,
+      "experimental_ml_score": 0.920931875705719,
+      "ml_rank": 6,
+      "score_delta": 0.382731875705719,
+      "rank_shift": -3,
+      "ml_methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle."
+    },
+    {
+      "rank": 4,
+      "candidate_name": "JEFFERYGORCZANY",
+      "candidate_id": "candidate_1df043636ea4",
+      "final_score": 0.4347,
+      "must_have_coverage": 0.4,
+      "verdict": "Non prioritaire — gaps importants",
+      "matched_skills": [
+        "Python",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "reliability_score": 0.9405,
+      "hallucination_risk": "low",
+      "strengths": [
+        "Compétences alignées: Python, Docker",
+        "Explication de matching disponible dans le rapport"
+      ],
+      "weaknesses": [
+        "Compétences requises manquantes: FastAPI, MongoDB, REST API",
+        "Quality flags: missing_email, missing_full_name, summary_not_enough_evidence"
+      ],
+      "interview_focus": [
+        "Valider la compétence manquante: FastAPI",
+        "Valider la compétence manquante: MongoDB",
+        "Valider la compétence manquante: REST API"
+      ],
+      "explanation": "JEFFERYGORCZANY matches on Python, Docker. Text similarity=0.56, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, REST API.",
+      "source_report": "matching_report_v3_normalized.json",
+      "rank_v3": 4,
+      "experimental_ml_score": 0.0036993129178881645,
+      "ml_rank": 49,
+      "score_delta": -0.2711006870821118,
+      "rank_shift": -45,
+      "ml_methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle."
+    },
+    {
+      "rank": 5,
+      "candidate_name": "Markus Rohan",
+      "candidate_id": "candidate_073b7a3d39ba",
+      "final_score": 0.4192,
+      "must_have_coverage": 0.4,
+      "verdict": "Non prioritaire — gaps importants",
+      "matched_skills": [
+        "Python",
+        "Docker"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "REST API"
+      ],
+      "reliability_score": 0.9581,
+      "hallucination_risk": "low",
+      "strengths": [
+        "Compétences alignées: Python, Docker",
+        "Explication de matching disponible dans le rapport"
+      ],
+      "weaknesses": [
+        "Compétences requises manquantes: FastAPI, MongoDB, REST API",
+        "Quality flags: missing_email, summary_not_enough_evidence"
+      ],
+      "interview_focus": [
+        "Valider la compétence manquante: FastAPI",
+        "Valider la compétence manquante: MongoDB",
+        "Valider la compétence manquante: REST API"
+      ],
+      "explanation": "Markus Rohan matches on Python, Docker. Text similarity=0.46, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, REST API.",
+      "source_report": "matching_report_v3_normalized.json",
+      "rank_v3": 5,
+      "experimental_ml_score": 0.0038405819796025753,
+      "ml_rank": 42,
+      "score_delta": -0.42585941802039745,
+      "rank_shift": -37,
+      "ml_methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle."
+    },
+    {
+      "rank": 6,
+      "candidate_name": "Candidate (ID: candidate_71e03ea99985)",
+      "candidate_id": "candidate_71e03ea99985",
+      "final_score": 0.3527,
+      "must_have_coverage": 0.4,
+      "verdict": "Non prioritaire — gaps importants",
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "reliability_score": 0.9107,
+      "hallucination_risk": "low",
+      "strengths": [
+        "Compétences alignées: Python, MongoDB",
+        "Explication de matching disponible dans le rapport"
+      ],
+      "weaknesses": [
+        "Compétences requises manquantes: FastAPI, Docker, REST API",
+        "Quality flags: missing_education_section, missing_email, summary_not_enough_evidence"
+      ],
+      "interview_focus": [
+        "Valider la compétence manquante: FastAPI",
+        "Valider la compétence manquante: Docker",
+        "Valider la compétence manquante: REST API"
+      ],
+      "explanation": "Candidate (ID: candidate_71e03ea99985) matches on Python, MongoDB. Text similarity=0.46, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, Docker, REST API.",
+      "source_report": "matching_report_v3_normalized.json",
+      "rank_v3": 6,
+      "experimental_ml_score": 0.0037817982956767082,
+      "ml_rank": 45,
+      "score_delta": -0.21931820170432328,
+      "rank_shift": -39,
+      "ml_methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle."
+    },
+    {
+      "rank": 7,
+      "candidate_name": "Candidate (ID: candidate_c564b8eceb3d)",
+      "candidate_id": "candidate_c564b8eceb3d",
+      "final_score": 0.3505,
+      "must_have_coverage": 0.4,
+      "verdict": "Non prioritaire — gaps importants",
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "reliability_score": 0.9178,
+      "hallucination_risk": "low",
+      "strengths": [
+        "Compétences alignées: Python, MongoDB",
+        "Explication de matching disponible dans le rapport"
+      ],
+      "weaknesses": [
+        "Compétences requises manquantes: FastAPI, Docker, REST API",
+        "Quality flags: missing_education_section, missing_email"
+      ],
+      "interview_focus": [
+        "Valider la compétence manquante: FastAPI",
+        "Valider la compétence manquante: Docker",
+        "Valider la compétence manquante: REST API"
+      ],
+      "explanation": "Candidate (ID: candidate_c564b8eceb3d) matches on Python, MongoDB. Text similarity=0.44, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, Docker, REST API.",
+      "source_report": "matching_report_v3_normalized.json",
+      "rank_v3": 7,
+      "experimental_ml_score": 0.0037817982956767082,
+      "ml_rank": 44,
+      "score_delta": -0.2197182017043233,
+      "rank_shift": -37,
+      "ml_methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle."
+    },
+    {
+      "rank": 8,
+      "candidate_name": "Candidate (ID: candidate_1d475044c93c)",
+      "candidate_id": "candidate_1d475044c93c",
+      "final_score": 0.3476,
+      "must_have_coverage": 0.4,
+      "verdict": "Non prioritaire — gaps importants",
+      "matched_skills": [
+        "Python",
+        "MongoDB"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "Docker",
+        "REST API"
+      ],
+      "reliability_score": 0.9393,
+      "hallucination_risk": "low",
+      "strengths": [
+        "Compétences alignées: Python, MongoDB",
+        "Explication de matching disponible dans le rapport"
+      ],
+      "weaknesses": [
+        "Compétences requises manquantes: FastAPI, Docker, REST API",
+        "Quality flags: summary_not_enough_evidence"
+      ],
+      "interview_focus": [
+        "Valider la compétence manquante: FastAPI",
+        "Valider la compétence manquante: Docker",
+        "Valider la compétence manquante: REST API"
+      ],
+      "explanation": "Candidate (ID: candidate_1d475044c93c) matches on Python, MongoDB. Text similarity=0.39, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, Docker, REST API.",
+      "source_report": "matching_report_v3_normalized.json",
+      "rank_v3": 8,
+      "experimental_ml_score": null,
+      "ml_rank": null,
+      "score_delta": null,
+      "rank_shift": null,
+      "ml_methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle."
+    },
+    {
+      "rank": 9,
+      "candidate_name": "LEATRICEFRIESEN",
+      "candidate_id": "candidate_e1fda1d70be1",
+      "final_score": 0.2645,
+      "must_have_coverage": 0.2,
+      "verdict": "Non prioritaire — gaps importants",
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "reliability_score": 0.9386,
+      "hallucination_risk": "low",
+      "strengths": [
+        "Compétences alignées: Python",
+        "Explication de matching disponible dans le rapport"
+      ],
+      "weaknesses": [
+        "Compétences requises manquantes: FastAPI, MongoDB, Docker, REST API",
+        "Quality flags: missing_email, summary_not_enough_evidence"
+      ],
+      "interview_focus": [
+        "Valider la compétence manquante: FastAPI",
+        "Valider la compétence manquante: MongoDB",
+        "Valider la compétence manquante: Docker"
+      ],
+      "explanation": "LEATRICEFRIESEN matches on Python. Text similarity=0.51, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, Docker.",
+      "source_report": "matching_report_v3_normalized.json",
+      "rank_v3": 9,
+      "experimental_ml_score": 0.004225806798785925,
+      "ml_rank": 24,
+      "score_delta": -0.4306741932012141,
+      "rank_shift": -15,
+      "ml_methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle."
+    },
+    {
+      "rank": 10,
+      "candidate_name": "Justine Hendrickson",
+      "candidate_id": "candidate_4eef95d3a3fa",
+      "final_score": 0.2628,
+      "must_have_coverage": 0.2,
+      "verdict": "Non prioritaire — gaps importants",
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_required_skills": [
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "REST API"
+      ],
+      "reliability_score": 0.9526,
+      "hallucination_risk": "low",
+      "strengths": [
+        "Compétences alignées: Python",
+        "Explication de matching disponible dans le rapport"
+      ],
+      "weaknesses": [
+        "Compétences requises manquantes: FastAPI, MongoDB, Docker, REST API",
+        "Quality flags: missing_full_name, summary_not_enough_evidence"
+      ],
+      "interview_focus": [
+        "Valider la compétence manquante: FastAPI",
+        "Valider la compétence manquante: MongoDB",
+        "Valider la compétence manquante: Docker"
+      ],
+      "explanation": "Justine Hendrickson matches on Python. Text similarity=0.48, experience score=1.00, profile kind=complete_profile, hallucination risk=low. Missing required skills include FastAPI, MongoDB, Docker.",
+      "source_report": "matching_report_v3_normalized.json",
+      "rank_v3": 10,
+      "experimental_ml_score": 0.003992265090346336,
+      "ml_rank": 38,
+      "score_delta": -0.42440773490965367,
+      "rank_shift": -28,
+      "ml_methodology_warning": "Le score ML est expérimental et entraîné sur pseudo-labels métier contrôlés. Matching V3 reste la baseline officielle."
+    }
+  ],
+  "input_paths": {
+    "decision_cards": "docs\\reports\\matching\\v3\\decision_cards_v3_normalized.json",
+    "ml_reranking": "docs\\reports\\ml\\ml_reranking_example.json"
+  }
+}
