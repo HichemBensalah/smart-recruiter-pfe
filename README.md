@@ -1,39 +1,46 @@
-# Smart Recruiter — Talent Intelligence Copilot RH
+# Smart Recruiter - Talent Intelligence Copilot RH
 
-## 1. Présentation
+Smart Recruiter est un MVP RH pour analyser un corpus de CV, structurer les profils candidats, faire un matching explicable et exposer un Copilot recruteur via FastAPI, LangGraph et Streamlit.
 
-Smart Recruiter est un système intelligent d'aide à la présélection RH. Il transforme des CV bruts en profils structurés, indexe les candidats, applique un matching explicable, enrichit les résultats avec ML/SHAP et Graph-RAG, puis expose un Copilot RH conversationnel via FastAPI, LangChain Tools, LangGraph et Streamlit.
+Le systeme aide a accelerer la preselection. Il ne remplace pas la decision humaine finale.
 
-Le système aide le recruteur à analyser plus rapidement un corpus de CV. Il ne remplace pas la décision humaine finale.
+## Etat actuel
 
-## 2. Fonctionnalités principales
+- Projet stabilise sur la branche `main`.
+- FastAPI, Streamlit, MongoDB repositories, live matcher, LangGraph Copilot, Docker et CI sont couverts.
+- Suite rapide validee avec `python scripts/run_fast_tests.py`.
+- Resultat attendu actuel : `141 passed`.
+- Matching V3 reste la baseline officielle.
+- RF, XGBoost, SHAP et Graph-RAG restent des couches experimentales ou optionnelles.
+
+## Fonctionnalites principales
 
 - Parsing documentaire de CV.
-- Structuration Grounded des profils candidats.
-- Stockage MongoDB.
+- Structuration grounded des profils candidats.
+- Stockage MongoDB optionnel avec fallback artefacts.
 - Indexation et retrieval FAISS.
-- Matching V3 explicable, baseline officielle du projet.
+- Matching V3 explicable.
+- Live matcher MongoDB + FAISS + Matching V3.
 - Decision Cards pour expliquer les recommandations.
-- Ranking ML expérimental avec Logistic Regression, Random Forest et XGBoost.
-- Explicabilité SHAP sur XGBoost.
-- Potential Graph YAML pour la transférabilité métier.
+- Potential Graph YAML pour la transferabilite metier.
 - Neo4j Graph-RAG optionnel.
-- API FastAPI métier.
-- LangChain Tools autour des endpoints API.
+- API FastAPI metier.
+- LangChain Tools autour de l'API.
 - LangGraph Recruiter Copilot.
 - Interface Streamlit chatbot.
-- Évaluation automatique du Copilot.
+- Evaluation automatique du Copilot.
+- Docker Compose pour API, UI, MongoDB et Neo4j.
 
-## 3. Architecture globale
+## Architecture
 
 ```text
 CV bruts
   -> Parsing
-  -> Structuration Grounded
-  -> MongoDB / FAISS
+  -> Structuration grounded
+  -> Artefacts / MongoDB
+  -> FAISS retrieval
   -> Matching V3
   -> Decision Cards
-  -> ML / SHAP
   -> Potential Graph / Neo4j Graph-RAG
   -> FastAPI
   -> LangChain Tools
@@ -41,25 +48,7 @@ CV bruts
   -> Streamlit UI
 ```
 
-## 4. Modules du projet
-
-| Module | Rôle | Statut |
-| --- | --- | --- |
-| Module 1 Parsing | Convertir les CV bruts en artefacts texte/markdown/json | Terminé |
-| Module 2 Structuring | Générer des profils candidats structurés et grounded | Terminé |
-| Storage / MongoDB | Stocker `candidate_profiles` et `candidates` | Terminé |
-| Retrieval / FAISS | Indexer les profils et récupérer les candidats proches | Terminé |
-| Matching V3 | Scoring métier explicable | Baseline officielle |
-| Decision Cards | Explication RH des recommandations | Terminé |
-| ML / SHAP | Ranking expérimental, RF/XGBoost, SHAP | Expérimental contrôlé |
-| Graph / Neo4j | Transférabilité métier et Graph-RAG optionnel | Avancé optionnel |
-| API FastAPI | Exposer les capacités métier en JSON | Terminé |
-| LangChain Tools | Wrappers tool-ready autour de l'API | Terminé |
-| LangGraph Copilot | Workflow conversationnel déterministe | Terminé version démo |
-| Streamlit UI | Interface chatbot de démonstration | Terminé |
-| Docker | Lancement API + UI + Neo4j optionnel | Ajouté |
-
-## 5. Installation locale
+## Installation locale
 
 ```bash
 python -m venv .venv
@@ -67,7 +56,27 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## 6. Lancer l'API FastAPI
+Copier l'exemple d'environnement si necessaire :
+
+```bash
+copy .env.example .env
+```
+
+Par defaut, le projet reste en mode artefacts pour ne pas rendre MongoDB, Neo4j ou FAISS obligatoires pendant la demo.
+
+## Tests rapides
+
+```bash
+python scripts/run_fast_tests.py
+```
+
+Resultat attendu :
+
+```text
+141 passed
+```
+
+## Lancer FastAPI
 
 ```bash
 uvicorn src.api.main:app --reload --host 127.0.0.1 --port 8010
@@ -79,7 +88,15 @@ Swagger :
 http://127.0.0.1:8010/docs
 ```
 
-## 7. Lancer l'interface Streamlit
+Health check :
+
+```text
+http://127.0.0.1:8010/health
+```
+
+## Lancer Streamlit
+
+Dans un deuxieme terminal :
 
 ```bash
 streamlit run ui/streamlit_app.py
@@ -91,13 +108,13 @@ URL :
 http://localhost:8501
 ```
 
-Dans la sidebar Streamlit, mettre l'URL API :
+Dans la sidebar Streamlit, utiliser l'URL API locale :
 
 ```text
 http://127.0.0.1:8010
 ```
 
-## 8. Lancer avec Docker
+## Lancer avec Docker Compose
 
 ```bash
 docker compose up --build
@@ -106,65 +123,56 @@ docker compose up --build
 URLs :
 
 - API Swagger : http://localhost:8000/docs
+- API health : http://localhost:8000/health
 - Streamlit Copilot : http://localhost:8501
 - Neo4j Browser : http://localhost:7474
+- MongoDB : `mongodb://localhost:27017`
 
-Pour arrêter :
+Arreter :
 
 ```bash
 docker compose down
 ```
 
-## 8.1 Modes de fonctionnement
+## Modes de donnees
 
-### Matching V3 baseline
+Le backend de donnees se configure via `.env` :
 
-Matching V3 reste la baseline officielle du projet. Les scores `final_score_v3` et les rangs V3 proviennent des rapports et artefacts produits par le pipeline de matching metier.
-
-### Mode demo avec artefacts Matching V3
-
-L'endpoint `POST /api/match` utilise un registre d'artefacts pre-generes dans :
-
-```text
-data/ranking/features/*.jsonl
+```bash
+DATA_BACKEND=artifacts|mongodb|hybrid
+ALLOW_ARTIFACT_FALLBACK=true|false
+MATCHING_MODE=artifact|live|hybrid
+LIVE_MATCHING_TOP_N=50
+LIVE_MATCHING_TOP_K=5
+FAISS_INDEX_PATH=data/indexes/faiss/cv_index.faiss
+FAISS_ID_MAP_PATH=data/indexes/faiss/id_map.pkl
+MONGODB_URI=mongodb://localhost:27017
+MONGODB_DATABASE=talent_intelligence
 ```
 
-Quand le Copilot cree une offre, le `job_router` choisit un `routed_job_id`. Ce `job_id` est transmis a `/api/match`, qui resout l'artefact correspondant si disponible.
+- `DATA_BACKEND=artifacts` : mode MVP stable, lecture des fichiers versionnes.
+- `DATA_BACKEND=mongodb` : routes candidats et decision cards depuis MongoDB.
+- `DATA_BACKEND=hybrid` : MongoDB prioritaire, artefacts en fallback.
+- `MATCHING_MODE=artifact` : matching depuis `data/ranking/features/*.jsonl`.
+- `MATCHING_MODE=live` : retrieval FAISS, profils MongoDB, scoring Matching V3.
+- `MATCHING_MODE=hybrid` : tente le live puis retombe sur les artefacts si autorise.
 
-La reponse API expose :
+Seed MongoDB depuis les artefacts :
 
-- `job_id` : job demande ;
-- `resolved_job_id` : job reellement utilise ;
-- `artifact_source` : fichier artefact utilise ;
-- `matching_mode` : mode de matching ;
-- `fallback_used` : indique si un fallback a ete applique ;
-- `warnings` : details si fallback.
-
-### Fallbacks
-
-Fallback officiel :
-
-```text
-backend_python_django_postgresql
+```bash
+python scripts/seed_mongodb_from_artifacts.py --dry-run
+python scripts/seed_mongodb_from_artifacts.py
 ```
 
-Si aucun `job_id` n'est fourni, l'API conserve le comportement historique et utilise ce fallback comme job par defaut, sans considerer cela comme une erreur.
+## Exemple de demo Copilot
 
-Si un `job_id` inconnu est fourni, l'API retourne `fallback_used=true` et ajoute un warning.
-
-### Modules experimentaux
-
-Les couches Random Forest, XGBoost, SHAP, ML comparison cards et Graph-RAG enrichissent l'analyse, mais ne remplacent pas Matching V3. Les modeles ML restent entraines sur pseudo-labels metier controles, pas sur labels recruteur reels.
-
-## 9. Exemple d'utilisation du Copilot
-
-Flow recommandé pour la démonstration :
+Dans Streamlit :
 
 ```text
 nouvelle offre
 ```
 
-Le Copilot collecte ensuite les 6 champs de l'offre, permet une correction avant confirmation, puis lance le matching avec :
+Le Copilot collecte les champs de l'offre, permet une correction, puis lance le matching avec :
 
 ```text
 oui lance la recherche
@@ -174,69 +182,69 @@ Questions de suivi utiles :
 
 ```text
 Pourquoi le premier candidat ?
-Compare le premier et le deuxième candidat
+Compare le premier et le deuxieme candidat
 Quels sont les gaps du meilleur candidat ?
 ```
 
-Le script complet de soutenance se trouve dans :
+Script de soutenance :
 
 - `docs/demo/demo_script.md`
 
-## 10. Évaluation
+## Evaluation Copilot
 
-Le protocole d'évaluation du Copilot se trouve dans :
+```bash
+python scripts/evaluate_copilot.py
+```
 
-- `data/evaluation/copilot_eval_scenarios.json`
-- `scripts/evaluate_copilot.py`
+Rapports :
+
 - `docs/reports/copilot/copilot_evaluation.json`
 - `docs/reports/copilot/copilot_evaluation.md`
 
-État actuel :
+Etat actuel :
 
-- 14 scénarios évalués ;
-- flow offre -> correction -> confirmation -> matching -> suivis couvert ;
-- métriques : tool calling accuracy, hallucination-free rate, latence `/api/chat`, cohérence mémoire ;
-- fallback Neo4j/YAML et fallback artefact Matching couverts ;
-- pas encore de validation recruteur humaine.
+- 14 scenarios evalues.
+- Flow offre -> correction -> confirmation -> matching -> suivis couvert.
+- Tool calling accuracy, hallucination-free rate, latence `/api/chat` et memoire conversationnelle courte suivis.
+- Fallback Neo4j/YAML et fallback artefacts Matching couverts.
+- Validation recruteur humaine encore a faire.
 
-## 11. Limites connues
-
-- Les modèles ML sont entraînés sur pseudo-labels métier contrôlés.
-- Les pseudo-labels ne sont pas des labels recruteur réels.
-- Matching V3 reste la baseline officielle.
-- Neo4j est optionnel ; le fallback YAML reste disponible.
-- Pas encore de mémoire longue conversationnelle.
-- Pas encore de planner LLM avancé.
-- Pas encore d'intégration ATS.
-- Les données CV sensibles ne doivent pas être versionnées.
-
-## 12. Roadmap future
-
-- Collecter des labels recruteur réels.
-- Ajouter une mémoire conversationnelle courte puis longue.
-- Ajouter un planner LLM contrôlé.
-- Enrichir Neo4j Graph-RAG.
-- Créer une interface Next.js.
-- Ajouter une intégration ATS.
-- Préparer un déploiement cloud.
-
-## 13. Structure du projet
+## Structure du projet
 
 ```text
 src/
   api/                 # API FastAPI
-  core/                # Modules métier : parsing, matching, ranking, graph, chatbot
+  core/                # Parsing, matching, ranking, graph, chatbot, storage
   benchmark/           # Benchmarks OCR
-  models/              # Modèles/schémas applicatifs existants
+  models/              # Schemas applicatifs existants
 
-scripts/               # Scripts d'orchestration, ML, graph, démo, maintenance
-data/                  # Données, artefacts, job profiles, ranking, graph
-docs/                  # Architecture et rapports
-tests/                 # Tests API, graph, ML, demo, copilot
+scripts/               # Orchestration, tests rapides, seed MongoDB, graph, evaluation
+data/                  # Artefacts, jobs, ranking, graph, donnees de demo
+docs/                  # Architecture, rapports, demo
+tests/                 # Tests API, graph, copilot, matching, storage, UI
 ui/                    # Interface Streamlit
 ```
 
-## 14. Auteur
+## Documentation utile
+
+- `README_RUN.md` : guide court de lancement local et Docker.
+- `docs/architecture/repository_audit.md` : audit de stabilisation.
+- `docs/architecture/git_stabilization_plan.md` : plan de sauvegarde Git.
+- `docs/architecture/docker_demo.md` : details Docker.
+- `docs/architecture/ci.md` : CI GitHub Actions.
+- `docs/architecture/pipeline_contracts.md` : contrats de pipeline.
+
+## Limites connues
+
+- Les modeles ML sont entraines sur pseudo-labels metier controles.
+- Les pseudo-labels ne sont pas des labels recruteur reels.
+- Matching V3 reste la baseline officielle.
+- Neo4j est optionnel ; le fallback YAML reste disponible.
+- MongoDB et FAISS ne sont pas obligatoires en mode artefacts.
+- Pas encore d'integration ATS.
+- Les donnees CV sensibles ne doivent pas etre ajoutees au repository.
+
+## Auteur
 
 Hichem Bensalah  
-Projet PFE — Smart Recruiter
+Projet PFE - Smart Recruiter
