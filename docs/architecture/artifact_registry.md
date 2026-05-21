@@ -9,8 +9,38 @@ Ce registre classe les fichiers importants pour eviter de confondre baseline off
 - MongoDB import : `src/core/storage/`, `docs/reports/mongodb/mongodb_import_report_v2_grounded_execute.json`
 - FAISS index : `data/indexes/faiss/index_report.json`, `cv_index.faiss`, `id_map.pkl`
 - Matching V3 : `src/core/matching/`, `docs/reports/matching/v3/*_matching_report_v3_normalized.json`
+- Artefacts API Matching V3 : `data/ranking/features/*.jsonl`
 - Decision Cards officielles : `docs/reports/matching/v3/decision_cards_v3_normalized.json`
 - API FastAPI : `src/api/`
+
+### Registre `job_id -> artefact`
+
+`POST /api/match` utilise le registre dynamique des fichiers `data/ranking/features/*.jsonl`.
+
+Job IDs actuellement disponibles :
+
+- `backend_python_django_postgresql`
+- `backend_python_fastapi_mongodb`
+- `backend_python_fastapi_mongodb_aligned`
+- `data_analyst_python_sql_powerbi`
+- `data_engineer_python_sql`
+- `data_engineer_python_sql_etl_aligned`
+- `devops_docker_kubernetes`
+- `frontend_react_nextjs`
+- `fullstack_react_node_mongodb`
+- `machine_learning_python_nlp`
+
+Fallback officiel :
+
+- `backend_python_django_postgresql`
+
+Regles :
+
+- `job_id` connu : l'artefact correspondant est utilise et `fallback_used=false`.
+- `job_id` absent : comportement historique, resolution vers `backend_python_django_postgresql`, `fallback_used=false`.
+- `job_id` inconnu : fallback vers `backend_python_django_postgresql`, `fallback_used=true`, warning dans la reponse API.
+
+Cette approche reste basee sur des artefacts Matching V3 pre-generes. Elle est acceptable pour le MVP de demo car elle rend le flow `offre -> routed_job_id -> matching` reproductible sans relancer les pipelines lourds. La cible entreprise future est un matching live FAISS/MongoDB.
 
 ## EXPERIMENTAL
 

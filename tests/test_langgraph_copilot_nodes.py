@@ -11,6 +11,7 @@ def test_understand_query_infers_target_role_without_llm() -> None:
     update = understand_query_node(state)
 
     assert update["target_role"] == "Data Engineer"
+    assert update["intent"] == "search_candidates"
     assert update["top_k"] == 3
     assert update["job_description"] == "Je cherche un data engineer top 3"
 
@@ -58,7 +59,7 @@ def test_compose_answer_uses_only_state_data() -> None:
     update = compose_answer_node(state)
 
     assert "candidate_1" in update["answer"]
-    assert "score V3 0.8000" in update["answer"]
+    assert "Score Matching V3 : `0.8000`" in update["answer"]
     assert "Django" in update["answer"]
 
 

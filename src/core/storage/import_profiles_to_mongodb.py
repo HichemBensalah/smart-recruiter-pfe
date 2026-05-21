@@ -5,11 +5,18 @@ import hashlib
 import json
 import os
 import re
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
+
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from src.core.storage.repositories import safe_create_index
 
 
 DEFAULT_MODULE2_ROOT = Path("data/profile_builder_official_module2_rerun_ollama_fixed")
@@ -820,29 +827,29 @@ def mask_mongodb_uri(uri: str) -> str:
 def ensure_candidate_indexes(collection: Any) -> None:
     from pymongo import ASCENDING, DESCENDING
 
-    collection.create_index([("candidate_id", ASCENDING)], unique=True, name="uniq_candidate_id")
-    collection.create_index([("canonical_name", ASCENDING)], name="idx_canonical_name")
-    collection.create_index([("emails", ASCENDING)], name="idx_emails")
-    collection.create_index([("phones", ASCENDING)], name="idx_phones")
-    collection.create_index([("dedup_status", ASCENDING)], name="idx_dedup_status")
-    collection.create_index([("best_profile_id", ASCENDING)], name="idx_best_profile_id")
-    collection.create_index([("profile_count", DESCENDING)], name="idx_profile_count")
-    collection.create_index([("updated_at", DESCENDING)], name="idx_candidates_updated_at")
+    safe_create_index(collection, [("candidate_id", ASCENDING)], name="uniq_candidate_id", unique=True)
+    safe_create_index(collection, [("canonical_name", ASCENDING)], name="idx_canonical_name")
+    safe_create_index(collection, [("emails", ASCENDING)], name="idx_emails")
+    safe_create_index(collection, [("phones", ASCENDING)], name="idx_phones")
+    safe_create_index(collection, [("dedup_status", ASCENDING)], name="idx_dedup_status")
+    safe_create_index(collection, [("best_profile_id", ASCENDING)], name="idx_best_profile_id")
+    safe_create_index(collection, [("profile_count", DESCENDING)], name="idx_profile_count")
+    safe_create_index(collection, [("updated_at", DESCENDING)], name="idx_candidates_updated_at")
 
 
 def ensure_candidate_profile_indexes(collection: Any) -> None:
     from pymongo import ASCENDING, DESCENDING
 
-    collection.create_index([("profile_id", ASCENDING)], unique=True, name="uniq_profile_id")
-    collection.create_index([("artifact_path", ASCENDING)], unique=True, name="uniq_artifact_path")
-    collection.create_index([("candidate_id", ASCENDING)], name="idx_candidate_id")
-    collection.create_index([("source_path", ASCENDING)], name="idx_source_path")
-    collection.create_index([("status", ASCENDING)], name="idx_status")
-    collection.create_index([("profile_kind", ASCENDING)], name="idx_profile_kind")
-    collection.create_index([("provider_route", ASCENDING)], name="idx_provider_route")
-    collection.create_index([("dedup_status", ASCENDING)], name="idx_profile_dedup_status")
-    collection.create_index([("reliability_score", DESCENDING)], name="idx_reliability_score")
-    collection.create_index([("updated_at", DESCENDING)], name="idx_profiles_updated_at")
+    safe_create_index(collection, [("profile_id", ASCENDING)], name="uniq_profile_id", unique=True)
+    safe_create_index(collection, [("artifact_path", ASCENDING)], name="uniq_artifact_path", unique=True)
+    safe_create_index(collection, [("candidate_id", ASCENDING)], name="idx_profile_candidate_id")
+    safe_create_index(collection, [("source_path", ASCENDING)], name="idx_source_path")
+    safe_create_index(collection, [("status", ASCENDING)], name="idx_status")
+    safe_create_index(collection, [("profile_kind", ASCENDING)], name="idx_profile_kind")
+    safe_create_index(collection, [("provider_route", ASCENDING)], name="idx_provider_route")
+    safe_create_index(collection, [("dedup_status", ASCENDING)], name="idx_profile_dedup_status")
+    safe_create_index(collection, [("reliability_score", DESCENDING)], name="idx_reliability_score")
+    safe_create_index(collection, [("updated_at", DESCENDING)], name="idx_profiles_updated_at")
 
 
 def merge_created_at(existing: dict[str, Any] | None, incoming: dict[str, Any]) -> dict[str, Any]:

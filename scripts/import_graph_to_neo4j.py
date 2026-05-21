@@ -5,6 +5,7 @@ import json
 import sys
 from pathlib import Path
 from typing import Any
+from datetime import datetime, timezone
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,6 +27,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--profiles-dir", type=Path, required=True)
     parser.add_argument("--jobs-dir", type=Path, required=True)
     parser.add_argument("--reset", action="store_true")
+    parser.add_argument("--report", type=Path, default=Path("docs/reports/graph/neo4j_import_report.json"))
     return parser.parse_args()
 
 
@@ -34,6 +36,7 @@ def main() -> None:
     graph = load_yaml_graph(args.graph)
     profiles = list(args.profiles_dir.glob("*.json"))
     jobs = list(args.jobs_dir.glob("*.json"))
+    warnings: list[str] = []
 
     with Neo4jClient() as client:
         if args.reset:
@@ -42,9 +45,28 @@ def main() -> None:
         role_count = import_roles(client, graph)
         profile_count = import_profiles(client, profiles)
         job_count = import_jobs(client, jobs)
+        client.execute_write(_merge_candidate_role_fits)
+        counts = client.execute_read(_count_graph)
+
+    report = {
+        "status": "success",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "roles_count": int(counts.get("roles_count", role_count)),
+        "skills_count": int(counts.get("skills_count", 0)),
+        "jobs_count": int(counts.get("jobs_count", job_count)),
+        "candidates_count": int(counts.get("candidates_count", profile_count)),
+        "relations_count": int(counts.get("relations_count", 0)),
+        "fallback_available": args.graph.exists(),
+        "cdc_nodes": ["Role", "Skill", "Job", "Candidate"],
+        "cdc_relations": ["REQUIRES", "RELATED_TO", "TRANSITIONS_TO", "HAS_SKILL", "FITS_ROLE"],
+        "compatibility_relations": ["REQUIRES_SKILL", "HAS_ADJACENT_SKILL"],
+        "warnings": warnings,
+    }
+    _write_report(args.report, report)
 
     print("Neo4j import completed")
     print(f"roles={role_count} profiles={profile_count} jobs={job_count}")
+    print(f"report={args.report}")
 
 
 def import_roles(client: Neo4jClient, graph: dict[str, Any]) -> int:
@@ -56,9 +78,9 @@ def import_roles(client: Neo4jClient, graph: dict[str, Any]) -> int:
         family = str(role.get("family") or "")
         client.execute_write(_merge_role, role_name=role_name, family=family)
         for skill in _as_strings(role.get("core_skills")):
-            client.execute_write(_merge_role_skill, role_name=role_name, skill=skill, rel_type="REQUIRES_SKILL")
+            client.execute_write(_merge_role_skill, role_name=role_name, skill=skill, rel_types=["REQUIRES", "REQUIRES_SKILL"])
         for skill in _as_strings(role.get("adjacent_skills")):
-            client.execute_write(_merge_role_skill, role_name=role_name, skill=skill, rel_type="HAS_ADJACENT_SKILL")
+            client.execute_write(_merge_role_skill, role_name=role_name, skill=skill, rel_types=["RELATED_TO", "HAS_ADJACENT_SKILL"])
         for transition in role.get("transitions_to") or []:
             if isinstance(transition, dict) and transition.get("role"):
                 client.execute_write(
@@ -148,20 +170,23 @@ def _merge_role(tx: Any, role_name: str, family: str) -> None:
     )
 
 
-def _merge_role_skill(tx: Any, role_name: str, skill: str, rel_type: str) -> None:
-    if rel_type not in {"REQUIRES_SKILL", "HAS_ADJACENT_SKILL"}:
-        raise ValueError(f"Unsupported role skill relation: {rel_type}")
-    tx.run(
-        f"""
-        MATCH (r:Role {{name: $role_name}})
-        MERGE (s:Skill {{normalized_name: $normalized_name}})
-        SET s.name = $skill
-        MERGE (r)-[:{rel_type}]->(s)
-        """,
-        role_name=role_name,
-        skill=skill,
-        normalized_name=normalize_skill(skill),
-    )
+def _merge_role_skill(tx: Any, role_name: str, skill: str, rel_types: list[str]) -> None:
+    allowed = {"REQUIRES", "REQUIRES_SKILL", "RELATED_TO", "HAS_ADJACENT_SKILL"}
+    unsupported = [rel_type for rel_type in rel_types if rel_type not in allowed]
+    if unsupported:
+        raise ValueError(f"Unsupported role skill relation: {unsupported}")
+    for rel_type in rel_types:
+        tx.run(
+            f"""
+            MATCH (r:Role {{name: $role_name}})
+            MERGE (s:Skill {{normalized_name: $normalized_name}})
+            SET s.name = $skill
+            MERGE (r)-[:{rel_type}]->(s)
+            """,
+            role_name=role_name,
+            skill=skill,
+            normalized_name=normalize_skill(skill),
+        )
 
 
 def _merge_transition(tx: Any, from_role: str, to_role: str, condition_skills: list[str], rationale: str) -> None:
@@ -192,17 +217,52 @@ def _merge_job(tx: Any, job_id: str, title: str) -> None:
 
 
 def _merge_job_skill(tx: Any, job_id: str, skill: str) -> None:
+    for rel_type in ("REQUIRES", "REQUIRES_SKILL"):
+        tx.run(
+            f"""
+            MATCH (j:Job {{job_id: $job_id}})
+            MERGE (s:Skill {{normalized_name: $normalized_name}})
+            SET s.name = $skill
+            MERGE (j)-[:{rel_type}]->(s)
+            """,
+            job_id=job_id,
+            skill=skill,
+            normalized_name=normalize_skill(skill),
+        )
+
+
+def _merge_candidate_role_fits(tx: Any) -> None:
     tx.run(
         """
-        MATCH (j:Job {job_id: $job_id})
-        MERGE (s:Skill {normalized_name: $normalized_name})
-        SET s.name = $skill
-        MERGE (j)-[:REQUIRES_SKILL]->(s)
-        """,
-        job_id=job_id,
-        skill=skill,
-        normalized_name=normalize_skill(skill),
+        MATCH (c:Candidate)-[:HAS_SKILL]->(s:Skill)<-[:REQUIRES]-(r:Role)
+        WITH c, r, count(DISTINCT s) AS matched_required_count
+        WHERE matched_required_count > 0
+        MERGE (c)-[rel:FITS_ROLE]->(r)
+        SET rel.matched_required_count = matched_required_count
+        """
     )
+
+
+def _count_graph(tx: Any) -> dict[str, int]:
+    result = tx.run(
+        """
+        MATCH (n)
+        WITH
+          count { MATCH (:Role) } AS roles_count,
+          count { MATCH (:Skill) } AS skills_count,
+          count { MATCH (:Job) } AS jobs_count,
+          count { MATCH (:Candidate) } AS candidates_count,
+          count { MATCH ()-->() } AS relations_count
+        RETURN roles_count, skills_count, jobs_count, candidates_count, relations_count
+        """
+    )
+    record = result.single()
+    return dict(record) if record else {}
+
+
+def _write_report(path: Path, report: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 def _read_json(path: Path) -> dict[str, Any]:

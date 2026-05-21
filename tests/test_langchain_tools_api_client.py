@@ -33,7 +33,7 @@ def test_api_client_reads_base_url_from_environment(monkeypatch: pytest.MonkeyPa
 
 
 def test_api_client_raises_clean_error_on_http_failure(monkeypatch: pytest.MonkeyPatch) -> None:
-    def fake_request(self, method, url, params=None, json=None):
+    def fake_request(self, method, url, params=None, json=None, headers=None):
         return httpx.Response(503, json={"detail": "service unavailable"})
 
     monkeypatch.setattr(httpx.Client, "request", fake_request)
@@ -44,6 +44,25 @@ def test_api_client_raises_clean_error_on_http_failure(monkeypatch: pytest.Monke
 
     assert "HTTP 503" in str(exc.value)
     assert "service unavailable" in str(exc.value)
+
+
+def test_api_client_sends_api_key_header_when_auth_is_enabled(monkeypatch: pytest.MonkeyPatch) -> None:
+    captured: dict[str, dict[str, str] | None] = {}
+
+    def fake_request(self, method, url, params=None, json=None, headers=None):
+        captured["headers"] = headers
+        return httpx.Response(200, json={"ok": True})
+
+    monkeypatch.setenv("AUTH_ENABLED", "true")
+    monkeypatch.setenv("SMART_RECRUITER_API_KEY", "test-secret")
+    monkeypatch.setenv("API_KEY_HEADER", "X-Test-Key")
+    monkeypatch.setattr(httpx.Client, "request", fake_request)
+    client = SmartRecruiterApiClient(base_url="http://testserver")
+
+    payload = client.get("/api/test")
+
+    assert payload == {"ok": True}
+    assert captured["headers"] == {"X-Test-Key": "test-secret"}
 
 
 def test_pydantic_tool_schemas_validate_inputs() -> None:

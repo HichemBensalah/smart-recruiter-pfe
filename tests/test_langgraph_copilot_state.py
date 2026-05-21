@@ -5,6 +5,8 @@ def test_initial_state_accepts_user_message_and_defaults() -> None:
     state = initial_state("Je cherche un backend Python")
 
     assert state["user_message"] == "Je cherche un backend Python"
+    assert state["session_id"] is None
+    assert state["intent"] == "search_candidates"
     assert state["job_description"] is None
     assert state["top_k"] == 5
     assert state["target_role"] == "Backend Developer"
@@ -12,3 +14,4 @@ def test_initial_state_accepts_user_message_and_defaults() -> None:
     assert state["decision_cards"] == []
     assert state["transferability"] == {}
     assert state["warnings"] == []
+    assert state["selected_candidate_id"] is None

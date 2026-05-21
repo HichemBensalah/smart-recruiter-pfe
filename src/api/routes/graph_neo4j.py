@@ -1,7 +1,8 @@
 from __future__ import annotations
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query
 
+from src.api.auth import require_api_key
 from src.core.graph.neo4j_client import Neo4jUnavailable, neo4j_status
 from src.core.graph.neo4j_transferability import (
     explain_transferability,
@@ -10,7 +11,7 @@ from src.core.graph.neo4j_transferability import (
 )
 
 
-router = APIRouter(prefix="/api/graph/neo4j", tags=["graph-neo4j"])
+router = APIRouter(prefix="/api/graph/neo4j", tags=["graph-neo4j"], dependencies=[Depends(require_api_key)])
 
 
 @router.get("/status")
@@ -30,7 +31,17 @@ def candidate_skills(candidate_id: str) -> dict:
 
 @router.get("/transferability/{candidate_id}")
 def neo4j_transferability(candidate_id: str, target_role: str = Query(default="Backend Developer")) -> dict:
-    return _guarded_query(lambda: explain_transferability(candidate_id, target_role))
+    def query() -> dict:
+        payload = explain_transferability(candidate_id, target_role)
+        return {
+            "candidate_id": candidate_id,
+            "source": "neo4j",
+            "fallback_used": False,
+            "warnings": [],
+            "transferability": payload,
+        }
+
+    return _guarded_query(query)
 
 
 @router.get("/gaps/{candidate_id}")

@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from pathlib import Path
+
 import pytest
 
 from src.core.graph.neo4j_client import Neo4jClient, Neo4jUnavailable, load_neo4j_settings, neo4j_status
@@ -55,3 +57,24 @@ def test_build_transferability_explanation_formats_gaps() -> None:
     assert payload["gaps_compensables"] == ["Docker"]
     assert payload["gaps_bloquants"] == ["SQL"]
     assert "Backend Developer" in payload["explanation"]
+
+
+def test_import_script_documents_cdc_relations() -> None:
+    content = Path("scripts/import_graph_to_neo4j.py").read_text(encoding="utf-8")
+
+    for relation in ["REQUIRES", "RELATED_TO", "TRANSITIONS_TO", "HAS_SKILL", "FITS_ROLE"]:
+        assert relation in content
+
+
+def test_neo4j_import_report_has_expected_shape() -> None:
+    import json
+
+    payload = json.loads(Path("docs/reports/graph/neo4j_import_report.json").read_text(encoding="utf-8"))
+
+    assert "status" in payload
+    for key in ["roles_count", "skills_count", "jobs_count", "candidates_count", "relations_count"]:
+        assert key in payload
+        assert isinstance(payload[key], int)
+    assert payload["fallback_available"] is True
+    for relation in ["REQUIRES", "RELATED_TO", "TRANSITIONS_TO", "HAS_SKILL", "FITS_ROLE"]:
+        assert relation in payload["cdc_relations"]

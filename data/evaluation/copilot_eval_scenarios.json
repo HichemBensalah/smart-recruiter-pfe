@@ -1,50 +1,205 @@
 [
   {
-    "id": "scenario_01_backend_search",
-    "message": "Je cherche un développeur backend Python FastAPI MongoDB",
-    "intent": "search_candidates",
-    "expected_contains": ["Backend Developer", "Matching V3", "candidats"]
+    "id": "01_start_new_offer",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Démarrage du wizard offre",
+    "message": "nouvelle offre",
+    "expected_sources": ["job_intake"],
+    "expected_answer_contains": ["titre du poste"],
+    "expected_flags": {
+      "matching_completed": false
+    },
+    "coverage": ["new_offer_start"]
   },
   {
-    "id": "scenario_02_data_engineer_search",
-    "message": "Trouve-moi un profil Data Engineer Python SQL",
-    "intent": "search_candidates",
-    "expected_contains": ["Data Engineer", "candidats"]
+    "id": "02_collect_job_title",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Collecte du titre",
+    "message": "Développeur Backend Python FastAPI MongoDB",
+    "expected_sources": ["job_intake"],
+    "expected_answer_contains": ["About the role"],
+    "expected_flags": {
+      "matching_completed": false
+    },
+    "coverage": ["six_field_collection"]
   },
   {
-    "id": "scenario_03_review_needed",
-    "message": "Quels candidats sont à vérifier ?",
-    "intent": "review_needed",
-    "expected_contains": ["review_needed", "vérifier"]
+    "id": "03_collect_about_role",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Collecte About the role",
+    "message": "Construire et maintenir des APIs backend pour une plateforme RH.",
+    "expected_sources": ["job_intake"],
+    "expected_answer_contains": ["responsabilites"],
+    "expected_flags": {
+      "matching_completed": false
+    },
+    "coverage": ["six_field_collection"]
   },
   {
-    "id": "scenario_04_explain_first_candidate",
-    "message": "Pourquoi le premier candidat est recommandé ?",
-    "intent": "explain_candidate",
-    "expected_contains": ["score", "Matching V3"]
+    "id": "04_collect_responsibilities",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Collecte responsabilités",
+    "message": "Développer des endpoints FastAPI, intégrer MongoDB, écrire des tests et documenter les APIs.",
+    "expected_sources": ["job_intake"],
+    "expected_answer_contains": ["competences obligatoires"],
+    "expected_flags": {
+      "matching_completed": false
+    },
+    "coverage": ["six_field_collection"]
   },
   {
-    "id": "scenario_05_best_candidate_gaps",
+    "id": "05_collect_required_skills",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Collecte compétences obligatoires",
+    "message": "Python, FastAPI, MongoDB, Docker, Git",
+    "expected_sources": ["job_intake"],
+    "expected_answer_contains": ["competences bonus"],
+    "expected_flags": {
+      "matching_completed": false
+    },
+    "coverage": ["six_field_collection"]
+  },
+  {
+    "id": "06_collect_bonus_skills",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Collecte compétences bonus",
+    "message": "Neo4j, LangChain, Streamlit, CI GitHub Actions",
+    "expected_sources": ["job_intake"],
+    "expected_answer_contains": ["profil recherche"],
+    "expected_flags": {
+      "matching_completed": false
+    },
+    "coverage": ["six_field_collection"]
+  },
+  {
+    "id": "07_collect_profile_and_route",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Résumé offre et routing",
+    "message": "Profil confirmé senior 3 ans minimum, autonome, à Tunis ou remote hybride.",
+    "expected_sources": ["job_intake", "job_router"],
+    "expected_answer_contains": ["Voulez-vous lancer", "Job profile"],
+    "expected_fields": ["structured_job_profile", "routed_job_id"],
+    "expected_flags": {
+      "matching_completed": false
+    },
+    "coverage": ["six_field_collection", "matching_with_routed_job_id"]
+  },
+  {
+    "id": "08_edit_before_confirmation",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Correction avant confirmation",
+    "message": "change les competences obligatoires en Python, FastAPI, MongoDB, Docker",
+    "expected_sources": ["job_intake", "job_router"],
+    "expected_answer_contains": ["mis a jour", "Voulez-vous lancer"],
+    "expected_fields": ["structured_job_profile", "routed_job_id"],
+    "expected_flags": {
+      "matching_completed": false
+    },
+    "coverage": ["pre_confirmation_correction", "matching_with_routed_job_id"]
+  },
+  {
+    "id": "09_confirm_matching",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Confirmation et matching",
+    "message": "oui lance la recherche",
+    "expected_sources": ["match_candidates", "get_decision_card", "get_transferability", "job_intake", "job_router"],
+    "expected_answer_contains": ["Recherche lancee", "Matching V3", "candidats"],
+    "expected_fields": ["routed_job_id", "matching_metadata"],
+    "expected_matching_metadata": ["resolved_job_id", "matching_mode", "artifact_source"],
+    "expected_candidates_min": 1,
+    "expected_flags": {
+      "matching_completed": true,
+      "matching_metadata.fallback_used": false
+    },
+    "coverage": ["positive_confirmation", "matching_with_routed_job_id"]
+  },
+  {
+    "id": "10_followup_explain_first",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Question de suivi sur le premier candidat",
+    "message": "Pourquoi le premier candidat ?",
+    "requires_memory": true,
+    "expected_sources": ["conversation_memory"],
+    "expected_answer_contains": ["Explication", "Matching V3"],
+    "expected_candidates_min": 1,
+    "expected_flags": {
+      "matching_completed": true
+    },
+    "coverage": ["followup_explain_first_candidate", "memory_coherence"]
+  },
+  {
+    "id": "11_followup_compare_first_two",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Comparaison premier/deuxième candidat",
+    "message": "Compare le premier et le deuxième candidat",
+    "requires_memory": true,
+    "expected_sources": ["conversation_memory"],
+    "expected_answer_contains": ["Comparaison", "candidat"],
+    "expected_candidates_min": 1,
+    "expected_flags": {
+      "matching_completed": true
+    },
+    "coverage": ["compare_first_two", "memory_coherence"]
+  },
+  {
+    "id": "12_followup_best_candidate_gaps",
+    "type": "chat",
+    "session": "demo_flow",
+    "title": "Gaps du meilleur candidat",
     "message": "Quels sont les gaps du meilleur candidat ?",
-    "intent": "gap_analysis",
-    "expected_contains": ["gaps"]
+    "requires_memory": true,
+    "expected_sources": ["conversation_memory"],
+    "expected_answer_contains": ["gaps", "transferabilite"],
+    "expected_candidates_min": 1,
+    "expected_flags": {
+      "matching_completed": true
+    },
+    "coverage": ["best_candidate_gaps", "memory_coherence"]
   },
   {
-    "id": "scenario_06_backend_transferability",
-    "message": "Est-ce que le meilleur candidat peut évoluer vers Backend Developer ?",
-    "intent": "transferability",
-    "expected_contains": ["transférabilité", "gaps"]
+    "id": "13_graph_yaml_fallback_without_neo4j",
+    "type": "endpoint",
+    "title": "Fallback YAML quand Neo4j est absent",
+    "method": "GET",
+    "path": "/api/graph/transferability/{first_candidate_id}",
+    "expected_status": 200,
+    "expected_answer_contains": ["yaml_fallback"],
+    "expected_fields": ["candidate_id", "source", "fallback_used", "warnings", "transferability"],
+    "expected_flags": {
+      "source": "yaml_fallback",
+      "fallback_used": true
+    },
+    "coverage": ["neo4j_yaml_fallback", "dependency_or_artifact_fallback"]
   },
   {
-    "id": "scenario_07_compare_first_two",
-    "message": "Compare les deux premiers candidats",
-    "intent": "compare_candidates",
-    "expected_contains": ["candidat"]
-  },
-  {
-    "id": "scenario_08_risk_or_disagreement",
-    "message": "Donne-moi les candidats avec risque ou désaccord",
-    "intent": "risk_review",
-    "expected_contains": ["review_needed", "gaps"]
+    "id": "14_match_unknown_job_id_fallback",
+    "type": "endpoint",
+    "title": "Fallback artefact Matching inconnu",
+    "method": "POST",
+    "path": "/api/match",
+    "json": {
+      "job_description": "Role inconnu pour tester le fallback artefact",
+      "job_id": "unknown_job_for_eval",
+      "top_k": 1
+    },
+    "expected_status": 200,
+    "expected_answer_contains": ["unknown_job_for_eval"],
+    "expected_fields": ["resolved_job_id", "artifact_source", "warnings", "items"],
+    "expected_flags": {
+      "resolved_job_id": "backend_python_django_postgresql",
+      "fallback_used": true
+    },
+    "coverage": ["dependency_or_artifact_fallback"]
   }
 ]

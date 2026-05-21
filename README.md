@@ -1,271 +1,242 @@
-# Smart Recruiter PFE — Pipeline intelligent de parsing, structuration et matching de CV
+# Smart Recruiter — Talent Intelligence Copilot RH
 
-Projet de fin d'études autour d'un système d'aide à la présélection RH. Le projet transforme des CV bruts en profils structurés, les stocke, les indexe, puis recommande les meilleurs candidats pour une offre donnée avec un score et une explication.
+## 1. Présentation
 
-Le système aide le recruteur à analyser plus vite un corpus de CV. Il ne remplace pas la décision humaine finale.
+Smart Recruiter est un système intelligent d'aide à la présélection RH. Il transforme des CV bruts en profils structurés, indexe les candidats, applique un matching explicable, enrichit les résultats avec ML/SHAP et Graph-RAG, puis expose un Copilot RH conversationnel via FastAPI, LangChain Tools, LangGraph et Streamlit.
 
-## Pipeline officiel
+Le système aide le recruteur à analyser plus rapidement un corpus de CV. Il ne remplace pas la décision humaine finale.
+
+## 2. Fonctionnalités principales
+
+- Parsing documentaire de CV.
+- Structuration Grounded des profils candidats.
+- Stockage MongoDB.
+- Indexation et retrieval FAISS.
+- Matching V3 explicable, baseline officielle du projet.
+- Decision Cards pour expliquer les recommandations.
+- Ranking ML expérimental avec Logistic Regression, Random Forest et XGBoost.
+- Explicabilité SHAP sur XGBoost.
+- Potential Graph YAML pour la transférabilité métier.
+- Neo4j Graph-RAG optionnel.
+- API FastAPI métier.
+- LangChain Tools autour des endpoints API.
+- LangGraph Recruiter Copilot.
+- Interface Streamlit chatbot.
+- Évaluation automatique du Copilot.
+
+## 3. Architecture globale
 
 ```text
 CV bruts
-  -> Module 1 Parsing
-  -> Handoff
-  -> Module 2 V2 Grounded
-  -> MongoDB
-  -> FAISS
-  -> Matching V3 normalized
-  -> Decision Cards v3 normalized
+  -> Parsing
+  -> Structuration Grounded
+  -> MongoDB / FAISS
+  -> Matching V3
+  -> Decision Cards
+  -> ML / SHAP
+  -> Potential Graph / Neo4j Graph-RAG
+  -> FastAPI
+  -> LangChain Tools
+  -> LangGraph Copilot
+  -> Streamlit UI
 ```
 
-## État actuel
+## 4. Modules du projet
 
-| Brique | Statut | Résultat actuel |
+| Module | Rôle | Statut |
 | --- | --- | --- |
-| Module 1 Parsing | Opérationnel | 90 CV traités |
-| Handoff Module 1 | Opérationnel | 90 accepted, 0 repair_required, 0 quarantined |
-| Module 2 V2 Grounded | Opérationnel | 90 profils grounded générés |
-| MongoDB | Opérationnel | `candidate_profiles = 90`, `candidates = 75` |
-| FAISS | Opérationnel | 90 profils indexés |
-| Matching V3 normalized | Opérationnel | 10 recommandations générées |
-| Decision Cards v3 normalized | Opérationnel | 10 cartes générées |
-| CrossEncoder | Expérimental | testé en reranking, non retenu comme baseline officielle |
-| ML / XGBoost / SHAP | Expérimental | pipeline ML fonctionnel, non production-ready |
-| API / UI / Chatbot | Non finalisés | hors baseline officielle actuelle |
+| Module 1 Parsing | Convertir les CV bruts en artefacts texte/markdown/json | Terminé |
+| Module 2 Structuring | Générer des profils candidats structurés et grounded | Terminé |
+| Storage / MongoDB | Stocker `candidate_profiles` et `candidates` | Terminé |
+| Retrieval / FAISS | Indexer les profils et récupérer les candidats proches | Terminé |
+| Matching V3 | Scoring métier explicable | Baseline officielle |
+| Decision Cards | Explication RH des recommandations | Terminé |
+| ML / SHAP | Ranking expérimental, RF/XGBoost, SHAP | Expérimental contrôlé |
+| Graph / Neo4j | Transférabilité métier et Graph-RAG optionnel | Avancé optionnel |
+| API FastAPI | Exposer les capacités métier en JSON | Terminé |
+| LangChain Tools | Wrappers tool-ready autour de l'API | Terminé |
+| LangGraph Copilot | Workflow conversationnel déterministe | Terminé version démo |
+| Streamlit UI | Interface chatbot de démonstration | Terminé |
+| Docker | Lancement API + UI + Neo4j optionnel | Ajouté |
 
-## Architecture utile du repo
+## 5. Installation locale
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+## 6. Lancer l'API FastAPI
+
+```bash
+uvicorn src.api.main:app --reload --host 127.0.0.1 --port 8010
+```
+
+Swagger :
+
+```text
+http://127.0.0.1:8010/docs
+```
+
+## 7. Lancer l'interface Streamlit
+
+```bash
+streamlit run ui/streamlit_app.py
+```
+
+URL :
+
+```text
+http://localhost:8501
+```
+
+Dans la sidebar Streamlit, mettre l'URL API :
+
+```text
+http://127.0.0.1:8010
+```
+
+## 8. Lancer avec Docker
+
+```bash
+docker compose up --build
+```
+
+URLs :
+
+- API Swagger : http://localhost:8000/docs
+- Streamlit Copilot : http://localhost:8501
+- Neo4j Browser : http://localhost:7474
+
+Pour arrêter :
+
+```bash
+docker compose down
+```
+
+## 8.1 Modes de fonctionnement
+
+### Matching V3 baseline
+
+Matching V3 reste la baseline officielle du projet. Les scores `final_score_v3` et les rangs V3 proviennent des rapports et artefacts produits par le pipeline de matching metier.
+
+### Mode demo avec artefacts Matching V3
+
+L'endpoint `POST /api/match` utilise un registre d'artefacts pre-generes dans :
+
+```text
+data/ranking/features/*.jsonl
+```
+
+Quand le Copilot cree une offre, le `job_router` choisit un `routed_job_id`. Ce `job_id` est transmis a `/api/match`, qui resout l'artefact correspondant si disponible.
+
+La reponse API expose :
+
+- `job_id` : job demande ;
+- `resolved_job_id` : job reellement utilise ;
+- `artifact_source` : fichier artefact utilise ;
+- `matching_mode` : mode de matching ;
+- `fallback_used` : indique si un fallback a ete applique ;
+- `warnings` : details si fallback.
+
+### Fallbacks
+
+Fallback officiel :
+
+```text
+backend_python_django_postgresql
+```
+
+Si aucun `job_id` n'est fourni, l'API conserve le comportement historique et utilise ce fallback comme job par defaut, sans considerer cela comme une erreur.
+
+Si un `job_id` inconnu est fourni, l'API retourne `fallback_used=true` et ajoute un warning.
+
+### Modules experimentaux
+
+Les couches Random Forest, XGBoost, SHAP, ML comparison cards et Graph-RAG enrichissent l'analyse, mais ne remplacent pas Matching V3. Les modeles ML restent entraines sur pseudo-labels metier controles, pas sur labels recruteur reels.
+
+## 9. Exemple d'utilisation du Copilot
+
+Flow recommandé pour la démonstration :
+
+```text
+nouvelle offre
+```
+
+Le Copilot collecte ensuite les 6 champs de l'offre, permet une correction avant confirmation, puis lance le matching avec :
+
+```text
+oui lance la recherche
+```
+
+Questions de suivi utiles :
+
+```text
+Pourquoi le premier candidat ?
+Compare le premier et le deuxième candidat
+Quels sont les gaps du meilleur candidat ?
+```
+
+Le script complet de soutenance se trouve dans :
+
+- `docs/demo/demo_script.md`
+
+## 10. Évaluation
+
+Le protocole d'évaluation du Copilot se trouve dans :
+
+- `data/evaluation/copilot_eval_scenarios.json`
+- `scripts/evaluate_copilot.py`
+- `docs/reports/copilot/copilot_evaluation.json`
+- `docs/reports/copilot/copilot_evaluation.md`
+
+État actuel :
+
+- 14 scénarios évalués ;
+- flow offre -> correction -> confirmation -> matching -> suivis couvert ;
+- métriques : tool calling accuracy, hallucination-free rate, latence `/api/chat`, cohérence mémoire ;
+- fallback Neo4j/YAML et fallback artefact Matching couverts ;
+- pas encore de validation recruteur humaine.
+
+## 11. Limites connues
+
+- Les modèles ML sont entraînés sur pseudo-labels métier contrôlés.
+- Les pseudo-labels ne sont pas des labels recruteur réels.
+- Matching V3 reste la baseline officielle.
+- Neo4j est optionnel ; le fallback YAML reste disponible.
+- Pas encore de mémoire longue conversationnelle.
+- Pas encore de planner LLM avancé.
+- Pas encore d'intégration ATS.
+- Les données CV sensibles ne doivent pas être versionnées.
+
+## 12. Roadmap future
+
+- Collecter des labels recruteur réels.
+- Ajouter une mémoire conversationnelle courte puis longue.
+- Ajouter un planner LLM contrôlé.
+- Enrichir Neo4j Graph-RAG.
+- Créer une interface Next.js.
+- Ajouter une intégration ATS.
+- Préparer un déploiement cloud.
+
+## 13. Structure du projet
 
 ```text
 src/
-  core/parser/          # Module 1 Parsing documentaire
-  core/structuring/     # Module 2 V2 Grounded
-  core/storage/         # Import et stockage MongoDB
-  core/matching/        # FAISS, scoring métier, Matching V3
-  core/retrieval/       # Expériences CrossEncoder
-  benchmark/            # Benchmark OCR isolé
+  api/                 # API FastAPI
+  core/                # Modules métier : parsing, matching, ranking, graph, chatbot
+  benchmark/           # Benchmarks OCR
+  models/              # Modèles/schémas applicatifs existants
 
-scripts/                # Scripts d'exécution, rapports, ML, SHAP
-docs/reports/           # Rapports de démo, matching, retrieval, ML
-data/job_descriptions/  # Offres au format texte
-data/job_profiles/      # Offres structurées en JSON
-data/indexes/faiss/     # Index FAISS, id_map et rapport d'indexation
+scripts/               # Scripts d'orchestration, ML, graph, démo, maintenance
+data/                  # Données, artefacts, job profiles, ranking, graph
+docs/                  # Architecture et rapports
+tests/                 # Tests API, graph, ML, demo, copilot
+ui/                    # Interface Streamlit
 ```
 
-## Modules
+## 14. Auteur
 
-### Module 1 — Parsing documentaire
-
-Le Module 1 lit les CV bruts et produit des artefacts documentaires exploitables par la suite du pipeline.
-
-- Parseur principal : `Docling`
-- Fallback OCR : `PyTesseract`
-- Formats d'artefacts : Markdown, texte, JSON, HTML
-- Évaluation qualité documentaire
-- Handoff vers trois files : `accepted`, `repair_required`, `quarantined`
-
-Résultat actuel : les 90 CV du corpus de démo passent en `accepted`.
-
-### Module 2 — Structuration Grounded
-
-Le Module 2 lit le Markdown produit par le Module 1 et génère des profils candidats structurés.
-
-- Entrée : Markdown Module 1
-- LLM via Groq ou Ollama local
-- Validation par schémas Pydantic
-- Validation grounded pour limiter les hallucinations
-- Calcul de `reliability_score`
-- Signalement de `hallucination_risk`
-
-Résultat actuel : 90 profils grounded générés.
-
-### MongoDB
-
-MongoDB sert au stockage applicatif des profils structurés.
-
-- Base : `talent_intelligence`
-- Collections principales :
-  - `candidate_profiles`
-  - `candidates`
-
-État actuel observé : `candidate_profiles = 90`, `candidates = 75`.
-
-### FAISS
-
-FAISS est le moteur officiel de retrieval vectoriel du projet.
-
-- Modèle d'embedding : `sentence-transformers/all-MiniLM-L6-v2`
-- Index : `data/indexes/faiss/cv_index.faiss`
-- Mapping : `data/indexes/faiss/id_map.pkl`
-- Rapport : `data/indexes/faiss/index_report.json`
-
-État actuel : 90 profils indexés.
-
-### Matching V3 normalized
-
-Matching V3 normalized combine retrieval FAISS et scoring métier.
-
-Il prend en compte notamment :
-
-- `must_have_coverage`
-- `matched_skills`
-- `missing_required_skills`
-- `reliability_score`
-- `hallucination_risk`
-- pénalités métier
-- score final normalisé
-
-La baseline officielle actuelle est :
-
-```text
-FAISS -> Matching V3 normalized -> Decision Cards v3 normalized
-```
-
-### Decision Cards v3 normalized
-
-Les Decision Cards transforment les résultats de matching en cartes lisibles pour un recruteur.
-
-Chaque carte contient notamment :
-
-- verdict
-- score
-- forces
-- faiblesses
-- points à vérifier en entretien (`interview_focus`)
-
-Ces cartes ne sont pas une décision automatique finale. Elles servent d'aide à l'analyse.
-
-### CrossEncoder
-
-Le CrossEncoder a été testé comme reranking expérimental.
-
-- Version non contrainte : dangereuse car elle peut remonter des candidats non adaptés.
-- Version contrainte : plus sûre, mais trop restrictive dans les résultats observés.
-- Décision actuelle : le CrossEncoder reste expérimental et n'est pas la baseline officielle.
-
-### ML expérimental
-
-Une première couche ML expérimentale existe pour tester la faisabilité d'un apprentissage supervisé contrôlé.
-
-Elle inclut :
-
-- Feature Builder
-- pseudo-labels métier contrôlés
-- Logistic Regression
-- Random Forest
-- XGBoost
-- rapports SHAP sur XGBoost
-
-Important : ces modèles ne sont pas production-ready. Les pseudo-labels ne sont pas des labels recruteur. Les résultats ML valident surtout le pipeline expérimental, pas une supériorité réelle sur des décisions humaines.
-
-## Démo actuelle
-
-Fichiers utiles pour vérifier rapidement l'état de la démo :
-
-- `docs/reports/demo/demo_readiness_check.json`
-- `data/processed_official_module1/handoff/accepted.json`
-- `data/indexes/faiss/index_report.json`
-- `data/job_profiles/backend_python_fastapi_mongodb.json`
-- `docs/reports/matching/v3/matching_report_v3_normalized.json`
-- `docs/reports/matching/v3/decision_cards_v3_normalized.json`
-- `docs/reports/retrieval/faiss_cross_encoder_ablation_summary.json`
-
-## Démo end-to-end en une commande
-
-Objectif : régénérer les rapports principaux de démonstration sans réentraîner de modèle et sans modifier les briques métier existantes.
-
-```bash
-python scripts/run_demo_end_to_end.py \
-  --features data/ranking/features/backend_python_django_postgresql.jsonl \
-  --job data/job_profiles/backend_python_django_postgresql.json \
-  --profiles-dir data/profile_builder_module2_v2_grounded_all/profiles/grounded_profiles \
-  --graph data/graph/skills_roles_graph.yaml \
-  --rf-model data/ranking/models/random_forest.joblib \
-  --xgb-ranking docs/reports/ml/xgboost_primary_ranking.json \
-  --feature-names data/ranking/models/feature_names.json \
-  --cards-ml docs/reports/decision_cards/decision_cards_ml_comparison.json \
-  --output-dir docs/reports/demo
-```
-
-Rapports principaux à ouvrir après exécution :
-
-- `docs/reports/demo/demo_executive_summary.md` : version courte avec top 3 recommandés et top 3 à vérifier.
-- `docs/reports/demo/demo_summary_top10.md` : vue détaillée du top 10 avec Matching V3, ML, SHAP et Potential Graph.
-- `docs/reports/demo/demo_run_summary.md` : artefacts vérifiés et générés par la commande de démo.
-- `docs/reports/demo/demo_run_manifest.json` : statut machine-readable du run.
-
-## Architecture de démo
-
-- Matching V3 : baseline officielle et feature engine métier.
-- Random Forest : meilleur modèle ML actuel selon les métriques observées.
-- XGBoost : modèle avancé utilisé pour SHAP et l'analyse.
-- Potential Graph : analyse déclarative de transférabilité métier.
-- Decision Cards : interface explicative pour lire les scores, forces, limites et points à vérifier.
-
-## Limites connues
-
-- Les modèles ML utilisent des pseudo-labels métier contrôlés.
-- Les labels recruteur réels sont une amélioration future nécessaire.
-- Matching V3 reste la baseline officielle.
-- Les scores ML servent à la comparaison et à l'analyse, pas à une décision automatique finale.
-
-## Commandes principales
-
-Module 1 Parsing :
-
-```bash
-python src/core/parser/run_docling_pipeline.py
-```
-
-Le script utilise les chemins configurables par variables d'environnement, notamment `MODULE1_RAW_ROOT`, `MODULE1_OUT_ROOT` et `MODULE1_REPORT_PATH`.
-
-Module 2 V2 Grounded :
-
-```bash
-python -m src.core.structuring.profile_builder_grounded --run-all --resume
-```
-
-Matching V3 normalized :
-
-```bash
-python scripts/run_matching_v3_normalized.py \
-  --job-profile data/job_profiles/backend_python_fastapi_mongodb.json \
-  --output-report docs/reports/matching/v3/matching_report_v3_normalized.json \
-  --top-k 10
-```
-
-Decision Cards v3 normalized :
-
-```bash
-python scripts/generate_decision_cards_v3_normalized.py
-```
-
-Demo readiness check :
-
-```bash
-python scripts/check_demo_readiness.py
-```
-
-Pour les autres expérimentations, voir `scripts/`.
-
-## Ce qui n'est pas finalisé
-
-- API complète
-- UI complète
-- Chatbot RH
-- labels recruteur
-- ML supervisé final
-- Docker complet
-- CI complet
-
-## Décisions importantes
-
-- FAISS est le retrieval officiel.
-- Qdrant n'est pas utilisé dans la baseline actuelle.
-- Matching V3 normalized est la baseline de matching officielle.
-- Decision Cards v3 normalized est la sortie explicative officielle actuelle.
-- CrossEncoder reste expérimental.
-- XGBoost et SHAP restent expérimentaux sans labels humains.
-- Le système assiste le recruteur, mais ne le remplace pas.
-
-## Note GitHub
-
-Certaines données lourdes ou sensibles peuvent être ignorées selon `.gitignore`. Le dépôt sert à présenter le code, les rapports, les résultats et l'état actuel du pipeline.
+Hichem Bensalah  
+Projet PFE — Smart Recruiter

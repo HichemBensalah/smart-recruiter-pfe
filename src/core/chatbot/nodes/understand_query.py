@@ -8,6 +8,7 @@ from src.core.chatbot.state import RecruiterCopilotState
 def understand_query_node(state: RecruiterCopilotState) -> RecruiterCopilotState:
     user_message = str(state.get("user_message") or "").strip()
     lowered = user_message.lower()
+    intent = _detect_intent(lowered)
     target_role = "Backend Developer"
     if "data engineer" in lowered or "data engineering" in lowered:
         target_role = "Data Engineer"
@@ -27,6 +28,7 @@ def understand_query_node(state: RecruiterCopilotState) -> RecruiterCopilotState
     top_k = _extract_top_k(user_message) or int(state.get("top_k") or 5)
     top_k = max(1, min(10, top_k))
     return {
+        "intent": intent,
         "job_description": user_message,
         "target_role": target_role,
         "top_k": top_k,
@@ -39,6 +41,26 @@ def _extract_top_k(message: str) -> int | None:
     if match:
         return int(match.group(1))
     return None
+
+
+def _detect_intent(lowered_message: str) -> str:
+    if _contains_any(lowered_message, ["pourquoi", "recommandé", "recommande", "premier candidat"]):
+        return "explain_candidate"
+    if _contains_any(lowered_message, ["à vérifier", "a verifier", "verifier", "review", "risque", "désaccord", "desaccord"]):
+        return "review_needed"
+    if _contains_any(lowered_message, ["gap", "gaps", "manque", "manquants", "compétences manquantes", "competences manquantes"]):
+        return "gap_analysis"
+    if _contains_any(lowered_message, ["compare", "comparer", "différence", "difference", "deux premiers"]):
+        return "compare_candidates"
+    if _contains_any(lowered_message, ["évoluer", "evoluer", "transition", "transférabilité", "transferabilite", "transferability"]):
+        return "transferability"
+    if _contains_any(lowered_message, ["cherche", "trouve", "profil", "candidat", "recrute"]):
+        return "search_candidates"
+    return "search_candidates"
+
+
+def _contains_any(text: str, keywords: list[str]) -> bool:
+    return any(keyword in text for keyword in keywords)
 
 
 def _append_unique(values: list[str], additions: list[str]) -> list[str]:

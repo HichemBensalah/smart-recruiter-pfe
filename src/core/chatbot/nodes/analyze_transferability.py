@@ -9,9 +9,29 @@ from src.core.chatbot.tools.graph_tools import (
 )
 
 
+FOLLOW_UP_INTENTS = {
+    "explain_candidate",
+    "review_needed",
+    "gap_analysis",
+    "compare_candidates",
+    "transferability",
+}
+
+
 def analyze_transferability_node(state: RecruiterCopilotState) -> RecruiterCopilotState:
     warnings = list(state.get("warnings", []))
     sources = list(state.get("sources", []))
+    existing_transferability = state.get("transferability", {})
+    if state.get("intent") in FOLLOW_UP_INTENTS and existing_transferability:
+        if "conversation_memory" not in sources:
+            sources.append("conversation_memory")
+        return {
+            "transferability": existing_transferability,
+            "neo4j_available": bool(state.get("neo4j_available", False)),
+            "warnings": warnings,
+            "sources": sources,
+        }
+
     target_role = str(state.get("target_role") or "Backend Developer")
     transferability: dict[str, Any] = {}
     neo4j_available = False

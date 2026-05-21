@@ -6,6 +6,8 @@ from urllib.parse import urljoin
 
 import httpx
 
+from src.api.config import load_api_settings
+
 
 DEFAULT_API_BASE_URL = "http://localhost:8000"
 DEFAULT_TIMEOUT_SECONDS = 10.0
@@ -39,9 +41,10 @@ class SmartRecruiterApiClient:
         json_payload: dict[str, Any] | None = None,
     ) -> dict[str, Any]:
         url = self.build_url(path)
+        headers = self._auth_headers()
         try:
             with httpx.Client(timeout=self.timeout) as client:
-                response = client.request(method, url, params=params, json=json_payload)
+                response = client.request(method, url, params=params, json=json_payload, headers=headers)
         except httpx.RequestError as exc:
             raise SmartRecruiterApiError(f"Smart Recruiter API unavailable: {exc}") from exc
 
@@ -56,6 +59,12 @@ class SmartRecruiterApiClient:
         if not isinstance(payload, dict):
             raise SmartRecruiterApiError("Smart Recruiter API response must be a JSON object")
         return payload
+
+    def _auth_headers(self) -> dict[str, str]:
+        settings = load_api_settings()
+        if settings.auth_enabled and settings.api_key:
+            return {settings.api_key_header: settings.api_key}
+        return {}
 
 
 def _extract_error_detail(response: httpx.Response) -> str:

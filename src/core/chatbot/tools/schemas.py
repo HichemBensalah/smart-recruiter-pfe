@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 class MatchCandidatesInput(BaseModel):
     job_description: str = Field(..., min_length=1, description="Job description or hiring need.")
     top_k: int = Field(default=10, ge=1, le=50, description="Maximum number of candidates to return.")
+    job_id: str | None = Field(default=None, description="Optional routed job identifier used to select a matching artifact.")
 
 
 class CandidateProfileInput(BaseModel):

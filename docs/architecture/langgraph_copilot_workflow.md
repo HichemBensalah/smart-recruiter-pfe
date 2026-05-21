@@ -25,6 +25,7 @@ Chaque node a une responsabilite unique et peut etre teste sans serveur FastAPI 
 L'etat `RecruiterCopilotState` contient :
 
 - `user_message`
+- `intent`
 - `job_description`
 - `top_k`
 - `target_role`
@@ -49,6 +50,22 @@ Analyse deterministe du message recruteur :
 
 Le node fixe `job_description = user_message` et `top_k = 5` par defaut.
 
+## Intent routing
+
+Cette version ne fait pas appel a un LLM pour detecter l'intention. Le routage est deterministe et base sur des mots-cles.
+
+| Intent | Mots-cles indicatifs | Reponse attendue |
+| --- | --- | --- |
+| `search_candidates` | `cherche`, `trouve`, `profil`, `candidat`, `recrute` | Liste courte des meilleurs candidats avec scores et signaux principaux |
+| `explain_candidate` | `pourquoi`, `recommandé`, `recommande`, `premier candidat` | Explication focalisee sur le premier candidat |
+| `review_needed` | `à vérifier`, `verifier`, `review`, `risque`, `désaccord`, `desaccord` | Liste des candidats a verifier uniquement |
+| `gap_analysis` | `gap`, `gaps`, `manque`, `manquants`, `competences manquantes` | Analyse des gaps compensables et bloquants |
+| `compare_candidates` | `compare`, `comparer`, `difference`, `deux premiers` | Comparaison des deux premiers candidats |
+| `transferability` | `evoluer`, `transition`, `transférabilité`, `transferability` | Analyse de transferabilite, fit direct, transitions et gaps |
+| `unknown` | non utilise pour l'instant | Fallback vers `search_candidates` |
+
+Limite : ce routage est volontairement simple. Une evolution future pourra ajouter un planner LLM contraint pour gerer des formulations plus variees.
+
 ### match_candidates
 
 Appelle le tool `match_candidates`, qui utilise `POST /api/match`.
@@ -68,7 +85,7 @@ Si Neo4j est indisponible, le workflow conserve le fallback YAML.
 
 ### compose_answer
 
-Construit une reponse naturelle en francais uniquement avec les donnees presentes dans l'etat :
+Construit une reponse naturelle en francais selon `intent`, uniquement avec les donnees presentes dans l'etat :
 
 - candidats retournes ;
 - scores fournis ;

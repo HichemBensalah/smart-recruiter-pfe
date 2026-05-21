@@ -34,8 +34,13 @@ def test_expected_tool_names_are_registered() -> None:
 
 
 def test_match_tool_can_be_mocked(monkeypatch) -> None:
-    def fake_match_candidates(job_description: str, top_k: int = 10):
-        return {"items": [{"candidate_id": "candidate_1"}], "top_k": top_k, "job_description": job_description}
+    def fake_match_candidates(job_description: str, top_k: int = 10, job_id: str | None = None):
+        return {
+            "items": [{"candidate_id": "candidate_1"}],
+            "top_k": top_k,
+            "job_description": job_description,
+            "job_id": job_id,
+        }
 
     monkeypatch.setattr("src.core.chatbot.tools.match_tools.match_candidates", fake_match_candidates)
     mocked_tool = match_candidates_tool

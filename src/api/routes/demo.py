@@ -1,7 +1,9 @@
 from __future__ import annotations
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 
+from src.api.auth import require_api_key
+from src.api.schemas import DemoRunResponse
 from src.api.utils import DEMO_EXECUTIVE_SUMMARY, DEMO_RUN_MANIFEST, DEMO_TOP10_SUMMARY, read_json_file, run_demo_script
 
 
@@ -23,6 +25,6 @@ def get_run_summary() -> dict:
     return read_json_file(DEMO_RUN_MANIFEST, "demo run manifest")
 
 
-@router.post("/run")
+@router.post("/run", response_model=DemoRunResponse, dependencies=[Depends(require_api_key)])
 def run_demo() -> dict:
     return run_demo_script()

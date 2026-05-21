@@ -162,7 +162,7 @@ def _query_candidate_skills(tx: Any, candidate_id: str) -> list[str]:
 def _query_role_requirements(tx: Any, role_name: str) -> dict[str, list[str]]:
     required = tx.run(
         """
-        MATCH (:Role {name: $role_name})-[:REQUIRES_SKILL]->(s:Skill)
+        MATCH (:Role {name: $role_name})-[:REQUIRES|REQUIRES_SKILL]->(s:Skill)
         RETURN s.name AS name
         ORDER BY toLower(s.name)
         """,
@@ -170,7 +170,7 @@ def _query_role_requirements(tx: Any, role_name: str) -> dict[str, list[str]]:
     )
     adjacent = tx.run(
         """
-        MATCH (:Role {name: $role_name})-[:HAS_ADJACENT_SKILL]->(s:Skill)
+        MATCH (:Role {name: $role_name})-[:RELATED_TO|HAS_ADJACENT_SKILL]->(s:Skill)
         RETURN s.name AS name
         ORDER BY toLower(s.name)
         """,

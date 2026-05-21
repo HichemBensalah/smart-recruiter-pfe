@@ -1,0 +1,30 @@
+{
+  "status": "not_run",
+  "generated_at": "2026-05-19T00:00:00+00:00",
+  "roles_count": 0,
+  "skills_count": 0,
+  "jobs_count": 0,
+  "candidates_count": 0,
+  "relations_count": 0,
+  "fallback_available": true,
+  "cdc_nodes": [
+    "Role",
+    "Skill",
+    "Job",
+    "Candidate"
+  ],
+  "cdc_relations": [
+    "REQUIRES",
+    "RELATED_TO",
+    "TRANSITIONS_TO",
+    "HAS_SKILL",
+    "FITS_ROLE"
+  ],
+  "compatibility_relations": [
+    "REQUIRES_SKILL",
+    "HAS_ADJACENT_SKILL"
+  ],
+  "warnings": [
+    "This report is a placeholder until scripts/import_graph_to_neo4j.py is executed against a live Neo4j instance."
+  ]
+}

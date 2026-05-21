@@ -23,7 +23,25 @@ models/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.cache/
 .ipynb_checkpoints/
 .DS_Store
 .tmp/
 .tmp_pytest/
+
+# Coverage / build outputs
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Temporary editor/system files
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Local model caches. Existing tracked files are not removed by this rule.
+data/indexes/faiss/hf_cache/
