@@ -47,6 +47,56 @@ def test_chat_endpoint_returns_copilot_response(monkeypatch) -> None:
     assert payload["matching_metadata"]["matching_mode"] == "matching_v3_job_artifact"
 
 
+def test_chat_endpoint_enriches_candidate_names_and_preserves_order(monkeypatch) -> None:
+    def fake_run_recruiter_copilot_with_memory(message: str, session_id: str | None = None) -> dict:
+        return {
+            "session_id": session_id or "generated-session",
+            "answer": "ok",
+            "candidates": [
+                {"candidate_id": "candidate_1487f3187f7b", "baseline_rank_v3": 1},
+                {"candidate_id": "candidate_without_known_name", "baseline_rank_v3": 2},
+                {"candidate_id": "candidate_f74acce78f96", "baseline_rank_v3": 3},
+            ],
+            "decision_cards": [],
+            "transferability": {},
+            "sources": [],
+            "warnings": [],
+            "routed_job_id": "machine_learning_python_nlp",
+        }
+
+    monkeypatch.setattr(
+        "src.api.routes.chat.run_recruiter_copilot_with_memory",
+        fake_run_recruiter_copilot_with_memory,
+    )
+    client = TestClient(app)
+
+    response = client.post("/api/chat", json={"message": "Backend Python", "session_id": "session-names"})
+
+    assert response.status_code == 200
+    candidates = response.json()["candidates"]
+    assert [candidate["candidate_id"] for candidate in candidates] == [
+        "candidate_1487f3187f7b",
+        "candidate_without_known_name",
+        "candidate_f74acce78f96",
+    ]
+    assert [candidate["candidate_name"] for candidate in candidates] == [
+        "Hichem Bensalah",
+        None,
+        "SONA MAYERT",
+    ]
+    assert candidates[0]["display_name_source"] == "decision_card"
+    assert candidates[1]["display_name_source"] == "anonymized_artifact"
+    assert candidates[2]["display_name_source"] == "grounded_profile"
+    assert candidates[0]["cv_available"] is True
+    assert candidates[0]["cv_filename"] == "Hichem_resume.pdf"
+    assert candidates[0]["cv_download_url"] == (
+        "/api/candidates/candidate_1487f3187f7b/cv?job_id=machine_learning_python_nlp"
+    )
+    assert candidates[1]["cv_available"] is False
+    assert candidates[2]["cv_available"] is True
+    assert candidates[2]["cv_filename"] == "Image_73.pdf"
+
+
 def test_chat_endpoint_requires_api_key_when_auth_is_enabled(monkeypatch) -> None:
     monkeypatch.setenv("AUTH_ENABLED", "true")
     monkeypatch.setenv("SMART_RECRUITER_API_KEY", "test-secret")

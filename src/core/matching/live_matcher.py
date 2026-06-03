@@ -50,6 +50,7 @@ class LiveMatchResult:
     retrieval_source: str | None = None
     scoring_source: str = "matching_v3.score_candidate"
     job_profile: dict[str, Any] = field(default_factory=dict)
+    dedup_info: dict[str, Any] = field(default_factory=dict)
 
 
 class LiveMatcher:
@@ -68,28 +69,50 @@ class LiveMatcher:
         self.id_map_loader = id_map_loader
         self.model_loader = model_loader
 
-    def match(self, *, job_description: str, job_id: str | None = None, top_k: int | None = None) -> LiveMatchResult:
+    def match(
+        self,
+        *,
+        job_description: str,
+        job_id: str | None = None,
+        top_k: int | None = None,
+        structured_job_profile: dict[str, Any] | None = None,
+    ) -> LiveMatchResult:
         requested_top_k = top_k or self.settings.default_top_k
         warnings: list[str] = []
-        job_profile = self._resolve_job_profile(job_description=job_description, job_id=job_id, warnings=warnings)
-        resolved_job_id = job_profile.get("job_id") or job_id
+        if structured_job_profile is not None:
+            job_profile = dict(structured_job_profile)
+            job_profile.setdefault("raw_job_description", job_description)
+        else:
+            job_profile = self._resolve_job_profile(
+                job_description=job_description, job_id=job_id, warnings=warnings
+            )
+        resolved_job_id = (
+            job_profile.get("generated_job_id")
+            or job_profile.get("job_id")
+            or job_id
+        )
         retrieved_rows = self._retrieve_candidates(job_profile=job_profile, top_n=max(self.settings.top_n, requested_top_k))
-        profile_ids = [str(row.get("profile_id")) for row in retrieved_rows if row.get("profile_id")]
-        profiles_by_id = self.repositories.candidate_profiles.get_profiles_by_ids(profile_ids)
+        resolved_profiles = self._resolve_profiles_for_rows(retrieved_rows)
 
         matches: list[dict[str, Any]] = []
-        for row in retrieved_rows:
-            profile_id = str(row.get("profile_id") or "")
-            profile = profiles_by_id.get(profile_id)
+        unresolved_count = 0
+        for row, profile in zip(retrieved_rows, resolved_profiles):
             if not profile:
-                warnings.append(f"Candidate profile not found in MongoDB for profile_id={profile_id}.")
+                unresolved_count += 1
                 continue
             matches.append(self._score_retrieved_profile(job_profile=job_profile, profile=profile, retrieval_row=row))
+
+        if unresolved_count:
+            warnings.append(
+                f"{unresolved_count} profil(s) retournes par FAISS non resolus dans MongoDB "
+                f"(profile_id/artifact_path/source_path/candidate_id)."
+            )
 
         if not matches:
             raise LiveMatchingUnavailable("Live matching found no scoreable candidate profiles from MongoDB.")
 
         unique_candidates = select_best_profile_per_candidate(group_by_candidate_id(matches))
+        unique_candidates, dedup_info = deduplicate_by_identity(unique_candidates)
         items: list[dict[str, Any]] = []
         for rank, recommendation in enumerate(unique_candidates[:requested_top_k], start=1):
             item = dict(recommendation)
@@ -125,7 +148,24 @@ class LiveMatcher:
             data_source=data_source,
             retrieval_source=f"faiss:{self.settings.faiss_index_path.as_posix()}",
             job_profile=job_profile,
+            dedup_info=dedup_info,
         )
+
+    def _resolve_profiles_for_rows(self, retrieved_rows: list[dict[str, Any]]) -> list[dict[str, Any] | None]:
+        """Resolve FAISS retrieval rows to MongoDB documents using a robust key strategy.
+
+        Prefers the repository's multi-key resolver (profile_id -> artifact_path ->
+        source_path -> candidate_id). Falls back to the legacy profile_id-only lookup
+        for repositories that do not implement the richer resolver.
+        """
+        repository = self.repositories.candidate_profiles
+        resolver = getattr(repository, "resolve_profiles_for_rows", None)
+        if callable(resolver):
+            return resolver(retrieved_rows)
+
+        profile_ids = [str(row.get("profile_id")) for row in retrieved_rows if row.get("profile_id")]
+        profiles_by_id = repository.get_profiles_by_ids(profile_ids)
+        return [profiles_by_id.get(str(row.get("profile_id") or "")) for row in retrieved_rows]
 
     def _resolve_job_profile(self, *, job_description: str, job_id: str | None, warnings: list[str]) -> dict[str, Any]:
         if job_id:
@@ -214,6 +254,12 @@ class LiveMatcher:
             "name_warning": name_warning,
             "profile_kind": normalized_profile.get("profile_kind"),
             "source_path": normalized_profile.get("source_path"),
+            "email_normalized": normalized_profile.get("email_normalized"),
+            "email_class": normalized_profile.get("email_class"),
+            "phone_normalized": normalized_profile.get("phone_normalized"),
+            "phone_class": normalized_profile.get("phone_class"),
+            "name_normalized": normalized_profile.get("name_normalized"),
+            "has_valid_name": normalized_profile.get("has_valid_name"),
             "provider_route": normalized_profile.get("provider_route"),
             "job_seniority": job_seniority,
             "candidate_seniority": candidate_seniority,
@@ -326,6 +372,85 @@ def normalize_candidate_profile_for_matching(document: dict[str, Any]) -> dict[s
         "fields_nullified": fields_nullified,
         "fields_nullified_count": len(fields_nullified),
     }
+
+
+def candidate_identity_key(item: dict[str, Any]) -> tuple[str, str]:
+    """Compute a stable cross-candidate_id identity key for deduplication.
+
+    The MongoDB pipeline can keep the same real person under two distinct
+    candidate_ids (e.g. a docx CV merged by phone vs an image CV with no phone),
+    so grouping by candidate_id alone is not enough. We use a priority of strong
+    identity signals and only fall back to weaker ones to avoid false merges:
+
+        real email -> real phone -> valid name_normalized -> source_path stem
+        -> candidate_id
+
+    Garbage names (image OCR) are NOT used as a merge key (has_valid_name gate),
+    so distinct people without contact info stay separate.
+    """
+    email = str(item.get("email_normalized") or "").strip().lower()
+    if email and str(item.get("email_class")) == "real":
+        return ("email", email)
+
+    phone = str(item.get("phone_normalized") or "").strip()
+    if phone and str(item.get("phone_class")) == "real":
+        return ("phone", phone)
+
+    if item.get("has_valid_name"):
+        name_norm = str(item.get("name_normalized") or "").strip().lower()
+        if name_norm:
+            return ("name_normalized", name_norm)
+
+    source_path = str(item.get("source_path") or "").strip().lower().replace("\\", "/")
+    if source_path:
+        stem = source_path.rsplit(".", 1)[0]
+        return ("source_path", stem)
+
+    return ("candidate_id", str(item.get("candidate_id") or ""))
+
+
+def deduplicate_by_identity(
+    candidates: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Remove entries representing the same person from an already score-sorted list.
+
+    Keeps the first occurrence per identity key (highest score, since the input is
+    sorted by score descending). Never mutates scores or documents. Returns the
+    deduplicated list plus a metadata dict describing what was filtered.
+    """
+    seen: dict[tuple[str, str], dict[str, Any]] = {}
+    deduped: list[dict[str, Any]] = []
+    duplicate_groups: list[dict[str, Any]] = []
+    removed_count = 0
+
+    for candidate in candidates:
+        key = candidate_identity_key(candidate)
+        if key[0] == "candidate_id":
+            # No reliable identity signal — keep as a distinct candidate.
+            deduped.append(candidate)
+            continue
+        kept = seen.get(key)
+        if kept is None:
+            seen[key] = candidate
+            deduped.append(candidate)
+        else:
+            removed_count += 1
+            duplicate_groups.append(
+                {
+                    "identity_key_type": key[0],
+                    "identity_key_value": key[1],
+                    "kept_candidate_id": kept.get("candidate_id"),
+                    "removed_candidate_id": candidate.get("candidate_id"),
+                    "removed_profile_id": candidate.get("matched_profile_id"),
+                }
+            )
+
+    info = {
+        "duplicate_candidates_filtered": removed_count > 0,
+        "duplicates_removed_count": removed_count,
+        "duplicate_groups": duplicate_groups,
+    }
+    return deduped, info
 
 
 def _features_from_match(item: dict[str, Any]) -> dict[str, Any]:

@@ -48,6 +48,13 @@ CV bruts
   -> Streamlit UI
 ```
 
+## Comprendre l'architecture
+
+- `docs/architecture/module_map.md` : cartographie des modules du projet.
+- `docs/architecture/repo_map.md` : role des dossiers principaux.
+- `docs/architecture/official_vs_experimental.md` : separation entre baseline officielle, experimental et partiel.
+- `docs/architecture/cleanup_candidates.md` : candidats au nettoyage, sans suppression automatique.
+
 ## Installation locale
 
 ```bash

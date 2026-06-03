@@ -160,6 +160,8 @@ def detect_offer_reset_request(message: str) -> bool:
 
 
 def reset_job_intake(memory: ConversationMemory) -> dict[str, Any]:
+    from src.core.chatbot.runtime_store import clear_all_runtime
+
     memory.mode = None
     memory.job_intake = None
     memory.pending_confirmation = None
@@ -170,11 +172,16 @@ def reset_job_intake(memory: ConversationMemory) -> dict[str, Any]:
     memory.current_job_profile = None
     memory.routed_job_id = None
     memory.job_description = None
+    memory.last_job_query = None
     memory.job_intake_state = None
     memory.last_candidates = []
     memory.last_decision_cards = []
     memory.last_transferability = {}
     memory.selected_candidate_id = None
+
+    # Clean up runtime files when starting a new offer
+    clear_all_runtime()
+
     return start_job_intake(memory)
 
 
@@ -464,22 +471,6 @@ def _dedupe(values: list[str]) -> list[str]:
             seen.add(key)
             result.append(value)
     return result
-
-
-def _normalize(value: str) -> str:
-    replacements = {
-        "é": "e",
-        "è": "e",
-        "ê": "e",
-        "à": "a",
-        "â": "a",
-        "ù": "u",
-        "ç": "c",
-    }
-    lowered = value.lower()
-    for source, target in replacements.items():
-        lowered = lowered.replace(source, target)
-    return lowered
 
 
 def _normalize(value: str) -> str:

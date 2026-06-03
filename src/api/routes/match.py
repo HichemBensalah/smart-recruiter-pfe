@@ -24,6 +24,25 @@ from src.core.storage.repositories import RepositoryUnavailableError, create_mon
 router = APIRouter(prefix="/api/match", tags=["matching"], dependencies=[Depends(require_api_key)])
 
 
+@router.get("/live-readiness")
+def live_readiness() -> dict:
+    """
+    Diagnostic endpoint: checks whether MongoDB, FAISS, id_map and
+    SentenceTransformer are available for live matching.
+    Returns live_ready=true only when all dependencies are satisfied.
+    """
+    from src.core.chatbot.live_readiness import check_live_matching_readiness
+
+    data_settings = _load_data_settings_or_error()
+    matching_settings = _load_matching_settings_or_error()
+    return check_live_matching_readiness(
+        mongodb_uri=data_settings.mongodb_uri,
+        mongodb_database=data_settings.mongodb_database,
+        faiss_index_path=matching_settings.faiss_index_path,
+        faiss_id_map_path=matching_settings.faiss_id_map_path,
+    )
+
+
 METHODOLOGICAL_NOTE = (
     "Matching V3 reste la baseline officielle. Cet endpoint utilise les artefacts Matching V3 deja generes "
     "pour le job_id demande quand ils existent. Si l'artefact n'existe pas, un fallback explicite est applique. "

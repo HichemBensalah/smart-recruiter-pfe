@@ -286,6 +286,72 @@ class CandidateProfileRepository(BaseMongoRepository):
 
         return self._run("get_profiles_by_ids", operation)
 
+    def resolve_profiles_for_rows(self, rows: list[dict[str, Any]]) -> list[dict[str, Any] | None]:
+        """Resolve each FAISS retrieval row to a MongoDB candidate profile document.
+
+        FAISS ``id_map.pkl`` and MongoDB ``candidate_profiles`` can be built from
+        different runs, so ``profile_id`` (a per-run hash) does not always match.
+        We resolve against a priority of stable keys, preferring the most reliable
+        1:1 join (the original CV path) over the volatile ``profile_id``:
+
+            profile_id -> artifact_path -> source_path -> candidate_id
+
+        A single ``$or``/``$in`` query fetches all candidate documents, then each
+        row is resolved in priority order. Returns a list aligned with ``rows``
+        (``None`` for any row that cannot be resolved).
+        """
+        if not rows:
+            return []
+
+        def collect(field: str) -> list[str]:
+            return [str(row.get(field)) for row in rows if row.get(field)]
+
+        profile_ids = collect("profile_id")
+        artifact_paths = collect("artifact_path")
+        source_paths = collect("source_path")
+        candidate_ids = collect("candidate_id")
+
+        or_clauses: list[dict[str, Any]] = []
+        if profile_ids:
+            or_clauses.append({"profile_id": {"$in": profile_ids}})
+        if artifact_paths:
+            or_clauses.append({"artifact_path": {"$in": artifact_paths}})
+        if source_paths:
+            or_clauses.append({"source_path": {"$in": source_paths}})
+        if candidate_ids:
+            or_clauses.append({"candidate_id": {"$in": candidate_ids}})
+        if not or_clauses:
+            return [None] * len(rows)
+
+        def operation() -> list[dict[str, Any] | None]:
+            documents = _clean_documents(self.collection.find({"$or": or_clauses}, {"_id": 0}))
+            by_profile_id: dict[str, dict[str, Any]] = {}
+            by_artifact_path: dict[str, dict[str, Any]] = {}
+            by_source_path: dict[str, dict[str, Any]] = {}
+            by_candidate_id: dict[str, dict[str, Any]] = {}
+            for document in documents:
+                if document.get("profile_id"):
+                    by_profile_id.setdefault(str(document["profile_id"]), document)
+                if document.get("artifact_path"):
+                    by_artifact_path.setdefault(str(document["artifact_path"]), document)
+                if document.get("source_path"):
+                    by_source_path.setdefault(str(document["source_path"]), document)
+                if document.get("candidate_id"):
+                    by_candidate_id.setdefault(str(document["candidate_id"]), document)
+
+            resolved: list[dict[str, Any] | None] = []
+            for row in rows:
+                document = (
+                    by_profile_id.get(str(row.get("profile_id")))
+                    or by_artifact_path.get(str(row.get("artifact_path")))
+                    or by_source_path.get(str(row.get("source_path")))
+                    or by_candidate_id.get(str(row.get("candidate_id")))
+                )
+                resolved.append(document)
+            return resolved
+
+        return self._run("resolve_profiles_for_rows", operation)
+
     def list_profiles(self, limit: int = 100, offset: int = 0) -> list[dict[str, Any]]:
         def operation() -> list[dict[str, Any]]:
             cursor = self.collection.find({}, {"_id": 0})

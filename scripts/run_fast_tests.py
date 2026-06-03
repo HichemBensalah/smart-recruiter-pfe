@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import subprocess
 import sys
+from pathlib import Path
 
 
 FAST_TESTS = [
@@ -12,6 +13,8 @@ FAST_TESTS = [
     "tests/test_api_candidates.py",
     "tests/test_api_match.py",
     "tests/test_live_matcher.py",
+    "tests/test_live_matcher_mongodb_resolution.py",
+    "tests/test_live_matcher_dedup.py",
     "tests/test_api_decision_cards.py",
     "tests/test_mongodb_repositories.py",
     "tests/test_api_graph.py",
@@ -27,15 +30,20 @@ FAST_TESTS = [
     "tests/test_job_intake_offer_summary.py",
     "tests/test_job_intake_reset.py",
     "tests/test_job_intake_single_path.py",
+    "tests/test_runtime_store.py",
+    "tests/test_session_isolation.py",
     "tests/test_reference_resolver.py",
     "tests/test_streamlit_app_static.py",
     "tests/test_neo4j_transferability.py",
     "tests/test_api_graph_neo4j.py",
     "tests/test_docker_configuration.py",
+    "tests/test_e2e_main_scenario.py",
+    "tests/test_e2e_routing.py",
 ]
 
 
 def main() -> int:
+    Path(".tmp/pytest_ci_fast").mkdir(parents=True, exist_ok=True)
     env = os.environ.copy()
     env.update(
         {

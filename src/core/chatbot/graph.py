@@ -223,6 +223,15 @@ def _result_from_state(final_state: RecruiterCopilotState) -> dict[str, Any]:
 
 
 def _run_matching_for_completed_job(message: str, memory) -> dict[str, Any]:
+    from src.api.config import load_data_settings, load_matching_settings
+
+    matching_settings = load_matching_settings()
+    if matching_settings.matching_mode in ("live", "hybrid"):
+        return _run_live_matching_path(message, memory, matching_settings)
+    return _run_artifact_matching_path(message, memory)
+
+
+def _run_artifact_matching_path(message: str, memory) -> dict[str, Any]:
     job_description = build_job_description(memory)
     route = (memory.job_intake or {}).get("route", {}) if isinstance(memory.job_intake, dict) else {}
     routed_job_id = route.get("job_id") or "backend_python_django_postgresql"
@@ -236,12 +245,13 @@ def _run_matching_for_completed_job(message: str, memory) -> dict[str, Any]:
     final_state = app.invoke(state)
     result = _result_from_state(final_state)
     resolved_job_id = final_state.get("routed_job_id") or routed_job_id
-    result["answer"] = "\n".join(
-        [
-            f"Recherche lancee pour le job profile route : `{resolved_job_id}`.",
-            "",
-            str(result.get("answer") or ""),
-        ]
+    n = len(result.get("candidates") or [])
+    target = (memory.current_job_profile or {}).get("target_role") if memory.current_job_profile else None
+    target_label = f"**{target}**" if target else "le profil demandé"
+    result["answer"] = (
+        f"Recherche terminée. {n} candidat(s) trouvé(s) pour {target_label} "
+        f"(job profile : `{resolved_job_id}`). "
+        "Consultez les cartes ci-dessous pour les scores, gaps et recommandations."
     )
     result["session_id"] = memory.session_id
     result["user_message"] = message
@@ -255,6 +265,189 @@ def _run_matching_for_completed_job(message: str, memory) -> dict[str, Any]:
     if not result.get("matching_metadata"):
         result["matching_metadata"] = {"resolved_job_id": resolved_job_id}
     return _store_and_return(memory.session_id, result)
+
+
+def _run_live_matching_path(message: str, memory, matching_settings) -> dict[str, Any]:
+    import os
+    from pathlib import Path
+
+    from src.api.config import load_data_settings
+    from src.core.chatbot.generated_job_profile import (
+        build_generated_job_profile,
+        save_generated_job_profile,
+    )
+    from src.core.chatbot.runtime_store import save_current_job_profile
+    from src.core.matching.live_matcher import LiveMatcher, LiveMatcherSettings, LiveMatchingUnavailable
+    from src.core.storage.repositories import RepositoryUnavailableError, create_mongo_repositories
+
+    data_settings = load_data_settings()
+    job_description = build_job_description(memory)
+    route = (memory.job_intake or {}).get("route", {}) if isinstance(memory.job_intake, dict) else {}
+    routed_base_job_id = route.get("job_id") or "backend_python_django_postgresql"
+    memory.mode = None
+    memory.pending_confirmation = None
+
+    structured = memory.current_job_profile or {}
+    gen_profile = build_generated_job_profile(
+        structured_profile=structured,
+        session_id=memory.session_id,
+        routed_base_job_id=routed_base_job_id,
+    )
+
+    # Always overwrite the non-cumulative runtime profile; only keep a historised
+    # copy under data/job_profiles/generated/ when SAVE_MATCHING_HISTORY=true.
+    save_matching_history = str(os.getenv("SAVE_MATCHING_HISTORY", "false")).strip().lower() in {"1", "true", "yes", "on"}
+    try:
+        generated_path = save_current_job_profile(gen_profile)
+        if save_matching_history:
+            generated_path = save_generated_job_profile(gen_profile)
+    except Exception as exc:
+        generated_path = None
+        gen_profile.setdefault("_save_warning", str(exc))
+
+    generated_job_id = gen_profile["generated_job_id"]
+
+    try:
+        repositories = create_mongo_repositories(data_settings.mongodb_uri, data_settings.mongodb_database)
+        try:
+            matcher = LiveMatcher(
+                repositories=repositories,
+                settings=LiveMatcherSettings(
+                    mongodb_database=data_settings.mongodb_database,
+                    top_n=matching_settings.live_matching_top_n,
+                    default_top_k=matching_settings.live_matching_top_k,
+                    faiss_index_path=Path(matching_settings.faiss_index_path),
+                    faiss_id_map_path=Path(matching_settings.faiss_id_map_path),
+                ),
+            )
+            live_result = matcher.match(
+                job_description=job_description,
+                job_id=generated_job_id,
+                top_k=matching_settings.live_matching_top_k,
+                structured_job_profile=gen_profile,
+            )
+        finally:
+            repositories.close()
+
+        candidates = _live_items_to_candidates(live_result.items)
+        n = len(candidates)
+        target = structured.get("target_role") or "le profil demandé"
+        target_label = f"**{target}**" if structured.get("target_role") else "le profil demandé"
+        result: dict[str, Any] = {
+            "answer": (
+                f"Recherche terminée. {n} candidat(s) trouvé(s) pour {target_label} "
+                f"(matching live · job généré : `{generated_job_id}`). "
+                "Consultez les cartes ci-dessous pour les scores, gaps et recommandations."
+            ),
+            "candidates": candidates,
+            "decision_cards": [],
+            "transferability": {},
+            "sources": ["live_mongodb_faiss_matching_v3"],
+            "warnings": list(live_result.warnings),
+            "session_id": memory.session_id,
+            "user_message": message,
+            "job_route": route,
+            "structured_job_profile": structured,
+            "job_intake_state": memory.job_intake_state or memory.job_intake,
+            "routed_job_id": generated_job_id,
+            "job_description": job_description,
+            "matching_completed": True,
+            "matching_metadata": {
+                "matching_mode": "live_mongodb_faiss_matching_v3",
+                "matching_mode_requested": "live",
+                "matching_mode_used": "live",
+                "resolved_job_id": live_result.resolved_job_id or generated_job_id,
+                "generated_job_id": generated_job_id,
+                "generated_job_profile_path": str(generated_path) if generated_path else None,
+                "live_ready": True,
+                "live_blocking_reasons": [],
+                "data_source": live_result.data_source,
+                "retrieval_source": live_result.retrieval_source,
+                "scoring_source": live_result.scoring_source,
+                "fallback_used": False,
+                "warnings": list(live_result.warnings),
+                "duplicate_candidates_filtered": bool(live_result.dedup_info.get("duplicate_candidates_filtered")),
+                "duplicates_removed_count": int(live_result.dedup_info.get("duplicates_removed_count", 0)),
+                "duplicate_groups": live_result.dedup_info.get("duplicate_groups", []),
+            },
+        }
+
+        # Persist the current live matching run (non-cumulative, overwritten each time).
+        try:
+            from src.core.chatbot.runtime_store import save_current_matching_run
+
+            save_current_matching_run(result, job_id=generated_job_id)
+        except Exception:
+            pass
+
+        return _store_and_return(memory.session_id, result)
+
+    except (LiveMatchingUnavailable, RepositoryUnavailableError) as exc:
+        warning = f"Live matching unavailable: {exc}"
+        if matching_settings.live_strict:
+            blocking_reasons = [str(exc)]
+            result = {
+                "answer": (
+                    f"Le matching live est indisponible : {exc}. "
+                    "Vérifiez que MongoDB est lancé, que FAISS est accessible "
+                    "et que candidate_profiles est peuplé."
+                ),
+                "candidates": [],
+                "decision_cards": [],
+                "transferability": {},
+                "sources": ["live_matching_error"],
+                "warnings": [warning],
+                "session_id": memory.session_id,
+                "user_message": message,
+                "structured_job_profile": structured,
+                "job_intake_state": memory.job_intake_state or memory.job_intake,
+                "routed_job_id": generated_job_id,
+                "job_description": job_description,
+                "matching_completed": False,
+                "matching_metadata": {
+                    "matching_mode_requested": "live",
+                    "matching_mode_used": "error",
+                    "generated_job_id": generated_job_id,
+                    "live_ready": False,
+                    "live_blocking_reasons": blocking_reasons,
+                    "fallback_used": False,
+                    "warnings": [warning],
+                },
+            }
+            return _store_and_return(memory.session_id, result)
+        # hybrid mode: fallback to artifact
+        fallback_result = _run_artifact_matching_path(message, memory)
+        fallback_result.setdefault("warnings", []).append(
+            f"Live matching failed; artifact fallback used. Original error: {exc}"
+        )
+        meta = fallback_result.get("matching_metadata") or {}
+        meta["live_attempted"] = True
+        meta["live_failure"] = str(exc)
+        meta["fallback_used"] = True
+        meta["generated_job_id"] = generated_job_id
+        fallback_result["matching_metadata"] = meta
+        return fallback_result
+
+
+def _live_items_to_candidates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    candidates = []
+    for item in items:
+        candidates.append({
+            "candidate_id": item.get("candidate_id"),
+            "candidate_name": item.get("full_name"),
+            "profile_id": item.get("profile_id") or item.get("matched_profile_id"),
+            "baseline_rank_v3": item.get("rank") or item.get("baseline_rank_v3"),
+            "baseline_score_v3": item.get("baseline_score_v3") or item.get("final_score"),
+            "recommendation_status": item.get("recommendation_status"),
+            "matched_skills": item.get("matched_skills") or [],
+            "missing_required_skills": item.get("missing_required_skills") or [],
+            "score_text_similarity": item.get("score_text_similarity") or item.get("faiss_score"),
+            "faiss_score": item.get("faiss_score"),
+            "faiss_rank": item.get("faiss_rank"),
+            "rf_score": None,
+            "xgboost_score": None,
+        })
+    return candidates
 
 
 def _job_intake_response(

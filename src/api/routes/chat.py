@@ -6,6 +6,8 @@ from fastapi import APIRouter, Depends
 
 from src.api.auth import require_api_key
 from src.api.schemas import ChatRequest, ChatResponse
+from src.core.chatbot.candidate_cv_resolver import enrich_candidates_with_cv
+from src.core.chatbot.candidate_identity import enrich_candidates_with_display_names
 from src.core.chatbot.graph import run_recruiter_copilot_with_memory
 from src.core.chatbot.memory import SESSION_STORE
 
@@ -44,10 +46,13 @@ def chat(request: ChatRequest) -> ChatResponse:
 
 
 def _chat_response_from_result(result: dict, request_session_id: str | None) -> ChatResponse:
+    job_id = _resolved_job_id(result)
+    candidates = enrich_candidates_with_display_names(_as_list_of_dicts(result.get("candidates")))
+    candidates = enrich_candidates_with_cv(candidates, job_id)
     return ChatResponse(
         session_id=str(result.get("session_id")) if result.get("session_id") else request_session_id,
         answer=str(result.get("answer") or ""),
-        candidates=_as_list_of_dicts(result.get("candidates")),
+        candidates=candidates,
         decision_cards=_as_list_of_dicts(result.get("decision_cards")),
         transferability=result.get("transferability") if isinstance(result.get("transferability"), dict) else {},
         sources=[str(source) for source in result.get("sources", [])] if isinstance(result.get("sources"), list) else [],
@@ -67,3 +72,12 @@ def _as_list_of_dicts(value: object) -> list[dict]:
     if not isinstance(value, list):
         return []
     return [item for item in value if isinstance(item, dict)]
+
+
+def _resolved_job_id(result: dict) -> str | None:
+    if result.get("routed_job_id"):
+        return str(result["routed_job_id"])
+    metadata = result.get("matching_metadata")
+    if isinstance(metadata, dict) and metadata.get("resolved_job_id"):
+        return str(metadata["resolved_job_id"])
+    return None

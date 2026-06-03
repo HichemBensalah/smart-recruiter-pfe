@@ -95,7 +95,9 @@ def test_wizard_collects_offer_and_matches_after_confirmation(monkeypatch) -> No
     assert FakeMatchTool.last_payload["job_id"] == "backend_python_fastapi_mongodb_aligned"
     assert matched["matching_completed"] is True
     assert matched["candidates"][0]["candidate_name"] == "Aziz Ben Ali"
-    assert "Aziz Ben Ali" in matched["answer"]
+    # The answer is now a short summary — candidate names appear in the cards, not in the text
+    assert matched["answer"]
+    assert "backend_python_fastapi_mongodb_aligned" in matched["answer"]
     assert matched["routed_job_id"] == "backend_python_fastapi_mongodb_aligned"
 
 

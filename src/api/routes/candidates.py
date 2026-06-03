@@ -1,6 +1,9 @@
 from __future__ import annotations
 
+from pathlib import Path
+
 from fastapi import APIRouter, Depends, HTTPException, Query, status
+from fastapi.responses import FileResponse
 
 from src.api.auth import require_api_key
 from src.api.config import DataSettings, load_data_settings
@@ -12,6 +15,7 @@ from src.api.utils import (
     load_best_decision_cards_artifact,
     read_profile_from_card,
 )
+from src.core.chatbot.candidate_cv_resolver import PROJECT_ROOT, RAW_CV_ROOT, resolve_candidate_cv
 from src.core.storage.repositories import (
     MongoRepositories,
     RepositoryUnavailableError,
@@ -137,6 +141,41 @@ def get_candidate(candidate_id: str) -> CandidateDetailResponse:
     )
 
 
+@router.get("/{candidate_id}/cv")
+def get_candidate_cv(candidate_id: str, job_id: str | None = Query(default=None)) -> FileResponse:
+    cv = resolve_candidate_cv(candidate_id, job_id)
+    if not cv.get("cv_available"):
+        raise HTTPException(
+            status_code=404,
+            detail={
+                "message": f"CV original not found for candidate: {candidate_id}",
+                "candidate_id": candidate_id,
+                "job_id": job_id,
+            },
+        )
+
+    file_path = _safe_cv_file_path(cv.get("cv_path"))
+    if file_path is None:
+        raise HTTPException(
+            status_code=404,
+            detail={
+                "message": f"CV original is unavailable or outside allowed raw CV directory: {candidate_id}",
+                "candidate_id": candidate_id,
+                "job_id": job_id,
+            },
+        )
+
+    media_type = str(cv.get("cv_mime_type") or "application/octet-stream")
+    filename = str(cv.get("cv_filename") or file_path.name)
+    disposition = "inline" if media_type in {"application/pdf", "image/jpeg", "image/png", "text/plain"} else "attachment"
+    return FileResponse(
+        file_path,
+        media_type=media_type,
+        filename=filename,
+        content_disposition_type=disposition,
+    )
+
+
 def _get_candidate_from_artifacts(
     candidate_id: str,
     *,
@@ -157,6 +196,19 @@ def _get_candidate_from_artifacts(
         fallback_used=fallback_used,
         warnings=warnings,
     )
+
+
+def _safe_cv_file_path(cv_path: object) -> Path | None:
+    if not cv_path:
+        return None
+    try:
+        path = (PROJECT_ROOT / str(cv_path)).resolve(strict=True)
+        raw_root = RAW_CV_ROOT.resolve(strict=True)
+    except (OSError, RuntimeError):
+        return None
+    if not path.is_file() or not path.is_relative_to(raw_root):
+        return None
+    return path
 
 
 def _read_profile_from_mongodb_candidate(

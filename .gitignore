@@ -45,3 +45,14 @@ dist/
 
 # Local model caches. Existing tracked files are not removed by this rule.
 data/indexes/faiss/hf_cache/
+
+# Regenerable heavy artifacts (FAISS index, pickles, ranking datasets/features)
+*.faiss
+*.pkl
+*.jsonl
+data/ranking/features/
+data/ranking/datasets/
+
+# Local junk / scratch data files
+data/demo.md
+data/demo1.md

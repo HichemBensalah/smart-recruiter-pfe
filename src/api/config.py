@@ -29,6 +29,7 @@ class DataSettings:
 @dataclass(frozen=True)
 class MatchingSettings:
     matching_mode: str
+    live_strict: bool
     live_matching_top_n: int
     live_matching_top_k: int
     faiss_index_path: str
@@ -65,6 +66,7 @@ def load_matching_settings() -> MatchingSettings:
 
     return MatchingSettings(
         matching_mode=matching_mode,
+        live_strict=_env_bool(os.getenv("LIVE_STRICT", "false")),
         live_matching_top_n=_env_int("LIVE_MATCHING_TOP_N", 50, minimum=1),
         live_matching_top_k=_env_int("LIVE_MATCHING_TOP_K", 5, minimum=1),
         faiss_index_path=os.getenv("FAISS_INDEX_PATH", "data/indexes/faiss/cv_index.faiss").strip()
