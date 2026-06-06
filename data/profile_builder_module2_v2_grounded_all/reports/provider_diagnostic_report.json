@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T13:27:23.650250+00:00",
+  "generated_at": "2026-06-04T07:55:47.413037+00:00",
   "groq_key_present": true,
   "groq_available": true,
   "groq_status": "ok",
@@ -9,13 +9,21 @@
   "ollama_models": [
     "llama3.2:3b"
   ],
-  "ollama_timeout": 600.0,
-  "selected_provider": "ollama_local",
-  "fallback_provider": "groq_secondary",
+  "ollama_timeout": 120.0,
+  "selected_provider": "groq_secondary",
+  "fallback_provider": "ollama_local",
   "provider_preflight_status": "ok",
-  "recommended_provider": "ollama_local",
+  "recommended_provider": "groq_secondary",
   "recommended_next_action": null,
   "providers": {
+    "groq_secondary": {
+      "provider": "groq_secondary",
+      "available": true,
+      "status": "ok",
+      "action_required": null,
+      "groq_key_present": true,
+      "ollama_model_detected": null
+    },
     "ollama_local": {
       "provider": "ollama_local",
       "available": true,
@@ -26,15 +34,7 @@
       "ollama_models": [
         "llama3.2:3b"
       ],
-      "ollama_timeout": 600.0
-    },
-    "groq_secondary": {
-      "provider": "groq_secondary",
-      "available": true,
-      "status": "ok",
-      "action_required": null,
-      "groq_key_present": true,
-      "ollama_model_detected": null
+      "ollama_timeout": 120.0
     }
   }
 }
