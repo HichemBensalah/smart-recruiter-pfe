@@ -3,11 +3,17 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 
 DEFAULT_API_KEY_HEADER = "X-Smart-Recruiter-Key"
 DEFAULT_DATA_BACKEND = "artifacts"
 VALID_DATA_BACKENDS = {"artifacts", "mongodb", "hybrid"}
-DEFAULT_MATCHING_MODE = "artifact"
+DEFAULT_MATCHING_MODE = "hybrid"
 VALID_MATCHING_MODES = {"artifact", "live", "hybrid"}
 
 

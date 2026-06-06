@@ -19,9 +19,19 @@ _SOURCE_KEYS = (
     "raw_cv_path",
     "original_file",
     "original_filename",
+    "original_cv_path",
+    "original_document_path",
     "cv_path",
+    "cv_url",
     "file_path",
     "document_path",
+)
+_TEXT_KEYS = (
+    "cv_text",
+    "original_cv_text",
+    "original_text",
+    "raw_text",
+    "document_text",
 )
 _MIME_TYPES = {
     ".pdf": "application/pdf",
@@ -74,14 +84,17 @@ def enrich_candidate_with_cv(candidate: dict, job_id: str | None = None) -> dict
     if not candidate_id:
         return enriched
 
+    # If cv was already resolved via the live MongoDB path, only regenerate the
+    # download URL — skip the artifact-based lookup that returns cv_available=False
+    # in live-only setups where matching reports don't exist.
+    if enriched.get("cv_available"):
+        enriched["has_original_cv"] = True
+        enriched["cv_download_url"] = _download_url(str(candidate_id), job_id)
+        enriched["cv_url"] = enriched["cv_download_url"]
+        return enriched
+
     cv = resolve_candidate_cv(str(candidate_id), job_id)
-    enriched["cv_available"] = cv["cv_available"]
-    enriched["cv_filename"] = cv["cv_filename"]
-    enriched["cv_mime_type"] = cv["cv_mime_type"]
-    enriched["cv_source"] = cv["cv_source"]
-    enriched["cv_confidence"] = cv["cv_confidence"]
-    enriched["cv_download_url"] = _download_url(str(candidate_id), job_id) if cv["cv_available"] else None
-    return enriched
+    return apply_cv_payload(enriched, cv, job_id)
 
 
 def enrich_candidates_with_cv(candidates: list[dict], job_id: str | None = None) -> list[dict]:
@@ -90,6 +103,68 @@ def enrich_candidates_with_cv(candidates: list[dict], job_id: str | None = None)
         for candidate in candidates
         if isinstance(candidate, dict)
     ]
+
+
+def resolve_candidate_cv_from_documents(
+    candidate_id: str,
+    documents: list[dict[str, Any] | None],
+    *,
+    job_id: str | None = None,
+    source: str = "mongodb_candidate_profile",
+    confidence: str = "high",
+) -> dict[str, Any]:
+    """Resolve an original CV directly from MongoDB candidate/profile documents.
+
+    Live matching already has the resolved MongoDB profile document in memory.
+    This path avoids depending on generated matching reports and supports the
+    fields commonly used in MongoDB payloads: ``source_path``, ``cv_metadata``
+    / ``file_path`` and inline raw text fields.
+    """
+    candidates: list[dict[str, Any]] = []
+    for document in documents:
+        if not isinstance(document, dict):
+            continue
+        candidates.extend(_candidate_cv_candidates_from_document(document, source, confidence))
+
+    deduped = _dedupe_candidates(candidates)
+    if not deduped:
+        return _not_found(str(candidate_id))
+
+    selected = deduped[0]
+    alternatives = [
+        _public_cv_payload(str(candidate_id), item)
+        for item in deduped[1:]
+        if item["path"] != selected["path"]
+    ]
+    result = _public_cv_payload(str(candidate_id), selected)
+    result["cv_alternatives"] = alternatives
+    return with_cv_download_url(result, job_id)
+
+
+def apply_cv_payload(candidate: dict[str, Any], cv: dict[str, Any], job_id: str | None = None) -> dict[str, Any]:
+    enriched = dict(candidate)
+    cv_with_url = with_cv_download_url(cv, job_id)
+    enriched["cv_available"] = cv_with_url["cv_available"]
+    enriched["has_original_cv"] = cv_with_url["has_original_cv"]
+    enriched["cv_filename"] = cv_with_url["cv_filename"]
+    enriched["cv_path"] = cv_with_url["cv_path"]
+    enriched["cv_url"] = cv_with_url["cv_url"]
+    enriched["cv_mime_type"] = cv_with_url["cv_mime_type"]
+    enriched["cv_source"] = cv_with_url["cv_source"]
+    enriched["cv_confidence"] = cv_with_url["cv_confidence"]
+    enriched["cv_download_url"] = cv_with_url["cv_download_url"]
+    return enriched
+
+
+def with_cv_download_url(cv: dict[str, Any], job_id: str | None = None) -> dict[str, Any]:
+    payload = dict(cv)
+    candidate_id = str(payload.get("candidate_id") or "")
+    cv_available = bool(payload.get("cv_available"))
+    payload["cv_available"] = cv_available
+    payload["has_original_cv"] = cv_available
+    payload["cv_download_url"] = _download_url(candidate_id, job_id) if cv_available and candidate_id else None
+    payload["cv_url"] = payload["cv_download_url"]
+    return payload
 
 
 def _candidate_cv_candidates(
@@ -118,6 +193,30 @@ def _candidate_cv_candidates(
                         "source": source,
                         "confidence": confidence,
                         "report_path": report_path,
+                        "source_key": key,
+                    }
+                )
+    return matches
+
+
+def _candidate_cv_candidates_from_document(
+    document: dict[str, Any],
+    source: str,
+    confidence: str,
+) -> list[dict[str, Any]]:
+    matches: list[dict[str, Any]] = []
+    for item in _walk_dicts(document):
+        for key in _SOURCE_KEYS:
+            raw_value = item.get(key)
+            if not raw_value:
+                continue
+            path = _safe_raw_cv_path(raw_value)
+            if path:
+                matches.append(
+                    {
+                        "path": path,
+                        "source": source,
+                        "confidence": confidence,
                         "source_key": key,
                     }
                 )

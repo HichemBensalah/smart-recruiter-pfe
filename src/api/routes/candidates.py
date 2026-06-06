@@ -15,7 +15,12 @@ from src.api.utils import (
     load_best_decision_cards_artifact,
     read_profile_from_card,
 )
-from src.core.chatbot.candidate_cv_resolver import PROJECT_ROOT, RAW_CV_ROOT, resolve_candidate_cv
+from src.core.chatbot.candidate_cv_resolver import (
+    PROJECT_ROOT,
+    RAW_CV_ROOT,
+    resolve_candidate_cv,
+    resolve_candidate_cv_from_documents,
+)
 from src.core.storage.repositories import (
     MongoRepositories,
     RepositoryUnavailableError,
@@ -143,16 +148,26 @@ def get_candidate(candidate_id: str) -> CandidateDetailResponse:
 
 @router.get("/{candidate_id}/cv")
 def get_candidate_cv(candidate_id: str, job_id: str | None = Query(default=None)) -> FileResponse:
+    settings = _load_data_settings_or_error()
+    if settings.data_backend in {"mongodb", "hybrid"}:
+        try:
+            cv = _resolve_candidate_cv_from_mongodb(candidate_id, job_id, settings)
+        except RepositoryUnavailableError as exc:
+            if not settings.allow_artifact_fallback:
+                raise _mongodb_unavailable_http_error(settings, f"MongoDB unavailable while resolving CV: {exc}") from exc
+        else:
+            if cv.get("cv_available"):
+                return _cv_file_response(cv, candidate_id, job_id)
+            if settings.data_backend == "mongodb" and not settings.allow_artifact_fallback:
+                raise _cv_not_found_http_error(candidate_id, job_id)
+
     cv = resolve_candidate_cv(candidate_id, job_id)
+    return _cv_file_response(cv, candidate_id, job_id)
+
+
+def _cv_file_response(cv: dict, candidate_id: str, job_id: str | None) -> FileResponse:
     if not cv.get("cv_available"):
-        raise HTTPException(
-            status_code=404,
-            detail={
-                "message": f"CV original not found for candidate: {candidate_id}",
-                "candidate_id": candidate_id,
-                "job_id": job_id,
-            },
-        )
+        raise _cv_not_found_http_error(candidate_id, job_id)
 
     file_path = _safe_cv_file_path(cv.get("cv_path"))
     if file_path is None:
@@ -173,6 +188,41 @@ def get_candidate_cv(candidate_id: str, job_id: str | None = Query(default=None)
         media_type=media_type,
         filename=filename,
         content_disposition_type=disposition,
+    )
+
+
+def _resolve_candidate_cv_from_mongodb(
+    candidate_id: str,
+    job_id: str | None,
+    settings: DataSettings,
+) -> dict:
+    repositories = create_mongo_repositories(settings.mongodb_uri, settings.mongodb_database)
+    try:
+        candidate = repositories.candidates.get_candidate(candidate_id)
+        profile = _read_profile_from_mongodb_candidate(candidate, repositories) if candidate else None
+        if profile is None:
+            profile = repositories.candidate_profiles.get_profile(candidate_id)
+        if profile is None:
+            profile = repositories.candidate_profiles.get_profile_by_candidate_id(candidate_id)
+        return resolve_candidate_cv_from_documents(
+            candidate_id,
+            [candidate, profile],
+            job_id=job_id,
+            source="mongodb_candidate_profile",
+            confidence="high",
+        )
+    finally:
+        repositories.close()
+
+
+def _cv_not_found_http_error(candidate_id: str, job_id: str | None) -> HTTPException:
+    return HTTPException(
+        status_code=404,
+        detail={
+            "message": f"CV original not found for candidate: {candidate_id}",
+            "candidate_id": candidate_id,
+            "job_id": job_id,
+        },
     )
 
 

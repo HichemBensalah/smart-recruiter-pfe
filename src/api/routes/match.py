@@ -129,16 +129,34 @@ def _match_hybrid(
         response.matching_mode = "hybrid_live_mongodb_faiss_matching_v3"
         return response
     except (LiveMatchingUnavailable, RepositoryUnavailableError) as exc:
-        warning = f"Live matching failed; artifact fallback used: {exc}"
+        live_error = str(exc)
         if data_settings.allow_artifact_fallback:
-            return _match_from_artifacts(
-                request,
-                data_settings=data_settings,
-                extra_warnings=[warning],
-                force_fallback_used=True,
-                matching_mode_override="hybrid_live_then_artifact",
-            )
-        raise _live_matching_unavailable_http_error(str(exc), data_settings=data_settings, matching_settings=matching_settings) from exc
+            try:
+                return _match_from_artifacts(
+                    request,
+                    data_settings=data_settings,
+                    extra_warnings=[f"Live matching failed; artifact fallback used: {live_error}"],
+                    force_fallback_used=True,
+                    matching_mode_override="hybrid_live_then_artifact",
+                )
+            except HTTPException as artifact_exc:
+                if artifact_exc.status_code == 404:
+                    # Both live and artifact failed — return a clear 503 instead of a
+                    # confusing 404 "No decision cards artifact found".
+                    raise HTTPException(
+                        status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+                        detail={
+                            "matching_mode": "hybrid",
+                            "fallback_used": False,
+                            "warnings": [
+                                f"Live matching unavailable: {live_error}",
+                                "Artifact fallback also unavailable: no matching artifacts or decision cards found.",
+                                "Ensure MongoDB is running with candidate profiles, or generate artifact files.",
+                            ],
+                        },
+                    ) from artifact_exc
+                raise
+        raise _live_matching_unavailable_http_error(live_error, data_settings=data_settings, matching_settings=matching_settings) from exc
 
 
 def _match_live(
@@ -280,6 +298,15 @@ def _to_match_candidate(candidate: dict[str, Any]) -> MatchCandidate:
         ),
         explanation=candidate.get("explanation") if isinstance(candidate.get("explanation"), str) else None,
         transferability=candidate.get("transferability") if isinstance(candidate.get("transferability"), dict) else None,
+        cv_available=bool(candidate.get("cv_available")),
+        has_original_cv=bool(candidate.get("has_original_cv") or candidate.get("cv_available")),
+        cv_download_url=candidate.get("cv_download_url") if isinstance(candidate.get("cv_download_url"), str) else None,
+        cv_url=candidate.get("cv_url") if isinstance(candidate.get("cv_url"), str) else None,
+        cv_path=candidate.get("cv_path") if isinstance(candidate.get("cv_path"), str) else None,
+        cv_filename=candidate.get("cv_filename") if isinstance(candidate.get("cv_filename"), str) else None,
+        cv_mime_type=candidate.get("cv_mime_type") if isinstance(candidate.get("cv_mime_type"), str) else None,
+        cv_source=candidate.get("cv_source") if isinstance(candidate.get("cv_source"), str) else None,
+        cv_confidence=candidate.get("cv_confidence") if isinstance(candidate.get("cv_confidence"), str) else None,
     )
 
 

@@ -22,6 +22,9 @@ DEFAULT_ID_MAP_PATH = DEFAULT_INDEX_DIR / "id_map.pkl"
 DEFAULT_REPORT_PATH = DEFAULT_INDEX_DIR / "index_report.json"
 DEFAULT_MODEL_CACHE_DIR = Path("data/indexes/faiss/hf_cache")
 
+# Module-level cache for SentenceTransformer to avoid reloading on every request
+_SENTENCE_TRANSFORMER_CACHE: dict[str, Any] = {}
+
 
 def load_candidate_profiles(
     mongodb_uri: str = DEFAULT_MONGODB_URI,
@@ -163,14 +166,29 @@ def run_faiss_indexer() -> dict[str, Any]:
 
 
 def _load_sentence_transformer(model_name: str) -> Any:
+    """Load SentenceTransformer model with caching to avoid reloading.
+
+    CRITICAL: Once loaded, the model is cached in _SENTENCE_TRANSFORMER_CACHE
+    and reused on subsequent calls. This enables the API startup warm-up to
+    benefit future requests.
+    """
+    # Return cached model if available
+    if model_name in _SENTENCE_TRANSFORMER_CACHE:
+        return _SENTENCE_TRANSFORMER_CACHE[model_name]
+
     try:
         from sentence_transformers import SentenceTransformer
     except ImportError as exc:
         raise RuntimeError("Missing dependency: sentence-transformers") from exc
+
     DEFAULT_MODEL_CACHE_DIR.mkdir(parents=True, exist_ok=True)
     os.environ.setdefault("HF_HOME", str(DEFAULT_MODEL_CACHE_DIR))
     os.environ.setdefault("HUGGINGFACE_HUB_CACHE", str(DEFAULT_MODEL_CACHE_DIR))
-    return SentenceTransformer(model_name, cache_folder=str(DEFAULT_MODEL_CACHE_DIR))
+
+    # Load and cache
+    model = SentenceTransformer(model_name, cache_folder=str(DEFAULT_MODEL_CACHE_DIR))
+    _SENTENCE_TRANSFORMER_CACHE[model_name] = model
+    return model
 
 
 def main() -> None:

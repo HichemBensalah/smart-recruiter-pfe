@@ -8,6 +8,7 @@ from typing import Any, Callable
 import numpy as np
 
 from src.core.common.seniority import compute_seniority_alignment, normalize_seniority
+from src.core.chatbot.candidate_cv_resolver import apply_cv_payload, resolve_candidate_cv_from_documents
 from src.core.jobs.job_profile_builder import build_job_profile
 from src.core.matching.faiss_indexer import DEFAULT_SENTENCE_MODEL
 from src.core.matching.job_text_builder import build_job_text
@@ -96,9 +97,14 @@ class LiveMatcher:
 
         matches: list[dict[str, Any]] = []
         unresolved_count = 0
+        duplicate_marked_count = 0
         for row, profile in zip(retrieved_rows, resolved_profiles):
             if not profile:
                 unresolved_count += 1
+                continue
+            # CRITICAL: Filter profiles marked as duplicates (is_duplicate_of field present)
+            if profile.get("is_duplicate_of"):
+                duplicate_marked_count += 1
                 continue
             matches.append(self._score_retrieved_profile(job_profile=job_profile, profile=profile, retrieval_row=row))
 
@@ -106,6 +112,12 @@ class LiveMatcher:
             warnings.append(
                 f"{unresolved_count} profil(s) retournes par FAISS non resolus dans MongoDB "
                 f"(profile_id/artifact_path/source_path/candidate_id)."
+            )
+
+        if duplicate_marked_count:
+            warnings.append(
+                f"{duplicate_marked_count} profil(s) marqué(s) comme doublon (is_duplicate_of) "
+                f"filtré(s) des résultats de matching."
             )
 
         if not matches:
@@ -240,13 +252,20 @@ class LiveMatcher:
         bio = normalized_profile.get("bio") or {}
         candidate_id = normalized_profile.get("candidate_id") or retrieval_row.get("candidate_id")
         profile_id = normalized_profile.get("profile_id") or retrieval_row.get("profile_id")
+        cv = resolve_candidate_cv_from_documents(
+            str(candidate_id or profile_id or ""),
+            [profile, normalized_profile, retrieval_row],
+            job_id=str(job_profile.get("job_id") or job_profile.get("generated_job_id") or ""),
+            source="mongodb_candidate_profile",
+            confidence="high",
+        )
         display_name, display_name_quality, name_warning = build_display_name(bio.get("full_name"), candidate_id)
         grounded_quality = enrich_grounded_quality(normalized_profile)
         job_seniority = normalize_seniority(job_profile.get("seniority_level"))
         candidate_seniority = normalize_seniority((normalized_profile.get("expertise") or {}).get("experience_level"))
         seniority_alignment = compute_seniority_alignment(job_seniority, candidate_seniority)
 
-        return {
+        item = {
             "candidate_id": candidate_id or profile_id,
             "matched_profile_id": profile_id,
             "full_name": display_name,
@@ -284,6 +303,7 @@ class LiveMatcher:
             ),
             "profile_count": 1,
         }
+        return apply_cv_payload(item, cv, str(job_profile.get("job_id") or job_profile.get("generated_job_id") or ""))
 
     def _save_matching_run(
         self,

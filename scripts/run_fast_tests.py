@@ -12,9 +12,12 @@ FAST_TESTS = [
     "tests/test_chat_memory.py",
     "tests/test_api_candidates.py",
     "tests/test_api_match.py",
+    "tests/test_matching_v3_scoring.py",
     "tests/test_live_matcher.py",
     "tests/test_live_matcher_mongodb_resolution.py",
     "tests/test_live_matcher_dedup.py",
+    "tests/test_live_matching_dedup_filtering.py",
+    "tests/test_live_matching_mongodb_fallback.py",
     "tests/test_api_decision_cards.py",
     "tests/test_mongodb_repositories.py",
     "tests/test_api_graph.py",
@@ -48,7 +51,7 @@ def main() -> int:
     env.update(
         {
             "DATA_BACKEND": "artifacts",
-            "MATCHING_MODE": "artifact",
+            "MATCHING_MODE": "hybrid",
             "ALLOW_ARTIFACT_FALLBACK": "true",
             "AUTH_ENABLED": "false",
         }

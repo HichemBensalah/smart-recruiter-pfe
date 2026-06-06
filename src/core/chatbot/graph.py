@@ -446,6 +446,14 @@ def _live_items_to_candidates(items: list[dict[str, Any]]) -> list[dict[str, Any
             "faiss_rank": item.get("faiss_rank"),
             "rf_score": None,
             "xgboost_score": None,
+            "cv_available": bool(item.get("cv_available")),
+            "has_original_cv": bool(item.get("has_original_cv") or item.get("cv_available")),
+            "cv_download_url": item.get("cv_download_url"),
+            "cv_filename": item.get("cv_filename"),
+            "cv_mime_type": item.get("cv_mime_type"),
+            "cv_source": item.get("cv_source"),
+            "cv_confidence": item.get("cv_confidence"),
+            "cv_path": item.get("cv_path"),
         })
     return candidates
 

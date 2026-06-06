@@ -62,6 +62,49 @@ _FAKE_CANDIDATES = [
 _FAKE_CANDIDATE_IDS: set[str] = {c["candidate_id"] for c in _FAKE_CANDIDATES}
 
 
+# ── Live/hybrid matching stub ─────────────────────────────────────────────────
+
+def _patch_live_matching(monkeypatch, items, recorder=None):
+    """Intercept the hybrid/live matching path so _run_live_matching_path
+    (src/core/chatbot/graph.py) returns deterministic candidates without MongoDB
+    or FAISS. That path imports LiveMatcher and create_mongo_repositories locally,
+    so patching the source-module attributes is the correct injection point in
+    both hybrid and live modes.
+    """
+    from src.core.matching.live_matcher import LiveMatchResult
+
+    class _FakeRepos:
+        def close(self):
+            pass
+
+    class _FakeLiveMatcher:
+        def __init__(self, repositories, settings, **kwargs):
+            pass
+
+        def match(self, *, job_description, job_id=None, top_k=None, structured_job_profile=None):
+            if recorder is not None:
+                recorder["calls"] = recorder.get("calls", 0) + 1
+                recorder["job_id"] = job_id
+                recorder["structured_job_profile"] = structured_job_profile
+            return LiveMatchResult(
+                job_id=job_id,
+                resolved_job_id=(structured_job_profile or {}).get("routed_base_job_id") or job_id,
+                top_k=top_k or len(items),
+                items=[dict(it) for it in items],
+                warnings=[],
+                data_source="mongodb:test.candidate_profiles",
+                retrieval_source="faiss:test",
+                dedup_info={},
+            )
+
+    monkeypatch.setattr(
+        "src.core.storage.repositories.create_mongo_repositories",
+        lambda uri, database: _FakeRepos(),
+    )
+    monkeypatch.setattr("src.core.matching.live_matcher.LiveMatcher", _FakeLiveMatcher)
+    return recorder
+
+
 # ── Tool stubs (same pattern as test_e2e_main_scenario.py) ───────────────────
 
 def _patch_all_tools(monkeypatch) -> None:
@@ -129,6 +172,9 @@ def _patch_all_tools(monkeypatch) -> None:
         "src.core.chatbot.nodes.analyze_transferability.get_neo4j_transferability_tool",
         FakeNeo4jTool(),
     )
+    # Hybrid is the production mode: matching after confirmation goes through the
+    # live path, not match_candidates_tool. Stub the live path too.
+    _patch_live_matching(monkeypatch, _FAKE_CANDIDATES)
 
 
 # ── HTTP helper ───────────────────────────────────────────────────────────────

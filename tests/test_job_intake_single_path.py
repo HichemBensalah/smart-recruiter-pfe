@@ -4,6 +4,46 @@ from src.core.chatbot.graph import run_recruiter_copilot_with_memory
 from src.core.chatbot.memory import SESSION_STORE
 
 
+def _patch_live_matching(monkeypatch, items, recorder=None):
+    """Intercept the hybrid/live matching path so _run_live_matching_path
+    (src/core/chatbot/graph.py) returns deterministic candidates without MongoDB
+    or FAISS. That path imports LiveMatcher and create_mongo_repositories locally,
+    so patching the source-module attributes is the correct injection point.
+    """
+    from src.core.matching.live_matcher import LiveMatchResult
+
+    class _FakeRepos:
+        def close(self):
+            pass
+
+    class _FakeLiveMatcher:
+        def __init__(self, repositories, settings, **kwargs):
+            pass
+
+        def match(self, *, job_description, job_id=None, top_k=None, structured_job_profile=None):
+            if recorder is not None:
+                recorder["calls"] = recorder.get("calls", 0) + 1
+                recorder["job_id"] = job_id
+                recorder["structured_job_profile"] = structured_job_profile
+            return LiveMatchResult(
+                job_id=job_id,
+                resolved_job_id=(structured_job_profile or {}).get("routed_base_job_id") or job_id,
+                top_k=top_k or len(items),
+                items=[dict(it) for it in items],
+                warnings=[],
+                data_source="mongodb:test.candidate_profiles",
+                retrieval_source="faiss:test",
+                dedup_info={},
+            )
+
+    monkeypatch.setattr(
+        "src.core.storage.repositories.create_mongo_repositories",
+        lambda uri, database: _FakeRepos(),
+    )
+    monkeypatch.setattr("src.core.matching.live_matcher.LiveMatcher", _FakeLiveMatcher)
+    return recorder
+
+
 def test_new_session_starts_wizard_and_does_not_match(monkeypatch) -> None:
     class FailingMatchTool:
         @staticmethod
@@ -77,6 +117,12 @@ def test_wizard_collects_offer_and_matches_after_confirmation(monkeypatch) -> No
     monkeypatch.setattr("src.core.chatbot.nodes.fetch_decision_cards.get_candidate_profile_tool", FakeCandidateProfileTool())
     monkeypatch.setattr("src.core.chatbot.nodes.analyze_transferability.get_transferability_tool", FakeTransferabilityTool())
     monkeypatch.setattr("src.core.chatbot.nodes.analyze_transferability.get_neo4j_transferability_tool", FakeNeo4jTool())
+    # Hybrid is the production mode: matching after confirmation runs the live path.
+    live = _patch_live_matching(
+        monkeypatch,
+        [{"candidate_id": "candidate_1", "full_name": "Aziz Ben Ali", "rank": 1, "final_score": 0.7754}],
+        recorder={},
+    )
 
     run_recruiter_copilot_with_memory("Backend Python Engineer", "single-path-3")
     run_recruiter_copilot_with_memory("We are looking for a backend engineer.", "single-path-3")
@@ -87,18 +133,21 @@ def test_wizard_collects_offer_and_matches_after_confirmation(monkeypatch) -> No
 
     assert summary["structured_job_profile"]["required_skills"] == ["Python", "FastAPI", "MongoDB"]
     assert summary["routed_job_id"] == "backend_python_fastapi_mongodb_aligned"
-    assert FakeMatchTool.calls == 0
+    assert live.get("calls", 0) == 0
 
     matched = run_recruiter_copilot_with_memory("Oui lance la recherche", "single-path-3")
 
-    assert FakeMatchTool.calls == 1
-    assert FakeMatchTool.last_payload["job_id"] == "backend_python_fastapi_mongodb_aligned"
+    assert live.get("calls", 0) == 1
+    # In live mode the matcher receives the generated job id; the base routing is
+    # carried on the generated profile's routed_base_job_id.
+    assert live["structured_job_profile"]["routed_base_job_id"] == "backend_python_fastapi_mongodb_aligned"
     assert matched["matching_completed"] is True
     assert matched["candidates"][0]["candidate_name"] == "Aziz Ben Ali"
-    # The answer is now a short summary — candidate names appear in the cards, not in the text
+    # The answer is a short summary referencing the generated job id; the base
+    # routing is preserved on job_route.
     assert matched["answer"]
-    assert "backend_python_fastapi_mongodb_aligned" in matched["answer"]
-    assert matched["routed_job_id"] == "backend_python_fastapi_mongodb_aligned"
+    assert matched["job_route"]["job_id"] == "backend_python_fastapi_mongodb_aligned"
+    assert matched["routed_job_id"].startswith("generated_")
 
 
 def test_follow_up_after_matching_uses_memory() -> None:

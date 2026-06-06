@@ -78,6 +78,15 @@ class MatchCandidate(BaseModel):
     missing_required_skills: list[str] | None = None
     explanation: str | None = None
     transferability: dict[str, Any] | None = None
+    cv_available: bool = False
+    has_original_cv: bool = False
+    cv_download_url: str | None = None
+    cv_url: str | None = None
+    cv_path: str | None = None
+    cv_filename: str | None = None
+    cv_mime_type: str | None = None
+    cv_source: str | None = None
+    cv_confidence: str | None = None
 
 
 class MatchResponse(BaseModel):

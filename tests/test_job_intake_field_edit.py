@@ -12,6 +12,46 @@ from src.core.chatbot.job_intake import (
 from src.core.chatbot.memory import ConversationMemory, SESSION_STORE
 
 
+def _patch_live_matching(monkeypatch, items, recorder=None):
+    """Intercept the hybrid/live matching path so _run_live_matching_path
+    (src/core/chatbot/graph.py) returns deterministic candidates without MongoDB
+    or FAISS. That path imports LiveMatcher and create_mongo_repositories locally,
+    so patching the source-module attributes is the correct injection point.
+    """
+    from src.core.matching.live_matcher import LiveMatchResult
+
+    class _FakeRepos:
+        def close(self):
+            pass
+
+    class _FakeLiveMatcher:
+        def __init__(self, repositories, settings, **kwargs):
+            pass
+
+        def match(self, *, job_description, job_id=None, top_k=None, structured_job_profile=None):
+            if recorder is not None:
+                recorder["calls"] = recorder.get("calls", 0) + 1
+                recorder["job_id"] = job_id
+                recorder["structured_job_profile"] = structured_job_profile
+            return LiveMatchResult(
+                job_id=job_id,
+                resolved_job_id=(structured_job_profile or {}).get("routed_base_job_id") or job_id,
+                top_k=top_k or len(items),
+                items=[dict(it) for it in items],
+                warnings=[],
+                data_source="mongodb:test.candidate_profiles",
+                retrieval_source="faiss:test",
+                dedup_info={},
+            )
+
+    monkeypatch.setattr(
+        "src.core.storage.repositories.create_mongo_repositories",
+        lambda uri, database: _FakeRepos(),
+    )
+    monkeypatch.setattr("src.core.matching.live_matcher.LiveMatcher", _FakeLiveMatcher)
+    return recorder
+
+
 def test_detect_field_edit_request_detects_required_skills() -> None:
     assert detect_field_edit_request("modifie les compétences obligatoires") == "required_skills"
     assert detect_field_edit_request("change required skills") == "required_skills"
@@ -85,25 +125,28 @@ def test_conversation_field_edit_does_not_launch_matching_before_reconfirmation(
     monkeypatch.setattr("src.core.chatbot.nodes.fetch_decision_cards.get_candidate_profile_tool", FakeCandidateProfileTool())
     monkeypatch.setattr("src.core.chatbot.nodes.analyze_transferability.get_transferability_tool", FakeTransferabilityTool())
     monkeypatch.setattr("src.core.chatbot.nodes.analyze_transferability.get_neo4j_transferability_tool", FakeNeo4jTool())
+    # Hybrid is the production mode: matching after confirmation goes through the
+    # live path. Count live matcher invocations rather than the artifact tool.
+    live = _patch_live_matching(monkeypatch, [{"candidate_id": "candidate_1"}], recorder={})
 
     _complete_conversation("edit-session")
     edit_request = run_recruiter_copilot_with_memory("modifie les compétences obligatoires", "edit-session")
 
     assert edit_request["awaiting_field_replacement"] is True
     assert edit_request["pending_field_edit"] == "required_skills"
-    assert FakeMatchTool.calls == 0
+    assert live.get("calls", 0) == 0
 
     edited = run_recruiter_copilot_with_memory("- Python\n- Django\n- PostgreSQL", "edit-session")
 
     assert edited["structured_job_profile"]["required_skills"] == ["Python", "Django", "PostgreSQL"]
     assert edited["routed_job_id"] == "backend_python_django_postgresql"
     assert "Voulez-vous lancer" in edited["answer"]
-    assert FakeMatchTool.calls == 0
+    assert live.get("calls", 0) == 0
 
     matched = run_recruiter_copilot_with_memory("oui lance la recherche", "edit-session")
 
     assert matched["matching_completed"] is True
-    assert FakeMatchTool.calls == 1
+    assert live.get("calls", 0) == 1
 
 
 def test_inline_field_edit_rebuilds_without_launching_matching(monkeypatch) -> None:

@@ -10,6 +10,44 @@ from src.core.chatbot.job_intake import (
 from src.core.chatbot.memory import ConversationMemory, SESSION_STORE
 
 
+def _patch_live_matching(monkeypatch, items, recorder=None):
+    """Intercept the hybrid/live matching path so _run_live_matching_path
+    (src/core/chatbot/graph.py) returns deterministic candidates without MongoDB
+    or FAISS. That path imports LiveMatcher and create_mongo_repositories locally,
+    so patching the source-module attributes is the correct injection point.
+    """
+    from src.core.matching.live_matcher import LiveMatchResult
+
+    class _FakeRepos:
+        def close(self):
+            pass
+
+    class _FakeLiveMatcher:
+        def __init__(self, repositories, settings, **kwargs):
+            pass
+
+        def match(self, *, job_description, job_id=None, top_k=None, structured_job_profile=None):
+            if recorder is not None:
+                recorder["calls"] = recorder.get("calls", 0) + 1
+            return LiveMatchResult(
+                job_id=job_id,
+                resolved_job_id=(structured_job_profile or {}).get("routed_base_job_id") or job_id,
+                top_k=top_k or len(items),
+                items=[dict(it) for it in items],
+                warnings=[],
+                data_source="mongodb:test.candidate_profiles",
+                retrieval_source="faiss:test",
+                dedup_info={},
+            )
+
+    monkeypatch.setattr(
+        "src.core.storage.repositories.create_mongo_repositories",
+        lambda uri, database: _FakeRepos(),
+    )
+    monkeypatch.setattr("src.core.matching.live_matcher.LiveMatcher", _FakeLiveMatcher)
+    return recorder
+
+
 def test_detect_offer_summary_request_variants() -> None:
     assert detect_offer_summary_request("résume l'offre")
     assert detect_offer_summary_request("resume l'offre")
@@ -100,6 +138,8 @@ def test_summary_after_matching_mentions_last_matching(monkeypatch) -> None:
     monkeypatch.setattr("src.core.chatbot.nodes.fetch_decision_cards.get_candidate_profile_tool", FakeCandidateProfileTool())
     monkeypatch.setattr("src.core.chatbot.nodes.analyze_transferability.get_transferability_tool", FakeTransferabilityTool())
     monkeypatch.setattr("src.core.chatbot.nodes.analyze_transferability.get_neo4j_transferability_tool", FakeNeo4jTool())
+    # Hybrid is the production mode: matching after confirmation runs the live path.
+    _patch_live_matching(monkeypatch, [{"candidate_id": "candidate_1"}])
 
     _complete_conversation("summary-4")
     run_recruiter_copilot_with_memory("oui lance la recherche", "summary-4")

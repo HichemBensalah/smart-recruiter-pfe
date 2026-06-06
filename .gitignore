@@ -1,12 +1,28 @@
+# ─────────────────────────────────────────────
+# Python environment & caches
+# ─────────────────────────────────────────────
 .venv/
 __pycache__/
 *.py[cod]
 *.pyc
+*.pyo
 
+# ─────────────────────────────────────────────
+# Secrets & local config
+# ─────────────────────────────────────────────
 .env
+.env.local
+.env.*.local
+*.env
 
-# Local data & runs (keep out of Git)
+# ─────────────────────────────────────────────
+# Raw CV files (personal data – never in Git)
+# ─────────────────────────────────────────────
 data/raw_cv/
+
+# ─────────────────────────────────────────────
+# Intermediate processing outputs (regenerable)
+# ─────────────────────────────────────────────
 data/processed/
 data/processed_tuned_eval/
 data/processed_tuned_subset_eval/
@@ -16,43 +32,100 @@ data/raw_cv_tuned_subset_remaining/
 data/profile_builder_preview/
 data/profile_builder_preview*/
 data/test_result/
+
+# ─────────────────────────────────────────────
+# Archived old pipeline runs (heavy, local-only)
+# ─────────────────────────────────────────────
+data/archive_old_runs/
+
+# ─────────────────────────────────────────────
+# Runtime-generated job profiles (overwritten each run)
+# ─────────────────────────────────────────────
+data/job_profiles/generated/
+data/job_profiles/current_job_profile.json
+data/job_profiles/job_profile_builder_report.json
+
+# ─────────────────────────────────────────────
+# MongoDB local reports & imports
+# ─────────────────────────────────────────────
+data/mongodb/
+data/mongodb_import_report.json
+data/runtime/
+
+# ─────────────────────────────────────────────
+# FAISS index binary files & runtime reports
+# ─────────────────────────────────────────────
+*.faiss
+*.pkl
+data/indexes/faiss/hf_cache/
+data/indexes/faiss/index_report.json
+data/indexes/faiss/current_matching_run.json
+
+# ─────────────────────────────────────────────
+# ML models (large binaries – train to reproduce)
+# ─────────────────────────────────────────────
 models/
+data/ranking/models/
+data/ranking/features/
+data/ranking/datasets/
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
 
-# Logs & caches
+# ─────────────────────────────────────────────
+# Feature datasets & JSONL dumps (regenerable)
+# ─────────────────────────────────────────────
+*.jsonl
+
+# ─────────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────────
 *.log
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.cache/
-.ipynb_checkpoints/
-.DS_Store
-.tmp/
-.tmp_pytest/
+logs/
 
-# Coverage / build outputs
+# ─────────────────────────────────────────────
+# Test & coverage artifacts
+# ─────────────────────────────────────────────
+.pytest_cache/
 .coverage
 coverage.xml
 htmlcov/
+.tmp/
+.tmp_pytest/
+
+# ─────────────────────────────────────────────
+# Type-checker & linter caches
+# ─────────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# ─────────────────────────────────────────────
+# Notebook checkpoints
+# ─────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─────────────────────────────────────────────
+# Build / packaging outputs
+# ─────────────────────────────────────────────
 build/
 dist/
 *.egg-info/
 
-# Temporary editor/system files
+# ─────────────────────────────────────────────
+# OS / editor temp files
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
 *.tmp
 *.bak
 *.swp
 ~$*
 
-# Local model caches. Existing tracked files are not removed by this rule.
-data/indexes/faiss/hf_cache/
-
-# Regenerable heavy artifacts (FAISS index, pickles, ranking datasets/features)
-*.faiss
-*.pkl
-*.jsonl
-data/ranking/features/
-data/ranking/datasets/
-
-# Local junk / scratch data files
+# ─────────────────────────────────────────────
+# Local scratch notes
+# ─────────────────────────────────────────────
 data/demo.md
 data/demo1.md
