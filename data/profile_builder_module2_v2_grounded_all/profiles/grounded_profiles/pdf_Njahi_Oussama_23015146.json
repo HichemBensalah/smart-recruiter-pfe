@@ -1,0 +1,205 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Njahi_Oussama_23015146.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Njahi_Oussama_23015146.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9195,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nOussama Njahi\nnjahioussama@outlook.com | https: //github.com/Njahi 98 | https: //njahi-oussama. vercel. app/| +21693147693\n\n## TECHNICAL SKILLS\n\nCompétences\nLangages de Programmation: Java, JavaScript, TypeScript, Python, SQL\nFrontend:\nNextjs, Reactjs, Vite, HTML 5, CSS 3, Tailwind CSS\nBackend:\nNode. js, Express. js, Spring Boot, JWT, Web Socket, REST API, Prisma\nBases de Données:\nMongoDB, MySQL, PostgreSQL\nOutils & Plateformes:\nGit, GitHub, Docker, Linux, Postman, Vercel\n\n## LANGUAGES\n\nLangues:\nArabe (C 2), Anglais (C 1), Français (B 1), Allemand (A 2)\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience Professionnelle\n## Stage en Développement Web, IWARE - Sousse, Tunisie\n**Date: ** Fév 2024 - Juin 2024\nDéveloppement d'un tableau de bord administrateur avec React, Spring Boot, MongoDB et JWT pour la gestion des employés, des rôles, des salaires et des stagiaires.\n- Création d'un système de gestion des stages avec planification des entretiens via Google Meet.\n- Développement d'un système de push/in-app notifications et système de messagerie en temps réel avec Websocket/Mongodb.\n## Stage en Développement Web, IWARE - Sousse, Tunisie\n**Date: ** Juil 2023 - Août 2023\n\n## EDUCATION\n\nDéveloppement d'un module de formation pour la gestion du développement professionnel.\nTraduction des maquettes Figma en interface React responsive avec Tailwind CSS et composants réutilisables.\nCréation d'une UI interactive avec Framer Motion et gestion de l'état côté client pour une meilleure UX.\nhttps: /textilepro. netlify. app\nTableaux avancés (Tan Stack), formulaires (React Hook Form + Zod) et gestion d'état global (Zustand).\n- https: /github.com/Njahi 98/Recipe-Management-Application\nTraitement d'images via Grid FS, Multer, Sharp. js; schémas MongoDB/Mongoose pour relations optimisées.\n- Formation\n\n## ACADEMIC PROJECTS\n\nProjets\nPlateforme de gestion - Optimisation des flux textiles\nDéveloppement d'un tableau de bord administrateur full-stack pour la gestion des lignes de production, du suivi des ouvriers, des produits et des indicateurs de performance et génération d'analyses intelligentes basées sur l'IA (API Google Gemini).\nMise en place d'une authentification sécurisée avec rôles (JWT) et intégration d'une interface moderne (React, TypeScript, Tailwind, shadcn/ui).\nBackend Node. js/Express avec Prisma et PostgreSQL, incluant import automatisé de fichiers CSV et génération d'analyses en temps réel.\n- Application de partage de Recettes\nPlateforme culinaire full-stack avec Node. js/Express, authentification JWT, accès par rôles.\n\n## PROFESSIONAL SUMMARY\n\nAPI REST pour recettes, avis, utilisateurs, statistiques, profils, middlewares d'autorisation, gestion d'erreurs.\nSécurité renforcée: jetons de rafraîchissement JWT, rate limiting, validation/sanitation des entrées, Helmet. js.",
+    "header_info": {
+      "full_name": "Oussama Njahi",
+      "email": "njahioussama@outlook.com",
+      "phone": "+21693147693",
+      "location": "Langages de Programmation: Java, JavaScript, TypeScript, Python, SQL",
+      "linkedin": null,
+      "github": "github.com/Njahi"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9179,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.phone",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Oussama Njahi",
+      "email": "njahioussama@outlook.com",
+      "phone": "+21693147693",
+      "location": "",
+      "linkedin": null,
+      "github": "https://github.com/Njahi"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "SQL",
+        "Nextjs",
+        "Reactjs",
+        "Vite",
+        "HTML 5",
+        "CSS 3",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "Spring Boot",
+        "JWT",
+        "Web Socket",
+        "REST API",
+        "Prisma",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Git",
+        "GitHub",
+        "Docker",
+        "Linux",
+        "Postman",
+        "Vercel"
+      ],
+      "soft_skills": [
+        "Création de systèmes de gestion des stages",
+        "Développement d'un système de push/in-app notifications et système de messagerie en temps réel",
+        "Traduction des maquettes Figma en interface React responsive",
+        "Création d'une UI interactive avec Framer Motion"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "IWARE - Sousse, Tunisie",
+        "job_title": null,
+        "start_date": "Fév 2024",
+        "end_date": "Juin 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement d'un tableau de bord administrateur avec React, Spring Boot, MongoDB et JWT pour la gestion des employés, des rôles, des salaires et des stagiaires.",
+          "Création d'un système de gestion des stages avec planification des entretiens via Google Meet."
+        ]
+      },
+      {
+        "company": "IWARE - Sousse, Tunisie",
+        "job_title": null,
+        "start_date": "Juil 2023",
+        "end_date": "Août 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de push/in-app notifications et système de messagerie en temps réel avec Websocket/Mongodb."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "textilepro.netlify.app",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe (C 2)",
+      "Anglais (C 1)",
+      "Français (B 1)",
+      "Allemand (A 2)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:52:14.099770+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

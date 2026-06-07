@@ -1,0 +1,112 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ben_Hassen_Abdelkader_23032144.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ben_Hassen_Abdelkader_23032144.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ben_Hassen_Abdelkader_23032144.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Abdelkader Ben Hassan",
+      "email": "2@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Node.js",
+        "Angular",
+        "MongoDB",
+        "Socket.IO",
+        "GitHub",
+        "React",
+        "TypeScript",
+        "SCSS",
+        "Git",
+        "Scrum",
+        "Django",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle",
+        "SQL Server",
+        "Windows",
+        "Linux",
+        "Copilot",
+        "Claude",
+        "Oracle Cloud Infrastructure",
+        "Word Press",
+        "Docker",
+        "Kubernetes",
+        "Java",
+        "Python",
+        "JavaScript"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Full Stack",
+        "company": "AT Technologies",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Stagiaire Full Stack",
+        "company": "Ser Ops",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Stagiaire Front-End",
+        "company": "Profeel Talent Solutions",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web d'audit (ODITE) en méthodologie Scrum.",
+          "Intégration des APIs backend, conception d'interfaces à partir de maquettes Figma.",
+          "Implémentation: gestion des audits, entreprises, exigences, authentification."
+        ]
+      },
+      {
+        "job_title": "Stagiaire Développeur Full Stack",
+        "company": "After Code",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Fonctionnalités: dossiers patients, rendez-vous en ligne, gestion des dossiers médicaux."
+        ]
+      },
+      {
+        "job_title": "Stagiaire",
+        "company": "TSI",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:44:14.965386+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9099,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

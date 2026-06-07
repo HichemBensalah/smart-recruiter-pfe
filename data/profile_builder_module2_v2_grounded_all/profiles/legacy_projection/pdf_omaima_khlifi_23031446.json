@@ -1,0 +1,96 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\omaima_khlifi_23031446.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\omaima_khlifi_23031446.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\omaima_khlifi_23031446.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Oumaima Khlifi",
+      "email": "1409@gmail.com",
+      "phone": "+216) 95 358 044",
+      "location": "Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Django",
+        "REST APIs",
+        "FastAPI",
+        "Spring Boot",
+        "Spring Security",
+        "JPA/Hibernate",
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "HTML 5/CSS 3 (Sass)",
+        "Lang Chain",
+        "Qwen 2. 5-VL"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Développé plus de 30 endpoints REST avec Django",
+          "Conçu une plateforme CI/CD complète automatisant les processus de build, test et déploiement",
+          "Développé des API REST avec Spring Boot orchestrant les workflows CI/CD",
+          "Livré un dashboard Angular temps réel permettant aux clients de suivre en direct le statut de leurs pipelines"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conçu et déployé 2 microservices indépendants avec Java 17 et Spring Boot 3"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Implémenté Eureka Service Discovery pour un enregistrement dynamique des services"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingénieure Logiciel - Projet de Fin d'Études",
+        "school": "ARGVISION",
+        "year": null
+      },
+      {
+        "degree": "Stagiaire - Plateforme CI/CD inspirée de Jenkins/GitHub Actions",
+        "school": "IPACT Consult",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:54:39.060991+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.5031,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

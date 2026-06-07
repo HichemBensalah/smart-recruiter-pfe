@@ -1,0 +1,89 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Safa_Belhadj_Romdhane_23022519.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Safa_Belhadj_Romdhane_23022519.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Safa_Belhadj_Romdhane_23022519.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Safa Belhadj Romdhane",
+      "email": "safabelhadjromdhane@gmail.com",
+      "phone": "+216 51 096 335",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Node.js",
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "MongoDB",
+        "Express.js",
+        "Microservices",
+        "REST APIs",
+        "Middleware",
+        "RBAC",
+        "JWT"
+      ],
+      "soft_skills": [
+        "Machine Learning",
+        "Deep Learning",
+        "Web Scraping"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Sybernetys",
+        "start_date": "Février 2025 - Présent",
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement de fonctionnalités back-end avec Node.js, Express et Type ORM (PostgreSQL).",
+          "Documentation technique des flux de données et contribution à la fiabilité des systèmes décisionnels."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Zodiac Marine",
+        "start_date": "Février 2022 - Mai 2022",
+        "end_date": null,
+        "city": "Sousse, Tunisie",
+        "responsibilities": [
+          "Stagiaire Analyste de Données/Développeuse Fullstack.",
+          "Nettoyage, transformation et intégration de données à l'aide de Talend (ETL); optimisation des requêtes SQL et des traitements back-end."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master en Ingénierie des Systèmes d'Information et Data Science (ISIDS)",
+        "school": "Faculté des Sciences Économiques et de Gestion de Tunis (FSEGT)",
+        "year": null
+      },
+      {
+        "degree": "Licence en Business Intelligence (BI)",
+        "school": "Faculté des Sciences Économiques et de Gestion de Tunis (FSEGT)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:34:25.872579+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6647,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

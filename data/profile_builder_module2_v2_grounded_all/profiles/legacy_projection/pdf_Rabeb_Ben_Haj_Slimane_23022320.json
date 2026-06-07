@@ -1,0 +1,75 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rabeb_Ben_Haj_Slimane_23022320.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rabeb_Ben_Haj_Slimane_23022320.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Rabeb_Ben_Haj_Slimane_23022320.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": null,
+      "email": "benhajslimanerabeb@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Cloud Computing, DevOps, Kubernetes, Docker, Spring Boot, Jenkins, Git, GitHub, Prometheus, Grafana",
+      "hard_skills": [
+        "Kubernetes",
+        "Docker",
+        "Spring Boot",
+        "Jenkins",
+        "Git",
+        "GitHub",
+        "Prometheus",
+        "Grafana"
+      ],
+      "soft_skills": [
+        "Prise de parole en public",
+        "Résolution des problèmes",
+        "Travail en équipe"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et déploiement d'un cluster Kubernetes HA",
+          "Mise en place d'un pipeline CI/CD sécurisé (Jenkins, Docker, Trivy, Argo CD, Git Ops)",
+          "Automatisation complète du provisionnement via Ansible & Helm",
+          "Intégration d'un monitoring temps réel (Prometheus, Grafana)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle ingénieur en génie informatique",
+        "school": "ESPRIT",
+        "year": "2024"
+      },
+      {
+        "degree": "Licence Appliquée en Technologies de l'Informatique",
+        "school": "ISET Rades",
+        "year": "2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:24:32.752181+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6751,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

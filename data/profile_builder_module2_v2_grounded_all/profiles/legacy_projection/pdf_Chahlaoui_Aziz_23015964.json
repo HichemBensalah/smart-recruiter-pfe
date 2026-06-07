@@ -1,0 +1,82 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Chahlaoui_Aziz_23015964.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Chahlaoui_Aziz_23015964.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Chahlaoui_Aziz_23015964.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "AZIZ CHAHLAOUI",
+      "email": "7@gmail.com",
+      "phone": "+216 95124032",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Java",
+        "JAVAFX",
+        "MYSQL",
+        "GIT",
+        "GITLAB",
+        "DEBUGGING",
+        "PROBLEM SOLVING",
+        "Docker",
+        "Eureka",
+        "API GATEWAY",
+        "KEYCLOAK"
+      ],
+      "soft_skills": [
+        "Collaboration",
+        "Communication",
+        "Problem-solving",
+        "Scrum"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Contribution au développement et à l'optimisation de la plateforme intelligente Global Expand",
+          "Gestion du backlog produit: recueil des besoins, priorisation des tâches et planification des sprints.",
+          "Collaboration avec les différents intervenants (développeurs, encadrants, collaborateurs) pour assurer une bonne communication et une cohérence fonctionnelle.",
+          "Validation des fonctionnalités développées et contribution aux tests fonctionnels et techniques.",
+          "Participation active au debugging et à la résolution de problèmes pour garantir la qualité et la stabilité de la plateforme."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en technologies de l'information et de la communication",
+        "school": "Institut Supérieur des Sciences Appliquées et de Technologies de Gafsa",
+        "year": null
+      },
+      {
+        "degree": "Spécialisation: Génie Logiciel",
+        "school": "Ecole Supérieure Privée d'Ingénierie et de Technologies",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:48:28.345094+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7979,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

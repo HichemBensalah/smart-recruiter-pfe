@@ -1,0 +1,2723 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Raed_Houimli_23028692.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "uncertain",
+  "raw_text": "HEADER\nRAED HOUIMLI\nIngénieur DevOps / Infrastructure & Automation — Freelance\n+216 46050431 · houimliraed@hotmail.com · github.com/raed-houimli · linkedin.com/in/raed-houimli · Tunis,\nTunisie\nPROFIL\nIngénieur DevOps / SRE avec plus de 5 ans d'expérience en infrastructure Linux, pipelines CI/CD,\nconteneurisation Docker, automatisation et sécurité des environnements de production. Habitué à travailler sur\ndes systèmes critiques en autonomie complète, avec une forte culture de la rigueur et de la documentation. À\nl'aise avec le code applicatif (Python, Bash) et les architectures backend, ce qui facilite la collaboration directe\nJOB SUMMARY\nCOMPÉTENCES TECHNIQUES\nCI/CD &\nAutomatisation\nGitLab CI/CD · GitHub Actions · Pipelines build/test/deploy · Infrastructure as Code\nConteneurisation\nDocker · Docker Compose · Kubernetes (EKS) · Helm · Argo CD\nLinux & Système\nAdministration Linux · Scripts Bash · Gestion des accès et secrets ·\nEnvironnements reproductibles\nRéseau & Sécurité\nNginx · DNS · SSL/TLS · Routage · Hardening des environnements · DevSecOps\nCloud\nAWS (EC2, ECS, EKS, Lambda, RDS, S3, IAM, VPC) · Terraform ·\nEnvironnements cloud natifs\nMonitoring\nPrometheus · Grafana · Logs & supervision · Suivi de stabilité\nCode applicatif\nPython · Bash · FastAPI · APIs REST · PostgreSQL · MySQL\nData & IA\nIntérêt pour les environnements data, analytics et agents IA · Intégrations API\nintelligentes\nEXPÉRIENCE PROFESSIONNELLE\nIngénieur DevSecOps / SRE (Freelance) | HEM — Plateforme Cloud-Native AWS EKSMar 2026 –\nPrésent\n•\nConception et déploiement d'une plateforme cloud-native sur AWS EKS avec GitOps (Argo CD), Helm et\nTerraform.\n•\nMise en place d'un stack d'observabilité complet : Prometheus, Grafana, gestion des logs et alerting.\n•\nAutomatisation des pipelines de déploiement et gestion des environnements Kubernetes en production.\nIngénieur DevSecOps / Logiciel | Ministère de la Défense Nationale — Tunisie\n2020 – Nov 2025\n•\nConception et maintenance de pipelines CI/CD (GitLab CI, GitHub Actions) pour l'automatisation du build,\ndes tests et du déploiement.\n•\nAdministration de serveurs Linux, gestion des configurations, variables d'environnement, accès et\nsecrets.\n•\nConteneurisation des applications et orchestration via Docker ; déploiements sur environnements cloud\nAWS.\n•\nMise en place de solutions de monitoring et supervision (Prometheus, Grafana) pour assurer la stabilité\ndes services.\n•\nSécurisation des environnements et services déployés ; participation aux initiatives de hardening\nsystème.\n•\nProvisionnement d'infrastructure reproductible via Terraform ; standardisation des environnements de\ndéveloppement et production.\n•\nDéveloppement de services backend en Python (FastAPI) et scripts d'automatisation Bash pour les\néquipes internes.\n•\nCollaboration directe avec les équipes développement et production sur l'architecture, le déploiement et\nla fiabilité opérationnelle.\n•\nRédaction de documentation technique et de procédures de déploiement pour les équipes d'ingénierie.\nPROJETS SÉLECTIONNÉS\nPlateforme de Trading Algorithmique Cloud-Native (Projet PFE)\n•\nConception et déploiement d'une plateforme complète sur AWS EKS : services FastAPI, PostgreSQL,\npipelines CI/CD automatisés et monitoring intégré.\nAutomatisation & Infrastructure\n•\nMise en place de pipelines de déploiement automatisés (GitHub Actions, Docker) sur des infrastructures\nLinux AWS.\n•\nImplémentation de solutions de monitoring, logging et amélioration de la fiabilité des services en\nproduction.\nIntégrations Data & IA\n•\nIntégration de workflows d'automatisation et d'APIs intelligentes dans des systèmes backend existants.\n•\nExposition aux environnements data/analytics et aux architectures multi-services orientées IA.\nFORMATION\nM.Sc. Mathématiques Appliquées & Data Science\n2024 – 2025\nÉcole Nationale Supérieure d'Ingénieurs de Tunis (ENSIT)\nM.Sc.Eng Génie Logiciel\n2021 – 2023\nInstitut Supérieur d'Informatique (ISI), Tunis\nLicence en Informatique — Spécialités Aéronautiques\n2017 – 2020\nÉcole des Spécialités Aéronautiques (ESA), Tunis\nLANGUES & INFORMATIONS COMPLÉMENTAIRES\nArabe — Langue maternelle Français — Courant Anglais — Professionnel complet\nForte capacité à travailler en autonomie avec ownership technique de bout en bout. Habitué à intervenir sur",
+  "markdown": "## RAED HOUIMLI\n\nIngénieur Dev Ops/Infrastructure & Automation — Freelance\n+216 46050431 · houimliraed@hotmail. com · github. com/raed-houimli · linkedin. com/in/raed-houimli · Tunis,\nTunisie\n\n## PROFIL\n\nIngénieur Dev Ops/SRE avec plus de 5 ans d'expérience en infrastructure Linux, pipelines CI/CD,\nconteneurisation Docker, automatisation et sécurité des environnements de production. Habitué à travailler sur\ndes systèmes critiques en autonomie complète, avec une forte culture de la rigueur et de la documentation. À\nl'aise avec le code applicatif (Python, Bash) et les architectures backend, ce qui facilite la collaboration directe\n\n## CI/CD & Automatisation\nGit Lab CI/CD · Git Hub Actions · Pipelines build/test/deploy · Infrastructure as Code\nConteneurisation\nDocker · Docker Compose · Kubernetes (EKS) · Helm · Argo CD\nLinux & Système\nAdministration Linux · Scripts Bash · Gestion des accès et secrets ·\nEnvironnements reproductibles\nRéseau & Sécurité\nNginx · DNS · SSL/TLS · Routage · Hardening des environnements · Dev Sec Ops\nCloud\nAWS (EC 2, ECS, EKS, Lambda, RDS, S 3, IAM, VPC) · Terraform ·\nEnvironnements cloud natifs\nMonitoring\nPrometheus · Grafana · Logs & supervision · Suivi de stabilité\nCode applicatif\nPython · Bash · Fast API · APIs REST · Postgre SQL · My SQL\nData & IA\nIntérêt pour les environnements data, analytics et agents IA · Intégrations API\nintelligentes\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nIngénieur Dev Sec Ops/SRE (Freelance) | HEM — Plateforme Cloud-Native AWS EKSMar 2026 –\nPrésent\nConception et déploiement d'une plateforme cloud-native sur AWS EKS avec Git Ops (Argo CD), Helm et\nTerraform.\nMise en place d'un stack d'observabilité complet : Prometheus, Grafana, gestion des logs et alerting.\nAutomatisation des pipelines de déploiement et gestion des environnements Kubernetes en production.\nIngénieur Dev Sec Ops/Logiciel | Ministère de la Défense Nationale — Tunisie\n2020 – Nov 2025\nConception et maintenance de pipelines CI/CD (Git Lab CI, Git Hub Actions) pour l'automatisation du build,\ndes tests et du déploiement.\nAdministration de serveurs Linux, gestion des configurations, variables d'environnement, accès et\nsecrets.\nConteneurisation des applications et orchestration via Docker ; déploiements sur environnements cloud\n\n## AWS.\n\nMise en place de solutions de monitoring et supervision (Prometheus, Grafana) pour assurer la stabilité\ndes services.\nSécurisation des environnements et services déployés ; participation aux initiatives de hardening\nsystème.\nProvisionnement d'infrastructure reproductible via Terraform ; standardisation des environnements de\ndéveloppement et production.\nDéveloppement de services backend en Python (Fast API) et scripts d'automatisation Bash pour les\néquipes internes.\nCollaboration directe avec les équipes développement et production sur l'architecture, le déploiement et\nla fiabilité opérationnelle.\nRédaction de documentation technique et de procédures de déploiement pour les équipes d'ingénierie.\n\n## PROJETS SÉLECTIONNÉS\n\nPlateforme de Trading Algorithmique Cloud-Native (Projet PFE)\nConception et déploiement d'une plateforme complète sur AWS EKS : services Fast API, Postgre SQL,\npipelines CI/CD automatisés et monitoring intégré.\nAutomatisation & Infrastructure\nMise en place de pipelines de déploiement automatisés (Git Hub Actions, Docker) sur des infrastructures\nLinux AWS.\nImplémentation de solutions de monitoring, logging et amélioration de la fiabilité des services en\nproduction.\nIntégrations Data & IA\nIntégration de workflows d'automatisation et d'APIs intelligentes dans des systèmes backend existants.\nExposition aux environnements data/analytics et aux architectures multi-services orientées IA.\n\n## FORMATION\n\nM. Sc. Mathématiques Appliquées & Data Science\nÉcole Nationale Supérieure d'Ingénieurs de Tunis (ENSIT)\nM. Sc. Eng Génie Logiciel\nInstitut Supérieur d'Informatique (ISI), Tunis\nLicence en Informatique — Spécialités Aéronautiques\nÉcole des Spécialités Aéronautiques (ESA), Tunis\n\n## LANGUES & INFORMATIONS COMPLÉMENTAIRES\n\nArabe — Langue maternelle Français — Courant Anglais — Professionnel complet\nForte capacité à travailler en autonomie avec ownership technique de bout en bout. Habitué à intervenir sur",
+  "logical_sections": [
+    {
+      "title": "RAED HOUIMLI",
+      "section_type": "other",
+      "content": [
+        "Ingénieur DevOps / Infrastructure & Automation — Freelance",
+        "+216 46050431 · houimliraed@hotmail.com · github.com/raed-houimli · linkedin.com/in/raed-houimli · Tunis,",
+        "Tunisie"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ingénieur DevOps / Infrastructure & Automation — Freelance",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 1.0,
+            "right": 0.0,
+            "bottom": 1.0
+          },
+          "section_title": "RAED HOUIMLI"
+        },
+        {
+          "text": "+216 46050431 · houimliraed@hotmail.com · github.com/raed-houimli · linkedin.com/in/raed-houimli · Tunis,",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 2.0,
+            "right": 0.0,
+            "bottom": 2.0
+          },
+          "section_title": "RAED HOUIMLI"
+        },
+        {
+          "text": "Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 3.0,
+            "right": 0.0,
+            "bottom": 3.0
+          },
+          "section_title": "RAED HOUIMLI"
+        }
+      ]
+    },
+    {
+      "title": "PROFIL",
+      "section_type": "other",
+      "content": [
+        "Ingénieur DevOps / SRE avec plus de 5 ans d'expérience en infrastructure Linux, pipelines CI/CD,",
+        "conteneurisation Docker, automatisation et sécurité des environnements de production. Habitué à travailler sur",
+        "des systèmes critiques en autonomie complète, avec une forte culture de la rigueur et de la documentation. À",
+        "l'aise avec le code applicatif (Python, Bash) et les architectures backend, ce qui facilite la collaboration directe"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ingénieur DevOps / SRE avec plus de 5 ans d'expérience en infrastructure Linux, pipelines CI/CD,",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 5.0,
+            "right": 0.0,
+            "bottom": 5.0
+          },
+          "section_title": "PROFIL"
+        },
+        {
+          "text": "conteneurisation Docker, automatisation et sécurité des environnements de production. Habitué à travailler sur",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 6.0,
+            "right": 0.0,
+            "bottom": 6.0
+          },
+          "section_title": "PROFIL"
+        },
+        {
+          "text": "des systèmes critiques en autonomie complète, avec une forte culture de la rigueur et de la documentation. À",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 7.0,
+            "right": 0.0,
+            "bottom": 7.0
+          },
+          "section_title": "PROFIL"
+        },
+        {
+          "text": "l'aise avec le code applicatif (Python, Bash) et les architectures backend, ce qui facilite la collaboration directe",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 8.0,
+            "right": 0.0,
+            "bottom": 8.0
+          },
+          "section_title": "PROFIL"
+        }
+      ]
+    },
+    {
+      "title": "CI/CD &",
+      "section_type": "other",
+      "content": [
+        "Automatisation",
+        "GitLab CI/CD · GitHub Actions · Pipelines build/test/deploy · Infrastructure as Code",
+        "Conteneurisation",
+        "Docker · Docker Compose · Kubernetes (EKS) · Helm · Argo CD",
+        "Linux & Système",
+        "Administration Linux · Scripts Bash · Gestion des accès et secrets ·",
+        "Environnements reproductibles",
+        "Réseau & Sécurité",
+        "Nginx · DNS · SSL/TLS · Routage · Hardening des environnements · DevSecOps",
+        "Cloud",
+        "AWS (EC2, ECS, EKS, Lambda, RDS, S3, IAM, VPC) · Terraform ·",
+        "Environnements cloud natifs",
+        "Monitoring",
+        "Prometheus · Grafana · Logs & supervision · Suivi de stabilité",
+        "Code applicatif",
+        "Python · Bash · FastAPI · APIs REST · PostgreSQL · MySQL",
+        "Data & IA",
+        "Intérêt pour les environnements data, analytics et agents IA · Intégrations API",
+        "intelligentes"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Automatisation",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 12.0,
+            "right": 0.0,
+            "bottom": 12.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "GitLab CI/CD · GitHub Actions · Pipelines build/test/deploy · Infrastructure as Code",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 13.0,
+            "right": 0.0,
+            "bottom": 13.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Conteneurisation",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 14.0,
+            "right": 0.0,
+            "bottom": 14.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Docker · Docker Compose · Kubernetes (EKS) · Helm · Argo CD",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 15.0,
+            "right": 0.0,
+            "bottom": 15.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Linux & Système",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 16.0,
+            "right": 0.0,
+            "bottom": 16.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Administration Linux · Scripts Bash · Gestion des accès et secrets ·",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 17.0,
+            "right": 0.0,
+            "bottom": 17.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Environnements reproductibles",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 18.0,
+            "right": 0.0,
+            "bottom": 18.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Réseau & Sécurité",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 19.0,
+            "right": 0.0,
+            "bottom": 19.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Nginx · DNS · SSL/TLS · Routage · Hardening des environnements · DevSecOps",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 20.0,
+            "right": 0.0,
+            "bottom": 20.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Cloud",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 21.0,
+            "right": 0.0,
+            "bottom": 21.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "AWS (EC2, ECS, EKS, Lambda, RDS, S3, IAM, VPC) · Terraform ·",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 22.0,
+            "right": 0.0,
+            "bottom": 22.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Environnements cloud natifs",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 23.0,
+            "right": 0.0,
+            "bottom": 23.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Monitoring",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 24.0,
+            "right": 0.0,
+            "bottom": 24.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Prometheus · Grafana · Logs & supervision · Suivi de stabilité",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 25.0,
+            "right": 0.0,
+            "bottom": 25.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Code applicatif",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 26.0,
+            "right": 0.0,
+            "bottom": 26.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Python · Bash · FastAPI · APIs REST · PostgreSQL · MySQL",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 27.0,
+            "right": 0.0,
+            "bottom": 27.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Data & IA",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 28.0,
+            "right": 0.0,
+            "bottom": 28.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "Intérêt pour les environnements data, analytics et agents IA · Intégrations API",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 29.0,
+            "right": 0.0,
+            "bottom": 29.0
+          },
+          "section_title": "CI/CD &"
+        },
+        {
+          "text": "intelligentes",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 30.0,
+            "right": 0.0,
+            "bottom": 30.0
+          },
+          "section_title": "CI/CD &"
+        }
+      ]
+    },
+    {
+      "title": "EXPÉRIENCE PROFESSIONNELLE",
+      "section_type": "other",
+      "content": [
+        "Ingénieur DevSecOps / SRE (Freelance) | HEM — Plateforme Cloud-Native AWS EKSMar 2026 –",
+        "Présent",
+        "•",
+        "Conception et déploiement d'une plateforme cloud-native sur AWS EKS avec GitOps (Argo CD), Helm et",
+        "Terraform.",
+        "•",
+        "Mise en place d'un stack d'observabilité complet : Prometheus, Grafana, gestion des logs et alerting.",
+        "•",
+        "Automatisation des pipelines de déploiement et gestion des environnements Kubernetes en production.",
+        "Ingénieur DevSecOps / Logiciel | Ministère de la Défense Nationale — Tunisie",
+        "2020 – Nov 2025",
+        "•",
+        "Conception et maintenance de pipelines CI/CD (GitLab CI, GitHub Actions) pour l'automatisation du build,",
+        "des tests et du déploiement.",
+        "•",
+        "Administration de serveurs Linux, gestion des configurations, variables d'environnement, accès et",
+        "secrets.",
+        "•",
+        "Conteneurisation des applications et orchestration via Docker ; déploiements sur environnements cloud"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ingénieur DevSecOps / SRE (Freelance) | HEM — Plateforme Cloud-Native AWS EKSMar 2026 –",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 32.0,
+            "right": 0.0,
+            "bottom": 32.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "Présent",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 33.0,
+            "right": 0.0,
+            "bottom": 33.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 34.0,
+            "right": 0.0,
+            "bottom": 34.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "Conception et déploiement d'une plateforme cloud-native sur AWS EKS avec GitOps (Argo CD), Helm et",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 35.0,
+            "right": 0.0,
+            "bottom": 35.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "Terraform.",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 36.0,
+            "right": 0.0,
+            "bottom": 36.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 37.0,
+            "right": 0.0,
+            "bottom": 37.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "Mise en place d'un stack d'observabilité complet : Prometheus, Grafana, gestion des logs et alerting.",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 38.0,
+            "right": 0.0,
+            "bottom": 38.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 39.0,
+            "right": 0.0,
+            "bottom": 39.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "Automatisation des pipelines de déploiement et gestion des environnements Kubernetes en production.",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 40.0,
+            "right": 0.0,
+            "bottom": 40.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "Ingénieur DevSecOps / Logiciel | Ministère de la Défense Nationale — Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 41.0,
+            "right": 0.0,
+            "bottom": 41.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "2020 – Nov 2025",
+          "page_no": 1,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 42.0,
+            "right": 0.0,
+            "bottom": 42.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 43.0,
+            "right": 0.0,
+            "bottom": 43.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "Conception et maintenance de pipelines CI/CD (GitLab CI, GitHub Actions) pour l'automatisation du build,",
+          "page_no": 1,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 44.0,
+            "right": 0.0,
+            "bottom": 44.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "des tests et du déploiement.",
+          "page_no": 1,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 45.0,
+            "right": 0.0,
+            "bottom": 45.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 46.0,
+            "right": 0.0,
+            "bottom": 46.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "Administration de serveurs Linux, gestion des configurations, variables d'environnement, accès et",
+          "page_no": 1,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 47.0,
+            "right": 0.0,
+            "bottom": 47.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "secrets.",
+          "page_no": 1,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 48.0,
+            "right": 0.0,
+            "bottom": 48.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            49
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 49.0,
+            "right": 0.0,
+            "bottom": 49.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        },
+        {
+          "text": "Conteneurisation des applications et orchestration via Docker ; déploiements sur environnements cloud",
+          "page_no": 1,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 50.0,
+            "right": 0.0,
+            "bottom": 50.0
+          },
+          "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+        }
+      ]
+    },
+    {
+      "title": "AWS.",
+      "section_type": "other",
+      "content": [
+        "•",
+        "Mise en place de solutions de monitoring et supervision (Prometheus, Grafana) pour assurer la stabilité",
+        "des services.",
+        "•",
+        "Sécurisation des environnements et services déployés ; participation aux initiatives de hardening",
+        "système.",
+        "•",
+        "Provisionnement d'infrastructure reproductible via Terraform ; standardisation des environnements de",
+        "développement et production.",
+        "•",
+        "Développement de services backend en Python (FastAPI) et scripts d'automatisation Bash pour les",
+        "équipes internes.",
+        "•",
+        "Collaboration directe avec les équipes développement et production sur l'architecture, le déploiement et",
+        "la fiabilité opérationnelle.",
+        "•",
+        "Rédaction de documentation technique et de procédures de déploiement pour les équipes d'ingénierie."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 52.0,
+            "right": 0.0,
+            "bottom": 52.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "Mise en place de solutions de monitoring et supervision (Prometheus, Grafana) pour assurer la stabilité",
+          "page_no": 1,
+          "block_indices": [
+            53
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 53.0,
+            "right": 0.0,
+            "bottom": 53.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "des services.",
+          "page_no": 1,
+          "block_indices": [
+            54
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 54.0,
+            "right": 0.0,
+            "bottom": 54.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            55
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 55.0,
+            "right": 0.0,
+            "bottom": 55.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "Sécurisation des environnements et services déployés ; participation aux initiatives de hardening",
+          "page_no": 1,
+          "block_indices": [
+            56
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 56.0,
+            "right": 0.0,
+            "bottom": 56.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "système.",
+          "page_no": 1,
+          "block_indices": [
+            57
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 57.0,
+            "right": 0.0,
+            "bottom": 57.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            58
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 58.0,
+            "right": 0.0,
+            "bottom": 58.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "Provisionnement d'infrastructure reproductible via Terraform ; standardisation des environnements de",
+          "page_no": 1,
+          "block_indices": [
+            59
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 59.0,
+            "right": 0.0,
+            "bottom": 59.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "développement et production.",
+          "page_no": 1,
+          "block_indices": [
+            60
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 60.0,
+            "right": 0.0,
+            "bottom": 60.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            61
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 61.0,
+            "right": 0.0,
+            "bottom": 61.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "Développement de services backend en Python (FastAPI) et scripts d'automatisation Bash pour les",
+          "page_no": 1,
+          "block_indices": [
+            62
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 62.0,
+            "right": 0.0,
+            "bottom": 62.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "équipes internes.",
+          "page_no": 1,
+          "block_indices": [
+            63
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 63.0,
+            "right": 0.0,
+            "bottom": 63.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            64
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 64.0,
+            "right": 0.0,
+            "bottom": 64.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "Collaboration directe avec les équipes développement et production sur l'architecture, le déploiement et",
+          "page_no": 1,
+          "block_indices": [
+            65
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 65.0,
+            "right": 0.0,
+            "bottom": 65.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "la fiabilité opérationnelle.",
+          "page_no": 1,
+          "block_indices": [
+            66
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 66.0,
+            "right": 0.0,
+            "bottom": 66.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            67
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 67.0,
+            "right": 0.0,
+            "bottom": 67.0
+          },
+          "section_title": "AWS."
+        },
+        {
+          "text": "Rédaction de documentation technique et de procédures de déploiement pour les équipes d'ingénierie.",
+          "page_no": 1,
+          "block_indices": [
+            68
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 68.0,
+            "right": 0.0,
+            "bottom": 68.0
+          },
+          "section_title": "AWS."
+        }
+      ]
+    },
+    {
+      "title": "PROJETS SÉLECTIONNÉS",
+      "section_type": "other",
+      "content": [
+        "Plateforme de Trading Algorithmique Cloud-Native (Projet PFE)",
+        "•",
+        "Conception et déploiement d'une plateforme complète sur AWS EKS : services FastAPI, PostgreSQL,",
+        "pipelines CI/CD automatisés et monitoring intégré.",
+        "Automatisation & Infrastructure",
+        "•",
+        "Mise en place de pipelines de déploiement automatisés (GitHub Actions, Docker) sur des infrastructures",
+        "Linux AWS.",
+        "•",
+        "Implémentation de solutions de monitoring, logging et amélioration de la fiabilité des services en",
+        "production.",
+        "Intégrations Data & IA",
+        "•",
+        "Intégration de workflows d'automatisation et d'APIs intelligentes dans des systèmes backend existants.",
+        "•",
+        "Exposition aux environnements data/analytics et aux architectures multi-services orientées IA."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Plateforme de Trading Algorithmique Cloud-Native (Projet PFE)",
+          "page_no": 1,
+          "block_indices": [
+            70
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 70.0,
+            "right": 0.0,
+            "bottom": 70.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            71
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 71.0,
+            "right": 0.0,
+            "bottom": 71.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "Conception et déploiement d'une plateforme complète sur AWS EKS : services FastAPI, PostgreSQL,",
+          "page_no": 1,
+          "block_indices": [
+            72
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 72.0,
+            "right": 0.0,
+            "bottom": 72.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "pipelines CI/CD automatisés et monitoring intégré.",
+          "page_no": 1,
+          "block_indices": [
+            73
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 73.0,
+            "right": 0.0,
+            "bottom": 73.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "Automatisation & Infrastructure",
+          "page_no": 1,
+          "block_indices": [
+            74
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 74.0,
+            "right": 0.0,
+            "bottom": 74.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            75
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 75.0,
+            "right": 0.0,
+            "bottom": 75.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "Mise en place de pipelines de déploiement automatisés (GitHub Actions, Docker) sur des infrastructures",
+          "page_no": 1,
+          "block_indices": [
+            76
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 76.0,
+            "right": 0.0,
+            "bottom": 76.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "Linux AWS.",
+          "page_no": 1,
+          "block_indices": [
+            77
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 77.0,
+            "right": 0.0,
+            "bottom": 77.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            78
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 78.0,
+            "right": 0.0,
+            "bottom": 78.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "Implémentation de solutions de monitoring, logging et amélioration de la fiabilité des services en",
+          "page_no": 1,
+          "block_indices": [
+            79
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 79.0,
+            "right": 0.0,
+            "bottom": 79.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "production.",
+          "page_no": 1,
+          "block_indices": [
+            80
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 80.0,
+            "right": 0.0,
+            "bottom": 80.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "Intégrations Data & IA",
+          "page_no": 1,
+          "block_indices": [
+            81
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 81.0,
+            "right": 0.0,
+            "bottom": 81.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            82
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 82.0,
+            "right": 0.0,
+            "bottom": 82.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "Intégration de workflows d'automatisation et d'APIs intelligentes dans des systèmes backend existants.",
+          "page_no": 1,
+          "block_indices": [
+            83
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 83.0,
+            "right": 0.0,
+            "bottom": 83.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "•",
+          "page_no": 1,
+          "block_indices": [
+            84
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 84.0,
+            "right": 0.0,
+            "bottom": 84.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        },
+        {
+          "text": "Exposition aux environnements data/analytics et aux architectures multi-services orientées IA.",
+          "page_no": 1,
+          "block_indices": [
+            85
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 85.0,
+            "right": 0.0,
+            "bottom": 85.0
+          },
+          "section_title": "PROJETS SÉLECTIONNÉS"
+        }
+      ]
+    },
+    {
+      "title": "FORMATION",
+      "section_type": "other",
+      "content": [
+        "M.Sc. Mathématiques Appliquées & Data Science",
+        "2024 – 2025",
+        "École Nationale Supérieure d'Ingénieurs de Tunis (ENSIT)",
+        "M.Sc.Eng Génie Logiciel",
+        "2021 – 2023",
+        "Institut Supérieur d'Informatique (ISI), Tunis",
+        "Licence en Informatique — Spécialités Aéronautiques",
+        "2017 – 2020",
+        "École des Spécialités Aéronautiques (ESA), Tunis"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "M.Sc. Mathématiques Appliquées & Data Science",
+          "page_no": 1,
+          "block_indices": [
+            87
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 87.0,
+            "right": 0.0,
+            "bottom": 87.0
+          },
+          "section_title": "FORMATION"
+        },
+        {
+          "text": "2024 – 2025",
+          "page_no": 1,
+          "block_indices": [
+            88
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 88.0,
+            "right": 0.0,
+            "bottom": 88.0
+          },
+          "section_title": "FORMATION"
+        },
+        {
+          "text": "École Nationale Supérieure d'Ingénieurs de Tunis (ENSIT)",
+          "page_no": 1,
+          "block_indices": [
+            89
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 89.0,
+            "right": 0.0,
+            "bottom": 89.0
+          },
+          "section_title": "FORMATION"
+        },
+        {
+          "text": "M.Sc.Eng Génie Logiciel",
+          "page_no": 1,
+          "block_indices": [
+            90
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 90.0,
+            "right": 0.0,
+            "bottom": 90.0
+          },
+          "section_title": "FORMATION"
+        },
+        {
+          "text": "2021 – 2023",
+          "page_no": 1,
+          "block_indices": [
+            91
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 91.0,
+            "right": 0.0,
+            "bottom": 91.0
+          },
+          "section_title": "FORMATION"
+        },
+        {
+          "text": "Institut Supérieur d'Informatique (ISI), Tunis",
+          "page_no": 1,
+          "block_indices": [
+            92
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 92.0,
+            "right": 0.0,
+            "bottom": 92.0
+          },
+          "section_title": "FORMATION"
+        },
+        {
+          "text": "Licence en Informatique — Spécialités Aéronautiques",
+          "page_no": 1,
+          "block_indices": [
+            93
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 93.0,
+            "right": 0.0,
+            "bottom": 93.0
+          },
+          "section_title": "FORMATION"
+        },
+        {
+          "text": "2017 – 2020",
+          "page_no": 1,
+          "block_indices": [
+            94
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 94.0,
+            "right": 0.0,
+            "bottom": 94.0
+          },
+          "section_title": "FORMATION"
+        },
+        {
+          "text": "École des Spécialités Aéronautiques (ESA), Tunis",
+          "page_no": 1,
+          "block_indices": [
+            95
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 95.0,
+            "right": 0.0,
+            "bottom": 95.0
+          },
+          "section_title": "FORMATION"
+        }
+      ]
+    },
+    {
+      "title": "LANGUES & INFORMATIONS COMPLÉMENTAIRES",
+      "section_type": "other",
+      "content": [
+        "Arabe — Langue maternelle Français — Courant Anglais — Professionnel complet",
+        "Forte capacité à travailler en autonomie avec ownership technique de bout en bout. Habitué à intervenir sur"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Arabe — Langue maternelle Français — Courant Anglais — Professionnel complet",
+          "page_no": 1,
+          "block_indices": [
+            97
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 97.0,
+            "right": 0.0,
+            "bottom": 97.0
+          },
+          "section_title": "LANGUES & INFORMATIONS COMPLÉMENTAIRES"
+        },
+        {
+          "text": "Forte capacité à travailler en autonomie avec ownership technique de bout en bout. Habitué à intervenir sur",
+          "page_no": 1,
+          "block_indices": [
+            98
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 98.0,
+            "right": 0.0,
+            "bottom": 98.0
+          },
+          "section_title": "LANGUES & INFORMATIONS COMPLÉMENTAIRES"
+        }
+      ]
+    }
+  ],
+  "parser_used": "secondary_parser",
+  "fallback_used": true,
+  "document_confidence": {
+    "score": 0.666,
+    "status": "uncertain",
+    "signals": {
+      "useful_text_chars": 4273,
+      "section_completeness": 0.1667,
+      "ordering_coherence": 1.0,
+      "segmentation_stability": 0.7273,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.2887,
+      "weird_section_ratio": 0.0,
+      "section_count": 11,
+      "expected_section_hits": 1,
+      "markdown_chars": 4205,
+      "markdown_words": 575,
+      "markdown_has_experience": false,
+      "markdown_has_education": true,
+      "markdown_has_skills": false,
+      "markdown_useful_section_count": 1,
+      "markdown_weird_char_ratio": 0.0295,
+      "markdown_glued_line_count": 22,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=2\", \"pdf_total_text_chars=4435\", \"pdf_total_text_words=617\", \"pdf_avg_text_chars_per_page=2217.5\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "secondary_parser",
+      "fallback_used": true,
+      "confidence_penalty": 0.08
+    },
+    "warnings": [
+      "low_section_completeness",
+      "markdown_too_weak",
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "quarantined",
+    "eligible_for_module2": false,
+    "decision_reason": "Document incertain; quarantaine obligatoire pour proteger la factualite du systeme.",
+    "decision_rules": [
+      "uncertain -> quarantined",
+      "uncertain from any source -> always quarantined"
+    ],
+    "quality_flags": [
+      "low_section_completeness",
+      "markdown_too_weak",
+      "high_ocr_noise"
+    ],
+    "repair_status": "quarantined",
+    "repair_reason": null,
+    "quarantine_reason": "uncertain_document_blocked",
+    "next_action": "send_to_quarantine_queue"
+  },
+  "evidence_spans": [
+    {
+      "text": "Ingénieur DevOps / Infrastructure & Automation — Freelance",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 1.0,
+        "right": 0.0,
+        "bottom": 1.0
+      },
+      "section_title": "RAED HOUIMLI"
+    },
+    {
+      "text": "+216 46050431 · houimliraed@hotmail.com · github.com/raed-houimli · linkedin.com/in/raed-houimli · Tunis,",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 2.0,
+        "right": 0.0,
+        "bottom": 2.0
+      },
+      "section_title": "RAED HOUIMLI"
+    },
+    {
+      "text": "Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 3.0,
+        "right": 0.0,
+        "bottom": 3.0
+      },
+      "section_title": "RAED HOUIMLI"
+    },
+    {
+      "text": "Ingénieur DevOps / SRE avec plus de 5 ans d'expérience en infrastructure Linux, pipelines CI/CD,",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 5.0,
+        "right": 0.0,
+        "bottom": 5.0
+      },
+      "section_title": "PROFIL"
+    },
+    {
+      "text": "conteneurisation Docker, automatisation et sécurité des environnements de production. Habitué à travailler sur",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 6.0,
+        "right": 0.0,
+        "bottom": 6.0
+      },
+      "section_title": "PROFIL"
+    },
+    {
+      "text": "des systèmes critiques en autonomie complète, avec une forte culture de la rigueur et de la documentation. À",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 7.0,
+        "right": 0.0,
+        "bottom": 7.0
+      },
+      "section_title": "PROFIL"
+    },
+    {
+      "text": "l'aise avec le code applicatif (Python, Bash) et les architectures backend, ce qui facilite la collaboration directe",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 8.0,
+        "right": 0.0,
+        "bottom": 8.0
+      },
+      "section_title": "PROFIL"
+    },
+    {
+      "text": "Automatisation",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 12.0,
+        "right": 0.0,
+        "bottom": 12.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "GitLab CI/CD · GitHub Actions · Pipelines build/test/deploy · Infrastructure as Code",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 13.0,
+        "right": 0.0,
+        "bottom": 13.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Conteneurisation",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 14.0,
+        "right": 0.0,
+        "bottom": 14.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Docker · Docker Compose · Kubernetes (EKS) · Helm · Argo CD",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 15.0,
+        "right": 0.0,
+        "bottom": 15.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Linux & Système",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 16.0,
+        "right": 0.0,
+        "bottom": 16.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Administration Linux · Scripts Bash · Gestion des accès et secrets ·",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 17.0,
+        "right": 0.0,
+        "bottom": 17.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Environnements reproductibles",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 18.0,
+        "right": 0.0,
+        "bottom": 18.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Réseau & Sécurité",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 19.0,
+        "right": 0.0,
+        "bottom": 19.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Nginx · DNS · SSL/TLS · Routage · Hardening des environnements · DevSecOps",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 20.0,
+        "right": 0.0,
+        "bottom": 20.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Cloud",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 21.0,
+        "right": 0.0,
+        "bottom": 21.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "AWS (EC2, ECS, EKS, Lambda, RDS, S3, IAM, VPC) · Terraform ·",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 22.0,
+        "right": 0.0,
+        "bottom": 22.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Environnements cloud natifs",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 23.0,
+        "right": 0.0,
+        "bottom": 23.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Monitoring",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 24.0,
+        "right": 0.0,
+        "bottom": 24.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Prometheus · Grafana · Logs & supervision · Suivi de stabilité",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 25.0,
+        "right": 0.0,
+        "bottom": 25.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Code applicatif",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 26.0,
+        "right": 0.0,
+        "bottom": 26.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Python · Bash · FastAPI · APIs REST · PostgreSQL · MySQL",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 27.0,
+        "right": 0.0,
+        "bottom": 27.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Data & IA",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 28.0,
+        "right": 0.0,
+        "bottom": 28.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Intérêt pour les environnements data, analytics et agents IA · Intégrations API",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 29.0,
+        "right": 0.0,
+        "bottom": 29.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "intelligentes",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 30.0,
+        "right": 0.0,
+        "bottom": 30.0
+      },
+      "section_title": "CI/CD &"
+    },
+    {
+      "text": "Ingénieur DevSecOps / SRE (Freelance) | HEM — Plateforme Cloud-Native AWS EKSMar 2026 –",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 32.0,
+        "right": 0.0,
+        "bottom": 32.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "Présent",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 33.0,
+        "right": 0.0,
+        "bottom": 33.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 34.0,
+        "right": 0.0,
+        "bottom": 34.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "Conception et déploiement d'une plateforme cloud-native sur AWS EKS avec GitOps (Argo CD), Helm et",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 35.0,
+        "right": 0.0,
+        "bottom": 35.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "Terraform.",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 36.0,
+        "right": 0.0,
+        "bottom": 36.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 37.0,
+        "right": 0.0,
+        "bottom": 37.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "Mise en place d'un stack d'observabilité complet : Prometheus, Grafana, gestion des logs et alerting.",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 38.0,
+        "right": 0.0,
+        "bottom": 38.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 39.0,
+        "right": 0.0,
+        "bottom": 39.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "Automatisation des pipelines de déploiement et gestion des environnements Kubernetes en production.",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 40.0,
+        "right": 0.0,
+        "bottom": 40.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "Ingénieur DevSecOps / Logiciel | Ministère de la Défense Nationale — Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 41.0,
+        "right": 0.0,
+        "bottom": 41.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "2020 – Nov 2025",
+      "page_no": 1,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 42.0,
+        "right": 0.0,
+        "bottom": 42.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 43.0,
+        "right": 0.0,
+        "bottom": 43.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "Conception et maintenance de pipelines CI/CD (GitLab CI, GitHub Actions) pour l'automatisation du build,",
+      "page_no": 1,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 44.0,
+        "right": 0.0,
+        "bottom": 44.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "des tests et du déploiement.",
+      "page_no": 1,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 45.0,
+        "right": 0.0,
+        "bottom": 45.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 46.0,
+        "right": 0.0,
+        "bottom": 46.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "Administration de serveurs Linux, gestion des configurations, variables d'environnement, accès et",
+      "page_no": 1,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 47.0,
+        "right": 0.0,
+        "bottom": 47.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "secrets.",
+      "page_no": 1,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 48.0,
+        "right": 0.0,
+        "bottom": 48.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        49
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 49.0,
+        "right": 0.0,
+        "bottom": 49.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "Conteneurisation des applications et orchestration via Docker ; déploiements sur environnements cloud",
+      "page_no": 1,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 50.0,
+        "right": 0.0,
+        "bottom": 50.0
+      },
+      "section_title": "EXPÉRIENCE PROFESSIONNELLE"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 52.0,
+        "right": 0.0,
+        "bottom": 52.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "Mise en place de solutions de monitoring et supervision (Prometheus, Grafana) pour assurer la stabilité",
+      "page_no": 1,
+      "block_indices": [
+        53
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 53.0,
+        "right": 0.0,
+        "bottom": 53.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "des services.",
+      "page_no": 1,
+      "block_indices": [
+        54
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 54.0,
+        "right": 0.0,
+        "bottom": 54.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        55
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 55.0,
+        "right": 0.0,
+        "bottom": 55.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "Sécurisation des environnements et services déployés ; participation aux initiatives de hardening",
+      "page_no": 1,
+      "block_indices": [
+        56
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 56.0,
+        "right": 0.0,
+        "bottom": 56.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "système.",
+      "page_no": 1,
+      "block_indices": [
+        57
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 57.0,
+        "right": 0.0,
+        "bottom": 57.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        58
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 58.0,
+        "right": 0.0,
+        "bottom": 58.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "Provisionnement d'infrastructure reproductible via Terraform ; standardisation des environnements de",
+      "page_no": 1,
+      "block_indices": [
+        59
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 59.0,
+        "right": 0.0,
+        "bottom": 59.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "développement et production.",
+      "page_no": 1,
+      "block_indices": [
+        60
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 60.0,
+        "right": 0.0,
+        "bottom": 60.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        61
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 61.0,
+        "right": 0.0,
+        "bottom": 61.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "Développement de services backend en Python (FastAPI) et scripts d'automatisation Bash pour les",
+      "page_no": 1,
+      "block_indices": [
+        62
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 62.0,
+        "right": 0.0,
+        "bottom": 62.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "équipes internes.",
+      "page_no": 1,
+      "block_indices": [
+        63
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 63.0,
+        "right": 0.0,
+        "bottom": 63.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        64
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 64.0,
+        "right": 0.0,
+        "bottom": 64.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "Collaboration directe avec les équipes développement et production sur l'architecture, le déploiement et",
+      "page_no": 1,
+      "block_indices": [
+        65
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 65.0,
+        "right": 0.0,
+        "bottom": 65.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "la fiabilité opérationnelle.",
+      "page_no": 1,
+      "block_indices": [
+        66
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 66.0,
+        "right": 0.0,
+        "bottom": 66.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        67
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 67.0,
+        "right": 0.0,
+        "bottom": 67.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "Rédaction de documentation technique et de procédures de déploiement pour les équipes d'ingénierie.",
+      "page_no": 1,
+      "block_indices": [
+        68
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 68.0,
+        "right": 0.0,
+        "bottom": 68.0
+      },
+      "section_title": "AWS."
+    },
+    {
+      "text": "Plateforme de Trading Algorithmique Cloud-Native (Projet PFE)",
+      "page_no": 1,
+      "block_indices": [
+        70
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 70.0,
+        "right": 0.0,
+        "bottom": 70.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        71
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 71.0,
+        "right": 0.0,
+        "bottom": 71.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "Conception et déploiement d'une plateforme complète sur AWS EKS : services FastAPI, PostgreSQL,",
+      "page_no": 1,
+      "block_indices": [
+        72
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 72.0,
+        "right": 0.0,
+        "bottom": 72.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "pipelines CI/CD automatisés et monitoring intégré.",
+      "page_no": 1,
+      "block_indices": [
+        73
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 73.0,
+        "right": 0.0,
+        "bottom": 73.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "Automatisation & Infrastructure",
+      "page_no": 1,
+      "block_indices": [
+        74
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 74.0,
+        "right": 0.0,
+        "bottom": 74.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        75
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 75.0,
+        "right": 0.0,
+        "bottom": 75.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "Mise en place de pipelines de déploiement automatisés (GitHub Actions, Docker) sur des infrastructures",
+      "page_no": 1,
+      "block_indices": [
+        76
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 76.0,
+        "right": 0.0,
+        "bottom": 76.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "Linux AWS.",
+      "page_no": 1,
+      "block_indices": [
+        77
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 77.0,
+        "right": 0.0,
+        "bottom": 77.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        78
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 78.0,
+        "right": 0.0,
+        "bottom": 78.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "Implémentation de solutions de monitoring, logging et amélioration de la fiabilité des services en",
+      "page_no": 1,
+      "block_indices": [
+        79
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 79.0,
+        "right": 0.0,
+        "bottom": 79.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "production.",
+      "page_no": 1,
+      "block_indices": [
+        80
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 80.0,
+        "right": 0.0,
+        "bottom": 80.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "Intégrations Data & IA",
+      "page_no": 1,
+      "block_indices": [
+        81
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 81.0,
+        "right": 0.0,
+        "bottom": 81.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        82
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 82.0,
+        "right": 0.0,
+        "bottom": 82.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "Intégration de workflows d'automatisation et d'APIs intelligentes dans des systèmes backend existants.",
+      "page_no": 1,
+      "block_indices": [
+        83
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 83.0,
+        "right": 0.0,
+        "bottom": 83.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "•",
+      "page_no": 1,
+      "block_indices": [
+        84
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 84.0,
+        "right": 0.0,
+        "bottom": 84.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "Exposition aux environnements data/analytics et aux architectures multi-services orientées IA.",
+      "page_no": 1,
+      "block_indices": [
+        85
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 85.0,
+        "right": 0.0,
+        "bottom": 85.0
+      },
+      "section_title": "PROJETS SÉLECTIONNÉS"
+    },
+    {
+      "text": "M.Sc. Mathématiques Appliquées & Data Science",
+      "page_no": 1,
+      "block_indices": [
+        87
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 87.0,
+        "right": 0.0,
+        "bottom": 87.0
+      },
+      "section_title": "FORMATION"
+    },
+    {
+      "text": "2024 – 2025",
+      "page_no": 1,
+      "block_indices": [
+        88
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 88.0,
+        "right": 0.0,
+        "bottom": 88.0
+      },
+      "section_title": "FORMATION"
+    },
+    {
+      "text": "École Nationale Supérieure d'Ingénieurs de Tunis (ENSIT)",
+      "page_no": 1,
+      "block_indices": [
+        89
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 89.0,
+        "right": 0.0,
+        "bottom": 89.0
+      },
+      "section_title": "FORMATION"
+    },
+    {
+      "text": "M.Sc.Eng Génie Logiciel",
+      "page_no": 1,
+      "block_indices": [
+        90
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 90.0,
+        "right": 0.0,
+        "bottom": 90.0
+      },
+      "section_title": "FORMATION"
+    },
+    {
+      "text": "2021 – 2023",
+      "page_no": 1,
+      "block_indices": [
+        91
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 91.0,
+        "right": 0.0,
+        "bottom": 91.0
+      },
+      "section_title": "FORMATION"
+    },
+    {
+      "text": "Institut Supérieur d'Informatique (ISI), Tunis",
+      "page_no": 1,
+      "block_indices": [
+        92
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 92.0,
+        "right": 0.0,
+        "bottom": 92.0
+      },
+      "section_title": "FORMATION"
+    },
+    {
+      "text": "Licence en Informatique — Spécialités Aéronautiques",
+      "page_no": 1,
+      "block_indices": [
+        93
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 93.0,
+        "right": 0.0,
+        "bottom": 93.0
+      },
+      "section_title": "FORMATION"
+    },
+    {
+      "text": "2017 – 2020",
+      "page_no": 1,
+      "block_indices": [
+        94
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 94.0,
+        "right": 0.0,
+        "bottom": 94.0
+      },
+      "section_title": "FORMATION"
+    },
+    {
+      "text": "École des Spécialités Aéronautiques (ESA), Tunis",
+      "page_no": 1,
+      "block_indices": [
+        95
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 95.0,
+        "right": 0.0,
+        "bottom": 95.0
+      },
+      "section_title": "FORMATION"
+    },
+    {
+      "text": "Arabe — Langue maternelle Français — Courant Anglais — Professionnel complet",
+      "page_no": 1,
+      "block_indices": [
+        97
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 97.0,
+        "right": 0.0,
+        "bottom": 97.0
+      },
+      "section_title": "LANGUES & INFORMATIONS COMPLÉMENTAIRES"
+    },
+    {
+      "text": "Forte capacité à travailler en autonomie avec ownership technique de bout en bout. Habitué à intervenir sur",
+      "page_no": 1,
+      "block_indices": [
+        98
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 98.0,
+        "right": 0.0,
+        "bottom": 98.0
+      },
+      "section_title": "LANGUES & INFORMATIONS COMPLÉMENTAIRES"
+    }
+  ]
+}

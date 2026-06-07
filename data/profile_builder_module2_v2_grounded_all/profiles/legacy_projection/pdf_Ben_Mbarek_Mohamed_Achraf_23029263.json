@@ -1,0 +1,116 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ben_Mbarek_Mohamed_Achraf_23029263.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ben_Mbarek_Mohamed_Achraf_23029263.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ben_Mbarek_Mohamed_Achraf_23029263.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "INGÉNIEUR INFORMATIQUE",
+      "email": "mohamedachraf.benmbarek@esprit.tn",
+      "phone": "46993222",
+      "location": "Ariana Essoughra, Raoued, Ariana"
+    },
+    "expertise": {
+      "summary": "Jeune diplômé en Génie Informatique avec une expérience pratique en développement web full-stack utilisant Spring Boot et Angular",
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "MongoDB",
+        "Node.js",
+        "Express",
+        "API REST",
+        "MVC Architecture",
+        "React",
+        "JPA/Hibernate",
+        "Jenkins",
+        "Docker",
+        "Sonar Qube",
+        "Nexus",
+        "Prometheus",
+        "Grafana",
+        "Mockito",
+        "Ja Co Co",
+        "TensorFlow",
+        "Firebase",
+        "Cloudinary",
+        "AWS",
+        "Payment Gateway APIs"
+      ],
+      "soft_skills": [
+        "Esprit analytique et résolution de problèmes",
+        "Méthodologie Agile/Scrum",
+        "Tests unitaires et automatisation des tests",
+        "Clean Code et architecture maintenable",
+        "Apprentissage rapide et capacité d'adaptation aux nouvelles technologies",
+        "Forte attention à la qualité du code et à sa maintenabilité",
+        "Capacité à comprendre les besoins métiers et à les traduire en solutions techniques"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire - Développeur Full Stack",
+        "company": "Primatec Engineering",
+        "start_date": "Janvier 2024",
+        "end_date": "Juillet 2024",
+        "city": "Sfax",
+        "responsibilities": [
+          "Développement de modules ERP pour l'évaluation des employés et l'aide à la décision en recrutement",
+          "Développement de l'application avec Spring Boot et Angular, en utilisant une base de données MySQL pour stocker les informations relatives aux tâches et aux affectations des employés",
+          "Mise en place de fonctionnalités de workflow permettant aux tâches de passer par les étapes: À faire, En cours, Bloqué et Terminé"
+        ]
+      },
+      {
+        "job_title": "Stagiaire - Développeur Web",
+        "company": "Neuro Data",
+        "start_date": null,
+        "end_date": null,
+        "city": "Ariana",
+        "responsibilities": [
+          "Développement de fonctionnalités full-stack avec un backend Node.js utilisant des API REST Express.js, un frontend React et une base de données MongoDB",
+          "Création de fonctionnalités de navigation et de recherche permettant aux clients de vérifier la disponibilité des ouvrages avant de se déplacer en magasin",
+          "Réalisation de tests, débogage et correction d'incidents en production afin d'assurer la stabilité de la plateforme"
+        ]
+      },
+      {
+        "job_title": "Stagiaire - Développeur Junior",
+        "company": "Société Zayen",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sfax",
+        "responsibilities": [
+          "Développement d'une application full-stack utilisant Spring Boot (API REST) et un frontend Angular avec une base de données MySQL",
+          "Développement de règles métiers incluant la gestion du cycle de vie des contrats et la logique de validation",
+          "Mise en place et automatisation d'un pipeline CI/CD complet utilisant Jenkins (pipeline Groovy), compilation Maven, tests unitaires automatisés, analyse Sonar Qube, dépôt d'artefacts Nexus et déploiement d'images Docker"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:44:17.128972+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.963,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

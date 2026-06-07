@@ -149,7 +149,9 @@ def get_candidate(candidate_id: str) -> CandidateDetailResponse:
 @router.get("/{candidate_id}/cv")
 def get_candidate_cv(candidate_id: str, job_id: str | None = Query(default=None)) -> FileResponse:
     settings = _load_data_settings_or_error()
-    if settings.data_backend in {"mongodb", "hybrid"}:
+    # CV files are resolved from candidate_profiles.source_path on disk — always
+    # try MongoDB when a URI is configured, regardless of data_backend setting.
+    if settings.mongodb_uri:
         try:
             cv = _resolve_candidate_cv_from_mongodb(candidate_id, job_id, settings)
         except RepositoryUnavailableError as exc:
@@ -158,7 +160,7 @@ def get_candidate_cv(candidate_id: str, job_id: str | None = Query(default=None)
         else:
             if cv.get("cv_available"):
                 return _cv_file_response(cv, candidate_id, job_id)
-            if settings.data_backend == "mongodb" and not settings.allow_artifact_fallback:
+            if not settings.allow_artifact_fallback:
                 raise _cv_not_found_http_error(candidate_id, job_id)
 
     cv = resolve_candidate_cv(candidate_id, job_id)
@@ -219,7 +221,7 @@ def _cv_not_found_http_error(candidate_id: str, job_id: str | None) -> HTTPExcep
     return HTTPException(
         status_code=404,
         detail={
-            "message": f"CV original not found for candidate: {candidate_id}",
+            "message": "CV non disponible pour ce candidat.",
             "candidate_id": candidate_id,
             "job_id": job_id,
         },

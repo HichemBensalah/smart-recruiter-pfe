@@ -1,0 +1,208 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\tebourski_abd_el_karim_23018480.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\tebourski_abd_el_karim_23018480.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8809,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nKarim Tebourski\nIngénieur en informatique\nDéveloppeur web et mobile passionné, je conçois et déploie des solutions robustes et performantes. Expert front-end et back-end, je maîtrise l'ensemble du cycle de vie d'une application, de la conception à la mise en production. Curieux et orienté innovation, j'exploite les technologies modernes pour répondre aux besoins métiers avec efficacité.\nkarim. tebourski 1@gmail.com\nAriana, Tunisie\nlinkedin.com/in/abd-el-karimtebourski\nhttps: //join. skype. com/invite/I 124 c Mpt H 1 Wd\ngithub.com/Karim Tebourski\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nDéveloppeur full stack Shifti\n07/2024 - Present,\nManzah 8\nRéalisations/Tâches\nConception et gestion de la base de données relationnelle avec SQL .\nDéveloppement du serveur backend avec Node. js .\nTests et validation des API avec Postman .\nDéveloppement d'une solution web avec React. js .\nImplémentation d'un système d'abonnement payant pour la gestion centralisée des sites clients .\nIntégration des plateformes e-commerce Woo Commerce et Presta Shop via des modules personnalisés .\nDéveloppement de tableaux de bord interactifs avec courbes et graphiques statistiques .\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nGithub\nMYSQL\nReact\nMongoDB\nJavaScript\nAngular\nUnity\nJAVA\nReact Native\nNodeJS\nUML\ni OS\nAndroid\nLinux\nFlutter\nPython\n\n## EDUCATION\n\nFORMATION\nDiplôme National d'Ingénieur en Informatique\nESPRIT (Ecole Supérieure Privée d'Ingénierie et de Technologies)\n**Date: ** 2018 - 2021\n- Diplôme National de Licence Appliqué En Réseaux et Services Informatique\n- Institut Supérieur des Etudes Technologiques de Zaghouan\n**Date: ** 2015 - 2018\n## Baccalauréat Sciences de l'informatique\n## Lycée Secondaire Kalaat Landalous Ariana 2014,\n\n## PROFESSIONAL EXPERIENCE\n\nOptimisation des performances et de l' expérience utilisateur sur les interfaces web .\nDéveloppeur full stack\nGTI\n- Centre urbain nord\n- Réalisations/Tâches\n- Développement de scripts PL/SQL pour automatiser la classification des clients bancaires en fonction des paramètres définis.\nDéveloppement et maintenance de l'application web Arena CDL (Java) pour la gestion des créances en souffrance, conforme aux réglementations locales des zones UEMOA et CEMAC .\n**Date: ** 02/2021 - 11/2022\n- Collaboration avec l'équipe de développement pour l'intégration des fonctionnalités PL/SQL à l'application web.\n- Développeur full stack\n- Arabe\n- Innovup\n- El Ghazala\n- Français\n- Réalisations/Tâches\nConception et développement d'une application web d'administration avec React. js, offrant aux dirigeants la possibilité de configurer les paramètres des missions d'audit.\n- Anglais\nDéveloppement d'une application mobile pour auditeurs avec React Native, permettant la gestion et le suivi des missions.\n- Création d'un serveur avec Node. js et mise en place d'une base de données NoSQL MongoDB pour gérer les données des missions et des utilisateurs.\n\n## LANGUAGES\n\nLANGUES\nLangue maternelle\nCompétence professionnelle complète\nCompétence professionnelle complète\nINTÉRETS\nDéveloppement personnel\nMontage video\nPhotographie",
+    "header_info": {
+      "full_name": "Karim Tebourski",
+      "email": "1@gmail.com",
+      "phone": null,
+      "location": "Ariana, Tunisie",
+      "linkedin": "linkedin.com/in/abd-el-karimtebourski",
+      "github": "github.com/Karim"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9762,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Karim Tebourski",
+      "email": "karim.tebourski1@gmail.com",
+      "phone": null,
+      "location": "Ariana, Tunisie",
+      "linkedin": "linkedin.com/in/abd-el-karimtebourski",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Développeur full stack passionné, expert front-end et back-end, maîtrisant l'ensemble du cycle de vie d'une application.",
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "Github",
+        "MYSQL",
+        "React",
+        "MongoDB",
+        "JavaScript",
+        "Angular",
+        "Unity",
+        "JAVA",
+        "React Native",
+        "NodeJS",
+        "UML",
+        "i OS",
+        "Android",
+        "Linux",
+        "Flutter",
+        "Python"
+      ],
+      "soft_skills": [
+        "Développement personnel",
+        "Montage vidéo",
+        "Photographie"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Shifti",
+        "job_title": "Développeur full stack",
+        "start_date": null,
+        "end_date": null,
+        "city": "Manzah 8",
+        "responsibilities": [
+          "Conception et gestion de la base de données relationnelle avec SQL.",
+          "Développement du serveur backend avec Node.js.",
+          "Tests et validation des API avec Postman.",
+          "Développement d'une solution web avec React.js.",
+          "Implémentation d'un système d'abonnement payant pour la gestion centralisée des sites clients.",
+          "Intégration des plateformes e-commerce Woo Commerce et Presta Shop via des modules personnalisés.",
+          "Développement de tableaux de bord interactifs avec courbes et graphiques statistiques."
+        ]
+      },
+      {
+        "company": "GTI",
+        "job_title": "Développeur full stack",
+        "start_date": "02/2021",
+        "end_date": "11/2022",
+        "city": null,
+        "responsibilities": [
+          "Développement de scripts PL/SQL pour automatiser la classification des clients bancaires en fonction des paramètres définis.",
+          "Développement et maintenance de l'application web Arena CDL (Java) pour la gestion des créances en souffrance, conforme aux réglementations locales des zones UEMOA et CEMAC."
+        ]
+      },
+      {
+        "company": "Innovup",
+        "job_title": "Développeur full stack",
+        "start_date": null,
+        "end_date": null,
+        "city": "El Ghazala",
+        "responsibilities": [
+          "Conception et développement d'une application web d'administration avec React.js, offrant aux dirigeants la possibilité de configurer les paramètres des missions d'audit.",
+          "Développement d'une application mobile pour auditeurs avec React Native, permettant la gestion et le suivi des missions."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT",
+        "degree": "Diplôme National d'Ingénieur en Informatique",
+        "field": null,
+        "year": "2018 - 2021"
+      },
+      {
+        "institution": "Institut Supérieur des Etudes Technologiques de Zaghouan",
+        "degree": "Diplôme National de Licence Appliqué En Réseaux et Services Informatique",
+        "field": null,
+        "year": "2015 - 2018"
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:51:08.814685+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

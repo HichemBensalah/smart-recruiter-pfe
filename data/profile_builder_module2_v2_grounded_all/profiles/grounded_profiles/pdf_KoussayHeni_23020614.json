@@ -1,0 +1,174 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\KoussayHeni_23020614.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\KoussayHeni_23020614.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6248,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nkoussayheni 1998@gmail.com\nTunis, Manouba\nhttps: //www.linkedin.com/in/heni-\nkoussay-6652 aa 240\n\n## LANGUES\n\nAnglais niveau B 2\nFrançais niveau B 2\nCertificats\n\n## EDUCATION\n\nITGUST, Décembre 2024\nMachine Learning with Python\nFree Code Camp, Janvier 2025\nData Analyst Associate\nData Camp, Février 2025\nAI Engineer for Data Scientist\nData Camp, Mars 2025\nOracle infrastructure for\nGenerative AI Professional\nOracle, Aout 2025\nLe présent projet vise à développer un système intelligent pour analyser les compétences des employés, évaluer leur\nou des opportunités de carrières. Le système évalue également les compétences de l’entreprise par rapport au\nmarché\nTechnologies: Python, Flask, MongoDB, NLP, Machine Learning, SPACY, PDF 2, TF-IDF, HTML, CSS, Java-Script\nStage PFE – Centre Nationale de l’informatique\nSystème de visualisation de l’évolution et de la prédiction de la masse salariale\nMise en place d’un système de visualisation de l’évolution et de la prédiction de la masse salariale et ses\nfacteurs (recrutements, départs…)\nTechnologies: Pandas, NumPy, Machine Learning, Deep Learning, Spring Boot, Angular, Flask Crisp-DM\nStage Ingénieur – SOFRECOM TUNIS\nRéférentiel unique des salariés de SOFRECOM\nMise en place d’une application web et d’un Dashboard de gestion des salariés au sein de Sofrecom Tunisie. Ce\nsystème permet:\nL’automatisation et la réduction de la charge de travail des chargés de ressources humaines\nTechnologies: Methode SCRUM, le Framework SPRING BOOT en BACK-END, ANGULAR 13 en FRONT –END et\nMYSQL pour la base de données\nStage de validation de la Licence – TIMSOFTGROUP\nApplication mobile de scan de matières premières pour l’ERP ORLI\nConception et réalisation d’une application mobile qui facilite le processus de gestion des matiéres premières\ndans une industrie textile pour l’ERP ORLI basée sur le scan du code à barre.\nTechnologies: .NET WEB API en Back-end, Android utilisant l’outil XAMARIN FORMS pour le front-end et\nSQLSERVER pour la base de données\n\n## DIPLOMES ET FORMATIONS\n\nCycle ingénieur en informatique - Spécialité: ERP-BUSINESS INTELLIGENCE\nEcole supérieure privée d’ingénierie et de technologies (ESPRIT)\nLicence fondamentale en Sciences Informatiques\nFaculté des sciences de Tunis\n\n## PROJETS ACADEMIQUES\n\nProjet BI Covid 19 - Projet d’intégration BUSINESS INTELLIGENCE\nRéalisation d’une solution décisionnelle permettant d’analyser les données de la pandémie COVID 19 en INDE\nExploration, nettoyage et Intégration des données et alimentation de la DATA WAREHOUSE en utilisant ETL Talend\nCollecte et intégration des données externes moyennant les formulaires et le web Scraping\nCréation des DASHBOARDS qui présentent les différents volets du Covid 19, calcul des indicateurs de\nperformances et affichage des résultats dans une application web en utilisant POWERBI, Machine Learning\nAnalyse de gestion de stocks - Projet BUSINESS INTELLIGENCE\nRéalisation d’une solution décisionnelle permettant d’analyser les données des stocks et des appareils\nélectroménagères:\nIntégration des données en alimentant les dimensions (ETL)\nCréation des mesures calculées, des filtres dynamiques et des indicateurs de performances KPI par la Création des\nDASHBOARDS contenant des filtres et des chartes graphiques en utilisant SSIS, SSRS, SQLSERVER\nProjet intégré - Symfony 4, JAVAFX, CODENAMEONE\nConception et développement d’une application multi- plateforme « EL-KHIMA »: un référentiel unique pour la\ngestion des événements de Camping en Tunisie en créant une application web, une application desktop et mobile\nSystèmes d’exploitation:\nWindows\n\n## ANGULAR, SYMFONY 4. 4,\n\nFLASK, FastAPI\n\n## SSIS, TALEND, SSRS, POWERBI\n\nBase de données: MYSQL,\n\n## MS SQL, ORACLE\n\nLangages de programmation:\n\n## C#, C\n\nOutils DEVOPS:\nGIT, SONAR, Nexus, Jenkins\nDocker, Promethus, Grafana\n\n## KOUSSAY HENI\n\nIngénieur en informatique\nJe suis motivé et passionné par le monde du développement, l’analyse et le traitement des données ainsi que la\nveille technologique. Je suis à la recherche d’une opportunité d’embauche permettant de consolider mes\ncompétences par le biais d’une expérience enrichissante de mon parcours académique",
+    "header_info": {
+      "full_name": "Tunis, Manouba",
+      "email": "1998@gmail.com",
+      "phone": null,
+      "location": "Tunis, Manouba",
+      "linkedin": "www.linkedin.com/in/heni",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "languages/langues"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.925,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "koussayheni",
+      "email": "1998@gmail.com",
+      "phone": null,
+      "location": "Tunis, Manouba",
+      "linkedin": "www.linkedin.com/in/heni-",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "Flask",
+        "MongoDB",
+        "NLP",
+        "Machine Learning",
+        "SPACY",
+        "PDF 2",
+        "TF-IDF",
+        "HTML",
+        "CSS",
+        "Java-Script"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "SOFRECOM TUNIS",
+        "job_title": "Ingénieur",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Manouba",
+        "responsibilities": [
+          "Mise en place d’une application web et d’un Dashboard de gestion des salariés au sein de Sofrecom Tunisie. Ce système permet: L’automatisation et la réduction de la charge de travail des chargés de ressources humaines"
+        ]
+      },
+      {
+        "company": "TIMSOFTGROUP",
+        "job_title": "Stage de validation de la Licence",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et réalisation d’une application mobile qui facilite le processus de gestion des matières premières dans une industrie textile pour l’ERP ORLI basée sur le scan du code à barre."
+        ]
+      },
+      {
+        "company": "ESPRIT",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Cycle ingénieur en informatique - Spécialité: ERP-BUSINESS INTELLIGENCE"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Faculté des sciences de Tunis",
+        "degree": "Licence fondamentale en Sciences Informatiques",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Ecole supérieure privée d’ingénierie et de technologies (ESPRIT)",
+        "degree": "Cycle ingénieur en informatique - Spécialité: ERP-BUSINESS INTELLIGENCE",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Anglais niveau B 2",
+      "Français niveau B 2"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:00:23.948234+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

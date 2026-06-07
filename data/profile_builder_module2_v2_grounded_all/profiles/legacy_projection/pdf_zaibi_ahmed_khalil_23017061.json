@@ -1,0 +1,81 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\zaibi_ahmed_khalil_23017061.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\zaibi_ahmed_khalil_23017061.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\zaibi_ahmed_khalil_23017061.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Sidi Rezig, Megrine",
+      "email": "zaibiahmed4666@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Génération de tableaux de bords",
+        "Développement des modules ODOO",
+        "ReactJS",
+        "Tailwind css v 4.0",
+        "Daisy UI",
+        "ANGULAR JS",
+        "Bootstrap",
+        "Springboot 3",
+        "Java 17",
+        "MySQL",
+        "Postgres SQL",
+        "Python 3.10",
+        "Microsoft SQLServer",
+        "Technologies: Java FX",
+        "Technologies: Power BI"
+      ],
+      "soft_skills": [
+        "Esprit d’analyse",
+        "Communication",
+        "Rigueur",
+        "Sens de l’organisation"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Administration des plateformes du Système RH en back-office et front-office.",
+          "Gestion des processus guidés (GP) et des flux d’import/export de données."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingénieur",
+        "school": "Université centrale de Tunis",
+        "year": null
+      },
+      {
+        "degree": "Licence en BIG DATA ET ANALYSE DES DONNEES",
+        "school": "ESPRIT Tunisie",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:12:58.617260+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9306,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

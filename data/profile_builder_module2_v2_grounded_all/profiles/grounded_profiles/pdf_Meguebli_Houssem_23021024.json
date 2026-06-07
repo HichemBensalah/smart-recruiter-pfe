@@ -1,0 +1,156 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Meguebli_Houssem_23021024.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Meguebli_Houssem_23021024.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8512,
+  "normalization": {
+    "cleaned_markdown": "## HOUSSEM MEGUEBLI/envelope houssem.meguebli@esprit.tn/phone\n55 562 933/map-marker-alt/linkedin www. linkedin.com/in/houssemmeguebli\nAriana, Tunisia\n\nFULL-STACK DEVELOPER JAVA/ANGULAR/globe https: //houssemmeguebli. github. io/github https: //github.com/houssemmeguebli\n\n## PROFESSIONAL SUMMARY\n\nSUMMARY\n\n## TECHNICAL SKILLS\n\nJava Full-Stack Developer specializing in Spring Boot and Angular, with strong expertise in building scalable RESTful APIs, secure enterprise applications, and database-driven systems. Experienced in containerization, CI/CD workflows, and delivering maintainable, production-ready software solutions.\nSoftware Engineer Intern, SHAMASH IT\nTech: .NET Core, React, Entity Framework, SQL Server\nSummer Intern, SMARTUP\nTech: Spring Boot, PostgreSQL\nDeployed and monitored the application in production on a VPS using Nginx reverse proxy, SSL encryption, and a full observability stack with Prometheus and Grafana.\nTech: Spring Boot, Flutter, MySQL, Redis, Nginx, VPS Deployment, SSL Certificates, Prometheus, Grafana\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nFreelance Full-Stack Developer\nDesigned and delivered production-ready full-stack applications for real clients.\nDesigned scalable RESTful APIs with secure JWT-based authentication and optimized database access.\n## Tech: Spring Boot, Angular, MySQL, Docker, Git\n**Date: ** 2025 - Present, Remote\n\n## ACADEMIC PROJECTS\n\n## End of Studies Project, Telnet Holding\n**Date: ** Feb - Jul 2025, Tunis\n## Tech: Flutter, Express. js, SQLite, Python, Serial Communication\n**Date: ** Jul - Aug 2024, Tunis\n- PROJECTS\n- Developed cross-platform system to test and monitor BLDC motors for drones with real-time data acquisition.\n- Built platform for managing remote work requests with role-based access control.\n## Jibli - Food Delivery Application [View Project]\n- Co Consult ERP [GitHub]\n- Developed a secure backend using Spring Security with JWT authentication.\n- Designed scalable backend with Spring Boot and PostgreSQL.\n- Designed and implemented a scalable food delivery system enabling real-time order processing, delivery tracking, and multi-role platform management.\n## Tech: Spring Boot, Angular, MySQL, Spring Security\n- Designed an ERP module for automating recruitment workflows and CV analysis.",
+    "header_info": {
+      "full_name": "Ariana, Tunisia",
+      "email": "houssem.meguebli@esprit.tn",
+      "phone": "55 562 933",
+      "location": "Ariana, Tunisia",
+      "linkedin": "linkedin.com/in/houssemmeguebli",
+      "github": "github.com/houssemmeguebli"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9702,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "experiences[0].city",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Houssem Meguebli",
+      "email": "houssem.meguebli@esprit.tn",
+      "phone": "55 562 933",
+      "location": "Ariana, Tunisia",
+      "linkedin": "www.linkedin.com/in/houssemmeguebli",
+      "github": "https://github.com/houssemmeguebli"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "Java",
+        "Angular",
+        "Spring Boot",
+        ".NET Core",
+        "React",
+        "Entity Framework",
+        "SQL Server",
+        "Flutter",
+        "MySQL",
+        "Redis",
+        "Nginx",
+        "VPS Deployment",
+        "SSL Certificates",
+        "Prometheus",
+        "Grafana",
+        "Docker",
+        "Git",
+        "Express.js",
+        "SQLite",
+        "Python",
+        "Serial Communication",
+        "Spring Security"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Freelance Full-Stack Developer",
+        "start_date": "2025",
+        "end_date": "Present",
+        "city": "Remote",
+        "responsibilities": [
+          "Designed and delivered production-ready full-stack applications for real clients.",
+          "Designed scalable RESTful APIs with secure JWT-based authentication and optimized database access."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:19:18.610721+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

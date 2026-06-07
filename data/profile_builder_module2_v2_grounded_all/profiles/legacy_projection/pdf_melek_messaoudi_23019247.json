@@ -1,0 +1,95 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\melek_messaoudi_23019247.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\melek_messaoudi_23019247.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\melek_messaoudi_23019247.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Melek Messaoudi",
+      "email": "melek.messaoudi@esprit.tn",
+      "phone": null,
+      "location": "Ben Arous, Tunis"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "CI/CD automation",
+        "infrastructure as code",
+        "monitoring",
+        "container orchestration",
+        "QA and test automation",
+        "Cloud infrastructure",
+        "DevOps practices",
+        "IT architecture",
+        "Terraform",
+        "Proxmox Backup Server",
+        "Min IO object storage",
+        "Ansible",
+        "Jenkins",
+        "Kubernetes",
+        "Docker",
+        "Selenium",
+        "Appium",
+        "Postman"
+      ],
+      "soft_skills": [
+        "Passionate about delivering scalable, secure, and efficient systems",
+        "Agile Scrum methodology",
+        "Version control",
+        "Collaboration tools",
+        "Test execution, management, and cross-platform validation",
+        "Real-time metrics and alerting",
+        "Secure multi-tenancy",
+        "Self-healing infrastructure"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Enhanced UX with PWA capabilities for a smart, cross-platform experience.",
+        "company": "Telecom",
+        "start_date": "Feb 2023-June 2023",
+        "end_date": null,
+        "city": "Lafayette, Tunis",
+        "responsibilities": [
+          "Containerized the solution with Docker and deployed it into a Kubernetes cluster.",
+          "Built a private cloud infrastructure with Proxmox VE + Ceph for storage, HAProxy for load balancing, and DNS integration.",
+          "Implemented monitoring with Prometheus and Grafana for real-time metrics and alerting.",
+          "Developed a Symfony-based web application for automating fuel voucher management and consumption tracking.",
+          "Implemented automated tests using Selenium and Appium",
+          "Implemented RBAC and resource quotas for secure multi-tenancy.",
+          "Built a self-healing infrastructure using Prometheus & Grafana for real-time monitoring.",
+          "Designed a hybrid cloud strategy extending resources with AWS for scalability and redundancy.",
+          "Developed a full-stack web app using Angular (frontend) and Spring Boot (backend)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree in Computer Science",
+        "school": "Private Higher School of Engineering and Technology (ESPRIT), Ariana, Tunis",
+        "year": null
+      },
+      {
+        "degree": "Bachelor's Degree in Computer Engineering",
+        "school": "Faculty of Sciences of Bizerte, Bizerte, Tunisia",
+        "year": "['Sep 2019 - Jun 2023', 'June 2025-August 2025']"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:22:15.182895+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9742,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

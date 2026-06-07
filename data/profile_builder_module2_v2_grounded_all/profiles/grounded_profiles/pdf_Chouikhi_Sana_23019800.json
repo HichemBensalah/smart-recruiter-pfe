@@ -1,0 +1,340 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Chouikhi_Sana_23019800.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Chouikhi_Sana_23019800.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8799,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSana Chouikhi\nCreated responsive frontends using React. js and cross-platform mobile apps\nIntegrated third-party APIs including payment, messaging, and mapping services\nManaged Git workflows, code reviews, and technical documentation\nISET Medenine - Higher Institute of Technological Studies\n\n## TECHNICAL SKILLS\n\nSoftware Engineer | ERP Solutions & Business Automation | DevOps & Cloud | Backend Systems\nTunis, Tunisia | sanachouikhi 1999@gmail.com | +216 26 603 287 | Linked In | GitHub | Portfolio\nSoftware Engineer specialised in ERP platforms, backend engineering, business automation, and production infrastructure. Proven ability to design and deliver scalable technical solutions across operations, finance, APIs, cloud environments, and secure systems. Strong track record improving efficiency, reliability, and deployment velocity through automation and engineering best practices. Experienced in cross-functional teams and international remote collaboration.\nERP & Automation ERPNext, Frappe Framework, n 8 n, Workflow Automation, Business Process\nBackend Engineering Python, Django REST Framework, Node. js, Express, REST APIs, System Design, Java\nDevOps & Cloud Docker, Docker Compose, GitHub Actions, OVHcloud VPS, AWS, Linux Administration Infrastructure & Security Hashi Corp Vault, Oxa Host DNS, Plesk, SMTP, SPF, DKIM, DMARC, SSL/TLS, Linux Hardening\nObservability Prometheus, Grafana, Loki, Wazuh\nDatabases Maria DB, MySQL, MongoDB, Redis, SQLite, Firebase\nFrontend React. js, Angular, TypeScript, JavaScript, Tailwind CSS, Bootstrap, HTML/CSS\nMobile Flutter, React Native, Android\nIo T & Embedded MQTT, RTSP, Arduino, Raspberry Pi\nTools & Methods Git, GitHub, Git Lab, Jira, Agile/Scrum, Clean Architecture, Code Review\nERP Software Engineer & IT Systems\nArkeyez, Tataouine, Tunisia\nAutomated enterprise workflows with n 8 n, reducing manual processing time by 80%\nManaged containerised production stack (ERPNext, Maria DB, Redis, Nginx) on OVHcloud VPS\nSet up monitoring with Prometheus, Grafana, and Loki plus Linux hardening and SSL/TLS automation\nArchitected complete enterprise email infrastructure including SMTP relay, SPF, DKIM, DMARC records, and DNS management via Oxa Host\nFull-Stack Developer (Web & Mobile)\nFreelancer. com, Remote\nEngineered backend systems with Django REST Framework and Node. js/Express\nSoftware Engineering Intern\nEnova Robotics, Sousse, Tunisia\nArchitected a real-time Io T monitoring platform for a fleet of autonomous security robots\nIntegrated MQTT for robot command/control and RTSP for low-latency live streaming\nAutomated PDF and Excel reports for daily operations and maintenance schedules\nMobile Application Developer Intern\nOnline VIP Consulting, Remote\nIntegrated multiple REST APIs, improving overall responsiveness\nCollaborated with remote backend teams to optimise API contracts and reduce errors\nObservation Internship - Mobile App\nTunisie Telecom, Medenine, Tunisia\nReduced field engineers' issue reporting time by 50%\nInstitut des Régions Arides, Medenine, Tunisia\nSupported employee management and equipment tracking processes\nReduced manual record-keeping and search time significantly\nIntroductory Internship - Website Development\nRegional Directorate, Medenine, Tunisia\nOptimised performance for fast loading and accessibility\n\n## LANGUAGES\n\nLanguages Arabic (Native), French (Fluent), English (Fluent), German (Basic)\n\n## ACADEMIC PROJECTS\n\n## Final Year Project - Virtual Classroom\n**Date: ** Feb 2024 - Jul 2024\n- Built full-stack web application using React. js, Node. js, MongoDB, and Python\n- Designed dashboards for tracking, health metrics, and alerts improving decisions by 40%\n- Developed key features for a banking mobile application using React Native\n- Built a complete mobile application for field site management using Flutter, Node. js, and MySQL\n- Implemented interactive maps, site details, photo uploads, and QR code scanning\n## Sindibad Group, Tunis, Tunisia\n- Built a real-time virtual classroom platform (web + mobile) used by hundreds of students\nImplemented Web RTC for audio/video calls, whiteboard, live chat, and screen sharing\n## Developed backend systems using Node. js, Socket. io, and MySQL\n**Date: ** Mar 2025 - Present\n## Advanced Internship - Management System\n**Date: ** Jan 2020 - Feb 2020\n- Delivered custom ERP modules using ERPNext and Frappe across multiple business units\n- Designed and deployed secure REST APIs for internal and external system integration\n- Implemented CI/CD pipelines with GitHub Actions, significantly reducing deployment time\n- Delivered multiple production-grade applications for international clients across various industries\n- Developed a full-stack internal management system using PHP, Bootstrap, and MySQL\n- Built a responsive institutional website using HTML, CSS, Bootstrap, and JavaScript\n\n## EDUCATION\n\n## Engineering Degree in Computer Science\n**Date: ** Sep 2024 - Feb 2025\n- ISSATS Sousse - Higher Institute of Applied Sciences and Technology\n## Bachelor's Degree in Embedded Systems\n**Date: ** 2018 - 2021\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS",
+    "header_info": {
+      "full_name": "Sana Chouikhi",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8381,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[4]"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[4].city",
+      "experiences[4].company",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[5].city",
+      "experiences[5].company",
+      "experiences[5].job_title",
+      "experiences[5].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[33]",
+      "expertise.hard_skills[34]",
+      "expertise.hard_skills[35]",
+      "expertise.hard_skills[36]",
+      "expertise.hard_skills[37]",
+      "expertise.hard_skills[38]",
+      "expertise.hard_skills[39]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[40]",
+      "expertise.hard_skills[41]",
+      "expertise.hard_skills[42]",
+      "expertise.hard_skills[43]",
+      "expertise.hard_skills[44]",
+      "expertise.hard_skills[45]",
+      "expertise.hard_skills[46]",
+      "expertise.hard_skills[47]",
+      "expertise.hard_skills[48]",
+      "expertise.hard_skills[49]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[50]",
+      "expertise.hard_skills[51]",
+      "expertise.hard_skills[52]",
+      "expertise.hard_skills[53]",
+      "expertise.hard_skills[54]",
+      "expertise.hard_skills[55]",
+      "expertise.hard_skills[56]",
+      "expertise.hard_skills[57]",
+      "expertise.hard_skills[58]",
+      "expertise.hard_skills[59]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[5]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[4]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Sana Chouikhi",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "ERPNext",
+        "Frappe Framework",
+        "n 8 n",
+        "Workflow Automation",
+        "Business Process",
+        "Python",
+        "Django REST Framework",
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "System Design",
+        "Java",
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions",
+        "OVHcloud VPS",
+        "AWS",
+        "Linux Administration",
+        "Infrastructure & Security",
+        "Hashi Corp Vault",
+        "Oxa Host DNS",
+        "Plesk",
+        "SMTP",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "SSL/TLS",
+        "Linux Hardening",
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Wazuh",
+        "Maria DB",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "SQLite",
+        "Firebase",
+        "React.js",
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "Tailwind CSS",
+        "Bootstrap",
+        "HTML/CSS",
+        "Flutter",
+        "React Native",
+        "Android",
+        "IoT & Embedded",
+        "MQTT",
+        "RTSP",
+        "Arduino",
+        "Raspberry Pi",
+        "Git",
+        "GitHub",
+        "Git Lab",
+        "Jira",
+        "Agile/Scrum",
+        "Clean Architecture",
+        "Code Review"
+      ],
+      "soft_skills": [
+        "cross-functional teams",
+        "international remote collaboration",
+        "CI/CD pipelines",
+        "security systems",
+        "clean architecture"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Arkeyez",
+        "job_title": "ERP Software Engineer & IT Systems",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tataouine, Tunisia",
+        "responsibilities": [
+          "automated enterprise workflows with n 8 n"
+        ]
+      },
+      {
+        "company": "Freelancer.com",
+        "job_title": "Full-Stack Developer (Web & Mobile)",
+        "start_date": null,
+        "end_date": null,
+        "city": "Remote",
+        "responsibilities": [
+          "engineered backend systems with Django REST Framework and Node.js/Express"
+        ]
+      },
+      {
+        "company": "Enova Robotics",
+        "job_title": "Software Engineering Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sousse, Tunisia",
+        "responsibilities": [
+          "architected a real-time IoT monitoring platform"
+        ]
+      },
+      {
+        "company": "Online VIP Consulting",
+        "job_title": "Mobile Application Developer Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": "Remote",
+        "responsibilities": [
+          "integrated multiple REST APIs"
+        ]
+      },
+      {
+        "company": "Tunisie Telecom",
+        "job_title": "Observation Internship - Mobile App",
+        "start_date": null,
+        "end_date": null,
+        "city": "Medenine, Tunisia",
+        "responsibilities": [
+          "reduced field engineers' issue reporting time"
+        ]
+      },
+      {
+        "company": "Institut des Régions Arides",
+        "job_title": "Introductory Internship - Website Development",
+        "start_date": null,
+        "end_date": null,
+        "city": "Medenine, Tunisia",
+        "responsibilities": [
+          "optimised performance for fast loading and accessibility"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISSATS Sousse - Higher Institute of Applied Sciences and Technology",
+        "degree": "Engineering Degree in Computer Science",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Tunis, Tunisia",
+        "degree": "Bachelor's Degree in Embedded Systems",
+        "field": null,
+        "year": "2021"
+      }
+    ],
+    "languages": [
+      "Arabic (Native)",
+      "French (Fluent)",
+      "English (Fluent)",
+      "German (Basic)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:49:54.541867+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

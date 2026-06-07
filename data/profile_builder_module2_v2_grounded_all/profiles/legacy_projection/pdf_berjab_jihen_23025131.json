@@ -1,0 +1,107 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\berjab_jihen_23025131.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\berjab_jihen_23025131.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\berjab_jihen_23025131.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Jihen Berjab",
+      "email": "berjabjihen@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Leader du marché des logiciels de transaction sur le segment des agences immobilières indépendantes",
+      "hard_skills": [
+        "PHP 8",
+        "Laravel 11",
+        "HTML 5",
+        "CSS 3",
+        "Bootstrap",
+        "JavaScript",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Scrum",
+        "Travail autonome",
+        "Collaboration en équipes agiles"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "LBI Tunisie, Filiale du groupe La Boite Immo France",
+        "start_date": "Septembre 2024",
+        "end_date": "Juillet 2025",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Analyse de besoins, conception de l'architecture logicielle.",
+          "Maintenance de l'application.",
+          "Création de base données."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Stage en ingénierie SECA",
+        "start_date": "Février 2023",
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception de l'architecture logicielle et création des fonctionnalités.",
+          "Création et consommation d'APIs REST.",
+          "Gestion de la base de données SQL Server."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Développeur Full Stack ATF Technologies",
+        "start_date": "2020",
+        "end_date": "2023",
+        "city": "Ben Arous, Tunisie",
+        "responsibilities": [
+          "Formation et support utilisateurs sur site.",
+          "Méthodologie: Travail autonome."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Iteam University",
+        "start_date": "2013",
+        "end_date": "2017",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Cycle d'Ingénierie en Informatique: Génie Logiciel.",
+          "Spécialité: Développement des Systèmes d'informations (DSI)."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Technico-Commerciale & Web Master MTS Tunisie",
+        "start_date": "Septembre 2018",
+        "end_date": "Janvier 2020",
+        "city": "Ariana, Tunisie",
+        "responsibilities": [
+          "Gestion et maintenance du site web, référencement SEO/SEM.",
+          "Gestion du site e-commerce Presta Shop, conception graphique (Photoshop)."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:43:01.835073+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6972,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

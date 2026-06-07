@@ -1,0 +1,69 @@
+## HEADER
+
+Mohamed Aziz JLASSI
+Work permit:
+Tunisian
+Date of birth:
+Place of birth:
+tunis, Tunisia
+Nationality:
+Tunisian Phone number: (+216) 56771227 (Mobile)
+Email address:
+azizz. jlassi 222@gmail. com github:
+https://github. com/Aziz Jlassi 2222
+Address:
+bardo, bardo, 2000, tunis, Tunisia (Home)
+
+## WORK EXPERIENCE
+
+FINAL YEAR INTERSHIP - AGIL SNDP - 05/02/2025 - 05/07/2025 - TUNIS, TUNISIA
+Developed a modern monolithic web application using Django for real-time stock management.
+Implemented automated restocking features and AI-driven insights using a local Mistral-based chatbot.
+
+## TECHNICAL SKILLS
+
+Applied Dev Ops practices with Jenkins (CI/CD) and Docker to streamline deployment.
+Configured real-time system monitoring using Prometheus and Grafana to improve performance and reliability.
+Followed the Unified Process methodology during the software development lifecycle.
+SUMMER INTERNSHIP - SESAME - 01/07/2024 - 15/08/2024 - TUNIS, TUNISIA
+Participated in setting up and configuring Jenkins to automate development workflows.
+Integrated automated testing to improve code quality and reliability.
+Enhanced skills in continuous integration, version control, and development automation.
+SUMMER INTERNSHIP - CRISTAL LABORATORY/RAMSI - GRIFT GROUP, - 01/07/2023 - 01/08/2023 - TUNIS, TUNISIA
+FINAL YEAR INTERNSHIP - ONM - 07/02/2022 - 07/06/2022 - TUNIS, TUNISIA
+Contributed to optimizing internal processes and improving user satisfaction through a more efficient management solution.
+SKILLS
+Python (computer programming) Java Script Framework React JS/React Native Devops: Docker, Jenkins Artificial İ ntelligence machine learning Git Object-Oriented Programming Github JSON cloud monitoring and reporting Postman RESTful api Web Development Web API Virtual Box/Virtual Machine Relational databases MVC Linux Software Engineering
+
+## PROFESSIONAL EXPERIENCE
+
+Collaborated with a multidisciplinary team to design the user interface and improve overall user experience.
+Gained practical experience in web development and UX/UI design, focusing on innovation and user-centered solutions.
+- Implemented secure authentication and role-based access control.
+- Designed a responsive and user-friendly interface for internal users.
+- Delivered a scalable and future-ready solution that modernized AGIL's inventory operations.
+- Designed and implemented CI/CD pipelines for efficient application deployment.
+- Developed an e-commerce web application integrating a chatbot to enhance customer support.
+Collaborated with a team to design the user interface and implement core functionalities, including a contract tracking system.
+- Developed a web application for managing incidents and contracts within the organization.
+Ensured application reliability and maintainability through testing, debugging, and continuous improvements.
+
+## EDUCATION AND TRAINING
+
+21/09/2022 - 17/07/2025 tunis, Tunisia
+
+## SOFTWARE ENGINEERING SESAME
+
+Website https://universitesesame. com/15/09/2019 - 12/09/2022 mahdia, Tunisia
+Website https://fsegma. rnu. tn/fr
+
+## ACADEMIC PROJECTS
+
+BACHELOR'S DEGREE PROJECT (LICENCE) Faculty of Economic Sciences and Management of Mahdia
+
+## LANGUAGE SKILLS
+
+Mother tongue(s):
+ARABIC
+Other language(s):
+Levels: A 1 and A 2: Basic user; B 1 and B 2: Independent user; C 1 and C 2: Proficient user

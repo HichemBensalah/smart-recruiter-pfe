@@ -1,0 +1,172 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\khalil_zerzeri_23019244.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\khalil_zerzeri_23019244.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7507,
+  "normalization": {
+    "cleaned_markdown": "## KHALIL ZERZERI\n\nBen Arous, Tunisie · +21629238030 · zerzerikhalil@gmail.com\n\n## TECHNICAL SKILLS\n\nDéveloppeur Web Full Stack spécialisé en génie logiciel, avec des connaissances en Spring Boot, Angular et Java. Je développe des applications web évolutives et performantes, intégrant des pratiques rigoureuses de qualité de code et d'amélioration continue. Motivé à apprendre et à progresser, je m'intéresse aux bonnes pratiques de développement et à la qualité du code. Sérieux et curieux, je souhaite intégrer une équipe dynamique afin de développer mes compétences et contribuer à des projets concrets.\nDéveloppement du service de génération de CV dynamique en JRXML (Jasper Reports): templates modulaires et sous-rapports pour chaque section (en-tête, expériences, compétences, langues ).\nMise en place de module de chat qui communique en temps réel avec un backend Spring Boot via Web Socket sécurisé (authentification JWT dans le handshake) et le protocole STOMP. Une API de traduction (My Memory) permet d'afficher, dans le même flux, une version traduite des messages.\nMise en place de la sécurisation des API avec JWT et Spring Security (authentification par token, gestion des rôles et protection des endpoints).\nApplication de gestion des lettres de change: Développement d'une application desktop permettant de remplir, gérer et imprimer automatiquement des lettres de change.\nBackend: Spring Boot pour la gestion des données et la génération automatique des documents via des modèles JRXML (Jasper Reports).\nAutomatisation du processus d'édition et d'impression, réduisant considérablement les tâches manuelles\nCOMPÉTENCES\nLangages de programmation: TypeScript, JavaScript, Java, SQL, Python\nTechnologies Frontend: Angular, React, HTML, CSS\nTechnologies Backend: Node. js, , Spring Boot, API RESTful, authentification JWT\nBases de données: MySQL, Hibernate (JPA)\nTests et débogage: Postman\nMéthodologies de développement logiciel: Agile, Scrum\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nStage PFE, Billcom Consulting\nConceptionet développement de l'interface utilisateur responsive avec React, HTML, CSS et Bootstrap.\nMise en place du backend en Spring Boot pour gérer les API RESTful et la logique métier.\nModélisation et optimisation de la base de données MySQL pour stocker les données.\nCollaboration en méthodologie agile: rédaction des spécifications, revues de code et gestion des versions avec Git.\nDéveloppement d'un dashboard modulaire et responsive en React avec Chart. js (Line, Bar, Pie, Doughnut).\nConception d'un module d'extraction de CV en Python: prétraitement PDF/DOCX via pdfplumber et docx 2 txt, segmentation par expressions régulières, extraction d'entités nommées avec Camem BERTfine-tuned (NER), isolation des coordonnées par regex.\n\n## PROFESSIONAL SUMMARY\n\nImplémentation du module de matching basé sur fastText (JFast Text) pour calculer la similarité sémantique entre profil consultant et descriptif de mission.\n\n## MACHINE LEARNING & DEEP LEARNING\n\nConception d'un assistant virtuel hybride (NLP + Deep Learning): Camem BERT fine-tuné pour la classification de 25 intentions (97 % précision).\nStage PFA, Arabsoft\nConception et développement de l'interface utilisateur responsive avec Angular: création de components, gestion des modules et routage.\nMise en place du backend en Spring Boot pour exposer des API RESTful.\n\n## EDUCATION\n\nModélisation et optimisation de la base de données MySQL pour stocker les informations RH\nFORMATION\nLicence en génie logiciel\nInstitut Supérieur des Technologies de l'Information et des Communications\n## Baccalauréat en science de l'informatique\n**Date: ** Jan 2025 - Mai 2025\n## Lycée Farhat Hached, Rades\n\n## PROJETS PERSONNELS\n\nFrontend: Angular pour une interface utilisateur fluide et ergonomique.\n\n## LANGUAGES\n\nLANGUES\nAnglais (courant)\nFrançais (courant)\nArabe (langue maternelle)",
+    "header_info": {
+      "full_name": "KHALIL ZERZERI",
+      "email": "zerzerikhalil@gmail.com",
+      "phone": "+21629238030",
+      "location": "Développeur Web Full Stack spécialisé en génie logiciel, avec des connaissances en Spring Boot, Angular et Java. Je développe des applications web évolutives et performantes, intégrant des pratiques rigoureuses de qualité de code et d'amélioration continue. Motivé à apprendre et à progresser, je m'intéresse aux bonnes pratiques de développement et à la qualité du code. Sérieux et curieux, je souhaite intégrer une équipe dynamique afin de développer mes compétences et contribuer à des projets concrets.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9501,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "KHALIL ZERZERI",
+      "email": "zerzerikhalil@gmail.com",
+      "phone": "+21629238030",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "SQL",
+        "Python",
+        "Node.js",
+        "MySQL",
+        "Hibernate (JPA)",
+        "Postman"
+      ],
+      "soft_skills": [
+        "Agile",
+        "Scrum"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Billcom Consulting",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conceptionet développement de l'interface utilisateur responsive avec React, HTML, CSS et Bootstrap.",
+          "Mise en place du backend en Spring Boot pour gérer les API RESTful et la logique métier.",
+          "Modélisation et optimisation de la base de données MySQL pour stocker les données.",
+          "Collaboration en méthodologie agile: rédaction des spécifications, revues de code et gestion des versions avec Git."
+        ]
+      },
+      {
+        "company": "Arabsoft",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement de l'interface utilisateur responsive avec Angular: création de components, gestion des modules et routage.",
+          "Mise en place du backend en Spring Boot pour exposer des API RESTful."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur des Technologies de l'Information et des Communications",
+        "degree": "Licence en génie logiciel"
+      },
+      {
+        "institution": "Lycée Farhat Hached, Rades",
+        "degree": "Baccalauréat en science de l'informatique",
+        "field": null,
+        "year": "Jan 2025 - Mai 2025"
+      }
+    ],
+    "languages": [
+      "Anglais (courant)",
+      "Français (courant)",
+      "Arabe (langue maternelle)"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:51:41.794720+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Sghaier_Chahir__23023851.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Sghaier_Chahir__23023851.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Sghaier_Chahir__23023851.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "SGHAIER CHAHIR",
+      "email": "chahir.sghaier@esprit.tn",
+      "phone": "+216 98125409",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieur logiciel spécialisé dans le développement backend et les systèmes temps réel.",
+      "hard_skills": [
+        "Java (Spring Boot)",
+        "Node.js (Express)",
+        "Web RTC",
+        "Web Sockets (Socket.io)",
+        "React",
+        "Angular",
+        "Flutter",
+        "MongoDB",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Analyse technique & résolution de problèmes",
+        "Travail en équipe & méthodologie Agile (Scrum)"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur logiciel",
+        "company": "Telcotec",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement de solutions temps réel (Web RTC, Socket.io)",
+          "Mise en place d'un système de tracking GPS en direct",
+          "Conception d'architectures scalables (MERN + Flutter)",
+          "Gestion de communication instantanée entre utilisateurs",
+          "Synchronisation des données en temps réel dans des environnements multi-utilisateurs",
+          "Gestion d'événements critiques (alertes, notifications temps réel)",
+          "Conseil et accompagnement des clients dans le choix de solutions informatiques",
+          "Diagnostic de besoins et proposition de solutions adaptées",
+          "Installation et configuration de base des équipements",
+          "Gestion des ventes et suivi client",
+          "Contribution à l'organisation et à la gestion du point de vente",
+          "Gestion d'Activité - Entreprise Familiale (Forge)",
+          "Suivi des commandes et organisation du travail",
+          "Gestion des approvisionnements",
+          "Relation clients et fournisseurs",
+          "Optimisation des processus internes"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingénieur logiciel",
+        "school": "ESPRIT",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat en mathématiques",
+        "school": "Lycée Monji Slim, Siliana",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:40:21.944046+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.957,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

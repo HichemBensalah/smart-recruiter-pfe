@@ -1,0 +1,111 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ons_Guidara_23024250.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ons_Guidara_23024250.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ons_Guidara_23024250.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "ONSGuidara",
+      "email": "guidaraons9@gmail.com",
+      "phone": "(+216) 26 829 961",
+      "location": "Sfax, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Arduino IDE",
+        "STM 32 Cube IDE",
+        "Lab VIEW",
+        "LTspice",
+        "Altium Designer",
+        "Linux",
+        "Free RTOS",
+        "Yocto",
+        "Intelligence Artificielle",
+        "MQTT",
+        "UDP",
+        "TCP/IP",
+        "Web Socket",
+        "C",
+        "C++",
+        "VHDL",
+        "Python",
+        "Java",
+        "MATLAB",
+        "Docker",
+        "Git",
+        "Méthodologie Agile Scrum"
+      ],
+      "soft_skills": [
+        "Fiabilité et professionnalisme",
+        "Apprentissage rapide",
+        "Motivation et esprit d'équipe"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire",
+        "company": "Instaware",
+        "start_date": "Février 2025",
+        "end_date": "Mai 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système basé sur ESP 32 pour la synchronisation d'écrans en temps réel dans un contexte de chronométrage de marathon"
+        ]
+      },
+      {
+        "job_title": "Stagiaire",
+        "company": "TN Smart Io T",
+        "start_date": "Juillet 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de domotique utilisant le module Wi-Fi ESP 8266"
+        ]
+      },
+      {
+        "job_title": "Stagiaire",
+        "company": "DRÄXLMAIER Tunisie",
+        "start_date": "Juillet 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Réalisation de l'assemblage, de tests de diagnostic et du contrôle qualité de composants électroniques"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle d'Ingénierie en Systèmes Électroniques de Communication",
+        "school": "ENET'COM",
+        "year": "2022-2025"
+      },
+      {
+        "degree": "Cycle Préparatoire en Maths Physique (MP)",
+        "school": "Faculté des Sciences de Sfax",
+        "year": "2020-2022"
+      },
+      {
+        "degree": "Baccalauréat en mathématiques",
+        "school": "Lycée 25 Juillet 1957, Sfax",
+        "year": "2016-2020"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:18:44.923815+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9823,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

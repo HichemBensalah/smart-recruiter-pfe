@@ -1,0 +1,214 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Eya_ajmi_23019410.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Eya_ajmi_23019410.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7516,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nEya Ajmi\najmieya 13​@gmail. com\nTunis – Manouba, Tunisie\nlinkedin.com/in/ajmieya 13\ngithub.com/Eyaajmii\nDéveloppeuse Full-Stack, diplômée en technologies de l'informatique et actuellement élève ingénieure en informatique,\nsouhaitant intégrer une équipe dynamique afin de contribuer à des solutions numériques innovantes.\n\n## FORMATION\n\nCycle ingénieur en informatique, i Team University\n09/2025 – Présent\nLicence en Technologies de l'informatique,\nInstitut Supérieur des Études Technologique de Charguia\n\n## EDUCATION\n\n•Mention: Très bien\nBaccalauréat en Sciences Expérimentales, Lycée Ibn Mandhour\n•Mention: Assez Bien\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nStagiaire Développeuse Full-Stack, Tunisair\n•Stage de fin d’études.\nCharguia II\n•Développement d’une application web et mobile de gestion des repas équipages chez\nTunisie Catering.\nStagiaire En Informatique, Siège Des Assurances Hayett\n•Stage de perfectionnement.\nImmeuble COMAR\n•Développement d'un site web de gestion des événements.\nStagiaire En Informatique, STUDI International\n•Stage d'initiation.\nLes Berges Du Lac II\n•Support IT\n•Développement d'une première expérience dans le milieu professionnel.\n\n## PROJETS\n\nApplication de gestion de clinique médicale\n•Développement d'une application de gestion de clinique médicale.\n•Technologies: Angular, Django, MySQL.\nApplication de gestion des repas d’équipages\n• Conception et développement d’une application web et mobile de gestion des repas\néquipages.\n•Mise en place d’une communication temps réel via Socket. IO\n•Travail en méthodologie Agile (Scrum)\n•Technologies: Angular, Node. js, MongoDB, Flutter, Socket. IO, NLP, Star UML.\nApplication web de covoiturage et de location de voitures\n•Développement et conception d'un site web de covoiturage et de location des voitures.\n•Technologies: Angular, NodeJS(Express), Star UML, Méthodologie Agile et Postman.\nApplication web de gestion d’événements\n• Développement et conception d'un site web de gestion des événements pour Assurance\nCOMAR & Hayett lors d'un stage de perfectionnement.\n•Technologies: Angular, SQL, Php My Admin, Star UML et Postman .\n\n## COMPÉTENCES PROFESSIONNELLES\n\nCompétences techniques\n•Langages & Frameworks: Angular, JavaScript, Java, Node. js, Spring Boot, Symfony, PHP, Flutter, Django, Python, C\n•Bases de données: SQL, MongoDB, Oracle\n•Outils & Méthodologies: Git, GitHub, UML, Star UML, Postman, REST, SOAP, Scrum, Agile\nCompétences transversales\nCommunication, Gestion du Temps, Travail d'équipe, Résolution de problèmes, Créativité.",
+    "header_info": {
+      "full_name": "Eya Ajmi",
+      "email": null,
+      "phone": null,
+      "location": "Tunis – Manouba, Tunisie",
+      "linkedin": "linkedin.com/in/ajmieya",
+      "github": "github.com/Eyaajmii"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9503,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Eya Ajmi",
+      "email": "ajmieya 13@gmail.com",
+      "phone": null,
+      "location": "Tunis – Manouba, Tunisie",
+      "linkedin": "linkedin.com/in/ajmieya 13",
+      "github": "github.com/Eyaajmii"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Angular",
+        "JavaScript",
+        "Java",
+        "Node.js",
+        "Spring Boot",
+        "Symfony",
+        "PHP",
+        "Flutter",
+        "Django",
+        "Python",
+        "C",
+        "SQL",
+        "MongoDB",
+        "Oracle",
+        "Git",
+        "GitHub",
+        "UML",
+        "Star UML",
+        "Postman",
+        "REST",
+        "SOAP"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Gestion du Temps",
+        "Travail d'équipe",
+        "Résolution de problèmes",
+        "Créativité"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Tunisair",
+        "job_title": "Stagiaire Développeuse Full-Stack",
+        "start_date": null,
+        "end_date": null,
+        "city": "Charguia II",
+        "responsibilities": [
+          "Développement d’une application web et mobile de gestion des repas équipages chez Tunisie Catering"
+        ]
+      },
+      {
+        "company": "Siège Des Assurances Hayett",
+        "job_title": "Stagiaire En Informatique",
+        "start_date": null,
+        "end_date": null,
+        "city": "Immeuble COMAR",
+        "responsibilities": [
+          "Développement d'un site web de gestion des événements"
+        ]
+      },
+      {
+        "company": "STUDI International",
+        "job_title": "Stagiaire En Informatique",
+        "start_date": null,
+        "end_date": null,
+        "city": "Les Berges Du Lac II",
+        "responsibilities": [
+          "Support IT",
+          "Développement d'une première expérience dans le milieu professionnel"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "i Team University",
+        "degree": "Cycle ingénieur en informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Supérieur des Études Technologique de Charguia",
+        "degree": "Licence en Technologies de l'informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Ibn Mandhour",
+        "degree": "Baccalauréat en Sciences Expérimentales",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T15:31:32.868527+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

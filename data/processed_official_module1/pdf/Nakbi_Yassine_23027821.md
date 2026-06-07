@@ -1,0 +1,71 @@
+## PROFESSIONAL SUMMARY
+
+PROFILE
+
+## TECHNICAL SKILLS
+
+Ingénieur informatique spécialisé en développement web avec une année d'expérience. Je suis intéresse et ouvert à toute opportunité qui me permet d'améliorer mes compétences et ma carrière professionnelle
+COMPETENCES
+Programation
+Java, C#, Javascript, HTML 5, PHP
+Frameworks
+Spring Boot, Symfony, ASP. net, Angular
+Base de données
+Oracle Database, My SQL
+Outils de développement
+Intelli J Idea ,Visual Studio Code ,git
+Network Jet
+Systemes d'exploitation
+Windows, Linux
+Outils Dev Ops
+Docker, Jenkins, git, Junit 4, Nexus, Sonar
+Check Up
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+Axe Finance
+CONTACT
+Développer Full stack web
+conception et développement d'une solution d'automatisation des crédits
+Nakbiyassine 800@gmail. com
+### Environnements techniques : .Netcore , C# , SQLServer Angular , Extjs
+**Date:** Septembre 2023 - juin 2024
+### Monastir, monastir
+**Date:** Mars 2023 - aout 2023
+- Axe Finance
+- Stage PFE
+- whttps://www. linkedin. com/in/yassine-nakbi-849444211/- Conception et développement d'une gestion des documents légal Taches réaliser :
+- Conception et développement de module de paramétrages de documents
+- Mise en place un moteur dynamique que capable de convertir les document en formulaire de saisie
+### Environnements techniques : .Netcore , C# , SQLServer Angular
+**Date:** Juillet 2022-September 2022
+- Axe Finance
+- Stage d'été
+- Conception et développement d'une application qui permet à l'entreprise de gérer ses stages ainsi que ses stagiaires.
+- Taches réaliser:
+
+## EDUCATION
+
+### Baccalauréat sciences techniques
+**Date:** 2017-2023
+- ESPRIT
+- Genie Logiciel
+Concevoir la structure de base de données pour stocker les informations sur les stages, les stagiaires, les évaluations, etc.
+- Développer les API pour gérer les opération CRUD
+- Intégrer la logique métier pour gérer les flux de travail liés au stages
+### Environnements techniques : Spring Boot , Mysql, Angular
+**Date:** Janvier 2022-mai 2022
+- Projet Académique
+- Conception et développement d'une application web pour aider les entreprises à trouver des partenaires de voyage dans le monde professionnel
+### Environnements techniques : Spring Boot , Mysql, Angular
+- Projet Académique
+### Conception et Développement d'une application web, desktop de gesti des reunions
+**Date:** October 2021--Decembre 2021
+### Environnements techniques : Javafx,,Symfony
+
+## LANGUAGES
+
+Arabe : Langue maternelle
+Francais : Intermediare
+Anglais : Niveau B 2

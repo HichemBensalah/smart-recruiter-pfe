@@ -1,0 +1,72 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Debbiche_Saif_Ellah_23021868.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Debbiche_Saif_Ellah_23021868.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Debbiche_Saif_Ellah_23021868.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "saif-ellah-debbiche. github. io/Portfolio",
+      "email": "saifellah.debbiche@esprit.tn",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "NodeJS",
+        "React",
+        "Symfony",
+        "Java",
+        "Python",
+        "TypeScript",
+        "Bash",
+        "Git Lab CI/CD",
+        "Jenkins",
+        "Ansible",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "AWS"
+      ],
+      "soft_skills": [
+        "optimizing CI/CD pipelines",
+        "technical excellence",
+        "securing critical infrastructure"
+      ]
+    },
+    "experiences": [],
+    "education": [
+      {
+        "degree": "Master of Engineering in Software Engineering - IT Architecture and Cloud Computing",
+        "school": "Higher Institute of Applied Sciences and Technology of Mateur - ISSAT Mateur",
+        "year": null
+      },
+      {
+        "degree": "Bachelor's degree in computer science",
+        "school": "High School Farhat Hached Makthar",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:50:20.851179+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7203,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

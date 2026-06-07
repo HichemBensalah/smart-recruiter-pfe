@@ -1,0 +1,263 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mahria_hammadi_23015499.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mahria_hammadi_23015499.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7201,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nDéveloppeur Web Full Stack\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## TECHNICAL SKILLS\n\nDéveloppeur Full-Stack avec 3 ans d'expérience, autonome, rigoureux et passionné par les technologies web. Je mets mes compétences au service de projets variés, en privilégiant la collaboration, la qualité et l'efficacité.\nHammadi Mahria\nCOMPÉTENCES\nLangages de programmation: C++,\nJava, JavaScript, TypeScript, HTML 5,\nFrameworks: Bootstrap, Symfony,\nSpring Boot, Angular\nBases de données: MySQL,\nPostgreSQL, MongoDB\nDevOps & Outils: Docker, Git, Git Lab,\nMaven, Intelli J IDEA, Jira, Postman\nMéthodologies: Agile (Scrum), UML\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nContact\nDéveloppeur Web Full Stack (Angular| Spring Boot | Prestashop)\nTechnopole Ghazela - Agora | Octobre 2024 - Mars 2026\nmahriahammadii@gmail.com\nDéveloppement d'applications web en Full Stack.\nMaintenance de sites e-commerce sous Prestashop.\nTunis - Ariana\nOptimisation du référencement SEO.\nIntégration continue et mise à jour des modules existants.\nDéveloppeur Web Full Stack (Angular | Spring Boot)\nCenter Urbain Nord - BRI-TECH | Mars 2022 - Janvier 2024\nDéveloppement d'applications Front-End et Back- End.\nRédaction et intégration d'API REST performantes.\nGestion de bases de données relationnelles.\nTests, débogage et validation des fonctionnalités.\nStagiaire, N 3 RD | Janvier 2020 - juillet 2020\nDéveloppement d'un projet Blockchain pour la gestion des opérations liées aux véhicules.\nStagiaire, Leadership Consulting | Janvier 2018 - juillet 2018\nRéalisation d'une application de gestion de parc automobile et de stockage avec Spring Boot et React.\nStagiaire, NG-multimédia | Juin 2017-juillet 2017\nCréation d'un site web (boutique enligne) avec Word Press.\n\n## LANGUAGES\n\nLANGUES\nFrançais: courant\n\n## EDUCATION\n\nFORMATIONS\nAnglais: intermédiaire\nItalien: B 2(Orale)\n## Formation en Génie logiciel - Center Elife- Esprit | 2020 - 2021\n##: Service de sécurité et réseau - ISSAT MATEUR | 2018-2020\n##: Système d'informatique et logiciel - ISSAT MATEUR | 2015-2018\n\n## CENTRES D'INTÉRÊT\n\nMaster\nLicence\nRandonnée Sport",
+    "header_info": {
+      "full_name": "Développeur Web Full Stack",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8026,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[1]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "experiences[4].company",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[1]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Hammadi Mahria",
+      "email": "mahriahammadii@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Développeur Web Full Stack avec 3 ans d'expérience, autonome, rigoureux et passionné par les technologies web.",
+      "experience_level": "mid_level",
+      "years_experience": "3",
+      "hard_skills": [
+        "C++",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "HTML 5",
+        "Bootstrap",
+        "Symfony",
+        "Spring Boot",
+        "Angular",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "Git Lab",
+        "Maven",
+        "Intelli J IDEA",
+        "Jira",
+        "Postman"
+      ],
+      "soft_skills": [
+        "collaboration",
+        "efficacité",
+        "Agile (Scrum)",
+        "UML"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Technopole Ghazela - Agora",
+        "job_title": "Développeur Web Full Stack",
+        "start_date": "Octobre 2024",
+        "end_date": "Mars 2026",
+        "city": "Tunis - Ariana",
+        "responsibilities": [
+          "Développement d'applications web en Full Stack.",
+          "Maintenance de sites e-commerce sous Prestashop.",
+          "Optimisation du référencement SEO.",
+          "Intégration continue et mise à jour des modules existants."
+        ]
+      },
+      {
+        "company": "Center Urbain Nord - BRI-TECH",
+        "job_title": "Développeur Web Full Stack",
+        "start_date": "Mars 2022",
+        "end_date": "Janvier 2024",
+        "city": "",
+        "responsibilities": [
+          "Développement d'applications Front-End et Back- End.",
+          "Rédaction et intégration d'API REST performantes.",
+          "Gestion de bases de données relationnelles.",
+          "Tests, débogage et validation des fonctionnalités."
+        ]
+      },
+      {
+        "company": "N 3 RD",
+        "job_title": "Stagiaire",
+        "start_date": "Janvier 2020",
+        "end_date": "juillet 2020",
+        "city": "",
+        "responsibilities": [
+          "Développement d'un projet Blockchain pour la gestion des opérations liées aux véhicules."
+        ]
+      },
+      {
+        "company": "Leadership Consulting",
+        "job_title": "Stagiaire",
+        "start_date": "Janvier 2018",
+        "end_date": "juillet 2018",
+        "city": "",
+        "responsibilities": [
+          "Réalisation d'une application de gestion de parc automobile et de stockage avec Spring Boot et React."
+        ]
+      },
+      {
+        "company": "NG-multimédia",
+        "job_title": "Stagiaire",
+        "start_date": "Juin 2017-juillet 2017",
+        "end_date": "",
+        "city": "",
+        "responsibilities": [
+          "Création d'un site web (boutique en ligne) avec Word Press."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Center Elife- Esprit",
+        "degree": "Formation en Génie logiciel",
+        "field": "",
+        "year": "2020 - 2021"
+      },
+      {
+        "institution": "ISSAT MATEUR",
+        "degree": "Service de sécurité et réseau",
+        "field": "",
+        "year": "2018-2020"
+      },
+      {
+        "institution": "ISSAT MATEUR",
+        "degree": "Système d'informatique et logiciel",
+        "field": "",
+        "year": "2015-2018"
+      }
+    ],
+    "languages": [
+      "Français: courant"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:12:10.521078+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

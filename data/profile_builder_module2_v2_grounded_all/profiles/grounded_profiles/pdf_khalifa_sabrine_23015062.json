@@ -1,0 +1,194 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\khalifa_sabrine_23015062.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\khalifa_sabrine_23015062.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8093,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSabrine Khalifa\nDéveloppeuse Full-Stack JavaScript sabrinekhalifa 12@gmail.com | +216 93 800 043 GitHub | Linked In Tunisie\nRésumé Professionnel\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeuse Full-Stack JavaScript basée en Tunisie avec plus de 2 ans d'expérience dans la création d'applications web scalables et responsives. Experte en JavaScript et TypeScript, avec une forte maîtrise de React, Node. js, Next. js, Nest. js, Angular et Vue. js. Expérimentée en développement d'API, gestion de bases de données (MongoDB, MySQL, PostgreSQL) et optimisation des performances. Passionnée par la production de code de qualité et l'utilisation d'outils assistés par l'IA pour améliorer la productivité.\n- Expérience\nInstitut Supérieur des Sciences Informatiques et Technologies de Communication (ISITCOM), Tunisie\nAutres: API REST/RESTful, GraphQL, Git, Agile, CI/CD, Optimisation des performances, Outils assistés par l'IA\nApplication Web de Gestion de Contenu: Application full-stack React. js Node. js pour créer, modifier et gérer du contenu dynamique.\n- Application de Synchronisation des Produits: Application web permettant de synchroniser et mettre à jour les données produits en temps réel entre plusieurs sources.\nApplication de Suivi des Consommations Énergétiques: Application web pour suivre, analyser et visualiser les consommations énergétiques, avec reporting et alertes.\n\n## EDUCATION\n\nFormation\nDiplôme d'Ingénieur en Informatique (2023)\n\n## TECHNICAL SKILLS\n\nCompétences\nLangages: JavaScript, TypeScript, PHP\nFrontend: React, Next. js, Angular, Vue. js, Tailwind CSS, Material-UI, Ant Design\nBackend: Node. js, Nest. js, Express. js\nBases de données: MongoDB, MySQL, PostgreSQL\n\n## ACADEMIC PROJECTS\n\nProjets\n\n## LANGUAGES\n\nLangues\nAnglais: Courant\nFrançais: Courant\nArabe: Langue maternelle\nCentres d'intérêt\n\n## MACHINE LEARNING & DEEP LEARNING\n\nTendances du développement web, Intelligence Artificielle et Machine Learning, Contribution Open-Source, Technologies des énergies renouvelables, Voyages, Photographie",
+    "header_info": {
+      "full_name": "Sabrine Khalifa",
+      "email": "12@gmail.com",
+      "phone": "+216 93 800 043",
+      "location": "Développeuse Full-Stack JavaScript basée en Tunisie avec plus de 2 ans d'expérience dans la création d'applications web scalables et responsives. Experte en JavaScript et TypeScript, avec une forte maîtrise de React, Node. js, Next. js, Nest. js, Angular et Vue. js. Expérimentée en développement d'API, gestion de bases de données (MongoDB, MySQL, PostgreSQL) et optimisation des performances. Passionnée par la production de code de qualité et l'utilisation d'outils assistés par l'IA pour améliorer la productivité.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9619,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].responsibilities[0]",
+      "experiences[3].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Sabrine Khalifa",
+      "email": "12@gmail.com",
+      "phone": "+216 93 800 043",
+      "location": "Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Développeuse Full-Stack JavaScript avec plus de 2 ans d'expérience dans la création d'applications web scalables et responsives.",
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Next.js",
+        "Nest.js",
+        "Angular",
+        "Vue.js",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "soft_skills": [
+        "production de code de qualité",
+        "utilisation d'outils assistés par l'IA pour améliorer la productivité"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Institut Supérieur des Sciences Informatiques et Technologies de Communication (ISITCOM)",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "API REST/RESTful",
+          "GraphQL",
+          "Git",
+          "Agile",
+          "CI/CD",
+          "Optimisation des performances",
+          "Outils assistés par l'IA"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Application full-stack React.js Node.js pour créer, modifier et gérer du contenu dynamique"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Application web permettant de synchroniser et mettre à jour les données produits en temps réel entre plusieurs sources"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Application web pour suivre, analyser et visualiser les consommations énergétiques, avec reporting et alertes"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur des Sciences Informatiques et Technologies de Communication (ISITCOM)",
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "field": null,
+        "year": 2023
+      }
+    ],
+    "languages": [
+      "Anglais",
+      "Français",
+      "Arabe"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:50:44.306523+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

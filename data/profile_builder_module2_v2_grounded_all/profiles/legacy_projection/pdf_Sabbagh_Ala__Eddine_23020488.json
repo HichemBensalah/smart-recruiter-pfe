@@ -1,0 +1,109 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Sabbagh_Ala__Eddine_23020488.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Sabbagh_Ala__Eddine_23020488.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Sabbagh_Ala__Eddine_23020488.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Alaeddine Sabbagh",
+      "email": "Sabbaghala@gmail.com",
+      "phone": "+216 21455787",
+      "location": "Sousse, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "React Native",
+        "Flutter",
+        "Laravel",
+        "Symfony",
+        "NodeJS",
+        "AWS",
+        "Azure",
+        "Open Stack",
+        "VMware Workstation",
+        "KVM",
+        "Git",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Github Actions"
+      ],
+      "soft_skills": [
+        "Collaboration",
+        "Efficacité",
+        "Intuitif",
+        "Conviviaux",
+        "Sécurité optimale",
+        "Génération de code QR",
+        "Reconnaissance faciale"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Taxiora",
+        "start_date": "Séptembre 2025-Novembre 2025",
+        "end_date": null,
+        "city": "Sousse, Tunisia",
+        "responsibilities": [
+          "Création d'un client web pour tester le fonctionnement de l'application de réservation Taxiora avec React, React Leaflet et Socket IO",
+          "Conception et développement d'un site web pour une entreprise locale avec Word Press.",
+          "Conçu et développé une application complète pour identifier les visiteurs sur les chantiers et les suivre en utilisant React Native."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "LEONI",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stagiaire en ingénierie logicielle"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "AXIA Solutions",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stagiaire en ingénierie logicielle"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master en Web Services et Multimédia",
+        "school": "Institut Supérieur d'Informatique et des Technologies de Communication de Sousse",
+        "year": null
+      },
+      {
+        "degree": "Licence en Développement web et Multimédia",
+        "school": "Institut Supérieur d'Informatique et des Technologies de Communication de Sousse",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:33:31.101952+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8093,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

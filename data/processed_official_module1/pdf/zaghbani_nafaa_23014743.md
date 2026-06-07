@@ -1,0 +1,46 @@
+## HEADER
+
+Nafea Zaghbani/mobile_phone +216 27 247 920 -/_475 zaghbaninafea@gmail. com -/linkedin_sign nafea-zaghbani -/map_marker Tunisie
+
+## EDUCATION
+
+FORMATION
+´ Ecole Nationale d'Ing´ enieurs de Gab` es (ENIG) (
+ENIG ) enieur en Technologies de l'Information et de la Communication (TIC)
+Diplˆ ome d'ing´
+Tunisie Septembre 2021 - Juin 2024 Tunisie Septembre 2018 - Juin 2021
+Institut Pr´ eparatoire aux ´ Etudes d'Ing´ enieurs de Tunis ( IPEIT )
+Cycle Pr´ eparatoire Scientifique : Physique - Chimie
+Conception et d´ eploiement d'un syst` eme d'IA G´ en´ erative multi-agents (Agentic AI) visant ` a automatiser l'onboarding client et l'acc` es aux informations financi` eres et r´ eglementaires au sein d'une bourse nationale.
+Architecture d'une solution avanc´ ee de Retrieval-Augmented Generation (RAG) permettant d'ancrer les r´ eponses des LLMs sur des documents r´ eglementaires et des donn´ ees de march´ e structur´ ees, r´ eduisant le risque d'hallucination
+**Date:** F´ evrier 2024 -Juillet 2024
+Mise en œuvre de l'orchestration d'agents avec m´ ecanismes de tool/function calling, permettant une s´ election dynamique entre la recherche s´ emantique documentaire, l'acc` es aux donn´ ees structur´ ees et l'appel ` a des APIs
+´ Evaluation de plusieurs Large Language Models (LLMs) et d´ eploiement d'un agent LLa MA de niveau production, d´ eveloppement des services backend en Python et conteneurisation de la solution ` a l'aide de Docker pour un d´ eploiement scalable et portable.
+Int´ egration d'un microservice IA en Python pour classification automatique et extraction de donn´ ees (Layout LM, Open CV, Tesseract), fournissant des donn´ ees structur´ ees au backend.
+**Date:** Juin 2023 -Juillet 2023
+Impl´ ementation de My SQL et d'API REST pour une communication fluide entre frontend, backend et IA, assurant traitement en temps r´ eel et gestion efficace des documents.
+Conception et entraˆ ınement d'un mod` ele LSTM pour la classification automatique des tickets ` a partir des donn´ ees historiques, atteignant une pr´ ecision de 78 % et optimisant significativement le parcours de traitement des tickets.
+**Date:** Juin 2022 -Juillet 2022
+Conception et mise en œuvre d'une plateforme d'IA de niveau industriel permettant d'industrialiser la transformation de documents non structur´ es (PDF, pages web, fichiers texte) en jeux de donn´ ees d'entraˆ ınement LLM de haute qualit´ e (QA, r´ esum´ e, classification), reposant sur une architecture Python asynchrone et modulaire, int´ egrant des m´ ecanismes automatis´ es de contrˆ ole qualit´ e
+Agent de d´ epannage r´ eseau bas´ e sur l'IA : Mise en œuvre d'un syst` eme de diagnostic et d'auto-d´ epannage r´ eseau assist´ e par IA, int´ egrant py ATS avec des agents routeurs et commutateurs pour ex´ ecuter des tests structur´ es, analyser les probl` emes de connectivit´ e, v´ erifier les configurations, effectuer des actions correctives autonomes et permettre des requˆ etes r´ eseau en langage naturel pour une automatisation et une prise de d´ ecision en temps r´ eel.
+
+## TECHNICAL SKILLS
+
+Intelligence Artificielle & ML: Langchain, Scikit-learn, Tensor Flow, Hugging Face, Open CV, Matplotlib, Pandas, Num Py, spa Cy, Ollama Programmation & D´ eveloppement: Python (Flask), Java (Spring Boot, MVC, Security, Data JPA, Cloud), Angular, SQL, REST APIs autres technologies : Linux, Git , Azure , Docker, My SQL, Chroma DB , Postman , Py Charm , Intelli J IDEA
+GTI - Financial Software:Stagiaire Ing´ enieur IA/Logiciel
+Conception, impl´ ementation et comparaison de trois strat´ egies de d´ eploiement (on-premise sur GPU locaux, APIs LLM externes, cloud), avec analyse coˆ uts/performances/risques afin d'orienter les d´ ecisions architecturales.
+D´ eveloppement d'une interface web orient´ ee utilisateur en Angular, permettant une interaction intuitive avec l'assistant Gen AI et une int´ egration fluide avec les services backend d'IA.
+Mots-cl´ es: Python, Flask, Angular, SQL, My SQL, Chroma DB, Langchain, Docker, LLM, Generative AI, Git, Scrum,
+GCT (D´ epartementinformatique):Stagiaire Ing´ enieur IA/Logiciel
+D´ eveloppement d'une application de traitement de documents en architecture microservices pour automatiser l'extraction et la gestion des donn´ ees, avec services modulaires interconnect´ es,
+Mots-cl´ es: Python, Open CV, Tesseract OCR, Java, Spring Boot
+GCT (D´ epartementinformatique):Stagiaire Ing´ enieur IA/Logiciel
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Mots-cl´ es: Machine Learning, AI, NLP, Python, Flask, My SQL
+
+## PROJETS S ´ ELECTIONN´ ES
+
+Syst` eme IA pour la G´ en´ eration de Donn´ ees d'Entraˆ ınement
+Agent de d´ epannage r´ eseau bas´ e sur l'IA:

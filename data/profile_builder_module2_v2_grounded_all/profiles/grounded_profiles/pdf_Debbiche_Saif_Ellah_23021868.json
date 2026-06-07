@@ -1,0 +1,156 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Debbiche_Saif_Ellah_23021868.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Debbiche_Saif_Ellah_23021868.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7441,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nDevOps and Cloud Engineer\nsaif-ellah-debbiche. github. io/Portfolio\nsaifellah.debbiche@esprit.tn\nin/saif-ellah-debbiche/saifellah. debbiche/saif-ellah-debbiche\nSoftware & DevOps Engineer | Full-Stack Specialist (Spring Boot/Angular) and Cloud Automation. Expert in securing critical infrastructure and Kubernetes deployment. Passionate about optimizing CI/CD pipelines and technical excellence.\nMaster of Engineering in Software Engineering - IT Architecture and Cloud Computing\nHigher Institute of Applied Sciences and Technology of Mateur - ISSAT Mateur\nBachelor's degree in computer science\nHigh School Farhat Hached Makthar\nHigh school diploma in Mathematics\nSKILLS\nFrameworks:\nProgramming languages:\nAngular, Spring Boot, NodeJS, React, Symfony\nJava, Python, TypeScript, Bash\nDevOps:\nDatabases:\nMySQL, PostgreSQL, MongoDB\nGit Lab CI/CD, Jenkins, Ansible, Terraform, Docker, Kubernetes, Prometheus, Grafana, AWS\nDevOps Project: CI/CD Pipeline Setup\nTools: Jenkins, Maven, JUnit, Git, Sonar Qube, Nexusn Docker, Prometheus, Grafana, Vagrant\nCloud Project: Configuration Iaa S Paa S Saa S\nInstalled and configured a private cloud infrastructure to manage various deployed solution\nTools: Open Stack, Docker, Kubernetes, Ansible, Prometheus, Grafana\nWeb Application\nDevelopment of a full-stack web app for camping planning\nTools: Java Spring Boot, Angular, MySQL, Postman\nImproved network security, traffic control, filtering rules, LAN/DMZ/WAN security.\nTools: pf Sense, Open VPN, Snort\nCross-Platform Application\nDevelopment of the user module, double authentication, JWT tokens, and role management\nTools: Symfony, Java FX, Codename One, MySQL, Postman\nEnglish\nArabic\nNative language\nFull professional capacity\n\n## EDUCATION\n\nHigher School of Engineering and Technologies - ESPRIT\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n\n## ACADEMIC PROJECTS\n\nPROJECTS\n## Network Security Project\n**Date: ** 2022 - 2025\n- Implemented a secure, automated CI/CD pipeline for a full stuck application using Jenkins\n\n## LANGUAGES\n\nFrench\nBilingual\n\n## ECOLE SUPERIEUREPRIVEE D'INGENIERIE ET DETECHNOLOGIES\n\nesprit\nSeformerautrement\n\n## HONORIS UNITEDUNIVERSITIES\n\nLe Chef du Departement de la Scolarité de I'Ecole Superieure Privée d'Ingenierie et de Technologies Soussigne，certifie que:\nEcoleagreeeparle Ministeretunisiende I'enseignementsuperieursousle N°03/2003 (Code Transport CS 2025/052)\n\n## ATTESTATION DE REUSSITE\n\nMonsieur DEBBICHESaif Ellah(223 AFT 0845)\na: Maktar\nne(e) le: 20/10/1999\nDelivréele: 16/10/2018 a: Tunis\nTitulairedela CINN°: 14452119\n2022-2023(Classe: 3 A 51), asubiavecsucceslesexamensdepassage en 2 emeanneeducycled'Ingenieur.\nMoyenne: 15, 49\nCetteattestationestdelivreea linteresseasademandepourserviretvaloircequededroit.\nChef Departementdelascolarite\nM. Mohamed Ali BOUAKLINE\nM. Mohamed Ali BOUAKLINE\ne I'Usine Chargyia Il\ne I'Usine Chargyia Il\n2035 ARIANA\n2035 ARIANA\n41541-Fax 71941889\n41541-Fax 71941889\nTel: 71\nTel: 71\nScolarite 2\nScolarite 2\nwww. esprit. tn-E-mail: contact@esprit.tn\n\n## CONFERENCE DES\n\nAUF\nS. Aaucapitaldedeuxmillionsde Dinars-Identifiantunique: 830823 CPM 000 Siege Social: 18 ruede IUsine-2035-Charguiall Annexe: 1-2 rue Andre Ampere-2083-Pole Technologique-El Ghazala Tel.: +21670250000-Fax.: +21670685454\ncdio\nGRANDES\nEUR-ACE°\nunesco\nECOLES",
+    "header_info": {
+      "full_name": "saif-ellah-debbiche. github. io/Portfolio",
+      "email": "saifellah.debbiche@esprit.tn",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7203,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[0]",
+      "experiences[0].responsibilities[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": [
+      "experiences[0].responsibilities[0]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "saif-ellah-debbiche. github. io/Portfolio",
+      "email": "saifellah.debbiche@esprit.tn",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "NodeJS",
+        "React",
+        "Symfony",
+        "Java",
+        "Python",
+        "TypeScript",
+        "Bash",
+        "Git Lab CI/CD",
+        "Jenkins",
+        "Ansible",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "AWS"
+      ],
+      "soft_skills": [
+        "optimizing CI/CD pipelines",
+        "technical excellence",
+        "securing critical infrastructure"
+      ]
+    },
+    "experiences": [],
+    "education": [
+      {
+        "institution": "Higher Institute of Applied Sciences and Technology of Mateur - ISSAT Mateur",
+        "degree": "Master of Engineering in Software Engineering - IT Architecture and Cloud Computing"
+      },
+      {
+        "institution": "High School Farhat Hached Makthar",
+        "degree": "Bachelor's degree in computer science"
+      }
+    ],
+    "languages": [
+      "French",
+      "Arabic"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:50:20.851179+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

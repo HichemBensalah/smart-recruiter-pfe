@@ -1,0 +1,126 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rym_Tangour_23022336.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rym_Tangour_23022336.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7079,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nRym Tangour\nComputer Science Student\nCertified Kubernetes Administrator (CKA)/phone/envelope tangourrim@gmail.com\n+216 95 070 020/globe\nLinked In\nGitHub\nKaggle/linkedin/github\n\n## PROFESSIONAL SUMMARY\n\nProfil\nComp´ etences Techniques\n\n## TECHNICAL SKILLS\n\n´ Etudiante en ing´ enierie informatique sp´ ecialis´ ee en MLOps, Cloud Computing et Kubernetes, certifi´ ee Certified Kubernetes Administrator (CKA) . Int´ eress´ ee par le d´ eploiement de mod` eles IA, l'automatisation, l'orchestration de conteneurs et les infrastructures cloud modernes.\nCloud & Containers\nKubernetes, Docker, Helm, Linux\nCI/CD & DevOps\nGit, GitHub Actions, Bash Scripting\nMachine Learning & MLOps\nPython, scikit-learn, TensorFlow, PyTorch, MLflow\nCloud & Data\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nCertified Kubernetes Administrator (CKA) - Linux Foundation\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nComputer Vision for Industrial Inspection - NVIDIA\nExp´ erience\n\n## EDUCATION\n\nProjet de Fin d' ´ Etudes (PFE) - ACT\n\n## MACHINE LEARNING & DEEP LEARNING\n\nD´ eveloppement d'un syst` eme de d´ etection de ransomware bas´ e sur le Deep Learning.\nConception d'un mod` ele hybride CNN + LSTM pour l'analyse des comportements malveillants.\nAnalyse des acc` es m´ emoire et des patterns de stockage pour identifier les attaques.\nOptimisation des performances du mod` ele et exp´ erimentation sur datasets de cybers´ ecurit´ e.\nTravail en environnement professionnel avec contraintes de s´ ecurit´ e, performance et robustesse.",
+    "header_info": {
+      "full_name": "Rym Tangour",
+      "email": "tangourrim@gmail.com",
+      "phone": "+216 95 070 020",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8471,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Rym Tangour",
+      "email": "tangourrim@gmail.com",
+      "phone": "+216 95 070 020",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Kubernetes",
+        "Docker",
+        "Helm",
+        "Linux",
+        "Git",
+        "GitHub Actions",
+        "Bash Scripting",
+        "Python",
+        "scikit-learn",
+        "TensorFlow",
+        "PyTorch",
+        "MLflow"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [],
+    "education": [
+      {
+        "institution": "ACT",
+        "degree": "Projet de Fin d'études (PFE)",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:31:34.239348+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

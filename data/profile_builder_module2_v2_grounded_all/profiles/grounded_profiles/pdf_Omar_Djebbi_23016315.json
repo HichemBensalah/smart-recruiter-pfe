@@ -1,0 +1,233 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Omar_Djebbi_23016315.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Omar_Djebbi_23016315.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8551,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nOmar Djebbi\nomar.djebbi@tijari.biz | +216 53 115 231 | Cité Essalema, Ezzahrouni, Tunis | portfolio. tijari. biz | linkedin.com/in/djebbi-omar\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeur Mobile spécialisé en Flutter et Node. js avec 2 ans d'expérience. Je conçois, développe et livre des applications performantes et évolutives, avec une attention particulière portée à la fiabilité, à l'expérience utilisateur et à l'intégration d'API.\nCréation d'interfaces web réactives et ergonomiques en Flutter, générant une amélioration mesurée de 40% de l'expérience utilisateur.\nDéveloppement et déploiement d'applications mobiles sur mesure avec Flutter et Node. js, incluant une application météo connectée à des API en temps réel.\n- Implémentation d'un chatbot IA conçu pour enrichir l'expérience et l'interaction client.\nOptimisation des performances et de la scalabilité, permettant une réduction mesurée de 25% du taux de crash.\n## Stagiaire en Développement Mobile | juin 2024 - août 2024\n## ESPRIT, Cité El Ghazela, Tunis\n- Développement d'un système d'avis renforçant la crédibilité de la plateforme et boostant l'engagement utilisateur de 45%.\nIntégration d'algorithmes de filtrage avancés, générant une amélioration de 35% de la précision des recommandations d'emploi.\n## Projet Universitaire - Développement Mobile | févr. 2024 - mai 2024\n## ESPRIT, Cité El Ghazela, Tunis\nIntégration d'un chatbot IA avec plus de 100 requêtes par jour et 85% de résolution, réduisant le volume des tickets de support de 40%.\n## Stagiaire en Développement Mobile | juil. 2023 - sept. 2023\n## ESPRIT, Cité El Ghazela, Tunis\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nFlutter, Dart, React Native, Expo, Android Jetpack Compose, Node. js, Nest. js, FastAPI, Angular, HTML, CSS, Git, Git Lab, REST APIs, Web Services, Stripe, Google Gemini, Perplexity API, Microsoft Dynamics 365 Business Central, AL, SQL, MS SQL, PHP, Symfony, Django, Flask, Java FX, Google Cloud, Azure API, Mobile Application Development, Mobile Game Development, Desktop Application Development.\nDéveloppement et intégration d'applications métier complexes avec Dynamics 365 Business Central, AL, Web Services, Flask et Flutter Web.\nMise en place de web scraping via GitHub et Linked In avec des API REST pour automatiser le matching intelligent entre CV et offres d'emploi.\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nDéveloppeur Flutter | févr. 2026 - mars 2026\nTick 8 ing, Tunis, Montplaisir\nDéveloppeur Solo | nov. 2025 - déc. 2025\nAuto-entrepreneur, Remote\nConception UI/UX d'une application d'apprentissage interactive et ludifiée pour enfants de 4 à 12 ans.\nDéveloppement d'un tableau de bord parental pour le suivi des progrès en temps réel et la visualisation des données.\nArchitecture multiplateforme évolutive, alliant accessibilité, navigation intuitive et hautes performances.\nDéveloppeur d'Applications Mobiles | juin 2025 - juil. 2025\nFreelance, Remote\nDéveloppement mobile avec Flutter et Nest. js d'une solution complète de gestion des stocks et des fournisseurs.\nIntégration d'un chatbot IA via l'API Perplexity pour optimiser et fluidifier les interactions clients.\nSécurisation des transactions financières grâce à la mise en place de la passerelle de paiement Stripe.\nDéveloppeur Stagiaire | janv. 2025 - juil. 2025\nMAVISION, Manar 2, Tunis\nConception de fonctionnalités ERP critiques pour optimiser la planification et la gestion des ressources de l'entreprise.\nDéveloppeur d'Applications Mobiles | juil. 2024 - août 2024\nFreelance, Remote\n\n## LANGUAGES\n\nImplémentation de l'API Azure pour la traduction en temps réel en plus de 20 langues, traitant 10 000 messages par mois.\nOptimisation des performances via refactoring et mise en cache, accélérant les temps de chargement de 50%.",
+    "header_info": {
+      "full_name": "Omar Djebbi",
+      "email": "omar.djebbi@tijari.biz",
+      "phone": "+216 53 115 231",
+      "location": null,
+      "linkedin": "linkedin.com/in/djebbi-omar",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.971,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].start_date",
+      "experiences[4].company",
+      "experiences[4].end_date",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].responsibilities[1]",
+      "experiences[4].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Omar Djebbi",
+      "email": "omar.djebbi@tijari.biz",
+      "phone": "+216 53 115 231",
+      "location": null,
+      "linkedin": "linkedin.com/in/djebbi-omar",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Flutter",
+        "Node.js",
+        "React Native",
+        "Expo",
+        "Android Jetpack Compose",
+        "Nest.js",
+        "FastAPI",
+        "Angular",
+        "HTML",
+        "CSS",
+        "Git",
+        "Git Lab",
+        "REST APIs",
+        "Web Services",
+        "Stripe",
+        "Google Gemini",
+        "Perplexity API",
+        "Microsoft Dynamics 365 Business Central",
+        "AL",
+        "SQL",
+        "MS SQL",
+        "PHP",
+        "Symfony",
+        "Django",
+        "Flask",
+        "Java FX",
+        "Google Cloud",
+        "Azure API"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Tick 8 ing, Tunis, Montplaisir",
+        "job_title": "Développeur Flutter",
+        "start_date": "févr. 2026",
+        "end_date": "mars 2026",
+        "city": null,
+        "responsibilities": [
+          "Conception UI/UX d'une application d'apprentissage interactive et ludifiée pour enfants de 4 à 12 ans.",
+          "Développement d'un tableau de bord parental pour le suivi des progrès en temps réel et la visualisation des données."
+        ]
+      },
+      {
+        "company": "Auto-entrepreneur, Remote",
+        "job_title": "Développeur Solo",
+        "start_date": "nov. 2025",
+        "end_date": "déc. 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception UI/UX d'une application d'apprentissage interactive et ludifiée pour enfants de 4 à 12 ans.",
+          "Développement d'un tableau de bord parental pour le suivi des progrès en temps réel et la visualisation des données."
+        ]
+      },
+      {
+        "company": "Freelance, Remote",
+        "job_title": "Développeur d'Applications Mobiles",
+        "start_date": "juin 2025",
+        "end_date": "juil. 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement mobile avec Flutter et Nest.js d'une solution complète de gestion des stocks et des fournisseurs.",
+          "Intégration d'un chatbot IA via l'API Perplexity pour optimiser et fluidifier les interactions clients."
+        ]
+      },
+      {
+        "company": "MAVISION, Manar 2, Tunis",
+        "job_title": "Développeur Stagiaire",
+        "start_date": "janv. 2025",
+        "end_date": "juil. 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception de fonctionnalités ERP critiques pour optimiser la planification et la gestion des ressources de l'entreprise.",
+          "Développement d'applications métier complexes avec Dynamics 365 Business Central, AL, Web Services, Flask et Flutter Web."
+        ]
+      },
+      {
+        "company": "Freelance, Remote",
+        "job_title": "Développeur d'Applications Mobiles",
+        "start_date": "juil. 2024",
+        "end_date": "août 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement mobile avec Flutter et Nest.js d'une solution complète de gestion des stocks et des fournisseurs.",
+          "Intégration d'un chatbot IA via l'API Perplexity pour optimiser et fluidifier les interactions clients."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:55:56.482630+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

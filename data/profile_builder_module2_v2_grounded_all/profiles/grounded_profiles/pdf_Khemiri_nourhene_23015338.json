@@ -1,0 +1,186 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Khemiri_nourhene_23015338.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Khemiri_nourhene_23015338.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.915,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAfricom Services - Stage d'Été - Juin 2023 - Août 2023\n\n## KHEMIRI NOURHENE\n\nIngénieure en Génie Logiciel khemirinourhene 50@gmail.com | (+216) 56 19 20 74 | Ariana, Tunisie linkedin.com/in/nourhene-khemiri\n\n## PROFESSIONAL SUMMARY\n\nProfil\nEnvironnement: MySQL, Spring Boot, Java 11, React, React Query, Kafka, JUnit, Docker, Git\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieure en génie informatique diplômée d'ESPRIT, avec une expérience concrète en développement web Full Stack (Java/Spring Boot, React, Angular). Habituée à travailler en mode Agile/Scrum avec une bonne maîtrise des architectures microservices, du déploiement Docker et des tests unitaires.\n- Expérience Professionnelle\nProjet: Conception et développement d'une application web de supervision et de maintenance pour un système NVR/station de relecture. L'application permet le suivi, la gestion et la maintenance à distance des équipements.\n- Missions:\n- Analyse du besoin fonctionnel et conception du projet.\nEnvironnement: Java 21, Spring Boot, React, React Query, Bootstrap 5, Web Socket, JWT, MongoDB, Docker, Jest, Git\n- ACTIA Tunisie - Stage d'Été - Juillet 2024 - Septembre 2024\nProjet: Conception et développement d'un système de gestion de rendez-vous permettant de gérer les véhicules et les services, avec notifications en temps réel.\n- Missions:\n- Analyse du besoin fonctionnel et conception du projet.\n- Génération de notifications en temps réel via Kafka.\n\n## TECHNICAL SKILLS\n\nCompétences\nLangages:\nJavaScript, TypeScript, Java, PHP, HTML, CSS,\nFrameworks:\nSpring Boot, React, Angular, Node. js, Express. js, .NET\nAutres technologies: Web Socket, Kafka, JWT, Spring Security, Keycloak, Eureka, Spring Cloud Gateway, Ng Rx, Redux, FastAPI, Flask\nACTIA Tunisie - Stagiaire Ingénieure Génie Logiciel - Février 2025 - Juillet 2025\nDéveloppement du backend avec Spring Boot (Java 21) et du frontend avec React/React Query.\nImplémentation de Web Socket pour la communication en temps réel.\nDéploiement de la solution dans un environnement conteneurisé (Docker).\nConception d'un module IA pour la détection d'anomalies et la génération d'alertes intelligentes à partir des données de supervision, développé avec FastAPI/Flask et intégré via API au système existant.\nMise en place de tests unitaires pour les composants React avec Jest.\nDéveloppement du backend Spring Boot et du frontend React avec React Query.\nTests de conteneurs pour assurer la fiabilité des services API RESTful.\nEnvironnement: Spring Boot, Angular, MySQL, Java, Spring Security, Eureka, Spring Cloud Gateway, Spring Boot Actuator\nProjet: Conception et développement d'une application web de gestion de stage.\nDéveloppement full stack de l'application de gestion des stages étudiants.\nGestion des entreprises, tuteurs, étudiants et rapports de stage.\n\n## CI/CD:\n\nDocker, Jenkins, Git Lab CI, Nexus, Sonar Qube\nGestion de versions:\nGit, GitHub\nBases de données:\nMySQL, MongoDB, PostgreSQL\nMonitoring:\nGrafana, Prometheus\nMéthodologies:\nTests automatisés:\nJest, JUnit, Jasmine\n\n## EDUCATION\n\nProjet: Conception et développement d'un système de génération de rapports Excel à partir d'un formulaire, permettant à l'administrateur d'obtenir un rapport détaillé de toutes les informations saisies.\n- Missions:\n- Analyse du besoin fonctionnel et conception du projet.\n- Développement du backend Spring Boot avec génération de fichiers Excel.\n- Mise en place d'une interface de formulaire et export des données.\n- Environnement:\n## Spring Boot, MySQL, Java 8, Git\n- Up Tech - Stage de Fin de Licence - Février 2022 - Juin 2022\nProjet: Conception et développement d'une application e-commerce permettant à l'utilisateur de consulter les produits, donner son avis, soumettre une réclamation et passer commande.\n- Missions:\n- Analyse du besoin fonctionnel et conception du projet.\n- Développement du backend avec Node. js/Express. js.\n- Développement du frontend avec Angular.\n## Gestion des commandes, avis utilisateurs et réclamations.\n- Environnement:\n## MongoDB, Angular, Node. js, Express. js, JavaScript\n**Location: ** Scrum/Agile, SOLID, Microservices\n- Projet: Conception et développement d'une application web de gestion des foyers en utilisant une architecture microservices.\n## Conception de l'architecture microservices (API Gateway, Service Discovery).\n**Date: ** 2022\n- Développement des services backend avec Spring Boot et frontend avec Angular.\n- Formation\n- Diplôme d'Ingénieure - Génie Informatique (ESPRIT)\n- Diplôme National en Informatique - Développement des Systèmes d'Information (ISET Bizerte)\n\n## ACADEMIC PROJECTS\n\nProjets Académiques\n\n## ESPRIT - 2023 - 2024\n\nMissions:\nSécurisation des accès avec Spring Security.\nMissions:\nEnvironnement:\nSpring Boot, Angular\n\n## LANGUAGES\n\nLangues\nArabe (natif)\nFrançais (courant)\nAnglais (professionnel)",
+    "header_info": {
+      "full_name": "KHEMIRI NOURHENE",
+      "email": "50@gmail.com",
+      "phone": "+216) 56 19 20 74",
+      "location": null,
+      "linkedin": "linkedin.com/in/nourhene-khemiri",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.983,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "KHEMIRI NOURHENE",
+      "email": "50@gmail.com",
+      "phone": "+216) 56 19 20 74",
+      "location": null,
+      "linkedin": "linkedin.com/in/nourhene-khemiri",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "MySQL",
+        "Spring Boot",
+        "Java 11",
+        "React",
+        "React Query",
+        "Kafka",
+        "JUnit",
+        "Docker",
+        "Git"
+      ],
+      "soft_skills": [
+        "Scrum/Agile",
+        "SOLID",
+        "Microservices"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Juin 2023 - Août 2023",
+        "end_date": null,
+        "city": "Ariana, Tunisie",
+        "responsibilities": [
+          "Analyse du besoin fonctionnel et conception du projet.",
+          "Développement du backend avec Spring Boot (Java 21) et du frontend avec React/React Query."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Juillet 2024 - Septembre 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Analyse du besoin fonctionnel et conception du projet.",
+          "Génération de notifications en temps réel via Kafka."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Février 2025 - Juillet 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement du backend avec Spring Boot (Java 21) et du frontend avec React/React Query.",
+          "Implémentation de Web Socket pour la communication en temps réel."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Diplôme d'Ingénieure - Génie Informatique (ESPRIT)",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Up Tech",
+        "degree": "Diplôme National en Informatique - Développement des Systèmes d'Information (ISET Bizerte)",
+        "field": null,
+        "year": "2022"
+      }
+    ],
+    "languages": [
+      "Arabe (natif)",
+      "Français (courant)",
+      "Anglais (professionnel)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:54:57.355663+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

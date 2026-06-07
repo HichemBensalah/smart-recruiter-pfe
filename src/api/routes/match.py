@@ -307,6 +307,12 @@ def _to_match_candidate(candidate: dict[str, Any]) -> MatchCandidate:
         cv_mime_type=candidate.get("cv_mime_type") if isinstance(candidate.get("cv_mime_type"), str) else None,
         cv_source=candidate.get("cv_source") if isinstance(candidate.get("cv_source"), str) else None,
         cv_confidence=candidate.get("cv_confidence") if isinstance(candidate.get("cv_confidence"), str) else None,
+        score_breakdown=candidate.get("score_breakdown") if isinstance(candidate.get("score_breakdown"), list) else None,
+        base_score_before_penalty=candidate.get("base_score_before_penalty"),
+        must_have_coverage=candidate.get("must_have_coverage"),
+        must_have_penalty_multiplier=candidate.get("must_have_penalty_multiplier"),
+        must_have_penalty_applied=candidate.get("must_have_penalty_applied"),
+        quality_penalty_multiplier=candidate.get("quality_penalty_multiplier"),
     )
 
 

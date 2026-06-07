@@ -1,0 +1,89 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\hannachi_chadha_23016953.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\hannachi_chadha_23016953.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\hannachi_chadha_23016953.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "HANNACHI CHADHA",
+      "email": "675@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieure en génie informatique, spécialisée en développement web Fullstack",
+      "hard_skills": [
+        "Next Js",
+        "Next Auth",
+        "Axios",
+        "API publique api-adresse. data. gouv. fr",
+        "MongoDB",
+        "Spring Boot",
+        "Angular",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Communication orale",
+        "Esprit d'initiative",
+        "Esprit d'équipe",
+        "Créativité",
+        "Motivation",
+        "Ponctualité",
+        "Curiosité",
+        "Organisation",
+        "Persévérance"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieure Logiciel",
+        "company": "Affigen",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un site web full-stack avec Laravel",
+          "Intégration et personnalisation de templates pour la partie front-end",
+          "Consommation d'API externes via des endpoints (intégration de services distants)",
+          "Utilisation de Docker pour la conteneurisation et la gestion des services",
+          "Optimisation du référencement naturel (SEO) du site avec implémentation de bonnes pratiques SEO"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "ESPRIT",
+        "start_date": "SA coaching 07/2024 - 09/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Analyse des besoins: Compréhension des exigences utilisateurs et rédaction des spécifications fonctionnelles"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Stage d'été en développement WEB",
+        "start_date": "02/2025 - 08/2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement backend: Développer la parties backend avec Spring Boot"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:26:50.550064+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.959,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

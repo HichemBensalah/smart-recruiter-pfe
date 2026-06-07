@@ -1,0 +1,213 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Khaldi_Yasmine_23031920.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Khaldi_Yasmine_23031920.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7792,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nCONTACT\n\n## YASMINE KHALDI\n\nDéveloppeuse Full Stack · Python/FastAPI/React/Java\n✉ khaldiyasmine 27@gmail.com\nTunis, Manouba\nLinked In\n\n## COMPÉTENCES TECHNIQUES\n\nLangages\nPython · Java 8/11/17 · TypeScript/JS · R · Bash\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieure Full Stack avec une solide expérience en développement backend (Python, Java, Spring Boot) et une appétence marquée pour les architectures modernes, les APIs REST et l'intégration de l'intelligence artificielle. Habituée aux environnements agiles, à la collaboration produit et à la livraison en continu. Curieuse, autonome et motivée pour contribuer activement à la construction d'une plateforme ERP intelligente intégrant LLM, agents IA et workflows automatisés.\n\n## TECHNICAL SKILLS\n\nFrameworks Backend\nFastAPI · Spring Boot · Django · Flask\nFrameworks Frontend\nReact · Angular · Java FX · HTML/CSS\nBases de données\nPostgreSQL · MySQL · MongoDB · Maria DB · Cassandra\nORM/Validation\nSQLAlchemy · Pydantic · JPA/Hibernate\nDevOps/Cloud\nDocker · CI/CD · Jenkins · Git · Jira · AWS · GCloud\nLinux · Windows · Android\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nIngénieure Full Stack -Java/Python/IA\nAvenir Business Ressource -France (télétravail) · CDI · Janvier 2024 Présent\n▸ Projet: Application Android de traçabilité d'équipements\nConception d'écrans métiers et gestion des flux utilisateurs Android\nDéveloppement d'APIs REST avec Spring Boot: authentification, CRUD sécurisé\nOptimisation performances backend, gestion d'erreurs, tests unitaires\nCI/CD, collaboration agile avec Jira & Confluence (équipe de 4 développeurs)\nStack: Java 17 · Spring Boot · Android · Ubuntu\n▸ Projet: IDE assisté par IA (LLM)\nConception d'une solution d'assistance au développement basée sur LLM\nBackend Spring Boot + interface Java FX + moteur IA Python (appels LLM, gestion des prompts)\nArchitecture d'abstraction IA évolutive vers des modèles spécialisés entraînés en interne\nDéfinition des flux de données, contraintes de sécurité, revues de code (équipe de 3)\n\n## IA & LLM\n\nTensorFlow · Keras · LLM · Transfer Learning · Power BI\n\n## SOFT SKILLS\n\n-Autonomie & rigueur\n-Travail en équipe agile (Scrum)\n-Curiosité & veille technologique\n-Communication produit\n-Gestion de projet (CRISP-DM)\n\n## EDUCATION\n\nIngénieure IA -Stage de fin d'études (6 mois)\nPlateforme de signature numérique sécurisée avec authentification biométrique par IA\nFORMATION\n## Diplôme d'ingénieur en Data Science -TEK-UP University (2022 -2025)\n**Date: ** TEXPECT -Tunis · 2023\n- Licence en Ingénierie des Systèmes Informatiques -Faculté des Sciences de Tunis (2019 -2022)\n\n## LANGUAGES\n\nLANGUES\n-Français -Courant\n-Anglais -Courant\n-Arabe -Langue maternelle\n-Espagnol -Intermédiaire\n\n## MACHINE LEARNING & DEEP LEARNING\n\nModèles deep learning avec TensorFlow/Keras via Transfer Learning\nIntégration backend Flask + frontend connectés · Docker\nDéveloppeuse Full Stack -Stage (6 mois)\nApplication web de gestion de microcrédits: prêts, utilisateurs, APIs RESTful\nBackend Java Spring Boot · MySQL · Swagger · Postman\n\n## CENTRES D'INTÉRÊT\n\nSport · Danse · Cuisine\n\n## PORTFOLIO & PROJETS PERSONNELS\n\nDétection de maladies des plantes -CNN + interface Streamlit (Python)\nDétection d'émotions faciales en temps réel -TensorFlow/Keras\nPrédiction des salaires Data Science -Flask + dashboards Power BI\nTraitement de données en temps réel -Python · Watchdog · Apache Spark",
+    "header_info": {
+      "full_name": "YASMINE KHALDI",
+      "email": "27@gmail.com",
+      "phone": null,
+      "location": "Tunis, Manouba",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9558,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].degree",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Yasmine Khaldi",
+      "email": "khaldiyasmine27@gmail.com",
+      "phone": null,
+      "location": "Tunis, Manouba",
+      "linkedin": "Linked In",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 7,
+      "hard_skills": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Java",
+        "Spring Boot",
+        "Django",
+        "Flask",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Maria DB",
+        "Cassandra",
+        "SQLAlchemy",
+        "Pydantic",
+        "JPA/Hibernate",
+        "Docker",
+        "CI/CD",
+        "Jenkins",
+        "Git",
+        "Jira",
+        "AWS",
+        "GCloud",
+        "Linux",
+        "Windows",
+        "Android"
+      ],
+      "soft_skills": [
+        "Autonomie & rigueur",
+        "Travail en équipe agile (Scrum)",
+        "Curiosité & veille technologique",
+        "Communication produit",
+        "Gestion de projet (CRISP-DM)"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Avenir Business Ressource - France",
+        "job_title": "Ingénieure Full Stack - Java/Python/IA",
+        "start_date": "Janvier 2024",
+        "end_date": null,
+        "city": "Tunis, Manouba",
+        "responsibilities": [
+          "Conception d'écrans métiers et gestion des flux utilisateurs Android",
+          "Développement d'APIs REST avec Spring Boot: authentification, CRUD sécurisé",
+          "Optimisation performances backend, gestion d'erreurs, tests unitaires"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception d'une solution d'assistance au développement basée sur LLM",
+          "Backend Spring Boot + interface Java FX + moteur IA Python (appels LLM, gestion des prompts)",
+          "Architecture d'abstraction IA évolutive vers des modèles spécialisés entraînés en interne"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Ingénieure IA",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "TEK-UP University",
+        "degree": "Diplôme d'ingénieur en Data Science",
+        "field": null,
+        "year": "2023"
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais",
+      "Arabe",
+      "Espagnol"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:48:10.231873+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

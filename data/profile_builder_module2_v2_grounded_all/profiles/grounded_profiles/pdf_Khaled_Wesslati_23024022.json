@@ -1,0 +1,185 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Khaled_Wesslati_23024022.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Khaled_Wesslati_23024022.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.819,
+  "normalization": {
+    "cleaned_markdown": "## KHALED WESSLATI\n\nFull Stack AI Engineer\nkhaled.wessllati@gmail.com\nlinkedin.com/in/khaled-wesslati\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieur Full Stack AI avec 3 ans d'expérience dans la conception d'applications LLM, RAG et d'agents IA autonomes. Spécialisé dans le développement de solutions end-to-end - du backend intelligent au frontend moderne - avec une expertise en Agentic AI, semantic search et traitement documentaire (OCR), déployées en local ou sur Azure, dans des domaines tels que le recrutement, l'académique et la fintech.\n**Location: ** Ben Arous, Tunis\n- Développement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires.\nConception d'un pipeline de traitement documentaire avec Azure Document Intelligence, nettoyage PDF et chunking sémantique par article. Implémentation d'une recherche hybride avec Azure AI Search et génération de réponses sourcées via GPT-4 o.\n**Date: ** INSOMEA - AI Engineer | Jan 2026\nAutomatisation du support étudiant 24/7, avec des réponses fiables, contextualisées et une réduction de 70 % des demandes répétitives adressées au staff.\n**Date: ** INSOMEA - AI Engineer | Sep 2025\nConception d'un pipeline d'ingestion IA sur Azure, combinant OCR, fusion de contenu, chunking et extraction structurée via GPT -4 o. Implémentation d'une indexation hybride texte/vecteurs et reranking sémantique pour CVs et fiches de poste.\n- Réduction de 75% du temps d'analyse et amélioration de 40% de la précision du matching candidats/postes en automatisant le traitement documentaire.\nDéveloppement d'un chatbot de prise de rendez-vous piloté par un LLM pour l'extraction, la validation et la correction automatique des paramètres (date, lieu, durée, motif).\n**Date: ** ARSELA - AI Engineer | Jan 2025\nIntégration d'une API GraphQL pour la synchronisation temps réel des créneaux experts (réservation, annulation, réintégration).\nExpérience de réservation fluide, réduisant de 85 % les échanges manuels et atteignant un taux de succès de prise de RDV de +90%.\n**Date: ** ARSELA - AI Engineer | Sep 2024\nConception d'un moteur d'éligibilité bancaire appliquant des règles métier strictes (âge, revenu, endettement, score de crédit) pour orienter automatiquement vers le type de crédit adapté.\nDéveloppement d'un formulaire collectant les données financières et professionnelles, avec analyse automatisée par un algorithme de décision.\n- Mise en place d'une génération de rapports personnalisés (avis favorable/défavorable) avec détail des critères non satisfaits et recommandations claires.\nSep 2020 - Oct 2023 | Ariana Sep 2018 - Jul 2020 | Sfax École Supérieure privée d'ingénierie et de Technologie: Cycle d'ingénieur en informatique en Data Science Faculté des sciences de Sfax: Cycle Préparatoire en Physique chimie\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nUo B Advisor\nTalent Scan\nDéveloppement d'une plateforme avec un agent conversationnel GPT -4 o sur Azure AI Foundry, relié à Azure AI Search.\nNeuro Meet\nMise en place d'un historique conversationnel avec gestion contextuelle des incohérences et des erreurs utilisateur.\nQCredit\nAccélération de 95 % du traitement des dossiers, avec une réponse instantanée remplaçant un processus manuel long.\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nAI-102: Azure AI Engineer Associate\n\n## COMPÉTENCES TECHNIQUES\n\nIA Générative & LLMs: LLMs, SLMs, OpenAI API, Prompt Engineering, Embeddings, Fin BERT, Lang Chain.\nAgentic AI & Orchestration: Agentic AI, Multi-Agent Systems, Agents Conversationnels, Lang Graph, MCP Servers, n 8 n.\nTraitement de données & documents: Pandas, NumPy, Beautiful Soup, Selenium, Requests, Azure Document Intelligence.\n\n## EDUCATION\n\nRAG & Recherche d'information: Architectures RAG (Classique, Hybride, Graph, Self-RAG, CRAG, Agentic), Stratégies de Chunking (Sémantique, Récursif,\nParent-Child, Agentic), Recherche Lexicale (BM 25, BM 42), RRF, Reranking (Cross-Encoder), Retrieval Dense (Bi-Encoder), Qdrant, Azure AI Search.\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning: TensorFlow, Keras, Scikit-learn, Classification, Régression, Clustering (K-Means), Random Forest.\n\n## TECHNICAL SKILLS\n\nCloud & Azure AI: AI Foundry, AI Services, AI Search, AI Video Indexer, Blob Storage, Table Storage, Functions, Virtual Machines.\nLangages, Backend & APIs: Python, FastAPI, Django, Node. js, REST APIs, GraphQL, PostgreSQL, MongoDB, Redis.\nDevOps & Intégrations: Docker, Kubernetes, Git Lab CI/CD, Auth 0, Twilio.\nFrontend: React, Next. js, Angular, Tailwind CSS.",
+    "header_info": {
+      "full_name": "KHALED WESSLATI",
+      "email": "khaled.wessllati@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/khaled-wesslati",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9638,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "experiences[4].end_date",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "KHALED WESSLATI",
+      "email": "khaled.wessllati@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/khaled-wesslati",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": "3",
+      "hard_skills": [
+        "IA Générative & LLMs",
+        "Agentic AI & Orchestration",
+        "Traitement de données & documents",
+        "Machine Learning & Deep Learning",
+        "Cloud & Azure AI"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Jan 2026",
+        "end_date": null,
+        "city": "Ben Arous, Tunis",
+        "responsibilities": [
+          "Développement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires.",
+          "Conception d'un pipeline de traitement documentaire avec Azure Document Intelligence, nettoyage PDF et chunking sémantique par article."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Sep 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Automatisation du support étudiant 24/7, avec des réponses fiables, contextualisées et une réduction de 70 % des demandes répétitives adressées au staff."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Jan 2025",
+        "end_date": null,
+        "city": "Ben Arous, Tunis",
+        "responsibilities": [
+          "Développement d'un chatbot de prise de rendez-vous piloté par un LLM pour l'extraction, la validation et la correction automatique des paramètres (date, lieu, durée, motif)."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Sep 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Intégration d'une API GraphQL pour la synchronisation temps réel des créneaux experts (réservation, annulation, réintégration)."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Sep 2020",
+        "end_date": "Oct 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "École Supérieure privée d'ingénierie et de Technologie",
+        "degree": "Cycle d'ingénieur en informatique en Data Science",
+        "field": null,
+        "year": "Sep 2018 - Jul 2020"
+      },
+      {
+        "institution": "Faculté des sciences de Sfax",
+        "degree": "Cycle Préparatoire en Physique chimie",
+        "field": null,
+        "year": "Ariana Sep 2018 - Oct 2023"
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:49:47.144300+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

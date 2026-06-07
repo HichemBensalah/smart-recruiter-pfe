@@ -1,0 +1,182 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mohamed_amin_jlassi_23026150.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mohamed_amin_jlassi_23026150.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7503,
+  "normalization": {
+    "cleaned_markdown": "## MOHAMEDAMIN JELASSI\n\nINGENIEURENINFORMATIQUE\n业 linkedin.com/in/mohamed- amin-jlassi-a 3235631 a\nmohamedamin.jlassi@sesame.com.tn\ngithub.com/aminjlassi 1\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nIntegration d'un moteur de recommandation base sur lintelligence artificielle (Python, scikit-learn) permettant de personnaliserlessuggestionsdeproduitsselonleprofil client.\n·Front-end Angular/React, Back-end Spring Boot/Nodejs, base de donnees PostgreSQL/MySQL, avec notifications par email et gestion des paiements en ligne.\n\n## TECHNICAL SKILLS\n\nIngenieur en informatique passionne par les nouvelles technologies, je suis a la recherche de defis stimulants me permettant devalorisermescompetences endeveloppement logiciel toutenévoluantdansunenvironnement innovantetcollaboratif.\nCOMPETENCES\nDevOps\n：Docker, jenkins\nBases de données: PostgreSQL, MySQL, MongoDB\n\n## EDUCATION\n\nLicence en Reseaux et Systemes Informatiques\nCycleingenieur en informatique\nUniversite Sesame\nInstitut Superieur d'Informatique du Kef\nSTAGEPROFESSIONNEL\nDeveloppementd'unsitewebdeventeagricole\nDeveloppement d'un systeme integre de gestion des formations\nssse planification, le suivi et l'evaluation des sessions. Realisation avec Spring Boot, Angular et Postgre SQLdansune architecturefullstackmoderne.\n**Date: ** 2019-2022\n·Conceptionetdeveloppementd'unsystemedecaisseenregistreusepourla gestiondes ventes, desproduits et destransactions entempsreel.\nImplementation de l'application en ASP. NET avec une base de donnees MySQL, modelisée et administree via My SQLWorkbench.\n- Mise enplacesupervision avecleprotocole Netflow\n- ameliorer la visibilite et la performance du reseau en offrant une surveillance en temps réel du trafic grace au protocole Net Flow\n- Developpement d'une plateforme de vente en ligne avec systeme de recommandation IA\n- Anglais\n- Francais\n\n## 2025 PROMAGMABROUKA\n\n·Conception et developpement d'une application web de gestion des ventes agricoles, integrant lesmodulesdegestiondesproduits, desclientsetdescommandes.\n·Mise enplace d'untableau debord decisionnel(Business Intelligence)pour I'analyse en tempsreeldesventes, desclients et desperformancesproduitsa l'aidede Power Bl.\nDeveloppementduback-endavec Spring Boot, garantissantlasecuritedes APl RESTet Il'optimisation des interactions avec la basededonnees PostgreSQL.\n\n## 2024 OPTIMASOFTPLUS\n\nCaisseenregistreuse\n\n## 2023 OPTIMASOFTPLUS\n\nTOPNET\nPROJETACADEMIQUE\ngestion des produits, des commandes et des utilisateurs.\nDeveloppement d'une plateforme de hackathon et de challenge d'apprentissage\nDeveloppementfront-end avec Angularpouruneinterfaceinteractiveetresponsive.\n\n## ACADEMIC PROJECTS\n\nBase de donnees Postgres QL pour le stockage securise des participants et des projets.\nSitewebd'organisationd'evenements\n\n## LANGUAGES\n\nLANGUES\narabe",
+    "header_info": {
+      "full_name": "MOHAMEDAMIN JELASSI",
+      "email": "mohamedamin.jlassi@sesame.com.tn",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/mohamed-",
+      "github": "github.com/aminjlassi"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9501,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MOHAMEDAMIN JELASSI",
+      "email": "mohamedamin.jlassi@sesame.com.tn",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/mohamed-",
+      "github": "github.com/aminjlassi"
+    },
+    "expertise": {
+      "summary": "Integration d'un moteur de recommandation base sur lintelligence artificielle (Python, scikit-learn) permettant de personnaliser les suggestions de produits selon le profil client.",
+      "experience_level": "senior",
+      "years_experience": 4,
+      "hard_skills": [
+        "Docker",
+        "Jenkins",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Spring Boot",
+        "Angular",
+        "React",
+        "Nodejs",
+        "Python",
+        "scikit-learn"
+      ],
+      "soft_skills": [
+        "DevOps",
+        "Conception et développement d'un système intégré de gestion des formations",
+        "Amélioration de la visibilité et de la performance du réseau en offrant une surveillance en temps réel du trafic grâce au protocole Net Flow"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "2019-2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'un système intégré de gestion des formations",
+          "Amélioration de la visibilité et de la performance du réseau en offrant une surveillance en temps réel du trafic grâce au protocole Net Flow"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application web de gestion des ventes agricoles, intégrant les modules de gestion des produits, des clients et des commandes"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Gestion des produits, des commandes et des utilisateurs",
+          "Développement d'une plateforme de hackathon et de challenge d'apprentissage"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Universite Sesame",
+        "degree": "Licence en Reseaux et Systemes Informatiques",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Superieur d'Informatique du Kef",
+        "degree": "Cycle ingenieur en informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "arabe"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:31:22.972866+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

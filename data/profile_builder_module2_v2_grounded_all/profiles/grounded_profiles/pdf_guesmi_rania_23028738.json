@@ -1,0 +1,192 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\guesmi_rania_23028738.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\guesmi_rania_23028738.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.5915,
+  "normalization": {
+    "cleaned_markdown": "## RANIA GUESMI\n\nDéveloppeuse Web Full Stack - MERN\nrania.guesmi@esen.tn | linkedin.com/in/rania-guesmi-0911281 bb | github.com/guesmi-rania Ariana, Tunisie | +216 20 828 055 |\n\n## TECHNICAL SKILLS\n\nDéveloppeuse Full Stack MERN & Mobile (React Native) avec plus de 3 ans d'expérience dans la conception d'applications web et mobiles scalables. Expérience en développement d'API REST, applications React Native et déploiement cloud. Habituée aux projets freelance et à la livraison de solutions complètes (frontend, backend, mobile, CMS).\nBackend: Node. js/Express, Go (API REST), Python, PHP 8, GraphQL, YAML, Docker\nAnalytique & SEO: Google Analytics 4, GTM, Google Search Console, SEO, SEA\nRefonte du site Word Press avec un nouveau thème et personnalisation CSS\nAnalyse et optimisation des performances via Google Page Speed Insights (cache, images, base de données)\nOptimisation SEO et analyse des backlinks; maintien de la visibilité via Google Search Console\nInstallation, configuration et maintenance des plugins Word Press; gestion des mises à jour\nAjustements techniques et modifications personnalisées via PHP 8\nDéveloppement d'un site Word Press pour une entreprise de construction canadienne.\nPersonnalisation de thèmes et intégration de plugins avec design responsive.\nDéveloppement et intégration de pages web avec HTML 5, CSS 3, JavaScript, PHP 7, Java, Bootstrap 5\nConception et gestion de bases de données MySQL; audits, tests et débogage\nSuivi des performances via Google Analytics 4 (GA 4) et Google Tag Manager\nMaintenance SEO via Google Search Console et optimisation des images, du cache et du contenu\nImplémentation des fonctionnalités principales (réservation, géolocalisation, suivi de trajet)\nStack: React Native, Node. js, MongoDB, Google Maps API, JWT\nConception et développement d'une application e-commerce pour l'achat de fruits et légumes en ligne\nImplémentation du catalogue produits, filtrage par catégorie et système de panier d'achat\nCréation de composants React réutilisables avec design responsive mobile et desktop\nConception et développement d'une application de gestion des livraisons avec Node. js, React Native, MongoDB, Express. js\nDéveloppement et intégration d'interfaces web avec HTML 5, CSS 3, JavaScript, PHP 7, Bootstrap 5\nConception et gestion de bases de données MySQL; audits et débogage pour assurance qualité\nArabe: Langue maternelle Français: Professionnel Anglais: Professionnel\nRandonnée\n\n## COMPÉTENCES TECHNIQUES\n\nFrontend Web: React. js/Next. js, Angular, HTML 5, CSS 3, Tailwind CSS\nMobile: Flutter (Dart), React Native\nBases de données: MongoDB, PostgreSQL, MySQL\nCMS & Outils: Word Press, Prestashop, Git/GitHub, Postman, Render\nDesign: Photoshop, Figma\n\n## EDUCATION\n\nFORMATION\nESEN - École Supérieure d'Économie Numérique\n## Master Professionnel en E-Business (1ère année) - Manouba, Tunisie\n**Date: ** 2023\n- Lycée Borj Louzir\n## Baccalauréat - Sciences Informatiques - Ariana, Tunisie\n**Date: ** 2016\n- THE WAY - Stage de Fin d'Études\n## Développeuse Full Stack - Montplaisir, Tunis\n**Date: ** Sep 2022 - Déc 2022\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nFRIGOTECHNIQUE\nDéveloppeuse Web - Charguia 1, Ariana\nMise en place de la sécurité du site avec Google re CAPTCHA v 3\nEZHOMES\nDéveloppeuse Word Press - Freelance\nEASYPRINT\nDéveloppeuse Web - Montplaisir, Tunis\n\n## THE WAY\n\nDéveloppeuse Mobile\nIntégration des APIs backend et authentification utilisateur\nTests, corrections et préparation au déploiement\n\n## DJERBA DIGITAL\n\nDéveloppeuse React - Freelance\nGestion du projet avec Git et déploiement via GitHub Pages\n\n## LANGUAGES\n\nLANGUES\n\n## CENTRES D'INTÉRÊT\n\nBricolage ·\nLecture ·",
+    "header_info": {
+      "full_name": "RANIA GUESMI",
+      "email": "rania.guesmi@esen.tn",
+      "phone": "+216 20 828 055",
+      "location": "Backend: Node. js/Express, Go (API REST), Python, PHP 8, GraphQL, YAML, Docker",
+      "linkedin": "linkedin.com/in/rania-guesmi-0911281",
+      "github": "github.com/guesmi-rania"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9183,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "RANIA GUESMI",
+      "email": "rania.guesmi@esen.tn",
+      "phone": "+216 20 828 055",
+      "location": "",
+      "linkedin": "linkedin.com/in/rania-guesmi-0911281",
+      "github": "github.com/guesmi-rania"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Node.js/Express",
+        "Go (API REST)",
+        "Python",
+        "PHP 8",
+        "GraphQL",
+        "YAML",
+        "Docker",
+        "React Native",
+        "MongoDB",
+        "Google Maps API",
+        "JWT"
+      ],
+      "soft_skills": [
+        "Analytique",
+        "SEO",
+        "Conception d'applications web et mobiles scalables",
+        "Développement d'API REST",
+        "Application React Native",
+        "Déploiement cloud",
+        "Gestion de bases de données MySQL",
+        "Audits, tests et débogage"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Sep 2022 - Déc 2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mise en place de la sécurité du site avec Google re CAPTCHA v 3"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Intégration des APIs backend et authentification utilisateur",
+          "Tests, corrections et préparation au déploiement"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Gestion du projet avec Git et déploiement via GitHub Pages"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESEN - École Supérieure d'Économie Numérique",
+        "degree": "Master Professionnel en E-Business (1ère année)",
+        "field": null,
+        "year": 2023
+      },
+      {
+        "institution": "Lycée Borj Louzir",
+        "degree": "Baccalauréat - Sciences Informatiques",
+        "field": null,
+        "year": 2016
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:15:17.526561+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

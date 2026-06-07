@@ -1,0 +1,171 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Wael_aouadhi_23032307.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Wael_aouadhi_23032307.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8482,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nWael Aouadhi/map-marker-alt/phone/envelope wael.aouadhi@esprit.tn\n\n## TECHNICAL SKILLS\n\nSoftware Engineer (Frontend, Backend, DevOps)\nTunisia\n+21694603330/github github.com/waelaouadhi/linkedin linkedin.com/in/wael-aouadhi\ni OS Development: Swift, Swift UI, UIKit, Xcode, Cocoa Pods\nAndroid Development: Kotlin, Java, Android Studio\nCross-Platform: Flutter, React Native\nWeb Development: React. js, Angular, JavaScript (ES 6+), TypeScript, HTML 5, CSS 3\nAI & Prompt Engineering: Prompt Design, LLM Integration (OpenAI APIs), Context Engineering, AI Workflow Automation\nNetworking & APIs: RESTful APIs, JSON Parsing, Alamofire, Firebase (Cloud Messaging, Remote Config) Version Control: Git, SVN\nUI/UX: Responsive Design, Accessibility, Animations, Adobe XD, Modern i OS Interface Guidelines\nArchitecture & Design: Modular Architecture, Component-Based Design, MVC/MVVM, Design Patterns, Clean Code Principles\nDatabases:\nCore Data, SQLite, PostgreSQL, MongoDB\nDevOps & Deployment:\nCI/CD, Docker, App Store & Play Store Deployment\nGitHub\nArchitected a full-stack event platform with 2 interfaces (mobile app + admin panel) and end-to-end event operations.\nDeployed Firebase Authentication and Firestore for real-time event, schedule, and participant updates.\nGitHub\nIncorporated biometric authentication, calendar synchronization, and Dockerized deployment.\nGitHub\nConnected REST APIs, microservices, and push notifications; modular architecture and clean code standards.\nIncorporated Firebase services (Messaging, Remote Config), analytics, and third-party SDKs.\nDevOps Foundation Professional Certification (Certi Prof) - Generative AI in Action (IBM Skills Build) - Principles of UX Review and Enhancement (IBM Skills Build) - CRUD Operations in MongoDB (MongoDB) - Mobile App Onboarding 101 (Appcues)\nFrench\n- Professional working proficiency -\n- Professional working proficiency\n\n## ACADEMIC PROJECTS\n\n## Selected Projects\n- Event Hub\n- Software Engineer (Frontend, Backend, DevOps) delivering production-ready applications across i OS, Android, and web platforms . Built full-stack systems using Swift, Kotlin, Flutter, React, Angular, Node. js, Spring Boot, and REST APIs . Hands-on with Firebase, JWT authentication, Docker, CI/CD, and scalable architectures following MVVM and clean design principles.\n## React Native, TypeScript, Firebase, Firestore, Expo\n## OTBS HR Management System (Final Year Project)\n- Built organizer tools across 3 core workflows: event creation, schedule management, and participant registration.\n## Java, Spring Boot, React, Material-UI, PostgreSQL, Docker, REST API\n- Designed REST APIs and unified backend services with a responsive React frontend.\n- OTBS i OS HR Frontend\n- Architected HR modules for employee management, leave tracking, and training workflows.\n## Swift, Swift UI, FSCalendar\n- Deployed 8+ reusable components ( 40% code reuse ) across calendar-driven screens.\n- Constructed an i OS HR app with Swift UI and interactive calendar navigation for 2 main HR flows: leave and training tracking.\nFinal Year Project - Mobile Development (i OS & Android), One Tech B. S Group, Tunis Feb 2025 - Aug 2025\n\n## PROFESSIONAL EXPERIENCE\n\nCreated a scalable HR mobile app for i OS (Swift, Swift UI) and Android (Kotlin, Java).\n- Built responsive UI with animations, accessibility, modern design principles, and offline data support.\n## Founder & Freelance i OS Developer, ARCA Prod, Tunis\n**Date: ** 2019 - Present\n- Optimized launch time by 35% and memory usage by 25% across releases.\n- Delivered 10+ i OS apps with Swift, Swift UI, and UIKit to App Store, averaging 4. 5+ star ratings .\n\n## CERTIFICATES (IN PROGRESS)\n\nCertificates\n\n## LANGUAGES\n\nArabic\nEnglish\n- Native -",
+    "header_info": {
+      "full_name": null,
+      "email": "wael.aouadhi@esprit.tn",
+      "phone": "+21694603330",
+      "location": "Software Engineer (Frontend, Backend, DevOps)",
+      "linkedin": "linkedin.com/in/wael-aouadhi",
+      "github": "github.com/waelaouadhi/linkedin"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9696,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "education[0].institution",
+      "education[0].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Wael Aouadhi",
+      "email": "wael.aouadhi@esprit.tn",
+      "phone": "+21694603330",
+      "location": "Tunisia",
+      "linkedin": "linkedin.com/in/wael-aouadhi",
+      "github": "github.com/waelaouadhi/linkedin"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 8,
+      "hard_skills": [
+        "Swift, Swift UI, UIKit, Xcode, Cocoa Pods",
+        "Kotlin, Java, Android Studio",
+        "Flutter, React Native",
+        "React. js, Angular, JavaScript (ES 6+), TypeScript, HTML 5, CSS 3",
+        "Prompt Design, LLM Integration (OpenAI APIs), Context Engineering, AI Workflow Automation",
+        "RESTful APIs, JSON Parsing, Alamofire, Firebase (Cloud Messaging, Remote Config)",
+        "Git, SVN",
+        "Adobe XD, Modern i OS Interface Guidelines",
+        "Modular Architecture, Component-Based Design, MVC/MVVM, Design Patterns, Clean Code Principles",
+        "Core Data, SQLite, PostgreSQL, MongoDB",
+        "CI/CD, Docker, App Store & Play Store Deployment"
+      ],
+      "soft_skills": [
+        "Responsive Design",
+        "Accessibility",
+        "Animations",
+        "Design Patterns",
+        "Clean Code Principles"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "ARCA Prod",
+        "job_title": "Founder & Freelance i OS Developer",
+        "start_date": "2019",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Optimized launch time by 35% and memory usage by 25% across releases.",
+          "Delivered 10+ i OS apps with Swift, Swift UI, and UIKit to App Store, averaging 4.5+ star ratings."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "One Tech B. S Group",
+        "degree": null,
+        "field": null,
+        "year": "2025"
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "certifications": [
+      "DevOps Foundation Professional Certification (Certi Prof) - Generative AI in Action (IBM Skills Build)",
+      "Principles of UX Review and Enhancement (IBM Skills Build)",
+      "CRUD Operations in MongoDB (MongoDB)",
+      "Mobile App Onboarding 101 (Appcues)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:56:28.391204+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Islem_Mahdi_23032681.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Islem_Mahdi_23032681.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Islem_Mahdi_23032681.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Islem Mahdi",
+      "email": "islemmahdi0@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "PostgreSQL",
+        "Liquibase",
+        "JUnit",
+        "Git Lab",
+        "Architecture hexagonale",
+        "DDD"
+      ],
+      "soft_skills": [
+        "Scrum",
+        "Jira",
+        "Git Lab",
+        "Selenium",
+        "Sonar Qube"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Sofrecom tunisie",
+        "start_date": "02/2025 - 06/2025",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement d'un module de contrôle des données de parc avant l' émission d'appels à facture, avec visualisation des variances et des reversements contractuels par bouquet.",
+          "Implémentation d'un module de contrôle des données de parc basé sur une architecture hexagonale."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Novel-TI",
+        "start_date": "07/2024 - 08/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement de tests fonctionnels automatisés."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "L'Institut International de Technologie (IIT)",
+        "start_date": "03/2024 - 06/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Implémentation de tests unitaires avec JUnit."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Teamwill",
+        "start_date": "02/2024 - 06/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Tests & Qualité logicielle: JUnit · Mockito · Selenium · Sonar Qube."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master Professionnel en Systèmes Informatiques et Télécommunications",
+        "school": "Institut International de Technologie",
+        "year": "09/2023 - 06/2025"
+      },
+      {
+        "degree": "Licence en développement web: Informatique",
+        "school": "École Nationale d'Électronique et des Télécommunications",
+        "year": "09/2019 - 06/2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:40:57.841055+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9595,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

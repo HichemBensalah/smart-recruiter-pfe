@@ -1,0 +1,141 @@
+{
+  "source_path": "data\\raw_cv\\images\\Aloui_dhia_23023052.JPG",
+  "artifact_path": "data\\processed_official_module1\\images\\Aloui_dhia_23023052.json",
+  "source_format": "images",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.5607,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\ndhia aloui\nProfil\nInformations personnelles\nFormation\ndhia aloui\nformationenword, exel, powerpoint, pythonet creation des sites\ndhia 4720@gmail.com\nExpérience professionnelle\ndejuin 2021 adec. 2022\n9000 beja\nResponsablepaieetchefpersonnel cafe jasmin, beja\npermis de conduire\ndefevr. 2023 ajuin 2024\nResponsablesaisie\ncommun +, ariena\nCelibataire\ndesept. 2024 aao Qt 2025\nexpertinformatique\nmultimidia. net, ariena\nCompetences\nStages\nGestion de saisie\nResponsablesaisie\ndemai 2024 a juil. 2024\nExpertise informatique\ntv, beja\nMaitrise de Word\nProgrammation Python\nMaitrisede Power Point\nCreation de sitesweb\nTravail en équipe\nMaitrise d'Excel\nResolutiondeproblemes\nLangues\n\n## PROFESSIONAL SUMMARY\n\nProfessionnel dynamiqueetmotive, doted'unesolideexperiencedansdes environnementsvaries. Capabledes'adapterrapidement auxchangementset de travailler efficacement enéquipepour atteindreles objectifsfixes.",
+    "header_info": {
+      "full_name": "dhia aloui",
+      "email": "4720@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.2467,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[0].end_date",
+      "experiences[0].start_date",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "experiences[0].end_date",
+      "experiences[0].start_date",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "dhia aloui",
+      "email": "4720@gmail.com",
+      "phone": null,
+      "location": "9000 beja",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Professionnel dynamique et motive, doted'unesolide experienced dans des environnements variés. Capable de s'adapter rapidement aux changements et de travailler efficacement en équipe pour atteindre les objectifs fixes.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "formationenword",
+        "exel",
+        "powerpoint",
+        "pythonet creation des sites"
+      ],
+      "soft_skills": [
+        "travail en équipe",
+        "probleme résolution"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "cafe jasmin, beja",
+        "job_title": "Responsable paie et chef personnel",
+        "start_date": null,
+        "end_date": null,
+        "city": "beja",
+        "responsibilities": [
+          "Responsablesaisie"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "dhia aloui",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "multimidia. net",
+      "tv",
+      "beja"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:19:01.482383+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

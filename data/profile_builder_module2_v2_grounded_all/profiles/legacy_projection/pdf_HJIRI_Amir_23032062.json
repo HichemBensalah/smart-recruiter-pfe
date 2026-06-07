@@ -1,0 +1,107 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\HJIRI_Amir_23032062.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\HJIRI_Amir_23032062.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\HJIRI_Amir_23032062.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "HJIRI Amir",
+      "email": "amirhjiri@3@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Node.js",
+        "Express.js",
+        "FastAPI",
+        "REST APIs",
+        "JWT Authentication",
+        "RBAC (Role-Based Access Control)",
+        "Architecture modulaire scalable",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "GitHub Actions",
+        "Jenkins",
+        "CI/CD",
+        "Jira",
+        "Agile/Scrum",
+        "Jest",
+        "Cypress",
+        "Playwright",
+        "XGBoost",
+        "Random Forest"
+      ],
+      "soft_skills": [
+        "Construire des plateformes rapides et bien structurées",
+        "Attention particulière à la performance, la sécurité et l'expérience utilisateur",
+        "Développement, automatisation, intelligence artificielle",
+        "Automatisation des validations"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Full Stack",
+        "company": "Plateforme Auto-Marketplace (Freelance)",
+        "start_date": "-2025",
+        "end_date": "-2026",
+        "city": null,
+        "responsibilities": [
+          "Conçu et sécurisé plus de 12 APIs REST avec authentification JWT.",
+          "Implémenté un système RBAC (Admin/User) pour sécuriser les accès et permissions.",
+          "Géré plus de 300 annonces avec filtres dynamiques et moteur de recherche optimisé."
+        ]
+      },
+      {
+        "job_title": "Développeur Full Stack",
+        "company": "Plateforme de Livraison (Freelance)",
+        "start_date": "-2025",
+        "end_date": "-2025",
+        "city": null,
+        "responsibilities": [
+          "Créé des APIs REST pour la gestion des commandes, devis et utilisateurs.",
+          "Implémenté une authentification sécurisée (JWT)."
+        ]
+      },
+      {
+        "job_title": "Stagiaire Ingénieur Logiciel",
+        "company": "Smart Store Saa S Platform",
+        "start_date": "-2025",
+        "end_date": "-2025",
+        "city": null,
+        "responsibilities": [
+          "Conçu et développé une plateforme Saa S retail avec React, Next. js et Node. js.",
+          "Implémenté un système avancé de rôles et permissions multi-niveaux."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "École Supérieure Privée d'Ingénierie et de Technologie (ESPRIT)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:33:04.648521+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8358,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rim_arfa_23028398.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rim_arfa_23028398.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6575,
+  "normalization": {
+    "cleaned_markdown": "## ARFA RIM\n\nIngénieur en Infomatique et Multimedia\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n\n## EDUCATION\n\nTANIT DE CARTHAGE SOFTWARE 2022 - 2023 Cabinet de conseil en systeme d'information\nChargé d'Ingénierie Logicielle\nAssure la mise en place de nouvelles applications, ainsi que l'accompagnement et l'assistance technicofonctionnelle\n**Date: ** date de naissance: 16/04/1992\n- rim. arfa 1604@gmail.com\n- Participer à la formalisation et l'analyse de besoins utilisateurs\n- Ras jebel 7070 Bizerte\n- Rim Arfa github.com/rimounade\n- Contribuer au déploiement technique des applications(JS, React, Redux, HTML 5 et CSS 3, Node. js, Express. js, MongoDB).\n- Garantir la conformité de l'avancement de projet avec les besoins de l'utilisateur\n- Informations Personnelles\n- Valoriser et exécuter les scénarios de test\n- Réaliser le reporting\n- situation familiale: mariée\n- Société de vente de matériaux de construction\n- Échanger avec les clients pour saisir leurs besoins.\n- Traiter les demandes d'achat des chantiers\n- Elaborer les bons de commandes et suivre la livraison\n- Vérifier et valider les factures pour transmettre au service financiers, gérer les réunions\n- Groupe WIC-MIC[Washing & Manufacturing\n## 2017 - 2018 (Designer: photoshop, illustrateur)\n- Denim Authorithy [stage-pfe} janvier 2017-octobre 2017\n- Devloppement d'une solution de Lean\n- Manufacturing(creation d'une app android)\n- Open DEV [stage-pfe} janvier 2014-Mai 2014\n- Adaptation d'Open ERP au sein d'une société agroalimentaire\n- CNAM [stage-technicien] juillet 2013 STAR [stage-été] juillet 2012\n- mai 2023-septembre 2023 GOMYCODE\n- Formation FULLSTACKJS\n- Creaction d'un site web: Julia Cuisine\n- Formation photoshop et illustrateur\n- To Do List\n- octobre 2017 Institut Supérieur des arts et multimédia\n- Moovie App\n- Authentification Front & Back\n- Diplome d'ingénieur en informatique et multimédia Juin 2014 Ecole Supérieure de Commerce de Tunis Licence Fondamentale en Informatique de Gestion\n- Juin 2011 Lycée Mohamed Ali Annabi Ras Jebel\n## Baccalauréat en Mathématiques\n**Date: ** decembre 2021 Talent LAB\n\n## COLOBAT 2018 - 2022\n\nenfants: 2 enfants 6 ans et 5 ans\nLANGUE\nAnglais\nFrançais\nArabe\n\n## TECHNICAL SKILLS\n\nCOMPETENCES\n-gestion du stocks\nInternational Company}\nFront-End: Bootstrap, React Bootstrap, Semantic UI, Mterial UI, Redux, Reduxthunk, Axios, Dom, ReactJS, Html, CSS, Hooks..\nLangage: JavaScript, ES 6\nBack-End; Node. js, Express. js, MongoDB, Mongoose, Jwt, Bcypt, Express-Validator, Nodemon Concurrently\nOutils: VSCode, Postman, Atlas MongoDB, git, github\nConnaissance Académiques: Php, C++, Python, Angular, Java, JEE, UML, Xml, Scrum\nPROJET\n\n## CENTRE D'INTERET\n\n-Programmation et Nouvelles technologies\nMusique, Voyages, Sports",
+    "header_info": {
+      "full_name": "ARFA RIM",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.0,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.linkedin",
+      "education[0].year",
+      "education[1].year",
+      "experiences[0].end_date",
+      "experiences[0].start_date",
+      "experiences[1].start_date",
+      "experiences[2].end_date",
+      "experiences[2].start_date",
+      "experiences[3].end_date",
+      "experiences[3].start_date",
+      "experiences[4].end_date",
+      "experiences[4].start_date",
+      "experiences[5].end_date",
+      "experiences[5].start_date",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[4].company",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[5].company",
+      "experiences[5].job_title",
+      "experiences[5].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "bio.linkedin",
+      "education[0].year",
+      "education[1].year",
+      "experiences[0].end_date",
+      "experiences[0].start_date",
+      "experiences[1].start_date",
+      "experiences[2].end_date",
+      "experiences[2].start_date",
+      "experiences[3].end_date",
+      "experiences[3].start_date",
+      "experiences[4].end_date",
+      "experiences[4].start_date",
+      "experiences[5].end_date",
+      "experiences[5].start_date",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "ARFA RIM",
+      "email": "rim. arfa 1604@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": "rimounade"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 7,
+      "hard_skills": [
+        "JavaScript",
+        "ReactJS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Redux",
+        "HTML5",
+        "CSS3",
+        "PHP",
+        "C++",
+        "Python",
+        "Angular",
+        "Java",
+        "JEE",
+        "UML",
+        "Xml"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "TANIT DE CARTHAGE SOFTWARE",
+        "job_title": "Chargé d'Ingénierie Logicielle",
+        "start_date": null,
+        "end_date": null,
+        "city": "Ras Jebel 7070 Bizerte",
+        "responsibilities": [
+          "Mise en place de nouvelles applications",
+          "Accompagnement et assistance technicofonctionnelle"
+        ]
+      },
+      {
+        "company": "GOMYCODE",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Formation FULLSTACKJS",
+          "Création d'un site web: Julia Cuisine"
+        ]
+      },
+      {
+        "company": "Denim Authorithy",
+        "job_title": "Designer",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une solution de Lean"
+        ]
+      },
+      {
+        "company": "Open DEV",
+        "job_title": "Designer",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Adaptation d'Open ERP"
+        ]
+      },
+      {
+        "company": "CNAM",
+        "job_title": "Technicien",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stage"
+        ]
+      },
+      {
+        "company": "STAR",
+        "job_title": "Technicien",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stage"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Ecole Supérieure de Commerce de Tunis",
+        "degree": "Licence Fondamentale en Informatique de Gestion",
+        "field": "Informatique",
+        "year": null
+      },
+      {
+        "institution": "Lycée Mohamed Ali Annabi Ras Jebel",
+        "degree": "Baccalauréat en Mathématiques",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Anglais",
+      "Français",
+      "Arabe"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:30:27.280741+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

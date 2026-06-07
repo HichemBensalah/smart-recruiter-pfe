@@ -1,0 +1,146 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\amen_allah_ferjani_23015557.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\amen_allah_ferjani_23015557.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\amen_allah_ferjani_23015557.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "AMEN ALLAH FERJANI",
+      "email": "23@gmail.com",
+      "phone": null,
+      "location": "Soliman, Nabeul, Tunisia"
+    },
+    "expertise": {
+      "summary": "Développeur Full Stack avec une forte spécialisation backend, concevant des systèmes scalables et prêts pour la production avec Nest. js, Express. js, Docker et PostgreSQL.",
+      "hard_skills": [
+        "TypeScript",
+        "Python",
+        "Nest. js",
+        "Express. js",
+        "Angular",
+        "Next. js",
+        "Payload CMS",
+        "PostgreSQL",
+        "MongoDB",
+        "Type ORM",
+        "Prisma",
+        "REST APIs",
+        "Web Sockets",
+        "NGINX",
+        "Shadcn",
+        "Mantine",
+        "Zustand",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "GitHub Actions",
+        "CI/CD",
+        "Linux",
+        "AWS EC 2",
+        "PyTorch"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "DÉVELOPPEUR FULL-STACK",
+        "company": "MONADE INVEST",
+        "start_date": "Sep 2025",
+        "end_date": "Jan 2026",
+        "city": null,
+        "responsibilities": [
+          "Backend optimisé avec Prisma, Redis, tests Jest et sécurité renforcée.",
+          "Frontend Next. js + React + TypeScript, responsive et data-driven.",
+          "Intégration API Dolibarr pour synchronisation ERP."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "SHAREVEST",
+        "start_date": "Oct 2024",
+        "end_date": "Jun 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement de 8 microservices Nest. js TCP, exposés via un Nest Gateway pour une architecture modulaire et évolutive supportant 10+ fonctionnalités métiers.",
+          "Dashboard Next. js connecté aux microservices, permettant onboarding, suivi de portefeuille et gestion des workflows en temps réel.",
+          "Conteneurisation Docker et CI/CD automatisé avec GitHub Actions, réduisant le déploiement de 4 h à 15 min.",
+          "Déploiement Kubernetes avec NGINX ingress, assurant haute disponibilité et routage efficace.",
+          "Publication de bibliothèques partagées en packages NPM privés, réduisant le code dupliqué de 40% et simplifiant la collaboration.",
+          "Développement d'une application Help-desk en PHP/MySQL pour gérer les tickets internes, incluant soumission, suivi et réponses administratives."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "DENIM MANUFACTURE",
+        "start_date": "Jun 2023",
+        "end_date": "Jul 2023",
+        "city": null,
+        "responsibilities": [
+          "Frontend responsive en HTML 5/CSS 3 avec opérations CRUD pour les workflows du personnel."
+        ]
+      },
+      {
+        "job_title": "DÉVELOPPEUR FULL-STACK",
+        "company": "AKMI",
+        "start_date": "Feb 2026",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un Saa S de powerlifting full-stack avec Payload CMS et Next. js pour athlètes et coachs.",
+          "UI responsive avec Mantine v 8, support dark/light mode pour suivi d'entraînements et dashboards athlètes.",
+          "Intégration de Tan Stack Query pour fetch/caching efficace et endpoints Payload personnalisés.",
+          "Déploiement sur Render avec PostgreSQL, MVP prêt pour onboarding utilisateurs."
+        ]
+      },
+      {
+        "job_title": "DÉVELOPPEUR FULL-STACK",
+        "company": "FEELFREE",
+        "start_date": "Jun 2024",
+        "end_date": "Aug 2024",
+        "city": null,
+        "responsibilities": [
+          "Plateforme sociale full-stack avec Nest. js et Angular.",
+          "Modèle PyTorch entraîné pour catégoriser le contenu, améliorant l'interaction utilisateur de 15%.",
+          "Conteneurisation Docker et CI/CD via Git."
+        ]
+      },
+      {
+        "job_title": "DÉVELOPPEUR BACKEND",
+        "company": "CHATNET",
+        "start_date": "Mar 2024",
+        "end_date": "Apr 2024",
+        "city": null,
+        "responsibilities": [
+          "Backend d'une plateforme de messagerie temps réel avec Express. js et Web Sockets.",
+          "12 APIs RESTful générées et conteneurisation Docker pour déploiement via Docker Hub."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en sciences de l'information",
+        "school": "INSTITUT SUPÉRIEUR DES SCIENCES APPLIQUÉES ET DE TECHNOLOGIE",
+        "year": "2023-2025"
+      },
+      {
+        "degree": "Baccalauréat",
+        "school": "LYCÉE TECHNIQUE GROMBALIA",
+        "year": "2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:35:08.485135+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9423,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

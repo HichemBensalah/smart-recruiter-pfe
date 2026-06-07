@@ -1,0 +1,147 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ahmed_Ben_brahim_23019737.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ahmed_Ben_brahim_23019737.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7655,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nBen Ibrahim Ahmed Djedaïda, Mannouba Ø=ÜÞ 55 465 957\n' þ benibrahimahmed 100@gmail.com\nØ<ß¯ Objectif Professionnel\n\n## EDUCATION\n\nJeune diplômé en gestion électronique de l information et des documents, je souhaite intégrer une organisation où je pourrai développer mes compétences, contribuer efficacement à la gestion documentaire et évoluer vers des responsabilités de gestionnaire.\n- Gestion et numérisation des documents via le logiciel de gestion documentaire AVEREOES.\n## Classement, indexation et archivage de documents.\n- Numérisation de documents papier et importation de fichiers électroniques.\n## Intégration automatique de documents (emails, ERP, CRM, scanners).\n- Attribution de métadonnées et organisation logique.\n- Recherche et consultation via moteur documentaire sécurisé.\n- Automatisation de circuits de validation et de signature électronique.\n- Ø<ß Formation\nLicence en gestion électronique de l information et des documents, Institut Supérieur de Documentation, Tunis - 2024\n## Baccalauréat en Économie et Gestion, Lycée Ibn Arafah, Djedaïda - 2021\n## Informatique bureautique: Word, Excel, Power Point\n## Gestion documentaire: Numérisation, archivage, indexation, workflow\n\n## PROFESSIONAL EXPERIENCE\n\nØ=Ü¼ Expérience Professionnelle\nStagiaire - Société Tunisienne de Banque\nJanvier 2024 - Mai 2024\nGestion des droits d accès et traçabilité.\n\n## TECHNICAL SKILLS\n\nØ=Þàþ Compétences\nOutils graphiques: Photoshop\nCapacité d apprentissage rapide\nPolyvalence et résistance au stress\nPermis de conduire (depuis 2018)\n\n## LANGUAGES\n\nØ<ß Langues\nArabe: lu, écrit, parlé\n- Français: lu, écrit, parlé\n- Italien: lu, écrit, parlé",
+    "header_info": {
+      "full_name": null,
+      "email": "100@gmail.com",
+      "phone": "55 465 957",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9531,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ben Ibrahim Ahmed Djedaïda",
+      "email": "100@gmail.com",
+      "phone": "55 465 957",
+      "location": "Mannouba",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Word",
+        "Excel",
+        "Power Point",
+        "Photoshop",
+        "AVEREOES"
+      ],
+      "soft_skills": [
+        "Capacité d'apprentissage rapide",
+        "Polyvalence et résistance au stress"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Société Tunisienne de Banque",
+        "job_title": "Stagiaire",
+        "start_date": "Janvier 2024",
+        "end_date": "Mai 2024",
+        "city": null,
+        "responsibilities": [
+          "Gestion des droits d'accès et traçabilité"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur de Documentation",
+        "degree": "Licence en gestion électronique de l'information et des documents",
+        "field": null,
+        "year": 2024
+      },
+      {
+        "institution": "Lycée Ibn Arafah",
+        "degree": "Baccalauréat en Économie et Gestion",
+        "field": null,
+        "year": 2021
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Italien"
+    ],
+    "certifications": [
+      "Permis de conduire"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:32:20.779554+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Haythem_Kchouk_23026018.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Haythem_Kchouk_23026018.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Haythem_Kchouk_23026018.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mohamed Haythem Kchouk",
+      "email": "haythem.kchouk@gmail.com",
+      "phone": "+216 90005149",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Full Stack",
+        "DevOps",
+        "Kubernetes",
+        "Angular",
+        "Spring Boot",
+        "PostgreSQL",
+        "Jenkins",
+        "Docker",
+        "Git",
+        "Log 4j",
+        "JUnit",
+        "Sonar Qube",
+        "GitHub Actions",
+        "Bash",
+        "Linux"
+      ],
+      "soft_skills": [
+        "travailler en équipe",
+        "résoudre des problèmes complexes",
+        "livrer des solutions fiables dans des environnements Agile"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire en génie logiciel",
+        "company": "Fondative",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une plateforme Git Ops pour générer et gérer automatiquement des configurations Kubernetes",
+          "Création d'interfaces frontend avec Angular et développement d'API REST avec Spring Boot",
+          "Conception de schémas PostgreSQL et optimisation des requêtes, réduisant le temps de réponse de 30%",
+          "Déploiement sur Kubernetes avec Helm et Argo CD",
+          "Automatisation CI/CD réduisant le temps de déploiement de 40%"
+        ]
+      },
+      {
+        "job_title": "Stagiaire en DevOps",
+        "company": "Opalia Recordati",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mise en place d'un pipeline CI/CD avec Jenkins, Docker et Git",
+          "Implémentation des logs avec Log 4j et des tests unitaires avec JUnit",
+          "Intégration de Sonar Qube pour améliorer la qualité du code de 25%",
+          "Réduction des erreurs de déploiement manuel de 60%",
+          "Entraînement sur un dataset de plus de 10 000 commits",
+          "Mise en place de pipelines automatisés avec GitHub Actions",
+          "Amélioration de la détection des régressions de 35%"
+        ]
+      },
+      {
+        "job_title": "Stagiaire en génie logiciel",
+        "company": "STB Bank",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une plateforme de demande de crédits en ligne",
+          "Création du frontend avec Angular et du backend avec Spring Boot",
+          "Conception de la base de données PostgreSQL",
+          "Réduction du temps de traitement des demandes de 35%"
+        ]
+      },
+      {
+        "job_title": "Stagiaire en Machine Learning",
+        "company": "Thales Research & Technology",
+        "start_date": "Juin 2024",
+        "end_date": "Août 2024",
+        "city": null,
+        "responsibilities": [
+          "Conception d'un modèle de Machine Learning pour prédire l'impact des commits",
+          "Création de scripts Bash pour automatiser le traitement des données sous Linux"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:37:58.698802+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8815,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

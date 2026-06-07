@@ -1,0 +1,95 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ben_Romdhane_Omar_23017489.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ben_Romdhane_Omar_23017489.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ben_Romdhane_Omar_23017489.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "INGÉNIEUR EN INFORMATIQUE Omar Ben Romdhane",
+      "email": "21@gmail.com",
+      "phone": null,
+      "location": "Langages de programmation: JAVA, JEE, JavaScript, TypeScript, PHP, Python, C"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Vue.js",
+        "MongoDB",
+        "Postman",
+        "Docker",
+        "Azure Devops",
+        "Scrum"
+      ],
+      "soft_skills": [
+        "Création d'interfaces interactives",
+        "Conception de modules pour la gestion des lots, le suivi des stocks, la production, les commandes, la gestion du personnel et l'impression des tickets",
+        "Développement de services RESTful, gestion des transactions et sécurisation des données",
+        "Mise en place de tests unitaires et d'intégration pour assurer la fiabilité du logiciel"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Full-Stack(Front-End & Back-End)",
+        "company": "Huilerie Chaouch",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception de modules pour la gestion des lots, le suivi des stocks, la production, les commandes, la gestion du personnel et l'impression des tickets",
+          "Création d'interfaces interactives et dashboards pour faciliter le suivi des opérations",
+          "Développement de services RESTful, gestion des transactions et sécurisation des données"
+        ]
+      },
+      {
+        "job_title": "Développeur Full-Stack(Front-End & Back-End)",
+        "company": "Freelance",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Intégration de services RESTful pour la communication avec les données"
+        ]
+      },
+      {
+        "job_title": "Développeur Full-Stack(Front-End & Back-End)",
+        "company": "Liberrex",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Intégration d'un module de paiement sécurisé automatisé"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Ecole Sup Privée d'Ingénierie et de Technologies - ESPRIT",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Faculté des Sciences Économiques et de Gestion de Nabeul - FSEGN",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:41:32.857962+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9156,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

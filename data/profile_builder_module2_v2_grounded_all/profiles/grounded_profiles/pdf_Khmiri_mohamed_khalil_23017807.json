@@ -1,0 +1,187 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Khmiri_mohamed_khalil_23017807.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Khmiri_mohamed_khalil_23017807.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8183,
+  "normalization": {
+    "cleaned_markdown": "## MOHAMED KHALIL KHMIRI\n\nIngénieur en informatique\nhttps: //www.linkedin.com/in/mohamed-khalil-khmiri-0 b 1776248/https: //khalil-khmiri. netlify. app/+216 93 215 009 ·khalilkhemiri 681@gmail.com · Tunis, Tunisia\n\n## EDUCATION\n\nDéveloppeur Full Stack & Devops - Stage de fin d'études\nDéveloppement d'une plateforme de gestion et de suivi des stagiaires\nArab Soft\nDéveloppeur Full Stack - Stage de fin d'études\n## MOTS-CLÉS: Angular, Express Js, NodeJS, MongoDB\n**Date: ** Février 2025 - Septembre 2025\n- Faculté des Sciences de Tunis (campus d'El Manar à Tunis)\n- Licence en Technologies de l'Information et de la Communication\n\n## TECHNICAL SKILLS\n\nAutomatisation des processus de déploiement et d'intégration continue selon les pratiques DevOps et Git Ops.\nImplémentation d'une architecture moderne assurant la fiabilité, la sécurité et l'évolutivité de la solution.\nMOTS-CLÉS: Angular, Spring Boot, MongoDB, Flask, Jasper Reports, Jenkins, Docker, Kubernetes, Argo CD, Falco, Trivy, Grafana, Prometheus, CI/CD\nDéveloppeur Full Stack & Devops - Stage d'été\nDéveloppement d'un portail RH avec mise en place de l'authentification sécurisée et des notifications.\nDéploiement automatisé via CI/CD avec conteneurisation et orchestration pour une solution scalable.\nMOTS-CLÉS: Angular, Spring Boot, MySQL, Jasper Reports, Jenkins, Docker, Kubernetes, CI/CD\nAssurances STAR\nDéveloppeur Full Stack -- Stage d'été\nConception et développement d'un simulateur de devis d'assurance santé.\nRéalisation de l'interface utilisateur, contribuant à une génération de devis plus rapide et fiable.\nMOTS-CLÉS: Angular, Spring Boot, MySQL\nARTCOM International\nApplication de contrôle d'accès (MEAN) avec gestion des autorisations, planification et intégration de QR codes pour sécuriser les accès.\nCouverture complète du cycle de vie d'un tournoi: inscription, gestion des équipes, programmation des matchs, suivi des résultats et statistiques des joueurs.\nMOTS-CLÉS: Next Js, Express Js, MongoDB, Socket. io, Stripe, Google Maps, GitHub Action, Vercel\nConception d'un API Gateway distribué et stateless avec limitation de débit basée sur Redis et gestion fail-fast du trafic.\nImplémentation d'une architecture orientée événements avec observabilité via Kafka, sécurisation des APIs et monitoring avancé.\nMOTS-CLÉS: Spring Boot, Gateway Distributed Systems, Microservices, Redis, Kafka, Event-Driven\nCOMPÉTENCES\nDéveloppement web: Angular, React, Next. js, Python, Express. js, Spring Boot, Flask, .net\nBases de données: MySQL, MongoDB, Oracle\nDevOps: Docker, Kubernetes, Jenkins, Github Actions, Docker, Ansible, CI/CD, Sonar Qube, Argo CD\nIngénierie Informatique École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT) Septembre 2022 - Déc 2025\n\n## ACADEMIC PROJECTS\n\nPROJETS\n\n## LINKUP TOURNAMENT\n\nDéveloppement d'une application web innovante pour la gestion des tournois de football .\nDistributed API Gateway Rate Limiter\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATS\nKubernetes Certified Application Developer (CKAD) with Tests\nProgramming in Python\n\n## LANGUAGES\n\nLangues\nFrançais: B 2 Anglais: B 2",
+    "header_info": {
+      "full_name": "MOHAMED KHALIL KHMIRI",
+      "email": "681@gmail.com",
+      "phone": "+216 93 215 009",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/mohamed-khalil-khmiri-0",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8094,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[1].year"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_unsupported": [
+      "education[1].year"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MOHAMED KHALIL KHMIRI",
+      "email": "681@gmail.com",
+      "phone": "+216 93 215 009",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/mohamed-khalil-khmiri-0",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Angular",
+        "Express Js",
+        "NodeJS",
+        "MongoDB",
+        "Spring Boot",
+        "Flask",
+        "Jasper Reports",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "Argo CD",
+        "Falco",
+        "Trivy",
+        "Grafana",
+        "Prometheus"
+      ],
+      "soft_skills": [
+        "Développement web",
+        "Bases de données",
+        "DevOps",
+        "Ingénierie informatique"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Arab Soft",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une plateforme de gestion et de suivi des stagiaires"
+        ]
+      },
+      {
+        "company": "Assurances STAR",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'un simulateur de devis d'assurance santé"
+        ]
+      },
+      {
+        "company": "ARTCOM International",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Application de contrôle d'accès (MEAN) avec gestion des autorisations, planification et intégration de QR codes pour sécuriser les accès"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Faculté des Sciences de Tunis",
+        "degree": "Licence en Technologies de l'Information et de la Communication",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Ecole Supérieure Privée d'Ingénierie et de Technologies (ESPRIT)",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:57:35.554358+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

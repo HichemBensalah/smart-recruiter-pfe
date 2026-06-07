@@ -1,0 +1,121 @@
+## HEADER
+
+Sidi Rezig , Megrine
+
+## COMPETENCES
+
+Génération de tableaux de bords, ainsi que le développement des modules ODOO.
+Open TT
+Tunisie Trade NET
+Sopra HR Software
+Tunisie Telecom
+
+## VIE ASSOCIATIVE
+
+Linguistiques
+Personnelles
+Développement d’une application WEB et Desktop pour la gestion des
+réservations de complexes sportifs
+Application web : développement d’une plateforme e_learning
+
+## FRONTEND :
+
+REACT JS , Tailwind css v 4. 0 , Daisy UI
+ANGULAR JS , Bootstrap
+Angular JS , Bootstrap
+
+## BACKEND :
+
+Springboot 3 , Java 17, My Sql
+Springboot 3 , Java 17, Postgres SQL
+Springboot 3 , Java 17 , My Sql
+Python 3. 10 , Microsoft SQLServer
+Springboot 3 , My Sql
+Technologies : Java FX , Symfony
+Technologies :Power BI , Python , Power Query
+
+## LOGICIEL :
+
+Power BI , Odoo developper mode
+Stage - 6 mois
+Stage - 3 mois
+Stage - 3 mois
+
+## INTERETS
+
+Stage - 3 mois
+Administration des plateformes du Système RH en back-office et front-office.
+Gestion des processus guidés (GP) et des flux d’import/export de données.
+zaibiahmed 4666@gmail. com
+
+## PYTHON
+
+Ingénieur diplômé d’ESPRIT, passionné par les technologies émergentes et leur impact
+sur la société. Fortement motivé à rejoindre une entreprise innovante afin de consolider
+mes compétences pratiques et mettre en œuvre les connaissances acquises au cours de
+
+## EDUCATION
+
+Techniques
+Z A I B I A H M E D K H A L I L
+I n g é n i e r i e u r e n i n f o r m a t i q u e
+Université centrale de Tunis - Soutenance validée avec Mention TRES BIEN
+Licence en BIG DATA ET ANALYSE DES DONNEES
+ESPRIT Tunisie
+Ingénierie informatique Génie Logiciel
+TAHA HUSSIN , Megrine
+Baccalauréat spécialité Mathématique
+Technologie et innovation,
+Création de contenu et jeux
+vidéo
+Asteel Flash
+Poste Responsable SIRH Novembre - Aujourd’hui
+
+## PL/SQL
+
+Base de données
+
+## ANGULAR
+
+Spring Boot
+Frameworks
+
+## DOCKER
+
+My Sql, Mongo db
+
+## JAVA
+
+Développement des API rest qui organise les transactions entre TTN
+et les banques en Tunisie.
+
+## PROFIL
+
+Réalisation d’un POC (Proof Of Concept) par le redéveloppant
+d’une solution RH en se basant sur l’automatisation du traitement des fichiers XML.
+
+## JENKINS
+
+Création d’une application web pour la gestion de la sécurité
+Responsable du
+département International
+Rotaract club Megrine
+Arabe : Langue maternelle
+Anglais : Courant
+Français : Courant
+Esprit d’analyse
+Communication
+Rigueur
+Sens de l’organisation
+
+## TYPESCRIPT
+
+Réalisation de tableaux de bord dédiés aux chercheurs d'emploi :
+Collecte de données par le WEB SCRAPING et leurs représentations
+visuelles par des tableaux de bord élaborés à travers le logiciel POWER BI
+Projet fin d'études Licence : BEECODERS
+
+## PROJET ACADEMIQUE
+
+Projet intégré ESPRIT : SPORTING COM
+Projet intégré ESPRIT : Courzelo

@@ -1,0 +1,76 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Soua_Malek_23032511.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Soua_Malek_23032511.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Soua_Malek_23032511.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Malek Soua",
+      "email": "maleksoua 123@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Dynamique et passionnée par la robotique et les technologies de pointe, je combine créativité et rigueur dans le développement de solutions Io T.",
+      "hard_skills": [
+        "ROS 1 (Move Base)",
+        "ROS 2 (Nav 2)",
+        "slam_toolbox",
+        "gmapping",
+        "Laravel",
+        "Elasticsearch",
+        "ESP 32"
+      ],
+      "soft_skills": [
+        "rigueur",
+        "apprentissage rapide",
+        "innovation",
+        "gestion des données et des relations"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur Informatique",
+        "company": "Sartex",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système CRM (Customer Relationship Management)",
+          "Conception et implémentation d'un CRM, un système logiciel et une stratégie permettant de gérer les interactions entre l'entreprise Sartex et ses clients/prospects",
+          "Migration de l'application existante vers une nouvelle architecture Laravel intégrant Elasticsearch",
+          "Mise à jour Over-The-Air (OTA) des cartes embarquées ESP 32",
+          "Mise à jour à distance du firmware des cartes embarquées ESP 32 via OTA"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingénierie en Internet des objets et programmation robotique",
+        "school": "EPI - École pluridisciplinaire internationale",
+        "year": null
+      },
+      {
+        "degree": "Licence en Systèmes Embarqués et Internet des Objets",
+        "school": "ISITCOM - Institut Supérieur d'Informatique et des Technologies de Communication",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:43:13.177481+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8112,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

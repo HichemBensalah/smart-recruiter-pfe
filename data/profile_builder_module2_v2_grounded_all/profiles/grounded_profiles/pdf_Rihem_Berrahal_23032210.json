@@ -1,0 +1,153 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rihem_Berrahal_23032210.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rihem_Berrahal_23032210.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8304,
+  "normalization": {
+    "cleaned_markdown": "## RIHEM BERRAHAL\n\nAriana, Tunisie\n+216 95 784 883 | rihem.berrahal@fsb.ucar.tn | linkedin.com/in/rihem-berrahal\n\n## PROFESSIONAL SUMMARY\n\nProfil\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieure applicative avec expérience en développement et maintenance de systèmes bancaires (Java, Spring Boot, Oracle SQL). Diplômée d'un Master en Data Science avec expertise en intégration de solutions IA. Participe activement aux projets internes de développement d'outils métiers et d'applications intelligentes.\n- Expérience professionnelle\n## Ingénieure Métier - MP Soft, Tunis\n**Date: ** Jan 2025 - Présent\nDéveloppement et maintenance d'applications bancaires Java/Spring Boot avec bases de données Oracle pour des clients majeurs (BTS, La Poste Tunisienne)\nAnalyse fonctionnelle et technique des besoins métiers, rédaction de spécifications\n- Support utilisateur et résolution d'incidents techniques\nDéveloppement d'un système intelligent d'analyse de plantes par vision par ordinateur (YOLO, Python, OpenCV)\n**Date: ** Fév 2024 - Nov 2024\nExtraction automatique de métriques (dimensions, densité, caractéristiques) et détection d'anomalies à partir d'images\n\n## ACADEMIC PROJECTS\n\nParticipation au développement de projets internes: outils métiers (Spring, Angular) et solutions IA\n- Optimisation des requêtes SQL/PL-SQL et suivi des performances applicatives\nIntégration du modèle IA dans une application web complète (React, Flask, MongoDB)\n## Développement d'application web/mobile (Flutter, Angular, Spring Boot, Oracle)\n**Date: ** Fév 2022 - Juin 2022\n## Spring Boot, Angular, React, Flask, Flutter\n## Oracle, SQL, PostgreSQL, MySQL, MongoDB\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nStage - Data Science & Computer Vision - Artibedded, Tunis\nStage - Développement Mobile - Tunisair, Tunis\n\n## EDUCATION\n\nFormation\nMaster en Data Science - Faculté des Sciences de Bizerte\nLicence en Génie Logiciel et Systèmes d'Information -Faculté des Sciences de Bizerte 2019 - 2022\n\n## TECHNICAL SKILLS\n\nCompétences techniques\nJava, Python, JavaScript, TypeScript, Dart\nLangages:\nFrameworks:\nBases de données:\nGit, Docker\nOutils:\nAgile, Scrum\nMéthodologies:\nIA/Data:\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning, Deep Learning, NLP, Computer Vision\nMicrosoft Azure Data Fundamentals (DP-900), Azure Fundamentals (AZ-900)\n\n## LANGUAGES\n\nCertifications & Langues\nLangues:\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications:\nFrançais & Anglais (Courant)",
+    "header_info": {
+      "full_name": "RIHEM BERRAHAL",
+      "email": "rihem.berrahal@fsb.ucar.tn",
+      "phone": "+216 95 784 883",
+      "location": "Ariana, Tunisie",
+      "linkedin": "linkedin.com/in/rihem-berrahal",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9661,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "RIHEM BERRAHAL",
+      "email": "rihem.berrahal@fsb.ucar.tn",
+      "phone": "+216 95 784 883",
+      "location": "Ariana, Tunisie",
+      "linkedin": "linkedin.com/in/rihem-berrahal",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "Oracle SQL",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Dart"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "MP Soft, Tunis",
+        "job_title": "Ingénieure Métier",
+        "start_date": "Jan 2025",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement et maintenance d'applications bancaires Java/Spring Boot avec bases de données Oracle pour des clients majeurs (BTS, La Poste Tunisienne)",
+          "Analyse fonctionnelle et technique des besoins métiers, rédaction de spécifications",
+          "Support utilisateur et résolution d'incidents techniques",
+          "Développement d'un système intelligent d'analyse de plantes par vision par ordinateur (YOLO, Python, OpenCV)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Faculté des Sciences de Bizerte",
+        "degree": "Master en Data Science",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Faculté des Sciences de Bizerte",
+        "degree": "Licence en Génie Logiciel et Systèmes d'Information",
+        "field": null,
+        "year": "2019-2022"
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:28:50.911465+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

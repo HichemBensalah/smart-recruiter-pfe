@@ -1,0 +1,93 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Leith_bouallegue_23014674.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Leith_bouallegue_23014674.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Leith_bouallegue_23014674.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "LEITH BOUALLEGUE",
+      "email": "leithbouallegue@outlook.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Html",
+        "SQL",
+        "Css",
+        "JavaScript",
+        "NodeJS",
+        "Spring boot",
+        "Angular",
+        "Git",
+        "Postman"
+      ],
+      "soft_skills": [
+        "Méthodologie",
+        "Méthode Agile Scrum"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Elite innovation, Elgazala, Ariana",
+        "start_date": "03/2024 - 09/2024",
+        "end_date": null,
+        "city": "Ain Zaghouen, El Aouina, Tunisie",
+        "responsibilities": [
+          "Conception et développement d'une application web pour les bateaux"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Tuni Boat, Elgazala, Ariana",
+        "start_date": "07/2023 - 09/2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application web pour les bateaux"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "STE Trio, sfax, Tunisie",
+        "start_date": "07/2022 - 08/2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une dashboard pour suivre l'évolution des performances"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Tuni Boat, Elgazala, Ariana",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "STE Trio, sfax, Tunisie",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:03:45.015342+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.94,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

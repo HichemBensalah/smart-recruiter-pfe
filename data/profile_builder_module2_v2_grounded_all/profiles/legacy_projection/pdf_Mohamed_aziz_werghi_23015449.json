@@ -1,0 +1,92 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_aziz_werghi_23015449.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_aziz_werghi_23015449.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_aziz_werghi_23015449.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": null,
+      "email": "werghia.1@gmail.com",
+      "phone": "+216 29 836 507",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java/Spring Boot",
+        "Angular/React",
+        "Docker",
+        "CI/CD pipelines",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "FastAPI",
+        "Spring Security",
+        "JWT",
+        "Microservices",
+        "Clean Architecture",
+        "SOLID",
+        "OOP",
+        "Real-time (Web Sockets)",
+        "RBAC",
+        "Performance Optimization"
+      ],
+      "soft_skills": [
+        "Agile",
+        "DevOps",
+        "Autonomy",
+        "Team Collaboration",
+        "Code Reviews",
+        "Architecture Decisions"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Software Engineer Intern (PFE)",
+        "company": null,
+        "start_date": "Feb 2025",
+        "end_date": "Jun 2025",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Applied clean architecture principles across backend and frontend layers, enhancing code maintainability, scalability, and team collaboration efficiency.",
+          "Engineered a production-grade ride-sharing platform from scratch, covering the full lifecycle: system design, backend architecture, frontend web app, mobile application, CI/CD, and cloud deployment.",
+          "Containerized the entire system using Docker and orchestrated services via Docker Compose, enabling consistent runtime environments and simplifying deployment workflows.",
+          "Deployed the platform on AWS with production-grade infrastructure setup including Nginx reverse proxy, SSL configuration, and domain management via Hostinger, ensuring secure and scalable access in production.",
+          "Improved system observability and performance, achieving sub-150 ms average API response time and 98% backend test coverage through automated testing and performance optimizations."
+        ]
+      },
+      {
+        "job_title": "Full Stack Engineer (Mid-Senior Level)",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed frontend applications using Angular and React with TypeScript, focusing on performance, scalability, and user experience.",
+          "Designed and implemented secure, scalable RESTful APIs with Spring Boot, Spring Security, JWT authentication and RBAC, handling thousands of concurrent requests.",
+          "Optimized PostgreSQL database schemas and queries (indexing + caching), reducing query execution time by 50% and enabling faster data retrieval.",
+          "Collaborated closely with frontend and product teams in an Agile environment to deliver production-ready features and improve user experience.",
+          "Implemented CI/CD pipelines using GitHub Actions to automate build, testing, and deployment processes, reducing manual intervention and enabling continuous delivery of updates."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:36:27.350884+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8307,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

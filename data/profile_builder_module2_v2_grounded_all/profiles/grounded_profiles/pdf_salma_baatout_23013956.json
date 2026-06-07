@@ -1,0 +1,148 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\salma_baatout_23013956.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\salma_baatout_23013956.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7296,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nsalmabaatour@gmail.com\n\n## BAATOUT SALMA\n\nlinkedin.com/in/salma-baatout\nMonastir\n\n## PROFIL\n\nCOMP É TENCESCL É S\nEXP É R I E N C E P R O F E S S I O N N E L L E\n- Stagiaire Développement Web - Yes Internet\n Conception et implémentation du backend en Laravel et Code Igniter .\n Gestion de la base de données avec MySQL (php My Admin) .\n Intégration d'interfaces utilisateur avec Bootstrap, HTML, CSS, JavaScript .\n- Stagiaire Développement Web & Mobile - Smart Ways Innovation\nDéveloppement d'une plateforme e-commerce intelligente (web & mobile).\n Développement d'une plateforme e-commerce intelligente (web & mobile) .\n Conception du frontend avec Angular (web) et Flutter (mobile) .\n Développement du backend avec Firebase et intégration d'API REST .\nProjet Analyse et Fouille de Données - Détection du Cancer du Poumon\n Visualisation des résultats pour faciliter l'interprétation des données .\n\n## TECHNICAL SKILLS\n\nJeune diplômée en informatique, spécialisée en Big Data et analyse de données, passionnée par le développement web, mobile et l'intelligence artificielle. Motivée, curieuse et rigoureuse, je souhaite mettre mes compétences au service d'une équipe dynamique et contribuer activement à la réalisation de projets innovants.\n Développement d'une plateforme de location de voitures ( Car Rental ) avec une interface web dynamique et responsive .\n Mise en place des fonctionnalités: recherche, réservation en ligne et gestion des véhicules.\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\n Implémentation de modules d'Intelligence Artificielle et de Computer Vision pour analyser les émotions utilisateurs .\n Mise en place d'un système de recommandation personnalisé basé sur les comportements et émotions.\n Réalisation d'un projet d'analyse de données médicales visant à prédire le risque de cancer du poumon .\n Collecte et préparation des données (nettoyage, traitement des valeurs manquantes, normalisation) .\n Analyse exploratoire des données (EDA) pour identifier les facteurs influents (âge, tabagisme, symptômes…) .\n\n## MACHINE LEARNING & DEEP LEARNING\n\n Implémentation d'algorithmes de Machine Learning pour la classification et la prédiction",
+    "header_info": {
+      "full_name": "BAATOUT SALMA",
+      "email": "salmabaatour@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/salma-baatout",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7067,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]",
+      "expertise.soft_skills[4]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[4]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "BAATOUT SALMA",
+      "email": "salmabaatour@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/salma-baatout",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Laravel",
+        "Code Igniter",
+        "MySQL (php My Admin)",
+        "Bootstrap",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Angular",
+        "Flutter",
+        "Firebase"
+      ],
+      "soft_skills": [
+        "motivée",
+        "curieuse",
+        "rigoureuse",
+        "dynamique"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Monastir",
+        "responsibilities": [
+          "Conception et implémentation du backend en Laravel et Code Igniter .",
+          "Gestion de la base de données avec MySQL (php My Admin) .",
+          "Intégration d'interfaces utilisateur avec Bootstrap, HTML, CSS, JavaScript .",
+          "Développement d'une plateforme e-commerce intelligente (web & mobile).",
+          "Conception du frontend avec Angular (web) et Flutter (mobile) .",
+          "Développement du backend avec Firebase et intégration d'API REST .",
+          "Visualisation des résultats pour faciliter l'interprétation des données ."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:36:55.045812+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

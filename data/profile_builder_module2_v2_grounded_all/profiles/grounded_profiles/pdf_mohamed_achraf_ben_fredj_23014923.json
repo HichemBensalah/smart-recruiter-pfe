@@ -1,0 +1,187 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mohamed_achraf_ben_fredj_23014923.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mohamed_achraf_ben_fredj_23014923.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8828,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nJuin 2022 - Août 2022 Stage d'été\n\n## MOHAMEDACHRAF BEN FREDJ\n\nIngénieur Logiciel/envelope_alt ach 02 raf@gmail.com/linkedin_sign ach 02 raf/phone +216 94 622 592/github ach 02 raf/globe ach 02 raf. pro\nRÉSUMÉ\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieur logiciel full-stack spécialisé dans l'écosystème TypeScript (React, Next. js, Angular, Ionic, Node. js). Expérience confirmée dans la livraison de fonctionnalités web et mobile de bout en bout, la mise en œuvre de communication en temps réel (Socket. IO), ainsi que la création de pipelines CI/CD avec conteneurisation et contrôles qualité (Docker, Jenkins, Sonar Qube). Pragmatique et collaboratif, orienté vers des solutions évolutives, un code propre et une intégration fluide en équipe dans des environnements Agile.\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nFront-end: TypeScript, React, Next. js, Angular, Ionic, Redux, Tailwind CSS, Bootstrap, Word Press\nBack-end: Node. js, Express. js, Nest JS, API RESTful, GraphQL, Web Sockets, PHP\nBases de données: MySQL, MongoDB, Redis\nDevOps & Qualité: Docker, Jenkins, Sonar Qube, Nexus, OWASP, Grafana\nAutres: Git, design patterns, Agile/Scrum, SEO, principes UX/UI\nAmélioré Communic Flow V 2 avec microservices, messagerie GraphQL/Redis, authentification sécurisée (cookies HTTP-Only, Google OAuth, 2 FA, Cloudflare Turnstile) et onboarding automatisé des entreprises.\nContribué au développement de Kick Off Sports, une plateforme full-stack de réservation, planification et gestion en temps réel d'infrastructures sportives.\nReact, TypeScript, Next. js, Nest JS, GraphQL, Socket. IO, Redis, MySQL, Docker, Jenkins, Kubernetes, Sonar Qube, OWASP\nASQII\nDéveloppé Communic Flow V 1: tableau de bord organisationnel multi-niveaux avec gestion hiérarchique, planification d'événements, gestion avancée des réclamations, permissions basées sur les rôles, messagerie de groupe et privée en temps réel, et pipeline CI/CD complet.\nReact, TypeScript, Tailwind, Node. js, Express, Socket. IO, MySQL, Docker, Jenkins, Sonar Qube, Nexus, OWASP, Grafana, Prometheus\nZeta Engineering\nConçu et développé des sites marketing optimisés SEO avec React, Next. js, TypeScript, Tailwind CSS et thèmes/plugins Word Press personnalisés.\nGéré les déploiements de bout en bout et collaboré dans des environnements Agile/Scrum avec GitHub, Git Lab, pull requests et stand-ups quotidiens.\nZeta Engineering\nDéveloppé un tableau de bord responsive de gestion des offres d'emploi et personnalisé des thèmes et plugins Word Press avec React, Express et Tailwind CSS.\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nOct 2024 - Présent Freelance | Développeur Full-Stack\n\n## EDUCATION\n\n## Jan 2024 - Juil 2024 Stage de fin d'études | Ingénieur Full-Stack\n**Date: ** Juin 2023 - Jan 2024 Développeur Web\n## React, Next. js, TypeScript, Word Press, Tailwind, Bootstrap, GitHub\n**Date: ** Juin 2023 - Juil 2023 Stage d'été\n## React, Express, Tailwind, Word Press\n- Jan 2020 - Juil 2020 Stage de fin d'études\n## React Native, React, Express, MongoDB\n**Location: **/map_marker Tunis, Tunisie\n- FORMATION\n\n## SHAREK IT\n\nDéveloppé une plateforme e-commerce full-stack (INFO-LINA) avec la stack MERN.\nReact, Express, MongoDB, Tailwind\n\n## COSO-FT IT\n\nDéveloppé une application hybride web et mobile de prise de rendez-vous médicaux (ALLO DOCTOR) avec React Native, React, Express. js et MongoDB.\nLien projet\nKick Off Sports -Plateforme full-stack de réservation et gestion en temps réel d'infrastructures sportives. React, TypeScript, Nest JS, MySQL, Socket. IO Lien projet\nCommunic Flow V 1 -Événements, réclamations, chat en temps réel, intégration Power BI. React, TypeScript, Node. js, Express, MySQL, Docker, Jenkins, Sonar Qube Démo en ligne\nAPK | Code\nARTVERSE -Plateforme d'exposition virtuelle d'art numérique avec galerie interactive. Angular, Express. js, MongoDB Démo en ligne\nALLO DOCTOR -Application hybride de prise de rendez-vous médicaux pour patients et médecins. React Native, React, Express. js, MongoDB Frontend | Backend\nPortfolio | GitHub | Linked In\n\n## ACADEMIC PROJECTS\n\nPROJETS\nCommunic Flow V 2 -Messagerie GraphQL/Redis et sécurité renforcée (2 FA, OAuth). React, TypeScript, Node. js, Express, GraphQL, Redis, MySQL\n- Go TRIP -Application mobile hybride connectant touristes et guides locaux vérifiés. Ionic, Angular, Express. js, MongoDB\n\n## LANGUAGES\n\nLANGUES\nArabe (natif)/Français (conversationnel)/Anglais (conversationnel)",
+    "header_info": {
+      "full_name": "MOHAMEDACHRAF BEN FREDJ",
+      "email": "raf@gmail.com",
+      "phone": "+216 94 622 592",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9766,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MOHAMEDACHRAF BEN FREDJ",
+      "email": "raf@gmail.com",
+      "phone": "+216 94 622 592",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Développeur full-stack spécialisé dans l'écosystème TypeScript (React, Next.js, Angular, Ionic, Node.js).",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Angular",
+        "Ionic",
+        "Node.js",
+        "Express.js",
+        "Nest JS",
+        "GraphQL",
+        "Web Sockets",
+        "Docker",
+        "Jenkins",
+        "Sonar Qube"
+      ],
+      "soft_skills": [
+        "pragmatique",
+        "collaboratif",
+        "orienté vers des solutions évolutives",
+        "code propre",
+        "intégration fluide en équipe dans des environnements Agile"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Juin 2022 - Août 2022",
+        "end_date": "Août 2022",
+        "city": null,
+        "responsibilities": [
+          "livraison de fonctionnalités web et mobile de bout en bout",
+          "mise en œuvre de communication en temps réel (Socket.IO)",
+          "création de pipelines CI/CD avec conteneurisation et contrôles qualité (Docker, Jenkins, Sonar Qube)"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Oct 2024 - Présent",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développeur full-stack"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "SHAREK IT",
+        "degree": "Développé une plateforme e-commerce full-stack (INFO-LINA) avec la stack MERN.",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "COSO-FT IT",
+        "degree": "Développé une application hybride web et mobile de prise de rendez-vous médicaux (ALLO DOCTOR) avec React Native, React, Express.js et MongoDB.",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "SHAREK IT",
+        "degree": "Développé une plateforme e-commerce full-stack (INFO-LINA) avec la stack MERN.",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe (natif)",
+      "Français (conversationnel)",
+      "Anglais (conversationnel)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:28:54.410846+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

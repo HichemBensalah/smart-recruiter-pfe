@@ -1,0 +1,136 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Maroua_Bouabidi_23013877.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Maroua_Bouabidi_23013877.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8531,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nBouabidi Maroua\n12 Rue 20 Mars - Ben Arous\nTéléphone: 99 321 274\nEmail: bouabidimaroua@gmail.com\nNée le 13 septembre 1987\nDéveloppeuse web\n\n## EDUCATION\n\nFormation:\n##: Baccalauréat - lycée secondaire Ben Arous Section: Mathématique\n**Date: ** 2008-2011\n-: Formation licence fondamentale en sciences de l'informatique - l'écolesupérieure de\n- science et technique de tunis\n- 2012: master de recherche en science de l'informatique à l'école supérieure de science ettechnique de tunis\n- 2011: Développement d'une application de gestion financière en .net. C'est un stage de 6 mois de projet de fin d'étude dont j'ai travaillé sur la base Sql server 2008 et sur le logiciel Visuel Basic Studio 2008.\n- Aout 2015- aout 2016: Technicienne supérieure en informatique à la société Digital Security qui est une société de sécurité et d'alarme. J'ai travaillé sur un logiciel qui fait la gestion des alarmes à distance.\n- Otobre 2016 - février 2017: Stage professionnel développeuse PHPà la société PIXELS TRADE dans le développement web en PHP 5.\n- Avril 2018- decembre 2018: Développeuse wordpress à la société française SM-DEVIS qui est une agence à tunis . j'ai développé Un nouveau site web pour leur société sur le CMS WORDPRESS qui est isoler 1 euro. com .J'ai fait encore la maintenance corrective de d'autre sits wordpress .\n\n## ACADEMIC PROJECTS\n\nProjets réalisés:\nprojet « gestion de stock » réalisé à la basa de donnés acces.\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences:\nPublication:\n\n## TECHNICAL SKILLS\n\nNovembre 2021- mars 2022: Stage professionnel développeuse frontend angular à la societe E- robo software sur le developpement frontend angular, .net pour les applications web .\nfévrier 2023- avril 2023: Développeur frontend react native à la société Fullhealth\nCréation des pages web pour une application de vente en ligne des produits de patisserie en utilisant le logiciel android studio decembre 2023- mars 2024: Développeuse web et e-commerce wordpress a la societe Mss consulting, développement php et wordpress, conception et maintenance de site et la plateforme de société e-services en utilisant les fichiers jeson et les API .\nJ'ai publié mon livre de projet de fin d'étude « Gestion financière » dans le monde entier en 2015 .Mon livre « Gestion financière » est publié au niveau universel.\nJ'ai publié dans les Editions universitaires européennes qui se trouvent en Allemagne.\nLangues: Arabe: maternelle Français: bon niveau parlé et écrit Anglais: bon niveau Compétences informatiques: Language de programmation:\nc, c++, java, html, .net, programmation oriente objet, php.",
+    "header_info": {
+      "full_name": "Bouabidi Maroua",
+      "email": "bouabidimaroua@gmail.com",
+      "phone": "99 321 274",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8825,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.soft_skills[0]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Bouabidi Maroua",
+      "email": "bouabidimaroua@gmail.com",
+      "phone": "99 321 274",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        ".net",
+        "Angular",
+        "React Native",
+        "PHP",
+        "WordPress"
+      ],
+      "soft_skills": [
+        "Language de programmation: c, c++, java, html, .net, programmation oriente objet, php."
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application de gestion financière en .net.",
+          "Création des pages web pour une application de vente en ligne des produits de patisserie en utilisant le logiciel Android Studio",
+          "Développement PHP et WordPress, conception et maintenance de site et la plateforme de société e-services en utilisant les fichiers JSON et les API."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "l'école supérieure de science et technique de Tunis",
+        "degree": "Formation licence fondamentale en sciences de l'informatique",
+        "field": null,
+        "year": 2012
+      }
+    ],
+    "languages": [
+      "Arabe: maternelle",
+      "Français: bon niveau parlé et écrit",
+      "Anglais: bon niveau"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:15:56.207987+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

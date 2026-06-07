@@ -1,0 +1,115 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Ali_Trabelsi_23022115.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Ali_Trabelsi_23022115.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Ali_Trabelsi_23022115.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Mohamed Ali Trabelsi",
+      "email": "trabelsimuhamedali@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Django (DRF)",
+        "JavaScript",
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Docker",
+        "Nginx",
+        "Gunicorn",
+        "Redis",
+        "PostgreSQL",
+        "Chroma DB",
+        "LLMs",
+        "Azure (VMs, AI models, Blob Storage)",
+        "APIs (Slack, Notion, MS Teams)"
+      ],
+      "soft_skills": [
+        "Agile",
+        "SCRUM"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "May 2023 - September 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Pilotage des améliorations de performance du chunking et de récupération du RAG.",
+          "Intégration de pipelines IA multi-modèles pour le chat, l'extraction de thèmes et l'analyse de sentiment.",
+          "Gestion complète de l'infrastructure Docker (dev/test/prod) avec services conteneurisés et migrations automatisées."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception de pipelines de traitement LLM asynchrones (Rabbit MQ) avec intégration de SDKs IA muli-models et multi-fournisseurs."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Netisse Services",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "Navero",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "Emye HR",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's degree (BSBA), Major in Information Technology, Minor in Business Analytics",
+        "school": "Tunis Business School, Tunis, Tunisia",
+        "year": null
+      },
+      {
+        "degree": "Diplôme en September 2023",
+        "school": "Tunis Business School, Tunis, Tunisia",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:30:38.728627+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6676,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

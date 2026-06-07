@@ -1,0 +1,215 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Yahyaoui_Wejden_23019990.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Yahyaoui_Wejden_23019990.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7603,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nWejden Yahyaoui\n\n## TECHNICAL SKILLS\n\nSoftware Engineer\nwejden.yah@gmail.com\nLinked In\nSkills\nPart-Time Instructor\nEPI Digital Schoo\nMobile Developer Noussouki Travel Hammamet, Tunisie Dec 2024 - Sep 2025\nParticipated in the development of Youzful, an innovative mobile application designed for Middle Eastern travelers.\nContributed to the development and enhancement of core application features.\n\n## ACADEMIC PROJECTS\n\nEnsured project migration to a newer version.\nRedesigned the user interface (UI/UX).\nDesigned and developed reusable custom components to improve code efficiency and maintainability.\nReviewed pull requests to ensure best practices, code quality, and team consistency.\n**Date: ** Oct 2025 - Jan 2026\n**Location: ** Sousse, Tunisia\n- Delivered practical lab sessions at a private university specializing in software engineering, teaching frontend development with Angular, HTML, CSS, and TypeScript.\n- Designed coding exercises and guided students in applying programming fundamentals and modern frontend technologies.\n## Stack: React Native, JavaScript, Redux Toolkit, RTK Query, PHP, Bootstrap.\n**Date: ** Kram, Tunisie Fev 2024 - Oct 2024\n- Full Stack Developer\n- SBI\n- Developed a mobile application that allows users to locate nearby available parking spots in real time.\n- Integrated Stripe payment system.\n- Implemented a subscription system.\n- Integrated real-time notifications using Firebase.\n- Deployed backend services.\nStack: React Native, Node. js, Express, ReactJS, MongoDB, JavaScript, OAuth, Google Maps, AWS.\n**Date: ** Jun 2023 - Nov 2023\n**Location: ** Sousse, Tunisie\n- Mobile Developer\n- TSAST\n- Developed a mobile application dedicated to moving companies to simplify and optimize the moving process.\n- Designed and implemented core features to help movers efficiently manage their activities.\n- Implemented a calendar and notification system for improved planning.\n- Created an admin dashboard for user management and operational tracking.\nStack: React Native, ReactJS, TypeScript, Redux Toolkit, RTK Query, Bootstrap, Spring Boot. Summer Internship\n**Location: ** Sousse, Tunisie",
+    "header_info": {
+      "full_name": "Wejden Yahyaoui",
+      "email": "wejden.yah@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8201,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[1]",
+      "education[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].responsibilities[3]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].job_title",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Wejden Yahyaoui",
+      "email": "wejden.yah@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Software Engineer",
+        "Mobile Developer",
+        "Full Stack Developer",
+        "React Native",
+        "JavaScript",
+        "Redux Toolkit",
+        "RTK Query",
+        "PHP",
+        "Bootstrap",
+        "Node.js",
+        "Express",
+        "ReactJS",
+        "MongoDB",
+        "JavaScript",
+        "OAuth",
+        "Google Maps",
+        "AWS",
+        "Spring Boot"
+      ],
+      "soft_skills": [
+        "Part-Time Instructor",
+        "Teaching frontend development with Angular, HTML, CSS, and TypeScript",
+        "Guiding students in applying programming fundamentals and modern frontend technologies",
+        "Reviewing pull requests to ensure best practices, code quality, and team consistency"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "EPI Digital Schoo",
+        "job_title": "Part-Time Instructor",
+        "start_date": "Dec 2024 - Sep 2025",
+        "end_date": null,
+        "city": "Hammamet, Tunisie",
+        "responsibilities": [
+          "Participated in the development of Youzful, an innovative mobile application designed for Middle Eastern travelers.",
+          "Contributed to the development and enhancement of core application features."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Full Stack Developer",
+        "start_date": "Fev 2024 - Oct 2024",
+        "end_date": null,
+        "city": "Kram, Tunisie",
+        "responsibilities": [
+          "Developed a mobile application that allows users to locate nearby available parking spots in real time.",
+          "Integrated Stripe payment system.",
+          "Implemented a subscription system.",
+          "Integrated real-time notifications using Firebase.",
+          "Deployed backend services."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Mobile Developer",
+        "start_date": "Jun 2023 - Nov 2023",
+        "end_date": null,
+        "city": "Sousse, Tunisie",
+        "responsibilities": [
+          "Developed a mobile application dedicated to moving companies to simplify and optimize the moving process.",
+          "Designed and implemented core features to help movers efficiently manage their activities.",
+          "Implemented a calendar and notification system for improved planning.",
+          "Created an admin dashboard for user management and operational tracking."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Summer Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sousse, Tunisie",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "EPI Digital Schoo",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:02:02.894918+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

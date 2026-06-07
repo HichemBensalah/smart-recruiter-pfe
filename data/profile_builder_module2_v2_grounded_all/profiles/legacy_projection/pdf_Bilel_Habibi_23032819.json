@@ -1,0 +1,128 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Bilel_Habibi_23032819.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Bilel_Habibi_23032819.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Bilel_Habibi_23032819.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Bilel Habibi",
+      "email": "bilelhabibi30@gmail.com",
+      "phone": null,
+      "location": "Mornaguia, Manouba"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "MySQL",
+        "JavaScript",
+        "Express.js",
+        "Word Press",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Git",
+        "APIs REST"
+      ],
+      "soft_skills": [
+        "Bonne communication",
+        "Résolution de problèmes",
+        "Esprit d'équipe",
+        "Autonomie & initiative"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Full Stack",
+        "company": "Sokra",
+        "start_date": "Octobre 2025",
+        "end_date": "Mars 2026",
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement de plus de 4 projets web clients via la stack MERN, avec interfaces responsives et expérience utilisateur soignée",
+          "Intégration d'APIs et création de solutions Word Press et React/Node.js adaptées aux besoins de chaque client"
+        ]
+      },
+      {
+        "job_title": "Développeur Web",
+        "company": "SEBN",
+        "start_date": "Septembre 2024",
+        "end_date": "Septembre 2025",
+        "city": "Fejja, Mornaguia",
+        "responsibilities": [
+          "Développement et maintenance d'interfaces React responsives, avec compatibilité multi-navigateurs assurée",
+          "Développement de routes API REST côté Node.js/Express et intégration côté React pour alimenter plusieurs types d'interfaces (dashboards, formulaires, pages de gestion)"
+        ]
+      },
+      {
+        "job_title": "Stagiaire",
+        "company": "Banque Tunisienne de Solidarité",
+        "start_date": "Février 2024",
+        "end_date": "Mai 2024",
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement d'une plateforme full stack multi-rôles (admin, fournisseur, client) en environnement bancaire réglementé, avec gestion des accès par rôle et protection des flux sensibles"
+        ]
+      },
+      {
+        "job_title": "Stagiaire",
+        "company": "Laboratoire Teriak",
+        "start_date": "Juillet 2022",
+        "end_date": "Août 2022",
+        "city": "Jebel Ouest, Zaghouan",
+        "responsibilities": [
+          "Développement d'une plateforme full stack de gestion des analyses cliniques pour Laboratoire Teriak"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingénierie en Informatique",
+        "school": "Université des Sciences Numériques TEK-UP",
+        "year": null
+      },
+      {
+        "degree": "Licence en Génie Logiciel",
+        "school": "Institut supérieur des sciences appliquées et de la technologie de Mateur",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat Informatique",
+        "school": "Lycée Farabi Mornaguia",
+        "year": "2021-2024"
+      },
+      {
+        "degree": "Diplôme en Création Web",
+        "school": "Meshkat Education",
+        "year": null
+      },
+      {
+        "degree": "Diplôme en Javascript",
+        "school": "Meshkat Education",
+        "year": null
+      },
+      {
+        "degree": "Diplôme en Framework React",
+        "school": "DYMA",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T18:10:33.917145+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9715,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

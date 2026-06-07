@@ -1,0 +1,210 @@
+## HEADER
+
+Mariem Hajji
+Ingénieure en informatique
+mariemhajji 099@gmail. com
+Av. Louis Braille 1003 Cité-El-Khadhra 
+https://www. linkedin. com/in/mariemhajji-6684661 b 6/
+Tunisienne
+Télétravail ou présentiel 
+Célibataire
+
+## TECHNICAL SKILLS
+
+Compétences
+Langages de programmation
+Java Script, Python, PHP
+Développement web
+HTML, CSS, JS, React. js, Next. js, Node. js
+API & Architecture
+REST API, JSON, Architecture microservices
+Systèmes d'exploitation
+Frameworks
+React. js, Laravel, SCRUM, Flask, Express. js
+Logiciels
+VS Code, Power BI Desktop, Swagger UI, Docker Desktop, SWI-Prolog, Mongo DB Compass, Oracle, Trello, Figma, Jupyter Notebook, Web Storm, Xtensio, Android Studio, XAMPP, Brackets, Oracle VM Virtual Box, and Git Hub
+Stocker les données de l'application dans le Cloud privé de l'entreprise en utilisant le serveur NGINX .
+Bureautique
+Documenter les bonnes pratiques pour la configuration et l'utilisation de l'application sur Github .
+Implémenter des tests unitaires pour les composants de
+l'application avec React Testing Library .
+Implémenter des opérations CRUD pour la gestion des données utilisateurs.
+Adopter les pratiques Dev Ops en configurant des pipelines CI/CD dans Jenkins pour automatiser les tests, la compilation et le déploiement de l'application.
+Intégrer des fonctionnalités d'intelligence artificielle, incluant :
+L'ajout de prédictions basées sur les techniques de word embedding .
+Langages : React Js, Node Js, Python, Mongo DB ,Express JS. Outils : Vs Code, figma, Giltab, Github, Swagger, Jenkins.
+Stage d'été 2: Développer le backend d'une application web pour l'association ARSII
+D'août 2023 à septembre 2023 Association ARSII Sousse
+Maîtriser les principes fondamentaux de Git.
+Développer le serveur backend de l'application avec Spring
+Boot .
+Tester des API REST avec Swagger .
+Implémenter de systèmes d'authentification sécurisés ( JWT , login/signup)
+:Spring Boot
+Langage
+:Intellij, Swagger, Git, My SQL
+Outils
+
+## PROFESSIONAL EXPERIENCE
+
+Expériences professionnelles
+Enseignante
+### D'octobre 2025 à février 2026 Collége La Salle Tunis, TU, Tunisia
+- Rédiger les rapports journaliers
+- Animer les séances de cours
+### Préparer des supports numériques et interactifs (cours, exercices)
+**Date:** Date:25/08/2023 Autorité de
+**Location:** Mac OS, Linux, Windows
+- Participer aux événements internes et à la vie de l'établissement
+- Élaborer des plans de cours
+- Stage PFE: Conception et développement de l'application Midad
+- De février 2024 à juillet 2024 Smooth Algo Sousse
+- Concevoir l'architecture de l'application à l'aide des diagrammes UML crées sur draw. io.
+- Implémenter d' API REST sécurisés.
+Développer l'interface utilisateur avec React. js , le serveur backend avec Node. js, et implémenter les fonctionnalités d'intelligence artificielle en Python .
+**Date:** Date:04/08/2023 Autorité de
+**Location:** Excel, Power-Point, Word
+- Expériences professionnelles
+
+## EDUCATION
+
+Diplômes et Formations
+Diplôme ingénieur en informatique
+Diplôme Technicien Supérieur en électronique
+De septembre 2019 à juin 2021 ISSAT Kairouan
+L'auto-complétion des messages, proposant des réponses en fonction de la saisie initial.
+- Baccaulauréat en Mathématiques
+- De septembre 2018 à juin 2019 IBN KHALDOUN OUESLATIA-KAIROUAN
+- Attestation de fin de formation en
+- Stage d'été 1:Réaliser une plateforme de location de voitures
+- Professional Diploma in Agile and Scrum
+- en ligne
+- certification:Udemy
+- De juillet 2023 à août 2023 LAB-IT Sousse
+- Développer l'interface utilisateur avec
+### , le serveur
+**Date:** Née le 31/05/1999
+- React. js
+- Certificat d'accomplissement en "What is
+- backend avec
+- Laravel.
+- Generative AI?"
+- Configurer une base de données
+- pour le suivi des
+- My SQL
+- utilisateurs et des voitures.
+- certification:National Association of State Boards
+- Utiliser
+### pour tester, documenter et automatiser les
+**Date:** Date:13/02/2025 Autorité de
+- Postman
+- of Accountancy(NASBA)-Linkedln Learning
+- tests des API.
+- Certificat de participation en design thinking
+### :React Js ,Laravel, MYSQL
+- Langages
+### :Vs Code, Postman
+**Date:** Date:09/10/2024 Autorité de
+- Outils
+- certification:Open Learn
+- Stage d'été:Assurer la maintenance préventive et corrective
+- Certificat d'appréciation en 2 Fast coding
+- des systèmes
+- challenge
+- D'août 2019 à septembre 2019 SONEM KSAR LEMSA KAIROUAN
+- Date:29/11/2023 Autorité de certification:EPI
+- Opérater de maintenance préventive.
+- Copro- Go My Code
+- Mettre à jour des systèmes de suivi de maintenance.
+- Certificat d'appréciation en JAVA
+- Traiter des dysfonctionnements et des pannes.
+- certification:Association Jeunes et Sciences
+- Certificat de participation Linkedln Prodigy
+- Attestation de fin de formation en CCNAv 7
+- Date:16/12/2021 Autorité de certification:Cisco
+- Networking Academy
+- Centres d'intérêt
+- Lecture
+- Psychologie
+### :Vs Code, Jupyter Notebook, Mongo Db Compass, Postman
+**Date:** De septembre 2021 à juin 2024 EPI Sousse
+- Des activités bénévoles
+- DIVERS
+- Vie associative
+- Ancienne Secrétaire Générale du Club
+- COPRO à l'EPI.
+- Projet 7:Développer et concevoir une application de gestion de
+- Ancienne Présidente du Club du Croissant
+- Rouge à l'EPI.
+### VS Code, Git, Git Hub, Postman, Mongo DB Compass
+
+## LANGUAGES
+
+Langues
+Anglais
+Professionnel(lu, écrit, parlé)
+Français
+Niveau intermédiaire
+Arabe
+Maternelle
+
+## CERTIFICATES (IN PROGRESS)
+
+CERTIFICATIONS
+
+## ACADEMIC PROJECTS
+
+Projets réalisés
+certification:Wee Code
+Projet 1: Créer une application pour gérer les bibliothèques en
+Certificat de participation à la compétition
+ligne
+Nuit de l'info
+
+## : C
+
+Langage
+Date:15/12/2022 Autorité de certification:EPI
+:DEV-C++
+Outil
+Certificat de participation à la compétition
+Projet 2: Développer une solution web de coaching santé : Health
+Hash Code
+Coaching
+Date:24/02/2022 Autorité de certification:EPI
+
+## :HTML, CSS, BOOTSTRAP, JS .
+
+Langages
+:Vs Code
+Outil
+Projet 3: Développer un portfolio professionnel en ligne
+: React JS, PHP
+Langage
+:Vs Code
+Outil
+Projet 4 (PFA) : Créer une plateforme d'apprentissage en
+ligne:Ma & Ma
+: React, Python et Node Js.
+Langages
+Outils
+Projet 5:Développer une application mobile de chat familial
+: Java
+Langage
+: Android Studio
+Outil
+Projet 6:Développer une plateforme Home Stay
+:Java(Maven)
+Langage
+:Eclipse
+Outil
+tâches
+:React JS, Vite
+Langages
+:Vs Code, Git, Git Hub
+Outils
+Projet 8: Développer une plateforme de blog dynamique-
+Mayma Blog
+: React. js, Tailwind CSS, Node. js, Express. js
+Langages
+Outils

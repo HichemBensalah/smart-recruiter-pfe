@@ -1,0 +1,118 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\souleima_zammit_23032948.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\souleima_zammit_23032948.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\souleima_zammit_23032948.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "souleima ZAMMIT",
+      "email": "zammitsouleima2@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "PHP",
+        "Symfony",
+        "Laravel",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "UML",
+        "Postman"
+      ],
+      "soft_skills": [
+        "Proposition de solutions techniques",
+        "Estimation des charges de travail",
+        "Développement et tests des APIs",
+        "Suivi de la performance et résolution des bugs en production",
+        "Formation du client à la prise en main de l'administration Word Press"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "septembre 2021",
+        "end_date": "novembre 2024",
+        "city": "Tunis, Nabeul, Beni Khiar",
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "septembre 2018",
+        "end_date": "juin 2021",
+        "city": null,
+        "responsibilities": [
+          "Conception et réalisation d'un site web (Font-end, Back-end) e-commerce «Affar»"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "septembre 2025",
+        "end_date": null,
+        "city": "Nabeul, NB, Tunisia",
+        "responsibilities": [
+          "Développement et Suivi d'applications E-SCHOOL et de site web Mansour"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "août 2025",
+        "end_date": "octobre 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement et mise en ligne d'un site vitrine avec Word Press"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "mai 2025",
+        "end_date": "juillet 2025",
+        "city": null,
+        "responsibilities": [
+          "Migration complète du site adquality.fr de Wix vers Word Press"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingénieur en Génie logiciel",
+        "school": "Tek-up university Tunis",
+        "year": "septembre 2021 - novembre 2024"
+      },
+      {
+        "degree": "Licence appliquée en informatique",
+        "school": "Institut supérieur des mathématiques appliquées et de l'informatique Kairouan",
+        "year": "septembre 2013 - juin 2018"
+      },
+      {
+        "degree": "Développeur web",
+        "school": "Ecole mansour modern school",
+        "year": "septembre 2025 - présent"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:47:26.344815+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6723,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

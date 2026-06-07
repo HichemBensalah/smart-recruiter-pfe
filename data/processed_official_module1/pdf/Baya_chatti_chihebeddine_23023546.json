@@ -1,0 +1,3831 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Baya_chatti_chihebeddine_23023546.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nBAYA CHATTI CHIHEB EDDINE\nIngénieur en Informatique\nLinkedIn: www.linkedin.com/in/chihebeddine-baya-chatti\nTel: +216 24 611 837 | Email: chattichiheb35@gmail.com | GitHub: github.com/chiheb2000\nIngénieur en informatique spécialisé en Intelligence Artificielle et Science des Données. Passionné et rigoureux, j’applique\nmes compétences dans le développement de solutions intelligentes et l’analyse de données complexes.\nEXPÉRIENCES PROFESSIONNELLES\nIngénieur IA et Data\n07/2025 – 03/2026\nBNS Engineering, Tunis\n• Client 4 : RSU (Rapport Social Unique)\nProjet : Génération et exécution de requêtes SQL à partir du langage naturel\n– Conception et développement d’un assistant permettant de transformer des requêtes formulées en langage\nnaturel en requêtes SQL exploitables par la base de données.\n– Mise en place d’un mécanisme de validation et de sécurisation des requêtes générées afin d’assurer leur\nconformité avec le schéma de la base et éviter les opérations non autorisées.\n– Exécution automatique des requêtes générées et restitution des résultats sous forme de tableaux exploitables\npour l’analyse.\n– Techniques et technologies utilisées : Python, LLM,Prompt Engineering,Groq, SQL, PostgreSQL,\nFastAPI,Docker .\n• Client 3 : FTUSA (La Fédération Tunisienne des Sociétés d’Assurances )\n– Tâche 1 : Assistant IA de génération et gestion des e-mails assurantiels\n* Analyse du contexte métier assurantiel et identification des typologies d’e-mails (Urgent, Support,\nEDUCATION\n* Conception d’un pipeline de traitement des e-mails : nettoyage, normalisation et extraction des\n* Développement d’un assistant IA basé sur des LLM avec un flux en deux étapes :\n· Classification automatique des e-mails entrants selon les catégories métier assurantielles.\n· Génération de réponses automatiques adaptées à chaque catégorie, en tenant compte du contexte,\ndes règles métier et des contraintes de confidentialité, via un moteur de Prompt Engineering.\n* Mise en place de contrôles qualité (cohérence des catégories, pertinence des réponses générées) et\nstockage des résultats dans une base de données relationnelle pour le suivi, l’audit et l’analyse.\n* Techniques et technologies utilisées : Python, LLM, Prompt Engineering, Groq,NLP, PostgreSQL,\nFastApi, Docker.\n– Tâche 2 : Générateur automatique de graphiques pour l’aide à la décision\n* Analyse des besoins métier en reporting et visualisation des données assurantielles.\n* Conception d’un moteur de génération automatique de graphiques à partir de requêtes en langage naturel.\n* Développement d’interfaces interactives sous Streamlit pour l’exploration des données, la génération de\ngraphiques et l’export des résultats.\n* Techniques et technologies utilisées : Python, pandas,Matplotlib, PostgreSQL,LLM, Streamlit, Docker.\n• Client 2 : ARABOSAI\nProjet : OCR Pipeline Multi-Documents — Extraction et Qualité des Données\n– Développement d’un pipeline OCR en Python pour traiter PDF, images et fichiers bureautiques.\n– Prétraitement des images avec OpenCV pour améliorer l’extraction de texte.\n– Création d’une API FastAPI pour automatiser le traitement des documents.\n– Intégration de MinIO et PostgreSQL pour le stockage et la gestion des résultats.\n– Mise en place de règles de nettoyage et validation des données extraites.\n– Techniques et technologies utilisées : Python, EasyOCR, OpenCV, FastAPI, MinIO, PostgreSQL , Docker\n• Client 1 : Douane du Cameroun\n– Contrôle qualité, normalisation et structuration des données.\n– Préparation de datasets pour l’analyse, la visualisation et le reporting BI.\n– Contribution à la création et au test de modèles IA pour l’exploitation des données.\n– Techniques et technologies utilisées : Python, SQL, ETL, Data Cleaning, Power BI, Machine Learning.\nStage de Fin d’Études\n03/02/2025 – 30/06/2025\nBNS Engineering, Tunis\n• Conception d’un système intelligent de détection de fraudes dans les transactions douanières.\n• Développement de deux modèles XGBoost : l’un pour la détection des fraudes , l’autre pour la classification du type\nde fraude .\n• Intégration d’un modèle LLM (LLaMA 3 – 8B) pour analyser les déclarations frauduleuses et générer\nautomatiquement des règles explicatives en Drools.\n• Déploiement complet sous forme d’une application web avec Streamlit, incluant une base de données, un moteur\nde règles, et un historique d’analyses.\n• Mots-clés : XGBoost,LLM, LLaMA 3,Prompt engineering, Drools, Python, Streamlit, PostgreSQL.\nStagiaire en Intelligence Artificielle\n05/08/2024 – 10/09/2024\nDunDill, Sousse, Tunisie\n• Développé un modèle de machine learning pour l’identification de personnes basé sur des variations\northographiques des noms et prénoms, utilisant des algorithmes comme SVM , Arbre de Décision et XGBoost.\n• Utilisation des techniques de traitement phonétique (Soundex).\n• Développement d’une interface interactive avec Streamlit pour la vérification et la prédiction en temps réel.\n• Mots-clés: Python, Streamlit, SVM , Arbre de Décision, XGBoost, Soundex, Traitement phonétique, MLOps.\nStagiaire en Intelligence Artificielle\n01/07/2024 – 31/07/2024\nEnova Robotics, Sousse, Tunisie\n• Développement d’une interface basée sur un Large Language Model (LLM) pour optimiser les processus internes\ndes ressources humaines.\n• Génération de postes de recrutement en utilisant la technique de Prompt Engineering.\nPROFESSIONAL SUMMARY\n• Mots-clés: Python, Streamlit, LangChain, Hugging Face,LLM, Prompt Engineering, RAG, Selenium, BeautifulSoup.\nStage de Fin d’Études\n05/02/2022 – 30/05/2022\nChaaben Technology Group, Sousse, Tunisie\n• Développement d’une application cross-plateforme pour la gestion des parkings.\n• Permet la gestion en temps réel des réservations et fournit des statistiques sur les parkings.\n• Un système embarqué qui sera monté dans le parking à gérer.\n• Mots-clés: HTML5 , CSS3 , JavaScript , ExpressJs , NodeJs , MongoDB , C++ , Cordova\nPROJETS PERSONNELS\nReconnaissance de l’alphabet ASL\n11/2024\n• Conception d’un système de reconnaissance des lettres de la langue des signes (ASL) basé sur plusieurs\narchitectures CNN et YOLO.\n• Utilisation de modèles pré-entraînés avec fine-tuning afin d’améliorer la précision du modèle.\n• Implémentation d’un pipeline de reconnaissance en temps réel basé sur Computer Vision.\n• Mots-clés : Python, PyTorch, TensorFlow, CNN, YOLO, Transfer Learning, Fine-tuning, Computer Vision.\nChatbot Psychologique basé sur LLM\n10/2024\n• Développement d’un chatbot d’assistance psychologique basé sur des Large Language Models (LLM).\n• Implémentation d’une architecture RAG utilisant une base de conversations psychologue–patient pour améliorer les\nréponses.\n• Déploiement du chatbot dans une interface web interactive avec Streamlit.\n• Mots-clés : Python, NLP, LLM, RAG, Hugging Face, LangChain, Streamlit.\nSystème avancé de détection d’incendie par IA (SDIA)\n02/2024 – 04/2024\n• Développement d’un modèle en temps réel pour la détection d’incendies utilisant YOLOv8 et OpenCV.\n• Utilisation de SVM et Arbres de Décision pour classifier les images en catégories : feu, fumée, sans incendie.\n• Mots-clés: Python, scikit-learn, SVM, Arbres de Décision, YOLO, OpenCV, Vision par ordinateur.\nPARCOURS SCOLAIRE\nDiplôme National d’Ingénieur en Informatique\nSept. 2022 – juill. 2025\nEpi Digital School Sahloul, Sousse, Tunisie\nLicence appliquée en Télécommunication\nSept. 2019 – juill. 2022\nISITCOM Hammem-Sousse, Tunisie\nBaccalauréat spécialité Mathématiques\nSept. 2018 – juill. 2019\nLycée Farhat Hached M’saken, Tunisie\nCERTIFICATIONS\n• Fondamentaux de l’apprentissage profond par NVIDIA\n15 sept. 2024\n• Applications de l’IA pour la maintenance prédictive par NVIDIA\n14 sept. 2024\n• Applications NLP basées sur les transformateurs par NVIDIA\n13 sept. 2024\n• IA générative par Microsoft et LinkedIn\n30 juin 2024\nCOMPÉTENCES\n• Intelligence Artificielle et Science des Données : Machine Learning, Deep Learning, Computer Vision, Large\nLanguage Models (LLM), Prompt Engineering, NLP, Data Visualization, Power BI\n• Langages de Programmation: Python, Java, C/C++, JavaScript, PHP\n• Frameworks Web et Mobile: FastAPI , ReactJS, React Native, Node.js, ExpressJS, HTML, CSS\n• Bases de Données: MySQL, MongoDB , PostgreSQL\n• Big Data: Hadoop , Spark\nLANGUES\n• Français : Professionnel\n• Anglais : Intermédiaire\n• Arabe : Langue maternelle",
+  "markdown": "## BAYA CHATTI CHIHEB EDDINE\n\nIngénieur en Informatique\nLinked In: www. linkedin. com/in/chihebeddine-baya-chatti\nTel: +216 24 611 837 | Email: chattichiheb 35@gmail. com | Git Hub: github. com/chiheb 2000\nIngénieur en informatique spécialisé en Intelligence Artificielle et Science des Données. Passionné et rigoureux, j’applique\nmes compétences dans le développement de solutions intelligentes et l’analyse de données complexes.\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nIngénieur IA et Data\nBNS Engineering, Tunis\n• Client 4 : RSU (Rapport Social Unique)\nProjet : Génération et exécution de requêtes SQL à partir du langage naturel\n– Conception et développement d’un assistant permettant de transformer des requêtes formulées en langage\nnaturel en requêtes SQL exploitables par la base de données.\n– Mise en place d’un mécanisme de validation et de sécurisation des requêtes générées afin d’assurer leur\nconformité avec le schéma de la base et éviter les opérations non autorisées.\n– Exécution automatique des requêtes générées et restitution des résultats sous forme de tableaux exploitables\npour l’analyse.\n– Techniques et technologies utilisées : Python, LLM, Prompt Engineering, Groq, SQL, Postgre SQL,\nFast API, Docker .\n• Client 3 : FTUSA (La Fédération Tunisienne des Sociétés d’Assurances )\n– Tâche 1 : Assistant IA de génération et gestion des e-mails assurantiels\n* Analyse du contexte métier assurantiel et identification des typologies d’e-mails (Urgent, Support,\n\n## EDUCATION\n\n* Conception d’un pipeline de traitement des e-mails : nettoyage, normalisation et extraction des\n* Développement d’un assistant IA basé sur des LLM avec un flux en deux étapes :\n· Classification automatique des e-mails entrants selon les catégories métier assurantielles.\n· Génération de réponses automatiques adaptées à chaque catégorie, en tenant compte du contexte,\ndes règles métier et des contraintes de confidentialité, via un moteur de Prompt Engineering.\n* Mise en place de contrôles qualité (cohérence des catégories, pertinence des réponses générées) et\nstockage des résultats dans une base de données relationnelle pour le suivi, l’audit et l’analyse.\n* Techniques et technologies utilisées : Python, LLM, Prompt Engineering, Groq, NLP, Postgre SQL,\nFast Api, Docker.\n– Tâche 2 : Générateur automatique de graphiques pour l’aide à la décision\n* Analyse des besoins métier en reporting et visualisation des données assurantielles.\n* Conception d’un moteur de génération automatique de graphiques à partir de requêtes en langage naturel.\n* Développement d’interfaces interactives sous Streamlit pour l’exploration des données, la génération de\ngraphiques et l’export des résultats.\n* Techniques et technologies utilisées : Python, pandas, Matplotlib, Postgre SQL, LLM, Streamlit, Docker.\n• Client 2 : ARABOSAI\nProjet : OCR Pipeline Multi-Documents — Extraction et Qualité des Données\n– Développement d’un pipeline OCR en Python pour traiter PDF, images et fichiers bureautiques.\n– Prétraitement des images avec Open CV pour améliorer l’extraction de texte.\n– Création d’une API Fast API pour automatiser le traitement des documents.\n– Intégration de Min IO et Postgre SQL pour le stockage et la gestion des résultats.\n– Mise en place de règles de nettoyage et validation des données extraites.\n– Techniques et technologies utilisées : Python, Easy OCR, Open CV, Fast API, Min IO, Postgre SQL , Docker\n• Client 1 : Douane du Cameroun\n– Contrôle qualité, normalisation et structuration des données.\n– Préparation de datasets pour l’analyse, la visualisation et le reporting BI.\n– Contribution à la création et au test de modèles IA pour l’exploitation des données.\n– Techniques et technologies utilisées : Python, SQL, ETL, Data Cleaning, Power BI, Machine Learning.\nStage de Fin d’Études\n03/02/2025 – 30/06/2025\nBNS Engineering, Tunis\n• Conception d’un système intelligent de détection de fraudes dans les transactions douanières.\n• Développement de deux modèles XGBoost : l’un pour la détection des fraudes , l’autre pour la classification du type\nde fraude .\n• Intégration d’un modèle LLM (LLa MA 3 – 8 B) pour analyser les déclarations frauduleuses et générer\nautomatiquement des règles explicatives en Drools.\n• Déploiement complet sous forme d’une application web avec Streamlit, incluant une base de données, un moteur\nde règles, et un historique d’analyses.\n• Mots-clés : XGBoost, LLM, LLa MA 3, Prompt engineering, Drools, Python, Streamlit, Postgre SQL.\nStagiaire en Intelligence Artificielle\n05/08/2024 – 10/09/2024\nDun Dill, Sousse, Tunisie\n• Développé un modèle de machine learning pour l’identification de personnes basé sur des variations\northographiques des noms et prénoms, utilisant des algorithmes comme SVM , Arbre de Décision et XGBoost.\n• Utilisation des techniques de traitement phonétique (Soundex).\n• Développement d’une interface interactive avec Streamlit pour la vérification et la prédiction en temps réel.\n• Mots-clés: Python, Streamlit, SVM , Arbre de Décision, XGBoost, Soundex, Traitement phonétique, MLOps.\nStagiaire en Intelligence Artificielle\n01/07/2024 – 31/07/2024\nEnova Robotics, Sousse, Tunisie\n• Développement d’une interface basée sur un Large Language Model (LLM) pour optimiser les processus internes\ndes ressources humaines.\n• Génération de postes de recrutement en utilisant la technique de Prompt Engineering.\n\n## PROFESSIONAL SUMMARY\n\n• Mots-clés: Python, Streamlit, Lang Chain, Hugging Face, LLM, Prompt Engineering, RAG, Selenium, Beautiful Soup.\nStage de Fin d’Études\n05/02/2022 – 30/05/2022\nChaaben Technology Group, Sousse, Tunisie\n• Développement d’une application cross-plateforme pour la gestion des parkings.\n• Permet la gestion en temps réel des réservations et fournit des statistiques sur les parkings.\n• Un système embarqué qui sera monté dans le parking à gérer.\n• Mots-clés: HTML 5 , CSS 3 , Java Script , Express Js , Node Js , Mongo DB , C++ , Cordova\n\n## PROJETS PERSONNELS\n\nReconnaissance de l’alphabet ASL\n• Conception d’un système de reconnaissance des lettres de la langue des signes (ASL) basé sur plusieurs\narchitectures CNN et YOLO.\n• Utilisation de modèles pré-entraînés avec fine-tuning afin d’améliorer la précision du modèle.\n• Implémentation d’un pipeline de reconnaissance en temps réel basé sur Computer Vision.\n• Mots-clés : Python, Py Torch, Tensor Flow, CNN, YOLO, Transfer Learning, Fine-tuning, Computer Vision.\nChatbot Psychologique basé sur LLM\n• Développement d’un chatbot d’assistance psychologique basé sur des Large Language Models (LLM).\n• Implémentation d’une architecture RAG utilisant une base de conversations psychologue–patient pour améliorer les\nréponses.\n• Déploiement du chatbot dans une interface web interactive avec Streamlit.\n• Mots-clés : Python, NLP, LLM, RAG, Hugging Face, Lang Chain, Streamlit.\nSystème avancé de détection d’incendie par IA (SDIA)\n• Développement d’un modèle en temps réel pour la détection d’incendies utilisant YOLOv 8 et Open CV.\n• Utilisation de SVM et Arbres de Décision pour classifier les images en catégories : feu, fumée, sans incendie.\n• Mots-clés: Python, scikit-learn, SVM, Arbres de Décision, YOLO, Open CV, Vision par ordinateur.\n\n## PARCOURS SCOLAIRE\n\nDiplôme National d’Ingénieur en Informatique\nSept. 2022 – juill. 2025\nEpi Digital School Sahloul, Sousse, Tunisie\nLicence appliquée en Télécommunication\nSept. 2019 – juill. 2022\nISITCOM Hammem-Sousse, Tunisie\nBaccalauréat spécialité Mathématiques\nSept. 2018 – juill. 2019\nLycée Farhat Hached M’saken, Tunisie\n\n## CERTIFICATIONS\n\n• Fondamentaux de l’apprentissage profond par NVIDIA\n15 sept. 2024\n• Applications de l’IA pour la maintenance prédictive par NVIDIA\n14 sept. 2024\n• Applications NLP basées sur les transformateurs par NVIDIA\n13 sept. 2024\n• IA générative par Microsoft et Linked In\n30 juin 2024\n\n## COMPÉTENCES\n\n• Intelligence Artificielle et Science des Données : Machine Learning, Deep Learning, Computer Vision, Large\nLanguage Models (LLM), Prompt Engineering, NLP, Data Visualization, Power BI\n• Langages de Programmation: Python, Java, C/C++, Java Script, PHP\n• Frameworks Web et Mobile: Fast API , React JS, React Native, Node. js, Express JS, HTML, CSS\n• Bases de Données: My SQL, Mongo DB , Postgre SQL\n• Big Data: Hadoop , Spark\n\n## LANGUES\n\n• Français : Professionnel\n• Anglais : Intermédiaire\n• Arabe : Langue maternelle",
+  "logical_sections": [
+    {
+      "title": "BAYA CHATTI CHIHEB EDDINE",
+      "section_type": "other",
+      "content": [
+        "Ingénieur en Informatique",
+        "LinkedIn: www.linkedin.com/in/chihebeddine-baya-chatti",
+        "Tel: +216 24 611 837 | Email: chattichiheb35@gmail.com | GitHub: github.com/chiheb2000",
+        "Ingénieur en informatique spécialisé en Intelligence Artificielle et Science des Données. Passionné et rigoureux, j’applique",
+        "mes compétences dans le développement de solutions intelligentes et l’analyse de données complexes."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ingénieur en Informatique",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 1.0,
+            "right": 0.0,
+            "bottom": 1.0
+          },
+          "section_title": "BAYA CHATTI CHIHEB EDDINE"
+        },
+        {
+          "text": "LinkedIn: www.linkedin.com/in/chihebeddine-baya-chatti",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 2.0,
+            "right": 0.0,
+            "bottom": 2.0
+          },
+          "section_title": "BAYA CHATTI CHIHEB EDDINE"
+        },
+        {
+          "text": "Tel: +216 24 611 837 | Email: chattichiheb35@gmail.com | GitHub: github.com/chiheb2000",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 3.0,
+            "right": 0.0,
+            "bottom": 3.0
+          },
+          "section_title": "BAYA CHATTI CHIHEB EDDINE"
+        },
+        {
+          "text": "Ingénieur en informatique spécialisé en Intelligence Artificielle et Science des Données. Passionné et rigoureux, j’applique",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 4.0,
+            "right": 0.0,
+            "bottom": 4.0
+          },
+          "section_title": "BAYA CHATTI CHIHEB EDDINE"
+        },
+        {
+          "text": "mes compétences dans le développement de solutions intelligentes et l’analyse de données complexes.",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 5.0,
+            "right": 0.0,
+            "bottom": 5.0
+          },
+          "section_title": "BAYA CHATTI CHIHEB EDDINE"
+        }
+      ]
+    },
+    {
+      "title": "EXPÉRIENCES PROFESSIONNELLES",
+      "section_type": "other",
+      "content": [
+        "Ingénieur IA et Data",
+        "07/2025 – 03/2026",
+        "BNS Engineering, Tunis",
+        "• Client 4 : RSU (Rapport Social Unique)",
+        "Projet : Génération et exécution de requêtes SQL à partir du langage naturel",
+        "– Conception et développement d’un assistant permettant de transformer des requêtes formulées en langage",
+        "naturel en requêtes SQL exploitables par la base de données.",
+        "– Mise en place d’un mécanisme de validation et de sécurisation des requêtes générées afin d’assurer leur",
+        "conformité avec le schéma de la base et éviter les opérations non autorisées.",
+        "– Exécution automatique des requêtes générées et restitution des résultats sous forme de tableaux exploitables",
+        "pour l’analyse.",
+        "– Techniques et technologies utilisées : Python, LLM,Prompt Engineering,Groq, SQL, PostgreSQL,",
+        "FastAPI,Docker .",
+        "• Client 3 : FTUSA (La Fédération Tunisienne des Sociétés d’Assurances )",
+        "– Tâche 1 : Assistant IA de génération et gestion des e-mails assurantiels",
+        "* Analyse du contexte métier assurantiel et identification des typologies d’e-mails (Urgent, Support,"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ingénieur IA et Data",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 7.0,
+            "right": 0.0,
+            "bottom": 7.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "07/2025 – 03/2026",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 8.0,
+            "right": 0.0,
+            "bottom": 8.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "BNS Engineering, Tunis",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 9.0,
+            "right": 0.0,
+            "bottom": 9.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "• Client 4 : RSU (Rapport Social Unique)",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 10.0,
+            "right": 0.0,
+            "bottom": 10.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "Projet : Génération et exécution de requêtes SQL à partir du langage naturel",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 11.0,
+            "right": 0.0,
+            "bottom": 11.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "– Conception et développement d’un assistant permettant de transformer des requêtes formulées en langage",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 12.0,
+            "right": 0.0,
+            "bottom": 12.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "naturel en requêtes SQL exploitables par la base de données.",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 13.0,
+            "right": 0.0,
+            "bottom": 13.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "– Mise en place d’un mécanisme de validation et de sécurisation des requêtes générées afin d’assurer leur",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 14.0,
+            "right": 0.0,
+            "bottom": 14.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "conformité avec le schéma de la base et éviter les opérations non autorisées.",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 15.0,
+            "right": 0.0,
+            "bottom": 15.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "– Exécution automatique des requêtes générées et restitution des résultats sous forme de tableaux exploitables",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 16.0,
+            "right": 0.0,
+            "bottom": 16.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "pour l’analyse.",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 17.0,
+            "right": 0.0,
+            "bottom": 17.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "– Techniques et technologies utilisées : Python, LLM,Prompt Engineering,Groq, SQL, PostgreSQL,",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 18.0,
+            "right": 0.0,
+            "bottom": 18.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "FastAPI,Docker .",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 19.0,
+            "right": 0.0,
+            "bottom": 19.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "• Client 3 : FTUSA (La Fédération Tunisienne des Sociétés d’Assurances )",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 20.0,
+            "right": 0.0,
+            "bottom": 20.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "– Tâche 1 : Assistant IA de génération et gestion des e-mails assurantiels",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 21.0,
+            "right": 0.0,
+            "bottom": 21.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "* Analyse du contexte métier assurantiel et identification des typologies d’e-mails (Urgent, Support,",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 22.0,
+            "right": 0.0,
+            "bottom": 22.0
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [
+        "* Conception d’un pipeline de traitement des e-mails : nettoyage, normalisation et extraction des",
+        "* Développement d’un assistant IA basé sur des LLM avec un flux en deux étapes :",
+        "· Classification automatique des e-mails entrants selon les catégories métier assurantielles.",
+        "· Génération de réponses automatiques adaptées à chaque catégorie, en tenant compte du contexte,",
+        "des règles métier et des contraintes de confidentialité, via un moteur de Prompt Engineering.",
+        "* Mise en place de contrôles qualité (cohérence des catégories, pertinence des réponses générées) et",
+        "stockage des résultats dans une base de données relationnelle pour le suivi, l’audit et l’analyse.",
+        "* Techniques et technologies utilisées : Python, LLM, Prompt Engineering, Groq,NLP, PostgreSQL,",
+        "FastApi, Docker.",
+        "– Tâche 2 : Générateur automatique de graphiques pour l’aide à la décision",
+        "* Analyse des besoins métier en reporting et visualisation des données assurantielles.",
+        "* Conception d’un moteur de génération automatique de graphiques à partir de requêtes en langage naturel.",
+        "* Développement d’interfaces interactives sous Streamlit pour l’exploration des données, la génération de",
+        "graphiques et l’export des résultats.",
+        "* Techniques et technologies utilisées : Python, pandas,Matplotlib, PostgreSQL,LLM, Streamlit, Docker.",
+        "• Client 2 : ARABOSAI",
+        "Projet : OCR Pipeline Multi-Documents — Extraction et Qualité des Données",
+        "– Développement d’un pipeline OCR en Python pour traiter PDF, images et fichiers bureautiques.",
+        "– Prétraitement des images avec OpenCV pour améliorer l’extraction de texte.",
+        "– Création d’une API FastAPI pour automatiser le traitement des documents.",
+        "– Intégration de MinIO et PostgreSQL pour le stockage et la gestion des résultats.",
+        "– Mise en place de règles de nettoyage et validation des données extraites.",
+        "– Techniques et technologies utilisées : Python, EasyOCR, OpenCV, FastAPI, MinIO, PostgreSQL , Docker",
+        "• Client 1 : Douane du Cameroun",
+        "– Contrôle qualité, normalisation et structuration des données.",
+        "– Préparation de datasets pour l’analyse, la visualisation et le reporting BI.",
+        "– Contribution à la création et au test de modèles IA pour l’exploitation des données.",
+        "– Techniques et technologies utilisées : Python, SQL, ETL, Data Cleaning, Power BI, Machine Learning.",
+        "Stage de Fin d’Études",
+        "03/02/2025 – 30/06/2025",
+        "BNS Engineering, Tunis",
+        "• Conception d’un système intelligent de détection de fraudes dans les transactions douanières.",
+        "• Développement de deux modèles XGBoost : l’un pour la détection des fraudes , l’autre pour la classification du type",
+        "de fraude .",
+        "• Intégration d’un modèle LLM (LLaMA 3 – 8B) pour analyser les déclarations frauduleuses et générer",
+        "automatiquement des règles explicatives en Drools.",
+        "• Déploiement complet sous forme d’une application web avec Streamlit, incluant une base de données, un moteur",
+        "de règles, et un historique d’analyses.",
+        "• Mots-clés : XGBoost,LLM, LLaMA 3,Prompt engineering, Drools, Python, Streamlit, PostgreSQL.",
+        "Stagiaire en Intelligence Artificielle",
+        "05/08/2024 – 10/09/2024",
+        "DunDill, Sousse, Tunisie",
+        "• Développé un modèle de machine learning pour l’identification de personnes basé sur des variations",
+        "orthographiques des noms et prénoms, utilisant des algorithmes comme SVM , Arbre de Décision et XGBoost.",
+        "• Utilisation des techniques de traitement phonétique (Soundex).",
+        "• Développement d’une interface interactive avec Streamlit pour la vérification et la prédiction en temps réel.",
+        "• Mots-clés: Python, Streamlit, SVM , Arbre de Décision, XGBoost, Soundex, Traitement phonétique, MLOps.",
+        "Stagiaire en Intelligence Artificielle",
+        "01/07/2024 – 31/07/2024",
+        "Enova Robotics, Sousse, Tunisie",
+        "• Développement d’une interface basée sur un Large Language Model (LLM) pour optimiser les processus internes",
+        "des ressources humaines.",
+        "• Génération de postes de recrutement en utilisant la technique de Prompt Engineering."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "* Conception d’un pipeline de traitement des e-mails : nettoyage, normalisation et extraction des",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 24.0,
+            "right": 0.0,
+            "bottom": 24.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "* Développement d’un assistant IA basé sur des LLM avec un flux en deux étapes :",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 26.0,
+            "right": 0.0,
+            "bottom": 26.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "· Classification automatique des e-mails entrants selon les catégories métier assurantielles.",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 27.0,
+            "right": 0.0,
+            "bottom": 27.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "· Génération de réponses automatiques adaptées à chaque catégorie, en tenant compte du contexte,",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 28.0,
+            "right": 0.0,
+            "bottom": 28.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "des règles métier et des contraintes de confidentialité, via un moteur de Prompt Engineering.",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 29.0,
+            "right": 0.0,
+            "bottom": 29.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "* Mise en place de contrôles qualité (cohérence des catégories, pertinence des réponses générées) et",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 30.0,
+            "right": 0.0,
+            "bottom": 30.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "stockage des résultats dans une base de données relationnelle pour le suivi, l’audit et l’analyse.",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 31.0,
+            "right": 0.0,
+            "bottom": 31.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "* Techniques et technologies utilisées : Python, LLM, Prompt Engineering, Groq,NLP, PostgreSQL,",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 32.0,
+            "right": 0.0,
+            "bottom": 32.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "FastApi, Docker.",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 33.0,
+            "right": 0.0,
+            "bottom": 33.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Tâche 2 : Générateur automatique de graphiques pour l’aide à la décision",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 34.0,
+            "right": 0.0,
+            "bottom": 34.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "* Analyse des besoins métier en reporting et visualisation des données assurantielles.",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 35.0,
+            "right": 0.0,
+            "bottom": 35.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "* Conception d’un moteur de génération automatique de graphiques à partir de requêtes en langage naturel.",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 36.0,
+            "right": 0.0,
+            "bottom": 36.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "* Développement d’interfaces interactives sous Streamlit pour l’exploration des données, la génération de",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 37.0,
+            "right": 0.0,
+            "bottom": 37.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "graphiques et l’export des résultats.",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 38.0,
+            "right": 0.0,
+            "bottom": 38.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "* Techniques et technologies utilisées : Python, pandas,Matplotlib, PostgreSQL,LLM, Streamlit, Docker.",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 39.0,
+            "right": 0.0,
+            "bottom": 39.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Client 2 : ARABOSAI",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 40.0,
+            "right": 0.0,
+            "bottom": 40.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Projet : OCR Pipeline Multi-Documents — Extraction et Qualité des Données",
+          "page_no": 1,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 41.0,
+            "right": 0.0,
+            "bottom": 41.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Développement d’un pipeline OCR en Python pour traiter PDF, images et fichiers bureautiques.",
+          "page_no": 1,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 42.0,
+            "right": 0.0,
+            "bottom": 42.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Prétraitement des images avec OpenCV pour améliorer l’extraction de texte.",
+          "page_no": 1,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 43.0,
+            "right": 0.0,
+            "bottom": 43.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Création d’une API FastAPI pour automatiser le traitement des documents.",
+          "page_no": 1,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 44.0,
+            "right": 0.0,
+            "bottom": 44.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Intégration de MinIO et PostgreSQL pour le stockage et la gestion des résultats.",
+          "page_no": 1,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 45.0,
+            "right": 0.0,
+            "bottom": 45.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Mise en place de règles de nettoyage et validation des données extraites.",
+          "page_no": 1,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 46.0,
+            "right": 0.0,
+            "bottom": 46.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Techniques et technologies utilisées : Python, EasyOCR, OpenCV, FastAPI, MinIO, PostgreSQL , Docker",
+          "page_no": 1,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 47.0,
+            "right": 0.0,
+            "bottom": 47.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Client 1 : Douane du Cameroun",
+          "page_no": 1,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 48.0,
+            "right": 0.0,
+            "bottom": 48.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Contrôle qualité, normalisation et structuration des données.",
+          "page_no": 1,
+          "block_indices": [
+            51
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 51.0,
+            "right": 0.0,
+            "bottom": 51.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Préparation de datasets pour l’analyse, la visualisation et le reporting BI.",
+          "page_no": 1,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 52.0,
+            "right": 0.0,
+            "bottom": 52.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Contribution à la création et au test de modèles IA pour l’exploitation des données.",
+          "page_no": 1,
+          "block_indices": [
+            53
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 53.0,
+            "right": 0.0,
+            "bottom": 53.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "– Techniques et technologies utilisées : Python, SQL, ETL, Data Cleaning, Power BI, Machine Learning.",
+          "page_no": 1,
+          "block_indices": [
+            54
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 54.0,
+            "right": 0.0,
+            "bottom": 54.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Stage de Fin d’Études",
+          "page_no": 1,
+          "block_indices": [
+            55
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 55.0,
+            "right": 0.0,
+            "bottom": 55.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "03/02/2025 – 30/06/2025",
+          "page_no": 1,
+          "block_indices": [
+            56
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 56.0,
+            "right": 0.0,
+            "bottom": 56.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "BNS Engineering, Tunis",
+          "page_no": 1,
+          "block_indices": [
+            57
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 57.0,
+            "right": 0.0,
+            "bottom": 57.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Conception d’un système intelligent de détection de fraudes dans les transactions douanières.",
+          "page_no": 1,
+          "block_indices": [
+            58
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 58.0,
+            "right": 0.0,
+            "bottom": 58.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Développement de deux modèles XGBoost : l’un pour la détection des fraudes , l’autre pour la classification du type",
+          "page_no": 1,
+          "block_indices": [
+            59
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 59.0,
+            "right": 0.0,
+            "bottom": 59.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "de fraude .",
+          "page_no": 1,
+          "block_indices": [
+            60
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 60.0,
+            "right": 0.0,
+            "bottom": 60.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Intégration d’un modèle LLM (LLaMA 3 – 8B) pour analyser les déclarations frauduleuses et générer",
+          "page_no": 1,
+          "block_indices": [
+            61
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 61.0,
+            "right": 0.0,
+            "bottom": 61.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "automatiquement des règles explicatives en Drools.",
+          "page_no": 1,
+          "block_indices": [
+            62
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 62.0,
+            "right": 0.0,
+            "bottom": 62.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Déploiement complet sous forme d’une application web avec Streamlit, incluant une base de données, un moteur",
+          "page_no": 1,
+          "block_indices": [
+            63
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 63.0,
+            "right": 0.0,
+            "bottom": 63.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "de règles, et un historique d’analyses.",
+          "page_no": 1,
+          "block_indices": [
+            64
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 64.0,
+            "right": 0.0,
+            "bottom": 64.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Mots-clés : XGBoost,LLM, LLaMA 3,Prompt engineering, Drools, Python, Streamlit, PostgreSQL.",
+          "page_no": 1,
+          "block_indices": [
+            65
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 65.0,
+            "right": 0.0,
+            "bottom": 65.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Stagiaire en Intelligence Artificielle",
+          "page_no": 1,
+          "block_indices": [
+            66
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 66.0,
+            "right": 0.0,
+            "bottom": 66.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "05/08/2024 – 10/09/2024",
+          "page_no": 1,
+          "block_indices": [
+            67
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 67.0,
+            "right": 0.0,
+            "bottom": 67.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "DunDill, Sousse, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            68
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 68.0,
+            "right": 0.0,
+            "bottom": 68.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Développé un modèle de machine learning pour l’identification de personnes basé sur des variations",
+          "page_no": 1,
+          "block_indices": [
+            69
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 69.0,
+            "right": 0.0,
+            "bottom": 69.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "orthographiques des noms et prénoms, utilisant des algorithmes comme SVM , Arbre de Décision et XGBoost.",
+          "page_no": 1,
+          "block_indices": [
+            70
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 70.0,
+            "right": 0.0,
+            "bottom": 70.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Utilisation des techniques de traitement phonétique (Soundex).",
+          "page_no": 1,
+          "block_indices": [
+            71
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 71.0,
+            "right": 0.0,
+            "bottom": 71.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Développement d’une interface interactive avec Streamlit pour la vérification et la prédiction en temps réel.",
+          "page_no": 1,
+          "block_indices": [
+            72
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 72.0,
+            "right": 0.0,
+            "bottom": 72.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Mots-clés: Python, Streamlit, SVM , Arbre de Décision, XGBoost, Soundex, Traitement phonétique, MLOps.",
+          "page_no": 1,
+          "block_indices": [
+            73
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 73.0,
+            "right": 0.0,
+            "bottom": 73.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Stagiaire en Intelligence Artificielle",
+          "page_no": 1,
+          "block_indices": [
+            74
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 74.0,
+            "right": 0.0,
+            "bottom": 74.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "01/07/2024 – 31/07/2024",
+          "page_no": 1,
+          "block_indices": [
+            75
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 75.0,
+            "right": 0.0,
+            "bottom": 75.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Enova Robotics, Sousse, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            76
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 76.0,
+            "right": 0.0,
+            "bottom": 76.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Développement d’une interface basée sur un Large Language Model (LLM) pour optimiser les processus internes",
+          "page_no": 1,
+          "block_indices": [
+            77
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 77.0,
+            "right": 0.0,
+            "bottom": 77.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "des ressources humaines.",
+          "page_no": 1,
+          "block_indices": [
+            78
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 78.0,
+            "right": 0.0,
+            "bottom": 78.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "• Génération de postes de recrutement en utilisant la technique de Prompt Engineering.",
+          "page_no": 1,
+          "block_indices": [
+            79
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 79.0,
+            "right": 0.0,
+            "bottom": 79.0
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL SUMMARY",
+      "section_type": "summary",
+      "content": [
+        "• Mots-clés: Python, Streamlit, LangChain, Hugging Face,LLM, Prompt Engineering, RAG, Selenium, BeautifulSoup.",
+        "Stage de Fin d’Études",
+        "05/02/2022 – 30/05/2022",
+        "Chaaben Technology Group, Sousse, Tunisie",
+        "• Développement d’une application cross-plateforme pour la gestion des parkings.",
+        "• Permet la gestion en temps réel des réservations et fournit des statistiques sur les parkings.",
+        "• Un système embarqué qui sera monté dans le parking à gérer.",
+        "• Mots-clés: HTML5 , CSS3 , JavaScript , ExpressJs , NodeJs , MongoDB , C++ , Cordova"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "• Mots-clés: Python, Streamlit, LangChain, Hugging Face,LLM, Prompt Engineering, RAG, Selenium, BeautifulSoup.",
+          "page_no": 1,
+          "block_indices": [
+            82
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 82.0,
+            "right": 0.0,
+            "bottom": 82.0
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        },
+        {
+          "text": "Stage de Fin d’Études",
+          "page_no": 1,
+          "block_indices": [
+            83
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 83.0,
+            "right": 0.0,
+            "bottom": 83.0
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        },
+        {
+          "text": "05/02/2022 – 30/05/2022",
+          "page_no": 1,
+          "block_indices": [
+            84
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 84.0,
+            "right": 0.0,
+            "bottom": 84.0
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        },
+        {
+          "text": "Chaaben Technology Group, Sousse, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            85
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 85.0,
+            "right": 0.0,
+            "bottom": 85.0
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        },
+        {
+          "text": "• Développement d’une application cross-plateforme pour la gestion des parkings.",
+          "page_no": 1,
+          "block_indices": [
+            86
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 86.0,
+            "right": 0.0,
+            "bottom": 86.0
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        },
+        {
+          "text": "• Permet la gestion en temps réel des réservations et fournit des statistiques sur les parkings.",
+          "page_no": 1,
+          "block_indices": [
+            87
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 87.0,
+            "right": 0.0,
+            "bottom": 87.0
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        },
+        {
+          "text": "• Un système embarqué qui sera monté dans le parking à gérer.",
+          "page_no": 1,
+          "block_indices": [
+            88
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 88.0,
+            "right": 0.0,
+            "bottom": 88.0
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        },
+        {
+          "text": "• Mots-clés: HTML5 , CSS3 , JavaScript , ExpressJs , NodeJs , MongoDB , C++ , Cordova",
+          "page_no": 1,
+          "block_indices": [
+            89
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 89.0,
+            "right": 0.0,
+            "bottom": 89.0
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        }
+      ]
+    },
+    {
+      "title": "PROJETS PERSONNELS",
+      "section_type": "other",
+      "content": [
+        "Reconnaissance de l’alphabet ASL",
+        "11/2024",
+        "• Conception d’un système de reconnaissance des lettres de la langue des signes (ASL) basé sur plusieurs",
+        "architectures CNN et YOLO.",
+        "• Utilisation de modèles pré-entraînés avec fine-tuning afin d’améliorer la précision du modèle.",
+        "• Implémentation d’un pipeline de reconnaissance en temps réel basé sur Computer Vision.",
+        "• Mots-clés : Python, PyTorch, TensorFlow, CNN, YOLO, Transfer Learning, Fine-tuning, Computer Vision.",
+        "Chatbot Psychologique basé sur LLM",
+        "10/2024",
+        "• Développement d’un chatbot d’assistance psychologique basé sur des Large Language Models (LLM).",
+        "• Implémentation d’une architecture RAG utilisant une base de conversations psychologue–patient pour améliorer les",
+        "réponses.",
+        "• Déploiement du chatbot dans une interface web interactive avec Streamlit.",
+        "• Mots-clés : Python, NLP, LLM, RAG, Hugging Face, LangChain, Streamlit.",
+        "Système avancé de détection d’incendie par IA (SDIA)",
+        "02/2024 – 04/2024",
+        "• Développement d’un modèle en temps réel pour la détection d’incendies utilisant YOLOv8 et OpenCV.",
+        "• Utilisation de SVM et Arbres de Décision pour classifier les images en catégories : feu, fumée, sans incendie.",
+        "• Mots-clés: Python, scikit-learn, SVM, Arbres de Décision, YOLO, OpenCV, Vision par ordinateur."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Reconnaissance de l’alphabet ASL",
+          "page_no": 1,
+          "block_indices": [
+            91
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 91.0,
+            "right": 0.0,
+            "bottom": 91.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "11/2024",
+          "page_no": 1,
+          "block_indices": [
+            92
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 92.0,
+            "right": 0.0,
+            "bottom": 92.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Conception d’un système de reconnaissance des lettres de la langue des signes (ASL) basé sur plusieurs",
+          "page_no": 1,
+          "block_indices": [
+            93
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 93.0,
+            "right": 0.0,
+            "bottom": 93.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "architectures CNN et YOLO.",
+          "page_no": 1,
+          "block_indices": [
+            94
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 94.0,
+            "right": 0.0,
+            "bottom": 94.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Utilisation de modèles pré-entraînés avec fine-tuning afin d’améliorer la précision du modèle.",
+          "page_no": 1,
+          "block_indices": [
+            95
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 95.0,
+            "right": 0.0,
+            "bottom": 95.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Implémentation d’un pipeline de reconnaissance en temps réel basé sur Computer Vision.",
+          "page_no": 1,
+          "block_indices": [
+            96
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 96.0,
+            "right": 0.0,
+            "bottom": 96.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Mots-clés : Python, PyTorch, TensorFlow, CNN, YOLO, Transfer Learning, Fine-tuning, Computer Vision.",
+          "page_no": 1,
+          "block_indices": [
+            97
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 97.0,
+            "right": 0.0,
+            "bottom": 97.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "Chatbot Psychologique basé sur LLM",
+          "page_no": 1,
+          "block_indices": [
+            98
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 98.0,
+            "right": 0.0,
+            "bottom": 98.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "10/2024",
+          "page_no": 1,
+          "block_indices": [
+            99
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 99.0,
+            "right": 0.0,
+            "bottom": 99.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Développement d’un chatbot d’assistance psychologique basé sur des Large Language Models (LLM).",
+          "page_no": 1,
+          "block_indices": [
+            100
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 100.0,
+            "right": 0.0,
+            "bottom": 100.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Implémentation d’une architecture RAG utilisant une base de conversations psychologue–patient pour améliorer les",
+          "page_no": 1,
+          "block_indices": [
+            101
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 101.0,
+            "right": 0.0,
+            "bottom": 101.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "réponses.",
+          "page_no": 1,
+          "block_indices": [
+            102
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 102.0,
+            "right": 0.0,
+            "bottom": 102.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Déploiement du chatbot dans une interface web interactive avec Streamlit.",
+          "page_no": 1,
+          "block_indices": [
+            103
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 103.0,
+            "right": 0.0,
+            "bottom": 103.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Mots-clés : Python, NLP, LLM, RAG, Hugging Face, LangChain, Streamlit.",
+          "page_no": 1,
+          "block_indices": [
+            104
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 104.0,
+            "right": 0.0,
+            "bottom": 104.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "Système avancé de détection d’incendie par IA (SDIA)",
+          "page_no": 1,
+          "block_indices": [
+            105
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 105.0,
+            "right": 0.0,
+            "bottom": 105.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "02/2024 – 04/2024",
+          "page_no": 1,
+          "block_indices": [
+            106
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 106.0,
+            "right": 0.0,
+            "bottom": 106.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Développement d’un modèle en temps réel pour la détection d’incendies utilisant YOLOv8 et OpenCV.",
+          "page_no": 1,
+          "block_indices": [
+            107
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 107.0,
+            "right": 0.0,
+            "bottom": 107.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Utilisation de SVM et Arbres de Décision pour classifier les images en catégories : feu, fumée, sans incendie.",
+          "page_no": 1,
+          "block_indices": [
+            108
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 108.0,
+            "right": 0.0,
+            "bottom": 108.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        },
+        {
+          "text": "• Mots-clés: Python, scikit-learn, SVM, Arbres de Décision, YOLO, OpenCV, Vision par ordinateur.",
+          "page_no": 1,
+          "block_indices": [
+            109
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 109.0,
+            "right": 0.0,
+            "bottom": 109.0
+          },
+          "section_title": "PROJETS PERSONNELS"
+        }
+      ]
+    },
+    {
+      "title": "PARCOURS SCOLAIRE",
+      "section_type": "other",
+      "content": [
+        "Diplôme National d’Ingénieur en Informatique",
+        "Sept. 2022 – juill. 2025",
+        "Epi Digital School Sahloul, Sousse, Tunisie",
+        "Licence appliquée en Télécommunication",
+        "Sept. 2019 – juill. 2022",
+        "ISITCOM Hammem-Sousse, Tunisie",
+        "Baccalauréat spécialité Mathématiques",
+        "Sept. 2018 – juill. 2019",
+        "Lycée Farhat Hached M’saken, Tunisie"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Diplôme National d’Ingénieur en Informatique",
+          "page_no": 1,
+          "block_indices": [
+            111
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 111.0,
+            "right": 0.0,
+            "bottom": 111.0
+          },
+          "section_title": "PARCOURS SCOLAIRE"
+        },
+        {
+          "text": "Sept. 2022 – juill. 2025",
+          "page_no": 1,
+          "block_indices": [
+            112
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 112.0,
+            "right": 0.0,
+            "bottom": 112.0
+          },
+          "section_title": "PARCOURS SCOLAIRE"
+        },
+        {
+          "text": "Epi Digital School Sahloul, Sousse, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            113
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 113.0,
+            "right": 0.0,
+            "bottom": 113.0
+          },
+          "section_title": "PARCOURS SCOLAIRE"
+        },
+        {
+          "text": "Licence appliquée en Télécommunication",
+          "page_no": 1,
+          "block_indices": [
+            114
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 114.0,
+            "right": 0.0,
+            "bottom": 114.0
+          },
+          "section_title": "PARCOURS SCOLAIRE"
+        },
+        {
+          "text": "Sept. 2019 – juill. 2022",
+          "page_no": 1,
+          "block_indices": [
+            115
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 115.0,
+            "right": 0.0,
+            "bottom": 115.0
+          },
+          "section_title": "PARCOURS SCOLAIRE"
+        },
+        {
+          "text": "ISITCOM Hammem-Sousse, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            116
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 116.0,
+            "right": 0.0,
+            "bottom": 116.0
+          },
+          "section_title": "PARCOURS SCOLAIRE"
+        },
+        {
+          "text": "Baccalauréat spécialité Mathématiques",
+          "page_no": 1,
+          "block_indices": [
+            117
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 117.0,
+            "right": 0.0,
+            "bottom": 117.0
+          },
+          "section_title": "PARCOURS SCOLAIRE"
+        },
+        {
+          "text": "Sept. 2018 – juill. 2019",
+          "page_no": 1,
+          "block_indices": [
+            118
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 118.0,
+            "right": 0.0,
+            "bottom": 118.0
+          },
+          "section_title": "PARCOURS SCOLAIRE"
+        },
+        {
+          "text": "Lycée Farhat Hached M’saken, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            119
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 119.0,
+            "right": 0.0,
+            "bottom": 119.0
+          },
+          "section_title": "PARCOURS SCOLAIRE"
+        }
+      ]
+    },
+    {
+      "title": "CERTIFICATIONS",
+      "section_type": "certifications",
+      "content": [
+        "• Fondamentaux de l’apprentissage profond par NVIDIA",
+        "15 sept. 2024",
+        "• Applications de l’IA pour la maintenance prédictive par NVIDIA",
+        "14 sept. 2024",
+        "• Applications NLP basées sur les transformateurs par NVIDIA",
+        "13 sept. 2024",
+        "• IA générative par Microsoft et LinkedIn",
+        "30 juin 2024"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "• Fondamentaux de l’apprentissage profond par NVIDIA",
+          "page_no": 1,
+          "block_indices": [
+            121
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 121.0,
+            "right": 0.0,
+            "bottom": 121.0
+          },
+          "section_title": "CERTIFICATIONS"
+        },
+        {
+          "text": "15 sept. 2024",
+          "page_no": 1,
+          "block_indices": [
+            122
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 122.0,
+            "right": 0.0,
+            "bottom": 122.0
+          },
+          "section_title": "CERTIFICATIONS"
+        },
+        {
+          "text": "• Applications de l’IA pour la maintenance prédictive par NVIDIA",
+          "page_no": 1,
+          "block_indices": [
+            123
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 123.0,
+            "right": 0.0,
+            "bottom": 123.0
+          },
+          "section_title": "CERTIFICATIONS"
+        },
+        {
+          "text": "14 sept. 2024",
+          "page_no": 1,
+          "block_indices": [
+            124
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 124.0,
+            "right": 0.0,
+            "bottom": 124.0
+          },
+          "section_title": "CERTIFICATIONS"
+        },
+        {
+          "text": "• Applications NLP basées sur les transformateurs par NVIDIA",
+          "page_no": 1,
+          "block_indices": [
+            125
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 125.0,
+            "right": 0.0,
+            "bottom": 125.0
+          },
+          "section_title": "CERTIFICATIONS"
+        },
+        {
+          "text": "13 sept. 2024",
+          "page_no": 1,
+          "block_indices": [
+            126
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 126.0,
+            "right": 0.0,
+            "bottom": 126.0
+          },
+          "section_title": "CERTIFICATIONS"
+        },
+        {
+          "text": "• IA générative par Microsoft et LinkedIn",
+          "page_no": 1,
+          "block_indices": [
+            127
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 127.0,
+            "right": 0.0,
+            "bottom": 127.0
+          },
+          "section_title": "CERTIFICATIONS"
+        },
+        {
+          "text": "30 juin 2024",
+          "page_no": 1,
+          "block_indices": [
+            128
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 128.0,
+            "right": 0.0,
+            "bottom": 128.0
+          },
+          "section_title": "CERTIFICATIONS"
+        }
+      ]
+    },
+    {
+      "title": "COMPÉTENCES",
+      "section_type": "other",
+      "content": [
+        "• Intelligence Artificielle et Science des Données : Machine Learning, Deep Learning, Computer Vision, Large",
+        "Language Models (LLM), Prompt Engineering, NLP, Data Visualization, Power BI",
+        "• Langages de Programmation: Python, Java, C/C++, JavaScript, PHP",
+        "• Frameworks Web et Mobile: FastAPI , ReactJS, React Native, Node.js, ExpressJS, HTML, CSS",
+        "• Bases de Données: MySQL, MongoDB , PostgreSQL",
+        "• Big Data: Hadoop , Spark"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "• Intelligence Artificielle et Science des Données : Machine Learning, Deep Learning, Computer Vision, Large",
+          "page_no": 1,
+          "block_indices": [
+            130
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 130.0,
+            "right": 0.0,
+            "bottom": 130.0
+          },
+          "section_title": "COMPÉTENCES"
+        },
+        {
+          "text": "Language Models (LLM), Prompt Engineering, NLP, Data Visualization, Power BI",
+          "page_no": 1,
+          "block_indices": [
+            131
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 131.0,
+            "right": 0.0,
+            "bottom": 131.0
+          },
+          "section_title": "COMPÉTENCES"
+        },
+        {
+          "text": "• Langages de Programmation: Python, Java, C/C++, JavaScript, PHP",
+          "page_no": 1,
+          "block_indices": [
+            132
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 132.0,
+            "right": 0.0,
+            "bottom": 132.0
+          },
+          "section_title": "COMPÉTENCES"
+        },
+        {
+          "text": "• Frameworks Web et Mobile: FastAPI , ReactJS, React Native, Node.js, ExpressJS, HTML, CSS",
+          "page_no": 1,
+          "block_indices": [
+            133
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 133.0,
+            "right": 0.0,
+            "bottom": 133.0
+          },
+          "section_title": "COMPÉTENCES"
+        },
+        {
+          "text": "• Bases de Données: MySQL, MongoDB , PostgreSQL",
+          "page_no": 1,
+          "block_indices": [
+            134
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 134.0,
+            "right": 0.0,
+            "bottom": 134.0
+          },
+          "section_title": "COMPÉTENCES"
+        },
+        {
+          "text": "• Big Data: Hadoop , Spark",
+          "page_no": 1,
+          "block_indices": [
+            135
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 135.0,
+            "right": 0.0,
+            "bottom": 135.0
+          },
+          "section_title": "COMPÉTENCES"
+        }
+      ]
+    },
+    {
+      "title": "LANGUES",
+      "section_type": "other",
+      "content": [
+        "• Français : Professionnel",
+        "• Anglais : Intermédiaire",
+        "• Arabe : Langue maternelle"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "• Français : Professionnel",
+          "page_no": 1,
+          "block_indices": [
+            137
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 137.0,
+            "right": 0.0,
+            "bottom": 137.0
+          },
+          "section_title": "LANGUES"
+        },
+        {
+          "text": "• Anglais : Intermédiaire",
+          "page_no": 1,
+          "block_indices": [
+            138
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 138.0,
+            "right": 0.0,
+            "bottom": 138.0
+          },
+          "section_title": "LANGUES"
+        },
+        {
+          "text": "• Arabe : Langue maternelle",
+          "page_no": 1,
+          "block_indices": [
+            139
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 139.0,
+            "right": 0.0,
+            "bottom": 139.0
+          },
+          "section_title": "LANGUES"
+        }
+      ]
+    }
+  ],
+  "parser_used": "secondary_parser",
+  "fallback_used": true,
+  "document_confidence": {
+    "score": 0.716,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 8287,
+      "section_completeness": 0.5,
+      "ordering_coherence": 0.6667,
+      "segmentation_stability": 0.9,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.222,
+      "weird_section_ratio": 0.0,
+      "section_count": 10,
+      "expected_section_hits": 3,
+      "markdown_chars": 8314,
+      "markdown_words": 1216,
+      "markdown_has_experience": false,
+      "markdown_has_education": true,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 2,
+      "markdown_weird_char_ratio": 0.0392,
+      "markdown_glued_line_count": 13,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=3\", \"pdf_total_text_chars=8719\", \"pdf_total_text_words=1246\", \"pdf_avg_text_chars_per_page=2906.3\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "secondary_parser",
+      "fallback_used": true,
+      "confidence_penalty": 0.08
+    },
+    "warnings": [
+      "partial_section_completeness",
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Ingénieur en Informatique",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 1.0,
+        "right": 0.0,
+        "bottom": 1.0
+      },
+      "section_title": "BAYA CHATTI CHIHEB EDDINE"
+    },
+    {
+      "text": "LinkedIn: www.linkedin.com/in/chihebeddine-baya-chatti",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 2.0,
+        "right": 0.0,
+        "bottom": 2.0
+      },
+      "section_title": "BAYA CHATTI CHIHEB EDDINE"
+    },
+    {
+      "text": "Tel: +216 24 611 837 | Email: chattichiheb35@gmail.com | GitHub: github.com/chiheb2000",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 3.0,
+        "right": 0.0,
+        "bottom": 3.0
+      },
+      "section_title": "BAYA CHATTI CHIHEB EDDINE"
+    },
+    {
+      "text": "Ingénieur en informatique spécialisé en Intelligence Artificielle et Science des Données. Passionné et rigoureux, j’applique",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 4.0,
+        "right": 0.0,
+        "bottom": 4.0
+      },
+      "section_title": "BAYA CHATTI CHIHEB EDDINE"
+    },
+    {
+      "text": "mes compétences dans le développement de solutions intelligentes et l’analyse de données complexes.",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 5.0,
+        "right": 0.0,
+        "bottom": 5.0
+      },
+      "section_title": "BAYA CHATTI CHIHEB EDDINE"
+    },
+    {
+      "text": "Ingénieur IA et Data",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 7.0,
+        "right": 0.0,
+        "bottom": 7.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "07/2025 – 03/2026",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 8.0,
+        "right": 0.0,
+        "bottom": 8.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "BNS Engineering, Tunis",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 9.0,
+        "right": 0.0,
+        "bottom": 9.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "• Client 4 : RSU (Rapport Social Unique)",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 10.0,
+        "right": 0.0,
+        "bottom": 10.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "Projet : Génération et exécution de requêtes SQL à partir du langage naturel",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 11.0,
+        "right": 0.0,
+        "bottom": 11.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "– Conception et développement d’un assistant permettant de transformer des requêtes formulées en langage",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 12.0,
+        "right": 0.0,
+        "bottom": 12.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "naturel en requêtes SQL exploitables par la base de données.",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 13.0,
+        "right": 0.0,
+        "bottom": 13.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "– Mise en place d’un mécanisme de validation et de sécurisation des requêtes générées afin d’assurer leur",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 14.0,
+        "right": 0.0,
+        "bottom": 14.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "conformité avec le schéma de la base et éviter les opérations non autorisées.",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 15.0,
+        "right": 0.0,
+        "bottom": 15.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "– Exécution automatique des requêtes générées et restitution des résultats sous forme de tableaux exploitables",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 16.0,
+        "right": 0.0,
+        "bottom": 16.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "pour l’analyse.",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 17.0,
+        "right": 0.0,
+        "bottom": 17.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "– Techniques et technologies utilisées : Python, LLM,Prompt Engineering,Groq, SQL, PostgreSQL,",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 18.0,
+        "right": 0.0,
+        "bottom": 18.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "FastAPI,Docker .",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 19.0,
+        "right": 0.0,
+        "bottom": 19.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "• Client 3 : FTUSA (La Fédération Tunisienne des Sociétés d’Assurances )",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 20.0,
+        "right": 0.0,
+        "bottom": 20.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "– Tâche 1 : Assistant IA de génération et gestion des e-mails assurantiels",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 21.0,
+        "right": 0.0,
+        "bottom": 21.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "* Analyse du contexte métier assurantiel et identification des typologies d’e-mails (Urgent, Support,",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 22.0,
+        "right": 0.0,
+        "bottom": 22.0
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "* Conception d’un pipeline de traitement des e-mails : nettoyage, normalisation et extraction des",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 24.0,
+        "right": 0.0,
+        "bottom": 24.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "* Développement d’un assistant IA basé sur des LLM avec un flux en deux étapes :",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 26.0,
+        "right": 0.0,
+        "bottom": 26.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "· Classification automatique des e-mails entrants selon les catégories métier assurantielles.",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 27.0,
+        "right": 0.0,
+        "bottom": 27.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "· Génération de réponses automatiques adaptées à chaque catégorie, en tenant compte du contexte,",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 28.0,
+        "right": 0.0,
+        "bottom": 28.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "des règles métier et des contraintes de confidentialité, via un moteur de Prompt Engineering.",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 29.0,
+        "right": 0.0,
+        "bottom": 29.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "* Mise en place de contrôles qualité (cohérence des catégories, pertinence des réponses générées) et",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 30.0,
+        "right": 0.0,
+        "bottom": 30.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "stockage des résultats dans une base de données relationnelle pour le suivi, l’audit et l’analyse.",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 31.0,
+        "right": 0.0,
+        "bottom": 31.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "* Techniques et technologies utilisées : Python, LLM, Prompt Engineering, Groq,NLP, PostgreSQL,",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 32.0,
+        "right": 0.0,
+        "bottom": 32.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "FastApi, Docker.",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 33.0,
+        "right": 0.0,
+        "bottom": 33.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Tâche 2 : Générateur automatique de graphiques pour l’aide à la décision",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 34.0,
+        "right": 0.0,
+        "bottom": 34.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "* Analyse des besoins métier en reporting et visualisation des données assurantielles.",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 35.0,
+        "right": 0.0,
+        "bottom": 35.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "* Conception d’un moteur de génération automatique de graphiques à partir de requêtes en langage naturel.",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 36.0,
+        "right": 0.0,
+        "bottom": 36.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "* Développement d’interfaces interactives sous Streamlit pour l’exploration des données, la génération de",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 37.0,
+        "right": 0.0,
+        "bottom": 37.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "graphiques et l’export des résultats.",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 38.0,
+        "right": 0.0,
+        "bottom": 38.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "* Techniques et technologies utilisées : Python, pandas,Matplotlib, PostgreSQL,LLM, Streamlit, Docker.",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 39.0,
+        "right": 0.0,
+        "bottom": 39.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Client 2 : ARABOSAI",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 40.0,
+        "right": 0.0,
+        "bottom": 40.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Projet : OCR Pipeline Multi-Documents — Extraction et Qualité des Données",
+      "page_no": 1,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 41.0,
+        "right": 0.0,
+        "bottom": 41.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Développement d’un pipeline OCR en Python pour traiter PDF, images et fichiers bureautiques.",
+      "page_no": 1,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 42.0,
+        "right": 0.0,
+        "bottom": 42.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Prétraitement des images avec OpenCV pour améliorer l’extraction de texte.",
+      "page_no": 1,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 43.0,
+        "right": 0.0,
+        "bottom": 43.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Création d’une API FastAPI pour automatiser le traitement des documents.",
+      "page_no": 1,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 44.0,
+        "right": 0.0,
+        "bottom": 44.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Intégration de MinIO et PostgreSQL pour le stockage et la gestion des résultats.",
+      "page_no": 1,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 45.0,
+        "right": 0.0,
+        "bottom": 45.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Mise en place de règles de nettoyage et validation des données extraites.",
+      "page_no": 1,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 46.0,
+        "right": 0.0,
+        "bottom": 46.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Techniques et technologies utilisées : Python, EasyOCR, OpenCV, FastAPI, MinIO, PostgreSQL , Docker",
+      "page_no": 1,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 47.0,
+        "right": 0.0,
+        "bottom": 47.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Client 1 : Douane du Cameroun",
+      "page_no": 1,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 48.0,
+        "right": 0.0,
+        "bottom": 48.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Contrôle qualité, normalisation et structuration des données.",
+      "page_no": 1,
+      "block_indices": [
+        51
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 51.0,
+        "right": 0.0,
+        "bottom": 51.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Préparation de datasets pour l’analyse, la visualisation et le reporting BI.",
+      "page_no": 1,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 52.0,
+        "right": 0.0,
+        "bottom": 52.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Contribution à la création et au test de modèles IA pour l’exploitation des données.",
+      "page_no": 1,
+      "block_indices": [
+        53
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 53.0,
+        "right": 0.0,
+        "bottom": 53.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "– Techniques et technologies utilisées : Python, SQL, ETL, Data Cleaning, Power BI, Machine Learning.",
+      "page_no": 1,
+      "block_indices": [
+        54
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 54.0,
+        "right": 0.0,
+        "bottom": 54.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Stage de Fin d’Études",
+      "page_no": 1,
+      "block_indices": [
+        55
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 55.0,
+        "right": 0.0,
+        "bottom": 55.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "03/02/2025 – 30/06/2025",
+      "page_no": 1,
+      "block_indices": [
+        56
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 56.0,
+        "right": 0.0,
+        "bottom": 56.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "BNS Engineering, Tunis",
+      "page_no": 1,
+      "block_indices": [
+        57
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 57.0,
+        "right": 0.0,
+        "bottom": 57.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Conception d’un système intelligent de détection de fraudes dans les transactions douanières.",
+      "page_no": 1,
+      "block_indices": [
+        58
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 58.0,
+        "right": 0.0,
+        "bottom": 58.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Développement de deux modèles XGBoost : l’un pour la détection des fraudes , l’autre pour la classification du type",
+      "page_no": 1,
+      "block_indices": [
+        59
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 59.0,
+        "right": 0.0,
+        "bottom": 59.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "de fraude .",
+      "page_no": 1,
+      "block_indices": [
+        60
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 60.0,
+        "right": 0.0,
+        "bottom": 60.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Intégration d’un modèle LLM (LLaMA 3 – 8B) pour analyser les déclarations frauduleuses et générer",
+      "page_no": 1,
+      "block_indices": [
+        61
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 61.0,
+        "right": 0.0,
+        "bottom": 61.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "automatiquement des règles explicatives en Drools.",
+      "page_no": 1,
+      "block_indices": [
+        62
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 62.0,
+        "right": 0.0,
+        "bottom": 62.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Déploiement complet sous forme d’une application web avec Streamlit, incluant une base de données, un moteur",
+      "page_no": 1,
+      "block_indices": [
+        63
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 63.0,
+        "right": 0.0,
+        "bottom": 63.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "de règles, et un historique d’analyses.",
+      "page_no": 1,
+      "block_indices": [
+        64
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 64.0,
+        "right": 0.0,
+        "bottom": 64.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Mots-clés : XGBoost,LLM, LLaMA 3,Prompt engineering, Drools, Python, Streamlit, PostgreSQL.",
+      "page_no": 1,
+      "block_indices": [
+        65
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 65.0,
+        "right": 0.0,
+        "bottom": 65.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Stagiaire en Intelligence Artificielle",
+      "page_no": 1,
+      "block_indices": [
+        66
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 66.0,
+        "right": 0.0,
+        "bottom": 66.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "05/08/2024 – 10/09/2024",
+      "page_no": 1,
+      "block_indices": [
+        67
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 67.0,
+        "right": 0.0,
+        "bottom": 67.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "DunDill, Sousse, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        68
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 68.0,
+        "right": 0.0,
+        "bottom": 68.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Développé un modèle de machine learning pour l’identification de personnes basé sur des variations",
+      "page_no": 1,
+      "block_indices": [
+        69
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 69.0,
+        "right": 0.0,
+        "bottom": 69.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "orthographiques des noms et prénoms, utilisant des algorithmes comme SVM , Arbre de Décision et XGBoost.",
+      "page_no": 1,
+      "block_indices": [
+        70
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 70.0,
+        "right": 0.0,
+        "bottom": 70.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Utilisation des techniques de traitement phonétique (Soundex).",
+      "page_no": 1,
+      "block_indices": [
+        71
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 71.0,
+        "right": 0.0,
+        "bottom": 71.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Développement d’une interface interactive avec Streamlit pour la vérification et la prédiction en temps réel.",
+      "page_no": 1,
+      "block_indices": [
+        72
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 72.0,
+        "right": 0.0,
+        "bottom": 72.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Mots-clés: Python, Streamlit, SVM , Arbre de Décision, XGBoost, Soundex, Traitement phonétique, MLOps.",
+      "page_no": 1,
+      "block_indices": [
+        73
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 73.0,
+        "right": 0.0,
+        "bottom": 73.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Stagiaire en Intelligence Artificielle",
+      "page_no": 1,
+      "block_indices": [
+        74
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 74.0,
+        "right": 0.0,
+        "bottom": 74.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "01/07/2024 – 31/07/2024",
+      "page_no": 1,
+      "block_indices": [
+        75
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 75.0,
+        "right": 0.0,
+        "bottom": 75.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Enova Robotics, Sousse, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        76
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 76.0,
+        "right": 0.0,
+        "bottom": 76.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Développement d’une interface basée sur un Large Language Model (LLM) pour optimiser les processus internes",
+      "page_no": 1,
+      "block_indices": [
+        77
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 77.0,
+        "right": 0.0,
+        "bottom": 77.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "des ressources humaines.",
+      "page_no": 1,
+      "block_indices": [
+        78
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 78.0,
+        "right": 0.0,
+        "bottom": 78.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Génération de postes de recrutement en utilisant la technique de Prompt Engineering.",
+      "page_no": 1,
+      "block_indices": [
+        79
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 79.0,
+        "right": 0.0,
+        "bottom": 79.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "• Mots-clés: Python, Streamlit, LangChain, Hugging Face,LLM, Prompt Engineering, RAG, Selenium, BeautifulSoup.",
+      "page_no": 1,
+      "block_indices": [
+        82
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 82.0,
+        "right": 0.0,
+        "bottom": 82.0
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "Stage de Fin d’Études",
+      "page_no": 1,
+      "block_indices": [
+        83
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 83.0,
+        "right": 0.0,
+        "bottom": 83.0
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "05/02/2022 – 30/05/2022",
+      "page_no": 1,
+      "block_indices": [
+        84
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 84.0,
+        "right": 0.0,
+        "bottom": 84.0
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "Chaaben Technology Group, Sousse, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        85
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 85.0,
+        "right": 0.0,
+        "bottom": 85.0
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "• Développement d’une application cross-plateforme pour la gestion des parkings.",
+      "page_no": 1,
+      "block_indices": [
+        86
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 86.0,
+        "right": 0.0,
+        "bottom": 86.0
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "• Permet la gestion en temps réel des réservations et fournit des statistiques sur les parkings.",
+      "page_no": 1,
+      "block_indices": [
+        87
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 87.0,
+        "right": 0.0,
+        "bottom": 87.0
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "• Un système embarqué qui sera monté dans le parking à gérer.",
+      "page_no": 1,
+      "block_indices": [
+        88
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 88.0,
+        "right": 0.0,
+        "bottom": 88.0
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "• Mots-clés: HTML5 , CSS3 , JavaScript , ExpressJs , NodeJs , MongoDB , C++ , Cordova",
+      "page_no": 1,
+      "block_indices": [
+        89
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 89.0,
+        "right": 0.0,
+        "bottom": 89.0
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "Reconnaissance de l’alphabet ASL",
+      "page_no": 1,
+      "block_indices": [
+        91
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 91.0,
+        "right": 0.0,
+        "bottom": 91.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "11/2024",
+      "page_no": 1,
+      "block_indices": [
+        92
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 92.0,
+        "right": 0.0,
+        "bottom": 92.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Conception d’un système de reconnaissance des lettres de la langue des signes (ASL) basé sur plusieurs",
+      "page_no": 1,
+      "block_indices": [
+        93
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 93.0,
+        "right": 0.0,
+        "bottom": 93.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "architectures CNN et YOLO.",
+      "page_no": 1,
+      "block_indices": [
+        94
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 94.0,
+        "right": 0.0,
+        "bottom": 94.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Utilisation de modèles pré-entraînés avec fine-tuning afin d’améliorer la précision du modèle.",
+      "page_no": 1,
+      "block_indices": [
+        95
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 95.0,
+        "right": 0.0,
+        "bottom": 95.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Implémentation d’un pipeline de reconnaissance en temps réel basé sur Computer Vision.",
+      "page_no": 1,
+      "block_indices": [
+        96
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 96.0,
+        "right": 0.0,
+        "bottom": 96.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Mots-clés : Python, PyTorch, TensorFlow, CNN, YOLO, Transfer Learning, Fine-tuning, Computer Vision.",
+      "page_no": 1,
+      "block_indices": [
+        97
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 97.0,
+        "right": 0.0,
+        "bottom": 97.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "Chatbot Psychologique basé sur LLM",
+      "page_no": 1,
+      "block_indices": [
+        98
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 98.0,
+        "right": 0.0,
+        "bottom": 98.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "10/2024",
+      "page_no": 1,
+      "block_indices": [
+        99
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 99.0,
+        "right": 0.0,
+        "bottom": 99.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Développement d’un chatbot d’assistance psychologique basé sur des Large Language Models (LLM).",
+      "page_no": 1,
+      "block_indices": [
+        100
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 100.0,
+        "right": 0.0,
+        "bottom": 100.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Implémentation d’une architecture RAG utilisant une base de conversations psychologue–patient pour améliorer les",
+      "page_no": 1,
+      "block_indices": [
+        101
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 101.0,
+        "right": 0.0,
+        "bottom": 101.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "réponses.",
+      "page_no": 1,
+      "block_indices": [
+        102
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 102.0,
+        "right": 0.0,
+        "bottom": 102.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Déploiement du chatbot dans une interface web interactive avec Streamlit.",
+      "page_no": 1,
+      "block_indices": [
+        103
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 103.0,
+        "right": 0.0,
+        "bottom": 103.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Mots-clés : Python, NLP, LLM, RAG, Hugging Face, LangChain, Streamlit.",
+      "page_no": 1,
+      "block_indices": [
+        104
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 104.0,
+        "right": 0.0,
+        "bottom": 104.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "Système avancé de détection d’incendie par IA (SDIA)",
+      "page_no": 1,
+      "block_indices": [
+        105
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 105.0,
+        "right": 0.0,
+        "bottom": 105.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "02/2024 – 04/2024",
+      "page_no": 1,
+      "block_indices": [
+        106
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 106.0,
+        "right": 0.0,
+        "bottom": 106.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Développement d’un modèle en temps réel pour la détection d’incendies utilisant YOLOv8 et OpenCV.",
+      "page_no": 1,
+      "block_indices": [
+        107
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 107.0,
+        "right": 0.0,
+        "bottom": 107.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Utilisation de SVM et Arbres de Décision pour classifier les images en catégories : feu, fumée, sans incendie.",
+      "page_no": 1,
+      "block_indices": [
+        108
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 108.0,
+        "right": 0.0,
+        "bottom": 108.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "• Mots-clés: Python, scikit-learn, SVM, Arbres de Décision, YOLO, OpenCV, Vision par ordinateur.",
+      "page_no": 1,
+      "block_indices": [
+        109
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 109.0,
+        "right": 0.0,
+        "bottom": 109.0
+      },
+      "section_title": "PROJETS PERSONNELS"
+    },
+    {
+      "text": "Diplôme National d’Ingénieur en Informatique",
+      "page_no": 1,
+      "block_indices": [
+        111
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 111.0,
+        "right": 0.0,
+        "bottom": 111.0
+      },
+      "section_title": "PARCOURS SCOLAIRE"
+    },
+    {
+      "text": "Sept. 2022 – juill. 2025",
+      "page_no": 1,
+      "block_indices": [
+        112
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 112.0,
+        "right": 0.0,
+        "bottom": 112.0
+      },
+      "section_title": "PARCOURS SCOLAIRE"
+    },
+    {
+      "text": "Epi Digital School Sahloul, Sousse, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        113
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 113.0,
+        "right": 0.0,
+        "bottom": 113.0
+      },
+      "section_title": "PARCOURS SCOLAIRE"
+    },
+    {
+      "text": "Licence appliquée en Télécommunication",
+      "page_no": 1,
+      "block_indices": [
+        114
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 114.0,
+        "right": 0.0,
+        "bottom": 114.0
+      },
+      "section_title": "PARCOURS SCOLAIRE"
+    },
+    {
+      "text": "Sept. 2019 – juill. 2022",
+      "page_no": 1,
+      "block_indices": [
+        115
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 115.0,
+        "right": 0.0,
+        "bottom": 115.0
+      },
+      "section_title": "PARCOURS SCOLAIRE"
+    },
+    {
+      "text": "ISITCOM Hammem-Sousse, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        116
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 116.0,
+        "right": 0.0,
+        "bottom": 116.0
+      },
+      "section_title": "PARCOURS SCOLAIRE"
+    },
+    {
+      "text": "Baccalauréat spécialité Mathématiques",
+      "page_no": 1,
+      "block_indices": [
+        117
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 117.0,
+        "right": 0.0,
+        "bottom": 117.0
+      },
+      "section_title": "PARCOURS SCOLAIRE"
+    },
+    {
+      "text": "Sept. 2018 – juill. 2019",
+      "page_no": 1,
+      "block_indices": [
+        118
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 118.0,
+        "right": 0.0,
+        "bottom": 118.0
+      },
+      "section_title": "PARCOURS SCOLAIRE"
+    },
+    {
+      "text": "Lycée Farhat Hached M’saken, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        119
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 119.0,
+        "right": 0.0,
+        "bottom": 119.0
+      },
+      "section_title": "PARCOURS SCOLAIRE"
+    },
+    {
+      "text": "• Fondamentaux de l’apprentissage profond par NVIDIA",
+      "page_no": 1,
+      "block_indices": [
+        121
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 121.0,
+        "right": 0.0,
+        "bottom": 121.0
+      },
+      "section_title": "CERTIFICATIONS"
+    },
+    {
+      "text": "15 sept. 2024",
+      "page_no": 1,
+      "block_indices": [
+        122
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 122.0,
+        "right": 0.0,
+        "bottom": 122.0
+      },
+      "section_title": "CERTIFICATIONS"
+    },
+    {
+      "text": "• Applications de l’IA pour la maintenance prédictive par NVIDIA",
+      "page_no": 1,
+      "block_indices": [
+        123
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 123.0,
+        "right": 0.0,
+        "bottom": 123.0
+      },
+      "section_title": "CERTIFICATIONS"
+    },
+    {
+      "text": "14 sept. 2024",
+      "page_no": 1,
+      "block_indices": [
+        124
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 124.0,
+        "right": 0.0,
+        "bottom": 124.0
+      },
+      "section_title": "CERTIFICATIONS"
+    },
+    {
+      "text": "• Applications NLP basées sur les transformateurs par NVIDIA",
+      "page_no": 1,
+      "block_indices": [
+        125
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 125.0,
+        "right": 0.0,
+        "bottom": 125.0
+      },
+      "section_title": "CERTIFICATIONS"
+    },
+    {
+      "text": "13 sept. 2024",
+      "page_no": 1,
+      "block_indices": [
+        126
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 126.0,
+        "right": 0.0,
+        "bottom": 126.0
+      },
+      "section_title": "CERTIFICATIONS"
+    },
+    {
+      "text": "• IA générative par Microsoft et LinkedIn",
+      "page_no": 1,
+      "block_indices": [
+        127
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 127.0,
+        "right": 0.0,
+        "bottom": 127.0
+      },
+      "section_title": "CERTIFICATIONS"
+    },
+    {
+      "text": "30 juin 2024",
+      "page_no": 1,
+      "block_indices": [
+        128
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 128.0,
+        "right": 0.0,
+        "bottom": 128.0
+      },
+      "section_title": "CERTIFICATIONS"
+    },
+    {
+      "text": "• Intelligence Artificielle et Science des Données : Machine Learning, Deep Learning, Computer Vision, Large",
+      "page_no": 1,
+      "block_indices": [
+        130
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 130.0,
+        "right": 0.0,
+        "bottom": 130.0
+      },
+      "section_title": "COMPÉTENCES"
+    },
+    {
+      "text": "Language Models (LLM), Prompt Engineering, NLP, Data Visualization, Power BI",
+      "page_no": 1,
+      "block_indices": [
+        131
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 131.0,
+        "right": 0.0,
+        "bottom": 131.0
+      },
+      "section_title": "COMPÉTENCES"
+    },
+    {
+      "text": "• Langages de Programmation: Python, Java, C/C++, JavaScript, PHP",
+      "page_no": 1,
+      "block_indices": [
+        132
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 132.0,
+        "right": 0.0,
+        "bottom": 132.0
+      },
+      "section_title": "COMPÉTENCES"
+    },
+    {
+      "text": "• Frameworks Web et Mobile: FastAPI , ReactJS, React Native, Node.js, ExpressJS, HTML, CSS",
+      "page_no": 1,
+      "block_indices": [
+        133
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 133.0,
+        "right": 0.0,
+        "bottom": 133.0
+      },
+      "section_title": "COMPÉTENCES"
+    },
+    {
+      "text": "• Bases de Données: MySQL, MongoDB , PostgreSQL",
+      "page_no": 1,
+      "block_indices": [
+        134
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 134.0,
+        "right": 0.0,
+        "bottom": 134.0
+      },
+      "section_title": "COMPÉTENCES"
+    },
+    {
+      "text": "• Big Data: Hadoop , Spark",
+      "page_no": 1,
+      "block_indices": [
+        135
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 135.0,
+        "right": 0.0,
+        "bottom": 135.0
+      },
+      "section_title": "COMPÉTENCES"
+    },
+    {
+      "text": "• Français : Professionnel",
+      "page_no": 1,
+      "block_indices": [
+        137
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 137.0,
+        "right": 0.0,
+        "bottom": 137.0
+      },
+      "section_title": "LANGUES"
+    },
+    {
+      "text": "• Anglais : Intermédiaire",
+      "page_no": 1,
+      "block_indices": [
+        138
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 138.0,
+        "right": 0.0,
+        "bottom": 138.0
+      },
+      "section_title": "LANGUES"
+    },
+    {
+      "text": "• Arabe : Langue maternelle",
+      "page_no": 1,
+      "block_indices": [
+        139
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 139.0,
+        "right": 0.0,
+        "bottom": 139.0
+      },
+      "section_title": "LANGUES"
+    }
+  ]
+}

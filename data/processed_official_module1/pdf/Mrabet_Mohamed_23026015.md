@@ -1,0 +1,59 @@
+## HEADER
+
+Mohamed Mrabet/map-marker-alt Tunis, Tunisie/envelope/phone +216 25 125 035
+mohamed. mrabet 09@gmail. com
+|/linkedin linkedin. com/in/mrabetmohamed/## PROFESSIONAL SUMMARY
+
+Profil
+
+## TECHNICAL SKILLS
+
+Ingénieur IT, spécialisé en Architecture IT et Cloud Computing, à la recherche d'une opportunité à temps plein dans le domaine Cloud ou Dev Ops. Passionné par l'automatisation des infrastructures, les technologies cloud-native et l'amélioration continue via les pratiques Dev Ops.
+Développement d'une plateforme e-commerce scalable (Spring Boot & Angular) intégrant blog, messagerie, notifications et marketplace.
+Mise en place de pipelines CI/CD sur Azure Dev Ops avec tests end-to-end (Selenium) et analyse de qualité de code (Sonar Qube).
+Déploiement sur Azure Kubernetes Service (AKS) avec Terraform et manifestes Kubernetes pour scalabilité et automatisation.
+Configuration d'un déploiement multi-régions avec Azure Traffic Manager pour haute disponibilité et basculement automatique.
+Pipelines de supervision avec Prometheus + Grafana (détection d'anomalies via ML) et intégration d'Azure Monitor pour observabilité continue.
+Stage Cloud/Dev Ops, RFC
+Déploiement d'une application web Spring Boot et Angular à l'aide des technologies Dev Ops (Jenkins, CI/CD, Docker) sur une infrastructure cloud automatisée (Kubernetes, Terraform, Azure).
+Stage d'Automatisation Cloud, Tunisie Telecom
+Automatisation de l'installation et du déploiement des services sur Azure Cloud en utilisant l'outil de gestion de configuration Ansible.
+Projet académique Cloud, ESPRIT
+Mise en place d'une infrastructure Cloud sur Open Stack.
+Développement d'une application Full Stack (Spring Boot & Angular).
+Déploiement sur Microsoft Azure via Kubernetes cluster pour scalabilité et haute disponibilité.
+Projet académique Web/Java/Mobile (Fast Rent), ESPRIT
+, ESPRIT : Architecture IT & Cloud
+Licence
+Outils et plateformes : Azure, Azure Dev Ops, Jenkins, Terraform, Ansible, Kubernetes, Grafana, Prometheus, Docker, Open Stack, Selenium, Sonar Qube, JUnit, Mockitou, Nexus, Trivy
+Frameworks et environnements :
+.NET, Node. js, Symfony, React, Angular, Spring
+Langages de programmation et scripts :
+Java, Python, Java Script, Type Script, My SQL, Oracle SQL
+Systèmes d'exploitation : Ubuntu, Windows
+
+## PROFESSIONAL EXPERIENCE
+
+Expériences Professionnelles
+
+## EDUCATION
+
+### Projet de Fin d'Études Cloud/Dev Sec Ops, RFC
+**Date:** Févr 2025 - Août 2025
+- Formation
+- Cycle Ingénieur
+### , ISSAT Mahdia : Techniques de l'information et de la communication
+**Date:** Janv 2023 - Avr 2023
+- Technologies
+
+## CERTIFICATES (IN PROGRESS)
+
+Pratiques Dev Sec Ops : scans de vulnérabilités (Trivy), tests de pénétration (OWASP ZAP), gestion des certificats et contrôle des accès.
+
+## ACADEMIC PROJECTS
+
+Projets Académiques
+### Déploiement local automatisé, ESPRIT
+**Date:** Juin 2024 - Août 2024
+- Automatisation du déploiement local d'une application avec Jenkins, Sonar Qube, Nexus, Web Hooks, Mockitou, JUnit, Grafana et Prometheus.
+- Conception et développement d'une plateforme web, mobile et desktop de location de voitures en Java, Symfony et Code Name One.

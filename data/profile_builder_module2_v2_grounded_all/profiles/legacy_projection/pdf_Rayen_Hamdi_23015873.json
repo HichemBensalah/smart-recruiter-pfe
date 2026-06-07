@@ -1,0 +1,99 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rayen_Hamdi_23015873.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rayen_Hamdi_23015873.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Rayen_Hamdi_23015873.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "RAYEN Hamdi",
+      "email": "hamdi@yahoo.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Laravel",
+        "Symfony",
+        "Spring Boot",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "JavaScript",
+        "php",
+        "Java",
+        "Python",
+        "Docker",
+        "Git",
+        "Adobe XD",
+        "Photoshop"
+      ],
+      "soft_skills": [
+        "Adaptabilité",
+        "Gestion du temps",
+        "Travail d'équipe",
+        "Résolution de problèmes",
+        "Prise de décision",
+        "Communication claire"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Full-Stack",
+        "company": null,
+        "start_date": "Freelance | 2023- 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une architecture full-stack avec Laravel, JavaScript, ",
+          "Gestion des bases de données MySQL et déploiement via Docker.",
+          "Collaboration avec des équipes médicales pour répondre aux besoins métiers."
+        ]
+      },
+      {
+        "job_title": "Développeur Full-Stack",
+        "company": null,
+        "start_date": "Freelance | 2023- 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de réservation en temps réel et intégration de paiements en ligne avec Laravel 8, MySQL"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "UBWAYS Luxembourg",
+        "year": "2020-2021"
+      },
+      {
+        "degree": "Master Professionnel en Ingénierie des Médias",
+        "school": "ISAMM MANOUBA",
+        "year": "2020 - 2022"
+      },
+      {
+        "degree": "Baccalauréat en Informatique",
+        "school": "LYCÉE HADIKA",
+        "year": "2016-2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:25:43.446773+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9569,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

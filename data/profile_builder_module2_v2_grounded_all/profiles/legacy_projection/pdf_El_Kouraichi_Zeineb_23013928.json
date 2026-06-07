@@ -1,0 +1,114 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\El_Kouraichi_Zeineb_23013928.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\El_Kouraichi_Zeineb_23013928.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\El_Kouraichi_Zeineb_23013928.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "EL KOURAICHI ZEINEB",
+      "email": "3@gmail.com",
+      "phone": "+216 51 051 103",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Io T",
+        "TensorFlow Lite",
+        "OpenCV",
+        "OSPF",
+        "VLAN",
+        "NAT/PAT",
+        "DHCP",
+        "Qo S",
+        "Firewall",
+        "SSH/RSA",
+        "VPN",
+        "Git",
+        "Power Shell",
+        "Node-RED",
+        "Wireshark",
+        "Lab VIEW"
+      ],
+      "soft_skills": [
+        "Rigoureuse",
+        "Responsable",
+        "Scripting",
+        "Analyse",
+        "Automatisation",
+        "Optimisation des ressources",
+        "Gestion mémoire C++",
+        "Collaboration équipes internationales"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieure Réseau & Automatisation",
+        "company": "Safran Electrical & Power - Tunisie",
+        "start_date": "Avr.-Juil. 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "- Système de vérification automatisée du câblage (B 787, A 320 N) via Django - -40% de temps d'arrêt .",
+          "- DNS",
+          "- Cartographie des flux réseau industriels, rédaction des topologies et matrices de flux.",
+          "Date: Juin-Juil. 2022"
+        ]
+      },
+      {
+        "job_title": "Ingénieure Validation Réseau",
+        "company": "Safran Electrical & Power - Tunisie",
+        "start_date": null,
+        "end_date": "- Juin-Juil. 2022",
+        "city": null,
+        "responsibilities": [
+          "- ACL",
+          "- Validation des connexions et liaisons de communication - programme Boeing B 787 .",
+          "- Diagnostic avancé: amélioration de la précision de +45% . Collaboration équipes internationales.",
+          "Date: 2024-présent"
+        ]
+      },
+      {
+        "job_title": "Analyste Réseau",
+        "company": "STEG - Soc. Tun. Électricité & Gaz - Tunisie",
+        "start_date": null,
+        "end_date": "- 2024-présent",
+        "city": null,
+        "responsibilities": [
+          "- Audit infrastructure réseau, identification des points de défaillance et propositions d'améliorations.",
+          "Date: 2024-présent"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Univ. Colorado Boulder (Coursera)",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat Sciences Techniques",
+        "school": "Lycée Abou kacem chebbi de Tozeur",
+        "year": "2021"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:53:51.205717+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8286,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

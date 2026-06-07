@@ -1,0 +1,109 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Yosr_23028081.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Yosr_23028081.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Yosr_23028081.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "YOSR FRINI",
+      "email": "yosr.frini@gmail.com",
+      "phone": null,
+      "location": "Ingénieure en informatique spécialisée en Intelligence Artificielle, passionnée par le développement de solutions innovantes basées sur les données et les technologies d'IA."
+    },
+    "expertise": {
+      "summary": "Calcul de similarité sémantique et déploiement via API pour afficher les profils les plus pertinents avec un score de pertinence.",
+      "hard_skills": [
+        "Python",
+        "Java",
+        "R",
+        "C/C++",
+        "SQL",
+        "NoSQL",
+        "PL/SQL",
+        "Spark",
+        "Hadoop",
+        "Power BI",
+        "Tableau",
+        "SSIS",
+        "SSAS",
+        "SSRS",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "FastAPI",
+        "Flask",
+        "Amazon SageMaker",
+        "Azure ML"
+      ],
+      "soft_skills": [
+        "Machine Learning",
+        "Deep Learning",
+        "IA générative",
+        "NLP",
+        "NLU",
+        "Prompt Engineering",
+        "Lang Chain",
+        "Lang Graph",
+        "Vector DB",
+        "Crew AI"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieure en Intelligence Artificielle",
+        "company": "Siyadah AI",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Participation au développement d'un système multi-agents pour automatiser des campagnes marketing Whats App et Email.",
+          "Mise en place de workflows automatisés avec n 8 n, réduisant les tâches manuelles de 50% et améliorant l'efficacité marketing."
+        ]
+      },
+      {
+        "job_title": "Ingénieur en Intelligence Artificielle",
+        "company": "Linedata",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Collecte, préparation et analyse des données marketing de Kiabi afin d'identifier l'impact des différents canaux publicitaires.",
+          "Entraînement de modèles Marketing Mix Modeling pour mesurer la contribution des canaux et guider l'allocation du budget."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Linedata",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Tanitlab",
+        "year": "Dec 2025 - Present"
+      },
+      {
+        "degree": "Baccalauréat En Sciences Expérimentales",
+        "school": "ESPRIT",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:05:09.582326+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7877,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

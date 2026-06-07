@@ -1,0 +1,103 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\boukhari_ghada_23014236.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\boukhari_ghada_23014236.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\boukhari_ghada_23014236.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": null,
+      "email": "8@gmail.com",
+      "phone": null,
+      "location": "Ariana, TUNISIA"
+    },
+    "expertise": {
+      "summary": "Cloud & DevOps Engineer with hands-on experience in multi-cloud environments (Microsoft Azure, GCP), infrastructure automation, and secure CI/CD pipelines.",
+      "hard_skills": [
+        "Cloud Computing",
+        "DevOps",
+        "Security",
+        "CRM",
+        "Monitoring",
+        "Data Visualization",
+        "Client Management",
+        "Iaa C",
+        "Linux",
+        "Office 365",
+        "CCNA 1",
+        "Sales Strategy"
+      ],
+      "soft_skills": [
+        "Automated deployments using Ansible",
+        "Provisioned and managed Kubernetes clusters on Azure with Terraform",
+        "Set up CI/CD pipelines using Git Lab",
+        "Managed containerized applications using Docker and Kubernetes",
+        "Deployed and managed cloud infrastructure on Microsoft Azure using Infrastructure as Code (Terraform)",
+        "Migrated on-premises workloads to Azure",
+        "Translated business requirements into efficient and scalable cloud solutions"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "CRM & Data Operations Supervisor",
+        "company": "SAFILAB",
+        "start_date": "08/2025",
+        "end_date": null,
+        "city": "Ariana, TUNISIA",
+        "responsibilities": [
+          "Administered and optimized the Odoo CRM system with a strong focus on role-based access control (RBAC) to ensure secure and structured user management.",
+          "Leveraged Metabase and Odoo analytics dashboards to generate actionable insights, improving decision-making speed by 20%.",
+          "Contributed to sales strategy by aligning CRM processes with business objectives and customer lifecycle management.",
+          "Strengthened client management by improving customer tracking, engagement, and retention."
+        ]
+      },
+      {
+        "job_title": "Cloud Engineer Intern",
+        "company": "HORIZOP Energy",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Architected and implemented scalable solutions on Google Cloud Platform (GCP).",
+          "Set up CI/CD pipelines using Git Lab to automate build and deployment workflows."
+        ]
+      },
+      {
+        "job_title": "Cloud and DevOps Intern",
+        "company": "Private High School of Engineering and Technology (ESPRIT)",
+        "start_date": null,
+        "end_date": null,
+        "city": "Radès, Tunisia",
+        "responsibilities": [
+          "Deployed and managed cloud infrastructure on Microsoft Azure using Infrastructure as Code (Terraform).",
+          "Master's in Systems, Networks and Cloud Computing"
+        ]
+      },
+      {
+        "job_title": "Bachelor's in Computer Networks",
+        "company": "University of Sfax",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Translated business requirements into efficient and scalable cloud solutions.",
+          "Migrated on-premises workloads to Azure."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:45:23.126210+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.951,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

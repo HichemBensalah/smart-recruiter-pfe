@@ -1,0 +1,165 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Neji_Khaled_23018116.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Neji_Khaled_23018116.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.714,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nKhaled Neji\n\n## TECHNICAL SKILLS\n\nIng´ enieur Cloud DevOps\nT´ el´ ephone:\nEmail:\nkhaledneji 25@gmail.com\nLinked In:\nlinkedin.com/in/khaled-neji-b 00029265\nGitHub:\nIng´ enieur Cloud DevOps certifi´ e avec une exp´ erience pratique dans la conception, le d´ eploiement et l'automatisation d'infrastructures cloud. Comp´ etent en AWS, Kubernetes, Terraform et outils CI/CD. Exp´ erience dans la conteneurisation, la surveillance des syst` emes et l'optimisation des performances. Motiv´ e ` a contribuer ` a des environnements fiables, s´ ecuris´ es et ´ evolutifs.\nStagiaire Ing´ enieur DevOps - Sp´ ecialisation AWS\nImpl´ ementation de la supervision avec Cloud Watch (logs, m´ etriques, alertes).\nApplication des bonnes pratiques de s´ ecurit´ e, r´ eseau et optimisation des coˆ uts AWS.\nTravail en m´ ethodologie Agile/Scrum avec Jira.\nAWS Certified Solutions Architect - Associate (2023)\nCKAD - Certified Kubernetes Application Developer (2024)\nAWS Cloud Architect Nanodegree - Udacity (2024)\nCloud DevOps Engineering Nanodegree - Udacity (2024)\nTerraform Associate Certification - Hashi Corp (2023)\nRed Hat Certified System Administrator (RHCSA)\n\n## ACADEMIC PROJECTS\n\ngithub.com/khaled-projects\n\n## PROFESSIONAL SUMMARY\n\nProfil Professionnel\nExp´ erience\nConfledis SAS (Paris, France) - Remote\n\n## EDUCATION\n\nConception et d´ eploiement d'infrastructures AWS avec Cloud Formation.\nMise en place de pipelines CI/CD avec Code Build et Code Deploy.\nConteneurisation des applications avec Docker et d´ eploiement en environnements scalables.\n## Configuration de AWS Session Manager, Elastic Beanstalk, Fargate et Lambda.\n**Date: ** 2025 (4 mois)\n- Formation\n- Licence en Math´ ematiques\n- Facult´ e des Sciences et Technologies de Sidi Bouzid\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications",
+    "header_info": {
+      "full_name": "Khaled Neji",
+      "email": "25@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7852,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "certifications[4]",
+      "certifications[5]",
+      "education[0].degree",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[2]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Khaled Neji",
+      "email": "khaledneji 25@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/khaled-neji-b 00029265",
+      "github": "github.com/khaled-projects"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "CI/CD",
+        "Cloud Watch",
+        "Docker"
+      ],
+      "soft_skills": [
+        "Agile/Scrum",
+        "Jira",
+        "Reseau",
+        "Optimisation"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Confledis SAS (Paris, France)",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Impl´ ementation de la supervision avec Cloud Watch (logs, m´ etriques, alertes).",
+          "Application des bonnes pratiques de s´ ecurit´ e, r´ eseau et optimisation des coˆ uts AWS.",
+          "Travail en m´ ethodologie Agile/Scrum avec Jira."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Licence en Math´ ematiques",
+        "field": null,
+        "year": 2025
+      },
+      {
+        "institution": null,
+        "degree": "Formation",
+        "field": null,
+        "year": 2025
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "AWS Certified Solutions Architect - Associate (2023)",
+      "CKAD - Certified Kubernetes Application Developer (2024)",
+      "AWS Cloud Architect Nanodegree - Udacity (2024)",
+      "Cloud DevOps Engineering Nanodegree - Udacity (2024)",
+      "Terraform Associate Certification - Hashi Corp (2023)",
+      "Red Hat Certified System Administrator (RHCSA)"
+    ],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:50:56.758863+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mchairia_yassine_23015435.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mchairia_yassine_23015435.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8613,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nStagiaire Développeur Fullstack\nRÉFÉRENCES\nHorizon Service, Tunis | Été 2024\nDéveloppé une plateforme de santé en ligne pour seniors tunisiens (Care 4 Elders), utilisant Spring Boot (backend) et Angular (frontend).\nMessaoudi Sofien (Aures Konnect): +216\n\n## MCHAIRIA YASSINE\n\nIng é n i e u r L o g i c i e l F u l l s t a c k & DevOps\n\n## À PROPOS DE MOI\n\nmchairiayassine@gmail.com\nmchairia-yassine\nBen Arous, Fouchena\n\n## TECHNICAL SKILLS\n\nJe suis maintenant diplômé et recherche un emploi. Je suis maintenant un ingénieur informatique fullstack et DevOps orienté IA. Passionné par le développement de solutions innovantes et axé sur l'apprentissage continu. Fort de compétences en développement back-end et front-end, je cherche à appliquer mes connaissances et perfectionner mes compétences.\nDéveloppement de l'application Care 4 Elders\nDéveloppement d'une plateforme de santé en ligne pour les seniors tunisiens.\nTechnologies: Spring Boot (backend), Angular (frontend), Stripe (paiements), QR Codes (gestion des réclamations), Twilio (notifications SMS).\nApplication de pratiques DevOps (Docker, CI/CD) pour automatiser les déploiements. Impact: Amélioration de l'accès aux soins et gestion des dépenses médicales pour les seniors.\ngithub Link\nDéveloppement de l'application Restoratings\nDéveloppé une app web pour notations et critiques, facilitant la découverte de restaurants via système de recommandations basé sur préférences utilisateurs.\nIntégré API Google pour authentification; backend scalable avec Symfony (PHP).\nImpact: +15 % d'engagement utilisateur simulé.\ngithub Link\nGestion des élections municipales - Application 2022\nFrameworks\nDéveloppement d'une plateforme pour le vote électronique.\nTechnologies: Langage C, Ubuntu (système d'exploitation).\nSpring Boot, Angular, Symfony, Flutter Flow\nImpact: Simplification du processus de vote et augmentation de la participation citoyenne.\ngithub Link\nOutils DevOps\nDocker Sonar Lint CI/CD\nTechnologies Web et API\nRESTful, JSON, MQTT (Io T)\nIA/ML\nRandom Forest, XGBoost, MLflow, Flask\nIntégré Stripe pour paiements sécurisés, QR Codes pour gestion des réclamations, et Twilio pour notifications SMS; appliqué pratiques DevOps (Docker, CI/CD) pour automatiser les déploiements.\nsofien.messaoudi@aureskonnect.com\nAbida Nidhal (Horizon Service):\nAmélioré l'accès aux soins et la gestion des dépenses médicales pour 500+ utilisateurs simulés. Impact: Réduction des temps de traitement de 25 % via optimisations. | GitHub Lien\n+216 28 125 966 | abida.nidhal@gmail.com\nLajmi Aymen (PFE):\n+216 53 038 848 | lajmi.aymen@gmail.com\nStagiaire en Développement\nParticipé à la conception et mise en œuvre de fonctionnalités pour le département financier, utilisant Node. js pour services backend.\nManipulé JSON pour transferts de données entre services et API RESTful; résolu des problèmes techniques complexes et optimisé les performances.\nContribué à des applications internes, réduisant les temps de traitement de 20 % via refactoring. Technos: Node. js, JSON, RESTful.\n\n## EDUCATION\n\nPROJETS\n## Cycle d'Ingénierie en Informatique ESPRIT, Tunis | 2022 - Juin 2025 (Diplômé)\n**Date: ** 2024\n- Care 4 Elders\n- Spécialisation en développement logiciel et IA.\nCours clés: Programmation Orientée Objet, Bases de Données, Structures de Données, Réseaux Informatiques.\n**Date: ** 2023\n- Mention: Excelent\n- Cycle préparatoire - Institut Préparatoire aux Études d'Ingénieurs De Bizerte\n- Restoratings\n- Langages de programmation\n## Java (Expert), Python (Avancé), PHP, C/C#, SQL\n**Date: ** Centre de Calcul El Khawarezmi (2025)\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nStagiaire Développeur Fullstack (PFE)\nDéveloppé une plateforme web fullstack pour la supervision et gestion centralisée de datacenters (Manouba et Manar, Tunisie), intégrant authentification sécurisée pour admins/techniciens et monitoring en temps réel des capteurs Io T via MQTT.\nImplémenté des modèles d'IA (Random Forest et XGBoost) pour prédire les alertes, évalués avec MLflow; intégré via Flask pour les API ML.\nOptimisé la réactivité des équipes de maintenance de 30 % via simulations de scénarios réels, notifications automatisées et chat en ligne (outils de coordination). Technos: Angular (frontend), Spring Boot & MySQL (backend), Flask (IA), MQTT. | GitHub Lien\n\n## LANGUAGES\n\nLangues\nFrançais (C 1), Arabe (Natif), Anglais (B 2)",
+    "header_info": {
+      "full_name": "Stagiaire Développeur Fullstack",
+      "email": null,
+      "phone": null,
+      "location": "Horizon Service, Tunis | Été 2024",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.3634,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.github",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].institution",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "bio.github",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Stagiaire Développeur Fullstack",
+      "email": "mchairiayassine@gmail.com",
+      "phone": "+216 28 125 966",
+      "location": "Horizon Service, Tunis | Été 2024",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Développeur fullstack avec expertise en développement back-end et front-end, DevOps et IA.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Docker",
+        "CI/CD",
+        "Flask",
+        "MLflow",
+        "Random Forest",
+        "XGBoost",
+        "Python",
+        "Java",
+        "PHP",
+        "C/C#",
+        "SQL"
+      ],
+      "soft_skills": [
+        "apprentissage continu",
+        "optimisation des performances"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Horizon Service, Tunis | Été 2024",
+        "job_title": "Stagiaire Développeur Fullstack (PFE)",
+        "start_date": "Été 2024",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Développé une plateforme web fullstack pour la supervision et gestion centralisée de datacenters",
+          "Implémenté des modèles d'IA (Random Forest et XGBoost) pour prédire les alertes",
+          "Optimisé la réactivité des équipes de maintenance de 30 % via simulations de scénarios réels, notifications automatisées et chat en ligne"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Centre de Calcul El Khawarezmi",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Préparatoire aux Études d'Ingénieurs De Bizerte",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français (C 1)",
+      "Arabe (Natif)",
+      "Anglais (B 2)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:19:14.242068+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

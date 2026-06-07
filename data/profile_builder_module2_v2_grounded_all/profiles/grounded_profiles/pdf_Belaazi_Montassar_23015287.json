@@ -1,0 +1,206 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Belaazi_Montassar_23015287.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Belaazi_Montassar_23015287.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.724,
+  "normalization": {
+    "cleaned_markdown": "## DEVELOPPEUR WEB & MOBILE\n\nPortfolio\nbelazimontasar@gmail.com\nNabeul, Tunisie\n\n## TECHNICAL SKILLS\n\nTitulaire d'un Master en Data Science et d'une licence en Sciences Informatiques, je suis passionné par le développement web et mobile. Grâce à mes expériences, j'ai pu développer de solides compétences dans ces domaines. Je m'intéresse constamment aux nouvelles technologies pour proposer des solutions modernes et efficaces.\nConception et développement d'une application web intelligente complète, dédiée à la gestion et au suivi des patients ainsi qu'à la gestion des ressources hospitalières.\nDéveloppement d'un frontend angular avec interfaces dynamiques, formulaires réactifs et tableaux de bord interactifs.\nDéveloppement de services backend robustes en Python (Flask) exposant des API REST sécurisées (JWT) pour la communication avec les clients et les services internes.\nMise en place de pipelines de données et traitements temps réel pour la surveillance des indicateurs médicaux et la génération d'alertes critiques (Kafka, Web Socket).\nConception et intégration de modèles IA/ML appliqués au domaine médical: détection des risques, prévision des admissions, classification des diagnostics et génération automatique de rapports cliniques.\nConception et développement d'une application de messagerie instantanée temps réel avec appels audio/vidéo.\nTechnologies: React Native, Node. js, Express, Socket. IO, Web RTC, PostgreSQL, Firebase Cloud Messaging, React. js, JWT/Passport JS.\nDéveloppement d'une application de streaming musical multiplateforme (Windows, mac OS, Linux) offrant la gestion des playlists, la navigation dans les bibliothèques locales et le contrôle à distance des haut-parleurs (volume, lecture/pause, saut de piste), avec une interface fluide et intuitive.\nConception et développement d'une application web RH complète pour la gestion des employés, des congés et des équipements.\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nPlateforme intelligente de suivi médical\nElite Council Consulting - Tunisie\nIntégration d'un chatbot conversationnel via n 8 n + agent IA (Mistral API)\nImplémentation des bonnes pratiques de sécurité et RGPD pour la gestion des données sensibles.\nTechnologies: Angular, Flask, Flask-JWT, REST API, MongoDB, Web Socket, Kafka, n 8 n, Mistral API.\nApplication mobile de messagerie temps réel (Android/i OS)\nAvempace - Nabeul\nMise en place d'une architecture temps réel basée sur Web RTC et Socket. IO.\nDéveloppement d'un dashboard web d'administration pour la gestion des utilisateurs, connexions et statuts.\nImplémentation de la sécurité et de l'authentification (JWT, gestion des rôles).\nIntégration des notifications push pour les messages et appels entrants.\nConception d'un backend scalable et sécurisé exposant des API REST.\nApplication de streaming musical multiplateforme\nAvempace - Nabeul\nTechnologies: Electron. js, JavaScript, HTML 5, CSS 3, Node. js.\n\n## ACADEMIC PROJECTS\n\nPROJETS\nApplication Web RH - Gestion des ressources humaines\nProjet freelance\nImplémentation du téléchargement et de la gestion sécurisée des documents.\nGestion des rôles et des permissions (employé/administrateur).\n\n## PROFESSIONAL SUMMARY\n\nMise en place d'une interface dédiée à chaque employé pour le suivi du profil, des événements internes et des demandes de congés.\nConception d'une architecture backend robuste assurant performance et sécurité des données.\nTechnologies: ReactJS, Nest JS, TypeScript, Prisma ORM, PostgreSQL, Amazon S 3, REST API, JWT, Git",
+    "header_info": {
+      "full_name": "Nabeul, Tunisie",
+      "email": "belazimontasar@gmail.com",
+      "phone": null,
+      "location": "Nabeul, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9448,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.location",
+      "education[0].degree",
+      "education[1].degree",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": "belazimontasar@gmail.com",
+      "phone": null,
+      "location": "Nabeul, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "React Native",
+        "Node.js",
+        "Express",
+        "Socket.IO",
+        "Web RTC",
+        "PostgreSQL",
+        "Firebase Cloud Messaging",
+        "React.js",
+        "JWT/Passport JS",
+        "Angular",
+        "Flask",
+        "Flask-JWT",
+        "REST API",
+        "MongoDB",
+        "Web Socket",
+        "Kafka",
+        "n8n",
+        "Mistral API",
+        "Electron.js",
+        "JavaScript",
+        "HTML 5",
+        "CSS 3",
+        "ReactJS",
+        "Nest JS",
+        "TypeScript",
+        "Prisma ORM",
+        "Amazon S3",
+        "Git"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Elite Council Consulting",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Intégration d'un chatbot conversationnel via n8n + agent IA (Mistral API)",
+          "Implémentation des bonnes pratiques de sécurité et RGPD pour la gestion des données sensibles"
+        ]
+      },
+      {
+        "company": "Avempace",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Nabeul",
+        "responsibilities": [
+          "Mise en place d'une architecture temps réel basée sur Web RTC et Socket.IO",
+          "Développement d'un dashboard web d'administration pour la gestion des utilisateurs, connexions et statuts",
+          "Implémentation de la sécurité et de l'authentification (JWT, gestion des rôles)",
+          "Intégration des notifications push pour les messages et appels entrants",
+          "Conception d'un backend scalable et sécurisé exposant des API REST"
+        ]
+      },
+      {
+        "company": "Avempace",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Nabeul",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Master en Data Science",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": null,
+        "degree": "licence en Sciences Informatiques",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:42:04.042287+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

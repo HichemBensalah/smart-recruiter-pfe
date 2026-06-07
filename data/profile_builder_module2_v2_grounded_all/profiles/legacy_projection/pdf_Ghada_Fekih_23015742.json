@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ghada_Fekih_23015742.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ghada_Fekih_23015742.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ghada_Fekih_23015742.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "GHADAFEKIH",
+      "email": "ghadafkiih@gmail.com",
+      "phone": "+21692142158",
+      "location": "Monastir, Tunisie"
+    },
+    "expertise": {
+      "summary": "Développeuse Fullstack avec 2 ans d'expérience en conception d'applications web fiables et performantes.",
+      "hard_skills": [
+        "Angular",
+        "Laravel",
+        "Node.js",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "HTML",
+        "CSS",
+        "MongoDB",
+        "RESTful APIs",
+        "Postman"
+      ],
+      "soft_skills": [
+        "travail en équipe Agile/Scrum",
+        "conception et implémentation de fonctionnalités clés",
+        "création de dashboards administrateurs et gestion des rôles utilisateurs",
+        "optimisation des requêtes et pipelines MongoDB"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeuse Fullstack",
+        "company": "FANVOICE",
+        "start_date": "/calendar 03/2024 - 12/2025",
+        "end_date": "/calendar 03/2024 - 12/2025",
+        "city": "Monastir, Tunisie",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Développeuse Full Stack Stagiaire",
+        "company": "Media PLUS",
+        "start_date": "/calendar 02/2022 - 06/2022",
+        "end_date": "/calendar 02/2022 - 06/2022",
+        "city": "Monastir, Tunisie",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mastère Professionnel en Business Analytics et Data Science",
+        "school": "Université Virtuelle de Tunis",
+        "year": "/calendar 09/2022 - 06/2024"
+      },
+      {
+        "degree": "Licence en Génie Logiciel et Systèmes d'Information",
+        "school": "Institut Supérieur d'Informatique de Mahdia",
+        "year": "/calendar 09/2019 - 06/2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:08:34.833512+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9828,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

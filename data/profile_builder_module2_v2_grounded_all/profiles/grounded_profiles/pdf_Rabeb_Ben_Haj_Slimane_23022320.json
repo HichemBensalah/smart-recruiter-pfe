@@ -1,0 +1,163 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rabeb_Ben_Haj_Slimane_23022320.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rabeb_Ben_Haj_Slimane_23022320.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.5335,
+  "normalization": {
+    "cleaned_markdown": "## INGÉNIEUR CLOUD & DEVOPS\n\nMourouj 1\nbenhajslimanerabeb@gmail.com/rabeb-ben-haj-slimane-1398 a 5201/## TECHNICAL SKILLS\n\nPassionnée par le cloud computing et les pratiques DevOps, avec un intérêt pour la conception de solutions performantes et évolutives. Motivée à relever des défis techniques et à contribuer à des projets innovants.\nsécurisée sur le cloud privé de la Sonede. Stage de fin d'étude (Licence): Mise en place d'une plateforme de collaboration avec intégration d'un module de suite bureautique\nNext Cloud: Une plateforme de partage et de communication de fichiers auto-hébergée, offrant un stockage et une collaboration sécurisés des données.\nProjet DevOps - Pipeline CI/CD & Surveillance\nConception et déploiement d'une application Spring Boot avec Jenkins pour l'intégration continue, gestion de version, tests automatisés et surveillance\nOutils: Spring Boot, Jenkins, Git & GitHub, Maven, JUnit & Mockito, Ja Co Co, Sonar Qube, Nexus, Docker & Docker Hub, Docker Compose, Prometheus & Grafana.\nCréation d'une application web innovante avec une infrastructure cloud résiliente basée sur Open Stack\nConception, déploiement et gestion d'un cloud Open Stack multi-nœuds avec Ansible, Heat, Magnum, Docker et Kubernetes, et surveillance avec Grafana et Prometheus . Élaboration d'une application Web avec:\nFrontend: Angular pour les interfaces réactives, Backend: Spring Boot pour une gestion des données robuste, Base de données: MySQL pour le stockage et la récupération, Cloud: Open Stack avec déploiement automatisé utilisant Ansible et Kubernetes pour une haute disponibilité.\nESPRIT: Cycle d'ingénieur en génie informatique, spécialisée en Cloud Computing\nISET Rades: Licence Appliquée en Technologies de l'Informatique, spécialisée en réseaux et systèmes d'informatique\nLycée Mourouj 1: Baccalauréat en Sciences Expérimentales\nCloud & Automatisation: Open Stack, Azure, Ansible, Terraform\nConteneurisation & Orchestration:\nDevOps & CI/CD: Jenkins, GitHub, Maven, Docker Hub, Argo CD, Nexus, Sonar Qube\nSurveillance: Prometheus, Grafana\nDéveloppement: Spring Boot, Angular, Flask, Python, Java, JavaScript, C\nBases de données: MySQL, Oracle\nSystèmes d'exploitation: Linux, Windows\nRéseau: Cisco Packet Tracer, e NSP\nMicrosoft Azure: Cloud Services, Lifecycles & Security Solutions (Coursera)\nCCNA Routing and Switching\nTechniques de sponsoring\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nConception et déploiement d'un cluster Kubernetes HA.\nMise en place d'un pipeline CI/CD sécurisé (Jenkins, Docker, Trivy, Argo CD, Git Ops).\nAutomatisation complète du provisionnement via Ansible & Helm.\nIntégration d'un monitoring temps réel (Prometheus, Grafana).\nDocker & Kubernetes: Conteneurisation et orchestration des services et applications\nGitHub: Source des fichiers du projet, incluant le code de l'application web\nJenkins: Automatisation des deploiements avec pipelines CI/CD intégrés dans Kubernetes\nStage d'immersion en entreprise: Mise en œuvre de la solution ELK Stack\nElasticsearch: Gestion de gros volumes de données avec la recherche avancée.\nLogstash: Ingérer, transformer et enrichir les données.\nLAMP Stack: Linux, Apache, MySQL, PHP - Une plateforme de développement web open source.\n\n## EDUCATION\n\nStage de fin d'études (Cycle ingénieur): Infrastructure Kubernetes HA avec monitoring MRTG modernisé et automatisation DevOps\nDéveloppement d'une plateforme web Flask + MySQL avec interface temps réel (Chart. js), calcul du 95 e percentile, alertes multi-canaux (Gmail, Twilio SMS) et chatbot IA (Gemini)\n**Date: ** 2022 - 2025\n**Location: ** Docker, Docker Compose, Kubernetes\n- FORMATION\n\n## ATI | 2/2025 - 11/2025\n\nStage d'ingénieur: Mise en place d'une Infrastructure Kubernetes avec Déploiement Continu et Monitoring\n\n## ESPRIT | 8/2024 - 9/2024\n\nPrometheus & Grafana: Monitoring et visualisation en temps reel des performances de l'infrastructure\n\n## TUNISAIR | 7/2023 - 8/2023\n\nKibana: Création de visualisations et de tableaux de bord personnalisés à partir de données Elastic\n\n## SONEDE | 2/2021 - 6/2021\n\nOnly Office: Une suite bureautique intégrée qui inclut des éditeurs en ligne pour les documents texte\n\n## COMPÉTENCES PERSONNELLES\n\nPrise de parole en public\nRésolution des problèmes\nTravail en équipe\nINTÉRÊTS\nDéveloppement personnel.\nSports: Cyclisme en salle\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\n\n## LANGUAGES\n\nLANGUES\nFrançais (B 2)\nAnglais (B 2)",
+    "header_info": {
+      "full_name": null,
+      "email": "benhajslimanerabeb@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "education/formation/academic",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_full_name",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6751,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.full_name",
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].field",
+      "education[2].institution",
+      "education[2].year",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": [
+      "bio.full_name"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": "benhajslimanerabeb@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Cloud Computing, DevOps, Kubernetes, Docker, Spring Boot, Jenkins, Git, GitHub, Prometheus, Grafana",
+      "experience_level": "senior",
+      "years_experience": 4,
+      "hard_skills": [
+        "Kubernetes",
+        "Docker",
+        "Spring Boot",
+        "Jenkins",
+        "Git",
+        "GitHub",
+        "Prometheus",
+        "Grafana"
+      ],
+      "soft_skills": [
+        "Prise de parole en public",
+        "Résolution des problèmes",
+        "Travail en équipe"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et déploiement d'un cluster Kubernetes HA",
+          "Mise en place d'un pipeline CI/CD sécurisé (Jenkins, Docker, Trivy, Argo CD, Git Ops)",
+          "Automatisation complète du provisionnement via Ansible & Helm",
+          "Intégration d'un monitoring temps réel (Prometheus, Grafana)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT",
+        "degree": "Cycle ingénieur en génie informatique",
+        "field": "Cloud Computing",
+        "year": 2024
+      },
+      {
+        "institution": "ISET Rades",
+        "degree": "Licence Appliquée en Technologies de l'Informatique",
+        "field": "réseaux et systèmes d'informatique",
+        "year": 2023
+      }
+    ],
+    "languages": [
+      "Français (B 2)",
+      "Anglais (B 2)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:24:32.752181+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\wassim_houaidi_23013930.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\wassim_houaidi_23013930.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\wassim_houaidi_23013930.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Wassim Houaidi",
+      "email": "houaidiisi@gmail.com",
+      "phone": "54 380 477",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "HTML",
+        "CSS",
+        "JavaScript (Angular+React)",
+        "Bootstrap",
+        "PHP (Laravel)",
+        "MySQL",
+        "MongoDB",
+        "Intégration API REST",
+        "java",
+        "python",
+        "Docker"
+      ],
+      "soft_skills": [
+        "Sens du contact",
+        "Capacité d'adaptation",
+        "Polyvalence",
+        "Autonomie"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "févr. 2023 - mai 2023",
+        "end_date": "févr. 2023 - mai 2023",
+        "city": null,
+        "responsibilities": [
+          "Indexation dans Elise GED (CIN, agence) pour assurer traçabilité et recherche rapide.",
+          "Recherche et récupération efficace des dossiers demandés via le système d'archives/Elise GED."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "juil. 2022",
+        "end_date": "juil. 2022",
+        "city": null,
+        "responsibilities": [
+          "Formation"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Génie logiciel et systèmes d'information",
+        "school": "Institut supérieur de langue appliquée et informatique de Béja",
+        "year": "2023"
+      },
+      {
+        "degree": "Baccalauréat en Mathématiques",
+        "school": "Lycée 2 Mars Tabarka",
+        "year": "2020"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:59:56.406804+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9817,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

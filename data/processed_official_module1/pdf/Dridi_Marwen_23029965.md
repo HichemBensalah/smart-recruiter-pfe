@@ -1,0 +1,90 @@
+## PROFESSIONAL EXPERIENCE
+
+Experience
+Dridi Marwen
+DÉVELOPPEUR FULL STACK à EYEOTECH
+Avril 2024-présent Janvier 2025-présent
+Application de gestion de file d'attente
+Développement backend avec architecture microservices utilisant Nest JS
+Implémentation de Redis pour la gestion des files d'attente en temps réel
+Intégration avec Mongo DB pour le stockage des données transactionnelles
+Optimisation des performances pour supporter des pics de charge élevés
+Développement d'API RESTful et Graph QL pour les clients frontaux
+Développeur Full-Stack passionné avec 3 ans d'expérience dans la création d'applications web et mobiles performantes. Expertise en :
+### Développement Front-End (React. js, React Native)
+### Architecture Back-End (Node. js, Express, Nest JS)
+### Bases de données (Mongo DB, Postgre SQL, Redis)
+**Date:** Mars 2023-Février 2024
+### Intégration d'APIs (Stripe, Firebase, Web Sockets)
+
+## ACADEMIC PROJECTS
+
+Plateforme de dépôt de projets et messagerie Avril 2024-Décembre 2024
+Développement full stack d'une plateforme pour club d'affaires avec Express. js et Nest JS
+Implémentation d'un système de dépôt et suivi de projets avec workflow personnalisable
+Conception d'une messagerie temps réel avec Web Sockets et notifications push
+Gestion des rôles et permissions (RBAC) pour différents types d'utilisateurs
+Interface admin complète avec tableau de bord analytique
+DÉVELOPPEUR MOBILE (REACT NATIVE) à IMAGINEPARTNERS Juin 2022-Mars 2024
+Applications e-commerce agricole
+Développement de 3 applications interconnectées (vente, achat, livraison) avec React Native
+### Intégration de paiements sécurisés via Stripe (cartes bancaires, wallet)
+**Date:** Juin 2022-Mars 2023
+- Système complet de notifications push pour les mises à jour de commandes
+- Tracking GPS en temps réel pour le suivi des livraisons
+- Backend avec Node. js/Express et Postgre SQL pour la gestion des transactions
+- Synchronisation des données entre applications via API REST
+- Développement d'une application de rencontres mobile multiplateforme (i OS/Android) avec React Native
+- Implémentation d'une messagerie en temps réel avec Web Sockets
+- Mise en place de notifications push (Firebase) et système de tracking géolocalisé
+- Architecture backend avec Node. js/Express et base de données Mongo DB
+
+## PROFESSIONAL SUMMARY
+
+Profil
+
+## TECHNICAL SKILLS
+
+À la recherche d'un poste stimulant pour mettre en œuvre mes compétences techniques et mon esprit d'innovation dans des projets ambitieux. Capacité avérée à livrer des solutions robustes et évolutives dans des délais serrés.
+Application de rencontres
+Coordonnées de contact
+@ dridimarwen 58@gmail. com
+Conception d'interface utilisateur intuitive avec animations fluides
+TECHNICIEN IT à GROUPE DRAXLMAIER SILIANA. Janvier 2017 - Février 2017
+COMPÉTENCES
+Développement d'une application mobile de restaurant : Conceptualisation, conception et développement réussis d'une application mobile de restaurant à partir de zéro.
+UML
+Javascript/typescript
+STAGE D'INITIATION à TT SILIANA
+HTML
+Configuration ADSL
+CSS
+React. js
+CQC - CERTIFICAT DE QUALIFICATION ET DE COMPÉTENCES . Centre
+Technologique Elife Siliana . génie logiciel
+Licence appliquée en technologies et sciences de l'informatiques ISET KAIROUAN . Séptembre 2014 - Juillet 2017
+Systémes embarqués et mobiles
+Firebase Cloud Messaging
+maternelle.
+Arabe:
+moyen.
+Français :
+Anglais: moyen.
+
+## H +216 40 404 420
+
+m linkedin. com/in/marwen-dridi 013007138/## EDUCATION
+
+React Native
+Node. js
+Next. js
+Express. js
+Nest JS
+Architecture microservices
+Redis
+Mongo DB
+Postgre SQL
+SQL
+Web Sockets/Socket. io
+Stripe API
+Langue

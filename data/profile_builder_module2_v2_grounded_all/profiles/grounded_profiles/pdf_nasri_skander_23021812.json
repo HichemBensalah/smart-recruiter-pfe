@@ -1,0 +1,273 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\nasri_skander_23021812.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\nasri_skander_23021812.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7586,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSkander Nasri\n\n## TECHNICAL SKILLS\n\nFull-Stack & DevOps Engineer | CI/CD | Docker | Cloud | Automation\n+216 24220813 | skan.nasri@gmail.com https: //github.com/skaandernasri\nhttps: //www.linkedin.com/in/skander-nasri https: //skaandernasri. github. io/skandernasri. github. io/Full-Stack & DevOps Engineer experienced in designing, developing, and deploying scalable applications. Skilled in modern web technologies, CI/CD automation, and cloud-native environments.\nBackground in Business Intelligence and strong interest in Artificial Intelligence and data-driven systems, with a focus on building intelligent and efficient solutions.\nFrameworks & Libraries: Spring Boot, Spring Data JPA, Hibernate, Angular, Svelte Kit, Laravel, Symfony, React, Next Js\nTesting & QA: JUnit, Mockito, Spring Test, REST Assured, Sonar Qube\nDevOps & Cloud: Docker, Docker Compose, Jenkins, GitHub Actions, Ansible, Nexus, GHCR, Prometheus, Grafana, Azure, AWS\nDatabases: PostgreSQL, MySQL, MongoDB\nAPI & Tools: Swagger/Open API, Git, GitHub, Power BI\nTempo-Rise - Full-Stack & DevOps Engineer\nArchitected and delivered a production-ready e-commerce platform using Spring Boot and Angular, serving live traffic with zero critical downtime post-launch.\nDesigned and automated CI/CD pipelines with Jenkins and GitHub Actions, reducing deployment time by ~70% compared to manual processes.\nContainerized the full stack (app, DB, monitoring) using Docker and Docker Compose, ensuring environment parity across dev and production.\nAutomated infrastructure provisioning and deployment via Ansible, eliminating ~80% of repetitive manual server configuration tasks.\nImplemented real-time monitoring and alerting with Prometheus and Grafana, enabling proactive incident detection.\nIntegrated an MLOps pipeline for automated Light FM model training and evaluation powering the product recommendation system.\nDeveloped and integrated the customer-facing storefront using Shopify, unifying frontend, backend, and database into one cohesive production system\nPersonal Project - DevOps Pipeline Project\nBuilt a complete CI/CD pipeline from scratch triggered by Git webhooks, covering build, test, quality gate, artifact publishing, and deployment stages.\nIntegrated JUnit & Mockito for automated testing and Sonar Qube for code quality analysis, maintaining a quality gate pass rate above 90%.\nCentralized artifact management with Nexus and enabled real-time monitoring with Prometheus & Grafana.\nETAP - Tunisian Petroleum Activities Company - DevOps/System Automation Intern\nAutomated ERP-Active Directory synchronization using Power Shell, reducing user provisioning time by approximately 65%\nDeveloped auditing scripts and Power BI dashboards that gave management real-time visibility into system health and user activity.\nConfledis (France) - Software & DevOps Intern\nContributed to Docker-based development environments and CI workflows within a collaborative, Git-driven team; gained exposure to professional DevOps standards in a French software company.\nCNAM - National Health and Social Insurance Fund (Tunisia) - PFE - Open-Source Document Management Platform 2021 - 2022\nDesigned and developed an open-source web platform using Spring Boot and Angular, enabling CNAM administrators to publish and manage official documents for clients nationwide.\nImplemented role-based access control (RBAC) distinguishing admin and client permissions, ensuring secure and structured document access.\nMLOps Specialization - Coursera\nEnglish: B 2 | French: B 2\nMicrosoft Azure Fundamentals - Microsoft\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\n\n## LANGUAGES\n\nLanguages: Java, JavaScript, Python, PHP, Bash (basic), Power Shell, C, C++\n\n## EDUCATION\n\nESPRIT - Private higher school of engineering and technology - Engineering Degree in IT (Data Science)\n**Date: ** 2025-Present\n- FST - Faculty of Sciences of Tunis - BSc in Computer Science\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\n\n## MACHINE LEARNING & DEEP LEARNING\n\nNVIDIA Deep Learning Institute\nSAP Certified Application Associate\nSDG Fundamentals - Moodle",
+    "header_info": {
+      "full_name": "Skander Nasri",
+      "email": "skan.nasri@gmail.com",
+      "phone": "+216 24220813",
+      "location": "https: //www.linkedin.com/in/skander-nasri https: //skaandernasri. github. io/skandernasri. github. io/Full-Stack & DevOps Engineer experienced in designing, developing, and deploying scalable applications. Skilled in modern web technologies, CI/CD automation, and cloud-native environments.",
+      "linkedin": "www.linkedin.com/in/skander-nasri",
+      "github": "github.com/skaandernasri"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9517,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[4].company",
+      "experiences[4].end_date",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]",
+      "languages[4]",
+      "languages[5]",
+      "languages[6]",
+      "languages[7]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Skander Nasri",
+      "email": "skan.nasri@gmail.com",
+      "phone": "+216 24220813",
+      "location": "",
+      "linkedin": "https://www.linkedin.com/in/skander-nasri",
+      "github": "https://skaandernasri.github.io/"
+    },
+    "expertise": {
+      "summary": "Full-Stack & DevOps Engineer with experience in designing, developing, and deploying scalable applications.",
+      "experience_level": "senior",
+      "years_experience": 4,
+      "hard_skills": [
+        "CI/CD automation",
+        "cloud-native environments",
+        "Docker",
+        "Jenkins",
+        "GitHub Actions",
+        "Ansible",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Spring Boot",
+        "Spring Data JPA",
+        "Hibernate",
+        "Angular",
+        "Svelte Kit",
+        "Laravel",
+        "Symfony",
+        "React",
+        "Next Js",
+        "JUnit",
+        "Mockito",
+        "Sonar Qube",
+        "Docker Compose",
+        "Prometheus",
+        "Grafana",
+        "Azure",
+        "AWS"
+      ],
+      "soft_skills": [
+        "Business Intelligence",
+        "Artificial Intelligence",
+        "Data-driven systems",
+        "Building intelligent and efficient solutions"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Tempo-Rise",
+        "job_title": "Full-Stack & DevOps Engineer",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Architected and delivered a production-ready e-commerce platform using Spring Boot and Angular",
+          "Designed and automated CI/CD pipelines with Jenkins and GitHub Actions",
+          "Containerized the full stack (app, DB, monitoring) using Docker and Docker Compose",
+          "Automated infrastructure provisioning and deployment via Ansible",
+          "Implemented real-time monitoring and alerting with Prometheus and Grafana"
+        ]
+      },
+      {
+        "company": "Personal Project",
+        "job_title": "DevOps Pipeline Project",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Built a complete CI/CD pipeline from scratch triggered by Git webhooks"
+        ]
+      },
+      {
+        "company": "ETAP - Tunisian Petroleum Activities Company",
+        "job_title": "DevOps/System Automation Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Automated ERP-Active Directory synchronization using Power Shell"
+        ]
+      },
+      {
+        "company": "Confledis (France)",
+        "job_title": "Software & DevOps Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Contributed to Docker-based development environments and CI workflows"
+        ]
+      },
+      {
+        "company": "CNAM - National Health and Social Insurance Fund (Tunisia)",
+        "job_title": "PFE - Open-Source Document Management Platform",
+        "start_date": "2021",
+        "end_date": "2022",
+        "city": null,
+        "responsibilities": [
+          "Designed and developed an open-source web platform using Spring Boot and Angular"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT - Private higher school of engineering and technology",
+        "degree": "Engineering Degree in IT (Data Science)",
+        "field": null,
+        "year": "2025-Present"
+      },
+      {
+        "institution": "FST - Faculty of Sciences of Tunis",
+        "degree": "BSc in Computer Science",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Java",
+      "JavaScript",
+      "Python",
+      "PHP",
+      "Bash (basic)",
+      "Power Shell",
+      "C",
+      "C++"
+    ],
+    "certifications": [
+      "NVIDIA Deep Learning Institute",
+      "SAP Certified Application Associate",
+      "SDG Fundamentals - Moodle"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:47:57.392396+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

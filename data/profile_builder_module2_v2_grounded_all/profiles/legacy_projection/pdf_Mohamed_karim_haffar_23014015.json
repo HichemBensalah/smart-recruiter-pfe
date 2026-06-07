@@ -1,0 +1,95 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_karim_haffar_23014015.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_karim_haffar_23014015.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_karim_haffar_23014015.json",
+    "profile_kind": "minimal_profile",
+    "bio": {
+      "full_name": "Mohamed Karim Haffar",
+      "email": null,
+      "phone": null,
+      "location": "Tunisien"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "pf Sense",
+        "Proxmox",
+        "Aruba Central",
+        "Checkmk",
+        "IMC"
+      ],
+      "soft_skills": [
+        "administration",
+        "optimisation",
+        "supervision"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Technicien Support informatique et réseau",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "AL Amel denden, La Manouba",
+        "responsibilities": [
+          "Mise en œuvre et administration de pare-feu et de solutions de sécurité réseau (pf Sense) pour la sécurisation des réseaux Wi-Fi.",
+          "Collabore avec l'équipe de cybersécurité pour garantir la sécurité des systèmes.",
+          "Surveillance et administration des ressources d'infrastructure à l'aide de plateformes",
+          "Utilisation de l'intelligence artificielle pour améliorer l'analyse, la détection et"
+        ]
+      },
+      {
+        "job_title": "Technicien support IT",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Déploiement et administration de solutions de virtualisation Proxmox"
+        ]
+      },
+      {
+        "job_title": "Freelancer",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "- l'optimisation de la supervision réseau.",
+          "- Automatisation de tâches simples via scripts ou outils d'administration."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Université Arabe des Sciences",
+        "year": "3"
+      },
+      {
+        "degree": "Licence appliquée en informatique de gestion",
+        "school": "Ecole Supérieure d' Economie Numérique",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:39:24.715001+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.0,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "low_grounded_reliability",
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\ons_khiari_23015164.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\ons_khiari_23015164.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\ons_khiari_23015164.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ons Khiari",
+      "email": "onskhiari2001@gmail.com",
+      "phone": "+216 55678206",
+      "location": "Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "Ingénieure logiciel spécialisée en développement full-stack avec une expérience dans les systèmes scalables, l'architecture microservices et les pipelines CI/CD.",
+      "hard_skills": [
+        ".NET",
+        "Next. js",
+        "Docker"
+      ],
+      "soft_skills": [
+        "Collaboration efficace",
+        "Qualité du code",
+        "Gestion de projets"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception du système national Evax",
+          "Développement d'une plateforme de réseau social avec React. js et Firebase",
+          "Développement d'un backend scalable avec Clean Architecture et des tests unitaires"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'une plateforme de mise en relation pour emplois et projets"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'une plateforme e-commerce avec React. js, Express. js, Node. js et MongoDB"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieure en Génie Logiciel",
+        "school": "École Supérieure Privée d'Ingénierie et de Technologies (Honoris United Universities)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:19:31.897542+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.979,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

@@ -1,0 +1,96 @@
+## HEADER
+
+EL GHALI abir
+INGÉNIEURE EN INFORMATIQUE (GÉNIE LOGICIEL) - JEUNE DIPLÔMÉE
+
+## TECHNICAL SKILLS
+
+Dotée de solides compétences en développement d'applications web et mobiles, ainsi qu'en automatisation de tests, je suis motivée, créative et responsable, avec une forte orientation vers les résultats.
+Frameworks et bibliothèques : React Js
+, Node JS, Symfony , Laravel , Android , Flutter , Spring Boot , Tensor Flow , Scikit- learn , Matplotlib , Selenium.
+Filière : Génie Logiciel
+Langages de programmation : C , JAVA , Python , PHP , Javascript .
+Les fondamentaux de Dev Ops - Alison - 2025
+Full Stack JS (Niveau 2) - Orange Digital Center - 2022
+Technologies utilisées :
+Soft Skills - Club Microsoft ISAAS - 2021
+
+## EDUCATION
+
+Projet de fin d'études - Application web d'Automatisation des cas de tests SAP FI/CO Février-Août 2025
+CONTACTS
+COFICAB Tunisie technologies utilisées : Robot Framework, Selenium , Jenkins, Next JS , Kafka ,Spring Boot , Git Hub , Docker
+- elghalyabir@gmail. com
+- Analyse des besoins et étude du processus sur les modules SAP FI/CO.
+- Intégration de Robot Framework pour l'automatisation des tests fonctionnels.
+### Gouvernorat de la Manouba, Tunisie el-ghali-abir-46827 a 208
+- Mise en place de Jenkins pour l'intégration et l'exécution continues des pipelines.
+- Développement d'une plateforme web pour la gestion et l'exécution des cas de tests.
+- Stage d'été - UI/UX Design d'une application de gestion d'assurance Resorware Dg Juillet-Août 2024
+- https://github. com/abir Elghali https://abir-elghali-portfolio-pi. vercel. app/- technologies utilisées : Figma
+- Conception des maquettes et prototypes interactifs .
+- L A N G U E S
+- Stage d'été - Conception et développement d'une application de gestion pour une société de livraison
+### Designet technologies utilisées : Laravel , Laragon .
+**Date:** Juillet-Août 2023
+- Arabe : Langue maternelle
+- Français : niveau intermédiaire
+Conception et développement des modules de gestion : utilisateurs, commandes, factures.
+**Date:** Mars-Mai 2022
+- Anglais : niveau intermédiaire
+- Mise en place du workflow de facturation avec automatisation des mises à jour.
+- Italien : niveau débutant
+- Projet de fin d'études - Application web d'Automatisation de processus de génération des liasses fiscales
+- Générer les liasses fiscales automatiquement .
+- É D U C A T I O N
+- Cycle d'ingénieur en informatique
+- Institut Supérieur des Arts Multimédia de la Manouba ISAM Manouba
+- Licence en Informatique de Gestion
+- Institut Supérieur d'Administration des Affaires de Sfax ISAA Sfax
+### Baccalauréat Tunisien section Mathématique
+**Date:** 2025
+
+## COMPÉTENCES TECHNIQUES
+
+Form@net technologies utilisées : Symfony , Postgre SQL .
+Bases De Données : Oracle DB, Mysql, Mongo DB , Laragon et Postgresql .
+Gérer les documents XML .
+
+## MACHINE LEARNING & DEEP LEARNING
+
+IA , Machine Learning , NLP , CNN
+Systèmes d'exploitation : Windows ,
+Filière : E-Business
+Linux
+Outils : Docker , Git Hub , Gitlab , Robot Framework , Jest , Playwright.
+Lycée Haouaria
+
+## CERTIFICATES (IN PROGRESS)
+
+CERTIFICATIONS
+Introduction à l'IA générative - L'art du possible - Amazon Web Services (AWS) - 2026
+Théorie des tests logiciels - Alison - 2025
+
+## PROJETS ACADÉMIQUES
+
+Application web pour la gestion de l'Orchestre symphonique tunisien
+Technologies utilisées : MERN stack , JWT , Web Socket
+Gérer les CRUD , notifications (web socket) , statistiques .
+Prédiction du cancer du sein, avec calcul de la surface de l'anomalie (en pixels) et détection de sa position.
+Réseau de neurones , CNN , Jupyter , Python .
+Créer le modèle d'apprentissage et d'évaluation .
+Application Distribuée Java avec RMI
+Technologies utilisées : Swing (Java) , Java RMI , Docker
+Architecture Serveur-Client avec RMI .
+Interface Utilisateur pour les Clients .
+Application Mobile de Coffee shop
+Technologies utilisées : Flutter , Android , Firebase .
+
+## VIE ASSOCIATIVE
+
+Membre de la Jeune Chambre Internationale de Dar Allouch (JCI)
+Conteneurisation Docker .
+C E N T R E S D ' I N T É R Ê T
+Peinture sur les toiles
+Photographie
+Gérer les CRUD , BD , commande .

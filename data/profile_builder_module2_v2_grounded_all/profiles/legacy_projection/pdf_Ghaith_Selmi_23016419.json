@@ -1,0 +1,94 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ghaith_Selmi_23016419.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ghaith_Selmi_23016419.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ghaith_Selmi_23016419.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ghaith Selmi",
+      "email": "1905@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Cloud Computing",
+        "DevOps",
+        "Angular",
+        "Symfony",
+        ".NET",
+        "Spring Boot",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Nginx",
+        "Sonar Qube",
+        "Ansible",
+        "MySQL",
+        "PostgreSQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Adaptabilité",
+        "Créativité",
+        "Travail en équipe",
+        "Communication",
+        "Esprit analytique"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "02/2025  08/2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et réalisation d'une interface utilisateur responsive et ergonomique.",
+          "Implémentation du back-end avec et intégration de la base de données.",
+          "Configuration des environnements, automatisation du build et déploiement du projet en production."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "07/2024  09/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stage ingénieur chez Shyrine Prod"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Stage de fin d'études",
+        "school": "Devopro",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat scientifique",
+        "school": "Lycée Pilote Gabes",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:09:33.826816+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7902,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

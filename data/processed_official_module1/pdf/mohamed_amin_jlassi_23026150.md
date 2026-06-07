@@ -1,0 +1,67 @@
+## MOHAMEDAMIN JELASSI
+
+INGENIEURENINFORMATIQUE
+业 linkedin. com/in/mohamed- amin-jlassi-a 3235631 a
+mohamedamin. jlassi@sesame. com. tn
+github. com/aminjlassi 1
+
+## PROFESSIONAL SUMMARY
+
+PROFIL
+Integration d'un moteur de recommandation base sur lintelligence artificielle (Python, scikit-learn) permettant de personnaliserlessuggestionsdeproduitsselonleprofil client.
+·Front-end Angular/React, Back-end Spring Boot/Nodejs, base de donnees Postgre SQL/My SQL, avec notifications par email et gestion des paiements en ligne.
+
+## TECHNICAL SKILLS
+
+Ingenieur en informatique passionne par les nouvelles technologies, je suis a la recherche de defis stimulants me permettant devalorisermescompetences endeveloppement logiciel toutenévoluantdansunenvironnement innovantetcollaboratif.
+COMPETENCES
+Dev Ops
+：Docker, jenkins
+Bases de données : Postgre SQL, My SQL, Mongo DB
+
+## EDUCATION
+
+Licence en Reseaux et Systemes Informatiques
+Cycleingenieur en informatique
+Universite Sesame
+Institut Superieur d'Informatique du Kef
+STAGEPROFESSIONNEL
+Developpementd'unsitewebdeventeagricole
+Developpement d'un systeme integre de gestion des formations
+s s s e planification, le suivi et l'evaluation des sessions. Realisation avec Spring Boot, Angular et Postgre SQLdansune architecturefullstackmoderne.
+**Date:** 2019-2022
+·Conceptionetdeveloppementd'unsystemedecaisseenregistreusepourla gestiondes ventes, desproduits et destransactions entempsreel.
+Implementation de l'application en ASP. NET avec une base de donnees My SQL, modelisée et administree via My SQLWorkbench.
+- Mise enplacesupervision avecleprotocole Netflow
+- ameliorer la visibilite et la performance du reseau en offrant une surveillance en temps réel du trafic grace au protocole Net Flow
+- Developpement d'une plateforme de vente en ligne avec systeme de recommandation IA
+- Anglais
+- Francais
+
+## 2025 PROMAGMABROUKA
+
+·Conception et developpement d'une application web de gestion des ventes agricoles, integrant lesmodulesdegestiondesproduits, desclientsetdescommandes.
+·Mise enplace d'untableau debord decisionnel(Business Intelligence)pour I'analyse en tempsreeldesventes, desclients et desperformancesproduitsa l'aidede Power Bl.
+Developpementduback-endavec Spring Boot, garantissantlasecuritedes APl RESTet Il'optimisation des interactions avec la basededonnees Postgre SQL.
+
+## 2024 OPTIMASOFTPLUS
+
+Caisseenregistreuse
+
+## 2023 OPTIMASOFTPLUS
+
+TOPNET
+PROJETACADEMIQUE
+gestion des produits, des commandes et des utilisateurs.
+Developpement d'une plateforme de hackathon et de challenge d'apprentissage
+Developpementfront-end avec Angularpouruneinterfaceinteractiveetresponsive.
+
+## ACADEMIC PROJECTS
+
+Base de donnees Postgres QL pour le stockage securise des participants et des projets.
+Sitewebd'organisationd'evenements
+
+## LANGUAGES
+
+LANGUES
+arabe

@@ -1,0 +1,185 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Salem_El_Mabrouk_23014165.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Salem_El_Mabrouk_23014165.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9667,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSalem El-Mabrouk\nDéveloppeur Full-Stack/mobile-alt +216 95 600 752/envelope elmabrouksalem 8@gmail.com\n|/linkedin linkedin.com/in/salemelmabrouk/globe-europe portafolio. com\n|/map-marker-alt Jemmal - Monastir/github github.com/Salemelmabrouk |\n\n## PROFESSIONAL SUMMARY\n\nProfil Professionnel:\nDéveloppeur Full-Stack spécialisé dans la conception d'applications web modernes, performantes et scalables. Maîtrise des technologies frontend (React, Angular, Next. js) et backend (Node. js, Spring Boot, Java), avec une expertise en conception d'APIs RESTful, intégration de bases de données SQL/NoSQL et déploiement via Docker. Rigoureux et orienté solution, j'applique les bonnes pratiques pour concevoir des applications fiables et maintenables.\n\n## TECHNICAL SKILLS\n\nCompétences Techniques:\nReact, Angular, Next. js, Tailwind CSS, HTML/CSS, Media queries et Responsive Design\nFrontend:\nNode. js, Express. js, Spring Boot, Java, APIs REST, JWT, OAuth 2\nBackend:\nMongoDB, PostgreSQL, MySQL, Oracle 19 c, Supabase\nBases de données:\nDocker, Kubernetes, GitHub Actions, CI/CD, Git, Postman\nDevOps & Outils:\nC, C#, JavaScript, TypeScript, Java, Python, VBA,\nProgramming Langages:\nSupport (N 1), Dépannage PC, support matériel et utilisateurs, administration systèmes/réseaux\nSupport IT:\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience Professionnelle:\nSupport Technique IT & Supervision de Production:\nBriqueterie du centre - Manzel Hayet\n-Supervision des indicateurs de production et de consommation énergétique (électricité, gaz) à l'aide de tableaux de bord Excel et Microsoft Dynamics 365, contribuant à la réduction des consommations anormales (calcul de ratios).\n-Gestion des niveaux de stock via le système ERP et les outils de reporting, garantissant la disponibilité continue des produits et la prévention des ruptures.\n-Collecte et analyse des données opérationnelles à l'aide de Microsoft Excel (calcul de ratios, formules, tableaux croisés dynamiques), améliorant la précision des rapports et la prise de décision.\n-Fourniture d'un support IT (N 1) aux utilisateurs, résolution des problèmes matériels, logiciels et d'impression.\n-Réalisation de sauvegardes régulières des données et dépannage basique des systèmes d'entreprise afin d'assurer la sécurité des données et la continuité des activités.\n\n## EDUCATION\n\nFormation:\nBTS Télécommunications (Option Informatique) - Centre Sectoriel de Formation en Électronique de Sousse 2010 - 2011\nMaîtrise en Mathématiques-Informatique (Premier Cycle Universitaire ) - Faculté des Sciences de Monastir 2006 - 2009\n## Baccalauréat Mathématiques - Lycée Ibn Khaldoun Jemmal\n**Date: ** 2012 - 2023\n\n## ACADEMIC PROJECTS\n\nProjets:\n## Project Flow | Application de Gestion Agile Full-Stack:\n**Date: ** Jan 2026\nConception et développement d'une plateforme Agile interactive permettant la gestion de projets via des tableaux de type Kanban avec fonctionnalités de glisser-déposer et suivi en temps réel. Mise en place d'une architecture backend robuste avec Spring Boot 3, sécurisée par Spring Security et JWT, et d'un frontend moderne sous Angular 19 avec Tailwind CSS. Déploiement conteneurisé complet via Docker Compose assurant portabilité et scalabilité.\n- Technologies:\n## Java, Spring Boot 3, Angular 19, Oracle 19 c, Docker Compose, Tailwind CSS\n- Code Source:\n- github.com/Salemelmabrouk/projec-flow",
+    "header_info": {
+      "full_name": "Salem El-Mabrouk",
+      "email": "8@gmail.com",
+      "phone": "+216 95 600 752",
+      "location": null,
+      "linkedin": "linkedin.com/in/salemelmabrouk/globe-europe",
+      "github": "github.com/Salemelmabrouk"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9933,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Salem El-Mabrouk",
+      "email": "8@gmail.com",
+      "phone": "+216 95 600 752",
+      "location": null,
+      "linkedin": "linkedin.com/in/salemelmabrouk/globe-europe",
+      "github": "github.com/Salemelmabrouk"
+    },
+    "expertise": {
+      "summary": "Développeur Full-Stack spécialisé dans la conception d'applications web modernes, performantes et scalables.",
+      "experience_level": "senior",
+      "years_experience": 18,
+      "hard_skills": [
+        "React",
+        "Angular",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "Spring Boot",
+        "Java",
+        "APIs RESTful",
+        "JWT",
+        "OAuth 2",
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle 19 c",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "CI/CD",
+        "Git",
+        "Postman"
+      ],
+      "soft_skills": [
+        "Rigoureux",
+        "Orienté solution",
+        "Support (N 1)",
+        "Dépannage PC",
+        "support matériel et utilisateurs",
+        "administration systèmes/réseaux"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Briqueterie du centre - Manzel Hayet",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Supervision des indicateurs de production et de consommation énergétique (électricité, gaz) à l'aide de tableaux de bord Excel et Microsoft Dynamics 365",
+          "Gestion des niveaux de stock via le système ERP et les outils de reporting",
+          "Collecte et analyse des données opérationnelles à l'aide de Microsoft Excel",
+          "Fourniture d'un support IT (N 1) aux utilisateurs",
+          "Réalisation de sauvegardes régulières des données et dépannage basique des systèmes d'entreprise"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Centre Sectoriel de Formation en Électronique de Sousse",
+        "degree": "BTS Télécommunications (Option Informatique)",
+        "field": null,
+        "year": 2011
+      },
+      {
+        "institution": "Faculté des Sciences de Monastir",
+        "degree": "Maîtrise en Mathématiques-Informatique (Premier Cycle Universitaire )",
+        "field": null,
+        "year": 2009
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:36:17.590585+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Lefi_Ameni_23021451.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Lefi_Ameni_23021451.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Lefi_Ameni_23021451.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Lefi Ameni",
+      "email": "889@gmail.com",
+      "phone": null,
+      "location": "Ben arous, Tunisie"
+    },
+    "expertise": {
+      "summary": "Étudiante ingénieure en Cloud Computing & Virtualisation (ITEAM University), certifiée RHCSA, avec une expérience concrète en administration Linux, conteneurisation Docker, déploiement cloud (AWS, Open Stack) et développement web full-stack.",
+      "hard_skills": [
+        "Linux",
+        "Open Stack",
+        "Virtual Box",
+        "Docker",
+        "AWS",
+        "FastAPI",
+        "Python"
+      ],
+      "soft_skills": [
+        "travail en équipe",
+        "adaptabilité aux outils"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Ben arous, Tunisie",
+        "responsibilities": [
+          "Déploiement dʼune application web sur Cloud Open Stack",
+          "Création dʼune machine virtuelle sous Virtual Box",
+          "Configuration dʼun environnement Linux",
+          "Déploiement dʼun site web sur Open Stack",
+          "Gestion de lʼinfrastructure cloud"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "ITEAM University",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:02:01.772178+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.951,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

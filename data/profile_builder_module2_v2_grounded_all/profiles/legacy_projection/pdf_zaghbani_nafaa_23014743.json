@@ -1,0 +1,120 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\zaghbani_nafaa_23014743.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\zaghbani_nafaa_23014743.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\zaghbani_nafaa_23014743.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Diplôme d'ingénieur",
+      "email": "zaghbaninafea@gmail.com",
+      "phone": "+216 27 247 920",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Langchain",
+        "Scikit-learn",
+        "TensorFlow",
+        "Hugging Face",
+        "OpenCV",
+        "Matplotlib",
+        "Pandas",
+        "NumPy",
+        "spaCy",
+        "Ollama",
+        "Python (Flask)",
+        "Java (Spring Boot, MVC, Security, Data JPA, Cloud)",
+        "Angular",
+        "SQL",
+        "REST APIs",
+        "Linux",
+        "Git",
+        "Azure",
+        "Docker",
+        "MySQL",
+        "Chroma DB",
+        "Postman",
+        "Py Charm",
+        "Intelli J IDEA"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "ingénieur en Technologies de l'Information et de la Communication (TIC)",
+        "company": "´ Ecole Nationale d'Ingénieurs de Gabès (ENIG)",
+        "start_date": "Septembre 2021",
+        "end_date": "Juin 2024",
+        "city": "Tunisie",
+        "responsibilities": [
+          "Conception et déploiement d'un système d'IA générative multi-agents (Agentic AI) visant à automatiser l'onboarding client et l'accès aux informations financières et réglementaires au sein d'une bourse nationale.",
+          "Architecture d'une solution avancée de Retrieval-Augmented Generation (RAG) permettant d'ancrer les réponses des LLMs sur des documents réglementaires et des données structurées, réduisant le risque d'hallucination."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Février 2024",
+        "end_date": "Juillet 2024",
+        "city": null,
+        "responsibilities": [
+          "Mise en œuvre de l'orchestration d'agents avec mécanismes de tool/function calling, permettant une sélection dynamique entre la recherche sémantique documentaire, l'accès aux données structurées et l'appel à des APIs"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Juin 2023",
+        "end_date": "Juillet 2023",
+        "city": null,
+        "responsibilities": [
+          "Implémentation de MySQL et d'API REST pour une communication fluide entre frontend, backend et IA, assurant traitement en temps réel et gestion efficace des documents."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Juin 2022",
+        "end_date": "Juillet 2022",
+        "city": null,
+        "responsibilities": [
+          "Conception et mise en œuvre d'une plateforme d'IA de niveau industriel permettant d'industrialiser la transformation de documents non structurés (PDF, pages web, fichiers texte) en jeux de données d'entraînement LLM de haute qualité (QA, résumé, classification)"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Agent de dépannage réseau basé sur l'IA: Mise en œuvre d'un système de diagnostic et d'auto-dépannage réseau assisté par IA, intégrant py ATS avec des agents routeurs et commutateurs pour exécuter des tests structurés, analyser les problèmes de connectivité, vérifier les configurations, effectuer des actions correctives autonomes et permettre des requêtes réseau en langage naturel pour une automatisation et une prise de décision en temps réel."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'ingénieur",
+        "school": "` Ecole Nationale d'Ingénieurs de Gabès (ENIG) ",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:11:32.880282+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9546,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

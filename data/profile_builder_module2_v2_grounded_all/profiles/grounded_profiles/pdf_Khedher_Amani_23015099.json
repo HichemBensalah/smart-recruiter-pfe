@@ -1,0 +1,161 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Khedher_Amani_23015099.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Khedher_Amani_23015099.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.751,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAmani Khedher\nCentresd'interet\nStages\nNatation\nde mars 2019 ajuin 2019\n\n## PROFESSIONAL SUMMARY\n\nProfil\nJai lesprit de travail en groupe. sens de responsabilitedesirant d'apprendre, facilite de communiquer, ponctuelle, desir de relever les defis.\nCreative etpassionnee de nouvelles technologies, flexible, calme etorganisee Je suis parfaitement gereelesperiodesde forte affluence.\n\n## PROFESSIONAL EXPERIENCE\n\nExperienceprofessionnelle\nAssistante administratif\ndeavr. 2025 acejour\nExcel Contral: Bureau de controle\nPlanification desmissions-Creation des lettres et des Pv-Envoi desemails Classement et archivage\ndemars 2024 amars 2025\nFalcon lnspection et Services: Societe dlnspection et de controle industriel, Tours\n**Date: ** de a 0 ut 2021 ajuil. 2022\n- Assistante commerciale\nPrise en compte de la demande de client-Redige des devis traite les factures et les transmet au service concerne (service financier, comptabilite )\n**Date: ** dejanv. 2021 ajuil. 2021\n- Assistante administratif\n- SSCFHolding: Centre de tormation et boite de developpement\n- Etablissemenit-BEN MRAD: Ecole privee\n- MAD Materiel Auto. et Derives Fabrication desequipements electriqueset appareillage pour vehicules automobiles. pieces de rechanges autos\n- Cablages et assemblages des cables fibres optiques sur specification client.\n- I'informatique Specialite: Systeme Embarque\n\n## EDUCATION\n\nInformations personnelles\nAssistante technique\nAmani Khedher\nkhedheramani 5@gmail.com\n20 Rue Ankara Cite Lfatah Sidi Hassine Essijoumi Tunis 1095 Tunis\nSurveillante\n16 juin 1996\nControle qualite\nFormation\nAndroid-Arduino-STM 32\n-Raspberry\nInstitut supenieur desetudes technologiquesde Rades ISET RADES. Tunis\nMicr 0 soft-ISO 9001-ISO 17020\nStage de fin detudes\nTheatre\nAfricom Services\nRealisation de projet\"SMART PARKING\nDance\nStage de perfectionnement\nMusique\nAfricom Services\nStage d'initiation\nSTEG\n\n## TECHNICAL SKILLS\n\nCompetences\nOuvriere\nPacksoffice-Java-C/C+\nOPTERNAAFRICA\n+-HTML-CSS-Android\n-Python-MySQL-SQL- MongoDB-\n\n## LANGUAGES\n\nLangues: Francais-\nAnglais-Espagnol\n\n## SOFT SKILLS\n\nQualites\n\n## CERTIFICATES (IN PROGRESS)\n\nCertificats\nDynamique\nPonctuelle\nSouriante",
+    "header_info": {
+      "full_name": "Amani Khedher",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9502,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Amani Khedher",
+      "email": "khedheramani 5@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Jai lesprit de travail en groupe. sens de responsabilitedesirant d'apprendre, facilite de communiquer, ponctuelle, desir de relever les defis.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Excel Contral: Bureau de controle",
+        "Falcon lnspection et Services: Societe dlnspection et de controle industriel, Tours",
+        "OPTERNAAFRICA",
+        "-HTML-CSS-Android",
+        "-Python-MySQL-SQL- MongoDB-"
+      ],
+      "soft_skills": [
+        "Creative etpassionnee de nouvelles technologies",
+        "Flexible, calme etorganisee",
+        "Desir de relever les defis",
+        "Ponctuelle",
+        "Souriante"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Excel Contral: Bureau de controle",
+        "job_title": "Assistante administratif",
+        "start_date": "demars 2024 amars 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Planification desmissions-Creation des lettres et des Pv-Envoi desemails Classement et archivage"
+        ]
+      },
+      {
+        "company": "Falcon lnspection et Services: Societe dlnspection et de controle industriel, Tours",
+        "job_title": "Assistante commerciale",
+        "start_date": "dejanv. 2021 ajuil. 2021",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Prise en compte de la demande de client-Redige des devis traite les factures et les transmet au service concerne (service financier, comptabilite )"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Amani Khedher",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut supenieur détudes technologiquesde Rades ISET RADES. Tunis",
+        "degree": "Micr 0 soft-ISO 9001-ISO 17020",
+        "field": "Android-Arduino-STM 32-Raspberry",
+        "year": null
+      }
+    ],
+    "languages": [
+      "Francais-",
+      "Anglais-Espagnol"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:53:39.157067+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

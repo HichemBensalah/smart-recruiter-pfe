@@ -1,0 +1,88 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Zahra_hamdi_23019777.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Zahra_hamdi_23019777.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Zahra_hamdi_23019777.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "HAMDI ZAHRA",
+      "email": "Hamdizahra 122@gmail.com",
+      "phone": null,
+      "location": "Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Linux",
+        "Windows Server",
+        "TCP/IP",
+        "VLANs",
+        "Routing",
+        "Switching",
+        "SIEM monitoring",
+        "log analysis",
+        "incident response basics",
+        "Python (basic)",
+        "Bash (basic)",
+        "Microsoft Azure fundamentals",
+        "Virtual Machines",
+        "Azure Storage",
+        "Virtual Networks"
+      ],
+      "soft_skills": [
+        "Motivated"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "SOC Analyst",
+        "company": "Foufoussa",
+        "start_date": "2024 – 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Investigated network and system logs to detect anomalies.",
+          "Analyzed security alerts and performed incident triage.",
+          "Collaborated with system and network teams to remediate incidents."
+        ]
+      },
+      {
+        "job_title": "Systems & Network Administrator",
+        "company": "Foufoussa",
+        "start_date": "2022 – 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Administered Linux and Windows Server environments.",
+          "Managed DNS, DHCP, TCP/IP and VLAN configurations.",
+          "Maintained infrastructure availability, performance and security.",
+          "Participated in virtualization and infrastructure optimization."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Baccalaureate",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:12:12.286615+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.4723,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

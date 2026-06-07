@@ -1,0 +1,101 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\guesmi_rania_23028738.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\guesmi_rania_23028738.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\guesmi_rania_23028738.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "RANIA GUESMI",
+      "email": "rania.guesmi@esen.tn",
+      "phone": "+216 20 828 055",
+      "location": ""
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Node.js/Express",
+        "Go (API REST)",
+        "Python",
+        "PHP 8",
+        "GraphQL",
+        "YAML",
+        "Docker",
+        "React Native",
+        "MongoDB",
+        "Google Maps API",
+        "JWT"
+      ],
+      "soft_skills": [
+        "Analytique",
+        "SEO",
+        "Conception d'applications web et mobiles scalables",
+        "Développement d'API REST",
+        "Application React Native",
+        "Déploiement cloud",
+        "Gestion de bases de données MySQL",
+        "Audits, tests et débogage"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Sep 2022 - Déc 2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mise en place de la sécurité du site avec Google re CAPTCHA v 3"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Intégration des APIs backend et authentification utilisateur",
+          "Tests, corrections et préparation au déploiement"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Gestion du projet avec Git et déploiement via GitHub Pages"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master Professionnel en E-Business (1ère année)",
+        "school": "ESEN - École Supérieure d'Économie Numérique",
+        "year": "2023"
+      },
+      {
+        "degree": "Baccalauréat - Sciences Informatiques",
+        "school": "Lycée Borj Louzir",
+        "year": "2016"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:15:17.526561+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9183,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Iyadh_Jamei_23017320.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Iyadh_Jamei_23017320.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7876,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nIyadh Jamei\nDéveloppeur Full-Stack\njameiiyadh@gmail.com\nRades mongil, Tunisie\n\n## EDUCATION\n\nLicence en Sciences de l'informatique: GENIE LOGICIEL\nInstitut Supérieur d'Informatique et de Mathématiques de Monastir (ISIMM)\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nIntelligent Management Solution (IMS), Kuwait\nDéveloppeur Front-End Angular\nDéveloppement et maintenance d'un système CAFM.\nRefactorisation et optimisation des composants Angular (performance, lisibilité, réutilisabilité).\nIntégration et tests d'API REST via Swagger.\nMise en œuvre d'interfaces responsive et UX optimisée.\nTechnologies: Angular 16, TypeScript, Rx JS, Ng RX store, Prime NG, SCSS, Bootstrap, Git, Jira.\nOne Gate Africa, Tunis\nStage PFE\nConception, développement et mise en service d'un ERP avec l'architecture micro service:\nTâches réalisées:\nDéveloppement de microservices avec Spring Boot, Axon Framework (Event Sourcing, CQRS) et PostgreSQL.\nGestion ERP: budgétisation (CJM, TJM), fiches de paie, utilisateurs via Keycloak (Phase Two).\nInterface utilisateur réactive avec Angular, authentification via Keycloak (access token).\nOrchestration des microservices via API Gateway et Eureka Server.\nCI/CD automatisé avec Jenkins, analyse de code (Sonar Lint, Sonar Qube), et déploiement Docker Hub.\nTests unitaires (Axon Framework, Junit).\n\n## TECHNICAL SKILLS\n\nTechnologies: Angular 14, Java 17, Spring Boot, Spring Web, Spring Data JPA, Spring Security, Eureka, Spring Cloud Gateway, Keycloak, PostgreSQL, Axon Framework, REST API, Docker, Jenkins, Maven, JUnit, Lombok\nCOMPÉTENCES\nFramework\nDevOps\nSpring Boot, Angular\nJenkins, GitHub, Sonar Qube, Junit, Docker.\nLangage de programmation\nBase de données\nJava, TypeScript, Python, C\nPostgresql, SQL/Mysql, MongoDB, Oracle Database",
+    "header_info": {
+      "full_name": "Iyadh Jamei",
+      "email": "jameiiyadh@gmail.com",
+      "phone": null,
+      "location": "Rades mongil, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9575,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[1].responsibilities[5]",
+      "experiences[1].responsibilities[6]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Iyadh Jamei",
+      "email": "jameiiyadh@gmail.com",
+      "phone": null,
+      "location": "Rades mongil, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Angular",
+        "TypeScript",
+        "Rx JS",
+        "Ng RX store",
+        "Prime NG",
+        "SCSS",
+        "Bootstrap",
+        "Git",
+        "Jira",
+        "Java",
+        "Spring Boot",
+        "Spring Web",
+        "Spring Data JPA",
+        "Spring Security",
+        "Eureka",
+        "Spring Cloud Gateway",
+        "Keycloak",
+        "PostgreSQL",
+        "Axon Framework",
+        "REST API",
+        "Docker",
+        "Jenkins",
+        "Maven",
+        "JUnit",
+        "Lombok",
+        "Python",
+        "C",
+        "SQL/Mysql",
+        "MongoDB",
+        "Oracle Database"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Intelligent Management Solution (IMS)",
+        "job_title": "Développeur Front-End Angular",
+        "start_date": null,
+        "end_date": null,
+        "city": "Kuwait",
+        "responsibilities": [
+          "Développement et maintenance d'un système CAFM.",
+          "Refactorisation et optimisation des composants Angular (performance, lisibilité, réutilisabilité).",
+          "Intégration et tests d'API REST via Swagger.",
+          "Mise en œuvre d'interfaces responsive et UX optimisée."
+        ]
+      },
+      {
+        "company": "One Gate Africa",
+        "job_title": "Stage PFE",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception, développement et mise en service d'un ERP avec l'architecture micro service:",
+          "Développement de microservices avec Spring Boot, Axon Framework (Event Sourcing, CQRS) et PostgreSQL.",
+          "Gestion ERP: budgétisation (CJM, TJM), fiches de paie, utilisateurs via Keycloak (Phase Two).",
+          "Interface utilisateur réactive avec Angular, authentification via Keycloak (access token).",
+          "Orchestration des microservices via API Gateway et Eureka Server.",
+          "CI/CD automatisé avec Jenkins, analyse de code (Sonar Lint, Sonar Qube), et déploiement Docker Hub.",
+          "Tests unitaires (Axon Framework, Junit)."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur d'Informatique et de Mathématiques de Monastir (ISIMM)",
+        "degree": "Licence en Sciences de l'informatique",
+        "field": "GENIE LOGICIEL",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:41:02.403764+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

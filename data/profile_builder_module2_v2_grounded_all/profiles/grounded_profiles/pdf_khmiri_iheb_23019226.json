@@ -1,0 +1,194 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\khmiri_iheb_23019226.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\khmiri_iheb_23019226.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8556,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nKhmiri Iheb\nIng´ enieur en informatique sp´ ecialit´ e ERP & BI/map-marker-alt Rad` es, Tunisie/envelope khmiriiheb 3@gmail.com/phone-alt +216 50 201 529/linkedin-in Khmiri Iheb\nTunisie\n\n## EDUCATION\n\nProjet de fin d'´ etudes\nD´ eveloppement d'une plateforme intelligente d'analyse et de recommandation d'offres d'emploi et d'´ etudes\nDigital Cook Tunisie\nRecueil des besoins et conception de l'architecture du syst` eme.\nD´ eveloppement des processus d'int´ egration et d'ETL.\nConception et test de tableaux de bord interactifs.\nMise en place d'un syst` eme intelligent pour extraire les informations cl´ es des CV et recommander automatiquement des offres pertinentes.\n´ Evaluation des r´ esultats, audit du syst` eme et d´ eploiement du tableau de bord sur un site web.\n**Date: ** F´ evrier 2025 - Septembre 2025\n- Stage Business Intelligence\n- Mise en place d'une plateforme d´ ecisionnelle pour l'analyse\n- de la location de voitures de luxe\n- Swiss Premium Negoce SA\n- Analyse des besoins m´ etier et d´ efinition des indicateurs cl´ es de performance (KPIs).\n- Conception et d´ eveloppement de pipelines ETL pour l'int´ egration et la transformation des donn´ ees.\n- R´ ealisation d'une analyse exploratoire des donn´ ees (EDA) afin d'identifier les tendances et comportements clients.\n- Mod´ elisation des donn´ ees et mise en place d'un Data Warehouse sous PostgreSQL.\n- Conception de tableaux de bord interactifs pour le suivi des performances commerciales et op´\n- erationnelles.\n- Participation ` a l'int´ egration de mod` eles analytiques pour am´ eliorer la prise de d´ ecision.\nTechnologies: Python, Talend, PostgreSQL, Microsoft Power BI, Docker, Next. js, FastAPI, ML\n**Date: ** Janvier 2024 - Juin 2024\n- USA\n- Ing´ enieur Data - temps partiel\n- Vega Next\n- Extraction et pr´ eparation des donn´ ees afin de centraliser les informations n´ ecessaires ` a l'analyse d´ ecisionnelle.\nConception et d´ eveloppement de flux ETL pour l'int´ egration, le nettoyage et la transformation des donn´ ees.\n- Cr´ eation de tableaux de bord interactifs pour le suivi des performances commerciales et op´ erationnelles.\n## Technologies: Odoo, Talend, PostgreSQL, Microsoft Power BI, Python.\n- Tunisie\n- Conception et d´ eveloppement d'un tableau de bord analytique pour le suivi des ventes de pi` eces de rechange.\nMise en place d'un pipeline d'int´ egration et d'orchestration des donn´ ees pour l'analyse des performances (ventes, produits, clients).\nD´ eveloppement et exposition d'API back-end, ainsi qu'int´ egration front-end pour la visualisation des KPI.\nTechnologies: Angular, Spring Boot, Python, Airflow, VPS, SQL, Docker, PostgreSQL, Chart. js\n- Formation\nAdministration de bases de donn´ ees: Oracle, MySQL, SQL Server (SSMS), PostgreSQL, MongoDB\n**Date: ** Avril 2026\n## Docker, Jenkins, JUnit, Mockito, Grafana, Nexus, Prometheus, Sonar Qube\n## Microsoft Power BI, Talend, SSIS, SSAS, Airflow\nSAP S/4 HANA, SAP Fiori, SAP ABAP, Microsoft Power Apps, Microsoft Dynamics 365, Odoo\n\n## TECHNICAL SKILLS\n\nConception et impl´ ementation d'un pipeline DevOps permettant l'int´ egration continue et le d´ eploiement automatis´ e des workflows ETL.\nOutils DevOps:\nOutils de donn´ ees:\nFrameworks Web: Symfony, Spring Boot, .NET, Django, FastAPI, React. js, Next. js, Angular\nArabe: langue maternelle\n\n## MACHINE LEARNING & DEEP LEARNING\n\nTechnologies: Airflow, Python, NLP, Machine Learning, PostgreSQL, Microsoft Power BI, MongoDB, FastAPI, React. js, Docker, Jenkins, JUnit, Mockito, Sonar Qube, Nexus, Prometheus, Grafana\nTunisie\nMachine Learning, NLP, Big Data\nIA & Machine Learning:\n\n## ACADEMIC PROJECTS\n\nProjets professionnels\nConception et d´ eveloppement d'une plateforme web de vente en ligne de pi` eces de rechange\n## Clients: Karhabti. tn, Zorraga. com\n**Date: ** Octobre 2025 - Mars 2026\n- D´ eploiement et exploitation sur serveur VPS.\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nMicrosoft Power BI Data Analyst (PL-300)\nMicrosoft Fabric Analytics Engineer (DP-600 - en cours)\nComp´ etences\n\n## LANGUAGES\n\nLangues\nAnglais: B 2\nFran¸ cais: B 2",
+    "header_info": {
+      "full_name": "Khmiri Iheb",
+      "email": "3@gmail.com",
+      "phone": "+216 50 201 529",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7521,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.linkedin",
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": [
+      "bio.linkedin"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Khmiri Iheb",
+      "email": "khmiriiheb@3@gmail.com",
+      "phone": "+216 50 201 529",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "Talend",
+        "PostgreSQL",
+        "Microsoft Power BI",
+        "Docker",
+        "Next.js",
+        "FastAPI",
+        "ML"
+      ],
+      "soft_skills": [
+        "Conception et impl´ ementation d'un pipeline DevOps",
+        "Outils DevOps",
+        "Frameworks Web: Symfony, Spring Boot, .NET, Django, FastAPI, React. js, Next. js, Angular",
+        "Arabe: langue maternelle"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Swiss Premium Negoce SA",
+        "job_title": "Ing´ enieur Data - temps partiel",
+        "start_date": "Janvier 2024",
+        "end_date": "Juin 2024",
+        "city": null,
+        "responsibilities": [
+          "Extraction et pr´ eparation des donn´ ees afin de centraliser les informations n´ ecessaires ` a l'analyse d´ ecisionnelle.",
+          "Conception et d´ eveloppement de flux ETL pour l'int´ egration, le nettoyage et la transformation des donn´ ees."
+        ]
+      },
+      {
+        "company": "Vega Next",
+        "job_title": "Ing´ enieur Data - temps partiel",
+        "start_date": "Janvier 2024",
+        "end_date": "Juin 2024",
+        "city": null,
+        "responsibilities": [
+          "Extraction et pr´ eparation des donn´ ees afin de centraliser les informations n´ ecessaires ` a l'analyse d´ ecisionnelle.",
+          "Conception et d´ eveloppement de flux ETL pour l'int´ egration, le nettoyage et la transformation des donn´ ees."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Ing´ enieur",
+        "start_date": "F´ evrier 2025",
+        "end_date": "Septembre 2025",
+        "city": "Rad` es, Tunisie",
+        "responsibilities": [
+          "D´ eveloppement d'une plateforme intelligente d'analyse et de recommandation d'offres d'emploi et d'´ etudes.",
+          "Conception et test de tableaux de bord interactifs.",
+          "Mise en place d'un syst` eme intelligent pour extraire les informations cl´ es des CV et recommander automatiquement des offres pertinentes."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Digital Cook Tunisie",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Anglais: B 2",
+      "Fran¸ cais: B 2"
+    ],
+    "certifications": [
+      "Microsoft Power BI Data Analyst (PL-300)",
+      "Microsoft Fabric Analytics Engineer (DP-600 - en cours)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:56:23.196540+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

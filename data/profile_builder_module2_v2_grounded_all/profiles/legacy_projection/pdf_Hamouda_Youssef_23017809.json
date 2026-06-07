@@ -1,0 +1,109 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hamouda_Youssef_23017809.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hamouda_Youssef_23017809.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hamouda_Youssef_23017809.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Youssef Hamouda",
+      "email": "youssefhamouda661@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "C++",
+        "PHP",
+        "PL/SQL",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Angular",
+        "JavaScript",
+        "TypeScript",
+        "Docker",
+        "Git",
+        "Jenkins",
+        "CI/CD",
+        "JUnit",
+        "Artificial Intelligence Fundamentals",
+        "Introduction to Data Science"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Freelance",
+        "start_date": null,
+        "end_date": null,
+        "city": "Ariana",
+        "responsibilities": [
+          "Développement Full Stack ( Spring Boot/Angular ) d'une plateforme de recrutement intelligente",
+          "Intégration d'un moteur de recommandation NLP basé sur BERT pour l' analyse des CV",
+          "Développement d'un chatbot assistant IA utilisant Gemma 3 pour filtrer et répondre aux premières questions des candidats"
+        ]
+      },
+      {
+        "job_title": "Développeur Oracle APEX",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Ariana",
+        "responsibilities": [
+          "Ecriture et optimisation de requêtes PL/SQL ( procédures stockées, fonctions, triggers ) pour améliorer la performance et la fiabilité des bases de données",
+          "Personnalisation d' interfaces utilisateurs dans Oracle APEX afin de répondre aux besoins spécifiques des utilisateurs"
+        ]
+      },
+      {
+        "job_title": "Développeur Full Stack (Stage de fin d'étude)",
+        "company": "Picosoft",
+        "start_date": null,
+        "end_date": null,
+        "city": "Ariana",
+        "responsibilities": [
+          "Conception et développement d'une application web de gestion des achats (Spring Boot, Angular, PostgreSQL, Flowable BPMN)",
+          "Développement front-end avec angular: création de tableaux dynamiques, formulaires réactifs et dashboards interactifs avec mise à jour des données en temps réel",
+          "Mise en place et optimisation de la CI/CD ( Jenkins, Docker ), intégration de tests automatisés et gestion des procédures de déploiement",
+          "Participation active à toutes les cérémonies Scrum (daily stand-ups, sprint planning, rétrospectives)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur - Génie logiciel",
+        "school": "ESPRIT",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat Technologie",
+        "school": "Lycée Menzah 6",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:23:20.998825+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9651,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

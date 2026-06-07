@@ -1,0 +1,142 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Farah_Trojet_23017932.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Farah_Trojet_23017932.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8086,
+  "normalization": {
+    "cleaned_markdown": "## FARAH TROJET\n\nJ unior Big Data & BI Engineer\n\n## EDUCATION\n\n## Ecole Polytechnique International\n- About Me\n## Engineering Degree in Big Data and Business Intelligence\nComputer Engineer specialized in Big Data and Business Intelligence, with strong expertise in data analysis, decision-making solutions, and database management. Focused on building data-driven dashboards and BI solutions to support business performance.\n- Institut Supérieur des Technologies de l'Information et de la Communication\n- Bachelors in Automation and Industrial Computing\n\n## PROFESSIONAL EXPERIENCE\n\nContact\n## Internship\n**Date: ** (FEB-2025: Jul-2025)\n- Farah Trojet@Outlook.com\n- Designed an intelligent conversational assistant using Natural Language Processing (NLP) to understand user requests and provide contextual responses.\n\n## TECHNICAL SKILLS\n\n3 S (Standard Sharing Software) - Tunisia\nLinkedin.com/in/Farah Trojet in\nTunis, Tunisia\nKey Skills\nInternship\nAxe Finance- Tunisia\nPower BI | SQL | Python | Data Modeling | ETL (SSIS, Talend) | SAP HANA | Hive | Kafka | Machine Learning | CI/CD\nDevelopment of a web application to store CI/CD logs, generate dashboards, reports, and trigger alerts\nInternship\nData & Business Intelligence:\nALLCircuits- Tunisia\nPower BI, Tableau, SQL, Excel\n(Advanced), DAX, Data Modeling, Dashboard Development\nData Engineering & ETL:\n(July 2021)\nSSIS, Talend, SAP HANA, Hadoop, Spark, Hive, Pig, Oracle, MongoDB\nInternship\nProgramming:\nSociété Tunisienne de l'Électricité et du Gaz (STEG) - Tunisia\nPython, R, Java\nDevOps & Tools:\nWorked on a digital control system\nGit, Azure DevOps, Spring Boot, Spring Batch\nDatabases\nJavaScript\nSoftware Development\nsoft skils\nAnalytical Thinking\nProblem Solving\nTeamwork & Collaboration\nCommunication & Presentation\nAdaptability & Continuous Learning\nLanguage\nArabic\nEnglish\nTools: Hadoop, Spark, Hive, PIG, Python\nFrench\nTools: Python, NLTK, spaCy, Transformers\nTools: TensorFlow, Keras, OpenCV, Python\n\n## ACADEMIC PROJECTS\n\n## BI Project - Power BI & SQL\n- Created an interactive dashboard for analyzing large-scale web data and monitoring key performance indicators (KPIs). Tools: Power BI, SQL, DAX\n## BI Project - Decision Support System\n**Date: ** (2022 - 2025)\n- Designed and implemented a Business Intelligence solution to optimize the performance of Orion Company. Built ETL processes, a data warehouse, and interactive dashboards for performance monitoring and decision-making. Tools: Talend, MySQL, Power BI\n## Big Data & Artificial Intelligence Project\n**Date: ** (2019 - 2022)\nImplemented a Big Data architecture (Hadoop, Spark, Hive, PIG) for large-scale data processing and predictive analysis.\n## NLP Project - Intelligent Chatbot\n## Deep Learning - Computer Vision Project\n- Designed and developed an interactive Power BI dashboard to monitor 1000+ IT tickets, improving KPI visibility and tracking resolution performance.\nDeveloped a road violation detection system with license plate recognition, speed estimation, and detection of risky behaviors(no seatbelt, phone use while driving).\n**Date: ** (Jun-2024: Aug-2024)\n- Designed a cleaning machine for CMS nozzles\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications",
+    "header_info": {
+      "full_name": "FARAH TROJET",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9617,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "FARAH TROJET",
+      "email": "Farah Trojet@Outlook.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "Linkedin.com/in/Farah Trojet",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "junior",
+      "years_experience": 7,
+      "hard_skills": [
+        "Power BI | SQL | Python | Data Modeling | ETL (SSIS, Talend) | SAP HANA | Hive | Kafka | Machine Learning | CI/CD"
+      ],
+      "soft_skills": [
+        "Analytical Thinking",
+        "Problem Solving",
+        "Teamwork & Collaboration",
+        "Communication & Presentation",
+        "Adaptability & Continuous Learning"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Internship",
+        "start_date": "FEB-2025: Jul-2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Designed an intelligent conversational assistant using Natural Language Processing (NLP) to understand user requests and provide contextual responses."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Ecole Polytechnique International",
+        "degree": "Engineering Degree in Big Data and Business Intelligence",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Supérieur des Technologies de l'Information et de la Communication",
+        "degree": "Bachelors in Automation and Industrial Computing",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:00:45.236887+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\El_Kouraichi_Zeineb_23013928.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\El_Kouraichi_Zeineb_23013928.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8657,
+  "normalization": {
+    "cleaned_markdown": "## HEADER/phone\n+216 51 051 103/envelope\nzeinebkouraichi 3@gmail.com\n\n## EL KOURAICHI ZEINEB\n\nZeineb-El-Kouraichi/linkedin\nIngénieure Automatisation | Infrastructure Réseau & Sécurité/map-marker-alt\nGabès, Tunisie\n\n## TECHNICAL SKILLS\n\nIngénieure en automatisation avec un fort intérêt pour l'infrastructure et le réseau (LAN/WAN, OSPF, VLAN, NAT), ayant évolué en environnement industriel critique chez Safran . Rigoureuse et responsable, je maîtrise le scripting Python, l'intégration de solutions Io T/Cloud, le monitoring et la rédaction de documentation technique./server COMPÉTENCES\nDéveloppement d'un modèle de Computer Vision (Deep Learning Edge, TensorFlow Lite) embarqué sur RPi pour déclenchement automatique d'actions physiques sans cloud.\nScripting Python avancé pour la collecte, l'analyse et l'automatisation des flux de données et des alertes système.\nOptimisation des ressources embarquées (quantisation du modèle, gestion mémoire C++) pour fonctionnement en temps réel sur matériel contraint .\n\n## PROFESSIONAL EXPERIENCE/briefcase EXPÉRIENCE\nIngénieure Réseau & Automatisation - PFE\nAvr.-Juil. 2024\nSafran Electrical & Power - Tunisie\nSystème de vérification automatisée du câblage (B 787, A 320 N) via Django - -40% de temps d'arrêt .\n- DNS\nCartographie des flux réseau industriels, rédaction des topologies et matrices de flux.\n**Date: ** Juin-Juil. 2022\n- Ingénieure Validation Réseau - Stage\n- Safran Electrical & Power - Tunisie\n- ACL\n- Validation des connexions et liaisons de communication - programme Boeing B 787 .\n- Diagnostic avancé: amélioration de la précision de +45% . Collaboration équipes internationales.\n- Analyste Réseau - Stage Ouvrier\n- STEG - Soc. Tun. Électricité & Gaz - Tunisie\n- Bash\nAudit infrastructure réseau, identification des points de défaillance et propositions d'améliorations.\n**Date: ** 2024-présent\n-/graduation-cap ÉDUCATION\n-/dot-circle\n- Certificat IT. & Info.\n- Info & IT\n- Univ. Colorado Boulder (Coursera)\n-/dot-circle\n\n## RÉSEAUX & PROTOCOLES\n\nTCP/IP\nOSPF\nBGP\nVLAN\nNAT/PAT\nDHCP\nQo S\nSÉCURITÉ\nFirewall\nSSH/RSA\nVPN\nAUTOMATISATION\nPython\nGit\nPower Shell\nNode-RED\n\n## MONITORING & OUTILS\n\nWireshark\nLab VIEW\n\n## CLOUD & OS\n\nAzure\nLinux\nWindows\n\n## EDUCATION\n\nDiplôme d'Ingénieur\nGénie Électrique & Automatique\n## ENIG, Gabès\n## Baccalauréat Sciences Techniques\n**Date: ** 2021\n- Lycée Abou kacem chebbi de Tozeur - Mention Bien\n\n## IA & ML\n\nTensorFlow Lite\nOpenCV\n\n## MACHINE LEARNING & DEEP LEARNING\n\nDeep Learning\nFortinet FCP & Cisco CCNP: en cours\n\n## ACADEMIC PROJECTS/code PROJETS TECHNIQUES\nRéseau Multi-Sites Hôtelier - Cisco IOS/Packet Tracer\nConception d'une architecture complète multi-sites avec routage dynamique OSPF multi-aire (backbone Area 0 + areas distantes), assurant la convergence et la redondance des chemins.\n**Date: ** Intro. Networking - NVIDIA DLI, 2026\nDéploiement d'un DHCP centralisé et d'un DNS local; sécurisation des accès Internet via NAT overload et administration chiffrée SSH (clés RSA, Telnet désactivé).\n**Date: ** Python/C & C++/Linux - 2025\nSegmentation logique via VLANs (Clients, Staff, Management) avec politiques de Qo S pour priorisation des flux critiques.\n- Rédaction des schémas de topologie et des matrices de flux pour documentation opérationnelle complète.\n## Réseau d'Entreprise Multi-Département & Sécurité - VLAN, Inter-VLAN Routing, ACL\nArchitecture LAN segmentée en VLANs dédiés (Data, Management, Vo IP) avec routage Inter-VLAN via Router-on-a-stick.\n- Déploiement de listes de contrôle d'accès (ACL) strictes pour réguler et filtrer les flux inter-VLAN selon les politiques de sécurité.\nDomotique Io T & IA Embarquée - Feeding Planit - ESP 32, Raspberry Pi, MQTT, TensorFlow Lite, OpenCV, Python, C++\nConception d'une architecture Io T distribuée: microcontrôleurs ESP 32 et Raspberry Pi interconnectés via un broker MQTT, avec supervision temps réel sur serveur Web local.\n\n## CERTIFICATES (IN PROGRESS)/certificate CERTIFICATIONS CLÉS\n\nLANGUAGES/language LANGUES/check-circle Français - Professionnel/check-circle Anglais - Professionnel/check-circle Arabe - Maternelle",
+    "header_info": {
+      "full_name": "EL KOURAICHI ZEINEB",
+      "email": "3@gmail.com",
+      "phone": "+216 51 051 103",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8286,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.linkedin"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "bio.linkedin"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "EL KOURAICHI ZEINEB",
+      "email": "3@gmail.com",
+      "phone": "+216 51 051 103",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "Io T",
+        "TensorFlow Lite",
+        "OpenCV",
+        "OSPF",
+        "VLAN",
+        "NAT/PAT",
+        "DHCP",
+        "Qo S",
+        "Firewall",
+        "SSH/RSA",
+        "VPN",
+        "Git",
+        "Power Shell",
+        "Node-RED",
+        "Wireshark",
+        "Lab VIEW"
+      ],
+      "soft_skills": [
+        "Rigoureuse",
+        "Responsable",
+        "Scripting",
+        "Analyse",
+        "Automatisation",
+        "Optimisation des ressources",
+        "Gestion mémoire C++",
+        "Collaboration équipes internationales"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Safran Electrical & Power - Tunisie",
+        "job_title": "Ingénieure Réseau & Automatisation",
+        "start_date": "Avr.-Juil. 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "- Système de vérification automatisée du câblage (B 787, A 320 N) via Django - -40% de temps d'arrêt .",
+          "- DNS",
+          "- Cartographie des flux réseau industriels, rédaction des topologies et matrices de flux.",
+          "Date: Juin-Juil. 2022"
+        ]
+      },
+      {
+        "company": "Safran Electrical & Power - Tunisie",
+        "job_title": "Ingénieure Validation Réseau",
+        "start_date": null,
+        "end_date": "- Juin-Juil. 2022",
+        "city": null,
+        "responsibilities": [
+          "- ACL",
+          "- Validation des connexions et liaisons de communication - programme Boeing B 787 .",
+          "- Diagnostic avancé: amélioration de la précision de +45% . Collaboration équipes internationales.",
+          "Date: 2024-présent"
+        ]
+      },
+      {
+        "company": "STEG - Soc. Tun. Électricité & Gaz - Tunisie",
+        "job_title": "Analyste Réseau",
+        "start_date": null,
+        "end_date": "- 2024-présent",
+        "city": null,
+        "responsibilities": [
+          "- Audit infrastructure réseau, identification des points de défaillance et propositions d'améliorations.",
+          "Date: 2024-présent"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Univ. Colorado Boulder (Coursera)",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Abou kacem chebbi de Tozeur",
+        "degree": "Baccalauréat Sciences Techniques",
+        "field": null,
+        "year": 2021
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:53:51.205717+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

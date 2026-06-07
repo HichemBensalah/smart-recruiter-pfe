@@ -1,0 +1,42 @@
+## HEADER
+
+salmabaatour@gmail. com
+
+## BAATOUT SALMA
+
+linkedin. com/in/salma-baatout
+Monastir
+
+## P R O F I L
+
+C O M P É T E N C E S C L É S
+E X P É R I E N C E P R O F E S S I O N N E L L E
+- Stagiaire Développement Web - Yes Internet
+ Conception et implémentation du backend en Laravel et Code Igniter .
+ Gestion de la base de données avec My SQL (php My Admin) .
+ Intégration d'interfaces utilisateur avec Bootstrap, HTML, CSS, Java Script .
+- Stagiaire Développement Web & Mobile - Smart Ways Innovation
+Développement d'une plateforme e-commerce intelligente (web & mobile).
+ Développement d'une plateforme e-commerce intelligente (web & mobile) .
+ Conception du frontend avec Angular (web) et Flutter (mobile) .
+ Développement du backend avec Firebase et intégration d'API REST .
+Projet Analyse et Fouille de Données - Détection du Cancer du Poumon
+ Visualisation des résultats pour faciliter l'interprétation des données .
+
+## TECHNICAL SKILLS
+
+Jeune diplômée en informatique, spécialisée en Big Data et analyse de données, passionnée par le développement web, mobile et l'intelligence artificielle. Motivée, curieuse et rigoureuse, je souhaite mettre mes compétences au service d'une équipe dynamique et contribuer activement à la réalisation de projets innovants.
+ Développement d'une plateforme de location de voitures ( Car Rental ) avec une interface web dynamique et responsive .
+ Mise en place des fonctionnalités : recherche, réservation en ligne et gestion des véhicules.
+
+## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)
+
+ Implémentation de modules d'Intelligence Artificielle et de Computer Vision pour analyser les émotions utilisateurs .
+ Mise en place d'un système de recommandation personnalisé basé sur les comportements et émotions.
+ Réalisation d'un projet d'analyse de données médicales visant à prédire le risque de cancer du poumon .
+ Collecte et préparation des données (nettoyage, traitement des valeurs manquantes, normalisation) .
+ Analyse exploratoire des données (EDA) pour identifier les facteurs influents (âge, tabagisme, symptômes…) .
+
+## MACHINE LEARNING & DEEP LEARNING
+
+ Implémentation d'algorithmes de Machine Learning pour la classification et la prédiction

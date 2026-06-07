@@ -1,0 +1,166 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\zaibi_ahmed_khalil_23017061.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\zaibi_ahmed_khalil_23017061.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6528,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSidi Rezig, Megrine\n\n## COMPETENCES\n\nGénération de tableaux de bords, ainsi que le développement des modules ODOO.\nOpen TT\nTunisie Trade NET\nSopra HR Software\nTunisie Telecom\n\n## VIE ASSOCIATIVE\n\nLinguistiques\nPersonnelles\nDéveloppement d’une application WEB et Desktop pour la gestion des\nréservations de complexes sportifs\nApplication web: développement d’une plateforme e_learning\n\n## FRONTEND:\n\nReactJS, Tailwind css v 4. 0, Daisy UI\nANGULAR JS, Bootstrap\nAngular JS, Bootstrap\n\n## BACKEND:\n\nSpringboot 3, Java 17, MySQL\nSpringboot 3, Java 17, Postgres SQL\nSpringboot 3, Java 17, MySQL\nPython 3. 10, Microsoft SQLServer\nSpringboot 3, MySQL\nTechnologies: Java FX, Symfony\nTechnologies: Power BI, Python, Power Query\n\n## LOGICIEL:\n\nPower BI, Odoo developper mode\nStage - 6 mois\nStage - 3 mois\nStage - 3 mois\n\n## INTERETS\n\nStage - 3 mois\nAdministration des plateformes du Système RH en back-office et front-office.\nGestion des processus guidés (GP) et des flux d’import/export de données.\nzaibiahmed 4666@gmail.com\n\n## PYTHON\n\nIngénieur diplômé d’ESPRIT, passionné par les technologies émergentes et leur impact\nsur la société. Fortement motivé à rejoindre une entreprise innovante afin de consolider\nmes compétences pratiques et mettre en œuvre les connaissances acquises au cours de\n\n## EDUCATION\n\nTechniques\nZAIBIAHMEDKHALIL\nIng é n i e r i e u r e n i n f o r m a t i q u e\nUniversité centrale de Tunis - Soutenance validée avec Mention TRES BIEN\nLicence en BIG DATA ET ANALYSE DES DONNEES\nESPRIT Tunisie\nIngénierie informatique Génie Logiciel\nTAHA HUSSIN, Megrine\nBaccalauréat spécialité Mathématique\nTechnologie et innovation,\nCréation de contenu et jeux\nvidéo\nAsteel Flash\nPoste Responsable SIRH Novembre - Aujourd’hui\n\n## PL/SQL\n\nBase de données\n\n## ANGULAR\n\nSpring Boot\nFrameworks\n\n## DOCKER\n\nMySQL, MongoDB\n\n## JAVA\n\nDéveloppement des API rest qui organise les transactions entre TTN\net les banques en Tunisie.\n\n## PROFIL\n\nRéalisation d’un POC (Proof Of Concept) par le redéveloppant\nd’une solution RH en se basant sur l’automatisation du traitement des fichiers XML.\n\n## JENKINS\n\nCréation d’une application web pour la gestion de la sécurité\nResponsable du\ndépartement International\nRotaract club Megrine\nArabe: Langue maternelle\nAnglais: Courant\nFrançais: Courant\nEsprit d’analyse\nCommunication\nRigueur\nSens de l’organisation\n\n## TYPESCRIPT\n\nRéalisation de tableaux de bord dédiés aux chercheurs d'emploi:\nCollecte de données par le WEB SCRAPING et leurs représentations\nvisuelles par des tableaux de bord élaborés à travers le logiciel POWER BI\nProjet fin d'études Licence: BEECODERS\n\n## PROJET ACADEMIQUE\n\nProjet intégré ESPRIT: SPORTING COM\nProjet intégré ESPRIT: Courzelo",
+    "header_info": {
+      "full_name": "Sidi Rezig, Megrine",
+      "email": null,
+      "phone": null,
+      "location": "Sidi Rezig, Megrine",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9306,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Sidi Rezig, Megrine",
+      "email": "zaibiahmed4666@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Génération de tableaux de bords",
+        "Développement des modules ODOO",
+        "ReactJS",
+        "Tailwind css v 4.0",
+        "Daisy UI",
+        "ANGULAR JS",
+        "Bootstrap",
+        "Springboot 3",
+        "Java 17",
+        "MySQL",
+        "Postgres SQL",
+        "Python 3.10",
+        "Microsoft SQLServer",
+        "Technologies: Java FX",
+        "Technologies: Power BI"
+      ],
+      "soft_skills": [
+        "Esprit d’analyse",
+        "Communication",
+        "Rigueur",
+        "Sens de l’organisation"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Administration des plateformes du Système RH en back-office et front-office.",
+          "Gestion des processus guidés (GP) et des flux d’import/export de données."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université centrale de Tunis",
+        "degree": "Ingénieur",
+        "field": "Informatique Génie Logiciel",
+        "year": null
+      },
+      {
+        "institution": "ESPRIT Tunisie",
+        "degree": "Licence en BIG DATA ET ANALYSE DES DONNEES",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Anglais",
+      "Français"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:12:58.616261+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

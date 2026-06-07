@@ -1,0 +1,183 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mayssa_jebali_23024202.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mayssa_jebali_23024202.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8189,
+  "normalization": {
+    "cleaned_markdown": "## MAYSSA JEBALI\n\nEngineering Student\nmayssajbeli 50@gmail.com\nTunis\nmayssajebali\nmayssajebali\nmayssa-portfolio. netlify. app\n\n## PROFESSIONAL SUMMARY\n\nSUMMARY\n\n## TECHNICAL SKILLS\n\nEngineering student with hands-on experience building and deploying real-world applications, from full-stack web platforms to AI-powered tools. Passionate about software development and always looking to learn. Looking for a Full-Stack Developer position to contribute to real projects and grow within a strong team.\nIntegrated AI-driven analytics engine (OpenAI API) to generate personalized performance reports after each session, reducing manual review time by 100%.\nLanguages & Frameworks\nPython | JavaScript | Java | PHP | C | Angular | ReactJS | NodeJS | Spring Boot | Flask | Flutter\nDatabases\nMongoDB | MySQL | Oracle DB\nDevOps & Cloud\nAWS (EC 2, S 3) | Docker | Git | GitHub | Linux\nIntegrated external tools (API calls, file processing) to enable dynamic decision-making.\nFrench\nEnglish\nTurkish\nFluent\nConversational\nAdaptability and Flexibility\nInitiative and Proactivity\nIntro to AI - 365 Data Science\nScrum fundamentals - Scrum Study\n\n## EDUCATION\n\n## National Engineering Diploma, TEK-UP University Elgazala Technopark\n**Date: ** 09/2025 - Present\nBachelor's Degree in Information Technology, specializing in Information Systems Development, Higher Institute of Technological Studies Charguia 2\n**Date: ** 09/2022 - 06/2025\nTriweb, Web developer Intern - Development of an e-commerce website using Word Press\n**Date: ** 01/2024 - 02/2024 | Charguia 2\nBuilt a custom PHP plugin enabling real-time Web Socket chat between buyers and sellers, improving conversion rate.\n- Data & AI\n\n## WORK EXPERIENCE\n\nElite Council Consulting,\nEnd-of-studies internship - Development of a Cognitive Simulator using AI\nOptimized MySQL database queries, reducing page load time by ~40%.\nStack: Word Press · PHP · MySQL · Custom Plugin\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning | Data Analysis | AI APIs (OpenAI, Hugging Face)\n\n## ACADEMIC PROJECTS\n\nPROJECTS\n## AI Autonomous Agent, Python\n- Designed and deployed a cognitive assessment platform featuring 5+ game-based challenges (memory, attention, reasoning) validated by healthcare professionals.\n- Built a scalable RESTful API with Flask + MongoDB serving real-time results to an Angular frontend, handling concurrent user sessions. Stack: Angular · Flask · MongoDB · OpenAI API\n- Developed a full e-commerce platform on Word Press with complete product catalog, order management, and Stripe payment integration.\n- Designed and implemented an intelligent agent capable of solving multi-step tasks using planning and reasoning.\n## Built using Python, Lang Chain, and OpenAI API.\n- Implemented Retrieval-Augmented Generation (RAG) with memory to maintain conversation context.\n## Medical Office Management Application, Angular - Spring Boot - MySQL\n- Implemented patient data management system for efficient record handling\n- Designed an appointment scheduling system to streamline patient bookings\n- Improved workflow efficiency within the medical office environment\n- Developed a medical office management application for doctors and secretaries\n## Task Management Application, Angular - Spring Boot - MySQL\n- Developed a task management application for teachers and students\n## Enabled teachers to create, assign, and monitor student tasks\n- Designed features for students to view and manage their personalized tasks\n- Improved organization and tracking of academic activities\n\n## LANGUAGES\n\nArabic\nNative/Bilingual\nFluent\n\n## SOFT SKILLS\n\nTeamwork and Collaboration\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATES\nRHCSA - Red Hat\n\n## CLUBS & ACTIVITIES\n\nGoogle Developer Club - ISET Charguia\nEnactus - TEK-UP University",
+    "header_info": {
+      "full_name": "MAYSSA JEBALI",
+      "email": "50@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9638,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.location",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MAYSSA JEBALI",
+      "email": "50@gmail.com",
+      "phone": null,
+      "location": "Tunis",
+      "linkedin": null,
+      "github": "mayssa-portfolio.netlify.app"
+    },
+    "expertise": {
+      "summary": "Engineering student with hands-on experience building and deploying real-world applications, from full-stack web platforms to AI-powered tools. Passionate about software development and always looking to learn.",
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "PHP",
+        "C",
+        "Angular",
+        "ReactJS",
+        "NodeJS",
+        "Spring Boot",
+        "Flask",
+        "Flutter",
+        "MongoDB",
+        "MySQL",
+        "Oracle DB",
+        "AWS (EC 2, S 3)",
+        "Docker",
+        "Git",
+        "GitHub",
+        "Linux"
+      ],
+      "soft_skills": [
+        "Adaptability and Flexibility",
+        "Initiative and Proactivity",
+        "Intro to AI - 365 Data Science",
+        "Scrum fundamentals - Scrum Study"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Elite Council Consulting",
+        "job_title": "End-of-studies internship",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Optimized MySQL database queries, reducing page load time by ~40%.",
+          "Built a custom PHP plugin enabling real-time Web Socket chat between buyers and sellers, improving conversion rate."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "TEK-UP University Elgazala Technopark",
+        "degree": "National Engineering Diploma",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Higher Institute of Technological Studies Charguia 2",
+        "degree": "Bachelor's Degree in Information Technology",
+        "field": "Information Systems Development",
+        "year": null
+      }
+    ],
+    "languages": [
+      "French",
+      "English",
+      "Turkish"
+    ],
+    "certifications": [
+      "RHCSA - Red Hat"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:18:21.231804+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

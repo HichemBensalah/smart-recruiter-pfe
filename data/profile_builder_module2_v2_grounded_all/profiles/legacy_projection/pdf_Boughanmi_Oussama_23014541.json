@@ -1,0 +1,85 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Boughanmi_Oussama_23014541.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Boughanmi_Oussama_23014541.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Boughanmi_Oussama_23014541.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Boughanmi Oussama",
+      "email": "oussama.boughanmi@esprit.tn",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieur Cloud & DevOps diplômé, passionné par l'automatisation, la fiabilité et la sécurisation des environnements de production.",
+      "hard_skills": [
+        "Cloud Architecture & Design",
+        "Private Cloud & Hybrid Environments",
+        "Container Platforms (Kubernetes, Open Shift)",
+        "High Availability & Disaster Recovery",
+        "Infrastructure Scalability & Resilience",
+        "CI/CD & Automatisation",
+        "Git Lab CI/CD",
+        "Jenkins",
+        "Ansible",
+        "Vagrant",
+        "Network Architecture & Design",
+        "Firewall Management",
+        "Network Security & Traffic Control",
+        "Linux Windows Server",
+        "Apache/Tomcat",
+        "IAM",
+        "SSL/SSO",
+        "LDAP",
+        "Shell scripting",
+        "DNS",
+        "SSL/TLS",
+        "ports",
+        "routage",
+        "pf Sense",
+        "Fortigate",
+        "Open VPN",
+        "Snort",
+        "Nginx (reverse proxy)",
+        "Openshift",
+        "Ansible",
+        "Prometheus",
+        "Grafana",
+        "Terraform",
+        "Kubernetes",
+        "Openstack",
+        "Docker",
+        "Docker compose",
+        "Shell",
+        "GNS 3",
+        "Nagios",
+        "Postman",
+        "Apache Tomcat",
+        "Nginx"
+      ],
+      "soft_skills": [
+        "Curieux",
+        "Rigoureux",
+        "Orienté solutions"
+      ]
+    },
+    "experiences": [],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:44:47.046885+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7896,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

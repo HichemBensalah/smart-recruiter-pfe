@@ -1,0 +1,194 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rafik_Rahmi_23023962.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rafik_Rahmi_23023962.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8756,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nRafik Rahmi\nFull Stack TypeScript Engineer\n\n## PROFESSIONAL SUMMARY\n\nProfile\nContact\nrafikalrahmi@gmail.com\nFull Stack TypeScript Engineer specializing in end-to-end, typesafe architectures. Proven track record of delivering production-ready systems with high stability, leveraging modern CI/CD pipelines to accelerate delivery without compromising performance.\ngithub.com/Rafik El Rahmi\nlinkedin.com/in/rahmi-rafik\n\n## PROFESSIONAL EXPERIENCE\n\nExperience\n## Tunis, Tunisia\n**Date: ** March 2024 - Present\n**Location: ** Ben Arous, Tunisia\n- rahmi-portfolio. vercel. app\n- Full Stack TypeScript Engineer Eye OTech\nArchitected and delivered production-grade systems as the sole engineer, slashing page load times by 50% (3 s to <1. 5 s); implemented code-splitting and strategic memoization to minimize reconciliation cycles and eliminate unnecessary re-renders.\nRefactored legacy monoliths into a typesafe, modular architecture, improving maintainability scores by 30% and leveraging Zod for schema-based validation to cut production bugs by 20% .\n- TypeScript\n- Redux\n- Tailwind CSS\nEngineered Pixel-Perfect UIs from high-fidelity designs, ensuring 1: 1 visual accuracy and fluid responsiveness while maintaining a high-performance, reusable component library that streamlined the design-to-production handoff.\n- Tan Stack Query\nLed technical mentorship for 4 interns, accelerating onboarding by 65% (from 2 weeks to 5 days) through established Clean Code standards and guided technical deep-dives into the core codebase architecture.\n**Date: ** July 2023 - January 2024\n- Full Stack TypeScript Engineer\n- Maj Cake\n- Freelance\nDeveloped modular UI components for an international e-commerce platform, ensuring high cross-browser compatibility and consistent user experiences across diverse device breakpoints.\n- Prisma\n- Swagger\nImplemented optimized data filtration logic for product catalogs, achieving a 40% improvement in query response times by refining frontend state management and search parameters.\n- Stripe\nFacilitated remote collaboration within a distributed team using Git Lab and Discord, maintaining high productivity in an asynchronous Agile environment and meeting all sprint delivery targets.\n**Date: ** December 2022 - June 2023\n**Location: ** Sousse, Tunisia\n- Vercel\n- Applied Clean Code principles during feature development and actively engaged in peer code reviews to quickly adapt to professional standards and reduce pre-release logic errors.\n- Cypress\n\n## TECHNICAL SKILLS\n\nTech Skills\nFrontend:\nNext. js\nReact. js\nReact Native\nJavaScript\nZustand\nSCSS\nAxios\nSocket. IO\nBackend:\nNest JS\nExpress. js\nNode. js\nGraphQL\nMongoDB\nType ORM\nOAuth 2. 0\nDevOps & Testing:\nDocker\nGit\nGitHub Actions\nTurborepo\nReact Testing Library\nGraduated with strong foundational engineering knowledge, analytical problem-solving skills, and systems thinking relevant to software development.\n\n## REST API\n\nPostgreSQL\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications & Training\nFull Stack TypeScript Engineer\nBest Challenge Center\nCompleted 6-month intensive training mastering React. js, Node. js, TypeScript, and MongoDB with hands-on portfolio\n\n## SOFT SKILLS\n\nProblem-Solving\nAdaptability\nTeam Collaboration\nProactive Mindset\nContinuous Learning\n\n## EDUCATION\n\nBachelor's in Industrial Maintenance ISET Rades\n\n## LANGUAGES\n\nArabic: Native\nEnglish: Proficient\nFrench: Conversational",
+    "header_info": {
+      "full_name": "Rafik Rahmi",
+      "email": "rafikalrahmi@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9751,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Rafik Rahmi",
+      "email": "rafikalrahmi@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/rahmi-rafik",
+      "github": "github.com/Rafik El Rahmi"
+    },
+    "expertise": {
+      "summary": "Full Stack TypeScript Engineer specializing in end-to-end, typesafe architectures.",
+      "experience_level": "senior",
+      "years_experience": 3,
+      "hard_skills": [
+        "TypeScript",
+        "Redux",
+        "Tailwind CSS",
+        "Tan Stack Query",
+        "Prisma",
+        "Stripe",
+        "Nest JS",
+        "Express. js",
+        "Node. js",
+        "GraphQL",
+        "MongoDB",
+        "Zod"
+      ],
+      "soft_skills": [
+        "Problem-Solving",
+        "Adaptability",
+        "Team Collaboration",
+        "Proactive Mindset",
+        "Continuous Learning"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Eye OTech",
+        "job_title": "Full Stack TypeScript Engineer",
+        "start_date": "March 2024",
+        "end_date": null,
+        "city": "Ben Arous, Tunisia",
+        "responsibilities": [
+          "Architected and delivered production-grade systems as the sole engineer",
+          "Refactored legacy monoliths into a typesafe, modular architecture",
+          "Engineered Pixel-Perfect UIs from high-fidelity designs"
+        ]
+      },
+      {
+        "company": "Maj Cake",
+        "job_title": "Full Stack TypeScript Engineer",
+        "start_date": "July 2023",
+        "end_date": "January 2024",
+        "city": "Sousse, Tunisia",
+        "responsibilities": [
+          "Developed modular UI components for an international e-commerce platform"
+        ]
+      },
+      {
+        "company": "Vercel",
+        "job_title": "Full Stack TypeScript Engineer",
+        "start_date": "December 2022",
+        "end_date": "June 2023",
+        "city": "Sousse, Tunisia",
+        "responsibilities": [
+          "Applied Clean Code principles during feature development"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISET Rades",
+        "degree": "Bachelor's in Industrial Maintenance",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "English",
+      "French"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:25:06.592355+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

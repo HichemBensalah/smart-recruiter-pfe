@@ -1,0 +1,154 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Soua_Malek_23032511.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Soua_Malek_23032511.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.844,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMalek Soua\nIngénieur en Internet des objets et programmation robotique\nmaleksoua 123@gmail.com\n15 mars 2001\nlinkedin.com/in/maleksoua\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\nDynamique et passionnée par la robotique et les technologies de pointe, je combine créativité et rigueur dans le développement de solutions Io T . Ma capacité dʼapprentissage rapide me permet de relever des défis techniques complexes avec efficacité et innovation.\n\n## EDUCATION\n\n## EPI - École pluridisciplinaire internationale,\n**Date: ** 09/2022 - 07/2025 | Sousse, Tunisie\n**Location: ** Sfaya, 4000 Sousse, Tunisie\n## Ingénierie en Internet des objets et programmation robotique\nISITCOM - Institut Supérieur d'Informatique et des Technologies de Communication,\n**Date: ** 09/2019 - 06/2022 | Sousse, Tunisie\n## Licence en Systèmes Embarqués et Internet des Objets\n**Date: ** 08/2025 - 02/2026\n**Location: ** Monastir, Ksar Hellal, Tunisie\n## Enova Robotics, Stage de fin d'études\n**Date: ** 02/2025 - 06/2025 | Sousse, Tunisie\n- Conception et Développement d'une Application Multiplateforme pour la Cartographie Autonome et la Navigation de Robots d'Intérieur\nConfiguration de la navigation autonome avec ROS 1 (Move Base) et ROS 2 (Nav 2) sur Humble, Kinetic et Noetic.\nIntégration de SLAM (slam_toolbox, gmapping) pour la cartographie et la localisation en temps réel.\n- Développement dʼune application mobile (i OS/Android) pour:\n- Générer des cartes dynamiques\n- Planifier des missions vers plusieurs destinations .\n- Suivre la position et la trajectoire du robot\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nSartex, Ingénieur Informatique\nDéveloppement d'un système CRM (Customer Relationship Management)\nConception et implémentation d'un CRM, un système logiciel et une stratégie permettant de gérer les interactions entre l'entreprise Sartex et ses clients/prospects, en optimisant la gestion des données et des relations.\nMigration de l'application existante (basée sur une version récente de Laravel avec base de données SQL) vers une nouvelle architecture Laravel intégrant Elasticsearch pour une recherche rapide et performante.\nMise à jour Over-The-Air (OTA) des cartes embarquées ESP 32\nMise à jour à distance du firmware des cartes embarquées ESP 32 via OTA ( Over-The-Air ), permettant le déploiement des mises à jour sans intervention physique sur les équipements.",
+    "header_info": {
+      "full_name": "Malek Soua",
+      "email": "123@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/maleksoua",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8112,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[0]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Malek Soua",
+      "email": "maleksoua 123@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/maleksoua",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Dynamique et passionnée par la robotique et les technologies de pointe, je combine créativité et rigueur dans le développement de solutions Io T.",
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "ROS 1 (Move Base)",
+        "ROS 2 (Nav 2)",
+        "slam_toolbox",
+        "gmapping",
+        "Laravel",
+        "Elasticsearch",
+        "ESP 32"
+      ],
+      "soft_skills": [
+        "rigueur",
+        "apprentissage rapide",
+        "innovation",
+        "gestion des données et des relations"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Sartex",
+        "job_title": "Ingénieur Informatique",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système CRM (Customer Relationship Management)",
+          "Conception et implémentation d'un CRM, un système logiciel et une stratégie permettant de gérer les interactions entre l'entreprise Sartex et ses clients/prospects",
+          "Migration de l'application existante vers une nouvelle architecture Laravel intégrant Elasticsearch",
+          "Mise à jour Over-The-Air (OTA) des cartes embarquées ESP 32",
+          "Mise à jour à distance du firmware des cartes embarquées ESP 32 via OTA"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "EPI - École pluridisciplinaire internationale",
+        "degree": "Ingénierie en Internet des objets et programmation robotique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "ISITCOM - Institut Supérieur d'Informatique et des Technologies de Communication",
+        "degree": "Licence en Systèmes Embarqués et Internet des Objets",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:43:13.177481+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

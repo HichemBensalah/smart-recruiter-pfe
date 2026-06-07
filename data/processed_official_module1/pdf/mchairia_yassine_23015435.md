@@ -1,0 +1,83 @@
+## HEADER
+
+Stagiaire Développeur Fullstack
+RÉFÉRENCES
+Horizon Service, Tunis | Été 2024
+Développé une plateforme de santé en ligne pour seniors tunisiens (Care 4 Elders), utilisant Spring Boot (backend) et Angular (frontend).
+Messaoudi Sofien (Aures Konnect) : +216
+
+## MCHAIRIA YASSINE
+
+I n g é n i e u r L o g i c i e l F u l l s t a c k & D e v O p s
+
+## À PROPOS DE MOI
+
+mchairiayassine@gmail. com
+mchairia-yassine
+Ben Arous , Fouchena
+
+## TECHNICAL SKILLS
+
+Je suis maintenant diplômé et recherche un emploi. Je suis maintenant un ingénieur informatique fullstack et Dev Ops orienté IA. Passionné par le développement de solutions innovantes et axé sur l'apprentissage continu. Fort de compétences en développement back-end et front-end, je cherche à appliquer mes connaissances et perfectionner mes compétences.
+Développement de l'application Care 4 Elders
+Développement d'une plateforme de santé en ligne pour les seniors tunisiens.
+Technologies : Spring Boot (backend), Angular (frontend), Stripe (paiements), QR Codes (gestion des réclamations), Twilio (notifications SMS).
+Application de pratiques Dev Ops (Docker, CI/CD) pour automatiser les déploiements. Impact : Amélioration de l'accès aux soins et gestion des dépenses médicales pour les seniors.
+github Link
+Développement de l'application Restoratings
+Développé une app web pour notations et critiques, facilitant la découverte de restaurants via système de recommandations basé sur préférences utilisateurs.
+Intégré API Google pour authentification ; backend scalable avec Symfony (PHP).
+Impact : +15 % d'engagement utilisateur simulé.
+github Link
+Gestion des élections municipales - Application 2022
+Frameworks
+Développement d'une plateforme pour le vote électronique.
+Technologies : Langage C, Ubuntu (système d'exploitation).
+Spring Boot, Angular, Symfony, Flutter Flow
+Impact : Simplification du processus de vote et augmentation de la participation citoyenne.
+github Link
+Outils Dev Ops
+Docker Sonar Lint CI/CD
+Technologies Web et API
+RESTful, JSON, MQTT (Io T)
+IA/ML
+Random Forest, XGBoost, MLflow, Flask
+Intégré Stripe pour paiements sécurisés, QR Codes pour gestion des réclamations, et Twilio pour notifications SMS ; appliqué pratiques Dev Ops (Docker, CI/CD) pour automatiser les déploiements.
+sofien. messaoudi@aureskonnect. com
+Abida Nidhal (Horizon Service) :
+Amélioré l'accès aux soins et la gestion des dépenses médicales pour 500+ utilisateurs simulés. Impact : Réduction des temps de traitement de 25 % via optimisations. | Git Hub Lien
++216 28 125 966 | abida. nidhal@gmail. com
+Lajmi Aymen (PFE) :
++216 53 038 848 | lajmi. aymen@gmail. com
+Stagiaire en Développement
+Participé à la conception et mise en œuvre de fonctionnalités pour le département financier, utilisant Node. js pour services backend.
+Manipulé JSON pour transferts de données entre services et API RESTful ; résolu des problèmes techniques complexes et optimisé les performances.
+Contribué à des applications internes, réduisant les temps de traitement de 20 % via refactoring. Technos : Node. js, JSON, RESTful.
+
+## EDUCATION
+
+PROJETS
+### Cycle d'Ingénierie en Informatique ESPRIT, Tunis | 2022 - Juin 2025 (Diplômé)
+**Date:** 2024
+- Care 4 Elders
+- Spécialisation en développement logiciel et IA.
+Cours clés : Programmation Orientée Objet, Bases de Données, Structures de Données, Réseaux Informatiques.
+**Date:** 2023
+- Mention : Excelent
+- Cycle préparatoire - Institut Préparatoire aux Études d'Ingénieurs De Bizerte
+- Restoratings
+- Langages de programmation
+### Java (Expert), Python (Avancé), PHP, C/C#, SQL
+**Date:** Centre de Calcul El Khawarezmi (2025)
+
+## EXPÉRIENCE PROFESSIONNELLE
+
+Stagiaire Développeur Fullstack (PFE)
+Développé une plateforme web fullstack pour la supervision et gestion centralisée de datacenters (Manouba et Manar, Tunisie), intégrant authentification sécurisée pour admins/techniciens et monitoring en temps réel des capteurs Io T via MQTT.
+Implémenté des modèles d'IA (Random Forest et XGBoost) pour prédire les alertes, évalués avec MLflow ; intégré via Flask pour les API ML.
+Optimisé la réactivité des équipes de maintenance de 30 % via simulations de scénarios réels, notifications automatisées et chat en ligne (outils de coordination). Technos : Angular (frontend), Spring Boot & My SQL (backend), Flask (IA), MQTT. | Git Hub Lien
+
+## LANGUAGES
+
+Langues
+Français (C 1), Arabe (Natif), Anglais (B 2)

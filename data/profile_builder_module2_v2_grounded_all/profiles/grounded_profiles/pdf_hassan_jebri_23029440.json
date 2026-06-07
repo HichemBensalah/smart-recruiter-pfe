@@ -1,0 +1,167 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\hassan_jebri_23029440.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\hassan_jebri_23029440.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9174,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nHassan Jebri/phone +216-98158363\n\nPROFESSIONAL SUMMARY/github GitHub Profile/linkedin Linked In Profile/globe Personal Portfolio\nDeveloped and maintained an investment platform using Spring Boot microservices and Angular, implementing secure REST APIs for portfolio management and real-time transaction tracking\nBuilt a KYC/AML compliance module with a multi-step Angular form workflow (document upload, liveness detection), backed by a Spring Boot processing pipeline with encrypted AWS S 3 storage and audit logging\nDesigned and optimized PostgreSQL schemas for investment portfolios and user wallets, reducing query response time by 35% through indexing and query refactoring\nImplemented JWT-based authentication and role-based access control across the platform, securing endpoints for admin, investor, and compliance officer roles\nDesigned and developed complete Angular frontend from scratch including restaurant listings, menu management, cart system, checkout flow, and order tracking for 1300+ restaurants in Dakar\nBuilt RESTful APIs with Spring Boot and integrated Stripe, Google Maps, Firebase Auth, Amazon S 3, Redis, Kafka, and Web Sockets for payments, geolocation, media storage, and real-time order tracking\nDeployed on OVH servers with Kubernetes orchestration for auto-scaling, managing containerized services with Docker\nDeveloped Spring Boot REST APIs for user management, role assignment, and data reporting, with JWT-secured endpoints and PostgreSQL persistence\nBuilt nutrition tracking application with Spring Boot and Angular featuring a recipe database with 1000+ entries, nutritional calculator, and meal planning calendar\n\n## TECHNICAL SKILLS\n\nSoftware Engineer/envelope_alt jebrihassan 66@gmail.com\nSoftware Engineer\nBrama Square\nFull Stack Developer\nAccompany Consulting\nFull Stack Developer\n· Accompany Consulting\nFull Stack Developer\nDatabases:\nPostgreSQL, MongoDB, MySQL, Redis\n\n## PROFESSIONAL EXPERIENCE\n\nFull-stack engineer with 2+ years of experience building production-ready systems across web and mobile. I work across the entire stack - from database design to polished UIs - and adapt quickly to any technology the problem demands. I care about clean architecture, real impact, and shipping things that actually work.\n**Date: ** Dec. 2025 - Present\n**Location: ** Dubai, UAE (Remote)\nDari Real Estate Platform Built real estate application with property listings, advanced search/filtering, and ML-powered price prediction. Integrated real-time updates and authentication.\nClinivia Elderly Care Platform Developed care management system with patient monitoring, caregiver dashboards, and AI-driven predictive analytics.\n\n## EDUCATION\n\nDino Byte Information Technology\n\n## ACADEMIC PROJECTS\n\n## Personal Projects\n**Date: ** Feb. 2025 - Sep. 2025\n**Location: ** Tunis, Tunisia\n- Built internal HR management module with Angular, including employee dashboards, leave requests, and real-time notifications via Web Sockets\n- Developed RESTful APIs for recipe search and filtering, user-generated content with moderation workflow, and cloud storage for adaptive video streaming\n## Tech: Spring Boot, Angular, Python, PostgreSQL\n- Tech:\n## Spring Boot, Angular, Microservices, Docker\n\n## LANGUAGES\n\nLanguages:\nJava, JavaScript, TypeScript, Python\nFrontend:\nAngular, Next. js, React Native\nBackend:\nSpring Boot, Nest JS, Node. js",
+    "header_info": {
+      "full_name": null,
+      "email": null,
+      "phone": "+216-98158363",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8249,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.github"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": [
+      "bio.github"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Hassan Jebri",
+      "email": "66@gmail.com",
+      "phone": "+216-98158363",
+      "location": "Dubai, UAE (Remote)",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": "2+",
+      "hard_skills": [
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "Redis",
+        "Spring Boot",
+        "Angular",
+        "Python",
+        "Docker"
+      ],
+      "soft_skills": [
+        "clean architecture",
+        "real impact",
+        "shipping things that actually work"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Dec. 2025 - Present",
+        "end_date": null,
+        "city": "Dubai, UAE (Remote)",
+        "responsibilities": [
+          "Built real estate application with property listings, advanced search/filtering, and ML-powered price prediction.",
+          "Integrated real-time updates and authentication."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed care management system with patient monitoring, caregiver dashboards, and AI-driven predictive analytics."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Dino Byte Information Technology",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "Python"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:27:39.010422+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

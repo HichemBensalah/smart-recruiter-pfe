@@ -1,0 +1,214 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Saad_Jihene_23032980.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Saad_Jihene_23032980.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7467,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nSpécialisée en génie logiciel, je dispose d'une solide base en développement logiciel full-stack. Dotée de bonnes capacités d'analyse et de résolution de problèmes, je suis actuellement à la recherche d'une première opportunité professionnelle afin de mettre en pratique mes compétences techniques au sein d'un environnement collaboratif et orienté vers la croissance.\nJanv. 2025 - Juil. 2025 Stagiaire PFE - Solution de gestion des demandes de prêt à la consommation Vermeg for Banking & Insurance Software\nDéveloppement d' une solution complète de gestion des demandes de prêt\njihenesaad 21@gmail.com\nMise en place d' une authentification sécurisée et d' un contrôle d'accès par rôles\nlinkedin.com/in/jihenesaad\nConception d' un moteur de simulation de prêt et d' un système de soumission de documents basé sur OCR\ngithub.com/jihenesaad\nDéveloppement d' un modèle de recommandation XGBoost pour aider à la décision\nTunis, Tunisie\nImplémentation de notifications en temps réel via Web Sockets\nDéveloppement d' un chatbot avec TensorFlow pour guider les utilisateurs\nMise en place d' une chaîne CI/CD pour automatiser le build, les tests, le déploiement et la supervision\nEnvironnement technique: Angular, Spring Boot, Flask, REST API, PostgreSQL, MongoDB, Keycloak, OCR Tesseract, Jenkins, Docker, Kubernetes, Prometheus, Grafana, Sonar Qube\nJuin 2024 - Août 2024 NEXT STEP IT Stagiaire Ingénieure Logiciel - Solution de gestion des tickets de vulnérabilités\nDéveloppement d' une solution web de gestion des tickets pour la détection des vulnérabilités\nAutomatisation du suivi des vulnérabilités selon leur criticité avec intégration de Insight VM, accompagnée des alertes pour les cas critiques\nCréation de tableaux de bord interactifs affichant des métriques en temps réel Environnement technique: React, Spring Boot, API REST, MySQL, Insight VM\nStagiaire Développeuse Logiciel - Solution de gestion des stagiaires\nDéveloppement d' une application desktop pour la gestion des stagiaires\nAutomatisation de la génération des attestations de stage\nEnvironnement technique:\nJava FX, MySQL\nDevOps:\nGit, GitHub, Jenkins, Docker,\nKubernetes, Sonar Qube, Nexus, Prometheus,\nGrafana\nSécurité:\nKeycloak, RBAC, JWT\nGestion de projet:\nScrum, Jira, Trello\n\n## EXPÉRIENCES DE STAGE\n\nCONTACT\n\n## EDUCATION\n\nDiplôme d'Ingénieur en Informatique\n## ESPRIT, Tunis\n**Date: ** 2022 - 2025\n- Cycle Préparatoire Intégré en Informatique IT Business School 2020 - 2022\n\n## COMPÉTENCES TECHNIQUES\n\nLangages de programmation: Java, JavaScript,\nTypeScript, Python, PHP, SQL\nBases de données:\nMySQL, PostgreSQL,\nMongoDB\nTunisie Telecom\nDéveloppement Frontend: Angular, React,\nHTML, CSS, Bootstrap, Figma\nDéveloppement Backend:\nSpring Boot,\nHibernate, JPA, Symfony, Flask\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nBuild Chat Applications with OpenAI and Lang Chain 365 Data Science, 2025\nWeb Scraping and API Fundamentals in Python 365 Data Science, 2025\nCrash Course on Python Google/Coursera, 2022\nApplication Web de Gestion du Bien-Être Mental\nDéveloppement d' une application web évaluant le bien-être mental via des quizz interactifs\nIntégration d' un chatbot Dialogflow pour assistance en temps réel\nGénération de recommandations personnalisées à partir de l'analyse des quizz\nVisualisation des résultats et des suggestions personnalisées\nEnvironnement technique: Angular, Spring Boot, API REST, MySQL, Dialogflow, GitHub\nGestion de Location de Voitures - Application Desktop & Web\nCollaboration sur un système desktop/web de gestion de locations de voitures\nDéveloppement de fonctionnalités cross-platform pour les réservations\nMise en place d' une base MySQL centralisée avec mises à jour synchronisées\nIntégration de notifications SMS pour confirmations\nEnvironnement technique: Java FX, Symfony, MySQL, Twilio, GitHub\n\n## ACADEMIC PROJECTS\n\nPROJETS\n\n## COMPÉTENCES PERSONNELLES\n\nRésolution de problèmes\nTravail en équipe\nGestion du temps\nAutonomie\n\n## LANGUAGES\n\nAnglais:\nCourant\nFrançais: Courant\nArabe: Natif",
+    "header_info": {
+      "full_name": null,
+      "email": "21@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/jihenesaad",
+      "github": "github.com/jihenesaad"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9493,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.github",
+      "bio.linkedin",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": "21@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/jihenesaad",
+      "github": "github.com/jihenesaad"
+    },
+    "expertise": {
+      "summary": "Développeuse logicielle avec expertise en développement full-stack, analyse et résolution de problèmes.",
+      "experience_level": "junior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "Flask",
+        "REST API",
+        "PostgreSQL",
+        "MongoDB",
+        "Keycloak",
+        "Tesseract",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "Java FX",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Résolution de problèmes",
+        "Travail en équipe",
+        "Gestion du temps",
+        "Autonomie"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Stagiaire PFE - Solution de gestion des demandes de prêt à la consommation",
+        "start_date": "Janv. 2025",
+        "end_date": "Juil. 2025",
+        "city": "Vermeg for Banking & Insurance Software, Tunisie",
+        "responsibilities": [
+          "Développement d' une solution complète de gestion des demandes de prêt",
+          "Mise en place d' une authentification sécurisée et d' un contrôle d'accès par rôles",
+          "Conception d' un moteur de simulation de prêt et d' un système de soumission de documents basé sur OCR"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Stagiaire Ingénieure Logiciel - Solution de gestion des tickets de vulnérabilités",
+        "start_date": "Juin 2024",
+        "end_date": "Août 2024",
+        "city": "NEXT STEP IT, Tunisie",
+        "responsibilities": [
+          "Développement d' une solution web de gestion des tickets pour la détection des vulnérabilités"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Stagiaire Développeuse Logiciel - Solution de gestion des stagiaires",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d' une application desktop pour la gestion des stagiaires"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT, Tunis",
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "IT Business School",
+        "degree": "Cycle Préparatoire Intégré en Informatique",
+        "field": null,
+        "year": [
+          2020,
+          2022
+        ]
+      }
+    ],
+    "languages": [
+      "Anglais: Courant",
+      "Français: Courant",
+      "Arabe: Natif"
+    ],
+    "certifications": [
+      "Build Chat Applications with OpenAI and Lang Chain 365 Data Science, 2025",
+      "Web Scraping and API Fundamentals in Python 365 Data Science, 2025",
+      "Crash Course on Python Google/Coursera, 2022"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:32:36.115532+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

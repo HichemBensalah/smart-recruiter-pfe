@@ -1,0 +1,168 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\frikhi_malek_23019257.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\frikhi_malek_23019257.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9354,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMalek Frikhi Ingénieure informatique\nmalek.frikhi@esprit.tn\n+216 95 392 119/in/malek-frikhi-3060 a 62 a 8\nTunis, Tunisie\n\n## PROFESSIONAL SUMMARY\n\nProfil\nIngénieure logiciel junior spécialisée en développement full-stack (Angular, Spring Boot), incluant la conception dʼarchitectures applicatives, le développement dʼAPI REST sécurisées et la gestion de bases de données relationnelles. Jʼai contribué à lʼautomatisation des builds, des tests et des déploiements via des pipelines CI/CD en environnement Agile. Je renforce actuellement mon expertise en tests fonctionnels et en QA conformément aux standards ISTQB\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences Professionnelles\n\n## EDUCATION\n\n## Stagiaire Ingénieur Logiciel (Projet de Fin dʼÉtudes), Vermeg\n**Date: ** 01/2025 - 07/2025\n**Location: ** Tunis, Tunisie\nAnalyse des besoins métiers, gestion du Product Backlog et conception de diagrammes UML.\nDéveloppement dʼun portail RH centralisé digitalisant les processus internes (recrutement, congés, événements, documents), réduisant la charge manuelle de 40 %.\n- Conception dʼun chatbot RH intelligent répondant aux questions des employés et réduisant les étapes de navigation jusquʼà 70 %.\n- Extraction automatisée des informations clés des CV via OCR.\n- Orchestration du pipeline CI/CD avec Jenkins et Docker.\n## Stagiaire Développeuse Java, Vermeg\n**Date: ** 07/2024 - 08/2024\n**Location: ** Tunis, Tunisie\n- Automatisation de lʼenvoi des rapports et scripts via SFTP et email.\n## Technologies: Java Swing, JDBC, Oracle, PostgreSQL, MySQL\n## Stagiaire Développeuse Python, Tunisie Telecom\n**Date: ** 06/2023\n**Location: ** Tunis, Tunisie\n- Formation\n- Diplôme dʼIngénieur en Génie Informatique\n- ESPRIT - École Supérieure Privée dʼIngénierie et de Technologies\n- Cycle Préparatoire (Maths-Physique)\n- Institut Préparatoire aux Etudes d'Ingénieur de Sfax (IPEIS)\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nImplémentation dʼune analyse de sentiment (NLP) des feedbacks employés sur les événements internes, avec recommandation des plus appréciés.\nTechnologies: Spring Boot (backend), Angular (frontend), Flask, NLP, PostgreSQL, Keycloak, Docker, Jenkins, Grafana, Promotheus.\nDéveloppement dʼune application desktop Java Swing pour automatiser la migration de bases de données entre Megacore v 10 et v 12.\nGénération de rapports de migration détaillés (PDF) avec gestion des logs et suivi des erreurs.\nDéveloppement dʼun module Python pour automatiser le processus de changement dʼoffre client chez Tunisie Telecom.\nDéfinition et gestion des scénarios de test pour assurer le bon fonctionnement des changements avant commercialisation.\nMise en place et exécution des tests sur un environnement Linux pour garantir la fiabilité du module.\nTechnologies: Python, MySQL, SOAP Web Services, Linux, Automatisation, OCS (Online Charging System), tests logiciels\nMise en place dʼun pipeline CI/CD pour une application backend Node. js (build, tests, déploiement automatisé).\nTechnologies: Docker, Jenkins, Vagrant, Git, Sonar Qube, Nexus, Grafana, Promotheus .\n\n## ACADEMIC PROJECTS\n\nProjets Académiques\nDéveloppement dʼune plateforme ERP pour société IT (RH, CRM, gestion de projets et consultants).\n- Création de dashboards interactifs pour le suivi des données des projets.\n- Orchestration dʼinvocations dʼopérations SOAP via lʼOCS pour valider le changement dʼoffre.\n## Technologies: Spring Boot, Angular, MySQL, Swagger, Power BI .\n- Plateforme de Gestion Agricole\n## Centralisation des opérations agricoles (cultures, élevage, stock, ventes, RH).\n- Intégration de données météo et cartographiques en temps réel.\n## Technologies: Symfony, Java\n- Langages:\n## Java, Python, TypeScript, Html, Css UML, Sql\n- Outils & Environnements:\nVisual Studio, VSCode, Netbeans, Intellig, Eclipse, Jira, Postman, Swagger, GitHub, Power BI, keycloak, vagrant, ubuntu, Power BI\n- Bases de Données\n## PostgreSQL, MySQL\n**Date: ** 2022 - 2025\n**Location: ** Tunis, Tunisie\n- Français: Courant\n- Anglais: Courant\n\n## TECHNICAL SKILLS\n\nPipeline DevOps\nSolution ERP - Coconsult\nIntégration du pointage en temps réel via reconnaissance faciale.\nCompétences\nMéthodes:\nScrum\nFrameworks:\nAngular, Spring boot, Flask\nDevops:\nDocker, Sonar Qube, Jenkins, Apache Kafka, Nexus, Git, Grafana, Prometheus\n\n## LANGUAGES\n\nLangues\nArabe: Langue maternelle malek.frikhi@esprit.tn",
+    "header_info": {
+      "full_name": "Malek Frikhi Ingénieure informatique",
+      "email": "malek.frikhi@esprit.tn",
+      "phone": "+216 95 392 119",
+      "location": "Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9871,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Malek Frikhi Ingénieure informatique",
+      "email": "malek.frikhi@esprit.tn",
+      "phone": "+216 95 392 119",
+      "location": "Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieure logiciel junior spécialisée en développement full-stack (Angular, Spring Boot), incluant la conception dʼarchitectures applicatives, le développement dʼAPI REST sécurisées et la gestion de bases de données relationnelles.",
+      "experience_level": "junior",
+      "years_experience": 1,
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "Java",
+        "Python",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Scrum",
+        "Devops",
+        "Méthodes",
+        "Frameworks",
+        "OCS (Online Charging System)",
+        "tests logiciels"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Vermeg",
+        "job_title": null,
+        "start_date": "01/2025",
+        "end_date": "07/2025",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Analyse des besoins métiers",
+          "Gestion du Product Backlog",
+          "Conception de diagrammes UML",
+          "Développement dʼun portail RH centralisé digitalisant les processus internes (recrutement, congés, événements, documents)",
+          "Extraction automatisée des informations clés des CV via OCR",
+          "Orchestration du pipeline CI/CD avec Jenkins et Docker"
+        ]
+      },
+      {
+        "company": "Tunisie Telecom",
+        "job_title": null,
+        "start_date": "06/2023",
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Formation",
+          "Diplôme dʼIngénieur en Génie Informatique"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT - École Supérieure Privée d'Ingénierie et de Technologies",
+        "degree": "Diplôme d'Ingénieur en Génie Informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:07:40.540312+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

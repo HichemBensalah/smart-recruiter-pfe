@@ -1,0 +1,90 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Haythem_Kchouk_23026034.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Haythem_Kchouk_23026034.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Haythem_Kchouk_23026034.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mohamed Haythem Kchouk",
+      "email": "haythem.kchouk@gmail.com",
+      "phone": "+216 90005149",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Ingénieur logiciel junior spécialisé en développement Full Stack et DevOps",
+        "Angular",
+        "Spring Boot",
+        "PostgreSQL",
+        "Kubernetes",
+        "Helm",
+        "Argo CD",
+        "Jenkins",
+        "Docker",
+        "Git"
+      ],
+      "soft_skills": [
+        "Travailler en équipe",
+        "Résoudre des problèmes complexes",
+        "Livrer des solutions fiables dans des environnements Agile"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une plateforme Git Ops",
+          "Création d'interfaces frontend avec Angular",
+          "Développement d'API REST avec Spring Boot",
+          "Conception de schémas PostgreSQL et optimisation des requêtes",
+          "Déploiement sur Kubernetes avec Helm et Argo CD",
+          "Automatisation CI/CD",
+          "Mise en place d'un pipeline CI/CD avec Jenkins, Docker et Git",
+          "Implémentation des logs avec Log 4j et des tests unitaires avec JUnit",
+          "Intégration de Sonar Qube pour améliorer la qualité du code",
+          "Réduction des erreurs de déploiement manuel de 60%",
+          "Entraînement sur un dataset de plus de 10 000 commits",
+          "Mise en place de pipelines automatisés avec GitHub Actions",
+          "Amélioration de la détection des errements de 35%",
+          "Développement d'une plateforme de demande de crédits en ligne",
+          "Création du frontend avec Angular et du backend avec Spring Boot",
+          "Conception de la base de données PostgreSQL"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception d'un modèle de Machine Learning pour prédire l'impact des commits",
+          "Création de scripts Bash pour automatiser le traitement des données sous Linux"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:38:42.686185+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8753,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

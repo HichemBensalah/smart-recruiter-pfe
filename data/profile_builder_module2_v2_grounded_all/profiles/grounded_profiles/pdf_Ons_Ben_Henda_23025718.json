@@ -1,0 +1,241 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ons_Ben_Henda_23025718.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ons_Ben_Henda_23025718.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8258,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\n(+216) 52 400 413 Ons.benhenda@gmail.com\nOns Ben Henda\n\n## EDUCATION\n\nJeune diplômée en Master Management Digital et Systèmes d'Information, je dispose d'une double compétence en gestion de projet et en assurance qualité logicielle, enrichie par des expériences concrètes dans les secteurs bancaire, du conseil et de la tech. Mon parcours m'a permis de développer une solide maîtrise des tests fonctionnels, de l'analyse des besoins métiers, ainsi que de l'utilisation d'outils collaboratifs tels que Jira ou Cypress.\n- Master en Management Digital et Système d'Information- Esprit School of Business - 2022 - 2024\nLicence en Économie et Gestion: Techniques de Commerce International - ISG Tunis\n**Date: ** 2017 - 2021\n## Baccalauréat en Économie et Gestion - Lycée\n**Date: ** 2016 - 2017\n- Mourouj 1\n\n## ACADEMIC PROJECTS\n\nRigoureuse, curieuse et passionnée par les nouvelles technologies, je suis aujourd'hui motivée à rejoindre une entreprise innovante où je pourrai apporter une réelle valeur ajoutée aux projets tout en continuant à progresser dans le domaine de la qualité logicielle et de l'accompagnement fonctionnel.\n- Autres MS project ERP JIRA Confluence Cucumber R Javascript\n- Informatiques API Postman SPSS Python STAR UML. Microsoft office Cypress Teslink\n- LANGUE\n- Arabe: Langue maternelle\n- Traitement des dossiers import et messages SWIFT.\n- Turc: C 1\n- Suivi des transferts reçus et opérations de change.\n- Français: B 2\n- Classement et gestion administrative.\n- Anglais: A 2\n- Archivage et observation des ventes/actions.\n- Introduction à la comptabilité financière.\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nStage - QA Automation Engineer\nValue Digital Service - Février 2024 - Août 2024\nDéveloppement de tests automatisés fonctionnels et de tests API de l'application bancaire avec Cypress.\nConception de scénarios End-to-End simulant les parcours utilisateurs critiques.\nValidation des User Stories avant passage en revue par le Product Owner, en coordination avec les équipes métier et développement (Java).\nIntégration des suites de tests dans la chaîne CI/CD pour une exécution continue.\nAnalyse des résultats, rédaction de rapports de tests détaillés et documentation des cas de test.\nCréation de tickets Jira lors de la détection d'anomalies, avec description complète, niveau de priorité (bloquant, critique, mineur, etc.) et étapes de reproduction.\nSuivi des bugs jusqu'à leur résolution et participation active aux réunions de suivi qualité.\nContribution à l'amélioration de la stratégie QA et à la fiabilité globale de la plateforme.\nStage - QA Fonctionnelle\nMidisys Consulting - Juillet. 2023- Septembre 2023\nRédaction des cas de test à partir des spécifications fonctionnelles, exécution des scénarios et suivi des anomalies.\nUtilisation de Jira pour la gestion des campagnes de test, la création des tickets et le suivi des corrections.\nQualification des bugs détectés avec une priorisation selon l'impact (bloquant, majeur, mineur) et rédaction des étapes de reproduction.\nCollaboration étroite avec les développeurs pour garantir la résolution efficace des anomalies.\nContribution à l'amélioration continue du processus de test et à l'assurance qualité des livrables.\nStage - Assistante Portefeuille Import-\nBNA - Département Commerce International - Février. 2023 - Mai 2023\nStage -Assistante Administrative\nStage- Chargée de Clientèle au Guichet\nOuverture de comptes et opérations de guichet (chèques, virements, change, retrait .. ).\n\n## SAVOIR ÊTRE\n\nEsprit d'équipe, Autonomie, Capacité d'innovation\nSuivi journalier de la caisse.",
+    "header_info": {
+      "full_name": "Ons Ben Henda",
+      "email": "Ons.benhenda@gmail.com",
+      "phone": "+216) 52 400 413",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6789,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[3].responsibilities[0]",
+      "experiences[4].responsibilities[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].responsibilities[7]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[4].company",
+      "experiences[4].job_title",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": [
+      "experiences[3].responsibilities[0]",
+      "experiences[4].responsibilities[0]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ons Ben Henda",
+      "email": "Ons.benhenda@gmail.com",
+      "phone": "+216) 52 400 413",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 9,
+      "hard_skills": [
+        "Cypress",
+        "Jira",
+        "Python",
+        "Postman",
+        "SPSS",
+        "R Javascript",
+        "Microsoft office"
+      ],
+      "soft_skills": [
+        "Esprit d'équipe",
+        "Autonomie",
+        "Capacité d'innovation"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Value Digital Service",
+        "job_title": "QA Automation Engineer",
+        "start_date": "Février 2024",
+        "end_date": "Août 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement de tests automatisés fonctionnels et de tests API de l'application bancaire avec Cypress.",
+          "Conception de scénarios End-to-End simulant les parcours utilisateurs critiques.",
+          "Validation des User Stories avant passage en revue par le Product Owner, en coordination avec les équipes métier et développement (Java).",
+          "Intégration des suites de tests dans la chaîne CI/CD pour une exécution continue.",
+          "Analyse des résultats, rédaction de rapports de tests détaillés et documentation des cas de test.",
+          "Création de tickets Jira lors de la détection d'anomalies, avec description complète, niveau de priorité (bloquant, critique, mineur, etc.) et étapes de reproduction.",
+          "Suivi des bugs jusqu'à leur résolution et participation active aux réunions de suivi qualité.",
+          "Contribution à l'amélioration de la stratégie QA et à la fiabilité globale de la plateforme."
+        ]
+      },
+      {
+        "company": "Midisys Consulting",
+        "job_title": "QA Fonctionnelle",
+        "start_date": "Juillet 2023",
+        "end_date": "Septembre 2023",
+        "city": null,
+        "responsibilities": [
+          "Rédaction des cas de test à partir des spécifications fonctionnelles, exécution des scénarios et suivi des anomalies.",
+          "Utilisation de Jira pour la gestion des campagnes de test, la création des tickets et le suivi des corrections.",
+          "Qualification des bugs détectés avec une priorité selon l'impact (bloquant, majeur, mineur) et rédaction des étapes de reproduction.",
+          "Collaboration étroite avec les développeurs pour garantir la résolution efficace des anomalies.",
+          "Contribution à l'amélioration continue du processus de test et à l'assurance qualité des livrables."
+        ]
+      },
+      {
+        "company": "BNA",
+        "job_title": "Assistante Portefeuille Import-",
+        "start_date": "Février 2023",
+        "end_date": "Mai 2023",
+        "city": null,
+        "responsibilities": [
+          "Ouverture de comptes et opérations de guichet (chèques, virements, change, retrait .. )."
+        ]
+      },
+      {
+        "company": "BNA",
+        "job_title": "Assistante Administrative",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": "BNA",
+        "job_title": "Chargée de Clientèle au Guichet",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "Esprit School of Business",
+        "degree": "Master en Management Digital et Système d'Information",
+        "field": "Management Digital et Systèmes d'Information",
+        "year": "2022 - 2024"
+      },
+      {
+        "institution": "ISG Tunis",
+        "degree": "Licence en Économie et Gestion: Techniques de Commerce International",
+        "field": null,
+        "year": "2017 - 2021"
+      },
+      {
+        "institution": "Lycée",
+        "degree": "Baccalauréat en Économie et Gestion",
+        "field": null,
+        "year": "2016 - 2017"
+      }
+    ],
+    "languages": [
+      "Arabe: Langue maternelle",
+      "Turc: C 1",
+      "Français: B 2",
+      "Anglais: A 2"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:57:06.633515+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

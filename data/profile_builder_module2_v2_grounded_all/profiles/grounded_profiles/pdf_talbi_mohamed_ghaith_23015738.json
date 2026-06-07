@@ -1,0 +1,216 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\talbi_mohamed_ghaith_23015738.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\talbi_mohamed_ghaith_23015738.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8694,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMohamed Ghaith Talbi\n\n## TECHNICAL SKILLS\n\nSoftware Engineer\ntalbimouhamed 24@gmail.com\nAriana mohamed-ghaith-talbi\nmed-ghaith\nSKILLS\ninfrastructure ( Docker ) with tools like Debezium and Schema Registry . Technologies: Spring boot, React, Kafka, Git, Debezium, Docker\nProgramming languages\nC#, Java, Python, Javascript, DAX\nSummer internship\nSaxli Textile\nBig Data & ETL Technologies\nApache Spark, PySpark, Talend, SSIS, ADF, Kafka\nDatabases\nMySQL, Mongodb, MSSQL, PostgreSQL\nFrameworks and Libraries\nTechnologies\n: Symfony, React, Git, Docker\n.Net, Spring boot, React, Redux, Angular, Symfony\nDashboarding\nMicrosoft Power BI, SSRS\nWorkflow Managment\nJira, Git\nDevOps & Infrastructure\nDocker, Git/GitHub, Linux, CI/CD Pipelines (Jenkins), Sonarqube, Prometheus, Grafana\nDevOps Project\nEstablished a continous integration pipeline for a spring boot and Angular application\nIntegrated and configured Jenkins as the automation server, orchestrating the build, test and deployment processes\nTechnologies: Jenkins, Git, Docker, Nexus, Sonarqube, Prometheus, Grafana.\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\n\n## PROFESSIONAL EXPERIENCE\n\nWeb Master\nKounouz Agency\nWorked in an agile Scrum environment collaborating with backend and operations teams.\nImplemented RESTful APIs and contributed to the integration with Kafka for asynchronous communication.\nDesigned and optimized data pipeline architecture for microservices infrastructure.\n\n## ACADEMIC PROJECTS\n\nI am a highly dedicated and motivated developer . I am enthusiastic about taking on meaningful projects that will make a positive impact in the professional realm. I am excited to embark on this journey and contribute meaningfully to any organization I become a part of.\nPROJECTS\nBusiness Intelligence System Development for Travel Agencies 01/2023 - 05/2023\nDesigned and developed a BI system for a travel agency, optimizing data storage with data warehouse models and integrating diverse datasets using Python, Talend, and web scraping .\n**Date: ** 06/2023 - 08/2023\n- Developed a RESTful API with Symfony, including entity modeling, relationships, validation rules, and secure business logic.\n- Built a dynamic React dashboard to manage products, orders, customers, and maintenance requests with real-time status updates.\n## Technologies: Talend, Power BI, PostgreSQL, Python.\n**Date: ** 01/2023 - 03/2023\n\n## EDUCATION\n\nComputer science engineering degree\nOrchestrated data workflows using Airflow DAGs to automate data ingestion, transformation, and pipeline monitoring across multiple services.\n**Date: ** 09/2021 - 12/2024\n**Location: ** .Net, React, Kafka, Git, Docker, Airflow\n- Esprit\n- Technologies:\n- Fundamental competence in computer science\n- End of study internship\n- Higher institute of computer science and management of kairouan 09/2018 - 07/2021\n\n## ADERFIA INC\n\nDesigned and implemented real-time data pipelines using Kafka Connect and Debezium for Change Data Capture (CDC).\nEnsured data consistency and scalability using a containerized\n\n## LANGUAGES\n\nArabic\nEnglish (B 2+)\nFrench\n\n## EXTRA-CURRICULAR ACTIVITIES\n\nMember of Google club",
+    "header_info": {
+      "full_name": "Mohamed Ghaith Talbi",
+      "email": "24@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6831,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[5]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.soft_skills[8]",
+      "expertise.soft_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[5]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mohamed Ghaith Talbi",
+      "email": "24@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Docker",
+        "Debezium",
+        "Schema Registry",
+        "Spring boot",
+        "React",
+        "Kafka",
+        "Git",
+        "C#",
+        "Java",
+        "Python",
+        "Javascript",
+        "DAX",
+        "MySQL",
+        "Mongodb",
+        "MSSQL",
+        "PostgreSQL",
+        "Symfony",
+        "Net",
+        "Jenkins",
+        "Nexus",
+        "Sonarqube",
+        "Prometheus",
+        "Grafana"
+      ],
+      "soft_skills": [
+        "agile Scrum environment",
+        "RESTful APIs",
+        "data pipeline architecture",
+        "microservices infrastructure",
+        "CI/CD Pipelines",
+        "Jira",
+        "Git/GitHub",
+        "Linux"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Kounouz Agency",
+        "job_title": "Web Master",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Worked in an agile Scrum environment collaborating with backend and operations teams.",
+          "Implemented RESTful APIs and contributed to the integration with Kafka for asynchronous communication.",
+          "Designed and optimized data pipeline architecture for microservices infrastructure."
+        ]
+      },
+      {
+        "company": "Saxli Textile",
+        "job_title": "Summer Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Big Data & ETL Technologies"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": ".Net, React, Kafka, Git, Docker, Airflow",
+        "degree": "Computer science engineering degree",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Esprit",
+        "degree": "Higher institute of computer science and management of kairouan",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "English (B 2+)",
+      "French"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:49:42.721512+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

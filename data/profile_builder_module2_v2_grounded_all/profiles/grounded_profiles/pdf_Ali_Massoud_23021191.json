@@ -1,0 +1,247 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ali_Massoud_23021191.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ali_Massoud_23021191.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7403,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAli Massoud\nSecurite (Dev Sec Ops)\nSonar Qube, OWASP Dependency Check, Trivy, Black Duck\n\n## TECHNICAL SKILLS\n\nIngenieur DevOps & Cloud\n+216 95 940 644 | massoudmohamed 297@gmail.com | Mahdia, Tunisie | linkedin.com/in/ali-massoud 000 | gitlab. com/massoudmohamed 297\nIngenieur DevOps et Cloud avec une experience concrete dans la conception et le deploiement de pipelines CI/CD, de clusters Kubernetes et d'infrastructures cloud sur AWS et Open Stack. Certifie AWS Cloud Ops Engineer (avril 2026). Capable de prendre en charge l'infrastructure de bout en bout: automatisation, conteneurisation, Git Ops, securite et observabilite. A l'aise dans des environnements dynamiques exigeant fiabilite, scalabilite et livraison continue.\nAWS Certified Cloud Ops Engineer - Associate\nAmazon Web Services | Obtenu: avril 2026 | Badge ID: 36719 b 6 c-57 f 5-4 f 2 e-9 e 04-37 ae 9 ec 212 e 8 credly. com/badges/36719 b 6 c-57 f 5-4 f 2 e-9 e 04-37 ae 9 ec 212 e 8\nIngenieur Cloud\nGroup RIF | Teletravail | Juin 2025 - Aout 2025 (mission)\nProvisionne un cluster Open Stack 3 noeuds (Controller, Compute, Storage) avec Terraform, ramenant le temps de deploiement de plusieurs jours a moins de 2 heures.\nDeveloppe un script Bash execute a la creation des VM pour configurer le reseau, distribuer les cles SSH et installer l services socles (Maria DB, Rabbit MQ, Memcached), eliminant toute preparation manuelle des noeuds.\nAutomatise l'installation et la configuration des services Open Stack via des playbooks Ansible integres dans des pipelines Jenkins, pour des deploiements entierement pilotes par CI/CD.\nSecurise la connectivite vers le serveur hote avec le reseau overlay Zero Tier, remplacant des solutions VPN fragiles pa un tunnel chiffre et resilient.\nConcu et deploye une plateforme CI/CD Git Lab de niveau production pour une application web multi-services, hebergee sur un environnement KVM avec un cluster Kubernetes auto-gere (1 master, 2 workers).\nMis en place une chaine Git Ops complete: Git Lab CI/CD pour l'orchestration, Sonar Qube pour les controles qualite, Triv pour le scan de securite des conteneurs, et Argo CD pour le deploiement Kubernetes - zero etape manuelle en production.\nImplemente un Horizontal Pod Autoscaler (HPA) pour les microservices Spring Boot et un Vertical Pod Autoscaler (VPA) pour les pods base de donnees, permettant d'absorber les pics de trafic sans intervention humaine.\nConfigure un cluster de base de donnees haute disponibilite (1 primaire lecture/ecriture + 2 replicas en lecture) avec Persistent Volume Claims et load balancers pour la distribution du trafic.\nCloud - AWS\n\n## PROFIL PROFESSIONNEL\n\nCERTIFICATION\n\n## EDUCATION\n\nIngenieur DevOps - Projet de Fin d'Etudes (PFE)\n## Smooth Algo | Sousse, Tunisie | Mars 2024 - Aout 2024\n- Deploye une stack d'observabilite complete (Prometheus + Grafana + Alertmanager) pour des tableaux de bord temps reel et des alertes proactives.\n- Ingenieur Logiciel - Stagiaire\n## Artibedded | Teletravail | Aout 2023 - Septembre 2023\nConteneurise une application React/Flask avec Docker et Docker Compose et deploye sur AWS EC 2; integre Git Lab CI/CD, Sonar Qube, OWASP Dependency Check et Trivy pour une chaine de livraison securisee.\n**Location: ** Terraform, Ansible, scripting Bash\nEC 2, S 3, ELB, Route 53, Auto Scaling, EBS, RDS, Cloud Formation, Cloud Watch, Cloud Trail, VPC, IAM\n- Reseaux\n## TCP/IP, DNS, DHCP, VPN (Zero Tier), VLAN, RADIUS\n- Administration Systeme\n## Linux (Ubuntu, Red Hat), Windows AD, scripting Python\n- Web/Backend\n## ReactJS, Angular, Flask, Spring Boot, MySQL, MongoDB\n- Automatisation & Integration\n## n 8 n (automatisation de workflows, integrations API, self-hosted)\n- FORMATION\n- Diplome d'Ingenieur en Telecommunications - Specialisation Reseaux & Cloud\n## ENET'Com, Universite de Sfax | Sfax, Tunisie | Obtenu en octobre 2024\n- Diplome de Technicien Superieur en Informatique & Telecommunications\n## ISSAT, Universite de Monastir | Mahdia, Tunisie | Mai 2021\n-: Courant\n- Francais: Intermediaire\n\n## COMPETENCES TECHNIQUES\n\nConteneurs & Orchestration\nDocker, Docker Compose, Kubernetes (HPA, VPA, PVC), KVM, Argo CD\nGit Lab CI/CD, Jenkins, Argo CD, workflows Git Ops\nCI/CD Ia C & Config. Management Observabilite\nPrometheus, Grafana, Alertmanager, ELK Stack\n\n## LANGUAGES\n\nLANGUES\nArabe\n: Langue maternelle\nAnglais",
+    "header_info": {
+      "full_name": "Ali Massoud",
+      "email": "297@gmail.com",
+      "phone": "+216 95 940 644",
+      "location": "Sonar Qube, OWASP Dependency Check, Trivy, Black Duck",
+      "linkedin": "linkedin.com/in/ali-massoud",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9481,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].responsibilities[7]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ali Massoud",
+      "email": "297@gmail.com",
+      "phone": "+216 95 940 644",
+      "location": "Mahdia, Tunisie",
+      "linkedin": "linkedin.com/in/ali-massoud",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Sonar Qube",
+        "OWASP Dependency Check",
+        "Trivy",
+        "Black Duck",
+        "Terraform",
+        "Ansible",
+        "Bash",
+        "AWS",
+        "Open Stack",
+        "Kubernetes",
+        "Docker",
+        "Git Lab",
+        "Jenkins",
+        "Argo CD",
+        "Prometheus",
+        "Grafana",
+        "Alertmanager",
+        "ELK Stack",
+        "TCP/IP",
+        "DNS",
+        "DHCP",
+        "VPN (Zero Tier)",
+        "VLAN",
+        "RADIUS",
+        "Linux (Ubuntu, Red Hat)",
+        "Windows AD",
+        "Python",
+        "ReactJS",
+        "Angular",
+        "Flask",
+        "Spring Boot",
+        "MySQL",
+        "MongoDB"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Group RIF",
+        "job_title": "Ingenieur Cloud",
+        "start_date": "Juin 2025",
+        "end_date": "Aout 2025",
+        "city": null,
+        "responsibilities": [
+          "Provisionne un cluster Open Stack 3 noeuds (Controller, Compute, Storage) avec Terraform, ramenant le temps de deploiement de plusieurs jours a moins de 2 heures.",
+          "Developpe un script Bash execute a la creation des VM pour configurer le reseau, distribuer les cles SSH et installer l services socles (Maria DB, Rabbit MQ, Memcached), eliminant toute preparation manuelle des noeuds.",
+          "Automatise l'installation et la configuration des services Open Stack via des playbooks Ansible integres dans des pipelines Jenkins, pour des deploiements entierement pilotes par CI/CD.",
+          "Securise la connectivite vers le serveur hote avec le reseau overlay Zero Tier, remplacant des solutions VPN fragiles pa un tunnel chiffre et resilient.",
+          "Concu et deploye une plateforme CI/CD Git Lab de niveau production pour une application web multi-services, hebergee sur un environnement KVM avec un cluster Kubernetes auto-gere (1 master, 2 workers).",
+          "Mis en place une chaine Git Ops complete: Git Lab CI/CD pour l'orchestration, Sonar Qube pour les controles qualite, Triv pour le scan de securite des conteneurs, et Argo CD pour le deploiement Kubernetes - zero etape manuelle en production.",
+          "Implemente un Horizontal Pod Autoscaler (HPA) pour les microservices Spring Boot et un Vertical Pod Autoscaler (VPA) pour les pods base de donnees, permettant d'absorber les pics de trafic sans intervention humaine.",
+          "Configure un cluster de base de donnees haute disponibilite (1 primaire lecture/ecriture + 2 replicas en lecture) avec Persistent Volume Claims et load balancers pour la distribution du trafic."
+        ]
+      },
+      {
+        "company": "Smooth Algo",
+        "job_title": "Ingenieur DevOps - Projet de Fin d'Etudes (PFE)",
+        "start_date": "Mars 2024",
+        "end_date": "Aout 2024",
+        "city": "Sousse, Tunisie",
+        "responsibilities": [
+          "Deploye une stack d'observabilite complete (Prometheus + Grafana + Alertmanager) pour des tableaux de bord temps reel et des alertes proactives."
+        ]
+      },
+      {
+        "company": "Artibedded",
+        "job_title": "Ingenieur Logiciel - Stagiaire",
+        "start_date": "Aout 2023",
+        "end_date": "Septembre 2023",
+        "city": null,
+        "responsibilities": [
+          "Conteneurise une application React/Flask avec Docker et Docker Compose et deploye sur AWS EC 2; integre Git Lab CI/CD, Sonar Qube, OWASP Dependency Check et Trivy pour une chaine de livraison securisee."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ENET'Com, Universite de Sfax",
+        "degree": "Diplome d'Ingenieur en Telecommunications - Specialisation Reseaux & Cloud",
+        "field": null,
+        "year": 2024
+      },
+      {
+        "institution": "ISSAT, Universite de Monastir",
+        "degree": "Diplome de Technicien Superieur en Informatique & Telecommunications",
+        "field": null,
+        "year": 2021
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Francais",
+      "Anglais"
+    ],
+    "certifications": [
+      "AWS Certified Cloud Ops Engineer - Associate"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:34:38.355541+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

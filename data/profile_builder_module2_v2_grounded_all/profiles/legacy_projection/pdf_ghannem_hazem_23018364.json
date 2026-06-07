@@ -1,0 +1,126 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\ghannem_hazem_23018364.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\ghannem_hazem_23018364.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\ghannem_hazem_23018364.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hazem Ghannem",
+      "email": "hazem.ghannem@esprit.tn",
+      "phone": "+216) 27 300 520",
+      "location": "Software Engineer with 3+ years of professional experience specializing in full-stack web and mobile development."
+    },
+    "expertise": {
+      "summary": "Full-Stack Web & Mobile Development, AI, AR/VR, Web 3",
+      "hard_skills": [
+        "Python",
+        "C#",
+        "PHP",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Django",
+        "React Native",
+        "Angular",
+        "Spring Boot",
+        "Laravel",
+        ".NET",
+        "Three.js",
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle DB",
+        "Redis",
+        "Microservices",
+        "Apache Kafka",
+        "Bull MQ",
+        "Worker Systems",
+        "Docker",
+        "CI/CD Pipelines",
+        "Git",
+        "Ethereum",
+        "Smart Contracts",
+        "IPFS",
+        "Immersive AR/VR (Three.js)",
+        "Jest",
+        "Playwright",
+        "Detox",
+        "CCNA: Switching, Routing, Wireless Essentials"
+      ],
+      "soft_skills": [
+        "Building performant, user-centric products",
+        "Continuous expertise advancement across the full development lifecycle",
+        "Leading production systems from real-time ride-hailing platforms to scalable web applications",
+        "Managing full Android production lifecycle - APK generation, testing, and Play Store delivery",
+        "Implementing live geolocation tracking with Web Sockets, role-based access control, and financial logic covering commissions, driver earnings, and revenue reporting"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Full Stack Developer",
+        "company": "Tekmafor · Tunisia (Hybrid)",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisia",
+        "responsibilities": [
+          "Designed and delivered a production-grade Uber-like ride-hailing system comprising a React Native mobile app, React. js admin dashboard, and marketing website serving owners, admins, and drivers.",
+          "Architected the backend in Node. js/Express with Firebase for real-time authentication, geolocation, and cloud functions; integrated One Signal for push notifications across platforms.",
+          "Implemented live geolocation tracking with Web Sockets, role-based access control, and financial logic covering commissions, driver earnings, and revenue reporting.",
+          "Managed full Android production lifecycle - APK generation, testing, and Play Store delivery."
+        ]
+      },
+      {
+        "job_title": "Software Engineer",
+        "company": "Sparkling. co (Remote) · London, United Kingdom",
+        "start_date": null,
+        "end_date": null,
+        "city": "London, United Kingdom",
+        "responsibilities": [
+          "Led frontend development of Ace Point (Next. js + Tailwind CSS) and Glance (real-time data platform), delivering modern, performant UIs with Firebase authentication and real-time sync.",
+          "Built comprehensive test suites with Jest and Playwright (E 2 E); ran Lighthouse audits that measurably improved performance and accessibility scores.",
+          "Implemented CI/CD pipelines and Docker-based workflows; managed APK deployment and shipped realtime chat and push notifications via Firebase Cloud Messaging.",
+          "Developed Glance's Django/MongoDB backend and led the team using Scrum methodology."
+        ]
+      },
+      {
+        "job_title": "Software Engineer - Freelance",
+        "company": "E-commerce Platform (Watch Sales) · Remote",
+        "start_date": null,
+        "end_date": null,
+        "city": "Remote",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Decentralized Education Platform · Remote",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Tekmafor · Tunisia (Hybrid)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:11:07.803907+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8255,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

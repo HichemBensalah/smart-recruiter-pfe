@@ -1,0 +1,115 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Chaibi_bochra_23014085.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Chaibi_bochra_23014085.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Chaibi_bochra_23014085.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Chaibi Bochra",
+      "email": "bochrachaibi3@gmail.com",
+      "phone": null,
+      "location": "Ariana"
+    },
+    "expertise": {
+      "summary": "D´eveloppeuse web & mobile passionn´ee, sp´ecialis´ee en Flutter, PHP et React, avec plus d’un an d’exp´erience sur des projets r´eels.",
+      "hard_skills": [
+        "Flutter",
+        "PHP",
+        "React",
+        "HTML 5",
+        "CSS 3",
+        "JavaScript",
+        "Laravel",
+        "Python",
+        "Dart",
+        "Firebase",
+        "Java",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Travail en ´equipe",
+        "Autonomie",
+        "Communication efficace",
+        "Adaptabilit´e"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire Testeur Logiciel",
+        "company": "Millesima",
+        "start_date": "D´ec 2025",
+        "end_date": "F´ev 2026",
+        "city": null,
+        "responsibilities": [
+          "R´ealisation de tests fonctionnels et tests de r´egression",
+          "R´edaction de cas de tests et documentation des anomalies",
+          "Suivi et gestion des bugs via Jira",
+          "Collaboration avec les d´eveloppeurs pour assurer la correction des anomalies",
+          "Participation aux phases de validation avant mise en production"
+        ]
+      },
+      {
+        "job_title": "Formatrice Python",
+        "company": "Formakt",
+        "start_date": "D´ec 2023",
+        "end_date": "2025",
+        "city": null,
+        "responsibilities": [
+          "Enseignement du langage Python aux d´ebutants et professionnels",
+          "Cr´eation de supports p´edagogiques",
+          "Encadrement et accompagnement des apprenants"
+        ]
+      },
+      {
+        "job_title": "D´eveloppeuse Mobile",
+        "company": "Mutuelle Assurance de l’Enseignement",
+        "start_date": "Juil 2020",
+        "end_date": "Juil 2021",
+        "city": null,
+        "responsibilities": [
+          "Conception UML et d´eveloppement d’une application mobile de recouvrement",
+          "Frontend Flutter (interfaces anim´ees via Figma)",
+          "Backend Firebase (NoSQL)"
+        ]
+      },
+      {
+        "job_title": "Stagiaire D´eveloppement Web",
+        "company": "Wow Soft",
+        "start_date": "Juil 2022",
+        "end_date": "Aoˆut 2022",
+        "city": null,
+        "responsibilities": [
+          "D´eveloppement d’une application web “Story Nory”",
+          "HTML, CSS, JavaScript, PHP",
+          "Base de donn´ees MySQL"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Science Informatique",
+        "school": "Institut Sup´erieur des Arts Multim´edia de la Manouba",
+        "year": null
+      },
+      {
+        "degree": "Baccalaur´eat Science Informatique",
+        "school": "Lyc´ee Mahmoud Messadi — Ariana",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T15:11:00.935481+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9614,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

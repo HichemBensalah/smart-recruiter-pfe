@@ -1,0 +1,191 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\omaima_khlifi_23031446.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\omaima_khlifi_23031446.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8086,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nOumaima Khlifi\nDéveloppeuse full stack\nkhlifioumaima 1409@gmail.com | (+216) 95 358 044 | Tunisie | linkedin.com/in/oumaima-khlifi-7 b 03 a 6224\n\n## ACADEMIC PROJECTS\n\nFraîchement diplômée ingénieure informatique, je suis activement à la recherche de mon premier poste en développement full stack. Habituée à livrer des projets complets en conditions réelles - backend Django, frontend Angular, CI/CD - je place la qualité du code au cœur de mon travail. Enthousiaste et déterminée, je suis prête à m'engager dans un environnement technique stimulant.\nDéveloppé plus de 30 endpoints REST avec Django, éliminant les failles d'accès inter-tenants et garantissant des échanges backend fiables et sécurisés.\nConçu une plateforme CI/CD complète automatisant les processus de build, test et déploiement, réduisant le temps de mise en production de +1 h à quelques minutes.\nDéveloppé des API REST avec Spring Boot orchestrant les workflows CI/CD, supportant les déclenchements manuels et automatiques via intégration GitHub à chaque commit.\nLivré un dashboard Angular temps réel permettant aux clients de suivre en direct le statut de leurs pipelines (projets actifs, pipelines réussis/échoués).\nGaranti la fiabilité de la plateforme avec une couverture de tests de 95% sur les modules développés (JUnit, Mockito), assurant un système stable en production.\n- PROJETS\n## Hospitalia, Architecture Microservices (Java 17/Spring Boot 3)\n**Date: ** 11/2024 - 12/2024\nConçu et déployé 2 microservices indépendants (patients + médecins/rendez-vous) avec Java 17 et Spring Boot 3, avec un pipeline Jenkins fonctionnel en moins de 15 minutes de build à déploiement.\nImplémenté Eureka Service Discovery pour un enregistrement dynamique des services, rendant l'architecture extensible sans reconfiguration manuelle.\n## Cour Zelo, Plateforme e-learning (LMS)\n**Date: ** 01/2024 - 03/2024\n\n## COMPÉTENCES TECHNIQUES\n\nBackend: Django, REST APIs, FastAPI (en cours), Spring Boot, Spring Security, JPA/Hibernate.\nTests: JUnit, Mockito, couverture 95%.\nFrontend: Angular, TypeScript, JavaScript, HTML 5/CSS 3 (Sass).\nIA & LLM: Lang Chain, Qwen 2. 5-VL, intégration de modèles de langage.\n\n## TECHNICAL SKILLS\n\nDevOps & CI/CD: Docker, Jenkins, Sonar Qube, pipelines CI/CD complets.\nOutils: Git, GitHub, Postman, Agile/Scrum.\nBases de données:\nPostgreSQL, MySQL, MongoDB.\nCentralisé le trafic inter-services via Spring Cloud Gateway, éliminant les appels directs entre microservices et renforçant la sécurité de l'architecture.\nConteneurisé l'ensemble de la solution avec Docker, garantissant un environnement de déploiement reproductible et portable.\nImplémenté les APIs REST de gestion des cours et du contenu, permettant la création, modification et consultation des ressources pédagogiques de manière fluide et structurée.\nContribué à la conception du modèle de données sous-jacent, garantissant une séparation claire des responsabilités entre les modules backend.\nAnglais Intermédiaire\n\n## EDUCATION\n\n## ARGVISION, Ingénieure Logiciel - Projet de Fin d'Études\n**Date: ** 04/2025 - 10/2025\nConçu une plateforme multi-tenant de gestion commerciale (stock, RH, finance) supportant jusqu'à 5 entreprises simultanées avec isolation complète et sécurisée des données par tenant.\n## IPACT Consult, Stagiaire - Plateforme CI/CD inspirée de Jenkins/GitHub Actions\n**Date: ** 06/2024 - 08/2024\n- FORMATION\n## École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT),\n**Date: ** 2022 - 2025\n- Diplôme d'Ingénieur informatique\n## Institut Supérieur d'Informatique de Mahdia,\n**Date: ** 2019 - 2022\n- Licence en Génie des Systèmes Informatiques\n\n## PROFESSIONAL SUMMARY\n\nIntégré un module intelligent de matching de profils basé sur Qwen 2. 5-VL+ Lang Chain, réduisant le temps de matching de 60 % sur un corpus de 90+ CVs testés.\nLivré un frontend Angular couvrant ~30 pages/modules, entièrement connecté aux services backend avec un chargement des données fluide et réactif.\nDéveloppé le module d'authentification et de gestion des utilisateurs avec Spring Security au sein d'une équipe de 5, assurant un contrôle d'accès sécurisé entre les différents profils de la plateforme.\n\n## LANGUAGES\n\nArabe\nFrançais Bon niveau\nLangue maternelle",
+    "header_info": {
+      "full_name": "Oumaima Khlifi",
+      "email": "1409@gmail.com",
+      "phone": "+216) 95 358 044",
+      "location": "Fraîchement diplômée ingénieure informatique, je suis activement à la recherche de mon premier poste en développement full stack. Habituée à livrer des projets complets en conditions réelles - backend Django, frontend Angular, CI/CD - je place la qualité du code au cœur de mon travail. Enthousiaste et déterminée, je suis prête à m'engager dans un environnement technique stimulant.",
+      "linkedin": "linkedin.com/in/oumaima-khlifi-7",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.5031,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Oumaima Khlifi",
+      "email": "1409@gmail.com",
+      "phone": "+216) 95 358 044",
+      "location": "Tunisie",
+      "linkedin": "linkedin.com/in/oumaima-khlifi-7",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 7,
+      "hard_skills": [
+        "Django",
+        "REST APIs",
+        "FastAPI",
+        "Spring Boot",
+        "Spring Security",
+        "JPA/Hibernate",
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "HTML 5/CSS 3 (Sass)",
+        "Lang Chain",
+        "Qwen 2. 5-VL"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Développé plus de 30 endpoints REST avec Django",
+          "Conçu une plateforme CI/CD complète automatisant les processus de build, test et déploiement",
+          "Développé des API REST avec Spring Boot orchestrant les workflows CI/CD",
+          "Livré un dashboard Angular temps réel permettant aux clients de suivre en direct le statut de leurs pipelines"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conçu et déployé 2 microservices indépendants avec Java 17 et Spring Boot 3"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Implémenté Eureka Service Discovery pour un enregistrement dynamique des services"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ARGVISION",
+        "degree": "Ingénieure Logiciel - Projet de Fin d'Études",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "IPACT Consult",
+        "degree": "Stagiaire - Plateforme CI/CD inspirée de Jenkins/GitHub Actions",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:54:39.060991+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

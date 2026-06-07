@@ -1,0 +1,135 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mahria_hammadi_23015499.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mahria_hammadi_23015499.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\mahria_hammadi_23015499.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hammadi Mahria",
+      "email": "mahriahammadii@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Développeur Web Full Stack avec 3 ans d'expérience, autonome, rigoureux et passionné par les technologies web.",
+      "hard_skills": [
+        "C++",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "HTML 5",
+        "Bootstrap",
+        "Symfony",
+        "Spring Boot",
+        "Angular",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "Git Lab",
+        "Maven",
+        "Intelli J IDEA",
+        "Jira",
+        "Postman"
+      ],
+      "soft_skills": [
+        "collaboration",
+        "efficacité",
+        "Agile (Scrum)",
+        "UML"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Web Full Stack",
+        "company": "Technopole Ghazela - Agora",
+        "start_date": "Octobre 2024",
+        "end_date": "Mars 2026",
+        "city": "Tunis - Ariana",
+        "responsibilities": [
+          "Développement d'applications web en Full Stack.",
+          "Maintenance de sites e-commerce sous Prestashop.",
+          "Optimisation du référencement SEO.",
+          "Intégration continue et mise à jour des modules existants."
+        ]
+      },
+      {
+        "job_title": "Développeur Web Full Stack",
+        "company": "Center Urbain Nord - BRI-TECH",
+        "start_date": "Mars 2022",
+        "end_date": "Janvier 2024",
+        "city": "",
+        "responsibilities": [
+          "Développement d'applications Front-End et Back- End.",
+          "Rédaction et intégration d'API REST performantes.",
+          "Gestion de bases de données relationnelles.",
+          "Tests, débogage et validation des fonctionnalités."
+        ]
+      },
+      {
+        "job_title": "Stagiaire",
+        "company": "N 3 RD",
+        "start_date": "Janvier 2020",
+        "end_date": "juillet 2020",
+        "city": "",
+        "responsibilities": [
+          "Développement d'un projet Blockchain pour la gestion des opérations liées aux véhicules."
+        ]
+      },
+      {
+        "job_title": "Stagiaire",
+        "company": "Leadership Consulting",
+        "start_date": "Janvier 2018",
+        "end_date": "juillet 2018",
+        "city": "",
+        "responsibilities": [
+          "Réalisation d'une application de gestion de parc automobile et de stockage avec Spring Boot et React."
+        ]
+      },
+      {
+        "job_title": "Stagiaire",
+        "company": "NG-multimédia",
+        "start_date": "Juin 2017-juillet 2017",
+        "end_date": "",
+        "city": "",
+        "responsibilities": [
+          "Création d'un site web (boutique en ligne) avec Word Press."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Formation en Génie logiciel",
+        "school": "Center Elife- Esprit",
+        "year": "2020 - 2021"
+      },
+      {
+        "degree": "Service de sécurité et réseau",
+        "school": "ISSAT MATEUR",
+        "year": "2018-2020"
+      },
+      {
+        "degree": "Système d'informatique et logiciel",
+        "school": "ISSAT MATEUR",
+        "year": "2015-2018"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:12:10.521078+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8026,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

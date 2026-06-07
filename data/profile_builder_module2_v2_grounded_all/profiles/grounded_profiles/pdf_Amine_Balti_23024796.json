@@ -1,0 +1,230 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Amine_Balti_23024796.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Amine_Balti_23024796.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7766,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMohamed Amine Balti Ingénieur logiciel\n+216 54 213 637 baltimohamedamine 6@gmail.com Tunis, Tunisie Anglais · Français · Arabe+21\nAnalyste de Données (Stage) -HLI | Tunis\nExtraction et traitement de données depuis des bases relationnelles\nCréation de rapports et tableaux de bord Power BI\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieur logiciel polyvalent avec une expérience en développement full stack, consultation ERP et analyse de données. Maîtrise de technologies modernes (React, Angular, Node. js, Symfony, Spring Boot) et de systèmes ERP (Microsoft Dynamics NAV). Orienté résultats, capable de mener des projets de bout en bout dans des environnements Agile/Scrum.\n## Java, Python, JavaScript, TypeScript, PHP, ABAP\n## Angular, React, Symfony, Node. js, Spring Boot, Express. js\n## Microsoft Dynamics NAV (Navision 2015), Power BI\n## MySQL, MongoDB, SQL Server\n## Docker, Kubernetes, Git, Linux, Visual Studio Code, Intelli J\n**Date: ** 01/2025 - 06/2025\n- Conception et implémentation des fonctionnalités de stockage des données d'expériences et tests chimiques\n- Développement de modules d'enregistrement des dosages avec traçabilité précise\n- Mise en place d'un système automatisé de statistiques avancées pour le contrôle qualité\nAnalyse des besoins clients et développement de formulaires, rapports et unités de code dans Microsoft Dynamics NAV\n**Date: ** | Tunis 10/2023 - 11/2024\n- Adaptation des fonctionnalités ERP aux processus spécifiques des laboratoires\n## Assistance technique aux utilisateurs, gestion des comptes et contrôle des accès\n## STB | Tunis\n**Date: ** 01/2022 - 06/2022\n\n## COMPÉTENCES TECHNIQUES\n\nLangages\n\n## TECHNICAL SKILLS\n\nFrameworks\nDevOps & Outils\nMéthodologies\n\n## ERP & BI\n\nBases de données\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nAgile/Scrum, Computer Vision, Web Scraping\nFrançais (courant), Anglais (courant), Arabe (courant)\nDéveloppement de composants frontend réactifs avec React et Tailwind CSS\nCréation et intégration d'API RESTful avec Express. js pour la gestion dynamique des données\nConception de l'architecture backend avec MySQL, administration via PHPMy Admin\nIntégration de fonctionnalités avancées: diffusion en direct, badges communautaires, billetterie et abonnements\n\n## LANGUAGES\n\nLangues\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nDéveloppeur Web Full Stack (Stage) -Millesima Technologies | Tunis\nConsultant ERP - Microsoft Dynamics NAV -Sepcm Group\nProjet: Application de Gestion de Laboratoire (Symfony)\nCréation d'une interface intuitive et sécurisée pour chercheurs et techniciens\nDéveloppement ERP (Navision 2015)\nSupport Informatique\nAdministration des sauvegardes et diagnostic matériel/logiciel\nAnalyste de Données (Stage) -\nExtraction et agrégation de données web via des outils de scraping Python\n\n## EDUCATION\n\n## Nettoyage, traitement et transformation des données pour le reporting\n- Conception de tableaux de bord interactifs Power BI pour la prise de décision\n- FORMATION\nDiplôme d'Ingénieur en Génie Logiciel -TEKUP - École Supérieure Privée | Tunis 2022 - 2025\nLicence en Informatique de Gestion - FSJEGJ - Faculte de science juridique economique et gestion jendouba | Jendouba 2019 - 2022\n\n## PROJETS ACADÉMIQUES\n\nApplication Web de Gestion Clinique - Symfony\nGestion des rendez-vous, planification des salles et suivi en temps réel des ambulances\nDossier médical électronique centralisé, gestion des stocks de médicaments\nRéseau Social pour Développeurs - Angular & Spring Boot\n\n## PROFESSIONAL SUMMARY\n\nPartage de contenus techniques, profils spécialisés (Frontend, Backend, DevOps, IA)\nMoteur de recherche avancé, messagerie intégrée et notifications\nPlateforme de Gestion d'Événements - Angular & Node. js\nContrôle d'accès par rôles, réservation de billets avec paiement sécurisé (Pay Pal, Stripe)\nTableaux de bord en temps réel pour organisateurs, notifications email/SMS",
+    "header_info": {
+      "full_name": "Mohamed Amine Balti Ingénieur logiciel",
+      "email": "6@gmail.com",
+      "phone": "+216 54 213 637",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9553,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[4].company",
+      "experiences[4].job_title",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mohamed Amine Balti Ingénieur logiciel",
+      "email": "6@gmail.com",
+      "phone": "+216 54 213 637",
+      "location": "Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "React",
+        "Angular",
+        "Node.js",
+        "Symfony",
+        "Spring Boot",
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "ABAP",
+        "Microsoft Dynamics NAV",
+        "Power BI",
+        "MySQL",
+        "MongoDB",
+        "SQL Server",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "Linux",
+        "Visual Studio Code",
+        "IntelliJ"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Ingénieur logiciel",
+        "start_date": "01/2025",
+        "end_date": "06/2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et implémentation des fonctionnalités de stockage des données d'expériences et tests chimiques",
+          "Développement de modules d'enregistrement des dosages avec traçabilité précise",
+          "Mise en place d'un système automatisé de statistiques avancées pour le contrôle qualité"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "10/2023",
+        "end_date": "11/2024",
+        "city": "Tunis",
+        "responsibilities": [
+          "Adaptation des fonctionnalités ERP aux processus spécifiques des laboratoires",
+          "Assistance technique aux utilisateurs, gestion des comptes et contrôle des accès"
+        ]
+      },
+      {
+        "company": "STB",
+        "job_title": null,
+        "start_date": "01/2022",
+        "end_date": "06/2022",
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "company": "Millesima Technologies",
+        "job_title": "Développeur Web Full Stack (Stage)",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "company": "Sepcm Group",
+        "job_title": "Consultant ERP - Microsoft Dynamics NAV",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "TEKUP - École Supérieure Privée",
+        "degree": "Diplôme d'Ingénieur en Génie Logiciel",
+        "field": null,
+        "year": "2022-2025"
+      },
+      {
+        "institution": "FSJEGJ - Faculte de science juridique economique et gestion jendouba",
+        "degree": "Licence en Informatique de Gestion",
+        "field": null,
+        "year": "2019-2022"
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:37:19.583197+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

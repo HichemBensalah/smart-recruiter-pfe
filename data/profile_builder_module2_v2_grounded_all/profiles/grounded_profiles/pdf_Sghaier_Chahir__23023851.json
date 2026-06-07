@@ -1,0 +1,177 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Sghaier_Chahir__23023851.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Sghaier_Chahir__23023851.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7848,
+  "normalization": {
+    "cleaned_markdown": "## SGHAIER CHAHIR\n\nING É N I E U R E N I N F O R M A T I Q U E BACKEND & REAL-TIME SYSTEMS\nCONTACT\n+216 98125409 chahir.sghaier@esprit.tn Tunis, 1003, Tunisie.\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nIngénieur logiciel spécialisé dans le développement backend et les systèmes temps réel.\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience dans la conception d'architectures scalables, communication en temps réel (Web RTC, Web Sockets) et applications multi-utilisateurs.\nCapable de concevoir et développer des solutions performantes, fiables et orientées métier.\n**Date: ** 2025- Aujourd'hui\n\n## EDUCATION\n\nFORMATION\n\n## INGÉNIEUR LOGICIEL\n\nESPRIT\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nIngénieur logiciel - Telcotec\nDéveloppement de solutions temps réel (Web RTC, Socket. io)\nMise en place d'un système de tracking GPS en direct\nConception d'architectures scalables (MERN + Flutter)\nGestion de communication instantanée entre utilisateurs\nSynchronisation des données en temps réel dans des environnements multi-utilisateurs\nGestion d'événements critiques (alertes, notifications temps réel)\nConseiller en vente - Produits informatiques et mobiles -Fourni Tout\nConseil et accompagnement des clients dans le choix de solutions informatiques (PC, smartphones, accessoires)\nDiagnostic de besoins et proposition de solutions adaptées\nInstallation et configuration de base des équipements\nGestion des ventes et suivi client\nContribution à l'organisation et à la gestion du point de vente\nGestion d'Activité - Entreprise Familiale (Forge)\nSuivi des commandes et organisation du travail\nGestion des approvisionnements\nRelation clients et fournisseurs\nOptimisation des processus internes\n\n## BACCALAURÉAT EN MATHÉMATIQUES\n\nLycée Monji Slim, Siliana\n\n## TECH STACK\n\nBackend: Java (Spring Boot), Node. js (Express)\nReal-Time: Web RTC, Web Sockets (Socket. io)\nFrontend/Mobile: React, Angular, Flutter\nBases de données: MongoDB, MySQL\nArchitecture: Microservices, REST APIs\n\n## TECHNICAL SKILLS\n\nDevOps: Docker, Git, CI/CD (bases)\nSystèmes: Linux, Windows\nCOMPÉTENCES\n\n## COMPÉTENCES CLÉS:\n\nDéveloppement Backend & APIs REST\nSystèmes temps réel & communication distribuée\nArchitecture microservices\nAnalyse technique & résolution de problèmes\nTravail en équipe & méthodologie Agile (Scrum)\n\n## PROJETS CLÉS:\n\nSystème de tracking temps réel (Web RTC + Socket. io)\nApplication multi-utilisateurs avec synchronisation live\nSolutions backend scalables avec Node. js et Flutter\n\n## LANGUAGES\n\nLANGUES\nFrançais: Bon niveau\nAnglais: Technique",
+    "header_info": {
+      "full_name": "SGHAIER CHAHIR",
+      "email": "chahir.sghaier@esprit.tn",
+      "phone": "+216 98125409",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.957,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[10]",
+      "experiences[0].responsibilities[11]",
+      "experiences[0].responsibilities[12]",
+      "experiences[0].responsibilities[13]",
+      "experiences[0].responsibilities[14]",
+      "experiences[0].responsibilities[15]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].responsibilities[7]",
+      "experiences[0].responsibilities[8]",
+      "experiences[0].responsibilities[9]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "SGHAIER CHAHIR",
+      "email": "chahir.sghaier@esprit.tn",
+      "phone": "+216 98125409",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieur logiciel spécialisé dans le développement backend et les systèmes temps réel.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java (Spring Boot)",
+        "Node.js (Express)",
+        "Web RTC",
+        "Web Sockets (Socket.io)",
+        "React",
+        "Angular",
+        "Flutter",
+        "MongoDB",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Analyse technique & résolution de problèmes",
+        "Travail en équipe & méthodologie Agile (Scrum)"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Telcotec",
+        "job_title": "Ingénieur logiciel",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement de solutions temps réel (Web RTC, Socket.io)",
+          "Mise en place d'un système de tracking GPS en direct",
+          "Conception d'architectures scalables (MERN + Flutter)",
+          "Gestion de communication instantanée entre utilisateurs",
+          "Synchronisation des données en temps réel dans des environnements multi-utilisateurs",
+          "Gestion d'événements critiques (alertes, notifications temps réel)",
+          "Conseil et accompagnement des clients dans le choix de solutions informatiques",
+          "Diagnostic de besoins et proposition de solutions adaptées",
+          "Installation et configuration de base des équipements",
+          "Gestion des ventes et suivi client",
+          "Contribution à l'organisation et à la gestion du point de vente",
+          "Gestion d'Activité - Entreprise Familiale (Forge)",
+          "Suivi des commandes et organisation du travail",
+          "Gestion des approvisionnements",
+          "Relation clients et fournisseurs",
+          "Optimisation des processus internes"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT",
+        "degree": "Ingénieur logiciel",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Monji Slim, Siliana",
+        "degree": "Baccalauréat en mathématiques",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français: Bon niveau",
+      "Anglais: Technique"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:40:21.944046+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Wissem_Kadri_23020264.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Wissem_Kadri_23020264.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Wissem_Kadri_23020264.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Wissem Kadri",
+      "email": "wissem.kadri@proton.me",
+      "phone": "+216 55 052 204",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "AWS (EKS, ECR, ALB, RDS, S 3, VPC, IAM)",
+        "GitHub Actions",
+        "Argo CD",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Trivy",
+        "Sealed Secrets",
+        "Helm",
+        "Cloudflare"
+      ],
+      "soft_skills": [
+        "CI/CD and infrastructure automation",
+        "Deployment reliability and scalability",
+        "Container image scanning and secrets detection",
+        "Observability and incident detection",
+        "Identity-based access controls"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "DevOps Engineer",
+        "company": "United VITO",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Migrated production workloads from bare-metal to AWS Kubernetes",
+          "Designed and implemented Git Ops CI/CD pipelines with GitHub Actions and Argo CD",
+          "Automated cloud infrastructure provisioning and lifecycle management using Terraform",
+          "Integrated Trivy container image scanning into CI/CD pipelines",
+          "Configured and operated Kubernetes clusters"
+        ]
+      },
+      {
+        "job_title": "Dev Sec Ops Engineer Intern",
+        "company": "Hendrik Thurau Enterprises",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Built an end-to-end Dev Sec Ops pipeline enabling consistent, repeatable releases",
+          "Maintained a lightweight Kubernetes environment",
+          "Integrated security scanning across the CI pipeline",
+          "Automated artifact management and traceability",
+          "Implemented a Git Ops deployment workflow"
+        ]
+      },
+      {
+        "job_title": "Web Server Administrator",
+        "company": "United VITO",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Managed and maintained a multi-tenant web hosting environment",
+          "Deployed and operated 30+ production web applications"
+        ]
+      },
+      {
+        "job_title": "Full Stack Developer Intern",
+        "company": "Hendrik Thurau Enterprises",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed a Marketplace module enabling users to create and manage listings",
+          "Implemented real-time auction and bidding features using Socket. IO"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:01:00.009544+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.5215,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

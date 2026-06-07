@@ -1,0 +1,152 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ezzedine_Sourour_23015675.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ezzedine_Sourour_23015675.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8945,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSourour Ezzeddine\nsourourezzeddine@gmail.com | Linked In. com/sourour-ezzeddine | GitHub. com/sourourezzeddine | +216 21576976\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nEmbedded Systems Engineer\nHOUTALIK\nfull time\nCreated 7+ voice-recording embedded systems that enable vendors to upload orders effortlessly to the app.\nBuilt 2 fully autonomous camera benches using custom ML models to detect fish type and position, triggering precise stepper/servo movements of the camera to capture and auto-upload it to the app- enabling real-time inventory visibility for users and validated system integrity through continuous functional testing.\n**Date: ** Apr 2025 - Aug 2025\n- Designed and executed unit and integration tests for both Python (pytest) and C++ (g Test) modules.\n- Created comprehensive documentation using Doxygen, improving code traceability and system onboarding.\n- Built a real-time a monitoring dashboard to display vehicle's attributes (type, brand, plate, color, nationality)\n- Developed 2+ Qt/C++ and Py Qt interfaces to visualize and interact with TI mm Wave radar data in real time.\n\n## TECHNICAL SKILLS\n\nPioneered a remote update pipelines for embedded systems, enabling seamless OTA deployments.\nCrafted a diagnostics system for log access and board health monitoring remotely.\nReviewed codebase for maintainability, edge-case coverage, and integration reliability.\nEmbedded Systems Engineering Intern\nSofiatech\nEnd-of-studies internship\nDeployed an end-to-end pipeline for vehicle detection/classification using 3 custom trained ML models.\nIntegrated the solution into a Yocto-based Linux OS customized for the NVIDIA Jetson Nano board.\nR & D Engineering Intern\nActia ES\nSummer internship\nImproved and extended existing Py Qt UIs for gesture recognition and driver health monitoring systems.\nR & D Engineering Intern\nESPITA\nSummer internship\n\n## EDUCATION\n\n· Contributed to Tunisia's first educational satellite project as part of the\nOn-Board Computer (OBC)\nteam.\nPrototyped and tested expected functionalities using STM 32 microcontrollers.\n## Tradrly | apprenticeship - data scientist\n**Date: ** Jun 2022 - Jul 2022\nCompared speech-to-text models for Arabic transcription( Wav 2 Vec 2. 0, whisper and other solutions).\nImplemented a multi-threaded pipeline for Whisper, achieving near real-time performance (average latency ~3 s).\nIntegrated a Quran-aware Surah/Ayah detection module, aligning transcription output to the verse/surah context.\n\n## ACADEMIC PROJECTS\n\n## Lumierehub | Freelance project - web development\n**Date: ** Sep 2024 - Dec 2024\n- Deployed a dev environment to safely test new features and UI improvements before pushing to production.\n## Refactored the navigation and UI structure, implementing a cleaner layout.\n- Wrote technical documentation for client-side and server-side features for long-term maintainability.\n- Integrated middleware logic to enforce plan selection at login - ensuring users are directed to the appropriate payment path before accessing app features.\n\n## LANGUAGES\n\nEnglish\nFrench - Delf B 2 certificate\nExcellent Proficient Native\nArabic\nActivities\nData & content creation manager | sales team member Active member | trainer\nAIESEC Robotics club INGENIM",
+    "header_info": {
+      "full_name": "Sourour Ezzeddine",
+      "email": "sourourezzeddine@gmail.com",
+      "phone": "+216 21576976",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.4204,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Sourour Ezzeddine",
+      "email": "sourourezzeddine@gmail.com",
+      "phone": "+216 21576976",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Embedded Systems Engineering",
+        "Python (pytest)",
+        "C++ (g Test)",
+        "Qt/C++",
+        "Py Qt",
+        "TI mm Wave radar data analysis"
+      ],
+      "soft_skills": [
+        "Documentation",
+        "Testing"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "HOUTALIK",
+        "job_title": "Embedded Systems Engineer",
+        "start_date": "Apr 2025",
+        "end_date": "Aug 2025",
+        "city": null,
+        "responsibilities": [
+          "Created 7+ voice-recording embedded systems that enable vendors to upload orders effortlessly to the app.",
+          "Built 2 fully autonomous camera benches using custom ML models to detect fish type and position, triggering precise stepper/servo movements of the camera to capture and auto-upload it to the app- enabling real-time inventory visibility for users and validated system integrity through continuous functional testing."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Tradrly",
+        "degree": "apprenticeship - data scientist",
+        "field": null,
+        "year": "Jun 2022 - Jul 2022"
+      }
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Arabic"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:56:52.529874+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

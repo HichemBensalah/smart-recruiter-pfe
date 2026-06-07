@@ -1,0 +1,196 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Fakhfakh_Ahmed_23022150.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Fakhfakh_Ahmed_23022150.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7712,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAhmed Fakhfakh\n\n## TECHNICAL SKILLS\n\nIngénieur DevOps | Certified Kubernetes Administrator (CKA)\n+216 28820474 · fakhfakh.ahmeed@gmail.com · linkedin.com/in/ahmed-fakhfakh · github.com/fakhfakhahmed · portfolio-af-eight. vercel. app\nDevOps & CI/CD\nKubernetes (AKS), Helm, Docker, GitHub Actions, Jenkins, Git Lab CI, Terraform, Ansible, Linux/Bash\nAKS, ACR, Azure AD, VM, Blob Storage, VNet, RBAC\nCloud Azure\nObservabilité\nNode. js, Express, React, TypeScript, Spring Boot, Flutter\nDéveloppement\nPostgreSQL, MySQL, MongoDB\nBases de données\nAgile/Scrum, Git Flow, Microservices, API REST\nMéthodes\nIngénieur DevOps - Freelance\nClient Saa S - Remote\nAu sein d'une équipe de 6 personnes, participation à la gestion et à l'évolution d'une infrastructure Kubernetes (AKS).\nAdministration avancée: namespaces, RBAC, Azure AD, Ingress NGINX, TLS.\nDéploiement via Helm Charts avec gestion multi-environnements.\nScalabilité et haute disponibilité: HPA, resource limits, probes, rolling updates, PDB.\nGestion Config Maps, Secrets et Azure Key Vault.\nCI/CD avec GitHub Actions et Git Lab CI: build, test, Docker, push ACR, déploiement AKS.\nScan sécurité (Trivy), versioning, rollback et automatisation du cycle de vie.\nMonitoring avec Prometheus, Grafana et alerting.\nTroubleshooting production (Crash Loop Back Off, Err Image Pull, DNS, réseau).\nStack: Kubernetes, Helm, Docker, Azure, GitHub Actions, Git Lab CI, Terraform, Prometheus, Grafana\nDéveloppeur Full-Stack - Freelance\n\n## ACADEMIC PROJECTS\n\nProjets multiples - Local/Remote\n## Projet e-commerce (France - TI Influence Delivery) | 01/2025 - 12/2025\n**Date: ** 12/2025 - Présent\n**Location: ** Prometheus, Grafana, ELK Stack, Power BI\n- Travail au sein d'une équipe de 3 personnes pour une plateforme destinée aux influenceurs.\n- Création de boutiques en ligne avec gestion des produits et ventes.\nDéveloppement d'un dashboard admin et influenceurs (produits, commandes, utilisateurs).\n- Intégration Stripe (paiement + webhooks) et implémentation d'un chat temps réel avec Socket. io.\nIntégration de fonctionnalités IA pour génération automatique des fiches produits (nom, description, prix).\n## · Projets PME | 10/2023 - 12/2024\n- Collaboration avec un partenaire pour la prospection client et la réalisation de solutions web sur mesure.\n- Développement de sites web et applications selon les besoins métiers des clients.\nConception d'APIs REST sécurisées, gestion des bases de données et déploiement avec Docker.\nStack: React, Node. js, PostgreSQL, MongoDB, MySQL, Docker, Stripe API, Socket. io\n**Date: ** 02/2023 - 08/2023\n\n## EDUCATION\n\nDéveloppeur Full-Stack - Projet de fin d'études (PFE)\nTAC-TIC - Tunis\nDéveloppement d'une plateforme de recyclage intelligente en Tunisie.\nSystème de points pour encourager le recyclage (échange contre produits ou argent).\nPlateforme web et application mobile pour livreurs (gestion collectes), architecture microservices avec CI/CD.\n## Stack: Spring Boot, React, Flutter, Rabbit MQ, Docker, Jenkins\n\n## LANGUAGES\n\nLANGUES\nArabe (natif) | Français (courant) | Anglais (courant)",
+    "header_info": {
+      "full_name": "Ahmed Fakhfakh",
+      "email": "fakhfakh.ahmeed@gmail.com",
+      "phone": "+216 28820474",
+      "location": "Kubernetes (AKS), Helm, Docker, GitHub Actions, Jenkins, Git Lab CI, Terraform, Ansible, Linux/Bash",
+      "linkedin": "linkedin.com/in/ahmed-fakhfakh",
+      "github": "github.com/fakhfakhahmed"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9542,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].responsibilities[7]",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ahmed Fakhfakh",
+      "email": "fakhfakh.ahmeed@gmail.com",
+      "phone": "+216 28820474",
+      "location": "",
+      "linkedin": "linkedin.com/in/ahmed-fakhfakh",
+      "github": "github.com/fakhfakhahmed"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 3,
+      "hard_skills": [
+        "Kubernetes (AKS)",
+        "Helm",
+        "Docker",
+        "GitHub Actions",
+        "Jenkins",
+        "Git Lab CI",
+        "Terraform",
+        "Ansible",
+        "Linux/Bash",
+        "Node.js",
+        "Express",
+        "React",
+        "TypeScript",
+        "Spring Boot",
+        "Flutter",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
+      ],
+      "soft_skills": [
+        "Agile/Scrum",
+        "Git Flow",
+        "Microservices",
+        "API REST",
+        "Ingénieur DevOps"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Ingénieur DevOps - Freelance",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Administration avancée: namespaces, RBAC, Azure AD, Ingress NGINX, TLS.",
+          "Déploiement via Helm Charts avec gestion multi-environnements.",
+          "Scalabilité et haute disponibilité: HPA, resource limits, probes, rolling updates, PDB.",
+          "Gestion Config Maps, Secrets et Azure Key Vault.",
+          "CI/CD avec GitHub Actions et Git Lab CI: build, test, Docker, push ACR, déploiement AKS.",
+          "Scan sécurité (Trivy), versioning, rollback et automatisation du cycle de vie.",
+          "Monitoring avec Prometheus, Grafana et alerting.",
+          "Troubleshooting production (Crash Loop Back Off, Err Image Pull, DNS, réseau)."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeur Full-Stack - Freelance",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception d'APIs REST sécurisées, gestion des bases de données et déploiement avec Docker."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "TAC-TIC - Tunis",
+        "degree": "Développeur Full-Stack - Projet de fin d'études (PFE)",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe (natif)",
+      "Français (courant)",
+      "Anglais (courant)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:59:20.521130+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

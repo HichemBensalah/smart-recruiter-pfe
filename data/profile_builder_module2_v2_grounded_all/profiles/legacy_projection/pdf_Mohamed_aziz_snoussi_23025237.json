@@ -1,0 +1,88 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_aziz_snoussi_23025237.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_aziz_snoussi_23025237.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_aziz_snoussi_23025237.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MOHAMEDAZIZ SNOUSSI",
+      "email": "99@gmail.com",
+      "phone": "+216 90 016 339",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "MySQL",
+        "Docker",
+        "Jenkins",
+        "Grafana",
+        "Prometheus"
+      ],
+      "soft_skills": [
+        "Résolution de problèmes",
+        "Autonomie",
+        "Gestion du stress",
+        "Travail d'équipe"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Septembre 2025 - Présent",
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Développement d'API REST scalables en Java et Spring Boot pour les applications ERP.",
+          "Conception et mise en œuvre de modules métiers (gestion des stocks, ventes, achats, comptabilité) en respectant les bonnes pratiques de modularité et de maintenabilité."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Septembre 2024 - Août 2025",
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Développement de bundles Symfony pour l'application DVpass.",
+          "Conception et intégration de services de paiement mobile (facturation opérateur)."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "ESPRI - École Supérieure Privée d'Ingénierie et de Technologies",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Vermeg",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:35:39.510758+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9792,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

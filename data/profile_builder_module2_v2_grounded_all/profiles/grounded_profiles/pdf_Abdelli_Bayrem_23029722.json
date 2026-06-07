@@ -1,0 +1,215 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abdelli_Bayrem_23029722.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abdelli_Bayrem_23029722.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8301,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nSoftware Engineer/_475 abdellibayrem 6@gmail.com/phone (+216) 98 126 871/map_marker Manouba, Tunisia/github/globe Portfolio - Bayrem Abdelli/linkedin linkedin.com/in/bayrem-abdelli\ngithub.com/Bayrem Abdelli 1\nSKILLS\nSQL\nC++\nJava\nBash\nTensorFlow\nPyTorch\nScikit-learn\nXGBoost\nLang Chain\nHugging Face\nRAG Pipelines\nData Engineering\nDocker\nFastAPI\nKafka\nSpark\nETL Pipelines\nData Tools\nChroma DB\nPinecone\nPower BI\nGrafana\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nFreelance AI & Data Consultant\nSelf-Employed/calendar Nov 2025 - Apr 2026/map_marker Remote\nDesigned RAG-powered chatbots for document Q & A and customer support; built Python pipelines for scraping, API integration, and exploratory analysis across multiple client engagements.\n## Structured Data Extraction Pipeline - Internship\n**Date: **/calendar Apr 2025 - Oct 2025\n- INSA Strasbourg\n## /map_marker Strasbourg, France\n**Date: **/calendar Sep 2016 - Jun 2019\nBuilt a scalable LLM-based ETL pipeline for hierarchical battery data extraction, reducing GPU memory by ∼ 40% via 4-bit quantization; containerized with automated evaluation ensuring precision and reproducibility.\n\n## EDUCATION\n\nComputer Science Engineering\nNational Engineering School of Sfax/calendar Sep 2022 - Dec 2025 Mathematics and Physics Cycle\nPreparatory Institute of Tunis\n## /calendar Sep 2019 - Jun 2022 Baccalaureate in Mathematics\n- High School Pilote Siliana\n\n## LANGUAGES\n\nLegal Document Assistant - Internship\nPython\n\n## ML & AI\n\nJURIDOC/calendar Jun 2024 - Sep 2024/map_marker Tunis, Tunisia\nEngineered a RAG pipeline combining dense embeddings and keyword filtering for large-scale legal indexing; implemented semantic chunking and summarization via FastAPI with structured monitoring.\nPenetration Testing & Threat Analysis - Internship\nRedis\nNational Cybersecurity Agency/calendar Jun 2023 - Sep 2023/map_marker Tunis, Tunisia\nFAISS\nConducted web vulnerability assessments, developed anomaly detection scripts for large traffic datasets, and delivered prioritized risk reports aligned with standardized security methodologies.\nPandas\n\n## LANGUAGE SKILLS\n\nArabic - Native\nFrench - Professional\nEnglish - Professional\nGerman - Beginner\n\n## ACADEMIC PROJECTS\n\nPROJECTS\nMulti-Agent Autonomous AI System\n## python, docker, langgraph, ollama, redis, nats\n**Date: **/calendar February 2026 - April 2026\nBuilt an autonomous AI operating system where specialized agents collaborate to plan, delegate, and execute complex multi-step tasks reducing human intervention in repetitive decision workflows through persistent memory and local LLM reasoning.\n- Phishing Detection Platform\n## python, scikit-learn, xgboost, FastAPI, pandas\n**Date: **/calendar January 2025 - April 2025\n- Engineered a cybersecurity threat detection system that classifies malicious URLs in real time - protecting end users from phishing attacks through a production-grade ML pipeline handling imbalanced threat data with high precision.\n- Automated Financial Report Analysis and Forecasting\n## python, langchain, faiss, prophet, streamlit\n**Date: **/calendar September 2024 - November 2024\nDeveloped an AI-powered financial analyst that ingests earnings reports and market data - extracting key indicators, detecting trends, and generating natural language forecasting summaries to support faster and more informed investment decisions.\n\n## VOLUNTEER EXPERIENCE\n\nTreasurer\nIEEE Computational Intelligence Society/calendar Dec 2023 - Oct 2025 Event Chief\nMicrosoft Tech Club ENIS\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nLLM Customization - NVIDIA\nAzure AI - Microsoft\nML Specialization - Deep Learning. AI\nMicrosoft 365 - Microsoft\nAWS Technical Essentials - AWS",
+    "header_info": {
+      "full_name": null,
+      "email": "6@gmail.com",
+      "phone": "+216) 98 126 871",
+      "location": null,
+      "linkedin": "linkedin.com/in/bayrem-abdelli",
+      "github": "github.com/Bayrem"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.966,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "certifications[4]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Bayrem Abdelli",
+      "email": "6@gmail.com",
+      "phone": "+216) 98 126 871",
+      "location": "Manouba, Tunisia",
+      "linkedin": "linkedin.com/in/bayrem-abdelli",
+      "github": "github.com/Bayrem"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "SQL",
+        "C++",
+        "Java",
+        "Bash",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "XGBoost",
+        "Lang Chain",
+        "Hugging Face",
+        "RAG Pipelines",
+        "Data Engineering",
+        "Docker",
+        "FastAPI",
+        "Kafka",
+        "Spark",
+        "ETL Pipelines",
+        "Data Tools",
+        "Chroma DB",
+        "Pinecone",
+        "Power BI",
+        "Grafana"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Self-Employed",
+        "job_title": "Freelance AI & Data Consultant",
+        "start_date": "Nov 2025",
+        "end_date": "Apr 2026",
+        "city": "Remote",
+        "responsibilities": [
+          "Designed RAG-powered chatbots for document Q & A and customer support; built Python pipelines for scraping, API integration, and exploratory analysis across multiple client engagements."
+        ]
+      },
+      {
+        "company": "INSA Strasbourg",
+        "job_title": null,
+        "start_date": "Apr 2025",
+        "end_date": "Oct 2025",
+        "city": "Strasbourg, France",
+        "responsibilities": [
+          "Built a scalable LLM-based ETL pipeline for hierarchical battery data extraction, reducing GPU memory by ∼ 40% via 4-bit quantization; containerized with automated evaluation ensuring precision and reproducibility."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "National Engineering School of Sfax",
+        "degree": "Computer Science Engineering",
+        "field": "Mathematics and Physics Cycle",
+        "year": null
+      },
+      {
+        "institution": "Preparatory Institute of Tunis",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "High School Pilote Siliana",
+        "degree": "Baccalaureate in Mathematics",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "French",
+      "English",
+      "German"
+    ],
+    "certifications": [
+      "LLM Customization - NVIDIA",
+      "Azure AI - Microsoft",
+      "ML Specialization - Deep Learning. AI",
+      "Microsoft 365 - Microsoft",
+      "AWS Technical Essentials - AWS"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:30:10.429466+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

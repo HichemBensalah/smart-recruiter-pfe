@@ -1,0 +1,107 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Aouididi_Yassine_23014765.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Aouididi_Yassine_23014765.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Aouididi_Yassine_23014765.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Yassine Aouididi",
+      "email": "779@gmail.com",
+      "phone": "+216 26575779",
+      "location": null
+    },
+    "expertise": {
+      "summary": "IT Support & Network Technician with 2+ years of experience in troubleshooting, infrastructure support, and network administration. Skilled in diagnosing hardware/software issues, configuring network devices, and deploying Vo IP systems. Experienced with Fortigate, VMware, and Microsoft 365 environments. Strong problem-solving abilities with a focus on delivering reliable IT services and user satisfaction.",
+      "hard_skills": [
+        "TCP/IP",
+        "LAN/WAN",
+        "Switching",
+        "Routing",
+        "Network Troubleshooting",
+        "Windows",
+        "Linux",
+        "Active Directory",
+        "Microsoft 365",
+        "Fortigate Firewall",
+        "VMware",
+        "Desktops",
+        "Laptops",
+        "Printers",
+        "Vo IP Systems"
+      ],
+      "soft_skills": [
+        "Strong problem-solving abilities",
+        "Effective communication"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "IT Support",
+        "company": "Hexabyte",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Escalate complex issues to Tier 2 support teams",
+          "Maintain documentation of incidents and resolutions"
+        ]
+      },
+      {
+        "job_title": "IT Support (Freelance)",
+        "company": "Heave Up Technology LTD",
+        "start_date": null,
+        "end_date": null,
+        "city": "London, UK",
+        "responsibilities": [
+          "Installed and configured Vo IP systems and network devices",
+          "Integrated Vo IP solutions into LAN/WAN environments",
+          "Optimized network performance and call quality"
+        ]
+      },
+      {
+        "job_title": "IT Support, Help Desk",
+        "company": "Beta-Systemes",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Administered user accounts (Active Directory, permissions)",
+          "Resolved complex technical issues and reduced downtime"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Cycle: Computer Engineering",
+        "school": "Iteam University",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Higher Institute of Computer Science and Multimedia",
+        "year": null
+      },
+      {
+        "degree": "Bachelor's Degree in Computer Science",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:37:32.462178+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8283,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Amine_Saidi_23030420.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Amine_Saidi_23030420.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Amine_Saidi_23030420.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Saidi Mohamed Amine",
+      "email": "mohamed.amine.ob@gmail.com",
+      "phone": "463228/11/02/1998",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Développeur Web passionné, alliant rigueur et créativité pour concevoir des solutions innovantes et performantes, avec un fort engagement en amélioration continue.",
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "UML",
+        "SQL",
+        "NOSQL",
+        "Data Warehouse",
+        "Big Data",
+        "JEE",
+        "ASP. NET",
+        "JAVA",
+        "JavaScript",
+        "TypeScript",
+        "C#",
+        "PHP",
+        "HTML",
+        "CSS",
+        "NodeJS",
+        "next js"
+      ],
+      "soft_skills": [
+        "alliance de rigueur et créativité",
+        "engagement en amélioration continue",
+        "travail en méthodologie Agile (Jira)",
+        "correction de bugs et optimisation des performances"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Support IT et Responsable approvisionnement Support technique aux utilisateurs (Helpdesk N 1/N 2) et gestion des tickets.",
+        "company": "Interstrap Manufacture",
+        "start_date": "02/2025",
+        "end_date": null,
+        "city": "Bizerte, Tunisie",
+        "responsibilities": [
+          "Diagnostic et résolution des incidents matériels, logiciels et systèmes.",
+          "Installation, configuration et maintenance des postes de travail et périphériques.",
+          "Administration des comptes utilisateurs et gestion des droits d'accès.",
+          "Maintenance préventive et corrective du parc informatique.",
+          "Préparation et déploiement du matériel IT aux utilisateurs.",
+          "Gestion des inventaires et reporting au responsable IT."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Institut Supérieur des Etudes Technologiques de Béja",
+        "year": null
+      },
+      {
+        "degree": "licence fondamentale en informatique de gestion",
+        "school": "Faculté de science économiques et de gestion el Manar",
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:32:40.544125+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9822,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

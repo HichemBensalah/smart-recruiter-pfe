@@ -1,0 +1,86 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mahdi_Bououd_23015032.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mahdi_Bououd_23015032.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mahdi_Bououd_23015032.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mahdi Bououd",
+      "email": "88@gmail.co",
+      "phone": null,
+      "location": "Tunis"
+    },
+    "expertise": {
+      "summary": "Profil Arabe, Profile Facebook, Profile Linked In",
+      "hard_skills": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Grafana",
+        "Power BI",
+        "PyTorch",
+        "Pandas",
+        "Numpy",
+        "Beautifulsoup",
+        "Vosk (ASR)",
+        "BART (détection d'intention)",
+        "Pyttsx 3 (TTS)"
+      ],
+      "soft_skills": [
+        "Apprenant Rapide",
+        "Responsabilité",
+        "Travail en Equipe",
+        "Autonomie",
+        "Lecture",
+        "Musculation"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stage en Data Science",
+        "company": "Office National de la Propriété Foncière",
+        "start_date": "sept. 2024",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Collecte et nettoyage de données avec Python et Excel",
+          "Formation d'un modèle de machine learning pour la prédiction des prix",
+          "Création de tableaux de bord interactifs avec Tableau"
+        ]
+      },
+      {
+        "job_title": "Stage en Développement Intelligence Artificielle",
+        "company": "Algora-Group",
+        "start_date": "fev. 2025",
+        "end_date": "juin 2025",
+        "city": "Lafayette, Tunis",
+        "responsibilities": [
+          "Développement d'un assistant vocal modulaire pour l'automatisation des centres d'appel"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Business Intelligence",
+        "school": "ISG Bizerte",
+        "year": "2025"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:10:25.394009+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8634,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

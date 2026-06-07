@@ -1,0 +1,214 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Fatma_Kchaou__23024323.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Fatma_Kchaou__23024323.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7626,
+  "normalization": {
+    "cleaned_markdown": "## FATMA KCHAOU\n\nIngénierie Automobile et Aéronautique & Informatique Industrielle\nFatma Kchaou | Sfax | +216 23 720 843 | fatma. kchaou 29@gmail.com\n\n## TECHNICAL SKILLS\n\nRécemment diplômée d'un Master en Automobile et Aéronautique (M 2) et titulaire également d'un Master en Informatique Industrielle, je suis passionnée et très motivée. Je recherche un poste à temps plein afin de mettre en pratique et de développer davantage mes compétences dans un environnement dynamique et innovant.\nMots-clés: DevOps | Pipeline CI/CD | Nuitka | Git Lab-CI |Docker |Ax Protector | Nexus | Artifactory | Slack Mise en place d'un pipeline CI/CD automatisé pour sécuriser la gestion des packages Python avec compilation, protection du code, génération d'artéfacts et déploiement Nexus avec un système de suivi et de notifications.\nCompétences: ISTQB, QA, Test Automation, Selenium | Python, Flask, C++, Java | TIA Portal | Azure, DevOps, Docker, CI/CD, Git, Jenkins, Kubernetes | AUTOSAR, ADAS | CAN, Flex Ray, LIN, OBD | Jira, Scrum, Agile, UML, Lean Six Sigma\n\n## PARCOURS ACADÉMIQUE\n\nMastère Professionnel Co-Construit M 2 Ingénierie Automobile et Aéronautique\nÉcole Nationale d'Électronique et de Télécommunications (ENET'Com)\nMastère Professionnel en Informatique Industrielle\nÉcole Nationale d'Électronique et de Télécommunications (ENET'Com)\nLicence en Électronique, Électrotechnique et Automatique\nInstitut Supérieur de Gestion Industrielle (ISGI)\nBaccalauréat Technique\nLycée Mongi Slim\n\n## EDUCATION\n\nStage de fin d'études - DevOps - PRIMATEC ENGINEERING\nStage de fin d'études - Io T - ROBOCARE\nMots-clés: Module ESP 32 | Conception de PCB | Connectivité Io T | HTML 5 | Capteur de courant | C++ | Arduino | Interface web | Flask | MQTT | HTTP\n**Date: ** 2025\nConception d'un prototype de système d'irrigation avec intégration d'un PCB à base d'ESP 32 et capteur de courant, et mise en place d'un tableau de bord pour des notifications en temps réel.\n- Stage d'été - Développement - STEG\n## Mots-clés: HTML 5 | CSS | JavaScript | XAMP | SQL | Laravel\n**Date: ** Juin 2023 - Juillet 2023\n- Stage de fin d'études - Systèmes embarqués - SOLIDER\n## Mots-clés: Arduino | Système PV | Systèmes embarqués\n**Date: ** Fév 2022 - Juin 2022\nClub Tunivisions - ISGIS: Formations en soft skills (communication, leadership, pitching)\n**Date: ** 2024\n\n## PROFESSIONAL EXPERIENCE\n\nApplication des connaissances en informatique pour la conception de sites web. Acquisition d'expérience dans les tâches organisationnelles et les responsabilités professionnelles.\nApprofondir mes connaissances en énergies renouvelables et acquérir de l'expérience pratique dans la conception d'un chargeur de batterie solaire.\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications: ISTQB® - Niveau Fondation (CTFL v 4. 0), Azure AI Fundamentals, Azure Data Fundamentals, Azure Fundamentals & Security, Introduction à l'Io T, Microsoft Office Specialist, Leadership\n\n## VIE ASSOCIATIVE\n\nClub d'Aéromodélisme - ENET'Com: Contribution au marketing pour améliorer la visibilité et l'engagement\n\n## LANGUAGES\n\nLANGUES",
+    "header_info": {
+      "full_name": "FATMA KCHAOU",
+      "email": "29@gmail.com",
+      "phone": "+216 23 720 843",
+      "location": "Compétences: ISTQB, QA, Test Automation, Selenium | Python, Flask, C++, Java | TIA Portal | Azure, DevOps, Docker, CI/CD, Git, Jenkins, Kubernetes | AUTOSAR, ADAS | CAN, Flex Ray, LIN, OBD | Jira, Scrum, Agile, UML, Lean Six Sigma",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8074,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "languages[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "certifications[4]",
+      "certifications[5]",
+      "certifications[6]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary"
+    ],
+    "fields_unsupported": [
+      "languages[0]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "FATMA KCHAOU",
+      "email": "29@gmail.com",
+      "phone": "+216 23 720 843",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Passionnée et motivée, cherche un poste à temps plein pour mettre en pratique et développer davantage ses compétences dans un environnement dynamique et innovant.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "DevOps",
+        "Pipeline CI/CD",
+        "Nuitka",
+        "Git Lab-CI",
+        "Docker",
+        "Ax Protector",
+        "Nexus",
+        "Artifactory",
+        "Slack",
+        "Python",
+        "Flask",
+        "C++",
+        "Java",
+        "TIA Portal",
+        "Azure",
+        "CI/CD",
+        "Git",
+        "Jenkins",
+        "Kubernetes",
+        "AUTOSAR",
+        "ADAS",
+        "CAN",
+        "Flex Ray",
+        "LIN",
+        "OBD",
+        "Jira",
+        "Scrum",
+        "Agile",
+        "UML",
+        "Lean Six Sigma"
+      ],
+      "soft_skills": [
+        "communication",
+        "leadership",
+        "pitching"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Acquisition d'expérience dans les tâches organisationnelles et les responsabilités professionnelles.",
+          "Approfondir mes connaissances en énergies renouvelables et acquérir de l'expérience pratique dans la conception d'un chargeur de batterie solaire."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "École Nationale d'Électronique et de Télécommunications (ENET'Com)",
+        "degree": "Mastère Professionnel Co-Construit M 2 Ingénierie Automobile et Aéronautique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "École Nationale d'Électronique et de Télécommunications (ENET'Com)",
+        "degree": "Mastère Professionnel en Informatique Industrielle",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Supérieur de Gestion Industrielle (ISGI)",
+        "degree": "Licence en Électronique, Électrotechnique et Automatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "ISTQB - Niveau Fondation (CTFL v 4.0)",
+      "Azure AI Fundamentals",
+      "Azure Data Fundamentals",
+      "Azure Fundamentals & Security",
+      "Introduction à l'Io T",
+      "Microsoft Office Specialist",
+      "Leadership"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:02:47.891195+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

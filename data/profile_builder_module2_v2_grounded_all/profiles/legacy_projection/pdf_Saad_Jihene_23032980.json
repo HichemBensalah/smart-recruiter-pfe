@@ -1,0 +1,100 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Saad_Jihene_23032980.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Saad_Jihene_23032980.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Saad_Jihene_23032980.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": null,
+      "email": "21@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Développeuse logicielle avec expertise en développement full-stack, analyse et résolution de problèmes.",
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "Flask",
+        "REST API",
+        "PostgreSQL",
+        "MongoDB",
+        "Keycloak",
+        "Tesseract",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "Java FX",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Résolution de problèmes",
+        "Travail en équipe",
+        "Gestion du temps",
+        "Autonomie"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire PFE - Solution de gestion des demandes de prêt à la consommation",
+        "company": null,
+        "start_date": "Janv. 2025",
+        "end_date": "Juil. 2025",
+        "city": "Vermeg for Banking & Insurance Software, Tunisie",
+        "responsibilities": [
+          "Développement d' une solution complète de gestion des demandes de prêt",
+          "Mise en place d' une authentification sécurisée et d' un contrôle d'accès par rôles",
+          "Conception d' un moteur de simulation de prêt et d' un système de soumission de documents basé sur OCR"
+        ]
+      },
+      {
+        "job_title": "Stagiaire Ingénieure Logiciel - Solution de gestion des tickets de vulnérabilités",
+        "company": null,
+        "start_date": "Juin 2024",
+        "end_date": "Août 2024",
+        "city": "NEXT STEP IT, Tunisie",
+        "responsibilities": [
+          "Développement d' une solution web de gestion des tickets pour la détection des vulnérabilités"
+        ]
+      },
+      {
+        "job_title": "Stagiaire Développeuse Logiciel - Solution de gestion des stagiaires",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d' une application desktop pour la gestion des stagiaires"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "school": "ESPRIT, Tunis",
+        "year": null
+      },
+      {
+        "degree": "Cycle Préparatoire Intégré en Informatique",
+        "school": "IT Business School",
+        "year": "[2020, 2022]"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:32:36.115532+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9493,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

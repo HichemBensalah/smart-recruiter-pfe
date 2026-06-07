@@ -1,0 +1,85 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rihem_taktak_23015927.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rihem_taktak_23015927.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Rihem_taktak_23015927.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Tek-UP Tunis",
+      "email": "rihem. taktak 52@gmail.com ",
+      "phone": "09/2021 - 05/2024",
+      "location": "Développeuse Full-Stack spécialisée en Python, Odoo et intelligence artificielle"
+    },
+    "expertise": {
+      "summary": "Conception et développement de solutions performantes pour automatiser et optimiser les processus métiers.",
+      "hard_skills": [
+        "Python",
+        "Odoo",
+        "XML",
+        "JavaScript",
+        "C",
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "SQL",
+        "Windows",
+        "Linux",
+        "Flutter"
+      ],
+      "soft_skills": [
+        "Esprit analytique et résolution de problèmes complexes",
+        "Excellentes capacités d'écoute et de communication",
+        "Esprit d'équipe et sens de la collaboration"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Consultante Fonctionnelle et Développeuse Web - ERP Odoo",
+        "start_date": "09/2024",
+        "end_date": "04/2025",
+        "city": null,
+        "responsibilities": [
+          "Analyse des besoins clients et personnalisation des modules Odoo existants.",
+          "Paramétrage et configuration d' Odoo selon les exigences spécifiques des clients."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Stagiaire Développeuse Mobile",
+        "start_date": "07/2023",
+        "end_date": "08/2023",
+        "city": null,
+        "responsibilities": [
+          "Développement et test d'une application mobile embarquée pour véhicule, intégrant la lecture de données de capteurs en temps réel."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Sciences Informatiques",
+        "school": "Institut supérieur d'informatique et de multimédia Sfax",
+        "year": null
+      },
+      {
+        "degree": "Diplôme en cycle d'ingénieur, Spécialité Sécurité des Systèmes Informatique et des Réseaux",
+        "school": "Tek-UP Tunis",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:29:36.415170+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9671,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

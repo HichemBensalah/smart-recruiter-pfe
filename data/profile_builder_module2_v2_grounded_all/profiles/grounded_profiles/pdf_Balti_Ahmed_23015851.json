@@ -1,0 +1,255 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Balti_Ahmed_23015851.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Balti_Ahmed_23015851.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7955,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAhmed Balti\nIng é nieurDevOps\n\n## TECHNICAL SKILLS\n\nAhmed Balti, ingénieur Full Stack et DevOps .\nMon enthousiasme et ma capacité à travailler en équipe ont fait de moi un candidat motivé .\naoût. 2025 - Aujourd'hui Eita Consulting Ingénieur Full Stack & DevOps\nTéléphone\n-Contribution au développement et à l'évolution de la plateforme Todo Plus, une solution web complète de gestion d'entreprise ( CRM, RH, stock, matériel, flotte et recrutement ).\n-Amélioration des fonctionnalités existantes et ajout de nouvelles fonctionnalités.\nEmail\n-Participation active aux pratiques DevOps: conteneurisation des applications, gestion des pipelines CI/CD, analyse de la qualité du code et surveillance continue.\nahmed. balti 990@gmail.com\nAdresse\nTechnologies: Spring Boot, Angular, PostgreSQL, Docker, Kubernetes, Sonar Qube, Bitbucket\nLe Bardo, Tunis, Tunisie\nInetum\nStage PFE\nLinked In https: //www.linkedin.com/in/ahmed-balti-1621 b 8235/Conception et développement d'un portail d'entreprise pour le secteur de l'assurance en utilisant Spring Boot, Angular 16, Sql Server, les tests unitaires et les outils DevOps .\nStagiaire Full Stack\nRéalisation d'une plateforme de gestion des bacs et des palettes afin de faciliter et digitaliser le travail des techniciens de l'entreprise en utlisant Spring Boot et Angular .\nStagiaire Full Stack MERN\nRéalisation d'une plateforme de réseautage social entre étudiants afin de faciliter leurs interactions actives au sein des clubs universitaires .( MERN )\nRéalisation d'un projet DevOps en utilisant Spring Boot, Jenkins et Docker pour l'intégration et le déploiment continue, Nexus pour la gestion des artifacts, JUnit pour les tests unitaires, Sonar Qube pour vérifier la qualité de code, Docker Compose pour l'orchestration et pour la surveillance Grafana et Prometheus .\nDéveloppement d'une application micro-services qui contient une partie Backend réalisée par Spring Boot et NodeJS, partie Frontend développée par Angular, Open Feign pour la communication entre les MS, JWT et Keycloak pour l'aspect sécurité et Docker pour la conteneurisation .\nIBM: DevOps Essentials\nKode Kloud: Docker\nCompétences\nC, C++, java, Python, HTML, CSS, PHP, JavaScript, TypeScript\nFrameworks:\nSpring Boot, Angular, Hibernate, NodeJS, Scrum, Bootstrap, .Net, React\nOutils Devops:\nKubernetes, Jenkins, Gitlab CI, Grafana, Prometheus, Nexus, Docker,\n2022-2024: Membre observateur à JCI Bardo\nAzure DevOps, Ansible, Packer, Kibana, Logstash\n2021-2022: Membre à IEEE Esprit Student Branch\nJUnit, Sonar Qube, Apache Jmeter, Xray\nTest:\n2019-2020: Membre à IEEE Esprit Student Branch\nBases De Données:\nMySQL, MongoDB, PostgreSQL, Elastic Search, Sql Server\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences Professionnelles\nContact\n\n## SOFT SKILLS\n\nQualités\nPensée analytique et critique\nOrange\nPrise de décision\nRésolution de problèmes complexes\nMulti-tâches\nEsprit d'équipe\n\n## EDUCATION\n\nFormation et Projets Académiques\nDiplôme national d'ingénieur en Informatique\n## Obtention du Baccalauréat Mathématiques avec Mention Bien\n**Date: ** Fev. 2024 - août. 2024\n\n## LANGUAGES\n\nLangues\nArabe\nArabe\nFrançais\nFrançais\nAnglais\nAnglais\nEspagnol\nEspagnol\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nCKA: en préparation\n\n## IBM: CI/CD\n\nIBM: Agile Development And Scrum\nLangages:\nActivités Associatives",
+    "header_info": {
+      "full_name": "Ahmed Balti",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9591,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "education[0].degree",
+      "education[1].degree",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[33]",
+      "expertise.hard_skills[34]",
+      "expertise.hard_skills[35]",
+      "expertise.hard_skills[36]",
+      "expertise.hard_skills[37]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ahmed Balti",
+      "email": "ahmed.balti990@gmail.com",
+      "phone": null,
+      "location": "Le Bardo, Tunis, Tunisie",
+      "linkedin": "https://www.linkedin.com/in/ahmed-balti-1621b8235/",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "C",
+        "C++",
+        "java",
+        "Python",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "Spring Boot",
+        "Angular",
+        "Hibernate",
+        "NodeJS",
+        "Scrum",
+        "Bootstrap",
+        ".Net",
+        "React",
+        "Kubernetes",
+        "Jenkins",
+        "Gitlab CI",
+        "Grafana",
+        "Prometheus",
+        "Nexus",
+        "Docker",
+        "Azure DevOps",
+        "Ansible",
+        "Packer",
+        "Kibana",
+        "Logstash",
+        "JUnit",
+        "Sonar Qube",
+        "Apache Jmeter",
+        "Xray",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "Elastic Search",
+        "Sql Server"
+      ],
+      "soft_skills": [
+        "Pensée analytique et critique",
+        "Prise de décision",
+        "Résolution de problèmes complexes",
+        "Multi-tâches",
+        "Esprit d'équipe"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Eita Consulting",
+        "job_title": "Ingénieur Full Stack & DevOps",
+        "start_date": "août. 2025",
+        "end_date": "Aujourd'hui",
+        "city": null,
+        "responsibilities": [
+          "Contribution au développement et à l'évolution de la plateforme Todo Plus, une solution web complète de gestion d'entreprise ( CRM, RH, stock, matériel, flotte et recrutement ).",
+          "Amélioration des fonctionnalités existantes et ajout de nouvelles fonctionnalités.",
+          "Participation active aux pratiques DevOps: conteneurisation des applications, gestion des pipelines CI/CD, analyse de la qualité du code et surveillance continue."
+        ]
+      },
+      {
+        "company": "Inetum",
+        "job_title": "Stagiaire Full Stack",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'un portail d'entreprise pour le secteur de l'assurance en utilisant Spring Boot, Angular 16, Sql Server, les tests unitaires et les outils DevOps.",
+          "Réalisation d'une plateforme de gestion des bacs et des palettes afin de faciliter et digitaliser le travail des techniciens de l'entreprise en utlisant Spring Boot et Angular.",
+          "Réalisation d'une plateforme de réseautage social entre étudiants afin de faciliter leurs interactions actives au sein des clubs universitaires .( MERN )",
+          "Réalisation d'un projet DevOps en utilisant Spring Boot, Jenkins et Docker pour l'intégration et le déploiment continue, Nexus pour la gestion des artifacts, JUnit pour les tests unitaires, Sonar Qube pour vérifier la qualité de code, Docker Compose pour l'orchestration et pour la surveillance Grafana et Prometheus.",
+          "Développement d'une application micro-services qui contient une partie Backend réalisée par Spring Boot et NodeJS, partie Frontend développée par Angular, Open Feign pour la communication entre les MS, JWT et Keycloak pour l'aspect sécurité et Docker pour la conteneurisation."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Diplôme national d'ingénieur en Informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": null,
+        "degree": "Baccalauréat Mathématiques",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais",
+      "Espagnol"
+    ],
+    "certifications": [
+      "CKA: en préparation",
+      "IBM: DevOps Essentials",
+      "Kode Kloud: Docker",
+      "IBM: Agile Development And Scrum"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:41:55.452003+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ons_Guidara_23024244.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ons_Guidara_23024244.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9113,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nONSGuidara\nIngénieure Électronique/Systèmes - Jeune diplômée\n� https: //www.linkedin.com/in/ons-guidara/� (+216) 26 829 961\nLocalisation actuelle: Sfax, Tunisie\nhttps: //github.com/Ons 9 Guidara\nguidaraons 9@gmail.com\n\n## TECHNICAL SKILLS\n\nPassionnée par l'innovation technologique, spécialisée en systèmes embarqués intelligents et connectés. Compétences en développement, test et implémentation de solutions fiables adaptées aux besoins actuels.\nCompétences\nOutils de développement:\nArduino IDE, STM 32 Cube IDE, Lab VIEW, LTspice, Altium Designer\nConnaissances générales:\nLinux, Free RTOS, Yocto, Intelligence Artificielle\nProtocoles & Réseaux Io T:\nMQTT(Qo S, messages conservés), UDP, TCP/IP, Web Socket\nLangages de programmation:\nC, C++, VHDL, Python, Java, MATLAB\nÉlectronique (analogique et numérique):\ncircuits analogiques, circuits numériques, UART, SPI, I²C, PWM, ADC/DAC\nGestion de versions & Collaboration:\nDocker, Git, Méthodologie Agile Scrum\n� Compétences Personnelles � vie associative\n∠ Fiabilité et professionnalisme\n∠ Apprentissage rapide\n∠ Motivation et esprit d'équipe\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience Professionnelle\nFévrier - Mai 2025\nStagiaire chez Instaware\n4 mois\nDéveloppement d'un système basé sur ESP 32 pour la synchronisation d'écrans en temps réel dans un contexte de chronométrage de marathon basé sur SN 74 HC 273 Nlatches+ULN 2803 Adrivers+PIC 16 F 883, en utilisant une horloge I²C RTC et une communication distribuée fiable via UDP, MQTT et Web Socket, avec une interface embarquée en HTML/JS pour la configuration et la supervision.\n**Date: ** Juillet 2024\n- Stagiaire chez TN Smart Io T\n- 1 mois\nDéveloppement d'un système de domotique utilisant le module Wi-Fi ESP 8266, intégrant capteurs et ac- tionneurs pour un contrôle local en temps réel, avec possibilité de supervision et de commande à distance via une interface web React, un backend Express. js et une base de données Firebase .\n**Date: ** Juillet 2023\n- Stagiaire chez DRÄXLMAIER Tunisie\n- 1 mois\nRéalisation de l'assemblage, de tests de diagnostic et du contrôle qualité de composants électroniques.\n**Date: ** 2022 - 2025\n- Éducation\n## Cycle d'Ingénierie en Systèmes Électroniques de Communication | ENET'COM\n**Date: ** 2020 - 2022\n## Cycle Préparatoire en Maths Physique (MP) | Faculté des Sciences de Sfax\n**Date: ** 2016 - 2020\n## Baccalauréat en mathématiques | Lycée 25 Juillet 1957, Sfax\n\n## ACADEMIC PROJECTS\n\n� Projets\nIo T System Monitor - QEMU & Docker\nSystème Io T sur Linux embarqué exécuté dans QEMU, containerisé avec Docker, collectant et envoyant en temps réel les métriques système (RAM, CPU) via HTTP.\n**Date: ** Janvier 2025\n## Technologies: Linux embarqué, Busy Box, QEMU, Docker, C, HTTP, TCP/IP\n- Détection d'anomalies pour les batteries de véhicules électriques\nDéveloppement d'une interface Lab VIEW et d'une IA pour la détection d'anomalies des batteries EV en simulant des données de capteurs, en classifiant les anomalies et en intégrant l'IA comme un nœud Python.\n**Date: ** Octobre 2024 - Décembre 2024\n## Technologies: Lab VIEW, Python, Modèle Random Forest, Apprentissage automatique\n- Système de réservation de parking intelligent (PFA)\nDéveloppementd'unsystèmedeparkingintelligent avec une application web pour les réservations en temps réel. Conception d'un système embarqué basé sur ESP 32 intégrant capteurs, commande de barrière par servo-moteur et affichage LCD.\n**Date: ** Novembre 2023 - Avril 2024\nTechnologies: Angular, Express. js, Firebase, ESP 32, PIR, HC-SR 04, Servo-moteur, PWM Écran LCD\n\n## LANGUAGES\n\n� Languages\nArabe: Langue maternelle\n∠ Ancienne Webmaster à IEEE Circuits and Systems Society -ENET'Com SB\nAnglais: Courant\n∠ Français: Courant",
+    "header_info": {
+      "full_name": "Localisation actuelle: Sfax, Tunisie",
+      "email": "9@gmail.com",
+      "phone": "+216) 26 829 961",
+      "location": "Localisation actuelle: Sfax, Tunisie",
+      "linkedin": "www.linkedin.com/in/ons-guidara/�",
+      "github": "github.com/Ons"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9823,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ons Guidara",
+      "email": "9@gmail.com",
+      "phone": "+216) 26 829 961",
+      "location": "Sfax, Tunisie",
+      "linkedin": "www.linkedin.com/in/ons-guidara/",
+      "github": "github.com/Ons"
+    },
+    "expertise": {
+      "summary": "Spécialisée en systèmes embarqués intelligents et connectés.",
+      "experience_level": "junior",
+      "years_experience": 10,
+      "hard_skills": [
+        "Arduino IDE",
+        "STM 32 Cube IDE",
+        "Lab VIEW",
+        "LTspice",
+        "Altium Designer",
+        "Linux",
+        "Free RTOS",
+        "Yocto",
+        "Intelligence Artificielle",
+        "MQTT(Qo S, messages conservés)",
+        "UDP",
+        "TCP/IP",
+        "Web Socket",
+        "C",
+        "C++",
+        "VHDL",
+        "Python",
+        "Java",
+        "MATLAB",
+        "circuits analogiques",
+        "circuits numériques",
+        "UART",
+        "SPI",
+        "I²C",
+        "PWM",
+        "ADC/DAC",
+        "Docker",
+        "Git",
+        "Méthodologie Agile Scrum"
+      ],
+      "soft_skills": [
+        "Fiabilité et professionnalisme",
+        "Apprentissage rapide",
+        "Motivation et esprit d'équipe"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Instaware",
+        "job_title": null,
+        "start_date": "Février - Mai 2025",
+        "end_date": "Mai 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système basé sur ESP 32 pour la synchronisation d'écrans en temps réel dans un contexte de chronométrage de marathon basé sur SN 74 HC 273 Nlatches+ULN 2803 Adrivers+PIC 16 F 883, en utilisant une horloge I²C RTC et une communication distribuée fiable via UDP, MQTT et Web Socket, avec une interface embarquée en HTML/JS pour la configuration et la supervision."
+        ]
+      },
+      {
+        "company": "TN Smart Io T",
+        "job_title": null,
+        "start_date": "Juillet 2024",
+        "end_date": "Juillet 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de domotique utilisant le module Wi-Fi ESP 8266, intégrant capteurs et actionneurs pour un contrôle local en temps réel, avec possibilité de supervision et de commande à distance via une interface web React, un backend Express. js et une base de données Firebase."
+        ]
+      },
+      {
+        "company": "DRÄXLMAIER Tunisie",
+        "job_title": null,
+        "start_date": "Juillet 2023",
+        "end_date": "Juillet 2023",
+        "city": null,
+        "responsibilities": [
+          "Réalisation de l'assemblage, de tests de diagnostic et du contrôle qualité de composants électroniques."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ENET'COM",
+        "degree": "Cycle d'Ingénierie en Systèmes Électroniques de Communication",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Faculté des Sciences de Sfax",
+        "degree": "Cycle Préparatoire en Maths Physique (MP)",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée 25 Juillet 1957, Sfax",
+        "degree": "Baccalauréat en mathématiques",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:58:10.120962+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

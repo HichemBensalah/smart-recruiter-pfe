@@ -1,0 +1,220 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Achraf_Abdelaziz_23016504.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Achraf_Abdelaziz_23016504.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8819,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAchraf Abdelaziz/phone +216 52 165 663/envelope_alt achrafabdelaziz 21@gmail.com/map_marker Omrane Sup, Tunis, Tunisia/linkedin linkedin.com/in/achraf-abdelaziz/github github.com/Achraf Abdelaziz\n\n## EDUCATION\n\nESPRIT - Ecole Supérieure Privée d'Ingénierie et de Technologies\nDiplôme National d'Ingénieur\nTraitement, nettoyage et analyse des ensembles de données pour en extraire des informations exploitables.\n- Consommation et manipulation d'APIs REST pour l'acquisition de données externes et l'automatisation des échanges entre services.\nDéploiement conteneurisé (Docker) sur environnement interne, avec versioning Git et documentation technique.\n**Date: ** Févr 2024 - Sépt 2024\n- Orange Tunisie\n- Développeur Python/AI Projet de fin d'études\nDéveloppement d'un dashboard interactif en production (Streamlit + Power BI), utilisé par les managers régionaux pour le suivi en temps réel des segments étudiants.\n**Location: ** Tunis, Tunisie\nDéveloppement de pipelines ETL automatisés en Python (10 k+ logs/jour), avec monitoring et logging, réduisant le temps de nettoyage manuel de 65 %.\nConception et déploiement d'APIs REST avec FastAPI pour exposer des modèles et des données graphes (Neo4j), réduisant les temps de réponse de 40 % vs. SQL.\nIntégration de MLflow pour le tracking des hyperparamètres et le versioning des modèles (GNN), assurant une reproductibilité totale des expérimentations.\n**Date: ** Juin 2022 - Août 2022\n- Picosoft\n- Développeur Java stagiaire\nDéveloppement full-stack d'une application web de gestion de documents (Frontend: Angular, Backend: Spring Boot/Java), réduisant le temps de traitement des documents.\n**Location: ** Tunis, Tunisie\n- Mise en place d'une authentification JWT et d'un contrôle d'accès basé sur les rôles (RBAC) pour sécuriser l'accès aux documents.\n- Société Nationale Immobilière de Tunisie\n- Développeur PHP stagiaire\nDéveloppement d'un système Symfony/PHP pour la gestion des dossiers de 100+ employés, avec contrôle d'accès par rôles.\n**Date: ** Mai 2021 - Août 2021\n**Location: ** Tunis, Tunisie\nUtilisation de PHP et de Symfony pour la construction du back-end, la mise en œuvre de fonctionnalités pour l'ajout, la mise à jour et la gestion des détails des employés.\n**Date: ** Juil 2020 - Août 2020\n- Néopolis\n- Développeur Python et Automatisation stagiaire\nDéveloppement de scripts Python pour automatiser des tâches répétitives, améliorant l'efficacité opérationnelle.\n**Location: ** Tunis, Tunisie\nIntégration de Python avec Ui Path pour créer des workflows automatisés (extraction de données, génération de rapports, planification).\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience\nUnivers Plus\nDéveloppeur Python\nConception de scripts Pandas/NumPy pour automatiser l'extraction et l'analyse de données, optimisant les flux de travail quotidiens.\n**Date: ** Sépt 2018 - Nov 2024\n**Location: ** Tunis, Tunisie\n\n## TECHNICAL SKILLS\n\nCompétences techniques\nLangages de programmation:\nPython, Java, Php\nBases de données:\nNeo4j, SQL, MongoDB\nOutils:\nGit, Docker, Linux, Power BI, Ui Path, OpenAI\n\n## LANGUAGES\n\nLangues\nArabe:\nAnglais:\nFrançais:\nLangue maternelle\nCourant\nCourant",
+    "header_info": {
+      "full_name": "Diplôme National d'Ingénieur",
+      "email": "21@gmail.com",
+      "phone": "+216 52 165 663",
+      "location": null,
+      "linkedin": "linkedin.com/in/achraf-abdelaziz/github",
+      "github": "github.com/Achraf"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9764,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[4].city",
+      "experiences[4].company",
+      "experiences[4].end_date",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Achraf Abdelaziz",
+      "email": "21@gmail.com",
+      "phone": "+216 52 165 663",
+      "location": "Tunis, Tunisia",
+      "linkedin": "linkedin.com/in/achraf-abdelaziz",
+      "github": "github.com/Achraf"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "Java",
+        "Php",
+        "Neo4j",
+        "SQL",
+        "MongoDB",
+        "Git",
+        "Docker",
+        "Linux",
+        "Power BI",
+        "Ui Path",
+        "OpenAI"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Orange Tunisie",
+        "job_title": "Développeur Python/AI",
+        "start_date": "Juin 2022",
+        "end_date": "Août 2022",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'un dashboard interactif en production (Streamlit + Power BI), utilisé par les managers régionaux pour le suivi en temps réel des segments étudiants.",
+          "Développement de pipelines ETL automatisés en Python (10 k+ logs/jour), avec monitoring et logging, réduisant le temps de nettoyage manuel de 65 %.",
+          "Conception et déploiement d'APIs REST avec FastAPI pour exposer des modèles et des données graphes (Neo4j), réduisant les temps de réponse de 40 % vs. SQL.",
+          "Intégration de MLflow pour le tracking des hyperparamètres et le versioning des modèles (GNN), assurant une reproductibilité totale des expérimentations."
+        ]
+      },
+      {
+        "company": "Picosoft",
+        "job_title": "Développeur Java stagiaire",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement full-stack d'une application web de gestion de documents (Frontend: Angular, Backend: Spring Boot/Java), réduisant le temps de traitement des documents.",
+          "Mise en place d'une authentification JWT et d'un contrôle d'accès basé sur les rôles (RBAC) pour sécuriser l'accès aux documents."
+        ]
+      },
+      {
+        "company": "Société Nationale Immobilière de Tunisie",
+        "job_title": "Développeur PHP stagiaire",
+        "start_date": "Mai 2021",
+        "end_date": "Août 2021",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'un système Symfony/PHP pour la gestion des dossiers de 100+ employés, avec contrôle d'accès par rôles.",
+          "Utilisation de PHP et de Symfony pour la construction du back-end, la mise en œuvre de fonctionnalités pour l'ajout, la mise à jour et la gestion des détails des employés."
+        ]
+      },
+      {
+        "company": "Néopolis",
+        "job_title": "Développeur Python et Automatisation stagiaire",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement de scripts Python pour automatiser des tâches répétitives, améliorant l'efficacité opérationnelle.",
+          "Intégration de Python avec Ui Path pour créer des workflows automatisés (extraction de données, génération de rapports, planification)."
+        ]
+      },
+      {
+        "company": "Univers Plus",
+        "job_title": "Développeur Python",
+        "start_date": "Sépt 2018",
+        "end_date": "Nov 2024",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception de scripts Pandas/NumPy pour automatiser l'extraction et l'analyse de données, optimisant les flux de travail quotidiens."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT - Ecole Supérieure Privée d'Ingénierie et de Technologies",
+        "degree": "Diplôme National d'Ingénieur",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Anglais",
+      "Français"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T17:58:06.897724+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

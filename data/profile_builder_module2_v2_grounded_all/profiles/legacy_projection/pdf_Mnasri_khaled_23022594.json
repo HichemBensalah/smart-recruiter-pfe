@@ -1,0 +1,88 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mnasri_khaled_23022594.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mnasri_khaled_23022594.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mnasri_khaled_23022594.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Khaled Mnasri",
+      "email": "contact.mnasrikhaled@gmail.com",
+      "phone": "+216-28366730",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "React.js",
+        "React Native",
+        "Node.js/Express.js",
+        "MongoDB",
+        "Flutter",
+        "Spring Boot",
+        "PostgreSQL",
+        "Angular",
+        "Python (web scraping)",
+        "Anaconda"
+      ],
+      "soft_skills": [
+        "Dynamique et motivé",
+        "Organisé et méthodique",
+        "Ponctuel et diplomate"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire Développeur Full-Stack",
+        "company": "TPE - Textile Print and Embroidery",
+        "start_date": null,
+        "end_date": null,
+        "city": "Bizerte",
+        "responsibilities": [
+          "Développement d'une application de gestion d'entreprise (web RH, mobile production, backend centralisé) avec React. js, React Native, Node. js/Express. js et MongoDB",
+          "Intégration d'un assistant IA pour automatiser certaines tâches dans le module RH (Mistral AI)",
+          "Mise en place de tableaux de bord Power BI pour le suivi des performances et l'aide à la décision"
+        ]
+      },
+      {
+        "job_title": "Stagiaire Développeur Mobile/Front-end",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement d'une application mobile de gestion des absences avec QR code",
+          "(Flutter, Spring Boot, PostgreSQL)",
+          "Conception du front-end mobile et des fonctionnalités principales",
+          "Participation au développement du backend et de la base de données"
+        ]
+      },
+      {
+        "job_title": "Stagiaire Développeur Web",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement d'une application web de gestion des stagiaires avec système d'authentification complet (React. js, Node. js/Express. js, MongoDB)"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:27:26.743809+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9854,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

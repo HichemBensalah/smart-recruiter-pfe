@@ -1,0 +1,76 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Walid_Chaira_23024381.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Walid_Chaira_23024381.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Walid_Chaira_23024381.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "CHAIRA WALID",
+      "email": "walid.chaaira@gmail.com",
+      "phone": null,
+      "location": "Cité El Khadhra Tunis 1003"
+    },
+    "expertise": {
+      "summary": "Développeur Web Full Stack, spécialisé dans la MEAN stack (MongoDB, Express, Angular, Node. js)",
+      "hard_skills": [
+        "HTML 5",
+        "CSS 3",
+        "Bootstrap",
+        "JavaScript",
+        "Angular",
+        "Express. js",
+        "Node. js",
+        "MongoDB",
+        "SQL",
+        "MySQL",
+        "Oracle",
+        "Git",
+        "GitHub"
+      ],
+      "soft_skills": [
+        "sécurité avec JWT",
+        "contrôle de version",
+        "gestion des tests & bugs",
+        "système de gestion de version",
+        "réseaux radio-Mobile",
+        "réseaux informatique"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "02/2014 - 05/2014",
+        "end_date": null,
+        "city": "Cité El Khadhra Tunis 1003",
+        "responsibilities": [
+          "Développement et maintenance d'applications web internes dédiées à la gestion des achats, fournisseurs, chantiers et processus comptables.",
+          "Conception de modules fonctionnels pour le suivi des commandes, factures, stocks, approvisionnements et échéances de paiement."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "LICENCE APPLIQUÉ EN SCIENCES ET TECHNOLOGIES DE L'INFORMATION ET DE LA COMMUNICATION (STIC)",
+        "school": "ISET Gabes",
+        "year": "2011"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:57:20.880961+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8814,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

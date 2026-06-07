@@ -1,0 +1,73 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Wael_aouadhi_23032307.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Wael_aouadhi_23032307.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Wael_aouadhi_23032307.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Wael Aouadhi",
+      "email": "wael.aouadhi@esprit.tn",
+      "phone": "+21694603330",
+      "location": "Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Swift, Swift UI, UIKit, Xcode, Cocoa Pods",
+        "Kotlin, Java, Android Studio",
+        "Flutter, React Native",
+        "React. js, Angular, JavaScript (ES 6+), TypeScript, HTML 5, CSS 3",
+        "Prompt Design, LLM Integration (OpenAI APIs), Context Engineering, AI Workflow Automation",
+        "RESTful APIs, JSON Parsing, Alamofire, Firebase (Cloud Messaging, Remote Config)",
+        "Git, SVN",
+        "Adobe XD, Modern i OS Interface Guidelines",
+        "Modular Architecture, Component-Based Design, MVC/MVVM, Design Patterns, Clean Code Principles",
+        "Core Data, SQLite, PostgreSQL, MongoDB",
+        "CI/CD, Docker, App Store & Play Store Deployment"
+      ],
+      "soft_skills": [
+        "Responsive Design",
+        "Accessibility",
+        "Animations",
+        "Design Patterns",
+        "Clean Code Principles"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Founder & Freelance i OS Developer",
+        "company": "ARCA Prod",
+        "start_date": "2019",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Optimized launch time by 35% and memory usage by 25% across releases.",
+          "Delivered 10+ i OS apps with Swift, Swift UI, and UIKit to App Store, averaging 4.5+ star ratings."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "One Tech B. S Group",
+        "year": "2025"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:56:28.391204+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9696,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

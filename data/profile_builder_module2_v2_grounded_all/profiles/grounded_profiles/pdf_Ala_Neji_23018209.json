@@ -1,0 +1,238 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ala_Neji_23018209.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ala_Neji_23018209.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.958,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nintegration.\nIEEE Tunisia Section, Tunisia\nJuly-September 2023 & 2024\nWeb Development Intern\n\n## ALA NEJI\n\nAdvanced Technologies Engineer Full Stack Developer\nalaa.neji@enstab.ucar.tn - +216 24 640 536 -/linkedin Ala Neji -/github Ala Neji -/globe Portfolio\n\n## PROFESSIONAL SUMMARY\n\nSUMMARY\nContributed to the development of the IEEE Tunisia Section Units Accounting Platform as a frontend and backend developer.\n\n## TECHNICAL SKILLS\n\nJunior Advanced Technologies Engineer and Web and Full Stack Developer, seeking an entry-level position. Hands-on experience with React, Next. js, Spring Boot, MongoDB, and Docker gained through internships and academic projects, with strong foundations in software engineering, API integration, and containerized applications.\nSKILLS\nProgramming:\nC/C++, Python, Java, JavaScript, MERN Stack, Next. js, Spring Boot, Tailwind CSS\nFrameworks & Tools:\nSupabase, GitHub, VS Code, Arduino IDE, Docker, GitHub Actions (CI/CD)\nDevelopment Focus:\nFrontend & Backend Development, Authentication Systems, API Integration, Database\nDesign, Deployment\nSoft Skills:\nLeadership, Problem Solving, Collaboration, Adaptability\nSeptember\nWeb Development: Full-stack development, frontend engineering, backend integration, responsive design Technologies & Frameworks: Next. js, React, Spring Boot, Node. js, Supabase, TypeScript, Tailwind CSS, Docker, CI/CD (GitHub Actions)\nSoftware Engineering: API design, authentication systems, cloud integration, database management, Deployment\n\n## LANGUAGES\n\nLanguages:\nArabic (Native), English (Fluent), French (Fluent), German (Basic)\n\n## EDUCATION\n\nDirected teams and logistics for a major TEDx event focused on innovation and education.\n\n## PROFESSIONAL EXPERIENCE\n\n## COFICAB TN, Tunisia\n**Date: ** February - August 2025\n## End of Studies Intern\nDeveloped a secure digital Energy Management System (En MS) aligned with ISO 50001 standards, integrating user authentication and data protection mechanisms.\nDesigned regression-based models to define the Energy Reference Situation (SER), identify Significant Energy Uses (UES), and calculate the Energy Performance Indicator (IPE).\nAutomated data acquisition, monitoring, and invoice extraction using OCR and AI to improve accuracy, efficiency, and audit readiness.\nDelivered a fully operational platform that supports energy performance tracking, reporting, and continuous improvement.\nTechnologies: Spring Boot, MongoDB, Next. js, Tailwind CSS, Docker, GitHub Actions (CI/CD), AI, OCR, Regression Models\n## Smartegy, Tunisia\n**Date: ** July - September 2024\n## Web Development Intern\nDesigned, developed, and optimized responsive web applications using Next. js and Tailwind CSS.\n- Integrated Supabase for secure and efficient backend management.\n- Built a fully functional platform featuring user authentication and data management through Supabase\n- Implemented core backend logic and improved system efficiency and user experience.\nTechnologies: MERN Stack (MongoDB, Express. js, React, Node. js); Next. js, Tailwind CSS.\n## Tunisie Telecom, Tunisia\n**Date: ** July-August 2023\n## Intern\n- Resolved client network and internet connectivity issues using telecommunications theory.\nGained practical experience in line construction, maintenance, and transmission center operations.\nDeveloped a full-featured university management platform for courses, exams, tutorials, and official documents using React. js, Spring Boot, and PostgreSQL, ensuring scalability and an intuitive user experience.\n**Date: ** 2022-2023\n- Designed and developed a gesture-controlled myoelectric prosthetic hand integrating AI and embedded systems for precise motion control. Built and programmed hardware and software components, including actuators and control circuits. Utilized 3 D printing to create an affordable, functional solution for improved accessibility.\n\n## ACADEMIC PROJECTS\n\n## ENSTALEARN: University E-Learning Platform\n**Date: ** 2023-2024\n- AI-Powered Robotic Hand\n\n## ASSOCIATIVE EXPERIENCES\n\nIEEE ENSTAB Student Branch - President\nLed club operations, organized technical workshops, and promoted IEEE standards.\nTEDx ENSTAB - President & Organizer",
+    "header_info": {
+      "full_name": "IEEE Tunisia Section, Tunisia",
+      "email": null,
+      "phone": null,
+      "location": "IEEE Tunisia Section, Tunisia",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.93,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].responsibilities[2]",
+      "experiences[3].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ala Neji",
+      "email": "alaa.neji@enstab.ucar.tn",
+      "phone": "+216 24 640 536",
+      "location": "Tunisia",
+      "linkedin": "/linkedin Ala Neji",
+      "github": "/github Ala Neji"
+    },
+    "expertise": {
+      "summary": "Contributed to the development of the IEEE Tunisia Section Units Accounting Platform as a frontend and backend developer.",
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "React",
+        "Next.js",
+        "Spring Boot",
+        "MongoDB",
+        "Docker",
+        "C/C++",
+        "Python",
+        "Java",
+        "JavaScript",
+        "MERN Stack",
+        "Tailwind CSS",
+        "Supabase",
+        "GitHub",
+        "VS Code",
+        "Arduino IDE",
+        "GitHub Actions (CI/CD)",
+        "Node.js",
+        "TypeScript"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Problem Solving",
+        "Collaboration",
+        "Adaptability"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "COFICAB TN",
+        "job_title": "End of Studies Intern",
+        "start_date": "February",
+        "end_date": "August 2025",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Developed a secure digital Energy Management System (En MS) aligned with ISO 50001 standards, integrating user authentication and data protection mechanisms.",
+          "Designed regression-based models to define the Energy Reference Situation (SER), identify Significant Energy Uses (UES), and calculate the Energy Performance Indicator (IPE).",
+          "Automated data acquisition, monitoring, and invoice extraction using OCR and AI to improve accuracy, efficiency, and audit readiness.",
+          "Delivered a fully operational platform that supports energy performance tracking, reporting, and continuous improvement."
+        ]
+      },
+      {
+        "company": "Smartegy",
+        "job_title": "Web Development Intern",
+        "start_date": "July",
+        "end_date": "September 2024",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Designed, developed, and optimized responsive web applications using Next.js and Tailwind CSS.",
+          "Integrated Supabase for secure and efficient backend management.",
+          "Built a fully functional platform featuring user authentication and data management through Supabase",
+          "Implemented core backend logic and improved system efficiency and user experience."
+        ]
+      },
+      {
+        "company": "Tunisie Telecom",
+        "job_title": "Intern",
+        "start_date": "July",
+        "end_date": "August 2023",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Resolved client network and internet connectivity issues using telecommunications theory.",
+          "Gained practical experience in line construction, maintenance, and transmission center operations.",
+          "Developed a full-featured university management platform for courses, exams, tutorials, and official documents using React.js, Spring Boot, and PostgreSQL, ensuring scalability and an intuitive user experience."
+        ]
+      },
+      {
+        "company": "Tunisie Telecom",
+        "job_title": null,
+        "start_date": "2022",
+        "end_date": "2023",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Designed and developed a gesture-controlled myoelectric prosthetic hand integrating AI and embedded systems for precise motion control.",
+          "Built and programmed hardware and software components, including actuators and control circuits.",
+          "Utilized 3D printing to create an affordable, functional solution for improved accessibility."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Arabic",
+      "English",
+      "French",
+      "German"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T17:58:08.982091+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

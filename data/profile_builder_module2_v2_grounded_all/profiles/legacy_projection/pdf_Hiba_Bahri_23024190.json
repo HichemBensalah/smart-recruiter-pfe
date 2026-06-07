@@ -1,0 +1,121 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hiba_Bahri_23024190.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hiba_Bahri_23024190.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hiba_Bahri_23024190.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hiba BAHRI",
+      "email": "447@gmail.com",
+      "phone": "+216 54 253 480",
+      "location": "Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular 17",
+        "Next JS 15",
+        "React",
+        "Flutter",
+        "Android",
+        "GraphQL",
+        "REST API",
+        "Nest JS",
+        "Express JS",
+        "Spring Framework",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Firebase",
+        "Jest Framework",
+        "Mockito",
+        "Docker",
+        "Gitlab CI/CD",
+        "Git",
+        "Github",
+        "Figma",
+        "Adobe XD",
+        "Illustrator",
+        "Responsive UI/UX"
+      ],
+      "soft_skills": [
+        "Agile",
+        "Scrum methodology"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Frontend Developer- Intern",
+        "company": "The Tunisian Post Office",
+        "start_date": "July - August 2021",
+        "end_date": null,
+        "city": "Tunisia",
+        "responsibilities": [
+          "Implemented provider-side features for booking management and built-in chat functionality to facilitate real-time communication and coordination between clients and service providers.",
+          "Developed an event planning web application enabling users to schedule parties or ceremonies, browse and book service providers (bands, decorators, caterers, entertainers), and manage bookings through an integrated calendar system."
+        ]
+      },
+      {
+        "job_title": "Web Developer - Intern",
+        "company": "Playsoft",
+        "start_date": "February - August 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed a web platform for Device Maintenance and Management. It helps individuals, professionals, and companies repair their faulty devices with fast and reliable service to keep their technology running smoothly.",
+          "Implemented a secure module allowing clients to register their devices, generate support tickets, and process online payments upon repair completion."
+        ]
+      },
+      {
+        "job_title": "Backend Developer - Intern",
+        "company": "Tagamuta Valley",
+        "start_date": "June - July 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Development of a web application to manage and track diagnostic testing processes in a medical laboratory, ensuring efficient asset control with a flexible, user-friendly interface.",
+          "Implemented a staff dashboard to register patients and doctors and to log and track every blood sample and its corresponding test."
+        ]
+      },
+      {
+        "job_title": "Mobile Developer - Intern",
+        "company": "Attijari Bank",
+        "start_date": "February - May 2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Development of a web and mobile e-banking solution enabling users to manage bank accounts and track transactions without the need to visit agencies.",
+          "Activation and deactivation of credit cards remotely, including loan simulations based on account balance."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Diploma in Mobile and Web Development and Multimedia",
+        "school": "TEK-UP University",
+        "year": null
+      },
+      {
+        "degree": "Bachelor's Degree in Software Engineering and Information Systems",
+        "school": "ISTIC - The Higher Institute of Information and Communication Technologies",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:30:55.425455+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9753,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

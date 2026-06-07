@@ -1,0 +1,69 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Ali_Gargouri_23022494.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Ali_Gargouri_23022494.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Ali_Gargouri_23022494.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "mali.gargouri@gmail.com",
+      "email": null,
+      "phone": null,
+      "location": "Sfax, Tunisie"
+    },
+    "expertise": {
+      "summary": "Développeur Full-Stack .NET et Angular avec trois ans d'expérience en startups.",
+      "hard_skills": [
+        "Angular",
+        "ASP. NET & ASP. NET Core",
+        "JavaScript & TypeScript",
+        "SQL Server & MySQL",
+        "Azure DevOps",
+        "Git & Tortoise SVN"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Full-Stack",
+        "company": "Lynx-ERP",
+        "start_date": "02/2023",
+        "end_date": "06/2024",
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Participé à la conception architecturale du framework ERP (backend + frontend Angular) utilisé en production.",
+          "Conçu et implémenté le système d'authentification et de sécurité (JWT) protégeant les données d'utilisateurs.",
+          "Appliqué SOLID, injection de dépendances et Clean Architecture pour réduire la dette technique de 70 %.",
+          "Optimisé les performances backend (requêtes SQL + cache Redis) avec une amélioration moyenne de 65 % sur les temps de réponse.",
+          "Mentoré 20+ stagiaires et juniors en revues de code et bonnes pratiques, améliorant significativement la qualité du codebase."
+        ]
+      },
+      {
+        "job_title": "Développeur Full-Stack (Stage)",
+        "company": "Acteol",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conçu et développé de A à Z une application Saa S de programmation et automatisation de publications Facebook/Instagram (preview temps réel, galeries dynamiques, variables).",
+          "Livré une solution Full-Stack scalable avec Angular + ASP. NET Core + SQL Server en 4 mois.",
+          "Garanti un frontend fluide et un backend performant tout en maintenant un code propre et testable."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:29:36.455250+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9429,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

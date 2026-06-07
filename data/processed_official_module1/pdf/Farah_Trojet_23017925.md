@@ -1,0 +1,83 @@
+## FARAH TROJET
+
+J unior Big Data & BI Engineer
+
+## EDUCATION
+
+### Ecole Polytechnique International
+- About Me
+### Engineering Degree in Big Data and Business Intelligence
+Computer Engineer specialized in Big Data and Business Intelligence, with strong expertise in data analysis, decision-making solutions, and database management. Focused on building data-driven dashboards and BI solutions to support business performance.
+- Institut Supérieur des Technologies de l'Information et de la Communication
+- Bachelors in Automation and Industrial Computing
+
+## PROFESSIONAL EXPERIENCE
+
+Contact
+### Internship
+**Date:** (FEB-2025 : Jul-2025)
+- Farah Trojet@Outlook. com
+- Designed an intelligent conversational assistant using Natural Language Processing (NLP) to understand user requests and provide contextual responses.
+
+## TECHNICAL SKILLS
+
+3 S (Standard Sharing Software) - Tunisia
+Linkedin. com/in/Farah Trojet in
+Tunis, Tunisia
+Key Skills
+Internship
+Axe Finance- Tunisia
+Power BI | SQL | Python | Data Modeling | ETL (SSIS, Talend) | SAP HANA | Hive | Kafka | Machine Learning | CI/CD
+Development of a web application to store CI/CD logs, generate dashboards, reports, and trigger alerts
+Internship
+Data & Business Intelligence :
+ALLCircuits- Tunisia
+Power BI, Tableau, SQL, Excel
+(Advanced), DAX, Data Modeling, Dashboard Development
+Data Engineering & ETL :
+(July 2021)
+SSIS, Talend, SAP HANA, Hadoop, Spark, Hive, Pig, Oracle, Mongo DB
+Internship
+Programming :
+Société Tunisienne de l'Électricité et du Gaz (STEG) - Tunisia
+Python, R, Java
+Dev Ops & Tools :
+Worked on a digital control system
+Git, Azure Dev Ops, Spring Boot, Spring Batch
+Databases
+Java Script
+Software Development
+soft skils
+Analytical Thinking
+Problem Solving
+Teamwork & Collaboration
+Communication & Presentation
+Adaptability & Continuous Learning
+Language
+Arabic
+English
+Tools: Hadoop, Spark, Hive, PIG, Python
+French
+Tools: Python, NLTK, Spa Cy, Transformers
+Tools: Tensor Flow, Keras, Open CV, Python
+
+## ACADEMIC PROJECTS
+
+### BI Project - Power BI & SQL
+- Created an interactive dashboard for analyzing large-scale web data and monitoring key performance indicators (KPIs). Tools: Power BI, SQL, DAX
+### BI Project - Decision Support System
+**Date:** (2022 - 2025)
+- Designed and implemented a Business Intelligence solution to optimize the performance of Orion Company. Built ETL processes, a data warehouse, and interactive dashboards for performance monitoring and decision-making. Tools: Talend, My SQL, Power BI
+### Big Data & Artificial Intelligence Project
+**Date:** (2019 - 2022)
+Implemented a Big Data architecture (Hadoop, Spark, Hive, PIG) for large-scale data processing and predictive analysis.
+### NLP Project - Intelligent Chatbot
+### Deep Learning - Computer Vision Project
+- Designed and developed an interactive Power BI dashboard to monitor 1000+ IT tickets, improving KPI visibility and tracking resolution performance.
+Developed a road violation detection system with license plate recognition, speed estimation, and detection of risky behaviors(no seatbelt, phone use while driving).
+**Date:** (Jun-2024 : Aug-2024)
+- Designed a cleaning machine for CMS nozzles
+
+## CERTIFICATES (IN PROGRESS)
+
+Certifications

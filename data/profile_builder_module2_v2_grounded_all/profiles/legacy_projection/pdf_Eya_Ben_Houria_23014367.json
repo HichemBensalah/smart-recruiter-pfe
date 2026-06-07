@@ -1,0 +1,72 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Eya_Ben_Houria_23014367.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Eya_Ben_Houria_23014367.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Eya_Ben_Houria_23014367.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "EYA BEN HOURIA",
+      "email": "7@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieure en informatique spécialisée dans le développement full-stack d'applications web et mobiles.",
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Python (FastAPI)",
+        "PostgreSQL",
+        "Docker",
+        "Git",
+        "Jira"
+      ],
+      "soft_skills": [
+        "Agile Scrum",
+        "Mise en place de systèmes d'authentification robustes",
+        "Développement de solutions performantes, intelligentes et durables"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception d'une interface intuitive visant à simplifier les processus RH et améliorer l'accessibilité",
+          "Mise en place d'un système d'authentification robuste basé sur les rôles, garantissant la confidentialité et l'intégrité des données"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Informatique spécialité Génie Logiciel (SAE)",
+        "school": "ESPRIT - École Supérieure Privée d'Ingénierie et de Technologies",
+        "year": null
+      },
+      {
+        "degree": "Licence en Sciences Informatique - Génie Logiciel et Systèmes d'Information",
+        "school": "ISIMM Institut Supérieur d'Informatique et de Mathématiques de Monastir",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:55:46.462292+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8028,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

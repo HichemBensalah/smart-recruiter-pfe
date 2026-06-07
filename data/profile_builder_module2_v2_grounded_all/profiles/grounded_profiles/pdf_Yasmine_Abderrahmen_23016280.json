@@ -1,0 +1,164 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Yasmine_Abderrahmen_23016280.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Yasmine_Abderrahmen_23016280.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8433,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nYasmine Abderrahmen\n\n## TECHNICAL SKILLS\n\nSoftware Engineer\nyasmine. abderrahmen 08@gmail.com\nKsibet El Mediouni, Monastir\nlinkedin.com/in/yasmineabd/github. com/yasmine 813\nENIT computer engineering graduate with experience in designing and developing software applications, skilled in delivering user-focused, high-quality solutions that are efficient and scalable.\nStack: Spring Boot, Java, Angular, MySQL, Docker, Kubernetes, GitHub Actions\nDeployed and orchestrated multi-service architecture using Kubernetes (Minikube) for a production-like environment.\nSoftware Project, ENIT\nDevelopment of an e-commerce platform based on a microservices architecture\nStack: Spring Boot, Java, Angular, MySQL, Docker\nSummer internship, Proxym\nBackend system for managing insurance contracts and calculating quotations.\nStack: Java, Spring Boot, PostgreSQL\nWorked on life insurance and banking software, along with an expense tracker application.\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\nIntegrated an AI-based model to automatically generate personalized tests according to collaborators' profiles and skill levels.\nBuilt and automated a CI pipeline with GitHub Actions including build, tests, and Docker image generation.\nDeveloped a full-stack e-commerce platform using microservices to manage products, orders, payments, and users, ensuring modularity and scalability.\nImplemented REST APIs, frontend components, and integrated services to ensure proper communication between modules\nDeployed the platform using Docker and Kubernetes, enabling isolated environments for each service and easy orchestration\nDeveloped REST APIs for policy creation, pricing computation, and data persistence, ensuring consistency and reliability of insurance data.\nDeveloped a full-stack web application for booking and managing hiking trips, including user authentication, profiles, and payment processing.\nBuilt interactive and user-focused features: destination cards, reservation management, detailed hiking pages, ratings & reviews, and real-time chat between hikers and organizers.\n\n## PROFESSIONAL EXPERIENCE\n\n## PFE, Mobelite\n**Date: ** 02/2025 - 07/2025 | Moanstir\n- Platform for Team Skills Monitoring and Continuous Training\n- Designed and developed a full-stack platform for employee skills monitoring and continuous training, including performance dashboards, training management, and learning progress tracking.\n- Designed and implemented backend services to manage insurance contracts and automate quotation calculations based on business rules.\n\n## PFA 2, ENIT\n\nPlatform for booking and discovering hiking trails\nStack: Java, Spring Boot, PostgreSQL\nSummer internship, Vermeg",
+    "header_info": {
+      "full_name": "Yasmine Abderrahmen",
+      "email": "08@gmail.com",
+      "phone": null,
+      "location": "Ksibet El Mediouni, Monastir",
+      "linkedin": "linkedin.com/in/yasmineabd/github.",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6515,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[2].responsibilities[0]",
+      "expertise.soft_skills[1]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": [
+      "experiences[2].responsibilities[0]",
+      "expertise.soft_skills[1]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Yasmine Abderrahmen",
+      "email": "08@gmail.com",
+      "phone": null,
+      "location": "Ksibet El Mediouni, Monastir",
+      "linkedin": "linkedin.com/in/yasmineabd/github.",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "junior",
+      "years_experience": 1,
+      "hard_skills": [
+        "Spring Boot",
+        "Java",
+        "Angular",
+        "MySQL",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions"
+      ],
+      "soft_skills": [
+        "delivering user-focused solutions"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Mobelite",
+        "job_title": null,
+        "start_date": "02/2025 - 07/2025",
+        "end_date": null,
+        "city": "Monastir",
+        "responsibilities": [
+          "designing and developing a full-stack platform for employee skills monitoring and continuous training"
+        ]
+      },
+      {
+        "company": "ENIT",
+        "job_title": "PFA 2",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "developing a full-stack platform for booking and discovering hiking trails"
+        ]
+      },
+      {
+        "company": "Proxym",
+        "job_title": "Summer internship",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "ENIT",
+        "degree": "computer engineering graduate",
+        "field": "ENIT computer engineering",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:02:47.665468+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

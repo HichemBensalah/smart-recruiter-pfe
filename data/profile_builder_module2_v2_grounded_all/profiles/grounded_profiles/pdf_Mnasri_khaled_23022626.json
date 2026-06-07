@@ -1,0 +1,175 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mnasri_khaled_23022626.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mnasri_khaled_23022626.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9272,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nKhaled Mnasri/phone\n+216-28366730/envelope/envelope\nDéveloppeur Full-Stack\ncontact.mnasrikhaled@gmail.com\n\n## PROFESSIONAL SUMMARY\n\nProfil Linked In/linkedin/linkedin\nAdresse: Rue Habib Chatti, Manar 1, Tunis, Tunisie\nProfil GitHub/github/github\n\n## LANGUAGES\n\nLangues: Arabe, Anglais (B 2 - Certifié) et Français\n\n## EDUCATION\n\nFormation\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience professionnelles\n· TPE - Textile Print and Embroidery\nStagiaire Développeur Full-Stack\nBizerte\n-Développement d'une application de gestion d'entreprise (web RH, mobile production, backend centralisé) avec React. js, React Native, Node. js/Express. js et MongoDB\n-Intégration d'un assistant IA pour automatiser certaines tâches dans le module RH (Mistral AI)\n-Mise en place de tableaux de bord Power BI pour le suivi des performances et l'aide à la décision\n\n## · DEEP 2 DO\n\nStagiaire Développeur Mobile/Front-end\nTunis\nDéveloppement d'une application mobile de gestion des absences avec QR code\n-(Flutter, Spring Boot, PostgreSQL)\n-Conception du front-end mobile et des fonctionnalités principales\n-Participation au développement du backend et de la base de données\n\n## · WEVIOO\n\nStagiaire Développeur Web\nTunis\n-Développement d'une application web de gestion des stagiaires avec système d'authentification complet (React. js, Node. js/Express. js, MongoDB)\n\n## ACADEMIC PROJECTS\n\n## Personal Projects\n**Date: ** Mars 2025 - Août 2025\n- · Comparateur de prix innovant basé sur le web scrapping\n## Technologies: Angular, Spring Boot, MongoDB, Python (web scraping), Anaconda\n**Date: ** Avr 2024 - Juil 2024\n- Développement d'une application web de comparaison de prix avec collecte automatisée des données (web scraping)\n- Mise en place des fonctionnalités principales: comparaison de produits, gestion des favoris et alertes de prix\n\n## TECHNICAL SKILLS\n\n· Projet académique DevOps - Intégration et déploiement continu\nTechnologies: Git/GitHub, Spring Boot, Maven, JUnit, Mockito, Sonar Qube, Jenkins, Docker, Nexus\n-Mise en place d'une chaîne DevOps pour une application Spring Boot\n-Intégration continue avec Jenkins, tests unitaires et analyse de code\n-Déploiement de l'application avec Docker et gestion des artefacts\nCompétences techniques\nLangages\n: JavaScript, Python, Java\nFrameworks: MERN Stack (MongoDB, Express. js, React. js, Node. js), Spring Boot\nTechnologies/Concepts\n: REST API, JWT, JSON, MVC Pattern, Web Services\nOutils de développement\n: Visiual Studio Code, Intellij IDEA, Git/Bash, Docker, Postman, Swagger UI\nNotions/Outils complémentaires\n: Microsoft Power BI, Anaconda, Jenkins, Elasticsearch, Ollama\nBases de données\n: Mongodb, Postgresql\nMéthodologies/Modélisation\n: Agile/SCRUM, modèle en cascade (Waterfall), UML\nDesign UI/UXs\n: Figma, Canva\nOutils de documentation\n: La Te X, Word/Google Docs\nDynamique et motivé, Organisé et méthodique, Ponctuel et diplomate .\nDéveloppement web et IA, Sport (football, fitness), Montage vidéo .\n\n## SOFT SKILLS\n\nCentres d'intérêt et qualités personnelles\nQualités personnelles:\nCentres d'intérêt:",
+    "header_info": {
+      "full_name": "Khaled Mnasri/phone",
+      "email": "contact.mnasrikhaled@gmail.com",
+      "phone": "+216-28366730",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9854,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].city",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[2].city",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Khaled Mnasri",
+      "email": "contact.mnasrikhaled@gmail.com",
+      "phone": "+216-28366730",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "React.js",
+        "React Native",
+        "Node.js/Express.js",
+        "MongoDB",
+        "Flutter",
+        "Spring Boot",
+        "PostgreSQL",
+        "Angular",
+        "Python (web scraping)",
+        "Anaconda"
+      ],
+      "soft_skills": [
+        "Dynamique et motivé",
+        "Organisé et méthodique",
+        "Ponctuel et diplomate"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "TPE - Textile Print and Embroidery",
+        "job_title": "Stagiaire Développeur Full-Stack",
+        "start_date": null,
+        "end_date": null,
+        "city": "Bizerte",
+        "responsibilities": [
+          "Développement d'une application de gestion d'entreprise (web RH, mobile production, backend centralisé) avec React. js, React Native, Node. js/Express. js et MongoDB",
+          "Intégration d'un assistant IA pour automatiser certaines tâches dans le module RH (Mistral AI)",
+          "Mise en place de tableaux de bord Power BI pour le suivi des performances et l'aide à la décision"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Stagiaire Développeur Mobile/Front-end",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement d'une application mobile de gestion des absences avec QR code",
+          "(Flutter, Spring Boot, PostgreSQL)",
+          "Conception du front-end mobile et des fonctionnalités principales",
+          "Participation au développement du backend et de la base de données"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Stagiaire Développeur Web",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement d'une application web de gestion des stagiaires avec système d'authentification complet (React. js, Node. js/Express. js, MongoDB)"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Arabe",
+      "Anglais (B 2 - Certifié)",
+      "Français"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:28:03.029111+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

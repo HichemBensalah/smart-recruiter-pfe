@@ -1,0 +1,69 @@
+## HEADER
+
+Hanin Sakhri
+Mobile & Frontend Engineer
+Android · React · AI/ML Integration
+hanin. sakhri 1@gmail. com
+linkedin. com/in/sakhri-hanin
+github. com/Nostalgia Sk
+Mobile and frontend engineer with 3 years delivering production-grade Android, cross-platform, and React applications integrated with AI/ML capabilities. Shipped on-device TFLite inference, real-time geofencing systems, and full-stack platforms. Adept at clean architecture patterns in fast-paced, remote-first environments.
+
+## PROFESSIONAL EXPERIENCE
+
+Experience
+Mobile Engineer · Xtendplex
+### Tunis, Tunisia
+**Date:** Sep 2023 - March 2026
+- Age & Gender Detection · Ad Recommendation Engine
+Engineered an on-device Tensor Flow Lite inference pipeline in Kotlin , achieving ~90% classification accuracy while eliminating server round-trips entirely.
+Integrated Open CV preprocessing to cut the false-positive rate by an estimated 30%, enabling precise demographic-targeted ad delivery.
+- Virtual Ticket Reservation System
+- Built a cross-platform clinic queue app ( Ionic/Angular/Type Script ) that reduced estimated patient wait time by 40% through digital queuing and real-time slot management.
+- Delivered GPS geofencing for automatic check-in/cancellation and QR-code ticketing paired with push and email notifications. Smartystore Analytics Dashboard · Farm Evaluation App
+Architected a React/Type Script analytics dashboard using Atomic Architecture with 10+ API-driven metric widgets, achieving sub-200 ms render times.
+- Shipped a Jetpack Compose cross-platform farm scoring tool that streamlined property assessment workflows for buyers and sellers.
+### Mobile Developer Intern · Telnet
+**Date:** Feb - May 2023
+### Tunis, Tunisia
+- Built an ARCore -powered interactive product manual that reduced technician onboarding time by an estimated 50%.
+Developed a real-time Wi-Fi signal diagnostic visualizer using Wi Fi Manager API with custom 3 D rendering, improving fieldsupport diagnostics.
+
+## ACADEMIC PROJECTS
+
+### Projects
+**Date:** 2025
+- Structify - AI Backend Architecture Generator · github. com/Nostalgia Sk · Node. js · React · Groq AI · Mermaid
+- Designed an AI platform that transforms natural-language product descriptions into complete backend blueprints in under 10 seconds using Groq AI (Llama 3. 3 70 B) .
+- Automated generation of ER and UML class diagrams via Mermaid; architected full-stack system with Node. js/Express/Type Script and React/Ant Design .
+- Step Wise - Gamified E-Learning Platform · github. com/Nostalgia Sk · React · Type Script · Vite · Zustand
+Engineered XP leveling, leaderboards, and streak-based gamification; managed server state via React Query and client state with Zustand/Immer , documented in Storybook .
+**Date:** 2025
+Achieved comprehensive test coverage using Jest , React Testing Library , and MSW API mocking across all critical user flows.
+**Date:** Jan - Apr 2025
+- Appointment Booking Admin App ·
+- github. com/Nostalgia Sk · Flutter · Firebase · Clean Architecture
+Delivered a production Flutter (Android & i OS) booking platform featuring multi-staff scheduling, real-time availability, and push notifications.
+**Date:** 2023 - 2027
+
+## TECHNICAL SKILLS
+
+Skills
+Mobile
+Kotlin, Java, Jetpack Compose, Flutter, ARCore, Tensor Flow Lite, Open CV
+Frontend
+React, Type Script, Angular, Ionic, Ant Design, Zustand, React Query, Storybook, Vite
+Backend
+Node. js, Express. js, REST APIs, Firebase
+Tools & Practices
+Git, Git Lab, Jest, MSW, React Testing Library, MVVM, Clean Architecture, Atomic Architecture
+B. Eng. Software Engineering · Tekup University, Tunis
+B. Sc. Computer Science · Faculty of Sciences, Bizerte
+Scientific Baccalaureate · Pioneer High School, Beja
+
+## AI/ML
+
+Tensor Flow Lite (on-device inference), Open CV, Groq AI (Llama 3. 3 70 B), Mermaid
+
+## LANGUAGES
+
+Languages: Arabic (Native) | French (Professional) | English (Professional)

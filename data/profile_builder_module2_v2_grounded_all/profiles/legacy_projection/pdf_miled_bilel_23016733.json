@@ -1,0 +1,72 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\miled_bilel_23016733.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\miled_bilel_23016733.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\miled_bilel_23016733.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "BILEL MILED",
+      "email": null,
+      "phone": "+216 23 833 995",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "JavaScript/TypeScript",
+        "React",
+        "Dart-Flutter",
+        "C#",
+        "Node.js",
+        "Express.js"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "IT Gate",
+        "start_date": "SEP 2025 - OCT 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Design, UX, and development of a job platform application allowing companies to create and manage job offers and candidate applications.",
+          "Development of the backend using Express.js and MongoDB, managing data storage, authentication, and communication between the client and server."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Herodot Studio",
+        "start_date": "DEC 2021 - SEP 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Design, development, and maintenance of video games."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diploma in Computer Science",
+        "school": "Private Higher School of Engineering and Technology (ESPRIT)",
+        "year": "September 2015 - June 2021"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:25:53.174860+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9512,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

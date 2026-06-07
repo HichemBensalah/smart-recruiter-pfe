@@ -1,0 +1,197 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rayen_Hamdi_23015873.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rayen_Hamdi_23015873.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7843,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nRAYEN Hamdi\nIngénieur en informatique\nrayenrh 7 hamdi@yahoo.com\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeur Full Stack & Concepteur UI/UX, passionné par la création d'expériences web innovantes, performantes et centrées sur l'utilisateur. Je maîtrise un large éventail de technologies, notamment Laravel, Symfony, Spring Boot, React ainsi que le stack MERN (MongoDB, Express, React, Node. js). Fort d'expériences sur divers projets alliant backend robuste et interfaces utilisateur intuitives, j'adopte une approche qui combine expertise technique et sensibilité artistique. Actuellement, je suis à la recherche d'un poste en développement Full Stack, où je pourrai mettre à\n**Date: ** Freelance | 2023- 2024\n\n## TECHNICAL SKILLS\n\nprofit mes compétences pour contribuer activement à des projets ambitieux et innovants.\nCycle d'Ingénieur en Génie Logiciel et DevOps |\n2021 - 2023 Thèmes étudiés: Architecture logicielle, DevOps (Git Lab CI/CD),\nCOMPÉTENCES\nUI/UX Designer\nFramework: Laravel, Symfony, Spring Boot, Node. js, ReactJS, Flask\nLangages de programmation: JavaScript, php, Java, Python\nBases de données: MySQL, MongoDB, Oracle\nOutils: Docker, Git, Adobe XD, Photoshop\nAutres: Adaptabilité, gestion du temps, travail d'équipe, Résolution de problèmes\n, Prise de décision, Communication claire\n\n## EDUCATION\n\nPlateforme de formation en ligne: Développement d'une solution centralisée avec Laravel 8, Ajax, MySQL. Intégration de modules interactifs et suivi des apprenants (Laravel, JavaScript).\n**Date: ** UBWAYS Luxembourg | 2020-2021\n## Site web de gestion bancaire: Thymeleaf, Spring Boot, MySQL\n- Site e-commerce: Développement d'un front-end dynamique avec React et PHP 7.\n## Site web de gestion de réservation: PHP, JavaScript, j Query, MySQL.\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nDéveloppeur Full-Stack\nProjet: Plateforme web de gestion des passations d'infirmières ( passationifrmiere. site)\nDéveloppement d'une architecture full-stack avec Laravel, JavaScript, .\nGestion des bases de données MySQL et déploiement via Docker.\nCollaboration avec des équipes médicales pour répondre aux besoins métiers.\n\n## IA SCHOOL DE LYON\n\nMaster en Data Science et Analyse de Données | 2024 - 2025\n\n## MACHINE LEARNING & DEEP LEARNING\n\nThèmes étudiés: Machine Learning, Big Data (Spark), analyse de données.\n\n## INNOVUP | 2022-2023\n\nProjet: Plateforme collaborative https: //gbmltd . org/.\nIntégration d'API REST et développement de fonctionnalités utilisateur.\nOptimisation des performances backend et mise en place de tests unitaires.\nProjet: Plateforme e-learning pour enfants\nFront-end en React. js + Redux, back-end en Node. js/Express.\nConception d'un backend scalable en Node. js/Express. js et base de données avec MongoDB.\nStagiaire Développeur\nProjet: Application de gestion de stationnement\nDéveloppement d'un système de réservation en temps réel et intégration de paiements en ligne avec Laravel 8, MySQL\n\n## ISAMM MANOUBA\n\nMaster Professionnel en Ingénierie des Médias | 2020 - 2022\nThèmes étudiés: UX/UI (Figma), gestion de projet (Scrum), développement multimédia.\nLicence Appliquée en Communication et Multimédia | 2017 - 2020\nThèmes étudiés: Communication digitale, Graphisme, Développement web\n\n## LYCÉE HADIKA\n\nBaccalauréat en Informatique. | 2016-2017\n\n## DEVOLUTION | 2019-2020\n\nConception de maquettes et prototypage d'interfaces utilisateur pour des Applications web et mobiles.\n\n## PROJET ACADEMIQUE\n\nApplication de gestion des évaluations d'enseignement: Développement d'une solution centralisée avec Laravel 8, Ajax, MySQL.\n\n## LANGUAGES\n\nLANGUES\nArabe: langue Maternelle\nFrançais: courant\nAnglais: courant",
+    "header_info": {
+      "full_name": "RAYEN Hamdi",
+      "email": "hamdi@yahoo.com",
+      "phone": "2023- 2024",
+      "location": "Développeur Full Stack & Concepteur UI/UX, passionné par la création d'expériences web innovantes, performantes et centrées sur l'utilisateur. Je maîtrise un large éventail de technologies, notamment Laravel, Symfony, Spring Boot, React ainsi que le stack MERN (MongoDB, Express, React, Node. js). Fort d'expériences sur divers projets alliant backend robuste et interfaces utilisateur intuitives, j'adopte une approche qui combine expertise technique et sensibilité artistique. Actuellement, je suis à la recherche d'un poste en développement Full Stack, où je pourrai mettre à",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9569,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "RAYEN Hamdi",
+      "email": "hamdi@yahoo.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 10,
+      "hard_skills": [
+        "Laravel",
+        "Symfony",
+        "Spring Boot",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "JavaScript",
+        "php",
+        "Java",
+        "Python",
+        "Docker",
+        "Git",
+        "Adobe XD",
+        "Photoshop"
+      ],
+      "soft_skills": [
+        "Adaptabilité",
+        "Gestion du temps",
+        "Travail d'équipe",
+        "Résolution de problèmes",
+        "Prise de décision",
+        "Communication claire"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Développeur Full-Stack",
+        "start_date": "Freelance | 2023- 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une architecture full-stack avec Laravel, JavaScript, ",
+          "Gestion des bases de données MySQL et déploiement via Docker.",
+          "Collaboration avec des équipes médicales pour répondre aux besoins métiers."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeur Full-Stack",
+        "start_date": "Freelance | 2023- 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de réservation en temps réel et intégration de paiements en ligne avec Laravel 8, MySQL"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "UBWAYS Luxembourg",
+        "degree": null,
+        "field": null,
+        "year": "2020-2021"
+      },
+      {
+        "institution": "ISAMM MANOUBA",
+        "degree": "Master Professionnel en Ingénierie des Médias",
+        "field": null,
+        "year": "2020 - 2022"
+      },
+      {
+        "institution": "LYCÉE HADIKA",
+        "degree": "Baccalauréat en Informatique",
+        "field": null,
+        "year": "2016-2017"
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:25:43.446773+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

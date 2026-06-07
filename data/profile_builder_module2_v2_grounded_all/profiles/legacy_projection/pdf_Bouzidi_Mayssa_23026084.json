@@ -1,0 +1,86 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Bouzidi_Mayssa_23026084.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Bouzidi_Mayssa_23026084.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Bouzidi_Mayssa_23026084.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Maïssa Bouzidi",
+      "email": "bouzidiimaissa@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        ".NET Core"
+      ],
+      "soft_skills": [
+        "conception d'applications web évolutives",
+        "développement backend",
+        "création d'interfaces frontend performantes et réactives",
+        "amélioration des performances",
+        "participation aux choix techniques",
+        "conception d'API REST",
+        "amélioration de la scalabilité et de la maintenabilité"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeuse Full Stack",
+        "company": "Declitech",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "développement d'une application web de gestion de classes ( +9 000 utilisateurs ) avec Angular et Spring Boot",
+          "conception et intégration d' API REST (utilisateurs, cours, activités)",
+          "création d'interfaces responsives et interactives",
+          "amélioration des performances et participation aux choix techniques",
+          "intégration de la plateforme Vittascience"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "ISS 4 U",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "développement d'une application web avec ASP. NET Core et Angular"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence Appliquée en Informatique: Technologie Informatique Multimédia",
+        "school": "Institut Supérieur d'Informatique et de Multimédia de Sfax",
+        "year": "2021"
+      },
+      {
+        "degree": "Baccalauréat Mathématiques",
+        "school": "Lycée ibn rachik ezzahra",
+        "year": "2018"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:47:11.505593+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8264,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

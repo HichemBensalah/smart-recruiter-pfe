@@ -1,0 +1,107 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\oumayma_ben_khlif_23014721.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\oumayma_ben_khlif_23014721.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\oumayma_ben_khlif_23014721.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Oumayma Benkhlif",
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Conception d'un système complet de gestion des offres et profils, intégration frontend Angular avec composants interactifs",
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Spring Security",
+        "Web Socket",
+        "Docker",
+        "PWA",
+        "OCR"
+      ],
+      "soft_skills": [
+        "Rédactrice Web- Freelance",
+        "Conseillère Média",
+        "Création de contenus (visuels, textes )",
+        "Couverture médiatique des événements"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Testeur Fonctionnel d'Application - TVS",
+        "company": null,
+        "start_date": "Août. 2025",
+        "end_date": "Oct. 2025",
+        "city": null,
+        "responsibilities": [
+          "Réalisation de tests fonctionnels pour vérifier le bon fonctionnement des applications internes.",
+          "Contrôle de la stabilité et des performances des principales fonctionnalités.",
+          "Détection, suivi et rédaction de rapports d'anomalies pour l'équipe de développement.",
+          "Contribution à l'amélioration des applications grâce à des propositions de corrections et d'optimisations."
+        ]
+      },
+      {
+        "job_title": "Développeuse Full Stack - Task Manager: Application de gestion de tâches Projet Freelance",
+        "company": null,
+        "start_date": "Mars. 2025",
+        "end_date": "Juin. 2025",
+        "city": null,
+        "responsibilities": [
+          "Gestion des rôles utilisateurs et workflows internes"
+        ]
+      },
+      {
+        "job_title": "Développeuse Full Stack - Projet de fin d'études - Smart Up",
+        "company": null,
+        "start_date": "Juil. 2022",
+        "end_date": "Sept. 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une Progressive Web App dédiée à la gestion des candidatures, avec espaces candidats et administrateurs.",
+          "Ajout d'OCR pour automatiser l'extraction d'informations.",
+          "Déploiement Docker + approche PWA."
+        ]
+      },
+      {
+        "job_title": "Stagiaire Développeuse Full Stack - Projet de fin d'études - 3 S: Standard Sharing Software",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et réalisation d'une application web pour la gestion de relation client a distance."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en technologie de l'information et de la communication spécialité traitement de signal et multimédia",
+        "school": "Université de Tunis El Manar, Faculté des Sciences de Tunis (FST)",
+        "year": "2022"
+      },
+      {
+        "degree": "Master Professionnel Systèmes Télécommunications et Réseaux",
+        "school": "Université de Tunis El Manar, Faculté des Sciences de Tunis (FST)",
+        "year": "2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:22:12.669440+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8058,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\melek_messaoudi_23019247.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\melek_messaoudi_23019247.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.871,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMelek Messaoudi\nLinked In\nGitHub\nmelek.messaoudi@esprit.tn\nBen Arous, Tunis\n\n## PROFESSIONAL SUMMARY\n\nSUMMARY\n\n## TECHNICAL SKILLS\n\nFinal-year Cloud & DevOps Engineering student at ESPRIT with proven experience in cloud infrastructure, DevOps practices, and IT architecture. Skilled in CI/CD automation, infrastructure as code, monitoring, and container orchestration, with additional exposure in QA and test automation. Passionate about delivering scalable, secure, and efficient systems, and available from February 2026 for a PFE internship.\nArchitect and cloud intern engineer\nAutomated VM provisioning and backups using Proxmox Backup Server + Min IO object storage .\nAutomated infrastructure deployment and configuration using Terraform .\nTranstu\nFull Stack Developer Intern\nApplied Agile Scrum methodology across sprints with GitHub for version control and Slack for collaboration.\nQuality Box(PFE)\nQA Automation intern\nIntegrated testing into CI/CD pipelines for continuous delivery\nUtilized tools such as Lambda Test, Robot Framework, and Testmo for test execution, management, and cross-platform validation.\nEsprit\nHybrid Cloud & AI-Integrated Application Project\nDeployed a private cloud environment using Open Stack (Dalmatian) with compute, storage, and networking services.\nAutomated provisioning, configuration, and deployment with Ansible playbooks .\nIntegrated AI modules (recommendation system, face recognition, intelligent data processing).\nEnsured scalability and automated rollouts using Kubernetes deployment strategies .\nDevOps CI/CD Application\nSet up a CI/CD pipeline with Jenkins for automated testing and deployment.\nMonitored application performance and resource utilization for continuous optimization.\nSKILLS\nStorage & High Availability\nCloud & Virtualization\nIa C & Monitoring\nProxmox VE\nCeph, High Availability Architecture (HA)\nOpen Stack\nNFS\nAWS\nTest Automation\nCI/CD & Code Quality\nContainerization & Orchestration\nSelenium\nJenkins\nDocker\nAppium\nSonar Qube\nKubernetes\nPostman\nAWS Academy Graduate Cloud Foundations\nCCNA: Switching, Routing, and Wireless Essentials\nAWS Academy Graduate Cloud Operations\nLFS 162: Introduction to DevOps and Site Reliability Engineering\nFrench\nArabic\nIntermediate\nNative\n\n## PROFESSIONAL EXPERIENCE\n\nTelecom\n## Enhanced UX with PWA capabilities for a smart, cross-platform experience.\n**Date: ** Lafayette, Tunis Feb 2023-June 2023\n- Containerized the solution with Docker and deployed it into a Kubernetes cluster.\n- Built a private cloud infrastructure with Proxmox VE + Ceph for storage, HAProxy for load balancing, and DNS integration.\n- Implemented monitoring with Prometheus and Grafana for real-time metrics and alerting.\n- Developed a Symfony-based web application for automating fuel voucher management and consumption tracking.\n- Implemented automated tests using Selenium and Appium\n- Implemented RBAC and resource quotas for secure multi-tenancy.\n- Built a self-healing infrastructure using Prometheus & Grafana for real-time monitoring.\n- Designed a hybrid cloud strategy extending resources with AWS for scalability and redundancy.\n- Developed a full-stack web app using Angular (frontend) and Spring Boot (backend) .\n\n## ACADEMIC PROJECTS\n\nPROJECTS\n\n## EDUCATION\n\n## Engineering Degree in Computer Science\n## Private Higher School of Engineering and Technology (ESPRIT), Ariana, Tunis\n**Date: ** Sep 2023 - Present\n## Bachelor's Degree in Computer Engineering\n## Faculty of Sciences of Bizerte, Bizerte, Tunisia Sep 2019 - Jun 2023\n**Date: ** Carthage, Tunis June 2025-August 2025\n**Location: ** Ansible, Terraform\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATES\n\n## LANGUAGES\n\nEnglish\nFluent",
+    "header_info": {
+      "full_name": "Melek Messaoudi",
+      "email": "melek.messaoudi@esprit.tn",
+      "phone": null,
+      "location": "Ben Arous, Tunis",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9742,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].responsibilities[7]",
+      "experiences[0].responsibilities[8]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Melek Messaoudi",
+      "email": "melek.messaoudi@esprit.tn",
+      "phone": null,
+      "location": "Ben Arous, Tunis",
+      "linkedin": "Linked In",
+      "github": "GitHub"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "CI/CD automation",
+        "infrastructure as code",
+        "monitoring",
+        "container orchestration",
+        "QA and test automation",
+        "Cloud infrastructure",
+        "DevOps practices",
+        "IT architecture",
+        "Terraform",
+        "Proxmox Backup Server",
+        "Min IO object storage",
+        "Ansible",
+        "Jenkins",
+        "Kubernetes",
+        "Docker",
+        "Selenium",
+        "Appium",
+        "Postman"
+      ],
+      "soft_skills": [
+        "Passionate about delivering scalable, secure, and efficient systems",
+        "Agile Scrum methodology",
+        "Version control",
+        "Collaboration tools",
+        "Test execution, management, and cross-platform validation",
+        "Real-time metrics and alerting",
+        "Secure multi-tenancy",
+        "Self-healing infrastructure"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Telecom",
+        "job_title": "Enhanced UX with PWA capabilities for a smart, cross-platform experience.",
+        "start_date": "Feb 2023-June 2023",
+        "end_date": null,
+        "city": "Lafayette, Tunis",
+        "responsibilities": [
+          "Containerized the solution with Docker and deployed it into a Kubernetes cluster.",
+          "Built a private cloud infrastructure with Proxmox VE + Ceph for storage, HAProxy for load balancing, and DNS integration.",
+          "Implemented monitoring with Prometheus and Grafana for real-time metrics and alerting.",
+          "Developed a Symfony-based web application for automating fuel voucher management and consumption tracking.",
+          "Implemented automated tests using Selenium and Appium",
+          "Implemented RBAC and resource quotas for secure multi-tenancy.",
+          "Built a self-healing infrastructure using Prometheus & Grafana for real-time monitoring.",
+          "Designed a hybrid cloud strategy extending resources with AWS for scalability and redundancy.",
+          "Developed a full-stack web app using Angular (frontend) and Spring Boot (backend)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Private Higher School of Engineering and Technology (ESPRIT), Ariana, Tunis",
+        "degree": "Engineering Degree in Computer Science",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Faculty of Sciences of Bizerte, Bizerte, Tunisia",
+        "degree": "Bachelor's Degree in Computer Engineering",
+        "field": null,
+        "year": [
+          "Sep 2019 - Jun 2023",
+          "June 2025-August 2025"
+        ]
+      }
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Arabic"
+    ],
+    "certifications": [
+      "AWS Academy Graduate Cloud Foundations",
+      "CCNA: Switching, Routing, and Wireless Essentials",
+      "AWS Academy Graduate Cloud Operations",
+      "LFS 162: Introduction to DevOps and Site Reliability Engineering"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:22:15.182895+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

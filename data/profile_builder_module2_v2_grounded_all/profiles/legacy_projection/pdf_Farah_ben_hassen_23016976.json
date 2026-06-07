@@ -1,0 +1,87 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Farah_ben_hassen_23016976.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Farah_ben_hassen_23016976.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Farah_ben_hassen_23016976.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "FARAH BENHASSEN",
+      "email": "benhassen.farah@esprit.tn",
+      "phone": "+216 24387202",
+      "location": "Ariana tunisie"
+    },
+    "expertise": {
+      "summary": "Bigdeal. tn",
+      "hard_skills": [
+        "Spring Boot",
+        ".NET Core",
+        "Angular",
+        "Flask Java",
+        "JavaScript (React, Node. js)",
+        "Python (Django, DRF)",
+        "C",
+        "C++",
+        "PHP",
+        "C#",
+        "MySQL",
+        "MongoDB",
+        "SQL Server",
+        "Oracle",
+        "PostgreSQL",
+        "GitHub",
+        "Linux",
+        "Visual Studio Code",
+        "Intelli J",
+        "Android Studio",
+        "Net Beans",
+        "Visual Studio Community",
+        "Code: : Blocks",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Postman",
+        "Swagger",
+        "Celery",
+        "Redis"
+      ],
+      "soft_skills": [
+        "Teamwork",
+        "Communication",
+        "Creativity",
+        "Problem Solving"
+      ]
+    },
+    "experiences": [],
+    "education": [
+      {
+        "degree": "Bachelor's Degree in Electronics, Electrotechnics and Automation",
+        "school": "Esprit",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "ISI Ariana",
+        "year": null
+      },
+      {
+        "degree": "Baccalaureate in Technical Science",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:59:22.348016+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9477,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

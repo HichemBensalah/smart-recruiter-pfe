@@ -1,0 +1,150 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Samar_Khayati_23020974.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Samar_Khayati_23020974.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8751,
+  "normalization": {
+    "cleaned_markdown": "## SAMAR KHAYATI\n\nCONSULTANTE BI | DATA ANALYSTE | DÉVELOPPEUSE BI\nkhayatisamar 724@gmail.com | 22 138 910 |Borj louzir, Ariana, Tunisie\n\n## PROFESSIONAL SUMMARY\n\nProfil Linked In: http: //www.linkedin.com/in/khayati-samar\nPROFIL\n\n## TECHNICAL SKILLS\n\nJeune diplômée en Informatique de Gestion, spécialisée en Business Intelligence, je possède une forte orientation vers la data, l'analyse décisionnelle et la programmation. J'ai acquis une expérience significative en collecte, structuration et analyse de données, ainsi qu'en création de tableaux de bord interactifs avec Power BI, SQL et Dash . Compétente en Python, Java, C et PHP, je développe également des outils analytiques et des solutions basées sur l' IA pour soutenir la prise de decision. J'ai exercé mes compétences dans des environnements professionnels variés, chez Fin Connect Financial Solutions et Évolutive, en adoptant une approche rigoureuse, autonome et orientée résultats.\nMission - Intégration et mise à jour des données - Evolutive-Tunis\nStage PFE - Business Intelligence, Fin Connect Financial Solutions - Ariana\nStage d'été- Informatique de Gestion, Minoterie De La Soukra - Tunis\nIntégration de l'Intelligence Artificielle et de la Business Intelligence pour l'évaluation des risques financiers et de change dans le cadre de Bâle.\nLicence Appliquée en Informatique de Gestion - Spécialité Business Intelligence\nCOMPÉTENCES\ngestion de dossiers, coordination interne\nBusiness Intelligence & Data Analytics: Power BI, Dash, SQL Server.\n Microsoft Office: Word, Excel, Power Point, Excel avancé, Access\n Outils digitaux & plateformes: ERP, CRM, SCM, EDI\nPython, Java, C, PHP.\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nStage - Assistante de bureau, Architecte- Ariana\n\n## EDUCATION\n\nMémoire de fin d'études\nFaculté des Sciences Économiques et de Gestion de Nabeul Diplômée avec mention Bien\n## Baccalauréat en Économie et Gestion\n**Date: ** Décembre 2025 - Janvier 2026\n**Location: ** Scrum, Project Libre\n- Lycée Borj Louzir- Ariana Diplômée avec mention Assez Bien\n\n## MACHINE LEARNING & DEEP LEARNING\n\n Intelligence Artificielle & Machine Learning: Modèles LSTM, GARCH, régression LASSO, prévision et analyse de données financières\n Programmation:\n Administration & Communication: Accueil, LANGUE\n Arabe:\nLangue maternelle\nFrançais:\nCourant (oral et écrit)\nAnglais: intermédiaire\nEspagnol: Niveau de base\n\n## ACADEMIC PROJECTS\n\nGestion de projet:\nCentre d'intérêt\n Dessin\n Sport: handball\n L'écriture\n Développement",
+    "header_info": {
+      "full_name": "SAMAR KHAYATI",
+      "email": "724@gmail.com",
+      "phone": "22 138 910",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/khayati-samar",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.975,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Samar Khayati",
+      "email": "724@gmail.com",
+      "phone": "22 138 910",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/khayati-samar",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Power BI",
+        "Dash",
+        "SQL Server",
+        "Python",
+        "Java",
+        "C",
+        "PHP"
+      ],
+      "soft_skills": [
+        "gestion de dossiers",
+        "coordination interne",
+        "gestion de dossiers",
+        "communication",
+        "administration"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Ariana",
+        "responsibilities": [
+          "Intégration de l'Intelligence Artificielle et de la Business Intelligence pour l'évaluation des risques financiers et de change dans le cadre de Bâle."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Diplôme avec mention Bien",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Borj Louzir",
+        "degree": "Baccalauréat en Économie et Gestion",
+        "field": null,
+        "year": "Décembre 2025 - Janvier 2026"
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais",
+      "Espagnol"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:38:13.696570+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,54 @@
+## HEADER
+
+Mohamed Aziz Ouerghi/envelope werghia. 1@gmail. com ·/phone +216 29 836 507 ·/github github. com/ouerghi 01/linkedin Linked In ·/globe Portfolio
+
+## TECHNICAL SKILLS
+
+Full Stack Engineer (Mid-Senior Level) · Java/Spring Boot · Angular/React · Dev Ops
+Java Full Stack Engineer Mid-Senior level with hands-on experience building scalable applications using Spring Boot and Angular. Experienced in developing microservices, REST APIs, and deploying applications using Docker and CI/CD pipelines. Comfortable working in Agile and Dev Ops environments, contributing from design to production. Strong focus on clean code, performance optimization, and delivering reliable software solutions. Recognized as a confirmed-level (niveau confirmé) engineer with strong autonomy across full-stack architecture, delivery, and Dev Ops workflows.
+Frontend: Angular, React. js, Type Script, Tailwind CSS, Material-UI, React Query, React Router, Context API, Responsive Design
+Backend: Java 17, Python, Fast Api, Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs, JWT, Microservices
+Databases: Postgre SQL (advanced queries, indexing, optimization), My SQL, Mongo DB
+Dev Ops & Tools: Docker, Git Hub Actions, CI/CD, Linux (shell scripting), Nginx, AWS, EC 2
+Testing & Quality: JUnit, Mockito, React Testing Library, Postman, Swagger
+Concepts: Clean Architecture, SOLID, OOP , Real-time (Web Sockets), RBAC, Performance Optimization
+Full Stack Software Engineer
+BRI Technology
+Architected and developed end-to-end full-stack features using Spring Boot + React, delivering 8+ production features that improved system performance by 40% and reduced API latency.
+Containerized full applications with Docker and automated deployment pipelines using Git Hub Actions + Nginx, achieving zero-downtime releases.
+Worked in a Dev Ops-oriented environment using CI/CD pipelines, Docker, and Linux, contributing to automated deployments and continuous integration workflows.
+Actively participated in Agile ceremonies, code reviews, and architecture decisions, consistently delivering high-quality code ahead of sprint deadlines.
+Software Engineer Intern (PFE)
+Feb 2025 - Jun 2025 Tunisia
+BRI Technology
+Applied clean architecture principles across backend and frontend layers, enhancing code maintainability, scalability, and team collaboration efficiency.
+Engineered a production-grade ride-sharing platform from scratch, covering the full lifecycle: system design, backend architecture, frontend web app, mobile application, CI/CD, and cloud deployment. The platform supports core ride-hailing flows including user/driver onboarding, ride booking, real-time tracking, and secure transactions.
+Containerized the entire system using Docker and orchestrated services via Docker Compose, enabling consistent runtime environments and simplifying deployment workflows.
+Deployed the platform on AWS with production-grade infrastructure setup including Nginx reverse proxy, SSL configuration, and domain management via Hostinger, ensuring secure and scalable access in production.
+Improved system observability and performance, achieving sub-150 ms average API response time and 98% backend test coverage through automated testing and performance optimizations.
+
+## PROFESSIONAL EXPERIENCE
+
+Developed frontend applications using Angular and React with Type Script, focusing on performance, scalability, and user experience.
+Designed and implemented secure, scalable RESTful APIs with Spring Boot, Spring Security, JWT authentication and RBAC, handling thousands of concurrent requests.
+- Designed a multi-environment deployment strategy (local, development, production) with strict configuration isolation, ensuring safe and reproducible deployments across environments.
+Optimized Postgre SQL database schemas and queries (indexing + caching), reducing query execution time by 50% and enabling faster data retrieval.
+- Collaborated closely with frontend and product teams in an Agile environment to deliver productionready features and improve user experience.
+- hanoutiwr. com
+- Implemented CI/CD pipelines using Git Hub Actions to automate build, testing, and deployment processes, reducing manual intervention and enabling continuous delivery of updates.
+- Delivered a complete end-to-end production system demonstrating strong ownership across architecture, backend scalability, frontend optimization, mobile integration, and Dev Ops practices.
+Built a high-performance Next. js frontend with server-side rendering (SSR) and optimized routing strategies, improving initial load performance and enabling strong SEO indexing for public-facing pages.
+**Date:** Aug 2025 - Apr 2026 Tunisia
+- Designed a scalable backend architecture using Spring Boot with a modular domain-driven structure, implementing RESTful APIs secured with Spring Security (JWT-based authentication, role-based access control) and real-time communication via Web Sockets for live trip updates.
+Developed a cross-platform Flutter mobile application to provide native-like user and driver experiences, ensuring consistency across mobile and web ecosystems.
+Modeled and optimized a Postgre SQL relational schema with careful attention to normalization, indexing strategies, and query performance tuning, enabling support for high-concurrency scenarios (10, 000+ simulated users) with stable response times.
+
+## ACADEMIC PROJECTS
+
+Designed and implemented an AI-powered assistant using Retrieval-Augmented Generation (RAG) with Python, Fast API, Lang Chain, and Cassandra for scalable knowledge storage and retrieval. Project available at: RAGent X Git Hub Repository.
+- PROJECTS
+- Developed full-stack modules using Spring Boot and React, integrating seamlessly with existing enterprise systems and improving overall platform extensibility.
+- Built and tested secure REST APIs and responsive UI components, contributing to a 30% improvement in application stability and reliability.
+### Ride-Sharing Platform (Flagship Project)
+**Date:** 2026
+- Spring Boot · Next. js · Flutter · Postgre SQL · Docker · AWS

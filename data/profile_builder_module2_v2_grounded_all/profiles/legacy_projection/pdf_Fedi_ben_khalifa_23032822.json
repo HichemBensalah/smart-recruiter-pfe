@@ -1,0 +1,90 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Fedi_ben_khalifa_23032822.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Fedi_ben_khalifa_23032822.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Fedi_ben_khalifa_23032822.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Fedi ben khalifa",
+      "email": "benkalifa@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Passionné par le développement web et l'automatisation des processus de développement, avec une expérience pratique dans la conception d'applications full stack et la mise en place de pipelines CI/CD.",
+      "hard_skills": [
+        "Docker",
+        "Jenkins",
+        "Kubernetes",
+        "Ansible",
+        "React",
+        "Node.js",
+        "PHP",
+        "Angular",
+        "ASP .Net",
+        "MySQL",
+        "Express js"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web full-stack pour la réservation en ligne",
+          "Intégration d'une interface dynamique avec Angular",
+          "Gestion des utilisateurs, réservations et authentification (JWT)",
+          "Développement d'une plateforme permettant la gestion et la réservation d'événements",
+          "Création d'un système d'inscription utilisateur et gestion des participants",
+          "Implémentation d'un tableau de bord administrateur pour gérer les événements",
+          "Utilisation de MySQL pour la gestion des données",
+          "Conteneurisation d'application Laravel avec Docker",
+          "Déploiement de l'application avec Docker compose",
+          "La mise en place d'un CI/CD pipeline avec Jenkins",
+          "Pilotage de projet en utilisant la méthode agile Scrum",
+          "Prise de la gestion de base de données MySQL"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Février 2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Obtenir une connaissance sur ReactJS"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "2éme année Génie logiciel",
+        "school": "EPI Digital school",
+        "year": null
+      },
+      {
+        "degree": "Licence Réseaux et service informatique",
+        "school": "ISET Sousse",
+        "year": "2020-2024"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:03:46.243853+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9471,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

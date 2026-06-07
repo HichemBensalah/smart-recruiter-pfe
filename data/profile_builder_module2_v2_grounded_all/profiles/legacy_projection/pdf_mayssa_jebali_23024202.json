@@ -1,0 +1,83 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mayssa_jebali_23024202.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mayssa_jebali_23024202.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\mayssa_jebali_23024202.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MAYSSA JEBALI",
+      "email": "50@gmail.com",
+      "phone": null,
+      "location": "Tunis"
+    },
+    "expertise": {
+      "summary": "Engineering student with hands-on experience building and deploying real-world applications, from full-stack web platforms to AI-powered tools. Passionate about software development and always looking to learn.",
+      "hard_skills": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "PHP",
+        "C",
+        "Angular",
+        "ReactJS",
+        "NodeJS",
+        "Spring Boot",
+        "Flask",
+        "Flutter",
+        "MongoDB",
+        "MySQL",
+        "Oracle DB",
+        "AWS (EC 2, S 3)",
+        "Docker",
+        "Git",
+        "GitHub",
+        "Linux"
+      ],
+      "soft_skills": [
+        "Adaptability and Flexibility",
+        "Initiative and Proactivity",
+        "Intro to AI - 365 Data Science",
+        "Scrum fundamentals - Scrum Study"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "End-of-studies internship",
+        "company": "Elite Council Consulting",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Optimized MySQL database queries, reducing page load time by ~40%.",
+          "Built a custom PHP plugin enabling real-time Web Socket chat between buyers and sellers, improving conversion rate."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "National Engineering Diploma",
+        "school": "TEK-UP University Elgazala Technopark",
+        "year": null
+      },
+      {
+        "degree": "Bachelor's Degree in Information Technology",
+        "school": "Higher Institute of Technological Studies Charguia 2",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:18:21.231804+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9638,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

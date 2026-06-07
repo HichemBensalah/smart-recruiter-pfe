@@ -1,0 +1,165 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Fajraoui_Ghofrane_23014418.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Fajraoui_Ghofrane_23014418.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8395,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nFajraoui Ghofrane\nDiplˆ omes\n\n## TECHNICAL SKILLS\n\nIng´ enieure DevOps, Dev Sec Ops & QA\n+216 56 282 758 | ghofrane.fajraoui@esprit.tn | linkedin.com/in/fajraoui-ghofrane |\ngithub.com/Fajraoui Ghofrane\nR´ esum´ e\nDevOps & CI/CD\n: Jenkins, Azure DevOps, GitHub, Git Lab, Nexus, Sonar Qube\nConteneurisation & Orchestration\n: Docker, Kubernetes, Helm, Argo CD\nInfrastructure as Code\n: Terraform, Ansible\nTests & Assurance Qualit´ e\nTests fonctionnels, tests d'int´\negration, tests automatis´\nes, tests API\nOutils QA\n: Jira, Xray, Selenium, Postman, Soap UI\nMonitoring & Observabilit´ e\n: Prometheus, Grafana\nS´ ecurit´ e & Dev Sec Ops\n: Trivy, Semgrep, OWASP ZAP, Ansible Vault\nLangages & Frameworks\n: Java (Spring Boot), Python, Angular, .NET, Node. js\nBases de donn´ ees\n: MySQL, PostgreSQL, Oracle, MongoDB, Maria DB, H 2\nExp´ erience\nConception et d´ eploiement d'un pipeline CI/CD Dev Sec Ops pour une application microservices.\nGestion conteneuris´ ee de l'application et des environnements d'infrastructure.\nSyst` eme intelligent d'analyse des ´ echecs de build et assistance ` a la r´ esolution.\nParticipation au d´ eploiement et ` a l'automatisation de la mise en production.\nD´ eveloppement d'une plateforme collaborative reliant porteurs d'id´ ees et investisseurs.\nAnalyse des exigences et conception des cas de test pour une application microservices.\nEx´ ecution des campagnes de test, suivi des anomalies et reporting qualit´ e.\nAutomatisation du cycle CI/CD avec int´ egration des tests unitaires et du contrˆ ole qualit´ e.\nDockerisation de l'application, gestion des artefacts et mise en place du monitoring.\nD´ eveloppement d'une solution multi-plateforme pour la gestion d'investissements.\n\n## EDUCATION\n\nIng´ enieure en G´ enie Logiciel, orient´ ee DevOps et Assurance Qualit´ e Logicielle. Exp´ erience en mise en place de pipelines CI/CD, tests logiciels, automatisation, contrˆ ole qualit´ e et pratiques Dev Sec Ops. Actuellement en formation ISTQB avec un fort int´ erˆ et pour les m´ etiers du test logiciel et de l'am´ elioration continue.\n- Comp´ etences Techniques\n- Ing´ enieure DevOps - Stage de fin d'´ etudes\n- One Gate Africa (OGA)\nInt´ egration de tests automatis´ es, contrˆ ole qualit´ e et pratiques de s´ ecurit´ e.\n**Date: ** F´ ev. 2025 - Aoˆ ut 2025\n## Supervision, monitoring des ressources et alerting.\n**Date: ** Aoˆ ut 2024 - Sept. 2024\n- Ing´ enieure Logiciel - Stage en D´ eveloppement Web\n- Capsa Thermale Oasis\n- Conception et d´ eveloppement d'un site vitrine professionnel.\n- Stage en D´ eveloppement Logiciel (Licence)\n- Facult´ e des Sciences de Monastir (FSM)\n\n## ACADEMIC PROJECTS\n\nProjets Acad´ emiques\nProjet Microservices - Tests et Assurance Qualit´ e\nESPRIT\nMise en place de la tra¸ cabilit´ e exigences-tests-d´ efauts.\nDockerisation et automatisation d'une application web - ESPRIT\nDev Dream: Projet d'int´ egration - ESPRIT\nD´ eveloppement d'une plateforme de gestion des stages.\nImpl´ ementation du suivi des candidatures et des notifications.\nFreelanci: Projet d'int´ egration - ESPRIT\n## Fonctionnalit´ es de suivi des projets, reporting et gestion des transactions.\n**Date: ** Sept. 2024 - Nov. 2024",
+    "header_info": {
+      "full_name": "Fajraoui Ghofrane",
+      "email": "ghofrane.fajraoui@esprit.tn",
+      "phone": "+216 56 282 758",
+      "location": "Ing´ enieure DevOps, Dev Sec Ops & QA",
+      "linkedin": "linkedin.com/in/fajraoui-ghofrane",
+      "github": "github.com/Fajraoui"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9679,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Fajraoui Ghofrane",
+      "email": "ghofrane.fajraoui@esprit.tn",
+      "phone": "+216 56 282 758",
+      "location": "Ing´ enieure DevOps, Dev Sec Ops & QA",
+      "linkedin": "linkedin.com/in/fajraoui-ghofrane",
+      "github": "github.com/Fajraoui"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "DevOps & CI/CD",
+        "Conteneurisation & Orchestration",
+        "Infrastructure as Code",
+        "Tests & Assurance Qualit´ e",
+        "Outils QA",
+        "Monitoring & Observabilit´ e",
+        "S´ ecurit´ e & Dev Sec Ops",
+        "Langages & Frameworks",
+        "Bases de donn´ ees"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "ESPRIT",
+        "job_title": "Ing´ enieure DevOps - Stage de fin d'´ etudes",
+        "start_date": "F´ ev. 2025",
+        "end_date": "Aoˆ ut 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et d´ eploiement d'un pipeline CI/CD Dev Sec Ops pour une application microservices.",
+          "Gestion conteneuris´ ee de l'application et des environnements d'infrastructure.",
+          "Syst` eme intelligent d'analyse des ´ echecs de build et assistance ` a la r´ esolution."
+        ]
+      },
+      {
+        "company": "Capsa Thermale Oasis",
+        "job_title": "Ing´ enieure Logiciel - Stage en D´ eveloppement Web",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et d´ eveloppement d'un site vitrine professionnel."
+        ]
+      },
+      {
+        "company": "Facult´ e des Sciences de Monastir (FSM)",
+        "job_title": "Stage en D´ eveloppement Logiciel (Licence)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et d´ eveloppement d'une plateforme de gestion des stages."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT",
+        "degree": "Ing´ enieure en G´ enie Logiciel, orient´ ee DevOps et Assurance Qualit´ e Logicielle",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:57:43.612071+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

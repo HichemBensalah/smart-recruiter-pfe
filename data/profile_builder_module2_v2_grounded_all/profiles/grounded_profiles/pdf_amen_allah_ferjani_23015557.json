@@ -1,0 +1,274 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\amen_allah_ferjani_23015557.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\amen_allah_ferjani_23015557.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7113,
+  "normalization": {
+    "cleaned_markdown": "## AMEN ALLAH FERJANI\n\nDéveloppeur Web Full-Stack\nDéveloppeur Full Stack avec une forte spécialisation backend, concevant des systèmes scalables et prêts pour la production avec Nest. js, Express. js, Docker et PostgreSQL. Expérimenté en microservices, CI/CD et AWS, avec une capacité à livrer des applications performantes et maintenables sur l'ensemble de la stack.\nwww. linkedin.com/in/ferjani-amen\namenferjani 23@gmail.com\nSoliman, Nabeul, Tunisia\nDéveloppement d'une plateforme Saa S avec une landing page publique et des tableaux de bord dédiés pour les investisseurs et les startups.\n\n## COMPÉTENCES TECHNIQUES\n\nTypeScript, Python, Nest. js, Express. js, Angular, Next. js, Payload CMS\n\n## BASES DE DONNÉES & ORM:\n\nPostgreSQL, MongoDB, Type ORM, Prisma\nAUTRES: REST APIs, Web Sockets, NGINX, Shadcn, Mantine, Zustand\n\n## TECHNICAL SKILLS\n\nDEVOPS & OUTILS: Docker, Kubernetes, Git, GitHub Actions, CI/CD, Linux, AWS EC 2\n\n## DEEP LEARNING:\n\nPyTorch\n\n## EDUCATION\n\nFORMATION\n2023 - 2025 Licence en sciences de l'information: INSTITUT SUPÉRIEUR DES SCIENCES APPLIQUÉES ET DE TECHNOLOGIE\n## 2022 Baccalauréat: LYCÉE TECHNIQUE GROMBALIA\nIntégration d'APIs externes (Crunchbase, Clearbit) pour enrichir les modèles d'IA.\n- ROLLINGBOARD FRONTEND UI IMPLEMENTATION - DÉVELOPPEUR FRONTEND\n- Conception et développement de l'interface frontend d'un dashboard client avec Next. js et React.\n- Intégration de bibliothèques tierces pour permettre la visualisation de fichiers CSV et Excel dans l'application.\nMise en place d'une interface entièrement responsive (desktop, tablette, mobile).\n- SERVIZI NV ERP SYSTEM REBUILD - DÉVELOPPEUR FULL-STACK\n- Refonte d'un ERP/CRM legacy (7+ modules) de C++ vers Nest. js + Prisma + PostgreSQL.\n- Services conteneurisés via Docker pour un environnement isolé et fiable.\n\n## MONADE INVEST - DÉVELOPPEUR FULL-STACK\n\nSep 2025 - Jan 2026\nles indicateurs clés (utilisateurs actifs, taux de matching).\nSep 2025 - Oct 2025\nJul 2025 - Aug 2025\nBackend optimisé avec Prisma, Redis, tests Jest et sécurité renforcée.\nFrontend Next. js + React + TypeScript, responsive et data-driven.\nIntégration API Dolibarr pour synchronisation ERP.\n\n## ACADEMIC PROJECTS\n\nMise en place d'un système d'IA de matchmaking recommandant les 5 projets les plus compatibles aux investisseurs.\nCréation d'un moteur de scoring basé sur l'IA pour évaluer la viabilité des projets avec une note sur 100.\nConception et implémentation d'un panneau d'administration pour valider, gérer les projets et suivre\n- Développement de 5 modules métier avec une architecture modulaire et des composants réutilisables.\n\n## SHAREVEST - PFE:\n\nOct 2024 - Jun 2025\nDéveloppement de 8 microservices Nest. js TCP, exposés via un Nest Gateway pour une architecture modulaire et évolutive supportant 10+ fonctionnalités métiers.\nDashboard Next. js connecté aux microservices, permettant onboarding, suivi de portefeuille et gestion des workflows en temps réel.\nConteneurisation Docker et CI/CD automatisé avec GitHub Actions, réduisant le déploiement de 4 h à 15 min.\nDéploiement Kubernetes avec NGINX ingress, assurant haute disponibilité et routage efficace.\nPublication de bibliothèques partagées en packages NPM privés, réduisant le code dupliqué de 40% et simplifiant la collaboration.\nDéveloppement d'une application Help-desk en PHP/MySQL pour gérer les tickets internes, incluant soumission, suivi et réponses administratives.\n\n## DENIM MANUFACTURE - STAGE D'ÉTÉ:\n\nJun 2023 - Jul 2023\nFrontend responsive en HTML 5/CSS 3 avec opérations CRUD pour les workflows du personnel.\n\n## AKMI - DÉVELOPPEUR FULL-STACK:\n\nFeb 2026\nDéveloppement d'un Saa S de powerlifting full-stack avec Payload CMS et Next. js pour athlètes et coachs.\nUI responsive avec Mantine v 8, support dark/light mode pour suivi d'entraînements et dashboards athlètes.\nIntégration de Tan Stack Query pour fetch/caching efficace et endpoints Payload personnalisés.\nDéploiement sur Render avec PostgreSQL, MVP prêt pour onboarding utilisateurs.\nhttps: //github.com/Amenferjani/akmi - https: //akmi. onrender. com/## FEELFREE - DÉVELOPPEUR FULL-STACK:\n\nJun 2024 - Aug 2024\nPlateforme sociale full-stack avec Nest. js et Angular.\nModèle PyTorch entraîné pour catégoriser le contenu, améliorant l'interaction utilisateur de 15%.\nConteneurisation Docker et CI/CD via Git.\nhttps: //github.com/Amenferjani/Feel Free-client\nhttps: //github.com/Amenferjani/Feel Free-model\nhttps: //github.com/Amenferjani/Feel Free-server\n\n## CHATNET - DÉVELOPPEUR BACKEND:\n\nMar 2024 - Apr 2024\nBackend d'une plateforme de messagerie temps réel avec Express. js et Web Sockets.\n12 APIs RESTful générées et conteneurisation Docker pour déploiement via Docker Hub.\nhttps: //github.com/Amenferjani/chat Net",
+    "header_info": {
+      "full_name": "AMEN ALLAH FERJANI",
+      "email": "23@gmail.com",
+      "phone": null,
+      "location": "Développeur Full Stack avec une forte spécialisation backend, concevant des systèmes scalables et prêts pour la production avec Nest. js, Express. js, Docker et PostgreSQL. Expérimenté en microservices, CI/CD et AWS, avec une capacité à livrer des applications performantes et maintenables sur l'ensemble de la stack.",
+      "linkedin": "linkedin.com/in/ferjani-amen",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9423,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[1].responsibilities[5]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].responsibilities[2]",
+      "experiences[3].responsibilities[3]",
+      "experiences[3].start_date",
+      "experiences[4].company",
+      "experiences[4].end_date",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].responsibilities[1]",
+      "experiences[4].responsibilities[2]",
+      "experiences[4].start_date",
+      "experiences[5].company",
+      "experiences[5].end_date",
+      "experiences[5].job_title",
+      "experiences[5].responsibilities[0]",
+      "experiences[5].responsibilities[1]",
+      "experiences[5].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "AMEN ALLAH FERJANI",
+      "email": "23@gmail.com",
+      "phone": null,
+      "location": "Soliman, Nabeul, Tunisia",
+      "linkedin": "linkedin.com/in/ferjani-amen",
+      "github": "https://github.com/Amenferjani"
+    },
+    "expertise": {
+      "summary": "Développeur Full Stack avec une forte spécialisation backend, concevant des systèmes scalables et prêts pour la production avec Nest. js, Express. js, Docker et PostgreSQL.",
+      "experience_level": "mid_level",
+      "years_experience": 3,
+      "hard_skills": [
+        "TypeScript",
+        "Python",
+        "Nest. js",
+        "Express. js",
+        "Angular",
+        "Next. js",
+        "Payload CMS",
+        "PostgreSQL",
+        "MongoDB",
+        "Type ORM",
+        "Prisma",
+        "REST APIs",
+        "Web Sockets",
+        "NGINX",
+        "Shadcn",
+        "Mantine",
+        "Zustand",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "GitHub Actions",
+        "CI/CD",
+        "Linux",
+        "AWS EC 2",
+        "PyTorch"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "MONADE INVEST",
+        "job_title": "DÉVELOPPEUR FULL-STACK",
+        "start_date": "Sep 2025",
+        "end_date": "Jan 2026",
+        "city": null,
+        "responsibilities": [
+          "Backend optimisé avec Prisma, Redis, tests Jest et sécurité renforcée.",
+          "Frontend Next. js + React + TypeScript, responsive et data-driven.",
+          "Intégration API Dolibarr pour synchronisation ERP."
+        ]
+      },
+      {
+        "company": "SHAREVEST",
+        "job_title": null,
+        "start_date": "Oct 2024",
+        "end_date": "Jun 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement de 8 microservices Nest. js TCP, exposés via un Nest Gateway pour une architecture modulaire et évolutive supportant 10+ fonctionnalités métiers.",
+          "Dashboard Next. js connecté aux microservices, permettant onboarding, suivi de portefeuille et gestion des workflows en temps réel.",
+          "Conteneurisation Docker et CI/CD automatisé avec GitHub Actions, réduisant le déploiement de 4 h à 15 min.",
+          "Déploiement Kubernetes avec NGINX ingress, assurant haute disponibilité et routage efficace.",
+          "Publication de bibliothèques partagées en packages NPM privés, réduisant le code dupliqué de 40% et simplifiant la collaboration.",
+          "Développement d'une application Help-desk en PHP/MySQL pour gérer les tickets internes, incluant soumission, suivi et réponses administratives."
+        ]
+      },
+      {
+        "company": "DENIM MANUFACTURE",
+        "job_title": null,
+        "start_date": "Jun 2023",
+        "end_date": "Jul 2023",
+        "city": null,
+        "responsibilities": [
+          "Frontend responsive en HTML 5/CSS 3 avec opérations CRUD pour les workflows du personnel."
+        ]
+      },
+      {
+        "company": "AKMI",
+        "job_title": "DÉVELOPPEUR FULL-STACK",
+        "start_date": "Feb 2026",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un Saa S de powerlifting full-stack avec Payload CMS et Next. js pour athlètes et coachs.",
+          "UI responsive avec Mantine v 8, support dark/light mode pour suivi d'entraînements et dashboards athlètes.",
+          "Intégration de Tan Stack Query pour fetch/caching efficace et endpoints Payload personnalisés.",
+          "Déploiement sur Render avec PostgreSQL, MVP prêt pour onboarding utilisateurs."
+        ]
+      },
+      {
+        "company": "FEELFREE",
+        "job_title": "DÉVELOPPEUR FULL-STACK",
+        "start_date": "Jun 2024",
+        "end_date": "Aug 2024",
+        "city": null,
+        "responsibilities": [
+          "Plateforme sociale full-stack avec Nest. js et Angular.",
+          "Modèle PyTorch entraîné pour catégoriser le contenu, améliorant l'interaction utilisateur de 15%.",
+          "Conteneurisation Docker et CI/CD via Git."
+        ]
+      },
+      {
+        "company": "CHATNET",
+        "job_title": "DÉVELOPPEUR BACKEND",
+        "start_date": "Mar 2024",
+        "end_date": "Apr 2024",
+        "city": null,
+        "responsibilities": [
+          "Backend d'une plateforme de messagerie temps réel avec Express. js et Web Sockets.",
+          "12 APIs RESTful générées et conteneurisation Docker pour déploiement via Docker Hub."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "INSTITUT SUPÉRIEUR DES SCIENCES APPLIQUÉES ET DE TECHNOLOGIE",
+        "degree": "Licence en sciences de l'information",
+        "field": null,
+        "year": "2023-2025"
+      },
+      {
+        "institution": "LYCÉE TECHNIQUE GROMBALIA",
+        "degree": "Baccalauréat",
+        "field": null,
+        "year": "2022"
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:35:08.484127+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

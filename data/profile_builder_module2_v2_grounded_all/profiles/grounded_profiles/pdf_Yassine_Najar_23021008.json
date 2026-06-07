@@ -1,0 +1,196 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Yassine_Najar_23021008.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Yassine_Najar_23021008.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7336,
+  "normalization": {
+    "cleaned_markdown": "## YASSINE NAJAR\n\nDéveloppeur Full-Stack\nCONTACT\nEmail: naj.yassine@gmail.com | Téléphone: +216 29 026 566\nLinked In: linkedin.com/in/yassinenajar\n\n## TECHNICAL SKILLS\n\nDéveloppeur Full-Stack avec une expérience pratique dans la création d'APIs évolutives, de microservices et d'applications d'entreprise. Solide expertise en architecture propre, automatisation CI/CD, conception d'API REST et développement optimisé pour le cloud. Passionné par le développement backend et frontend, la résolution de problèmes et la livraison de solutions prêtes pour la production.\nConception de l'architecture de microservices et création d'une documentation technique complète pour les équipes de développement\nDéveloppement d'APIs RESTful utilisant .NET 8, C# et Entity Framework Core avec un accent sur le code propre et la maintenabilité\nApplication des principes d'architecture propre et des modèles de repository pour garantir une base de code évolutive et testable\nTravail avec des bases de données SQL Server pour planifier les schémas, écrire des requêtes et gérer les relations de données\nCollaboration avec l'équipe en utilisant Azure DevOps pour le contrôle de version, les pipelines CI/CD et la gestion de projet agile\nDéveloppement d'une solution de suivi CI/CD intégrée aux pipelines Azure DevOps pour surveiller les processus de build et de déploiement\nCréation de schémas de base de données SQL et écriture de requêtes pour le suivi des métriques de pipeline et des données de déploiement\nCollaboration avec l'équipe DevOps pour comprendre les workflows de pipeline et les exigences d'intégration\nDéveloppement d'un tableau de bord de reporting responsive utilisant la stack MERN (MongoDB, Express. js, React, Node. js)\nPlanification des schémas de base de données MongoDB et implémentation de requêtes d'agrégation pour les fonctionnalités de reporting\nAmélioration d'une plateforme e-learning utilisant la stack MERN avec gestion de cours et suivi de progression des utilisateurs\nImplémentation de fonctionnalités d'authentification et d'autorisation utilisant les tokens JWT pour un accès sécurisé\nSystème de gestion de contrats et d'affectations d'équipe avec notifications automatisées, gestion de documents et tableaux de bord de reporting\nSystème de réservation de voyages et d'hôtels développé pour les plateformes web, mobile et desktop avec intégration de paiement et gestion des réservations\n- ESPRIT, Tunis, Tunisie | Sep 2019 - Juin 2024\nBackend: .NET 8, C#, ASP. NET Core, Entity Framework Core, REST APIs, Clean Architecture, Principes SOLID\nDevOps & Outils:\nAzure DevOps, Git, GitHub, Pipelines CI/CD, Agile, Scrum\nTests:\nx Unit, Tests Unitaires, Postman, Automatisation des Tests\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nIngénieur Logiciel -Elite Business, Tunis, Tunisie\nStagiaire Ingénieur -ODDO BHF, Tunis, Tunisie\nExécution de tests automatisés utilisant le framework x Unit pour assurer la qualité et la fiabilité du code\nStagiaire Développeur Full Stack -Elite Business, Tunis, Tunisie\nCréation d'endpoints d'API RESTful pour servir les données à l'application frontend\nStagiaire Développeur Full Stack -Topnet, Tunis, Tunisie\nCréation de composants UI responsives avec React assurant la compatibilité cross-browser\n\n## ACADEMIC PROJECTS\n\nPROJETS\nGivly - Plateforme de Partage Altruiste\nTechnologies: React, Node. js, Express. js, MongoDB, REST APIs, Web Sockets, JWT\n**Date: ** Sep 2024 - Fév 2025\n**Location: ** Ariana, Tunisie\n- Kaddem - Système de Gestion de Contrats\n- Application web full-stack permettant le partage de ressources communautaires avec authentification, messagerie en temps réel et fonctionnalités de géolocalisation\n## Technologies: Angular, TypeScript, Spring Boot, MySQL, REST APIs, JPA\n**Date: ** 2021 - 2022\n- Reservi - Système de Réservation Multi-Plateformes\n## Technologies: Symfony 4, PHP, Java FX, MySQL, REST APIs\n\n## EDUCATION\n\nFORMATION\nDiplôme d'Ingénieur en Informatique\n## Baccalauréat en Mathématiques - Lycée Khaireddine Pacha, Tunisie | Juin 2018\n\n## COMPÉTENCES TECHNIQUES\n\nFrontend: React, Angular, TypeScript, JavaScript, HTML 5, CSS 3, Bootstrap\nBases de données: SQL Server, T-SQL, MongoDB, MySQL, Conception de bases de données\n\n## COMPÉTENCES COMPORTEMENTALES\n\nTravail d'équipe | Communication | Résolution de problèmes | Adaptabilité | Gestion du stress\n\n## LANGUAGES\n\nLANGUES\nArabe (Langue maternelle) | Français (Courant) | Anglais (Intermédiaire)",
+    "header_info": {
+      "full_name": "YASSINE NAJAR",
+      "email": "naj.yassine@gmail.com",
+      "phone": "+216 29 026 566",
+      "location": null,
+      "linkedin": "linkedin.com/in/yassinenajar",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7967,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[1].institution"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "education[1].institution"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "YASSINE NAJAR",
+      "email": "naj.yassine@gmail.com",
+      "phone": "+216 29 026 566",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Développeur Full-Stack avec une expérience pratique dans la création d'APIs évolutives, de microservices et d'applications d'entreprise.",
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        ".NET 8",
+        "C#",
+        "Entity Framework Core",
+        "REST APIs",
+        "Clean Architecture",
+        "Principes SOLID",
+        "Azure DevOps",
+        "Git",
+        "GitHub",
+        "Pipelines CI/CD",
+        "Agile",
+        "Scrum"
+      ],
+      "soft_skills": [
+        "Travail d'équipe",
+        "Communication",
+        "Résolution de problèmes",
+        "Adaptabilité",
+        "Gestion du stress"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Elite Business",
+        "job_title": null,
+        "start_date": "Sep 2019",
+        "end_date": "Juin 2024",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Création d'endpoints d'API RESTful pour servir les données à l'application frontend"
+        ]
+      },
+      {
+        "company": "ODDO BHF",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Exécution de tests automatisés utilisant le framework x Unit pour assurer la qualité et la fiabilité du code"
+        ]
+      },
+      {
+        "company": "Topnet",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Création de composants UI responsives avec React assurant la compatibilité cross-browser"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Lycée Khaireddine Pacha",
+        "degree": "Baccalauréat en Mathématiques",
+        "field": null,
+        "year": "Juin 2018"
+      },
+      {
+        "institution": null,
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe (Langue maternelle)",
+      "Français (Courant)",
+      "Anglais (Intermédiaire)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:03:53.717582+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

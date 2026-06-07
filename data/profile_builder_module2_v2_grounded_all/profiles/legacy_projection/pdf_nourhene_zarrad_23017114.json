@@ -1,0 +1,87 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\nourhene_zarrad_23017114.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\nourhene_zarrad_23017114.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\nourhene_zarrad_23017114.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Nourhene ZARRAD",
+      "email": "nourhene 97.zarrad@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "Ingénieure DevOps Junior orientée Cloud, avec une bonne maîtrise des environnements d'infrastructure modernes.",
+      "hard_skills": [
+        "AWS",
+        "Microsoft Azure",
+        "Terraform",
+        "Ansible",
+        "CI/CD",
+        "conteneurisation (Docker/Kubernetes)",
+        "Python",
+        "Java",
+        "SQL",
+        "JavaScript",
+        "HTML/CSS",
+        "PHP",
+        "Django",
+        "FastAPI",
+        "Flask",
+        "API RESTful",
+        "Jenkins",
+        "GitHub Actions",
+        "pipelines CI/CD",
+        "Linux",
+        "VS Code",
+        "Eclipse",
+        "Jira"
+      ],
+      "soft_skills": [
+        "conception d'une plateforme CI/CD complète pour une application cloud-native",
+        "provisionner automatiquement les machines avec MAAS et deployer un cluster Kubernetes haute disponibilité (K 3 s sur 3 VM Ubuntu 20. 04)"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Concevoir une plateforme CI/CD complète pour une application cloud-native en automatisant les phases de build, test et déploiement continu.",
+          "Provisionner automatiquement les machines avec MAAS et déployer un cluster Kubernetes haute disponibilité (K 3 s sur 3 VM Ubuntu 20. 04)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Formation DevOps avancée en cours",
+        "school": "Le Bon Développeur",
+        "year": null
+      },
+      {
+        "degree": "Formation DevOps (niveau intermédiaire)",
+        "school": "IT LAND",
+        "year": "2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:54:00.826108+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8369,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

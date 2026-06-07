@@ -1,0 +1,2046 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Maissa_Ben_Hammed_23026923.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nMaissa Ben Hammed\n/envelope benhammedmaissa3@gmail.com\n/mobile +216.25.839.154\n|\n|\n/linkedin Maissa Ben hammed\nMontfleury, Tunis, Tunisie\nExp´ erience Professionnelle\nStage de Fin d' ´ Etude - Resys Consultant\nConception et Impl´ ementation d'un syst` eme de management de l'IA, conforme ` a la norme ISO/IEC 42001:2023\nD´ eploiement d'une infrastructure r´ eseau segment´ ee en zones, bas´ ee sur des routeurs Cisco via GNS3.\nD´ eploiement d'un SOC de test suite ` a l'abscence d'environnement de test d´ edi´ e, incluant:\n-Mise en place du SIEM Wazuh pour la collecte, la corr´ elation et l'analyse des ´ ev´ enements de s´ ecurit´ e.\n-D´ eploiement du SOAR bas´ ee sur TheHive, Cortex et MISP pour la gestion des incidents.\n-Int´ egration du SIEM et du SOAR pour la d´ etection, l'investigation et l'orchestration des incidents.\nR´ ealisation d'un audit interne de conformit´ e et op´ erationnel du SMIA.\nAnalyse de l'existant et identification des ´ ecarts par rapport aux exigences et mesures de contrˆ ole de la norme.\nIdentification des risques li´ es ` a l'IA ` a l'aide des checklists NIST AI RMF.\n´ Evaluation et classification des risques IA selon le NIST AI RMF et l'AI Act.\n´ Elaboration de plan de traitement de risques IA.\nMise en place de l'action corrective pour g´ erer les risques identifi´ es visant ` a r´ eduire les impacts identifi´ es.\nStage d'´ et´ e - DigitalCook\nR´ ealisation d'un audit de s´ ecurit´ e de l'application web de la plateforme et de son infrastructure serveur.\nUtilisation de Kali Linux avec Nmap, Nessus et Burp Suite pour identifier les vuln´ erabilit´ es.\nR´ ealisation des tests manuels et automatis´ es, incluant des preuves de concept (PoC) pour des attaques.\nD´ eveloppement des scripts Python pour automatiser l'identification des vuln´ erabilit´ es.\nR´ edaction d'un rapport d'´ evaluation des vuln´ erabilit´ es, citant les vuln´ erabilit´ es et leurs niveaux de risque.\nACADEMIC PROJECTS\nProjects Acad´ emiques\nMars 2025 - Novembre 2025\nPlateforme de threat Intellignence pour les Banques\nConception et simulation de l'architecture r´ eseau sous GNS3, avec des routeurs et switchs Cisco.\nF´ evrier 2024 - Mai 2024\nMise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux.\nConfiguration des ´ equipements pour le routage L3 et le switching L2.\nMise en place des politiques de filtrage via des pare-feux pfSense et OPNsense.\nD´ eploiement et administration des r` egles de s´ ecurit´ e r´ eseau, avec gestion des flux et contrˆ ole des acc` es.\nD´ eploiement des outils SIEM via ELK Stack, pour assurer le suivi des ´ ev´ enements r´ eseau.\nImpl´ ementation de use-cases de gestion des incidents avec des outils SOAR via Shuffle, TheHive et Cortex.\nR´ ealisation de tests pentesting SSH et brute force pour valider la robustesse de l'infrastructure.\nD´ eveloppement d'une plateforme de Threat Intelligence int´ egrant MISP pour la collecte, l'analyse et le partage d'indicateurs de compromission, avec automatisation des workflows.\nOctobre 2024 - Novembre 2024\nProjet DevSecOps\nD´ eveloppement d'une application Spring Boot pour la gestion de foyer.\nConception et gestion d'une base de donn´ ees relationnelle sous MySQL.\nAdministration Linux pour le d´ eploiement et la gestion des conteneurs Docker de l'application.\nMise en place d'un pipeline CI/CD avec Jenkins.\nInt´ egration de SonarQube pour l'analyse qualit´ e du code.\nAutomatisation des tests unitaires avec JUnit.\nMise en place de pratiques DevSecOps avec OWASP Dependency-Check, JFrog et OWASP ZAP.\nAutomatisation des scans de s´ ecurit´ e et du reporting dans le pipeline CI/CD.\nMonitoring des performances applicatives avec Grafana.\nComp´ etences\nPr´ eparation certification ISO 27001 Fran¸ cais -Courant-, Anglais -Courant-,Arabe -native\nEDUCATION",
+  "markdown": "## HEADER\n\nMaissa Ben Hammed/envelope benhammedmaissa 3@gmail. com/mobile +216. 25. 839. 154\n|/linkedin Maissa Ben hammed\nMontfleury, Tunis, Tunisie\nExp´ erience Professionnelle\nStage de Fin d' ´ Etude - Resys Consultant\nConception et Impl´ ementation d'un syst` eme de management de l'IA, conforme ` a la norme ISO/IEC 42001:2023\nD´ eploiement d'une infrastructure r´ eseau segment´ ee en zones, bas´ ee sur des routeurs Cisco via GNS 3.\nD´ eploiement d'un SOC de test suite ` a l'abscence d'environnement de test d´ edi´ e, incluant:\n-Mise en place du SIEM Wazuh pour la collecte, la corr´ elation et l'analyse des ´ ev´ enements de s´ ecurit´ e.\n-D´ eploiement du SOAR bas´ ee sur The Hive, Cortex et MISP pour la gestion des incidents.\n-Int´ egration du SIEM et du SOAR pour la d´ etection, l'investigation et l'orchestration des incidents.\nR´ ealisation d'un audit interne de conformit´ e et op´ erationnel du SMIA.\nAnalyse de l'existant et identification des ´ ecarts par rapport aux exigences et mesures de contrˆ ole de la norme.\nIdentification des risques li´ es ` a l'IA ` a l'aide des checklists NIST AI RMF.\n´ Evaluation et classification des risques IA selon le NIST AI RMF et l'AI Act.\n´ Elaboration de plan de traitement de risques IA.\nMise en place de l'action corrective pour g´ erer les risques identifi´ es visant ` a r´ eduire les impacts identifi´ es.\nStage d'´ et´ e - Digital Cook\nR´ ealisation d'un audit de s´ ecurit´ e de l'application web de la plateforme et de son infrastructure serveur.\nUtilisation de Kali Linux avec Nmap, Nessus et Burp Suite pour identifier les vuln´ erabilit´ es.\nR´ ealisation des tests manuels et automatis´ es, incluant des preuves de concept (Po C) pour des attaques.\nD´ eveloppement des scripts Python pour automatiser l'identification des vuln´ erabilit´ es.\nR´ edaction d'un rapport d'´ evaluation des vuln´ erabilit´ es, citant les vuln´ erabilit´ es et leurs niveaux de risque.\n\n## ACADEMIC PROJECTS\n\n### Projects Acad´ emiques\n**Date:** Mars 2025 - Novembre 2025\n- Plateforme de threat Intellignence pour les Banques\nConception et simulation de l'architecture r´ eseau sous GNS 3, avec des routeurs et switchs Cisco.\n**Date:** F´ evrier 2024 - Mai 2024\n- Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux.\n- Configuration des ´ equipements pour le routage L 3 et le switching L 2.\n- Mise en place des politiques de filtrage via des pare-feux pf Sense et OPNsense.\nD´ eploiement et administration des r` egles de s´ ecurit´ e r´ eseau, avec gestion des flux et contrˆ ole des acc` es.\nD´ eploiement des outils SIEM via ELK Stack, pour assurer le suivi des ´ ev´ enements r´ eseau.\nImpl´ ementation de use-cases de gestion des incidents avec des outils SOAR via Shuffle, The Hive et Cortex.\n- R´ ealisation de tests pentesting SSH et brute force pour valider la robustesse de l'infrastructure.\nD´ eveloppement d'une plateforme de Threat Intelligence int´ egrant MISP pour la collecte, l'analyse et le partage d'indicateurs de compromission, avec automatisation des workflows.\n**Date:** Octobre 2024 - Novembre 2024\n- Projet Dev Sec Ops\n- D´ eveloppement d'une application Spring Boot pour la gestion de foyer.\n- Conception et gestion d'une base de donn´ ees relationnelle sous My SQL.\n- Administration Linux pour le d´ eploiement et la gestion des conteneurs Docker de l'application.\n- Mise en place d'un pipeline CI/CD avec Jenkins.\n- Int´ egration de Sonar Qube pour l'analyse qualit´ e du code.\n- Automatisation des tests unitaires avec JUnit.\nMise en place de pratiques Dev Sec Ops avec OWASP Dependency-Check, JFrog et OWASP ZAP.\n- Automatisation des scans de s´ ecurit´ e et du reporting dans le pipeline CI/CD.\n- Monitoring des performances applicatives avec Grafana.\n- Comp´ etences\nPr´ eparation certification ISO 27001 Fran¸ cais -Courant-, Anglais -Courant-,Arabe -native",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Maissa Ben Hammed",
+        "/envelope benhammedmaissa3@gmail.com",
+        "/mobile +216.25.839.154",
+        "|",
+        "|",
+        "/linkedin Maissa Ben hammed",
+        "Montfleury, Tunis, Tunisie",
+        "Exp´ erience Professionnelle",
+        "Stage de Fin d' ´ Etude - Resys Consultant",
+        "Conception et Impl´ ementation d'un syst` eme de management de l'IA, conforme ` a la norme ISO/IEC 42001:2023",
+        "D´ eploiement d'une infrastructure r´ eseau segment´ ee en zones, bas´ ee sur des routeurs Cisco via GNS3.",
+        "D´ eploiement d'un SOC de test suite ` a l'abscence d'environnement de test d´ edi´ e, incluant:",
+        "-Mise en place du SIEM Wazuh pour la collecte, la corr´ elation et l'analyse des ´ ev´ enements de s´ ecurit´ e.",
+        "-D´ eploiement du SOAR bas´ ee sur TheHive, Cortex et MISP pour la gestion des incidents.",
+        "-Int´ egration du SIEM et du SOAR pour la d´ etection, l'investigation et l'orchestration des incidents.",
+        "R´ ealisation d'un audit interne de conformit´ e et op´ erationnel du SMIA.",
+        "Analyse de l'existant et identification des ´ ecarts par rapport aux exigences et mesures de contrˆ ole de la norme.",
+        "Identification des risques li´ es ` a l'IA ` a l'aide des checklists NIST AI RMF.",
+        "´ Evaluation et classification des risques IA selon le NIST AI RMF et l'AI Act.",
+        "´ Elaboration de plan de traitement de risques IA.",
+        "Mise en place de l'action corrective pour g´ erer les risques identifi´ es visant ` a r´ eduire les impacts identifi´ es.",
+        "Stage d'´ et´ e - DigitalCook",
+        "R´ ealisation d'un audit de s´ ecurit´ e de l'application web de la plateforme et de son infrastructure serveur.",
+        "Utilisation de Kali Linux avec Nmap, Nessus et Burp Suite pour identifier les vuln´ erabilit´ es.",
+        "R´ ealisation des tests manuels et automatis´ es, incluant des preuves de concept (PoC) pour des attaques.",
+        "D´ eveloppement des scripts Python pour automatiser l'identification des vuln´ erabilit´ es.",
+        "R´ edaction d'un rapport d'´ evaluation des vuln´ erabilit´ es, citant les vuln´ erabilit´ es et leurs niveaux de risque."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Maissa Ben Hammed",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 191.992,
+            "top": 786.24214157423,
+            "right": 403.29211265999993,
+            "bottom": 807.9286039484375
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/envelope benhammedmaissa3@gmail.com",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 226.50099999999998,
+            "top": 767.8951939449794,
+            "right": 392.9878538899998,
+            "bottom": 779.1134771484376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/mobile +216.25.839.154",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 410.56199999999995,
+            "top": 767.8951939449794,
+            "right": 498.5937919199997,
+            "bottom": 779.0454771484376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "|",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 216.19799999999998,
+            "top": 768.0507112241709,
+            "right": 219.22854797999997,
+            "bottom": 777.4289299484376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "|",
+          "page_no": 1,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 400.25899999999996,
+            "top": 768.0507112241709,
+            "right": 403.28954797999995,
+            "bottom": 777.4289299484376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/linkedin Maissa Ben hammed",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 96.68299999999999,
+            "top": 767.8951939449794,
+            "right": 208.92835528,
+            "bottom": 777.4289299484376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Montfleury, Tunis, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 231.19799999999995,
+            "top": 753.9731939449794,
+            "right": 356.80827815999965,
+            "bottom": 763.8799299484376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Exp´ erience Professionnelle",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 29.765999999999963,
+            "top": 722.3890146484376,
+            "right": 235.56226225999993,
+            "bottom": 729.7629614484376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Stage de Fin d' ´ Etude - Resys Consultant",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 29.766,
+            "top": 694.344045391377,
+            "right": 263.5631248,
+            "bottom": 706.5566572484375
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Conception et Impl´ ementation d'un syst` eme de management de l'IA, conforme ` a la norme ISO/IEC 42001:2023",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 677.0681939449794,
+            "right": 564.0369906800005,
+            "bottom": 686.6019299484376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "D´ eploiement d'une infrastructure r´ eseau segment´ ee en zones, bas´ ee sur des routeurs Cisco via GNS3.",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 662.1111026484376,
+            "right": 522.2371285999994,
+            "bottom": 675.8783868484376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "D´ eploiement d'un SOC de test suite ` a l'abscence d'environnement de test d´ edi´ e, incluant:",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 648.5621026484376,
+            "right": 468.3461745999994,
+            "bottom": 662.3293868484376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "-Mise en place du SIEM Wazuh pour la collecte, la corr´ elation et l'analyse des ´ ev´ enements de s´ ecurit´ e.",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 52.917000000000016,
+            "top": 636.4110453913771,
+            "right": 550.9793143699993,
+            "bottom": 645.9866572484377
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "-D´ eploiement du SOAR bas´ ee sur TheHive, Cortex et MISP pour la gestion des incidents.",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 52.917000000000016,
+            "top": 622.8620453913771,
+            "right": 490.9509007099994,
+            "bottom": 632.4376572484377
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "-Int´ egration du SIEM et du SOAR pour la d´ etection, l'investigation et l'orchestration des incidents.",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 52.917000000000016,
+            "top": 609.3130453913772,
+            "right": 537.4367576299993,
+            "bottom": 618.8886572484378
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "R´ ealisation d'un audit interne de conformit´ e et op´ erationnel du SMIA.",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 594.3651026484378,
+            "right": 378.22500858999973,
+            "bottom": 608.1323868484377
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Analyse de l'existant et identification des ´ ecarts par rapport aux exigences et mesures de contrˆ ole de la norme.",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 580.8161026484378,
+            "right": 565.5091646599997,
+            "bottom": 594.5833868484377
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Identification des risques li´ es ` a l'IA ` a l'aide des checklists NIST AI RMF.",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 567.2671026484378,
+            "right": 391.1032011399998,
+            "bottom": 581.0343868484377
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "´ Evaluation et classification des risques IA selon le NIST AI RMF et l'AI Act.",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 553.7171026484378,
+            "right": 410.89012671999984,
+            "bottom": 567.4843868484378
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "´ Elaboration de plan de traitement de risques IA.",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 540.1681026484379,
+            "right": 273.43219399,
+            "bottom": 553.9353868484378
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Mise en place de l'action corrective pour g´ erer les risques identifi´ es visant ` a r´ eduire les impacts identifi´ es.",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 526.6191026484379,
+            "right": 542.9491458599994,
+            "bottom": 540.3863868484378
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Stage d'´ et´ e - DigitalCook",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 514.7320453913774,
+            "right": 177.55921407000002,
+            "bottom": 524.307657248438
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "R´ ealisation d'un audit de s´ ecurit´ e de l'application web de la plateforme et de son infrastructure serveur.",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 496.0481026484379,
+            "right": 537.9800508099994,
+            "bottom": 509.8153868484379
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Utilisation de Kali Linux avec Nmap, Nessus et Burp Suite pour identifier les vuln´ erabilit´ es.",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 482.4981026484379,
+            "right": 481.42836731999927,
+            "bottom": 496.2653868484379
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "R´ ealisation des tests manuels et automatis´ es, incluant des preuves de concept (PoC) pour des attaques.",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 468.94910264843793,
+            "right": 535.3073213099993,
+            "bottom": 482.71638684843793
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "D´ eveloppement des scripts Python pour automatiser l'identification des vuln´ erabilit´ es.",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 455.40010264843795,
+            "right": 453.24688928999933,
+            "bottom": 469.16738684843796
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "R´ edaction d'un rapport d'´ evaluation des vuln´ erabilit´ es, citant les vuln´ erabilit´ es et leurs niveaux de risque.",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 441.851102648438,
+            "right": 547.7044225499994,
+            "bottom": 455.618386848438
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [],
+      "items": [
+        {
+          "title": "Projects Acad´ emiques",
+          "date": "Mars 2025 - Novembre 2025",
+          "location": null,
+          "details": [
+            "Plateforme de threat Intellignence pour les Banques"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Projects Acad´ emiques",
+              "page_no": 1,
+              "block_indices": [
+                28
+              ],
+              "bbox": {
+                "left": 29.76600000000002,
+                "top": 426.7950146484379,
+                "right": 193.91500944000003,
+                "bottom": 434.1689614484379
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Mars 2025 - Novembre 2025",
+              "page_no": 1,
+              "block_indices": [
+                8
+              ],
+              "bbox": {
+                "left": 449.709,
+                "top": 694.7241040824433,
+                "right": 562.4345808000002,
+                "bottom": 702.5600658484376
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Plateforme de threat Intellignence pour les Banques",
+              "page_no": 1,
+              "block_indices": [
+                29
+              ],
+              "bbox": {
+                "left": 33.947,
+                "top": 399.478045391377,
+                "right": 321.70505798,
+                "bottom": 409.0536572484375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Conception et simulation de l'architecture r´ eseau sous GNS3, avec des routeurs et switchs Cisco.",
+          "date": "F´ evrier 2024 - Mai 2024",
+          "location": null,
+          "details": [
+            "Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux.",
+            "Configuration des ´ equipements pour le routage L3 et le switching L2.",
+            "Mise en place des politiques de filtrage via des pare-feux pfSense et OPNsense."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Conception et simulation de l'architecture r´ eseau sous GNS3, avec des routeurs et switchs Cisco.",
+              "page_no": 1,
+              "block_indices": [
+                31
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 380.7941026484375,
+                "right": 518.7252938299993,
+                "bottom": 394.5613868484375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "F´ evrier 2024 - Mai 2024",
+              "page_no": 1,
+              "block_indices": [
+                30
+              ],
+              "bbox": {
+                "left": 465.758,
+                "top": 399.8581040824433,
+                "right": 562.43551808,
+                "bottom": 407.6940658484375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux.",
+              "page_no": 1,
+              "block_indices": [
+                33
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 367.2451026484375,
+                "right": 443.3685037599994,
+                "bottom": 381.01238684843753
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Configuration des ´ equipements pour le routage L3 et le switching L2.",
+              "page_no": 1,
+              "block_indices": [
+                32
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 353.6951026484375,
+                "right": 388.2197305299996,
+                "bottom": 367.4623868484375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Mise en place des politiques de filtrage via des pare-feux pfSense et OPNsense.",
+              "page_no": 1,
+              "block_indices": [
+                34
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 340.14610264843753,
+                "right": 433.43576820999954,
+                "bottom": 353.91338684843754
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "D´ eploiement et administration des r` egles de s´ ecurit´ e r´ eseau, avec gestion des flux et contrˆ ole des acc` es.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "D´ eploiement et administration des r` egles de s´ ecurit´ e r´ eseau, avec gestion des flux et contrˆ ole des acc` es.",
+              "page_no": 1,
+              "block_indices": [
+                36
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 326.5971026484376,
+                "right": 548.4907731799991,
+                "bottom": 340.36438684843756
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "D´ eploiement des outils SIEM via ELK Stack, pour assurer le suivi des ´ ev´ enements r´ eseau.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "D´ eploiement des outils SIEM via ELK Stack, pour assurer le suivi des ´ ev´ enements r´ eseau.",
+              "page_no": 1,
+              "block_indices": [
+                35
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 313.04810264843763,
+                "right": 487.04308560999925,
+                "bottom": 326.8153868484376
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Impl´ ementation de use-cases de gestion des incidents avec des outils SOAR via Shuffle, TheHive et Cortex.",
+          "date": null,
+          "location": null,
+          "details": [
+            "R´ ealisation de tests pentesting SSH et brute force pour valider la robustesse de l'infrastructure."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Impl´ ementation de use-cases de gestion des incidents avec des outils SOAR via Shuffle, TheHive et Cortex.",
+              "page_no": 1,
+              "block_indices": [
+                37
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 299.49910264843766,
+                "right": 561.8696934199997,
+                "bottom": 313.2663868484376
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "R´ ealisation de tests pentesting SSH et brute force pour valider la robustesse de l'infrastructure.",
+              "page_no": 1,
+              "block_indices": [
+                39
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 285.9491026484376,
+                "right": 513.3711075499992,
+                "bottom": 299.71638684843765
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "D´ eveloppement d'une plateforme de Threat Intelligence int´ egrant MISP pour la collecte, l'analyse et le partage d'indicateurs de compromission, avec automatisation des workflows.",
+          "date": "Octobre 2024 - Novembre 2024",
+          "location": null,
+          "details": [
+            "Projet DevSecOps",
+            "D´ eveloppement d'une application Spring Boot pour la gestion de foyer.",
+            "Conception et gestion d'une base de donn´ ees relationnelle sous MySQL.",
+            "Administration Linux pour le d´ eploiement et la gestion des conteneurs Docker de l'application.",
+            "Mise en place d'un pipeline CI/CD avec Jenkins.",
+            "Int´ egration de SonarQube pour l'analyse qualit´ e du code.",
+            "Automatisation des tests unitaires avec JUnit."
+          ],
+          "evidence_spans": [
+            {
+              "text": "D´ eveloppement d'une plateforme de Threat Intelligence int´ egrant MISP pour la collecte, l'analyse et le partage d'indicateurs de compromission, avec automatisation des workflows.",
+              "page_no": 1,
+              "block_indices": [
+                38
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 260.2591939449794,
+                "right": 561.8718752399993,
+                "bottom": 286.1673868484377
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Octobre 2024 - Novembre 2024",
+              "page_no": 1,
+              "block_indices": [
+                51
+              ],
+              "bbox": {
+                "left": 437.724,
+                "top": 240.9421040824434,
+                "right": 562.4349676800001,
+                "bottom": 248.77806584843756
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Projet DevSecOps",
+              "page_no": 1,
+              "block_indices": [
+                40
+              ],
+              "bbox": {
+                "left": 29.76499999999997,
+                "top": 240.56204539137707,
+                "right": 130.74835687999996,
+                "bottom": 250.13765724843756
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "D´ eveloppement d'une application Spring Boot pour la gestion de foyer.",
+              "page_no": 1,
+              "block_indices": [
+                41
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 221.87710264843759,
+                "right": 396.89137411999957,
+                "bottom": 235.64438684843765
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Conception et gestion d'une base de donn´ ees relationnelle sous MySQL.",
+              "page_no": 1,
+              "block_indices": [
+                43
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 208.3281026484376,
+                "right": 399.9502857599996,
+                "bottom": 222.09538684843756
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Administration Linux pour le d´ eploiement et la gestion des conteneurs Docker de l'application.",
+              "page_no": 1,
+              "block_indices": [
+                42
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 194.77910264843763,
+                "right": 510.7343780799991,
+                "bottom": 208.54638684843758
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Mise en place d'un pipeline CI/CD avec Jenkins.",
+              "page_no": 1,
+              "block_indices": [
+                44
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 181.23010264843765,
+                "right": 290.7916493399999,
+                "bottom": 194.9973868484376
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Int´ egration de SonarQube pour l'analyse qualit´ e du code.",
+              "page_no": 1,
+              "block_indices": [
+                46
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 167.68110264843756,
+                "right": 331.4291377499997,
+                "bottom": 181.44838684843762
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Automatisation des tests unitaires avec JUnit.",
+              "page_no": 1,
+              "block_indices": [
+                45
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 154.1311026484376,
+                "right": 278.4316390399999,
+                "bottom": 167.89838684843755
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Mise en place de pratiques DevSecOps avec OWASP Dependency-Check, JFrog et OWASP ZAP.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Automatisation des scans de s´ ecurit´ e et du reporting dans le pipeline CI/CD.",
+            "Monitoring des performances applicatives avec Grafana.",
+            "Comp´ etences"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Mise en place de pratiques DevSecOps avec OWASP Dependency-Check, JFrog et OWASP ZAP.",
+              "page_no": 1,
+              "block_indices": [
+                47
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 140.5821026484375,
+                "right": 520.7685682599996,
+                "bottom": 154.34938684843758
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Automatisation des scans de s´ ecurit´ e et du reporting dans le pipeline CI/CD.",
+              "page_no": 1,
+              "block_indices": [
+                49
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 127.03310264843753,
+                "right": 427.64412701999964,
+                "bottom": 140.8003868484376
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Monitoring des performances applicatives avec Grafana.",
+              "page_no": 1,
+              "block_indices": [
+                48
+              ],
+              "bbox": {
+                "left": 46.15999999999997,
+                "top": 113.48410264843756,
+                "right": 324.38840460999984,
+                "bottom": 127.2513868484375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Comp´ etences",
+              "page_no": 1,
+              "block_indices": [
+                50
+              ],
+              "bbox": {
+                "left": 29.76499999999997,
+                "top": 98.4290146484376,
+                "right": 125.20722353999996,
+                "bottom": 105.8029614484376
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Pr´ eparation certification ISO 27001 Fran¸ cais -Courant-, Anglais -Courant-,Arabe -native",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Pr´ eparation certification ISO 27001 Fran¸ cais -Courant-, Anglais -Courant-,Arabe -native",
+              "page_no": 1,
+              "block_indices": [
+                53
+              ],
+              "bbox": {
+                "left": 29.766,
+                "top": 59.480193944979305,
+                "right": 280.16257229999997,
+                "bottom": 82.5629299484375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Projects Acad´ emiques",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 29.76600000000002,
+            "top": 426.7950146484379,
+            "right": 193.91500944000003,
+            "bottom": 434.1689614484379
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Mars 2025 - Novembre 2025",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 449.709,
+            "top": 694.7241040824433,
+            "right": 562.4345808000002,
+            "bottom": 702.5600658484376
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Plateforme de threat Intellignence pour les Banques",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 33.947,
+            "top": 399.478045391377,
+            "right": 321.70505798,
+            "bottom": 409.0536572484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Conception et simulation de l'architecture r´ eseau sous GNS3, avec des routeurs et switchs Cisco.",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 380.7941026484375,
+            "right": 518.7252938299993,
+            "bottom": 394.5613868484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "F´ evrier 2024 - Mai 2024",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 465.758,
+            "top": 399.8581040824433,
+            "right": 562.43551808,
+            "bottom": 407.6940658484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux.",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 367.2451026484375,
+            "right": 443.3685037599994,
+            "bottom": 381.01238684843753
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Configuration des ´ equipements pour le routage L3 et le switching L2.",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 353.6951026484375,
+            "right": 388.2197305299996,
+            "bottom": 367.4623868484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Mise en place des politiques de filtrage via des pare-feux pfSense et OPNsense.",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 340.14610264843753,
+            "right": 433.43576820999954,
+            "bottom": 353.91338684843754
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "D´ eploiement et administration des r` egles de s´ ecurit´ e r´ eseau, avec gestion des flux et contrˆ ole des acc` es.",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 326.5971026484376,
+            "right": 548.4907731799991,
+            "bottom": 340.36438684843756
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "D´ eploiement des outils SIEM via ELK Stack, pour assurer le suivi des ´ ev´ enements r´ eseau.",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 313.04810264843763,
+            "right": 487.04308560999925,
+            "bottom": 326.8153868484376
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Impl´ ementation de use-cases de gestion des incidents avec des outils SOAR via Shuffle, TheHive et Cortex.",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 299.49910264843766,
+            "right": 561.8696934199997,
+            "bottom": 313.2663868484376
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "R´ ealisation de tests pentesting SSH et brute force pour valider la robustesse de l'infrastructure.",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 285.9491026484376,
+            "right": 513.3711075499992,
+            "bottom": 299.71638684843765
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "D´ eveloppement d'une plateforme de Threat Intelligence int´ egrant MISP pour la collecte, l'analyse et le partage d'indicateurs de compromission, avec automatisation des workflows.",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 260.2591939449794,
+            "right": 561.8718752399993,
+            "bottom": 286.1673868484377
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Octobre 2024 - Novembre 2024",
+          "page_no": 1,
+          "block_indices": [
+            51
+          ],
+          "bbox": {
+            "left": 437.724,
+            "top": 240.9421040824434,
+            "right": 562.4349676800001,
+            "bottom": 248.77806584843756
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Projet DevSecOps",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 29.76499999999997,
+            "top": 240.56204539137707,
+            "right": 130.74835687999996,
+            "bottom": 250.13765724843756
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "D´ eveloppement d'une application Spring Boot pour la gestion de foyer.",
+          "page_no": 1,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 221.87710264843759,
+            "right": 396.89137411999957,
+            "bottom": 235.64438684843765
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Conception et gestion d'une base de donn´ ees relationnelle sous MySQL.",
+          "page_no": 1,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 208.3281026484376,
+            "right": 399.9502857599996,
+            "bottom": 222.09538684843756
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Administration Linux pour le d´ eploiement et la gestion des conteneurs Docker de l'application.",
+          "page_no": 1,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 194.77910264843763,
+            "right": 510.7343780799991,
+            "bottom": 208.54638684843758
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Mise en place d'un pipeline CI/CD avec Jenkins.",
+          "page_no": 1,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 181.23010264843765,
+            "right": 290.7916493399999,
+            "bottom": 194.9973868484376
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Int´ egration de SonarQube pour l'analyse qualit´ e du code.",
+          "page_no": 1,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 167.68110264843756,
+            "right": 331.4291377499997,
+            "bottom": 181.44838684843762
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Automatisation des tests unitaires avec JUnit.",
+          "page_no": 1,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 154.1311026484376,
+            "right": 278.4316390399999,
+            "bottom": 167.89838684843755
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Mise en place de pratiques DevSecOps avec OWASP Dependency-Check, JFrog et OWASP ZAP.",
+          "page_no": 1,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 140.5821026484375,
+            "right": 520.7685682599996,
+            "bottom": 154.34938684843758
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Automatisation des scans de s´ ecurit´ e et du reporting dans le pipeline CI/CD.",
+          "page_no": 1,
+          "block_indices": [
+            49
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 127.03310264843753,
+            "right": 427.64412701999964,
+            "bottom": 140.8003868484376
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Monitoring des performances applicatives avec Grafana.",
+          "page_no": 1,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 46.15999999999997,
+            "top": 113.48410264843756,
+            "right": 324.38840460999984,
+            "bottom": 127.2513868484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Comp´ etences",
+          "page_no": 1,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 29.76499999999997,
+            "top": 98.4290146484376,
+            "right": 125.20722353999996,
+            "bottom": 105.8029614484376
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Pr´ eparation certification ISO 27001 Fran¸ cais -Courant-, Anglais -Courant-,Arabe -native",
+          "page_no": 1,
+          "block_indices": [
+            53
+          ],
+          "bbox": {
+            "left": 29.766,
+            "top": 59.480193944979305,
+            "right": 280.16257229999997,
+            "bottom": 82.5629299484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.7587,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 3796,
+      "section_completeness": 0.5,
+      "ordering_coherence": 0.6667,
+      "segmentation_stability": 0.6667,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.2218,
+      "weird_section_ratio": 0.0,
+      "section_count": 3,
+      "expected_section_hits": 3,
+      "markdown_chars": 3871,
+      "markdown_words": 569,
+      "markdown_has_experience": false,
+      "markdown_has_education": false,
+      "markdown_has_skills": false,
+      "markdown_useful_section_count": 0,
+      "markdown_weird_char_ratio": 0.0201,
+      "markdown_glued_line_count": 14,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=2\", \"pdf_total_text_chars=3875\", \"pdf_total_text_words=580\", \"pdf_avg_text_chars_per_page=1937.5\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": [
+      "partial_section_completeness",
+      "markdown_too_weak",
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "partial_section_completeness",
+      "markdown_too_weak",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Maissa Ben Hammed",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 191.992,
+        "top": 786.24214157423,
+        "right": 403.29211265999993,
+        "bottom": 807.9286039484375
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/envelope benhammedmaissa3@gmail.com",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 226.50099999999998,
+        "top": 767.8951939449794,
+        "right": 392.9878538899998,
+        "bottom": 779.1134771484376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/mobile +216.25.839.154",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 410.56199999999995,
+        "top": 767.8951939449794,
+        "right": 498.5937919199997,
+        "bottom": 779.0454771484376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "|",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 216.19799999999998,
+        "top": 768.0507112241709,
+        "right": 219.22854797999997,
+        "bottom": 777.4289299484376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "|",
+      "page_no": 1,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 400.25899999999996,
+        "top": 768.0507112241709,
+        "right": 403.28954797999995,
+        "bottom": 777.4289299484376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/linkedin Maissa Ben hammed",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 96.68299999999999,
+        "top": 767.8951939449794,
+        "right": 208.92835528,
+        "bottom": 777.4289299484376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Montfleury, Tunis, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 231.19799999999995,
+        "top": 753.9731939449794,
+        "right": 356.80827815999965,
+        "bottom": 763.8799299484376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Exp´ erience Professionnelle",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 29.765999999999963,
+        "top": 722.3890146484376,
+        "right": 235.56226225999993,
+        "bottom": 729.7629614484376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Stage de Fin d' ´ Etude - Resys Consultant",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 29.766,
+        "top": 694.344045391377,
+        "right": 263.5631248,
+        "bottom": 706.5566572484375
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Conception et Impl´ ementation d'un syst` eme de management de l'IA, conforme ` a la norme ISO/IEC 42001:2023",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 677.0681939449794,
+        "right": 564.0369906800005,
+        "bottom": 686.6019299484376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "D´ eploiement d'une infrastructure r´ eseau segment´ ee en zones, bas´ ee sur des routeurs Cisco via GNS3.",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 662.1111026484376,
+        "right": 522.2371285999994,
+        "bottom": 675.8783868484376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "D´ eploiement d'un SOC de test suite ` a l'abscence d'environnement de test d´ edi´ e, incluant:",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 648.5621026484376,
+        "right": 468.3461745999994,
+        "bottom": 662.3293868484376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "-Mise en place du SIEM Wazuh pour la collecte, la corr´ elation et l'analyse des ´ ev´ enements de s´ ecurit´ e.",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 52.917000000000016,
+        "top": 636.4110453913771,
+        "right": 550.9793143699993,
+        "bottom": 645.9866572484377
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "-D´ eploiement du SOAR bas´ ee sur TheHive, Cortex et MISP pour la gestion des incidents.",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 52.917000000000016,
+        "top": 622.8620453913771,
+        "right": 490.9509007099994,
+        "bottom": 632.4376572484377
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "-Int´ egration du SIEM et du SOAR pour la d´ etection, l'investigation et l'orchestration des incidents.",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 52.917000000000016,
+        "top": 609.3130453913772,
+        "right": 537.4367576299993,
+        "bottom": 618.8886572484378
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "R´ ealisation d'un audit interne de conformit´ e et op´ erationnel du SMIA.",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 594.3651026484378,
+        "right": 378.22500858999973,
+        "bottom": 608.1323868484377
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Analyse de l'existant et identification des ´ ecarts par rapport aux exigences et mesures de contrˆ ole de la norme.",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 580.8161026484378,
+        "right": 565.5091646599997,
+        "bottom": 594.5833868484377
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Identification des risques li´ es ` a l'IA ` a l'aide des checklists NIST AI RMF.",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 567.2671026484378,
+        "right": 391.1032011399998,
+        "bottom": 581.0343868484377
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "´ Evaluation et classification des risques IA selon le NIST AI RMF et l'AI Act.",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 553.7171026484378,
+        "right": 410.89012671999984,
+        "bottom": 567.4843868484378
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "´ Elaboration de plan de traitement de risques IA.",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 540.1681026484379,
+        "right": 273.43219399,
+        "bottom": 553.9353868484378
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Mise en place de l'action corrective pour g´ erer les risques identifi´ es visant ` a r´ eduire les impacts identifi´ es.",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 526.6191026484379,
+        "right": 542.9491458599994,
+        "bottom": 540.3863868484378
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Stage d'´ et´ e - DigitalCook",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 514.7320453913774,
+        "right": 177.55921407000002,
+        "bottom": 524.307657248438
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "R´ ealisation d'un audit de s´ ecurit´ e de l'application web de la plateforme et de son infrastructure serveur.",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 496.0481026484379,
+        "right": 537.9800508099994,
+        "bottom": 509.8153868484379
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Utilisation de Kali Linux avec Nmap, Nessus et Burp Suite pour identifier les vuln´ erabilit´ es.",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 482.4981026484379,
+        "right": 481.42836731999927,
+        "bottom": 496.2653868484379
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "R´ ealisation des tests manuels et automatis´ es, incluant des preuves de concept (PoC) pour des attaques.",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 468.94910264843793,
+        "right": 535.3073213099993,
+        "bottom": 482.71638684843793
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "D´ eveloppement des scripts Python pour automatiser l'identification des vuln´ erabilit´ es.",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 455.40010264843795,
+        "right": 453.24688928999933,
+        "bottom": 469.16738684843796
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "R´ edaction d'un rapport d'´ evaluation des vuln´ erabilit´ es, citant les vuln´ erabilit´ es et leurs niveaux de risque.",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 441.851102648438,
+        "right": 547.7044225499994,
+        "bottom": 455.618386848438
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Projects Acad´ emiques",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 29.76600000000002,
+        "top": 426.7950146484379,
+        "right": 193.91500944000003,
+        "bottom": 434.1689614484379
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Mars 2025 - Novembre 2025",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 449.709,
+        "top": 694.7241040824433,
+        "right": 562.4345808000002,
+        "bottom": 702.5600658484376
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Plateforme de threat Intellignence pour les Banques",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 33.947,
+        "top": 399.478045391377,
+        "right": 321.70505798,
+        "bottom": 409.0536572484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Conception et simulation de l'architecture r´ eseau sous GNS3, avec des routeurs et switchs Cisco.",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 380.7941026484375,
+        "right": 518.7252938299993,
+        "bottom": 394.5613868484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "F´ evrier 2024 - Mai 2024",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 465.758,
+        "top": 399.8581040824433,
+        "right": 562.43551808,
+        "bottom": 407.6940658484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux.",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 367.2451026484375,
+        "right": 443.3685037599994,
+        "bottom": 381.01238684843753
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Configuration des ´ equipements pour le routage L3 et le switching L2.",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 353.6951026484375,
+        "right": 388.2197305299996,
+        "bottom": 367.4623868484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Mise en place des politiques de filtrage via des pare-feux pfSense et OPNsense.",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 340.14610264843753,
+        "right": 433.43576820999954,
+        "bottom": 353.91338684843754
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "D´ eploiement et administration des r` egles de s´ ecurit´ e r´ eseau, avec gestion des flux et contrˆ ole des acc` es.",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 326.5971026484376,
+        "right": 548.4907731799991,
+        "bottom": 340.36438684843756
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "D´ eploiement des outils SIEM via ELK Stack, pour assurer le suivi des ´ ev´ enements r´ eseau.",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 313.04810264843763,
+        "right": 487.04308560999925,
+        "bottom": 326.8153868484376
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Impl´ ementation de use-cases de gestion des incidents avec des outils SOAR via Shuffle, TheHive et Cortex.",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 299.49910264843766,
+        "right": 561.8696934199997,
+        "bottom": 313.2663868484376
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "R´ ealisation de tests pentesting SSH et brute force pour valider la robustesse de l'infrastructure.",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 285.9491026484376,
+        "right": 513.3711075499992,
+        "bottom": 299.71638684843765
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "D´ eveloppement d'une plateforme de Threat Intelligence int´ egrant MISP pour la collecte, l'analyse et le partage d'indicateurs de compromission, avec automatisation des workflows.",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 260.2591939449794,
+        "right": 561.8718752399993,
+        "bottom": 286.1673868484377
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Octobre 2024 - Novembre 2024",
+      "page_no": 1,
+      "block_indices": [
+        51
+      ],
+      "bbox": {
+        "left": 437.724,
+        "top": 240.9421040824434,
+        "right": 562.4349676800001,
+        "bottom": 248.77806584843756
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Projet DevSecOps",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 29.76499999999997,
+        "top": 240.56204539137707,
+        "right": 130.74835687999996,
+        "bottom": 250.13765724843756
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "D´ eveloppement d'une application Spring Boot pour la gestion de foyer.",
+      "page_no": 1,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 221.87710264843759,
+        "right": 396.89137411999957,
+        "bottom": 235.64438684843765
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Conception et gestion d'une base de donn´ ees relationnelle sous MySQL.",
+      "page_no": 1,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 208.3281026484376,
+        "right": 399.9502857599996,
+        "bottom": 222.09538684843756
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Administration Linux pour le d´ eploiement et la gestion des conteneurs Docker de l'application.",
+      "page_no": 1,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 194.77910264843763,
+        "right": 510.7343780799991,
+        "bottom": 208.54638684843758
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Mise en place d'un pipeline CI/CD avec Jenkins.",
+      "page_no": 1,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 181.23010264843765,
+        "right": 290.7916493399999,
+        "bottom": 194.9973868484376
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Int´ egration de SonarQube pour l'analyse qualit´ e du code.",
+      "page_no": 1,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 167.68110264843756,
+        "right": 331.4291377499997,
+        "bottom": 181.44838684843762
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Automatisation des tests unitaires avec JUnit.",
+      "page_no": 1,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 154.1311026484376,
+        "right": 278.4316390399999,
+        "bottom": 167.89838684843755
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Mise en place de pratiques DevSecOps avec OWASP Dependency-Check, JFrog et OWASP ZAP.",
+      "page_no": 1,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 140.5821026484375,
+        "right": 520.7685682599996,
+        "bottom": 154.34938684843758
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Automatisation des scans de s´ ecurit´ e et du reporting dans le pipeline CI/CD.",
+      "page_no": 1,
+      "block_indices": [
+        49
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 127.03310264843753,
+        "right": 427.64412701999964,
+        "bottom": 140.8003868484376
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Monitoring des performances applicatives avec Grafana.",
+      "page_no": 1,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 46.15999999999997,
+        "top": 113.48410264843756,
+        "right": 324.38840460999984,
+        "bottom": 127.2513868484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Comp´ etences",
+      "page_no": 1,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 29.76499999999997,
+        "top": 98.4290146484376,
+        "right": 125.20722353999996,
+        "bottom": 105.8029614484376
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Pr´ eparation certification ISO 27001 Fran¸ cais -Courant-, Anglais -Courant-,Arabe -native",
+      "page_no": 1,
+      "block_indices": [
+        53
+      ],
+      "bbox": {
+        "left": 29.766,
+        "top": 59.480193944979305,
+        "right": 280.16257229999997,
+        "bottom": 82.5629299484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Yasmine_Abderrahmen_23016280.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Yasmine_Abderrahmen_23016280.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Yasmine_Abderrahmen_23016280.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Yasmine Abderrahmen",
+      "email": "08@gmail.com",
+      "phone": null,
+      "location": "Ksibet El Mediouni, Monastir"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Spring Boot",
+        "Java",
+        "Angular",
+        "MySQL",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions"
+      ],
+      "soft_skills": [
+        "delivering user-focused solutions"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Mobelite",
+        "start_date": "02/2025 - 07/2025",
+        "end_date": null,
+        "city": "Monastir",
+        "responsibilities": [
+          "designing and developing a full-stack platform for employee skills monitoring and continuous training"
+        ]
+      },
+      {
+        "job_title": "PFA 2",
+        "company": "ENIT",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "developing a full-stack platform for booking and discovering hiking trails"
+        ]
+      },
+      {
+        "job_title": "Summer internship",
+        "company": "Proxym",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "computer engineering graduate",
+        "school": "ENIT",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:02:47.665468+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6515,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

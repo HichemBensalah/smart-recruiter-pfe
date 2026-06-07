@@ -1,0 +1,214 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Aziz_nassej_23020542.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Aziz_nassej_23020542.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8306,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAziz Nassej\nIngénieur IA · Développeur Full-Stack\nKairouan, Tunisie · +216 26 377 887 · aziznassej@gmail.com · linkedin.com/in/aziz-nassej · github.com/Nsj-Aziz\nDjango · Node. js · PostgreSQL · Bootstrap 5\nPlateforme complète: réservations en ligne, gestion du menu et interface d'administration - déployée en production.\nArchitecture back-end Django + Node. js avec PostgreSQL; frontend Bootstrap 5 responsive.\nEXP É R I E N C E P R O F E S S I O N N E L L E\nDéveloppeur Web & Mobile (Stage) - Entreprise privée\nDéveloppement de fonctionnalités full-stack avec Django et React. js: conception des schémas Oracle Database, implémentation d'endpoints REST et intégration front-end.\nParticipation à toutes les phases du cycle de développement: spécification, développement, tests et livraison en production.\nDéveloppeur Web Freelance - Indépendant\nLivraison de 2 applications web sur mesure (Django, Node. js, Bootstrap) - gestion complète du projet: avantvente, développement, déploiement et support.\n\n## PROFIL\n\nCOMP É TENCESTECHNIQUES\n\n## TECHNICAL SKILLS\n\nIngénieur full-stack et chercheur en IA qui livre des systèmes ML en production - pas seulement des notebooks. Je construis des pipelines complets (ingestion → entraînement → prédiction → API) et les expose comme services REST, une combinaison rare sur le marché. Mon master de recherche en cours porte sur l'optimisation multi-objectif (NSGA-II, ACO, PSO) appliquée à la mobilité urbaine. Disponible pour des rôles d'ingénierie IA, de développement full-stack ou des postes hybrides recherche-ingénierie.\nFrameworks ML:\nBack-End:\nPython, Django (ORM · DRF · Admin), Node. js, FastAPI, REST APIs, Web Sockets\nFront-End:\nReact. js + Vite, JavaScript ES 6+, HTML 5, CSS 3, Bootstrap 5\nBases de données:\nPostgreSQL, MySQL, Oracle, MongoDB, SQLite\nDevOps & Outils:\nGit, Docker, Linux, AWS (certifié), Nginx, VS Code, Postman, Jira\nPROJETS - I N T E L L I G E N C E A R T I F I C I E L L E\nDétection des Sentiments sur Twitter\nAWS Certification Course · DevOps Certification · Network Fundamentals · Digital Marketing\nArabe (langue maternelle) Français (courant - B 2) Anglais (professionnel - B 2) Italien (notions)\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning, Deep Learning, NLP, Optimisation multi-objectif (NSGA-II, ACO, PSO)\nScikit-learn, TensorFlow, Keras, FastAPI (serving modèles), Pandas, NumPy, Matplotlib, Jupyter\nPrétraitement d'un dataset Twitter (Kaggle): tokenisation, lemmatisation, TF-IDF et word embeddings.\nEntraînement et comparaison de 4 modèles (Régression logistique, SVM, Random Forest, LSTM); meilleur F 1 score: ~87% (LSTM).\nDéploiement du modèle champion via une API FastAPI pour des prédictions en temps réel - pipeline complet de bout en bout.\nConception et entraînement d'un modèle ML de recommandation d'irrigation (données météo, humidité, capteurs Io T).\nPipeline complet: ingestion des données capteurs → entraînement → prédiction → exposition via API REST Django.\nInterface React + Vite avec tableau de bord temps réel; déploiement conteneurisé avec Docker.\nModélisation d'un problème d'optimisation multi-objectif réel: réduction des émissions, de la congestion et du temps de trajet simultanément.\nImplémentation et comparaison de trois méta-heuristiques évolutionnaires (NSGA-II, ACO, PSO); analyse des fronts de Pareto obtenus.\nTravail de recherche original avec potentiel de publication - résultats intermédiaires disponibles sur GitHub.\nAPI REST sécurisée (authentification JWT, gestion produits et commandes) couplée à une interface mobile React Native.\nConception du schéma PostgreSQL et optimisation des requêtes pour les opérations catalogue et commandes.\nML, Deep Learning, NLP, systèmes distribués, optimisation multi-objectif, modélisation statistique.\nLicence - Business Intelligence\nISIGK, Kairouan\nEntrepôts de données, bases de données, développement logiciel, analyse décisionnelle.\nCERTIFICATIONS\nLANGUES\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nPython · Scikit-learn · TensorFlow · FastAPI · NLP · Kaggle\nSmart Irrigation - Application Décisionnelle Io T & ML\nPython · Django REST · PostgreSQL · React. js + Vite · Docker · ML prédictif\nMémoire - Optimisation de la Mobilité Durable en Milieu Urbain\nPython · NSGA-II · ACO · PSO · Optimisation multi-objectif\nPROJETS - D É VELOPPEMENTFULL - STACK\nApplication E-Commerce Mobile\nDjango REST Framework · React Native · PostgreSQL · JWT\nPlateforme Web Restaurant\n\n## ACADEMIC PROJECTS\n\nAutonomie totale sur la stack technique et les délais: 100% des projets livrés dans les délais convenus.\nFORMATION\nMaster de Recherche - Systèmes Informatiques Intelligents\nISIGK - Institut Supérieur d'Informatique et de Gestion de Kairouan · Spécialisation IA",
+    "header_info": {
+      "full_name": "Aziz Nassej",
+      "email": "aziznassej@gmail.com",
+      "phone": "+216 26 377 887",
+      "location": null,
+      "linkedin": "linkedin.com/in/aziz-nassej",
+      "github": "github.com/Nsj-Aziz"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9661,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Aziz Nassej",
+      "email": "aziznassej@gmail.com",
+      "phone": "+216 26 377 887",
+      "location": null,
+      "linkedin": "linkedin.com/in/aziz-nassej",
+      "github": "github.com/Nsj-Aziz"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "Django",
+        "Node.js",
+        "FastAPI",
+        "REST APIs",
+        "Web Sockets",
+        "React.js + Vite",
+        "JavaScript ES 6+",
+        "HTML 5",
+        "CSS 3",
+        "Bootstrap 5",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle",
+        "MongoDB",
+        "SQLite",
+        "Git",
+        "Docker",
+        "Linux",
+        "AWS",
+        "Nginx",
+        "VS Code",
+        "Postman",
+        "Jira"
+      ],
+      "soft_skills": [
+        "Optimisation multi-objectif",
+        "Modélisation statistique",
+        "Systèmes distribués",
+        "Analyse décisionnelle",
+        "Développement logiciel",
+        "Analyse de données",
+        "Conception de systèmes"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement de fonctionnalités full-stack avec Django et React.js",
+          "Conception des schémas Oracle Database",
+          "Implémentation d'endpoints REST et intégration front-end",
+          "Participation à toutes les phases du cycle de développement: spécification, développement, tests et livraison en production"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Livraison de 2 applications web sur mesure (Django, Node.js, Bootstrap)",
+          "Gestion complète du projet: avantvente, développement, déploiement et support"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISIGK",
+        "degree": "Master de Recherche - Systèmes Informatiques Intelligents",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe (langue maternelle)",
+      "Français (B 2)",
+      "Anglais (professionnel - B 2)",
+      "Italien (notions)"
+    ],
+    "certifications": [
+      "AWS Certification",
+      "DevOps Certification",
+      "Network Fundamentals",
+      "Digital Marketing"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:34:23.881871+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

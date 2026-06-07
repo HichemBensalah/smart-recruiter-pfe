@@ -1,0 +1,155 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\meriam_azaiez_23023821.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\meriam_azaiez_23023821.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7308,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMERIAM AZAIEZ ✉meriamazaiez@gmail.com\nIngénieure Telecom | Integration Core Network | Kubernetes 📍 Tunis\nIngénieure en télécommunications avec environ 5 ans d’expérience dans l’intégration et l’exploitation de solutions\ntélécom interconnectées au cœur de réseau opérateur. Spécialisée dans le troubleshooting end-to-end, l’intégration de\nplateformes (SMLC/GMLC) avec le Core Network 2 G/3 G/4 G/5 G et le RAN et le déploiement de solutions cloud-native\n(Kubernetes). Expertise en automatisation, observabilité et environnements multi-pays.\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nIntégration Télécom & Core Network | kubernetes | Intersec (Sofrecom)\n2021 – decembre 2025\nSolutions Big Data & Géolocalisation pour opérateurs télécom — déploiements multi-pays\nDéploiement et gestion de solutions Big Data de marketing contextuel pour opérateurs télécom pour collecte et traitement\nde données data voice sms en temps réelles permettant à l’équipe marketing l’exploitation de la puissance des donnés en\ntemps réelles\nDéploiement et Intégration de solutions de géolocalisation mobile (SMLC/GMLC) interconnectées avec le Core Network\n2 G/3 G/4 G/5 G (MSC, HLR, SMSC; MME/HSS; AMF/UDM) et le RAN\nMise en œuvre et validation des flux de signalisation entre plateformes applicatives et éléments réseau (MAP/Diameter)\nConfiguration des interfaces télécom via SCTP/SIGTRAN pour communication avec le cœur réseau\nParticipation aux tests d’intégration end-to-end (E 2 E) des services voix, SMS et data\nAdministration de serveurs Linux (Red Hat, Cent OS, Debian; Rocky) et optimisation des environnements de production.\nMise en place de clusters à haute disponibilité (multi-host, failover, Red Hat clustering) et configuration de HA via\nkeepalived et HAProxy\nGestion de la réplication et synchronisation des données dans des environnements distribués.\nDéploiement d’applications en environnements virtualisés (VMware) et cloud, avec gestion des configurations\nd’infrastructure, automatisation des déploiements et optimisation des performances.\nAutomatisation avec Ansible pour la gestion de configuration et le déploiement de services.\nConteneurisation des applications avec Docker et orchestration via Kubernetes.\nGestion multi-cluster avec Rancher et déploiements Git Ops via Fleet (configuration Git Ops-based deployments).\nDéploiement et gestion de Helm charts pour Kubernetes.\nDéveloppement de parseurs Python pour l'extraction et l'intégration de données en temps réel (voix, SMS, data).\nÉcriture de scripts en Bash et Python pour l’automatisation des tâches et le traitement des données\nMonitoring avec Prometheus/Grafana\nIntégration et tests d’interfaces télécom: IN/MSC/SMSC, webservices IN, REST/SOAP API (XML), tests API Mobile Money/interface IN pour attribution de bonus.\n\n## JOB SUMMARY\n\nRédaction de la documentation technique complète (DAT, procédures d'exploitation, guides d'utilisation, matrices de flux).\nSupport technique avancé niveau 2/3 et gestion des incidents en production.\nExpérience Cloud/AWS\nDéploiement et gestion de services AWS de base: EC 2, stockage S 3, et gestion des utilisateurs IAM.\n\n## LANGUES\n\nArabe\nLangue maternelle\nFrançais\nCourant\nAnglais\nBilingue\nConnaissance des concepts de réseaux cloud, groupes de sécurité et fondamentaux des VPC.\nExpérience avec les principes de déploiement cloud-native, la scalabilité et la supervision.\nUtilisation de la console AWS, CLI et configuration des services dans des environnements de laboratoire.\nCréation et configuration de machines virtuelles et bases du réseau.\nApprentissage des fondamentaux de l’architecture cloud, de la scalabilité et de la sécurité.\nAdministratrice Système & Réseaux | HBNS – Hosted Business Network Solution\nGestion de l'infrastructure réseau et systèmes pour entreprises (Charguia)\nAdministration et supervision de l'infrastructure réseau (serveurs, équipements réseau, sécurité).\nMise en place des procédures techniques d'exploitation, d'utilisation et de sécurité des équipements.\nAdministration support et gestion des comptes et outils M 365\nDiagnostic et résolution des incidents réseau et systèmes avec mise en œuvre des mesures correctives.\n\n## EDUCATION\n\nConfiguration et câblage du réseau informatique des sociétés clientes.\nAdministration et supervision du serveur de téléphonie Vo IP (standard IPBX).\n\n## PARCOURS ACADÉMIQUE\n\nMastère 2 – Systèmes Télécommunication & Réseaux\nÉcole Nationale des Ingénieurs de Tunis — ENIT\nDiplôme National d'Ingénieur – Télécommunication & Réseaux\nÉcole Nationale des Ingénieurs de Gabes — ENIG\nIngénieur Section MP (Mathématiques - Physique)\nInstitut Préparatoire aux Études d'Ingénieurs\nBaccalauréat Mathématiques — Mention Bien\n\n## CERTIFICATIONS & FORMATIONS CONTINUES\n\nCloud & Virtualisation (3 J) — Orange Develop Center\nTechnologie SDN/NFV dans les Réseaux 5 G — Orange Develop Center\nIT Administration Google — Coursera\nVMware-v Sphere — Coursera\nCertification en cours: CKA (Certified Kubernetes Administrator)\nAWS Solutions Architect Associate\nData & Supervision\nBig Data, Parseurs Python, Traitement données temps réel,\nPrometheus, Grafana\nRéseaux & Télécom\nRéseaux mobiles 3 G/4 G/5 G, Géolocalisation mobile (smlc; gmlc),\nIOT; Configuration réseau, routage;\nProtocoles (SCTP, SIGTRAN); Services (Voix, SMS, Data)\nSystèmes & Infrastructure\nLinux (Red Hat, Cent OS, Debian), VMware, Clusters HA\nAdministration serveurs, Vo IP (IPBX)\nDevOps & Automatisation\nAnsible, Docker, Kubernetes, Git Lab CI, helm. gitops\nAzure, Bash, Python, YAML, JSON",
+    "header_info": {
+      "full_name": "EXPÉRIENCES PROFESSIONNELLES",
+      "email": "meriamazaiez@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "languages/langues"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9462,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MERIAM AZAIEZ",
+      "email": "meriamazaiez@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Kubernetes",
+        "Ansible",
+        "Docker",
+        "VMware",
+        "Linux (Red Hat, Cent OS, Debian)",
+        "AWS"
+      ],
+      "soft_skills": [
+        "Troubleshooting end-to-end",
+        "Automatisation",
+        "Observabilité",
+        "Gestion de clusters",
+        "Configuration de HA",
+        "Déploiement de solutions cloud-native"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Intersec (Sofrecom)",
+        "job_title": "Intégration Télécom & Core Network",
+        "start_date": "2021 – décembre 2025",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Déploiement et gestion de solutions Big Data de marketing contextuel pour collecte et traitement de données data voice sms en temps réels",
+          "Déploiement et Intégration de solutions de géolocalisation mobile (SMLC/GMLC) interconnectées avec le Core Network 2 G/3 G/4 G/5 G"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "École Nationale des Ingénieurs de Tunis — ENIT",
+        "degree": "Mastère 2 – Systèmes Télécommunication & Réseaux",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Préparatoire aux Études d'Ingénieurs",
+        "degree": "Baccalauréat Mathématiques — Mention Bien",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:24:32.752584+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

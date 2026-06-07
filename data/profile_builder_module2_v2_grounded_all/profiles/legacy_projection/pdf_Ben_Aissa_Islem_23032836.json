@@ -1,0 +1,154 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ben_Aissa_Islem_23032836.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ben_Aissa_Islem_23032836.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ben_Aissa_Islem_23032836.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Islem Ben Aissa",
+      "email": "benaissa.isslem@gmail.com",
+      "phone": "+216 95900933",
+      "location": "Ing´ enieur DevOps & Monitoring - Stage PFE ( Sagemcom, Tunis)"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Docker",
+        "Kubernetes",
+        "Open Stack",
+        "Microsoft Azure",
+        "AWS",
+        "Git",
+        "GitHub Actions",
+        "Gitea Actions",
+        "Jenkins",
+        "Nexus",
+        "Ansible",
+        "Terraform",
+        "Prometheus",
+        "Grafana",
+        "Alertmanager",
+        "ELK",
+        "Linux",
+        "Windows Server",
+        "pf Sense",
+        "VPN",
+        "OSPF",
+        "VLAN",
+        "DMVPN",
+        "Python",
+        "Flask",
+        "FAISS",
+        "Bash",
+        "Java",
+        "Spring Boot",
+        "JavaScript",
+        "Angular",
+        "C#",
+        ".NET",
+        "SQL",
+        "HTML",
+        "CSS",
+        "PHP",
+        "C"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Ing´ enieur DevOps & Monitoring - Stage PFE",
+        "company": "Sagemcom",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "D´ eploiement d'une infrastructure Docker on-premise pour l'administration et la supervision centralis´ ees.",
+          "Mise en place d'une chaˆ ıne CI/CD (Gitea Actions, Ansible) pour le d´ eploiement automatis´ e des images.",
+          "Supervision temps r´ eel de l'infrastructure et des conteneurs via Prometheus, Grafana et Alertmanager .",
+          "Centralisation et analyse des logs des serveurs avec la stack ELK ( Filebeat, Logstash, Elasticsearch ).",
+          "S´ ecurisation des images Docker avec Harbor et Trivy, int´ egr´ ees ` a Defect Dojo pour le suivi des vuln´ erabilit´ es.",
+          "Administration s´ ecuris´ ee des conteneurs via Portainer, avec int´ egration d'un proxy Nginx .",
+          "D´ eveloppement d'un chatbot d'assistance DevOps intelligent local, bas´ e sur un LLM (Gemma 3, RAG) ."
+        ]
+      },
+      {
+        "job_title": "Ing´ enieur Infrastructure Cloud - Stage d'ing´ enieur",
+        "company": "Esprit Tech",
+        "start_date": null,
+        "end_date": null,
+        "city": "Ghazela",
+        "responsibilities": [
+          "D´ eploiement automatis´ e de clusters Kubernetes sur AWS via Cluster API.",
+          "Int´ egration de pipelines CI/CD avec GitHub Actions pour le d´ eploiement continu.",
+          "Mise en place de sauvegardes et restaurations de clusters avec Velero."
+        ]
+      },
+      {
+        "job_title": "Administrateur Syst` emes & R´ eseaux - Stage",
+        "company": "Tunisair",
+        "start_date": null,
+        "end_date": null,
+        "city": "Charguia",
+        "responsibilities": [
+          "D´ eploiement d'une infrastructure Active Directory int´ egrant les services AD, DNS et DHCP .",
+          "Mise en place d'une solution IPAM et gestion des comptes utilisateurs (GPO, Windows Server)."
+        ]
+      },
+      {
+        "job_title": "Administrateur S´ ecurit´ e R´ eseau - Stage",
+        "company": "ANSSI",
+        "start_date": "Janvier 2022",
+        "end_date": "Mai 2022",
+        "city": "Tunis",
+        "responsibilities": [
+          "Mise en place de pf Sense, Open VPN et Snort pour le contrˆ ole et la s´ ecurisation du trafic.",
+          "R´ ealisation de tests d'intrusion (Kali Linux, LOIC) et blocage d'attaques DDo S via IDS/IPS."
+        ]
+      },
+      {
+        "job_title": "Administrateur R´ eseau - Stage",
+        "company": "ATB",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Configuration de routeurs et ´ equipements r´ eseau, architecture IP WAN.",
+          "Impl´ ementation et test des protocoles OSPF, VLAN et DMVPN."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplˆ ome national d'ing´ enieur en informatique sp´ ecialis´ e en Cloud Computing",
+        "school": "´ Ecole sup´ erieure priv´ ee d'ing´ enierie et de technologies - Esprit Tunisie",
+        "year": null
+      },
+      {
+        "degree": "Mast` ere Professionnel co-construit en S´ ecurit´ e des R´ eseaux et Communications Embarqu´ es",
+        "school": "Institut Sup´ erieur des Technologies de l'Information et de la Communication - Istic Tunisie",
+        "year": null
+      },
+      {
+        "degree": "Diplˆ ome national de licence en T´ el´ ecommunications",
+        "school": "Institut Sup´ erieur des Technologies de l'Information et de la Communication - Istic Tunisie",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:44:09.808078+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9209,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

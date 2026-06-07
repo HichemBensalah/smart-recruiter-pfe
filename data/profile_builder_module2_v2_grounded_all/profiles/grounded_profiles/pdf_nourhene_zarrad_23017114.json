@@ -1,0 +1,187 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\nourhene_zarrad_23017114.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\nourhene_zarrad_23017114.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9298,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nTunis, Tunisie\nNourhene ZARRAD\nnourhene 97.zarrad@gmail.com\n\n## EDUCATION\n\nDisponible immédiatement Formation DevOps avancée en cours - Le Bon Développeur\nnourhene-zarrad\nzarrad-nourhene\nDiplômes\n## 2022 | IT LAND: Formation DevOps (niveau intermédiaire)\n**Location: ** AWS, Microsoft Azure, Terraform, Ansible\n## 2026 | Le Bon Développeur: Formation DevOps (niveau avancée - en cours)\n\n## TECHNICAL SKILLS\n\nIngénieure DevOps Junior orientée Cloud, avec une bonne maîtrise des environnements d'infrastructure modernes. CI/CD et conteneurisation (Docker/Kubernetes). Motivée à contribuer activement et à relever de nouveaux défis techniques.\nCompétences générales\nIngénieure Junior DevOps & Cloud (Freelance) | Lifespac. es Tunis, Tunisie\nSystèmes d'exploitation: Windows, Linux\nFévrier 2024 - Janvier 2025\nLangages: Python, Java, SQL, JavaScript, HTML/CSS, PHP\nDéveloppement Backend: Django, FastAPI, Flask, API RESTful\nDevOps: Docker, Jenkins, GitHub Actions, pipelines CI/CD,\nOutils: Linux, VS Code, Eclipse, Jira\nProjet Cloud - Open Stack et Open Shift: Déploiement d'une application Spring Boot/JSF sur Open Stack avec cluster Open Shift OKD 3. 11 et automatisation via Ansible et scripts Shell.\nStages\nStage PFE DevOps & Cloud | Lifespac. es Tunis, Tunisie\nEnvironnements techniques: Kubernetes, Docker, Open Shift, Spring Boot, Ansible, GitHub\nJanvier 2023 - Juillet 2023\n Concevoir une plateforme CI/CD complète pour une application cloud-native en automatisant les phases de build, test et déploiement continu.\nEsprit, École supérieur privée d'ingénierie et de technologie\nCycle d'ingénieur en informatique: Spécialité Cloud et DevOps\n Provisionner automatiquement les machines avec MAAS et déployer un cluster Kubernetes haute disponibilité (K 3 s sur 3 VM Ubuntu 20. 04).\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences professionnelles\nExpériences Associatives\n## 2023 | Membre du club Tunivisions (ESPRIT)\n-: Bon niveau (B 2)\n-: Intermédiaire (B 1)\n-: Intermédiaire (B 1)\n\n## ACADEMIC PROJECTS\n\nProjets académiques\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\n Implémenter une chaîne d'intégration continue avec Jenkins pour le build, les tests et la création ainsi que le push des images Docker.\n Mettre en place le déploiement continu avec Argo CD et une approche Git Ops afin d'automatiser les déploiements sur Kubernetes et d'assurer la traçabilité des changements.\nStage Réseaux & Vo IP | CTI NETWORK Tunis, Tunisie\n\n## LANGUAGES\n\nLangues\nAoût 2021 - Octobre 2021\n Étudier et mettre en place des solutions Vo IP afin d'améliorer la communication interne et d'optimiser les coûts télécoms.\nFrançais\nAnglais\n Déployer et intégrer la solution 3 CX pour assurer une gestion centralisée de la téléphonie IP et une meilleure continuité de service.\nCoréen\nCentres d'intérêt\nVoyages\nSports",
+    "header_info": {
+      "full_name": "Tunis, Tunisie",
+      "email": "97.zarrad@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8369,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[0]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Nourhene ZARRAD",
+      "email": "nourhene 97.zarrad@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieure DevOps Junior orientée Cloud, avec une bonne maîtrise des environnements d'infrastructure modernes.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "AWS",
+        "Microsoft Azure",
+        "Terraform",
+        "Ansible",
+        "CI/CD",
+        "conteneurisation (Docker/Kubernetes)",
+        "Python",
+        "Java",
+        "SQL",
+        "JavaScript",
+        "HTML/CSS",
+        "PHP",
+        "Django",
+        "FastAPI",
+        "Flask",
+        "API RESTful",
+        "Jenkins",
+        "GitHub Actions",
+        "pipelines CI/CD",
+        "Linux",
+        "VS Code",
+        "Eclipse",
+        "Jira"
+      ],
+      "soft_skills": [
+        "conception d'une plateforme CI/CD complète pour une application cloud-native",
+        "provisionner automatiquement les machines avec MAAS et deployer un cluster Kubernetes haute disponibilité (K 3 s sur 3 VM Ubuntu 20. 04)"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Concevoir une plateforme CI/CD complète pour une application cloud-native en automatisant les phases de build, test et déploiement continu.",
+          "Provisionner automatiquement les machines avec MAAS et déployer un cluster Kubernetes haute disponibilité (K 3 s sur 3 VM Ubuntu 20. 04)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Le Bon Développeur",
+        "degree": "Formation DevOps avancée en cours",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "IT LAND",
+        "degree": "Formation DevOps (niveau intermédiaire)",
+        "field": "AWS, Microsoft Azure, Terraform, Ansible",
+        "year": 2022
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais",
+      "Coréen"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:54:00.826108+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

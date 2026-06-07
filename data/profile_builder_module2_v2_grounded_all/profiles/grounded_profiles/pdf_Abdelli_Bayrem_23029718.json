@@ -1,0 +1,226 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abdelli_Bayrem_23029718.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abdelli_Bayrem_23029718.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8288,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nSoftware Engineer/_475 abdellibayrem 6@gmail.com/phone (+216) 98 126 871/map_marker Manouba, Tunisia/globe Portfolio - Bayrem Abdelli/linkedin linkedin.com/in/bayrem-abdelli/github github.com/Bayrem Abdelli 1\nSKILLS\nJavaScript\nTypeScript\nSQL\nBash\nFrontend\nNext. js\nTailwind CSS\nRedux\nHTML/CSS\nFigma\nBackend and Data\nFastAPI\nExpress. js\nREST APIs\nGraphQL\nWeb Sockets\nPostgreSQL\nMongoDB\nRedis\nGit\nCI/CD\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nFreelance Full Stack & AI Developer\nSelf-Employed/calendar Nov 2025 - Apr 2026/map_marker Remote\nDesigned and deployed full stack web applications with REST APIs and dynamic frontends; integrated AI-powered features and third-party connectors across multiple client engagements.\n## Full Stack Data Platform - Internship\n**Date: **/calendar Apr 2025 - Oct 2025\n- INSA Strasbourg\n## /map_marker Strasbourg, France\n**Date: **/calendar Sep 2016 - Jun 2019\n- Built a scalable full stack platform with React frontend and FastAPI backend for structured data visualization and LLM-based extraction; containerized with Docker ensuring reliability and reproducibility.\n## Legal Document Web Platform - Internship\n\n## EDUCATION\n\nComputer Science Engineering\nNational Engineering School of Sfax/calendar Sep 2022 - Dec 2025 Mathematics and Physics Cycle\nPreparatory Institute of Tunis\n## /calendar Sep 2019 - Jun 2022 Baccalaureate in Mathematics\n- High School Pilote Siliana\n\n## LANGUAGES\n\nLanguages Python\nJURIDOC\nJava/calendar Jun 2024 - Sep 2024/map_marker Tunis, Tunisia\nReact\nEngineered a full stack document platform with React, FastAPI, and PostgreSQL; implemented semantic search, authentication, and AI-assisted summarization with structured monitoring.\nNode. js\nSecurity Dashboard - Internship\nNational Cybersecurity Agency/calendar Jun 2023 - Sep 2023/map_marker Tunis, Tunisia\nDocker\nDeveloped interactive web dashboards for traffic anomaly visualization, built backend detection APIs, and delivered prioritized risk reports aligned with standardized security methodologies.\n\n## LANGUAGE SKILLS\n\nArabic - Native\nFrench - Professional\nEnglish - Professional\nGerman - Beginner\n\n## ACADEMIC PROJECTS\n\nPROJECTS\n## Saa S Project Management Platform\n## react, node. js, postgresql, docker, redis, socket. io\n**Date: **/calendar February 2026 - April 2026\nBuilt a collaborative Saa S platform where teams manage tasks and communicate in real time - featuring role-based access, persistent state, live Web Socket sync, and an AI assistant for task automation.\n- Treasurer\n- Phishing Detection Web Application\n## react, FastAPI, scikit-learn, xgboost, postgresql\n**Date: **/calendar January 2025 - April 2025\n- Engineered a full stack cybersecurity platform classifying malicious URLs in real time - combining a responsive React interface with a production-grade FastAPI backend and ML pipeline handling imbalanced threat data.\n- Financial Analytics Dashboard\n## react, FastAPI, postgresql, chart. js, langchain\n**Date: **/calendar September 2024 - November 2024\n- Developed a full stack financial platform ingesting earnings reports visualizing key indicators with interactive charts and generating AI-powered forecasting summaries to support faster investment decisions.\n\n## VOLUNTEER EXPERIENCE\n\nIEEE Computational Intelligence Society/calendar Dec 2023 - Oct 2025 Event Chief\nMicrosoft Tech Club ENIS\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nLLM Customization - NVIDIA\nAzure AI - Microsoft\nML Specialization - Deep Learning. AI\nMicrosoft 365 - Microsoft\nAWS Technical Essentials - AWS",
+    "header_info": {
+      "full_name": "Next. js",
+      "email": "6@gmail.com",
+      "phone": "+216) 98 126 871",
+      "location": null,
+      "linkedin": "linkedin.com/in/bayrem-abdelli/github",
+      "github": "github.com/Bayrem"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9658,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "certifications[4]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].field",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Bayrem Abdelli",
+      "email": "6@gmail.com",
+      "phone": "+216) 98 126 871",
+      "location": "Manouba, Tunisia",
+      "linkedin": "linkedin.com/in/bayrem-abdelli",
+      "github": "github.com/Bayrem Abdelli"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Bash",
+        "Frontend",
+        "Next. js",
+        "Tailwind CSS",
+        "Redux",
+        "HTML/CSS",
+        "Figma",
+        "Backend and Data",
+        "FastAPI",
+        "Express. js",
+        "REST APIs",
+        "GraphQL",
+        "Web Sockets",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Git",
+        "CI/CD"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Self-Employed",
+        "job_title": "Freelance Full Stack & AI Developer",
+        "start_date": "Nov 2025",
+        "end_date": "Apr 2026",
+        "city": "Remote",
+        "responsibilities": [
+          "Designed and deployed full stack web applications with REST APIs and dynamic frontends; integrated AI-powered features and third-party connectors across multiple client engagements."
+        ]
+      },
+      {
+        "company": "INSA Strasbourg",
+        "job_title": null,
+        "start_date": "Apr 2025",
+        "end_date": "Oct 2025",
+        "city": "Strasbourg, France",
+        "responsibilities": [
+          "Built a scalable full stack platform with React frontend and FastAPI backend for structured data visualization and LLM-based extraction; containerized with Docker ensuring reliability and reproducibility."
+        ]
+      },
+      {
+        "company": "National Cybersecurity Agency",
+        "job_title": null,
+        "start_date": "Jun 2023",
+        "end_date": "Sep 2023",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Developed interactive web dashboards for traffic anomaly visualization, built backend detection APIs, and delivered prioritized risk reports aligned with standardized security methodologies."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "National Engineering School of Sfax",
+        "degree": "Computer Science Engineering",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Preparatory Institute of Tunis",
+        "degree": null,
+        "field": "Mathematics and Physics Cycle",
+        "year": null
+      },
+      {
+        "institution": "High School Pilote Siliana",
+        "degree": "Baccalaureate in Mathematics",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "French",
+      "English",
+      "German"
+    ],
+    "certifications": [
+      "LLM Customization - NVIDIA",
+      "Azure AI - Microsoft",
+      "ML Specialization - Deep Learning. AI",
+      "Microsoft 365 - Microsoft",
+      "AWS Technical Essentials - AWS"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:30:08.895933+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

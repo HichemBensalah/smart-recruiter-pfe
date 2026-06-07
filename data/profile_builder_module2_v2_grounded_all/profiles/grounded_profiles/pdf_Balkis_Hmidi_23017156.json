@@ -1,0 +1,270 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Balkis_Hmidi_23017156.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Balkis_Hmidi_23017156.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8234,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nBalkis Hmidi\nbalkis.hmidi@outlook.com | linkedin.com/in/balkiss-hmidi | github.com/balkishmidi | +216 52 259 276\nMySQL, MongoDB, SQL Server\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## PROFESSIONAL EXPERIENCE\n\nDiplômée en Informatique, passionnée par le développement web fullstack. Je possède une expérience académique et en stage dans le développement d'applications web avec Symfony, Angular, Laravel, PHP, Java et SQL .\nRigoureuse, méthodique et motivée, je souhaite intégrer une équipe dynamique afin de contribuer au développement, au déploiement et à la maintenance de solutions web performantes.\n**Date: ** Graduation Date: Jun 2022\n## Lac 2, Tunisie\n**Date: ** Feb 2025 - Aug 2025\n- Développement de modules d'une application CRM industrielle avec Angular et .NET .\n- Implémentation de fonctionnalités métiers et gestion des données.\n- Contribution à la maintenance et à l'amélioration continue de l'application.\n- Collaboration avec chefs de projet et équipe technique en méthodologie agile\n- Télétravail\n- Développement d'une application web de gestion avec Angular et Spring Boot .\n- Participation aux tests unitaires et à l'amélioration de la qualité du code (couverture 85%).\n## Lac 1, Tunisie\n**Date: ** Feb 2022 - May 2022\n- Développement d'interfaces mobiles avec Ionic et Angular\n- Contribution à la conception backend et à la base de données avec .NET.\n- ESPRIT\n- Contribution au développement d'une application web académique.\n- Travail sur les services web et la logique applicative.\n- Participation à l'intégration des différentes fonctionnalités.\n- ESPRIT\n- Implémentation des opérations CRUD et gestion des requêtes SQL.\n- ESPRIT\n## Angular, HTML 5, CSS 3, JavaScript, TypeScript\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nINETUM Tunisie\nDéveloppeuse Full-Stack & CRM (Stage PFE)\nParticipation aux tests fonctionnels et techniques.\nIPACT Consult\nDéveloppeuse Web (Stage)\nConception et consommation d'API REST.\nManipulation de bases de données MongoDB.\nTravail en environnement collaboratif agile\nAxe Finance\nDéveloppeuse Mobile (Stage PFE)\n\n## PROJETS ACADÉMIQUES\n\nAuto Xpress - Application Web, Desktop, Mobile\nTechnologies: Symfony, Java, Web Services\nRescue Food - Application Web\nTechnologies: Laravel, MySQL\nDéveloppement backend en PHP (Laravel) .\nConception de la base de données relationnelle.\nTEKTAI - Plateforme Collaborative\nTechnologies: React, Nest JS, MongoDB\nDéveloppement de composants frontend.\nImplémentation d'API backend.\nTravail en équipe selon des pratiques agiles.\n\n## COMPÉTENCES TECHNIQUES\n\nFrontend:\nPHP, Symfony, .NET\nBackend:\n\n## TECHNICAL SKILLS\n\nDatabases:\nMéthodologies:\nAgile/Scrum\nGit, Docker, CI/CD\nOutils:\n\n## EDUCATION\n\nFORMATION\nESPRIT - École Sup Privée d'Ingénierie et de Technologies\n## Diplôme d'ingénieure en Informatique - Technologies du Web et de l'Internet\n**Date: ** Graduation Date: Oct 2025\n- ISET Kairouan\n- Licence en Multimédia et Développement Web\n- Lycée Borj Cedria\n## Baccalauréat en Sciences Expérimentales\n**Date: ** Graduation Date: Jul 2019\n- HTML 5 Application Development Fundamentals - Microsoft\n- Introduction to HTML & CSS - Microsoft\n- Hashgraph Developer - The Hashgraph Association\n## Arabic (Native), French (B 2), English (B 2)\n**Date: ** Jul 2024 - Aug 2024\n\n## CERTIFICATES (IN PROGRESS)\n\nCertificats:\n\n## LANGUAGES\n\nLangues:",
+    "header_info": {
+      "full_name": "Balkis Hmidi",
+      "email": "balkis.hmidi@outlook.com",
+      "phone": "+216 52 259 276",
+      "location": "MySQL, MongoDB, SQL Server",
+      "linkedin": "linkedin.com/in/balkiss-hmidi",
+      "github": "github.com/balkishmidi"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9647,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[3].city",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].responsibilities[2]",
+      "experiences[3].responsibilities[3]",
+      "experiences[3].responsibilities[4]",
+      "experiences[3].responsibilities[5]",
+      "experiences[3].responsibilities[6]",
+      "experiences[3].start_date",
+      "experiences[4].city",
+      "experiences[4].end_date",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].responsibilities[1]",
+      "experiences[4].responsibilities[2]",
+      "experiences[4].responsibilities[3]",
+      "experiences[4].responsibilities[4]",
+      "experiences[4].responsibilities[5]",
+      "experiences[4].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Balkis Hmidi",
+      "email": "balkis.hmidi@outlook.com",
+      "phone": "+216 52 259 276",
+      "location": null,
+      "linkedin": "linkedin.com/in/balkiss-hmidi",
+      "github": "github.com/balkishmidi"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "MySQL",
+        "MongoDB",
+        "SQL Server",
+        "Angular",
+        "Laravel",
+        "PHP",
+        "Java",
+        "SQL",
+        "Symfony",
+        ".NET",
+        "Ionic",
+        "HTML 5",
+        "CSS 3",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Nest JS",
+        "Git",
+        "Docker",
+        "CI/CD"
+      ],
+      "soft_skills": [
+        "Rigoureuse",
+        "méthodique",
+        "motivée"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "INETUM Tunisie",
+        "job_title": "Développeuse Full-Stack & CRM (Stage PFE)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Participation aux tests fonctionnels et techniques"
+        ]
+      },
+      {
+        "company": "IPACT Consult",
+        "job_title": "Développeuse Web (Stage)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et consommation d'API REST",
+          "Manipulation de bases de données MongoDB",
+          "Travail en environnement collaboratif agile"
+        ]
+      },
+      {
+        "company": "Axe Finance",
+        "job_title": "Développeuse Mobile (Stage PFE)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Feb 2025",
+        "end_date": "Aug 2025",
+        "city": "Lac 2, Tunisie",
+        "responsibilities": [
+          "Développement de modules d'une application CRM industrielle avec Angular et .NET",
+          "Implémentation de fonctionnalités métiers et gestion des données",
+          "Contribution à la maintenance et à l'amélioration continue de l'application",
+          "Collaboration avec chefs de projet et équipe technique en méthodologie agile",
+          "Télétravail",
+          "Développement d'une application web de gestion avec Angular et Spring Boot",
+          "Participation aux tests unitaires et à l'amélioration de la qualité du code (couverture 85%)"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Feb 2022",
+        "end_date": "May 2022",
+        "city": "Lac 1, Tunisie",
+        "responsibilities": [
+          "Développement d'interfaces mobiles avec Ionic et Angular",
+          "Contribution à la conception backend et à la base de données avec .NET",
+          "Contribution au développement d'une application web académique",
+          "Travail sur les services web et la logique applicative",
+          "Participation à l'intégration des différentes fonctionnalités",
+          "Implémentation des opérations CRUD et gestion des requêtes SQL"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT - École Sup Privée d'Ingénierie et de Technologies",
+        "degree": "Diplôme d'ingénieure en Informatique - Technologies du Web et de l'Internet",
+        "field": null,
+        "year": 2025
+      },
+      {
+        "institution": "ISET Kairouan",
+        "degree": "Licence en Multimédia et Développement Web",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Borj Cedria",
+        "degree": "Baccalauréat en Sciences Expérimentales",
+        "field": null,
+        "year": 2019
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "certifications": [
+      "HTML 5 Application Development Fundamentals - Microsoft",
+      "Introduction to HTML & CSS - Microsoft",
+      "Hashgraph Developer - The Hashgraph Association"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:40:05.639479+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

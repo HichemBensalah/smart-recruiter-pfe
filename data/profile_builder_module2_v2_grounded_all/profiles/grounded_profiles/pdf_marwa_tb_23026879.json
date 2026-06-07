@@ -1,0 +1,172 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\marwa_tb_23026879.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\marwa_tb_23026879.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8707,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMarwa Tabbabi\nIng´ enieur EN Informatique/phone-alt/envelope tabbabimarwa.contact@gmail.com\nwww. linkedin.com/in/marwa-tabbabi/linkedin\nD´ eveloppeuse Full Stack - Stage d'´ et´ e\n\n## PROFESSIONAL SUMMARY\n\nProfil\nComp´ etences Techniques\nLangages de Programmation: Java, JavaScript, TypeScript, SQL\nD´ eveloppement Web: HTML, CSS, Bootstrap, Angular Material\nTests et Qualit´ e\nPentesting\n: Zed Attack Proxy (ZAP), Wapiti, Nmap\nBases de Donn´ ees\n: PostgreSQL, MySQL, Maria DB\nImpl´ ementation de scripts d'automatisation des tests d'intrusion avec ZAP, Wapiti, Nmap et SQLmap.\nD´ eveloppement de fonctionnalit´ es de notifications en temps r´ eel via Web Socket et int´ egration des alertes de s´ ecurit´ e.\nAutomatisation de l'envoi des r´ esultats de tests par email et int´ egration avec Slack.\nMots cl´ es: pyhon, FastAPI, Docker, Docker Compose, Web Socket, JWT, ZAP, Wapiti, Nmap, SQLmap, S´ el´ enium Web Driver\n\n## ACADEMIC PROJECTS\n\nDiplˆ om´ ee en informatique, je suis une ing´ enieure logiciel motiv´ ee et orient´ ee r´ esultats, sp´ ecialis´ ee dans le d´ eveloppement d'applications web full-stack. Appr´ eciant le travail en ´ equipe, je contribue activement ` a la r´ eussite des projets grˆ ace ` a mon esprit de collaboration, mon autonomie et mon engagement.\n**Date: ** Octobre 2025 - Pr´ esent\n**Location: ** Tunis, Tunisie\n\n## TECHNICAL SKILLS\n\nFrameworks et Technologies: Spring Boot, Spring Data, Spring Web, Spring Security, Hibernate, JPA, JWT, JSF (Prime Faces), Angular, Bootstrap, Prime NG, Angular Material\n: JUnit, Selenium Web Driver, Postman, Swagger\nDevOps et Outils\n: Docker, Docker Compose, Git, Maven\nFormats de Donn´ ees\n: Scrum\nD´ eveloppeuse Full Stack - Syst` eme de Gestion des ´ Etablissements\nConception et d´ eveloppement d'une plateforme compl` ete de gestion des ´ etablissements permettant la digitalisation des processus administratifs, p´ edagogiques et organisationnels.\nD´ eveloppement et maintenance des modules de gestion des ´ el` eves, enseignants, classes, pr´ esences, r´ eservations, cong´ es, inscriptions et suivi administratif des ´ etablissements.\nImpl´ ementation des fonctionnalit´ es backend avec Java, JSF et JPA pour assurer la gestion des donn´ ees m´ etier, les op´ erations CRUD et les r` egles de gestion complexes.\nParticipation ` a la conception des interfaces web dynamiques et ergonomiques adapt´ ees aux besoins des diff´ erents utilisateurs de la plateforme (administration, enseignants, personnel, etc.).\nContribution ` a l'´ evolution fonctionnelle de la plateforme en collaboration avec les ´ equipes projet dans un environnement Agile Scrum.\nMots cl´ es: Java, JSF, JPA, Hibernate, Spring, Maven, SQL, Agile Scrum\nConception et d´ eveloppement des interfaces utilisateur (IHM) en utilisant Angular 17, en mettant l'accent sur l'ergonomie et la performance.\nGestion des versions et des ´ evolutions de la base de donn´ ees avec Liquibase, garantissant la tra¸ cabilit´ e et la fiabilit´ e des changements.\nD´ eveloppement du backend avec Spring Boot 3. 2 et Spring Data JPA pour la gestion des donn´ ees et des processus m´ etier.\nParticipation active aux c´ er´ emonies Agile Scrum (Sprint Planning, Daily Meetings, Sprint Review) et collaboration avec les ´ equipes produit.\nMots cl´ es: Java, Spring Boot 3. 2, Spring Data JPA, PostgreSQL, Angular 17, Liquibase, Jira\n\n##: XML, JSON\n\nMod´ elisation et M´ ethodologies\nExp´ erience\n2 CS\nD´ eveloppeuse Full Stack - Plateforme Linked Leve L\nOBEYA-IT\nIng´ enieure QA et D´ eveloppeuse Full Stack - Projet de fin d'´\nADDINN\n\n## EDUCATION\n\netudes\n## F´ evrier 2024 - Juillet 2024 Tunis, Tunisie\n**Date: ** Septembre 2024 - Octobre 2025\n**Location: ** Tunis, Tunisie\n- Conception et d´ eveloppement d'une solution d'automatisation des tests de s´ ecurit´ e (pentesting) pour l'analyse des vuln´ erabilit´ es applicatives.\n- D´ eveloppeuse en Syst` emes Embarqu´ es et Io T - Projet de fin d'´ etudes\n- ´ Education\n\n## MED'IN OUTLOOK\n\nConception et d´ eveloppement d'une plateforme de gestion m´ edicale.\nD´ eveloppement d'un syst` eme de notifications pour la gestion des rendez-vous m´ edicaux.\nD´ eveloppement des interfaces utilisateur avec Angular.\n\n## SMART WAYS INNOVATION\n\nConception et mise en place d'un syst` eme s´ ecuris´ e de t´ el´ esurveillance et de contrˆ ole des serres agricoles bas´ e sur l'Io T.\nD´ eveloppement d'une application mobile Android pour la supervision et le suivi en temps r´ eel des donn´ ees des capteurs.\n\n## LANGUAGES\n\nLangues\nFran¸ cais\n: Courant\nAnglais:\ninterm´ ediaire",
+    "header_info": {
+      "full_name": "Marwa Tabbabi",
+      "email": "tabbabimarwa.contact@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/marwa-tabbabi/linkedin",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9025,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Marwa Tabbabi",
+      "email": "tabbabimarwa.contact@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/marwa-tabbabi/linkedin",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Angular Material",
+        "Zed Attack Proxy (ZAP)",
+        "Wapiti",
+        "Nmap",
+        "PostgreSQL",
+        "MySQL",
+        "Maria DB",
+        "FastAPI",
+        "Docker",
+        "Docker Compose",
+        "Web Socket",
+        "JWT",
+        "Selenium Web Driver",
+        "Postman",
+        "Swagger"
+      ],
+      "soft_skills": [
+        "Collaboration",
+        "Autonomie",
+        "Engagement",
+        "Agile Scrum",
+        "Ergonomie",
+        "Performance"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Implémentation de scripts d'automatisation des tests d'intrusion avec ZAP, Wapiti, Nmap et SQLmap.",
+          "Développement de fonctionnalités de notifications en temps réel via Web Socket et intégration des alertes de sécurité.",
+          "Automatisation de l'envoi des résultats de tests par email et intégration avec Slack."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:17:37.923563+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

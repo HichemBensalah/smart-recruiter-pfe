@@ -1,0 +1,286 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\maatoug_khalil_23016674.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\maatoug_khalil_23016674.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8276,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nKhalil Maatoug\n\n## TECHNICAL SKILLS\n\nCloud DevOps Engineer & Kubernetes Production\nTunis, Tunisia\nmaatoug 610@gmail.com\nlinkedin.com/in/khalil-maatoug\ngithub.com/khalil Maat\nDevOps Engineer\nMigrated microservices from Docker Swarm to Kubernetes, improving scalability, resilience, and deployment efficiency.\nOptimized Git Lab CI/CD pipelines enabling daily zero-downtime deployments .\nEnhanced security, observability, and reliability using Bunker Web WAF, Prometheus, Grafana, ELK, and SLO/SLI practices .\nExecuted zero-downtime Kubernetes master node migration by restoring etcd, joining a new control plane, and safely draining the old node.\nImproved cluster network architecture by migrating internal communication from public to private IPs, ensuring HA stability and maintaining etcd quorum .\nPerformed chaos engineering experiments to validate fault tolerance, improve recovery strategies, and strengthen platform resilience.\nOne TECH Business Solutions\nDevOps Cloud Engineer\nArchitected a high-availability Rabbit MQ cluster to orchestrate asynchronous provisioning workflows with fault tolerance and scalability.\nIntegrated Kubernetes to support containerized workloads within the platform ecosystem.\nAWS DevOps Engineer\nDeployed highly available backend with ALB (99. 99% uptime) and RDS Multi-AZ (99. 95% availability) .\nOne TECH Business Solutions\nSystem & DevOps Engineer Intern\nDeployed a high-availability Kubernetes cluster with 99. 9% uptime using Ansible automation .\nImproved system performance and operational efficiency by 75% .\nBNA - Banque Nationale Agricole\nSystem & DevOps Engineer Intern\nManaged containerized deployments with Docker and Kubernetes .\nIntegrated Sonar Qube and ELK, reducing issue resolution time by 60% .\nDevOps k 8 s Platform (VPS & AWS)\nProvisioned a high-availability cluster using Kubespray with full observability stack (Prometheus, Grafana, Alertmanager, ELK).\nEnhanced security using WAF (Bunker Web) and automated TLS management across VPS and AWS\nenvironments.\nSMA-Assistant\nOpen Source DevOps Platform\nConfigured Nginx reverse proxy for efficient routing between frontend and backend services.\nIntegrated AWS Lambda for serverless APIs, improving scalability and reducing infrastructure overhead.\nEnsured high availability through automation, monitoring, and containerized architecture.\nCloud-Native Java Application Deployment\nIntegrated DevOps toolchain (Maven, Sonar Qube, Trivy, Nexus, Docker, Kubernetes, Prometheus, Grafana).\nImproved deployment reliability and reduced failures by 50% on Kubernetes.\nAchievements/Certification\nRHCSA & RHCE certified - Linux administration and Ansible automation.\nAWS Certified (9 badges) - Cloud fundamentals and DevOps practices.\n\n## PROFESSIONAL EXPERIENCE\n\nAxone Data\n\n## ACADEMIC PROJECTS\n\n## Freelance AWS Project\n**Date: ** Dec 2024 - Feb 2025\n**Location: ** Sfax, Tunisia\n- Developed a self-service portal (Angular + Spring Boot) allowing users to provision and securely access VMs .\n- Implemented monitoring and observability using Prometheus and Grafana for real-time infrastructure insights.\n- Built a 3-tier AWS architecture using Terraform and Ansible, reducing deployment time by 70% .\n- Designed secure VPC architecture and optimized frontend delivery using Cloud Front + Route 53 + SSL ( ↓ latency by 50%).\n- Implemented full CI/CD pipeline with AWS services and proactive monitoring using Cloud Watch .\n- Implemented full observability stack (Prometheus, Grafana, ELK) for monitoring and logging.\n- Built a CI/CD pipeline using Jenkins for Java applications.\n## Projects\n**Date: ** Sep 2025 - Present\n- Production Kubernetes Platform for Microservices\n- Designed and operated a production-grade Kubernetes platform supporting Dev, Preprod, and Prod environments for microservices.\n- Developed reusable Helm charts (HPA, VPA, Ingress, PVC, RBAC, probes, databases) to standardize and accelerate deployments.\n- Implemented Git Ops with Argo CD Application Sets and centralized Git Lab CI/CD templates .\n## Kubernetes & AWS Project\n**Date: ** Aug 2024 - Present\n- Built and operated production-grade Kubernetes platforms using Kubespray, Helm, and Git Ops .\n- Implemented backup and disaster recovery strategy using Longhorn, NFS for stateful workloads.\n- Built a complete DevOps platform for a web application using Docker on VPS infrastructure.\n- Implemented CI/CD pipelines with GitHub Actions for automated build, test, and deployment.\nBuilt a CI/CD pipeline using Jenkins, reducing release cycles from bi-weekly to weekly.\n**Date: ** Feb 2025 - Aug 2025\n- Designed and built an on-premise cloud platform (EC 2-like service) enabling self-service VM provisioning on Open Stack .\n- Implemented full Infrastructure as Code using Terraform and Ansible AAP, automating provisioning workflows and reducing delivery time by 90% .\n\n## EDUCATION\n\n## TEK-UP University\n**Date: ** Sep 2022 - Sep 2025\n**Location: ** Ariana, Tunisia\n- Software and Information System Engineering\n- Higher Institute of Computer Science and Multimedia of Sfax\n- Bachelor in Computer Science",
+    "header_info": {
+      "full_name": "Khalil Maatoug",
+      "email": "610@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisia",
+      "linkedin": "linkedin.com/in/khalil-maatoug",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.5397,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[4]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[4].city",
+      "experiences[4].company",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].responsibilities[1]",
+      "experiences[5].city",
+      "experiences[5].company",
+      "experiences[5].responsibilities[0]",
+      "experiences[5].responsibilities[1]",
+      "experiences[5].start_date",
+      "experiences[6].company",
+      "experiences[6].responsibilities[0]",
+      "experiences[6].start_date",
+      "experiences[7].company",
+      "experiences[7].responsibilities[0]",
+      "experiences[7].start_date",
+      "experiences[8].company",
+      "experiences[8].responsibilities[0]",
+      "experiences[8].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[4]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Khalil Maatoug",
+      "email": "610@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisia",
+      "linkedin": "linkedin.com/in/khalil-maatoug",
+      "github": "github.com/khalil Maat"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 3,
+      "hard_skills": [
+        "Cloud DevOps Engineer",
+        "Kubernetes Production",
+        "DevOps Engineer",
+        "AWS DevOps Engineer",
+        "Docker",
+        "Ansible",
+        "Prometheus",
+        "Grafana",
+        "ELK",
+        "Sonar Qube",
+        "Linux administration",
+        "Terraform"
+      ],
+      "soft_skills": [
+        "communication",
+        "time management"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "One TECH Business Solutions",
+        "job_title": "DevOps Cloud Engineer",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Architected a high-availability Rabbit MQ cluster to orchestrate asynchronous provisioning workflows with fault tolerance and scalability.",
+          "Integrated Kubernetes to support containerized workloads within the platform ecosystem."
+        ]
+      },
+      {
+        "company": "One TECH Business Solutions",
+        "job_title": "System & DevOps Engineer Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Deployed a high-availability Kubernetes cluster with 99. 9% uptime using Ansible automation.",
+          "Improved system performance and operational efficiency by 75%."
+        ]
+      },
+      {
+        "company": "BNA - Banque Nationale Agricole",
+        "job_title": "System & DevOps Engineer Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Managed containerized deployments with Docker and Kubernetes.",
+          "Integrated Sonar Qube and ELK, reducing issue resolution time by 60%."
+        ]
+      },
+      {
+        "company": "DevOps k 8 s Platform (VPS & AWS)",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Provisioned a high-availability cluster using Kubespray with full observability stack (Prometheus, Grafana, Alertmanager, ELK).",
+          "Enhanced security using WAF (Bunker Web) and automated TLS management across VPS and AWS environments."
+        ]
+      },
+      {
+        "company": "SMA-Assistant",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Configured Nginx reverse proxy for efficient routing between frontend and backend services.",
+          "Integrated AWS Lambda for serverless APIs, improving scalability and reducing infrastructure overhead."
+        ]
+      },
+      {
+        "company": "Freelance",
+        "job_title": null,
+        "start_date": "Dec 2024 - Feb 2025",
+        "end_date": null,
+        "city": "Sfax, Tunisia",
+        "responsibilities": [
+          "Developed a self-service portal (Angular + Spring Boot) allowing users to provision and securely access VMs.",
+          "Implemented monitoring and observability using Prometheus and Grafana for real-time infrastructure insights."
+        ]
+      },
+      {
+        "company": "Freelance",
+        "job_title": null,
+        "start_date": "Sep 2025 - Present",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Production Kubernetes Platform for Microservices"
+        ]
+      },
+      {
+        "company": "Freelance",
+        "job_title": null,
+        "start_date": "Aug 2024 - Present",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Built and operated production-grade Kubernetes platforms using Kubespray, Helm, and Git Ops."
+        ]
+      },
+      {
+        "company": "Freelance",
+        "job_title": null,
+        "start_date": "Feb 2025 - Aug 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Designed and built an on-premise cloud platform (EC 2-like service) enabling self-service VM provisioning on Open Stack."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "TEK-UP University",
+        "degree": "Bachelor in Computer Science",
+        "field": "Software and Information System Engineering",
+        "year": null
+      },
+      {
+        "institution": "Higher Institute of Computer Science and Multimedia of Sfax",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "RHCSA & RHCE certified - Linux administration and Ansible automation.",
+      "AWS Certified (9 badges) - Cloud fundamentals and DevOps practices."
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:08:02.508914+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rayen_Jouida_23017026.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rayen_Jouida_23017026.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8061,
+  "normalization": {
+    "cleaned_markdown": "## RAYEN JOUIDA\n\nComputer Engineering\nAdress:\nAriana, Tunisia\nEmail: Rayen.jouida@esprit.tn Linked In: linkedin.com/in/rayen-jouida Mobile: (216) 50 239 096\n\n## EDUCATION\n\nAssociative Experience Education\nIEEE Isima Student Branch -\nEngineering Degree in Computer Science, specialized in Web and Internet Technologies 2022-2025, Private Higher School of Engineering and Technology\n**Date: ** 2020-2022\n- Vice Chair\n- Radio Club -\n'Educa Net': An innovative platform dedicated to the digitalization of education, built on a microservices architecture to simplify the management of exams, sanctions, administrative documents, and academic results.\n## Technologies: Angular, Springboot, Docker, Alfresco, MySQL\n\n## TECHNICAL SKILLS\n\nSoftware Engineering\nBachelor's Degree in Computer Science, specialized in 2019-2022, Higher Institute of Computer Science, Mahdia\nBaccalaureate in Computer Science (Assez bien) 2019, Mahmoud Mesaadi High School - Ettadhamen City\nSkills:\n- Technologies:\nFlutter, Spring, JAVA, Symfony, JavaScript, PHP, .NET, Angular, TypeScript, ReactJS, NodeJS, HTML, CSS, Tailwind, Bootstrap SQL, NoSQL, Word Press, Laravel, Django\nST 2 I/Immersion Internship\nWico/Immersion Internship\n-Tools:\nMongoDB, MySQL, Postman, GIT Docker, Jenkins Firebase, Sonar Qube Prometheus Grafana, Alfresco\nEuro Med Feminist Initiative (EFI)\nTechnologies: Flutter, Firebase\nAtomic-it/Stage PFE\nTechnologies: Flutter, Firebase\nBe Pro: A cross-platform application (desktop, mobile, and web) that allows talented individuals to participate in events and showcase their skills.\nTechnologies: Java, Symfony, MySQL\nSajjelni: A web application for managing university dormitories.\nTechnologies: Spring, Angular, MySQL\nGhazela Heaven: A web platform dedicated to the complete management of hotel services, developed using a microservices architecture.\nTechnologies: Angular, Springboot, Docker, Key Cloak, MySQL\n\n## PROFESSIONAL EXPERIENCE\n\nPrologic/Final Year Internship (Engineering Cycle) 25/01/2025 - 15/07/2025, TUNIS\n\n## PROFESSIONAL SUMMARY\n\n'PTE': An internal mobile application designed to centralize and optimize the company's activity management, including social networks, reservations, leave requests, and recruitment. It integrates an AI system that analyzes and ranks resumes to identify the best profiles for job offers. Technologies: Flutter, Node. js, Express, MongoDB, Flask, Python, REST API\n\n## 1/06/2023 - 10/09/2023, MANNOUBA\n\n' Quizzini ': A mobile application offering a variety of quizzes on different topics, designed to stimulate thinking and enrich users' knowledge. Technologies: Flutter, Firebase\n\n## 2/07/2022 - 10/10/2022, FRANCE, PARIS\n\n' Dhayen ': A mobile application dedicated to women who are victims of violence and domestic abuse, designed to provide them with greater safety and protection.\n\n## 1/02/2022 - 30/05/2022, NABEUL\n\n\" M 3 ak \": A mobile security application developed to enhance user protection and safety.\nComedic: A web application that contributes to medical research and advances healthcare in Algeria.\nTechnologies: MERN Stack, Jenkins, Docker, Sonar Qube, Nexus\n\n## ACADEMIC PROJECTS\n\n## University Projects\n\n## LANGUAGES\n\nArabic - Native\nFrench - B 2\nEnglish - B 2",
+    "header_info": {
+      "full_name": "RAYEN JOUIDA",
+      "email": "Rayen.jouida@esprit.tn",
+      "phone": "216) 50 239 096",
+      "location": "Ariana, Tunisia",
+      "linkedin": "linkedin.com/in/rayen-jouida",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6446,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[0].job_title",
+      "experiences[1].job_title",
+      "experiences[2].job_title",
+      "experiences[3].job_title",
+      "experiences[4].job_title"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].start_date",
+      "experiences[4].city",
+      "experiences[4].company",
+      "experiences[4].end_date",
+      "experiences[4].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "RAYEN JOUIDA",
+      "email": "Rayen.jouida@esprit.tn",
+      "phone": "(216) 50 239 096",
+      "location": "Ariana, Tunisia",
+      "linkedin": "linkedin.com/in/rayen-jouida",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 7,
+      "hard_skills": [
+        "Flutter",
+        "Spring",
+        "JAVA",
+        "Symfony",
+        "JavaScript",
+        "PHP",
+        ".NET",
+        "Angular",
+        "TypeScript",
+        "ReactJS",
+        "NodeJS",
+        "HTML",
+        "CSS",
+        "Tailwind",
+        "Bootstrap",
+        "SQL",
+        "NoSQL",
+        "Word Press",
+        "Laravel",
+        "Django"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Prologic/Final Year Internship (Engineering Cycle)",
+        "job_title": null,
+        "start_date": "25/01/2025",
+        "end_date": "15/07/2025",
+        "city": "TUNIS",
+        "responsibilities": []
+      },
+      {
+        "company": "PTE",
+        "job_title": null,
+        "start_date": "1/06/2023",
+        "end_date": "10/09/2023",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": "' Quizzini '",
+        "job_title": null,
+        "start_date": "1/06/2023",
+        "end_date": "10/09/2023",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": "' Dhayen '",
+        "job_title": null,
+        "start_date": "2/07/2022",
+        "end_date": "10/10/2022",
+        "city": "FRANCE, PARIS",
+        "responsibilities": []
+      },
+      {
+        "company": "' M 3 ak '",
+        "job_title": null,
+        "start_date": "1/02/2022",
+        "end_date": "30/05/2022",
+        "city": "NABEUL",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "IEEE Isima Student Branch - Engineering Degree in Computer Science, specialized in Web and Internet Technologies",
+        "degree": "Engineering Degree",
+        "field": "Computer Science",
+        "year": null
+      },
+      {
+        "institution": "Private Higher School of Engineering and Technology",
+        "degree": "Bachelor's Degree in Computer Science",
+        "field": "Computer Science",
+        "year": 2022
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:26:24.535702+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

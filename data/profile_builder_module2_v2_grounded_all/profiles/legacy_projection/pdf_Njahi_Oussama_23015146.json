@@ -1,0 +1,99 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Njahi_Oussama_23015146.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Njahi_Oussama_23015146.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Njahi_Oussama_23015146.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Oussama Njahi",
+      "email": "njahioussama@outlook.com",
+      "phone": "+21693147693",
+      "location": ""
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "SQL",
+        "Nextjs",
+        "Reactjs",
+        "Vite",
+        "HTML 5",
+        "CSS 3",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "Spring Boot",
+        "JWT",
+        "Web Socket",
+        "REST API",
+        "Prisma",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Git",
+        "GitHub",
+        "Docker",
+        "Linux",
+        "Postman",
+        "Vercel"
+      ],
+      "soft_skills": [
+        "Création de systèmes de gestion des stages",
+        "Développement d'un système de push/in-app notifications et système de messagerie en temps réel",
+        "Traduction des maquettes Figma en interface React responsive",
+        "Création d'une UI interactive avec Framer Motion"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "IWARE - Sousse, Tunisie",
+        "start_date": "Fév 2024",
+        "end_date": "Juin 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement d'un tableau de bord administrateur avec React, Spring Boot, MongoDB et JWT pour la gestion des employés, des rôles, des salaires et des stagiaires.",
+          "Création d'un système de gestion des stages avec planification des entretiens via Google Meet."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "IWARE - Sousse, Tunisie",
+        "start_date": "Juil 2023",
+        "end_date": "Août 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de push/in-app notifications et système de messagerie en temps réel avec Websocket/Mongodb."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "textilepro.netlify.app",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:52:14.099770+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9179,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

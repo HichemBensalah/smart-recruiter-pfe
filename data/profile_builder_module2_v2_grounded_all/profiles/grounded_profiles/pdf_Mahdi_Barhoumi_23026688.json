@@ -1,0 +1,203 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mahdi_Barhoumi_23026688.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mahdi_Barhoumi_23026688.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8439,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMahdi Barhoumi\n\n## TECHNICAL SKILLS\n\nSoftware Engineer/phone-alt/phone-alt/envelope mehdi 192001@yahoo.fr\n+216 99 422 037/linkedin-in mahdi-barhoumi\nmahdi-barhoumi/github/github/map-marker-alt Jardins D'El Menzah 1, Tunis\nSoftware Engineering - Graduate\nCoordinated with departments to collect content and ensure successful migration via OVHcloud.\nIntegrated an LLM with prompt engineering techniques for a medical chatbot.\nSKILLS\nProgramming Languages: C, C++, Java, Python, Dart, SQL, JavaScript, HTML, CSS\nFrameworks: Django, Flask, Flutter, React, Vue. js, PyTorch\nGit/GitHub, Bash, VS Code, Wireshark, UML, Firebase, Azure, Jenkins\nTools:\nEnglish (advanced), French (intermediate), Arabic (native)\n\n## EDUCATION\n\nNational School of Computer Science\n\n## PROFESSIONAL EXPERIENCE\n\nNetwork Associates\n## Intern - PFE\n**Date: ** Sept 2022 - June 2025\n**Location: ** Tunis, Tunisia\n- Designed and developed a network service orchestration solution focused on MPLS L 3 VPNs.\n- El Manar Preparatory Institute for Engineering Studies\n- Preparatory Cycle in Physics and Technology - Admitted\nAutomated network configuration across the topology, reducing manual intervention and errors.\nImplemented key features including network discovery and inventory, service management, device provisioning and monitoring.\n## Keywords: Python, Django, Vue. js, RESTCONF, Network Service Orchestration\n- BIAT\n## Intern\n**Date: ** June 2024 - Aug 2024\n**Location: ** Tunis, Tunisia\n- Developed a comprehensive customer support platform (full-stack web application) integrating a REST API.\n- Implemented features for accessing and analyzing bank ATM logs to optimize diagnostic and problem resolution.\n## Keywords: Python, Django, React, MySQL, FTP, REST API\n- CRA 2 E\n## Intern\n**Date: ** June 2023 - Aug 2023\n**Location: ** Tunis, Tunisia\n- Managed the complete redesign and content migration of the company website with Word Press.\n## Keywords: Word Press, HTML/CSS, JavaScript, MySQL\n- Built a modular C++ 3 D rendering engine with entity-component architecture using modern C++26 standards.\n- Implemented real-time rendering pipeline with shader management, mesh loading, and texture mapping.\n\n## ACADEMIC PROJECTS\n\nPROJECTS\n3 D Graphics Rendering Engine\nAI-Powered Skin Analysis Tool\n## Keywords: Python, PyTorch, Flutter, Firebase, Flask, Llama\n- Developed physics system with GJK/EPA collision detection algorithms and integrated camera controls. Keywords: C++, Open GL, Physics simulation\n- Developed a mobile dermatology diagnostic application with training of a custom CNN model.\n\n## LANGUAGES\n\nLanguages:",
+    "header_info": {
+      "full_name": "Mahdi Barhoumi",
+      "email": "192001@yahoo.fr",
+      "phone": "+216 99 422 037",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9688,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mahdi Barhoumi",
+      "email": "192001@yahoo.fr",
+      "phone": "+216 99 422 037",
+      "location": null,
+      "linkedin": "mahdi-barhoumi",
+      "github": "mahdi-barhoumi/github/map-marker-alt Jardins D'El Menzah 1, Tunis"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "C",
+        "C++",
+        "Java",
+        "Python",
+        "Dart",
+        "SQL",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Django",
+        "Flask",
+        "Flutter",
+        "React",
+        "Vue. js",
+        "PyTorch"
+      ],
+      "soft_skills": [
+        "Git/GitHub",
+        "Bash",
+        "VS Code",
+        "Wireshark",
+        "UML",
+        "Firebase",
+        "Azure",
+        "Jenkins"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Network Associates",
+        "job_title": "Intern - PFE",
+        "start_date": "Sept 2022",
+        "end_date": "June 2025",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Designed and developed a network service orchestration solution focused on MPLS L 3 VPNs.",
+          "Automated network configuration across the topology, reducing manual intervention and errors."
+        ]
+      },
+      {
+        "company": "BIAT",
+        "job_title": "Intern",
+        "start_date": "June 2024",
+        "end_date": "Aug 2024",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Developed a comprehensive customer support platform (full-stack web application) integrating a REST API.",
+          "Implemented features for accessing and analyzing bank ATM logs to optimize diagnostic and problem resolution."
+        ]
+      },
+      {
+        "company": "CRA 2 E",
+        "job_title": "Intern",
+        "start_date": "June 2023",
+        "end_date": "Aug 2023",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Managed the complete redesign and content migration of the company website with Word Press."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "National School of Computer Science"
+      }
+    ],
+    "languages": [
+      "English (advanced)",
+      "French (intermediate)",
+      "Arabic (native)"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:08:47.390267+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

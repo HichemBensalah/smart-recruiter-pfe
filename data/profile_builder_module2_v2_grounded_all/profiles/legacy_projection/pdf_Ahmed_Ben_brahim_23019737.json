@@ -1,0 +1,68 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ahmed_Ben_brahim_23019737.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ahmed_Ben_brahim_23019737.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ahmed_Ben_brahim_23019737.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ben Ibrahim Ahmed Djedaïda",
+      "email": "100@gmail.com",
+      "phone": "55 465 957",
+      "location": "Mannouba"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Word",
+        "Excel",
+        "Power Point",
+        "Photoshop",
+        "AVEREOES"
+      ],
+      "soft_skills": [
+        "Capacité d'apprentissage rapide",
+        "Polyvalence et résistance au stress"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire",
+        "company": "Société Tunisienne de Banque",
+        "start_date": "Janvier 2024",
+        "end_date": "Mai 2024",
+        "city": null,
+        "responsibilities": [
+          "Gestion des droits d'accès et traçabilité"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en gestion électronique de l'information et des documents",
+        "school": "Institut Supérieur de Documentation",
+        "year": "2024"
+      },
+      {
+        "degree": "Baccalauréat en Économie et Gestion",
+        "school": "Lycée Ibn Arafah",
+        "year": "2021"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:32:20.779554+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9531,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

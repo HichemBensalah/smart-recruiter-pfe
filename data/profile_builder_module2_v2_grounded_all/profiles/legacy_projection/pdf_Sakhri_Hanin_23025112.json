@@ -1,0 +1,107 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Sakhri_Hanin_23025112.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Sakhri_Hanin_23025112.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Sakhri_Hanin_23025112.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Hanin Sakhri",
+      "email": "hanin. sakhri@1@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Mobile and frontend engineer with 3 years delivering production-grade Android, cross-platform, and React applications integrated with AI/ML capabilities.",
+      "hard_skills": [
+        "Kotlin",
+        "Java",
+        "Jetpack Compose",
+        "Flutter",
+        "ARCore",
+        "TensorFlow Lite",
+        "OpenCV",
+        "React",
+        "TypeScript",
+        "Angular",
+        "Ionic",
+        "Ant Design",
+        "Zustand",
+        "React Query",
+        "Storybook",
+        "Vite",
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "Firebase"
+      ],
+      "soft_skills": [
+        "clean architecture patterns",
+        "fast-paced environments",
+        "remote-first environments",
+        "digital queuing and real-time slot management",
+        "precise demographic-targeted ad delivery",
+        "sub-200 ms render times",
+        "streamlined property assessment workflows"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Mobile Engineer",
+        "company": "Xtendplex",
+        "start_date": "Sep 2023",
+        "end_date": "March 2026",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "on-device TensorFlow Lite inference pipeline in Kotlin",
+          "OpenCV preprocessing to cut the false-positive rate by an estimated 30%",
+          "cross-platform clinic queue app ( Ionic/Angular/TypeScript )",
+          "GPS geofencing for automatic check-in/cancellation and QR-code ticketing paired with push and email notifications"
+        ]
+      },
+      {
+        "job_title": "Mobile Developer Intern",
+        "company": "Telnet",
+        "start_date": "Feb - May 2023",
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "ARCore-powered interactive product manual",
+          "real-time Wi-Fi signal diagnostic visualizer using Wi Fi Manager API with custom 3 D rendering"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B. Eng. Software Engineering",
+        "school": "Tekup University",
+        "year": null
+      },
+      {
+        "degree": "B. Sc. Computer Science",
+        "school": "Faculty of Sciences, Bizerte",
+        "year": null
+      },
+      {
+        "degree": "Scientific Baccalaureate",
+        "school": "Pioneer High School",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:35:24.038991+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6806,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

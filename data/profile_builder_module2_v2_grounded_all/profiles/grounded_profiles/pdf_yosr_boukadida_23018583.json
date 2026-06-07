@@ -1,0 +1,229 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\yosr_boukadida_23018583.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\yosr_boukadida_23018583.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7913,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nYosr Boukadida\nl Ing´enieur en T´el´ecommunications embarqu´ees\n# yosr.boukadida@outlook.com\nï yosrboukadida\n§ yosrboukadida\n\n## PROFESSIONAL SUMMARY\n\nJe suis une ing´enieure r´ecemment diplˆom´ee en t´el´ecommunications embarqu´ees, `a la recherche d’une\nopportunit´e pour mettre en pratique et d´evelopper mes comp´etences. Je suis motiv´ee `a ´evoluer dans le\ndomaine des nouvelles technologies au sein d’un environnement professionnel dynamique et stimulant.\nÔ Comp´etences Techniques\n✓Langages de programmation: Python, C, Java, Kotlin, JavaScript\n✓Intelligence Artificielle & Vision par Ordinateur: PyTorch, scikit-learn, YOLO\n✓Analyse de donn´ees: Pandas, NumPy\n✓Bases de donn´ees: SQLite, PostgreSQL, Neo4j\n✓Outils de conception: UML\n✓Outils Big Data: Apache Spark\n✓Outils DevOps: Docker, Kubernetes, Jenkins, Ansible\n✓R´eseaux et s´ecurit´e informatique: Cisco Packet Tracer, Wireshark, pf Sense, Open SSL, cryp-\ntographie (chiffrement sym´etrique et asym´etrique, hachage), VPN, switching, routage, IDS/IPS\n✓D´eveloppement mobile: Android Studio, Flutter\n✓D´eveloppement web: Angular, Spring Boot\n✓Syst`emes d’exploitation: Linux, Windows\n\n## CERTIFICATIONS\n\n Microsoft Azure Certification — 2024\nlien de Certification\n jenkins — 2024\nlien de Certification\n\n## EDUCATION\n\nDiplˆome d’ing´enieur en T´el´ecommunications Embarqu´ees\n´Ecole Nationale d’Ing´enieurs de Sousse\nCycle Pr´eparatoire en Math´ematiques et Physique\n´Ecole Sup´erieure des Sciences et de Technologie de Hammam Sousse\nBaccalaur´eat en Math´ematiques\nLyc´ee Romaniya kalaa Sghira Sousse\nr Stages\nRelead: Projet de fin d’´etudes en d´eveloppement Web\nf´evrier 2025 – juin 2025\n• D´eveloppement d’une solution de facturation en ligne intuitive et s´ecuris´ee destin´ee aux petites et\nmoyennes entreprises (PME) afin d’automatiser leurs processus de facturation, de la cr´eation des\ndevis `a la g´en´eration des factures.\n• Mise en place de fonctionnalit´es avanc´ees telles que les rappels automatiques de paiement, les tableaux\nde bord financiers, la gestion des clients et la pr´ediction des retards de paiement bas´ee sur l’intelligence\nartificielle pour optimiser le suivi financier et la relation client.\nEnova Robotics: Stagiaire en Deep Learning\njuillet 2024 – aoˆut 2024\n• Mise en œuvre de mod`eles de deep learning pour la d´etection d’armes.\n• R´ealisation de l’entraˆınement et de la validation des mod`eles avec PyTorch pour une application en\nconditions r´eelles.\nTunisie Telecom Stagiaire Ouvrier\naoˆut 2023 – septembre 2023\n• D´ecouverte de l’infrastructure des t´el´ecommunications de Tunisie Telecom.\n\n## JOB SUMMARY\n\nt´el´ecom de base.\n• Observation du fonctionnement et de la maintenance des ´equipements et installations t´el´ecom.\nÐ Projets\nProjet Credit Scoring (Machine Learning)\nD´eveloppement d’un mod`ele pr´edictif permettant de d´eterminer l’´eligibilit´e d’un client `a un prˆet en se\nbasant sur des donn´ees financi`eres et d´emographiques.\nEyes Open (Application mobile & Deep Learning)\nD´etection d’objets en temps r´eel avec restitution des noms via audio et texte pour les personnes malvoy-\nantes ou ayant des difficult´es linguistiques.\nSecure Home (Internet des Objets)\nD´etection d’intrusions `a domicile avec envoi de notifications vers une application mobile.\nEdu Card (Application mobile)\nJeu ´educatif con¸cu pour am´eliorer l’apprentissage de la langue anglaise.\nTunisian Travelling Aid (Application web)\nApplication web con¸cue pour aider les touristes `a choisir une destination selon des crit`eres sp´ecifiques.\n\n## LANGUAGES\n\n Arabe - Langue maternelle\n Fran¸cais, Anglais - Interm´ediaire\n Japonais - D´ebutant\nLien de certificat\n Permis de conduire\nPermis de conduire type B\ns Vie associative\nMembre chez orange club\nHackathon de Sant´e",
+    "header_info": {
+      "full_name": "Yosr Boukadida",
+      "email": "yosr.boukadida@outlook.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.2298,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.hard_skills[23]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[2]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.hard_skills[23]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Yosr Boukadida",
+      "email": "yosr.boukadida@outlook.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "C",
+        "Java",
+        "Kotlin",
+        "JavaScript",
+        "PyTorch",
+        "scikit-learn",
+        "YOLO",
+        "Pandas",
+        "NumPy",
+        "SQLite",
+        "PostgreSQL",
+        "Neo4j",
+        "UML",
+        "Apache Spark",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Ansible",
+        "Cisco Packet Tracer",
+        "Wireshark",
+        "pf Sense",
+        "Open SSL",
+        "Android Studio",
+        "Flutter",
+        "Angular",
+        "Spring Boot",
+        "Linux",
+        "Windows"
+      ],
+      "soft_skills": [
+        "communication"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´eveloppement d’une solution de facturation en ligne intuitive et s´ecuris´ee destin´ee aux petites et moyennes entreprises (PME) afin d’automatiser leurs processus de facturation, de la cr´eation des devis `a la g´en´eration des factures.",
+          "Mise en place de fonctionnalit´es avanc´ees telles que les rappels automatiques de paiement, les tableaux de bord financiers, la gestion des clients et la pr´ediction des retards de paiement bas´ee sur l’intelligence artificielle pour optimiser le suivi financier et la relation client."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mise en œuvre de mod`eles de deep learning pour la d´etection d’armes.",
+          "R´ealisation de l’entraˆinement et de la validation des mod`eles avec PyTorch pour une application en conditions r´eelles."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ecouverte de l’infrastructure des t´el´ecomunications de Tunisie Telecom."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Ecole Nationale d’Ingénieurs de Sousse",
+        "degree": "Diplôme d’ingénieur en Télécommunication Embarquée"
+      },
+      {
+        "institution": "École Supérieure des Sciences et de Technologie de Hammam Sousse",
+        "degree": "Cycle Préparatoire en Mathématiques et Physique"
+      },
+      {
+        "institution": "Lycée Romaniya kalaa Sghira Sousse",
+        "degree": "Baccalauréat en Mathématiques"
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français, Anglais",
+      "Japonais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:06:22.151175+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

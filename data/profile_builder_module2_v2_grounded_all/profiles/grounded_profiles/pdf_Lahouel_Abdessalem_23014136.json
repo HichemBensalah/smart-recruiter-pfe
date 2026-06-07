@@ -1,0 +1,159 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Lahouel_Abdessalem_23014136.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Lahouel_Abdessalem_23014136.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.724,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAbdessalem LAHOUEL\nIngénieur en Génie Informatique\n📍 Relocalisable au Canada\n📧 Abdessalem 461997@gmail.com\n🔗 Linked In: Abdessalem Lahouel | GitHub: Abdessalem 16\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieur en génie informatique spécialisé dans la conception, le développement et la gestion de projets logiciels. Expert en architectures web modernes (Symfony, Angular, React) et bases de données relationnelles/NoSQL. Fort d'une expérience en planification de production par IA et en développement d'applications de gestion, je suis motivé à diriger des projets innovants et à optimiser les processus techniques.\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nStage de Fin d'Étude: Planification de Production par IA | Sartex\nMai 2025 - Juin 2025\nConception et développement d'un système de planification de production basé sur l ' intelligence arti fi cielle.\nOptimisation des algorithmes pour améliorer l'efficacité et réduire les coûts de production.\nIntégration de solutions d'IA dans les processus industriels existants.\nSupervision des Systèmes Informatiques | Sartex\nMars 2021 - Juin 2022\nGestion et maintenance proactive des infrastructures informatiques critiques (Zabbix).\nMise en œuvre de stratégies de sécurité (Suricata).\nMise en œuvre de stratégies d'optimisation des performances et de la sécurité des systèmes.\nStage d'Été: Développement de Chatbot | Cabinet de Kinésithérapie\nAoût 2024 - Septembre 2024\nConception et implémentation d'un chatbot intelligent pour l'automatisation de la prise de rendez-vous et la gestion des requêtes clients.\n\n## ACADEMIC PROJECTS\n\nKtabi Net: Application de Suivi des Projets et Gestion de Livres\nConception et développement d'un site web complet pour la gestion de livres physiques et PDF.\nFonctionnalités incluant la gestion des stocks, des ventes, et le suivi des projets.\n## Technologies utilisées: Symfony 6, CSS, JavaScript, Bootstrap, MySQL.",
+    "header_info": {
+      "full_name": "Abdessalem LAHOUEL",
+      "email": "461997@gmail.com",
+      "phone": null,
+      "location": "📍 Relocalisable au Canada",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9448,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Abdessalem LAHOUEL",
+      "email": "461997@gmail.com",
+      "phone": null,
+      "location": "✅ Relocalisable au Canada",
+      "linkedin": "Abdessalem Lahouel",
+      "github": "Abdessalem 16"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Symfony",
+        "Angular",
+        "React",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "MySQL"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Sartex",
+        "job_title": "Stage de Fin d’Étude",
+        "start_date": "Mai 2025",
+        "end_date": "Juin 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d’un système de planification de production basé sur l ’ intelligence arti fi cielle.",
+          "Optimisation des algorithmes pour améliorer l’efficacité et réduire les coûts de production.",
+          "Intégration de solutions d’IA dans les processus industriels existants."
+        ]
+      },
+      {
+        "company": "Sartex",
+        "job_title": "Supervision des Systèmes Informatiques",
+        "start_date": "Mars 2021",
+        "end_date": "Juin 2022",
+        "city": null,
+        "responsibilities": [
+          "Gestion et maintenance proactive des infrastructures informatiques critiques (Zabbix).",
+          "Mise en œuvre de stratégies de sécurité (Suricata).",
+          "Mise en œuvre de stratégies d’optimisation des performances et de la sécurité des systèmes."
+        ]
+      },
+      {
+        "company": "Cabinet de Kinésithérapie",
+        "job_title": "Stage d’Été",
+        "start_date": "Août 2024",
+        "end_date": "Septembre 2024",
+        "city": null,
+        "responsibilities": [
+          "Conception et implémentation d’un chatbot intelligent pour l’automatisation de la prise de rendez-vous et la gestion des requètes clients."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:01:22.021934+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

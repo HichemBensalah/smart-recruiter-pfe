@@ -1,0 +1,219 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Rym_23032388.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Rym_23032388.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8317,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\n mhamedrim 921@gmail.com\nSousse\nRym Mohamed\nIngénieure en génie logiciel\n\n## EDUCATION\n\nDiplôme d'ingénieur en génie logiciel\nLʼinstitut supérieur des sciences appliquées et de technologie de Sousse (ISSATSO) Sousse\nLicence fondamentale en sciences de lʼinformatique\nLʼinstitut supérieur des sciences appliquées et de technologie de Sousse (ISSATSO) Sousse\nProjet de fin d'études: Application web de gestion médicale\n## Envast Sousse, Tunisie\n**Date: ** De septembre 2021 à octobre 2024\nUne plateforme web de gestion médicale qui permet d'orir des services médicales comme la consultation en ligne, la gestion des dossiers médicaux et la gestion des rendez-vous.\nTechnologies: Laravel, php, MySQL, Html, CSS, Javascript, Bootstrap, Git, Gitlab, Jira\n- Stage d'été: Développement du Site Oiciel d'Arsii\n## ARSII Sousse, Tunisie\n**Date: ** D'août 2023 à septembre 2023 (1 mois)\n- Stage d'été: Réalisation d'une application de médias sociaux\n- Stage du Fin d'études: Application web de gestion d'une salle de sport\nDéveloppement d'une application de gestion de salle de sport avec un accent particulier sur des fonctionnalités essentielles telles que l'authentification des utilisateurs, la gestion des abonnements, le calendrier, etc.\n**Date: ** De février 2021 à juin 2021 (4 mois)\n\n## STAGES ET PROJETS RÉALISÉS\n\nDéveloppeur Frontend\nSastec Sahloul-Sousse, Tunisie\nCollaboration avec lʼéquipe design pour la conception des interfaces dʼun ERP industriel.\nRédaction des spécifications techniques et participation au développement front-end (React) avec intégration dʼAPI REST.\nSuivi du projet via des réunions dʼéquipe hebdomadaires.\nTechnologies: React, tailwindcss, swagger, postman, Git, Gitlab, Click Up\n\n## PROFESSIONAL EXPERIENCE\n\nConception et développement de l'Espace Visiteur en collaboration étroite avec l'équipe de développement backend, garantissant une expérience utilisateur optimale et une intégration harmonieuse des données et des services.\n## Technologies: Angular, MySQL, Swagger, Git, Github, Trello\n**Date: ** Juillet 2023 (1 mois)\n\n## TECHNICAL SKILLS\n\nYperskills Sousse, Tunisie\ni Maxeam Sousse, Tunisie\nTechnologies: Laravel, MySQL, Git, Github\nCOMPÉTENCES\nLangages de programmation\nTypeScript - JavaScript - PHP\nFrameworks\nLaravel\nBiblothèques\nReact - Bootstrap - Tailwindcss\nBase de données\nMySQL - MongoDB\nDéveloppement API & Documentation\nPostman, Swagger (Open API)\nOutils de gestion de projet\nTrello, Jira, Github, Git, Gitlab, Click Up\nPlateforme d'e-commerce\nPrestashop\n\n## PROFESSIONAL SUMMARY\n\nConception et développement d'une application de médias sociaux, intégrant des fonctionnalités telles que l'inscription, la gestion de profils, la création de publications, la gestion d'amis, et plus encore.\nTechnologies: MERN Stack (MongoDB, Express. js, React, Node. js), Git, Github\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATS\n@rym-mohamed\nGetting Started with Git and Github | Coursera | août 2023\n@Rymmed\nCCNAv 7: Introduction to Networks | Cisco Networking Academy | mai 2022\nIntroduction au développement Web | Udemy | déc. 2020\nFront End Development Track | Udacity | mars 2020\n\n## LANGUAGES\n\nLANGUES\nArabe\nFrançais\nAnglais",
+    "header_info": {
+      "full_name": "Rym Mohamed",
+      "email": "921@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9663,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "experiences[3].company",
+      "experiences[3].responsibilities[0]",
+      "experiences[4].company",
+      "experiences[4].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Rym Mohamed",
+      "email": "921@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Conception et développement d'applications web, gestion de projets, développement backend et frontend.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Laravel",
+        "MySQL",
+        "Git",
+        "Github",
+        "React",
+        "Bootstrap",
+        "Tailwindcss",
+        "Postman",
+        "Swagger",
+        "Angular",
+        "MongoDB",
+        "Express.js",
+        "Node.js",
+        "Prestashop"
+      ],
+      "soft_skills": [
+        "Collaboration",
+        "Rédaction des spécifications techniques",
+        "Participation au développement front-end",
+        "Suivi du projet via des réunions d'équipe hebdomadaires",
+        "Gestion de projets",
+        "Développement backend et frontend"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Envast Sousse, Tunisie",
+        "job_title": null,
+        "start_date": "septembre 2021",
+        "end_date": "octobre 2024",
+        "city": "Sousse",
+        "responsibilities": [
+          "Développement d'une plateforme web de gestion médicale"
+        ]
+      },
+      {
+        "company": "ARSII Sousse, Tunisie",
+        "job_title": null,
+        "start_date": "août 2023",
+        "end_date": "septembre 2023",
+        "city": "Sousse",
+        "responsibilities": [
+          "Réalisation d'une application de médias sociaux"
+        ]
+      },
+      {
+        "company": "Sastec Sahloul-Sousse, Tunisie",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Collaboration avec l'équipe design pour la conception des interfaces d'un ERP industriel"
+        ]
+      },
+      {
+        "company": "Yperskills Sousse, Tunisie",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement du Site Oiciel d'Arsii"
+        ]
+      },
+      {
+        "company": "Développeur Frontend",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Rédaction des spécifications techniques et participation au développement front-end"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Lʼinstitut supérieur des sciences appliquées et de technologie de Sousse (ISSATSO)",
+        "degree": "Diplôme d'ingénieur en génie logiciel",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lʼinstitut supérieur des sciences appliquées et de technologie de Sousse (ISSATSO)",
+        "degree": "Licence fondamentale en sciences de l'informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:41:51.079591+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

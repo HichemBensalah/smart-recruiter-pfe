@@ -1,0 +1,101 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Khmiri_mohamed_khalil_23017807.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Khmiri_mohamed_khalil_23017807.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Khmiri_mohamed_khalil_23017807.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MOHAMED KHALIL KHMIRI",
+      "email": "681@gmail.com",
+      "phone": "+216 93 215 009",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "Express Js",
+        "NodeJS",
+        "MongoDB",
+        "Spring Boot",
+        "Flask",
+        "Jasper Reports",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "Argo CD",
+        "Falco",
+        "Trivy",
+        "Grafana",
+        "Prometheus"
+      ],
+      "soft_skills": [
+        "Développement web",
+        "Bases de données",
+        "DevOps",
+        "Ingénierie informatique"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Arab Soft",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une plateforme de gestion et de suivi des stagiaires"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Assurances STAR",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'un simulateur de devis d'assurance santé"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "ARTCOM International",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Application de contrôle d'accès (MEAN) avec gestion des autorisations, planification et intégration de QR codes pour sécuriser les accès"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Technologies de l'Information et de la Communication",
+        "school": "Faculté des Sciences de Tunis",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Ecole Supérieure Privée d'Ingénierie et de Technologies (ESPRIT)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:57:35.554358+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8094,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

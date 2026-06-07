@@ -1,0 +1,152 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\khammar_rihem_23020449.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\khammar_rihem_23020449.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8614,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nRihem Khammar\nData & AI Engineer/Full Stack Developer\nrihemkhammar 9@gmail.com • +21651098800\n• linkedin: Rihem khammar\n• github: rihemkhammar\n\n## PROFESSIONAL EXPERIENCE\n\nEXPÉRIENCE\nfévrier 2025 - juillet 2025\n\n## EDUCATION\n\n## Projet de Fin d'Études, Smartech\n- Développé une application mobile connectée à IBM Maximo (OSLC) pour la maintenance terrain.\nDéveloppé et intégré des modèles d'IA (ML/DL) pour prédire outils, pièces, rôles et durée des interventions, avec module de diagnostic.\nArchitecture microservices (Spring Boot, Flask) avec Docker et déploiement d'API ML.\nTechnologies: React Native, TypeScript, Flask, TensorFlow/Keras, Spring Boot, PostgreSQL, Docker, Linux.\n## Stagiaire, ODOO FINDER\n- Stage de 6 semaines\n- Suivi des ordres de fabrication et gestion de la production via Odoo.\n- Planifié les besoins en matières premières. Calcul des coûts et estimation des marges pour optimiser la production.\n## Odoo, Python, XML, PostgreSQL.\n- Technologies:\n## Stagiaire, Smartech\n- Stage de 4 semaines\n- Développé une application mobile React Native avec mode hors ligne et synchronisation.\n- Intégré IBM Maximo via API OSLC pour la gestion des ordres de travail.\n## React Native, SQLite.\n- Technologies:\n- Éducation\n\n## ACADEMIC PROJECTS\n\nProjets\n## Python, Playwright\n- Cdiscount Web Scrape\nDéveloppement d'un scraper automatisé pour extraire les données produits (titre, prix actuel, ancien prix, URL) avec gestion des filtres et pagination.\n- Résultat: export structuré des données vers Excel avec une architecture modulaire et maintenable.\n## Python, Pygame, Py Installer\n- Ajajah - Jeu de plateforme 2 D\nDéveloppement d'un jeu de plateforme 2 D en Python intégrant animations, collisions et système de score.\n**Location: ** Windows, Linux\n- gameplay fluide avec gestion des obstacles et des effets sonores.\n- Résultat:\n\n## TECHNICAL SKILLS\n\nCompétences techniques\nDéveloppement & Backend\nFrameworks: Spring Boot, Flask, FastAPI\nLangages: Python, JavaScript, TypeScript, Dart, HTML 5, CSS 3, XML\nDéveloppement mobile: React Native CLI, Flutter\nData & IA\nAnalyse & visualisation: Power BI, Excel, matplotlib, seaborn\nBases de données:\nOutils & IDE:\nFigma, Photoshop\nUI/UX Design:\nSystèmes d'exploitation:\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning/IA: TensorFlow, scikit-learn, OpenCV, Pandas, NumPy\nPostgreSQL, MySQL, Neo4j\nDocker, Git, VSCode, Intelli J, Py Charm, Android Studio, Postman, Jupyter Notebook\n\n## CERTIFICATES (IN PROGRESS)\n\nCertificats\n\n## HCAI-AI V 3. 5\n\nDocker Training Course (Kode Kloud)\nGitHub Foundations (Data Camp)/link\nExploratory Data Analysis in Python (Data Camp)/link\n\n## LANGUAGES\n\nAvancé\nAvancé\nIntermédiaire\nDébutant\nArabe\nFrançais\nAnglais\nAllemand\nCentres d'intérêt\nAncienne handballeuse, esprit d'équipe, résolution de problèmes, recherche en intelligence artificielle.",
+    "header_info": {
+      "full_name": "Rihem Khammar",
+      "email": "9@gmail.com",
+      "phone": "+21651098800",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8927,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "education[1].institution",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Rihem Khammar",
+      "email": "9@gmail.com",
+      "phone": "+21651098800",
+      "location": null,
+      "linkedin": "Rihem khammar",
+      "github": "rihemkhammar"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Spring Boot",
+        "Flask",
+        "TensorFlow/Keras",
+        "PostgreSQL",
+        "Docker",
+        "React Native",
+        "TypeScript",
+        "Python",
+        "JavaScript",
+        "HTML 5",
+        "CSS 3",
+        "XML"
+      ],
+      "soft_skills": [
+        "Ancienne handballeuse, esprit d'équipe, résolution de problèmes, recherche en intelligence artificielle"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "février 2025",
+        "end_date": "juillet 2025",
+        "city": null,
+        "responsibilities": [
+          "Développé une application mobile connectée à IBM Maximo (OSLC) pour la maintenance terrain.",
+          "Développé et intégré des modèles d'IA (ML/DL) pour prédire outils, pièces, rôles et durée des interventions, avec module de diagnostic."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Smartech",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:52:31.163171+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

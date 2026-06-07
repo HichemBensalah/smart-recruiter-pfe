@@ -1,0 +1,91 @@
+## HEADER
+
+Bilel Habibi
+
+## PROFESSIONAL SUMMARY
+
+PROFIL
+
+## PROFESSIONAL EXPERIENCE
+
+Développeur Full Stack maîtrisant React. js, Node. js, Mongo DB et My SQL, avec une expérience concrète dans des environnements réglementés (banque, santé). Capable d'assurer aussi bien l'architecture front-end que le développement back-end. Ouvert aux postes full stack, front-end ou back-end, en présentiel ou à distance.
+Développement de plus de 4 projets web clients via la stack MERN, avec interfaces responsives et expérience utilisateur soignée.
+**Date:** Octobre 2025 - Mars 2026| Sokra, Tunis
+- bilelhabibi 30@gmail. com
+### Mornaguia, Manouba
+- Intégration d'APIs et création de solutions Word Press et React/Node. js adaptées aux besoins de chaque client.
+- github. com/Bilel Hbibi
+- Outils :
+### React. js, Node. js, Mongo DB, Express. js, Word Press
+- linkedin. com/in/bilel-habibi/- Développeur Web - SEBN
+### Septembre 2024 - Septembre 2025 | Fejja, Mornaguia
+- bilelhabibi. netlify. app
+Développement et maintenance d'interfaces React responsives, avec compatibilité multi-navigateurs assurée.
+Développement de routes API REST côté Node. js/Express et intégration côté React pour alimenter plusieurs types d'interfaces (dashboards, formulaires, pages de gestion), en coordination avec les équipes design et back-end.
+### React. js, Node. js, Express. js, Mongo DB
+- Stagiaire au Banque Tunisienne de Solidarité
+Développement d'une plateforme full stack multi-rôles (admin, fournisseur, client) en environnement bancaire réglementé, avec gestion des accès par rôle et protection des flux sensibles.
+**Date:** Février 2024 - Mai 2024 | Tunis
+### React. js, Node. js, Mongo DB, Express. js, Bootstrap
+- Stagiaire au sein de Laboratoire Teriak
+### Juillet 2022 - Août 2022 | Jebel Ouest, Zaghouan
+- Développement d'une plateforme full stack de gestion des analyses cliniques pour Laboratoire Teriak.
+### : React. js, Node. js, My SQL, Express. js, Bootstrap, Tailwind CSS
+**Date:** 2024 - Présent| Ariana
+
+## EXPÉRIENCES PROFESSIONNELLES
+
+CONTACT
+Développeur Web - Brand Your Business
+
+## TECHNICAL SKILLS
+
+COMPÉTENCES
+Langages & Frameworks
+Java Script
+React. js
+Outils :
+Node. js
+Express. js
+Mongo DB
+My SQL
+Outils
+Outils :
+Git
+Word Press
+Bootstrap
+Tailwind CSS
+Méthodologie
+Outils
+Stack MERN
+APIs REST
+
+## EDUCATION
+
+FORMATION
+Ingénierie en Informatique
+Université des Sciences Numériques TEK-UP
+Licence en Génie Logiciel
+Institut supérieur des sciences appliquées et de la technologie de Mateur
+### Baccalauréat Informatique
+**Date:** 2021- 2024 | Mateur
+- Lycée Farabi Mornaguia
+- Diplôme en Création Web - Meshkat Education
+- Diplôme en Javascript - Meshkat Education
+- Diplôme en Framework React - DYMA
+
+## SOFT SKILLS
+
+QUALITÉS
+Bonne communication
+Résolution de problèmes
+Esprit d'équipe
+Autonomie & initiative
+
+## LANGUAGES
+
+LANGUES
+CERTIFICAT
+Arabe : Langue natale
+Anglais : Intermédiaire
+Français : Intermédiaire

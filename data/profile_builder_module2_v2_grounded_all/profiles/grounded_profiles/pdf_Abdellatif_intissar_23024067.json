@@ -1,0 +1,226 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abdellatif_intissar_23024067.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abdellatif_intissar_23024067.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.726,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nFull Stack Software Engineer (JavaScript | Angular | Node. js)\n📧: abdellatifintissar 9@gmail.com | 📞: 93643048 | Monastir, Tunisie\nRecently graduated Full Stack Engineer specialized in web development using Angular and Node. js. Experienced in building complete web applications (frontend & backend), RESTful APIs, and relational databases. Interested in DevOps practices (Docker, CI/CD) and data visualization (Power BI). Motivated, rigorous, and solution-oriented.\nLanguages: JavaScript, Python, Java, C, HTML, CSS | Frontend: Angular, TypeScript | Backend: Node. js, Express | Databases: MySQL, MongoDB | DevOps: Docker, GitHub Actions (CI/CD), Git | Data & BI: Power BI | Tools: Postman, VS Code, Intelli J, Android Studio, Figma | Methodologies: Agile (Scrum), UML\n🔹 Final Year Internship - SW Consulting (Monastir)---------------------------------------- March 2025 - August 2025\nTesting and deployment\nDevelopment of dynamic and responsive UI\nREST API integration, filtering and search\nPerformance optimization\nSystem analysis and requirement study\nRFID hardware prototype design\nEmbedded software development for access control\nDatabase creation for user and trip management\nTesting and system optimization\nDevOps project: application deployment environment\nCI/CD pipeline with GitHub Actions\nNode. js test deployment\n\n## PROFESSIONAL EXPERIENCE\n\nDatabase modeling (MySQL)\nCreation of analytical dashboards using Power BI\nContainerization using Docker\nCI/CD pipeline setup with GitHub Actions\n## Git version control (branches, merge)\n\n## ACADEMIC PROJECTS\n\nProject: Regulatory Watch & Compliance Management Platform ( Technologies: Angular, Node. js, Express, MySQL, Power BI, Docker, GitHub Actions)\n- Requirements analysis and system architecture design\n- Development of secure REST APIs using Node. js & Express\n## Frontend development with Angular (dynamic forms, dashboards)\n- Authentication implementation (OAuth 2. 0 & JWT)\n🔹 Summer Internship - Viamobile (Tunisia)---------------------------------------------September 2023 - October 2023\nProject: Enhancement of Swared Web Application ( Technologies: Angular, TypeScript )\n## Features implementation (driver management, tracking, dashboards)\n🔹 Internship - DEMCO (Monastir)-------------------------------------------------------------February 2022 - May 2022\n## Project: RFID Bus Access Control System ( Technologies: Arduino, C/C++, MySQL)\n## Node. js + Angular project: MongoDB models, REST API, Angular CRUD\n- Docker containerization\n- Git version control\n\n## LANGUAGES\n\nLANGUAGES Arabic | French | English",
+    "header_info": {
+      "full_name": "Testing and deployment",
+      "email": "9@gmail.com",
+      "phone": null,
+      "location": "Recently graduated Full Stack Engineer specialized in web development using Angular and Node. js. Experienced in building complete web applications (frontend & backend), RESTful APIs, and relational databases. Interested in DevOps practices (Docker, CI/CD) and data visualization (Power BI). Motivated, rigorous, and solution-oriented.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8825,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.location",
+      "bio.phone",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[10]",
+      "experiences[0].responsibilities[11]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].responsibilities[7]",
+      "experiences[0].responsibilities[8]",
+      "experiences[0].responsibilities[9]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].responsibilities[3]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": "9@gmail.com",
+      "phone": "93643048",
+      "location": "Monastir, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Recently graduated Full Stack Engineer specialized in web development using Angular and Node. js. Experienced in building complete web applications (frontend & backend), RESTful APIs, and relational databases. Interested in DevOps practices (Docker, CI/CD) and data visualization (Power BI). Motivated, rigorous, and solution-oriented.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "JavaScript",
+        "Angular",
+        "Node. js",
+        "Python",
+        "Java",
+        "C",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "MySQL",
+        "MongoDB",
+        "Docker",
+        "GitHub Actions",
+        "Git",
+        "Power BI",
+        "Postman",
+        "VS Code",
+        "Intelli J",
+        "Android Studio",
+        "Figma",
+        "Agile (Scrum)",
+        "UML"
+      ],
+      "soft_skills": [
+        "Motivated",
+        "rigorous",
+        "solution-oriented"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "SW Consulting",
+        "job_title": null,
+        "start_date": "March 2025",
+        "end_date": "August 2025",
+        "city": "Monastir",
+        "responsibilities": [
+          "Testing and deployment",
+          "Development of dynamic and responsive UI",
+          "REST API integration, filtering and search",
+          "Performance optimization",
+          "System analysis and requirement study",
+          "RFID hardware prototype design",
+          "Embedded software development for access control",
+          "Database creation for user and trip management",
+          "Testing and system optimization",
+          "DevOps project: application deployment environment",
+          "CI/CD pipeline with GitHub Actions",
+          "Node. js test deployment"
+        ]
+      },
+      {
+        "company": "Viamobile",
+        "job_title": null,
+        "start_date": "September 2023",
+        "end_date": "October 2023",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Project: Enhancement of Swared Web Application ( Technologies: Angular, TypeScript )",
+          "Features implementation (driver management, tracking, dashboards)"
+        ]
+      },
+      {
+        "company": "DEMCO",
+        "job_title": null,
+        "start_date": "February 2022",
+        "end_date": "May 2022",
+        "city": "Monastir",
+        "responsibilities": [
+          "Project: RFID Bus Access Control System ( Technologies: Arduino, C/C++, MySQL)",
+          "Node. js + Angular project: MongoDB models, REST API, Angular CRUD",
+          "Docker containerization",
+          "Git version control"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:30:06.697449+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

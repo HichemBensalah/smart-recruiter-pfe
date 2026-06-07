@@ -1,0 +1,71 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mrabet_Mohamed_23026015.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mrabet_Mohamed_23026015.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mrabet_Mohamed_23026015.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mohamed Mrabet",
+      "email": "mohamed. mrabet@09@gmail.com",
+      "phone": "+216 25 125 035",
+      "location": "Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "Ingénieur IT spécialisé en Architecture IT et Cloud Computing",
+      "hard_skills": [
+        "Architecture IT",
+        "Cloud Computing",
+        "DevOps",
+        "Spring Boot",
+        "Angular",
+        "Azure DevOps",
+        "Jenkins",
+        "Terraform",
+        "Ansible",
+        "Kubernetes",
+        "Grafana",
+        "Prometheus",
+        "Docker",
+        "Open Stack",
+        "Selenium",
+        "Sonar Qube"
+      ],
+      "soft_skills": [
+        "Passionné par l'automatisation des infrastructures",
+        "Expérience en développement d'une plateforme e-commerce scalable",
+        "Connaissance de la mise en place de pipelines CI/CD",
+        "Déploiement sur Azure Kubernetes Service (AKS)",
+        "Configuration d'un déploiement multi-régions avec Azure Traffic Manager"
+      ]
+    },
+    "experiences": [],
+    "education": [
+      {
+        "degree": "Cycle Ingénieur",
+        "school": "ISSAT Mahdia",
+        "year": null
+      },
+      {
+        "degree": "Stage Cloud/DevOps",
+        "school": "Tunisie Telecom",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:44:35.883206+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9105,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

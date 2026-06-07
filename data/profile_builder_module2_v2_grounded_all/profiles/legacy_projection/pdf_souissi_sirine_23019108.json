@@ -1,0 +1,76 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\souissi_sirine_23019108.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\souissi_sirine_23019108.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\souissi_sirine_23019108.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Souissi Sirine",
+      "email": "533@gmail.com",
+      "phone": "+216 99 430 344",
+      "location": "Hammamet, Nabeul"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java Spring Boot",
+        "Angular",
+        "MERN",
+        "TensorFlow",
+        "OpenCV",
+        "Python",
+        "AWS",
+        "Google Cloud"
+      ],
+      "soft_skills": [
+        "Rigoureuse",
+        "Curieuse",
+        "Trésorière",
+        "Vice Présidente"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Fév. 2025 - Juil. 2025",
+        "end_date": null,
+        "city": "Hammamet, Nabeul",
+        "responsibilities": [
+          "Digitalisation du processus de gestion des stages via une application full-stack (Java Spring Boot + Angular).",
+          "D'éveloppement et intégration d'un modèle IA pour le scoring automatique des CV.",
+          "Mise en place d'un pipeline CI/CD avec Docker et Jenkins."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ing' enieure Full Stack Junior",
+        "school": "ITBS Nabeul",
+        "year": null
+      },
+      {
+        "degree": "Diplôme National en Systèmes Embarqués",
+        "school": "ISSAT Sousse",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:46:12.727640+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8954,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

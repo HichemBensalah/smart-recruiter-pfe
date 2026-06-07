@@ -1,0 +1,130 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rim_arfa_23028398.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rim_arfa_23028398.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Rim_arfa_23028398.json",
+    "profile_kind": "minimal_profile",
+    "bio": {
+      "full_name": "ARFA RIM",
+      "email": "rim. arfa 1604@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "JavaScript",
+        "ReactJS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Redux",
+        "HTML5",
+        "CSS3",
+        "PHP",
+        "C++",
+        "Python",
+        "Angular",
+        "Java",
+        "JEE",
+        "UML",
+        "Xml"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Chargé d'Ingénierie Logicielle",
+        "company": "TANIT DE CARTHAGE SOFTWARE",
+        "start_date": null,
+        "end_date": null,
+        "city": "Ras Jebel 7070 Bizerte",
+        "responsibilities": [
+          "Mise en place de nouvelles applications",
+          "Accompagnement et assistance technicofonctionnelle"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "GOMYCODE",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Formation FULLSTACKJS",
+          "Création d'un site web: Julia Cuisine"
+        ]
+      },
+      {
+        "job_title": "Designer",
+        "company": "Denim Authorithy",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une solution de Lean"
+        ]
+      },
+      {
+        "job_title": "Designer",
+        "company": "Open DEV",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Adaptation d'Open ERP"
+        ]
+      },
+      {
+        "job_title": "Technicien",
+        "company": "CNAM",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stage"
+        ]
+      },
+      {
+        "job_title": "Technicien",
+        "company": "STAR",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stage"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence Fondamentale en Informatique de Gestion",
+        "school": "Ecole Supérieure de Commerce de Tunis",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat en Mathématiques",
+        "school": "Lycée Mohamed Ali Annabi Ras Jebel",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:30:27.280741+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.0,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "low_grounded_reliability",
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Nasser_Foued_23025427.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Nasser_Foued_23025427.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Nasser_Foued_23025427.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Foued Nasser",
+      "email": "fouednasser@98@gmail.com",
+      "phone": "+216 54083239",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieur DevOps avec une expérience pratique dans la mise en place de pipelines CI/CD, de plateformes Kubernetes et d'infrastructures cloud sur AWS et Azure.",
+      "hard_skills": [
+        "Cloud Technologies: Azure and Aws",
+        "Infrastructure as Code (IAC): Terraform",
+        "CI/CD & Gestion de Versions: Git, Git Lab CI/CD, GitHub Actions, Argo CD",
+        "Conteneurisation & Orchestration: Docker, Kubernetes",
+        "Programmation & Scripting: Bash, Python, Java",
+        "Sécurité: Sonar Qube, Trivy, OWASP Dependency Check, Ja Co Co, Bandit, Git Leaks",
+        "Monitoring: Prometheus, Grafana"
+      ],
+      "soft_skills": [
+        "Gestion de clusters Kubernetes",
+        "Conteneurisation Docker",
+        "Automatisation d’infrastructure avec Terraform"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur Dev Sec Ops",
+        "company": "Up Tech",
+        "start_date": "Feb 2025",
+        "end_date": "Jun 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et mise en œuvre de pipelines Git Lab CI/CD pour des microservices Java sur Kubernetes",
+          "Intégration d’outils de sécurité (Sonar Qube, Ja Co Co, OWASP Dependency Check, Trivy) dans le pipeline CI/CD",
+          "Automatisation des builds d’images Docker avec Kaniko",
+          "Gestion des déploiements multi-environnements via variables Git Lab et manifests Kubernetes"
+        ]
+      },
+      {
+        "job_title": "Stagiaire en Génie Logiciel",
+        "company": "Neoxion",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d’une application web de gestion de clusters Kubernetes avec React et Nest JS"
+        ]
+      },
+      {
+        "job_title": "Projet DevOps/Platform Engineering",
+        "company": "Lab Set",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d’une plateforme full-stack (FastAPI + React) pour le provisionnement d’environnements DevOps"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d’Ingénieur en Informatique",
+        "school": "École Nationale des Sciences de l’Informatique (ENSI)",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Institut Préparatoire aux Études d’Ingénieurs de Nabeul (IPEIN)",
+        "year": "221"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:49:24.651167+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9455,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

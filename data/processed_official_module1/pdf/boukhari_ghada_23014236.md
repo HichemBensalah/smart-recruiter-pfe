@@ -1,0 +1,67 @@
+## TECHNICAL SKILLS
+
+IT and Cloud Operations Engineer
+ghadaboukhari 8@gmail. com
+linkedin. com
+Cloud & Dev Ops Engineer with hands-on experience in multi-cloud environments (Microsoft Azure, GCP), infrastructure automation, and secure CI/CD pipelines. Proven ability to enhance system performance, optimize workflows, and strengthen security through Dev Sec Ops practices. Seeking opportunities in Cloud, Dev Ops, and Cloud Security.
+SKILLS
+Cloud Computing, Dev Ops, Security, CRM, Monitoring, Data Visualization, Client Management, Iaa C, Linux, Office 365, CCNA 1, Sales Strategy, Client Management
+Automated deployments using Ansible, improving consistency and reducing manual effort by 40%. ·
+Provisioned and managed Kubernetes clusters on Azure with Terraform, improving scalability and infrastructure reliability. ·
+Cloud Engineer Intern
+HORIZOP Energy
+Architected and implemented scalable solutions on Google Cloud Platform (GCP). ·
+Set up CI/CD pipelines using Git Lab to automate build and deployment workflows. ·
+Computer Engineering - IT Architecture and Cloud Computing
+Managed containerized applications using Docker and Kubernetes, ensuring high availability and performance. ·
+Private High School of Engineering and Technology (ESPRIT)
+Cloud and Dev Ops Intern
+Radès, Tunisia
+Deployed and managed cloud infrastructure on Microsoft Azure using Infrastructure as Code (Terraform). ·
+Master's in Systems, Networks and Cloud Computing
+Migrated on-premises workloads to Azure, improving scalability and availability. ·
+University of Sfax
+Bachelor's in Computer Networks
+Translated business requirements into efficient and scalable cloud solutions. ·
+University of Sfax
+B 2
+English
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+CRM & Data Operations Supervisor
+SAFILAB
+Administered and optimized the Odoo CRM system with a strong focus on role-based access control (RBAC) to ensure secure and structured user management. ·
+Leveraged Metabase and Odoo analytics dashboards to generate actionable insights, improving decision-making speed by 20%. ·
+**Date:** 08/2025 - Present
+**Location:** Ariana, TUNISIA
+- Contributed to sales strategy by aligning CRM processes with business objectives and customer lifecycle management. ·
+Strengthened client management by improving customer tracking, engagement, and retention. ·
+### Dev Sec Ops Intern
+**Date:** 02/2025 - 06/2025
+**Location:** Tunis, Tunisia
+- SFM
+- Designed and implemented a secure Dev Sec Ops pipeline for a banking back-end application using Git Lab CI/CD. ·
+Integrated Trivy for continuous vulnerability scanning, identifying and mitigating security vulnerabilities. ·
+
+## PROFESSIONAL SUMMARY
+
+SUMMARY
+
+## ACADEMIC PROJECTS
+
+PROJECTS
+Private Iaa S
+Designed and deployed a private Iaa S platform using Open Stack and Kubernetes, enabling scalable and reliable infrastructure. Automated provisioning and configuration with Terraform, and deployed a full-stack club management application built with Angular and Spring Boot.
+**Date:** 2024
+**Location:** Ariana, Tunisia
+- Implemented monitoring and logging solutions to enhance system observability and proactive issue detection. ·
+- Designed and implemented scalable cloud architectures aligned with business needs. ·
+- Built and deployed containerized applications using Docker, Kubernetes, Helm charts, and Azure Container Registry (ACR). ·
+
+## LANGUAGES
+
+Arabic
+Native B 2
+French

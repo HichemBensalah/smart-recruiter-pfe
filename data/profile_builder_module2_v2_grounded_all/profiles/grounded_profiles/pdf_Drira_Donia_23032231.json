@@ -1,0 +1,204 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Drira_Donia_23032231.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Drira_Donia_23032231.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9095,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nDonia Drira\nTunis, Tunisie | doniadrira@gmail.com | +216 25 797 717\nlinkedin.com/in/donia-drira |\ngithub.com/donia 225\n\n## PROFESSIONAL SUMMARY\n\nProfil\nDéveloppement d'une application web de collecte de données bancaires avec ReactJS, Spring Boot et MySQL, avec gestion des utilisateurs, rôles et documents selon les profils administrateur, gestionnaire et validateur.\nApplication microservices: Déploiement d'une application développée avec Spring Boot, Angular et MySQL, intégrant une architecture conteneurisée avec Docker et Kubernetes, ainsi que des mécanismes de supervision à l'aide de Prometheus et Grafana.\nChaîne CI/CD: Implémentation d'une chaîne d'intégration et de déploiement continus (CI/CD) en utilisant Jenkins, Git, Docker, Docker Compose, Nexus et Sonar Qube, dans une démarche d'automatisation et d'amélioration de la qualité du code.\nPlateforme académique: Conception et développement d'une plateforme de gestion des académies sportives, comprenant une application web réalisée avec Symfony pour le back-end, une application desktop développée en Java/Java FX et une application mobile conçue avec Codename One.\nAngular, TypeScript, JavaScript, HTML, CSS, React. js\nJava, Spring Boot, Django, Symfony, PHP, C#, .NET\nDocker, Docker Compose, Kubernetes, Jenkins, Git, Sonar Qube, Prometheus, Grafana,\n\n## TECHNICAL SKILLS\n\nJeune diplômée en informatique, orientée développement full stack avec Angular et Spring Boot, avec des connaissances en DevOps. J'ai travaillé sur la conteneurisation d'applications avec Docker, le déploiement avec Kubernetes, ainsi que sur la mise en place de pipelines CI/CD avec Jenkins, Git et Sonar Qube.\nConception, développement et déploiement d'une plateforme intelligente de recrutement et de gestion de carrière avec Angular, Django et GCP, avec intégration de fonctionnalités d'IA basées sur le RAG et les LLM.\nConception et développement d'une application web de gestion des contrats: création des contrats par les revendeurs et suivi statistique des activités par l'administrateur, développée avec Django.\nConception et développement d'une application web dédiée aux femmes pour consulter les offres de beauté, avec gestion des offres par l'administrateur selon leur disponibilité, développée avec Angular, Spring Boot et MySQL.\nCompétences techniques\nDéveloppement Front-end:\nDéveloppement Back-end:\nDevOps & Cloud:\nOpen Stack, Google Cloud Platform (GCP), notions Ansible, Terraform\nMéthodes Agile (Scrum), CI/CD\nMéthodologies:\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences\n## Stagiaire ingénieure en informatique, UIB (Union Internationale de Banques),\n**Date: ** Février 2025 - Août 2025\n- Tunis\n## Stagiaire Développeur Web, Siège Topnet - Tunis, Tunisie\n**Date: ** Juin 2024 - Août 2024\n## Stagiaire Développeur Web, Bee coders - Tunis, Tunisie\n**Date: ** Juillet 2023 - Août 2023\n## Stagiaire Développeur Web, Conseil bancaire et financier - Tunis, Tunisie\n**Date: ** Février 2022 - Juin 2022\n\n## ACADEMIC PROJECTS\n\nProjets académiques\n\n## EDUCATION\n\nFormation\n\n## LANGUAGES\n\nLangues\nArabe (langue maternelle) - Français (professionnel) - Anglais (professionnel)",
+    "header_info": {
+      "full_name": "Donia Drira",
+      "email": "doniadrira@gmail.com",
+      "phone": "+216 25 797 717",
+      "location": null,
+      "linkedin": "linkedin.com/in/donia-drira",
+      "github": "github.com/donia"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.4804,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]",
+      "expertise.hard_skills[10]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.hard_skills[10]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Donia Drira",
+      "email": "doniadrira@gmail.com",
+      "phone": "+216 25 797 717",
+      "location": null,
+      "linkedin": "linkedin.com/in/donia-drira",
+      "github": "github.com/donia"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Git",
+        "Sonar Qube",
+        "Prometheus",
+        "Grafana",
+        "Java",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "React.js",
+        "TypeScript"
+      ],
+      "soft_skills": [
+        "DevOps",
+        "CI/CD",
+        "Open Stack",
+        "Google Cloud Platform (GCP)",
+        "Ansible",
+        "Terraform"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Union Internationale de Banques",
+        "job_title": null,
+        "start_date": "Février 2025",
+        "end_date": "Août 2025",
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "company": "Siège Topnet",
+        "job_title": "Développeur Web",
+        "start_date": "Juin 2024",
+        "end_date": "Août 2024",
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "company": "Bee coders",
+        "job_title": "Développeur Web",
+        "start_date": "Juillet 2023",
+        "end_date": "Août 2023",
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "company": "Conseil bancaire et financier",
+        "job_title": "Développeur Web",
+        "start_date": "Février 2022",
+        "end_date": "Juin 2022",
+        "city": "Tunis",
+        "responsibilities": []
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Arabe (langue maternelle)",
+      "Français (professionnel)",
+      "Anglais (professionnel)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:51:41.192700+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

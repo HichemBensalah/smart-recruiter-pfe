@@ -1,0 +1,73 @@
+## LEITH BOUALLEGUE
+
+i ngénieur génie logiciel et système i nformatique
+adresse
+Telephone
+Email
+leithbouallegue@outlook. com
+Linkedin
+leith bouallegue
+
+## TECHNICAL SKILLS
+
+Compétences
+Java
+Html
+SQL
+Css
+Java Script
+Node Js
+Spring boot , Angular , My SQL
+Spring Boot
+Angular
+Git
+Postman
+Connaissances
+Android Studio
+React JS
+AWS
+Méthodologie
+Méthode Agile Scrum
+
+## PROFESSIONAL EXPERIENCE
+
+Expériences professionnelles
+### Stage pfe, Elite innovation , Elgazala , Ariana
+**Date:** 03/2024 - 09/2024
+**Location:** Ain Zaghouen ,El Aouina, Tunisie
+
+## EDUCATION
+
+Application web pour des exercices et des tests sportif destiné aux entraîneurs et joueurs pour l'optimisation de leur performance et suivi des états physiques des joueurs et de centraliser les informations relatives à chaque joueur
+Technologies utilisées :
+### Stage d'ingénieur, Tuni Boat , Elgazala , Ariana
+**Date:** 07/2023 - 09/2023
+Conception et développement d'une application web pour les bateaux , L'entretien des bateaux ,le nettoyage et la peinture on simplifiera la recherche de professionnels qualifiés pour répondre aux besoins spécifiques des propriétaires de bateaux.
+- Technologies utilisées :
+### Spring boot , Angular , Postgre SQL
+### Stage d'été, STE Trio , sfax , tunisie
+**Date:** 07/2022 - 08/2022
+- Développement d'une dashboard pour suivre l'évolution des performances.
+- Technologies utilisées :
+### Spring boot , Angular , Postgre SQL
+- Diplômes et Formations
+Réalisation d'une plateforme web facilitant l'interaction entre les centres de formation et les candidats, en simplifiant le partage d'informations sur les formations et la gestion des inscriptions. Technologies utilisées : Spring Boot, Angular, Postgre SQL
+- Technologies utilisées :
+### Spring boot , Angular , My SQL
+- Réalisation d'une plateforme web de Système de gestion hospitalière
+- Technologies utilisées :
+### Spring boot , Angular , Postgre SQL
+
+## LANGUAGES
+
+Anglais : B 1
+Skill Up
+Francais : B 2
+
+## ACADEMIC PROJECTS
+
+Projets Académiques
+
+## 2023 TEKUP
+
+Hospital

@@ -1,0 +1,106 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Khaled_Wesslati_23024022.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Khaled_Wesslati_23024022.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Khaled_Wesslati_23024022.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "KHALED WESSLATI",
+      "email": "khaled.wessllati@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "IA Générative & LLMs",
+        "Agentic AI & Orchestration",
+        "Traitement de données & documents",
+        "Machine Learning & Deep Learning",
+        "Cloud & Azure AI"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Jan 2026",
+        "end_date": null,
+        "city": "Ben Arous, Tunis",
+        "responsibilities": [
+          "Développement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires.",
+          "Conception d'un pipeline de traitement documentaire avec Azure Document Intelligence, nettoyage PDF et chunking sémantique par article."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Sep 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Automatisation du support étudiant 24/7, avec des réponses fiables, contextualisées et une réduction de 70 % des demandes répétitives adressées au staff."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Jan 2025",
+        "end_date": null,
+        "city": "Ben Arous, Tunis",
+        "responsibilities": [
+          "Développement d'un chatbot de prise de rendez-vous piloté par un LLM pour l'extraction, la validation et la correction automatique des paramètres (date, lieu, durée, motif)."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Sep 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Intégration d'une API GraphQL pour la synchronisation temps réel des créneaux experts (réservation, annulation, réintégration)."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Sep 2020",
+        "end_date": "Oct 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle d'ingénieur en informatique en Data Science",
+        "school": "École Supérieure privée d'ingénierie et de Technologie",
+        "year": "Sep 2018 - Jul 2020"
+      },
+      {
+        "degree": "Cycle Préparatoire en Physique chimie",
+        "school": "Faculté des sciences de Sfax",
+        "year": "Ariana Sep 2018 - Oct 2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:49:47.144300+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9638,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Omar_Chegniou_23019687.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Omar_Chegniou_23019687.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Omar_Chegniou_23019687.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Omar Chegniou",
+      "email": "omarchegniou@gmail.com",
+      "phone": "216 58 197 186",
+      "location": "Tunisie, Tunis"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "ReactJS",
+        "NodeJS",
+        "Rudex",
+        "Express JS",
+        "PostgreSQL",
+        "TypeScript"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Full Stack (PFE)",
+        "company": "Aures Konnect",
+        "start_date": "Févr 2023",
+        "end_date": "May 2023",
+        "city": "Tunisie, Tunis",
+        "responsibilities": [
+          "Collaboré avec une équipe multidisciplinaire pour créer une interface utilisateur conviviale et des fonctionnalités de gestion des commandes",
+          "Mise en place d'un système de gestion de base de données PostgreSQL pour stocker les commandes"
+        ]
+      },
+      {
+        "job_title": "Stagiaire Développeur Full-Stack",
+        "company": "Sitem",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Réalisation d'une application web de vente d'outils pour la fibre optique"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Formation",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:55:03.604984+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7933,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

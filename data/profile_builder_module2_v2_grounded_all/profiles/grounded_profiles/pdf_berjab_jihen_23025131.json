@@ -1,0 +1,211 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\berjab_jihen_23025131.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\berjab_jihen_23025131.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9495,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMission:\nMéthodologie: Travail autonome\nTechnologies: Laravel 11, Blade, HTML 5, CSS 3, Bootstrap, JavaScript, MySQL.\nDéveloppeur Web\nSeptembre 2024 - juillet 2025\nLBI Tunisie, Filiale du groupe La Boite Immo France, Tunis, Tunisie.\nProjet 3: Gestion de Production\nMission:\nAnalyse de besoins, conception de l'architecture logicielle.\nMaintenance de l'application.\nCréation de base données.\nInstallation et test l'application chez le client.\nMéthodologie:\nScrum\nTechnologies:\nPHP 8, Bootstrap 4, JAVASCRIPT, MySQL, Git Lab, Git .\nfévrier 2023 - October 2023\nStage en ingénierie SECA, Sousse, Tunisie.\nDéveloppeur Full Stack\njanvier 2020 - October 2021\nFreelancer, Tunisie.\nDomaine\n: Les Sites Web\n\n## JIHEN BERJAB\n\nIngénieur Informatique | Développeur Full Stack\nberjabjihen@gmail.com\nlinkedin.com/in/jihen-berjab-7946 a 0195\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nAdapter le design fourni, connecter les pages aux données du back-office (services, produits, contact),\nassurer la cohérence visuelle et la compatibilité responsive sur tous les supports.\nDomaine: Leader du marché des logiciels de transaction sur le segment des agences immobilières indépendantes.\nDescriptif du projet: Participation au développement et à l'optimisation des flux de données du logiciel Hektor ( La Boîte Immo France ), via deux axes principaux:\nDescriptif du projet: Une application web de gestion de production permettant de surveiller les étapes de fabrication des articles, ainsi que le temps et la quantité sur chaque chaîne de production.\n\n## TECHNICAL SKILLS\n\nIngénieure informatique avec plus de 5 ans d'expérience en développement web full stack. Compétences solides en PHP (Symfony, Laravel), Java (Spring Boot), .NET Core, Angular, ainsi qu'en ETL (Talend).\nFrameworks\nMySQL, SQL Server (HFSQL)\nBases de données\nTalend Open Studio 8\nETL/Data\nVersioning Git, Git Lab, GitHub, Bitbucket, Sourcetree\nVersioning\nVisual Studio 2022, VSCode, Php Storm, Intelli J IDEA, Windev 24/27, JIRA, Swagger\nOutils\nAutres\nREST API, Signal R, Auto Mapper, PKCS#11, HSM, Maven, Word Press, Presta Shop, Odoo\nArabe (langue maternelle), Français (courant), Anglais (courant)\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience avérée dans la gestion de flux de données, l'intégration d'APIs REST, la conception de microservices et la collaboration en équipes agiles (Scrum). Maîtrise des environnements MySQL et SQL Server.\n**Date: ** Septembre 2025 - décembre 2025\n- EXPERIENCE\n## Développeur Informatique LASER INFORMATIQUE & SOLUTIONS - Tunis, Tunisie\n- Domaine: Assistance et services informatiques .\n- Projet\n-: Agent local PKCS#11 - Composant de la plateforme de signature électronique Pro Sign-LIS .\nDescriptif du projet: Développement d'un micro-service local Java assurant la connexion entre la plateforme de signature distante (DSS) et les dispositifs HSM matériels ( Safe Net, Digi Go, SSCD ) pour la signature électronique qualifiée conforme e IDAS .\n- Mission:\n- Conception d'un agent Spring Boot 3. 3 en Java 17 avec interfaces REST/api/keys et/api/sign.\n- Intégration de la bibliothèque DSS (EU) et du module Sun PKCS 11 pour l'accès matériel au HSM .\nImplémentation complète du cycle de signature: décodage du dtbs B 64, initialisation PKCS#11, sélection clé privée, exécution de la signature RSA SHA-256 .\nGestion dynamique des erreurs et des statuts HTTP (503: token absent, 204: clé manquante, 401: PIN incorrect).\n- Mise en place d'un canal HTTPS local sécurisé entre navigateur et agent.\n- Méthodologie: Scrum\nTechnologies: Spring Boot, Java 17, PKCS#11, HSM Tuni Trust, Maven, Wrapper Java, HTTPS, Safe Net, REST API, Git, Bitbucket, Sourcetree, Intelli J IDEA .\n- Projet 2: Intégration de sites vitrines pour parapharmacies\n- Descriptif du projet: Intégration de templates HTML dans un back-office Laravel déjà existant afin de créer des sites vitrines dynamiques pour des parapharmacies.\n\n## COMPÉTENCES TECHNIQUES\n\nC#, PHP 5/7/8, Java, JavaScript, TypeScript, HTML 5, CSS 3, j Query, WLangage\nLangages\nSymfony v 3/v 6, Laravel 11, Spring Boot 3, .NET Core 6, Angular 14\n\n## LANGUAGES\n\nLangues\n\n## EDUCATION\n\nProcessus ETL: Conception de jobs Talend Open Studio pour importer/exporter des données depuis divers systèmes (API, fichiers CSV/XML, base de donnée de logiciels tiers), avec transformation selon les règles métier et chargement en base MySQL . Qualité, cohérence et traçabilité des données sont prioritaires.\nDéveloppement en Symfony V 6 et PHP 8 POO: Amélioration continue du le logiciel Hektor via l'automatisation des flux, l'optimisation des traitements et l'intégration fluide des données dans l'interface. Développement de scripts personnalisés pour les imports en masse, la gestion des erreurs et l'amélioration UX.\nTravail mené en étroite collaboration avec les équipes métier, produit et support, dans un souci de scalabilité, de qualité logicielle et de respect des délais.\n- Mission:\nConception de jobs Talend Open Studio pour l'import/export automatisé des données clients depuis des logiciels tiers (APIs, fichiers) vers le logiciel Hektor, avec transformation selon les règles métier.\n- Création de classes Java personnalisées (routines Talend) pour optimiser l'extraction et le traitement de données à partir de fichiers XML ou CSV.\n- Débogage et amélioration des processus d'import/export de flux de données pour le logiciel Hektor.\nParticipation à la migration de données entre systèmes, avec contrôle qualité et cohérence.\nÉcriture de scripts PHP pour assurer la qualité des données: détection des anomalies, correction des incohérences et amélioration des informations stockées en base.\nDéveloppement en PHP 8 POO pour automatiser les flux, optimiser les performances et intégrer les données dans l'interface.\n- Création et optimisation de requêtes SQL (MySQL) pour le traitement et l'injection des données.\nCollaboration avec les équipes produit, métier et support pour répondre aux besoins métier et garantir la qualité du logiciel.\n- Méthodologie: Travail autonome\nTechnologies: Symfony V 6, PHP 8, JAVA, ETL (TALEND 8), MYSQL, JIRA, Git, Bitbucket, Php Storm, et des outil interne .\n**Date: ** October 2023 - Août 2024\n- Ingénieur informatique\n## Smart Galaxy, Remote, Tunisie.\n- Domaine:\n## Technologie, information et Internet .\n- Descriptif du projet: développé un site web e-commerce pour la vente en ligne d'articles téléphoniques d'accessoires.\nDescriptif du projet: Conception et développement d'un système intelligent de détection automatique des données de factures, basé sur des algorithmes d'intelligence artificielle. Le backend est développé en .NET Core Web API avec une base de données SQL Server .\nTechnologies: .NET Core 6, C# 10, Swagger, Signal R ., Angular 14, Sql Server, REST, Git Lab, Git, Visual Studio.\n- Domaine:\n## Technologie, information et IOT .\n- Projet:\n- Gestion des énergies\nDescriptif du projet: Développement d'une solution web et mobile pour la gestion des énergies, interfacée avec un système Io T existant (collecte et diffusion de données énergétiques).\n- Mission:\n- Conception de l'architecture logicielle et création des fonctionnalités.\n## Création et consommation d'APIs REST, gestion de la base de données SQL Server.\n- Développement du module de communication (notifications) et intégration de templates front-end.\n- Développement d'une application console complémentaire.\n- intégration de template (Front-end).\n- Méthodologie: Scrum\nTechnologies: .NET Core 6, C# 10, Angular 14, Sql Server, REST, Git, Visual Studio, Swagger, Signal R,\n**Date: ** October 2021 - février 2023\n- Auto Mapper .\n## Développeur Full Stack ATF Technologies, Ben Arous, Tunisie.\n**Date: ** 2020 - 2023\n- Domaine: Acteur de référence sur le marché de l approvisionnement en fournitures industrielles .\n- Formation et support utilisateurs sur site\n- Méthodologie: Travail autonome\n- Cycle d'Ingénierie en Informatique\n## Iteam University, Tunis, Tunisie Spécialité: Génie Logiciel\n**Date: ** 2013 - 2017\n- Licence Appliquée en Technologie de l'Informatique\nInstitut supérieur des études technologiques, Sousse, Tunisie Spécialité: Développement des Systèmes d'informations (DSI)\n## Baccalauréat informatique\n**Date: ** 2013\n## Lycée Imtiaz Sidi Hassin, Tunis, Tunisie\n\n## ACADEMIC PROJECTS\n\n## Project 1: E-Commerce Web Site\n- Projet 2: détection intelligente de données de factures\n- Mission:\n## Analyse de besoins, conception de l'architecture logicielle.\n- Création et consommation d'APIs REST.\n## Développement de module de communication (messages, notifications).\n- Intégration de templates front-end.\n- Méthodologie: Travail autonome\nDescriptif des projets: Développement et maintenance d'un portefeuille de trois applications métier (web et desktop) couvrant la gestion de projets, la gestion de stocks et de facturation, ainsi que la gestion de parking.\nProjet 1 Gestion de projets (Web/PHP 8) Conception et développement d'une application web permettant le suivi complet du cycle de vie des projets clients. La plateforme centralisée offre aux utilisateurs un ensemble de fonctionnalités pour piloter efficacement chaque étape: création, affectation, suivi d'avancement et clôture des projets.\n- Projet 2 - Stocks & Facturation (Desktop/Win Dev 24 - HFSQL) Développement d'une application desktop dédiée à la gestion des stocks et à la facturation de produits industriels. L'outil permet de suivre les entrées/sorties de stocks et de générer automatiquement des factures pour les ventes réalisées.\nProjet 3 - Gestion de Parking (Desktop/Win Dev 27 - HFSQL) Développement d'une application desktop à destination des gestionnaires de parkings, permettant de piloter l'ensemble des opérations liées au stationnement des véhicules (entrées/sorties, tarification, reporting).\n- Mission:\n- Analyse des besoins fonctionnels et rédaction des spécifications\n- Développement des nouvelles fonctionnalités et évolutions applicatives\n## Conception et administration de bases de données (HFSQL, MySQL)\n- Maintenance corrective et évolutive des applications\n- Déploiement et installation des solutions chez les clients\nTechnologies: WLangage, Hf Sql, PHP 8 · Win Dev 24/27, MySQL, HTML/CSS, bootstrap\nDescriptif des projets: Développement de plusieurs applications web en freelance: application de gestion de parking (PHP 7), site de vente de matériels de sécurité électronique, et sites vitrine/ecommerce sous Word Press.\nConception de l'architecture, développement des fonctionnalités, maintenance des applications.\n## Création et consommation d'APIs REST, gestion de bases de données MySQL.\n- Développement de modules de communication et intégration de templates front-end.\n- Méthodologie: Travail autonome\n## Technologies: PHP 7, Word Press, Bootstrap 3/4, JavaScript, MySQL .\n**Date: ** Septembre 2018 - janvier 2020\n## Technico-Commerciale & Web Master MTS Tunisie, Ariana, Tunisie.\n- Domaine\n-: Sécurité électronique\nDouble rôle: développement commercial (vidéosurveillance, alarmes, contrôle d'accès) et gestion technique du site web e-commerce Presta Shop.\n## Gestion et maintenance du site web, référencement SEO/SEM.\n## Gestion du site e-commerce Presta Shop, conception graphique (Photoshop).\nProspection commerciale, conseil technique, support client, négociation et vente.\n- Méthodologie:\n- Travail autonome\n- Technologies:\n## Presta Shop, PHP 7, Bootstrap 4, JavaScript, MySQL, Odoo .",
+    "header_info": {
+      "full_name": "Méthodologie: Travail autonome",
+      "email": null,
+      "phone": null,
+      "location": "Technologies: Laravel 11, Blade, HTML 5, CSS 3, Bootstrap, JavaScript, MySQL.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6972,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[0].responsibilities[3]",
+      "experiences[1].end_date"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].start_date",
+      "experiences[4].city",
+      "experiences[4].company",
+      "experiences[4].end_date",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].responsibilities[1]",
+      "experiences[4].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": [
+      "experiences[0].responsibilities[3]",
+      "experiences[1].end_date"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Jihen Berjab",
+      "email": "berjabjihen@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/jihen-berjab-7946 a 0195",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Leader du marché des logiciels de transaction sur le segment des agences immobilières indépendantes",
+      "experience_level": "senior",
+      "years_experience": 9,
+      "hard_skills": [
+        "PHP 8",
+        "Laravel 11",
+        "HTML 5",
+        "CSS 3",
+        "Bootstrap",
+        "JavaScript",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Scrum",
+        "Travail autonome",
+        "Collaboration en équipes agiles"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "LBI Tunisie, Filiale du groupe La Boite Immo France",
+        "job_title": null,
+        "start_date": "Septembre 2024",
+        "end_date": "Juillet 2025",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Analyse de besoins, conception de l'architecture logicielle.",
+          "Maintenance de l'application.",
+          "Création de base données."
+        ]
+      },
+      {
+        "company": "Stage en ingénierie SECA",
+        "job_title": null,
+        "start_date": "Février 2023",
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception de l'architecture logicielle et création des fonctionnalités.",
+          "Création et consommation d'APIs REST.",
+          "Gestion de la base de données SQL Server."
+        ]
+      },
+      {
+        "company": "Développeur Full Stack ATF Technologies",
+        "job_title": null,
+        "start_date": "2020",
+        "end_date": "2023",
+        "city": "Ben Arous, Tunisie",
+        "responsibilities": [
+          "Formation et support utilisateurs sur site.",
+          "Méthodologie: Travail autonome."
+        ]
+      },
+      {
+        "company": "Iteam University",
+        "job_title": null,
+        "start_date": "2013",
+        "end_date": "2017",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Cycle d'Ingénierie en Informatique: Génie Logiciel.",
+          "Spécialité: Développement des Systèmes d'informations (DSI)."
+        ]
+      },
+      {
+        "company": "Technico-Commerciale & Web Master MTS Tunisie",
+        "job_title": null,
+        "start_date": "Septembre 2018",
+        "end_date": "Janvier 2020",
+        "city": "Ariana, Tunisie",
+        "responsibilities": [
+          "Gestion et maintenance du site web, référencement SEO/SEM.",
+          "Gestion du site e-commerce Presta Shop, conception graphique (Photoshop)."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:43:01.835073+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

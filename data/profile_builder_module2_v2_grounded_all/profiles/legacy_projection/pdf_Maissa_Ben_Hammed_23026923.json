@@ -1,0 +1,107 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Maissa_Ben_Hammed_23026923.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Maissa_Ben_Hammed_23026923.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Maissa_Ben_Hammed_23026923.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Maissa Ben Hammed",
+      "email": "3@gmail.com",
+      "phone": "+216. 25. 839. 154",
+      "location": "Montfleury, Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Conception et Impl´ ementation d'un syst` eme de management de l'IA",
+        "D´ eploiement d'une infrastructure r´ eseau segment´ ee en zones",
+        "Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux",
+        "Administration Linux",
+        "D´ eveloppement d'une application Spring Boot",
+        "Conception et gestion d'une base de donn´ ees relationnelle sous MySQL",
+        "Mise en place d'un pipeline CI/CD avec Jenkins",
+        "Int´ egration de Sonar Qube pour l'analyse qualit´ e du code",
+        "Automatisation des tests unitaires avec JUnit"
+      ],
+      "soft_skills": [
+        "Analyse de l'existant et identification des ´ ecarts par rapport aux exigences et mesures de contrˆ ole de la norme",
+        "Identification des risques li´ es ` a l'IA ` a l'aide des checklists NIST AI RMF",
+        "´ Evaluation et classification des risques IA selon le NIST AI RMF et l'AI Act",
+        "Mise en place de l'action corrective pour g´ erer les risques identifi´ es",
+        "R´ ealisation d'un audit interne de conformit´ e et op´ erationnel du SMIA"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stage de Fin d' ´ Etude",
+        "company": "Resys Consultant",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception et Impl´ ementation d'un syst` eme de management de l'IA",
+          "D´ eploiement d'une infrastructure r´ eseau segment´ ee en zones",
+          "D´ eploiement d'un SOC de test suite ` a l'abscence d'environnement de test d´ edi´ e"
+        ]
+      },
+      {
+        "job_title": "Stage d'´ et´ e - Digital Cook",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "R´ ealisation d'un audit de s´ ecurit´ e de l'application web de la plateforme et de son infrastructure serveur"
+        ]
+      },
+      {
+        "job_title": "Plateforme de threat Intellignence pour les Banques",
+        "company": null,
+        "start_date": "Mars 2025",
+        "end_date": "Novembre 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et simulation de l'architecture r´ eseau sous GNS 3, avec des routeurs et switchs Cisco"
+        ]
+      },
+      {
+        "job_title": "Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux",
+        "company": null,
+        "start_date": "F´ evrier 2024",
+        "end_date": "Mai 2024",
+        "city": null,
+        "responsibilities": [
+          "Configuration des ´ equipements pour le routage L 3 et le switching L 2"
+        ]
+      },
+      {
+        "job_title": "Projet Dev Sec Ops",
+        "company": null,
+        "start_date": "Octobre 2024",
+        "end_date": "Novembre 2024",
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une application Spring Boot pour la gestion de foyer"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:13:23.227783+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8827,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Sliti_manel_23016666.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Sliti_manel_23016666.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8628,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nManel Sliti\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience professionnelle\n## Stage PFE, Télévision tunisienne 02/2025 - 05/2025\n- Mastère en administration et sécurité des réseaux informatiques\n## Stage PFE,\n\n## EDUCATION\n\nSociété bancaire tunisienne (STB) - Projet de fin d'études (2025) 05/2025 - 07/2025\nDéveloppement d'une API bancaire simple et sécurisée, intégrée à un pipeline Dev Sec Ops complet (Jenkins, Docker, Kubernetes).\n- Mise en œuvre de l'analyse statique de la sécurité des applications (SAST) et du scan de conteneurs avec Sonar Qube et Trivy.\n## Configuration de la supervision avec Prometheus, Grafana et la suite ELK.\nConception d'un module de détection de fraude basé sur des modèles d'apprentissage automatique (Isolation Forest, LSTM, Autoencoder).\n- manelsliti 2001@gmail.com\nExécution de simulations d'attaques automatisées avec OWASP ZAP, Metasploit, Nmap, Wireshark et Kali Linux.\n**Date: ** 05/04/2001\n**Location: ** Stage PFE, Kromberg Schubert\n- tunis\n- Évaluation des vulnérabilités pour tester la sécurité de l'infrastructure et protéger les données sensibles contre les attaques potentielles\n- linkedin.com/in/manel-sliti\n- Recensement du réseau et collecte d'informations pour l'identification des vulnérabilités\nRéalisation d'un recensement du réseau et des hôtes à l'aide de Nmap afin d'identifier les adresses IP actives, les ports ouverts et les services en cours d'exécution.\nUtilisation de l'énumération Net BIOS pour recueillir des informations sur les périphériques réseau, notamment les ressources partagées, les noms d'utilisateur et les noms système.\n- Analyse du réseau sans fil.\n\n## TECHNICAL SKILLS\n\nTechnologies utilisées: Cloud: Ubuntu, serveur de messagerie, Nessus, Cent OS; VMware: Kali Linux, pf Sense, Nmap, Netdiscover, Unicornscan; Autres outils: Wireshark, analyse comparative de la sécurité d'Ubuntu\nDiplômé d'un mastère spécialisé en Dev Sec Ops, cloud et cybersécurité, avec une expérience pratique dans la conception de pipelines CI/CD sécurisés et l'automatisation de la détection de fraude à l'aide de modèles d'apprentissage automatique. Maîtrise des infrastructures cloud, de la conteneurisation et des tests de sécurité, avec de solides compétences analytiques et de résolution de problèmes.\nMise en œuvre d'une solution de sécurité basée sur Forti Gate Technologies utilisées: VMware, Kali Linux, Windows 7, Forti Gate, Apache 2 (serveur web)\nDéploiement d'Azure Kubernetes Service (AKS) avec Azure DevOps à l'aide de pipelines YAML\nPipeline CI/CD automatisé utilisant YAML pour la création de conteneurs Docker et leur déploiement sur AKS\nConteneurisation et déploiement d'applications avec Docker et Kubernetes\nPipeline CI/CD avec intégration de la surveillance Prometheus et Grafana,\nDéploiement et surveillance automatisés avec Jenkins\nMise en œuvre de la surveillance Kubernetes pour les pipelines CI/CD\nGestion de la sécurité et du contrôle d'accès aux bases de données avec Oracle XE\nCompétences\nConfigurez les pare-feu et les contrôles d'accès réseau pour protéger la base de données Oracle Express contre les menaces externes, en veillant à ce que seuls les réseaux ou adresses IP autorisés puissent y accéder.\nDev Sec Ops & Cloud Docker · Kubernetes · Jenkins · GitHub Actions · Azure DevOps · Grafana · Prometheus · Sonar Qube · Trivy · OWASP ZAP · CI/CD · Monitoring\nConfigurez les paramètres de sécurité, tels que la désactivation des services inutilisés, la sécurisation des liens de base de données et la suppression des privilèges inutiles, afin de respecter les bonnes pratiques de sécurité d'Oracle.\nCybersecurity Nmap · Nessus · Open VAS · Snort · pf Sense · Forti Gate · Wireshark · Network Hardening · Vulnerability Assessment · Penetration Testing Basics\nProgramming & Scripting Python · FastAPI\nMettez en œuvre et appliquez les bonnes pratiques de sécurité pour prévenir les attaques par injection SQL, telles que la validation des entrées, les requêtes paramétrées et le principe du moindre privilège.\nDatabases PostgreSQL · MySQL · Oracle XE\nAttaque réseau utilisant GNS 3\nNetwork Security Network Tools and Technologies (Nessus, Openvas, Owasp, Nmap, Fping ..)\nAttaques réseau avec GNS 3\nNetwork Configuration and Administration( Routers, Switches, Firewalls, Fortigate, Pfsense, Snort..))\nTests de sécurité et évaluation des vulnérabilités dans les environnements virtualisés\nTests d'intrusion dans les environnements virtualisés\nNetwork Protocols( TCP/IP, DNS, DHCP, and HTTP/HTTPS OSPF)\nConfiguration et test des politiques de sécurité dans les machines virtuelles\n\n## PROFESSIONAL SUMMARY\n\nProfil\nStage PFA, Tunisie Telecom\n\n## ACADEMIC PROJECTS\n\nProjets\nÉducation\nMastère en administration et sécurité des réseaux informatiques, Institut supérieur d'informatique du Kef 2023 - 2025\n## Licence en ingénierie des systèmes et des réseaux,\n- Institut supérieur d'informatique du Kef 2020 - 2023\n## Baccalauréat en sciences expérimentales,\n**Date: ** Mahmoud El Messadi 2019 - 2020\n- Optimisation de l'allocation des ressources dans le pipeline\n\n## CERTIFICATES (IN PROGRESS)\n\nCertificats\nPython\nHTML\nCCNA 1\nSC-900",
+    "header_info": {
+      "full_name": "Manel Sliti",
+      "email": null,
+      "phone": "02/2025 - 05/2025",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9726,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Manel Sliti",
+      "email": "manelsliti2001@gmail.com",
+      "phone": "02/2025 - 05/2025",
+      "location": null,
+      "linkedin": "linkedin.com/in/manel-sliti",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "junior",
+      "years_experience": 1,
+      "hard_skills": [
+        "Dev Sec Ops",
+        "Cloud",
+        "Cybersécurité",
+        "Kubernetes",
+        "Jenkins",
+        "Docker",
+        "Sonar Qube",
+        "Trivy",
+        "OWASP ZAP",
+        "CI/CD",
+        "Monitoring",
+        "Nessus",
+        "pf Sense",
+        "Forti Gate",
+        "Wireshark",
+        "Network Hardening",
+        "Vulnerability Assessment",
+        "Penetration Testing Basics",
+        "Python",
+        "FastAPI"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Télévision tunisienne",
+        "job_title": "Stage PFE",
+        "start_date": "02/2025 - 05/2025",
+        "end_date": null,
+        "city": "Kromberg Schubert",
+        "responsibilities": [
+          "Mise en œuvre de l'analyse statique de la sécurité des applications (SAST) et du scan de conteneurs avec Sonar Qube et Trivy.",
+          "Conception d'un module de détection de fraude basé sur des modèles d'apprentissage automatique (Isolation Forest, LSTM, Autoencoder).",
+          "Exécution de simulations d'attaques automatisées avec OWASP ZAP, Metasploit, Nmap, Wireshark et Kali Linux.",
+          "Réalisation d'un recensement du réseau et des hôtes à l'aide de Nmap afin d'identifier les adresses IP actives, les ports ouverts et les services en cours d'exécution.",
+          "Utilisation de l'énumération Net BIOS pour recueillir des informations sur les périphériques réseau, notamment les ressources partagées, les noms d'utilisateur et les noms système.",
+          "Analyse du réseau sans fil."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut supérieur d'informatique du Kef",
+        "degree": "Mastère en administration et sécurité des réseaux informatiques",
+        "field": null,
+        "year": "2023 - 2025"
+      },
+      {
+        "institution": "Institut supérieur d'informatique du Kef",
+        "degree": "Licence en ingénierie des systèmes et des réseaux",
+        "field": null,
+        "year": "2020 - 2023"
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:42:21.418326+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

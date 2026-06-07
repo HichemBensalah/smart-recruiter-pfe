@@ -1,0 +1,85 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Marwa_issaoui_23028737.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Marwa_issaoui_23028737.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Marwa_issaoui_23028737.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "ISSAOUI MARWA",
+      "email": "895@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "R",
+        "SQL",
+        "MATLAB",
+        "Linux",
+        "Io T",
+        "Cloud Computing",
+        "Virtualisation",
+        "Systèmes Logiques",
+        "Systèmes Multi-Agents"
+      ],
+      "soft_skills": [
+        "Intelligence Artificielle & Data Science",
+        "Développement de modèles d'apprentissage supervisé",
+        "Méthodes non supervisées: clustering, PCA, t-SNE, réduction de dimension",
+        "Apprentissage par renforcement: Q-Learning, Deep Q-Networks, politiques de décision",
+        "Optimisation des modèles prédictifs: tuning d'hyperparamètres, Grid Search, Random Search, cross-validation, régularisation",
+        "Data Mining: exploration des données, extraction de connaissances, segmentation, analyse descriptive"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "2013 - 2015",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Déploiement de mini-architectures cloud pour compréhension de l'allocation de ressources, isolation et conteneurisation."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Université Privée d'Informatique Mit",
+        "start_date": "Février 2025 - Présent",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Gestion et animation du club Innov'IA regroupant des étudiants passionnés d'IA et de technologies émergentes.",
+          "Organisation d'ateliers professionnels: Python avancé, machine learning, Introduction complète au Machine Learning (PCA, régression, SVM, arbres).",
+          "Deep Learning: CNN, RNN, autoencodeurs, architectures avancées."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mastère de Recherche en Data Science",
+        "school": "Université Privée d'Informatique Mit",
+        "year": "Février 2025"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:16:56.751233+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8939,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

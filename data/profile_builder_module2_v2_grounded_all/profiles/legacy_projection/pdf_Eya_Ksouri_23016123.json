@@ -1,0 +1,105 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Eya_Ksouri_23016123.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Eya_Ksouri_23016123.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Eya_Ksouri_23016123.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "KSOURI EYA",
+      "email": "ksourieya 01@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Développeuse Fullstack passionnée par les technologies modernes, curieuse et motivée.",
+      "hard_skills": [
+        "Angular",
+        "Node.js",
+        ".NET Core"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Smart Delivery",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un tableau de bord interactif avec graphiques et rapports",
+          "Mise en place de tests end-to-end automatisés, réduisant les erreurs de 50 % en production"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Ariana, Tunis",
+        "start_date": "Juillet 2023 - Présent",
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Développement d'un module de gestion des commandes et suivi des livraisons"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "ARCHIMED, REMOTE",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Ajout de fonctionnalités avancées (gestion panier, sessions utilisateurs)",
+          "Mise en place d'un système de journalisation et surveillance en temps réel"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Smart Delivery",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Technologies: ReactJS, NodeJS, Express Js, Mongodb"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "My School",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Technologies: Java/Java FX/Code Name One/Symfony 3. 4/MYSQL"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'ingénieur informatique",
+        "school": "Ecole supérieure Privée d'Ingénierie et de Technologies (ESPRIT)",
+        "year": "2023"
+      },
+      {
+        "degree": "Diplôme de baccalauréat, section sciences expérimentales",
+        "school": "Lycée Ennasr l Ariana",
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:56:23.545754+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.4914,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

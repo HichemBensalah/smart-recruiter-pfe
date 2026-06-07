@@ -1,0 +1,154 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Lefi_Ameni_23021451.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Lefi_Ameni_23021451.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.755,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nLefi Ameni\n\n## TECHNICAL SKILLS\n\nIngénieure en Cloud Computing & Virtualisation - 2ème année\nameni. lefi 889@gmail.com\nBen arous, Tunisie\nlinkedin.com/in/ameni-lefi-41677 a 373\namenilefi 889-ux\nÉtudiante ingénieure en Cloud Computing & Virtualisation (ITEAM University), certifiée RHCSA, avec une expérience concrète en administration Linux, conteneurisation Docker, déploiement cloud (AWS, Open Stack) et développement web full-stack. Motivée à contribuer à l'automatisation, la fiabilité et la sécurité d'infrastructures modernes au sein d'une équipe technique à taille humaine.\nDéploiement dʼune application web sur Cloud Open Stack\nCréation dʼune machine virtuelle sous Virtual Box Configuration dʼun environnement Linux Déploiement dʼun site web sur Open Stack Gestion de lʼinfrastructure cloud Technologies: Linux, Open Stack, Virtual Box\nApplication Web de Gestion de Bibliothèque Universitaire\nDéveloppement d'une application web pour la gestion des livres, utilisateurs et emprunts.\nTechnologies: FastAPI, Python.\nAnalyse de fidélité client pour un supermarché\nCollecte et traitement des données provenant des bases de données du supermarché. Nettoyage et organisation des données pour analyse précise. Développement d'un algorithme permettant de déterminer si un client est fidèle ou non. Visualisation et interprétation des résultats pour aider à la prise de décision marketing.\nCOMPÉTENCES\nCloud & Virtualisation\nSystèmes & Infrastructure\nConteneurisation & DevOps\nFrameworks & Applications Web\nOpen Stack\nLinux administration\nDocker\nAWS\nconcepts CI/CD\nFlutter\nconfiguration et maintenance des serveurs\nGit\nLaravel\nBases de données\nGit Lab\nAngular\ngestion des environnements virtualisés\nMongoDB\nNest JS\nMySQL\nDjango\nRed Hat Certified System Administrator (RHCSA) - Administration des systèmes Linux sous Red Hat Enterprise Linux Gestion des utilisateurs, groupes et permissions Configuration du stockage et des systèmes de fichiers Gestion des services et des processus système Sécurisation des systèmes Linux Gestion des conteneurs avec Podman Configuration réseau de base sous Linux Déploiement et maintenance des systèmes Linux | | | | | | |\nFrançais\nAnglais\nCourant\ntravail en équipe\nadaptabilité aux outils\n\n## RÉSUMÉ PROFESSIONNEL\n\nÉDUCATIONS\n\n## ACADEMIC PROJECTS\n\nPROJECTS\nConteneurisation dʼapplication avec Docker\nCréation et déploiement dʼune application web dans un conteneur Docker pour un environnement isolé Technologies: Docker, Linux\n**Date: ** 2025 - 2026\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\n\n## LANGUAGES\n\nArabe\nMaternelle\nCourant\n\n## COMPÉTENCES PERSONNELLES\n\nesprit analytique\nautonomie et rigueur",
+    "header_info": {
+      "full_name": "Lefi Ameni",
+      "email": "889@gmail.com",
+      "phone": null,
+      "location": "Ben arous, Tunisie",
+      "linkedin": "linkedin.com/in/ameni-lefi-41677",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.951,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "certifications[0]",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Lefi Ameni",
+      "email": "889@gmail.com",
+      "phone": null,
+      "location": "Ben arous, Tunisie",
+      "linkedin": "linkedin.com/in/ameni-lefi-41677",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Étudiante ingénieure en Cloud Computing & Virtualisation (ITEAM University), certifiée RHCSA, avec une expérience concrète en administration Linux, conteneurisation Docker, déploiement cloud (AWS, Open Stack) et développement web full-stack.",
+      "experience_level": "junior",
+      "years_experience": 2,
+      "hard_skills": [
+        "Linux",
+        "Open Stack",
+        "Virtual Box",
+        "Docker",
+        "AWS",
+        "FastAPI",
+        "Python"
+      ],
+      "soft_skills": [
+        "travail en équipe",
+        "adaptabilité aux outils"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Ben arous, Tunisie",
+        "responsibilities": [
+          "Déploiement dʼune application web sur Cloud Open Stack",
+          "Création dʼune machine virtuelle sous Virtual Box",
+          "Configuration dʼun environnement Linux",
+          "Déploiement dʼun site web sur Open Stack",
+          "Gestion de lʼinfrastructure cloud"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ITEAM University",
+        "degree": null,
+        "field": "Cloud Computing & Virtualisation",
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Maternelle",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [
+      "Red Hat Certified System Administrator (RHCSA)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:02:01.772178+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

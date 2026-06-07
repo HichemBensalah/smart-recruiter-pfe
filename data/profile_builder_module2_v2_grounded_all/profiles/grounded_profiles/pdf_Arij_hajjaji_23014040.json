@@ -1,0 +1,250 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Arij_hajjaji_23014040.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Arij_hajjaji_23014040.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.9157,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nArij Hajjaji\nIngénieur en informatique/envelope/map-marker-alt/envelope/phone-alt/map-marker-alt/phone-alt\nTunis, Tunisie\narijhajjaji 2@gmail.com\n+216/globe https: //portfolio-arijhajjaji\n51592864/linkedin linkedin.com/in/arij-hajjaji/github github.com/Arijhajjaji 22\nAperçu Personnel\nIngénieure Full Stack spécialisée en développement web, avec un intérêt pour l'intelligence artificielle. Maîtrise de Spring Boot, Angular et .NET . Capable de concevoir des architectures microservices et de déployer des applications conteneurisées. Rigoureuse, adaptable et orientée vers des solutions performantes.\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience\n## Ingénieur Full Stack (Spring & Angular), Hosinox Company\n**Date: ** Janvier 2026 - Présent\nDéveloppement et maintenance d'un ERP d'entreprise avec Spring Boot et Angular, couvrant des modules métier complexes pour optimiser les processus internes.\n\n## EDUCATION\n\nTransformation des besoins fonctionnels en solutions techniques robustes en collaboration directe avec les équipes produit et métier.\nTechnologies: Spring Boot, Angular, SQL Server, JWT, Web Sockets, Elasticsearch, Liquibase, Sonar Qube, Docker, Git .\n**Date: ** 2026\n## Ingénieur Full Stack .NET, Biram Group\n**Date: ** Mars 2025 - Juillet 2025\nConception et livraison d'une plateforme web de gestion scolaire intuitive, automatisant les tâches administratives et éducatives avec un système de paiement en ligne pour les parents.\nRationalisation des processus clés, incluant le suivi des présences et la gestion des notes, réduisant le travail manuel et optimisant les flux.\nTechnologies: .NET 8, C#, Blazor, GraphQL, Mediat R, Entity Framework Core, .NET Identity, Signal R, LINQ, SQL Server, HTML 5, CSS 3, JavaScript, Stripe, Docker, Git .\n**Date: ** 2026\n## Stage PFE, Innov-Alliance-Tech\n**Date: ** Février 2024 - Août 2024\nDéveloppement d'une plateforme de recrutement interactive, facilitant la candidature, le passage de tests et la consultation des résultats en temps réel.\n- Optimisation de la gestion des tests et candidatures pour accroître l'efficacité opérationnelle et réduire les tâches répétitives.\nTechnologies: .NET 8, C#, Razor, REST API, Entity Framework Core, .NET Identity, Signal R, LINQ, Swagger/Open API, MySQL, XUnit, Jenkins, Docker, Prometheus, Grafana, IIS, Git .\n**Date: ** 2024\n## Stage Ingénieur, PROXI WEB\n**Date: ** Juillet 2023 - Septembre 2023\nDéveloppement d'une application CRM avec une interface intuitive, simplifiant la gestion des données clients et améliorant l'efficacité opérationnelle pour les équipes.\n- Amélioration du projet en intégrant des Smart Contracts Ethereum pour automatiser les paiements via un système d'Escrow avec jalons de paiement progressifs et vérification on-chain.\nTechnologies: Solidity, Hardhat, Ethers. js, Meta Mask, React, Tailwind CSS, Node. js, Express, MongoDB, JWT .\n- Éducation\n\n## TECHNICAL SKILLS\n\nCompétences\nSpring Boot, Spring AI, Angular, React, Node. js, Express. js, .NET\nFrameworks & Technologies:\nJava, C#, JavaScript, TypeScript, Python, PHP\nLangages de programmation:\nMySQL, PostgreSQL, SQL Server, Oracle, MongoDB\nBases de données:\nDocker, Docker Compose, GitHub Actions, Jenkins, Sonar Qube, Nexus, Prometheus, Grafana\nDevOps & CI/CD:\nJUnit, Mockito, XUnit\nTests & Qualité:\nGit, GitHub, Postman, APIDog, Swagger, Jira, Trello\nOutils & Collaboration:\nRésolution de problèmes, Adaptabilité, Esprit d'équipe, Créativité\nSoft Skills:\nTechnologies: Spring Boot 3, Spring AI, Google Gemini API, Spring Security, Spring Cloud Gateway, Netflix Eureka, Angular 19, PostgreSQL, PGVector, Redis, Nginx, Docker, GitHub Actions .\nDévelopper une application Kanban full-stack avec authentification OAuth 2/Keycloak, API GraphQL, notifications temps réel via Web Socket/STOMP et automatisation de workflows et processus avec n 8 n.\nMettre en place un pipeline événementiel avec Apache Kafka, un board drag-and-drop et des tests unitaires JUnit 5 et Vitest.\nTechnologies: Spring Boot 3, GraphQL, Web Socket, n 8 n, Kafka, Keycloak, Angular 19, PostgreSQL, Flyway, Docker, JUnit 5, Vitest .\nDévelopper une extension VS Code pour analyser le code en temps réel, détecter les bugs et vulnérabilités, et fournir des corrections automatiques et du refactoring intelligent.\nIntégrer l'analyse IA via Google Gemini API, parsing AST structuré avec Tree-sitter, détection de vulnérabilités (Snyk API & OWASP Top 10), interface Web View interactive et intégration Git avec Node Git.\nTechnologies: Node. js, VS Code Extension API, Google Gemini API, Tree-sitter AST, Snyk API, OWASP Top 10, Node Git, Web View HTML/CSS/JS .\nProjet DevOps\nMettre en place une chaîne d'intégration continue (CI/CD) pour automatiser les déploiements et les tests.\nTechnologies: Spring Boot, Angular 16, Jenkins, Sonar Qube, Nexus, Prometheus, Grafana, Docker .\n\n## ACADEMIC PROJECTS\n\nProjets\nAura: Assistant intelligent\nConcevoir et déployer un assistant IA full-stack en architecture microservices avec JWT RSA, RAG PDF, analyse d'images et web scraping en temps réel.\nMettre en place un cache Redis, un reverse proxy Nginx et un pipeline CI/CD automatisé via GitHub Actions.\n- Task Flow: Application Kanban collaborative temps réel\n- AI Code Assistant Pro - Plugin VS Code\n\n## LANGUAGES\n\nLangues et Certifications\nLangues\nLangue maternelle\nArabe:\nIntermédiaire (B 2)\nFrançais:\nIntermédiaire (B 2)\nAnglais:\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nSpring - Angular (Croco Coder)\nApplications de l'IA pour la maintenance prédictive (ESPRIT)\nApplications de l'IA pour la détection des anomalies (ESPRIT)",
+    "header_info": {
+      "full_name": "Arij Hajjaji",
+      "email": "2@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie",
+      "linkedin": "linkedin.com/in/arij-hajjaji/github",
+      "github": "github.com/Arijhajjaji"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9222,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Arij Hajjaji",
+      "email": "2@gmail.com",
+      "phone": "+216 51592864",
+      "location": "Tunis, Tunisie",
+      "linkedin": "linkedin.com/in/arij-hajjaji/github",
+      "github": "github.com/Arijhajjaji"
+    },
+    "expertise": {
+      "summary": "Ingénieure Full Stack spécialisée en développement web, avec un intérêt pour l'intelligence artificielle",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        ".NET",
+        "Java",
+        "C#",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "PHP",
+        "MySQL",
+        "PostgreSQL",
+        "SQL Server",
+        "Oracle",
+        "MongoDB",
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions",
+        "Jenkins",
+        "Sonar Qube",
+        "Nexus",
+        "Prometheus",
+        "Grafana",
+        "JUnit",
+        "Mockito",
+        "XUnit",
+        "Git",
+        "GitHub",
+        "Postman",
+        "APIDog",
+        "Swagger",
+        "Jira",
+        "Trello"
+      ],
+      "soft_skills": [
+        "Résolution de problèmes",
+        "Adaptabilité",
+        "Esprit d'équipe",
+        "Créativité"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Hosinox Company",
+        "job_title": "Ingénieur Full Stack (Spring & Angular)",
+        "start_date": "Janvier 2026",
+        "end_date": "Présent",
+        "city": null,
+        "responsibilities": [
+          "Développement et maintenance d'un ERP d'entreprise avec Spring Boot et Angular, couvrant des modules métier complexes pour optimiser les processus internes"
+        ]
+      },
+      {
+        "company": "Biram Group",
+        "job_title": "Ingénieur Full Stack .NET",
+        "start_date": "Mars 2025",
+        "end_date": "Juillet 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et livraison d'une plateforme web de gestion scolaire intuitive, automatisant les tâches administratives et éducatives avec un système de paiement en ligne pour les parents",
+          "Rationalisation des processus clés, incluant le suivi des présences et la gestion des notes, réduisant le travail manuel et optimisant les flux"
+        ]
+      },
+      {
+        "company": "Innov-Alliance-Tech",
+        "job_title": "Stage PFE",
+        "start_date": "Février 2024",
+        "end_date": "Août 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une plateforme de recrutement interactive, facilitant la candidature, le passage de tests et la consultation des résultats en temps réel",
+          "Optimisation de la gestion des tests et candidatures pour accroître l'efficacité opérationnelle et réduire les tâches répétitives"
+        ]
+      },
+      {
+        "company": "PROXI WEB",
+        "job_title": "Stage Ingénieur",
+        "start_date": "Juillet 2023",
+        "end_date": "Septembre 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application CRM avec une interface intuitive, simplifiant la gestion des données clients et améliorant l'efficacité opérationnelle pour les équipes",
+          "Amélioration du projet en intégrant des Smart Contracts Ethereum pour automatiser les paiements via un système d'Escrow avec jalons de paiement progressifs et vérification on-chain"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [
+      "Spring - Angular (Croco Coder)",
+      "Applications de l'IA pour la maintenance prédictive (ESPRIT)",
+      "Applications de l'IA pour la détection des anomalies (ESPRIT)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:37:35.801731+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

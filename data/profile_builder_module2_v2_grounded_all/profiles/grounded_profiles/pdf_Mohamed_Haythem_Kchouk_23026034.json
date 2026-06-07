@@ -1,0 +1,175 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Haythem_Kchouk_23026034.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Haythem_Kchouk_23026034.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7346,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMohamed Haythem Kchouk\nT´ el´ ephone: +216 90005149\nEmail: haythem.kchouk@gmail.com\nLinked In: https: //www.linkedin.com/in/mohamed-haythem-kchouk-249 ab 6151/GitHub: https: //github.com/Haythem Kchouk\nR´ esum´ e professionnel\n\n## TECHNICAL SKILLS\n\nIng´ enieur logiciel junior sp´ ecialis´ e en d´ eveloppement Full Stack et DevOps. Exp´ erience dans la conception d'applications web, l'automatisation CI/CD et le d´ eploiement sur Kubernetes. Capable de travailler en ´ equipe, de r´ esoudre des probl` emes complexes et de livrer des solutions fiables dans des environnements Agile.\nExp´ erience professionnelle\nFondative - Stagiaire en g´ enie logiciel\nD´ eveloppement d'une plateforme Git Ops pour g´ en´ erer et g´ erer automatiquement des configurations Kubernetes.\nCr´ eation d'interfaces frontend avec Angular et d´ eveloppement d'API REST avec Spring Boot.\nConception de sch´ emas PostgreSQL et optimisation des requˆ etes, r´ eduisant le temps de r´ eponse de 30%.\nD´ eploiement sur Kubernetes avec Helm et Argo CD.\nAutomatisation CI/CD r´ eduisant le temps de d´ eploiement de 40%.\nOpalia Recordati - Stagiaire en DevOps\nMise en place d'un pipeline CI/CD avec Jenkins, Docker et Git.\nImpl´ ementation des logs avec Log 4 j et des tests unitaires avec JUnit.\nInt´ egration de Sonar Qube pour am´ eliorer la qualit´ e du code de 25%.\nR´ eduction des erreurs de d´ eploiement manuel de 60%.\nEntraˆ ınement sur un dataset de plus de 10 000 commits.\nMise en place de pipelines automatis´ es avec GitHub Actions.\nAm´ elioration de la d´ etection des r´ egressions de 35%.\nSTB Bank - Stagiaire en g´ enie logiciel\nD´ eveloppement d'une plateforme de demande de cr´ edits en ligne.\nCr´ eation du frontend avec Angular et du backend avec Spring Boot.\nConception de la base de donn´ ees PostgreSQL.\nR´ eduction du temps de traitement des demandes de 35%.\n\n## MACHINE LEARNING & DEEP LEARNING\n\nThales Research & Technology - Stagiaire en Machine Learning Juin 2024 - Aoˆ ut 2024\nConception d'un mod` ele de Machine Learning pour pr´ edire l'impact des commits.\nCr´ eation de scripts Bash pour automatiser le traitement des donn´ ees sous Linux.\n\n## EDUCATION\n\nEducation/Formation",
+    "header_info": {
+      "full_name": "Mohamed Haythem Kchouk",
+      "email": "haythem.kchouk@gmail.com",
+      "phone": "+216 90005149",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/mohamed-haythem-kchouk-249",
+      "github": "github.com/Haythem"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8753,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[10]",
+      "experiences[0].responsibilities[11]",
+      "experiences[0].responsibilities[12]",
+      "experiences[0].responsibilities[13]",
+      "experiences[0].responsibilities[14]",
+      "experiences[0].responsibilities[15]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].responsibilities[7]",
+      "experiences[0].responsibilities[8]",
+      "experiences[0].responsibilities[9]",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mohamed Haythem Kchouk",
+      "email": "haythem.kchouk@gmail.com",
+      "phone": "+216 90005149",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/mohamed-haythem-kchouk-249",
+      "github": "https://github.com/HaythemKchouk"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Ingénieur logiciel junior spécialisé en développement Full Stack et DevOps",
+        "Angular",
+        "Spring Boot",
+        "PostgreSQL",
+        "Kubernetes",
+        "Helm",
+        "Argo CD",
+        "Jenkins",
+        "Docker",
+        "Git"
+      ],
+      "soft_skills": [
+        "Travailler en équipe",
+        "Résoudre des problèmes complexes",
+        "Livrer des solutions fiables dans des environnements Agile"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une plateforme Git Ops",
+          "Création d'interfaces frontend avec Angular",
+          "Développement d'API REST avec Spring Boot",
+          "Conception de schémas PostgreSQL et optimisation des requêtes",
+          "Déploiement sur Kubernetes avec Helm et Argo CD",
+          "Automatisation CI/CD",
+          "Mise en place d'un pipeline CI/CD avec Jenkins, Docker et Git",
+          "Implémentation des logs avec Log 4j et des tests unitaires avec JUnit",
+          "Intégration de Sonar Qube pour améliorer la qualité du code",
+          "Réduction des erreurs de déploiement manuel de 60%",
+          "Entraînement sur un dataset de plus de 10 000 commits",
+          "Mise en place de pipelines automatisés avec GitHub Actions",
+          "Amélioration de la détection des errements de 35%",
+          "Développement d'une plateforme de demande de crédits en ligne",
+          "Création du frontend avec Angular et du backend avec Spring Boot",
+          "Conception de la base de données PostgreSQL"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception d'un modèle de Machine Learning pour prédire l'impact des commits",
+          "Création de scripts Bash pour automatiser le traitement des données sous Linux"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:38:42.686185+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

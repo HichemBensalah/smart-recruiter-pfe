@@ -1,0 +1,220 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hamza_ben_abdelkader_23022581.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hamza_ben_abdelkader_23022581.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.866,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nHamza Ben Abdelkader\nData Scientist\nAddress:\nAriana, Soukra, Chotrana 1\nPhone:\nEmail\nbenabdelkaderr.hamza@gmail.com\nLinked In:\nhttps: //www.linkedin.com/in/hamza-ben-abdelkader/: https: //hamza-ben-abdelkader. vercel. app/Portfolio\n\n## EDUCATION\n\n## Private Higher School of Engineering and Technology (ESPRIT) | Tunisia\n**Date: ** 2020-2023\n- The National Engineering Diploma\n## University of Mans | France\n**Date: ** 2022-2023\n## The National Master's Diploma in SCIENCES, TECHNOLOGY, HEALTH, ACTUARIAL Science\nFaculty of Mathematical, Physical, And Natural Sciences of Tunis | Preparatory cycle Math-Physics High School of Soukra | Mathematics baccalaureate diploma\n**Date: ** 2018-2020\nDevelopment Tools: Jupyter Notebook, Py Charm, VS Code, Git/GitHub, Flask, Databricks Notebooks Methodologies et Core Expertise: CRISP-DM, Data Cleaning & Transformation, ELT Pipelines, Statistical et Mathematical Analysis, Machine Learning et Deep Learning, End-to-End Data Pipeline Development .\n\n## PROJECTS AND PROFESSIONAL EXPERIENCE\n\nWeb Developer | Niche Knights (Remote, United States) October 2024 - June\nDeveloped and maintained responsive and user-friendly websites, ensuring optimal performance across different devices and browsers.\nDevelopment of an Artificial Intelligence System for Fraud Detection | Open Bee February - July 2023\nConducted comprehensive data preprocessing, including binarization, morphological processing and segmentation.\n\n## MACHINE LEARNING & DEEP LEARNING\n\nDeveloped and implemented machine learning models for VAT fraud detection.\nConducted thorough model evaluation and analysis, achieving high accuracy in fraud detection.\nGlasses classification | Esprit Tech\nLed data preparation and analysis to understand the diverse characteristics of glasses.\nBanking Chatbot | Esprit Tech\nMachine Learning: Scikit-learn, TensorFlow, Keras, Supervised/Unsupervised Learning, Model Training/Evaluation\nData Analysis et Visualiszation: NumPy, Pandas, Matplotlib, Seaborn, Power BI, Analytical Dashboards et Business Insights\n\n## TECHNICAL SKILLS\n\nImplemented models using Flask and JavaScript to ensure smooth deployment and effective classification.\nProgramming Languages: Python, SQL\nData Engineering: Apache Spark (PySpark), Databricks, Delta Lake, Medallion Architecture (Bronze/Silver/Gold), Unity Catalog\n\n## LANGUAGES\n\nLed data extraction and message translation in three languages using Web Scraping.\nDeveloped a hybrid chatbot in Rasa to interact with customers in three languages.\n• Arabic\n• French • English\n\n## PESONEL PROJECTS\n\nE-commerce Data Pipeline - Databricks, PySpark, Delta Lake December 2025\nDeveloped a full end-to-end data pipeline using the Medallion architecture (Bronze → Silver → Gold) to process ecommerce datasets. Automated data cleaning, built a Unity Catalog structure, tracked experiments with MLflow, and created an analytical dashboard for business insights.",
+    "header_info": {
+      "full_name": "Hamza Ben Abdelkader",
+      "email": "benabdelkaderr.hamza@gmail.com",
+      "phone": null,
+      "location": "Ariana, Soukra, Chotrana 1",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9732,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Hamza Ben Abdelkader",
+      "email": "benabdelkaderr.hamza@gmail.com",
+      "phone": null,
+      "location": "Ariana, Soukra, Chotrana 1",
+      "linkedin": "https://www.linkedin.com/in/hamza-ben-abdelkader/",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Python",
+        "SQL",
+        "Apache Spark (PySpark)",
+        "Databricks",
+        "Delta Lake",
+        "Flask",
+        "JavaScript",
+        "Scikit-learn",
+        "TensorFlow",
+        "Keras",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Power BI",
+        "Analytical Dashboards",
+        "Business Insights"
+      ],
+      "soft_skills": [
+        "Machine Learning et Deep Learning",
+        "Data Cleaning & Transformation",
+        "ELT Pipelines",
+        "Statistical et Mathematical Analysis",
+        "End-to-End Data Pipeline Development"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Niche Knights (Remote, United States)",
+        "job_title": "Web Developer",
+        "start_date": "October 2024",
+        "end_date": "June",
+        "city": null,
+        "responsibilities": [
+          "Developed and maintained responsive and user-friendly websites, ensuring optimal performance across different devices and browsers."
+        ]
+      },
+      {
+        "company": "Open Bee",
+        "job_title": "Development of an Artificial Intelligence System for Fraud Detection",
+        "start_date": "February",
+        "end_date": "July 2023",
+        "city": null,
+        "responsibilities": [
+          "Conducted comprehensive data preprocessing, including binarization, morphological processing and segmentation."
+        ]
+      },
+      {
+        "company": "Esprit Tech",
+        "job_title": "Glasses classification",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Led data preparation and analysis to understand the diverse characteristics of glasses."
+        ]
+      },
+      {
+        "company": "Esprit Tech",
+        "job_title": "Banking Chatbot",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Machine Learning: Scikit-learn, TensorFlow, Keras, Supervised/Unsupervised Learning, Model Training/Evaluation"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Private Higher School of Engineering and Technology (ESPRIT) | Tunisia",
+        "degree": "The National Engineering Diploma",
+        "field": null,
+        "year": "2020-2023"
+      },
+      {
+        "institution": "University of Mans | France",
+        "degree": "The National Master's Diploma in SCIENCES, TECHNOLOGY, HEALTH, ACTUARIAL Science",
+        "field": null,
+        "year": "2022-2023"
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:24:13.343308+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

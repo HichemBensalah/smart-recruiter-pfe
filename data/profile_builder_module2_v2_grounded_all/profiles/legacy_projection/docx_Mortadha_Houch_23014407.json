@@ -1,0 +1,96 @@
+{
+  "source_path": "data\\raw_cv\\docx\\Mortadha_Houch_23014407.docx",
+  "artifact_path": "data\\processed_official_module1\\docx\\Mortadha_Houch_23014407.json",
+  "source_format": "docx",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\docx\\Mortadha_Houch_23014407.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mortadha Houch",
+      "email": "mortahouch 123@gmail.com",
+      "phone": "+216 26 118 089",
+      "location": "Tunisia"
+    },
+    "expertise": {
+      "summary": "Full Stack Developer with hands-on experience building scalable REST APIs, intelligent ERP systems, and modern React frontends.",
+      "hard_skills": [
+        "Python (FastAPI, Django, Pydantic)",
+        "PostgreSQL",
+        "React/TypeScript",
+        "Node.js (Nest JS, Express)",
+        "Spring Boot",
+        "REST API design",
+        "GraphQL",
+        "Web Sockets",
+        "Django ORM",
+        "Drizzle ORM",
+        "Gemini API",
+        "LLM integration"
+      ],
+      "soft_skills": [
+        "Analytical thinking",
+        "Autonomy",
+        "Team collaboration",
+        "Curiosity",
+        "Rigour",
+        "Adaptability",
+        "Technical communication"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Full Stack Software Developer",
+        "company": "Hippomed AI",
+        "start_date": "05/2025",
+        "end_date": "10/2025",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Designed and maintained secure REST APIs with Python/Django and Spring Boot, implementing authentication, RBAC, and hierarchical access control for a multi-role ERP platform.",
+          "Optimised PostgreSQL data models and queries for performance and scalability across core ERP modules.",
+          "Built and maintained core frontend interfaces with Angular and Rx JS, translating business requirements into dynamic, responsive UIs.",
+          "Developed internal admin tooling and backend logic with Python/Django, contributing to data validation and module configuration workflows.",
+          "Delivered cross-platform mobile interfaces with React Native (Ionic) for i OS and Android, ensuring consistent UX.",
+          "Contributed to AI feature preparation: participated in architectural discussions around intelligent workflow integration and service automation.",
+          "Participated in Agile ceremonies — sprint planning, stand-ups, and retrospectives — collaborating across frontend, backend, and product profiles.",
+          "Used Git/GitHub for version control; validated APIs with Postman across cross-functional team workflows."
+        ]
+      },
+      {
+        "job_title": "Full Stack Developer Intern",
+        "company": "Wowsoft",
+        "start_date": "07/2024",
+        "end_date": "08/2024",
+        "city": "Tataouine, Tunisia",
+        "responsibilities": [
+          "Built responsive, production-ready frontends with Next.js and TypeScript, integrating REST APIs with SSR for performant, scalable interfaces.",
+          "Maintained code quality and documentation standards throughout the stack; optimised component structure and data-fetching patterns across devices."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Full Stack Software Development Diploma",
+        "school": "Coding Dojo",
+        "year": null
+      },
+      {
+        "degree": "Diploma in Thermal Engineering & Renewable Energies",
+        "school": "Higher Institute of Technological Studies (ISTS)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:18:26.189317+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9732,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

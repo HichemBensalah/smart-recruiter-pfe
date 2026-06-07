@@ -1,0 +1,171 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\rihab_chaari_23021880.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\rihab_chaari_23021880.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7695,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nRihab Chaari\nData Scientist & D´ eveloppeuse Logiciel rihabchaari 9@gmail.com - +216 26 187 920 Linked In - GitHub La Manouba, Tunisie\nR´ esum´ e professionnel\nDiplˆ om´ ee d'un Master en Data Science et D´ eveloppement Logiciel, avec un parcours en informatique de gestion.\n\n## ACADEMIC PROJECTS\n\nPassionn´ ee par l'intelligence artificielle et le d´ eveloppement d'applications, j'ai men´ e plusieurs projets en analyse de donn´ ees et d´ eveloppement logiciel.\nOrganis´ ee, rigoureuse et dot´ ee d'un bon esprit d'´ equipe, je suis capable de m'adapter ` a diff´ erents environnements de travail, y compris des contextes op´ erationnels n´ ecessitant coordination, respect des proc´ edures et gestion des priorit´ es.\n- Exp´ eriences Professionnelles\n## Yesly Training\n**Date: ** [Mai 2025 - Mai 2026]\n\n## EDUCATION\n\nAssistante Administrative et Formatrice en Informatique - Centre de formation\nGestion des op´ erations administratives du centre (appels, dossiers, paiements) et organisation des sessions de formation. Planification des groupes et suivi des pr´ esences des apprenants. Participation ` a la conception des supports p´ edagogiques et animation de formations en informatique, avec accompagnement des apprenants.\n**Date: ** [F´ evrier 2025 - Mai 2025]\n- PSC France\n- G´ en´ erateur de Sc´ enarios Assist´ e par IA pour la Formation en VR\nD´ eveloppement d'un syst` eme intelligent capable de cr´ eer automatiquement des sc´ enarios immersifs pour la formation professionnelle en r´ ealit´ e virtuelle, en s'appuyant sur l'IA g´ en´ erative et une approche Retrieval-Augmented Generation (RAG) afin de produire des contenus r´ ealistes et personnalis´ es pour diff´ erents secteurs.\n## Yesly Training\n**Date: ** [Juillet 2024]\n- D´ eveloppement Web - Stage d'´ et´ e\nD´ eveloppement d'une application web de gestion de centre de formation permettant la gestion des cours, des ´ etudiants et des enseignants. Mise en place d'un syst` eme de recommandation de cours pour les ´ etudiants.\n## Technologies: Flask, MySQL, Spring Boot, React. js, IA.\n\n## TECHNICAL SKILLS\n\nTechnologies: Python, Mistral (LLM open-source), Open Router API, RAG, Prompt Engineering, FastAPI, Base de connaissances structur´ ee, D´ eploiement cloud.",
+    "header_info": {
+      "full_name": "Rihab Chaari",
+      "email": "9@gmail.com",
+      "phone": "+216 26 187 920",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7168,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]",
+      "education[1].year"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_unsupported": [
+      "education[1].year"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Rihab Chaari",
+      "email": "9@gmail.com",
+      "phone": "+216 26 187 920",
+      "location": "La Manouba, Tunisie",
+      "linkedin": "Linked In",
+      "github": "GitHub"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "Mistral (LLM open-source)",
+        "Open Router API",
+        "RAG",
+        "Prompt Engineering",
+        "FastAPI",
+        "Base de connaissances structur´ ee",
+        "D´ eploiement cloud"
+      ],
+      "soft_skills": [
+        "Organis´ ee",
+        "rigoureuse",
+        "dot´ ee d'un bon esprit d'´ equipe",
+        "capable de m'adapter ` a diff´ erents environnements de travail"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "La Manouba, Tunisie",
+        "responsibilities": [
+          "Gestion des op´ erations administratives du centre (appels, dossiers, paiements) et organisation des sessions de formation.",
+          "Planification des groupes et suivi des pr´ esences des apprenants.",
+          "Participation ` a la conception des supports p´ edagogiques et animation de formations en informatique, avec accompagnement des apprenants."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'un syst` eme intelligent capable de cr´ eer automatiquement des sc´ enarios immersifs pour la formation professionnelle en r´ ealit´ e virtuelle, en s'appuyant sur l'IA g´ en´ erative et une approche Retrieval-Augmented Generation (RAG) afin de produire des contenus r´ ealistes et personnalis´ es pour diff´ erents secteurs."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une application web de gestion de centre de formation permettant la gestion des cours, des ´ etudiants et des enseignants. Mise en place d'un syst` eme de recommandation de cours pour les ´ etudiants."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Centre de formation",
+        "degree": "Assistante Administrative et Formatrice en Informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:27:06.378623+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

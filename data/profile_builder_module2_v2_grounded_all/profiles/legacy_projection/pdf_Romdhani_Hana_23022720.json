@@ -1,0 +1,86 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Romdhani_Hana_23022720.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Romdhani_Hana_23022720.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Romdhani_Hana_23022720.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hana Romdhani",
+      "email": "98@gmail.com",
+      "phone": "+216 92 340 405",
+      "location": "Ariana, Tunisia"
+    },
+    "expertise": {
+      "summary": "Recently graduated Full-Stack Engineer with demonstrated expertise in building scalable, production-ready web applications using TypeScript, Java, and modern frameworks.",
+      "hard_skills": [
+        "TypeScript",
+        "React",
+        "Nest JS",
+        "ASP. NET",
+        "Angular",
+        "JavaScript",
+        "Node. js",
+        "RESTful APIs",
+        "Spring Boot",
+        "API Design",
+        "Graphql",
+        "MongoDB",
+        "MySQL",
+        "Data modeling",
+        "Query optimization",
+        "GitHub Actions",
+        "Git",
+        "Docker",
+        "Jenkins",
+        "Unit Testing",
+        "Jest",
+        "Mockito",
+        "Code Reviews",
+        "Clean Code",
+        "Agile/Scrum",
+        "Problem-solving",
+        "Technical Documentation",
+        "Responsive UI Design"
+      ],
+      "soft_skills": [
+        "Strong collaborator",
+        "Agile/Scrum",
+        "Problem-solving",
+        "Code review practices"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Software Engineer Developer Intern",
+        "company": "TSE Consultant INT",
+        "start_date": "May 2025",
+        "end_date": "November 2025",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Designed and developed a full-stack TypeScript application enabling real-time document collaboration, featuring Web Socket-based live sync, AI-powered assistance (LLa MA 3. 1), and integrated video conferencing",
+          "Built scalable RESTful APIs using Nest JS, MongoDB, JWT authentication, and Socket. io for realtime features with emphasis on clean code architecture",
+          "Developed responsive, maintainable frontend using React, TypeScript, Vite, and Tailwind CSS with proper component design and state management",
+          "Established automated CI/CD pipeline using GitHub Actions for continuous integration and deployment with automated testing",
+          "Implemented comprehensive unit tests, code reviews, and documentation following software engineering best practices"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:30:28.940964+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8521,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

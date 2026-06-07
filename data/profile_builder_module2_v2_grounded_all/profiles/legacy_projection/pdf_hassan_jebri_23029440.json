@@ -1,0 +1,79 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\hassan_jebri_23029440.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\hassan_jebri_23029440.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\hassan_jebri_23029440.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hassan Jebri",
+      "email": "66@gmail.com",
+      "phone": "+216-98158363",
+      "location": "Dubai, UAE (Remote)"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "Redis",
+        "Spring Boot",
+        "Angular",
+        "Python",
+        "Docker"
+      ],
+      "soft_skills": [
+        "clean architecture",
+        "real impact",
+        "shipping things that actually work"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Dec. 2025 - Present",
+        "end_date": null,
+        "city": "Dubai, UAE (Remote)",
+        "responsibilities": [
+          "Built real estate application with property listings, advanced search/filtering, and ML-powered price prediction.",
+          "Integrated real-time updates and authentication."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed care management system with patient monitoring, caregiver dashboards, and AI-driven predictive analytics."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Dino Byte Information Technology",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:27:39.010422+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8249,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

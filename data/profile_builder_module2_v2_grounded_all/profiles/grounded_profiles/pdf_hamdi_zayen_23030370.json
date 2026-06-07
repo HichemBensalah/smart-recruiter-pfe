@@ -1,0 +1,240 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\hamdi_zayen_23030370.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\hamdi_zayen_23030370.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8468,
+  "normalization": {
+    "cleaned_markdown": "## HAMDI ZAYEN\n\nIngénieur Data & IA\nhamdizayen 9@gmail.com | +216 53623358 | Ben Arous | linkedin.com/in/hamdi-zayen\n\n## PROFESSIONAL SUMMARY\n\nSUMMARY\n\n## TECHNICAL SKILLS\n\nApartment Sale Price Prediction: Collected real estate data via web scraping (Tunisie-Annonce, Tayara. tn), cleaned and engineered features, and built regression models (Linear, Random Forest, Gradient Boosting) to accurately predict apartment sale prices.\nSKILLS\nProgramming & Development: Python | R | Java | C# | PHP | JavaScript | SQL | HTML | CSS | Angular | Django | FastAPI | .NET | Flutter\nData Engineering & Analytics: Apache Spark | Hadoop | ETL/ELT Pipelines | Talend | Data Warehousing | Data Modeling | Kafka | Power BI | Tableau | PostgreSQL | MySQL | MongoDB\nDevOps & Tools: Docker | Git/GitHub | REST APIs | CI/CD | Linux | Agile/Scrum\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n\n## ACADEMIC PROJECTS\n\n## Final Year Project: Intelligent Automation of Customer Email Processing\n**Date: ** 02/2025 -05/2025\n- Shelly Tunisie\n- PROJECTS\n- AI Engineer Data Scientist with hands-on experience in deep learning, multimodal Al systems (text, image, audio, video), and advanced data engineering. Skilled in ETL/ELT pipeline design, data preprocessing, model integration, and containerized deployment using modern ML frameworks and DevOps tools.\n- Customer Churn Prediction: Developed a predictive model using Python and scikit-learn to identify customers likely to leave a telecom service, including feature engineering, model evaluation, and reporting insights to improve retention.\n- Real-Time Music Trend Analysis: Built a streaming data pipeline using Kafka and Spark Streaming to ingest music-streaming events, detect trending tracks and listener patterns, and display results in real-time dashboards.\n- PCAP (Python Institute), Power BI Data Analyst (Microsoft), Building Transformer. Based Applications - NVIDIA DLI, AI-900 (Microsoft), Azure AI Engineer Associate (Microsoft AI-102)\n- Designed and shipped an end-to-end email automation Saa S (ingestion → NLP/LLM → ERP actions ), reducing manual handling time by ~65% .\n- Built a domain corpus (web scraping + Prodigy annotation); normalization, train/val/test splits, and data versioning for reproducibility.\n- Implemented spaCy NER (customers, products, references) with rule/regex post-validation for business checks.\n- Delivered a RAG pipeline with Lang Chain (retrievers, FAISS/Chroma vector store, prompt templates, retrieval-augmented generation ) and LLM rewriting (tone/style, summarization, FR/EN) with guardrails and context checks.\n- Built an Enterprise Document Management (EDM) platform (Angular + .NET + PostgreSQL) with indexed search and archival workflows, cutting retrieval time by ~75% .\n- Implemented IAM (roles & permissions, OAuth 2), audit trails, and hardened access controls.\n- NLP Text Analytics Platform: Built an end-to-end NLP pipeline to process large-scale text, performing sentiment analysis, topic modeling, and entity extraction using spaCy, BERT embeddings, and Spark for scalable processing.\n- Vehicle Damage Detection (Computer Vision): Created a deep learning model to detect and classify vehicle damages from images for insurance claim automation, using Python, TensorFlow/Keras, and OpenCV.\n- Facial Emotion Recognition System: Implemented a real-time system leveraging OpenCV and TensorFlow/Keras for live emotion detection, with automated preprocessing pipelines and model inference.\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nFine-tuned Camem BERT for multi-class email classification; +20 F 1 points on minority classes via class rebalancing and stratified cross-validation.\nIntegrated ERPNext REST APIs (token auth) to auto-create quotes, invoices, and delivery notes with centralized audit logging.\nDevelopment of an archive management application\nStb Bank Tunisie\nDrove modular refactors to improve maintainability and stabilize release cadence; delivered minor features and maintenance.\n\n## MACHINE LEARNING & DEEP LEARNING\n\nAI/Machine Learning & NLP: TensorFlow | scikit-learn | PyTorch | Keras | pandas | NumPy | Sci Py | Matplotlib | NLTK | spaCy | BERT | LLM Fine-Tuning | Prompt Engineering | RAG | Computer Vision (OpenCV, CNNs)\n\n## EDUCATION\n\n## Engineering Degree in Data Science\n**Date: ** 09/2022 - 07/2025 Tunisia\n## Central Private Polytechnic University\n## Applied Bachelor's Degree in Information Systems Development ISET RADES\n**Date: ** 09/2018 - 07/2021\n- Tunisia\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATES\n\n## LANGUAGES\n\nEnglish (Fluent), French (Fluent), Arabic (Native), Spanish (Conversational)",
+    "header_info": {
+      "full_name": "HAMDI ZAYEN",
+      "email": "9@gmail.com",
+      "phone": "+216 53623358",
+      "location": null,
+      "linkedin": "linkedin.com/in/hamdi-zayen",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9694,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[10]",
+      "experiences[0].responsibilities[11]",
+      "experiences[0].responsibilities[12]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].responsibilities[7]",
+      "experiences[0].responsibilities[8]",
+      "experiences[0].responsibilities[9]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "HAMDI ZAYEN",
+      "email": "9@gmail.com",
+      "phone": "+216 53623358",
+      "location": null,
+      "linkedin": "linkedin.com/in/hamdi-zayen",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Python",
+        "R",
+        "Java",
+        "C#",
+        "PHP",
+        "JavaScript",
+        "SQL",
+        "HTML",
+        "CSS",
+        "Angular",
+        "Django",
+        "FastAPI",
+        ".NET",
+        "Flutter",
+        "Apache Spark",
+        "Hadoop",
+        "ETL/ELT Pipelines",
+        "Talend",
+        "Data Warehousing",
+        "Data Modeling",
+        "Kafka",
+        "Power BI",
+        "Tableau",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Docker",
+        "Git/GitHub",
+        "REST APIs",
+        "CI/CD",
+        "Linux",
+        "Agile/Scrum"
+      ],
+      "soft_skills": [
+        "AI Engineer Data Scientist",
+        "Deep learning",
+        "Multimodal Al systems",
+        "ETL/ELT pipeline design",
+        "Data preprocessing",
+        "Model integration",
+        "Containerized deployment",
+        "DevOps tools"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Ben Arous",
+        "responsibilities": [
+          "AI Engineer Data Scientist with hands-on experience in deep learning, multimodal Al systems (text, image, audio, video), and advanced data engineering.",
+          "Customer Churn Prediction: Developed a predictive model using Python and scikit-learn to identify customers likely to leave a telecom service, including feature engineering, model evaluation, and reporting insights to improve retention.",
+          "Real-Time Music Trend Analysis: Built a streaming data pipeline using Kafka and Spark Streaming to ingest music-streaming events, detect trending tracks and listener patterns, and display results in real-time dashboards.",
+          "PCAP (Python Institute), Power BI Data Analyst (Microsoft), Building Transformer. Based Applications - NVIDIA DLI, AI-900 (Microsoft), Azure AI Engineer Associate (Microsoft AI-102)",
+          "Designed and shipped an end-to-end email automation Saa S (ingestion → NLP/LLM → ERP actions ), reducing manual handling time by ~65% .",
+          "Built a domain corpus (web scraping + Prodigy annotation); normalization, train/val/test splits, and data versioning for reproducibility.",
+          "Implemented spaCy NER (customers, products, references) with rule/regex post-validation for business checks.",
+          "Delivered a RAG pipeline with Lang Chain (retrievers, FAISS/Chroma vector store, prompt templates, retrieval-augmented generation ) and LLM rewriting (tone/style, summarization, FR/EN) with guardrails and context checks.",
+          "Built an Enterprise Document Management (EDM) platform (Angular + .NET + PostgreSQL) with indexed search and archival workflows, cutting retrieval time by ~75% .",
+          "Implemented IAM (roles & permissions, OAuth 2), audit trails, and hardened access controls.",
+          "NLP Text Analytics Platform: Built an end-to-end NLP pipeline to process large-scale text, performing sentiment analysis, topic modeling, and entity extraction using spaCy, BERT embeddings, and Spark for scalable processing.",
+          "Vehicle Damage Detection (Computer Vision): Created a deep learning model to detect and classify vehicle damages from images for insurance claim automation, using Python, TensorFlow/Keras, and OpenCV.",
+          "Facial Emotion Recognition System: Implemented a real-time system leveraging OpenCV and TensorFlow/Keras for live emotion detection, with automated preprocessing pipelines and model inference."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Central Private Polytechnic University",
+        "degree": "Engineering Degree in Data Science",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Tunisia",
+        "degree": "Applied Bachelor's Degree in Information Systems Development ISET RADES",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "English (Fluent)",
+      "French (Fluent)",
+      "Arabic (Native)",
+      "Spanish (Conversational)"
+    ],
+    "certifications": [
+      "PCAP (Python Institute), Power BI Data Analyst (Microsoft), Building Transformer. Based Applications - NVIDIA DLI, AI-900 (Microsoft), Azure AI Engineer Associate (Microsoft AI-102)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:19:53.482669+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

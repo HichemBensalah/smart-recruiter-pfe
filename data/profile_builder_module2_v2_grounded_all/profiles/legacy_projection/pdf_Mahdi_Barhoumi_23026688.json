@@ -1,0 +1,101 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mahdi_Barhoumi_23026688.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mahdi_Barhoumi_23026688.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mahdi_Barhoumi_23026688.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mahdi Barhoumi",
+      "email": "192001@yahoo.fr",
+      "phone": "+216 99 422 037",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "C",
+        "C++",
+        "Java",
+        "Python",
+        "Dart",
+        "SQL",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Django",
+        "Flask",
+        "Flutter",
+        "React",
+        "Vue. js",
+        "PyTorch"
+      ],
+      "soft_skills": [
+        "Git/GitHub",
+        "Bash",
+        "VS Code",
+        "Wireshark",
+        "UML",
+        "Firebase",
+        "Azure",
+        "Jenkins"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Intern - PFE",
+        "company": "Network Associates",
+        "start_date": "Sept 2022",
+        "end_date": "June 2025",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Designed and developed a network service orchestration solution focused on MPLS L 3 VPNs.",
+          "Automated network configuration across the topology, reducing manual intervention and errors."
+        ]
+      },
+      {
+        "job_title": "Intern",
+        "company": "BIAT",
+        "start_date": "June 2024",
+        "end_date": "Aug 2024",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Developed a comprehensive customer support platform (full-stack web application) integrating a REST API.",
+          "Implemented features for accessing and analyzing bank ATM logs to optimize diagnostic and problem resolution."
+        ]
+      },
+      {
+        "job_title": "Intern",
+        "company": "CRA 2 E",
+        "start_date": "June 2023",
+        "end_date": "Aug 2023",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Managed the complete redesign and content migration of the company website with Word Press."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "National School of Computer Science",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:08:47.390267+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9688,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Youssef_Rais_23016263.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Youssef_Rais_23016263.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.834,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMohamed Youssef Rais Ingénieur en Informatique\nmohamedyoussef.rais@esprit.tn\nAriana, Tunis\nmohamedyoussefrais\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## TECHNICAL SKILLS\n\nIngénieur en Informatique, passionné par les technologies émergentes, je possède une expérience en résolution de problèmes complexes en équipe. Je suis à la recherche d'un emploi pour valoriser mes compétences.\nIntroduction to AWS Cloud - 356 Data Science\nCOMPÉTENCES\nGestion de projet - Git\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nBIAT\nStagiaire Data Scientist\nSujet: Conception et développement d'un chatbot intelligent pour l'assistance bancaire et financière à la BIAT.\nSujet: Développement d'un système de santé intelligent visant à améliorer le travail des professionnels médicaux.\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nOutils: Python, NLP, Transformers, PyTorch, LLMs, RAG, Lang Chain, Finetuning, Flask, Angular.\nIVSANE\nStagiaire Data Analyst et Data Scientist\nOutils: Python, NLP, Transformers, Scikit-Learn, TensorFlow, Talend, MySQL, Power BI, Flask, Angular.\nESPRIT (Projet Académique)\nSystème de gestion des factures et des fournisseurs\nSujet: Développement et déploiement d'une application web full-stack pour la gestion des factures et des fournisseurs, avec mise en place d'une pipeline CI/CD complète.\nOutils: Java, Spring Boot, Angular, MySQL, Git, Maven, JUnit, Sonar Qube, Nexus, Docker, Jenkins.\nSujet: Développement d'un tableau de bord dédié à la gestion dynamique des chambres d'un hôtel en temps réel.\nSujet: Récréation et amélioration du site web de l'opérateur de téléphonie mobile en Mauritanie Mattel.\n\n## OPTIMA SOFT\n\nStagiaire Développeur Symfony\nOutils: PHP, Symfony, MySQL, Web Sockets.\nMEDIANET\nStagiaire Développeur ReactJS/NodeJS\nOutils: JSX, ReactJS, NodeJS, MySQL.\n\n## EDUCATION\n\nFORMATIONS\n## Diplôme d'Ingénieur en Informatique, ESPRIT\n**Date: ** 02/2025 - 07/2025\n- Licence en Gestion des Technologies de l'Information et de la\n## Communication,\n**Date: ** 2019 - 2022 | Ariana, Tunisie\n- ISET'COM\n- Microsoft Azure Services and Lifecycles - Microsoft\n## Framework - Symfony, Java FX, Angular, .NET, Spring Boot, Flask, Django\n## Programmation - PYTHON, R, JAVA, C, PHP, JAVASCRIPT, HTML 5, CSS, SQL/PLSQL\n## Base de données - Oracle, MySQL, SQL Server, MongoDB\n**Location: ** DevOps - Linux, Jenkins, Docker, CI/CD\n- Français - B 2\n- Anglais - B 2\n- Espagnol - A 1\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\n\n## MACHINE LEARNING & DEEP LEARNING\n\nData Science - Visualisation de données, Préparation de données, Machine Learning, Deep Learning, NLP\n\n## LANGUAGES\n\nLANGUES",
+    "header_info": {
+      "full_name": "Ariana, Tunis",
+      "email": "mohamedyoussef.rais@esprit.tn",
+      "phone": null,
+      "location": "Ariana, Tunis",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.5918,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[0].city",
+      "experiences[1].city",
+      "experiences[2].city",
+      "experiences[2].job_title",
+      "experiences[3].city",
+      "experiences[4].city"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[4].company",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[10]",
+      "expertise.soft_skills[11]",
+      "expertise.soft_skills[12]",
+      "expertise.soft_skills[13]",
+      "expertise.soft_skills[14]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.soft_skills[8]",
+      "expertise.soft_skills[9]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mohamed Youssef Rais",
+      "email": "mohamedyoussef.rais@esprit.tn",
+      "phone": null,
+      "location": "Ariana, Tunis",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "PROFIL",
+      "experience_level": "mid_level",
+      "years_experience": 5,
+      "hard_skills": [
+        "Ingénieur en Informatique",
+        "Python",
+        "NLP",
+        "Transformers",
+        "PyTorch",
+        "LLMs",
+        "RAG",
+        "Lang Chain",
+        "Finetuning",
+        "Flask",
+        "Angular"
+      ],
+      "soft_skills": [
+        "Gestion de projet",
+        "Git",
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "PHP",
+        "JAVASCRIPT",
+        "HTML 5",
+        "CSS",
+        "SQL/PLSQL",
+        "DevOps",
+        "Linux",
+        "Jenkins",
+        "Docker",
+        "CI/CD"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "BIAT",
+        "job_title": "Stagiaire Data Scientist",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'un chatbot intelligent pour l'assistance bancaire et financière à la BIAT.",
+          "Développement d'un système de santé intelligent visant à améliorer le travail des professionnels médicaux."
+        ]
+      },
+      {
+        "company": "IVSANE",
+        "job_title": "Stagiaire Data Analyst et Data Scientist",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de santé intelligent visant à améliorer le travail des professionnels médicaux."
+        ]
+      },
+      {
+        "company": "ESPRIT (Projet Académique)",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement et déploiement d'une application web full-stack pour la gestion des factures et des fournisseurs, avec mise en place d'une pipeline CI/CD complète.",
+          "Développement d'un tableau de bord dédié à la gestion dynamique des chambres d'un hôtel en temps réel."
+        ]
+      },
+      {
+        "company": "OPTIMA SOFT",
+        "job_title": "Stagiaire Développeur Symfony",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de gestion des factures et des fournisseurs."
+        ]
+      },
+      {
+        "company": "MEDIANET",
+        "job_title": "Stagiaire Développeur ReactJS/NodeJS",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de gestion des factures et des fournisseurs."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT",
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "field": "Informatique",
+        "year": 2025
+      },
+      {
+        "institution": "ISET'COM",
+        "degree": "Licence en Gestion des Technologies de l'Information et de la Communication",
+        "field": null,
+        "year": 2022
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais",
+      "Espagnol"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:43:13.998003+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

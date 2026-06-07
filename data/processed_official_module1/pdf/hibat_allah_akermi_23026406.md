@@ -1,0 +1,61 @@
+## HEADER
+
+Hibat Allah AKERMI
+Ingénieure en informatique - Spécialité Génie Logiciel
+21651272925 hibatallahakermi@gmail. com Github: https://github. com/Hibaakermi Ariana
+
+## PROFESSIONAL SUMMARY
+
+PROFIL
+
+## TECHNICAL SKILLS
+
+Fraîchement diplômée en ingénierie informatique avec une spécialité en génie logiciel, je suis actuellement à la recherche de ma première expérience professionnelle. Passionnée par le développement web, le développement mobile et l'intelligence artificielle, je souhaite mettre en pratique mes connaissances et acquérir de nouvelles compétences au sein d'une entreprise dynamique. Je suis motivée à contribuer à des projets innovants et à relever de nouveaux défis dans le domaine de l'informatique.
+Gestion bibliothèque express Springboot, Thymeleaf
+Reconnaissance des fleurs application mobile: Flutter, CNN, Flask, Github Actions, Firebase
+IEEE TEKUP SB site web
+Mini Market Application Django
+INOVALYA Plateforme web Nest JS(Microservices), Angular
+
+## PROJETS PERSONNELS
+
+Service Provide application mobile
+Android, Firebase
+Gestion salles de reunion Node Js, Angular
+Node Js, Angular
+Evaluation de films
+Parapharmacie .Net Core
+Angular, Node Js
+
+## EDUCATION
+
+Université privée de Technologie & Ingénierie TEK-UP
+Diplôme National d'ingénieur informatique: Génie Logiciel et système d'information
+L'école nationale d'électronique et des télécommunications de Sfax ENET'COM
+Master de Recherche en Télécommunications et Systèmes des réseaux Sujet: Conception d'un système de traitement du signal SSVEP pour les systèmes d'interface cerveau machine (BCI) utilisant les signaux électroencéphalographiques (EEG))
+L'lnstitut Supérieur des Sciences Appliquées & Technologie ISSAT Gafsa
+Licence Fondamentale en Sciences et Technologies d'information et de la Communication Sujet: Conception et réalisation d'un robot gyropode à deux roues
+Lycée Ahmed Tlili Ksar Gafsa
+### Baccalauréat: Sciences Expérimentales
+**Date:** 2025
+**Location:** Agile, Scrum
+- Stage PFE
+- Dhahri Al-Kubaisi Technologies
+- Stage 2ème année cycle ingénieur IEEE TEKUP Student Branch
+- Stage Technecien
+- Société tunisienne de l'électricité et du gaz - Gafsa
+- Stage Ouvrier
+- Tunisie Télécom - Gafsa
+
+## EXPÉRIENCES PROFESSIONNELLES COMPÉTENCES TECHNIQUES
+
+Java (Spring boot), Python, PHP(Symfony), Dot Net Core/Framework
+Développement Web: Django, Angular, Node Js(Express),
+Nest JS(Microservices), Ionic framework
+Technologies: Bootstrap, Tailwind
+Développement Mobile: Android(Java), Flutter
+Bases de Données: SQL, Postgre SQL, Mongo DB
+Contrôle de Version: Git, Github, Gitlab
+Conception: UML
+Intégration Continue: Docker, Jenkins
+AWS

@@ -1,0 +1,214 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Almia_Ghassen_23013947.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Almia_Ghassen_23013947.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7033,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nGhassen Almia\nDate of birth: 24/02/2000 | Place of birth: Bizerte | Nationality: Tunisian | Gender: Male | Phone: (+216)\n53519301 (Mobile) | Email address: ghassenalmia.business@gmail.com | Website:\nhttps: //my-pro-portfolio-three. vercel. app | Address: Bhira, Ghazali Street, Bizerte, Tunisia (Home)\nHandled conflict resolution and data merges\nScaled storage with AWS S 3 and distributed systems\nEnabled real-time alerts via Web Socket\n\n## PROFESSIONAL EXPERIENCE\n\nA computer engineer specializing in web development, I have extensive experience gained through various projects within innovative companies. For several years, I have designed and optimized websites, applications, and digital platforms, combining technical performance, creativity, and attention to detail. This experience has allowed me to develop a high degree of autonomy, an ability to quickly adapt to client needs, and an excellent command of modern technologies such as ReactJS, NodeJS, Word Press, and Docker. Driven by a passion for digital technology and a desire to take on new challenges, I am committed to providing tailor-made, efficient, and sustainable web solutions that meet the expectations of businesses and end users.\nDevelopment of dynamic and responsive user interfaces with React. js, providing a fluid and intuitive experience\nIntegration of real-time data management solutions, enabling fast and transparent exchanges between the client and the server\nImplementation of RESTful APIs and Web Socket protocols, ensuring secure and efficient two-way communication\nDevelopment of a centralized state management system (Redux or Context API), ensuring data and user interface consistency\nIntegration of AWS S 3 for secure file storage, with download management via pre-signed URLs to ensure confidentiality of exchanges\n- Improvement of user experience and SEO\n- Developed GitHub-style versioning\nENGINEERING DEGREE IN COMPUTER SCIENCE- ESPRIT: HIGHER PRIVATE SCHOOL OF ENGINEERING AND TECHNOLOGY, ARIANA\n- Technical support and user training\nBACHELOR'S DEGREE IN COMPUTER SYSTEM MAINTENANCE- HIGHER INSTITUTE OF APPLIED SCIENCES AND TECHNOLOGY OF MATEUR: MATEUR, BIZERTE\n## COMPUTER SCIENCE BACCALAUREATE- HABIB THAMEUR HIGH SCHOOL, BIZERTE\n\n## WEB DEVELOPER REOTECH\n\nDelivery Vehicles Application (Stack: SQL/Nest Js/ReactJS/AWS)\nDevelopment and maintenance of custom web solutions\nIntegration of advanced features and performance optimization\nCollaboration with the technical team to ensure the quality of deliverables\n\n## ACADEMIC PROJECTS\n\nParticipated in the design of web project architecture while adhering to best development practices\nPerformed testing and debugging to ensure application reliability and security\nFinal Year Engineering Project T elnet Smart ( Tunisie Development of a DMS (Data Management System) application - Tech Stack: NodeJS/ReactJS ) I\n- Built high-performance backend with Node. js\n- Created dynamic UI with React. js and customizable views\n- Secured auth and permissions with JWT & OAuth\n- Development of web applications and participation in collaborative projects\n\n## TECHNICAL SKILLS\n\nWrote technical documentation and user guides to facilitate the maintenance and development of delivered solutions\nDevelopment of a web application: an innovative library platform (Tech Stack: NodeJS/ReactJS)\nDesign of a robust backend architecture with NodeJS, ensuring optimized performance and efficient request handling\nCustomization of web tools and remote project management\nCreation and redesign of Word Press sites\nDevelopment of custom themes and plugins\nSKILLS\nLanguages & Frameworks: ReactJS, NodeJS, Nest JS, Spring Boot, Java, .NET, Word Press | Databases: SQL, NoSQL | Tools & Platforms: Docker, Github, Git, AWS | Methodologies: Agile development, project management | Teamwork and organizational skills | Ability to manage projects independently (freelance) | Creativity and search for innovative solutions | Adaptability to multicultural environments and remote projects\nINTERNSHIP\nManaged versioning via REST APIs\nWorked with relational and NoSQL databases\nApplied Agile and DevOps for continuous delivery\nWrote unit/functional tests to ensure quality\nMonitored performance and errors using Sentry\nWeb Development Internship - Fenix Future Dev (Remote)\n\n## FULLSTACK DEVELOPER NODE_REACT REACTBUROEXPERT| BIZERTE\n\n## FREELANCE WORDPRESS DEVELOPER\n\nCreation of showcase and e-commerce websites for various clients\n\n## LANGUAGE SKILLS\n\nMother tongue(s): ARABIC",
+    "header_info": {
+      "full_name": "Ghassen Almia",
+      "email": "ghassenalmia.business@gmail.com",
+      "phone": "24/02/2000",
+      "location": "https: //my-pro-portfolio-three. vercel. app | Address: Bhira, Ghazali Street, Bizerte, Tunisia (Home)",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9407,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[2].city",
+      "experiences[2].job_title",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "languages[0]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ghassen Almia",
+      "email": "ghassenalmia.business@gmail.com",
+      "phone": "(+216) 53519301",
+      "location": "Bhira, Ghazali Street, Bizerte, Tunisia",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "ReactJS",
+        "NodeJS",
+        "Nest JS",
+        "Spring Boot",
+        "Java",
+        ".NET",
+        "Word Press",
+        "SQL",
+        "NoSQL",
+        "Docker",
+        "Github",
+        "Git",
+        "AWS"
+      ],
+      "soft_skills": [
+        "Teamwork and organizational skills",
+        "Ability to manage projects independently (freelance)",
+        "Creativity and search for innovative solutions",
+        "Adaptability to multicultural environments and remote projects"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "REOTECH",
+        "job_title": "WEB DEVELOPER",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Development and maintenance of custom web solutions",
+          "Integration of advanced features and performance optimization",
+          "Collaboration with the technical team to ensure the quality of deliverables"
+        ]
+      },
+      {
+        "company": "Fenix Future Dev",
+        "job_title": "Web Development Internship",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Managed versioning via REST APIs",
+          "Worked with relational and NoSQL databases",
+          "Applied Agile and DevOps for continuous delivery",
+          "Wrote unit/functional tests to ensure quality",
+          "Monitored performance and errors using Sentry"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "FULLSTACK DEVELOPER NODE_REACT",
+        "start_date": null,
+        "end_date": null,
+        "city": "BIZERTE",
+        "responsibilities": []
+      },
+      {
+        "company": null,
+        "job_title": "FREELANCE WORDPRESS DEVELOPER",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Creation of showcase and e-commerce websites for various clients"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT: HIGHER PRIVATE SCHOOL OF ENGINEERING AND TECHNOLOGY, ARIANA",
+        "degree": "ENGINEERING DEGREE IN COMPUTER SCIENCE",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "HIGHER INSTITUTE OF APPLIED SCIENCES AND TECHNOLOGY OF MATEUR: MATEUR, BIZERTE",
+        "degree": "BACHELOR'S DEGREE IN COMPUTER SYSTEM MAINTENANCE",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "HABIB THAMEUR HIGH SCHOOL, BIZERTE",
+        "degree": "COMPUTER SCIENCE BACCALAUREATE",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "ARABIC"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:34:40.956423+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Nourhen_Maddouri_23014234.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Nourhen_Maddouri_23014234.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Nourhen_Maddouri_23014234.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Nourhen Maddouri",
+      "email": "nourhenemd@gmail.com",
+      "phone": "+216 92 384 193",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Django",
+        "Angular",
+        "AI",
+        "NLP",
+        "TensorFlow",
+        "FastAPI",
+        "React.js",
+        "SQL"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire AI/Backend Python",
+        "company": "Looyas",
+        "start_date": "Février - Août 2025",
+        "end_date": null,
+        "city": "Ariana, Tunis",
+        "responsibilities": [
+          "Mise en place de traitements asynchrones avec Rabbit MQ"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master Professionnel en Data Science",
+        "school": "Faculté des Sciences de Bizerte",
+        "year": "2023 - 2025"
+      },
+      {
+        "degree": "Licence en Sciences Informatiques (Génie Logiciel)",
+        "school": "Faculté des Sciences de Bizerte",
+        "year": "2020 - 2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:53:25.322344+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9591,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

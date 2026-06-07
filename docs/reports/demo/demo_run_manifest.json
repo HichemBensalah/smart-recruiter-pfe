@@ -1,79 +1,15 @@
 {
-  "status": "success",
-  "generated_at": "2026-06-02T15:29:54.350316+00:00",
-  "job_id": "backend_python_django_postgresql",
-  "checked_inputs": {
-    "features": {
-      "path": "data\\ranking\\features\\backend_python_django_postgresql.jsonl",
-      "exists": true,
-      "is_dir": false,
-      "size_bytes": 27111
-    },
-    "job": {
-      "path": "data\\job_profiles\\backend_python_django_postgresql.json",
-      "exists": true,
-      "is_dir": false,
-      "size_bytes": 913
-    },
-    "profiles_dir": {
-      "path": "data\\profile_builder_module2_v2_grounded_all\\profiles\\grounded_profiles",
-      "exists": true,
-      "is_dir": true,
-      "size_bytes": null
-    },
-    "graph": {
-      "path": "data\\graph\\skills_roles_graph.yaml",
-      "exists": true,
-      "is_dir": false,
-      "size_bytes": 5560
-    },
-    "rf_model": {
-      "path": "data\\ranking\\models\\random_forest.joblib",
-      "exists": true,
-      "is_dir": false,
-      "size_bytes": 210233
-    },
-    "xgb_ranking": {
-      "path": "docs\\reports\\ml\\xgboost_primary_ranking.json",
-      "exists": true,
-      "is_dir": false,
-      "size_bytes": 39530
-    },
-    "feature_names": {
-      "path": "data\\ranking\\models\\feature_names.json",
-      "exists": true,
-      "is_dir": false,
-      "size_bytes": 379
-    },
-    "cards_ml": {
-      "path": "docs\\reports\\decision_cards\\decision_cards_ml_comparison.json",
-      "exists": true,
-      "is_dir": false,
-      "size_bytes": 85617
-    }
-  },
-  "generated_outputs": {
-    "decision_cards_with_transferability_json": "docs\\reports\\decision_cards\\decision_cards_with_transferability.json",
-    "decision_cards_with_transferability_md": "docs\\reports\\decision_cards\\decision_cards_with_transferability.md",
-    "demo_summary_top10_json": "docs\\reports\\demo\\demo_summary_top10.json",
-    "demo_summary_top10_md": "docs\\reports\\demo\\demo_summary_top10.md",
-    "demo_executive_summary_json": "docs\\reports\\demo\\demo_executive_summary.json",
-    "demo_executive_summary_md": "docs\\reports\\demo\\demo_executive_summary.md",
-    "demo_run_manifest_json": "docs\\reports\\demo\\demo_run_manifest.json",
-    "demo_run_summary_md": "docs\\reports\\demo\\demo_run_summary.md"
-  },
-  "total_candidates": 50,
+  "status": "failed",
+  "generated_at": "2026-06-05T08:50:53.182580+00:00",
+  "job_id": null,
+  "checked_inputs": {},
+  "generated_outputs": {},
+  "total_candidates": 0,
   "top_k": 10,
-  "executive_top_recommended": [
-    "candidate_9b0508063f03",
-    "candidate_1487f3187f7b",
-    "candidate_8eea1b635447"
-  ],
-  "executive_needs_review": [
-    "candidate_664415ab2fe1",
-    "candidate_073b7a3d39ba",
-    "candidate_4eef95d3a3fa"
-  ],
+  "executive_top_recommended": [],
+  "executive_needs_review": [],
   "tests_hint": "pytest tests/test_demo_end_to_end.py -q",
-  "warnings": []
+  "warnings": [
+    "FileNotFoundError: Missing required demo inputs: features: data\\ranking\\features\\backend_python_django_postgresql.jsonl; rf_model: data\\ranking\\models\\random_forest.joblib; xgb_ranking: docs\\reports\\ml\\xgboost_primary_ranking.json; feature_names: data\\ranking\\models\\feature_names.json; cards_ml: docs\\reports\\decision_cards\\decision_cards_ml_comparison.json"
+  ]
 }

@@ -1,0 +1,94 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\hibat_allah_akermi_23026406.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\hibat_allah_akermi_23026406.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\hibat_allah_akermi_23026406.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hibat Allah AKERMI",
+      "email": "hibatallahakermi@gmail.com",
+      "phone": "21651272925",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java (Spring boot)",
+        "Python",
+        "PHP(Symfony)",
+        "Dot Net Core/Framework",
+        "Django",
+        "Angular",
+        "NodeJS(Express)",
+        "Nest JS(Microservices)",
+        "Flutter",
+        "SQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Git",
+        "Github",
+        "Gitlab"
+      ],
+      "soft_skills": [
+        "Agile",
+        "Scrum"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stage PFE",
+          "Dhahri Al-Kubaisi Technologies",
+          "Stage 2ème année cycle ingénieur IEEE TEKUP Student Branch",
+          "Stage Technecien",
+          "Société tunisienne de l'électricité et du gaz - Gafsa",
+          "Stage Ouvrier",
+          "Tunisie Télécom - Gafsa"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme National d'ingénieur informatique: Génie Logiciel et système d'information",
+        "school": "Université privée de Technologie & Ingénierie TEK-UP",
+        "year": null
+      },
+      {
+        "degree": "Master de Recherche en Télécommunications et Systèmes des réseaux",
+        "school": "L'école nationale d'électronique et des télécommunications de Sfax ENET'COM",
+        "year": null
+      },
+      {
+        "degree": "Licence Fondamentale en Sciences et Technologies d'information et de la Communication Sujet: Conception et réalisation d'un robot gyropode à deux roues",
+        "school": "L'lnstitut Supérieur des Sciences Appliquées & Technologie ISSAT Gafsa",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat: Sciences Expérimentales",
+        "school": "Lycée Ahmed Tlili Ksar Gafsa",
+        "year": "2025"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:31:50.971296+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9668,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

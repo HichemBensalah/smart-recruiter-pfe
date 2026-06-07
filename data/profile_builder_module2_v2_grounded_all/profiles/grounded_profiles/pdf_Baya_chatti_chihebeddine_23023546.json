@@ -1,0 +1,262 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Baya_chatti_chihebeddine_23023546.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Baya_chatti_chihebeddine_23023546.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.716,
+  "normalization": {
+    "cleaned_markdown": "## BAYA CHATTI CHIHEB EDDINE\n\nIngénieur en Informatique\nLinked In: www. linkedin.com/in/chihebeddine-baya-chatti\nTel: +216 24 611 837 | Email: chattichiheb 35@gmail.com | GitHub: github.com/chiheb 2000\nIngénieur en informatique spécialisé en Intelligence Artificielle et Science des Données. Passionné et rigoureux, j’applique\nmes compétences dans le développement de solutions intelligentes et l’analyse de données complexes.\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nIngénieur IA et Data\nBNS Engineering, Tunis\n• Client 4: RSU (Rapport Social Unique)\nProjet: Génération et exécution de requêtes SQL à partir du langage naturel\n– Conception et développement d’un assistant permettant de transformer des requêtes formulées en langage\nnaturel en requêtes SQL exploitables par la base de données.\n– Mise en place d’un mécanisme de validation et de sécurisation des requêtes générées afin d’assurer leur\nconformité avec le schéma de la base et éviter les opérations non autorisées.\n– Exécution automatique des requêtes générées et restitution des résultats sous forme de tableaux exploitables\npour l’analyse.\n– Techniques et technologies utilisées: Python, LLM, Prompt Engineering, Groq, SQL, PostgreSQL,\nFastAPI, Docker .\n• Client 3: FTUSA (La Fédération Tunisienne des Sociétés d’Assurances )\n– Tâche 1: Assistant IA de génération et gestion des e-mails assurantiels\n* Analyse du contexte métier assurantiel et identification des typologies d’e-mails (Urgent, Support,\n\n## EDUCATION\n\n* Conception d’un pipeline de traitement des e-mails: nettoyage, normalisation et extraction des\n* Développement d’un assistant IA basé sur des LLM avec un flux en deux étapes:\n· Classification automatique des e-mails entrants selon les catégories métier assurantielles.\n· Génération de réponses automatiques adaptées à chaque catégorie, en tenant compte du contexte,\ndes règles métier et des contraintes de confidentialité, via un moteur de Prompt Engineering.\n* Mise en place de contrôles qualité (cohérence des catégories, pertinence des réponses générées) et\nstockage des résultats dans une base de données relationnelle pour le suivi, l’audit et l’analyse.\n* Techniques et technologies utilisées: Python, LLM, Prompt Engineering, Groq, NLP, PostgreSQL,\nFastAPI, Docker.\n– Tâche 2: Générateur automatique de graphiques pour l’aide à la décision\n* Analyse des besoins métier en reporting et visualisation des données assurantielles.\n* Conception d’un moteur de génération automatique de graphiques à partir de requêtes en langage naturel.\n* Développement d’interfaces interactives sous Streamlit pour l’exploration des données, la génération de\ngraphiques et l’export des résultats.\n* Techniques et technologies utilisées: Python, pandas, Matplotlib, PostgreSQL, LLM, Streamlit, Docker.\n• Client 2: ARABOSAI\nProjet: OCR Pipeline Multi-Documents — Extraction et Qualité des Données\n– Développement d’un pipeline OCR en Python pour traiter PDF, images et fichiers bureautiques.\n– Prétraitement des images avec OpenCV pour améliorer l’extraction de texte.\n– Création d’une API FastAPI pour automatiser le traitement des documents.\n– Intégration de Min IO et PostgreSQL pour le stockage et la gestion des résultats.\n– Mise en place de règles de nettoyage et validation des données extraites.\n– Techniques et technologies utilisées: Python, Easy OCR, OpenCV, FastAPI, Min IO, PostgreSQL, Docker\n• Client 1: Douane du Cameroun\n– Contrôle qualité, normalisation et structuration des données.\n– Préparation de datasets pour l’analyse, la visualisation et le reporting BI.\n– Contribution à la création et au test de modèles IA pour l’exploitation des données.\n– Techniques et technologies utilisées: Python, SQL, ETL, Data Cleaning, Power BI, Machine Learning.\nStage de Fin d’Études\n03/02/2025 – 30/06/2025\nBNS Engineering, Tunis\n• Conception d’un système intelligent de détection de fraudes dans les transactions douanières.\n• Développement de deux modèles XGBoost: l’un pour la détection des fraudes, l’autre pour la classification du type\nde fraude .\n• Intégration d’un modèle LLM (LLa MA 3 – 8 B) pour analyser les déclarations frauduleuses et générer\nautomatiquement des règles explicatives en Drools.\n• Déploiement complet sous forme d’une application web avec Streamlit, incluant une base de données, un moteur\nde règles, et un historique d’analyses.\n• Mots-clés: XGBoost, LLM, LLa MA 3, Prompt engineering, Drools, Python, Streamlit, PostgreSQL.\nStagiaire en Intelligence Artificielle\n05/08/2024 – 10/09/2024\nDun Dill, Sousse, Tunisie\n• Développé un modèle de machine learning pour l’identification de personnes basé sur des variations\northographiques des noms et prénoms, utilisant des algorithmes comme SVM, Arbre de Décision et XGBoost.\n• Utilisation des techniques de traitement phonétique (Soundex).\n• Développement d’une interface interactive avec Streamlit pour la vérification et la prédiction en temps réel.\n• Mots-clés: Python, Streamlit, SVM, Arbre de Décision, XGBoost, Soundex, Traitement phonétique, MLOps.\nStagiaire en Intelligence Artificielle\n01/07/2024 – 31/07/2024\nEnova Robotics, Sousse, Tunisie\n• Développement d’une interface basée sur un Large Language Model (LLM) pour optimiser les processus internes\ndes ressources humaines.\n• Génération de postes de recrutement en utilisant la technique de Prompt Engineering.\n\n## PROFESSIONAL SUMMARY\n\n• Mots-clés: Python, Streamlit, Lang Chain, Hugging Face, LLM, Prompt Engineering, RAG, Selenium, Beautiful Soup.\nStage de Fin d’Études\n05/02/2022 – 30/05/2022\nChaaben Technology Group, Sousse, Tunisie\n• Développement d’une application cross-plateforme pour la gestion des parkings.\n• Permet la gestion en temps réel des réservations et fournit des statistiques sur les parkings.\n• Un système embarqué qui sera monté dans le parking à gérer.\n• Mots-clés: HTML 5, CSS 3, JavaScript, Express Js, NodeJS, MongoDB, C++, Cordova\n\n## PROJETS PERSONNELS\n\nReconnaissance de l’alphabet ASL\n• Conception d’un système de reconnaissance des lettres de la langue des signes (ASL) basé sur plusieurs\narchitectures CNN et YOLO.\n• Utilisation de modèles pré-entraînés avec fine-tuning afin d’améliorer la précision du modèle.\n• Implémentation d’un pipeline de reconnaissance en temps réel basé sur Computer Vision.\n• Mots-clés: Python, PyTorch, TensorFlow, CNN, YOLO, Transfer Learning, Fine-tuning, Computer Vision.\nChatbot Psychologique basé sur LLM\n• Développement d’un chatbot d’assistance psychologique basé sur des Large Language Models (LLM).\n• Implémentation d’une architecture RAG utilisant une base de conversations psychologue–patient pour améliorer les\nréponses.\n• Déploiement du chatbot dans une interface web interactive avec Streamlit.\n• Mots-clés: Python, NLP, LLM, RAG, Hugging Face, Lang Chain, Streamlit.\nSystème avancé de détection d’incendie par IA (SDIA)\n• Développement d’un modèle en temps réel pour la détection d’incendies utilisant YOLOv 8 et OpenCV.\n• Utilisation de SVM et Arbres de Décision pour classifier les images en catégories: feu, fumée, sans incendie.\n• Mots-clés: Python, scikit-learn, SVM, Arbres de Décision, YOLO, OpenCV, Vision par ordinateur.\n\n## PARCOURS SCOLAIRE\n\nDiplôme National d’Ingénieur en Informatique\nSept. 2022 – juill. 2025\nEpi Digital School Sahloul, Sousse, Tunisie\nLicence appliquée en Télécommunication\nSept. 2019 – juill. 2022\nISITCOM Hammem-Sousse, Tunisie\nBaccalauréat spécialité Mathématiques\nSept. 2018 – juill. 2019\nLycée Farhat Hached M’saken, Tunisie\n\n## CERTIFICATIONS\n\n• Fondamentaux de l’apprentissage profond par NVIDIA\n15 sept. 2024\n• Applications de l’IA pour la maintenance prédictive par NVIDIA\n14 sept. 2024\n• Applications NLP basées sur les transformateurs par NVIDIA\n13 sept. 2024\n• IA générative par Microsoft et Linked In\n30 juin 2024\n\n## COMPÉTENCES\n\n• Intelligence Artificielle et Science des Données: Machine Learning, Deep Learning, Computer Vision, Large\nLanguage Models (LLM), Prompt Engineering, NLP, Data Visualization, Power BI\n• Langages de Programmation: Python, Java, C/C++, JavaScript, PHP\n• Frameworks Web et Mobile: FastAPI, ReactJS, React Native, Node. js, Express JS, HTML, CSS\n• Bases de Données: MySQL, MongoDB, PostgreSQL\n• Big Data: Hadoop, Spark\n\n## LANGUES\n\n• Français: Professionnel\n• Anglais: Intermédiaire\n• Arabe: Langue maternelle",
+    "header_info": {
+      "full_name": "BAYA CHATTI CHIHEB EDDINE",
+      "email": "35@gmail.com",
+      "phone": "+216 24 611 837",
+      "location": null,
+      "linkedin": "linkedin.com/in/chihebeddine-baya-chatti",
+      "github": "github.com/chiheb"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "education/formation/academic",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9432,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "experiences[4].city",
+      "experiences[4].company",
+      "experiences[4].end_date",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].responsibilities[1]",
+      "experiences[4].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "BAYA CHATTI CHIHEB EDDINE",
+      "email": "chattichiheb35@gmail.com",
+      "phone": "+216 24 611 837",
+      "location": null,
+      "linkedin": "linkedin.com/in/chihebeddine-baya-chatti",
+      "github": "github.com/chiheb"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "LLM",
+        "Prompt Engineering",
+        "Groq",
+        "SQL",
+        "PostgreSQL",
+        "FastAPI",
+        "Docker",
+        "Java",
+        "C/C++",
+        "JavaScript",
+        "PHP",
+        "ReactJS",
+        "React Native",
+        "Node.js",
+        "Express JS",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "MongoDB",
+        "Hadoop",
+        "Spark"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "BNS Engineering",
+        "job_title": "Ingénieur IA et Data",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception et développement d’un assistant permettant de transformer des requêtes formulées en langage naturel en requêtes SQL exploitables par la base de données.",
+          "Mise en place d’un mécanisme de validation et de sécurisation des requêtes générées afin d’assurer leur conformité avec le schéma de la base et éviter les opérations non autorisées.",
+          "Exécution automatique des requêtes générées et restitution des résultats sous forme de tableaux exploitables pour l’analyse."
+        ]
+      },
+      {
+        "company": "Dun Dill",
+        "job_title": "Stagiaire en Intelligence Artificielle",
+        "start_date": "05/08/2024",
+        "end_date": "10/09/2024",
+        "city": "Sousse",
+        "responsibilities": [
+          "Développé un modèle de machine learning pour l’identification de personnes basé sur des variations orthographiques des noms et prénoms, utilisant des algorithmes comme SVM, Arbre de Décision et XGBoost."
+        ]
+      },
+      {
+        "company": "Enova Robotics",
+        "job_title": "Stagiaire en Intelligence Artificielle",
+        "start_date": "01/07/2024",
+        "end_date": "31/07/2024",
+        "city": "Sousse",
+        "responsibilities": [
+          "Développement d’une interface basée sur un Large Language Model (LLM) pour optimiser les processus internes des ressources humaines."
+        ]
+      },
+      {
+        "company": "Chaaben Technology Group",
+        "job_title": "Stage de Fin d’Études",
+        "start_date": "05/02/2022",
+        "end_date": "30/05/2022",
+        "city": "Sousse",
+        "responsibilities": [
+          "Développement d’une application cross-plateforme pour la gestion des parkings."
+        ]
+      },
+      {
+        "company": "BNS Engineering",
+        "job_title": "Stage de Fin d’Études",
+        "start_date": "03/02/2025",
+        "end_date": "30/06/2025",
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception d’un système intelligent de détection de fraudes dans les transactions douanières.",
+          "Développement de deux modèles XGBoost: l’un pour la détection des fraudes, l’autre pour la classification du type de fraude."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Epi Digital School Sahloul",
+        "degree": "Diplôme National d’Ingénieur en Informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "ISITCOM Hammem-Sousse",
+        "degree": "Licence appliquée en Télécommunication",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Farhat Hached M’saken",
+        "degree": "Baccalauréat spécialité Mathématiques",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "certifications": [
+      "Fondamentaux de l’apprentissage profond par NVIDIA",
+      "Applications de l’IA pour la maintenance prédictive par NVIDIA",
+      "Applications NLP basées sur les transformateurs par NVIDIA",
+      "IA générative par Microsoft et Linked In"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:41:58.397451+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Amal_Guizeni_23015969.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Amal_Guizeni_23015969.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Amal_Guizeni_23015969.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Amal GUIZENI",
+      "email": "1@gmail.com",
+      "phone": "(+216) 22 236 407",
+      "location": "Sousse, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "PostgreSQL",
+        "Spring Boot",
+        "Angular",
+        "React Native",
+        "FastAPI",
+        "Web Socket",
+        "REST APIs",
+        "Postman",
+        "Swagger",
+        "Pytest",
+        "Java",
+        "C#",
+        "JavaScript",
+        "TypeScript",
+        "MATLAB",
+        "ReactJS",
+        "NodeJS",
+        "AWS",
+        "Azure",
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "Linux",
+        "Windows",
+        "TCP/IP",
+        "DNS",
+        "DHCP",
+        "MPLS",
+        "OSPF",
+        "BGP"
+      ],
+      "soft_skills": [
+        "Teamwork",
+        "Adaptability",
+        "Fast Learner"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Full Stack (Web/Mobile) & AI Engineer Intern",
+        "company": "LEONI Tunisia",
+        "start_date": "Feb 2025",
+        "end_date": "Jun 2025",
+        "city": null,
+        "responsibilities": [
+          "Developed an intelligent Web and Mobile solution to automate and optimize employee transportation and resource allocation using AI.",
+          "Designed a real-time architecture for continuous GPS stream processing and implemented automatic alerts for optimal responsiveness.",
+          "Implemented an RBAC system for authentication and permission management.",
+          "Developed an AI algorithm for automatic bus assignment based on multiple criteria.",
+          "Designed and executed automated test plans (unit, integration, functional) for Python modules and REST/Web Socket APIs using Postman and Swagger; integrated test pipelines in an Agile workflow."
+        ]
+      },
+      {
+        "job_title": "Full Stack & AI Engineer Intern",
+        "company": "LEONI Tunisia",
+        "start_date": "Jul 2024",
+        "end_date": "Aug 2024",
+        "city": null,
+        "responsibilities": [
+          "Automated internship management via an intuitive platform.",
+          "Developed an AI NLP algorithm for automatic skills extraction and matching."
+        ]
+      },
+      {
+        "job_title": "Backend Developer Intern",
+        "company": "WELYNE",
+        "start_date": "Jul 2023",
+        "end_date": "Aug 2023",
+        "city": null,
+        "responsibilities": [
+          "Optimized delivery by generating automated routing sheets.",
+          "Designed and automated functional test scenarios for NLP API endpoints; validated data pipelines and model outputs using scripted test suites.",
+          "Implemented automated unit and integration test suites for REST API endpoints; validated routing logic through regression testing with Django test framework."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree in Telecommunications Engineering",
+        "school": "National School of Electronics and Telecommunications of Sfax (ENET'Com)",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Preparatory Institute for Engineering Studies of Kairouan (IPEIK)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:34:54.014845+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9716,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\nassim_23023193.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\nassim_23023193.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.5969,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nFull Stack & DevOps Engineer\nAriana, Tunisia · +216 51 996 304 · nassimbenmustpha 99@gmail.com\nlinkedin.com/in/nassim-ben-mustapha-817648200\nSoftware Engineer specialized in Full Stack development and DevOps, ranking among the top students of my graduating class at TEK-UP University. Over nearly five years of professional experience, I have contribut to multiple large-scale projects covering backend development, cloud industrialization (CI/CD, monitorin high availability) and end-to-end application lifecycle management. Committed to continuous improvement, I am currently preparing several international certifications (PCAP, OCA, CKA).\nFull Stack & DevOps Engineer · XFlow Data\n-Infrastructure & DevOps: migrated architectures to high-availability cloud environments; built CI/CD pipelines and monitoring stacks (Prometheus/Grafana) to ensure system resilience.\n-Data & AI Solutions: designed and developed backend services and AI-powered data extraction tools, from database modeling to production deployment.\n-Full Stack Development: designed and implemented complex features (backend & application logic), including Unity modules integrated with cloud workflows.\n-Quality Assurance & Automated Testing: designed and industrialized testing strategies (unit, integration, BDD and load/performance testing), integrated into CI/CD pipelines to ensure delive reliability and prevent regressions.\n-Cloud & Deployment: automated application lifecycle via Unity Cloud and managed deployments to app stores.\nDevOps & Cloud\nDocker, Kubernetes, Terraform, Jenkins, CI/CD, AWS, Azure, Hetzner\nMonitoring\nPrometheus, Grafana\nBackend\nJava (Spring Boot), Python (Django), .NET Core\nDatabases\nMySQL, PostgreSQL, MongoDB, Oracle\nTools & Methods\nGit, Linux, Agile, Unit Testing, Integration Testing, BDD, Load Testing\n\n## PROFESSIONAL SUMMARY\n\nPROFILE",
+    "header_info": {
+      "full_name": null,
+      "email": "99@gmail.com",
+      "phone": "+216 51 996 304",
+      "location": "Software Engineer specialized in Full Stack development and DevOps, ranking among the top students of my graduating class at TEK-UP University. Over nearly five years of professional experience, I have contribut to multiple large-scale projects covering backend development, cloud industrialization (CI/CD, monitorin high availability) and end-to-end application lifecycle management. Committed to continuous improvement, I am currently preparing several international certifications (PCAP, OCA, CKA).",
+      "linkedin": "linkedin.com/in/nassim-ben-mustapha-817648200",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8194,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": "99@gmail.com",
+      "phone": "+216 51 996 304",
+      "location": null,
+      "linkedin": "linkedin.com/in/nassim-ben-mustapha-817648200",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Docker, Kubernetes, Terraform, Jenkins, CI/CD, AWS, Azure, Hetzner",
+        "Prometheus, Grafana",
+        "Java (Spring Boot), Python (Django), .NET Core",
+        "MySQL, PostgreSQL, MongoDB, Oracle"
+      ],
+      "soft_skills": [
+        "Agile",
+        "Unit Testing",
+        "Integration Testing",
+        "BDD",
+        "Load Testing"
+      ]
+    },
+    "experiences": [],
+    "education": [],
+    "languages": [],
+    "certifications": [
+      "PCAP",
+      "OCA",
+      "CKA"
+    ],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:49:56.773248+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

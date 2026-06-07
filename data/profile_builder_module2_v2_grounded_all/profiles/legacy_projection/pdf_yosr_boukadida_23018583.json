@@ -1,0 +1,120 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\yosr_boukadida_23018583.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\yosr_boukadida_23018583.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\yosr_boukadida_23018583.json",
+    "profile_kind": "minimal_profile",
+    "bio": {
+      "full_name": "Yosr Boukadida",
+      "email": "yosr.boukadida@outlook.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "C",
+        "Java",
+        "Kotlin",
+        "JavaScript",
+        "PyTorch",
+        "scikit-learn",
+        "YOLO",
+        "Pandas",
+        "NumPy",
+        "SQLite",
+        "PostgreSQL",
+        "Neo4j",
+        "UML",
+        "Apache Spark",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Ansible",
+        "Cisco Packet Tracer",
+        "Wireshark",
+        "pf Sense",
+        "Open SSL",
+        "Android Studio",
+        "Flutter",
+        "Angular",
+        "Spring Boot",
+        "Linux",
+        "Windows"
+      ],
+      "soft_skills": [
+        "communication"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´eveloppement d’une solution de facturation en ligne intuitive et s´ecuris´ee destin´ee aux petites et moyennes entreprises (PME) afin d’automatiser leurs processus de facturation, de la cr´eation des devis `a la g´en´eration des factures.",
+          "Mise en place de fonctionnalit´es avanc´ees telles que les rappels automatiques de paiement, les tableaux de bord financiers, la gestion des clients et la pr´ediction des retards de paiement bas´ee sur l’intelligence artificielle pour optimiser le suivi financier et la relation client."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mise en œuvre de mod`eles de deep learning pour la d´etection d’armes.",
+          "R´ealisation de l’entraˆinement et de la validation des mod`eles avec PyTorch pour une application en conditions r´eelles."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ecouverte de l’infrastructure des t´el´ecomunications de Tunisie Telecom."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d’ingénieur en Télécommunication Embarquée",
+        "school": "Ecole Nationale d’Ingénieurs de Sousse",
+        "year": null
+      },
+      {
+        "degree": "Cycle Préparatoire en Mathématiques et Physique",
+        "school": "École Supérieure des Sciences et de Technologie de Hammam Sousse",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat en Mathématiques",
+        "school": "Lycée Romaniya kalaa Sghira Sousse",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:06:22.151175+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.2298,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "low_grounded_reliability",
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

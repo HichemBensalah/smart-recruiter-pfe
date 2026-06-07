@@ -1,0 +1,95 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\baha_eddine_somrani_23015576.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\baha_eddine_somrani_23015576.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\baha_eddine_somrani_23015576.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Baha Eddine Somrani",
+      "email": "1919@gmail.com",
+      "phone": "+216) 95 300 896",
+      "location": "Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "Jeune ingénieur en informatique avec une expérience solide en développement backend et full-stack, ainsi qu'en automatisation des tests QA.",
+      "hard_skills": [
+        "React",
+        "Next.js",
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "HTML 5",
+        "CSS 3",
+        "Tailwind",
+        "FastAPI",
+        "Spring Boot",
+        "Symfony",
+        "REST APIs",
+        "SQLAlchemy",
+        "Pydantic",
+        "Python",
+        "Java",
+        "PHP",
+        "SQL",
+        "Dart",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Docker",
+        "Git Lab CI",
+        "Jenkins",
+        "Linux",
+        "Git",
+        "Jira",
+        "Robot Framework",
+        "Appium",
+        "UI Automator",
+        "Postman",
+        "JUnit",
+        "Mockito",
+        "Py Mu PDF",
+        "Easy OCR"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "ACTIA Engineering Services - Renault Software Labs",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Exécution de tests fonctionnels et de régression sur émulateurs Android",
+          "Mise en place d'une infrastructure de tests scalable basée sur Docker",
+          "Intégration des tests automatisés dans un pipeline CI/CD avec Git Lab CI"
+        ]
+      },
+      {
+        "job_title": "Stage ingénieur - Automatisation et Data",
+        "company": "ACTIA Engineering Services - Renault Software Labs",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:39:46.974174+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9149,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

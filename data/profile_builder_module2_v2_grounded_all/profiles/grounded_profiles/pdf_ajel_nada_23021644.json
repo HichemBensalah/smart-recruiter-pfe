@@ -1,0 +1,235 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\ajel_nada_23021644.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\ajel_nada_23021644.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7036,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nIngénieure DevOps Junior | CI/CD · Kubernetes · Cloud\n+216 54 686 216 · nadaajel@gmail.com · linkedin.com/in/nadaajel · github.com/Ajel Nada\nDisponible en remote | Ouverte à relocalisation (monde entier) | Tunis, Tunisie\nIngénieure DevOps avec expérience concrète sur pipelines Jenkins/Git Lab CI intégrant OWASP ZAP et Trivy, déploiement d'infrastructure Kubernetes sur Azure et VPS OVH (Ubuntu 22. 04), monitoring ELK Stack + Grafana. Diplômée en Architecture IT et Cloud Computing (ESPRIT 2024). Recherche un premier poste en production pour aller plus loin sur l'automatisation et la sécurité des infrastructures.\nRéduit le temps de build de ~40 min à ~8 min (-80 %) via des pipelines CI/CD Jenkins sécurisés, utilisés par une équipe de 5 développeurs.\nIntégré des scans de sécurité automatisés (Trivy, Sonar Qube, OWASP Dependency-Check, OWASP ZAP) - détection de ~15 vulnérabilités critiques corrigées avant mise en production.\nDéveloppé \"Career\", une application web d'extraction automatique de données depuis des offres d'emploi (Python Flask + Angular), réduisant le temps de traitement manuel d'environ 70 %.\nAutomatisé la gestion à distance via CLI, SSH, SNMP, protocoles TR-069 et API - réduction des interventions manuelles sur ~30 équipements.\nPipeline DevOps CI/CD\nPipeline automatisé pour applications Spring Boot et Angular avec Jenkins, Docker, Nexus, Sonar Qube, monitoring Prometheus/Grafana et notifications Slack - déploiement en < 12 min.\nMedi Mind - Application Full Stack\nApplication médicale Spring Boot + Angular déployée sur Kubernetes avec Docker et Azure - 0 downtime lors des déploiements.\nInfrastructure Cloud - Open Stack\nCréation d'une infrastructure cloud multi-nœuds évolutive avec Open Stack, gestion centralisée du stockage, réseau et calcul pour ~10 VMs.\nMaîtrisé: Jenkins, Docker, Kubernetes, Helm, Git/GitHub/Git Lab, Prometheus, Grafana, Linux (Ubuntu, Cent OS), Shell Scripting, ELK Stack, Sonar Qube, Trivy, OWASP ZAP, OWASP Dependency-Check, Nexus, MongoDB\nIngénierie Informatique - Architecture IT et Cloud Computing\nESPRIT - École Supérieure Privée d'Ingénierie et de Technologies, Tunis\nLicence Appliquée en Génie Électrique\nOracle Cloud Infrastructure DevOps Professional - En préparation\nCKA - Certified Kubernetes Administrator - Objectif 2026\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nIngénieure Dev Sec Ops (PFE) - Xgen Box\nConçu et déployé une infrastructure Dev Sec Ops complète sur VPS OVH (Ubuntu 22. 04) pour une application Node. js/Next. js/MongoDB, couvrant 3 environnements (dev/staging/prod).\nMis en place un monitoring avancé avec Prometheus, Grafana et centralisation des logs via ELK Stack; gestion des artefacts via Nexus.\nDéveloppeuse Full Stack (Stage Ingénieur) - ESPRIT\nMis en place des algorithmes de parsing et de filtrage de mots-clés, couvrant ~500 offres d'emploi analysées.\nTechnicienne Réseaux (Stage Technique) - Tunisie Telecom\nConfiguré et supervisé des serveurs MSAN sous Linux pour la fourniture de services Internet et téléphonie.\n\n## COMPÉTENCES TECHNIQUES\n\nIntermédiaire: Terraform, Ansible, AWS, Azure, Open Shift, Argo CD, PostgreSQL\nNotions: Open Stack, GitHub Actions, Git Lab CI, .Net, Oracle SQL\nConnaissances annexes (Dev): Spring Boot, Angular, Flask, Node. js, Next. js\n\n## EDUCATION\n\nFORMATION\nISET Kébili - Institut Supérieur des Études Technologiques de Kébili\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nMicrosoft Azure Fundamentals (AZ-900) - Obtenue\nNet Acad - Introduction to Cybersecurity (Cisco Networking Academy) - Obtenue\n\n## LANGUAGES\n\nLANGUES\nArabe: Langue maternelle Français: B 2 Anglais: B 2\n\n## MÉTHODES & COLLABORATION\n\nAgile/Scrum (sprints bi-weekly - Xgen Box PFE) · Jira · Revue de code · Documentation technique",
+    "header_info": {
+      "full_name": null,
+      "email": "nadaajel@gmail.com",
+      "phone": "+216 54 686 216",
+      "location": "Disponible en remote | Ouverte à relocalisation (monde entier) | Tunis, Tunisie",
+      "linkedin": "linkedin.com/in/nadaajel",
+      "github": "github.com/Ajel"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9407,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Nada Ajel",
+      "email": "nadaajel@gmail.com",
+      "phone": "+216 54 686 216",
+      "location": "Disponible en remote | Ouverte à relocalisation (monde entier) | Tunis, Tunisie",
+      "linkedin": "linkedin.com/in/nadaajel",
+      "github": "github.com/Ajel"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Git/GitHub/Git Lab",
+        "Prometheus",
+        "Grafana",
+        "Linux (Ubuntu, Cent OS)",
+        "Shell Scripting",
+        "ELK Stack",
+        "Sonar Qube",
+        "Trivy",
+        "OWASP ZAP",
+        "OWASP Dependency-Check",
+        "Nexus",
+        "MongoDB",
+        "Terraform",
+        "Ansible",
+        "AWS",
+        "Azure",
+        "Open Shift",
+        "Argo CD",
+        "PostgreSQL",
+        "Open Stack",
+        "GitHub Actions",
+        "Git Lab CI",
+        ".Net",
+        "Oracle SQL",
+        "Spring Boot",
+        "Angular",
+        "Flask",
+        "Node. js",
+        "Next. js"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Xgen Box",
+        "job_title": "Ingénieure Dev Sec Ops (PFE)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conçu et déployé une infrastructure Dev Sec Ops complète sur VPS OVH (Ubuntu 22. 04) pour une application Node. js/Next. js/MongoDB, couvrant 3 environnements (dev/staging/prod).",
+          "Mis en place un monitoring avancé avec Prometheus, Grafana et centralisation des logs via ELK Stack; gestion des artefacts via Nexus."
+        ]
+      },
+      {
+        "company": "ESPRIT",
+        "job_title": "Développeuse Full Stack (Stage Ingénieur)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mis en place des algorithmes de parsing et de filtrage de mots-clés, couvrant ~500 offres d'emploi analysées."
+        ]
+      },
+      {
+        "company": "Tunisie Telecom",
+        "job_title": "Technicienne Réseaux (Stage Technique)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Configuré et supervisé des serveurs MSAN sous Linux pour la fourniture de services Internet et téléphonie."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT - École Supérieure Privée d'Ingénierie et de Technologies",
+        "degree": "Licence Appliquée en Génie Électrique",
+        "field": "Architecture IT et Cloud Computing",
+        "year": null
+      },
+      {
+        "institution": "ISET Kébili - Institut Supérieur des Études Technologiques de Kébili",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals (AZ-900)",
+      "Net Acad - Introduction to Cybersecurity (Cisco Networking Academy)",
+      "Oracle Cloud Infrastructure DevOps Professional - En préparation",
+      "CKA - Certified Kubernetes Administrator - Objectif 2026"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:32:31.467585+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

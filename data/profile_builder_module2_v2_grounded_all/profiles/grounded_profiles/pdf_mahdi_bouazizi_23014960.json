@@ -1,0 +1,184 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mahdi_bouazizi_23014960.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mahdi_bouazizi_23014960.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8645,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMahdi Bouazizi\nDéveloppeur Full Stack mahdibouazizi 10@gmail.com · +216 21 734 598\nGitHub · Portfolio\nConception de la base de données et implémentation d'APIs REST.\nDéveloppement d'une interface utilisateur responsive.\nApplication de gestion de services\nDéveloppement d'une application web avec Angular et Spring Boot.\nMise en place d'un système d'authentification et de messagerie temps réel.\nCréation de dashboards et fonctionnalités de recherche avancée.\n\n## PROFESSIONAL SUMMARY\n\nProfil\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeur Full Stack avec une solide expérience dans la conception d'applications web modernes et d'architectures microservices. Spécialisé en développement backend, conception d'APIs et intégration de systèmes complexes. Actuellement orienté vers l'intégration de solutions d'intelligence artificielle dans les architectures backend avec Spring AI.\n**Date: ** 2020 - 2024\n- Expériences professionnelles\n- Plateforme E-commerce Microservices\n- Conception et développement d'une plateforme e-commerce basée sur une architecture microservices .\nDéveloppement de plusieurs services métier: Product, Order, Customer, Payment et Notification .\n**Date: ** 2025 - Présent\n- Mise en place d'un API Gateway pour centraliser le routage et l'accès aux services backend.\n- Sécurisation des APIs avec Keycloak (OAuth 2/Open ID Connect) .\n- Intégration de Kafka pour la communication asynchrone entre services.\n- Conteneurisation de la plateforme avec Docker et Docker Compose .\n- Mise en place du distributed tracing avec Zipkin pour le suivi des appels inter-services.\n- Développement d'un AI Agent avec Spring AI pour interpréter les requêtes utilisateur en langage naturel.\n- Implémentation du tool calling permettant à l'agent d'interagir avec les services backend.\nMise en place de la propagation du JWT afin de garantir la sécurité entre Gateway, AI Agent et microservices.\n- Amélioration de la fiabilité des réponses en structurant les données côté backend afin d'éviter les erreurs générées par l'IA.\n- Fiche. tn - Développeur Full Stack\n## Migration du backend vers des versions récentes (Python, FastAPI, Pydantic).\n**Date: ** 2024 - 2025\n- Refactorisation du backend pour améliorer la stabilité et les performances.\n- Migration frontend Angular 16 vers Angular 19.\n- Développement d'un module d'import de données via fichiers Excel.\n- Implémentation d'un système de sécurité basé sur rôles et permissions.\n- Application POS (Stage)\n- Développement d'une application de point de vente avec FastAPI et Angular.\n\n## TECHNICAL SKILLS\n\nCompétences\nFrontend: Angular, TypeScript, Rx JS\nBackend: Spring Boot, FastAPI, APIs REST\nBases de données: PostgreSQL, MySQL\nDevOps: Docker, Git, GitHub Actions\nArchitecture: Microservices, API Gateway, Clean Architecture\nIntelligence Artificielle: Spring AI, Tool Calling, orchestration d'APIs\nLangages: Java, Python, TypeScript\n\n## EDUCATION\n\nFormation\nLicence appliquée en technologies de l'informatique",
+    "header_info": {
+      "full_name": "Mahdi Bouazizi",
+      "email": "10@gmail.com",
+      "phone": "+216 21 734 598",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9729,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.phone",
+      "education[0].degree",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].responsibilities[7]",
+      "experiences[0].responsibilities[8]",
+      "experiences[0].start_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].start_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mahdi Bouazizi",
+      "email": "10@gmail.com",
+      "phone": "+216 21 734 598",
+      "location": null,
+      "linkedin": null,
+      "github": "GitHub"
+    },
+    "expertise": {
+      "summary": "Développeur Full Stack avec une solide expérience dans la conception d'applications web modernes et d'architectures microservices.",
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "FastAPI",
+        "PostgreSQL",
+        "MySQL",
+        "Docker",
+        "Git",
+        "GitHub Actions",
+        "Java",
+        "Python",
+        "TypeScript"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Plateforme E-commerce Microservices",
+        "job_title": null,
+        "start_date": "2025 - Présent",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mise en place d'un API Gateway pour centraliser le routage et l'accès aux services backend.",
+          "Sécurisation des APIs avec Keycloak (OAuth 2/Open ID Connect) .",
+          "Intégration de Kafka pour la communication asynchrone entre services.",
+          "Conteneurisation de la plateforme avec Docker et Docker Compose .",
+          "Mise en place du distributed tracing avec Zipkin pour le suivi des appels inter-services.",
+          "Développement d'un AI Agent avec Spring AI pour interpréter les requêtes utilisateur en langage naturel.",
+          "Implémentation du tool calling permettant à l'agent d'interagir avec les services backend.",
+          "Mise en place de la propagation du JWT afin de garantir la sécurité entre Gateway, AI Agent et microservices.",
+          "Amélioration de la fiabilité des réponses en structurant les données côté backend afin d'éviter les erreurs générées par l'IA."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeur Full Stack",
+        "start_date": "2024 - 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Refactorisation du backend pour améliorer la stabilité et les performances.",
+          "Migration frontend Angular 16 vers Angular 19.",
+          "Développement d'un module d'import de données via fichiers Excel.",
+          "Implémentation d'un système de sécurité basé sur rôles et permissions."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeur Full Stack",
+        "start_date": "2020 - 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une plateforme e-commerce basée sur une architecture microservices .",
+          "Développement de plusieurs services métier: Product, Order, Customer, Payment et Notification ."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Licence appliquée en technologies de l'informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:09:41.730622+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

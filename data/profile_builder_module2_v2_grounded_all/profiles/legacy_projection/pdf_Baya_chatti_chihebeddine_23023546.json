@@ -1,0 +1,130 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Baya_chatti_chihebeddine_23023546.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Baya_chatti_chihebeddine_23023546.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Baya_chatti_chihebeddine_23023546.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "BAYA CHATTI CHIHEB EDDINE",
+      "email": "chattichiheb35@gmail.com",
+      "phone": "+216 24 611 837",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "LLM",
+        "Prompt Engineering",
+        "Groq",
+        "SQL",
+        "PostgreSQL",
+        "FastAPI",
+        "Docker",
+        "Java",
+        "C/C++",
+        "JavaScript",
+        "PHP",
+        "ReactJS",
+        "React Native",
+        "Node.js",
+        "Express JS",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "MongoDB",
+        "Hadoop",
+        "Spark"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur IA et Data",
+        "company": "BNS Engineering",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception et développement d’un assistant permettant de transformer des requêtes formulées en langage naturel en requêtes SQL exploitables par la base de données.",
+          "Mise en place d’un mécanisme de validation et de sécurisation des requêtes générées afin d’assurer leur conformité avec le schéma de la base et éviter les opérations non autorisées.",
+          "Exécution automatique des requêtes générées et restitution des résultats sous forme de tableaux exploitables pour l’analyse."
+        ]
+      },
+      {
+        "job_title": "Stagiaire en Intelligence Artificielle",
+        "company": "Dun Dill",
+        "start_date": "05/08/2024",
+        "end_date": "10/09/2024",
+        "city": "Sousse",
+        "responsibilities": [
+          "Développé un modèle de machine learning pour l’identification de personnes basé sur des variations orthographiques des noms et prénoms, utilisant des algorithmes comme SVM, Arbre de Décision et XGBoost."
+        ]
+      },
+      {
+        "job_title": "Stagiaire en Intelligence Artificielle",
+        "company": "Enova Robotics",
+        "start_date": "01/07/2024",
+        "end_date": "31/07/2024",
+        "city": "Sousse",
+        "responsibilities": [
+          "Développement d’une interface basée sur un Large Language Model (LLM) pour optimiser les processus internes des ressources humaines."
+        ]
+      },
+      {
+        "job_title": "Stage de Fin d’Études",
+        "company": "Chaaben Technology Group",
+        "start_date": "05/02/2022",
+        "end_date": "30/05/2022",
+        "city": "Sousse",
+        "responsibilities": [
+          "Développement d’une application cross-plateforme pour la gestion des parkings."
+        ]
+      },
+      {
+        "job_title": "Stage de Fin d’Études",
+        "company": "BNS Engineering",
+        "start_date": "03/02/2025",
+        "end_date": "30/06/2025",
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception d’un système intelligent de détection de fraudes dans les transactions douanières.",
+          "Développement de deux modèles XGBoost: l’un pour la détection des fraudes, l’autre pour la classification du type de fraude."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme National d’Ingénieur en Informatique",
+        "school": "Epi Digital School Sahloul",
+        "year": null
+      },
+      {
+        "degree": "Licence appliquée en Télécommunication",
+        "school": "ISITCOM Hammem-Sousse",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat spécialité Mathématiques",
+        "school": "Lycée Farhat Hached M’saken",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:41:58.397451+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9432,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

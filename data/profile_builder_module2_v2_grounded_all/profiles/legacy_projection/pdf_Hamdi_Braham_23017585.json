@@ -1,0 +1,91 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hamdi_Braham_23017585.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hamdi_Braham_23017585.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hamdi_Braham_23017585.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "HAMDI BRAHAM",
+      "email": "52@gmail.com",
+      "phone": "+216 52676758",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieur logiciel motivé et dévoué, avec une solide maîtrise des langages de programmation.",
+      "hard_skills": [
+        "Flutter",
+        "React",
+        "Node.js",
+        "Angular",
+        "Spring Boot",
+        "ASP.NET",
+        "Python",
+        "C",
+        "C#",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Dart"
+      ],
+      "soft_skills": [
+        "collaboration",
+        "communication"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Lanterns Studio",
+        "start_date": "01 juillet 2022",
+        "end_date": "01 septembre 2022",
+        "city": null,
+        "responsibilities": [
+          "Développement d'applications web et mobiles",
+          "Gestion de bases de données"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Nuage Technologies",
+        "start_date": "01 juillet 2022",
+        "end_date": "01 septembre 2022",
+        "city": null,
+        "responsibilities": [
+          "Développement d'applications web et mobiles",
+          "Gestion de bases de données"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme en Ingénierie Logicielle",
+        "school": "EPI Digital school",
+        "year": null
+      },
+      {
+        "degree": "Licence en Sciences et Technologies de l'Information et de la Communication",
+        "school": "Institut Supérieur d'Informatique et de Mathématiques de Monastir",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:17:32.073519+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.686,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

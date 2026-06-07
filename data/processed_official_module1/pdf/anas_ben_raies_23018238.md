@@ -1,0 +1,76 @@
+## PROFESSIONAL SUMMARY
+
+PROFILES
+Anas Ben Raies
+Linked In
+Ingénieur Full Stack anas. benraies@gmail. com +216 51 830 190 Tunisie , Tunis
+anas ben rais
+ Github
+anas ben raies
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+### Hi Intern
+### Tunisie , Tunis Février 2026 -Mars 2026
+-  Website anas ben raies
+- Ingénieur Full Stack
+- COMPETANCES
+Développement de fonctionnalités complètes pour une solution Saa S avec Next. js, en intervenant sur le full-stack et la base de données Supabase. Analyse des besoins, conception des solutions, résolution de problèmes et implémentation des fonctionnalités de bout en bout.
+**Date:** 2024 - Certiport
+**Location:** Nest. js, Spring Boot, Django
+
+## LANGUAGES
+
+languages de Programmation HTML, CSS, Java Script, java, Python
+LANGUES
+Arabe
+Français
+
+## TECHNICAL SKILLS
+
+Frameworks et Bibliothèques React, Next. js, Node. js, Express. js,
+Arab Soft
+Tunisie , Tunis Février 2025 - Juin 2025
+Stagiaire en génie logiciel
+Outils et Technologies
+Git, Git Hub, Git Hub Actions, MQTT, Nginx, Apache Kafka, Grafana, AWS, Docker, Jinkins, IA générative
+Création d'un logiciel qui modélise des workflows selon la norme BPMN et les transforme automatiquement en modules logiciels prêts à être déployés, accélérant la conception et le développement tout en garantissant la cohérence des fonctionnalités.
+Bases de Données
+Postgre SQl, My SQL, Mongodb
+Centre national de l'informatique
+Tunisie , Tunis Juin 2024 - Juillet 2024
+Stagiaire en génie logiciel
+Conception et Framework de Développement
+Développement d'un plugin Grafana personnalisé et intégration d'un plugin externe pour visualiser plus de 10 millions de données provenant de 24 régions tunisiennes , étendant les capacités de l'outil . tout en mettant en place JWT et Nginx pour une authentification sécurisée au sein d'une équipe de 3 membres .
+IT Specialist Databases
+IT Specialist Software Development 2023 - Certiport
+Software Gen - Réalisé au sein d'Arab Soft
+Software Gen est une application qui transforme des workflows modélisés en modules logiciels fonctionnels, en générant plusieurs écrans web avec l'IA générative.
+PRIX
+Basée sur une architecture orientée services, elle utilise JWT et Supabase pour sécuriser les utilisateurs et assurer une gestion fiable des données.
+Première place au hackathon Agile
+Architecture SOA , React, Express. js , IA Génerative , Supabase , Automation
+Imonitor
+Plateforme de supervision Io T en environnement simulé permettant de suivre en temps réel l'usage, l'état et les données émises par des appareils connectés via un dashboard responsive.
+React, Redux Tool Kit , Spring Boot , Spring Security , MQTT Broker .
+
+## CERTIFICATES (IN PROGRESS)
+
+CERTIFICATIONS
+IT Specialist Java Script 2024 - Certiport
+
+## EDUCATION
+
+Polytech international
+cycle ingénieur en informatique
+programme en ingénierie backend
+Boot. dev 2024
+
+## ACADEMIC PROJECTS
+
+PROJETS
+
+## DELF B 2
+
+Anglais

@@ -1,0 +1,211 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Ali_Trabelsi_23022115.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Ali_Trabelsi_23022115.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8601,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMohamed Ali Trabelsi\nIngénieur Fullstack Confirmé\nAdresse:\nIngénieur Backend & IA | Sagy. ai\nMay 2023 - Septembre 2023\nPilotage des améliorations de performance du chunking et de récupération du RAG. Intégration de pipelines IA multi-modèles pour le chat, l'extraction de thèmes et l'analyse de sentiment. Gestion complète de l'infrastructure Docker (dev/test/prod) avec services conteneurisés et migrations automatisées.\nTechnologies: Python, Django (DRF), JavaScript, TypeScript, Next. js, React, Docker, Nginx, Gunicorn, Redis, PostgreSQL, Chroma DB, LLMs, Azure (VMs, AI models, Blob Storage), APIs (Slack, Notion, MS Teams)\nIngénieur Backend & IA | Qinsights. ai\nOptimisation des performances de pipeline RAG (recherche, segmentation, indexation) et intégré des workflows IA multi-modèles et multi-fournisseurs (chat, thèmes, sentiment, citations). Géré l'infrastructure Docker de bout en bout (dev/test/prod) avec services conteneurisés et migrations automatisées.\nTechnologies: Python, Django, PostgreSQL, pgvector, RAG, Vector Search, LLM, Azure (VMs, AI models, Blob Storage), Redis, Web Sockets, Docker, Docker Compose, CI/CD, Uvicorn, Jira, SCRUM, Agile\nIngénieur Fullstack | Westic Logistics\nContribution à une plateforme logistique couvrant React (web), React Native (mobile) et Node. js (backend). Intégration de fonctionnalités d'expédition et de géolocalisation avec Open Street Map + Leaflet.\nTechnologies: React, React Native, Expo, Node. js, Express. js, MongoDB, Mongoose, REST API, Open Street Map, Leaflet, React-Leaflet, Geolocation, JWT, Axios, React Query, Formik, Yup, Docker, PM 2\nStagiaire Développeur Backend | Lo Deep. com\nDéveloppé le backend d'un système de recommandation pour suggérer des partenaires d'étude, des ressources pédagogiques et des activités, basé sur un filtrage collaboratif hybride (user-item based).\nTechnologies: NodeJS, Express, Python, Flask, MongoDB, Git, GitHub, Data Warehousing, ETL process\nDéveloppeur Fullstack (Freelance) | Freelancer. com\nCalculateur de probabilités de gain au Baccarat basé sur des algorithmes probabilistes.\nRefonte du site web d'une agence de voyage avec React et Node. js, incluant un portail d'administration.\nPortail de téléchargement de films avec intégration aux APIs de plusieurs fournisseurs de stockage.\nApplication de quiz pour enseignants avec Vue. js, Express, MongoDB et l'API Google Sheets.\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieur logiciel accompli avec plus de 5 ans d'expérience dans la conception de solutions Saa S et AI-native. Solide expérience dans la conduite de migrations legacy complexes et l'ingénierie de systèmes multi-agents. Forte maîtrise de l'écosystème JavaScript, du SQL complexe, et de l'orchestration LLM et RAG en Python.\n**Date: ** La Soukra, Ariana, 2073\nPiloté la migration intégrale d'un moteur géospatial Perl vieux de plus de 10 ans vers une architecture Node. js modulaire, garantissant une parité à 100% sur un corpus de plus de 500 plans SVG de prod. Le moteur combine algèbre linéaire, trigonométrie, et traitement Regex intensif pour convertir des SVG de plans architecturaux en JSON structuré exploité par un moteur de cartographie 3 D.\n**Date: ** Février 2025 - Présent\nDéveloppé une plateforme mobile hybride (Ionic 8/Angular 19/Cordova) pour remplacer une app Angular JS, en maintenant la rétrocompatibilité sur une flotte de tablettes Android spéciales (7+ modèles, APIs 23 à 31) avec contrôle et accès à distance via ADB et SSH. Création des plugins Cordova natifs en Java pour assurer la compatibilité avec des intégrations système bas niveau sous Android 10+.\n**Date: ** Juin 2020 - Août 2020\nTechnologies: Angular 19, Ionic 7, Angular JS, Cordova, Node. js, Perl, MySQL, Java (Android SDK), Socket. IO, adbkit, SSH tunneling, Android Shell, 3 D Rendering, Regex, XML/XPath, Canvas API, Three. js\n**Date: ** Octobre 2024 - Février 2025\n- Contribution à une plateforme de recrutement IA-native permettant aux recruteurs d'automatiser la présélection et l'évaluation de candidats via des workflows pilotés par des LLMs. Conception de pipelines de traitement LLM asynchrones (Rabbit MQ) avec intégration de SDKs IA muli-models et multi-fournisseurs.\n\n## EXPERIENCE PROFESSIONNELLE\n\nIngénieur Fullstack | Netisse Services\nIngénieur Fullstack & IA | Navero\nIngénieur Fullstack & IA | Emye HR\n\n## TECHNICAL SKILLS\n\nTechnologies: TypeScript, JavaScript, Python, FastAPI, PostgreSQL, Next. js, React, Prisma, Supabase, Redux, FastAPI, Pydantic, Rabbit MQ, Redis, Docker, multi-provider LLM SDKs, GCP (storage, cloud run)\nTechnologies: JavaScript, React, Vue Js, Svelte, HTML, CSS, NodeJS, MongoDB, Google APIs (Drive, Sheets), Cloud Disk APIs, JWT, Oauth, Java, Android Studio, Git, Github, Heroku, Firebase\n\n## ACADEMIC PROJECTS\n\nConçu et développé un écosystème IA multi-agents intégré à Slack, MS Teams et à l'application Saa S, avec des environnements sandboxés sécurisés pour traiter des données et générer des graphiques RH interactifs à la demande. Développé des modules RH de gestion des Offres d'Emploi, des Congés, des sondages, et des Réunions Annuelles. Encadré deux stagiaires sur des projets de fine-tuning de LLMs et d'optimisation RAG.\nConçu et développé Flexi Space, une plateforme de gestion des espaces de travail dotée d'un designer de plans en drag-and-drop et d'une optimisation de la planification pilotée par IA. Développé une suite de solutions intégrées pour la gestion des parkings et du covoiturage.\nTechnologies: Angular, Typescript, Nodejs, PostgreSQL, n 8 n, Java, Quarkus, Opta Planner, Socket. io, Python, LLMs, RAG, Custom Elements, Shadow DOM, Saa S, Docker, Linux, Git, Jira, Agile, SCRUM\n\n## EDUCATION\n\n## Stagiaire de fin d'études, Ingénieur Fullstack | Emye HR\n**Date: ** Février 2023 - Mai 2023\n## Tunis Business School, Tunis, Tunisia | Diplômé en September 2023\n**Date: ** Septembre 2023 - Octobre 2024\nBachelor's degree (BSBA), Major in Information Technology, Minor in Business Analytics\n\n## LANGUAGES\n\nLANGUES\nAnglais:\nFrançais:\nArabe:\nProfessionnel\nProfessionnel\nLangue maternelle\nCONTACT\nPhone:\nLinked In:\nwww. linkedin.com/in/mohamed-ali-trabelsi\nWebsite:\nmohamedalitrabelsi. tn\nEmail:\ntrabelsimuhamedali@gmail.com",
+    "header_info": {
+      "full_name": "Mohamed Ali Trabelsi",
+      "email": null,
+      "phone": null,
+      "location": "Technologies: Python, Django (DRF), JavaScript, TypeScript, Next. js, React, Docker, Nginx, Gunicorn, Redis, PostgreSQL, Chroma DB, LLMs, Azure (VMs, AI models, Blob Storage), APIs (Slack, Notion, MS Teams)",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6676,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.linkedin",
+      "experiences[1].start_date"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[3].company",
+      "experiences[4].company",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "bio.linkedin",
+      "experiences[1].start_date"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mohamed Ali Trabelsi",
+      "email": "trabelsimuhamedali@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "Django (DRF)",
+        "JavaScript",
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Docker",
+        "Nginx",
+        "Gunicorn",
+        "Redis",
+        "PostgreSQL",
+        "Chroma DB",
+        "LLMs",
+        "Azure (VMs, AI models, Blob Storage)",
+        "APIs (Slack, Notion, MS Teams)"
+      ],
+      "soft_skills": [
+        "Agile",
+        "SCRUM"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "May 2023 - September 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Pilotage des améliorations de performance du chunking et de récupération du RAG.",
+          "Intégration de pipelines IA multi-modèles pour le chat, l'extraction de thèmes et l'analyse de sentiment.",
+          "Gestion complète de l'infrastructure Docker (dev/test/prod) avec services conteneurisés et migrations automatisées."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception de pipelines de traitement LLM asynchrones (Rabbit MQ) avec intégration de SDKs IA muli-models et multi-fournisseurs."
+        ]
+      },
+      {
+        "company": "Netisse Services",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": "Navero",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": "Emye HR",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "Tunis Business School, Tunis, Tunisia",
+        "degree": "Bachelor's degree (BSBA), Major in Information Technology, Minor in Business Analytics",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Tunis Business School, Tunis, Tunisia",
+        "degree": "Diplôme en September 2023",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Anglais",
+      "Français",
+      "Arabe"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:30:38.728627+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

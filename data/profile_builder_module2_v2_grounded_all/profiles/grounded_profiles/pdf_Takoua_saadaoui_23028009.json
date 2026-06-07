@@ -1,0 +1,240 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Takoua_saadaoui_23028009.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Takoua_saadaoui_23028009.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8383,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSAADAOUI Takoua\ntakouaasaadaoui@gmail.com takoua-saadaoui-b 776 aa 175/Ingénieure En Génie Logiciel\ntakouas\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences professionnelles\nDéveloppeur\nDéveloppement d'agents IA et outils carrière\n## Environnements techniques: React. js, Laravel, Z. AI, Prompt Engineering\nDéveloppement de dashboards Saa S, avec conception d'API et gestion de bases de données.\n- Intégration de fonctionnalités intelligentes\n## Environnements techniques: React. js, Redux, Node. js, SQL server\n**Date: ** 08/2024- 08/2025\n- Formatrice indépendante\n- Accompagnement de particuliers et d'étudiants dans l'apprentissage des outils informatiques et du développement web.\nDéveloppement d'une application de gestion de stock pour Boukhris. Environnements techniques: ReactJS, Redux, Ant design, NodeJS, Draw. io.\n**Date: ** 05/2024 - 07/2024\n**Location: ** Boukhris l Kairouan, Tunisie\n- Interfaces responsives + module AWS\n- Revue de code et amélioration continue\nMéthodologie et environnements techniques: ReactJS, Redux, Ant design, Bootsrap 4, NodeJS, GIT, Jira, Agile Scrum.\n- Application portage salarial (microservices)\n- Tests API et documentation\nMéthodologie et environnements techniques: ReactJS, Spring Boot, Microservices, Postman, GIT, PostgreSQL, Jira, Agile Scrum, Draw. io.\n**Date: ** 06/2022 - 08/2022\n- Plateforme immobilière\n- Analyse besoins + développement\n## Environnements techniques: ReactJS, NodeJS, Postman, GIT, MongoDB, Draw. io.\n- Développement d'un dashboard pour un site e-commerce.\n## Environnements techniques: PHP, MySQL, Draw. io.\n## Système BI pour point de vente (Angular, .NET, Talend)\n## Pipeline CI/CD e-commerce (Jenkins, Docker)\n- Applications gestion stock & dashboards\n\n## ACADEMIC PROJECTS\n\nDiplômée en génie logiciel, je conçois des solutions performantes avec rigueur et créativité. Curieuse et adaptable, je m'investis dans des projets innovants où je peux apporter une réelle valeur ajoutée.\n## CHISAK l Monastir, Tunisie\n**Date: ** 08/2025 - Présent\n- Optimisation UI/UX\n- Projets académiques\n- Vie associative\n## Tek-up l Ariana, Tunisie\n- Membre au club dev-up dans Tek-Up.\n- Membre au club théâtre de lycée Ebnouu al baytar.\n\n## TECHNICAL SKILLS\n\nCompétences\nJavascript, Java, Python, PHP, HTML 5, CSS 3, ReactJS, Redux, Bootsrap 4, Ant Design, Semantic UI, Material UI, Node. js, Express. js, Spring Boot, Scrum (Agilité), MySQL, MongoDB, PostgreSQL, SQLServer, Windows, Linux, Git, GitHub, VMware, Virtual Box, Jenkins, Microsoft Word, Power Point, Google Docs, Google Slides, Overleaf, Canva, Outlook, Gmail, Trello, Jira, Draw. io, Balsamiq, Figma, IA générative, Prompt Engineering\nFreelance développeur\n\n## EDUCATION\n\nFormation\nIngénieure en informatique\n## 09/2020-10/2023 Tek-up | Ariana, Tunisie\n**Date: ** 02/2024 - 04/2024\n**Location: ** Booster BC l Nabeul, Tunisie\n- Formation intensive en développement web\n## (Parcours suivant une pédagogie active) 02/2020-06/2020 Simplon | Tunis, Tunisie\n**Date: ** 09/2017-07/2019\n- Diplômé en licence appliquée en physique\n- Stagiaire\n- INSY 2 S l France\n## Issat | Mahdia, Tunisie\n**Date: ** 02/2023 - 08/2023\n## Baccalauréat mathématique\n**Date: ** 09/2015-06/2016\n## Iben al baytar | Béja, Tunisie\n\n## LANGUAGES\n\nLangues\nXELERO l Tunis, Tunisie\nArabe\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nSEO Certificate (hubspot)\nGoogle Analytics Certificate MTA Python",
+    "header_info": {
+      "full_name": "SAADAOUI Takoua",
+      "email": "takouaasaadaoui@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9677,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].institution",
+      "education[2].year",
+      "education[3].degree",
+      "education[3].institution",
+      "education[3].year",
+      "education[4].institution",
+      "education[4].year",
+      "experiences[0].city",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.years_experience",
+      "languages[0]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "SAADAOUI Takoua",
+      "email": "takouaasaadaoui@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "React.js",
+        "Laravel",
+        "Z. AI",
+        "Prompt Engineering",
+        "Node.js",
+        "SQL server",
+        "Redux",
+        "Ant design",
+        "PostgreSQL",
+        "Jira",
+        "Git",
+        "GitHub"
+      ],
+      "soft_skills": [
+        "Formatrice indépendante",
+        "Accompagnement de particuliers et d'étudiants",
+        "Optimisation UI/UX",
+        "Projets académiques",
+        "Vie associative"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Développeur",
+        "start_date": "08/2024- 08/2025",
+        "end_date": null,
+        "city": "Boukhris l Kairouan, Tunisie",
+        "responsibilities": [
+          "Intégration de fonctionnalités intelligentes",
+          "Formatrice indépendante",
+          "Accompagnement de particuliers et d'étudiants dans l'apprentissage des outils informatiques et du développement web"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeur",
+        "start_date": "05/2024 - 07/2024",
+        "end_date": null,
+        "city": "Boukhris l Kairouan, Tunisie",
+        "responsibilities": [
+          "Interfaces responsives + module AWS",
+          "Revue de code et amélioration continue"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeur",
+        "start_date": "06/2022 - 08/2022",
+        "end_date": null,
+        "city": "Boukhris l Kairouan, Tunisie",
+        "responsibilities": [
+          "Plateforme immobilière",
+          "Analyse besoins + développement"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeur",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un dashboard pour un site e-commerce"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Tek-up | Ariana, Tunisie",
+        "degree": "Ingénieure en informatique",
+        "field": null,
+        "year": "09/2020-10/2023"
+      },
+      {
+        "institution": "Simplon | Tunis, Tunisie",
+        "degree": null,
+        "field": null,
+        "year": "02/2020-06/2020"
+      },
+      {
+        "institution": "INSY 2 S l France",
+        "degree": null,
+        "field": null,
+        "year": "09/2017-07/2019"
+      },
+      {
+        "institution": "Issat | Mahdia, Tunisie",
+        "degree": "Baccalauréat mathématique",
+        "field": null,
+        "year": "02/2023 - 08/2023"
+      },
+      {
+        "institution": "Iben al baytar | Béja, Tunisie",
+        "degree": null,
+        "field": null,
+        "year": "09/2015-06/2016"
+      }
+    ],
+    "languages": [
+      "Arabe"
+    ],
+    "certifications": [
+      "SEO Certificate (hubspot)",
+      "Google Analytics Certificate MTA Python"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:48:48.462758+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

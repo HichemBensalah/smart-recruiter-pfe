@@ -1,0 +1,1722 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Khaled_Wesslati_23024022.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "KHALED WESSLATI\nFull Stack AI Engineer\n+216 53 566 544\nkhaled.wessllati@gmail.com\nlinkedin.com/in/khaled-wesslati\nPROFESSIONAL SUMMARY\nPROFIL\nPROFESSIONAL EXPERIENCE\nIngénieur Full Stack AI avec 3 ans d'expérience dans la conception d'applications LLM, RAG et d'agents IA autonomes. Spécialisé dans le développement de solutions end-to-end - du backend intelligent au frontend moderne - avec une expertise en Agentic AI, semantic search et traitement documentaire (OCR), déployées en local ou sur Azure, dans des domaines tels que le recrutement, l'académique et la fintech.\nBen Arous, Tunis\nDéveloppement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires.\nConception d'un pipeline de traitement documentaire avec Azure Document Intelligence, nettoyage PDF et chunking sémantique par article. Implémentation d'une recherche hybride avec Azure AI Search et génération de réponses sourcées via GPT-4o.\nINSOMEA - AI Engineer | Jan 2026\nAutomatisation du support étudiant 24/7, avec des réponses fiables, contextualisées et une réduction de 70 % des demandes répétitives adressées au staff.\nINSOMEA - AI Engineer | Sep 2025\nConception d'un pipeline d'ingestion IA sur Azure, combinant OCR, fusion de contenu, chunking et extraction structurée via GPT -4o. Implémentation d'une indexation hybride texte/vecteurs et reranking sémantique pour CVs et fiches de poste.\nRéduction de 75% du temps d'analyse et amélioration de 40% de la précision du matching candidats/postes en automatisant le traitement documentaire.\nDéveloppement d'un chatbot de prise de rendez-vous piloté par un LLM pour l'extraction, la validation et la correction automatique des paramètres (date, lieu, durée, motif).\nARSELA - AI Engineer |  Jan 2025\nIntégration d'une API GraphQL pour la synchronisation temps réel des créneaux experts (réservation, annulation, réintégration).\nExpérience de réservation fluide, réduisant de 85 % les échanges manuels et atteignant un taux de succès de prise de RDV de +90%.\nARSELA - AI Engineer  |  Sep 2024\nConception d'un moteur d'éligibilité bancaire appliquant des règles métier strictes (âge, revenu, endettement, score de crédit) pour orienter automatiquement vers le type de crédit adapté.\nDéveloppement d'un formulaire collectant les données financières et professionnelles, avec analyse automatisée par un algorithme de décision.\nMise en place d'une génération de rapports personnalisés (avis favorable/défavorable) avec détail des critères non satisfaits et recommandations claires.\nSep 2020 - Oct 2023 | Ariana Sep 2018 - Jul 2020 | Sfax École Supérieure privée d'ingénierie et de Technologie : Cycle d'ingénieur en informatique en Data Science Faculté des sciences de Sfax : Cycle Préparatoire en Physique chimie\nEXPÉRIENCES PROFESSIONNELLES\nUoB Advisor\nTalent Scan\nDéveloppement d'une plateforme avec un agent conversationnel GPT -4o sur Azure AI Foundry, relié à Azure AI Search.\nNeuroMeet\nMise en place d'un historique conversationnel avec gestion contextuelle des incohérences et des erreurs utilisateur.\nQCredit\nAccélération de 95 % du traitement des dossiers, avec une réponse instantanée remplaçant un processus manuel long.\nFORMATION SCOLAIRE\nCERTIFICATES (IN PROGRESS)\nCERTIFICATIONS\nAI-102 : Azure AI Engineer Associate\nCOMPÉTENCES TECHNIQUES\nIA Générative & LLMs : LLMs, SLMs, OpenAI API, Prompt Engineering, Embeddings, FinBERT, LangChain.\nAgentic AI & Orchestration : Agentic AI, Multi-Agent Systems, Agents Conversationnels, LangGraph, MCP Servers, n8n.\nTraitement de données & documents : Pandas, NumPy, BeautifulSoup, Selenium, Requests, Azure Document Intelligence.\nEDUCATION\nRAG & Recherche d'information : Architectures RAG (Classique, Hybride, Graph, Self-RAG, CRAG, Agentic), Stratégies de Chunking (Sémantique, Récursif,\nParent-Child, Agentic), Recherche Lexicale (BM25, BM42), RRF, Reranking (Cross-Encoder), Retrieval Dense (Bi-Encoder), Qdrant, Azure AI Search.\nMACHINE LEARNING & DEEP LEARNING\nMachine Learning : TensorFlow, Keras, Scikit-learn, Classification, Régression, Clustering (K-Means), Random Forest.\nTECHNICAL SKILLS\nCloud & Azure AI : AI Foundry, AI Services, AI Search, AI Video Indexer, Blob Storage, Table Storage, Functions, Virtual Machines.\nLangages, Backend & APIs : Python , FastAPI, Django, Node.js, REST APIs, GraphQL, PostgreSQL, MongoDB, Redis.\nDevOps & Intégrations : Docker, Kubernetes, GitLab CI/CD, Auth0, Twilio.\nFrontend : React, Next.js, Angular, Tailwind CSS.",
+  "markdown": "## KHALED WESSLATI\n\nFull Stack AI Engineer\nkhaled. wessllati@gmail. com\nlinkedin. com/in/khaled-wesslati\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieur Full Stack AI avec 3 ans d'expérience dans la conception d'applications LLM, RAG et d'agents IA autonomes. Spécialisé dans le développement de solutions end-to-end - du backend intelligent au frontend moderne - avec une expertise en Agentic AI, semantic search et traitement documentaire (OCR), déployées en local ou sur Azure, dans des domaines tels que le recrutement, l'académique et la fintech.\n**Location:** Ben Arous, Tunis\n- Développement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires.\nConception d'un pipeline de traitement documentaire avec Azure Document Intelligence, nettoyage PDF et chunking sémantique par article. Implémentation d'une recherche hybride avec Azure AI Search et génération de réponses sourcées via GPT-4 o.\n**Date:** INSOMEA - AI Engineer | Jan 2026\nAutomatisation du support étudiant 24/7, avec des réponses fiables, contextualisées et une réduction de 70 % des demandes répétitives adressées au staff.\n**Date:** INSOMEA - AI Engineer | Sep 2025\nConception d'un pipeline d'ingestion IA sur Azure, combinant OCR, fusion de contenu, chunking et extraction structurée via GPT -4 o. Implémentation d'une indexation hybride texte/vecteurs et reranking sémantique pour CVs et fiches de poste.\n- Réduction de 75% du temps d'analyse et amélioration de 40% de la précision du matching candidats/postes en automatisant le traitement documentaire.\nDéveloppement d'un chatbot de prise de rendez-vous piloté par un LLM pour l'extraction, la validation et la correction automatique des paramètres (date, lieu, durée, motif).\n**Date:** ARSELA - AI Engineer | Jan 2025\nIntégration d'une API Graph QL pour la synchronisation temps réel des créneaux experts (réservation, annulation, réintégration).\nExpérience de réservation fluide, réduisant de 85 % les échanges manuels et atteignant un taux de succès de prise de RDV de +90%.\n**Date:** ARSELA - AI Engineer | Sep 2024\nConception d'un moteur d'éligibilité bancaire appliquant des règles métier strictes (âge, revenu, endettement, score de crédit) pour orienter automatiquement vers le type de crédit adapté.\nDéveloppement d'un formulaire collectant les données financières et professionnelles, avec analyse automatisée par un algorithme de décision.\n- Mise en place d'une génération de rapports personnalisés (avis favorable/défavorable) avec détail des critères non satisfaits et recommandations claires.\nSep 2020 - Oct 2023 | Ariana Sep 2018 - Jul 2020 | Sfax École Supérieure privée d'ingénierie et de Technologie : Cycle d'ingénieur en informatique en Data Science Faculté des sciences de Sfax : Cycle Préparatoire en Physique chimie\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nUo B Advisor\nTalent Scan\nDéveloppement d'une plateforme avec un agent conversationnel GPT -4 o sur Azure AI Foundry, relié à Azure AI Search.\nNeuro Meet\nMise en place d'un historique conversationnel avec gestion contextuelle des incohérences et des erreurs utilisateur.\nQCredit\nAccélération de 95 % du traitement des dossiers, avec une réponse instantanée remplaçant un processus manuel long.\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nAI-102 : Azure AI Engineer Associate\n\n## COMPÉTENCES TECHNIQUES\n\nIA Générative & LLMs : LLMs, SLMs, Open AI API, Prompt Engineering, Embeddings, Fin BERT, Lang Chain.\nAgentic AI & Orchestration : Agentic AI, Multi-Agent Systems, Agents Conversationnels, Lang Graph, MCP Servers, n 8 n.\nTraitement de données & documents : Pandas, Num Py, Beautiful Soup, Selenium, Requests, Azure Document Intelligence.\n\n## EDUCATION\n\nRAG & Recherche d'information : Architectures RAG (Classique, Hybride, Graph, Self-RAG, CRAG, Agentic), Stratégies de Chunking (Sémantique, Récursif,\nParent-Child, Agentic), Recherche Lexicale (BM 25, BM 42), RRF, Reranking (Cross-Encoder), Retrieval Dense (Bi-Encoder), Qdrant, Azure AI Search.\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning : Tensor Flow, Keras, Scikit-learn, Classification, Régression, Clustering (K-Means), Random Forest.\n\n## TECHNICAL SKILLS\n\nCloud & Azure AI : AI Foundry, AI Services, AI Search, AI Video Indexer, Blob Storage, Table Storage, Functions, Virtual Machines.\nLangages, Backend & APIs : Python , Fast API, Django, Node. js, REST APIs, Graph QL, Postgre SQL, Mongo DB, Redis.\nDev Ops & Intégrations : Docker, Kubernetes, Git Lab CI/CD, Auth 0, Twilio.\nFrontend : React, Next. js, Angular, Tailwind CSS.",
+  "logical_sections": [
+    {
+      "title": "KHALED WESSLATI",
+      "section_type": "other",
+      "content": [
+        "Full Stack AI Engineer",
+        "+216 53 566 544",
+        "khaled.wessllati@gmail.com",
+        "linkedin.com/in/khaled-wesslati"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Full Stack AI Engineer",
+          "page_no": 1,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 201.94551389310323,
+            "top": 773.2215069347264,
+            "right": 388.5059550465445,
+            "bottom": 789.3490086288481
+          },
+          "section_title": "KHALED WESSLATI"
+        },
+        {
+          "text": "+216 53 566 544",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 34.38173064742783,
+            "top": 749.3487172227839,
+            "right": 106.88436156221506,
+            "bottom": 758.0743647953979
+          },
+          "section_title": "KHALED WESSLATI"
+        },
+        {
+          "text": "khaled.wessllati@gmail.com",
+          "page_no": 1,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 134.31705495145582,
+            "top": 749.1632103592294,
+            "right": 268.0078580694584,
+            "bottom": 757.8244625465309
+          },
+          "section_title": "KHALED WESSLATI"
+        },
+        {
+          "text": "linkedin.com/in/khaled-wesslati",
+          "page_no": 1,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 297.9536875852625,
+            "top": 748.2293140694258,
+            "right": 453.4566999726897,
+            "bottom": 756.9549616420397
+          },
+          "section_title": "KHALED WESSLATI"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL SUMMARY",
+      "section_type": "summary",
+      "content": [
+        "PROFIL"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "PROFIL",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 22.17336099610992,
+            "top": 718.9659936825504,
+            "right": 79.17577735584997,
+            "bottom": 732.246628352114
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [],
+      "items": [
+        {
+          "title": "Ingénieur Full Stack AI avec 3 ans d'expérience dans la conception d'applications LLM, RAG et d'agents IA autonomes. Spécialisé dans le développement de solutions end-to-end - du backend intelligent au frontend moderne - avec une expertise en Agentic AI, semantic search et traitement documentaire (OCR), déployées en local ou sur Azure, dans des domaines tels que le recrutement, l'académique et la fintech.",
+          "date": null,
+          "location": "Ben Arous, Tunis",
+          "details": [
+            "Développement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Ingénieur Full Stack AI avec 3 ans d'expérience dans la conception d'applications LLM, RAG et d'agents IA autonomes. Spécialisé dans le développement de solutions end-to-end - du backend intelligent au frontend moderne - avec une expertise en Agentic AI, semantic search et traitement documentaire (OCR), déployées en local ou sur Azure, dans des domaines tels que le recrutement, l'académique et la fintech.",
+              "page_no": 1,
+              "block_indices": [
+                2
+              ],
+              "bbox": {
+                "left": 22.032157285193406,
+                "top": 680.9895805384965,
+                "right": 571.082601500469,
+                "bottom": 712.2772778627302
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Ben Arous, Tunis",
+              "page_no": 1,
+              "block_indices": [
+                45
+              ],
+              "bbox": {
+                "left": 483.91653257201034,
+                "top": 748.0437987818716,
+                "right": 561.2804636032591,
+                "bottom": 756.705050969173
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Développement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires.",
+              "page_no": 1,
+              "block_indices": [
+                6
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 604.0356344481261,
+                "right": 565.7280667632949,
+                "bottom": 623.0323177772705
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Conception d'un pipeline de traitement documentaire avec Azure Document Intelligence, nettoyage PDF et chunking sémantique par article. Implémentation d'une recherche hybride avec Azure AI Search et génération de réponses sourcées via GPT-4o.",
+          "date": "INSOMEA - AI Engineer | Jan 2026",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Conception d'un pipeline de traitement documentaire avec Azure Document Intelligence, nettoyage PDF et chunking sémantique par article. Implémentation d'une recherche hybride avec Azure AI Search et génération de réponses sourcées via GPT-4o.",
+              "page_no": 1,
+              "block_indices": [
+                7
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 580.2766327820844,
+                "right": 566.816365403764,
+                "bottom": 599.2733161112288
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "INSOMEA - AI Engineer | Jan 2026",
+              "page_no": 1,
+              "block_indices": [
+                5
+              ],
+              "bbox": {
+                "left": 398.17330811944475,
+                "top": 629.6994555406056,
+                "right": 567.6812193858557,
+                "bottom": 639.1866398287739
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Automatisation du support étudiant 24/7, avec des réponses fiables, contextualisées et une réduction de 70 % des demandes répétitives adressées au staff.",
+          "date": "INSOMEA - AI Engineer | Sep 2025",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Automatisation du support étudiant 24/7, avec des réponses fiables, contextualisées et une réduction de 70 % des demandes répétitives adressées au staff.",
+              "page_no": 1,
+              "block_indices": [
+                8
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 556.5176311160429,
+                "right": 549.9344620846656,
+                "bottom": 575.5143144451873
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "INSOMEA - AI Engineer | Sep 2025",
+              "page_no": 1,
+              "block_indices": [
+                10
+              ],
+              "bbox": {
+                "left": 396.9570961626203,
+                "top": 538.7401481305769,
+                "right": 568.2649073915362,
+                "bottom": 548.2273324187452
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Conception d'un pipeline d'ingestion IA sur Azure, combinant OCR, fusion de contenu, chunking et extraction structurée via GPT -4o. Implémentation d'une indexation hybride texte/vecteurs et reranking sémantique pour CVs et fiches de poste.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Réduction de 75% du temps d'analyse et amélioration de 40% de la précision du matching candidats/postes en automatisant le traitement documentaire."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Conception d'un pipeline d'ingestion IA sur Azure, combinant OCR, fusion de contenu, chunking et extraction structurée via GPT -4o. Implémentation d'une indexation hybride texte/vecteurs et reranking sémantique pour CVs et fiches de poste.",
+              "page_no": 1,
+              "block_indices": [
+                11
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 509.64454948899913,
+                "right": 551.491133095825,
+                "bottom": 529.5103638888187
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Réduction de 75% du temps d'analyse et amélioration de 40% de la précision du matching candidats/postes en automatisant le traitement documentaire.",
+              "page_no": 1,
+              "block_indices": [
+                13
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 472.580465193336,
+                "right": 532.83412951784,
+                "bottom": 492.33703808154735
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Développement d'un chatbot de prise de rendez-vous piloté par un LLM pour l'extraction, la validation et la correction automatique des paramètres (date, lieu, durée, motif).",
+          "date": "ARSELA - AI Engineer | Jan 2025",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Développement d'un chatbot de prise de rendez-vous piloté par un LLM pour l'extraction, la validation et la correction automatique des paramètres (date, lieu, durée, motif).",
+              "page_no": 1,
+              "block_indices": [
+                16
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 427.3626974491698,
+                "right": 565.7473038840429,
+                "bottom": 447.11927033738107
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "ARSELA - AI Engineer |  Jan 2025",
+              "page_no": 1,
+              "block_indices": [
+                15
+              ],
+              "bbox": {
+                "left": 405.0305676512256,
+                "top": 453.7630708712887,
+                "right": 567.9112761975416,
+                "bottom": 463.2502551594569
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Intégration d'une API GraphQL pour la synchronisation temps réel des créneaux experts (réservation, annulation, réintégration).",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Intégration d'une API GraphQL pour la synchronisation temps réel des créneaux experts (réservation, annulation, réintégration).",
+              "page_no": 1,
+              "block_indices": [
+                17
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 415.00800268394875,
+                "right": 536.0801884953148,
+                "bottom": 422.40988080693904
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Expérience de réservation fluide, réduisant de 85 % les échanges manuels et atteignant un taux de succès de prise de RDV de +90%.",
+          "date": "ARSELA - AI Engineer | Sep 2024",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Expérience de réservation fluide, réduisant de 85 % les échanges manuels et atteignant un taux de succès de prise de RDV de +90%.",
+              "page_no": 1,
+              "block_indices": [
+                19
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 390.29861315350666,
+                "right": 550.9527655669831,
+                "bottom": 397.70049127649696
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "ARSELA - AI Engineer  |  Sep 2024",
+              "page_no": 1,
+              "block_indices": [
+                21
+              ],
+              "bbox": {
+                "left": 405.60256295739254,
+                "top": 372.13953027226967,
+                "right": 573.2719900786428,
+                "bottom": 381.6267145604379
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Conception d'un moteur d'éligibilité bancaire appliquant des règles métier strictes (âge, revenu, endettement, score de crédit) pour orienter automatiquement vers le type de crédit adapté.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Conception d'un moteur d'éligibilité bancaire appliquant des règles métier strictes (âge, revenu, endettement, score de crédit) pour orienter automatiquement vers le type de crédit adapté.",
+              "page_no": 1,
+              "block_indices": [
+                22
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 345.5273222090109,
+                "right": 554.8388606864953,
+                "bottom": 365.28390165998826
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Développement d'un formulaire collectant les données financières et professionnelles, avec analyse automatisée par un algorithme de décision.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Mise en place d'une génération de rapports personnalisés (avis favorable/défavorable) avec détail des critères non satisfaits et recommandations claires."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Développement d'un formulaire collectant les données financières et professionnelles, avec analyse automatisée par un algorithme de décision.",
+              "page_no": 1,
+              "block_indices": [
+                23
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 320.8179244705691,
+                "right": 564.3194615734946,
+                "bottom": 340.5745039215465
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Mise en place d'une génération de rapports personnalisés (avis favorable/défavorable) avec détail des critères non satisfaits et recommandations claires.",
+              "page_no": 1,
+              "block_indices": [
+                24
+              ],
+              "bbox": {
+                "left": 22.173359061710002,
+                "top": 296.1085267321274,
+                "right": 534.470326711087,
+                "bottom": 315.8651061831049
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Sep 2020 - Oct 2023 | Ariana Sep 2018 - Jul 2020 | Sfax École Supérieure privée d'ingénierie et de Technologie : Cycle d'ingénieur en informatique en Data Science Faculté des sciences de Sfax : Cycle Préparatoire en Physique chimie",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Sep 2020 - Oct 2023 | Ariana Sep 2018 - Jul 2020 | Sfax École Supérieure privée d'ingénierie et de Technologie : Cycle d'ingénieur en informatique en Data Science Faculté des sciences de Sfax : Cycle Préparatoire en Physique chimie",
+              "page_no": 1,
+              "block_indices": [
+                27
+              ],
+              "bbox": {
+                "left": 21.582574783926013,
+                "top": 228.90903155363185,
+                "right": 572.283395700222,
+                "bottom": 249.75772313837922
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Ingénieur Full Stack AI avec 3 ans d'expérience dans la conception d'applications LLM, RAG et d'agents IA autonomes. Spécialisé dans le développement de solutions end-to-end - du backend intelligent au frontend moderne - avec une expertise en Agentic AI, semantic search et traitement documentaire (OCR), déployées en local ou sur Azure, dans des domaines tels que le recrutement, l'académique et la fintech.",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 22.032157285193406,
+            "top": 680.9895805384965,
+            "right": 571.082601500469,
+            "bottom": 712.2772778627302
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Ben Arous, Tunis",
+          "page_no": 1,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 483.91653257201034,
+            "top": 748.0437987818716,
+            "right": 561.2804636032591,
+            "bottom": 756.705050969173
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Développement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires.",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 604.0356344481261,
+            "right": 565.7280667632949,
+            "bottom": 623.0323177772705
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Conception d'un pipeline de traitement documentaire avec Azure Document Intelligence, nettoyage PDF et chunking sémantique par article. Implémentation d'une recherche hybride avec Azure AI Search et génération de réponses sourcées via GPT-4o.",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 580.2766327820844,
+            "right": 566.816365403764,
+            "bottom": 599.2733161112288
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "INSOMEA - AI Engineer | Jan 2026",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 398.17330811944475,
+            "top": 629.6994555406056,
+            "right": 567.6812193858557,
+            "bottom": 639.1866398287739
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Automatisation du support étudiant 24/7, avec des réponses fiables, contextualisées et une réduction de 70 % des demandes répétitives adressées au staff.",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 556.5176311160429,
+            "right": 549.9344620846656,
+            "bottom": 575.5143144451873
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "INSOMEA - AI Engineer | Sep 2025",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 396.9570961626203,
+            "top": 538.7401481305769,
+            "right": 568.2649073915362,
+            "bottom": 548.2273324187452
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Conception d'un pipeline d'ingestion IA sur Azure, combinant OCR, fusion de contenu, chunking et extraction structurée via GPT -4o. Implémentation d'une indexation hybride texte/vecteurs et reranking sémantique pour CVs et fiches de poste.",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 509.64454948899913,
+            "right": 551.491133095825,
+            "bottom": 529.5103638888187
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Réduction de 75% du temps d'analyse et amélioration de 40% de la précision du matching candidats/postes en automatisant le traitement documentaire.",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 472.580465193336,
+            "right": 532.83412951784,
+            "bottom": 492.33703808154735
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Développement d'un chatbot de prise de rendez-vous piloté par un LLM pour l'extraction, la validation et la correction automatique des paramètres (date, lieu, durée, motif).",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 427.3626974491698,
+            "right": 565.7473038840429,
+            "bottom": 447.11927033738107
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "ARSELA - AI Engineer |  Jan 2025",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 405.0305676512256,
+            "top": 453.7630708712887,
+            "right": 567.9112761975416,
+            "bottom": 463.2502551594569
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Intégration d'une API GraphQL pour la synchronisation temps réel des créneaux experts (réservation, annulation, réintégration).",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 415.00800268394875,
+            "right": 536.0801884953148,
+            "bottom": 422.40988080693904
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Expérience de réservation fluide, réduisant de 85 % les échanges manuels et atteignant un taux de succès de prise de RDV de +90%.",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 390.29861315350666,
+            "right": 550.9527655669831,
+            "bottom": 397.70049127649696
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "ARSELA - AI Engineer  |  Sep 2024",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 405.60256295739254,
+            "top": 372.13953027226967,
+            "right": 573.2719900786428,
+            "bottom": 381.6267145604379
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Conception d'un moteur d'éligibilité bancaire appliquant des règles métier strictes (âge, revenu, endettement, score de crédit) pour orienter automatiquement vers le type de crédit adapté.",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 345.5273222090109,
+            "right": 554.8388606864953,
+            "bottom": 365.28390165998826
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Développement d'un formulaire collectant les données financières et professionnelles, avec analyse automatisée par un algorithme de décision.",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 320.8179244705691,
+            "right": 564.3194615734946,
+            "bottom": 340.5745039215465
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Mise en place d'une génération de rapports personnalisés (avis favorable/défavorable) avec détail des critères non satisfaits et recommandations claires.",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 296.1085267321274,
+            "right": 534.470326711087,
+            "bottom": 315.8651061831049
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Sep 2020 - Oct 2023 | Ariana Sep 2018 - Jul 2020 | Sfax École Supérieure privée d'ingénierie et de Technologie : Cycle d'ingénieur en informatique en Data Science Faculté des sciences de Sfax : Cycle Préparatoire en Physique chimie",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 21.582574783926013,
+            "top": 228.90903155363185,
+            "right": 572.283395700222,
+            "bottom": 249.75772313837922
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "EXPÉRIENCES PROFESSIONNELLES",
+      "section_type": "other",
+      "content": [
+        "UoB Advisor",
+        "Talent Scan",
+        "Développement d'une plateforme avec un agent conversationnel GPT -4o sur Azure AI Foundry, relié à Azure AI Search.",
+        "NeuroMeet",
+        "Mise en place d'un historique conversationnel avec gestion contextuelle des incohérences et des erreurs utilisateur.",
+        "QCredit",
+        "Accélération de 95 % du traitement des dossiers, avec une réponse instantanée remplaçant un processus manuel long."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "UoB Advisor",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 22.17336099610992,
+            "top": 629.0484494735963,
+            "right": 91.968604545993,
+            "bottom": 639.4822169762584
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "Talent Scan",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 22.17336099610992,
+            "top": 535.3860533761963,
+            "right": 90.4516919783827,
+            "bottom": 545.8198208788584
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "Développement d'une plateforme avec un agent conversationnel GPT -4o sur Azure AI Foundry, relié à Azure AI Search.",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 497.2898547237781,
+            "right": 494.26490429591416,
+            "bottom": 504.8009743583766
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "NeuroMeet",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 22.17336099610992,
+            "top": 452.3895904343824,
+            "right": 87.14123913304593,
+            "bottom": 462.8233579370445
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "Mise en place d'un historique conversationnel avec gestion contextuelle des incohérences et des erreurs utilisateur.",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 402.6533079187277,
+            "right": 488.8718688306395,
+            "bottom": 410.055186041718
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "QCredit",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 22.17336099610992,
+            "top": 371.6083322002683,
+            "right": 68.5903462211836,
+            "bottom": 382.0420997029304
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        },
+        {
+          "text": "Accélération de 95 % du traitement des dossiers, avec une réponse instantanée remplaçant un processus manuel long.",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 22.173359061710002,
+            "top": 283.7538278629065,
+            "right": 500.2566698777065,
+            "bottom": 291.1557084446631
+          },
+          "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+        }
+      ]
+    },
+    {
+      "title": "CERTIFICATES (IN PROGRESS)",
+      "section_type": "certifications",
+      "content": [
+        "CERTIFICATIONS",
+        "AI-102 : Azure AI Engineer Associate"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "CERTIFICATIONS",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 21.44758398635063,
+            "top": 198.3876289733165,
+            "right": 158.80049033171085,
+            "bottom": 211.66826364288
+          },
+          "section_title": "CERTIFICATES (IN PROGRESS)"
+        },
+        {
+          "text": "AI-102 : Azure AI Engineer Associate",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 22.00139932327499,
+            "top": 184.25107410095575,
+            "right": 204.05909607662443,
+            "bottom": 193.73825838912398
+          },
+          "section_title": "CERTIFICATES (IN PROGRESS)"
+        }
+      ]
+    },
+    {
+      "title": "COMPÉTENCES TECHNIQUES",
+      "section_type": "other",
+      "content": [
+        "IA Générative & LLMs : LLMs, SLMs, OpenAI API, Prompt Engineering, Embeddings, FinBERT, LangChain.",
+        "Agentic AI & Orchestration : Agentic AI, Multi-Agent Systems, Agents Conversationnels, LangGraph, MCP Servers, n8n.",
+        "Traitement de données & documents : Pandas, NumPy, BeautifulSoup, Selenium, Requests, Azure Document Intelligence."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "IA Générative & LLMs : LLMs, SLMs, OpenAI API, Prompt Engineering, Embeddings, FinBERT, LangChain.",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 21.44758211435071,
+            "top": 137.89529644718687,
+            "right": 394.32068290669787,
+            "bottom": 144.63288286178113
+          },
+          "section_title": "COMPÉTENCES TECHNIQUES"
+        },
+        {
+          "text": "Agentic AI & Orchestration : Agentic AI, Multi-Agent Systems, Agents Conversationnels, LangGraph, MCP Servers, n8n.",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 21.44758211435071,
+            "top": 126.64939071576623,
+            "right": 454.0895022994511,
+            "bottom": 133.3869771303605
+          },
+          "section_title": "COMPÉTENCES TECHNIQUES"
+        },
+        {
+          "text": "Traitement de données & documents : Pandas, NumPy, BeautifulSoup, Selenium, Requests, Azure Document Intelligence.",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 21.44758211435071,
+            "top": 92.91167352150455,
+            "right": 465.057221908077,
+            "bottom": 99.64925993609882
+          },
+          "section_title": "COMPÉTENCES TECHNIQUES"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [],
+      "items": [
+        {
+          "title": "RAG & Recherche d'information : Architectures RAG (Classique, Hybride, Graph, Self-RAG, CRAG, Agentic), Stratégies de Chunking (Sémantique, Récursif,",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "RAG & Recherche d'information : Architectures RAG (Classique, Hybride, Graph, Self-RAG, CRAG, Agentic), Stratégies de Chunking (Sémantique, Récursif,",
+              "page_no": 1,
+              "block_indices": [
+                33
+              ],
+              "bbox": {
+                "left": 21.44758211435071,
+                "top": 115.4034849843456,
+                "right": 585.1280520496341,
+                "bottom": 122.14107139893997
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Parent-Child, Agentic), Recherche Lexicale (BM25, BM42), RRF, Reranking (Cross-Encoder), Retrieval Dense (Bi-Encoder), Qdrant, Azure AI Search.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Parent-Child, Agentic), Recherche Lexicale (BM25, BM42), RRF, Reranking (Cross-Encoder), Retrieval Dense (Bi-Encoder), Qdrant, Azure AI Search.",
+              "page_no": 1,
+              "block_indices": [
+                34
+              ],
+              "bbox": {
+                "left": 21.44758211435071,
+                "top": 104.15757925292507,
+                "right": 553.4916170705322,
+                "bottom": 110.89516566751945
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "RAG & Recherche d'information : Architectures RAG (Classique, Hybride, Graph, Self-RAG, CRAG, Agentic), Stratégies de Chunking (Sémantique, Récursif,",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 21.44758211435071,
+            "top": 115.4034849843456,
+            "right": 585.1280520496341,
+            "bottom": 122.14107139893997
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Parent-Child, Agentic), Recherche Lexicale (BM25, BM42), RRF, Reranking (Cross-Encoder), Retrieval Dense (Bi-Encoder), Qdrant, Azure AI Search.",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 21.44758211435071,
+            "top": 104.15757925292507,
+            "right": 553.4916170705322,
+            "bottom": 110.89516566751945
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "MACHINE LEARNING & DEEP LEARNING",
+      "section_type": "skills",
+      "content": [
+        "Machine Learning : TensorFlow, Keras, Scikit-learn, Classification, Régression, Clustering (K-Means), Random Forest."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Machine Learning : TensorFlow, Keras, Scikit-learn, Classification, Régression, Clustering (K-Means), Random Forest.",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 21.44758211435071,
+            "top": 81.66576779008392,
+            "right": 446.9969042271913,
+            "bottom": 88.4033542046783
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Cloud & Azure AI : AI Foundry, AI Services, AI Search, AI Video Indexer, Blob Storage, Table Storage, Functions, Virtual Machines.",
+        "Langages, Backend & APIs : Python , FastAPI, Django, Node.js, REST APIs, GraphQL, PostgreSQL, MongoDB, Redis.",
+        "DevOps & Intégrations : Docker, Kubernetes, GitLab CI/CD, Auth0, Twilio.",
+        "Frontend : React, Next.js, Angular, Tailwind CSS."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Cloud & Azure AI : AI Foundry, AI Services, AI Search, AI Video Indexer, Blob Storage, Table Storage, Functions, Virtual Machines.",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 21.44758211435071,
+            "top": 70.41986205866328,
+            "right": 483.6596783059908,
+            "bottom": 77.15744847325766
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Langages, Backend & APIs : Python , FastAPI, Django, Node.js, REST APIs, GraphQL, PostgreSQL, MongoDB, Redis.",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 21.44758211435071,
+            "top": 59.17395632724276,
+            "right": 428.04951595380976,
+            "bottom": 65.91154274183714
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "DevOps & Intégrations : Docker, Kubernetes, GitLab CI/CD, Auth0, Twilio.",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 21.44758211435071,
+            "top": 47.92805059582224,
+            "right": 288.7882063365258,
+            "bottom": 54.6656370104165
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Frontend : React, Next.js, Angular, Tailwind CSS.",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 21.44758211435071,
+            "top": 36.68214486440161,
+            "right": 195.85994008192893,
+            "bottom": 43.41973127899598
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.819,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 4514,
+      "section_completeness": 0.6667,
+      "ordering_coherence": 0.6667,
+      "segmentation_stability": 0.8,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.25,
+      "weird_section_ratio": 0.0,
+      "section_count": 10,
+      "expected_section_hits": 4,
+      "markdown_chars": 4592,
+      "markdown_words": 656,
+      "markdown_has_experience": true,
+      "markdown_has_education": true,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 3,
+      "markdown_weird_char_ratio": 0.02,
+      "markdown_glued_line_count": 11,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=4376\", \"pdf_total_text_words=606\", \"pdf_avg_text_chars_per_page=4376.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": []
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Full Stack AI Engineer",
+      "page_no": 1,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 201.94551389310323,
+        "top": 773.2215069347264,
+        "right": 388.5059550465445,
+        "bottom": 789.3490086288481
+      },
+      "section_title": "KHALED WESSLATI"
+    },
+    {
+      "text": "+216 53 566 544",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 34.38173064742783,
+        "top": 749.3487172227839,
+        "right": 106.88436156221506,
+        "bottom": 758.0743647953979
+      },
+      "section_title": "KHALED WESSLATI"
+    },
+    {
+      "text": "khaled.wessllati@gmail.com",
+      "page_no": 1,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 134.31705495145582,
+        "top": 749.1632103592294,
+        "right": 268.0078580694584,
+        "bottom": 757.8244625465309
+      },
+      "section_title": "KHALED WESSLATI"
+    },
+    {
+      "text": "linkedin.com/in/khaled-wesslati",
+      "page_no": 1,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 297.9536875852625,
+        "top": 748.2293140694258,
+        "right": 453.4566999726897,
+        "bottom": 756.9549616420397
+      },
+      "section_title": "KHALED WESSLATI"
+    },
+    {
+      "text": "PROFIL",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 22.17336099610992,
+        "top": 718.9659936825504,
+        "right": 79.17577735584997,
+        "bottom": 732.246628352114
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "Ingénieur Full Stack AI avec 3 ans d'expérience dans la conception d'applications LLM, RAG et d'agents IA autonomes. Spécialisé dans le développement de solutions end-to-end - du backend intelligent au frontend moderne - avec une expertise en Agentic AI, semantic search et traitement documentaire (OCR), déployées en local ou sur Azure, dans des domaines tels que le recrutement, l'académique et la fintech.",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 22.032157285193406,
+        "top": 680.9895805384965,
+        "right": 571.082601500469,
+        "bottom": 712.2772778627302
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Ben Arous, Tunis",
+      "page_no": 1,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 483.91653257201034,
+        "top": 748.0437987818716,
+        "right": 561.2804636032591,
+        "bottom": 756.705050969173
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Développement d'un assistant académique intelligent EN/AR basé sur une architecture RAG pour répondre aux questions sur les règlements universitaires.",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 604.0356344481261,
+        "right": 565.7280667632949,
+        "bottom": 623.0323177772705
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Conception d'un pipeline de traitement documentaire avec Azure Document Intelligence, nettoyage PDF et chunking sémantique par article. Implémentation d'une recherche hybride avec Azure AI Search et génération de réponses sourcées via GPT-4o.",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 580.2766327820844,
+        "right": 566.816365403764,
+        "bottom": 599.2733161112288
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "INSOMEA - AI Engineer | Jan 2026",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 398.17330811944475,
+        "top": 629.6994555406056,
+        "right": 567.6812193858557,
+        "bottom": 639.1866398287739
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Automatisation du support étudiant 24/7, avec des réponses fiables, contextualisées et une réduction de 70 % des demandes répétitives adressées au staff.",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 556.5176311160429,
+        "right": 549.9344620846656,
+        "bottom": 575.5143144451873
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "INSOMEA - AI Engineer | Sep 2025",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 396.9570961626203,
+        "top": 538.7401481305769,
+        "right": 568.2649073915362,
+        "bottom": 548.2273324187452
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Conception d'un pipeline d'ingestion IA sur Azure, combinant OCR, fusion de contenu, chunking et extraction structurée via GPT -4o. Implémentation d'une indexation hybride texte/vecteurs et reranking sémantique pour CVs et fiches de poste.",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 509.64454948899913,
+        "right": 551.491133095825,
+        "bottom": 529.5103638888187
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Réduction de 75% du temps d'analyse et amélioration de 40% de la précision du matching candidats/postes en automatisant le traitement documentaire.",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 472.580465193336,
+        "right": 532.83412951784,
+        "bottom": 492.33703808154735
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Développement d'un chatbot de prise de rendez-vous piloté par un LLM pour l'extraction, la validation et la correction automatique des paramètres (date, lieu, durée, motif).",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 427.3626974491698,
+        "right": 565.7473038840429,
+        "bottom": 447.11927033738107
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "ARSELA - AI Engineer |  Jan 2025",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 405.0305676512256,
+        "top": 453.7630708712887,
+        "right": 567.9112761975416,
+        "bottom": 463.2502551594569
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Intégration d'une API GraphQL pour la synchronisation temps réel des créneaux experts (réservation, annulation, réintégration).",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 415.00800268394875,
+        "right": 536.0801884953148,
+        "bottom": 422.40988080693904
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Expérience de réservation fluide, réduisant de 85 % les échanges manuels et atteignant un taux de succès de prise de RDV de +90%.",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 390.29861315350666,
+        "right": 550.9527655669831,
+        "bottom": 397.70049127649696
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "ARSELA - AI Engineer  |  Sep 2024",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 405.60256295739254,
+        "top": 372.13953027226967,
+        "right": 573.2719900786428,
+        "bottom": 381.6267145604379
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Conception d'un moteur d'éligibilité bancaire appliquant des règles métier strictes (âge, revenu, endettement, score de crédit) pour orienter automatiquement vers le type de crédit adapté.",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 345.5273222090109,
+        "right": 554.8388606864953,
+        "bottom": 365.28390165998826
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Développement d'un formulaire collectant les données financières et professionnelles, avec analyse automatisée par un algorithme de décision.",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 320.8179244705691,
+        "right": 564.3194615734946,
+        "bottom": 340.5745039215465
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Mise en place d'une génération de rapports personnalisés (avis favorable/défavorable) avec détail des critères non satisfaits et recommandations claires.",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 296.1085267321274,
+        "right": 534.470326711087,
+        "bottom": 315.8651061831049
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Sep 2020 - Oct 2023 | Ariana Sep 2018 - Jul 2020 | Sfax École Supérieure privée d'ingénierie et de Technologie : Cycle d'ingénieur en informatique en Data Science Faculté des sciences de Sfax : Cycle Préparatoire en Physique chimie",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 21.582574783926013,
+        "top": 228.90903155363185,
+        "right": 572.283395700222,
+        "bottom": 249.75772313837922
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "UoB Advisor",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 22.17336099610992,
+        "top": 629.0484494735963,
+        "right": 91.968604545993,
+        "bottom": 639.4822169762584
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "Talent Scan",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 22.17336099610992,
+        "top": 535.3860533761963,
+        "right": 90.4516919783827,
+        "bottom": 545.8198208788584
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "Développement d'une plateforme avec un agent conversationnel GPT -4o sur Azure AI Foundry, relié à Azure AI Search.",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 497.2898547237781,
+        "right": 494.26490429591416,
+        "bottom": 504.8009743583766
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "NeuroMeet",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 22.17336099610992,
+        "top": 452.3895904343824,
+        "right": 87.14123913304593,
+        "bottom": 462.8233579370445
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "Mise en place d'un historique conversationnel avec gestion contextuelle des incohérences et des erreurs utilisateur.",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 402.6533079187277,
+        "right": 488.8718688306395,
+        "bottom": 410.055186041718
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "QCredit",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 22.17336099610992,
+        "top": 371.6083322002683,
+        "right": 68.5903462211836,
+        "bottom": 382.0420997029304
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "Accélération de 95 % du traitement des dossiers, avec une réponse instantanée remplaçant un processus manuel long.",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 22.173359061710002,
+        "top": 283.7538278629065,
+        "right": 500.2566698777065,
+        "bottom": 291.1557084446631
+      },
+      "section_title": "EXPÉRIENCES PROFESSIONNELLES"
+    },
+    {
+      "text": "CERTIFICATIONS",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 21.44758398635063,
+        "top": 198.3876289733165,
+        "right": 158.80049033171085,
+        "bottom": 211.66826364288
+      },
+      "section_title": "CERTIFICATES (IN PROGRESS)"
+    },
+    {
+      "text": "AI-102 : Azure AI Engineer Associate",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 22.00139932327499,
+        "top": 184.25107410095575,
+        "right": 204.05909607662443,
+        "bottom": 193.73825838912398
+      },
+      "section_title": "CERTIFICATES (IN PROGRESS)"
+    },
+    {
+      "text": "IA Générative & LLMs : LLMs, SLMs, OpenAI API, Prompt Engineering, Embeddings, FinBERT, LangChain.",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 21.44758211435071,
+        "top": 137.89529644718687,
+        "right": 394.32068290669787,
+        "bottom": 144.63288286178113
+      },
+      "section_title": "COMPÉTENCES TECHNIQUES"
+    },
+    {
+      "text": "Agentic AI & Orchestration : Agentic AI, Multi-Agent Systems, Agents Conversationnels, LangGraph, MCP Servers, n8n.",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 21.44758211435071,
+        "top": 126.64939071576623,
+        "right": 454.0895022994511,
+        "bottom": 133.3869771303605
+      },
+      "section_title": "COMPÉTENCES TECHNIQUES"
+    },
+    {
+      "text": "Traitement de données & documents : Pandas, NumPy, BeautifulSoup, Selenium, Requests, Azure Document Intelligence.",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 21.44758211435071,
+        "top": 92.91167352150455,
+        "right": 465.057221908077,
+        "bottom": 99.64925993609882
+      },
+      "section_title": "COMPÉTENCES TECHNIQUES"
+    },
+    {
+      "text": "RAG & Recherche d'information : Architectures RAG (Classique, Hybride, Graph, Self-RAG, CRAG, Agentic), Stratégies de Chunking (Sémantique, Récursif,",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 21.44758211435071,
+        "top": 115.4034849843456,
+        "right": 585.1280520496341,
+        "bottom": 122.14107139893997
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Parent-Child, Agentic), Recherche Lexicale (BM25, BM42), RRF, Reranking (Cross-Encoder), Retrieval Dense (Bi-Encoder), Qdrant, Azure AI Search.",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 21.44758211435071,
+        "top": 104.15757925292507,
+        "right": 553.4916170705322,
+        "bottom": 110.89516566751945
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Machine Learning : TensorFlow, Keras, Scikit-learn, Classification, Régression, Clustering (K-Means), Random Forest.",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 21.44758211435071,
+        "top": 81.66576779008392,
+        "right": 446.9969042271913,
+        "bottom": 88.4033542046783
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Cloud & Azure AI : AI Foundry, AI Services, AI Search, AI Video Indexer, Blob Storage, Table Storage, Functions, Virtual Machines.",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 21.44758211435071,
+        "top": 70.41986205866328,
+        "right": 483.6596783059908,
+        "bottom": 77.15744847325766
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Langages, Backend & APIs : Python , FastAPI, Django, Node.js, REST APIs, GraphQL, PostgreSQL, MongoDB, Redis.",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 21.44758211435071,
+        "top": 59.17395632724276,
+        "right": 428.04951595380976,
+        "bottom": 65.91154274183714
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "DevOps & Intégrations : Docker, Kubernetes, GitLab CI/CD, Auth0, Twilio.",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 21.44758211435071,
+        "top": 47.92805059582224,
+        "right": 288.7882063365258,
+        "bottom": 54.6656370104165
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Frontend : React, Next.js, Angular, Tailwind CSS.",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 21.44758211435071,
+        "top": 36.68214486440161,
+        "right": 195.85994008192893,
+        "bottom": 43.41973127899598
+      },
+      "section_title": "TECHNICAL SKILLS"
+    }
+  ]
+}

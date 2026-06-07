@@ -1,0 +1,72 @@
+## KSOURI EYA
+
+Développeur fullstack Junior
+
+## EDUCATION
+
+Développeuse Fullstack passionnée par les technologies modernes, je possède une expérience en Node. js, .NET Core et Angular, acquise lors de mon stage de fin d'études et de missions freelance. Curieuse, motivée et orientée solution, je souhaite évoluer dans un environnement innovant où je pourrai contribuer efficacement, tout en renforçant mes compétences sur les architectures modernes, la qualité logicielle et les bonnes pratiques de développement. Je suis prête à apprendre rapidement et à m'investir pleinement pour garantir la fiabilité et la performance des applications.
+- ksouri eya
+- github. com/Eya Ks 98
+- ksourieya 01@gmail. com
+### Ariana , Tunis
+- FORMATION
+- Diplôme d'ingénieur informatique
+Ecole supérieure Privée d'Ingénierie et de Technologies (ESPRIT) | El Ghazala , Tunisie
+**Date:** 2023
+### Diplôme de baccalauréat , section sciences expérimentales
+**Date:** 2017
+### Lycée Ennasr l Ariana , Tunisie
+**Date:** Juillet 2023 - Présent
+- Développement d'un tableau de bord interactif avec graphiques et rapports
+Mise en place de tests end-to-end automatisés, réduisant les erreurs de 50 % en production
+**Date:** Février - Septembre 2022
+- Participation à la revue de code et amélioration continue de la qualité du front-end
+- Optimisation de la performance et de la responsivité des interfaces utilisateur
+- Développement d'un module de gestion des commandes et suivi des livraisons
+- Collaboration avec l'équipe backend pour la conception et l'intégration des APIs REST
+- Développement d'une application qui aide à optimiser les meilleurs itinéraires et séquences de livraison que les chauffeurs doivent suivre
+Conception et développement d'une application desktop, web et mobile de gestion des écoles.
+**Date:** 2020-2021
+
+## EXPERIENCE PROFESSIONNELLE
+
+Développeuse Fullstack Freelance
+
+## FREELANCE- REMOTE
+
+Implémentation de la sécurité avec JWT et gestion des rôles utilisateurs
+Création d'un module complet de gestion des évaluations et commentaires
+Technologies : Angular, Node. js, Express, Mongo DB, Postman
+Stagiaire Développeuse Fullstack (.NET/Angular)
+
+## ARCHIMED, REMOTE
+
+Ajout de fonctionnalités avancées (gestion panier, sessions utilisateurs)
+Mise en place d'un système de journalisation et surveillance en temps réel
+Intégration d'une solution de paiement
+Participation à la maintenance corrective et amélioration continue du code
+Technologies : .NET Core, C#, Angular, SQL Server, Git Hub
+
+## EXPÉRIENCE ACADÉMIQUE
+
+Smart Delivery
+Technologies : React Js, Node Js, Express Js, Mongodb
+My School
+Technologies : Java/Java FX/Code Name One/Symfony 3. 4/MYSQL
+
+## TECHNICAL SKILLS
+
+COMPÉTENCES
+Langages : Java Script, Type Script, C#
+Frameworks & outils : Angular, Node. js, Express, .NET Core
+Bases de données : My SQL, Mongo DB,
+Outils & environnements : Git, Git Hub, Postman
+SQL Server
+Méthodologies : Agile/Scrum
+Français : DELF B 2
+Anglais : niveau B 1
+
+## LANGUAGES
+
+LANGUES
+Arabe : langue maternelle

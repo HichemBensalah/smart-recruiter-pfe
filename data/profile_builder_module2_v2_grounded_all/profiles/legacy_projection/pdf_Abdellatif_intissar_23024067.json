@@ -1,0 +1,110 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abdellatif_intissar_23024067.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abdellatif_intissar_23024067.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Abdellatif_intissar_23024067.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": null,
+      "email": "9@gmail.com",
+      "phone": "93643048",
+      "location": "Monastir, Tunisie"
+    },
+    "expertise": {
+      "summary": "Recently graduated Full Stack Engineer specialized in web development using Angular and Node. js. Experienced in building complete web applications (frontend & backend), RESTful APIs, and relational databases. Interested in DevOps practices (Docker, CI/CD) and data visualization (Power BI). Motivated, rigorous, and solution-oriented.",
+      "hard_skills": [
+        "JavaScript",
+        "Angular",
+        "Node. js",
+        "Python",
+        "Java",
+        "C",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "MySQL",
+        "MongoDB",
+        "Docker",
+        "GitHub Actions",
+        "Git",
+        "Power BI",
+        "Postman",
+        "VS Code",
+        "Intelli J",
+        "Android Studio",
+        "Figma",
+        "Agile (Scrum)",
+        "UML"
+      ],
+      "soft_skills": [
+        "Motivated",
+        "rigorous",
+        "solution-oriented"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "SW Consulting",
+        "start_date": "March 2025",
+        "end_date": "August 2025",
+        "city": "Monastir",
+        "responsibilities": [
+          "Testing and deployment",
+          "Development of dynamic and responsive UI",
+          "REST API integration, filtering and search",
+          "Performance optimization",
+          "System analysis and requirement study",
+          "RFID hardware prototype design",
+          "Embedded software development for access control",
+          "Database creation for user and trip management",
+          "Testing and system optimization",
+          "DevOps project: application deployment environment",
+          "CI/CD pipeline with GitHub Actions",
+          "Node. js test deployment"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Viamobile",
+        "start_date": "September 2023",
+        "end_date": "October 2023",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Project: Enhancement of Swared Web Application ( Technologies: Angular, TypeScript )",
+          "Features implementation (driver management, tracking, dashboards)"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "DEMCO",
+        "start_date": "February 2022",
+        "end_date": "May 2022",
+        "city": "Monastir",
+        "responsibilities": [
+          "Project: RFID Bus Access Control System ( Technologies: Arduino, C/C++, MySQL)",
+          "Node. js + Angular project: MongoDB models, REST API, Angular CRUD",
+          "Docker containerization",
+          "Git version control"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:30:06.697971+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8825,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

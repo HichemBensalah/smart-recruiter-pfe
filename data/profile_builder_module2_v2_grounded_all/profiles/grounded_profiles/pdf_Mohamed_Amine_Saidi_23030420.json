@@ -1,0 +1,187 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Amine_Saidi_23030420.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Amine_Saidi_23030420.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.911,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSaidi Mohamed Amine\nmohamed.amine.ob@gmail.com\nTunisie\nhttps: //www.linkedin.com/in/saidi-mohamedamine-39 a 463228/11/02/1998 Tunisienne\nÉDUCATION\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nDéveloppeur Web passionné, alliant rigueur et créativité pour concevoir des solutions innovantes et performantes, avec un fort engagement en amélioration continue.\nTechnicien Support Informatique spécialisé en assistance utilisateurs niveaux 1 et 2. Compétent en installation, configuration et maintenance des postes de travail, systèmes et logiciels, garantissant performance et continuité des services IT.\n\n## EXPERIENCE PROFESSIONNEL\n\nInterstrap Manufacture\n02/2025 Bizerte, Tunisie\nSupport IT et Responsable approvisionnement Support technique aux utilisateurs (Helpdesk N 1/N 2) et gestion des tickets. Diagnostic et résolution des incidents matériels, logiciels et systèmes. Installation, configuration et maintenance des postes de travail et périphériques. Administration des comptes utilisateurs et gestion des droits d'accès. Maintenance préventive et corrective du parc informatique. Préparation et déploiement du matériel IT aux utilisateurs. Gestion des inventaires et reporting au responsable IT.\n\n## EDUCATION\n\nInstitut Supérieur des Etudes Technologiques de Béja\n## 09/2023 - 06/2025 Béja, Tunisie\n- Enseignant Vacataire\nEnseignement des modules de bases de données, conception UML, programmation structurée en C++ et développement de sites web avec Word Press.\n- Société légendaires des pièces autos S. L. P. A\n## 07/2024 - 01/2025 Béja, Tunisie\nSupport IT/Administrateur Systèmes Junior réation de tableaux de bord interactifs sous Power BI pour le suivi des ventes et des achats, support technique utilisateurs (Helpdesk N 1), installation et configuration des PC, imprimantes et logiciels. Maintenance des postes de travail: mise à jour OS, installation de drivers, nettoyage et optimisation des systèmes.\n- Icstartup\n## 08/2023 - 06/2024 Béja, Tunisie\n- Developpeur web Junior\nDéveloppement d'applications e-commerce avec Angular, Next. js, Node. js et Spring Boot. Conception d'APIs REST, intégration frontend responsive et gestion de bases de données (MySQL/XAMPP). Tests des APIs avec Postman, travail en méthodologie Agile (Jira), correction de bugs et optimisation des performances.\n- Goodwill ENGINEERING\n## 02/2023 - 07/2023 Béja, Tunisie\n- Développeur Web .NET Junior\nDéveloppement des applications web de gestion avec ASP. NET et C#. Conception d'interfaces utilisateur (HTML, CSS) et gestion de bases de données sous SQL Server. Mise en place de fonctionnalités de reporting avec Crystal Reports et analyse de données via Power BI.\n- Master Professionnel en ingénierie des systèmes d'information des entreprises (ISIE)\n## Tunis, Tunisie\n**Date: ** 2017 - 2021\n- Faculté de science économiques et de gestion el Manar\n- licence fondamentale en informatique de gestion\n## Tunis, Tunisie\n**Date: ** 2017\n- Faculté de science économiques et de gestion el Manar\n## Baccalauréat: économie et gestion\n## Béja, Tunisie\n- Lycée Ibn Mandhour Béja\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nFrame Work: Angular, Spring Boot.\nConception et base de donnée: UML, SQL, NOSQL, Data Warehouse, Big Data.\nLanguage de programmation: JEE, ASP. NET, JAVA, JavaScript, TypeScript, C#, PHP, HTML, CSS.\noutils: NodeJS, next js, jira, trelo, postman.\nLogiciels: VScode, Eclipse, Power Bi, Visuel studio, odoo web.\n\n## LANGUAGES\n\nArabe\nFrançais\nAnglais\nINTÉRÊTS\nPermis de conduire: Permis B\nSports: Football\nHight-Tech: Gaming",
+    "header_info": {
+      "full_name": "Saidi Mohamed Amine",
+      "email": "mohamed.amine.ob@gmail.com",
+      "phone": "463228/11/02/1998",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/saidi-mohamedamine-39",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9822,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Saidi Mohamed Amine",
+      "email": "mohamed.amine.ob@gmail.com",
+      "phone": "463228/11/02/1998",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/saidi-mohamedamine-39",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Développeur Web passionné, alliant rigueur et créativité pour concevoir des solutions innovantes et performantes, avec un fort engagement en amélioration continue.",
+      "experience_level": "senior",
+      "years_experience": 7,
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "UML",
+        "SQL",
+        "NOSQL",
+        "Data Warehouse",
+        "Big Data",
+        "JEE",
+        "ASP. NET",
+        "JAVA",
+        "JavaScript",
+        "TypeScript",
+        "C#",
+        "PHP",
+        "HTML",
+        "CSS",
+        "NodeJS",
+        "next js"
+      ],
+      "soft_skills": [
+        "alliance de rigueur et créativité",
+        "engagement en amélioration continue",
+        "travail en méthodologie Agile (Jira)",
+        "correction de bugs et optimisation des performances"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Interstrap Manufacture",
+        "job_title": "Support IT et Responsable approvisionnement Support technique aux utilisateurs (Helpdesk N 1/N 2) et gestion des tickets.",
+        "start_date": "02/2025",
+        "end_date": null,
+        "city": "Bizerte, Tunisie",
+        "responsibilities": [
+          "Diagnostic et résolution des incidents matériels, logiciels et systèmes.",
+          "Installation, configuration et maintenance des postes de travail et périphériques.",
+          "Administration des comptes utilisateurs et gestion des droits d'accès.",
+          "Maintenance préventive et corrective du parc informatique.",
+          "Préparation et déploiement du matériel IT aux utilisateurs.",
+          "Gestion des inventaires et reporting au responsable IT."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur des Etudes Technologiques de Béja",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Faculté de science économiques et de gestion el Manar",
+        "degree": "licence fondamentale en informatique de gestion",
+        "field": null,
+        "year": 2017
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:32:40.544125+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

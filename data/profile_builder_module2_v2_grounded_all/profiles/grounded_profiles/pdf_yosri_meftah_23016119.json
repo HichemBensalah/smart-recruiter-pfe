@@ -1,0 +1,178 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\yosri_meftah_23016119.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\yosri_meftah_23016119.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7913,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nSoftware Engineering\nNabeul, Tunisia, /phone +216 24163004\nyousri. meftah 12@gmail.com\nyousri-meftah/linkedin Linkedin/github Github/envelope/address-card\nDevOps Engineer Intern\nIntegrated automated unit tests and end-to-end (E 2 E) testing into CI pipelines to ensure code reliability.\nSet up monitoring and alerting using Prometheus and Grafana to ensure system reliability and performance visibility.\nRIF | Linux, Odoo, PostgreSQL, VPS\nDevOps Engineer Intern\nTunisia\nInstalled and hosted Odoo ERP on an IONOS VPS (CRM, sales, inventory, e-commerce).\nConfigured Linux, PostgreSQL, and core Odoo services for stable operation.\nSet up automated backups and monitored system performance and uptime.\nCoding Bi Tounsi | Docker, Docker Compose, VPS, PostgreSQL, GitHub Actions\nSoftware Development Engineer Intern\nTunisia\nDeployed and hosted multiple applications on VPS servers using Docker and Docker Compose.\nManaged container networking, persistence, and restart policies.\nHandled database backups and VPS-to-VPS data migration.\nSelf-Hosted Homelab | Docker, Docker Compose, Cloudflare Tunnel,\ngithub.com/yousri-meftah/Home Lab\nExposed services securely via Cloudflare Tunnel (Zero Trust, HTTPS) without port forwarding or public IP dependency\nStandardized persistent storage using SSD-backed bind mounts and service separation.\nCode Master | FastAPI, Docker, Kubernetes, Jenkins, GitHub Actions, Cloudflare R 2 codemaster. yousri-meftah. com\nIntegrated Cloudflare R 2 object storage for interview recordings and developed Kubernetes manifests to support container orchestration and future cluster deployment.\nCloud Infrastructure Automation Platform | AWS, Azure, Terraform, Docker, n 8 n\nAutomated service orchestration and workflows with containerized applications and n 8 n, enabling efficient provisioning and monitoring.\nSkills\nNetworking: VLANs, STP, OSPF, Static Routing, DHCP, NAT, DNS, Subnetting, IP addressing, Inter-VLAN Routing Virtualization & Cloud: VMware ESXi, v Center, v Sphere, NSX, Proxmox\nSecurity: Fortigate Firewalls, pf Sense, VPN (IPsec/Open VPN), IDS/IPS, Firewall Policies, Network Hardening\nSystems & Tools\n: Linux Administration, Nginx Reverse Proxy, SSH, Docker Networking, Git, Monitoring Tools\nProgramming (Basics)\n: Python, Bash Scripting\nOOP, Cloud, Computer Architecture, Network, Java, C/C++ - Python\nInstitut Sup´ erieur d'Informatique et de Math´ ematiques de Monastir\nBachelor of Science in Computer Science\n\n## PROFESSIONAL EXPERIENCE\n\nExperience\n## Proxym | Nginx, Docker, Kubernetes, Git Lab CI/CD, Prometheus, Grafana\n**Date: ** February 2024 - June 2024\n**Location: ** Sousse, Tunisia\n- Implemented an Nginx reverse proxy/API gateway for microservices routing.\n- Designed and maintained CI/CD pipelines using Git Lab CI/CD to automate build, test, and deployment workflows.\n- Implemented code quality analysis using Sonar Qube for continuous inspection and technical debt reduction.\n\n## ACADEMIC PROJECTS\n\n## Infrastructure & Open Source Projects\n**Date: ** June 2024 - August 2024\n- Implemented CI/CD automation using GitHub Actions and custom webhooks to trigger deployment scripts.\n- Developed and maintained deployment scripts to automate application updates, service restarts.\n- Designed and operated a self-hosted homelab running multiple containerized services using Docker and Docker Compose\n- Implemented observability using Prometheus, Grafana, and Uptime Kuma for availability monitoring.\n- Designed and deployed a full-stack coding and interview platform using FastAPI, React, PostgreSQL, and Docker in a production-like homelab environment.\n- Built CI pipelines with GitHub Actions for automated testing and Docker image publishing, and set up Jenkins-based CD workflows for deployment automation.\n- Designed and deployed multi-cloud infrastructure across AWS and Azure using Terraform for scalable and reproducible environments.\n\n## LANGUAGES\n\n: Arabic (Native), French (B 2), English (B 2)\n\n## EDUCATION\n\nInstitut Sup´ erieur d'Informatique et des Technologies de Communication\nNational Engineering Diploma in Teleinformatics",
+    "header_info": {
+      "full_name": "yousri-meftah/linkedin Linkedin/github Github/envelope/address-card",
+      "email": "12@gmail.com",
+      "phone": "+216 24163004",
+      "location": "RIF | Linux, Odoo, PostgreSQL, VPS",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9583,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[10]",
+      "expertise.soft_skills[11]",
+      "expertise.soft_skills[12]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.soft_skills[8]",
+      "expertise.soft_skills[9]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "yousri-meftah",
+      "email": "12@gmail.com",
+      "phone": "+216 24163004",
+      "location": "RIF | Linux, Odoo, PostgreSQL, VPS",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Linux",
+        "Odoo",
+        "PostgreSQL",
+        "VPS",
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions",
+        "FastAPI",
+        "Kubernetes",
+        "Jenkins",
+        "Cloudflare R 2",
+        "AWS",
+        "Azure",
+        "Terraform"
+      ],
+      "soft_skills": [
+        "Networking",
+        "Security",
+        "Linux Administration",
+        "Nginx Reverse Proxy",
+        "SSH",
+        "Git",
+        "Monitoring Tools",
+        "Python",
+        "Bash Scripting",
+        "OOP",
+        "Cloud",
+        "Computer Architecture",
+        "Network"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Proxym | Nginx, Docker, Kubernetes, Git Lab CI/CD, Prometheus, Grafana",
+        "job_title": null,
+        "start_date": "February 2024",
+        "end_date": "June 2024",
+        "city": "Sousse, Tunisia",
+        "responsibilities": [
+          "Implemented an Nginx reverse proxy/API gateway for microservices routing.",
+          "Designed and maintained CI/CD pipelines using Git Lab CI/CD to automate build, test, and deployment workflows.",
+          "Implemented code quality analysis using Sonar Qube for continuous inspection and technical debt reduction."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Sup´ erieur d'Informatique et des Technologies de Communication",
+        "degree": "National Engineering Diploma in Teleinformatics"
+      }
+    ],
+    "languages": [
+      "Arabic (Native)",
+      "French (B 2)",
+      "English (B 2)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:08:28.886594+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

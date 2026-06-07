@@ -1,0 +1,97 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ichrak_Aguir_23014282.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ichrak_Aguir_23014282.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ichrak_Aguir_23014282.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ichrak Aguir",
+      "email": "ichrakaguir 123@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "ReactJS",
+        "React Native",
+        "Express.js",
+        "NodeJS",
+        "Next JS",
+        "Nest JS",
+        "Redux",
+        "Axios",
+        "Tailwind CSS",
+        "Material UI",
+        "AWS Amplify",
+        "Code Commit",
+        "App Sync",
+        "Ionic",
+        "Jira",
+        "Slack",
+        "VSCode",
+        "Android",
+        "Web Sockets",
+        "Figma",
+        "Jest",
+        "MongoDB",
+        "PostgreSQL",
+        "Prisma",
+        "Postman",
+        "Swagger",
+        "shadcn/ui",
+        "Prime React",
+        "IoT",
+        "ROS/ROS 2",
+        "Gazebo"
+      ],
+      "soft_skills": [
+        "Développement Full Stack",
+        "Développement mobile",
+        "Tests unitaires",
+        "Tests E 2 E",
+        "Opérations CRUD",
+        "Gestion d'état",
+        "IA",
+        "Gestion de projet (Scrum-Agile, Scrum Ban)",
+        "Techniques de contrôle et d'optimisation robotique"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "01 Dec. 2025",
+        "end_date": "01 Fév. 2026",
+        "city": "Djerba, Tunisie",
+        "responsibilities": [
+          "Développement de la plateforme Sport Booking"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "INGÉNi EUR EN i NFORMATi QUE i NDUSTRi ELLE",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:36:45.180317+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9248,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

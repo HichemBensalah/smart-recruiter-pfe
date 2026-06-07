@@ -1,0 +1,101 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Kathem_Brahmi_23022378.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Kathem_Brahmi_23022378.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Kathem_Brahmi_23022378.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Kadhem Brahmi",
+      "email": "brahmii.kathemm@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Php",
+        "Ajax",
+        "Javascript",
+        "Jquery",
+        "MySQL",
+        "SQL Server",
+        "AWS",
+        "Docker",
+        "Kubernetes"
+      ],
+      "soft_skills": [
+        "Algorithmique",
+        "Développement web",
+        "Gestion de projet",
+        "DevOps",
+        "Qualification d'une application",
+        "Collaboration avec les analystes fonctionnels et les experts métiers"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur informatique",
+        "company": "Agora Tunis, Tunisie",
+        "start_date": "03/08/2025",
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception d'une API REST sécurisée pour la gestion des tirages, des utilisateurs et de l'inventaire des cadeaux."
+        ]
+      },
+      {
+        "job_title": "Ingénieur informatique",
+        "company": "European Leads Company Tunis, Tunisie",
+        "start_date": "01/02/2022",
+        "end_date": "01/08/2025",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception et développement d'un module Presta Shop sur mesure pour l'automatisation du catalogue produit."
+        ]
+      },
+      {
+        "job_title": "Développeur spring boot angular",
+        "company": "Databiz",
+        "start_date": "01/09/2018",
+        "end_date": "01/02/2022",
+        "city": null,
+        "responsibilities": [
+          "Organiser la conception puis de développement.",
+          "Appropriation du besoin.",
+          "Elaboration du cahier des charges.",
+          "Propositions de solutions: scénarii techniques."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme national D'INGENIEUR EN INFORMATIQUE",
+        "school": "Ecole Supérieure d'Ingénieurs Privée de Gafsa",
+        "year": null
+      },
+      {
+        "degree": "Diplôme de licence fondamentale en informatique appliquée à la gestion",
+        "school": "Institut Supérieure De Gestion Gabes",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:47:01.597803+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9863,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

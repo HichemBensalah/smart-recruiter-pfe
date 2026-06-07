@@ -1,0 +1,114 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mariem_Ben_Hassen_23016017.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mariem_Ben_Hassen_23016017.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mariem_Ben_Hassen_23016017.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mariem Ben Hassen",
+      "email": "mariem.benhassen@ensi-uma.tn",
+      "phone": "+216-55-054-412",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Profilération d'API et compétences en développement full-stack.",
+      "hard_skills": [
+        "PHP",
+        "JavaScript",
+        "Python",
+        "Java",
+        "Symfony",
+        "Laravel",
+        "React",
+        "Angular",
+        "Flutter",
+        "Node.js",
+        "Flask",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Neo4j",
+        "Git",
+        "Docker",
+        "Postman",
+        "Jira",
+        "Kubernetes"
+      ],
+      "soft_skills": [
+        "conception d'applications web et mobiles",
+        "développement backend",
+        "création de solutions scalables et maintenables",
+        "gestion des rôles (Admin, Enseignant, étudiant)",
+        "authentification sécurisée (JWT)"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "A & M Gharred",
+        "start_date": "Oct. 2025 - March. 2026",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "développer une application de gestion de chantiers avec rôles (administrateur, chef de chantier, client) en React, Node.js, PostgreSQL"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Mat-IT",
+        "start_date": "Fév. 2025 - Juil. 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "développer des fonctionnalités full-stack avec Symfony, MySQL pour le backend"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Delta Web IT",
+        "start_date": "Juin 2024 - Juil. 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "conseiller une plateforme web évolutrice avec gestion des rôles (Admin, Enseignant, étudiant)"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Via Web IT",
+        "start_date": "Juin 2023 - Juil. 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "conseiller une plateforme e-commerce avec catalogue produits, recherche avancée et filtres"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'ingénieur en informatique",
+        "school": "ENSI Manouba",
+        "year": "2022-2025"
+      },
+      {
+        "degree": "Cycle préparatoire en mathématiques et physique",
+        "school": "ESSTHS Hammam Sousse",
+        "year": "2020-2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:14:22.155117+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9868,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

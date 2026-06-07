@@ -1,0 +1,219 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Bechir_hentati_23029505.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Bechir_hentati_23029505.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.827,
+  "normalization": {
+    "cleaned_markdown": "## HENTATI MOHAMED BECHIR\n\nFundamental Bachelor's in Computer Science Faculty of Sciences - Tunis (2016 - 2019)\nMaster of Research in Computer Science Faculty of Sciences - Tunis (2019 - 2021)\nMaster's in Computer Science Kobe institute of computing (2023-2025)\nCharging support engineer OOREDOO (August 2022 - sept 2023)\nAdministration and optimization of Ericsson IN/Charging platforms (AIR, CCN, OCC, SDP, CRS) to ensure high availability.\n\n## EDUCATION\n\nCONTACT\nPhone:\nEmail:\nmed.bechir.hentati@gmail.com bechirhentati@hotmail.fr\nLinked In:\ni nkedin. com/in/hentati-\nMohamed-bechir-361354172\nAdress:\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nManouba-Sidi Amor-Residence Omar - Apt .c 02-3\n\n## LANGUAGES\n\nLANGUAGES:\nArabic: Primary proficiency English: bilingual proficiency French: Full professional proficiency. German: Elementary proficiency (A 2 Goethe Tunis Institute) Japanese: Elementary proficiency\nOTHERS: Driving licence\n\n## TECHNICAL SKILLS\n\nDevelopment of automated monitoring tools (SMS/email alerts, KPIs, graphs) to reduce incident detection times. Management of critical incidents, on-call night shifts, and emergency interventions across the entire Charging network. Analysis of critical flows, advanced Linux Shell architecture, and creation of monitoring dashboards using Grafana.\nDevelopment of an in-house server monitoring/data collection web application using Django/Python.\nTechnologies: SQL, Grafana, Linux Shell, Ericsson IN.\nTechnical support engineer HPE (Jun 2021 - Mar 2022)\nDiagnosis and resolution of multiple hardware and software issues in servers using multiple tools\nTechnologies: Salesforce, HPE internal tools\nDevelopment of a web portal for an accounting firm (Tools: HTML, CSS, JAVASCRIPT, PHP, MySQL, UML, Scrum)\nSKILLS\n-Environments Windows, Linux (Red Hat)(CLI, automation, scripting)\n-Programming Languages: C, Java, shell\n-Web: HTML, CSS, JS, PHP, Symfony\nDB: MySQL, TOAD\n-IDE: Eclipse, Android Studio, PHPStorm, Arduino IDE\n\n## ACADEMIC PROJECTS\n\nGraduation project Globe Connect ( Mar 2019 - Jun 2019 )",
+    "header_info": {
+      "full_name": "HENTATI MOHAMED BECHIR",
+      "email": null,
+      "phone": "2016 - 2019",
+      "location": "Administration and optimization of Ericsson IN/Charging platforms (AIR, CCN, OCC, SDP, CRS) to ensure high availability.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8209,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.linkedin"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].field",
+      "education[2].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]",
+      "languages[4]"
+    ],
+    "fields_unsupported": [
+      "bio.linkedin"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "HENTATI MOHAMED BECHIR",
+      "email": "med.bechir.hentati@gmail.com",
+      "phone": null,
+      "location": "Manouba-Sidi Amor-Residence Omar - Apt .c 02-3",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 9,
+      "hard_skills": [
+        "SQL",
+        "Grafana",
+        "Linux Shell",
+        "Ericsson IN",
+        "Salesforce",
+        "HPE internal tools",
+        "HTML",
+        "CSS",
+        "JAVASCRIPT",
+        "PHP",
+        "MySQL",
+        "UML",
+        "Scrum",
+        "C",
+        "Java",
+        "Windows",
+        "Red Hat",
+        "Eclipse",
+        "Android Studio",
+        "PHPStorm",
+        "Arduino IDE",
+        "Django/Python",
+        "TOAD"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "OOREDOO",
+        "job_title": "Charging support engineer",
+        "start_date": "August 2022",
+        "end_date": "sept 2023",
+        "city": null,
+        "responsibilities": [
+          "Administration and optimization of Ericsson IN/Charging platforms (AIR, CCN, OCC, SDP, CRS) to ensure high availability."
+        ]
+      },
+      {
+        "company": "HPE",
+        "job_title": "Technical support engineer",
+        "start_date": "Jun 2021",
+        "end_date": "Mar 2022",
+        "city": null,
+        "responsibilities": [
+          "Diagnosis and resolution of multiple hardware and software issues in servers using multiple tools"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Faculty of Sciences - Tunis",
+        "degree": "Fundamental Bachelor's in Computer Science",
+        "field": "Computer Science",
+        "year": null
+      },
+      {
+        "institution": "Faculty of Sciences - Tunis",
+        "degree": "Master of Research in Computer Science",
+        "field": "Computer Science",
+        "year": null
+      },
+      {
+        "institution": "Kobe institute of computing",
+        "degree": "Master's in Computer Science",
+        "field": "Computer Science",
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "English",
+      "French",
+      "German",
+      "Japanese"
+    ],
+    "certifications": [
+      "Driving licence",
+      "Elementary proficiency (A 2 Goethe Tunis Institute)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:42:00.837667+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

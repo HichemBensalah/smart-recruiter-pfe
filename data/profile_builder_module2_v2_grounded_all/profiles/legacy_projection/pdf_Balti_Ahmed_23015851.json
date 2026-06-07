@@ -1,0 +1,120 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Balti_Ahmed_23015851.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Balti_Ahmed_23015851.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Balti_Ahmed_23015851.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ahmed Balti",
+      "email": "ahmed.balti990@gmail.com",
+      "phone": null,
+      "location": "Le Bardo, Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "C",
+        "C++",
+        "java",
+        "Python",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "Spring Boot",
+        "Angular",
+        "Hibernate",
+        "NodeJS",
+        "Scrum",
+        "Bootstrap",
+        ".Net",
+        "React",
+        "Kubernetes",
+        "Jenkins",
+        "Gitlab CI",
+        "Grafana",
+        "Prometheus",
+        "Nexus",
+        "Docker",
+        "Azure DevOps",
+        "Ansible",
+        "Packer",
+        "Kibana",
+        "Logstash",
+        "JUnit",
+        "Sonar Qube",
+        "Apache Jmeter",
+        "Xray",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "Elastic Search",
+        "Sql Server"
+      ],
+      "soft_skills": [
+        "Pensée analytique et critique",
+        "Prise de décision",
+        "Résolution de problèmes complexes",
+        "Multi-tâches",
+        "Esprit d'équipe"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur Full Stack & DevOps",
+        "company": "Eita Consulting",
+        "start_date": "août. 2025",
+        "end_date": "Aujourd'hui",
+        "city": null,
+        "responsibilities": [
+          "Contribution au développement et à l'évolution de la plateforme Todo Plus, une solution web complète de gestion d'entreprise ( CRM, RH, stock, matériel, flotte et recrutement ).",
+          "Amélioration des fonctionnalités existantes et ajout de nouvelles fonctionnalités.",
+          "Participation active aux pratiques DevOps: conteneurisation des applications, gestion des pipelines CI/CD, analyse de la qualité du code et surveillance continue."
+        ]
+      },
+      {
+        "job_title": "Stagiaire Full Stack",
+        "company": "Inetum",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'un portail d'entreprise pour le secteur de l'assurance en utilisant Spring Boot, Angular 16, Sql Server, les tests unitaires et les outils DevOps.",
+          "Réalisation d'une plateforme de gestion des bacs et des palettes afin de faciliter et digitaliser le travail des techniciens de l'entreprise en utlisant Spring Boot et Angular.",
+          "Réalisation d'une plateforme de réseautage social entre étudiants afin de faciliter leurs interactions actives au sein des clubs universitaires .( MERN )",
+          "Réalisation d'un projet DevOps en utilisant Spring Boot, Jenkins et Docker pour l'intégration et le déploiment continue, Nexus pour la gestion des artifacts, JUnit pour les tests unitaires, Sonar Qube pour vérifier la qualité de code, Docker Compose pour l'orchestration et pour la surveillance Grafana et Prometheus.",
+          "Développement d'une application micro-services qui contient une partie Backend réalisée par Spring Boot et NodeJS, partie Frontend développée par Angular, Open Feign pour la communication entre les MS, JWT et Keycloak pour l'aspect sécurité et Docker pour la conteneurisation."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme national d'ingénieur en Informatique",
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat Mathématiques",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:41:55.452003+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9591,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hamza_Jomni_23019370.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hamza_Jomni_23019370.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hamza_Jomni_23019370.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ingénieur DevOps HAMZA JOMNI",
+      "email": "jomnihamza@gmail.com",
+      "phone": "(216) 54 739 279",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Administration VM Linux & Windows",
+        "Pipelines CI/CD",
+        "Automatisation",
+        "Script Shell",
+        "SQL",
+        "Analyse Sécurité",
+        "Documentation",
+        "Escrow ReactJS",
+        "Angular JS",
+        "NodeJS",
+        "Spring Boot",
+        "Flask",
+        "Python",
+        "Java",
+        "Javascript"
+      ],
+      "soft_skills": [
+        "Apprentissage rapide",
+        "Sens du détail",
+        "Résolution des problèmes",
+        "Bon esprit d'équipe et capacité d'adaptation"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Janvier 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Formation certifiante en développement web front-end",
+        "school": "GOMYCODE",
+        "year": null
+      },
+      {
+        "degree": "Formation Nanodegree Udacity",
+        "school": "Udacity",
+        "year": "2022"
+      },
+      {
+        "degree": "Cycle ingénieur en Génie logiciel",
+        "school": "Esprit",
+        "year": "2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:24:52.969049+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8074,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

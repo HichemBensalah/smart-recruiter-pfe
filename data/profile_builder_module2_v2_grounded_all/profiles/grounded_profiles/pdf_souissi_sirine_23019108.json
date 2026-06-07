@@ -1,0 +1,162 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\souissi_sirine_23019108.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\souissi_sirine_23019108.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8605,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSouissi Sirine\nIng´ enieure Full Stack Junior/map-marker-alt Hammamet, Nabeul/envelope sirinesouissi 533@gmail.com/phone-alt +216 99 430 344/linkedin-in Linked In/github Github\nDiplˆ om´ ee ing´ enieur en informatique, je recherche un poste de d´ eveloppeuse full stack. Rigoureuse et curieuse, je maˆ ıtrise Java Spring Boot, Angular, ainsi que MERN\n\n## EDUCATION\n\nFormation\nITBS Nabeul - Ing´ enierie en Informatique (G´ enie Logiciel)\nISSAT Sousse - Diplˆ ome National en Syst` emes Embarqu´ es\nComp´ etences Techniques\nExp´ erience Professionnelle\nStage PFE - D´ eveloppeuse Full Stack -Safran Tunisie\nDigitalisation du processus de gestion des stages via une application full-stack (Java Spring Boot + Angular).\nD´ eveloppement et int´ egration d'un mod` ele IA pour le scoring automatique des CV.\nMise en place d'un pipeline CI/CD avec Docker et Jenkins.\nStage d'´ et´ e - D´ eveloppeuse IA -Safran Tunisie\nD´ eveloppement d'une application E-Procure avec extraction automatique de donn´ ees, correction orthographique et pr´ ediction budg´ etaire.\n**Date: ** F´ ev. 2025 - Juil. 2025\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nConception d'un pipeline d'extraction intelligent bas´ e sur un mod` ele NLP.\nStage PFE - D´ eveloppeuse -Madar Consulting\nApplication de gestion routi` ere intelligente avec cartes Arduino.\nUtilisation de MySQL pour la persistance des donn´ ees.\n\n## ACADEMIC PROJECTS\n\nProjets Acad´ emiques & Personnels\nFreelance - Lumi` ere Logistique (PHP/HTML/CSS): Gestion des stocks avec r´ epartition automatique entre d´ epˆ ots. Interface responsive, MySQL, rapports PDF.\nFreelance - Gestion transferts & excursions (MERN): Application agence location voitures/excursions (MongoDB, Express, React, Node). R´ eservations, dashboard admin.\nGestion d'examens en ligne (ASP. NET MVC 5/C#): Calcul des moyennes, affichage notes tableau de bord, ASP. NET Identity, relev´ es PDF.\nD´ etection de somnolence (TensorFlow + OpenCV): Mod` ele CNN temps r´ eel, d´ etection fermeture paupi` eres, d´ eploiement Flask.\nGestion d'anomalies (ELK Stack + Flask): Pipeline logs, injection anomalies via API Flask, dashboard Kibana.\nGestion cabinet m´ edical (MERN): Rendez-vous, patients, dossiers m´ edicaux. Calendrier React, API JWT, stockage fichiers.\n- PCAP Python (Cisco/Open EDG)\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nActivit´ es B´ en´ evoles\nCroissant-Rouge Tunisien Nabeul: B´ en´ evole (2022-2023)\n\n## LANGUAGES\n\nLangues\nAnglais: courant\nFran¸ cais: courant\nClub Croissant-Rouge -Issatso: Tr´ esori` ere - Vice Pr´ esidente (2022)\n\n## TECHNICAL SKILLS\n\nMLOps avec Vertex AI (Google Cloud)\nCloud Engineer (Google)\nSouissi Sirine - Page 1 sur 1\n\n## MACHINE LEARNING & DEEP LEARNING\n\nDeep Learning (AWS)",
+    "header_info": {
+      "full_name": "Souissi Sirine",
+      "email": "533@gmail.com",
+      "phone": "+216 99 430 344",
+      "location": "Diplˆ om´ ee ing´ enieur en informatique, je recherche un poste de d´ eveloppeuse full stack. Rigoureuse et curieuse, je maˆ ıtrise Java Spring Boot, Angular, ainsi que MERN",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8954,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Souissi Sirine",
+      "email": "533@gmail.com",
+      "phone": "+216 99 430 344",
+      "location": "Hammamet, Nabeul",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "junior",
+      "years_experience": 2,
+      "hard_skills": [
+        "Java Spring Boot",
+        "Angular",
+        "MERN",
+        "TensorFlow",
+        "OpenCV",
+        "Python",
+        "AWS",
+        "Google Cloud"
+      ],
+      "soft_skills": [
+        "Rigoureuse",
+        "Curieuse",
+        "Trésorière",
+        "Vice Présidente"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Fév. 2025 - Juil. 2025",
+        "end_date": null,
+        "city": "Hammamet, Nabeul",
+        "responsibilities": [
+          "Digitalisation du processus de gestion des stages via une application full-stack (Java Spring Boot + Angular).",
+          "D'éveloppement et intégration d'un modèle IA pour le scoring automatique des CV.",
+          "Mise en place d'un pipeline CI/CD avec Docker et Jenkins."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ITBS Nabeul",
+        "degree": "Ing' enieure Full Stack Junior",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "ISSAT Sousse",
+        "degree": "Diplôme National en Systèmes Embarqués",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Anglais: courant",
+      "Français: courant"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:46:12.727640+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

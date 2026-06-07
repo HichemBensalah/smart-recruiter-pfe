@@ -1,0 +1,197 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Farah_ben_hassen_23016976.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Farah_ben_hassen_23016976.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7383,
+  "normalization": {
+    "cleaned_markdown": "## FARAH BENHASSEN\n\nSoftwareEngineer\nhttps: //www.linkedin.com/in/far ah -ben-hassen-27381 a 201/+216 24387202\nAriana tunisie\nbenhassen.farah@esprit.tn\n\n## PROFESSIONAL SUMMARY\n\nProfile\nBigdeal. tn\n\n## ACADEMIC PROJECTS\n\nEnd of Study Project (PFE) - Mobile Application Analysis Platform (Data Dock Report App)\n**Date: ** 02/2025-07/2025\nBackend Architecture: Designed and deployed a secure REST API in Python/Django, managing authentication, subscriptions, and permissions for a data analysis platform.\nPerformance Optimization: Implemented an asynchronous architecture with Celery and Redis for automatic and non-blocking data extraction, reducing processing latency.\n- Data Visualization: Modeled data in PostgreSQL and integrated a custom connector (Google Apps Script) for direct and dynamic visualization in Looker Studio.\n- Innovation: Implemented initial Artificial Intelligence functionalities for analysis automation and anomaly detection.\n## Summer Internship\n**Date: ** 06/2024-08/2024\n- Design and implementation of a Full-Stack application using Angular for the user interface and a secure Spring Boot REST API with MongoDB for data management.\n## Integrated Dev Project (Pocker Planning)\n**Date: ** 02/2024-05/2024\n## Modeling, design, and development of a Pocker planning application.\n- Development of a full-stack web application with Angular and Spring Boot.\n## Company Immersion Internship\n**Date: ** 02/2023-05/2023\nDevelopment of an event management web application using Symfony and Bootstrap, with Visual Studio and WAMP Server as the development environment.\n## End of Study Project\n**Date: ** 02/2022-04/2022\nAutomation and supervision of a pharmaceutical air treatment plant, including the implementation of automatic regulation systems and the design of a prototype to validate the solutions.\n- Certificate of participation in the innovation camp (Injaz Tunisia)\n- Certificate of Culture of wise communication\n- Service-Oriented Architecture\n\n## TECHNICAL SKILLS\n\nYoung graduate from Esprit, I am passionate about the practical application of my engineering skills and the development of innovative solutions. I am actively seeking a stimulating professional opportunity to contribute to ambitious projects, enrich my technical expertise, and bring significant added value to your organization.\nSoftware Architecture Engineering (Esprit)\nBachelor's Degree in Electronics, Electrotechnics and Automation (ISI Ariana)\nBaccalaureate in Technical Science\nIPACT Consult inc\nSkills\nEsprit\nSpring Boot, .NET Core, Angular, Flask Java, JavaScript (React, Node. js), Python (Django, DRF), C, C++, PHP, C# MySQL, MongoDB, SQL Server, Oracle, PostgreSQL GitHub, Linux, Visual Studio Code, Intelli J, Android Studio, Net Beans, Visual Studio Community, Code: : Blocks, Docker, Kubernetes, Jenkins, Postman, Swagger, Celery, Redis Scrum, Agile Jira, Trello, Slack, Microsoft Teams, Asana\nAraniacom company\nQualities\nTeamwork\nCommunication\nCreativity\nSteras\nProblem Solving\nLanguage\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nEnglish\nFrench\nGerman",
+    "header_info": {
+      "full_name": "FARAH BENHASSEN",
+      "email": "benhassen.farah@esprit.tn",
+      "phone": "+216 24387202",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/far",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9477,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].institution",
+      "education[2].degree",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "FARAH BENHASSEN",
+      "email": "benhassen.farah@esprit.tn",
+      "phone": "+216 24387202",
+      "location": "Ariana tunisie",
+      "linkedin": "https://www.linkedin.com/in/far ah -ben-hassen-27381 a 201/",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Bigdeal. tn",
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "Spring Boot",
+        ".NET Core",
+        "Angular",
+        "Flask Java",
+        "JavaScript (React, Node. js)",
+        "Python (Django, DRF)",
+        "C",
+        "C++",
+        "PHP",
+        "C#",
+        "MySQL",
+        "MongoDB",
+        "SQL Server",
+        "Oracle",
+        "PostgreSQL",
+        "GitHub",
+        "Linux",
+        "Visual Studio Code",
+        "Intelli J",
+        "Android Studio",
+        "Net Beans",
+        "Visual Studio Community",
+        "Code: : Blocks",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Postman",
+        "Swagger",
+        "Celery",
+        "Redis"
+      ],
+      "soft_skills": [
+        "Teamwork",
+        "Communication",
+        "Creativity",
+        "Problem Solving"
+      ]
+    },
+    "experiences": [],
+    "education": [
+      {
+        "institution": "Esprit",
+        "degree": "Bachelor's Degree in Electronics, Electrotechnics and Automation",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "ISI Ariana",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": null,
+        "degree": "Baccalaureate in Technical Science",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "English",
+      "French",
+      "German"
+    ],
+    "certifications": [
+      "Certificate of participation in the innovation camp (Injaz Tunisia)",
+      "Certificate of Culture of wise communication"
+    ],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:59:22.348016+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

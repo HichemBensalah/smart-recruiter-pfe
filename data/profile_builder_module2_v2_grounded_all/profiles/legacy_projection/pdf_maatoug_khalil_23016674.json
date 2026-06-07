@@ -1,0 +1,162 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\maatoug_khalil_23016674.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\maatoug_khalil_23016674.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\maatoug_khalil_23016674.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Khalil Maatoug",
+      "email": "610@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Cloud DevOps Engineer",
+        "Kubernetes Production",
+        "DevOps Engineer",
+        "AWS DevOps Engineer",
+        "Docker",
+        "Ansible",
+        "Prometheus",
+        "Grafana",
+        "ELK",
+        "Sonar Qube",
+        "Linux administration",
+        "Terraform"
+      ],
+      "soft_skills": [
+        "communication",
+        "time management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "DevOps Cloud Engineer",
+        "company": "One TECH Business Solutions",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Architected a high-availability Rabbit MQ cluster to orchestrate asynchronous provisioning workflows with fault tolerance and scalability.",
+          "Integrated Kubernetes to support containerized workloads within the platform ecosystem."
+        ]
+      },
+      {
+        "job_title": "System & DevOps Engineer Intern",
+        "company": "One TECH Business Solutions",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Deployed a high-availability Kubernetes cluster with 99. 9% uptime using Ansible automation.",
+          "Improved system performance and operational efficiency by 75%."
+        ]
+      },
+      {
+        "job_title": "System & DevOps Engineer Intern",
+        "company": "BNA - Banque Nationale Agricole",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Managed containerized deployments with Docker and Kubernetes.",
+          "Integrated Sonar Qube and ELK, reducing issue resolution time by 60%."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "DevOps k 8 s Platform (VPS & AWS)",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Provisioned a high-availability cluster using Kubespray with full observability stack (Prometheus, Grafana, Alertmanager, ELK).",
+          "Enhanced security using WAF (Bunker Web) and automated TLS management across VPS and AWS environments."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "SMA-Assistant",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Configured Nginx reverse proxy for efficient routing between frontend and backend services.",
+          "Integrated AWS Lambda for serverless APIs, improving scalability and reducing infrastructure overhead."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Freelance",
+        "start_date": "Dec 2024 - Feb 2025",
+        "end_date": null,
+        "city": "Sfax, Tunisia",
+        "responsibilities": [
+          "Developed a self-service portal (Angular + Spring Boot) allowing users to provision and securely access VMs.",
+          "Implemented monitoring and observability using Prometheus and Grafana for real-time infrastructure insights."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Freelance",
+        "start_date": "Sep 2025 - Present",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Production Kubernetes Platform for Microservices"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Freelance",
+        "start_date": "Aug 2024 - Present",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Built and operated production-grade Kubernetes platforms using Kubespray, Helm, and Git Ops."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Freelance",
+        "start_date": "Feb 2025 - Aug 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Designed and built an on-premise cloud platform (EC 2-like service) enabling self-service VM provisioning on Open Stack."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor in Computer Science",
+        "school": "TEK-UP University",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Higher Institute of Computer Science and Multimedia of Sfax",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:08:02.508914+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.5397,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

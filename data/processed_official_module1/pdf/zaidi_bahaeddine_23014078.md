@@ -1,0 +1,59 @@
+## HEADER
+
+Zaidi bahaeddine
+Linked In | 54543028 | bahaae. zaidi@gmail. com | Git Hub | Portfolio
+
+## TECHNICAL SKILLS
+
+• C# | .NET | Java | Java Script | Type Script | C | Nestjs | Node | Express | React | Redux | No SQL | Git | Figma |Ui | Ux | Scrum
+• CI/CD | JUnit | Unit Testing | OOP | Python | Springboot |Angular| UML |Jenkins | Docker | Linux | Mockito |Postgres | Laravel | Django
+• Microservices | Frontend | Backend | Full-Stack | Anglais | Francais
+
+## PROFESSIONAL EXPERIENCE
+
+Ingénieur logiciel, Stage
+Ipact consult
+Canada
+• Conception et mise en œuvre d'un système de déploiement continu qui prend en charge des itérations rapides pour une application
+full-stack facilite désormais le déploiement des modifications de code à la demande, permettant plus de 50 mises à jour quotidiennes sans
+interruption (Angular, Springboot, Docker, Github Actions)
+Ingénieur logiciel, Stage
+Omeg Up
+Tunisie
+• Refonte complète du frontend du site web d'Omega Up en utilisant React. js pour concevoir et implémenter une nouvelle interface
+utilisateur, améliorer l'expérience utilisateur, et intégrer avec les services backend existants avec Reactjs.
+Ingénieur logiciel, Stage
+Vision 4 Med
+Tunisie
+• Dans le cadre de mon projet de fin d’études, j’ai participé à la refonte et à l’extension de la plateforme Saa S Vision 4 Med, spécialisée
+dans la santé, en développant des fonctionnalités avancées telles que le dossier médical partagé, les ordonnances vérifiées par QR code, la
+téléconsultation en temps réel (Web RTC), la gestion de cabinet médical, la prise de rendez-vous en ligne, le répertoire hospitalier, la
+messagerie interne, la recherche par géolocalisation avec filtres, ainsi qu’un chatbot IA pour la landing page. J’ai également conçu deux
+agents intelligents : un agent patient capable d’analyser les symptômes saisis, de fournir un diagnostic préliminaire, d’interpréter des
+documents médicaux uploadés et d’interagir par chat, et un agent médecin générant des résumés intelligents du dossier médical, assistant
+au diagnostic et au traitement, et permettant la création ou la modification d’ordonnances partagées via des prompts. Sur le plan Dev Ops,
+j’ai mis en place un pipeline CI/CD avec Git Hub Actions, assuré la containerisation avec Docker, l’orchestration avec Kubernetes et intégré du
+web scraping de données médicales. Le projet a été réalisé avec React. js, Node. js, Express. js et Sequelize
+
+## EDUCATION
+
+Baccalaureat Mathématique Lycée Technique Mednine 09/2015 - 6/2019
+Cycle Préparatoires Issat Gabes 09/2019 - 06/2022
+CYCLE INGENIEUR INFORMATIQUE Esprit Ariana 09/2022- 12/2025
+
+## ACADEMIC PROJECTS
+
+• HRM 360: Plateforme GRH novatrice avec Analyse de sentiment IA intégrée (Angular 17, Python, Nestjs, Ci/CD) (01/2024)
+• PROJET DEVOPS: Une mise en place d’une chaine d’integration et deployement
+continue(Angular, Springboot, Docker, Jenkins, Sonarqube, Promethus, Graphana, Jacoco) (02/2024)
+• FOYER WEB : une application web pour la gestion des foyers étudiants au sein d'une école(Angular, Springboot, bootstrap) (09/2023)
+• R É S E R V E Z M AI N T E N A N T: conception et développement d'une application de réservation d'hôtel basée sur des microservices
+( Node. js et Spring Boot, My SQL, Angular, Mongodb, Erica server, Docker, Keycloark) (10/2023)
+• W A S TE W I Z E: conception et développement d’une application web de gestion des déchets et d’optimisation du recyclage.
+Contribution majeure à la création de fonctionnalités clés pour la gestion efficace des projets et investissements en faveur de pratiques
+durables. (Laravel 9, HTML, CSS, Java Script, Git Hub Actions, Sonar Cloud, Docker) (10/2024)
+• M E D I C A L A P P: conception et développement d’une application web sémantique médicale permettant de recommander des
+traitements, médecins et maladies en fonction des symptômes. Contribution au développement des fonctionnalités principales tout en
+garantissant une expérience utilisateur intuitive. (Spring Boot, Angular, OWL, SPARQL) (10/2024)
+• E C O S T Y L E: conception et développement d’une application web e-commerce intégrant l’intelligence artificielle pour améliorer
+l’expérience utilisateur, optimiser les recommandations de produits et simplifier le processus d’achat. (Django, Python, Machine Learning)

@@ -1,0 +1,113 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Eya_ajmi_23019410.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Eya_ajmi_23019410.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Eya_ajmi_23019410.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Eya Ajmi",
+      "email": "ajmieya 13@gmail.com",
+      "phone": null,
+      "location": "Tunis – Manouba, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "JavaScript",
+        "Java",
+        "Node.js",
+        "Spring Boot",
+        "Symfony",
+        "PHP",
+        "Flutter",
+        "Django",
+        "Python",
+        "C",
+        "SQL",
+        "MongoDB",
+        "Oracle",
+        "Git",
+        "GitHub",
+        "UML",
+        "Star UML",
+        "Postman",
+        "REST",
+        "SOAP"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Gestion du Temps",
+        "Travail d'équipe",
+        "Résolution de problèmes",
+        "Créativité"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire Développeuse Full-Stack",
+        "company": "Tunisair",
+        "start_date": null,
+        "end_date": null,
+        "city": "Charguia II",
+        "responsibilities": [
+          "Développement d’une application web et mobile de gestion des repas équipages chez Tunisie Catering"
+        ]
+      },
+      {
+        "job_title": "Stagiaire En Informatique",
+        "company": "Siège Des Assurances Hayett",
+        "start_date": null,
+        "end_date": null,
+        "city": "Immeuble COMAR",
+        "responsibilities": [
+          "Développement d'un site web de gestion des événements"
+        ]
+      },
+      {
+        "job_title": "Stagiaire En Informatique",
+        "company": "STUDI International",
+        "start_date": null,
+        "end_date": null,
+        "city": "Les Berges Du Lac II",
+        "responsibilities": [
+          "Support IT",
+          "Développement d'une première expérience dans le milieu professionnel"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle ingénieur en informatique",
+        "school": "i Team University",
+        "year": null
+      },
+      {
+        "degree": "Licence en Technologies de l'informatique",
+        "school": "Institut Supérieur des Études Technologique de Charguia",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat en Sciences Expérimentales",
+        "school": "Lycée Ibn Mandhour",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T15:31:32.868527+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9503,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

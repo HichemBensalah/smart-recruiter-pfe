@@ -1,0 +1,99 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Bechir_hentati_23029505.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Bechir_hentati_23029505.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Bechir_hentati_23029505.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "HENTATI MOHAMED BECHIR",
+      "email": "med.bechir.hentati@gmail.com",
+      "phone": null,
+      "location": "Manouba-Sidi Amor-Residence Omar - Apt .c 02-3"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "SQL",
+        "Grafana",
+        "Linux Shell",
+        "Ericsson IN",
+        "Salesforce",
+        "HPE internal tools",
+        "HTML",
+        "CSS",
+        "JAVASCRIPT",
+        "PHP",
+        "MySQL",
+        "UML",
+        "Scrum",
+        "C",
+        "Java",
+        "Windows",
+        "Red Hat",
+        "Eclipse",
+        "Android Studio",
+        "PHPStorm",
+        "Arduino IDE",
+        "Django/Python",
+        "TOAD"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Charging support engineer",
+        "company": "OOREDOO",
+        "start_date": "August 2022",
+        "end_date": "sept 2023",
+        "city": null,
+        "responsibilities": [
+          "Administration and optimization of Ericsson IN/Charging platforms (AIR, CCN, OCC, SDP, CRS) to ensure high availability."
+        ]
+      },
+      {
+        "job_title": "Technical support engineer",
+        "company": "HPE",
+        "start_date": "Jun 2021",
+        "end_date": "Mar 2022",
+        "city": null,
+        "responsibilities": [
+          "Diagnosis and resolution of multiple hardware and software issues in servers using multiple tools"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Fundamental Bachelor's in Computer Science",
+        "school": "Faculty of Sciences - Tunis",
+        "year": null
+      },
+      {
+        "degree": "Master of Research in Computer Science",
+        "school": "Faculty of Sciences - Tunis",
+        "year": null
+      },
+      {
+        "degree": "Master's in Computer Science",
+        "school": "Kobe institute of computing",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:42:00.838676+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8209,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

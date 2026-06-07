@@ -1,0 +1,82 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hela_KCHOUK_23024196.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hela_KCHOUK_23024196.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hela_KCHOUK_23024196.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hela KCHOUK",
+      "email": "7@gmail.com",
+      "phone": "(216)54141484",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Dart",
+        "Java",
+        "C",
+        "C++",
+        "JavaScript",
+        "Flutter",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "soft_skills": [
+        "Analyse",
+        "Extraction",
+        "Manipulation de données",
+        "Nettoyage et transformation des données",
+        "Développement web",
+        "Gestion de systèmes LMS interne"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Analyste de données SQL et Support technique",
+        "company": "Solva Risk Africa",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Suivi des expériences avec MLflow et optimisation des hyperparamètres",
+          "Déploiement via API FastAPI et interface utilisateur (Streamlit/React)",
+          "Application des étapes CRISP-DM: préparation, modélisation et évaluation",
+          "Techniques utilisées: ACP, AFC, clustering, arbre de décision, analyse discriminante"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingénieur en Informatique, Spécialité Big Data et Intelligence Artificielle",
+        "school": "Ecole Polytechnique Internationale",
+        "year": "2éme année"
+      },
+      {
+        "degree": "Diplôme de licence en technologies de informatique",
+        "school": "Institut supérieur des études technologiques de charguia",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:29:41.361703+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8315,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

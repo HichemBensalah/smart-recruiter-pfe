@@ -1,0 +1,203 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Drira_oussema_23014429.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Drira_oussema_23014429.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8283,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nhttps: //gitlab. com/oussemadrira 4\nOussema DRIRA\nwww. linkedin.com/in/drira-oussema/## TECHNICAL SKILLS\n\nDéveloppeur Full Stack & Ingénieur DevOps\nhttps: //github.com/Oussema Drira\n oussema.drira@iit.ens.tn\nSfax, Tunisie\nÀ propos de moi\nIngénieur en génie logiciel et informatique décisionnelle, actuellement en poste en tant que Full Stack Developer & DevOps Engineer. Je possède de solides compétences en développement Full Stack Angular, Spring Boot, Laravel) et en DevOps Docker, Jenkins, AWS, avec une passion pour les architectures modernes et les défis techniques.\nFull Stack Developer & DevOps Engineer\nKMF business solution\nSfax, Tunisie\nConception et développement d'un micro-service Spring Boot en architecture en couches Controller, Service, DTO/Mapper via Map Struct)\nDéveloppement d'interfaces responsives avec Angular 17 Prime NG, réduisant le temps de développement UI de 40% grâce à la bibliothèque de composants\nContainerisation complète de l'ERP avec Docker et déploiement en production via Nginx (reverse proxy)\nMise en place d'un pipeline CI/CD Jenkins, Sonar Qube automatisant le build, les tests et l'analyse qualité en réduisant le temps de déploiement de 2 h (manuel) à 10 min (automatique)\nCompétences\nFrameworks et Technologies\nConfiguration d'un tunnel SSH sécurisé entre serveur interne et serveur client pour l'auto-déploiement continu, éliminant toute intervention manuelle Les technologies: Spring Boot, Maven, Map Struct, Angular 17, Prime NG, Docker, Docker Hub, Docker Compose, Nginx, Jenkins, Sonar Qube, SSH\nNode. js, Spring Boot, Laravel, Flutter, Angular, React. js, Vue. js\nDevOps\nFull Stack Developer\nDocker, Linux, Git, AWS, Kubernetes, CI/CD, Infrastructure monitoring\nSLF DIGITAL _Freelance\nSfax, Tunisie\nBases de données\nDéveloppement d'APIs RESTful robustes avec Laravel en suivant une architecture en couches Controller, Service, Repository)\nSQL, Oracle 10 g, MongoDB, postgresql\nSécurisation des endpoints et gestion de l'authentification via JWT\nValidation des données entrantes et gestion centralisée des exceptions Les technologies: Laravel, PHP, MySQL, JWT, Postman\nStage d'été en Devops\nLINKAO\nSfax, Tunisie\nMise en place d'une solution de supervision IT avec Prometheus pour le suivi en temps réel des métriques.\nVisualisation des métriques avec Grafana, notamment l'état des machines virtuelles. Les technologies: CI/CD, Grafana, Prometheus, Infrastructure monitoring\n\n## EDUCATION\n\nFormation\nCycle d'ingénieur en génie logiciel et système décisionnel\n## Institut International de Technologie\n**Date: ** 06/2025\n**Location: ** Sfax, Tunisie\n- Licence en développement des systèmes d'informatique\n- Institut Supérieur des Etudes Technologiques\n## Baccalauréat Technique\n**Date: ** 06/2022\n**Location: ** Sfax, Tunisie\n## lycee abou kacem chebbi 06/2019 Sfax, Tunisie\n- Projet de fin d'études en développement mobile et déploiement sur AWS.\n- Coconsult\n## Sfax, Tunisie\n**Date: ** 02/2025 06/2025\nDéveloppement d'une application mobile de télémédecine pour la gestion des rendez-vous, des dossiers médicaux et des notifications en temps réel.\nIntégration d'un module OCR pour l'extraction automatique des données depuis les ordonnances médicales, réduisant la saisie manuelle de 80% et limitant significativement les risques d'erreur humaine.\n## Containerisation avec Docker, déploiement sur AWS EC 2 et pipeline CI/CD Jenkins\nJUnit Sonar Qube) en réduisant le temps de déploiement de 45 min à 8 min. Les technologies: Flutter, Spring Boot, Maven, Docker, Docker hub, Docker Compse, AWS EC 2, Jenkins, JUnit, Sonar Qube\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences professionnelles\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nCisco Certified Network Associate CCNA 1\nCisco\nDP 900 Microsoft Azure Data\nFundamentals\nkodekloud\nAZ 900 Microsoft Azure\nFundamentals\nkodekloud\nScrum Fundamentals Certified\nScrum Study\n\n## LANGUAGES\n\nLangues\nFrançais\nB 2\nAnglais\nB 2",
+    "header_info": {
+      "full_name": "Oussema DRIRA",
+      "email": "oussema.drira@iit.ens.tn",
+      "phone": null,
+      "location": "Sfax, Tunisie",
+      "linkedin": "linkedin.com/in/drira-oussema/##",
+      "github": "github.com/Oussema"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.5211,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.soft_skills[0]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Oussema DRIRA",
+      "email": "oussema.drira@iit.ens.tn",
+      "phone": null,
+      "location": "Sfax, Tunisie",
+      "linkedin": "linkedin.com/in/drira-oussema/##",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Full Stack Developer & DevOps Engineer with expertise in Angular, Spring Boot, Docker, Jenkins, AWS, and modern architectures.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "Docker",
+        "Jenkins",
+        "AWS",
+        "Map Struct",
+        "Prime NG",
+        "Nginx"
+      ],
+      "soft_skills": [
+        "DevOps"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "KMF business solution",
+        "job_title": "Full Stack Developer & DevOps Engineer",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Conception et développement d'un micro-service Spring Boot en architecture en couches Controller, Service, DTO/Mapper via Map Struct)",
+          "Développement d'interfaces responsives avec Angular 17 Prime NG, réduisant le temps de développement UI de 40% grâce à la bibliothèque de composants",
+          "Containerisation complète de l'ERP avec Docker et déploiement en production via Nginx (reverse proxy)",
+          "Mise en place d'un pipeline CI/CD Jenkins, Sonar Qube automatisant le build, les tests et l'analyse qualité en réduisant le temps de déploiement de 2 h (manuel) à 10 min (automatique)"
+        ]
+      },
+      {
+        "company": "SLF DIGITAL _Freelance",
+        "job_title": "Full Stack Developer",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Développement d'APIs RESTful robustes avec Laravel en suivant une architecture en couches Controller, Service, Repository)",
+          "SQL, Oracle 10 g, MongoDB, postgresql"
+        ]
+      },
+      {
+        "company": "LINKAO",
+        "job_title": "Stage d'été en Devops",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Mise en place d'une solution de supervision IT avec Prometheus pour le suivi en temps réel des métriques.",
+          "Visualisation des métriques avec Grafana, notamment l'état des machines virtuelles."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut International de Technologie",
+        "degree": "Cycle d'ingénieur en génie logiciel et système décisionnel",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Supérieur des Etudes Technologiques",
+        "degree": "Baccalauréat Technique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [
+      "Cisco Certified Network Associate CCNA 1",
+      "DP 900 Microsoft Azure Data Fundamentals",
+      "AZ 900 Microsoft Azure Fundamentals",
+      "Scrum Fundamentals Certified"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:52:28.193415+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abed_Ahmed_23017512.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abed_Ahmed_23017512.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8595,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAhmed Abed Développeur Web Full Stack\nahmed.abed.mail@gmail.com\nImplémentation de l'authentification OAuth 2/JWT avec Keycloak\nDéveloppement frontend Angular 16 (dashboards, suivi opérationnel, statistiques)\nIntégration avec le Core Banking System (PERFECT)\nGénération de rapports financiers avec Jasper Reports\nConteneurisation et déploiement via Docker et CI/CD\nDéveloppeur Java Backend - Illiade Consulting\nDéc 2023 - Avr 2024\nMaintenance et évolution de la plateforme Open Cell (facturation)\nRésolution d'incidents critiques et debugging avancé\nChiffrage et implémentation des évolutions fonctionnelles\nAutomatisation des tests avec Selenium\nTravail sur environnement Jakarta EE/Wild Fly/PostgreSQL\nDéveloppeur Java Backend - Groupe BFI\nDéc 2022 - Nov 2023\nDéveloppement de services backend pour un système comptable et financier\nIntégration via ESB (framework Carthago)\nMigration de données (Sage → système interne)\nMigration base Oracle vers PostgreSQL\nMise en production et gestion environnement client\nGénération d'états financiers (Jasper Reports)\nDéveloppeur Java - IDEE\nMai 2021 - Déc 2022\nMigration d'applications Oracle vers Spring Boot\nDéveloppement de la solution Sky Guard (monitoring + automatisation)\nAnalyse réseau LAN, gestion des services Windows, contrôle distant\nMise en place d'alertes temps réel sur mobile\nAutomatisation des tâches critiques\nAssistant Technique - Groupe TIMSOFT\nJan 2021 - Avr 2021\nSupport ERP Cegid multi-clients (Tunisie, Europe, Afrique)\nAnalyse et résolution d'incidents complexes\nRequêtes SQL et optimisation de bases PostgreSQL\nDocumentation technique et support\nDéveloppeur Java/Android - Freelance\nJan 2019 - Jan 2021\nConception et développement de l'application 'Belles Vues'\nGéolocalisation GPS et signalement d'incidents urbains\nIntégration Firebase (notifications, base de données)\nAuthentification sécurisée (SMS)\nDéploiement sur Google Play\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nDéveloppeur Web spécialisé dans la conception et le développement de systèmes critiques dans les domaines de la finance et des ERP.\nExpert des technologies Java (7-21) et de l'écosystème Spring, avec une forte orientation vers les architectures backend sécurisées, les systèmes distribués et l'intégration de SI complexes.\nHabitué aux environnements exigeants (microfinance, énergie, bancaire) nécessitant robustesse, sécurité (OAuth 2, JWT, Keycloak) et intégrité des données.\nConception et optimisation de la base MySQL (modélisation, performance, reporting)\n\n## COMPÉTENCES CLÉS\n\nJava (7-21), Python, Spring Boot\nBackend:\nAngular, React\nFrontend:\nSécurité:\nPostgreSQL, Oracle, MySQL\nBases de données:\nDocker, Docker Compose, Git Lab CI/CD, Jenkins\n\n## TECHNICAL SKILLS\n\nDevOps:\nTesting:\nCloud:\nGit, Maven, Postman, Swagger, Jasper Reports\nOutils:\nDepuis mai 2024\nOracle Cloud Infrastructure - Generative AI Professional (2025)\nOracle Cloud Infrastructure - Foundations Associate (2025)\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nDéveloppeur Java Fullstack - Freelance (AMF)\nConception et développement d'une application de recouvrement pour une institution de microfinance\nDéveloppement backend sécurisé avec Spring Boot 3 (API REST, logique métier, sécurité)\n\n## EDUCATION\n\nFORMATION\nLicence en Informatique Appliquée à la Gestion - Université Libre de Tunis\nCycle préparatoire ingénieur (MPSI) - IPEI El Manar\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\n\n## LANGUAGES\n\nLANGUES\nFrançais: Courant\nAnglais: Professionnel\nEspagnol: Notions",
+    "header_info": {
+      "full_name": null,
+      "email": "ahmed.abed.mail@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9719,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[1].responsibilities[5]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].responsibilities[3]",
+      "experiences[2].responsibilities[4]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].responsibilities[2]",
+      "experiences[3].responsibilities[3]",
+      "experiences[3].start_date",
+      "experiences[4].end_date",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].responsibilities[1]",
+      "experiences[4].responsibilities[2]",
+      "experiences[4].responsibilities[3]",
+      "experiences[4].responsibilities[4]",
+      "experiences[4].start_date",
+      "experiences[5].job_title",
+      "experiences[5].responsibilities[0]",
+      "experiences[5].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ahmed Abed",
+      "email": "ahmed.abed.mail@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Développeur Web spécialisé dans la conception et le développement de systèmes critiques dans les domaines de la finance et des ERP.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java",
+        "Python",
+        "Spring Boot",
+        "Angular",
+        "React",
+        "PostgreSQL",
+        "Oracle",
+        "MySQL",
+        "Docker",
+        "Docker Compose",
+        "Git Lab CI/CD",
+        "Jenkins",
+        "Git",
+        "Maven",
+        "Postman",
+        "Swagger",
+        "Jasper Reports"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Illiade Consulting",
+        "job_title": "Développeur Java Backend",
+        "start_date": "Déc 2023",
+        "end_date": "Avr 2024",
+        "city": null,
+        "responsibilities": [
+          "Maintenance et évolution de la plateforme Open Cell (facturation)",
+          "Résolution d'incidents critiques et debugging avancé",
+          "Chiffrage et implémentation des évolutions fonctionnelles",
+          "Automatisation des tests avec Selenium",
+          "Travail sur environnement Jakarta EE/Wild Fly/PostgreSQL"
+        ]
+      },
+      {
+        "company": "Groupe BFI",
+        "job_title": "Développeur Java Backend",
+        "start_date": "Déc 2022",
+        "end_date": "Nov 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement de services backend pour un système comptable et financier",
+          "Intégration via ESB (framework Carthago)",
+          "Migration de données (Sage → système interne)",
+          "Migration base Oracle vers PostgreSQL",
+          "Mise en production et gestion environnement client",
+          "Génération d'états financiers (Jasper Reports)"
+        ]
+      },
+      {
+        "company": "IDEE",
+        "job_title": "Développeur Java",
+        "start_date": "Mai 2021",
+        "end_date": "Déc 2022",
+        "city": null,
+        "responsibilities": [
+          "Migration d'applications Oracle vers Spring Boot",
+          "Développement de la solution Sky Guard (monitoring + automatisation)",
+          "Analyse réseau LAN, gestion des services Windows, contrôle distant",
+          "Mise en place d'alertes temps réel sur mobile",
+          "Automatisation des tâches critiques"
+        ]
+      },
+      {
+        "company": "Groupe TIMSOFT",
+        "job_title": "Assistant Technique",
+        "start_date": "Jan 2021",
+        "end_date": "Avr 2021",
+        "city": null,
+        "responsibilities": [
+          "Support ERP Cegid multi-clients (Tunisie, Europe, Afrique)",
+          "Analyse et résolution d'incidents complexes",
+          "Requêtes SQL et optimisation de bases PostgreSQL",
+          "Documentation technique et support"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeur Java/Android",
+        "start_date": "Jan 2019",
+        "end_date": "Jan 2021",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement de l'application 'Belles Vues'",
+          "Géolocalisation GPS et signalement d'incidents urbains",
+          "Intégration Firebase (notifications, base de données)",
+          "Authentification sécurisée (SMS)",
+          "Déploiement sur Google Play"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeur Java Fullstack",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application de recouvrement pour une institution de microfinance",
+          "Développement backend sécurisé avec Spring Boot 3 (API REST, logique métier, sécurité)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université Libre de Tunis",
+        "degree": "Licence en Informatique Appliquée à la Gestion",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "IPEI El Manar",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais",
+      "Espagnol"
+    ],
+    "certifications": [
+      "Oracle Cloud Infrastructure - Generative AI Professional (2025)",
+      "Oracle Cloud Infrastructure - Foundations Associate (2025)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:30:13.047759+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Wissem_Kadri_23020264.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Wissem_Kadri_23020264.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8241,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nWissem Kadri\n+216 55 052 204 | wissem.kadri@proton.me | github.com/wissemkadri | linkedin.com/in/wissemkadri\n\n## PROFESSIONAL SUMMARY\n\nSummary\n\n## TECHNICAL SKILLS\n\nDevOps Engineer with experience building and automating cloud-native infrastructure on AWS using Kubernetes, Terraform, and Git Ops practices. Focused on improving deployment reliability, security, and delivery speed through CI/CD and infrastructure automation. First CNCF Golden Kubestronaut from Tunisia.\nDevOps Engineer\nUnited VITO\nMigrated production workloads from bare-metal to AWS Kubernetes, adopting a modern Git Ops-based CI/CD workflow\nDesigned and implemented Git Ops CI/CD pipelines with GitHub Actions and Argo CD, reducing deployment errors and accelerating release cycles\nAutomated cloud infrastructure provisioning and lifecycle management using Terraform\nIntegrated Trivy container image scanning into CI/CD pipelines, enabling automated detection of vulnerabilities and misconfigurations in Docker images before deployment\nConfigured and operated Kubernetes clusters, improving application reliability and scalability\nTechnologies: AWS (EKS, ECR, ALB, RDS, S 3, VPC, IAM), GitHub Actions, Argo CD, Docker, Kubernetes, Terraform, Trivy, Sealed Secrets, Helm, Cloudflare\nDev Sec Ops Engineer Intern\nHendrik Thurau Enterprises\nProject: Implementation of an Automated Dev Sec Ops Pipeline for Application Deployment with Kubernetes and Git Ops\nBuilt an end-to-end Dev Sec Ops pipeline enabling consistent, repeatable releases and reducing manual deployments\nMaintained a lightweight Kubernetes environment, improving deployment efficiency and reducing infrastructure overhead\nIntegrated security scanning across the CI pipeline (SAST, secrets detection, container scanning), identifying vulnerabilities early and strengthening application security before deployment\nAutomated artifact management and traceability, ensuring reproducible builds and easier rollback in case of failures\nImplemented a Git Ops deployment workflow, enabling faster, reliable, version-controlled releases\nStrengthened secrets management, reducing exposure of sensitive data and improving overall system security\nIntroduced pre-production validation (DAST), improving release confidence and reducing risk of production issues\nBuilt a centralized observability stack, enabling real-time monitoring and faster incident detection and resolution\nSecured internal services with identity-based access controls, strengthening protection of critical infrastructure\nTechnologies: Linux, Kubernetes, K 3 s, Helm, cert-manager, Argo CD, Sealed Secrets, Harbor, Jenkins, Docker, Hadolint, Gitleaks, Trivy, Sonar Qube, OWASP ZAP, Min IO, MongoDB, Redis, Rabbit MQ, Prometheus, Grafana, Elasticsearch, Fluentd, Kibana, Cloudflare\nWeb Server Administrator\nUnited VITO\nManaged and maintained a multi-tenant web hosting environment using Hestia CP, handling web server configuration, database provisioning, domain management, and SSL automation\nDeployed and operated 30+ production web applications, ensuring high availability and stable client hosting\nIntegrated secure payment processing (Konnect gateway) into client applications, enabling reliable online transactions\nImplemented an automated offsite backup strategy to Amazon S 3, improving disaster recovery and data durability\nDeveloped backend services for automated Facebook Catalog product synchronization\nTechnologies: AWS (EC 2, S 3, IAM, VPC), Linux, Hestia CP, Laravel, Maria DB, Cloudflare, OVH\nFull Stack Developer Intern\nHendrik Thurau Enterprises\nDeveloped a Marketplace module enabling users to create and manage listings, participate in auctions, manage favorites, purchase items, and submit reviews, extending an existing platform's functionality\nImplemented real-time auction and bidding features using Socket. IO, improving interactivity and ensuring live updates\nIntegrated backend APIs using Express. js to support marketplace workflows such as listings, bids, and order status updates\nBuilt and enhanced a mobile-responsive frontend interface using Ionic and Angular, improving usability across devices\n\n## PROFESSIONAL EXPERIENCE\n\nWork Experience",
+    "header_info": {
+      "full_name": "Wissem Kadri",
+      "email": "wissem.kadri@proton.me",
+      "phone": "+216 55 052 204",
+      "location": null,
+      "linkedin": "linkedin.com/in/wissemkadri",
+      "github": "github.com/wissemkadri"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.5215,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[2].responsibilities[2]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]"
+    ],
+    "fields_unsupported": [
+      "experiences[2].responsibilities[2]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[3]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Wissem Kadri",
+      "email": "wissem.kadri@proton.me",
+      "phone": "+216 55 052 204",
+      "location": null,
+      "linkedin": "linkedin.com/in/wissemkadri",
+      "github": "github.com/wissemkadri"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "AWS (EKS, ECR, ALB, RDS, S 3, VPC, IAM)",
+        "GitHub Actions",
+        "Argo CD",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Trivy",
+        "Sealed Secrets",
+        "Helm",
+        "Cloudflare"
+      ],
+      "soft_skills": [
+        "CI/CD and infrastructure automation",
+        "Deployment reliability and scalability",
+        "Container image scanning and secrets detection",
+        "Observability and incident detection",
+        "Identity-based access controls"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "United VITO",
+        "job_title": "DevOps Engineer",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Migrated production workloads from bare-metal to AWS Kubernetes",
+          "Designed and implemented Git Ops CI/CD pipelines with GitHub Actions and Argo CD",
+          "Automated cloud infrastructure provisioning and lifecycle management using Terraform",
+          "Integrated Trivy container image scanning into CI/CD pipelines",
+          "Configured and operated Kubernetes clusters"
+        ]
+      },
+      {
+        "company": "Hendrik Thurau Enterprises",
+        "job_title": "Dev Sec Ops Engineer Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Built an end-to-end Dev Sec Ops pipeline enabling consistent, repeatable releases",
+          "Maintained a lightweight Kubernetes environment",
+          "Integrated security scanning across the CI pipeline",
+          "Automated artifact management and traceability",
+          "Implemented a Git Ops deployment workflow"
+        ]
+      },
+      {
+        "company": "United VITO",
+        "job_title": "Web Server Administrator",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Managed and maintained a multi-tenant web hosting environment",
+          "Deployed and operated 30+ production web applications"
+        ]
+      },
+      {
+        "company": "Hendrik Thurau Enterprises",
+        "job_title": "Full Stack Developer Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed a Marketplace module enabling users to create and manage listings",
+          "Implemented real-time auction and bidding features using Socket. IO"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:01:00.009544+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

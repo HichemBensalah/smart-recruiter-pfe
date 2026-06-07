@@ -1,0 +1,72 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Attouf_Wissem_23029213.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Attouf_Wissem_23029213.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Attouf_Wissem_23029213.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Attouf Wissem",
+      "email": "wattouf35@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "mysql",
+        "php",
+        "laravel",
+        "API RESTful",
+        "Flutter",
+        "Dart",
+        "spring boot"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Agent de Crédit",
+        "company": "Enda Tamweel",
+        "start_date": "2017",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Accueil et orientation des clients dans le cadre des services de microfinance.",
+          "Prospection active de nouveaux clients pour élargir le portefeuille crédit.",
+          "Analyse des demandes de crédit et évaluation de la solvabilité des clients.",
+          "Gestion de caisse et suivi des encaissements.",
+          "Contrôle et validation des dossiers des agents de terrain."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Informatique, Génie Logiciel et Système d'Information",
+        "school": "Ecole Supérieure Privée d'Ingénierie en Informatique et Administration des Affaires",
+        "year": null
+      },
+      {
+        "degree": "Licence Nationale en Génie Logiciel et Système d'Information",
+        "school": "Institut Supérieur d'Informatique Kef",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:39:42.270740+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9808,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

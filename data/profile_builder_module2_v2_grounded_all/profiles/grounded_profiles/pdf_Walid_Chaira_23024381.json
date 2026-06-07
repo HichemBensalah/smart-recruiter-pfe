@@ -1,0 +1,161 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Walid_Chaira_23024381.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Walid_Chaira_23024381.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7781,
+  "normalization": {
+    "cleaned_markdown": "## CHAIRA WALID\n\nDéveloppeur Web Full-Stack JavaScript\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nCONTACT\nDéveloppeur Web Full Stack, spécialisé dans la MEAN stack (MongoDB, Express, Angular, Node. js), avec un fort intérêt pour les architectures modernes et les bonnes pratiques de développement\nCité El Khadhra Tunis 1003\nwalid.chaaira@gmail.com\nWalid-Chaira\nwalid-chaira\n\n## EDUCATION\n\nFORMATION DE RECONVERSION PROFESSIONNELLE (DÉVELOPPEUR FULL STACK JS) - CROCOCODER\nFORMATION\n2011 - 2014 LICENCE APPLIQUÉ EN SCIENCES ET TECHNOLOGIES DE L'INFORMATION ET DE LA COMMUNICATION (STIC)\nISET Gabes\nConception d'un site web responsive pour afficher les résultats et informations.\nCréation d'une plateforme en ligne pour la gestion d'une école.\nCHEF DE PROJET DIGITAL - APPROVISIONNEMENT & SYSTÈMES D'INFORMATION - SOCATRAP\nDéveloppement et maintenance d'applications web internes dédiées à la gestion des achats, fournisseurs, chantiers et processus comptables.\nConception de modules fonctionnels pour le suivi des commandes, factures, stocks, approvisionnements et échéances de paiement.\nMise en place de tableaux de bord, rapports automatisés (PDF/Excel) et outils de suivi budgétaire pour l'aide à la décision.\nGestion des utilisateurs et des droits d'accès, sécurisation des données, automatisation des flux internes et maintenance évolutive des applications.\n**Date: ** 02/2014 - 05/2014\n- STAGE PROJET DE FIN D'ÉTUDE - ISET GABES\n- Février - 2026: Certificat de formation Full Stack JavaScript\n- Conception et développement d'une application de suivi et gestion des produits à distance à travers la capture de QR code sous Android\n- Janvier - 2017: Certificate For Completing a Course on Developing Android Apps\n- Langages: Java\n- Novembre - 2014: Certification Cisco CCNA Discovery\n## Outils: Pack star UML, Eclipse\n- Serveur base de données: XAMPP\n\n## COMPÉTENCES ACQUISES:\n\nMaîtrise des technologies Front End: HTML 5, CSS 3, Bootstrap, JavaScript et Angular.\nExpertise en technologies Back End: Express. js et Node. js.\nManipulation avancée de modules Node. js tels que mongoose, bcrypt, bodyparser, multer, JWT, Express Session.\nAssurer la sécurité avec JWT.\nMaîtrise des bases de données NoSQL: MongoDB.\nUtilisation des APIs suivantes: Nodemailer, Twilio, Google Maps, Gmail API et Leaflet.\nContrôle de version avec Git et GitHub\n\n## BACCALAURÉAT 2011\n\nSection Informatique\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nOS: Windows, Linux, Android\nTechnologies Web: HTML 5, CSS 3, Bootstrap, JSON\nLangages de programmation: C, C++, Java, JavaScript, TypeScript\nJS Frameworks: Angular, Express\nSGBD: MongoDB, SQL, MySQL, Oracle\nOutils de gestion des tests & bugs: Jira, Postman, Test Link/Squash\nSystème de gestion de version: Git & GitHub\nRéseaux radio-Mobile: GSM, GPRS, EDGE, UMTS\nRéseaux informatique: LAN, WLAN\nMars - 2026: Certificate of Completion Software Testing - ISTQB Certified\n\n## PROJETS RÉALISÉS:\n\nDéveloppement d'une application web de location et de réservation de maisons d'hôte:\nUtilisation du HTML 5, CSS 3, Bootstrap, JavaScript, DOM, Local Storage\nDéveloppement avec Angular, JavaScript, TypeScript, Node. js et MongoDB:\nCréation d'une application de commande et de réservation pour un établissements de restauration.\n\n## LANGUAGES\n\nLANGUES\nFrançais: Courant\nAnglais: Intermédiaire\nCERTIFICATION",
+    "header_info": {
+      "full_name": "CHAIRA WALID",
+      "email": null,
+      "phone": null,
+      "location": "Développeur Web Full Stack, spécialisé dans la MEAN stack (MongoDB, Express, Angular, Node. js), avec un fort intérêt pour les architectures modernes et les bonnes pratiques de développement",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8814,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "CHAIRA WALID",
+      "email": "walid.chaaira@gmail.com",
+      "phone": null,
+      "location": "Cité El Khadhra Tunis 1003",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Développeur Web Full Stack, spécialisé dans la MEAN stack (MongoDB, Express, Angular, Node. js)",
+      "experience_level": "senior",
+      "years_experience": 4,
+      "hard_skills": [
+        "HTML 5",
+        "CSS 3",
+        "Bootstrap",
+        "JavaScript",
+        "Angular",
+        "Express. js",
+        "Node. js",
+        "MongoDB",
+        "SQL",
+        "MySQL",
+        "Oracle",
+        "Git",
+        "GitHub"
+      ],
+      "soft_skills": [
+        "sécurité avec JWT",
+        "contrôle de version",
+        "gestion des tests & bugs",
+        "système de gestion de version",
+        "réseaux radio-Mobile",
+        "réseaux informatique"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "02/2014 - 05/2014",
+        "end_date": null,
+        "city": "Cité El Khadhra Tunis 1003",
+        "responsibilities": [
+          "Développement et maintenance d'applications web internes dédiées à la gestion des achats, fournisseurs, chantiers et processus comptables.",
+          "Conception de modules fonctionnels pour le suivi des commandes, factures, stocks, approvisionnements et échéances de paiement."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISET Gabes",
+        "degree": "LICENCE APPLIQUÉ EN SCIENCES ET TECHNOLOGIES DE L'INFORMATION ET DE LA COMMUNICATION (STIC)",
+        "field": null,
+        "year": 2011
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:57:20.880961+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

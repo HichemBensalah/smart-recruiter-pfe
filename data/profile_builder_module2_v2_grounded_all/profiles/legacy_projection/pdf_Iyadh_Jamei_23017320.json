@@ -1,0 +1,104 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Iyadh_Jamei_23017320.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Iyadh_Jamei_23017320.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Iyadh_Jamei_23017320.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Iyadh Jamei",
+      "email": "jameiiyadh@gmail.com",
+      "phone": null,
+      "location": "Rades mongil, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "TypeScript",
+        "Rx JS",
+        "Ng RX store",
+        "Prime NG",
+        "SCSS",
+        "Bootstrap",
+        "Git",
+        "Jira",
+        "Java",
+        "Spring Boot",
+        "Spring Web",
+        "Spring Data JPA",
+        "Spring Security",
+        "Eureka",
+        "Spring Cloud Gateway",
+        "Keycloak",
+        "PostgreSQL",
+        "Axon Framework",
+        "REST API",
+        "Docker",
+        "Jenkins",
+        "Maven",
+        "JUnit",
+        "Lombok",
+        "Python",
+        "C",
+        "SQL/Mysql",
+        "MongoDB",
+        "Oracle Database"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Front-End Angular",
+        "company": "Intelligent Management Solution (IMS)",
+        "start_date": null,
+        "end_date": null,
+        "city": "Kuwait",
+        "responsibilities": [
+          "Développement et maintenance d'un système CAFM.",
+          "Refactorisation et optimisation des composants Angular (performance, lisibilité, réutilisabilité).",
+          "Intégration et tests d'API REST via Swagger.",
+          "Mise en œuvre d'interfaces responsive et UX optimisée."
+        ]
+      },
+      {
+        "job_title": "Stage PFE",
+        "company": "One Gate Africa",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception, développement et mise en service d'un ERP avec l'architecture micro service:",
+          "Développement de microservices avec Spring Boot, Axon Framework (Event Sourcing, CQRS) et PostgreSQL.",
+          "Gestion ERP: budgétisation (CJM, TJM), fiches de paie, utilisateurs via Keycloak (Phase Two).",
+          "Interface utilisateur réactive avec Angular, authentification via Keycloak (access token).",
+          "Orchestration des microservices via API Gateway et Eureka Server.",
+          "CI/CD automatisé avec Jenkins, analyse de code (Sonar Lint, Sonar Qube), et déploiement Docker Hub.",
+          "Tests unitaires (Axon Framework, Junit)."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Sciences de l'informatique",
+        "school": "Institut Supérieur d'Informatique et de Mathématiques de Monastir (ISIMM)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:41:02.403764+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9575,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

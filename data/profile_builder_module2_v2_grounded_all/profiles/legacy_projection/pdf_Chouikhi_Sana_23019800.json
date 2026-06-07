@@ -1,0 +1,177 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Chouikhi_Sana_23019800.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Chouikhi_Sana_23019800.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Chouikhi_Sana_23019800.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Sana Chouikhi",
+      "email": null,
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "ERPNext",
+        "Frappe Framework",
+        "n 8 n",
+        "Workflow Automation",
+        "Business Process",
+        "Python",
+        "Django REST Framework",
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "System Design",
+        "Java",
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions",
+        "OVHcloud VPS",
+        "AWS",
+        "Linux Administration",
+        "Infrastructure & Security",
+        "Hashi Corp Vault",
+        "Oxa Host DNS",
+        "Plesk",
+        "SMTP",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "SSL/TLS",
+        "Linux Hardening",
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Wazuh",
+        "Maria DB",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "SQLite",
+        "Firebase",
+        "React.js",
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "Tailwind CSS",
+        "Bootstrap",
+        "HTML/CSS",
+        "Flutter",
+        "React Native",
+        "Android",
+        "IoT & Embedded",
+        "MQTT",
+        "RTSP",
+        "Arduino",
+        "Raspberry Pi",
+        "Git",
+        "GitHub",
+        "Git Lab",
+        "Jira",
+        "Agile/Scrum",
+        "Clean Architecture",
+        "Code Review"
+      ],
+      "soft_skills": [
+        "cross-functional teams",
+        "international remote collaboration",
+        "CI/CD pipelines",
+        "security systems",
+        "clean architecture"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "ERP Software Engineer & IT Systems",
+        "company": "Arkeyez",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tataouine, Tunisia",
+        "responsibilities": [
+          "automated enterprise workflows with n 8 n"
+        ]
+      },
+      {
+        "job_title": "Full-Stack Developer (Web & Mobile)",
+        "company": "Freelancer.com",
+        "start_date": null,
+        "end_date": null,
+        "city": "Remote",
+        "responsibilities": [
+          "engineered backend systems with Django REST Framework and Node.js/Express"
+        ]
+      },
+      {
+        "job_title": "Software Engineering Intern",
+        "company": "Enova Robotics",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sousse, Tunisia",
+        "responsibilities": [
+          "architected a real-time IoT monitoring platform"
+        ]
+      },
+      {
+        "job_title": "Mobile Application Developer Intern",
+        "company": "Online VIP Consulting",
+        "start_date": null,
+        "end_date": null,
+        "city": "Remote",
+        "responsibilities": [
+          "integrated multiple REST APIs"
+        ]
+      },
+      {
+        "job_title": "Observation Internship - Mobile App",
+        "company": "Tunisie Telecom",
+        "start_date": null,
+        "end_date": null,
+        "city": "Medenine, Tunisia",
+        "responsibilities": [
+          "reduced field engineers' issue reporting time"
+        ]
+      },
+      {
+        "job_title": "Introductory Internship - Website Development",
+        "company": "Institut des Régions Arides",
+        "start_date": null,
+        "end_date": null,
+        "city": "Medenine, Tunisia",
+        "responsibilities": [
+          "optimised performance for fast loading and accessibility"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree in Computer Science",
+        "school": "ISSATS Sousse - Higher Institute of Applied Sciences and Technology",
+        "year": null
+      },
+      {
+        "degree": "Bachelor's Degree in Embedded Systems",
+        "school": "Tunis, Tunisia",
+        "year": "2021"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:49:54.541867+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8381,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

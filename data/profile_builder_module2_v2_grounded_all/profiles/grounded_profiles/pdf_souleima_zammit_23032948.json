@@ -1,0 +1,221 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\souleima_zammit_23032948.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\souleima_zammit_23032948.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8476,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nsouleima ZAMMIT\nIngénieur en Développement PHP/SYMFONY/LARAVEL\n\n## EDUCATION\n\nAprès deux ans d'expérience en tant que développeuse PHP Symfony en parallèle de mes études d'ingénierie, je suis désormais ingénieure en génie logiciel et en quête d'une nouvelle opportunité pour faire évoluer ma carrière.\n- Diplômes et Formations\n- zammitsouleima 2@g mail. com \n- Ingénieur en Génie logiciel\n- De septembre 2021 à novembre 2024 Tek-up university Tunis\n## Tunisie, Nabeul, Beni Khiar \n- Création d'un site web pour la vie estudiantine et développement d'une application pour la gestion\n- des hébergements\n- Technologies utilisées:\n- Symfony\n- Lien linkedin\n## 5. 8, Html, Css, MySQL, Uml, Php, Laravel 9, Postman, Api reset, Gitlab\n**Date: ** De septembre 2018 à juin 2021\n- Licence appliquée en informatique\n- www. linkedin.com/in/zam mit-souleima-80284 b 1 b 0\n- Institut supérieur des mathématiques appliquées et de l'informatique Kairouan kairouan\nConception et réalisation d'un site web (Font-end, Back-end) e-commerce «Affar ». En utilisant la méthodologie SCRUM\nTechnologies utilisées: Laravel 8, HTML 5, CSS 3, MySQL, UML, PHP, Visual Studio\n## Diplôme Baccalauréat - Sciences expérimentales\n## De septembre 2013 à juin 2018 Lycée beni khiar Beni Khiar, NB, Tunisia\n- Développeur web-- Ecole mansour modern school\nDepuis septembre 2025 Ecole mansour modern school Nabeul, NB, Tunisia Développement et Suivi d'applications E-SCHOOL et de site web Mansour\n- Développement et maintenance de nouvelles fonctionnalités et mise en œuvre d'améliorations.\n## Maintenance du code source, analyse et correction des bugs.\n- Proposition de solutions techniques et estimation des charges de travail.\n- Développement et tests des APIs.\n- Suivi de la performance et résolution des bugs en production.\nEnvironnement technique: PHP 7. 4/Symfony 5. 4, Angular, MySQL, Bootstrap, Postman, Git, Docker, API REST.\n- Développement site vitrine--Freelance\n- D'août 2025 à octobre 2025 freelance tunis\n- Développement et mise en ligne d'un site vitrine avec Word Press.\n- Création et personnalisation du thème selon l'identité visuelle du client.\n- Intégration des sections de présentation.\n- Mise en place d'outils SEO.\nEnvironnement technique: Word Press, PHP, MySQL, HTML 5, CSS 3, Plugins Word Press\n- Migration et refonte site web--Freelance\n- De mai 2025 à juillet 2025 SUPERDEV Tunis\n- Migration complète du site adquality. fr de Wix vers Word Press .\n## Reprise du contenu existant (textes, médias, pages) avec optimisation SEO.\n## Installation, configuration et personnalisation d'un thème Word Press adapté.\n## Intégration de plugins nécessaires (formulaire, sécurité, cache, etc.).\n- Formation du client à la prise en main de l'administration Word Press.\nEnvironnement technique: Word Press, HTML 5, CSS 3, SEO, Elementor, Plugins Word Press\n\n## LANGUAGES\n\nLangues\nFrançais\n\n## › TCF: 401/699\n\nAnglais\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences professionnelles\n\n## TECHNICAL SKILLS\n\nCompétences techniques\nModern School\nProgrammation et framework:\nPHP 5/7, Html, Css, Javascript, Symfony 2/5/6, laravel 8/9, Vue. js, Angular\nAnalyse et conception:\nUML, Design Patterns\nSystèmes d'exploitation\nUbuntu/Windows\nSystème de Gestion de\nProjet Les Pizzas de Cédric\nBDD:\nMySQL\nOutillage:\nGit, Docker\n\n## ACADEMIC PROJECTS\n\nGestion de projets:\nMéthode Agile\nCMS:\nWordpress\nProjet adquality\nAutre:\n## Bootstrap, Postman",
+    "header_info": {
+      "full_name": "souleima ZAMMIT",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6723,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.linkedin",
+      "experiences[0].responsibilities[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "experiences[0].city",
+      "experiences[0].end_date",
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "experiences[4].end_date",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": [
+      "bio.linkedin",
+      "experiences[0].responsibilities[0]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "souleima ZAMMIT",
+      "email": "zammitsouleima2@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "PHP",
+        "Symfony",
+        "Laravel",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "UML",
+        "Postman"
+      ],
+      "soft_skills": [
+        "Proposition de solutions techniques",
+        "Estimation des charges de travail",
+        "Développement et tests des APIs",
+        "Suivi de la performance et résolution des bugs en production",
+        "Formation du client à la prise en main de l'administration Word Press"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "septembre 2021",
+        "end_date": "novembre 2024",
+        "city": "Tunis, Nabeul, Beni Khiar",
+        "responsibilities": []
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "septembre 2018",
+        "end_date": "juin 2021",
+        "city": null,
+        "responsibilities": [
+          "Conception et réalisation d'un site web (Font-end, Back-end) e-commerce «Affar»"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "septembre 2025",
+        "end_date": null,
+        "city": "Nabeul, NB, Tunisia",
+        "responsibilities": [
+          "Développement et Suivi d'applications E-SCHOOL et de site web Mansour"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "août 2025",
+        "end_date": "octobre 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement et mise en ligne d'un site vitrine avec Word Press"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "mai 2025",
+        "end_date": "juillet 2025",
+        "city": null,
+        "responsibilities": [
+          "Migration complète du site adquality.fr de Wix vers Word Press"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Tek-up university Tunis",
+        "degree": "Ingénieur en Génie logiciel",
+        "field": null,
+        "year": "septembre 2021 - novembre 2024"
+      },
+      {
+        "institution": "Institut supérieur des mathématiques appliquées et de l'informatique Kairouan",
+        "degree": "Licence appliquée en informatique",
+        "field": null,
+        "year": "septembre 2013 - juin 2018"
+      },
+      {
+        "institution": "Ecole mansour modern school",
+        "degree": "Développeur web",
+        "field": null,
+        "year": "septembre 2025 - présent"
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:47:26.344815+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

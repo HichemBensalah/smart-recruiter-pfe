@@ -1,0 +1,59 @@
+## HEADER
+
+Hassan Jebri/phone +216-98158363
+
+PROFESSIONAL SUMMARY/github Git Hub Profile/linkedin Linked In Profile/globe Personal Portfolio
+Developed and maintained an investment platform using Spring Boot microservices and Angular, implementing secure REST APIs for portfolio management and real-time transaction tracking
+Built a KYC/AML compliance module with a multi-step Angular form workflow (document upload, liveness detection), backed by a Spring Boot processing pipeline with encrypted AWS S 3 storage and audit logging
+Designed and optimized Postgre SQL schemas for investment portfolios and user wallets, reducing query response time by 35% through indexing and query refactoring
+Implemented JWT-based authentication and role-based access control across the platform, securing endpoints for admin, investor, and compliance officer roles
+Designed and developed complete Angular frontend from scratch including restaurant listings, menu management, cart system, checkout flow, and order tracking for 1300+ restaurants in Dakar
+Built RESTful APIs with Spring Boot and integrated Stripe, Google Maps, Firebase Auth, Amazon S 3, Redis, Kafka, and Web Sockets for payments, geolocation, media storage, and real-time order tracking
+Deployed on OVH servers with Kubernetes orchestration for auto-scaling, managing containerized services with Docker
+Developed Spring Boot REST APIs for user management, role assignment, and data reporting, with JWT-secured endpoints and Postgre SQL persistence
+Built nutrition tracking application with Spring Boot and Angular featuring a recipe database with 1000+ entries, nutritional calculator, and meal planning calendar
+
+## TECHNICAL SKILLS
+
+Software Engineer/envelope_alt jebrihassan 66@gmail. com
+Software Engineer
+Brama Square
+Full Stack Developer
+Accompany Consulting
+Full Stack Developer
+· Accompany Consulting
+Full Stack Developer
+Databases:
+Postgre SQL, Mongo DB, My SQL, Redis
+
+## PROFESSIONAL EXPERIENCE
+
+Full-stack engineer with 2+ years of experience building production-ready systems across web and mobile. I work across the entire stack - from database design to polished UIs - and adapt quickly to any technology the problem demands. I care about clean architecture, real impact, and shipping things that actually work.
+**Date:** Dec. 2025 - Present
+**Location:** Dubai, UAE (Remote)
+Dari Real Estate Platform Built real estate application with property listings, advanced search/filtering, and ML-powered price prediction. Integrated real-time updates and authentication.
+Clinivia Elderly Care Platform Developed care management system with patient monitoring, caregiver dashboards, and AI-driven predictive analytics.
+
+## EDUCATION
+
+Dino Byte Information Technology
+
+## ACADEMIC PROJECTS
+
+### Personal Projects
+**Date:** Feb. 2025 - Sep. 2025
+**Location:** Tunis, Tunisia
+- Built internal HR management module with Angular, including employee dashboards, leave requests, and real-time notifications via Web Sockets
+- Developed RESTful APIs for recipe search and filtering, user-generated content with moderation workflow, and cloud storage for adaptive video streaming
+### Tech: Spring Boot, Angular, Python, Postgre SQL
+- Tech:
+### Spring Boot, Angular, Microservices, Docker
+
+## LANGUAGES
+
+Languages:
+Java, Java Script, Type Script, Python
+Frontend:
+Angular, Next. js, React Native
+Backend:
+Spring Boot, Nest JS, Node. js

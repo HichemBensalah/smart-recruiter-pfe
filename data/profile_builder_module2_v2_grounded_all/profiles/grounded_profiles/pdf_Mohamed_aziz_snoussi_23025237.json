@@ -1,0 +1,181 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_aziz_snoussi_23025237.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_aziz_snoussi_23025237.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8959,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\napplication web de gestion de tâches avec suivi en temps réel .\nIntégration d'un système de chat en temps réel avec Socket. io . · Stack: MySQL, Express, React, Node. js .\nStage Développeur Desktop C#\nYasmine Engineering Systems/calendar Juillet 2022 - Août 2022/map-marker Tunisie\nDéveloppement d'une application desktop avec C Win Forms pour la gestion automatisée des notifications.\nPlanification et envoi des notifications via la bibliothèque Quartz .\n\n## MOHAMEDAZIZ SNOUSSI\n\nIngénieur Logiciel | Développeur Full Stack/birthday-cake/birthday-cake/map-marker Tunis, Tunisie@aziz.snoussi 99@gmail.com/phone +216 90 016 339\n12/12/2000/linkedin linkedin.com/in/aziz-snoussi/github github.com/azizsnoussi\n\n## EDUCATION\n\nFORMATION\nDiplôme national d'ingénieur en informatique - Spécialité TWIN (Technologies Web et de l'Internet)\n**Date: **/calendar 2019 - 2024\n- ESPRIT - École Supérieure Privée d'Ingénierie et de Technologies\n## /map-marker Ariana, Tunisie\n**Date: **/calendar Février 2024 - Août 2024\n- Tests unitaires/TDD et mocking ( PHPUnit ). Stage de fin d'études - Développeur Full Stack\n- Vermeg\n-/map-marker Tunisie\nConception et développement d'une plateforme d'automatisation des tests d'API REST (fonctionnels, sécurité, performance, contrat).\nGénération de scripts Postman, exécution automatisée via Newman, reporting et tableaux de bord avec Grafana/Prometheus .\n- Impact: réduction de 90 % du temps de tests manuels QA.\nStack: Java 17, Spring Boot, Angular, Node. js, PostgreSQL, Docker, Jenkins, Grafana, Prometheus, CI/CD .\n**Date: **/calendar Juin 2023 - Août 2023\n- Stage MERN Stack\n- Medianet\n- Tunisie\n-/map-marker\n\n## COMPÉTENCES TECHNIQUES\n\nLangages:\nJava\nTypeScript\nJavaScript\nSQL\nPHP\n\n## TECHNICAL SKILLS\n\nFrameworks et bibliothèques:\nSpring Boot\nAngular\nReact\nNode. js\nSymfony\nBases de données:\nPostgreSQL\nMySQL\nMongoDB\nDevOps & Outils:\nDocker\nJenkins\nGit/Git Lab\nGrafana\nPrometheus\nSonar Qube\nMéthodologies:\nScrum\nKanban\nIngénieur logiciel motivé et joueur d'équipe dynamique avec de solides compétences en communication, visant une progression rapide vers un poste de développeur senior.\nMOBILITÉ/plane Ouvert à la mobilité\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nDéveloppeur Full Stack Java Best Info/calendar Septembre 2025 - Présent/map-marker Tunisie\nDéveloppement d'API REST scalables en Java et Spring Boot pour les applications ERP.\nConception et mise en œuvre de modules métiers (gestion des stocks, ventes, achats, comptabilité) en respectant les bonnes pratiques de modularité et de maintenabilité.\nDéveloppement d'interfaces web dynamiques avec Angular et React intégrées aux services backend.\nImplémentation de mécanismes de sécurité et de contrôle d'accès avec Spring Security .\nOptimisation et gestion de bases de données relationnelles ( PostgreSQL, MySQL ) en mettant l'accent sur les performances.\nCollaboration en équipe Agile et contribution aux revues de code pour assurer la qualité logicielle.\nMise en œuvre de tests unitaires et d'intégration (JUnit, Mockito) pour garantir la robustesse du système.\nRésolution des incidents et amélioration continue de la stabilité et de la maintenabilité du système.\nDéveloppeur Web Symfony/PHP\nDigital Virgo/calendar Septembre 2024 - Août 2025/map-marker Tunisie\nDéveloppement de bundles Symfony pour l'application DVpass .\nConception et intégration de services de paiement mobile (facturation opérateur). .\nIntégration de services web SOAP/REST et gestion de données XML · Gestion de versions et revues de code avec Git/Git Lab .\n\n## COMPÉTENCES COMPORTEMENTALES\n\nRésolution de problèmes\nAutonomie\nGestion du stress\nTravail d'équipe\n\n## LANGUAGES\n\nLANGUES\nArabe: langue maternelle\nFrançais: B 2\nAnglais: B 2\nAllemand: A 1\n\n## ACADEMIC PROJECTS\n\nPROJETS\nSystème de réservation - Backend d'application mobile/calendar Septembre 2025 - Octobre 2025\nConception et développement d'un backend RESTful pour la gestion des réservations de services et des paiements en ligne .\n## Architecture robuste avec Java 21, Spring Boot et PostgreSQL .\n- Tests unitaires et intégration continue avec Jenkins .",
+    "header_info": {
+      "full_name": "Stage Développeur Desktop C",
+      "email": null,
+      "phone": null,
+      "location": "Intégration d'un système de chat en temps réel avec Socket. io . · Stack: MySQL, Express, React, Node. js .",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9792,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].institution",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MOHAMEDAZIZ SNOUSSI",
+      "email": "99@gmail.com",
+      "phone": "+216 90 016 339",
+      "location": null,
+      "linkedin": "linkedin.com/in/aziz-snoussi",
+      "github": "github.com/azizsnoussi"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "MySQL",
+        "Docker",
+        "Jenkins",
+        "Grafana",
+        "Prometheus"
+      ],
+      "soft_skills": [
+        "Résolution de problèmes",
+        "Autonomie",
+        "Gestion du stress",
+        "Travail d'équipe"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Septembre 2025 - Présent",
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Développement d'API REST scalables en Java et Spring Boot pour les applications ERP.",
+          "Conception et mise en œuvre de modules métiers (gestion des stocks, ventes, achats, comptabilité) en respectant les bonnes pratiques de modularité et de maintenabilité."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Septembre 2024 - Août 2025",
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Développement de bundles Symfony pour l'application DVpass.",
+          "Conception et intégration de services de paiement mobile (facturation opérateur)."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRI - École Supérieure Privée d'Ingénierie et de Technologies",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Vermeg",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe: langue maternelle",
+      "Français: B 2",
+      "Anglais: B 2",
+      "Allemand: A 1"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:35:39.510758+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

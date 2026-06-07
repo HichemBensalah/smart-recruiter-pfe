@@ -1,0 +1,178 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hamza_Jomni_23019370.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hamza_Jomni_23019370.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7979,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nIngénieur DevOps | Vermeg Lac 1\nPFA 2ème année: Pipeline DevOps CI/CD avec Jenkins, Docker, Sonar Qube, Nexus, Prometheus & Grafana.\nIngénieur DevOps chez Vermeg avec plus de 2 ans d'expérience.\nProjet Microservices: Application microservices avec MySQL & MongoDB, Open Feign, Kafka, API Gateway, Eureka, Spring Cloud Config, Docker & Keycloak.\nEn 3 ᵉ année cycle ingénieur en Génie logiciel à Esprit.\nESSECT\nLicence en Business Computing (ESSECT) et d'un baccalauréat en Économie et Gestion.\nIngénieur DevOps\nDéveloppement web:\nFront-end & Back-end\nLANGAGES\nFrançais\nAnglais\nSOFT-SIKLLS\nApprentissage rapide\nSens du détail\nRésolution des problèmes\nBon esprit d'équipe et capacité d'adaptation\n\n## PROFESSIONAL EXPERIENCE\n\nDébuté en janvier 2024 - plus de 2 ans d'expérience\nMars 2022 - Compétition Hult Prize\nParticipation à la compétition internationale Hult Prize, axée sur la résolution de problématiques sociales.\n1 ʳ ᵉ place au niveau On Campus, puis qualification aux Regional Summits internationaux.\n**Date: ** Janvier 2021 - Formation GOMYCODE\n\n## EDUCATION\n\nFormation certifiante en développement web front-end au sein de GOMYCODE (plateforme éducative panafricaine).\nOctobre 2022 - Formation Nanodegree Udacity\nHAMZA JOMNI ING É NIEURDEVOPS\nDéveloppement web back-end avec Python (Flask), incluant API, tests unitaires, authentification (Auth 0), Docker et AWS.\n- Club Info-Lab ESSECT\nMembre fondateur et chef du département codage, responsable de l'encadrement technique et des activités de développement.\n- CONTACT\n- Phone: (216) 54 739 279\n- ÉDUCATION\n- jomnihamza@gmail.com\n- Esprit\n- Kheireddine - Tunis\n- Cycle ingénieur en Génie logiciel 2023-2027\n- linkedin.com/in/hamza-jomni\n\n## ACADEMIC PROJECTS\n\nProjets réalisés:\nPFA 1ère année: Application de gestion RH et projets avec Java, Spring Boot et Angular.\n**Date: ** Licence en Business computing 2020-2023\n- Projets réalisés:\n- Développement d'une plateforme de podcasts\n## Clone Netflix (ReactJS, Firebase, TM DB API)\n- Application web de réservation de spectacles avec Flask\n- Création d'un site vitrine pour l'organisation \"CJD Tunisie\" et pour le club \"Info-Lab Essect\"\n- Programmation Java du jeu \"Qui veut gagner des millions\"\n\n## COMPÉTENCES TECHNIQUES\n\nAdministration VM Linux & Windows - Pipelines CI/CD -\nAutomatisation - Script Shell - SQL - Analyse Sécurité -\nDocumentation - Escrow ReactJS -Angular JS -NodeJS - Spring Boot - Flask - Python - Java - Javascript\n\n## LOGICIELS & PLATFORMES\n\nGit Lab - Jenkins - Nexus - Sonar Qube - Fortify - Jira -\nCrush FTP -Oracle SQL Developper -Docker -\nGitHub Copilot -AWS (S 3 -EC 2) -MySQL -\nPostgreSQL -Firebase -Postman Keycloak -\nMoba Xterm - Canva - Figma - Power Bi",
+    "header_info": {
+      "full_name": "Ingénieur DevOps",
+      "email": null,
+      "phone": null,
+      "location": "PFA 2ème année: Pipeline DevOps CI/CD avec Jenkins, Docker, Sonar Qube, Nexus, Prometheus & Grafana.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8074,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.linkedin"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": [
+      "bio.linkedin"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ingénieur DevOps HAMZA JOMNI",
+      "email": "jomnihamza@gmail.com",
+      "phone": "(216) 54 739 279",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "Administration VM Linux & Windows",
+        "Pipelines CI/CD",
+        "Automatisation",
+        "Script Shell",
+        "SQL",
+        "Analyse Sécurité",
+        "Documentation",
+        "Escrow ReactJS",
+        "Angular JS",
+        "NodeJS",
+        "Spring Boot",
+        "Flask",
+        "Python",
+        "Java",
+        "Javascript"
+      ],
+      "soft_skills": [
+        "Apprentissage rapide",
+        "Sens du détail",
+        "Résolution des problèmes",
+        "Bon esprit d'équipe et capacité d'adaptation"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Janvier 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "GOMYCODE",
+        "degree": "Formation certifiante en développement web front-end",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Udacity",
+        "degree": "Formation Nanodegree Udacity",
+        "field": null,
+        "year": 2022
+      },
+      {
+        "institution": "Esprit",
+        "degree": "Cycle ingénieur en Génie logiciel",
+        "field": null,
+        "year": 2023
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:24:52.969049+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

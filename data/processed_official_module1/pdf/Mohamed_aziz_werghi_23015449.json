@@ -1,0 +1,1770 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_aziz_werghi_23015449.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nMohamed Aziz Ouerghi\n/envelope werghia.1@gmail.com · /phone +216 29 836 507 · /github github.com/ouerghi01 /linkedin LinkedIn · /globe Portfolio\nTECHNICAL SKILLS\nFull Stack Engineer (Mid-Senior Level) · Java / Spring Boot · Angular / React · DevOps\nJava Full Stack Engineer Mid-Senior level with hands-on experience building scalable applications using Spring Boot and Angular. Experienced in developing microservices, REST APIs, and deploying applications using Docker and CI/CD pipelines. Comfortable working in Agile and DevOps environments, contributing from design to production. Strong focus on clean code, performance optimization, and delivering reliable software solutions. Recognized as a confirmed-level (niveau confirmé) engineer with strong autonomy across full-stack architecture, delivery, and DevOps workflows.\nFrontend: Angular,React.js, TypeScript, Tailwind CSS, Material-UI, React Query, React Router, Context API, Responsive Design\nBackend: Java 17,Python,FastApi, Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs, JWT, Microservices\nDatabases: PostgreSQL (advanced queries, indexing, optimization), MySQL,MongoDB\nDevOps & Tools: Docker, GitHub Actions, CI/CD, Linux (shell scripting), Nginx,AWS,EC2\nTesting & Quality: JUnit, Mockito, React Testing Library, Postman, Swagger\nConcepts: Clean Architecture, SOLID, OOP , Real-time (WebSockets), RBAC, Performance Optimization\nFull Stack Software Engineer\nBRI Technology\nArchitected and developed end-to-end full-stack features using Spring Boot + React, delivering 8+ production features that improved system performance by 40% and reduced API latency.\nContainerized full applications with Docker and automated deployment pipelines using GitHub Actions + Nginx, achieving zero-downtime releases.\nWorked in a DevOps-oriented environment using CI/CD pipelines, Docker, and Linux, contributing to automated deployments and continuous integration workflows.\nActively participated in Agile ceremonies, code reviews, and architecture decisions, consistently delivering high-quality code ahead of sprint deadlines.\n1\nSoftware Engineer Intern (PFE)\nFeb 2025 - Jun 2025 Tunisia\nBRI Technology\nApplied clean architecture principles across backend and frontend layers, enhancing code maintainability, scalability, and team collaboration efficiency.\nEngineered a production-grade ride-sharing platform from scratch, covering the full lifecycle: system design, backend architecture, frontend web app, mobile application, CI/CD, and cloud deployment. The platform supports core ride-hailing flows including user/driver onboarding, ride booking, real-time tracking, and secure transactions.\nContainerized the entire system using Docker and orchestrated services via Docker Compose, enabling consistent runtime environments and simplifying deployment workflows.\nDeployed the platform on AWS with production-grade infrastructure setup including Nginx reverse proxy, SSL configuration, and domain management via Hostinger, ensuring secure and scalable access in production.\nImproved system observability and performance, achieving sub-150ms average API response time and 98% backend test coverage through automated testing and performance optimizations.\n2\nPROFESSIONAL SUMMARY\nPROFESSIONAL EXPERIENCE\nDeveloped frontend applications using Angular and React with TypeScript, focusing on performance, scalability, and user experience.\nDesigned and implemented secure, scalable RESTful APIs with Spring Boot, Spring Security, JWT authentication and RBAC, handling thousands of concurrent requests.\nDesigned a multi-environment deployment strategy (local, development, production) with strict configuration isolation, ensuring safe and reproducible deployments across environments.\nOptimized PostgreSQL database schemas and queries (indexing + caching), reducing query execution time by 50% and enabling faster data retrieval.\nCollaborated closely with frontend and product teams in an Agile environment to deliver productionready features and improve user experience.\nhanoutiwr.com\nImplemented CI/CD pipelines using GitHub Actions to automate build, testing, and deployment processes, reducing manual intervention and enabling continuous delivery of updates.\nDelivered a complete end-to-end production system demonstrating strong ownership across architecture, backend scalability, frontend optimization, mobile integration, and DevOps practices.\nBuilt a high-performance Next.js frontend with server-side rendering (SSR) and optimized routing strategies, improving initial load performance and enabling strong SEO indexing for public-facing pages.\nAug 2025 - Apr 2026 Tunisia\nDesigned a scalable backend architecture using Spring Boot with a modular domain-driven structure, implementing RESTful APIs secured with Spring Security (JWT-based authentication, role-based access control) and real-time communication via WebSockets for live trip updates.\nDeveloped a cross-platform Flutter mobile application to provide native-like user and driver experiences, ensuring consistency across mobile and web ecosystems.\nModeled and optimized a PostgreSQL relational schema with careful attention to normalization, indexing strategies, and query performance tuning, enabling support for high-concurrency scenarios (10,000+ simulated users) with stable response times.\nACADEMIC PROJECTS\nDesigned and implemented an AI-powered assistant using Retrieval-Augmented Generation (RAG) with Python, FastAPI, LangChain, and Cassandra for scalable knowledge storage and retrieval. Project available at: RAGentX GitHub Repository.\nPROJECTS\nDeveloped full-stack modules using Spring Boot and React, integrating seamlessly with existing enterprise systems and improving overall platform extensibility.\nBuilt and tested secure REST APIs and responsive UI components, contributing to a 30% improvement in application stability and reliability.\nRide-Sharing Platform (Flagship Project)\n2026\nSpring Boot · Next.js · Flutter · PostgreSQL · Docker · AWS",
+  "markdown": "## HEADER\n\nMohamed Aziz Ouerghi/envelope werghia. 1@gmail. com ·/phone +216 29 836 507 ·/github github. com/ouerghi 01/linkedin Linked In ·/globe Portfolio\n\n## TECHNICAL SKILLS\n\nFull Stack Engineer (Mid-Senior Level) · Java/Spring Boot · Angular/React · Dev Ops\nJava Full Stack Engineer Mid-Senior level with hands-on experience building scalable applications using Spring Boot and Angular. Experienced in developing microservices, REST APIs, and deploying applications using Docker and CI/CD pipelines. Comfortable working in Agile and Dev Ops environments, contributing from design to production. Strong focus on clean code, performance optimization, and delivering reliable software solutions. Recognized as a confirmed-level (niveau confirmé) engineer with strong autonomy across full-stack architecture, delivery, and Dev Ops workflows.\nFrontend: Angular, React. js, Type Script, Tailwind CSS, Material-UI, React Query, React Router, Context API, Responsive Design\nBackend: Java 17, Python, Fast Api, Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs, JWT, Microservices\nDatabases: Postgre SQL (advanced queries, indexing, optimization), My SQL, Mongo DB\nDev Ops & Tools: Docker, Git Hub Actions, CI/CD, Linux (shell scripting), Nginx, AWS, EC 2\nTesting & Quality: JUnit, Mockito, React Testing Library, Postman, Swagger\nConcepts: Clean Architecture, SOLID, OOP , Real-time (Web Sockets), RBAC, Performance Optimization\nFull Stack Software Engineer\nBRI Technology\nArchitected and developed end-to-end full-stack features using Spring Boot + React, delivering 8+ production features that improved system performance by 40% and reduced API latency.\nContainerized full applications with Docker and automated deployment pipelines using Git Hub Actions + Nginx, achieving zero-downtime releases.\nWorked in a Dev Ops-oriented environment using CI/CD pipelines, Docker, and Linux, contributing to automated deployments and continuous integration workflows.\nActively participated in Agile ceremonies, code reviews, and architecture decisions, consistently delivering high-quality code ahead of sprint deadlines.\nSoftware Engineer Intern (PFE)\nFeb 2025 - Jun 2025 Tunisia\nBRI Technology\nApplied clean architecture principles across backend and frontend layers, enhancing code maintainability, scalability, and team collaboration efficiency.\nEngineered a production-grade ride-sharing platform from scratch, covering the full lifecycle: system design, backend architecture, frontend web app, mobile application, CI/CD, and cloud deployment. The platform supports core ride-hailing flows including user/driver onboarding, ride booking, real-time tracking, and secure transactions.\nContainerized the entire system using Docker and orchestrated services via Docker Compose, enabling consistent runtime environments and simplifying deployment workflows.\nDeployed the platform on AWS with production-grade infrastructure setup including Nginx reverse proxy, SSL configuration, and domain management via Hostinger, ensuring secure and scalable access in production.\nImproved system observability and performance, achieving sub-150 ms average API response time and 98% backend test coverage through automated testing and performance optimizations.\n\n## PROFESSIONAL EXPERIENCE\n\nDeveloped frontend applications using Angular and React with Type Script, focusing on performance, scalability, and user experience.\nDesigned and implemented secure, scalable RESTful APIs with Spring Boot, Spring Security, JWT authentication and RBAC, handling thousands of concurrent requests.\n- Designed a multi-environment deployment strategy (local, development, production) with strict configuration isolation, ensuring safe and reproducible deployments across environments.\nOptimized Postgre SQL database schemas and queries (indexing + caching), reducing query execution time by 50% and enabling faster data retrieval.\n- Collaborated closely with frontend and product teams in an Agile environment to deliver productionready features and improve user experience.\n- hanoutiwr. com\n- Implemented CI/CD pipelines using Git Hub Actions to automate build, testing, and deployment processes, reducing manual intervention and enabling continuous delivery of updates.\n- Delivered a complete end-to-end production system demonstrating strong ownership across architecture, backend scalability, frontend optimization, mobile integration, and Dev Ops practices.\nBuilt a high-performance Next. js frontend with server-side rendering (SSR) and optimized routing strategies, improving initial load performance and enabling strong SEO indexing for public-facing pages.\n**Date:** Aug 2025 - Apr 2026 Tunisia\n- Designed a scalable backend architecture using Spring Boot with a modular domain-driven structure, implementing RESTful APIs secured with Spring Security (JWT-based authentication, role-based access control) and real-time communication via Web Sockets for live trip updates.\nDeveloped a cross-platform Flutter mobile application to provide native-like user and driver experiences, ensuring consistency across mobile and web ecosystems.\nModeled and optimized a Postgre SQL relational schema with careful attention to normalization, indexing strategies, and query performance tuning, enabling support for high-concurrency scenarios (10, 000+ simulated users) with stable response times.\n\n## ACADEMIC PROJECTS\n\nDesigned and implemented an AI-powered assistant using Retrieval-Augmented Generation (RAG) with Python, Fast API, Lang Chain, and Cassandra for scalable knowledge storage and retrieval. Project available at: RAGent X Git Hub Repository.\n- PROJECTS\n- Developed full-stack modules using Spring Boot and React, integrating seamlessly with existing enterprise systems and improving overall platform extensibility.\n- Built and tested secure REST APIs and responsive UI components, contributing to a 30% improvement in application stability and reliability.\n### Ride-Sharing Platform (Flagship Project)\n**Date:** 2026\n- Spring Boot · Next. js · Flutter · Postgre SQL · Docker · AWS",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Mohamed Aziz Ouerghi",
+        "/envelope werghia.1@gmail.com · /phone +216 29 836 507 · /github github.com/ouerghi01 /linkedin LinkedIn · /globe Portfolio"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Mohamed Aziz Ouerghi",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 160.79,
+            "top": 775.9092139484375,
+            "right": 434.4891581999999,
+            "bottom": 799.1843008484375
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/envelope werghia.1@gmail.com · /phone +216 29 836 507 · /github github.com/ouerghi01 /linkedin LinkedIn · /globe Portfolio",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 101.71499999999999,
+            "top": 735.4053763484376,
+            "right": 493.5655083600001,
+            "bottom": 764.8084771484375
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Full Stack Engineer (Mid-Senior Level) · Java / Spring Boot · Angular / React · DevOps",
+        "Java Full Stack Engineer Mid-Senior level with hands-on experience building scalable applications using Spring Boot and Angular. Experienced in developing microservices, REST APIs, and deploying applications using Docker and CI/CD pipelines. Comfortable working in Agile and DevOps environments, contributing from design to production. Strong focus on clean code, performance optimization, and delivering reliable software solutions. Recognized as a confirmed-level (niveau confirmé) engineer with strong autonomy across full-stack architecture, delivery, and DevOps workflows.",
+        "Frontend: Angular,React.js, TypeScript, Tailwind CSS, Material-UI, React Query, React Router, Context API, Responsive Design",
+        "Backend: Java 17,Python,FastApi, Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs, JWT, Microservices",
+        "Databases: PostgreSQL (advanced queries, indexing, optimization), MySQL,MongoDB",
+        "DevOps & Tools: Docker, GitHub Actions, CI/CD, Linux (shell scripting), Nginx,AWS,EC2",
+        "Testing & Quality: JUnit, Mockito, React Testing Library, Postman, Swagger",
+        "Concepts: Clean Architecture, SOLID, OOP , Real-time (WebSockets), RBAC, Performance Optimization",
+        "Full Stack Software Engineer",
+        "BRI Technology",
+        "Architected and developed end-to-end full-stack features using Spring Boot + React, delivering 8+ production features that improved system performance by 40% and reduced API latency.",
+        "Containerized full applications with Docker and automated deployment pipelines using GitHub Actions + Nginx, achieving zero-downtime releases.",
+        "Worked in a DevOps-oriented environment using CI/CD pipelines, Docker, and Linux, contributing to automated deployments and continuous integration workflows.",
+        "Actively participated in Agile ceremonies, code reviews, and architecture decisions, consistently delivering high-quality code ahead of sprint deadlines.",
+        "1",
+        "Software Engineer Intern (PFE)",
+        "Feb 2025 - Jun 2025 Tunisia",
+        "BRI Technology",
+        "Applied clean architecture principles across backend and frontend layers, enhancing code maintainability, scalability, and team collaboration efficiency.",
+        "Engineered a production-grade ride-sharing platform from scratch, covering the full lifecycle: system design, backend architecture, frontend web app, mobile application, CI/CD, and cloud deployment. The platform supports core ride-hailing flows including user/driver onboarding, ride booking, real-time tracking, and secure transactions.",
+        "Containerized the entire system using Docker and orchestrated services via Docker Compose, enabling consistent runtime environments and simplifying deployment workflows.",
+        "Deployed the platform on AWS with production-grade infrastructure setup including Nginx reverse proxy, SSL configuration, and domain management via Hostinger, ensuring secure and scalable access in production.",
+        "Improved system observability and performance, achieving sub-150ms average API response time and 98% backend test coverage through automated testing and performance optimizations.",
+        "2"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Full Stack Engineer (Mid-Senior Level) · Java / Spring Boot · Angular / React · DevOps",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 67.04399999999995,
+            "top": 709.6785570484375,
+            "right": 528.2277951999997,
+            "bottom": 720.7371170484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Java Full Stack Engineer Mid-Senior level with hands-on experience building scalable applications using Spring Boot and Angular. Experienced in developing microservices, REST APIs, and deploying applications using Docker and CI/CD pipelines. Comfortable working in Agile and DevOps environments, contributing from design to production. Strong focus on clean code, performance optimization, and delivering reliable software solutions. Recognized as a confirmed-level (niveau confirmé) engineer with strong autonomy across full-stack architecture, delivery, and DevOps workflows.",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 598.6643763484377,
+            "right": 552.7604252000002,
+            "bottom": 676.5012938484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Frontend: Angular,React.js, TypeScript, Tailwind CSS, Material-UI, React Query, React Router, Context API, Responsive Design",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 49.611,
+            "top": 543.6173763484376,
+            "right": 552.7605102000003,
+            "bottom": 567.3663848484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Backend: Java 17,Python,FastApi, Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs, JWT, Microservices",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 49.611,
+            "top": 510.04337634843756,
+            "right": 552.7605101999999,
+            "bottom": 533.7923848484376
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Databases: PostgreSQL (advanced queries, indexing, optimization), MySQL,MongoDB",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 49.611,
+            "top": 489.9747399484376,
+            "right": 480.32408620000007,
+            "bottom": 500.2183848484376
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "DevOps & Tools: Docker, GitHub Actions, CI/CD, Linux (shell scripting), Nginx,AWS,EC2",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 49.611,
+            "top": 469.94973994843764,
+            "right": 490.60045840000015,
+            "bottom": 480.19338484843763
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Testing & Quality: JUnit, Mockito, React Testing Library, Postman, Swagger",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 49.611,
+            "top": 449.92473994843766,
+            "right": 428.24404280000005,
+            "bottom": 460.16838484843765
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Concepts: Clean Architecture, SOLID, OOP , Real-time (WebSockets), RBAC, Performance Optimization",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 49.611,
+            "top": 416.3943763484377,
+            "right": 552.7605101999999,
+            "bottom": 440.1433848484377
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Full Stack Software Engineer",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 372.9257399484375,
+            "right": 192.6510342,
+            "bottom": 383.1693848484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "BRI Technology",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 359.4193763484375,
+            "right": 118.81824539999998,
+            "bottom": 369.5102938484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Architected and developed end-to-end full-stack features using Spring Boot + React, delivering 8+ production features that improved system performance by 40% and reduced API latency.",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 316.7793763484375,
+            "right": 552.7605102000001,
+            "bottom": 340.4192938484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Containerized full applications with Docker and automated deployment pipelines using GitHub Actions + Nginx, achieving zero-downtime releases.",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 182.48337634843756,
+            "right": 552.7605102000003,
+            "bottom": 206.12329384843758
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Worked in a DevOps-oriented environment using CI/CD pipelines, Docker, and Linux, contributing to automated deployments and continuous integration workflows.",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 148.9093763484375,
+            "right": 552.7605102000002,
+            "bottom": 172.54929384843751
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Actively participated in Agile ceremonies, code reviews, and architecture decisions, consistently delivering high-quality code ahead of sprint deadlines.",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 115.33537634843753,
+            "right": 552.7605102000002,
+            "bottom": 138.97529384843756
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "1",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 294.6050000000001,
+            "top": 10.308376348437491,
+            "right": 300.6704596000001,
+            "bottom": 20.399293848437537
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Software Engineer Intern (PFE)",
+          "page_no": 2,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 786.0437399484374,
+            "right": 203.15649749999997,
+            "bottom": 796.2873848484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Feb 2025 - Jun 2025 Tunisia",
+          "page_no": 2,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 450.2039761,
+            "top": 772.5383763484375,
+            "right": 552.7604252000004,
+            "bottom": 796.1782938484374
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "BRI Technology",
+          "page_no": 2,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 772.5383763484375,
+            "right": 118.81824539999998,
+            "bottom": 782.6292938484374
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Applied clean architecture principles across backend and frontend layers, enhancing code maintainability, scalability, and team collaboration efficiency.",
+          "page_no": 2,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 696.3243763484376,
+            "right": 552.7605101999999,
+            "bottom": 719.9642938484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Engineered a production-grade ride-sharing platform from scratch, covering the full lifecycle: system design, backend architecture, frontend web app, mobile application, CI/CD, and cloud deployment. The platform supports core ride-hailing flows including user/driver onboarding, ride booking, real-time tracking, and secure transactions.",
+          "page_no": 2,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 452.3513763484376,
+            "right": 552.7605102000001,
+            "bottom": 503.0892938484376
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Containerized the entire system using Docker and orchestrated services via Docker Compose, enabling consistent runtime environments and simplifying deployment workflows.",
+          "page_no": 2,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 223.80837634843783,
+            "right": 552.7605102000001,
+            "bottom": 247.44829384843786
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Deployed the platform on AWS with production-grade infrastructure setup including Nginx reverse proxy, SSL configuration, and domain management via Hostinger, ensuring secure and scalable access in production.",
+          "page_no": 2,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 176.6843763484378,
+            "right": 552.7605102000002,
+            "bottom": 213.8742938484379
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Improved system observability and performance, achieving sub-150ms average API response time and 98% backend test coverage through automated testing and performance optimizations.",
+          "page_no": 2,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 109.53637634843778,
+            "right": 552.7605101999999,
+            "bottom": 133.1762938484378
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "2",
+          "page_no": 2,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 294.605,
+            "top": 10.308376348437832,
+            "right": 300.6704596,
+            "bottom": 20.399293848437765
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [],
+      "items": [
+        {
+          "title": "Developed frontend applications using Angular and React with TypeScript, focusing on performance, scalability, and user experience.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Developed frontend applications using Angular and React with TypeScript, focusing on performance, scalability, and user experience.",
+              "page_no": 1,
+              "block_indices": [
+                17
+              ],
+              "bbox": {
+                "left": 49.61100000000005,
+                "top": 283.20537634843754,
+                "right": 552.7605102000002,
+                "bottom": 306.84529384843756
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Designed and implemented secure, scalable RESTful APIs with Spring Boot, Spring Security, JWT authentication and RBAC, handling thousands of concurrent requests.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Designed a multi-environment deployment strategy (local, development, production) with strict configuration isolation, ensuring safe and reproducible deployments across environments."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Designed and implemented secure, scalable RESTful APIs with Spring Boot, Spring Security, JWT authentication and RBAC, handling thousands of concurrent requests.",
+              "page_no": 1,
+              "block_indices": [
+                18
+              ],
+              "bbox": {
+                "left": 49.61100000000005,
+                "top": 249.63137634843758,
+                "right": 552.7605102,
+                "bottom": 273.2712938484376
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Designed a multi-environment deployment strategy (local, development, production) with strict configuration isolation, ensuring safe and reproducible deployments across environments.",
+              "page_no": 2,
+              "block_indices": [
+                42
+              ],
+              "bbox": {
+                "left": 49.611000000000004,
+                "top": 257.3823763484379,
+                "right": 552.7605102000005,
+                "bottom": 281.0222938484378
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Optimized PostgreSQL database schemas and queries (indexing + caching), reducing query execution time by 50% and enabling faster data retrieval.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Collaborated closely with frontend and product teams in an Agile environment to deliver productionready features and improve user experience.",
+            "hanoutiwr.com",
+            "Implemented CI/CD pipelines using GitHub Actions to automate build, testing, and deployment processes, reducing manual intervention and enabling continuous delivery of updates.",
+            "Delivered a complete end-to-end production system demonstrating strong ownership across architecture, backend scalability, frontend optimization, mobile integration, and DevOps practices."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Optimized PostgreSQL database schemas and queries (indexing + caching), reducing query execution time by 50% and enabling faster data retrieval.",
+              "page_no": 1,
+              "block_indices": [
+                19
+              ],
+              "bbox": {
+                "left": 49.61100000000005,
+                "top": 216.05737634843763,
+                "right": 552.7605102000003,
+                "bottom": 239.69729384843754
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Collaborated closely with frontend and product teams in an Agile environment to deliver productionready features and improve user experience.",
+              "page_no": 2,
+              "block_indices": [
+                31
+              ],
+              "bbox": {
+                "left": 49.61100000000005,
+                "top": 582.0523763484377,
+                "right": 552.7605102000005,
+                "bottom": 605.6922938484377
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "hanoutiwr.com",
+              "page_no": 2,
+              "block_indices": [
+                36
+              ],
+              "bbox": {
+                "left": 482.374912,
+                "top": 525.0783763484376,
+                "right": 552.7604252000001,
+                "bottom": 535.1692938484375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Implemented CI/CD pipelines using GitHub Actions to automate build, testing, and deployment processes, reducing manual intervention and enabling continuous delivery of updates.",
+              "page_no": 2,
+              "block_indices": [
+                45
+              ],
+              "bbox": {
+                "left": 49.611000000000004,
+                "top": 143.11037634843785,
+                "right": 552.7605102000005,
+                "bottom": 166.75029384843788
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Delivered a complete end-to-end production system demonstrating strong ownership across architecture, backend scalability, frontend optimization, mobile integration, and DevOps practices.",
+              "page_no": 2,
+              "block_indices": [
+                47
+              ],
+              "bbox": {
+                "left": 49.611000000000004,
+                "top": 75.96237634843783,
+                "right": 552.7605102000002,
+                "bottom": 99.60229384843785
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Built a high-performance Next.js frontend with server-side rendering (SSR) and optimized routing strategies, improving initial load performance and enabling strong SEO indexing for public-facing pages.",
+          "date": "Aug 2025 - Apr 2026 Tunisia",
+          "location": null,
+          "details": [
+            "Designed a scalable backend architecture using Spring Boot with a modular domain-driven structure, implementing RESTful APIs secured with Spring Security (JWT-based authentication, role-based access control) and real-time communication via WebSockets for live trip updates."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Built a high-performance Next.js frontend with server-side rendering (SSR) and optimized routing strategies, improving initial load performance and enabling strong SEO indexing for public-facing pages.",
+              "page_no": 2,
+              "block_indices": [
+                39
+              ],
+              "bbox": {
+                "left": 49.611000000000004,
+                "top": 371.6533763484377,
+                "right": 552.7605102000002,
+                "bottom": 395.2932938484377
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Aug 2025 - Apr 2026 Tunisia",
+              "page_no": 1,
+              "block_indices": [
+                15
+              ],
+              "bbox": {
+                "left": 449.9857941,
+                "top": 359.4193763484375,
+                "right": 552.7604252000003,
+                "bottom": 383.06029384843754
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Designed a scalable backend architecture using Spring Boot with a modular domain-driven structure, implementing RESTful APIs secured with Spring Security (JWT-based authentication, role-based access control) and real-time communication via WebSockets for live trip updates.",
+              "page_no": 2,
+              "block_indices": [
+                38
+              ],
+              "bbox": {
+                "left": 49.611000000000004,
+                "top": 405.22737634843764,
+                "right": 552.7605102,
+                "bottom": 442.4172938484377
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Developed a cross-platform Flutter mobile application to provide native-like user and driver experiences, ensuring consistency across mobile and web ecosystems.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Developed a cross-platform Flutter mobile application to provide native-like user and driver experiences, ensuring consistency across mobile and web ecosystems.",
+              "page_no": 2,
+              "block_indices": [
+                40
+              ],
+              "bbox": {
+                "left": 49.611000000000004,
+                "top": 338.07937634843773,
+                "right": 552.7605102000001,
+                "bottom": 361.71929384843776
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Modeled and optimized a PostgreSQL relational schema with careful attention to normalization, indexing strategies, and query performance tuning, enabling support for high-concurrency scenarios (10,000+ simulated users) with stable response times.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Modeled and optimized a PostgreSQL relational schema with careful attention to normalization, indexing strategies, and query performance tuning, enabling support for high-concurrency scenarios (10,000+ simulated users) with stable response times.",
+              "page_no": 2,
+              "block_indices": [
+                41
+              ],
+              "bbox": {
+                "left": 49.611000000000004,
+                "top": 290.95637634843774,
+                "right": 552.7605102000003,
+                "bottom": 328.14529384843786
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Developed frontend applications using Angular and React with TypeScript, focusing on performance, scalability, and user experience.",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 283.20537634843754,
+            "right": 552.7605102000002,
+            "bottom": 306.84529384843756
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Designed and implemented secure, scalable RESTful APIs with Spring Boot, Spring Security, JWT authentication and RBAC, handling thousands of concurrent requests.",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 249.63137634843758,
+            "right": 552.7605102,
+            "bottom": 273.2712938484376
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Designed a multi-environment deployment strategy (local, development, production) with strict configuration isolation, ensuring safe and reproducible deployments across environments.",
+          "page_no": 2,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 257.3823763484379,
+            "right": 552.7605102000005,
+            "bottom": 281.0222938484378
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Optimized PostgreSQL database schemas and queries (indexing + caching), reducing query execution time by 50% and enabling faster data retrieval.",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 216.05737634843763,
+            "right": 552.7605102000003,
+            "bottom": 239.69729384843754
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Collaborated closely with frontend and product teams in an Agile environment to deliver productionready features and improve user experience.",
+          "page_no": 2,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 582.0523763484377,
+            "right": 552.7605102000005,
+            "bottom": 605.6922938484377
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "hanoutiwr.com",
+          "page_no": 2,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 482.374912,
+            "top": 525.0783763484376,
+            "right": 552.7604252000001,
+            "bottom": 535.1692938484375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Implemented CI/CD pipelines using GitHub Actions to automate build, testing, and deployment processes, reducing manual intervention and enabling continuous delivery of updates.",
+          "page_no": 2,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 143.11037634843785,
+            "right": 552.7605102000005,
+            "bottom": 166.75029384843788
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Delivered a complete end-to-end production system demonstrating strong ownership across architecture, backend scalability, frontend optimization, mobile integration, and DevOps practices.",
+          "page_no": 2,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 75.96237634843783,
+            "right": 552.7605102000002,
+            "bottom": 99.60229384843785
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Built a high-performance Next.js frontend with server-side rendering (SSR) and optimized routing strategies, improving initial load performance and enabling strong SEO indexing for public-facing pages.",
+          "page_no": 2,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 371.6533763484377,
+            "right": 552.7605102000002,
+            "bottom": 395.2932938484377
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Aug 2025 - Apr 2026 Tunisia",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 449.9857941,
+            "top": 359.4193763484375,
+            "right": 552.7604252000003,
+            "bottom": 383.06029384843754
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Designed a scalable backend architecture using Spring Boot with a modular domain-driven structure, implementing RESTful APIs secured with Spring Security (JWT-based authentication, role-based access control) and real-time communication via WebSockets for live trip updates.",
+          "page_no": 2,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 405.22737634843764,
+            "right": 552.7605102,
+            "bottom": 442.4172938484377
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Developed a cross-platform Flutter mobile application to provide native-like user and driver experiences, ensuring consistency across mobile and web ecosystems.",
+          "page_no": 2,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 338.07937634843773,
+            "right": 552.7605102000001,
+            "bottom": 361.71929384843776
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Modeled and optimized a PostgreSQL relational schema with careful attention to normalization, indexing strategies, and query performance tuning, enabling support for high-concurrency scenarios (10,000+ simulated users) with stable response times.",
+          "page_no": 2,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 49.611000000000004,
+            "top": 290.95637634843774,
+            "right": 552.7605102000003,
+            "bottom": 328.14529384843786
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [],
+      "items": [
+        {
+          "title": "Designed and implemented an AI-powered assistant using Retrieval-Augmented Generation (RAG) with Python, FastAPI, LangChain, and Cassandra for scalable knowledge storage and retrieval. Project available at: RAGentX GitHub Repository.",
+          "date": null,
+          "location": null,
+          "details": [
+            "PROJECTS",
+            "Developed full-stack modules using Spring Boot and React, integrating seamlessly with existing enterprise systems and improving overall platform extensibility.",
+            "Built and tested secure REST APIs and responsive UI components, contributing to a 30% improvement in application stability and reliability."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Designed and implemented an AI-powered assistant using Retrieval-Augmented Generation (RAG) with Python, FastAPI, LangChain, and Cassandra for scalable knowledge storage and retrieval. Project available at: RAGentX GitHub Repository.",
+              "page_no": 2,
+              "block_indices": [
+                30
+              ],
+              "bbox": {
+                "left": 49.61100000000005,
+                "top": 615.6263763484377,
+                "right": 552.7605102000002,
+                "bottom": 652.8162938484376
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "PROJECTS",
+              "page_no": 2,
+              "block_indices": [
+                32
+              ],
+              "bbox": {
+                "left": 42.520000000000046,
+                "top": 557.8717362484377,
+                "right": 106.71942400000005,
+                "bottom": 569.0976690484378
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Developed full-stack modules using Spring Boot and React, integrating seamlessly with existing enterprise systems and improving overall platform extensibility.",
+              "page_no": 2,
+              "block_indices": [
+                27
+              ],
+              "bbox": {
+                "left": 49.61100000000005,
+                "top": 729.8983763484375,
+                "right": 552.7605102000003,
+                "bottom": 753.5382938484374
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Built and tested secure REST APIs and responsive UI components, contributing to a 30% improvement in application stability and reliability.",
+              "page_no": 2,
+              "block_indices": [
+                29
+              ],
+              "bbox": {
+                "left": 49.61100000000005,
+                "top": 662.7503763484376,
+                "right": 552.7605102000001,
+                "bottom": 686.3902938484375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Ride-Sharing Platform (Flagship Project)",
+          "date": "2026",
+          "location": null,
+          "details": [
+            "Spring Boot · Next.js · Flutter · PostgreSQL · Docker · AWS"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Ride-Sharing Platform (Flagship Project)",
+              "page_no": 2,
+              "block_indices": [
+                33
+              ],
+              "bbox": {
+                "left": 42.52,
+                "top": 538.5837399484375,
+                "right": 252.3129020999999,
+                "bottom": 548.8273848484375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "2026",
+              "page_no": 2,
+              "block_indices": [
+                35
+              ],
+              "bbox": {
+                "left": 528.4985867999999,
+                "top": 538.6273763484376,
+                "right": 552.7604252000001,
+                "bottom": 548.7182938484375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Spring Boot · Next.js · Flutter · PostgreSQL · Docker · AWS",
+              "page_no": 2,
+              "block_indices": [
+                34
+              ],
+              "bbox": {
+                "left": 42.52,
+                "top": 525.0783763484376,
+                "right": 330.2147852,
+                "bottom": 535.1692938484375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Designed and implemented an AI-powered assistant using Retrieval-Augmented Generation (RAG) with Python, FastAPI, LangChain, and Cassandra for scalable knowledge storage and retrieval. Project available at: RAGentX GitHub Repository.",
+          "page_no": 2,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 615.6263763484377,
+            "right": 552.7605102000002,
+            "bottom": 652.8162938484376
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "PROJECTS",
+          "page_no": 2,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 42.520000000000046,
+            "top": 557.8717362484377,
+            "right": 106.71942400000005,
+            "bottom": 569.0976690484378
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Developed full-stack modules using Spring Boot and React, integrating seamlessly with existing enterprise systems and improving overall platform extensibility.",
+          "page_no": 2,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 729.8983763484375,
+            "right": 552.7605102000003,
+            "bottom": 753.5382938484374
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Built and tested secure REST APIs and responsive UI components, contributing to a 30% improvement in application stability and reliability.",
+          "page_no": 2,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 49.61100000000005,
+            "top": 662.7503763484376,
+            "right": 552.7605102000001,
+            "bottom": 686.3902938484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Ride-Sharing Platform (Flagship Project)",
+          "page_no": 2,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 538.5837399484375,
+            "right": 252.3129020999999,
+            "bottom": 548.8273848484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "2026",
+          "page_no": 2,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 528.4985867999999,
+            "top": 538.6273763484376,
+            "right": 552.7604252000001,
+            "bottom": 548.7182938484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Spring Boot · Next.js · Flutter · PostgreSQL · Docker · AWS",
+          "page_no": 2,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 525.0783763484376,
+            "right": 330.2147852,
+            "bottom": 535.1692938484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.8967,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 6000,
+      "section_completeness": 0.8333,
+      "ordering_coherence": 0.9,
+      "segmentation_stability": 0.8,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.3693,
+      "weird_section_ratio": 0.0,
+      "section_count": 5,
+      "expected_section_hits": 5,
+      "markdown_chars": 6064,
+      "markdown_words": 795,
+      "markdown_has_experience": true,
+      "markdown_has_education": false,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 2,
+      "markdown_weird_char_ratio": 0.002,
+      "markdown_glued_line_count": 7,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=3\", \"pdf_total_text_chars=6825\", \"pdf_total_text_words=894\", \"pdf_avg_text_chars_per_page=2275.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": []
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Mohamed Aziz Ouerghi",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 160.79,
+        "top": 775.9092139484375,
+        "right": 434.4891581999999,
+        "bottom": 799.1843008484375
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/envelope werghia.1@gmail.com · /phone +216 29 836 507 · /github github.com/ouerghi01 /linkedin LinkedIn · /globe Portfolio",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 101.71499999999999,
+        "top": 735.4053763484376,
+        "right": 493.5655083600001,
+        "bottom": 764.8084771484375
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Full Stack Engineer (Mid-Senior Level) · Java / Spring Boot · Angular / React · DevOps",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 67.04399999999995,
+        "top": 709.6785570484375,
+        "right": 528.2277951999997,
+        "bottom": 720.7371170484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Java Full Stack Engineer Mid-Senior level with hands-on experience building scalable applications using Spring Boot and Angular. Experienced in developing microservices, REST APIs, and deploying applications using Docker and CI/CD pipelines. Comfortable working in Agile and DevOps environments, contributing from design to production. Strong focus on clean code, performance optimization, and delivering reliable software solutions. Recognized as a confirmed-level (niveau confirmé) engineer with strong autonomy across full-stack architecture, delivery, and DevOps workflows.",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 598.6643763484377,
+        "right": 552.7604252000002,
+        "bottom": 676.5012938484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Frontend: Angular,React.js, TypeScript, Tailwind CSS, Material-UI, React Query, React Router, Context API, Responsive Design",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 49.611,
+        "top": 543.6173763484376,
+        "right": 552.7605102000003,
+        "bottom": 567.3663848484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Backend: Java 17,Python,FastApi, Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs, JWT, Microservices",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 49.611,
+        "top": 510.04337634843756,
+        "right": 552.7605101999999,
+        "bottom": 533.7923848484376
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Databases: PostgreSQL (advanced queries, indexing, optimization), MySQL,MongoDB",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 49.611,
+        "top": 489.9747399484376,
+        "right": 480.32408620000007,
+        "bottom": 500.2183848484376
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "DevOps & Tools: Docker, GitHub Actions, CI/CD, Linux (shell scripting), Nginx,AWS,EC2",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 49.611,
+        "top": 469.94973994843764,
+        "right": 490.60045840000015,
+        "bottom": 480.19338484843763
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Testing & Quality: JUnit, Mockito, React Testing Library, Postman, Swagger",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 49.611,
+        "top": 449.92473994843766,
+        "right": 428.24404280000005,
+        "bottom": 460.16838484843765
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Concepts: Clean Architecture, SOLID, OOP , Real-time (WebSockets), RBAC, Performance Optimization",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 49.611,
+        "top": 416.3943763484377,
+        "right": 552.7605101999999,
+        "bottom": 440.1433848484377
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Full Stack Software Engineer",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 372.9257399484375,
+        "right": 192.6510342,
+        "bottom": 383.1693848484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "BRI Technology",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 359.4193763484375,
+        "right": 118.81824539999998,
+        "bottom": 369.5102938484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Architected and developed end-to-end full-stack features using Spring Boot + React, delivering 8+ production features that improved system performance by 40% and reduced API latency.",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 316.7793763484375,
+        "right": 552.7605102000001,
+        "bottom": 340.4192938484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Containerized full applications with Docker and automated deployment pipelines using GitHub Actions + Nginx, achieving zero-downtime releases.",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 182.48337634843756,
+        "right": 552.7605102000003,
+        "bottom": 206.12329384843758
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Worked in a DevOps-oriented environment using CI/CD pipelines, Docker, and Linux, contributing to automated deployments and continuous integration workflows.",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 148.9093763484375,
+        "right": 552.7605102000002,
+        "bottom": 172.54929384843751
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Actively participated in Agile ceremonies, code reviews, and architecture decisions, consistently delivering high-quality code ahead of sprint deadlines.",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 115.33537634843753,
+        "right": 552.7605102000002,
+        "bottom": 138.97529384843756
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "1",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 294.6050000000001,
+        "top": 10.308376348437491,
+        "right": 300.6704596000001,
+        "bottom": 20.399293848437537
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Software Engineer Intern (PFE)",
+      "page_no": 2,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 786.0437399484374,
+        "right": 203.15649749999997,
+        "bottom": 796.2873848484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Feb 2025 - Jun 2025 Tunisia",
+      "page_no": 2,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 450.2039761,
+        "top": 772.5383763484375,
+        "right": 552.7604252000004,
+        "bottom": 796.1782938484374
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "BRI Technology",
+      "page_no": 2,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 772.5383763484375,
+        "right": 118.81824539999998,
+        "bottom": 782.6292938484374
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Applied clean architecture principles across backend and frontend layers, enhancing code maintainability, scalability, and team collaboration efficiency.",
+      "page_no": 2,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 696.3243763484376,
+        "right": 552.7605101999999,
+        "bottom": 719.9642938484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Engineered a production-grade ride-sharing platform from scratch, covering the full lifecycle: system design, backend architecture, frontend web app, mobile application, CI/CD, and cloud deployment. The platform supports core ride-hailing flows including user/driver onboarding, ride booking, real-time tracking, and secure transactions.",
+      "page_no": 2,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 452.3513763484376,
+        "right": 552.7605102000001,
+        "bottom": 503.0892938484376
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Containerized the entire system using Docker and orchestrated services via Docker Compose, enabling consistent runtime environments and simplifying deployment workflows.",
+      "page_no": 2,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 223.80837634843783,
+        "right": 552.7605102000001,
+        "bottom": 247.44829384843786
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Deployed the platform on AWS with production-grade infrastructure setup including Nginx reverse proxy, SSL configuration, and domain management via Hostinger, ensuring secure and scalable access in production.",
+      "page_no": 2,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 176.6843763484378,
+        "right": 552.7605102000002,
+        "bottom": 213.8742938484379
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Improved system observability and performance, achieving sub-150ms average API response time and 98% backend test coverage through automated testing and performance optimizations.",
+      "page_no": 2,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 109.53637634843778,
+        "right": 552.7605101999999,
+        "bottom": 133.1762938484378
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "2",
+      "page_no": 2,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 294.605,
+        "top": 10.308376348437832,
+        "right": 300.6704596,
+        "bottom": 20.399293848437765
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Developed frontend applications using Angular and React with TypeScript, focusing on performance, scalability, and user experience.",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 283.20537634843754,
+        "right": 552.7605102000002,
+        "bottom": 306.84529384843756
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Designed and implemented secure, scalable RESTful APIs with Spring Boot, Spring Security, JWT authentication and RBAC, handling thousands of concurrent requests.",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 249.63137634843758,
+        "right": 552.7605102,
+        "bottom": 273.2712938484376
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Designed a multi-environment deployment strategy (local, development, production) with strict configuration isolation, ensuring safe and reproducible deployments across environments.",
+      "page_no": 2,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 257.3823763484379,
+        "right": 552.7605102000005,
+        "bottom": 281.0222938484378
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Optimized PostgreSQL database schemas and queries (indexing + caching), reducing query execution time by 50% and enabling faster data retrieval.",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 216.05737634843763,
+        "right": 552.7605102000003,
+        "bottom": 239.69729384843754
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Collaborated closely with frontend and product teams in an Agile environment to deliver productionready features and improve user experience.",
+      "page_no": 2,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 582.0523763484377,
+        "right": 552.7605102000005,
+        "bottom": 605.6922938484377
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "hanoutiwr.com",
+      "page_no": 2,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 482.374912,
+        "top": 525.0783763484376,
+        "right": 552.7604252000001,
+        "bottom": 535.1692938484375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Implemented CI/CD pipelines using GitHub Actions to automate build, testing, and deployment processes, reducing manual intervention and enabling continuous delivery of updates.",
+      "page_no": 2,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 143.11037634843785,
+        "right": 552.7605102000005,
+        "bottom": 166.75029384843788
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Delivered a complete end-to-end production system demonstrating strong ownership across architecture, backend scalability, frontend optimization, mobile integration, and DevOps practices.",
+      "page_no": 2,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 75.96237634843783,
+        "right": 552.7605102000002,
+        "bottom": 99.60229384843785
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Built a high-performance Next.js frontend with server-side rendering (SSR) and optimized routing strategies, improving initial load performance and enabling strong SEO indexing for public-facing pages.",
+      "page_no": 2,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 371.6533763484377,
+        "right": 552.7605102000002,
+        "bottom": 395.2932938484377
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Aug 2025 - Apr 2026 Tunisia",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 449.9857941,
+        "top": 359.4193763484375,
+        "right": 552.7604252000003,
+        "bottom": 383.06029384843754
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Designed a scalable backend architecture using Spring Boot with a modular domain-driven structure, implementing RESTful APIs secured with Spring Security (JWT-based authentication, role-based access control) and real-time communication via WebSockets for live trip updates.",
+      "page_no": 2,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 405.22737634843764,
+        "right": 552.7605102,
+        "bottom": 442.4172938484377
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Developed a cross-platform Flutter mobile application to provide native-like user and driver experiences, ensuring consistency across mobile and web ecosystems.",
+      "page_no": 2,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 338.07937634843773,
+        "right": 552.7605102000001,
+        "bottom": 361.71929384843776
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Modeled and optimized a PostgreSQL relational schema with careful attention to normalization, indexing strategies, and query performance tuning, enabling support for high-concurrency scenarios (10,000+ simulated users) with stable response times.",
+      "page_no": 2,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 49.611000000000004,
+        "top": 290.95637634843774,
+        "right": 552.7605102000003,
+        "bottom": 328.14529384843786
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Designed and implemented an AI-powered assistant using Retrieval-Augmented Generation (RAG) with Python, FastAPI, LangChain, and Cassandra for scalable knowledge storage and retrieval. Project available at: RAGentX GitHub Repository.",
+      "page_no": 2,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 615.6263763484377,
+        "right": 552.7605102000002,
+        "bottom": 652.8162938484376
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "PROJECTS",
+      "page_no": 2,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 42.520000000000046,
+        "top": 557.8717362484377,
+        "right": 106.71942400000005,
+        "bottom": 569.0976690484378
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Developed full-stack modules using Spring Boot and React, integrating seamlessly with existing enterprise systems and improving overall platform extensibility.",
+      "page_no": 2,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 729.8983763484375,
+        "right": 552.7605102000003,
+        "bottom": 753.5382938484374
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Built and tested secure REST APIs and responsive UI components, contributing to a 30% improvement in application stability and reliability.",
+      "page_no": 2,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 49.61100000000005,
+        "top": 662.7503763484376,
+        "right": 552.7605102000001,
+        "bottom": 686.3902938484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Ride-Sharing Platform (Flagship Project)",
+      "page_no": 2,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 538.5837399484375,
+        "right": 252.3129020999999,
+        "bottom": 548.8273848484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "2026",
+      "page_no": 2,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 528.4985867999999,
+        "top": 538.6273763484376,
+        "right": 552.7604252000001,
+        "bottom": 548.7182938484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Spring Boot · Next.js · Flutter · PostgreSQL · Docker · AWS",
+      "page_no": 2,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 525.0783763484376,
+        "right": 330.2147852,
+        "bottom": 535.1692938484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    }
+  ]
+}

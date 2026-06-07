@@ -1,0 +1,69 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mehdi_kaouech_23014563.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mehdi_kaouech_23014563.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\mehdi_kaouech_23014563.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mehdi Kaouech",
+      "email": "25@gmail.com",
+      "phone": null,
+      "location": "1003 Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Administration Systèmes & Virtualisation",
+        "Architecture & stockage",
+        "Cloud & Containerisation",
+        "DevOps & Automation",
+        "Monitoring & Observability"
+      ],
+      "soft_skills": [
+        "Encadrement d'équipes techniques",
+        "Coordination des activités projet",
+        "Rédaction, structuration et mise à jour de la documentation technique"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Red Sys",
+        "start_date": "06/2025 - Present",
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Mise en place et déploiement d'infrastructures on-premise complètes (rack intégré: onduleur (UPS), pare-feu, switches, stockage et serveurs HPE Pro Liant).",
+          "Conception et déploiement de plateformes de virtualisation basées sur Proxmox VE, incluant la mise en place de clusters en haute disponibilité .",
+          "Administration de serveurs Linux et gestion des environnements (Dev et Prod) .",
+          "Mise en place de pipelines CI/CD sécurisés avec analyses SAST/DAST et déploiement automatisé en production via Git Ops avec Argo CD.",
+          "Conception, approvisionnement (Fin Ops) et déploiement d'environnements de production, avec optimisation des coûts et des ressources.",
+          "Encadrement d'équipes techniques en méthodologie Agile, coordination des activités projet et suivi des livrables."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme National d'Ingénieur en Informatique (Option: Infrastructure IT and cloud computing)",
+        "school": "École Supérieure Privée d'Ingénierie et de Technologies",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:20:39.835655+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9653,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1946 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\omaima_khlifi_23031446.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nOumaima Khlifi\nDéveloppeuse full stack\nkhlifioumaima1409  @gmail.com | (+216) 95 358 044 | Tunisie | linkedin.com/in/oumaima-khlifi-7b03a6224\nPROFIL PROFESSIONNEL\nACADEMIC PROJECTS\nFraîchement diplômée ingénieure informatique, je suis activement à la recherche de mon premier poste en développement full stack. Habituée à livrer des projets complets en conditions réelles - backend Django, frontend Angular, CI/  CD - je place la qualité du code au cœur de mon travail. Enthousiaste et déterminée, je suis prête à m'engager dans un environnement technique stimulant.\nDéveloppé plus de 30 endpoints REST avec Django, éliminant les failles d'accès inter-tenants et garantissant des échanges backend fiables et sécurisés.\nConçu une plateforme CI/  CD complète automatisant les processus de build, test et déploiement, réduisant le temps de mise en production de +1h à quelques minutes.\nDéveloppé des API REST avec Spring Boot orchestrant les workflows CI/  CD, supportant les déclenchements manuels et automatiques via intégration GitHub à chaque commit.\nLivré un dashboard Angular temps réel permettant aux clients de suivre en direct le statut de leurs pipelines (projets actifs, pipelines réussis/  échoués).\nGaranti la fiabilité de la plateforme avec une couverture de tests de 95% sur les modules développés (JUnit, Mockito), assurant un système stable en production.\nPROJETS\nHospitalia, Architecture Microservices (Java 17/Spring Boot 3)\n11/2024 - 12/2024\nConçu et déployé 2 microservices indépendants (patients + médecins/  rendez-vous) avec Java 17 et Spring Boot 3, avec un pipeline Jenkins fonctionnel en moins de 15 minutes de build à déploiement.\nImplémenté Eureka Service Discovery pour un enregistrement dynamique des services, rendant l'architecture extensible sans reconfiguration manuelle.\nCourZelo, Plateforme e-learning (LMS)\n01/2024 - 03/2024\nCOMPÉTENCES TECHNIQUES\nBackend : Django, REST APIs, FastAPI (en cours) , Spring Boot, Spring Security, JPA/  Hibernate.\nTests : JUnit, Mockito, couverture 95%.\nFrontend : Angular, TypeScript, JavaScript, HTML5/  CSS3 (Sass).\nIA & LLM : LangChain, Qwen 2.5-VL, intégration de modèles de langage.\nTECHNICAL SKILLS\nDevOps & CI/CD : Docker, Jenkins, SonarQube, pipelines CI/  CD complets.\nOutils : Git, GitHub, Postman, Agile/  Scrum.\nBases de données :\nPostgreSQL, MySQL, MongoDB.\nCentralisé le trafic inter-services via Spring Cloud Gateway, éliminant les appels directs entre microservices et renforçant la sécurité de l'architecture.\nConteneurisé l'ensemble de la solution avec Docker, garantissant un environnement de déploiement reproductible et portable.\nImplémenté les APIs REST de gestion des cours et du contenu, permettant la création, modification et consultation des ressources pédagogiques de manière fluide et structurée.\nContribué à la conception du modèle de données sous-jacent, garantissant une séparation claire des responsabilités entre les modules backend.\nAnglais Intermédiaire\nEXPÉRIENCES PROFESSIONNELLES\nEDUCATION\nARGVISION, Ingénieure Logiciel - Projet de Fin d'Études\n04/2025 - 10/2025\nConçu une plateforme multi-tenant de gestion commerciale (stock, RH, finance) supportant jusqu'à 5 entreprises simultanées avec isolation complète et sécurisée des données par tenant.\nIPACT Consult, Stagiaire - Plateforme CI/CD inspirée de Jenkins / GitHub Actions\n06/2024 - 08/2024\nFORMATION\nÉcole Supérieure Privée d'Ingénierie et de Technologies (ESPRIT),\n2022 - 2025\nDiplôme d'Ingénieur informatique\nInstitut Supérieur d'Informatique de Mahdia,\n2019 - 2022\nLicence en Génie des Systèmes Informatiques\nPROFESSIONAL SUMMARY\nIntégré un module intelligent de matching de profils basé sur Qwen 2.5-VL+ LangChain, réduisant le temps de matching de 60 % sur un corpus de 90+ CVs testés.\nLivré un frontend Angular couvrant ~30 pages/  modules, entièrement connecté aux services backend avec un chargement des données fluide et réactif.\nDéveloppé le module d'authentification et de gestion des utilisateurs avec Spring Security au sein d'une équipe de 5, assurant un contrôle d'accès sécurisé entre les différents profils de la plateforme.\nLANGUAGES\nArabe\nFrançais Bon niveau\nLangue maternelle",
+  "markdown": "## HEADER\n\nOumaima Khlifi\nDéveloppeuse full stack\nkhlifioumaima 1409 @gmail. com | (+216) 95 358 044 | Tunisie | linkedin. com/in/oumaima-khlifi-7 b 03 a 6224\n\n## ACADEMIC PROJECTS\n\nFraîchement diplômée ingénieure informatique, je suis activement à la recherche de mon premier poste en développement full stack. Habituée à livrer des projets complets en conditions réelles - backend Django, frontend Angular, CI/CD - je place la qualité du code au cœur de mon travail. Enthousiaste et déterminée, je suis prête à m'engager dans un environnement technique stimulant.\nDéveloppé plus de 30 endpoints REST avec Django, éliminant les failles d'accès inter-tenants et garantissant des échanges backend fiables et sécurisés.\nConçu une plateforme CI/CD complète automatisant les processus de build, test et déploiement, réduisant le temps de mise en production de +1 h à quelques minutes.\nDéveloppé des API REST avec Spring Boot orchestrant les workflows CI/CD, supportant les déclenchements manuels et automatiques via intégration Git Hub à chaque commit.\nLivré un dashboard Angular temps réel permettant aux clients de suivre en direct le statut de leurs pipelines (projets actifs, pipelines réussis/échoués).\nGaranti la fiabilité de la plateforme avec une couverture de tests de 95% sur les modules développés (JUnit, Mockito), assurant un système stable en production.\n- PROJETS\n### Hospitalia, Architecture Microservices (Java 17/Spring Boot 3)\n**Date:** 11/2024 - 12/2024\nConçu et déployé 2 microservices indépendants (patients + médecins/rendez-vous) avec Java 17 et Spring Boot 3, avec un pipeline Jenkins fonctionnel en moins de 15 minutes de build à déploiement.\nImplémenté Eureka Service Discovery pour un enregistrement dynamique des services, rendant l'architecture extensible sans reconfiguration manuelle.\n### Cour Zelo, Plateforme e-learning (LMS)\n**Date:** 01/2024 - 03/2024\n\n## COMPÉTENCES TECHNIQUES\n\nBackend : Django, REST APIs, Fast API (en cours) , Spring Boot, Spring Security, JPA/Hibernate.\nTests : JUnit, Mockito, couverture 95%.\nFrontend : Angular, Type Script, Java Script, HTML 5/CSS 3 (Sass).\nIA & LLM : Lang Chain, Qwen 2. 5-VL, intégration de modèles de langage.\n\n## TECHNICAL SKILLS\n\nDev Ops & CI/CD : Docker, Jenkins, Sonar Qube, pipelines CI/CD complets.\nOutils : Git, Git Hub, Postman, Agile/Scrum.\nBases de données :\nPostgre SQL, My SQL, Mongo DB.\nCentralisé le trafic inter-services via Spring Cloud Gateway, éliminant les appels directs entre microservices et renforçant la sécurité de l'architecture.\nConteneurisé l'ensemble de la solution avec Docker, garantissant un environnement de déploiement reproductible et portable.\nImplémenté les APIs REST de gestion des cours et du contenu, permettant la création, modification et consultation des ressources pédagogiques de manière fluide et structurée.\nContribué à la conception du modèle de données sous-jacent, garantissant une séparation claire des responsabilités entre les modules backend.\nAnglais Intermédiaire\n\n## EDUCATION\n\n### ARGVISION, Ingénieure Logiciel - Projet de Fin d'Études\n**Date:** 04/2025 - 10/2025\nConçu une plateforme multi-tenant de gestion commerciale (stock, RH, finance) supportant jusqu'à 5 entreprises simultanées avec isolation complète et sécurisée des données par tenant.\n### IPACT Consult, Stagiaire - Plateforme CI/CD inspirée de Jenkins/Git Hub Actions\n**Date:** 06/2024 - 08/2024\n- FORMATION\n### École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT),\n**Date:** 2022 - 2025\n- Diplôme d'Ingénieur informatique\n### Institut Supérieur d'Informatique de Mahdia,\n**Date:** 2019 - 2022\n- Licence en Génie des Systèmes Informatiques\n\n## PROFESSIONAL SUMMARY\n\nIntégré un module intelligent de matching de profils basé sur Qwen 2. 5-VL+ Lang Chain, réduisant le temps de matching de 60 % sur un corpus de 90+ CVs testés.\nLivré un frontend Angular couvrant ~30 pages/modules, entièrement connecté aux services backend avec un chargement des données fluide et réactif.\nDéveloppé le module d'authentification et de gestion des utilisateurs avec Spring Security au sein d'une équipe de 5, assurant un contrôle d'accès sécurisé entre les différents profils de la plateforme.\n\n## LANGUAGES\n\nArabe\nFrançais Bon niveau\nLangue maternelle",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Oumaima Khlifi",
+        "Développeuse full stack",
+        "khlifioumaima1409 @gmail.com | (+216) 95 358 044 | Tunisie | linkedin.com/in/oumaima-khlifi-7b03a6224"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Oumaima Khlifi",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 227.3203030283203,
+            "top": 786.8241677058153,
+            "right": 367.92333979486017,
+            "bottom": 812.5895241322587
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Développeuse full stack",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 222.08202574658185,
+            "top": 765.6120458849038,
+            "right": 373.1779708079174,
+            "bottom": 785.4475060011762
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "khlifioumaima1409  @gmail.com | (+216) 95 358 044 | Tunisie | linkedin.com/in/oumaima-khlifi-7b03a6224",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 88.59374630859375,
+            "top": 747.2129868562813,
+            "right": 506.50791739550266,
+            "bottom": 758.5259863849062
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [],
+      "items": [
+        {
+          "title": "Fraîchement diplômée ingénieure informatique, je suis activement à la recherche de mon premier poste en développement full stack. Habituée à livrer des projets complets en conditions réelles - backend Django, frontend Angular, CI/ CD - je place la qualité du code au cœur de mon travail. Enthousiaste et déterminée, je suis prête à m'engager dans un environnement technique stimulant.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Fraîchement diplômée ingénieure informatique, je suis activement à la recherche de mon premier poste en développement full stack. Habituée à livrer des projets complets en conditions réelles - backend Django, frontend Angular, CI/  CD - je place la qualité du code au cœur de mon travail. Enthousiaste et déterminée, je suis prête à m'engager dans un environnement technique stimulant.",
+              "page_no": 1,
+              "block_indices": [
+                4
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 688.7129892937812,
+                "right": 560.8195116325194,
+                "bottom": 719.5259880099062
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Développé plus de 30 endpoints REST avec Django, éliminant les failles d'accès inter-tenants et garantissant des échanges backend fiables et sécurisés.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Développé plus de 30 endpoints REST avec Django, éliminant les failles d'accès inter-tenants et garantissant des échanges backend fiables et sécurisés.",
+              "page_no": 1,
+              "block_indices": [
+                17
+              ],
+              "bbox": {
+                "left": 42.10546699560547,
+                "top": 519.9629963250312,
+                "right": 559.1320117028318,
+                "bottom": 541.0259954474062
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Conçu une plateforme CI/ CD complète automatisant les processus de build, test et déploiement, réduisant le temps de mise en production de +1h à quelques minutes.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Conçu une plateforme CI/  CD complète automatisant les processus de build, test et déploiement, réduisant le temps de mise en production de +1h à quelques minutes.",
+              "page_no": 1,
+              "block_indices": [
+                24
+              ],
+              "bbox": {
+                "left": 42.10546699560547,
+                "top": 445.7129994187813,
+                "right": 560.9366991276365,
+                "bottom": 466.77599854115624
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Développé des API REST avec Spring Boot orchestrant les workflows CI/ CD, supportant les déclenchements manuels et automatiques via intégration GitHub à chaque commit.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Développé des API REST avec Spring Boot orchestrant les workflows CI/  CD, supportant les déclenchements manuels et automatiques via intégration GitHub à chaque commit.",
+              "page_no": 1,
+              "block_indices": [
+                23
+              ],
+              "bbox": {
+                "left": 42.10546699560547,
+                "top": 426.2130002312813,
+                "right": 553.8468519230469,
+                "bottom": 447.2759993536563
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Livré un dashboard Angular temps réel permettant aux clients de suivre en direct le statut de leurs pipelines (projets actifs, pipelines réussis/ échoués).",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Livré un dashboard Angular temps réel permettant aux clients de suivre en direct le statut de leurs pipelines (projets actifs, pipelines réussis/  échoués).",
+              "page_no": 1,
+              "block_indices": [
+                25
+              ],
+              "bbox": {
+                "left": 42.10546699560547,
+                "top": 406.7130010437813,
+                "right": 536.1749776593749,
+                "bottom": 427.7760001661563
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Garanti la fiabilité de la plateforme avec une couverture de tests de 95% sur les modules développés (JUnit, Mockito), assurant un système stable en production.",
+          "date": null,
+          "location": null,
+          "details": [
+            "PROJETS"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Garanti la fiabilité de la plateforme avec une couverture de tests de 95% sur les modules développés (JUnit, Mockito), assurant un système stable en production.",
+              "page_no": 1,
+              "block_indices": [
+                26
+              ],
+              "bbox": {
+                "left": 42.10546699560547,
+                "top": 387.2130018562813,
+                "right": 559.7531016769531,
+                "bottom": 408.27600097865627
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "PROJETS",
+              "page_no": 1,
+              "block_indices": [
+                27
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 361.4406854506028,
+                "right": 76.07279746359997,
+                "bottom": 374.0075423327088
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Hospitalia, Architecture Microservices (Java 17/Spring Boot 3)",
+          "date": "11/2024 - 12/2024",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Hospitalia, Architecture Microservices (Java 17/Spring Boot 3)",
+              "page_no": 1,
+              "block_indices": [
+                28
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 346.7130035437813,
+                "right": 261.87499181354156,
+                "bottom": 358.02600307240624
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "11/2024 - 12/2024",
+              "page_no": 1,
+              "block_indices": [
+                29
+              ],
+              "bbox": {
+                "left": 493.35935444335934,
+                "top": 346.7130035437813,
+                "right": 561.2557484393427,
+                "bottom": 358.02600307240624
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Conçu et déployé 2 microservices indépendants (patients + médecins/ rendez-vous) avec Java 17 et Spring Boot 3, avec un pipeline Jenkins fonctionnel en moins de 15 minutes de build à déploiement.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Conçu et déployé 2 microservices indépendants (patients + médecins/  rendez-vous) avec Java 17 et Spring Boot 3, avec un pipeline Jenkins fonctionnel en moins de 15 minutes de build à déploiement.",
+              "page_no": 1,
+              "block_indices": [
+                31
+              ],
+              "bbox": {
+                "left": 42.10546699560547,
+                "top": 327.2130043562813,
+                "right": 561.3116991120115,
+                "bottom": 348.27600347865626
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Implémenté Eureka Service Discovery pour un enregistrement dynamique des services, rendant l'architecture extensible sans reconfiguration manuelle.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Implémenté Eureka Service Discovery pour un enregistrement dynamique des services, rendant l'architecture extensible sans reconfiguration manuelle.",
+              "page_no": 1,
+              "block_indices": [
+                32
+              ],
+              "bbox": {
+                "left": 42.10546699560547,
+                "top": 288.2130059812813,
+                "right": 511.90545117060526,
+                "bottom": 309.2760051036563
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "CourZelo, Plateforme e-learning (LMS)",
+          "date": "01/2024 - 03/2024",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "CourZelo, Plateforme e-learning (LMS)",
+              "page_no": 1,
+              "block_indices": [
+                34
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 262.7130070437813,
+                "right": 176.99278947530013,
+                "bottom": 274.02600657240623
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "01/2024 - 03/2024",
+              "page_no": 1,
+              "block_indices": [
+                35
+              ],
+              "bbox": {
+                "left": 493.35935444335934,
+                "top": 262.7130070437813,
+                "right": 561.2557484393427,
+                "bottom": 274.02600657240623
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Fraîchement diplômée ingénieure informatique, je suis activement à la recherche de mon premier poste en développement full stack. Habituée à livrer des projets complets en conditions réelles - backend Django, frontend Angular, CI/  CD - je place la qualité du code au cœur de mon travail. Enthousiaste et déterminée, je suis prête à m'engager dans un environnement technique stimulant.",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 688.7129892937812,
+            "right": 560.8195116325194,
+            "bottom": 719.5259880099062
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Développé plus de 30 endpoints REST avec Django, éliminant les failles d'accès inter-tenants et garantissant des échanges backend fiables et sécurisés.",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 519.9629963250312,
+            "right": 559.1320117028318,
+            "bottom": 541.0259954474062
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Conçu une plateforme CI/  CD complète automatisant les processus de build, test et déploiement, réduisant le temps de mise en production de +1h à quelques minutes.",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 445.7129994187813,
+            "right": 560.9366991276365,
+            "bottom": 466.77599854115624
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Développé des API REST avec Spring Boot orchestrant les workflows CI/  CD, supportant les déclenchements manuels et automatiques via intégration GitHub à chaque commit.",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 426.2130002312813,
+            "right": 553.8468519230469,
+            "bottom": 447.2759993536563
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Livré un dashboard Angular temps réel permettant aux clients de suivre en direct le statut de leurs pipelines (projets actifs, pipelines réussis/  échoués).",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 406.7130010437813,
+            "right": 536.1749776593749,
+            "bottom": 427.7760001661563
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Garanti la fiabilité de la plateforme avec une couverture de tests de 95% sur les modules développés (JUnit, Mockito), assurant un système stable en production.",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 387.2130018562813,
+            "right": 559.7531016769531,
+            "bottom": 408.27600097865627
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "PROJETS",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 361.4406854506028,
+            "right": 76.07279746359997,
+            "bottom": 374.0075423327088
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Hospitalia, Architecture Microservices (Java 17/Spring Boot 3)",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 346.7130035437813,
+            "right": 261.87499181354156,
+            "bottom": 358.02600307240624
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "11/2024 - 12/2024",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 493.35935444335934,
+            "top": 346.7130035437813,
+            "right": 561.2557484393427,
+            "bottom": 358.02600307240624
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Conçu et déployé 2 microservices indépendants (patients + médecins/  rendez-vous) avec Java 17 et Spring Boot 3, avec un pipeline Jenkins fonctionnel en moins de 15 minutes de build à déploiement.",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 327.2130043562813,
+            "right": 561.3116991120115,
+            "bottom": 348.27600347865626
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Implémenté Eureka Service Discovery pour un enregistrement dynamique des services, rendant l'architecture extensible sans reconfiguration manuelle.",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 288.2130059812813,
+            "right": 511.90545117060526,
+            "bottom": 309.2760051036563
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "CourZelo, Plateforme e-learning (LMS)",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 262.7130070437813,
+            "right": 176.99278947530013,
+            "bottom": 274.02600657240623
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "01/2024 - 03/2024",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 493.35935444335934,
+            "top": 262.7130070437813,
+            "right": 561.2557484393427,
+            "bottom": 274.02600657240623
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    },
+    {
+      "title": "COMPÉTENCES TECHNIQUES",
+      "section_type": "other",
+      "content": [
+        "Backend : Django, REST APIs, FastAPI (en cours) , Spring Boot, Spring Security, JPA/ Hibernate.",
+        "Tests : JUnit, Mockito, couverture 95%.",
+        "Frontend : Angular, TypeScript, JavaScript, HTML5/ CSS3 (Sass).",
+        "IA & LLM : LangChain, Qwen 2.5-VL, intégration de modèles de langage."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Backend : Django, REST APIs, FastAPI (en cours) , Spring Boot, Spring Security, JPA/  Hibernate.",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 652.7129907937813,
+            "right": 389.6511858395334,
+            "bottom": 664.0259903224063
+          },
+          "section_title": "COMPÉTENCES TECHNIQUES"
+        },
+        {
+          "text": "Tests : JUnit, Mockito, couverture 95%.",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 642.9629912000313,
+            "right": 188.171824309507,
+            "bottom": 654.2759907286562
+          },
+          "section_title": "COMPÉTENCES TECHNIQUES"
+        },
+        {
+          "text": "Frontend : Angular, TypeScript, JavaScript, HTML5/  CSS3 (Sass).",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 633.2129916062812,
+            "right": 279.87053523872726,
+            "bottom": 644.5259911349062
+          },
+          "section_title": "COMPÉTENCES TECHNIQUES"
+        },
+        {
+          "text": "IA & LLM : LangChain, Qwen 2.5-VL, intégration de modèles de langage.",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 623.4629920125312,
+            "right": 308.2153980576912,
+            "bottom": 634.7759915411563
+          },
+          "section_title": "COMPÉTENCES TECHNIQUES"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "DevOps & CI/CD : Docker, Jenkins, SonarQube, pipelines CI/ CD complets.",
+        "Outils : Git, GitHub, Postman, Agile/ Scrum.",
+        "Bases de données :",
+        "PostgreSQL, MySQL, MongoDB.",
+        "Centralisé le trafic inter-services via Spring Cloud Gateway, éliminant les appels directs entre microservices et renforçant la sécurité de l'architecture.",
+        "Conteneurisé l'ensemble de la solution avec Docker, garantissant un environnement de déploiement reproductible et portable.",
+        "Implémenté les APIs REST de gestion des cours et du contenu, permettant la création, modification et consultation des ressources pédagogiques de manière fluide et structurée.",
+        "Contribué à la conception du modèle de données sous-jacent, garantissant une séparation claire des responsabilités entre les modules backend.",
+        "Anglais Intermédiaire"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "DevOps & CI/CD : Docker, Jenkins, SonarQube, pipelines CI/  CD complets.",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 613.7129924187813,
+            "right": 315.8707628637176,
+            "bottom": 625.0259919474063
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Outils : Git, GitHub, Postman, Agile/  Scrum.",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 603.9629928250313,
+            "right": 203.12674523638526,
+            "bottom": 615.2759923536563
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Bases de données :",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 594.2129932312813,
+            "right": 116.60801889133234,
+            "bottom": 605.5259927599062
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "PostgreSQL, MySQL, MongoDB.",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 116.61327639111327,
+            "top": 594.2129932312813,
+            "right": 234.4061362330772,
+            "bottom": 605.5259927599062
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Centralisé le trafic inter-services via Spring Cloud Gateway, éliminant les appels directs entre microservices et renforçant la sécurité de l'architecture.",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 307.71300516878125,
+            "right": 544.7179498034178,
+            "bottom": 328.77600429115626
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Conteneurisé l'ensemble de la solution avec Docker, garantissant un environnement de déploiement reproductible et portable.",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 278.4630063875313,
+            "right": 516.2199525908347,
+            "bottom": 289.77600591615624
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Implémenté les APIs REST de gestion des cours et du contenu, permettant la création, modification et consultation des ressources pédagogiques de manière fluide et structurée.",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 223.7130086687813,
+            "right": 527.4796655216796,
+            "bottom": 244.7760077911563
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Contribué à la conception du modèle de données sous-jacent, garantissant une séparation claire des responsabilités entre les modules backend.",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 204.21300948128135,
+            "right": 546.674977221875,
+            "bottom": 225.27600860365624
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Anglais Intermédiaire",
+          "page_no": 1,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 397.49998343749996,
+            "top": 87.96301432503128,
+            "right": 448.67433508023544,
+            "bottom": 109.02601344740629
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [],
+      "items": [
+        {
+          "title": "ARGVISION, Ingénieure Logiciel - Projet de Fin d'Études",
+          "date": "04/2025 - 10/2025",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "ARGVISION, Ingénieure Logiciel - Projet de Fin d'Études",
+              "page_no": 1,
+              "block_indices": [
+                15
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 558.9629947000312,
+                "right": 237.36918405961697,
+                "bottom": 570.2759942286563
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "04/2025 - 10/2025",
+              "page_no": 1,
+              "block_indices": [
+                16
+              ],
+              "bbox": {
+                "left": 493.35935444335934,
+                "top": 558.9629947000312,
+                "right": 561.2557484393427,
+                "bottom": 570.2759942286563
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Conçu une plateforme multi-tenant de gestion commerciale (stock, RH, finance) supportant jusqu'à 5 entreprises simultanées avec isolation complète et sécurisée des données par tenant.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Conçu une plateforme multi-tenant de gestion commerciale (stock, RH, finance) supportant jusqu'à 5 entreprises simultanées avec isolation complète et sécurisée des données par tenant.",
+              "page_no": 1,
+              "block_indices": [
+                18
+              ],
+              "bbox": {
+                "left": 42.10546699560547,
+                "top": 539.4629955125313,
+                "right": 531.5812278507813,
+                "bottom": 560.5259946349063
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "IPACT Consult, Stagiaire - Plateforme CI/CD inspirée de Jenkins / GitHub Actions",
+          "date": "06/2024 - 08/2024",
+          "location": null,
+          "details": [
+            "FORMATION"
+          ],
+          "evidence_spans": [
+            {
+              "text": "IPACT Consult, Stagiaire - Plateforme CI/CD inspirée de Jenkins / GitHub Actions",
+              "page_no": 1,
+              "block_indices": [
+                21
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 465.21299860628125,
+                "right": 328.5450530606222,
+                "bottom": 476.5259981349063
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "06/2024 - 08/2024",
+              "page_no": 1,
+              "block_indices": [
+                22
+              ],
+              "bbox": {
+                "left": 493.35935444335934,
+                "top": 465.21299860628125,
+                "right": 561.2557484393427,
+                "bottom": 476.5259981349063
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "FORMATION",
+              "page_no": 1,
+              "block_indices": [
+                39
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 183.69069285685282,
+                "right": 89.77785033438106,
+                "bottom": 196.2575497389588
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT),",
+          "date": "2022 - 2025",
+          "location": null,
+          "details": [
+            "Diplôme d'Ingénieur informatique"
+          ],
+          "evidence_spans": [
+            {
+              "text": "École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT),",
+              "page_no": 1,
+              "block_indices": [
+                40
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 168.2130109812813,
+                "right": 294.0703162970696,
+                "bottom": 179.5260105099063
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "2022 - 2025",
+              "page_no": 1,
+              "block_indices": [
+                49
+              ],
+              "bbox": {
+                "left": 517.5468534355468,
+                "top": 168.2130109812813,
+                "right": 561.2511021895363,
+                "bottom": 179.5260105099063
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Diplôme d'Ingénieur informatique",
+              "page_no": 1,
+              "block_indices": [
+                41
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 158.4630113875313,
+                "right": 158.41765837426394,
+                "bottom": 169.77601091615622
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Institut Supérieur d'Informatique de Mahdia,",
+          "date": "2019 - 2022",
+          "location": null,
+          "details": [
+            "Licence en Génie des Systèmes Informatiques"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Institut Supérieur d'Informatique de Mahdia,",
+              "page_no": 1,
+              "block_indices": [
+                42
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 142.7130120437813,
+                "right": 214.06641713056555,
+                "bottom": 154.02601157240622
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "2019 - 2022",
+              "page_no": 1,
+              "block_indices": [
+                50
+              ],
+              "bbox": {
+                "left": 517.5468534355468,
+                "top": 142.7130120437813,
+                "right": 561.2511021895363,
+                "bottom": 154.02601157240622
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Licence en Génie des Systèmes Informatiques",
+              "page_no": 1,
+              "block_indices": [
+                43
+              ],
+              "bbox": {
+                "left": 34.00781108300781,
+                "top": 132.96301245003133,
+                "right": 199.16677015138418,
+                "bottom": 144.27601197865624
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "ARGVISION, Ingénieure Logiciel - Projet de Fin d'Études",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 558.9629947000312,
+            "right": 237.36918405961697,
+            "bottom": 570.2759942286563
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "04/2025 - 10/2025",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 493.35935444335934,
+            "top": 558.9629947000312,
+            "right": 561.2557484393427,
+            "bottom": 570.2759942286563
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Conçu une plateforme multi-tenant de gestion commerciale (stock, RH, finance) supportant jusqu'à 5 entreprises simultanées avec isolation complète et sécurisée des données par tenant.",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 539.4629955125313,
+            "right": 531.5812278507813,
+            "bottom": 560.5259946349063
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "IPACT Consult, Stagiaire - Plateforme CI/CD inspirée de Jenkins / GitHub Actions",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 465.21299860628125,
+            "right": 328.5450530606222,
+            "bottom": 476.5259981349063
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "06/2024 - 08/2024",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 493.35935444335934,
+            "top": 465.21299860628125,
+            "right": 561.2557484393427,
+            "bottom": 476.5259981349063
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "FORMATION",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 183.69069285685282,
+            "right": 89.77785033438106,
+            "bottom": 196.2575497389588
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT),",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 168.2130109812813,
+            "right": 294.0703162970696,
+            "bottom": 179.5260105099063
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "2022 - 2025",
+          "page_no": 1,
+          "block_indices": [
+            49
+          ],
+          "bbox": {
+            "left": 517.5468534355468,
+            "top": 168.2130109812813,
+            "right": 561.2511021895363,
+            "bottom": 179.5260105099063
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Diplôme d'Ingénieur informatique",
+          "page_no": 1,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 158.4630113875313,
+            "right": 158.41765837426394,
+            "bottom": 169.77601091615622
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Institut Supérieur d'Informatique de Mahdia,",
+          "page_no": 1,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 142.7130120437813,
+            "right": 214.06641713056555,
+            "bottom": 154.02601157240622
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "2019 - 2022",
+          "page_no": 1,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 517.5468534355468,
+            "top": 142.7130120437813,
+            "right": 561.2511021895363,
+            "bottom": 154.02601157240622
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Licence en Génie des Systèmes Informatiques",
+          "page_no": 1,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 132.96301245003133,
+            "right": 199.16677015138418,
+            "bottom": 144.27601197865624
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL SUMMARY",
+      "section_type": "summary",
+      "content": [
+        "Intégré un module intelligent de matching de profils basé sur Qwen 2.5-VL+ LangChain, réduisant le temps de matching de 60 % sur un corpus de 90+ CVs testés.",
+        "Livré un frontend Angular couvrant ~30 pages/ modules, entièrement connecté aux services backend avec un chargement des données fluide et réactif.",
+        "Développé le module d'authentification et de gestion des utilisateurs avec Spring Security au sein d'une équipe de 5, assurant un contrôle d'accès sécurisé entre les différents profils de la plateforme."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Intégré un module intelligent de matching de profils basé sur Qwen 2.5-VL+ LangChain, réduisant le temps de matching de 60 % sur un corpus de 90+ CVs testés.",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 500.46299713753126,
+            "right": 543.2062273664062,
+            "bottom": 521.5259962599063
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        },
+        {
+          "text": "Livré un frontend Angular couvrant ~30 pages/  modules, entièrement connecté aux services backend avec un chargement des données fluide et réactif.",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 480.96299795003125,
+            "right": 544.5304498112303,
+            "bottom": 502.02599707240626
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        },
+        {
+          "text": "Développé le module d'authentification et de gestion des utilisateurs avec Spring Security au sein d'une équipe de 5, assurant un contrôle d'accès sécurisé entre les différents profils de la plateforme.",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 42.10546699560547,
+            "top": 243.21300785628137,
+            "right": 558.0187267492187,
+            "bottom": 264.27600697865626
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGES",
+      "section_type": "languages",
+      "content": [
+        "Arabe",
+        "Français Bon niveau",
+        "Langue maternelle"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Arabe",
+          "page_no": 1,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 97.71301391878137,
+            "right": 57.05695239762687,
+            "bottom": 109.02601344740629
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "Français Bon niveau",
+          "page_no": 1,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 215.75390101025374,
+            "top": 87.96301432503128,
+            "right": 257.72115778661794,
+            "bottom": 109.02601344740629
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "Langue maternelle",
+          "page_no": 1,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 34.00781108300781,
+            "top": 87.96301432503128,
+            "right": 104.35230885198696,
+            "bottom": 99.27601385365631
+          },
+          "section_title": "LANGUAGES"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.8086,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 4165,
+      "section_completeness": 0.8333,
+      "ordering_coherence": 0.4,
+      "segmentation_stability": 0.7778,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.2165,
+      "weird_section_ratio": 0.0,
+      "section_count": 9,
+      "expected_section_hits": 5,
+      "markdown_chars": 4231,
+      "markdown_words": 621,
+      "markdown_has_experience": false,
+      "markdown_has_education": true,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 2,
+      "markdown_weird_char_ratio": 0.0267,
+      "markdown_glued_line_count": 2,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=4101\", \"pdf_total_text_words=564\", \"pdf_avg_text_chars_per_page=4101.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": [
+      "low_section_order_coherence",
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "low_section_order_coherence",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Oumaima Khlifi",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 227.3203030283203,
+        "top": 786.8241677058153,
+        "right": 367.92333979486017,
+        "bottom": 812.5895241322587
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Développeuse full stack",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 222.08202574658185,
+        "top": 765.6120458849038,
+        "right": 373.1779708079174,
+        "bottom": 785.4475060011762
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "khlifioumaima1409  @gmail.com | (+216) 95 358 044 | Tunisie | linkedin.com/in/oumaima-khlifi-7b03a6224",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 88.59374630859375,
+        "top": 747.2129868562813,
+        "right": 506.50791739550266,
+        "bottom": 758.5259863849062
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Fraîchement diplômée ingénieure informatique, je suis activement à la recherche de mon premier poste en développement full stack. Habituée à livrer des projets complets en conditions réelles - backend Django, frontend Angular, CI/  CD - je place la qualité du code au cœur de mon travail. Enthousiaste et déterminée, je suis prête à m'engager dans un environnement technique stimulant.",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 688.7129892937812,
+        "right": 560.8195116325194,
+        "bottom": 719.5259880099062
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Développé plus de 30 endpoints REST avec Django, éliminant les failles d'accès inter-tenants et garantissant des échanges backend fiables et sécurisés.",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 519.9629963250312,
+        "right": 559.1320117028318,
+        "bottom": 541.0259954474062
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Conçu une plateforme CI/  CD complète automatisant les processus de build, test et déploiement, réduisant le temps de mise en production de +1h à quelques minutes.",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 445.7129994187813,
+        "right": 560.9366991276365,
+        "bottom": 466.77599854115624
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Développé des API REST avec Spring Boot orchestrant les workflows CI/  CD, supportant les déclenchements manuels et automatiques via intégration GitHub à chaque commit.",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 426.2130002312813,
+        "right": 553.8468519230469,
+        "bottom": 447.2759993536563
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Livré un dashboard Angular temps réel permettant aux clients de suivre en direct le statut de leurs pipelines (projets actifs, pipelines réussis/  échoués).",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 406.7130010437813,
+        "right": 536.1749776593749,
+        "bottom": 427.7760001661563
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Garanti la fiabilité de la plateforme avec une couverture de tests de 95% sur les modules développés (JUnit, Mockito), assurant un système stable en production.",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 387.2130018562813,
+        "right": 559.7531016769531,
+        "bottom": 408.27600097865627
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "PROJETS",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 361.4406854506028,
+        "right": 76.07279746359997,
+        "bottom": 374.0075423327088
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Hospitalia, Architecture Microservices (Java 17/Spring Boot 3)",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 346.7130035437813,
+        "right": 261.87499181354156,
+        "bottom": 358.02600307240624
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "11/2024 - 12/2024",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 493.35935444335934,
+        "top": 346.7130035437813,
+        "right": 561.2557484393427,
+        "bottom": 358.02600307240624
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Conçu et déployé 2 microservices indépendants (patients + médecins/  rendez-vous) avec Java 17 et Spring Boot 3, avec un pipeline Jenkins fonctionnel en moins de 15 minutes de build à déploiement.",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 327.2130043562813,
+        "right": 561.3116991120115,
+        "bottom": 348.27600347865626
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Implémenté Eureka Service Discovery pour un enregistrement dynamique des services, rendant l'architecture extensible sans reconfiguration manuelle.",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 288.2130059812813,
+        "right": 511.90545117060526,
+        "bottom": 309.2760051036563
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "CourZelo, Plateforme e-learning (LMS)",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 262.7130070437813,
+        "right": 176.99278947530013,
+        "bottom": 274.02600657240623
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "01/2024 - 03/2024",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 493.35935444335934,
+        "top": 262.7130070437813,
+        "right": 561.2557484393427,
+        "bottom": 274.02600657240623
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Backend : Django, REST APIs, FastAPI (en cours) , Spring Boot, Spring Security, JPA/  Hibernate.",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 652.7129907937813,
+        "right": 389.6511858395334,
+        "bottom": 664.0259903224063
+      },
+      "section_title": "COMPÉTENCES TECHNIQUES"
+    },
+    {
+      "text": "Tests : JUnit, Mockito, couverture 95%.",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 642.9629912000313,
+        "right": 188.171824309507,
+        "bottom": 654.2759907286562
+      },
+      "section_title": "COMPÉTENCES TECHNIQUES"
+    },
+    {
+      "text": "Frontend : Angular, TypeScript, JavaScript, HTML5/  CSS3 (Sass).",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 633.2129916062812,
+        "right": 279.87053523872726,
+        "bottom": 644.5259911349062
+      },
+      "section_title": "COMPÉTENCES TECHNIQUES"
+    },
+    {
+      "text": "IA & LLM : LangChain, Qwen 2.5-VL, intégration de modèles de langage.",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 623.4629920125312,
+        "right": 308.2153980576912,
+        "bottom": 634.7759915411563
+      },
+      "section_title": "COMPÉTENCES TECHNIQUES"
+    },
+    {
+      "text": "DevOps & CI/CD : Docker, Jenkins, SonarQube, pipelines CI/  CD complets.",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 613.7129924187813,
+        "right": 315.8707628637176,
+        "bottom": 625.0259919474063
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Outils : Git, GitHub, Postman, Agile/  Scrum.",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 603.9629928250313,
+        "right": 203.12674523638526,
+        "bottom": 615.2759923536563
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Bases de données :",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 594.2129932312813,
+        "right": 116.60801889133234,
+        "bottom": 605.5259927599062
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "PostgreSQL, MySQL, MongoDB.",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 116.61327639111327,
+        "top": 594.2129932312813,
+        "right": 234.4061362330772,
+        "bottom": 605.5259927599062
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Centralisé le trafic inter-services via Spring Cloud Gateway, éliminant les appels directs entre microservices et renforçant la sécurité de l'architecture.",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 307.71300516878125,
+        "right": 544.7179498034178,
+        "bottom": 328.77600429115626
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Conteneurisé l'ensemble de la solution avec Docker, garantissant un environnement de déploiement reproductible et portable.",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 278.4630063875313,
+        "right": 516.2199525908347,
+        "bottom": 289.77600591615624
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Implémenté les APIs REST de gestion des cours et du contenu, permettant la création, modification et consultation des ressources pédagogiques de manière fluide et structurée.",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 223.7130086687813,
+        "right": 527.4796655216796,
+        "bottom": 244.7760077911563
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Contribué à la conception du modèle de données sous-jacent, garantissant une séparation claire des responsabilités entre les modules backend.",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 204.21300948128135,
+        "right": 546.674977221875,
+        "bottom": 225.27600860365624
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Anglais Intermédiaire",
+      "page_no": 1,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 397.49998343749996,
+        "top": 87.96301432503128,
+        "right": 448.67433508023544,
+        "bottom": 109.02601344740629
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "ARGVISION, Ingénieure Logiciel - Projet de Fin d'Études",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 558.9629947000312,
+        "right": 237.36918405961697,
+        "bottom": 570.2759942286563
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "04/2025 - 10/2025",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 493.35935444335934,
+        "top": 558.9629947000312,
+        "right": 561.2557484393427,
+        "bottom": 570.2759942286563
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Conçu une plateforme multi-tenant de gestion commerciale (stock, RH, finance) supportant jusqu'à 5 entreprises simultanées avec isolation complète et sécurisée des données par tenant.",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 539.4629955125313,
+        "right": 531.5812278507813,
+        "bottom": 560.5259946349063
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "IPACT Consult, Stagiaire - Plateforme CI/CD inspirée de Jenkins / GitHub Actions",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 465.21299860628125,
+        "right": 328.5450530606222,
+        "bottom": 476.5259981349063
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "06/2024 - 08/2024",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 493.35935444335934,
+        "top": 465.21299860628125,
+        "right": 561.2557484393427,
+        "bottom": 476.5259981349063
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "FORMATION",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 183.69069285685282,
+        "right": 89.77785033438106,
+        "bottom": 196.2575497389588
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT),",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 168.2130109812813,
+        "right": 294.0703162970696,
+        "bottom": 179.5260105099063
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "2022 - 2025",
+      "page_no": 1,
+      "block_indices": [
+        49
+      ],
+      "bbox": {
+        "left": 517.5468534355468,
+        "top": 168.2130109812813,
+        "right": 561.2511021895363,
+        "bottom": 179.5260105099063
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Diplôme d'Ingénieur informatique",
+      "page_no": 1,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 158.4630113875313,
+        "right": 158.41765837426394,
+        "bottom": 169.77601091615622
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Institut Supérieur d'Informatique de Mahdia,",
+      "page_no": 1,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 142.7130120437813,
+        "right": 214.06641713056555,
+        "bottom": 154.02601157240622
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "2019 - 2022",
+      "page_no": 1,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 517.5468534355468,
+        "top": 142.7130120437813,
+        "right": 561.2511021895363,
+        "bottom": 154.02601157240622
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Licence en Génie des Systèmes Informatiques",
+      "page_no": 1,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 132.96301245003133,
+        "right": 199.16677015138418,
+        "bottom": 144.27601197865624
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Intégré un module intelligent de matching de profils basé sur Qwen 2.5-VL+ LangChain, réduisant le temps de matching de 60 % sur un corpus de 90+ CVs testés.",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 500.46299713753126,
+        "right": 543.2062273664062,
+        "bottom": 521.5259962599063
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "Livré un frontend Angular couvrant ~30 pages/  modules, entièrement connecté aux services backend avec un chargement des données fluide et réactif.",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 480.96299795003125,
+        "right": 544.5304498112303,
+        "bottom": 502.02599707240626
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "Développé le module d'authentification et de gestion des utilisateurs avec Spring Security au sein d'une équipe de 5, assurant un contrôle d'accès sécurisé entre les différents profils de la plateforme.",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 42.10546699560547,
+        "top": 243.21300785628137,
+        "right": 558.0187267492187,
+        "bottom": 264.27600697865626
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "Arabe",
+      "page_no": 1,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 97.71301391878137,
+        "right": 57.05695239762687,
+        "bottom": 109.02601344740629
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Français Bon niveau",
+      "page_no": 1,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 215.75390101025374,
+        "top": 87.96301432503128,
+        "right": 257.72115778661794,
+        "bottom": 109.02601344740629
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Langue maternelle",
+      "page_no": 1,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 34.00781108300781,
+        "top": 87.96301432503128,
+        "right": 104.35230885198696,
+        "bottom": 99.27601385365631
+      },
+      "section_title": "LANGUAGES"
+    }
+  ]
+}

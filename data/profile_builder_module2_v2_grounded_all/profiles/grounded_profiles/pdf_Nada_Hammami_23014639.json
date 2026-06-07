@@ -1,0 +1,192 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Nada_Hammami_23014639.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Nada_Hammami_23014639.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8803,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nNada Hammami\n\n## MACHINE LEARNING & DEEP LEARNING\n\nIngénieur IA | Machine Learning & LLM | Data Science & Développement Backend\nnada_hammami@outlook.fr\nBen arous\nlinkedin.com/in/nada-hammami-112 b 4820 a\ngithub.com/nada-hammami\nMachine Learning & AI: Machine Learning, Deep Learning, NLP Séries temporelles, détection d'anomalies XGBoost, CNN, LSTM, RNN, BERT | |\n\n## PROFESSIONAL EXPERIENCE\n\nEXPÉRIENCE\n## Data Scientist, Osez plus de clients\n**Date: ** 01/2026 - Present Hammamet\n- Conception et développement d'un chatbot RAG\nMise en place d'un système d'indexation avancé: génération d'embeddings avec Sentence Transformers, stockage dans une base vectorielle ( FAISS ) et optimisation via des techniques de segmentation documentaire\nAutomatisation des workflows avec n 8 n: ingestion et structuration des données, orchestration des appels API et optimisation des prompts\n- Intégration du chatbot au sein de l'application client via des API REST (Flask) et développement d'une interface utilisateur interactive\n- Déploiement de la solution sur un serveur Linux (Hetzner) avec configuration de Nginx pour assurer performance et scalabilité\nTechnologies: Python, Flask, Lang Chain, n 8 n, FAISS, Sentence Transformers, Vector DB, API REST, Nginx, Linux\n## Stagiaire PFE, Talan Tunisie\n**Date: ** 02/2024 - 08/2024 Charguia\n- Smart Farm 4. 0 - Système d'aide à la décision basé sur les données\nMise en place de pipelines ML de bout en bout ( ETL, prétraitement, entraînement, déploiement).\n- Développement de modèles prédictifs pour la planification de l'irrigation à partir de données environnementales et de sol.\n- Développement de modèles CNN pour la détection de maladies des plantes et d'anomalies.\n- Analyse exploratoire des données ( EDA ) et modélisation de séries temporelles .\n## Stagiaire Summer Camp '23, Talan Tunisie\n**Date: ** 06/2023 - 08/2023 Charguia\n- Application mobile pour une consommation durable avec Flutter\n- Base de données MongoDB optimisée pour la gestion des stocks.\n- Système OCR ( Tesseract ) pour extraire automatiquement les noms de produits.\n- Prédictions et recommandations avec IA en temps réel.\n\n## TECHNICAL SKILLS\n\nDéploiement des modèles via API Flask, intégrées à une application web et au cloud.\nDéveloppement d'une application mobile (Flutter) et d'une plateforme web ( Nest JS, ReactJS ).\nCOMPÉTENCES\nFrameworks et Développement web: Flask, Django, Spring Boot, .NET, ReactJS, Angular\nHadoop, Hive, Pig, PySpark ETL/ELT Pipelines |\nBig Data & Pipelines:\nBases de données:\nSQL, PL/SQL, MongoDB\nCloud & DevOps:\nDocker, Microsoft Azure\nVisualisation & BI:\nPower BI\nimplémentation de XGBoost, arbres de décision, LSTM et RNN pour la modélisation prédictive.\n\n## FORMATION ACADÉMIQUE\n\nESPRIT - Ecole Supérieure Privée d'Ingénierie et Technologies,\nCycle Ingénieur en Informatique- Data Science\nrang 668/1700 en concours national d'entrée aux écoles d'ingénieurs de Tunisie\n\n## EDUCATION\n\nIPEIT -Institut Préparatoire aux Etudes d'Ingénieurs de Tunis, Cycle Préparatoire Maths-Physique\n**Date: ** 09/2021 - 09/2024\n\n## LANGUAGES\n\nLanguages de programmation: Python, R, Java, C#\nLangues\nFrançais: C 1\nAnglais: B 2\n\n## ACADEMIC PROJECTS\n\nPROJETS\n## Détection de phishing, Algorithmes ML & DL\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nModèles NLP: utilisation de BERT pour détecter le phishing et améliorer l'analyse de sécurité.\nAssistant IA pour l'analyse financière, Développement d'un assistant IA utilisant un LLM (Llama)\nMise en place d'une solution full-stack avec Python ( Flask ) et PostgreSQL pour le traitement et la visualisation des données.\nFourniture d'analyses exploitables pour la prise de décision financière grâce à l'IA.",
+    "header_info": {
+      "full_name": "Nada Hammami",
+      "email": "nada_hammami@outlook.fr",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/nada-hammami-112",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9761,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Nada Hammami",
+      "email": "nada_hammami@outlook.fr",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/nada-hammami-112",
+      "github": "github.com/nada-hammami"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "Python",
+        "Flask",
+        "Lang Chain",
+        "n 8 n",
+        "FAISS",
+        "Sentence Transformers",
+        "Vector DB",
+        "API REST",
+        "Nginx",
+        "Linux"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Osez plus de clients",
+        "job_title": "Data Scientist",
+        "start_date": "01/2026",
+        "end_date": null,
+        "city": "Hammamet",
+        "responsibilities": [
+          "Conception et développement d'un chatbot RAG",
+          "Mise en place d'un système d'indexation avancé: génération d'embeddings avec Sentence Transformers, stockage dans une base vectorielle ( FAISS ) et optimisation via des techniques de segmentation documentaire"
+        ]
+      },
+      {
+        "company": "Talan Tunisie",
+        "job_title": "Stagiaire PFE",
+        "start_date": "02/2024",
+        "end_date": "08/2024",
+        "city": "Charguia",
+        "responsibilities": [
+          "Mise en place de pipelines ML de bout en bout ( ETL, prétraitement, entraînement, déploiement).",
+          "Développement de modèles prédictifs pour la planification de l'irrigation à partir de données environnementales et de sol.",
+          "Développement de modèles CNN pour la détection de maladies des plantes et d'anomalies."
+        ]
+      },
+      {
+        "company": "Talan Tunisie",
+        "job_title": "Stagiaire Summer Camp '23",
+        "start_date": "06/2023",
+        "end_date": "08/2023",
+        "city": "Charguia",
+        "responsibilities": [
+          "Application mobile pour une consommation durable avec Flutter",
+          "Base de données MongoDB optimisée pour la gestion des stocks.",
+          "Système OCR ( Tesseract ) pour extraire automatiquement les noms de produits."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT - Ecole Supérieure Privée d'Ingénierie et Technologies",
+        "degree": "Cycle Ingénieur en Informatique- Data Science",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "IPEIT - Institut Préparatoire aux Etudes d'Ingénieurs de Tunis",
+        "degree": "Cycle Préparatoire Maths-Physique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français: C 1",
+      "Anglais: B 2"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:45:24.219789+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

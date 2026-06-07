@@ -1,0 +1,88 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Selmi_chaima_23023935.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Selmi_chaima_23023935.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Selmi_chaima_23023935.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Selmi Chaima",
+      "email": "2000@gmail.com",
+      "phone": "+216 24 94 98 83",
+      "location": "Kairouan, Tunisie"
+    },
+    "expertise": {
+      "summary": "Passionnée par la création d'applications intelligentes, l'automatisation des workflows et l'exploitation des données.",
+      "hard_skills": [
+        "React.js",
+        "Nest JS",
+        "MongoDB"
+      ],
+      "soft_skills": [
+        "APIs",
+        "services intelligents",
+        "analytics"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeuse Full Stack",
+        "company": "Astrolab",
+        "start_date": "Février 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Persistance et structuration des données avec MongoDB"
+        ]
+      },
+      {
+        "job_title": "Développeuse Full Stack JavaScript",
+        "company": "Gate Training",
+        "start_date": "Janvier 2024",
+        "end_date": "Juin 2024",
+        "city": null,
+        "responsibilities": [
+          "Création de blogs sous Word Press avec intégration d'outils SEO"
+        ]
+      },
+      {
+        "job_title": "Développeuse Web et Référenceuse SEO",
+        "company": "Etnafes",
+        "start_date": "Août 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Création de blogs sous Word Press avec intégration d'outils SEO"
+        ]
+      },
+      {
+        "job_title": "Développeuse Web",
+        "company": "Compass IT",
+        "start_date": "Juillet 2019",
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme National d'Ingénieur en Génie Logiciel",
+        "school": "Institut Supérieur des Sciences Appliquées et de Technologie de Sousse",
+        "year": "2018"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:39:28.441099+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9756,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

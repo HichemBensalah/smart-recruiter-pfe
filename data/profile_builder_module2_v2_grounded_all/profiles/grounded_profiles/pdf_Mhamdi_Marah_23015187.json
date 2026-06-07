@@ -1,0 +1,173 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mhamdi_Marah_23015187.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mhamdi_Marah_23015187.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8052,
+  "normalization": {
+    "cleaned_markdown": "## MARAH MHAMDI\n\nIngénieur informatique\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nFormatrice\n\n## EDUCATION\n\nhttps: //www.linkedin.com/in/mh amdi-marah-b 23 b 70201/Animation de formations en informatique pour niveaux BTP et BTS\nFormation en installation et maintenance des logiciels\nConception de supports pédagogiques adaptés aux programmes officiels\nFormation Angular & Spring Boot: Lacademie de formation Croco Coder Sept. 2023\n\n## TECHNICAL SKILLS\n\nConception et animation de cours théoriques et pratiques orientés compétences et certifications\nCONTACT\nÉvaluation des compétences et préparation aux examens de certification\nmarahmhamdi 98@gmail.com\n-Technologies: Python, HTML, CSS, JavaScript, SQL, MySQL, outils bureautiques,\nTunisie\n· Encadrement des travaux pratiques et évaluation des compétences\n-Technologies: Système d'exploitation, Installation et maintenance des logiciels outils bureautiques,\nDéveloppeuse Full Stack & Data Analytics\nMar 2024 - Sep 2024\nCOMPÉTENCES\n-JavaScript, Python, PHP, HTML, CSS, SQL.\nDéveloppement d'une application web pour la gestion des employés. Création d'un tableau de bord interactif pour l'analyse et la visualisation des données.\n-Spring Boot, Angular, Symfony, Ionic.\n. -Technologies: php My Admin, MySQL, Angular, Spring Boot, Power Bi, Jupyter.\n-MySQL, Oracle, MongoDB.\nDéveloppeuse Mobile\n-Power BI, Jupyter, Excel, Hadoop, Spark.\nLa Poste Tunisienne\n-Visual Studio, Net Beans, Intelli J, Android\nConception et développement d'une application mobile pour la gestion en ligne des demandes de stage.\nStudio, GitHub, XAMPP, Windev.\n-SCRUM.\n. Optimisation du processus de génération des documents administratifs (demandes et conventions de stage).\n-Windows, Ubuntu.\n-Technologies: Ionic, Code Igniter, Angular, php My Admin/My SQ.\nDéveloppement d'une application web permettant le suivi et la gestion des colis.\nCompetences Digitales: Honoris Online Academy - Janv. 2024\n-Technologies: PHP, PHPMy Admin, MySQL.\nDéveloppeuse Web\nHadoop 101: IBM - Janv. 2024\nHôpital Ibn El Jazzar de Kairouan\nConception d'une plateforme de gestion des employés et de prise de rendezvous en ligne pour les patients.\n-Technologies: PHP, JavaScript, HTML, CSS, Bootstrap, MySQL,\nCertificat d'expertise: Brand 24 - Nov. 2023\nDéveloppeuse Software\nTunisie Télécom, Kairouan\nDéveloppement d'une application desktop pour vérifier la validité des abonnements clients et envoyer des alertes de renouvellement. Technologies: Windev.\nCompetences Sociales: Honoris Online Academy - Mai 2023\nFORMATION\nCompetences Personnelles: Honoris Online Academy - Mai 2023\nLESLANGUES\nArabe\nFrançais\nAnglais\nAllemand\n\n## ACADEMIC PROJECTS\n\nAccompagnement des apprenants dans la réalisation de projets et travaux pratiques\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieure en Génie Informatique Spécialisée en Science des Données et Intelligence Artificielle, avec une solide expérience en développement Full Stack et Data Analytics.\n**Date: ** Septembre 2025 -Jusqu'à Maintenant\n**Location: ** ISF Centre de Formation, Barchalona\n## Ecovis, Rue Kadhra\n**Date: ** Oct. 2022 - Déc. 2022\n- Certificat en Comprehension et Application de Chat GPT et IA: GPT Certified Training - Dec. 2023\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nDéveloppeuse Web\nLa Poste Tunisienne\nCompetence entrepreneuriales: Honoris Online Academy - Janv. 2024\n\n## DIPLÔMENATIONALD'INGÉNIEUR EN GÉNIE INFORMATIQUE\n\nÉcole Centrale Polytechnique Privée de Tunis | 2021 - 2024\n\n## LICENCE FONDAMENTALE EN SCIENCE DE L'INFORMATIQUE\n\nInstitut Supérieurd'Informatiqueet de Gestion de Kairouan | 2019 - 2021",
+    "header_info": {
+      "full_name": "MARAH MHAMDI",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.961,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MARAH MHAMDI",
+      "email": "marahmhamdi 98@gmail.com",
+      "phone": null,
+      "location": "Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieure en Génie Informatique Spécialisée en Science des Données et Intelligence Artificielle, avec une solide expérience en développement Full Stack et Data Analytics.",
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SQL",
+        "MySQL",
+        "Angular",
+        "Spring Boot"
+      ],
+      "soft_skills": [
+        "SCRUM",
+        "Optimisation du processus de génération des documents administratifs",
+        "Conception d'une plateforme de gestion des employés et de prise de rendezvous en ligne pour les patients"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "La Poste Tunisienne",
+        "job_title": "Développeuse Mobile",
+        "start_date": null,
+        "end_date": null,
+        "city": "Kairouan",
+        "responsibilities": [
+          "Conception et développement d'une application mobile pour la gestion en ligne des demandes de stage."
+        ]
+      },
+      {
+        "company": "Ecovis",
+        "job_title": "Ingénieure en Génie Informatique Spécialisée en Science des Données et Intelligence Artificielle",
+        "start_date": null,
+        "end_date": null,
+        "city": "Barchalona",
+        "responsibilities": [
+          "Développement d'une application web pour la gestion des employés. Création d'un tableau de bord interactif pour l'analyse et la visualisation des données."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "École Centrale Polytechnique Privée de Tunis",
+        "degree": "Diplôme National d'Ingénieur en Génie Informatique",
+        "field": null,
+        "year": "2021 - 2024"
+      },
+      {
+        "institution": "Institut Supérieur d'Informatique et de Gestion de Kairouan",
+        "degree": "Licence Fondamentale en Science de l'Informatique",
+        "field": null,
+        "year": "2019 - 2021"
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais",
+      "Allemand"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:25:16.608233+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

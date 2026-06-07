@@ -1,0 +1,102 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Wassim_Bahloul_23015270.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Wassim_Bahloul_23015270.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Wassim_Bahloul_23015270.json",
+    "profile_kind": "minimal_profile",
+    "bio": {
+      "full_name": "Wassim BAHLOUL",
+      "email": "94@gmail.com",
+      "phone": "+216) 20-705-730",
+      "location": "Sfax, Tunisia"
+    },
+    "expertise": {
+      "summary": "Software Development Engineer graduate specialized in Artificial Intelligence, passionate about Data Science, Machine Learning, software development, and Computer Vision.",
+      "hard_skills": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "C#",
+        "PHP",
+        "Angular",
+        "React",
+        ".NET",
+        "Node.js",
+        "Express.js",
+        "Spring Boot",
+        "Flask",
+        "FastAPI",
+        "Vue.js",
+        "Laravel",
+        "MySQL",
+        "MongoDB",
+        "SQL Server"
+      ],
+      "soft_skills": [
+        "Communication"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Freelance AI/Software Engineer",
+        "company": null,
+        "start_date": "September 2025",
+        "end_date": null,
+        "city": "Sfax, Tunisia",
+        "responsibilities": [
+          "Development of AI and software solutions",
+          "Technologies used: MongoDB, Express.js, React, Node.js, Py Mu PDF, Flask, BERT, Cosine Similarity, Python, APIs"
+        ]
+      },
+      {
+        "job_title": "Summer Internship: Informatique Business Solutions",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Technologies used: MongoDB, Express.js, Angular, Node.js, APIs"
+        ]
+      },
+      {
+        "job_title": "End-of-Year Internship: Start Up Rec-INOV",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed an intelligent CV processing system based on in-depth candidate profile analysis"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree in Computer Science",
+        "school": "International Institute of Technology",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Faculty of Sciences of Sfax",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:58:24.380217+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.3923,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "low_grounded_reliability",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

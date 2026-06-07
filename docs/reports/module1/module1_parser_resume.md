@@ -89,7 +89,6 @@ La structuration métier du candidat appartient au Module 2.
 - rôle : expose une entrée simple `parse_cv()`
 - entrée : chemin du fichier
 - sortie : résultat du parsing Docling
-- utilité : simplifie l'import comme package Python
 - criticité démo : faible
 
 ### `docling_parser.py`

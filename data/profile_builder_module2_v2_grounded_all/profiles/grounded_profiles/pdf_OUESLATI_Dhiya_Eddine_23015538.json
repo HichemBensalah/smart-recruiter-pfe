@@ -1,0 +1,184 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\OUESLATI_Dhiya_Eddine_23015538.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\OUESLATI_Dhiya_Eddine_23015538.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8511,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nDhiya Eddine OUESLATI/phone\n+216 24 039 605 -/envelope dhiya.eddine.oueslati@gmail.com -\nLinked In -\nGithub\nPortfolio/globe/linkedin/github\n\n## ACADEMIC PROJECTS\n\nR´ esum´ e - Ing´ enieur en informatique, passionn´ e par l'ing´ enierie logiciel. Mon parcours combine des exp´ eriences en d´ eveloppement full stack, l'intelligence artificielle et l'ing´ enierie de donn´ ees. Je suis motiv´ e ` a concevoir et maintenir des applications robustes et ´ evolutives, tout en contribuant activement aux projets d'´ equipe.\n**Date: ** 02/2025 - 06/2025\n- Exp´ eriences\n- Stage de fin d'´\n- Interface utilisateur: Conception d'une interface pour l'enregistrement de gestes et le retour visuel via Custom Tkinter.\n- Tableau de bord administrateur: Cr´ eation d'un tableau de bord web en temps r´ eel avec Flask pour suivre les clients FL, les it´ erations et les m´ etriques.\n- Renforcement des comp´ etences en ing´ enierie de donn´ ees via des missions de web scraping et de traitement de donn´ ees.\n\n## EDUCATION\n\netudes\nSOTETEL\nIA/Vision par ordinateur\n-Projet: D´ eveloppement d'un syst` eme de contrˆ ole du curseur par gestes de la main via la vision par ordinateur.\n-D´ etection en temps r´ eel: Int´ egration de Media Pipe et OpenCV pour l'extraction et le suivi des points de rep` ere.\n-Classification de gestes personnalis´ es: Entraˆ ınement de mod` eles MLP pour reconnaˆ ıtre des gestes d´ efinis par l'utilisateur ` a partir de leurs coordonn´ ees spatiales.\n-Apprentissage f´ ed´ er´ e: Impl´ ementation d'un apprentissage f´ ed´ er´ e avec Flower AI pour permettre l'am´ elioration du mod` ele global sans partage de donn´ ees personnelles.\nStage en ing´ enierie logicielle\n-Ing´ enierie de donn´ ees: Utilisation de Pentaho pour des processus ETL de nettoyage, transformation et chargement.\n-Visualisation de donn´ ees: Exploitation de la stack ELK pour analyser et visualiser les donn´ ees collect´ ees.\nFormation\nDiplˆ ome National d'Ing´ enieur en G´ enie R´ eseaux et Syst` emes Informatiques\n´ Ecole Nationale d'Ing´ enieurs de Gab` es\nComp´ etence\n## Java, Python, Bash, SQL.\n**Date: ** 07/2023 - 08/2023\n- Langages:\n## Spring Boot, Spring MVC, REST API, SOAP, JPA/Hibernate.\n- Backend:\n## Angular, Next JS, HTML/CSS/JS.\n- Frontend:\n## MySQL, PostgreSQL, Firebase, MongoDB.\n- Base de donn´ ees:\n## AWS, Spark, Kafka, Airflow, Power BI.\n\n## BIONIC IMPACT\n\nD´ eveloppement Web/APIs\n-Contribution ` a un projet marketplace sous Next. js en utilisant Google APIs, Git et Docker.\n-Participation ` a des sprints Agile avec Jira, favorisant le travail collaboratif interdisciplinaire.\nStage en ing´ enierie de donn´ ees\n\n## WG CONSULTING\n\nIng´ enierie de donn´ ees/BI\n-Web Scraping: D´ eveloppement d'une application Python utilisant Beautiful Soup et Selenium pour collecter des donn´ ees Linked In.\n\n## TECHNICAL SKILLS\n\nCloud et Data:\nAgile (Scrum).\nM´ ethodologies:\nAccomplissements\n-M icrosoft Azure AI Fundamentals AI-900\n-M icrosoft Azure Cloud Fundamentals AZ-900\n-M icrosoft Azure Data Fundamentals DP-900\n-C isco CCNA Routing and Switching\n-C isco Python Essentials Certificate\n-H uawei ICT Competition Cloud Track National Stage\nArabe (Natif) Franc ¸ais (Avanc´ e) Anglais (Avanc´ e)\n\n## MACHINE LEARNING & DEEP LEARNING\n\nIntelligence Artificielle: Machine Learning, Deep Learning, Computer Vision, TensorFlow.\n\n## LANGUAGES\n\nLangues Vie Associative\nENIG Junior Entreprise Responsable Pˆ ole Projet JCI ENIG Membre",
+    "header_info": {
+      "full_name": "Dhiya Eddine OUESLATI/phone",
+      "email": "dhiya.eddine.oueslati@gmail.com",
+      "phone": "+216 24 039 605",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9012,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Dhiya Eddine OUESLATI",
+      "email": "dhiya.eddine.oueslati@gmail.com",
+      "phone": "+216 24 039 605",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "junior",
+      "years_experience": 1,
+      "hard_skills": [
+        "Java",
+        "Python",
+        "Bash",
+        "SQL",
+        "Spring Boot",
+        "Spring MVC",
+        "REST API",
+        "SOAP",
+        "JPA/Hibernate",
+        "Angular",
+        "Next JS",
+        "HTML/CSS/JS",
+        "MySQL",
+        "PostgreSQL",
+        "Firebase",
+        "MongoDB",
+        "AWS",
+        "Spark",
+        "Kafka",
+        "Airflow",
+        "Power BI"
+      ],
+      "soft_skills": [
+        "Agile (Scrum)",
+        "Accomplissements",
+        "Microsoft Azure AI Fundamentals AI-900",
+        "Microsoft Azure Cloud Fundamentals AZ-900",
+        "Microsoft Azure Data Fundamentals DP-900",
+        "Cisco CCNA Routing and Switching",
+        "Cisco Python Essentials Certificate",
+        "Huawei ICT Competition Cloud Track National Stage"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception d'une interface pour l'enregistrement de gestes et le retour visuel via Custom Tkinter.",
+          "Création d'un tableau de bord web en temps réel avec Flask pour suivre les clients FL, les itérations et les métriques."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "SOTETEL",
+        "degree": "IA/Vision par ordinateur",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe (Natif)",
+      "Français (Avancé)",
+      "Anglais (Avancé)"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:20:17.935656+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Amine_Harbaoui_23025397.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Amine_Harbaoui_23025397.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Amine_Harbaoui_23025397.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MOHAMEDAMINEHARBAOUI",
+      "email": "harbaouimohamed.pro@gmail.com",
+      "phone": "+216 52 834 076",
+      "location": "Cité Ettadhamen, Ariana, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "DevOps & CI/CD: Jenkins, Docker, Kubernetes, Git, GitHub, Grafana, Prometheus",
+        "Cloud Computing: Microsoft Azure",
+        "Virtualisation: VMware (ESXi, v Sphere), Proxmox, Virtual Box",
+        "Systèmes & OS: Linux (Ubuntu, Kali), Windows Server",
+        "Réseaux & Sécurité: pf Sense, PRTG, GNS 3"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Infoesprit",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Réseaux et Systèmes Informatiques",
+        "school": "Institut Supérieur des Études Technologiques de Jendouba",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat en Sciences de l'Informatique",
+        "school": "Lycée Abou Kasem Chebbi",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:31:57.231827+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7736,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

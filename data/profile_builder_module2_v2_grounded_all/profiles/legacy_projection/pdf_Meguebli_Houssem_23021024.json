@@ -1,0 +1,72 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Meguebli_Houssem_23021024.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Meguebli_Houssem_23021024.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Meguebli_Houssem_23021024.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Houssem Meguebli",
+      "email": "houssem.meguebli@esprit.tn",
+      "phone": "55 562 933",
+      "location": "Ariana, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Angular",
+        "Spring Boot",
+        ".NET Core",
+        "React",
+        "Entity Framework",
+        "SQL Server",
+        "Flutter",
+        "MySQL",
+        "Redis",
+        "Nginx",
+        "VPS Deployment",
+        "SSL Certificates",
+        "Prometheus",
+        "Grafana",
+        "Docker",
+        "Git",
+        "Express.js",
+        "SQLite",
+        "Python",
+        "Serial Communication",
+        "Spring Security"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Freelance Full-Stack Developer",
+        "company": null,
+        "start_date": "2025",
+        "end_date": "Present",
+        "city": "Remote",
+        "responsibilities": [
+          "Designed and delivered production-ready full-stack applications for real clients.",
+          "Designed scalable RESTful APIs with secure JWT-based authentication and optimized database access."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:19:18.610721+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9702,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

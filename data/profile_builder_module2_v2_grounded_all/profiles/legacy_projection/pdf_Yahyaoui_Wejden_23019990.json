@@ -1,0 +1,115 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Yahyaoui_Wejden_23019990.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Yahyaoui_Wejden_23019990.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Yahyaoui_Wejden_23019990.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Wejden Yahyaoui",
+      "email": "wejden.yah@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Software Engineer",
+        "Mobile Developer",
+        "Full Stack Developer",
+        "React Native",
+        "JavaScript",
+        "Redux Toolkit",
+        "RTK Query",
+        "PHP",
+        "Bootstrap",
+        "Node.js",
+        "Express",
+        "ReactJS",
+        "MongoDB",
+        "JavaScript",
+        "OAuth",
+        "Google Maps",
+        "AWS",
+        "Spring Boot"
+      ],
+      "soft_skills": [
+        "Part-Time Instructor",
+        "Teaching frontend development with Angular, HTML, CSS, and TypeScript",
+        "Guiding students in applying programming fundamentals and modern frontend technologies",
+        "Reviewing pull requests to ensure best practices, code quality, and team consistency"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Part-Time Instructor",
+        "company": "EPI Digital Schoo",
+        "start_date": "Dec 2024 - Sep 2025",
+        "end_date": null,
+        "city": "Hammamet, Tunisie",
+        "responsibilities": [
+          "Participated in the development of Youzful, an innovative mobile application designed for Middle Eastern travelers.",
+          "Contributed to the development and enhancement of core application features."
+        ]
+      },
+      {
+        "job_title": "Full Stack Developer",
+        "company": null,
+        "start_date": "Fev 2024 - Oct 2024",
+        "end_date": null,
+        "city": "Kram, Tunisie",
+        "responsibilities": [
+          "Developed a mobile application that allows users to locate nearby available parking spots in real time.",
+          "Integrated Stripe payment system.",
+          "Implemented a subscription system.",
+          "Integrated real-time notifications using Firebase.",
+          "Deployed backend services."
+        ]
+      },
+      {
+        "job_title": "Mobile Developer",
+        "company": null,
+        "start_date": "Jun 2023 - Nov 2023",
+        "end_date": null,
+        "city": "Sousse, Tunisie",
+        "responsibilities": [
+          "Developed a mobile application dedicated to moving companies to simplify and optimize the moving process.",
+          "Designed and implemented core features to help movers efficiently manage their activities.",
+          "Implemented a calendar and notification system for improved planning.",
+          "Created an admin dashboard for user management and operational tracking."
+        ]
+      },
+      {
+        "job_title": "Summer Intern",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Sousse, Tunisie",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "EPI Digital Schoo",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:02:02.895929+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8201,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Arij_Whibi_23016042.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Arij_Whibi_23016042.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Arij_Whibi_23016042.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Arij Whibi",
+      "email": "whibiarij@gmail.com",
+      "phone": null,
+      "location": "Sousse, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "SQL",
+        "JavaScript",
+        "TypeScript",
+        "TensorFlow",
+        "Keras",
+        "Pytorch",
+        "Scikit-learn",
+        "Hugging Face Transformers",
+        "spaCy",
+        "Pandas",
+        "NumPy",
+        "Seaborn",
+        "Matplotlib",
+        "Power BI",
+        "MongoDB",
+        "Oracle",
+        "MySQL",
+        "PySpark",
+        "Git",
+        "GitHub",
+        "Docker"
+      ],
+      "soft_skills": [
+        "Gestion du temps et des priorités",
+        "Esprit analytique",
+        "Curiosité",
+        "Initiative",
+        "Adaptabilité"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "02/2025",
+        "end_date": "06/2025",
+        "city": "Monastir, Tunisie",
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "Apeiron Technologies",
+        "start_date": "06/2024",
+        "end_date": "07/2024",
+        "city": "Sousse, Tunisie",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Institut préparatoire aux études d'ingénieur de Kairouan (IPEIK)",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "École pluridisciplinaire internationale (EPI)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:39:52.804024+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8384,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

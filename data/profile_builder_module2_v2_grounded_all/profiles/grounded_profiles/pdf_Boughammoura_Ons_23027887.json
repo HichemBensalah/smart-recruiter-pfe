@@ -1,0 +1,239 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Boughammoura_Ons_23027887.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Boughammoura_Ons_23027887.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8965,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nOns Boughammoura/envelope boughammoura.ons@gmail.com |/phone +216 52 692 322/linkedin linkedin.com/in/ons-boughammoura\ngithub.com/onsboughammoura/github/github\nRésumé\nIngénieure en systèmes embarqués passionnée par le développement bas-niveau et la conception de logiciels performants au plus près du matériel. Mon expertise se concentre sur l'optimisation des ressources et la gestion des contraintes temps-réel fortes pour développer des solutions robustes et fiables.\n\n## TECHNICAL SKILLS\n\nCompétences\nC, Assembleur (ARM), C++, Python, Lab View\nLangages de programmation:\nARM (Cortex-M, Cortex-A), RISC-V, STM 32, NXP, ESP 32, Microchip (PIC, AVR)\nArchitectures & Microcontrôleurs:\nDéveloppement de drivers, Bootloaders, RTOS (Free RTOS)\nSystèmes d'exploitation & Bas-Niveau:\nVHDL, Vivado, Model Sim\nFPGA & Conception Matérielle:\nSTM 32 Cube Ecosystem (IDE, MX, Programmer), Espressif IDF, Qt Creator\nOutils de développement & IDE:\nMatlab/Simulink, Proteus, LTspice, Multisim\nModélisation & Simulation:\nI 2 C, SPI, UART, CAN, Ethernet (TCP/IP), Bluetooth (BLE), Wi-Fi\nProtocoles de communication:\nMQTT, HTTPS, JavaScript, HTML, CSS\nIo T & Interfaces Web:\nConception de schémas & PCB (Altium Designer, Ki Cad), Lecture de fiches techniques\nConception Électronique:\n-Compétences clés: Architecture Système OTA, Fiabilité Firmware, Bootloader natif (ST), Communication inter-processeur.\nConception d'un module de surveillance pour la maintenance prédictive, visant à anticiper les défaillances mécaniques sur les bogies des métros.\nImplémentation d'algorithmes en C pour l'acquisition et le filtrage de données de capteurs sous contraintes temps-réel.\nConfiguration du bus CAN pour la transmission fiable d'alertes critiques au système de supervision central du train en cas de détection d'anomalies.\n-Compétences clés: Io T Industriel, Maintenance Prédictive, Traitement du Signal (Capteurs), Réseaux Véhiculaires (CAN bus).\nDéveloppement d'un prototype de terminal audio connecté (Io T) pour un système de sonorisation intelligent et distribué.\nGestion du streaming audio via Wi-Fi (sockets UDP), en implémentant une double mise en tampon (double buffering) pour éliminer le jitter et atteindre une latence réduite de 30%.\n-Compétences clés: Streaming Audio (UDP), Protocoles Audio (I 2 S), Réseaux IP (Wi-Fi), Optimisation de Latence.\nIo T Temperature & Humidity Monitor: Développement d'un système de surveillance Io T en C++ sur ESP 32, intégrant un capteur DHT 11 et un serveur web embarqué (HTML/CSS) pour la visualisation des données en temps réel via Wi-Fi.\nDC Motor Speed Control Board: Conception de A à Z d'une carte de contrôle moteur (PCB) sous Altium, utilisant un microcontrôleur pour générer un signal PWM et améliorer de 10% l'efficacité énergétique d'un moteur DC.\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences professionnelles\n## Stage Ingénieur Systèmes Embarqués, ACTIA Engineering Services - Tunis, TN\n**Date: ** Fév 2025 - Août 2025\nConception et architecture d'un système de mise à jour firmware OTA (Over-the-Air) bi-composant, garantissant la continuité de service des équipements embarqués.\nDéveloppement du firmware de la passerelle ESP 32, responsable du téléchargement sécurisé (HTTPS) et de l'orchestration du processus de mise à jour.\nPilotage bas-niveau du bootloader natif de la cible STM 32 via son protocole UART, en assurant un transfert de firmware fiable et une séquence de flashage sécurisée.\n## Stage Technicien en Prototypage Électronique, SNCFT - Monastir, TN\n**Date: ** Juil. 2024 - Août 2024\n## Stage d'Initiation, Aéroport de Monastir (TAV) - Monastir, TN\n**Date: ** Juil. 2023 - Août 2023\nPilotage d'un convertisseur audio-numérique (DAC) via le bus I 2 S de l'ESP 32, nécessitant une gestion précise de la synchronisation matérielle.\n\n## ACADEMIC PROJECTS\n\nProjets\nCalculator GUI: Développement d'une interface graphique performante en C++ avec le framework Qt Creator, en appliquant les principes de la programmation orientée objet (POO).\n**Date: ** Sept 2022 - Sept 2025\n\n## EDUCATION\n\nFormation\nÉcole Nationale d'Ingénieurs de Monastir (ENIM) Diplôme d'Ingénieur en Systèmes Embarqués Institut Préparatoire aux Études d'Ingénieurs de Monastir (IPEIM)",
+    "header_info": {
+      "full_name": null,
+      "email": "boughammoura.ons@gmail.com",
+      "phone": "+216 52 692 322",
+      "location": null,
+      "linkedin": "linkedin.com/in/ons-boughammoura",
+      "github": "github.com/onsboughammoura/github/github"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9793,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[33]",
+      "expertise.hard_skills[34]",
+      "expertise.hard_skills[35]",
+      "expertise.hard_skills[36]",
+      "expertise.hard_skills[37]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ons Boughammoura",
+      "email": "boughammoura.ons@gmail.com",
+      "phone": "+216 52 692 322",
+      "location": null,
+      "linkedin": "linkedin.com/in/ons-boughammoura",
+      "github": "github.com/onsboughammoura/github/github"
+    },
+    "expertise": {
+      "summary": "Ingénieure en systèmes embarqués passionnée par le développement bas-niveau et la conception de logiciels performants au plus près du matériel.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "C",
+        "Assembleur (ARM)",
+        "C++",
+        "Python",
+        "Lab View",
+        "ARM (Cortex-M, Cortex-A)",
+        "RISC-V",
+        "STM 32",
+        "NXP",
+        "ESP 32",
+        "Microchip (PIC, AVR)",
+        "VHDL",
+        "Vivado",
+        "Model Sim",
+        "FPGA & Conception Matérielle",
+        "STM 32 Cube Ecosystem (IDE, MX, Programmer)",
+        "Espressif IDF",
+        "Qt Creator",
+        "Matlab/Simulink",
+        "Proteus",
+        "LTspice",
+        "Multisim",
+        "I 2 C",
+        "SPI",
+        "UART",
+        "CAN",
+        "Ethernet (TCP/IP)",
+        "Bluetooth (BLE)",
+        "Wi-Fi",
+        "MQTT",
+        "HTTPS",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Io T & Interfaces Web",
+        "Conception de schémas & PCB (Altium Designer, Ki Cad)",
+        "Lecture de fiches techniques",
+        "Conception Électronique"
+      ],
+      "soft_skills": [
+        "Optimisation des ressources et gestion des contraintes temps-réel fortes",
+        "Développement de solutions robustes et fiables",
+        "Gestion du streaming audio via Wi-Fi (sockets UDP)",
+        "Implémentation d'algorithmes en C pour l'acquisition et le filtrage de données de capteurs sous contraintes temps-réel",
+        "Configuration du bus CAN pour la transmission fiable d'alertes critiques au système de supervision central du train en cas de détection d'anomalies"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "ACTIA Engineering Services",
+        "job_title": "Ingénieur Systèmes Embarqués",
+        "start_date": "Fév 2025",
+        "end_date": "Août 2025",
+        "city": "Tunis, TN",
+        "responsibilities": [
+          "Conception et architecture d'un système de mise à jour firmware OTA (Over-the-Air) bi-composant, garantissant la continuité de service des équipements embarqués.",
+          "Développement du firmware de la passerelle ESP 32, responsable du téléchargement sécurisé (HTTPS) et de l'orchestration du processus de mise à jour."
+        ]
+      },
+      {
+        "company": "SNCFT",
+        "job_title": "Technicien en Prototypage Électronique",
+        "start_date": "Juil. 2024",
+        "end_date": "Août 2024",
+        "city": "Monastir, TN",
+        "responsibilities": []
+      },
+      {
+        "company": "Aéroport de Monastir (TAV)",
+        "job_title": "Stage d'Initiation",
+        "start_date": "Juil. 2023",
+        "end_date": "Août 2023",
+        "city": "Monastir, TN",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "École Nationale d'Ingénieurs de Monastir (ENIM)",
+        "degree": "Diplôme d'Ingénieur en Systèmes Embarqués",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Préparatoire aux Études d'Ingénieurs de Monastir (IPEIM)",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:44:18.366352+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

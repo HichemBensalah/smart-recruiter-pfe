@@ -1,0 +1,115 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hamdi_Zeramdini_23018595.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hamdi_Zeramdini_23018595.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hamdi_Zeramdini_23018595.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "ZERAMDINI HAMDI",
+      "email": "zeramdinihamdi 1@gmail.com",
+      "phone": "21696031319",
+      "location": "Sayada, Monastir, Tunisie "
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "React",
+        "TypeScript",
+        "Redux",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "soft_skills": [
+        "Collaboration"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Full Stack",
+        "company": "Creo",
+        "start_date": "07/2025 - 01/2026",
+        "end_date": null,
+        "city": "Sousse, Tunisie",
+        "responsibilities": [
+          "Contribution à une plateforme de promotion immobilière.",
+          "Contribution à une plateforme de quiz game."
+        ]
+      },
+      {
+        "job_title": "Développeur Full Stack JS",
+        "company": "Eggmed",
+        "start_date": null,
+        "end_date": null,
+        "city": "Dover, États-Unis",
+        "responsibilities": [
+          "Refonte de l'interface du chatbot et intégration des API backend.",
+          "Conception d'une interface de configuration de la facturation.",
+          "Refonte du composant calendrier pour intégrer des fonctionnalités de planification avancée."
+        ]
+      },
+      {
+        "job_title": "Développeur Frontend Indépendant",
+        "company": "Areen Cubs",
+        "start_date": "05/2024 - 10/2024",
+        "end_date": null,
+        "city": "Ksibet el Mediouni, Tunisie",
+        "responsibilities": [
+          "Améliorer une application web.",
+          "Optimiser les appels d'API REST et réduire les temps de chargement."
+        ]
+      },
+      {
+        "job_title": "Développeur Frontend Indépendant",
+        "company": "Artiweb",
+        "start_date": null,
+        "end_date": null,
+        "city": "Monastir, Tunisie",
+        "responsibilities": [
+          "Améliorer une application web.",
+          "Moderniser les fonctionnalités de l'application avec React et TypeScript."
+        ]
+      },
+      {
+        "job_title": "Développeur Frontend",
+        "company": "Sastec Group",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sousse, Tunisie",
+        "responsibilities": [
+          "Maintenir et déboguer des applications utilisant ReactJS et Vue JS.",
+          "Créer une fonctionnalité de gestion des utilisateurs avec React et TypeScript."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme national d'ingénieur en informatique",
+        "school": "Faculté des sciences de Tunis FST",
+        "year": null
+      },
+      {
+        "degree": "Mastère de recherche M 1 en sciences de l'informatique",
+        "school": "Ecole Nationale des Sciences de l'Informatique(ENSI)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:21:19.915058+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.4931,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

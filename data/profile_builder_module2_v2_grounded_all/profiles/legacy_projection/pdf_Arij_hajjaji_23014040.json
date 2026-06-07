@@ -1,0 +1,119 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Arij_hajjaji_23014040.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Arij_hajjaji_23014040.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Arij_hajjaji_23014040.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Arij Hajjaji",
+      "email": "2@gmail.com",
+      "phone": "+216 51592864",
+      "location": "Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "Ingénieure Full Stack spécialisée en développement web, avec un intérêt pour l'intelligence artificielle",
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        ".NET",
+        "Java",
+        "C#",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "PHP",
+        "MySQL",
+        "PostgreSQL",
+        "SQL Server",
+        "Oracle",
+        "MongoDB",
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions",
+        "Jenkins",
+        "Sonar Qube",
+        "Nexus",
+        "Prometheus",
+        "Grafana",
+        "JUnit",
+        "Mockito",
+        "XUnit",
+        "Git",
+        "GitHub",
+        "Postman",
+        "APIDog",
+        "Swagger",
+        "Jira",
+        "Trello"
+      ],
+      "soft_skills": [
+        "Résolution de problèmes",
+        "Adaptabilité",
+        "Esprit d'équipe",
+        "Créativité"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur Full Stack (Spring & Angular)",
+        "company": "Hosinox Company",
+        "start_date": "Janvier 2026",
+        "end_date": "Présent",
+        "city": null,
+        "responsibilities": [
+          "Développement et maintenance d'un ERP d'entreprise avec Spring Boot et Angular, couvrant des modules métier complexes pour optimiser les processus internes"
+        ]
+      },
+      {
+        "job_title": "Ingénieur Full Stack .NET",
+        "company": "Biram Group",
+        "start_date": "Mars 2025",
+        "end_date": "Juillet 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et livraison d'une plateforme web de gestion scolaire intuitive, automatisant les tâches administratives et éducatives avec un système de paiement en ligne pour les parents",
+          "Rationalisation des processus clés, incluant le suivi des présences et la gestion des notes, réduisant le travail manuel et optimisant les flux"
+        ]
+      },
+      {
+        "job_title": "Stage PFE",
+        "company": "Innov-Alliance-Tech",
+        "start_date": "Février 2024",
+        "end_date": "Août 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une plateforme de recrutement interactive, facilitant la candidature, le passage de tests et la consultation des résultats en temps réel",
+          "Optimisation de la gestion des tests et candidatures pour accroître l'efficacité opérationnelle et réduire les tâches répétitives"
+        ]
+      },
+      {
+        "job_title": "Stage Ingénieur",
+        "company": "PROXI WEB",
+        "start_date": "Juillet 2023",
+        "end_date": "Septembre 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application CRM avec une interface intuitive, simplifiant la gestion des données clients et améliorant l'efficacité opérationnelle pour les équipes",
+          "Amélioration du projet en intégrant des Smart Contracts Ethereum pour automatiser les paiements via un système d'Escrow avec jalons de paiement progressifs et vérification on-chain"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:37:35.801731+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9222,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

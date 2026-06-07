@@ -1,0 +1,184 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Armaoui_Eya_23027016.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Armaoui_Eya_23027016.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7623,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nEya ARMAOUI\nIngénieure en Informatique\nIngénieure Full Stack passionnée par le développement web et dotée d'une solide expertise tant en front-end qu'en back-end, je suis à la recherche de ma première opportunité professionnelle.ayaarmaoui@gmail.com \nlinkedin.com/in/eya-armaoui \nEl Manar 1, Tunisie \nPermis B \nNée le 02/09/1997 \n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nJAVA-Symfony\n.Net\nPython\nMERN stack\nMEAN stack\nEl Manar, Tunis, Tunisie --\nSpring Boot-Angular-MySQL\nDevOps\nLaravel\nConception et développement d'un site web (Spring Boot-Angular/Python/DevOps)\nDéveloppeur full stack (Stage d'ingénieur)\nTech Academy Tunis, Tunisie De juillet 2022 à septembre 2022 --\nConception et développement d'un site web qui facilite la relation entre les écoles et les parents/élèves (Spring Boot-Angular)\nTesteur Logiciel (Stage d'immersion en entreprise)\nGolden Accounting Input DATA Tunis, Tunisie Juillet 2021 --\nAnalyse fonctionnelle et technique des besoins, Planification des Tests, Rédaction des tests.\n\n## EDUCATION\n\nDiplôme d'ingénieur en informatique\nEcole Supérieure Privée d'Ingénierie et de Technologie\n## Pôle Technologique - El Ghazala, Tunisie De septembre 2020 à janvier 2024 -\n**Date: ** De septembre 2017 à juin 2020\n- Licence Fondamentale en informatique de gestion\n- FACULTÉ DES SCIENCES ECONOMIQUES ET DE GESTION DE TUNIS\n- Développeur Full-Stack ( Projet de fin d'études )\n## VERMEG Tunisie Lac 1, Tunis De février 2023 à août 2023 - -\n- Développeur Mobile (Projet de fin d'études )\n## Siège Orange Tunisie Centre Urbain Nord, Tunis De février 2020 à juin 2020 --\nCréation une application mobile (Android) qui présente des conventions, analyse et conception\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nFreelance - Développeur Full-Stack\nConception et développement des site web (Spring Boot-Angular/Laravel) Tunis Depuis février 2024 --\n\n## L ANGUES\n\nAnglais\nCertificat: Niveau B 2\nFrançais\nCertificat: Niveau B 2\nArabe\n\n## EXPÉRIENCE ASSOCIATIVE\n\nJeune Chambre Internationale de Tunisie\n\n## CENTRES D'INTÉRÊT\n\nPeinture\nVidéographie photographie\nSimpalha\nFront End: Symfony 4 .\nGestion Magasin\nBack End: Spring Boot.\nFront End: Angular.\nData Base: SQL.\nBest Test\nFront End: React\n\n## PROJETS ACADÉMIQUES\n\nProjet d'intégration: Gestion des problèmes éducatifs universitaires.\nBack End: JAVA, Net Beans .\nMobile: Code Name One .\nProjet d'intégration: Réaliser une plateforme de gestion de stock de produits.\nProjet d'intégration: Gestion des problèmes éducatifs des enfants.\nBack End: NodeJS, Spring Boot, Python.",
+    "header_info": {
+      "full_name": "Eya ARMAOUI",
+      "email": "professionnelle.ayaarmaoui@gmail.com",
+      "phone": "02/09/1997",
+      "location": null,
+      "linkedin": "linkedin.com/in/eya-armaoui",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9525,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Eya ARMAOUI",
+      "email": "ayaarmaoui@gmail.com",
+      "phone": null,
+      "location": "El Manar 1, Tunisie",
+      "linkedin": "linkedin.com/in/eya-armaoui",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "JAVA-Symfony",
+        ".Net",
+        "Python",
+        "MERN stack",
+        "MEAN stack",
+        "Spring Boot-Angular-MySQL",
+        "DevOps",
+        "Laravel"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Tech Academy Tunis",
+        "job_title": "Développeur full stack (Stage d'ingénieur)",
+        "start_date": "juillet 2022",
+        "end_date": "septembre 2022",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception et développement d'un site web (Spring Boot-Angular/Python/DevOps)"
+        ]
+      },
+      {
+        "company": "Golden Accounting Input DATA Tunis",
+        "job_title": "Testeur Logiciel (Stage d'immersion en entreprise)",
+        "start_date": "juillet 2021",
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Analyse fonctionnelle et technique des besoins",
+          "Planification des Tests",
+          "Rédaction des tests"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Freelance - Développeur Full-Stack",
+        "start_date": "février 2024",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception et développement des site web (Spring Boot-Angular/Laravel)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Ecole Supérieure Privée d'Ingénierie et de Technologie",
+        "degree": "Diplôme d'ingénieur en informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "FACULTÉ DES SCIENCES ECONOMIQUES ET DE GESTION DE TUNIS",
+        "degree": "Licence Fondamentale en informatique de gestion",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Anglais",
+      "Français",
+      "Arabe"
+    ],
+    "certifications": [
+      "Certificat: Niveau B 2 (Anglais)",
+      "Certificat: Niveau B 2 (Français)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:39:40.795804+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

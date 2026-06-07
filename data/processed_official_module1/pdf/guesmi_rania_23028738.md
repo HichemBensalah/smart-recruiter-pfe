@@ -1,0 +1,82 @@
+## RANIA GUESMI
+
+Développeuse Web Full Stack - MERN
+rania. guesmi@esen. tn | linkedin. com/in/rania-guesmi-0911281 bb | github. com/guesmi-rania Ariana, Tunisie | +216 20 828 055 |
+
+## TECHNICAL SKILLS
+
+Développeuse Full Stack MERN & Mobile (React Native) avec plus de 3 ans d'expérience dans la conception d'applications web et mobiles scalables. Expérience en développement d'API REST, applications React Native et déploiement cloud. Habituée aux projets freelance et à la livraison de solutions complètes (frontend, backend, mobile, CMS).
+Backend : Node. js/Express, Go (API REST), Python, PHP 8, Graph QL, YAML, Docker
+Analytique & SEO : Google Analytics 4, GTM, Google Search Console, SEO, SEA
+Refonte du site Word Press avec un nouveau thème et personnalisation CSS
+Analyse et optimisation des performances via Google Page Speed Insights (cache, images, base de données)
+Optimisation SEO et analyse des backlinks ; maintien de la visibilité via Google Search Console
+Installation, configuration et maintenance des plugins Word Press ; gestion des mises à jour
+Ajustements techniques et modifications personnalisées via PHP 8
+Développement d'un site Word Press pour une entreprise de construction canadienne.
+Personnalisation de thèmes et intégration de plugins avec design responsive.
+Développement et intégration de pages web avec HTML 5, CSS 3, Java Script, PHP 7, Java, Bootstrap 5
+Conception et gestion de bases de données My SQL ; audits, tests et débogage
+Suivi des performances via Google Analytics 4 (GA 4) et Google Tag Manager
+Maintenance SEO via Google Search Console et optimisation des images, du cache et du contenu
+Implémentation des fonctionnalités principales (réservation, géolocalisation, suivi de trajet)
+Stack : React Native, Node. js, Mongo DB, Google Maps API, JWT
+Conception et développement d'une application e-commerce pour l'achat de fruits et légumes en ligne
+Implémentation du catalogue produits, filtrage par catégorie et système de panier d'achat
+Création de composants React réutilisables avec design responsive mobile et desktop
+Conception et développement d'une application de gestion des livraisons avec Node. js, React Native, Mongo DB, Express. js
+Développement et intégration d'interfaces web avec HTML 5, CSS 3, Java Script, PHP 7, Bootstrap 5
+Conception et gestion de bases de données My SQL ; audits et débogage pour assurance qualité
+Arabe : Langue maternelle Français : Professionnel Anglais : Professionnel
+Randonnée
+
+## COMPÉTENCES TECHNIQUES
+
+Frontend Web : React. js/Next. js, Angular, HTML 5, CSS 3, Tailwind CSS
+Mobile : Flutter (Dart), React Native
+Bases de données : Mongo DB, Postgre SQL, My SQL
+CMS & Outils : Word Press, Prestashop, Git/Git Hub, Postman, Render
+Design : Photoshop, Figma
+
+## EDUCATION
+
+FORMATION
+ESEN - École Supérieure d'Économie Numérique
+### Master Professionnel en E-Business (1ère année) - Manouba, Tunisie
+**Date:** 2023
+- Lycée Borj Louzir
+### Baccalauréat - Sciences Informatiques - Ariana, Tunisie
+**Date:** 2016
+- THE WAY - Stage de Fin d'Études
+### Développeuse Full Stack - Montplaisir, Tunis
+**Date:** Sep 2022 - Déc 2022
+
+## EXPÉRIENCE PROFESSIONNELLE
+
+FRIGOTECHNIQUE
+Développeuse Web - Charguia 1, Ariana
+Mise en place de la sécurité du site avec Google re CAPTCHA v 3
+EZHOMES
+Développeuse Word Press - Freelance
+EASYPRINT
+Développeuse Web - Montplaisir, Tunis
+
+## THE WAY
+
+Développeuse Mobile
+Intégration des APIs backend et authentification utilisateur
+Tests, corrections et préparation au déploiement
+
+## DJERBA DIGITAL
+
+Développeuse React - Freelance
+Gestion du projet avec Git et déploiement via Git Hub Pages
+
+## LANGUAGES
+
+LANGUES
+
+## CENTRES D'INTÉRÊT
+
+Bricolage ·
+Lecture ·

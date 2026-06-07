@@ -1,0 +1,150 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\trabelsi_Ameni_23023281.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\trabelsi_Ameni_23023281.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9148,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAmeni TRABELSI/map-marker-alt/envelope ameni. trabelsy 12@gmail.com/phone-alt 24 091 494\nTunis\n\n## PROFESSIONAL SUMMARY\n\nProfil\nPlateforme e-commerce pour administrateurs et clients avec gestion s´ ecuris´ ee des produits, commandes, profils, avis, wishlist et coupons.\nTechnologies utilis´ ees: Spring Boot 3, Spring Security 6, Angular 16, Angular Material UI, MySQL.\nSyst` eme bancaire simulant un ATM avec d´ epˆ ot, retrait, ouverture de comptes, mini-relev´ es et changement de PIN. Technologies utilis´ ees: Java.\n\n## ACADEMIC PROJECTS\n\nJeune diplˆ om´ ee en g´ enie logiciel, s´ erieuse et passionn´ ee, prˆ ete ` a mettre mes connaissances au service de projets innovants.\n- Stage d'observation et d'apprentissage centr´ e sur la communication et l'int´ egration au sein d'une ´ equipe. Juin 2023\n- Projets personnels\n## E-Commerce Project:\n- Interface conviviale avec Angular Material UI.\n- Bank Management System & ATM Simulator:\n- Projets acad´ emiques\n- D´ etection des Menaces Innovantes pour Smartphone Android:\nArchitecture Android, s´ ecurit´ e, d´ etection des malwares et simulations via Kali Linux.\nTechnologies et outils: Metasploit Framework, Andro RAT, Ghost Framework, Kali Linux, Android Studio.\n- Gestion d'un Cabinet M´ edical:\n- Site web pour la gestion des rendez-vous et dossiers patients.\n## Technologies utilis´ ees: C#, .NET, SQL Server.\n- Classification EEG:\nMod` eles d'apprentissage automatique pour pr´ edire la maladie d'Alzheimer ` a partir de donn´ ees EEG. Technologies utilis´ ees: Python, TensorFlow, Encoders.\n- Comp´ etences\n\n## EDUCATION\n\n´ Ecole Nationale d'Ing´ enieurs de Tunis (ENIT) - Tunis Diplˆ ome d'ing´ enieur en g´ enie logiciel\nInstitut pr´ eparatoire aux ´ etudes d'ing´ enieurs de Sfax - Sfax\n## R´ eussite au concours national, class´ ee 128 e/1418\n**Date: ** Novembre 2025\n- Exp´ eriences Professionnelles\n- VOICECOM - Tunis Conseill` ere commerciale chez SFR\n- Strat Change - T´ el´ etravail\nConception et d´ eveloppement d'une plateforme mobile collaborative pour l'envoi et la commande de colis ` a l'international, mettant en relation utilisateurs, voyageurs et transporteurs professionnels. Elle facilite l'exp´ edition de colis, documents ou m´ edicaments et permet d'obtenir des produits de sites ne livrant pas dans certains pays. Le projet repose sur une architecture microservices et accorde une attention particuli` ere ` a l'exp´ erience utilisateur, avec un prototypage initial sous Figma.\n**Date: ** Janvier - Mars 2026\n## Technologies utilis´ ees: Figma, Spring Boot, Flutter, Docker, Nginx, Node. js.\n**Date: ** F´ evrier - Aoˆ ut 2025\n- Welyne - Tunis\nD´ eveloppement d'un syst` eme automatis´ e de mesure corporelle bas´ e sur des technologies de vision par ordinateur. Collecte et analyse de donn´ ees d'images de silhouettes et de mesures corporelles pour l'entraˆ ınement des mod` eles. Technologies et outils: Python, Res Net 18, YOLOv 8, Pandas, OpenCV, PyTorch. Juin - Aoˆ ut 2024\n- Tunisie Telecom - Sfax\n\n## LANGUAGES\n\nLangues: Arabe: courant, Fran¸ cais: DELF B 2, Anglais: CEFR B 2 .\nProgrammation: C/C++, C#, .NET, PHP, Java, HTML, CSS, JavaScript, Python, Flutter.\nBases de donn´ ees: MySQL, PostgreSQL, PL/SQL, MongoDB, Firebase.\n\n## TECHNICAL SKILLS\n\nDevOps: Docker. · Conception: UML. · Outils de collaboration: Jira, Git, Slack.",
+    "header_info": {
+      "full_name": null,
+      "email": "12@gmail.com",
+      "phone": "24 091 494",
+      "location": "Technologies utilis´ ees: Spring Boot 3, Spring Security 6, Angular 16, Angular Material UI, MySQL.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.983,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].company",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": "12@gmail.com",
+      "phone": "24 091 494",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Plateforme e-commerce pour administrateurs et clients avec gestion s´ ecuris´ ee des produits, commandes, profils, avis, wishlist et coupons.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Spring Boot 3",
+        "Spring Security 6",
+        "Angular 16",
+        "Angular Material UI",
+        "MySQL",
+        "Java"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "VOICECOM",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": "Strat Change",
+        "job_title": null,
+        "start_date": "Janvier - Mars 2026",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et d´ eveloppement d'une plateforme mobile collaborative pour l'envoi et la commande de colis ` a l'international"
+        ]
+      },
+      {
+        "company": "Tunisie Telecom",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "´ Ecole Nationale d'Ing´ enieurs de Tunis (ENIT)",
+        "degree": "Diplˆ ome d'ing´ enieur en g´ enie logiciel",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Fran¸ cais",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:53:30.272027+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

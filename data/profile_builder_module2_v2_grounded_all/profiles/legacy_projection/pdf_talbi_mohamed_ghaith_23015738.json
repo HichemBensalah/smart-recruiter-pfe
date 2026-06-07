@@ -1,0 +1,105 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\talbi_mohamed_ghaith_23015738.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\talbi_mohamed_ghaith_23015738.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\talbi_mohamed_ghaith_23015738.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Mohamed Ghaith Talbi",
+      "email": "24@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Docker",
+        "Debezium",
+        "Schema Registry",
+        "Spring boot",
+        "React",
+        "Kafka",
+        "Git",
+        "C#",
+        "Java",
+        "Python",
+        "Javascript",
+        "DAX",
+        "MySQL",
+        "Mongodb",
+        "MSSQL",
+        "PostgreSQL",
+        "Symfony",
+        "Net",
+        "Jenkins",
+        "Nexus",
+        "Sonarqube",
+        "Prometheus",
+        "Grafana"
+      ],
+      "soft_skills": [
+        "agile Scrum environment",
+        "RESTful APIs",
+        "data pipeline architecture",
+        "microservices infrastructure",
+        "CI/CD Pipelines",
+        "Jira",
+        "Git/GitHub",
+        "Linux"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Web Master",
+        "company": "Kounouz Agency",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Worked in an agile Scrum environment collaborating with backend and operations teams.",
+          "Implemented RESTful APIs and contributed to the integration with Kafka for asynchronous communication.",
+          "Designed and optimized data pipeline architecture for microservices infrastructure."
+        ]
+      },
+      {
+        "job_title": "Summer Intern",
+        "company": "Saxli Textile",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Big Data & ETL Technologies"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Computer science engineering degree",
+        "school": ".Net, React, Kafka, Git, Docker, Airflow",
+        "year": null
+      },
+      {
+        "degree": "Higher institute of computer science and management of kairouan",
+        "school": "Esprit",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:49:42.721512+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6831,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

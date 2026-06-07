@@ -1,0 +1,122 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Omar_Djebbi_23016315.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Omar_Djebbi_23016315.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Omar_Djebbi_23016315.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Omar Djebbi",
+      "email": "omar.djebbi@tijari.biz",
+      "phone": "+216 53 115 231",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Flutter",
+        "Node.js",
+        "React Native",
+        "Expo",
+        "Android Jetpack Compose",
+        "Nest.js",
+        "FastAPI",
+        "Angular",
+        "HTML",
+        "CSS",
+        "Git",
+        "Git Lab",
+        "REST APIs",
+        "Web Services",
+        "Stripe",
+        "Google Gemini",
+        "Perplexity API",
+        "Microsoft Dynamics 365 Business Central",
+        "AL",
+        "SQL",
+        "MS SQL",
+        "PHP",
+        "Symfony",
+        "Django",
+        "Flask",
+        "Java FX",
+        "Google Cloud",
+        "Azure API"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Flutter",
+        "company": "Tick 8 ing, Tunis, Montplaisir",
+        "start_date": "févr. 2026",
+        "end_date": "mars 2026",
+        "city": null,
+        "responsibilities": [
+          "Conception UI/UX d'une application d'apprentissage interactive et ludifiée pour enfants de 4 à 12 ans.",
+          "Développement d'un tableau de bord parental pour le suivi des progrès en temps réel et la visualisation des données."
+        ]
+      },
+      {
+        "job_title": "Développeur Solo",
+        "company": "Auto-entrepreneur, Remote",
+        "start_date": "nov. 2025",
+        "end_date": "déc. 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception UI/UX d'une application d'apprentissage interactive et ludifiée pour enfants de 4 à 12 ans.",
+          "Développement d'un tableau de bord parental pour le suivi des progrès en temps réel et la visualisation des données."
+        ]
+      },
+      {
+        "job_title": "Développeur d'Applications Mobiles",
+        "company": "Freelance, Remote",
+        "start_date": "juin 2025",
+        "end_date": "juil. 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement mobile avec Flutter et Nest.js d'une solution complète de gestion des stocks et des fournisseurs.",
+          "Intégration d'un chatbot IA via l'API Perplexity pour optimiser et fluidifier les interactions clients."
+        ]
+      },
+      {
+        "job_title": "Développeur Stagiaire",
+        "company": "MAVISION, Manar 2, Tunis",
+        "start_date": "janv. 2025",
+        "end_date": "juil. 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception de fonctionnalités ERP critiques pour optimiser la planification et la gestion des ressources de l'entreprise.",
+          "Développement d'applications métier complexes avec Dynamics 365 Business Central, AL, Web Services, Flask et Flutter Web."
+        ]
+      },
+      {
+        "job_title": "Développeur d'Applications Mobiles",
+        "company": "Freelance, Remote",
+        "start_date": "juil. 2024",
+        "end_date": "août 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement mobile avec Flutter et Nest.js d'une solution complète de gestion des stocks et des fournisseurs.",
+          "Intégration d'un chatbot IA via l'API Perplexity pour optimiser et fluidifier les interactions clients."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:55:56.482630+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.971,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

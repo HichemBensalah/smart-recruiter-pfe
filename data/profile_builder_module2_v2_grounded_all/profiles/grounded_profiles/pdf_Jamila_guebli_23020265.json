@@ -1,0 +1,191 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Jamila_guebli_23020265.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Jamila_guebli_23020265.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9148,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nJAMILA GUEBLI Développeuse Web\njamilaguebli 02@gmail.com/envelope_alt/envelope_alt/globe/globe\nPortfolio. com\ngithub.com/jamilaguebli/github/github\n+216 25 759 338/phone/phone/linkedin_sign jamila-guebli-923 ba 5251/Tunis, Tunisia/map_marker/map_marker\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\nDéveloppeuse web JavaScript spécialisée en React,\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nLangages:\nLangages:\nTechnologies:\nReact. js, Next. js, Redux, Zustand, Node. js, Express. js, Firebase/Firestore, Git, GitHub/Git Lab, MongoDB, MySQL, Vue. js, REST API, Tailwind CSS, i 18 n\nNext. js et Node. js, je conçois des applications web modernes, performantes et responsives. J'ai une bonne maîtrise du développement front-end ainsi que des bases solides en back-end, avec une attention particulière portée à la qualité du code, à l'expérience utilisateur et aux bonnes pratiques. Sérieuse, organisée et motivée, je m'adapte rapidement aux nouveaux projets et environnements techniques.\nWheelz\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n8/2024 - 5/2025 Développeuse Web\nDéveloppement de APIs et interfaces utilisateur personnalisées pour assurer une expérience front-end intuitive et adaptée aux besoins des utilisateurs de cette application.\nGestion du cycle de vie complet, de l'analyse fonctionnelle au déploiement (GitHub).\n**Date: ** 2/2021 - 6/2021\n**Location: ** TypeScript, JavaScript, HTML, CSS\n- TypeScript/JavaScript/Next. js/Node. js/Express. js/React. js/Firebase (Auth/Firestore)/Tailwind CSS/GitHub/Three. js/Redux/Zustand\n- Formatrice en Informatique\n- Expert\n- Stagiaire en développement Front-End\n\n## EDUCATION\n\np · Responsabledel'analyse fonctionnelle et de la mise en œuvre d'une plateforme de formation linguistique.\nFormation initiale et continue en bureautique pour des groupes d'apprenants débutants, intermédiaires et avancés.\n**Date: ** 2018\n- Carthago Time and Security Systems\n- Création d'une application web des Opérations Commerciales.\n- Collaboration avec l'équipe pour assurer l'intégration harmonieuse des fonctionnalités.\n- Utilisation de Vue. js pour créer des composants interactifs. Vue. Js/Bootstrap\n- Stage de Fin d'Etudes\n- SAFISOFT\n- Création d'une application web des Opérations Commerciales.\n- Intégration des fonctionnalités requises pour répondre aux besoins spécifiques du projet.\n- Gestion et optimisation de la base de données MySQL pour assurer des performances optimales de l'application.\n- Webdev/MySQL\n- Formations en Developpement WEB\n- GOMYCODE- Introduction To Web Development • Frontend with ReactJS • Back-End with NodeJS\n- 1ère Mastère Professionnel en Administration et Sécurité des Systèmes et Réseaux Institut Supérieur de Mathématiques Appliquées et d'informatique - ISMAIK\n- Licence Appliqué en Technologie des Réseaux\n- Institut Supérieur de Mathématiques Appliquées et d'informatique - ISMAIK\n## Baccalauréat Informatique Lycée Kesra\n**Location: ** Sousse, Tunisia\n\n## LANGUAGES\n\nFrançais - Intermédiaire, Anglais - Intermédiaire, Arabe - langue maternelle",
+    "header_info": {
+      "full_name": "JAMILA GUEBLI Développeuse Web",
+      "email": "02@gmail.com",
+      "phone": "+216 25 759 338",
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/jamilaguebli/github/github"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.0887,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.phone",
+      "education[0].year",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "JAMILA GUEBLI Développeuse Web",
+      "email": "02@gmail.com",
+      "phone": "+216 25 759 338",
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/jamilaguebli/github/github"
+    },
+    "expertise": {
+      "summary": "Développeuse web JavaScript spécialisée en React, sérieuse, organisée et motivée.",
+      "experience_level": "senior",
+      "years_experience": 1,
+      "hard_skills": [
+        "React.js",
+        "Next.js",
+        "Redux",
+        "Zustand",
+        "Node.js",
+        "Express.js",
+        "Firebase/Firestore",
+        "Git",
+        "GitHub/Git Lab",
+        "MongoDB",
+        "MySQL",
+        "Vue.js",
+        "REST API",
+        "Tailwind CSS"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Développeuse Web",
+        "start_date": "8/2024 - 5/2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement de APIs et interfaces utilisateur personnalisées pour assurer une expérience front-end intuitive et adaptée aux besoins des utilisateurs de cette application.",
+          "Gestion du cycle de vie complet, de l'analyse fonctionnelle au déploiement (GitHub)."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Formatrice en Informatique",
+        "start_date": "2/2021 - 6/2021",
+        "end_date": null,
+        "city": "TypeScript, JavaScript, HTML, CSS",
+        "responsibilities": [
+          "Formation initiale et continue en bureautique pour des groupes d'apprenants débutants, intermédiaires et avancés.",
+          "Création d'une application web des Opérations Commerciales."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": null,
+        "field": null,
+        "year": 2018
+      },
+      {
+        "institution": "Carthago Time and Security Systems",
+        "degree": null,
+        "field": null,
+        "year": 2018
+      }
+    ],
+    "languages": [
+      "Français - Intermédiaire",
+      "Anglais - Intermédiaire",
+      "Arabe - langue maternelle"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:41:58.146408+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

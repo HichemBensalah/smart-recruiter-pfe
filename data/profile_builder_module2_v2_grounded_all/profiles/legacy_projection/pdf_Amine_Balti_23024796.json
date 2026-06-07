@@ -1,0 +1,119 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Amine_Balti_23024796.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Amine_Balti_23024796.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Amine_Balti_23024796.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mohamed Amine Balti Ingénieur logiciel",
+      "email": "6@gmail.com",
+      "phone": "+216 54 213 637",
+      "location": "Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "React",
+        "Angular",
+        "Node.js",
+        "Symfony",
+        "Spring Boot",
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "ABAP",
+        "Microsoft Dynamics NAV",
+        "Power BI",
+        "MySQL",
+        "MongoDB",
+        "SQL Server",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "Linux",
+        "Visual Studio Code",
+        "IntelliJ"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur logiciel",
+        "company": null,
+        "start_date": "01/2025",
+        "end_date": "06/2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et implémentation des fonctionnalités de stockage des données d'expériences et tests chimiques",
+          "Développement de modules d'enregistrement des dosages avec traçabilité précise",
+          "Mise en place d'un système automatisé de statistiques avancées pour le contrôle qualité"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "10/2023",
+        "end_date": "11/2024",
+        "city": "Tunis",
+        "responsibilities": [
+          "Adaptation des fonctionnalités ERP aux processus spécifiques des laboratoires",
+          "Assistance technique aux utilisateurs, gestion des comptes et contrôle des accès"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "STB",
+        "start_date": "01/2022",
+        "end_date": "06/2022",
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Développeur Web Full Stack (Stage)",
+        "company": "Millesima Technologies",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Consultant ERP - Microsoft Dynamics NAV",
+        "company": "Sepcm Group",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Génie Logiciel",
+        "school": "TEKUP - École Supérieure Privée",
+        "year": "2022-2025"
+      },
+      {
+        "degree": "Licence en Informatique de Gestion",
+        "school": "FSJEGJ - Faculte de science juridique economique et gestion jendouba",
+        "year": "2019-2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:37:19.583197+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9553,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ikram_hammel_23027739.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ikram_hammel_23027739.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8612,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nHammel Ikram\nIngénieure en technologies du web et de l'internet\nhammel 22 ikram@gmail.com\nTunis\nIkram Hamel\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nCOMPÉTENCES\nOutils & Méthodologies:\nUML, Draw. io, GitHub, Visual Studio Code, Agile/SCRUM\nDéveloppement Web: HTML, CSS, JavaScript, C#, Java, Python, Node. js, .NET, Spring Boot, Bootstrap, Tailwind, Next. js, React, FastAPI\nIntégration de modules d'intelligence artificielle: analyse automatique des CV, scoring et matching des profils, recherche intelligente de talents.\nStack: FastAPI (Python), Next. js, PostgreSQL, LLMs, Generative AI, REST API\nConception et développement d'une application web immobilière dédiée à la vente, la location et la réservation de maisons d'hôtes.\nImplémentation des fonctionnalités de publication et visualisation des annonces, gestion des biens et des réservations.\nStack: PHP, Symfony, MongoDB (NoSQL), MVC, UML\n\n## TECHNICAL SKILLS\n\nIngénieure en technologies du web et de l'internet, spécialisée en Software Engineering. Solide expérience en analyse, conception et développement d'applications fullstack intégrant DevOps et intelligence artificielle. Orientée qualité, performance et évolutivité.\nBases de données: PostgreSQL, MongoDB, MySQL\nDevOps & CI/CD:\nJenkins, Docker, Nexus, Sonar Qube, Prometheus, Grafana\nIntelligence Artificielle:\nIA générative, LLMs, agents IA spécialisés\n\n## DIPLÔMES ET FORMATIONS\n\nEcole supérieure privée d'ingénierie et de technologie (ESPRIT), Cycle\nl'Internet 2022 - 2025 Mention excellente d'ingénieur en Technologies du Web et de\n\n## EDUCATION\n\n## Stage de fin d'études, 3 S: Standard Sharing Software\n- Conception et développement d'une plateforme web centralisée de gestion du recrutement et des stagiaires.\nImplémentation des modules clés: gestion des utilisateurs et rôles, offres d'emploi, candidatures, tests en ligne et évaluations.\nDéveloppement de fonctionnalités avancées: mécanismes anti-triche, passation d'examens en ligne et suivi du cycle des candidats.\n## Institut supérieur des études technologies de kelibia,\n- Licence en Technologie d'informatique\n## Développeuse web, Archimomi\n**Date: ** 07/2023 - 08/2023\nLycée Mourouj 6 Ben Arous, Diplôme national de Baccalauréat en sciences expérimentales\n**Date: ** 2018 - 2019\n- Mention assez bien\n## Stage de fin d'études, 3 S: Standard Sharing Software\n**Date: ** 02/2022 - 07/2022\n- Conception et développement d'une application de suivi de la satisfaction client.\nImplémentation des fonctionnalités d'envoi automatisé d'emails d'enquête, de collecte, de suivi et de consultation des réponses.\n\n## LANGUAGES\n\nLANGUES\nArabe\nFrançais\nStack: C#, .NET, SQL Server, MVC, UML\nAnglais\nATOUTS\nApplication web, Esprit\nTravail en équipe\nCapacité d'adaptation\nAutonomie\n\n## PROJETS ACADÉMIQUES\n\nConception et développement de l'application web « El Kindy » dédiée à la gestion des activités d'un conservatoire de musique.\nImplémentation des fonctionnalités de gestion des inscriptions, des cours, des professeurs, des emplois du temps et de la réservation des salles.\nStack: Node. js, React, Python, MongoDB (NoSQL)\nApplication web desktop et mobile, Esprit\nConception et développement de l'application multi-plateforme « Well Med » dédiée aux services de santé et de bien-être.\nStack: PHP, Symfony, MySQL, Java FX, Codename One",
+    "header_info": {
+      "full_name": "Hammel Ikram",
+      "email": "ikram@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9087,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Hammel Ikram",
+      "email": "ikram@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "UML",
+        "Draw. io",
+        "GitHub",
+        "Visual Studio Code",
+        "Agile/SCRUM",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C#",
+        "Java",
+        "Python",
+        "Node.js",
+        ".NET",
+        "Spring Boot",
+        "Bootstrap",
+        "Tailwind",
+        "Next.js",
+        "React",
+        "FastAPI",
+        "PostgreSQL",
+        "LLMs",
+        "Generative AI",
+        "PHP",
+        "Symfony",
+        "MongoDB",
+        "Jenkins",
+        "Docker",
+        "Nexus",
+        "Sonar Qube",
+        "Prometheus",
+        "Grafana"
+      ],
+      "soft_skills": [
+        "Travail en équipe",
+        "Capacité d'adaptation",
+        "Autonomie"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une plateforme web centralisée de gestion du recrutement et des stagiaires.",
+          "Implémentation des modules clés: gestion des utilisateurs et rôles, offres d'emploi, candidatures, tests en ligne et évaluations.",
+          "Développement de fonctionnalités avancées: mécanismes anti-triche, passation d'examens en ligne et suivi du cycle des candidats."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "07/2023",
+        "end_date": "08/2023",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application de suivi de la satisfaction client.",
+          "Implémentation des fonctionnalités d'envoi automatisé d'emails d'enquête, de collecte, de suivi et de consultation des réponses."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "02/2022",
+        "end_date": "07/2022",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application de suivi de la satisfaction client.",
+          "Implémentation des fonctionnalités d'envoi automatisé d'emails d'enquête, de collecte, de suivi et de consultation des réponses."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Ecole supérieure privée d'ingénierie et de technologie (ESPRIT)",
+        "degree": "Cycle",
+        "field": "l'Internet 2022 - 2025",
+        "year": "Mention excellente d'ingénieur en Technologies du Web et de"
+      },
+      {
+        "institution": "Institut supérieur des études technologies de Kelibia",
+        "degree": "Licence en Technologie d'informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:38:48.855845+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

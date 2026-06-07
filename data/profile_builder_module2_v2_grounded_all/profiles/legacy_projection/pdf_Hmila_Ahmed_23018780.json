@@ -1,0 +1,138 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hmila_Ahmed_23018780.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hmila_Ahmed_23018780.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hmila_Ahmed_23018780.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ahmed Hmila",
+      "email": "hmila@gmail.com",
+      "phone": "+216 29 69 26 90",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Motivated Junior DevOps Engineer seeking a first professional experience.",
+      "hard_skills": [
+        "Kubernetes",
+        "Git Ops (Argo CD)",
+        "CI/CD automation",
+        "Docker",
+        "Trivy",
+        "Prometheus",
+        "Grafana",
+        "Jenkins",
+        "Sonar Qube",
+        "Mockito",
+        "Ja Co Co"
+      ],
+      "soft_skills": [
+        "building resilient infrastructure",
+        "optimizing cloud resources",
+        "scalable web application development",
+        "cloud hosting",
+        "infrastructure as a service (IaaS)",
+        "hybrid devops engineer"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "DevOps Project",
+        "company": null,
+        "start_date": "Nov 2023 - May 2024",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Developed an automated CI/CD pipeline using Jenkins for code integration, testing, deployment, and monitoring.",
+          "Integrated Sonar Qube for code quality, Mockito for unit tests, and Ja Co Co for coverage reporting.",
+          "Used Docker and Trivy for containerization and vulnerability scanning.",
+          "Orchestrated services with Docker Compose .",
+          "Implemented real-time monitoring via Prometheus and Grafana dashboards."
+        ]
+      },
+      {
+        "job_title": "Scalable Web Application Development and Cloud Hosting",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Designed and developed a scalable web application using Spring Boot microservices and Angular .",
+          "Architected and deployed resilient cloud infrastructure on Open Stack .",
+          "Optimized for high availability and performance."
+        ]
+      },
+      {
+        "job_title": "Infrastructure as a Service (IaaS) on Kubernetes and Open Stack",
+        "company": null,
+        "start_date": "Nov 2023 - May 2024",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Collaborated on the design and implementation of an Infrastructure as a Service solution.",
+          "Automated application deployment on Kubernetes clusters.",
+          "Managed virtual resources using Open Stack, improving scalability and system reliability."
+        ]
+      },
+      {
+        "job_title": "DevOps Engineer (Hybrid)",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Station SSCA",
+        "responsibilities": [
+          "Developed a MERN stack application for a referral rewards system, enabling users to recommend others and earn incentives.",
+          "Dockerized the application into a container image and created Kubernetes manifest resources to deploy it in a Kubernetes cluster.",
+          "Implemented a CI/CD pipeline triggered by pull requests (PRs) to automatically rebuild Docker images and redeploy updates to the cluster.",
+          "Configured Argo CD to detect changes in container image tags and automatically synchronize the Kubernetes cluster with the latest image version.",
+          "Integrated the EFK stack (Elasticsearch, Fluent Bit, Kibana) for centralized logging and real-time monitoring."
+        ]
+      },
+      {
+        "job_title": "DevOps Engineer",
+        "company": null,
+        "start_date": "Jun 2024 - Aug 2024",
+        "end_date": null,
+        "city": "Quebec, Canada (Remote)",
+        "responsibilities": [
+          "Developed a GitHub Actions workflow to sign Android .aab files and deploy to Firebase App Distribution.",
+          "Migrated CI/CD workflows from Git Lab to GitHub, ensuring compatibility.",
+          "Built a deployment flow for Firebase Cloud Functions.",
+          "Automated unit and E 2 E tests using JUnit and Playwright."
+        ]
+      },
+      {
+        "job_title": "Cloud & DevOps Intern (On-site)",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Dockerized a multi-service stack (Python, Node. js, MongoDB, Angular) with Docker Compose.",
+          "Deployed Prometheus and Grafana for system monitoring.",
+          "Wrote Ansible roles to automate deployments of Joomla and Sonar Qube."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's Degree in Telecommunications",
+        "school": "ESPRIT",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:34:38.603645+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9766,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

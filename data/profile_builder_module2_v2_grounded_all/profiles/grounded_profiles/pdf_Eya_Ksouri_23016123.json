@@ -1,0 +1,194 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Eya_Ksouri_23016123.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Eya_Ksouri_23016123.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7705,
+  "normalization": {
+    "cleaned_markdown": "## KSOURI EYA\n\nDéveloppeur fullstack Junior\n\n## EDUCATION\n\nDéveloppeuse Fullstack passionnée par les technologies modernes, je possède une expérience en Node. js, .NET Core et Angular, acquise lors de mon stage de fin d'études et de missions freelance. Curieuse, motivée et orientée solution, je souhaite évoluer dans un environnement innovant où je pourrai contribuer efficacement, tout en renforçant mes compétences sur les architectures modernes, la qualité logicielle et les bonnes pratiques de développement. Je suis prête à apprendre rapidement et à m'investir pleinement pour garantir la fiabilité et la performance des applications.\n- ksouri eya\n- github.com/Eya Ks 98\n- ksourieya 01@gmail.com\n## Ariana, Tunis\n- FORMATION\n- Diplôme d'ingénieur informatique\nEcole supérieure Privée d'Ingénierie et de Technologies (ESPRIT) | El Ghazala, Tunisie\n**Date: ** 2023\n## Diplôme de baccalauréat, section sciences expérimentales\n**Date: ** 2017\n## Lycée Ennasr l Ariana, Tunisie\n**Date: ** Juillet 2023 - Présent\n- Développement d'un tableau de bord interactif avec graphiques et rapports\nMise en place de tests end-to-end automatisés, réduisant les erreurs de 50 % en production\n**Date: ** Février - Septembre 2022\n- Participation à la revue de code et amélioration continue de la qualité du front-end\n- Optimisation de la performance et de la responsivité des interfaces utilisateur\n- Développement d'un module de gestion des commandes et suivi des livraisons\n- Collaboration avec l'équipe backend pour la conception et l'intégration des APIs REST\n- Développement d'une application qui aide à optimiser les meilleurs itinéraires et séquences de livraison que les chauffeurs doivent suivre\nConception et développement d'une application desktop, web et mobile de gestion des écoles.\n**Date: ** 2020-2021\n\n## EXPERIENCE PROFESSIONNELLE\n\nDéveloppeuse Fullstack Freelance\n\n## FREELANCE- REMOTE\n\nImplémentation de la sécurité avec JWT et gestion des rôles utilisateurs\nCréation d'un module complet de gestion des évaluations et commentaires\nTechnologies: Angular, Node. js, Express, MongoDB, Postman\nStagiaire Développeuse Fullstack (.NET/Angular)\n\n## ARCHIMED, REMOTE\n\nAjout de fonctionnalités avancées (gestion panier, sessions utilisateurs)\nMise en place d'un système de journalisation et surveillance en temps réel\nIntégration d'une solution de paiement\nParticipation à la maintenance corrective et amélioration continue du code\nTechnologies: .NET Core, C#, Angular, SQL Server, GitHub\n\n## EXPÉRIENCE ACADÉMIQUE\n\nSmart Delivery\nTechnologies: ReactJS, NodeJS, Express Js, Mongodb\nMy School\nTechnologies: Java/Java FX/Code Name One/Symfony 3. 4/MYSQL\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nLangages: JavaScript, TypeScript, C#\nFrameworks & outils: Angular, Node. js, Express, .NET Core\nBases de données: MySQL, MongoDB,\nOutils & environnements: Git, GitHub, Postman\nSQL Server\nMéthodologies: Agile/Scrum\nFrançais: DELF B 2\nAnglais: niveau B 1\n\n## LANGUAGES\n\nLANGUES\nArabe: langue maternelle",
+    "header_info": {
+      "full_name": "KSOURI EYA",
+      "email": "01@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/Eya"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.4914,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[3].company",
+      "experiences[3].responsibilities[0]",
+      "experiences[4].company",
+      "experiences[4].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "KSOURI EYA",
+      "email": "ksourieya 01@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/Eya"
+    },
+    "expertise": {
+      "summary": "Développeuse Fullstack passionnée par les technologies modernes, curieuse et motivée.",
+      "experience_level": "junior",
+      "years_experience": 2,
+      "hard_skills": [
+        "Angular",
+        "Node.js",
+        ".NET Core"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Smart Delivery",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un tableau de bord interactif avec graphiques et rapports",
+          "Mise en place de tests end-to-end automatisés, réduisant les erreurs de 50 % en production"
+        ]
+      },
+      {
+        "company": "Ariana, Tunis",
+        "job_title": null,
+        "start_date": "Juillet 2023 - Présent",
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Développement d'un module de gestion des commandes et suivi des livraisons"
+        ]
+      },
+      {
+        "company": "ARCHIMED, REMOTE",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Ajout de fonctionnalités avancées (gestion panier, sessions utilisateurs)",
+          "Mise en place d'un système de journalisation et surveillance en temps réel"
+        ]
+      },
+      {
+        "company": "Smart Delivery",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Technologies: ReactJS, NodeJS, Express Js, Mongodb"
+        ]
+      },
+      {
+        "company": "My School",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Technologies: Java/Java FX/Code Name One/Symfony 3. 4/MYSQL"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Ecole supérieure Privée d'Ingénierie et de Technologies (ESPRIT)",
+        "degree": "Diplôme d'ingénieur informatique",
+        "field": null,
+        "year": 2023
+      },
+      {
+        "institution": "Lycée Ennasr l Ariana",
+        "degree": "Diplôme de baccalauréat, section sciences expérimentales",
+        "field": null,
+        "year": 2017
+      }
+    ],
+    "languages": [
+      "Arabe"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:56:23.545754+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

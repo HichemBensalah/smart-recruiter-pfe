@@ -1,0 +1,108 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\bouthaina_bakouch_23017517.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\bouthaina_bakouch_23017517.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\bouthaina_bakouch_23017517.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Bouthaina Bakouch",
+      "email": "bouthainabakouch@gmail.com",
+      "phone": "+21651960405",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieure Réseaux et Télécommunications avec expertise en infrastructure et automatisation DevOps.",
+      "hard_skills": [
+        "Réseaux IP: Routage (RIP, IGRP, EIGRP, OSPF), commutation (VLAN, VTP, IEEE 802.1 x)",
+        "Protocoles: ARP, TCP/UDP, NAT/PAT, SNMP, DHCP, DNS, SSH",
+        "Langages de programmation: C/C#, Java, HTML, XML, JavaScript, PHP, MATLAB, YAML, Shell Scripting, VB.NET",
+        "DevOps & CI/CD: Docker, Docker Compose, Kubernetes, Git Lab CI/CD, GitHub Actions, Jenkins, Ansible",
+        "Virtualisation: Virtual Box",
+        "Base de Données: MySQL, PostgreSQL, SQL Server, MongoDB"
+      ],
+      "soft_skills": [
+        "Proactive",
+        "Créative",
+        "Flexible",
+        "Organisé"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "OMG Tech - filiale d'Info Plus | Janvier 2023 - Mai 2025",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement de scripts automatisés pour collecter des données à partir de sites web",
+          "Stockage des données dans des bases de données",
+          "Collaboration dans un environnement bilingue (italien/anglais) avec une équipe et une clientèle basées en Italie"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Shape Tek | Avril 2019 -- Décembre 2022",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement de scripts de web scraping avec VB. Net pour extraire des données structurées à partir de sites web"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Bureau Espace Informatique | 2016 - 2018",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Gestion et maintenance informatique"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Sotetel | 2014",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Application C# de gestion pour Sotetel: Développement des interfaces"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Formation DevOps - Kubernetes",
+        "school": "OMG Tech - filiale d'Info Plus",
+        "year": null
+      },
+      {
+        "degree": "Ingénieure informatique",
+        "school": "Shape Tek",
+        "year": null
+      },
+      {
+        "degree": "Ingénieure informatique",
+        "school": "Bureau Espace Informatique",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:46:42.102984+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6632,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+## MOHAMED GMATI
+
+System and Network Administrator
+mohamedgmati 667 @gmail. com
+Morneg, Ben Arous, Tunis, Tunisia
+
+## PROFESSIONAL SUMMARY
+
+PROFILE
+
+## EDUCATION
+
+System and Network Administrator with strong expertise in cloud infrastructure, database administration, and IT systems management. Proven experience in migrating applications to cloud environments, managing SQL Server databases, and maintaining network infrastructure. Specialized in Windows Server environments, Azure Cloud, virtualization, and network security (CCNA certified). Proficient in managing IT infrastructure, Microsoft 365 administration, and providing comprehensive technical support. Currently pursuing a Master's degree in Security of Information Systems.
+### Master in Security of Information Systems, ISG TUNIS
+**Date:** 02/2022 - 04/2022 | Tunis, Tunisia
+
+## PROFESSIONAL EXPERIENCE
+
+### System Administrator, WM Ingénierie I Frenchinnov
+**Date:** 07/2024 - Present | Tunis, Tunisia
+- Designed Azure Dev Ops YAML pipelines to automate FIO solution deployment including build creation, IIS configuration, database provisioning, and OVH DNS setup.
+- Implemented end-to-end CI/CD automation using Azure Dev Ops interface, reducing manual installation time and improving deployment reliability.
+- Developed a comprehensive web application for managing organizational roles and employee data
+- Designed system architecture and created detailed UML models ensuring clarity and consistency across development phases
+- Implemented robust back-end using Spring Boot, Spring Data, Spring Security, My SQL, and Swagger with microservices architecture
+- Developed responsive front-end interface using Angular 12, HTML, and CSS following modern web design principles
+
+## TECHNICAL SKILLS
+
+Cloud Infrastructure & Migration :
+Led the transition to cloud infrastructure by successfully migrating applications from on- premises environment to Azure Cloud
+Manage and administer Azure Cloud virtual machines including access control, storage management, backup configuration, and monitoring VM states.
+Configure and optimize cloud resources to ensure high availability and performance
+Database Administration:
+Manage and administer SQL Server databases including executing scripts for data manipulation and optimization
+Implement and maintain regular database backup procedures to guarantee data security, integrity, and disaster recovery capability System Administration:
+Configure and maintain Windows Server operating systems according to company standards and client-specific requirements
+Perform application updates for clients ensuring smooth and uninterrupted transitions with minimal downtime
+Develop and deploy custom lightweight Windows images to streamline new client installations and reduce deployment time
+Provide complete end-to-end client environment setup from initial configuration to final deployment
+Create centralized automation tools to simplify printer installation across different brands and models
+Devops :
+Network Infrastructure :
+Manage and maintain the complete network infrastructure including routers, firewalls, and switches
+Configure network security policies and implement firewall rules to protect organizational assets
+Monitor network performance and troubleshoot connectivity issues to ensure optimal network operations
+End-User Support & IT Asset Management:
+Oversee Frenchinnov's complete IT hardware inventory including PCs, keyboards, peripherals, and network equipment
+Configure and deploy new employee workstations with Microsoft 365 integration and required software
+Manage Microsoft 365 administration including user accounts, license management, domain configuration, and security policies
+Administered 3 CX Vo IP system, including user setup, call routing, and troubleshooting to ensure seamless communication.
+Collaborate with development and support teams to resolve technical issues and optimize overall system performance
+Application & Web Management:
+Manage three production websites (Fio Eat, CRM French Innov, French Innov) hosted on Ikoula and OVH platforms
+Implement and configure card payment solution integration with Marketpay provider (TPE)
+Coordinate with hosting providers for server maintenance, updates, and technical support
+Web Developer Internship, KESARIDI Startup
+Collaborated with stakeholders to identify functional and non-functional requirements ensuring alignment with business goals
+Conducted thorough testing to ensure functional accuracy, system performance, and security compliance
+IT Helpdesk Internship, UBCI (Union Bancaire pour le Commerce et l'Industrie)
+Installed and configured computer hardware, software systems, networks, printers, and scanners
+Performed equipment repairs and replacements as necessary to maintain operational efficiency
+Responded promptly to service issues and support requests across the organization
+Provided comprehensive technical support and troubleshooting assistance to end-users
+SKILLS
+System Administration:
+Windows Server Linux Virtualization Azure Cloud Microsoft 365 AD
+Network Infrastructure: CCNA Routers Firewalls
+Switches Network Protocols CCNS
+Database Management:
+SQL Server My SQL Database Administration Backup & Recovery Scripting
+Development & Tools:
+Java Spring Framework Angular Microservices Scrum Methodology
+Hosting & Infrastructure:
+Ikoula OVH Azure Cloud
+Management VM Administration
+
+## ESSEC TUNIS
+
+Bachelor's Degree in Business Computing,
+
+## CERTIFICATES (IN PROGRESS)
+
+CERTIFICATES
+CCNA 1: Cisco CCNA 2: Cisco |
+
+## LANGUAGES
+
+Arabic: Native English: Intermediate French: Intermediate

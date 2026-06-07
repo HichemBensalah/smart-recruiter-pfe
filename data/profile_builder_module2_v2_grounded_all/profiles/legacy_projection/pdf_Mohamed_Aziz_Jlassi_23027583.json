@@ -1,0 +1,112 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Aziz_Jlassi_23027583.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Aziz_Jlassi_23027583.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Aziz_Jlassi_23027583.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Mohamed Aziz JLASSI",
+      "email": null,
+      "phone": "+216) 56771227",
+      "location": "tunis, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "JavaScript Framework",
+        "ReactJS/React Native",
+        "Devops: Docker, Jenkins",
+        "Artificial Intelligence machine learning",
+        "Git",
+        "Object-Oriented Programming",
+        "Github",
+        "JSON",
+        "cloud monitoring and reporting",
+        "Postman",
+        "RESTful api",
+        "Web Development",
+        "Web API",
+        "Virtual Box/Virtual Machine",
+        "Relational databases",
+        "MVC",
+        "Linux",
+        "Software Engineering"
+      ],
+      "soft_skills": [
+        "User-centered design",
+        "Innovation",
+        "Testing and debugging",
+        "Continuous improvement"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "AGIL SNDP",
+        "start_date": "05/02/2025",
+        "end_date": "05/07/2025",
+        "city": "TUNIS, TUNISIA",
+        "responsibilities": [
+          "Developed a modern monolithic web application using Django for real-time stock management.",
+          "Implemented automated restocking features and AI-driven insights using a local Mistral-based chatbot."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "SESAME",
+        "start_date": "01/07/2024",
+        "end_date": "15/08/2024",
+        "city": "TUNIS, TUNISIA",
+        "responsibilities": [
+          "Participated in setting up and configuring Jenkins to automate development workflows.",
+          "Integrated automated testing to improve code quality and reliability."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "CRISTAL LABORATORY/RAMSI - GRIFT GROUP",
+        "start_date": "01/07/2023",
+        "end_date": "01/08/2023",
+        "city": "TUNIS, TUNISIA",
+        "responsibilities": [
+          "Contributed to optimizing internal processes and improving user satisfaction through a more efficient management solution."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "07/02/2022",
+        "end_date": "07/06/2022",
+        "city": "TUNIS, TUNISIA",
+        "responsibilities": [
+          "Contributed to optimizing internal processes and improving user satisfaction through a more efficient management solution."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BACHELOR'S DEGREE PROJECT (LICENCE)",
+        "school": "universitesesame.com",
+        "year": "15/09/2019 - 12/09/2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:33:34.561764+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6232,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

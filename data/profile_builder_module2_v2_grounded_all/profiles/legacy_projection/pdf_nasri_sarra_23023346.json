@@ -1,0 +1,81 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\nasri_sarra_23023346.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\nasri_sarra_23023346.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\nasri_sarra_23023346.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Sarra Nasri",
+      "email": "sarra.nasri@fsb.ucar.tn",
+      "phone": "+216 21 949 166",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieure passionnée par les systèmes embarqués, réseaux et Io T.",
+      "hard_skills": [
+        "Raspberry Pi",
+        "Python",
+        "Django",
+        "Web Socket",
+        "MySQL",
+        "HTML/CSS/JS"
+      ],
+      "soft_skills": [
+        "rigoureuse",
+        "autonome",
+        "motivée par les défis technologiques",
+        "programmation de microcontrôleurs",
+        "intégration de capteurs intelligents",
+        "animation des cours de technologie"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Béja",
+        "responsibilities": [
+          "Préparation et animation des cours de technologie pour différents niveaux"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "COFICAB",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Découverte des méthodes de maintenance industrielle moderne et familiarisation avec les processus de production"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master",
+        "school": "SAGEMCOM",
+        "year": "2024"
+      },
+      {
+        "degree": "Licence",
+        "school": "Lycée Privé Al Azima",
+        "year": "2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:47:04.893779+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9843,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

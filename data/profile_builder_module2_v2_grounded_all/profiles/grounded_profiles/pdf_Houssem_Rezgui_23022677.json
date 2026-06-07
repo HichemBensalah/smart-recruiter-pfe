@@ -1,0 +1,197 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Houssem_Rezgui_23022677.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Houssem_Rezgui_23022677.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8979,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nHoussem Rezgui\n\n## FULLSTACK WEB DEVELOPER\n\nhoussemrezgui 2015@gmail.com\nhttps: //rez-portfolio-5656. netlify. app/github.com/Houssem Rezgui 999\nlinkedin.com/in/houssem-rezgui-396164277\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\n-Summary: Gained solid web development experience with a focus on scalable architecture, efficient workflows, and team-based innovation.\n\n## PROFESSIONAL EXPERIENCE\n\nEnergetic and passionate Junior Full Stack Web Developer with a solid foundation in JavaScript and experience in developing responsive web applications. Currently expanding my technical repertoire by learning Java, demonstrating a commitment to continuous learning and versatility. Recognized for my ability to quickly assimilate new technologies and concepts, I bring a proactive approach and collaborative spirit to every project I undertake.\n**Location: ** Tunis, Tunisia\n- Frontend Development: Built a MERN-based LMS using React, Redux, and JavaScript, with polished HTML/CSS and contributions to a JS testing microservice.\n- Backend & Operations: Developed backend with Node. js, Express, MySQL (Sequelize), and added real-time features via Socket. io for improved efficiency.\nRole: As a team member, I was instrumental in managing the client interface, focusing on functionality and aesthetic design to improve user experience.\n**Date: ** 09/2022 - 10/2022\n**Location: ** Doha, Qatar\n- Security Manager\n- STARK Security Service\n\n## EDUCATION\n\nResponsible for developing, implementing, and overseeing security policies and protocols to safeguard company assets, personnel, and information. Manages physical security measures, risk assessments, emergency response plans, and compliance with legal standards. Collaborates with IT, HR, and executive teams to ensure a secure and resilient organizational environment.\n## IELTS Academic Test (B 2) British Council, Tunis\nCertificate of Success in Full Stack JavaScript Developement RBK-Reboot Kamp Tunisia, Tunis\n## Aptitude \"Elderly Care\" Ministry of Education and Training, Tunis\n\n## ACADEMIC PROJECTS\n\n## Fullstack JS Developer - Learning Management System (LMS) Project\n**Date: ** 10/2023 - 07/2024\n**Location: ** Tunis, Tunisia\n- RBK-Reboot Kamp Tunisia\n- AI & UI Design: Supported AI module integration and created userfriendly interfaces using React and Material-UI.\n- Team Collaboration: Contributed to GitHub-driven team development with code reviews and process optimization to meet project goals.\n## Full Stack React Native Javascript Thesis Project - Gig Hive App\n**Date: ** 04/2023 - 10/2023\n**Location: ** Tunis, Tunisia\n- RBK-Reboot Kamp Tunisia\n\n## TECHNICAL SKILLS\n\n-Gig Hive: Gig Hive connects freelancers with clients, providing a user-friendly platform for job matching. Freelancers can display their skills and apply for jobs, while clients post opportunities and select qualified freelancers.\nSKILLS\nJavaScript/HTML/CSS\nReact/Angular/React Native\nMySQL/MongoDB\nGitHub\nNode. js/Express. Js/RESTful API design\nAdaptability\nCommunication\nCreativity\nTeamwork\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATES\nCertificate of Professional\n\n## LANGUAGES\n\nArabic\nEnglish\nFrench\nGerman",
+    "header_info": {
+      "full_name": "Houssem Rezgui",
+      "email": "2015@gmail.com",
+      "phone": "396164277",
+      "location": null,
+      "linkedin": "linkedin.com/in/houssem-rezgui-396164277",
+      "github": "github.com/Houssem"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9796,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Houssem Rezgui",
+      "email": "houssemrezgui 2015@gmail.com",
+      "phone": "396164277",
+      "location": null,
+      "linkedin": "linkedin.com/in/houssem-rezgui-396164277",
+      "github": "github.com/Houssem"
+    },
+    "expertise": {
+      "summary": "Gained solid web development experience with a focus on scalable architecture, efficient workflows, and team-based innovation.",
+      "experience_level": "junior",
+      "years_experience": 1,
+      "hard_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "MongoDB",
+        "GitHub"
+      ],
+      "soft_skills": [
+        "Adaptability",
+        "Communication",
+        "Creativity",
+        "Teamwork"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "STARK Security Service",
+        "job_title": "Security Manager",
+        "start_date": "09/2022",
+        "end_date": "10/2022",
+        "city": "Doha, Qatar",
+        "responsibilities": [
+          "Manages physical security measures, risk assessments, emergency response plans, and compliance with legal standards.",
+          "Collaborates with IT, HR, and executive teams to ensure a secure and resilient organizational environment."
+        ]
+      },
+      {
+        "company": "RBK-Reboot Kamp Tunisia",
+        "job_title": null,
+        "start_date": "10/2023",
+        "end_date": "07/2024",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "AI & UI Design: Supported AI module integration and created user-friendly interfaces using React and Material-UI.",
+          "Team Collaboration: Contributed to GitHub-driven team development with code reviews and process optimization to meet project goals."
+        ]
+      },
+      {
+        "company": "RBK-Reboot Kamp Tunisia",
+        "job_title": null,
+        "start_date": "04/2023",
+        "end_date": "10/2023",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Contributed to GitHub-driven team development with code reviews and process optimization to meet project goals."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "British Council",
+        "degree": "IELTS Academic Test (B 2)",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Ministry of Education and Training",
+        "degree": "Aptitude \"Elderly Care\"",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "English",
+      "French",
+      "German"
+    ],
+    "certifications": [
+      "Certificate of Success in Full Stack JavaScript Development RBK-Reboot Kamp Tunisia"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:35:45.242173+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

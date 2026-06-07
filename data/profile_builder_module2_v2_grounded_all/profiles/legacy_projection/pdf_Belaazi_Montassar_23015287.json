@@ -1,0 +1,111 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Belaazi_Montassar_23015287.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Belaazi_Montassar_23015287.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Belaazi_Montassar_23015287.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": null,
+      "email": "belazimontasar@gmail.com",
+      "phone": null,
+      "location": "Nabeul, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "React Native",
+        "Node.js",
+        "Express",
+        "Socket.IO",
+        "Web RTC",
+        "PostgreSQL",
+        "Firebase Cloud Messaging",
+        "React.js",
+        "JWT/Passport JS",
+        "Angular",
+        "Flask",
+        "Flask-JWT",
+        "REST API",
+        "MongoDB",
+        "Web Socket",
+        "Kafka",
+        "n8n",
+        "Mistral API",
+        "Electron.js",
+        "JavaScript",
+        "HTML 5",
+        "CSS 3",
+        "ReactJS",
+        "Nest JS",
+        "TypeScript",
+        "Prisma ORM",
+        "Amazon S3",
+        "Git"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Elite Council Consulting",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Intégration d'un chatbot conversationnel via n8n + agent IA (Mistral API)",
+          "Implémentation des bonnes pratiques de sécurité et RGPD pour la gestion des données sensibles"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Avempace",
+        "start_date": null,
+        "end_date": null,
+        "city": "Nabeul",
+        "responsibilities": [
+          "Mise en place d'une architecture temps réel basée sur Web RTC et Socket.IO",
+          "Développement d'un dashboard web d'administration pour la gestion des utilisateurs, connexions et statuts",
+          "Implémentation de la sécurité et de l'authentification (JWT, gestion des rôles)",
+          "Intégration des notifications push pour les messages et appels entrants",
+          "Conception d'un backend scalable et sécurisé exposant des API REST"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Avempace",
+        "start_date": null,
+        "end_date": null,
+        "city": "Nabeul",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master en Data Science",
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": "licence en Sciences Informatiques",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:42:04.042287+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9448,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

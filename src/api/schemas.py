@@ -87,6 +87,12 @@ class MatchCandidate(BaseModel):
     cv_mime_type: str | None = None
     cv_source: str | None = None
     cv_confidence: str | None = None
+    score_breakdown: list[dict[str, Any]] | None = None
+    base_score_before_penalty: float | None = None
+    must_have_coverage: float | None = None
+    must_have_penalty_multiplier: float | None = None
+    must_have_penalty_applied: bool | None = None
+    quality_penalty_multiplier: float | None = None
 
 
 class MatchResponse(BaseModel):

@@ -1,0 +1,70 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Haytham_brahem_23018997.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Haytham_brahem_23018997.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Haytham_brahem_23018997.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ingénieur Full Stack",
+      "email": null,
+      "phone": null,
+      "location": "Tunisie"
+    },
+    "expertise": {
+      "summary": "Ingénieur logiciel orienté DevOps et développement Full Stack avec expérience dans l'automatisation CI/CD, la conteneurisation Docker, les architectures microservices et les APIs REST sécurisées.",
+      "hard_skills": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Git Flow",
+        "Spring Boot",
+        "Angular",
+        "Node.js",
+        "Oracle SQL",
+        "PostgreSQL",
+        "Prometheus/Grafana",
+        "Sonar Qube",
+        "Trivy"
+      ],
+      "soft_skills": [
+        "Collaboration avec équipes techniques Agile",
+        "Développement de composants réutilisables",
+        "Maintenance corrective",
+        "Optimisation des performances",
+        "Validation côté client/serveur",
+        "Travail collaboratif sur architecture backend et APIs REST"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur Full Stack",
+        "company": "BNA - Banque Nationale Agricole",
+        "start_date": "févr. 2025",
+        "end_date": "août 2025",
+        "city": "Tunisie",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Développeur Full Stack",
+        "school": "AGIL Energy",
+        "year": "2025"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:28:09.066999+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9691,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

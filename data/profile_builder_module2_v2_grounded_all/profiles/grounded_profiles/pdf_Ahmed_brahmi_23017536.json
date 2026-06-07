@@ -1,0 +1,190 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ahmed_brahmi_23017536.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ahmed_brahmi_23017536.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7491,
+  "normalization": {
+    "cleaned_markdown": "DEVELOPPEUR FULL-STACK/phone +216-52022197/envelope_alt ibrahmi.ahmeed@gmail.com/linkedin_sign ahmed-brahmi/github Ahmed Brahmi/map_marker Tunis, Tunisia\nD´ eveloppeur Full Stack avec 1 an d'exp´ erience dans le d´ eveloppement d'applications Web et Mobile performantes et s´ ecuris´ ees. Exp´ eriment´ e en API REST, architectures modernes et syst` emes temps r´ eel, avec une bonne maˆ ıtrise des technologies actuelles. Orient´ e qualit´ e, performance et exp´ erience utilisateur, avec un fort focus sur la maintenabilit´ e du code.\n\n## COMP´ ETENCES TECHNIQUES\n\nLangages:\nFrontend:\nJavaScript, TypeScript, PHP\nBackend:\nMobile:\nNode. js (Express), Laravel\nReact Native (Expo)\nBases de donn´ ees:\nArchitecture:\nMySQL, PostgreSQL, MongoDB\n\n## TECHNICAL SKILLS\n\nDevOps:\nTests:\nDocker, Git, CI/CD, Linux, Nginx\nOutils:\nM´ ethodes:\nPostman, Swagger, Firebase, AWS\n\n## EXP´ ERIENCE\n\nFreelance D´ eveloppeur Full Stack\nD´ eveloppement d'une plateforme e-commerce bas´ ee sur une architecture microservices (Node. js, React).\nMise en place d'une architecture event-driven avec Kafka et d´ ecouplage des services.\nImpl´ ementation d'API REST s´ ecuris´ ees (JWT) pour gestion des utilisateurs et acc` es.\nD´ eploiement des services via Docker sur environnement Linux.\nD´ eveloppeur Web - TUNISIE PORCELAINE\nD´ eveloppement d'applications internes pour la gestion de production et des stocks avec int´ egration ERP.\nConception d'API REST pour la communication entre les diff´ erents modules du syst` eme.\nOptimisation SQL am´ eliorant les performances et r´ eduisant les temps de r´ eponse des syst` emes critiques.\n\n## EDUCATION\n\nD´ eveloppeur Full Stack - Stage de Fin d'Etudes - EDUCANET\nD´ eveloppement une application Web et Mobile avec suivi en temps r´ eel (Pusher) et syst` eme de paiement s´ ecuris´ e.\nAm´ elioration de l'exp´ erience utilisateur grˆ ace aux notifications push et ` a la gestion des retours.\nDiplˆ ome d'Ing´ enieur en Informatique\n## EPI Digital School, Sousse, Tunisia\n**Date: ** Septembre 2021 - Aoˆ ut 2024\n- Licence Fondamental en ´ Electronique et T´ el´ ecommunications\n## Institut Sup´ erieur d'Informatique et de Multim´ edia, Gab` es, Tunisie\n**Date: ** Septembre 2018 - Aoˆ ut 2021\n\n## ACADEMIC PROJECTS\n\nPROJECTS\n## Advanced E-Commerce Platform | Node. js, React, Kafka, Docker\n**Date: ** 2025 - Pr´ esent\n**Location: ** React. js, Angular, HTML 5, CSS 3, Tailwind\n- D´ eveloppement d'une plateforme e-commerce bas´ ee sur une architecture microservices.\n- Communication event-driven via Apache Kafka et conteneurisation avec Docker.\nCr´ eation d'API REST s´ ecuris´ ees (JWT, RBAC) et optimisation pour la gestion de charges concurrentes.\n## Recipe API | Python, FastAPI\n**Date: ** 2025\n- D´ eveloppement d'une API REST avec gestion des recettes et filtrage avanc´ e.\n- Utilisation de traitements asynchrones pour am´ eliorer les performances.\n## Enterprise Web Applications | PHP, MySQL, j Query\n**Date: ** 2025\n- D´ eveloppement d'applications web pour la gestion industrielle avec API REST et gestion s´ ecuris´ ee des utilisateurs.\n- Optimisation des requˆ etes SQL et am´ elioration des performances des syst` emes m´ etiers.\n## Deliver Ease/external_link | React, React Native, Laravel, MySQL\n**Date: ** 2023 - 2024\n- Application Web et Mobile avec suivi des livraisons en temps r´ eel (Pusher).\n- Impl´ ementation d'un syst` eme d'authentification et de paiement s´ ecuris´ e.\n- Am´ elioration de l'exp´ erience utilisateur via notifications et gestion des retours.\n\n## LANGUAGES\n\nLangues\nArabe (Langue maternelle)\nFran¸ cais (Courant)\nAnglais (Courant)",
+    "header_info": {
+      "full_name": "COMP´ ETENCES TECHNIQUES",
+      "email": "ibrahmi.ahmeed@gmail.com",
+      "phone": "+216-52022197",
+      "location": "JavaScript, TypeScript, PHP",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9498,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ahmed Brahmi",
+      "email": "ibrahmi.ahmeed@gmail.com",
+      "phone": "+216-52022197",
+      "location": "Tunis, Tunisia",
+      "linkedin": null,
+      "github": "Ahmed Brahmi"
+    },
+    "expertise": {
+      "summary": "D´ eveloppeur Full Stack avec 1 an d'exp´ erience dans le d´ eveloppement d'applications Web et Mobile performantes et s´ ecuris´ ees",
+      "experience_level": "junior",
+      "years_experience": 1,
+      "hard_skills": [
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "Node.js",
+        "Express",
+        "Laravel",
+        "React Native",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "CI/CD",
+        "Linux",
+        "Nginx",
+        "Postman",
+        "Swagger",
+        "Firebase",
+        "AWS"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Freelance D´ eveloppeur Full Stack",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une plateforme e-commerce bas´ ee sur une architecture microservices (Node.js, React)",
+          "Mise en place d'une architecture event-driven avec Kafka et d´ ecouplage des services",
+          "Impl´ ementation d'API REST s´ ecuris´ ees (JWT) pour gestion des utilisateurs et acc` es",
+          "D´ eploiement des services via Docker sur environnement Linux"
+        ]
+      },
+      {
+        "company": "TUNISIE PORCELAINE",
+        "job_title": "D´ eveloppeur Web",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'applications internes pour la gestion de production et des stocks avec int´ egration ERP",
+          "Conception d'API REST pour la communication entre les diff´ erents modules du syst` eme",
+          "Optimisation SQL am´ eliorant les performances et r´ eduisant les temps de r´ eponse des syst` emes critiques"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "EPI Digital School, Sousse, Tunisia",
+        "degree": "Diplˆ ome d'Ing´ enieur en Informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Sup´ erieur d'Informatique et de Multim´ edia, Gab` es, Tunisie",
+        "degree": "Licence Fondamental en ´ Electronique et T´ el´ ecommunications",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Fran¸ cais",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:32:23.515662+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

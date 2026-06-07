@@ -1,0 +1,111 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Melki_Adem_23022106.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Melki_Adem_23022106.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Melki_Adem_23022106.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Adem Melki",
+      "email": "1@gmail.com",
+      "phone": "+216 99 614 898",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Cybersécurité & Gestion des incidents: SIEM, SOAR, IDS/IPS, Threat Hunting",
+        "Développement Full-Stack: Java, JavaScript, PHP, C, C++, Python, Spring Boot, React. js, Symfony, MySQL",
+        "Dev Sec Ops & Automatisation: Jenkins, Docker, Sonar Qube, Nexus, CI/CD",
+        "Sécurité Applicative & Analyse de Vulnérabilités: OWASP, Snyk, Trivy, Falco",
+        "Surveillance & Observabilité: Prometheus, Grafana, ELK Stack",
+        "Gestion des risques & Politiques de sécurité"
+      ],
+      "soft_skills": [
+        "Collaboration",
+        "Motivation pour contribuer à la protection des systèmes d'information et à l'optimisation des environnements IT"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Collaboration à l'amélioration de la sécurité des systèmes d'information",
+          "Développement sur Bitrix 24"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "TÉLCOTEC",
+        "start_date": "07/2023",
+        "end_date": "09/2024",
+        "city": null,
+        "responsibilities": [
+          "Optimisation des processus de gestion et de contrôle des opérations IT",
+          "Participation à la mise en place de procédures de sécurité et de gestion des incidents"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "MEDIASOFT",
+        "start_date": "07/2022",
+        "end_date": "09/2023",
+        "city": null,
+        "responsibilities": [
+          "Développement et intégration de modules sur la plateforme Bitrix 24"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "BNA BANK",
+        "start_date": "07/2021",
+        "end_date": "09/2022",
+        "city": null,
+        "responsibilities": [
+          "Réalisation d'applications web sécurisées pour le secteur bancaire"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "BLOCKCHAIN",
+        "start_date": "2024",
+        "end_date": "2024",
+        "city": null,
+        "responsibilities": [
+          "CEH (Certified Ethical Hacker)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme National d'Ingénieur en Informatique",
+        "school": "ESPRIT (École Supérieure Privée d'Ingénierie et de Technologies)",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat Informatique",
+        "school": "ESPRIT (École Supérieure Privée d'Ingénierie et de Technologies)",
+        "year": "2020"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:23:14.370386+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9498,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

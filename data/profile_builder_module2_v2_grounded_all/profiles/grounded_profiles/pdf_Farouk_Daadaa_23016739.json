@@ -1,0 +1,189 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Farouk_Daadaa_23016739.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Farouk_Daadaa_23016739.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.749,
+  "normalization": {
+    "cleaned_markdown": "## DAADAA FAROUK\n\nLinkedin:\nlinkedin.com/in/farouk-daadaa\nCredly:\ncredly. com/users/faroukdaadaa/Daadaa.farouk@live.fr +216 22 366 500\nbadges#credly\nGithub:\ngithub.com/farouk-daadaa\n\n## PROFESSIONAL SUMMARY\n\nSUMMARY\n\n## TECHNICAL SKILLS\n\nSoftware Engineering graduate from ESPRIT with a strong focus on backend development and cloud computing. Experienced in building and deploying scalable REST APIs using Spring Boot and AWS.\nComfortable working across the full stack when needed, with a preference for designing reliable backend systems, secure APIs, and cloud-based architectures. Motivated to grow as a backend/cloud engineer and contribute to production-grade systems.\nBackend & APIs\nTools & Practices\nFrontend and Mobile\nCloud & DevOps\nDatabases\nAngular\nAWS\nMySQL,\nJava, Spring Boot, RESTful APIs\nFlutter\nDocker\nMongoDB\nCI/CD\nSpring Security, JWT Authentication\nCloud Architecture Basics\nLinux (Shell scripting, CLI)\nAgile/Scrum\nDeveloped a full-stack e-learning platform using Spring Boot and Flutter with secure authentication and rolebased access control (Admin, Instructor, Student).\nCloud-Based Task Management System (AWS)\nDesigned and deployed a full-stack task management application on Amazon Web Services.\nBuilt a Spring Boot REST API hosted on Amazon EC 2 and connected it to a MySQL database on Amazon RDS.\nDesigned an Angular frontend for future deployment on Amazon S 3, ensuring a scalable and cloud-ready architecture.\nContainerized the backend using Docker and orchestrated multi-service deployment with Docker Compose, ensuring consistent environments across development and production.\nDesigned and implemented a CI/CD pipeline with Jenkins to automate application build, testing, and deployment, reducing manual intervention and improving release efficiency.\nImplemented JWT-based authentication, role-based access control, and secure access using IAM and Security Groups.\nMonitored application logs and system performance using Amazon Cloud Watch.\nSoft Skills: Communication, Problem Solving, Teamwork, Time Management, Adaptability.\nCertificates: Fundamentals of Deep Learning, Full stack Spring Boot & Angular, AWS Cloud Practitioner Essentials.\n\n## EDUCATION\n\nComputer Engineering Degree - École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT)\n**Date: ** 2020 - 2025\n**Location: ** Git, GitHub, Postman\n\n## WORK EXPERIENCE\n\nIntern - The Bridge E-learning Platform\nImplemented course management features including course creation, enrollment, and progress tracking.\nIntegrated real-time features using Web Sockets and live sessions via 100 ms. live.\nAdded AI chatbot support, review and rating systems, and Google Maps API for event management.\nIntern - BFM (Esprit Group Job Fair Web App)\nDeveloped a centralized web application using Spring Boot and Angular to manage job fair events.\nAutomated event coordination workflows and improved communication between participants.\nEnhanced usability by optimizing UI and application flow.\n\n## LANGUAGES\n\nLanguages: English (B 2), French (B 2), Arabic (native).",
+    "header_info": {
+      "full_name": "DAADAA FAROUK",
+      "email": "Daadaa.farouk@live.fr",
+      "phone": "+216 22 366 500",
+      "location": null,
+      "linkedin": "linkedin.com/in/farouk-daadaa",
+      "github": "github.com/farouk-daadaa"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9498,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "DAADAA FAROUK",
+      "email": "Daadaa.farouk@live.fr",
+      "phone": "+216 22 366 500",
+      "location": null,
+      "linkedin": "linkedin.com/in/farouk-daadaa",
+      "github": "github.com/farouk-daadaa"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "RESTful APIs",
+        "Angular",
+        "AWS",
+        "MySQL",
+        "Docker",
+        "MongoDB",
+        "CI/CD",
+        "Jenkins",
+        "JWT Authentication",
+        "Cloud Architecture Basics",
+        "Linux (Shell scripting, CLI)",
+        "Agile/Scrum"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Problem Solving",
+        "Teamwork",
+        "Time Management",
+        "Adaptability"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "The Bridge E-learning Platform",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Implemented course management features including course creation, enrollment, and progress tracking.",
+          "Integrated real-time features using Web Sockets and live sessions via 100 ms. live.",
+          "Added AI chatbot support, review and rating systems, and Google Maps API for event management."
+        ]
+      },
+      {
+        "company": "BFM (Esprit Group Job Fair Web App)",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed a centralized web application using Spring Boot and Angular to manage job fair events.",
+          "Automated event coordination workflows and improved communication between participants.",
+          "Enhanced usability by optimizing UI and application flow."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT)",
+        "degree": "Computer Engineering Degree",
+        "field": null,
+        "year": "2020 - 2025"
+      }
+    ],
+    "languages": [
+      "English (B 2)",
+      "French (B 2)",
+      "Arabic (native)"
+    ],
+    "certifications": [
+      "Fundamentals of Deep Learning",
+      "Full stack Spring Boot & Angular",
+      "AWS Cloud Practitioner Essentials"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:01:39.650069+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

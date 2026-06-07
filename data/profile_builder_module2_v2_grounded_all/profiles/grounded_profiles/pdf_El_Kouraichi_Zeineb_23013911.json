@@ -1,0 +1,170 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\El_Kouraichi_Zeineb_23013911.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\El_Kouraichi_Zeineb_23013911.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8307,
+  "normalization": {
+    "cleaned_markdown": "## EL KOURAICHI ZEINEB\n\nIngénieure en Génie Électrique & Automatique | IA & Data Science/envelope/map-marker-alt Gabès, Tunisie/phone +216 51 051 103\nzeinebkouraichi 3@gmail.com\n|/linkedin Zeineb-El-Kouraichi\n\n## MACHINE LEARNING & DEEP LEARNING\n\nIngénieure en Génie Électrique et Automatique passionnée par la Data Science et l'Intelligence Artificielle. Spécialisée dans la conception d'algorithmes, la modélisation statistique et le développement de modèles prédictifs. Maîtrise avancée de Python et des bibliothèques de Machine Learning. Curieuse et dotée d'un fort esprit d'équipe, je suis motivée par l'exploitation des données pour optimiser les prises de décisions et proposer des solutions innovantes.\nMachine Learning, Deep Learning, Modélisation statistique, Algorithmique\nMachine Learning Spec.\nSample-based RL\nTunisie\nFundamentals of RL\nPython Fundamentals\nLinux Fundamentals\nDatabase Structures\nSix Sigma (Advanced)\nPython, TensorFlow, Deep Learning/angle-right Élaboration de modèles de Machine Learning pour la reconnaissance d'écriture manuscrite./angle-right Intégration d'une solution de ciblage personnalisé pour l'apprentissage des dyslexiques.\nConception de Base de Données & Catalogage\nMySQL, Architecture de données/angle-right Développement d'un outil d'analyse et de recherche avancée exploitant des requêtes SQL complexes.\n\n## COMPÉTENCES CLÉS\n\nData Science & IA\nTunisie\n\n## EDUCATION\n\nStage de Fin d'Études\nAvr. - Juil. 2024\nSafran Electrical and Power (SEC)\n/angle-right Conception d'un système automatisé de traitement de données de câblage ( B 787, A 320 N ).\n/angle-right Développement d'outils d'analyse avec Django/Python, réduisant les temps d'arrêt de 40% .\n**Date: ** 2021 - 2024\n**Location: ** Outils, Cloud & Déploiement\n-/angle-right Identification d'axes d'optimisation basés sur l'historique des tests.\n- Stage d'Ingénieur\n- Safran Electrical and Power (SEC)\n-/angle-right Validation de processus et extraction de données de diagnostic sur le programme B 787 .\n-/angle-right Amélioration de la précision des diagnostics d'anomalies de +45% .\n- Stage Ouvrier\n- Société Tunisienne de l'Électricité et du Gaz (STEG)\n-/angle-right Modélisation et optimisation des flux de communication internes.\n- FORMATION\n- Certificat: Génie Électrique et Informatique\n- En ligne\n- Université de Colorado Boulder (via Coursera/Cours du soir)\n- Diplôme d'Ingénieur: Génie Électrique-Automatique\n- École Nationale d'Ingénieurs de Gabès (ENIG)\n\n## TECHNICAL SKILLS\n\nLibrairies & Frameworks\nTensorFlow, Scikit-learn Keras\nProgrammation\nPython, SQL, C/C++\nBases de Données\nTunisie\nSQL: MySQL\nNoSQL\n: MongoDB\nDocker, Git, Architecture informatique, Django\nSoftware QA & Automation\nCoursera - En cours\n\n## SOFT SKILLS\n\nTunisie\nGestion de projet, Esprit d'équipe, Curiosité intellectuelle\n\nACADEMIC PROJECTS/angle-right Réduction des délais d'exécution des petits projets de 25% .\n\n## PROJETS TECHNIQUES EN IA & DATA\n\nModèles Prédictifs & Détection d'Anomalies (RL)\nPython, TensorFlow, Scikit-learn, Algorithmique/angle-right Conception de modèles statistiques et d'un agent DQN (modèle MDP) pour l'analyse réseau./angle-right Atteinte d'un taux de prédiction/détection de 92% sur de grands volumes de données.\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nAlgorithmes de Reconnaissance (Computer Vision)\n\n## LANGUAGES\n\nLANGUES/check Arabe\n: Maternelle/check Français\n: Professionnel/check Anglais\n: Professionnel",
+    "header_info": {
+      "full_name": "EL KOURAICHI ZEINEB",
+      "email": "3@gmail.com",
+      "phone": "+216 51 051 103",
+      "location": "Machine Learning, Deep Learning, Modélisation statistique, Algorithmique",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9661,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "EL KOURAICHI ZEINEB",
+      "email": "3@gmail.com",
+      "phone": "+216 51 051 103",
+      "location": "",
+      "linkedin": "/linkedin Zeineb-El-Kouraichi",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieure en Génie Électrique & Automatique passionnée par la Data Science et l'Intelligence Artificielle.",
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "Python",
+        "TensorFlow",
+        "Deep Learning",
+        "Scikit-learn",
+        "Keras",
+        "MySQL",
+        "Docker",
+        "Git",
+        "Architecture informatique",
+        "Django"
+      ],
+      "soft_skills": [
+        "Gestion de projet",
+        "Esprit d'équipe",
+        "Curiosité intellectuelle"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Safran Electrical and Power (SEC)",
+        "job_title": null,
+        "start_date": "Avr. - Juil. 2024",
+        "end_date": null,
+        "city": "",
+        "responsibilities": [
+          "Conception d'un système automatisé de traitement de données de câblage ( B 787, A 320 N ).",
+          "Développement d'outils d'analyse avec Django/Python, réduisant les temps d'arrêt de 40% ."
+        ]
+      },
+      {
+        "company": "Société Tunisienne de l'Électricité et du Gaz (STEG)",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "responsibilities": [
+          "Validation de processus et extraction de données de diagnostic sur le programme B 787 .",
+          "Amélioration de la précision des diagnostics d'anomalies de +45% ."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université de Colorado Boulder (via Coursera/Cours du soir)",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "École Nationale d'Ingénieurs de Gabès (ENIG)",
+        "degree": "Diplôme d'Ingénieur: Génie Électrique-Automatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:53:03.689161+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

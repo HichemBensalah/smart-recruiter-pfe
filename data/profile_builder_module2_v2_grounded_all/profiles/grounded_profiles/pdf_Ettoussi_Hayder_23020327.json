@@ -1,0 +1,163 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ettoussi_Hayder_23020327.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ettoussi_Hayder_23020327.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7407,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nHayder Ettoussi\n\n## HAYDER ETTOUSSI\n\ntoussihayder 00@gmail.com\nEttoussi Hayder\n\n## EDUCATION\n\nFORMATION\n\n## TECHNICAL SKILLS\n\nTechnicien IT doté de compétences en développement (Java, Spring Boot, SQL) et en projets Io T, avec un bon esprit d'analyse et de travail en équipe, actuellement à la recherche d'une opportunité dans le domaine informatique.\n\n## LICENCE EN TECHNOLOGIES DE L'INFORMATIQUE\n\n2023-2025 ISET Charguia\n1 ÉRE ANNÉE EN TECHNOLOGIES DE L'INFORMATIQUE\n2022-2023 ISET bizerte\nBACCALAURÉAT\nSTAGIAIRE\nlycée Soukra\nSTAGIAIRE\n\n## AGENT LOGISTIQUE\n\nPure Beauty Labs\nJ'assure la réception, le stockage et l'expédition des marchandises B 2 C & B 2 B\nJe gère les opérations logistiques avec un ERP (Odoo).\n\n## CENTRE DE TRI\n\nConception en binôme d'un boîtier intelligent (ESP 32, RFID, IR, buzzer) connecté à une application mobile 'Dtecti Box'.\n\n## JANVIER-FEVRIER 2024\n\nOffice National des Postes\nDéveloppement en équipe d'une application de pointage avec carte RFID et Arduino UNO, incluant tests et coordination.\n\n## COMPÉTENCES TECHNIQUES\n\nProgrammation ( CSS 5/HTML 3/PHP/MYSQL/SQL/JS/JAVA/FLUTTER/BOOTSTRAP/PYTHON/C)\nSTAGIAIRE\nAS 2 E\nERP(ODOO)\nLogiciels(ARDUINO IDE/EASY EDA/NODE RED/VS CODE/ANDROID STUDIO/ECLIPSE)\n\n## JANVIER-FEVRIER 2023\n\nStage d'apprentissage en systèmes embarqués, axé sur l'automatisation et le suivi des processus techniques et organisationnels.\n\n## COMPÉTENCES TRANSVERSALES\n\nLa patience\nLa tolérance\nTravaille en groupe\nEsprit critique\n\n## SMART MAILBOX (PFE)\n\nconcevoir un boîtier intelligent et une application mobile, Detecti Box, destinée aux facteurs et aux administrateurs.\n\n## ISET CHARGUIA-2024\n\nDéveloppement d'une application mobile connectée à une base de données distante pour le suivi des interventions.\nConception d'une carte PCB incluant le schéma électronique, le routage et le respect des contraintes techniques.\nDéveloppement d'une montre connectée de suivi GPS et fréquence cardiaque avec application mobile d'affichage des données.\n\n## LANGUAGES\n\nLANGUES\nFrançais: courant\nAnglais: courant\nArabic: native\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\n\n## SCRUM STIDY\n\nAI AND BIG DATA IN IOT 2024\n\n## GREAT LEARNING\n\n## OFFICE NATIONAL DES POSTS-2023\n\nDéveloppement d'un système de pointage avec carte RFID et Arduino Uno, incluant un site web et une base de données en temps réel.\n\n## SQL FOR DATA SCIENCE GREAT LEARNING",
+    "header_info": {
+      "full_name": "Hayder Ettoussi",
+      "email": "00@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7896,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.hard_skills[4]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.hard_skills[4]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Hayder Ettoussi",
+      "email": "toussihayder@00@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "SQL",
+        "Io T"
+      ],
+      "soft_skills": [
+        "La patience",
+        "La tolérance",
+        "Travaille en groupe",
+        "Esprit critique"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Pure Beauty Labs",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "J'assure la réception, le stockage et l'expédition des marchandises B 2 C & B 2 B",
+          "Je gère les opérations logistiques avec un ERP (Odoo)"
+        ]
+      },
+      {
+        "company": "Office National des Postes",
+        "job_title": null,
+        "start_date": "JANVIER-FEVRIER 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement en équipe d'une application de pointage avec carte RFID et Arduino UNO, incluant tests et coordination"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISET Charguia",
+        "degree": "LICENCE EN TECHNOLOGIES DE L'INFORMATIQUE",
+        "field": null,
+        "year": "2023-2025"
+      },
+      {
+        "institution": "ISET bizerte",
+        "degree": "BACCALAURÉAT",
+        "field": null,
+        "year": "2022-2023"
+      }
+    ],
+    "languages": [
+      "Français: courant",
+      "Anglais: courant",
+      "Arabic: native"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:54:50.681774+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

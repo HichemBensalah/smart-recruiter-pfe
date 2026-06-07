@@ -1,0 +1,101 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mariem_Hajji_23014022.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mariem_Hajji_23014022.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mariem_Hajji_23014022.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mariem Hajji",
+      "email": "mariemhajji 099@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "JavaScript",
+        "Python",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JS",
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "REST API",
+        "JSON",
+        "Architecture microservices",
+        "VS Code",
+        "Power BI Desktop",
+        "Swagger UI",
+        "Docker Desktop",
+        "SWI-Prolog",
+        "MongoDB Compass",
+        "Oracle",
+        "Trello",
+        "Figma",
+        "Jupyter Notebook",
+        "Web Storm",
+        "Xtensio",
+        "Android Studio",
+        "XAMPP",
+        "Brackets",
+        "Oracle VM Virtual Box"
+      ],
+      "soft_skills": [
+        "Bureautique",
+        "Documenter les bonnes pratiques pour la configuration et l'utilisation de l'application sur Github",
+        "Implémenter des tests unitaires pour les composants de l'application avec React Testing Library",
+        "Adopter les pratiques DevOps en configurant des pipelines CI/CD dans Jenkins pour automatiser les tests, la compilation et le déploiement de l'application",
+        "Intégrer des fonctionnalités d'intelligence artificielle, incluant: L'ajout de prédictions basées sur les techniques de word embedding.",
+        "Maîtriser les principes fondamentaux de Git."
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Rédiger les rapports journaliers",
+          "Animer les séances de cours",
+          "Préparer des supports numériques et interactifs (cours, exercices)",
+          "Participer aux événements internes et à la vie de l'établissement",
+          "Élaborer des plans de cours"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Concevoir l'architecture de l'application à l'aide des diagrammes UML crées sur draw. io.",
+          "Implémenter d' API REST sécurisés.",
+          "Développer l'interface utilisateur avec React. js, le serveur backend avec Node. js, et implémenter les fonctionnalités d'intelligence artificiale en Python."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:15:23.342333+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8422,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

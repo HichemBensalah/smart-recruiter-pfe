@@ -1,0 +1,179 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ghada_Fekih_23015742.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ghada_Fekih_23015742.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9142,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nGHADAFEKIH\nDéveloppeuse Fullstack/phone +21692142158/envelope ghadafkiih@gmail.com/linkedin ghada-fekih/map-marker-alt Monastir, Tunisie\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeuse Full Stackavec 2 ansd'expérience, spécialiséedanslaconceptiond'applicationswebfiablesetperformantes. Je relève des défis techniques complexes et propose des solutions pragmatiques, tout en restant curieuse et ouverte aux nouvelles technologies.\n**Date: **/calendar 03/2024 - 12/2025\n- EXPÉRIENCE\n- Développeuse Fullstack\n- FANVOICE\n- Plateforme de co-création et d'engagement client\nRefonte complète d'un plateforme multi-clients: intégration de maquettes Figma en interfaces web responsives et ergonomiques, respectant les bonnes pratiques UX.\n**Location: **/map-marker-alt Monastir, Tunisie\nDéveloppement backend de services RESTful APIs avec Laravel, tests via Postman, avec focus sur scalabilité et sécurité.\n- Développement de nouvelles fonctionnalités front-end et back-end: un système de gamification et un forum de contribution en temps réel.\nOptimisation des requêtes et pipelines MongoDB, améliorant les performances et réduisant les temps de traitement.\nMaintenance évolutive et corrective, suivi des releases et analyse des anomalies via Mantis.\nRédaction et mise à jour de la documentation technique des modules, services et API.\n- Contribution aux démonstrations clients et support post-déploiement pour assurer une livraison opérationnelle.\nTechnologies utilisées: Angular, Laravel, Node. js, JavaScript, TypeScript, PHP, HTML, CSS, MongoDB, RESTful APIs, Postman\n**Date: **/calendar 02/2022 - 06/2022\n- Développeuse Full Stack Stagiaire\n- Media PLUS\n- Entreprise de services informatiques\n- Développement d'une application web pour une agence de voyage avec Angular (front-end) et Laravel (back-end).\nConception et implémentation de fonctionnalités clés: gestion des réservations, programmes de fidélité, offres dynamiques, envoi d'emails automatisés et recherches multi-critères.\n**Location: **/map-marker-alt Monastir, Tunisie\n- Création de dashboards administrateurs et gestion des rôles utilisateurs.\nTravail en équipe Agile/Scrum: planification des sprints, revues et livraisons itératives.\nTechnologies utilisées: Angular, Laravel, PHP, Web Socket, HTML, CSS, MySQL, Git.\n**Location: **/map-marker-alt Tunis, Tunisie\n\n## COMPÉTENCES TECHNIQUES\n\nAngular, TypeScript, JavaScript (ES 6+), HTML 5, CSS 3, Tailwind CSS, Bootstrap, Figma\nPHP, Laravel, Node. JS, Python, Docker\nMongoDB, MySQL, PostgreSQL, SQL Server\n\n## EDUCATION\n\nFORMATION\nMastère Professionnel en Business Analytics et Data Science\nUniversité Virtuelle de Tunis/calendar 09/2022 - 06/2024\nLicence en Génie Logiciel et Systèmes d'Information\nInstitut Supérieur d'Informatique de Mahdia/calendar 09/2019 - 06/2022\n\n## ACADEMIC PROJECTS\n\nPROJETS\nDétection automatique de tumeurs cérébrales sur images IRM/calendar 12/2025 - 01/2026\nDéveloppement d'un modèle de détection de tumeurs cérébrales à partir d'images IRM.\nPrétraitement et augmentation des images pour équilibrer les classes, avec utilisation de K-Means pour regrouper des images similaires.\n- Application du transfer learning avec CNN et fine-tuning pour améliorer les performances du modèle.\nÉvaluation du modèle à l'aide de matrice de confusion, précision, rappel et F 1-score.\nTechnologies utilisées: Python, TensorFlow, Keras, OpenCV, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nBuilding Agentic AI Applications with Large Language Models/calendar 01/2026\nNVIDIA\nGenerative AI with Diffusion Models/calendar 12/2026\nNVIDIA\n\n## MACHINE LEARNING & DEEP LEARNING\n\nFundamentals Deep Learning/calendar 12/2025\nNVIDIA\n\n## LANGUAGES\n\nLANGUES\nLangue maternelle\nCourant\nCourant\nArabe:\nFrançais:\nAnglais:",
+    "header_info": {
+      "full_name": null,
+      "email": "ghadafkiih@gmail.com",
+      "phone": "+21692142158",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_full_name",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9828,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "GHADAFEKIH",
+      "email": "ghadafkiih@gmail.com",
+      "phone": "+21692142158",
+      "location": "Monastir, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Développeuse Fullstack avec 2 ans d'expérience en conception d'applications web fiables et performantes.",
+      "experience_level": "mid_level",
+      "years_experience": "2",
+      "hard_skills": [
+        "Angular",
+        "Laravel",
+        "Node.js",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "HTML",
+        "CSS",
+        "MongoDB",
+        "RESTful APIs",
+        "Postman"
+      ],
+      "soft_skills": [
+        "travail en équipe Agile/Scrum",
+        "conception et implémentation de fonctionnalités clés",
+        "création de dashboards administrateurs et gestion des rôles utilisateurs",
+        "optimisation des requêtes et pipelines MongoDB"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "FANVOICE",
+        "job_title": "Développeuse Fullstack",
+        "start_date": "/calendar 03/2024 - 12/2025",
+        "end_date": "/calendar 03/2024 - 12/2025",
+        "city": "Monastir, Tunisie",
+        "responsibilities": []
+      },
+      {
+        "company": "Media PLUS",
+        "job_title": "Développeuse Full Stack Stagiaire",
+        "start_date": "/calendar 02/2022 - 06/2022",
+        "end_date": "/calendar 02/2022 - 06/2022",
+        "city": "Monastir, Tunisie",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université Virtuelle de Tunis",
+        "degree": "Mastère Professionnel en Business Analytics et Data Science",
+        "field": "",
+        "year": "/calendar 09/2022 - 06/2024"
+      },
+      {
+        "institution": "Institut Supérieur d'Informatique de Mahdia",
+        "degree": "Licence en Génie Logiciel et Systèmes d'Information",
+        "field": "",
+        "year": "/calendar 09/2019 - 06/2022"
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:08:34.833512+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

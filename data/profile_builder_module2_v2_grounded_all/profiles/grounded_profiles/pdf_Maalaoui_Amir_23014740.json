@@ -1,0 +1,207 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Maalaoui_Amir_23014740.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Maalaoui_Amir_23014740.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7848,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAmir Maalaoui Ingénieur génie logiciel\nPhone-Alt 93379344 | Envelope amir. maalaoui 27@gmail.com | LINKEDIN linkedin.com/in/amir-maalaoui-12 b 67020 a | Map-marker-alt Ariana\n\n## PROFESSIONAL EXPERIENCE\n\nEXPÉRIENCES\nNGI Groupe\nDéveloppeur Logiciel\nDéveloppement et optimisation d'une plateforme de suivi de flotte en temps réel.\nConception et amélioration du système de reporting et de notifications.\nIntégration et traitement de flux de données en temps réel provenant des dispositifs de géolocalisation des véhicules\nConception de dashboards et analyse de données\n## Configuration et paramétrage applicatif (Docker, env configs)\n**Date: ** Févr. 2025 - Présent\n**Location: ** Ariana, Tunisie\n- Support technique et correction d'anomalies.\nMots-clés: NodeJS, React, Zustand, MongoDB, OSRM, Open Street Map, Stimul Soft, Docker, Kubernetes, Jenkins, Gitlab, Jira\n**Date: ** Févr. 2024 - Juil. 2024\n**Location: ** Sfax, Tunisie\n- Actia Engineering Services\n- Stage PFE\n- Développement d'une application mobile Chotrana Smart Village\nMots-clés: Flutter, Bloc, NodeJS, React, Tailwind CSS, MongoDB, REST API, Jira\n**Date: ** Juin 2023 - Août 2023\n- ONPF\n- Stage PFA\n- Développement d'une application web de gestion électronique des documents (GED)\n## Mots-clés: Django, ReactJS, Bootstrap, PostgreSQL, REST API\n**Date: ** Juil. 2022 - Août 2022\n**Location: ** Tunis, Tunisie\n- Quetratech\n- Stage d'été\nDéveloppement d'une application web de gestion des publications, réservations et commandes\n**Location: ** Mahdia, Tunisie\n## Mots-clés: Laravel, ReactJS, Bootstrap, PostgreSQL, REST API\n**Date: ** Avr. 2021 - Juil. 2021\n- Fablab Mahdia\n- Stage PFE\n- Développement de la partie logicielle d'un robot éducatif avec intégration de l'API Blockly\n## Mots-clés: Blockly, NodeJS, ReactJS, Bootstrap, PostgreSQL, REST API\n**Location: ** Mahdia, Tunisie\n- ÉDUCATION\n\n## COMPÉTENCES TECHNIQUES\n\nLangages:\nCartographie:\nJava, JavaScript, Python, C#, Dart, Php\nFrontend:\nHTML, CSS, Tailwind CSS, Bootstrap, React\nGPS Tracking\nBackend:\nOutils:\nNode. js, Express, Next. js, Django, Laravel, .Net\nBases de données:\nMobile:\nFlutter, React Native\n\n## TECHNICAL SKILLS\n\nDevOps & CI/CD:\nMongoDB, PostgreSQL, MySQL\nMéthodologies:\nScrum\nAnglais\n: Avancé\n: Intermédiaire\nCertification des fondamentaux de Scrum\nCertification en SQL\n\n## LANGUAGES\n\nLANGUES\nArabe\nFrançais\n: Langue maternelle\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nUdemy - JavaScript Programming",
+    "header_info": {
+      "full_name": "Amir Maalaoui Ingénieur génie logiciel",
+      "email": "27@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/amir-maalaoui-12",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.957,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "experiences[4].city",
+      "experiences[4].company",
+      "experiences[4].end_date",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Amir Maalaoui Ingénieur génie logiciel",
+      "email": "27@gmail.com",
+      "phone": null,
+      "location": "Ariana, Tunisie",
+      "linkedin": "linkedin.com/in/amir-maalaoui-12",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "NodeJS",
+        "React",
+        "Zustand",
+        "MongoDB",
+        "OSRM",
+        "Open Street Map",
+        "Stimul Soft",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Gitlab",
+        "Jira"
+      ],
+      "soft_skills": [
+        "Scrum",
+        "Anglais"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "NGI Groupe",
+        "job_title": "Développeur Logiciel",
+        "start_date": "Févr. 2025",
+        "end_date": null,
+        "city": "Ariana, Tunisie",
+        "responsibilities": [
+          "Développement et optimisation d'une plateforme de suivi de flotte en temps réel.",
+          "Conception et amélioration du système de reporting et de notifications.",
+          "Intégration et traitement de flux de données en temps réel provenant des dispositifs de géolocalisation des véhicules",
+          "Conception de dashboards et analyse de données"
+        ]
+      },
+      {
+        "company": "Actia Engineering Services",
+        "job_title": null,
+        "start_date": "Févr. 2024",
+        "end_date": "Juil. 2024",
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Développement d'une application mobile Chotrana Smart Village"
+        ]
+      },
+      {
+        "company": "ONPF",
+        "job_title": null,
+        "start_date": "Juin 2023",
+        "end_date": "Août 2023",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'une application web de gestion électronique des documents (GED)"
+        ]
+      },
+      {
+        "company": "Quetratech",
+        "job_title": null,
+        "start_date": "Juil. 2022",
+        "end_date": "Août 2022",
+        "city": "Mahdia, Tunisie",
+        "responsibilities": [
+          "Développement d'une application web de gestion des publications, réservations et commandes"
+        ]
+      },
+      {
+        "company": "Fablab Mahdia",
+        "job_title": null,
+        "start_date": "Avr. 2021",
+        "end_date": "Juil. 2021",
+        "city": "Mahdia, Tunisie",
+        "responsibilities": [
+          "Développement de la partie logicielle d'un robot éducatif avec intégration de l'API Blockly"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Arabe",
+      "Français"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:06:06.101673+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

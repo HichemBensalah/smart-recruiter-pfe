@@ -1,0 +1,71 @@
+## HEADER
+
+Jesser ZAGHDOUDI
+Ingénieur Full Stack & IA (Python/React/Spring Boot)
+zaghdoudi. jesser@esprit. tn/phone/phone/envelope/envelope
+linkedin. com/in/zaghdoudi-jesser
+github. com/zaghdou/linkedin/linkedin/github/github
+
+## PROFESSIONAL SUMMARY
+
+Profil
+
+## PROFESSIONAL EXPERIENCE
+
+Ingénieur logiciel orienté développement full-stack et IA. Expérience dans la conception d'applications web et l'automatisation de processus métiers (génération de rapports, analyse de données).
+- Expériences Professionnelles
+### Stagiaire PFE - Pw C, Tunis
+**Date:** Fév. 2025 - Aoû. 2025
+- Automatisation de l'analyse et génération documentaire via pandas et python-docx .
+### Python, Flask, React/Next. js, My SQL, Git
+### Stagiaire Ingénieur - IMS Consulting, Tunis
+**Date:** Aoû. 2024 - Sep. 2024
+- Conception d'une plateforme web pour centraliser des offres immobilières (responsive).
+- Modules de gestion utilisateurs/annonces + IA pour analyser tendances et estimer les prix.
+### Spring Boot, Angular, My SQL, Python, Scrapy, Scikit-learn, XGBoost, Docker
+### Stage PFE - GIVEN, Tunis
+**Date:** Jan. 2022 - Juin 2022
+Suivi en temps réel, priorisation des interventions et génération de rapports pour la décision.
+- Architecture modulaire pour performance et maintenabilité.
+### Angular, Spring Boot, Postgre SQL, Git, Jira
+
+## TECHNICAL SKILLS
+
+Compétences
+: Python, Java, PHP, Java Script
+Langages
+: Spring Boot, Angular, React/Next. js, Laravel, Symfony, Flask
+Frameworks
+: Pandas, Scikit-learn, XGBoost
+IA & Data
+: My SQL, Postgre SQL
+Bases de données
+Outils :
+Git, Docker, Jira
+
+## LANGUAGES
+
+Langues :
+Arabe (maternelle), Français (courant), Anglais (professionnel)
+Éducation
+
+## EDUCATION
+
+École Supérieure Privée d'Ingénierie et de Technologie ESPRIT - Diplôme d'Ingénieur Informatique Sep. 2022 - Oct. 2025
+L'Institut Supérieur des Technologies de l'Information et de la Communication ISTIC - Licence Informatique, Réseaux & Télécoms Sep. 2019 - Juil. 2022
+- Développement d'une application web pour automatiser des missions d'audit IT (processus et reporting).
+- API Flask (CRUD) et interface React/Next. js ; intégration d'agents IA pour générer des rapports structurés.
+- Conception et développement d'une application web de gestion des réclamations et interventions (municipalités).
+
+## ACADEMIC PROJECTS
+
+Projets
+Poker Planning Agile - Application collaborative de planification agile
+### Spring Boot, Angular, Mongo DB
+- Comparateur d'Assurances - Plateforme web de comparaison d'offres
+### Laravel, Next. js, My SQL
+### Python, NLTK, Spa Cy, Scikit-learn
+
+## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)
+
+Reconnaissance d'Émotions (NLP) - Détection d'émotions dans du texte

@@ -1,0 +1,1680 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\nadine_el_arajna_23024477.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nLast updated in March 2026\nNadine EL ARAJNA\nAin Zaghouan, Tunis, Tunisie /envelope nadine.elarajna@gmail.com /phone-alt +216 20 563 790\n/map-marker-alt\n/linkedin-in www.linkedin.com/in/nadine-el-arajna-972280210\nPROFESSIONAL SUMMARY\nProfil\nTECHNICAL SKILLS\nIng´ enieure DevOps et syst` emes, diplˆ om´ ee en Ing´ enierie et D´ eveloppement des Infrastructures et Services de Communication (IDISC) ` a l'ISI. Passionn´ ee par le DevOps, l'administration syst` eme et le cloud, je poss` ede des comp´ etences en architecture r´ eseau, gestion de serveurs, automatisation et CI/CD. Actuellement ` a la recherche d'un poste pour contribuer ` a des projets innovants et renforcer mon expertise technique.\n2022-2025 : Ing´ enierie en sciences appliqu´ ees et technologies (ing´ enierie et d´ eveloppement des infrastructures et des services de communication (IDISC)) - Institut sup´ erieur d'informatique - universit´ e Tunis el Manar.\n2019-2022 : Licence en ing´ enierie des syst` emes informatiques (computer engineering) - Institut sup´ erieur d'informatique - universit´ e Tunis el Manar.\nAdministration des environnements collaboratifs (Microsoft 365, SharePoint, Azure).\nSujet : Mise en œuvre d'une solution Database as a Service (DBaaS) bas´ ee sur le cloud.Le d´ eploiement du service est automatis´ e avec Ansible.Ce projet a impliqu´ e deux approches distinctes :\nMise en place d'un cluster PostgreSQL haute disponibilit´ e avec Pacemaker et Corosync sur des machines virtuelles.Cette approche a permis d'assurer le basculement automatique, l'´ equilibrage de charge et la r´ eplication transparente des donn´ ees, renfor¸ cant ainsi l'int´ egrit´ e et la disponibilit´ e des donn´ ees.\nD´ eploiement de MariaDB sur Kubernetes ` a l'aide de Helm et l'Operator MariaDB, en tirant parti de ses fonctionnalit´ es de scalabilit´ e et d'automatisation. De plus, cette approche a int´ egr´ e des strat´ egies de sauvegarde et utilis´ e Prometheus et Grafana pour la supervision. Mention (Tr` es bien)\nAnsible, Terraform, Ansible Automation Platform (AAP), Kubernetes, Prometheus, Grafana.\nSujet : Mise en place d'un pipeline d'int´ egration et de d´ eploiement continus (CI/CD) - Migrer vers la d´ emarche DevOps en mettant en place des chaines d'int´ egration et de d´ eploiement continu afin d'automatiser une grande partie du processus de d´ eveloppement et de d´ eploiement logiciels ce qui r´ esulte une livraison du produit rapide et une organisation plus efficace.\nSujet : Mise en place d'une chaine de d´ eploiement securis´ ee- Cr´ eer un processus fiable et automatis´ e qui permet de d´ eployer une application en toute s´ ecurit´ e.\nNadine EL ARAJNA - Page 1 of 2\nEDUCATION\nFormation scolaire\n2015-2019 : Baccalaur´ eat en sciences exp´ erimentales - lyc´ ee les berges du lac.\nExp´ eriences professionnelles\nCharg´ e IT\nCoFiCert - Tunis, Tunisie\nJanvier - Pr´ esent (2026)\nGestion, configuration et optimisation de l'ERP Odoo.\nDigitalisation et automatisation des processus internes.\nGestion du r´ eseau (Wi-Fi, acc` es utilisateurs) et coordination des prestataires IT.\nStage de fin d'´ etudes\nOneTech Business Solutions (OTBS) - Tunis, Tunisie\nF´ evrier - Juillet (2025)\nOutils :\nStage d'´ et´ e\nOoredoo - Tunis, Tunisie\nJuin - Aoˆ ut (2024)\nOutils : Kubernetes, Docker, Gitlab, CI/CD, SonarQube, Nexus.\nStage d'´ et´ e\nLa centrale commerciale - Tunis, Tunisie\nAoˆ ut (2023)\nOutils : CI/CD, Ansible, Docker, Gitlab, SonarQube, Kubernetes.\nStage de fin d'´ etudes\nOoredoo - Tunis, Tunisie\nF´ evrier-Mai (2022)",
+  "markdown": "## HEADER\n\nLast updated in March 2026\nNadine EL ARAJNA\nAin Zaghouan, Tunis, Tunisie/envelope nadine. elarajna@gmail. com/phone-alt +216 20 563 790/map-marker-alt/linkedin-in www. linkedin. com/in/nadine-el-arajna-972280210\n\n## PROFESSIONAL SUMMARY\n\nProfil\n\n## TECHNICAL SKILLS\n\nIng´ enieure Dev Ops et syst` emes, diplˆ om´ ee en Ing´ enierie et D´ eveloppement des Infrastructures et Services de Communication (IDISC) ` a l'ISI. Passionn´ ee par le Dev Ops, l'administration syst` eme et le cloud, je poss` ede des comp´ etences en architecture r´ eseau, gestion de serveurs, automatisation et CI/CD. Actuellement ` a la recherche d'un poste pour contribuer ` a des projets innovants et renforcer mon expertise technique.\n2022-2025 : Ing´ enierie en sciences appliqu´ ees et technologies (ing´ enierie et d´ eveloppement des infrastructures et des services de communication (IDISC)) - Institut sup´ erieur d'informatique - universit´ e Tunis el Manar.\n2019-2022 : Licence en ing´ enierie des syst` emes informatiques (computer engineering) - Institut sup´ erieur d'informatique - universit´ e Tunis el Manar.\nAdministration des environnements collaboratifs (Microsoft 365, Share Point, Azure).\nSujet : Mise en œuvre d'une solution Database as a Service (DBaa S) bas´ ee sur le cloud. Le d´ eploiement du service est automatis´ e avec Ansible. Ce projet a impliqu´ e deux approches distinctes :\nMise en place d'un cluster Postgre SQL haute disponibilit´ e avec Pacemaker et Corosync sur des machines virtuelles. Cette approche a permis d'assurer le basculement automatique, l'´ equilibrage de charge et la r´ eplication transparente des donn´ ees, renfor¸ cant ainsi l'int´ egrit´ e et la disponibilit´ e des donn´ ees.\nD´ eploiement de Maria DB sur Kubernetes ` a l'aide de Helm et l'Operator Maria DB, en tirant parti de ses fonctionnalit´ es de scalabilit´ e et d'automatisation. De plus, cette approche a int´ egr´ e des strat´ egies de sauvegarde et utilis´ e Prometheus et Grafana pour la supervision. Mention (Tr` es bien)\nAnsible, Terraform, Ansible Automation Platform (AAP), Kubernetes, Prometheus, Grafana.\nSujet : Mise en place d'un pipeline d'int´ egration et de d´ eploiement continus (CI/CD) - Migrer vers la d´ emarche Dev Ops en mettant en place des chaines d'int´ egration et de d´ eploiement continu afin d'automatiser une grande partie du processus de d´ eveloppement et de d´ eploiement logiciels ce qui r´ esulte une livraison du produit rapide et une organisation plus efficace.\nSujet : Mise en place d'une chaine de d´ eploiement securis´ ee- Cr´ eer un processus fiable et automatis´ e qui permet de d´ eployer une application en toute s´ ecurit´ e.\nNadine EL ARAJNA - Page 1 of 2\n\n## EDUCATION\n\nFormation scolaire\n2015-2019 : Baccalaur´ eat en sciences exp´ erimentales - lyc´ ee les berges du lac.\n- Exp´ eriences professionnelles\n- Charg´ e IT\n### Co Fi Cert - Tunis, Tunisie\n**Date:** Janvier - Pr´ esent (2026)\n### Gestion, configuration et optimisation de l'ERP Odoo.\n- Digitalisation et automatisation des processus internes.\nGestion du r´ eseau (Wi-Fi, acc` es utilisateurs) et coordination des prestataires IT.\n- Stage de fin d'´ etudes\n### One Tech Business Solutions (OTBS) - Tunis, Tunisie\n**Date:** F´ evrier - Juillet (2025)\n- Outils :\n- Stage d'´ et´ e\n### Ooredoo - Tunis, Tunisie\n**Date:** Juin - Aoˆ ut (2024)\n### Outils : Kubernetes, Docker, Gitlab, CI/CD, Sonar Qube, Nexus.\n- Stage d'´ et´ e\n### La centrale commerciale - Tunis, Tunisie\n**Date:** Aoˆ ut (2023)\n### Outils : CI/CD, Ansible, Docker, Gitlab, Sonar Qube, Kubernetes.\n- Stage de fin d'´ etudes\n### Ooredoo - Tunis, Tunisie\n**Date:** F´ evrier-Mai (2022)",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Last updated in March 2026",
+        "Nadine EL ARAJNA",
+        "Ain Zaghouan, Tunis, Tunisie /envelope nadine.elarajna@gmail.com /phone-alt +216 20 563 790",
+        "/map-marker-alt",
+        "/linkedin-in www.linkedin.com/in/nadine-el-arajna-972280210"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Last updated in March 2026",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 437.14200000000005,
+            "top": 749.9585183999999,
+            "right": 549.3744288000004,
+            "bottom": 757.8758495999998
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Nadine EL ARAJNA",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 180.293,
+            "top": 714.0400693369318,
+            "right": 431.70741347000006,
+            "bottom": 734.5965422
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Ain Zaghouan, Tunis, Tunisie /envelope nadine.elarajna@gmail.com /phone-alt +216 20 563 790",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 123.18,
+            "top": 689.154846,
+            "right": 495.1618102799998,
+            "bottom": 703.2718502
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/map-marker-alt",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 113.51700000000001,
+            "top": 691.0477375,
+            "right": 119.49457500000001,
+            "bottom": 699.0178374999999
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/linkedin-in www.linkedin.com/in/nadine-el-arajna-972280210",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 185.64200000000005,
+            "top": 671.222846,
+            "right": 412.18157565999985,
+            "bottom": 685.3398502
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL SUMMARY",
+      "section_type": "summary",
+      "content": [
+        "Profil"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Profil",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 55.69700000000003,
+            "top": 649.4395253818182,
+            "right": 88.31078560000003,
+            "bottom": 659.7178048
+          },
+          "section_title": "PROFESSIONAL SUMMARY"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Ing´ enieure DevOps et syst` emes, diplˆ om´ ee en Ing´ enierie et D´ eveloppement des Infrastructures et Services de Communication (IDISC) ` a l'ISI. Passionn´ ee par le DevOps, l'administration syst` eme et le cloud, je poss` ede des comp´ etences en architecture r´ eseau, gestion de serveurs, automatisation et CI/CD. Actuellement ` a la recherche d'un poste pour contribuer ` a des projets innovants et renforcer mon expertise technique.",
+        "2022-2025 : Ing´ enierie en sciences appliqu´ ees et technologies (ing´ enierie et d´ eveloppement des infrastructures et des services de communication (IDISC)) - Institut sup´ erieur d'informatique - universit´ e Tunis el Manar.",
+        "2019-2022 : Licence en ing´ enierie des syst` emes informatiques (computer engineering) - Institut sup´ erieur d'informatique - universit´ e Tunis el Manar.",
+        "Administration des environnements collaboratifs (Microsoft 365, SharePoint, Azure).",
+        "Sujet : Mise en œuvre d'une solution Database as a Service (DBaaS) bas´ ee sur le cloud.Le d´ eploiement du service est automatis´ e avec Ansible.Ce projet a impliqu´ e deux approches distinctes :",
+        "Mise en place d'un cluster PostgreSQL haute disponibilit´ e avec Pacemaker et Corosync sur des machines virtuelles.Cette approche a permis d'assurer le basculement automatique, l'´ equilibrage de charge et la r´ eplication transparente des donn´ ees, renfor¸ cant ainsi l'int´ egrit´ e et la disponibilit´ e des donn´ ees.",
+        "D´ eploiement de MariaDB sur Kubernetes ` a l'aide de Helm et l'Operator MariaDB, en tirant parti de ses fonctionnalit´ es de scalabilit´ e et d'automatisation. De plus, cette approche a int´ egr´ e des strat´ egies de sauvegarde et utilis´ e Prometheus et Grafana pour la supervision. Mention (Tr` es bien)",
+        "Ansible, Terraform, Ansible Automation Platform (AAP), Kubernetes, Prometheus, Grafana.",
+        "Sujet : Mise en place d'un pipeline d'int´ egration et de d´ eploiement continus (CI/CD) - Migrer vers la d´ emarche DevOps en mettant en place des chaines d'int´ egration et de d´ eploiement continu afin d'automatiser une grande partie du processus de d´ eveloppement et de d´ eploiement logiciels ce qui r´ esulte une livraison du produit rapide et une organisation plus efficace.",
+        "Sujet : Mise en place d'une chaine de d´ eploiement securis´ ee- Cr´ eer un processus fiable et automatis´ e qui permet de d´ eployer une application en toute s´ ecurit´ e.",
+        "Nadine EL ARAJNA - Page 1 of 2"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ing´ enieure DevOps et syst` emes, diplˆ om´ ee en Ing´ enierie et D´ eveloppement des Infrastructures et Services de Communication (IDISC) ` a l'ISI. Passionn´ ee par le DevOps, l'administration syst` eme et le cloud, je poss` ede des comp´ etences en architecture r´ eseau, gestion de serveurs, automatisation et CI/CD. Actuellement ` a la recherche d'un poste pour contribuer ` a des projets innovants et renforcer mon expertise technique.",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 62.363,
+            "top": 594.7938459999999,
+            "right": 549.6397435599999,
+            "bottom": 644.7768502
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "2022-2025 : Ing´ enierie en sciences appliqu´ ees et technologies (ing´ enierie et d´ eveloppement des infrastructures et des services de communication (IDISC)) - Institut sup´ erieur d'informatique - universit´ e Tunis el Manar.",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 62.363,
+            "top": 541.666846,
+            "right": 549.6417950399999,
+            "bottom": 567.7388502
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "2019-2022 : Licence en ing´ enierie des syst` emes informatiques (computer engineering) - Institut sup´ erieur d'informatique - universit´ e Tunis el Manar.",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 62.363,
+            "top": 514.921846,
+            "right": 549.63628148,
+            "bottom": 540.9938502
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Administration des environnements collaboratifs (Microsoft 365, SharePoint, Azure).",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 73.70099999999996,
+            "top": 432.85484599999995,
+            "right": 453.41294761999995,
+            "bottom": 446.97185019999995
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Sujet : Mise en œuvre d'une solution Database as a Service (DBaaS) bas´ ee sur le cloud.Le d´ eploiement du service est automatis´ e avec Ansible.Ce projet a impliqu´ e deux approches distinctes :",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 73.70099999999996,
+            "top": 337.8298459999999,
+            "right": 549.6337990999998,
+            "bottom": 363.9018501999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Mise en place d'un cluster PostgreSQL haute disponibilit´ e avec Pacemaker et Corosync sur des machines virtuelles.Cette approche a permis d'assurer le basculement automatique, l'´ equilibrage de charge et la r´ eplication transparente des donn´ ees, renfor¸ cant ainsi l'int´ egrit´ e et la disponibilit´ e des donn´ ees.",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 89.56399999999996,
+            "top": 297.13684599999993,
+            "right": 549.63665772,
+            "bottom": 335.1638501999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "D´ eploiement de MariaDB sur Kubernetes ` a l'aide de Helm et l'Operator MariaDB, en tirant parti de ses fonctionnalit´ es de scalabilit´ e et d'automatisation. De plus, cette approche a int´ egr´ e des strat´ egies de sauvegarde et utilis´ e Prometheus et Grafana pour la supervision. Mention (Tr` es bien)",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 89.56399999999996,
+            "top": 259.27884599999993,
+            "right": 549.6406427599999,
+            "bottom": 297.30585019999995
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Ansible, Terraform, Ansible Automation Platform (AAP), Kubernetes, Prometheus, Grafana.",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 125.40399999999997,
+            "top": 242.49584600000003,
+            "right": 533.9453195000002,
+            "bottom": 256.6128501999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Sujet : Mise en place d'un pipeline d'int´ egration et de d´ eploiement continus (CI/CD) - Migrer vers la d´ emarche DevOps en mettant en place des chaines d'int´ egration et de d´ eploiement continu afin d'automatiser une grande partie du processus de d´ eveloppement et de d´ eploiement logiciels ce qui r´ esulte une livraison du produit rapide et une organisation plus efficace.",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 73.70100000000002,
+            "top": 167.929846,
+            "right": 549.6387122399998,
+            "bottom": 217.91285019999998
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Sujet : Mise en place d'une chaine de d´ eploiement securis´ ee- Cr´ eer un processus fiable et automatis´ e qui permet de d´ eployer une application en toute s´ ecurit´ e.",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 73.70100000000002,
+            "top": 102.48484599999995,
+            "right": 549.6395587000003,
+            "bottom": 128.55685019999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Nadine EL ARAJNA - Page 1 of 2",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 233.28500000000005,
+            "top": 26.606518399999914,
+            "right": 375.39347360000005,
+            "bottom": 34.52384959999995
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [
+        "Formation scolaire"
+      ],
+      "items": [
+        {
+          "title": "2015-2019 : Baccalaur´ eat en sciences exp´ erimentales - lyc´ ee les berges du lac.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Exp´ eriences professionnelles",
+            "Charg´ e IT"
+          ],
+          "evidence_spans": [
+            {
+              "text": "2015-2019 : Baccalaur´ eat en sciences exp´ erimentales - lyc´ ee les berges du lac.",
+              "page_no": 1,
+              "block_indices": [
+                6
+              ],
+              "bbox": {
+                "left": 62.363000000000014,
+                "top": 500.1318459999999,
+                "right": 418.66411458000005,
+                "bottom": 514.2488501999999
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Exp´ eriences professionnelles",
+              "page_no": 1,
+              "block_indices": [
+                7
+              ],
+              "bbox": {
+                "left": 55.69700000000002,
+                "top": 478.3485253818181,
+                "right": 220.97883552000002,
+                "bottom": 488.6268047999999
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Charg´ e IT",
+              "page_no": 1,
+              "block_indices": [
+                8
+              ],
+              "bbox": {
+                "left": 62.363,
+                "top": 460.5562556,
+                "right": 114.40073212,
+                "bottom": 469.3233436
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "CoFiCert - Tunis, Tunisie",
+          "date": "Janvier - Pr´ esent (2026)",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "CoFiCert - Tunis, Tunisie",
+              "page_no": 1,
+              "block_indices": [
+                9
+              ],
+              "bbox": {
+                "left": 62.36300000000001,
+                "top": 448.6012556,
+                "right": 177.2028864600001,
+                "bottom": 457.3982314
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Janvier - Pr´ esent (2026)",
+              "page_no": 1,
+              "block_indices": [
+                36
+              ],
+              "bbox": {
+                "left": 441.402,
+                "top": 459.9162556,
+                "right": 549.6277163200001,
+                "bottom": 468.7132314
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Gestion, configuration et optimisation de l'ERP Odoo.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Digitalisation et automatisation des processus internes."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Gestion, configuration et optimisation de l'ERP Odoo.",
+              "page_no": 1,
+              "block_indices": [
+                11
+              ],
+              "bbox": {
+                "left": 73.70099999999996,
+                "top": 418.06484599999993,
+                "right": 322.0082461400001,
+                "bottom": 432.18185019999993
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Digitalisation et automatisation des processus internes.",
+              "page_no": 1,
+              "block_indices": [
+                12
+              ],
+              "bbox": {
+                "left": 73.70099999999996,
+                "top": 403.2748459999999,
+                "right": 324.1751116400002,
+                "bottom": 417.3918501999999
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Gestion du r´ eseau (Wi-Fi, acc` es utilisateurs) et coordination des prestataires IT.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Stage de fin d'´ etudes"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Gestion du r´ eseau (Wi-Fi, acc` es utilisateurs) et coordination des prestataires IT.",
+              "page_no": 1,
+              "block_indices": [
+                13
+              ],
+              "bbox": {
+                "left": 73.70099999999996,
+                "top": 388.4848459999999,
+                "right": 435.91065194000026,
+                "bottom": 402.6018501999999
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Stage de fin d'´ etudes",
+              "page_no": 1,
+              "block_indices": [
+                14
+              ],
+              "bbox": {
+                "left": 62.36299999999996,
+                "top": 377.3692555999999,
+                "right": 167.29009327999995,
+                "bottom": 386.25334359999994
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "OneTech Business Solutions (OTBS) - Tunis, Tunisie",
+          "date": "F´ evrier - Juillet (2025)",
+          "location": null,
+          "details": [
+            "Outils :",
+            "Stage d'´ et´ e"
+          ],
+          "evidence_spans": [
+            {
+              "text": "OneTech Business Solutions (OTBS) - Tunis, Tunisie",
+              "page_no": 1,
+              "block_indices": [
+                15
+              ],
+              "bbox": {
+                "left": 62.36299999999997,
+                "top": 365.53125559999995,
+                "right": 297.8888266000002,
+                "bottom": 374.32823139999994
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "F´ evrier - Juillet (2025)",
+              "page_no": 1,
+              "block_indices": [
+                37
+              ],
+              "bbox": {
+                "left": 447.76699999999994,
+                "top": 377.48625559999994,
+                "right": 549.63059996,
+                "bottom": 386.2832313999999
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Outils :",
+              "page_no": 1,
+              "block_indices": [
+                19
+              ],
+              "bbox": {
+                "left": 73.70099999999996,
+                "top": 243.45225559999994,
+                "right": 120.97493325999994,
+                "bottom": 252.2193436
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Stage d'´ et´ e",
+              "page_no": 1,
+              "block_indices": [
+                21
+              ],
+              "bbox": {
+                "left": 62.36299999999997,
+                "top": 231.38025560000005,
+                "right": 118.29549499999997,
+                "bottom": 240.26434359999996
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Ooredoo - Tunis, Tunisie",
+          "date": "Juin - Aoˆ ut (2024)",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Ooredoo - Tunis, Tunisie",
+              "page_no": 1,
+              "block_indices": [
+                22
+              ],
+              "bbox": {
+                "left": 62.36299999999998,
+                "top": 219.54225559999998,
+                "right": 171.45546252000005,
+                "bottom": 228.33923140000002
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Juin - Aoˆ ut (2024)",
+              "page_no": 1,
+              "block_indices": [
+                31
+              ],
+              "bbox": {
+                "left": 466.978,
+                "top": 231.49725560000002,
+                "right": 549.6287258600003,
+                "bottom": 240.29423139999994
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Outils : Kubernetes, Docker, Gitlab, CI/CD, SonarQube, Nexus.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Stage d'´ et´ e"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Outils : Kubernetes, Docker, Gitlab, CI/CD, SonarQube, Nexus.",
+              "page_no": 1,
+              "block_indices": [
+                24
+              ],
+              "bbox": {
+                "left": 73.70100000000002,
+                "top": 153.13984600000003,
+                "right": 371.96240984000025,
+                "bottom": 167.25685019999992
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Stage d'´ et´ e",
+              "page_no": 1,
+              "block_indices": [
+                25
+              ],
+              "bbox": {
+                "left": 62.36300000000003,
+                "top": 142.02425559999995,
+                "right": 118.29549500000003,
+                "bottom": 150.90834359999997
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "La centrale commerciale - Tunis, Tunisie",
+          "date": "Aoˆ ut (2023)",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "La centrale commerciale - Tunis, Tunisie",
+              "page_no": 1,
+              "block_indices": [
+                26
+              ],
+              "bbox": {
+                "left": 62.363000000000035,
+                "top": 130.18625559999998,
+                "right": 241.2325166600002,
+                "bottom": 138.9832313999999
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Aoˆ ut (2023)",
+              "page_no": 1,
+              "block_indices": [
+                38
+              ],
+              "bbox": {
+                "left": 496.90500000000003,
+                "top": 142.14125560000002,
+                "right": 549.6240904200004,
+                "bottom": 150.93823139999995
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Outils : CI/CD, Ansible, Docker, Gitlab, SonarQube, Kubernetes.",
+          "date": null,
+          "location": null,
+          "details": [
+            "Stage de fin d'´ etudes"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Outils : CI/CD, Ansible, Docker, Gitlab, SonarQube, Kubernetes.",
+              "page_no": 1,
+              "block_indices": [
+                28
+              ],
+              "bbox": {
+                "left": 73.70100000000002,
+                "top": 87.69484599999998,
+                "right": 377.7745906800004,
+                "bottom": 101.81185019999998
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Stage de fin d'´ etudes",
+              "page_no": 1,
+              "block_indices": [
+                29
+              ],
+              "bbox": {
+                "left": 62.36300000000003,
+                "top": 76.5792555999999,
+                "right": 167.29009328,
+                "bottom": 85.46334359999992
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Ooredoo - Tunis, Tunisie",
+          "date": "F´ evrier-Mai (2022)",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Ooredoo - Tunis, Tunisie",
+              "page_no": 1,
+              "block_indices": [
+                30
+              ],
+              "bbox": {
+                "left": 62.36300000000003,
+                "top": 64.74125559999993,
+                "right": 171.4554625200001,
+                "bottom": 73.53823139999997
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "F´ evrier-Mai (2022)",
+              "page_no": 1,
+              "block_indices": [
+                39
+              ],
+              "bbox": {
+                "left": 465.19500000000005,
+                "top": 76.69625559999997,
+                "right": 549.6330163000002,
+                "bottom": 85.4932313999999
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Formation scolaire",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 55.697,
+            "top": 573.0105253818181,
+            "right": 164.2860816,
+            "bottom": 583.2888047999999
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "2015-2019 : Baccalaur´ eat en sciences exp´ erimentales - lyc´ ee les berges du lac.",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 62.363000000000014,
+            "top": 500.1318459999999,
+            "right": 418.66411458000005,
+            "bottom": 514.2488501999999
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Exp´ eriences professionnelles",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 55.69700000000002,
+            "top": 478.3485253818181,
+            "right": 220.97883552000002,
+            "bottom": 488.6268047999999
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Charg´ e IT",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 62.363,
+            "top": 460.5562556,
+            "right": 114.40073212,
+            "bottom": 469.3233436
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "CoFiCert - Tunis, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 62.36300000000001,
+            "top": 448.6012556,
+            "right": 177.2028864600001,
+            "bottom": 457.3982314
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Janvier - Pr´ esent (2026)",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 441.402,
+            "top": 459.9162556,
+            "right": 549.6277163200001,
+            "bottom": 468.7132314
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Gestion, configuration et optimisation de l'ERP Odoo.",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 73.70099999999996,
+            "top": 418.06484599999993,
+            "right": 322.0082461400001,
+            "bottom": 432.18185019999993
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Digitalisation et automatisation des processus internes.",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 73.70099999999996,
+            "top": 403.2748459999999,
+            "right": 324.1751116400002,
+            "bottom": 417.3918501999999
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Gestion du r´ eseau (Wi-Fi, acc` es utilisateurs) et coordination des prestataires IT.",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 73.70099999999996,
+            "top": 388.4848459999999,
+            "right": 435.91065194000026,
+            "bottom": 402.6018501999999
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Stage de fin d'´ etudes",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 62.36299999999996,
+            "top": 377.3692555999999,
+            "right": 167.29009327999995,
+            "bottom": 386.25334359999994
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "OneTech Business Solutions (OTBS) - Tunis, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 62.36299999999997,
+            "top": 365.53125559999995,
+            "right": 297.8888266000002,
+            "bottom": 374.32823139999994
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "F´ evrier - Juillet (2025)",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 447.76699999999994,
+            "top": 377.48625559999994,
+            "right": 549.63059996,
+            "bottom": 386.2832313999999
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Outils :",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 73.70099999999996,
+            "top": 243.45225559999994,
+            "right": 120.97493325999994,
+            "bottom": 252.2193436
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Stage d'´ et´ e",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 62.36299999999997,
+            "top": 231.38025560000005,
+            "right": 118.29549499999997,
+            "bottom": 240.26434359999996
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Ooredoo - Tunis, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 62.36299999999998,
+            "top": 219.54225559999998,
+            "right": 171.45546252000005,
+            "bottom": 228.33923140000002
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Juin - Aoˆ ut (2024)",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 466.978,
+            "top": 231.49725560000002,
+            "right": 549.6287258600003,
+            "bottom": 240.29423139999994
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Outils : Kubernetes, Docker, Gitlab, CI/CD, SonarQube, Nexus.",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 73.70100000000002,
+            "top": 153.13984600000003,
+            "right": 371.96240984000025,
+            "bottom": 167.25685019999992
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Stage d'´ et´ e",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 62.36300000000003,
+            "top": 142.02425559999995,
+            "right": 118.29549500000003,
+            "bottom": 150.90834359999997
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "La centrale commerciale - Tunis, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 62.363000000000035,
+            "top": 130.18625559999998,
+            "right": 241.2325166600002,
+            "bottom": 138.9832313999999
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Aoˆ ut (2023)",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 496.90500000000003,
+            "top": 142.14125560000002,
+            "right": 549.6240904200004,
+            "bottom": 150.93823139999995
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Outils : CI/CD, Ansible, Docker, Gitlab, SonarQube, Kubernetes.",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 73.70100000000002,
+            "top": 87.69484599999998,
+            "right": 377.7745906800004,
+            "bottom": 101.81185019999998
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Stage de fin d'´ etudes",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 62.36300000000003,
+            "top": 76.5792555999999,
+            "right": 167.29009328,
+            "bottom": 85.46334359999992
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Ooredoo - Tunis, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 62.36300000000003,
+            "top": 64.74125559999993,
+            "right": 171.4554625200001,
+            "bottom": 73.53823139999997
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "F´ evrier-Mai (2022)",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 465.19500000000005,
+            "top": 76.69625559999997,
+            "right": 549.6330163000002,
+            "bottom": 85.4932313999999
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.8412,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 3528,
+      "section_completeness": 0.6667,
+      "ordering_coherence": 0.8333,
+      "segmentation_stability": 0.75,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.2454,
+      "weird_section_ratio": 0.0,
+      "section_count": 4,
+      "expected_section_hits": 4,
+      "markdown_chars": 3654,
+      "markdown_words": 510,
+      "markdown_has_experience": false,
+      "markdown_has_education": true,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 2,
+      "markdown_weird_char_ratio": 0.0192,
+      "markdown_glued_line_count": 7,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=2\", \"pdf_total_text_chars=5376\", \"pdf_total_text_words=747\", \"pdf_avg_text_chars_per_page=2688.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": []
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Last updated in March 2026",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 437.14200000000005,
+        "top": 749.9585183999999,
+        "right": 549.3744288000004,
+        "bottom": 757.8758495999998
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Nadine EL ARAJNA",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 180.293,
+        "top": 714.0400693369318,
+        "right": 431.70741347000006,
+        "bottom": 734.5965422
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Ain Zaghouan, Tunis, Tunisie /envelope nadine.elarajna@gmail.com /phone-alt +216 20 563 790",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 123.18,
+        "top": 689.154846,
+        "right": 495.1618102799998,
+        "bottom": 703.2718502
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/map-marker-alt",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 113.51700000000001,
+        "top": 691.0477375,
+        "right": 119.49457500000001,
+        "bottom": 699.0178374999999
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/linkedin-in www.linkedin.com/in/nadine-el-arajna-972280210",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 185.64200000000005,
+        "top": 671.222846,
+        "right": 412.18157565999985,
+        "bottom": 685.3398502
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Profil",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 55.69700000000003,
+        "top": 649.4395253818182,
+        "right": 88.31078560000003,
+        "bottom": 659.7178048
+      },
+      "section_title": "PROFESSIONAL SUMMARY"
+    },
+    {
+      "text": "Ing´ enieure DevOps et syst` emes, diplˆ om´ ee en Ing´ enierie et D´ eveloppement des Infrastructures et Services de Communication (IDISC) ` a l'ISI. Passionn´ ee par le DevOps, l'administration syst` eme et le cloud, je poss` ede des comp´ etences en architecture r´ eseau, gestion de serveurs, automatisation et CI/CD. Actuellement ` a la recherche d'un poste pour contribuer ` a des projets innovants et renforcer mon expertise technique.",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 62.363,
+        "top": 594.7938459999999,
+        "right": 549.6397435599999,
+        "bottom": 644.7768502
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "2022-2025 : Ing´ enierie en sciences appliqu´ ees et technologies (ing´ enierie et d´ eveloppement des infrastructures et des services de communication (IDISC)) - Institut sup´ erieur d'informatique - universit´ e Tunis el Manar.",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 62.363,
+        "top": 541.666846,
+        "right": 549.6417950399999,
+        "bottom": 567.7388502
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "2019-2022 : Licence en ing´ enierie des syst` emes informatiques (computer engineering) - Institut sup´ erieur d'informatique - universit´ e Tunis el Manar.",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 62.363,
+        "top": 514.921846,
+        "right": 549.63628148,
+        "bottom": 540.9938502
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Administration des environnements collaboratifs (Microsoft 365, SharePoint, Azure).",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 73.70099999999996,
+        "top": 432.85484599999995,
+        "right": 453.41294761999995,
+        "bottom": 446.97185019999995
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Sujet : Mise en œuvre d'une solution Database as a Service (DBaaS) bas´ ee sur le cloud.Le d´ eploiement du service est automatis´ e avec Ansible.Ce projet a impliqu´ e deux approches distinctes :",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 73.70099999999996,
+        "top": 337.8298459999999,
+        "right": 549.6337990999998,
+        "bottom": 363.9018501999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Mise en place d'un cluster PostgreSQL haute disponibilit´ e avec Pacemaker et Corosync sur des machines virtuelles.Cette approche a permis d'assurer le basculement automatique, l'´ equilibrage de charge et la r´ eplication transparente des donn´ ees, renfor¸ cant ainsi l'int´ egrit´ e et la disponibilit´ e des donn´ ees.",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 89.56399999999996,
+        "top": 297.13684599999993,
+        "right": 549.63665772,
+        "bottom": 335.1638501999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "D´ eploiement de MariaDB sur Kubernetes ` a l'aide de Helm et l'Operator MariaDB, en tirant parti de ses fonctionnalit´ es de scalabilit´ e et d'automatisation. De plus, cette approche a int´ egr´ e des strat´ egies de sauvegarde et utilis´ e Prometheus et Grafana pour la supervision. Mention (Tr` es bien)",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 89.56399999999996,
+        "top": 259.27884599999993,
+        "right": 549.6406427599999,
+        "bottom": 297.30585019999995
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Ansible, Terraform, Ansible Automation Platform (AAP), Kubernetes, Prometheus, Grafana.",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 125.40399999999997,
+        "top": 242.49584600000003,
+        "right": 533.9453195000002,
+        "bottom": 256.6128501999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Sujet : Mise en place d'un pipeline d'int´ egration et de d´ eploiement continus (CI/CD) - Migrer vers la d´ emarche DevOps en mettant en place des chaines d'int´ egration et de d´ eploiement continu afin d'automatiser une grande partie du processus de d´ eveloppement et de d´ eploiement logiciels ce qui r´ esulte une livraison du produit rapide et une organisation plus efficace.",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 73.70100000000002,
+        "top": 167.929846,
+        "right": 549.6387122399998,
+        "bottom": 217.91285019999998
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Sujet : Mise en place d'une chaine de d´ eploiement securis´ ee- Cr´ eer un processus fiable et automatis´ e qui permet de d´ eployer une application en toute s´ ecurit´ e.",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 73.70100000000002,
+        "top": 102.48484599999995,
+        "right": 549.6395587000003,
+        "bottom": 128.55685019999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Nadine EL ARAJNA - Page 1 of 2",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 233.28500000000005,
+        "top": 26.606518399999914,
+        "right": 375.39347360000005,
+        "bottom": 34.52384959999995
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Formation scolaire",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 55.697,
+        "top": 573.0105253818181,
+        "right": 164.2860816,
+        "bottom": 583.2888047999999
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "2015-2019 : Baccalaur´ eat en sciences exp´ erimentales - lyc´ ee les berges du lac.",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 62.363000000000014,
+        "top": 500.1318459999999,
+        "right": 418.66411458000005,
+        "bottom": 514.2488501999999
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Exp´ eriences professionnelles",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 55.69700000000002,
+        "top": 478.3485253818181,
+        "right": 220.97883552000002,
+        "bottom": 488.6268047999999
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Charg´ e IT",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 62.363,
+        "top": 460.5562556,
+        "right": 114.40073212,
+        "bottom": 469.3233436
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "CoFiCert - Tunis, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 62.36300000000001,
+        "top": 448.6012556,
+        "right": 177.2028864600001,
+        "bottom": 457.3982314
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Janvier - Pr´ esent (2026)",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 441.402,
+        "top": 459.9162556,
+        "right": 549.6277163200001,
+        "bottom": 468.7132314
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Gestion, configuration et optimisation de l'ERP Odoo.",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 73.70099999999996,
+        "top": 418.06484599999993,
+        "right": 322.0082461400001,
+        "bottom": 432.18185019999993
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Digitalisation et automatisation des processus internes.",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 73.70099999999996,
+        "top": 403.2748459999999,
+        "right": 324.1751116400002,
+        "bottom": 417.3918501999999
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Gestion du r´ eseau (Wi-Fi, acc` es utilisateurs) et coordination des prestataires IT.",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 73.70099999999996,
+        "top": 388.4848459999999,
+        "right": 435.91065194000026,
+        "bottom": 402.6018501999999
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Stage de fin d'´ etudes",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 62.36299999999996,
+        "top": 377.3692555999999,
+        "right": 167.29009327999995,
+        "bottom": 386.25334359999994
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "OneTech Business Solutions (OTBS) - Tunis, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 62.36299999999997,
+        "top": 365.53125559999995,
+        "right": 297.8888266000002,
+        "bottom": 374.32823139999994
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "F´ evrier - Juillet (2025)",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 447.76699999999994,
+        "top": 377.48625559999994,
+        "right": 549.63059996,
+        "bottom": 386.2832313999999
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Outils :",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 73.70099999999996,
+        "top": 243.45225559999994,
+        "right": 120.97493325999994,
+        "bottom": 252.2193436
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Stage d'´ et´ e",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 62.36299999999997,
+        "top": 231.38025560000005,
+        "right": 118.29549499999997,
+        "bottom": 240.26434359999996
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Ooredoo - Tunis, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 62.36299999999998,
+        "top": 219.54225559999998,
+        "right": 171.45546252000005,
+        "bottom": 228.33923140000002
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Juin - Aoˆ ut (2024)",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 466.978,
+        "top": 231.49725560000002,
+        "right": 549.6287258600003,
+        "bottom": 240.29423139999994
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Outils : Kubernetes, Docker, Gitlab, CI/CD, SonarQube, Nexus.",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 73.70100000000002,
+        "top": 153.13984600000003,
+        "right": 371.96240984000025,
+        "bottom": 167.25685019999992
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Stage d'´ et´ e",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 62.36300000000003,
+        "top": 142.02425559999995,
+        "right": 118.29549500000003,
+        "bottom": 150.90834359999997
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "La centrale commerciale - Tunis, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 62.363000000000035,
+        "top": 130.18625559999998,
+        "right": 241.2325166600002,
+        "bottom": 138.9832313999999
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Aoˆ ut (2023)",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 496.90500000000003,
+        "top": 142.14125560000002,
+        "right": 549.6240904200004,
+        "bottom": 150.93823139999995
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Outils : CI/CD, Ansible, Docker, Gitlab, SonarQube, Kubernetes.",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 73.70100000000002,
+        "top": 87.69484599999998,
+        "right": 377.7745906800004,
+        "bottom": 101.81185019999998
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Stage de fin d'´ etudes",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 62.36300000000003,
+        "top": 76.5792555999999,
+        "right": 167.29009328,
+        "bottom": 85.46334359999992
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Ooredoo - Tunis, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 62.36300000000003,
+        "top": 64.74125559999993,
+        "right": 171.4554625200001,
+        "bottom": 73.53823139999997
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "F´ evrier-Mai (2022)",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 465.19500000000005,
+        "top": 76.69625559999997,
+        "right": 549.6330163000002,
+        "bottom": 85.4932313999999
+      },
+      "section_title": "EDUCATION"
+    }
+  ]
+}

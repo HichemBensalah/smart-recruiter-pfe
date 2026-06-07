@@ -1,0 +1,128 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Aifia_Raef_23026393.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Aifia_Raef_23026393.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Aifia_Raef_23026393.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "raef. aifia",
+      "email": "raef.aifia1@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "Développement d'un tableau de bord KPI mis à jour quotidiennement en utilisant React.js, Node.js et MongoDB pour améliorer la prise de décision des équipes internes. Automatisation du traitement des logs Excel via des scripts Node.js évolutifs, réduisant la charge de travail manuelle et améliorant l'efficacité. Optimisation des performances de l'application via le refactoring du code et la gestion des ressources. Collaboration dans des équipes Agile/SCRUM, contribuant à la planification des sprints et aux rétrospectives.",
+      "hard_skills": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Material UI",
+        "Flutter",
+        "Dart",
+        "Adobe Xd",
+        "GitHub",
+        "SCRUM",
+        "Jenkins",
+        "Nexus",
+        "MySQL",
+        "PHP",
+        "Laravel",
+        "Code Igniter",
+        "Firebase",
+        "Swift",
+        "Angular JS",
+        "Figma",
+        "JSON Server",
+        "Docker",
+        "Sonar Qube",
+        "Prometheus",
+        "Grafana",
+        "Spring Boot",
+        "HTML-CSS-jQuery",
+        "Bootstrap",
+        "Tailwind CSS",
+        "JavaScript",
+        "TypeScript",
+        "Oracle",
+        "Jira",
+        "Bitbucket",
+        "Git Lab",
+        "Kotlin"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire Ingénieur Logiciel Full-Stack",
+        "company": "Armatis",
+        "start_date": "Mars 2023",
+        "end_date": "Novembre 2023",
+        "city": "Tunis, Tunisie",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Stagiaire Ingénieur Logiciel",
+        "company": "Société Tunisienne de Banque",
+        "start_date": "Juillet 2022",
+        "end_date": "Septembre 2022",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Stagiaire Ingénieur Logiciel",
+        "company": "Société Tunisienne de Banque",
+        "start_date": "Juillet 2021",
+        "end_date": "Août 2021",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Ingénieur logiciel",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'applications mobiles et desktop en production",
+          "Gestion des déploiements",
+          "Optimisation des performances",
+          "Intégration backend"
+        ]
+      },
+      {
+        "job_title": "Ingénieur Logiciel Full-Stack",
+        "company": "Know Me",
+        "start_date": "Mars 2025",
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement complet des applications Know Me Services et Know Me Provider sur Android, i OS et Windows",
+          "Conception des fonctionnalités, l'architecture, le développement et le déploiement en production",
+          "Traduction des besoins produit en solutions techniques et livraison autonome des fonctionnalités"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "school": "ESPRIT",
+        "year": "2018-2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:32:29.105527+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9865,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

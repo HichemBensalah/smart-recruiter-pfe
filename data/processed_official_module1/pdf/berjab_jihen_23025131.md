@@ -1,0 +1,180 @@
+## HEADER
+
+Mission :
+Méthodologie: Travail autonome
+Technologies : Laravel 11, Blade, HTML 5, CSS 3, Bootstrap, Java Script, My SQL.
+Développeur Web
+Septembre 2024 - juillet 2025
+LBI Tunisie ,Filiale du groupe La Boite Immo France , Tunis, Tunisie.
+Projet 3 : Gestion de Production
+Mission :
+Analyse de besoins, conception de l'architecture logicielle.
+Maintenance de l'application.
+Création de base données.
+Installation et test l'application chez le client.
+Méthodologie:
+Scrum
+Technologies :
+PHP 8 , Bootstrap 4 , JAVASCRIPT, My SQL , Git Lab, Git .
+février 2023 - October 2023
+Stage en ingénierie SECA , Sousse, Tunisie.
+Développeur Full Stack
+janvier 2020 - October 2021
+Freelancer , Tunisie.
+Domaine
+: Les Sites Web
+
+## JIHEN BERJAB
+
+Ingénieur Informatique | Développeur Full Stack
+berjabjihen@gmail. com
+linkedin. com/in/jihen-berjab-7946 a 0195
+
+## PROFESSIONAL SUMMARY
+
+PROFIL
+Adapter le design fourni, connecter les pages aux données du back-office (services, produits, contact),
+assurer la cohérence visuelle et la compatibilité responsive sur tous les supports.
+Domaine : Leader du marché des logiciels de transaction sur le segment des agences immobilières indépendantes.
+Descriptif du projet : Participation au développement et à l'optimisation des flux de données du logiciel Hektor ( La Boîte Immo France ), via deux axes principaux :
+Descriptif du projet : Une application web de gestion de production permettant de surveiller les étapes de fabrication des articles, ainsi que le temps et la quantité sur chaque chaîne de production.
+
+## TECHNICAL SKILLS
+
+Ingénieure informatique avec plus de 5 ans d'expérience en développement web full stack. Compétences solides en PHP (Symfony, Laravel), Java (Spring Boot), .NET Core, Angular, ainsi qu'en ETL (Talend).
+Frameworks
+My SQL, SQL Server (HFSQL)
+Bases de données
+Talend Open Studio 8
+ETL/Data
+Versioning Git, Git Lab, Git Hub, Bitbucket, Sourcetree
+Versioning
+Visual Studio 2022, VSCode, Php Storm, Intelli J IDEA, Windev 24/27, JIRA, Swagger
+Outils
+Autres
+REST API, Signal R, Auto Mapper, PKCS#11, HSM, Maven, Word Press, Presta Shop, Odoo
+Arabe (langue maternelle), Français (courant), Anglais (courant)
+
+## PROFESSIONAL EXPERIENCE
+
+Expérience avérée dans la gestion de flux de données, l'intégration d'APIs REST, la conception de microservices et la collaboration en équipes agiles (Scrum). Maîtrise des environnements My SQL et SQL Server.
+**Date:** Septembre 2025 - décembre 2025
+- EXPERIENCE
+### Développeur Informatique LASER INFORMATIQUE & SOLUTIONS - Tunis, Tunisie
+- Domaine : Assistance et services informatiques .
+- Projet
+- : Agent local PKCS#11 - Composant de la plateforme de signature électronique Pro Sign-LIS .
+Descriptif du projet : Développement d'un micro-service local Java assurant la connexion entre la plateforme de signature distante (DSS) et les dispositifs HSM matériels ( Safe Net, Digi Go, SSCD ) pour la signature électronique qualifiée conforme e IDAS .
+- Mission :
+- Conception d'un agent Spring Boot 3. 3 en Java 17 avec interfaces REST/api/keys et/api/sign.
+- Intégration de la bibliothèque DSS (EU) et du module Sun PKCS 11 pour l'accès matériel au HSM .
+Implémentation complète du cycle de signature : décodage du dtbs B 64 , initialisation PKCS#11 , sélection clé privée, exécution de la signature RSA SHA-256 .
+Gestion dynamique des erreurs et des statuts HTTP (503 : token absent, 204 : clé manquante, 401 : PIN incorrect).
+- Mise en place d'un canal HTTPS local sécurisé entre navigateur et agent.
+- Méthodologie: Scrum
+Technologies : Spring Boot , Java 17 , PKCS#11 ,HSM Tuni Trust ,Maven ,Wrapper Java , HTTPS ,Safe Net ,REST API ,Git , Bitbucket , Sourcetree , Intelli J IDEA .
+- Projet 2 : Intégration de sites vitrines pour parapharmacies
+- Descriptif du projet : Intégration de templates HTML dans un back-office Laravel déjà existant afin de créer des sites vitrines dynamiques pour des parapharmacies.
+
+## COMPÉTENCES TECHNIQUES
+
+C#, PHP 5/7/8, Java, Java Script, Type Script, HTML 5, CSS 3, j Query, WLangage
+Langages
+Symfony v 3/v 6, Laravel 11, Spring Boot 3, .NET Core 6, Angular 14
+
+## LANGUAGES
+
+Langues
+
+## EDUCATION
+
+Processus ETL : Conception de jobs Talend Open Studio pour importer/exporter des données depuis divers systèmes (API, fichiers CSV/XML, base de donnée de logiciels tiers), avec transformation selon les règles métier et chargement en base My SQL . Qualité, cohérence et traçabilité des données sont prioritaires.
+Développement en Symfony V 6 et PHP 8 POO : Amélioration continue du le logiciel Hektor via l'automatisation des flux, l'optimisation des traitements et l'intégration fluide des données dans l'interface. Développement de scripts personnalisés pour les imports en masse, la gestion des erreurs et l'amélioration UX.
+Travail mené en étroite collaboration avec les équipes métier, produit et support, dans un souci de scalabilité, de qualité logicielle et de respect des délais.
+- Mission :
+Conception de jobs Talend Open Studio pour l'import/export automatisé des données clients depuis des logiciels tiers (APIs, fichiers) vers le logiciel Hektor, avec transformation selon les règles métier.
+- Création de classes Java personnalisées (routines Talend) pour optimiser l'extraction et le traitement de données à partir de fichiers XML ou CSV.
+- Débogage et amélioration des processus d'import/export de flux de données pour le logiciel Hektor.
+Participation à la migration de données entre systèmes, avec contrôle qualité et cohérence.
+Écriture de scripts PHP pour assurer la qualité des données : détection des anomalies, correction des incohérences et amélioration des informations stockées en base.
+Développement en PHP 8 POO pour automatiser les flux, optimiser les performances et intégrer les données dans l'interface.
+- Création et optimisation de requêtes SQL (My SQL) pour le traitement et l'injection des données.
+Collaboration avec les équipes produit, métier et support pour répondre aux besoins métier et garantir la qualité du logiciel.
+- Méthodologie: Travail autonome
+Technologies : Symfony V 6 , PHP 8 , JAVA , ETL (TALEND 8) , MYSQL , JIRA , Git , Bitbucket , Php Storm , et des outil interne .
+**Date:** October 2023 - Août 2024
+- Ingénieur informatique
+### Smart Galaxy , Remote , Tunisie.
+- Domaine :
+### Technologie, information et Internet .
+- Descriptif du projet : développé un site web e-commerce pour la vente en ligne d'articles téléphoniques d'accessoires.
+Descriptif du projet : Conception et développement d'un système intelligent de détection automatique des données de factures, basé sur des algorithmes d'intelligence artificielle. Le backend est développé en .NET Core Web API avec une base de données SQL Server .
+Technologies : .NET Core 6, C# 10 , Swagger , Signal R ., Angular 14 , Sql Server, REST, Git Lab, Git, Visual Studio.
+- Domaine :
+### Technologie, information et IOT .
+- Projet :
+- Gestion des énergies
+Descriptif du projet : Développement d'une solution web et mobile pour la gestion des énergies, interfacée avec un système Io T existant (collecte et diffusion de données énergétiques).
+- Mission :
+- Conception de l'architecture logicielle et création des fonctionnalités.
+### Création et consommation d'APIs REST, gestion de la base de données SQL Server.
+- Développement du module de communication (notifications) et intégration de templates front-end.
+- Développement d'une application console complémentaire.
+- intégration de template (Front-end).
+- Méthodologie: Scrum
+Technologies : .NET Core 6 , C# 10 , Angular 14 , Sql Server, REST, Git , Visual Studio, Swagger , Signal R ,
+**Date:** October 2021 - février 2023
+- Auto Mapper .
+### Développeur Full Stack ATF Technologies, Ben Arous, Tunisie.
+**Date:** 2020 - 2023
+- Domaine : Acteur de référence sur le marché de l approvisionnement en fournitures industrielles .
+- Formation et support utilisateurs sur site
+- Méthodologie : Travail autonome
+- Cycle d'Ingénierie en Informatique
+### Iteam University, Tunis ,Tunisie Spécialité : Génie Logiciel
+**Date:** 2013 - 2017
+- Licence Appliquée en Technologie de l'Informatique
+Institut supérieur des études technologiques ,Sousse ,Tunisie Spécialité : Développement des Systèmes d'informations (DSI)
+### Baccalauréat informatique
+**Date:** 2013
+### Lycée Imtiaz Sidi Hassin , Tunis ,Tunisie
+
+## ACADEMIC PROJECTS
+
+### Project 1: E-Commerce Web Site
+- Projet 2 : détection intelligente de données de factures
+- Mission :
+### Analyse de besoins, conception de l'architecture logicielle.
+- Création et consommation d'APIs REST.
+### Développement de module de communication (messages, notifications).
+- Intégration de templates front-end.
+- Méthodologie: Travail autonome
+Descriptif des projets : Développement et maintenance d'un portefeuille de trois applications métier (web et desktop) couvrant la gestion de projets, la gestion de stocks et de facturation, ainsi que la gestion de parking.
+Projet 1 Gestion de projets (Web/PHP 8) Conception et développement d'une application web permettant le suivi complet du cycle de vie des projets clients. La plateforme centralisée offre aux utilisateurs un ensemble de fonctionnalités pour piloter efficacement chaque étape : création, affectation, suivi d'avancement et clôture des projets.
+- Projet 2 - Stocks & Facturation (Desktop/Win Dev 24 - HFSQL) Développement d'une application desktop dédiée à la gestion des stocks et à la facturation de produits industriels. L'outil permet de suivre les entrées/sorties de stocks et de générer automatiquement des factures pour les ventes réalisées.
+Projet 3 - Gestion de Parking (Desktop/Win Dev 27 - HFSQL) Développement d'une application desktop à destination des gestionnaires de parkings, permettant de piloter l'ensemble des opérations liées au stationnement des véhicules (entrées/sorties, tarification, reporting).
+- Mission :
+- Analyse des besoins fonctionnels et rédaction des spécifications
+- Développement des nouvelles fonctionnalités et évolutions applicatives
+### Conception et administration de bases de données (HFSQL, My SQL)
+- Maintenance corrective et évolutive des applications
+- Déploiement et installation des solutions chez les clients
+Technologies : WLangage , Hf Sql , PHP 8 · Win Dev 24/27 , My SQL , HTML/CSS , bootstrap
+Descriptif des projets : Développement de plusieurs applications web en freelance : application de gestion de parking (PHP 7), site de vente de matériels de sécurité électronique, et sites vitrine/ecommerce sous Word Press.
+Conception de l'architecture, développement des fonctionnalités, maintenance des applications.
+### Création et consommation d'APIs REST, gestion de bases de données My SQL.
+- Développement de modules de communication et intégration de templates front-end.
+- Méthodologie : Travail autonome
+### Technologies : PHP 7, Word Press, Bootstrap 3/4, Java Script, My SQL .
+**Date:** Septembre 2018 - janvier 2020
+### Technico-Commerciale & Web Master MTS Tunisie , Ariana, Tunisie.
+- Domaine
+- : Sécurité électronique
+Double rôle : développement commercial (vidéosurveillance, alarmes, contrôle d'accès) et gestion technique du site web e-commerce Presta Shop.
+### Gestion et maintenance du site web, référencement SEO/SEM.
+### Gestion du site e-commerce Presta Shop, conception graphique (Photoshop).
+Prospection commerciale, conseil technique, support client, négociation et vente.
+- Méthodologie :
+- Travail autonome
+- Technologies :
+### Presta Shop, PHP 7, Bootstrap 4, Java Script, My SQL, Odoo .

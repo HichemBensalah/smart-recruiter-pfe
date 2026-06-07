@@ -1,0 +1,148 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\miled_bilel_23016733.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\miled_bilel_23016733.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7558,
+  "normalization": {
+    "cleaned_markdown": "## BILEL MILED\n\nFull Stack Developer specialized in React and Flutter (Dart) for modern web and cross-platform applications, and Express. js for backend development. Holding a diploma in Computer Science with a focus on mobile development.\nhttps: //bilelmiled. github. io +216 23 833 995 linkedin.com/bilel-miled\n\n## ACADEMIC PROJECTS\n\nPROJECTS\n## Padel E-commerce (B 2 C), Mars 2025 - Present\n- Architected a dynamic product catalog using React and Vite, featuring advanced real-time filtering by price range, brand, and category to enhance user navigation.\n- Engineered a responsive and high-conversion UI with Tailwind CSS, including custom-built components like a dual-thumb price slider and automated stock status indicators.\n- Integrated a secure RESTful backend using Express. js and MongoDB for centralized product management, user orders, and real-time database synchronization.\n- Used Git for version control and Asana for project management and task tracking.\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n## Flutter developer intern, IT Gate, SEP 2025 - OCT 2025\nDesign, UX, and development of a job platform application allowing companies to create and manage job offers and candidate applications.\nDevelopment of the backend using Express. js and MongoDB, managing data storage, authentication, and communication between the client and server.\n## Game Developer, Herodot Studio, DEC 2021 - SEP 2024\n## Design, development, and maintenance of video games.\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nReact. js Development, Udemy, FEB 2026\nCompleted an in-depth training in React. js including Hooks, Context API\nBuilt modern web applications using Next. js with server-side rendering and routing.\nImplemented global state management using Redux.\nDeveloped scalable and type-safe applications using TypeScript.\nFull Stack Mobile Development (Flutter + Node. js & Express), Job Gate, AUG 2025\nDeveloped mobile applications with Flutter (frontend) connected to a Node. js & Express backend\nDesigned and consumed REST APIs for communication between mobile apps and backend services.\nApplied state management with Get X to handle navigation, data flow, and app scalability.\n\n## EDUCATION\n\nSeptember 2015 - June 2021\nDiploma in Computer Science, Private Higher School of Engineering and Technology (ESPRIT)\n\n## TECHNICAL SKILLS\n\nSKILLS\nProgramming Languages: JavaScript/TypeScript/React/Dart-Flutter/C#/Node. js/Express. js Development Tools: UNITY/RIDER/Android Studio/Xcode/Visual Studio Code\n\n## LANGUAGES\n\nLANGUAGES English C 1/French C 2/Arabic Native",
+    "header_info": {
+      "full_name": "BILEL MILED",
+      "email": null,
+      "phone": "+216 23 833 995",
+      "location": null,
+      "linkedin": "linkedin.com/bilel-miled",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9512,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.years_experience",
+      "languages[0]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "BILEL MILED",
+      "email": null,
+      "phone": "+216 23 833 995",
+      "location": null,
+      "linkedin": "linkedin.com/bilel-miled",
+      "github": "https://bilelmiled.github.io"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "JavaScript/TypeScript",
+        "React",
+        "Dart-Flutter",
+        "C#",
+        "Node.js",
+        "Express.js"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "IT Gate",
+        "job_title": null,
+        "start_date": "SEP 2025 - OCT 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Design, UX, and development of a job platform application allowing companies to create and manage job offers and candidate applications.",
+          "Development of the backend using Express.js and MongoDB, managing data storage, authentication, and communication between the client and server."
+        ]
+      },
+      {
+        "company": "Herodot Studio",
+        "job_title": null,
+        "start_date": "DEC 2021 - SEP 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Design, development, and maintenance of video games."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Private Higher School of Engineering and Technology (ESPRIT)",
+        "degree": "Diploma in Computer Science",
+        "field": null,
+        "year": "September 2015 - June 2021"
+      }
+    ],
+    "languages": [
+      "English C 1/French C 2/Arabic Native"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:25:53.174860+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

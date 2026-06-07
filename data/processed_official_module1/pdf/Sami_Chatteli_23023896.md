@@ -1,0 +1,33 @@
+## HEADER
+
+Sami Chatteli
+
+## TECHNICAL SKILLS
+
+Software Developer || Full Stack Developer/Designer
+samichatteli @gmail. com
+chatteli-sami
+Portfolio
+Tunisia
+Full Stack and Software Developer with experience in designing, developing, and deploying scalable web applications. Proficient in the MERN stack, Java, and Python, with a solid foundation in both front-end and back-end development.
+Skilled in building responsive user interfaces and efficient server-side architectures, with hands-on experience in RESTful APIs, database management, and modern development frameworks.
+Focused on front-end development, deployment, and branding using Type Script, Next. js, React. js, Nest JS, and Supabase.
+Contributed to UI/UX design and brand identity, aligning the platform with its sustainability-driven mission.
+Web Developer, Designer, Writer, Al-Mukhtaroon Magazine
+Content and Visual Design, directed the magazine's visual identity, serving as the lead designer for all cover art and internal article layouts.
+Digital Application Development, key contributor to the digital development team, specializing in the programming, maintenance, and deployment of organizational websites and proprietary applications.
+
+## PROFESSIONAL SUMMARY
+
+Profile
+
+## PROFESSIONAL EXPERIENCE
+
+Strong understanding of UI/UX principles, with experience in Figma prototyping to deliver intuitive and usercentered designs.
+Demonstrates strong problem-solving abilities, system debugging, and performance optimization, with a focus on writing clean, maintainable, and reliable code.
+### Full Stack Developer, Save The Plate
+**Date:** 02/2026 - Present Tunisia
+- Contributing to the development of a platform aimed at reducing food waste by connecting businesses with surplus food to consumers.
+- Built responsive and scalable user interfaces, integrated APIs, and ensured smooth data flow between front-end and back-end systems.
+Investigative & Editorial Research, conducted extensive in-depth investigative research and critical analysis on complex topics to inform and shape high-impact, influential articles.
+**Date:** 01/2022 - Present Egypt, Remote

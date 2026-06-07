@@ -1,0 +1,80 @@
+## TECHNICAL SKILLS
+
+Ingénieur Infrastructure IT & Cloud Computing
+1003 Tunis, Tunisie
+kaouech. mehdi 25@gmail. com
+Ingénieur Infrastructure IT & Cloud Computing spécialisé dans la conception, l'automatisation et l'administration d'architectures cloud et on-premise. Fort d'une solide expérience en orchestration et conteneurisation et déploiement continu , je pilote des environnements cloud-native complexes en appliquant les meilleures pratiques Dev Sec Ops. Habitué à encadrer des équipes techniques et à coordonner des projets de bout en bout en suivant les méthodologies agiles, je m'engage à livrer des solutions robustes, scalables et alignées sur les enjeux métiers.
+SKILLS
+Administration Systèmes & Virtualisation
+Active Directory, VMware ESXi, Harvester Suse , Proxmox VE
+Architecture & stockage
+SAN ( Network Attached Storage )
+Cloud & Containerisation
+Stagiaire PFE - Cloud Dev Ops
+GCP, Azure, AWS, Docker, Kubernetes, Helm
+Wecraft
+Dev Ops & Automation
+Technologies : GCP, Istio, Git Lab CI/CD, Argo CD, Terraform, Kiali, Jaeger, Elasticsearch
+Terraform, Jenkins, Git Lab CI/CD, Git Hub Actions, Ansible
+Automatisation du provisionnement des clusters GKE avec Terraform, garantissant une infrastructure reproductible et optimisée.
+Monitoring & Observability
+Prometheus, Grafana, Jaeger, ELK Stack, Wazuh, Splunk
+Déploiement d'un service mesh Istio pour le contrôle du trafic applicatif, la sécurité et l'observabilité des services .
+Mise en place de pipelines CI/CD avec Git Lab pour industrialiser les déploiements et améliorer l'efficacité opérationnelle .
+Gestion des déploiements Kubernetes via Helm et Argo CD selon une approche Git Ops, renforçant la traçabilité et la standardisation.
+Contribution aux pratiques Fin Ops en assurant le suivi des ressources cloud, l'optimisation de la consommation et la maîtrise des coûts.
+Stagiaire - Dev Sec Ops
+E-Skills | 07/2023 - 09/2023
+Technologies : Azure, Jenkins, Docker, Spring Boot, Sonar Qube ,Trivy
+Pilotage de la mise en place d'une chaîne CI/CD complète sous Jenkins, garantissant la fiabilité des processus de build, test et déploiement.
+Définition et intégration de pratiques de sécurité avancées (SAST) dans le pipeline afin de renforcer la conformité et réduire les vulnérabilités.
+Conception et déploiement d'architectures conteneurisées sur Azure avec Docker Compose, optimisant l'orchestration multi-conteneurs et la disponibilité des services.
+Stagiaire - Développeur Oracle APEX & PL/SQL
+Talent Tunise | 08/2022 - 08/2022
+Oracle Cloud Infrastructure Dev Ops Professional ( Oracle )
+Technologies : Oracle APEX Cloud , PL/SQL Oracle , Database Actions
+Dev Sec Ops - Kubernetes Dev Ops & Security ( Kode Kloud )
+Participation au développement d'une application web cloud-native de gestion du transport avec Oracle APEX et PL/SQL, assurant évolutivité, fiabilité et optimisation de la collaboration entre les équipes.
+Microsoft Azure Fundamentals ( Coursera )
+Optimisation avancée des modules et procédures PL/SQL, permettant une amélioration mesurable des performances de 30 % sur les temps de réponse applicatifs.
+
+## PROFESSIONAL EXPERIENCE
+
+Expériences Professionnelles
+Parcours Universitaire
+Ingénieur Infrastructure Et Cybersécurité
+### | 06/2025 - Present
+- Red Sys
+Technologies: GCP, Proxmox VE, Forti Gate, Terraform, Jenkins, Argo CD, Sonar Qube, Notion.
+Mise en place et déploiement d'infrastructures on-premise complètes (rack intégré : onduleur (UPS), pare-feu, switches, stockage et serveurs HPE Pro Liant).
+Conception et déploiement de plateformes de virtualisation basées sur Proxmox VE, incluant la mise en place de clusters en haute disponibilité .
+- Administration de serveurs Linux et gestion des environnements (Dev et Prod) .
+- Mise en place de pipelines CI/CD sécurisés avec analyses SAST/DAST et déploiement automatisé en production via Git Ops avec Argo CD.
+Conception, approvisionnement (Fin Ops) et déploiement d'environnements de production, avec optimisation des coûts et des ressources.
+Encadrement d'équipes techniques en méthodologie Agile, coordination des activités projet et suivi des livrables.
+Rédaction, structuration et mise à jour de la documentation technique afin d'assurer la traçabilité, la maintenabilité et la continuité des services.
+
+## EDUCATION
+
+Diplôme National d'Ingénieur en Informatique (Option : Infrastructure IT and cloud computing)
+École Supérieure Privée d'Ingénierie et de Technologies.
+Licence Fondamentale en Informatique Appliquée à la Gestion
+Faculté des Sciences Économiques et de Gestion de Tunis
+
+## ACADEMIC PROJECTS
+
+Projets Personnels
+SOC Next-Gen - Stack Open-Source
+Conception et intégration d'un SOC complet (SIEM Wazuh, EDR, SOAR, IPS, Antivirus). Automatisation de la réponse aux incidents via SOAR avec réduction du temps de traitement, enrichissement Threat Intelligence automatique (Virus Total, MISP), détection proactive par règles YARA, et conformité RGPD/NIS 2 via reporting automatisé.
+
+## CERTIFICATES (IN PROGRESS)
+
+Certifications
+Fortinet Certified Fundamentals Cybersecurity ( Fortinet )
+ESET Technical Expert ( ESET )
+Huawei Certified Specialist Associate Sales Storage (HCSA) ( Huawei )
+
+## LANGUAGES
+
+Langues
+Anglais - courant (lu, écrit, parlé) Français - courant (lu, écrit, parlé) Arabe - langue maternelle

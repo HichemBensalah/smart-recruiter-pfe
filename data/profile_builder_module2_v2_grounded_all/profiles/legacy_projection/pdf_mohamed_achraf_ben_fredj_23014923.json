@@ -1,0 +1,94 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mohamed_achraf_ben_fredj_23014923.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mohamed_achraf_ben_fredj_23014923.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\mohamed_achraf_ben_fredj_23014923.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MOHAMEDACHRAF BEN FREDJ",
+      "email": "raf@gmail.com",
+      "phone": "+216 94 622 592",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Développeur full-stack spécialisé dans l'écosystème TypeScript (React, Next.js, Angular, Ionic, Node.js).",
+      "hard_skills": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Angular",
+        "Ionic",
+        "Node.js",
+        "Express.js",
+        "Nest JS",
+        "GraphQL",
+        "Web Sockets",
+        "Docker",
+        "Jenkins",
+        "Sonar Qube"
+      ],
+      "soft_skills": [
+        "pragmatique",
+        "collaboratif",
+        "orienté vers des solutions évolutives",
+        "code propre",
+        "intégration fluide en équipe dans des environnements Agile"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Juin 2022 - Août 2022",
+        "end_date": "Août 2022",
+        "city": null,
+        "responsibilities": [
+          "livraison de fonctionnalités web et mobile de bout en bout",
+          "mise en œuvre de communication en temps réel (Socket.IO)",
+          "création de pipelines CI/CD avec conteneurisation et contrôles qualité (Docker, Jenkins, Sonar Qube)"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Oct 2024 - Présent",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développeur full-stack"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Développé une plateforme e-commerce full-stack (INFO-LINA) avec la stack MERN.",
+        "school": "SHAREK IT",
+        "year": null
+      },
+      {
+        "degree": "Développé une application hybride web et mobile de prise de rendez-vous médicaux (ALLO DOCTOR) avec React Native, React, Express.js et MongoDB.",
+        "school": "COSO-FT IT",
+        "year": null
+      },
+      {
+        "degree": "Développé une plateforme e-commerce full-stack (INFO-LINA) avec la stack MERN.",
+        "school": "SHAREK IT",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:28:54.410846+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9766,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

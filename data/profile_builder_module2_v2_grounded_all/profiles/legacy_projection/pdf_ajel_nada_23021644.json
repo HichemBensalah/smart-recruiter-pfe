@@ -1,0 +1,114 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\ajel_nada_23021644.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\ajel_nada_23021644.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\ajel_nada_23021644.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Nada Ajel",
+      "email": "nadaajel@gmail.com",
+      "phone": "+216 54 686 216",
+      "location": "Disponible en remote | Ouverte à relocalisation (monde entier) | Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Git/GitHub/Git Lab",
+        "Prometheus",
+        "Grafana",
+        "Linux (Ubuntu, Cent OS)",
+        "Shell Scripting",
+        "ELK Stack",
+        "Sonar Qube",
+        "Trivy",
+        "OWASP ZAP",
+        "OWASP Dependency-Check",
+        "Nexus",
+        "MongoDB",
+        "Terraform",
+        "Ansible",
+        "AWS",
+        "Azure",
+        "Open Shift",
+        "Argo CD",
+        "PostgreSQL",
+        "Open Stack",
+        "GitHub Actions",
+        "Git Lab CI",
+        ".Net",
+        "Oracle SQL",
+        "Spring Boot",
+        "Angular",
+        "Flask",
+        "Node. js",
+        "Next. js"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieure Dev Sec Ops (PFE)",
+        "company": "Xgen Box",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conçu et déployé une infrastructure Dev Sec Ops complète sur VPS OVH (Ubuntu 22. 04) pour une application Node. js/Next. js/MongoDB, couvrant 3 environnements (dev/staging/prod).",
+          "Mis en place un monitoring avancé avec Prometheus, Grafana et centralisation des logs via ELK Stack; gestion des artefacts via Nexus."
+        ]
+      },
+      {
+        "job_title": "Développeuse Full Stack (Stage Ingénieur)",
+        "company": "ESPRIT",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mis en place des algorithmes de parsing et de filtrage de mots-clés, couvrant ~500 offres d'emploi analysées."
+        ]
+      },
+      {
+        "job_title": "Technicienne Réseaux (Stage Technique)",
+        "company": "Tunisie Telecom",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Configuré et supervisé des serveurs MSAN sous Linux pour la fourniture de services Internet et téléphonie."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence Appliquée en Génie Électrique",
+        "school": "ESPRIT - École Supérieure Privée d'Ingénierie et de Technologies",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "ISET Kébili - Institut Supérieur des Études Technologiques de Kébili",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:32:31.467585+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9407,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

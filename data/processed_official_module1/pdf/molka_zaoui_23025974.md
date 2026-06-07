@@ -1,0 +1,81 @@
+## HEADER
+
+Molka Zaoui I N G É N I E U R E I N F O R M A T I Q U E
+molka. zaouii@gmail. com
+Tunis
+Molka Zaoui
+Molka Zaoui
+
+## PROFESSIONAL EXPERIENCE
+
+EXPÉRIENCES
+
+## ACADEMIC PROJECTS
+
+PROJETS
+Novatis
+Chef de projet web et Commercial digital
+Site Web Dynamique: gestion des stocks avec MERN
+Gestion et suivi de projets web, développement commercial, relation client et coordination des équipes techniques.
+**Date:** September 2025
+- Site Web Dynamique: gestion des facturations avec MERN
+- Vermeg Tunis
+- Site Web Dynamique: gestion de stage avec MERN
+- Stage d'été
+- Site Web Dynamique: gestion de recrutement en ligne avec angular 19 et spring boot
+- Tritux Group
+- Site Web Dynamique: gestion des ticket avec angular et spring boot
+- Stage d'été
+- Prisma
+
+## EDUCATION
+
+Stage de fin d'études
+Conception et développement d'une application web pour le recrutement en ligne en entreprise.
+j u i n - a o û t 2 0 2 4
+Développement d'un système de gestion de stages avec authentification, suivi, communication intégrée et rappels automatisés.
+- j u i l l e t 2 0 2 3
+- Plateforme de suivi en temps réel des agents avec géolocalisation et tableau de bord interactif pour une gestion optimisée.
+- école Polytechnique de Sousse
+- Cycle Préparatoire Intégré
+- école Polytechnique de Sousse
+### Baccalauréat en Sciences Expérimentales
+**Date:** 2022-2025
+### Lycée Nouvelle Médina Jadida 3, Tunis
+**Date:** Septembre 2025
+- CERTIFICAT
+- Certificate Artificial Intelligence
+- Certificate Java Script
+
+## TECHNICAL SKILLS
+
+COMPÉTENCES
+Langages : C, Python, Java, PHP, Java Script
+ÉDUCATION
+Développement web : HTML ,CSS,
+Génie Logiciel
+xml, JSON
+Développement mobile :
+Android, flutter
+SGBD : My SQL, No SQL, Mongo DB
+Systèmes : Windows, Ubuntu
+Toeic
+Frame Works : Laravel, Symfony , React Js, Node JS, Spring Boot, Angular 19
+Conception : UML
+
+## ENGAGEMENTS ASSOCIATIFS
+
+Participante à Extreme
+Membre Google Club
+Participante à Nuit de l'info
+Media Management IEEE EPS SB
+
+## LANGUAGES
+
+LANGUES
+Chair IEEE WIE EPS SB
+Arabe : native
+Français : B 2
+Anglais : B 1
+Allemand : A 1
+Italien : A 1

@@ -1,0 +1,106 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\tebourski_abd_el_karim_23018480.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\tebourski_abd_el_karim_23018480.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\tebourski_abd_el_karim_23018480.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Karim Tebourski",
+      "email": "karim.tebourski1@gmail.com",
+      "phone": null,
+      "location": "Ariana, Tunisie"
+    },
+    "expertise": {
+      "summary": "Développeur full stack passionné, expert front-end et back-end, maîtrisant l'ensemble du cycle de vie d'une application.",
+      "hard_skills": [
+        "Github",
+        "MYSQL",
+        "React",
+        "MongoDB",
+        "JavaScript",
+        "Angular",
+        "Unity",
+        "JAVA",
+        "React Native",
+        "NodeJS",
+        "UML",
+        "i OS",
+        "Android",
+        "Linux",
+        "Flutter",
+        "Python"
+      ],
+      "soft_skills": [
+        "Développement personnel",
+        "Montage vidéo",
+        "Photographie"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur full stack",
+        "company": "Shifti",
+        "start_date": null,
+        "end_date": null,
+        "city": "Manzah 8",
+        "responsibilities": [
+          "Conception et gestion de la base de données relationnelle avec SQL.",
+          "Développement du serveur backend avec Node.js.",
+          "Tests et validation des API avec Postman.",
+          "Développement d'une solution web avec React.js.",
+          "Implémentation d'un système d'abonnement payant pour la gestion centralisée des sites clients.",
+          "Intégration des plateformes e-commerce Woo Commerce et Presta Shop via des modules personnalisés.",
+          "Développement de tableaux de bord interactifs avec courbes et graphiques statistiques."
+        ]
+      },
+      {
+        "job_title": "Développeur full stack",
+        "company": "GTI",
+        "start_date": "02/2021",
+        "end_date": "11/2022",
+        "city": null,
+        "responsibilities": [
+          "Développement de scripts PL/SQL pour automatiser la classification des clients bancaires en fonction des paramètres définis.",
+          "Développement et maintenance de l'application web Arena CDL (Java) pour la gestion des créances en souffrance, conforme aux réglementations locales des zones UEMOA et CEMAC."
+        ]
+      },
+      {
+        "job_title": "Développeur full stack",
+        "company": "Innovup",
+        "start_date": null,
+        "end_date": null,
+        "city": "El Ghazala",
+        "responsibilities": [
+          "Conception et développement d'une application web d'administration avec React.js, offrant aux dirigeants la possibilité de configurer les paramètres des missions d'audit.",
+          "Développement d'une application mobile pour auditeurs avec React Native, permettant la gestion et le suivi des missions."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme National d'Ingénieur en Informatique",
+        "school": "ESPRIT",
+        "year": "2018 - 2021"
+      },
+      {
+        "degree": "Diplôme National de Licence Appliqué En Réseaux et Services Informatique",
+        "school": "Institut Supérieur des Etudes Technologiques de Zaghouan",
+        "year": "2015 - 2018"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:51:08.814685+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9762,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

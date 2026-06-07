@@ -1,0 +1,102 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Kouki_nourhene_23016604.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Kouki_nourhene_23016604.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Kouki_nourhene_23016604.json",
+    "profile_kind": "minimal_profile",
+    "bio": {
+      "full_name": "Nourhene Kouki",
+      "email": "03@gmail.com",
+      "phone": "+21696322135",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "Git",
+        "REST APIs",
+        "Lang Chain",
+        "RAG",
+        "Python",
+        "Transformers",
+        "Hugging Face",
+        "FAISS"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Ing´ enieure Full Stack & IA",
+        "company": "Declitech Innovation",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Contribution au d´ eveloppement de solutions web bas´ ees sur l'IA et de syst` emes de recommandation intelligents.",
+          "D´ eveloppement Full Stack d'applications web avec Angular et Spring Boot."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Aca Robotics Technologies",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une application d'analyse de personnalit´ e et d'intelligences multiples bas´ ee sur l'IA:",
+          "Mod´ elisation des exigences et de l'architecture syst` eme ` a l'aide de l'approche MBSE.",
+          "Impl´ ementation d'une architecture RAG combin´ ee ` a des LLM pour g´ en´ erer des rapports personnalis´ e."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Centre National de l'Informatique",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une plateforme web permettant la gestion et le suivi des demandes li´ ee au Gestion de Municipalit´ e:",
+          "Backend Spring Boot pour la gestion des demandes et dossiers municipaux."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Centre National de l'Informatique",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une application web de gestion de formation:",
+          "Impl´ ementation d'un syst` eme d'authentification s´ ecuris´ e avec gestion des rˆ oles ."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Projet de Fin d' ´ Etudes en Intelligence Artificielle",
+        "school": "Aca Robotics Technologies",
+        "year": "2025"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:59:12.569980+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.0,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "low_grounded_reliability",
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

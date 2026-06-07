@@ -1,0 +1,208 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hamdi_Braham_23017585.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hamdi_Braham_23017585.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8807,
+  "normalization": {
+    "cleaned_markdown": "## HAMDI BRAHAM\n\nIngénieur en Génie logicielle\nTunisie | +216 52676758 | Hamdibrahem 52@gmail.com https: //hamdibraham-portfolio. me/https: //www.linkedin.com/in/hamdi-brahem-833 a 5 b 283/https: //github.com/Hamdi Brahem? tab=repositories\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nIngénieur logiciel motivé et dévoué, avec une solide maîtrise des langages de programmation. Expérimenté dans le développement d'applications web et mobiles ainsi que dans la gestion de bases de données.\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nLanterns Studio\nNuage Technologies\nDéveloppeur Web | 01 juillet 2022 - 01 septembre 2022\n\n## EDUCATION\n\n## Développeur mobile (Projet de fin d'études) | 02 février 2025 - 02 juin 2025\nDéveloppement d'une application mobile compagnon pour le métavers Verse World, intégrant l'animation 3 D, des fonctionnalités AR et un chat en temps réel pour améliorer l'engagement des utilisateurs.\nIntégration de services externes tels que Play Fab, Firebase, Sendbird et Hugging Face.\n- FORMATION\n## EPI Digital school | 2022 - 2025\n- Diplôme en Ingénierie Logicielle\n- Licence en Sciences et Technologies de l'Information et de la Communication\nLangages: Java, Python, C, C#, C++, SQL, HTML, CSS, JavaScript, TypeScript, Dart\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppement et maintenance de pages web responsives en utilisant HTML, CSS et JavaScript afin d'améliorer l'expérience utilisateur.\n- Collaboration avec l'équipe backend pour intégrer des API RESTful et assurer une parfaite cohérence entre les plateformes.\n- Développement d'une application mobile de fitness personnalisée utilisant Flutter offrant aux utilisateurs des programmes d'entraînement et de nutrition adaptés à leurs objectifs.\n\n## PROJETS ACADÉMIQUES\n\nApplication mobile de fitness personnalisée\nApplication Web de gestion de clinique ophtalmologique\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMise en place de modèles de machine learning pour recommander des exercices selon les données et objectifs des utilisateurs.\nJ'ai développé une application web complète pour une clinique d'ophtalmologie, utilisant Angular et intégrant l'authentification des patients, la prise de rendez-vous en ligne et un tableau de bord personnalisé\nJ'ai également créé un tableau de bord d'administration pour la gestion des patients, des plannings et des données cliniques, intégrant une communication API sécurisée via ASP. NET.\nInstitut Supérieur d'Informatique et de Mathématiques de Monastir | 2018 - 2021\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nFrameworks: Flutter, React, Node. js, Angular, Spring Boot, ASP. NET\nBibliothèques: NumPy, Pandas, Matplotlib, PyTorch, TensorFlow\nBases de données: MongoDB, PostgreSQL\nOutils: Android Studio, Git, Docker, VS Code, Intellij, Eclipse, Jupiter notebook\nPlatforms/Cloud services: Firebase, Play Fab, Sendbird, Hugging Face, n 8 n\nTests et QA: Selenium, Postman, Playwright, Cypress",
+    "header_info": {
+      "full_name": "HAMDI BRAHAM",
+      "email": "52@gmail.com",
+      "phone": "+216 52676758",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/hamdi-brahem-833",
+      "github": "github.com/Hamdi"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.686,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[10]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]",
+      "languages[4]",
+      "languages[5]",
+      "languages[6]",
+      "languages[7]",
+      "languages[8]",
+      "languages[9]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "HAMDI BRAHAM",
+      "email": "52@gmail.com",
+      "phone": "+216 52676758",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/hamdi-brahem-833",
+      "github": "github.com/Hamdi"
+    },
+    "expertise": {
+      "summary": "Ingénieur logiciel motivé et dévoué, avec une solide maîtrise des langages de programmation.",
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "Flutter",
+        "React",
+        "Node.js",
+        "Angular",
+        "Spring Boot",
+        "ASP.NET",
+        "Python",
+        "C",
+        "C#",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Dart"
+      ],
+      "soft_skills": [
+        "collaboration",
+        "communication"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Lanterns Studio",
+        "job_title": null,
+        "start_date": "01 juillet 2022",
+        "end_date": "01 septembre 2022",
+        "city": null,
+        "responsibilities": [
+          "Développement d'applications web et mobiles",
+          "Gestion de bases de données"
+        ]
+      },
+      {
+        "company": "Nuage Technologies",
+        "job_title": null,
+        "start_date": "01 juillet 2022",
+        "end_date": "01 septembre 2022",
+        "city": null,
+        "responsibilities": [
+          "Développement d'applications web et mobiles",
+          "Gestion de bases de données"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "EPI Digital school",
+        "degree": "Diplôme en Ingénierie Logicielle",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Supérieur d'Informatique et de Mathématiques de Monastir",
+        "degree": "Licence en Sciences et Technologies de l'Information et de la Communication",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Java",
+      "Python",
+      "C",
+      "C#",
+      "C++",
+      "SQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Dart"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:17:32.073519+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

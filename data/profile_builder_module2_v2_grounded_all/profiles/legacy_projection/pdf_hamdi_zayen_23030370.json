@@ -1,0 +1,113 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\hamdi_zayen_23030370.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\hamdi_zayen_23030370.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\hamdi_zayen_23030370.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "HAMDI ZAYEN",
+      "email": "9@gmail.com",
+      "phone": "+216 53623358",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "R",
+        "Java",
+        "C#",
+        "PHP",
+        "JavaScript",
+        "SQL",
+        "HTML",
+        "CSS",
+        "Angular",
+        "Django",
+        "FastAPI",
+        ".NET",
+        "Flutter",
+        "Apache Spark",
+        "Hadoop",
+        "ETL/ELT Pipelines",
+        "Talend",
+        "Data Warehousing",
+        "Data Modeling",
+        "Kafka",
+        "Power BI",
+        "Tableau",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Docker",
+        "Git/GitHub",
+        "REST APIs",
+        "CI/CD",
+        "Linux",
+        "Agile/Scrum"
+      ],
+      "soft_skills": [
+        "AI Engineer Data Scientist",
+        "Deep learning",
+        "Multimodal Al systems",
+        "ETL/ELT pipeline design",
+        "Data preprocessing",
+        "Model integration",
+        "Containerized deployment",
+        "DevOps tools"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Ben Arous",
+        "responsibilities": [
+          "AI Engineer Data Scientist with hands-on experience in deep learning, multimodal Al systems (text, image, audio, video), and advanced data engineering.",
+          "Customer Churn Prediction: Developed a predictive model using Python and scikit-learn to identify customers likely to leave a telecom service, including feature engineering, model evaluation, and reporting insights to improve retention.",
+          "Real-Time Music Trend Analysis: Built a streaming data pipeline using Kafka and Spark Streaming to ingest music-streaming events, detect trending tracks and listener patterns, and display results in real-time dashboards.",
+          "PCAP (Python Institute), Power BI Data Analyst (Microsoft), Building Transformer. Based Applications - NVIDIA DLI, AI-900 (Microsoft), Azure AI Engineer Associate (Microsoft AI-102)",
+          "Designed and shipped an end-to-end email automation Saa S (ingestion → NLP/LLM → ERP actions ), reducing manual handling time by ~65% .",
+          "Built a domain corpus (web scraping + Prodigy annotation); normalization, train/val/test splits, and data versioning for reproducibility.",
+          "Implemented spaCy NER (customers, products, references) with rule/regex post-validation for business checks.",
+          "Delivered a RAG pipeline with Lang Chain (retrievers, FAISS/Chroma vector store, prompt templates, retrieval-augmented generation ) and LLM rewriting (tone/style, summarization, FR/EN) with guardrails and context checks.",
+          "Built an Enterprise Document Management (EDM) platform (Angular + .NET + PostgreSQL) with indexed search and archival workflows, cutting retrieval time by ~75% .",
+          "Implemented IAM (roles & permissions, OAuth 2), audit trails, and hardened access controls.",
+          "NLP Text Analytics Platform: Built an end-to-end NLP pipeline to process large-scale text, performing sentiment analysis, topic modeling, and entity extraction using spaCy, BERT embeddings, and Spark for scalable processing.",
+          "Vehicle Damage Detection (Computer Vision): Created a deep learning model to detect and classify vehicle damages from images for insurance claim automation, using Python, TensorFlow/Keras, and OpenCV.",
+          "Facial Emotion Recognition System: Implemented a real-time system leveraging OpenCV and TensorFlow/Keras for live emotion detection, with automated preprocessing pipelines and model inference."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree in Data Science",
+        "school": "Central Private Polytechnic University",
+        "year": null
+      },
+      {
+        "degree": "Applied Bachelor's Degree in Information Systems Development ISET RADES",
+        "school": "Tunisia",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:19:53.482669+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9694,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

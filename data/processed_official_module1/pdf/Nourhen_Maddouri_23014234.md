@@ -1,0 +1,79 @@
+## NOURHEN MADDOURI
+
+Backend Python | Django · APIs · Angular · AI
+Ariana, Tunis | +216 92 384 193 | nourhenemd@gmail. com
+
+## PROFESSIONAL SUMMARY
+
+PROFIL
+
+## TECHNICAL SKILLS
+
+Diplômée d'un Master Professionnel en Data Science, je suis spécialisée en développement backend avec Python et Django, ainsi qu'en développement frontend avec Angular. J'ai également des compétences en Intelligence Artificielle, notamment en NLP et intégration de modèles d'intelligence artificielle dans des applications web .
+Conception et développement d'un système RAG complet pour analyse automatique de CVs et d'offres d'emploi : extraction de texte, structuration, vectorisation et génération via LLM (Mistral).
+
+## EXPÉRIENCES PROFESSIONNELLES
+
+Stagiaire AI/Backend Python -Looyas | Février -Août 2025
+Mise en place de traitements asynchrones avec Rabbit MQ
+Technologies : Python, Tensor Flow, Fast API, React. js, SQL
+Développement d'une application web de gestion
+Implémentation backend avec Firebase
+Firebase, HTML, CSS, Java Script
+Technologies :
+
+## EDUCATION
+
+Développement d'un agent IA autonome pour recommander des formations personnalisées.
+Implémentation d'APIs REST avec Django et intégration dans une application web avec un frontend développé en Angular.
+Intégration d'un modèle LLM (Mistral via Ollama) pour l'extraction et la structuration des données .
+Technologies : Python, Postgre SQL, Django, REST APIs, Angular, RAG, Lang Chain, Mistral, FAISS, Ollama, Rabbit MQ
+- FORMATION
+### Baccalauréat Sciences Informatiques
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Stagiaire Deep Learning & Computer Vision -IDEA Lab -Bizerte | Février -Juin 2023
+Développement d'une application web pour la classification automatique d'images d'échographie médicale .
+Prétraitement, normalisation, augmentation de données et équilibrage des classes.
+Implémentation d'un modèle CNN/FCNN atteignant 98% de recall, pipeline complet d'entraînement et d'évaluation
+Déploiement du modèle via Fast API et développement d'une interface React. js pour la visualisation des résultats
+Stagiaire Développement Informatique -Câblerie Somitumo | Juillet -Août 2024
+Tableau de bord -Analyse des données étudiants -FSB | Oct -Déc 2024
+Conception d'un tableau de bord interactif complet à partir de données Excel réelles.
+
+## PROJETS ACADÉMIQUES
+
+Filtres dynamiques, visualisation des performances et tendances.
+Technologies : Tableau, Excel, Feature Engineering, Data Visualization
+
+## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)
+
+Traitement automatique du langage (NLP) -FSB | Oct -Déc 2024
+Système de résumé automatique d'articles basé sur Transformers (BART) -prétraitement et optimisation du modèle Technologies : Python, Transformers, BART, NLP, Hugging Face
+Détection de maladies des cultures (CNN) -FSB | Sept -Nov 2024
+Modèle CNN pour détection automatique de maladies à partir d'images ; prétraitement, entraînement et évaluation Python, CNN/FCNN, Tensor Flow, Keras
+Technologies :
+Python, Django, Fast API, REST APIs, Angular
+Automatisation & IA : RAG, Lang Chain, Mistral, Ollama, Prompt Engineering, Agents IA, CNN
+Extraction de texte, Vectorisation, FAISS, SQL
+Master Professionnel en Data Science - Faculté des Sciences de Bizerte | 2023 - 2025
+Licence en Sciences Informatiques (Génie Logiciel) - Faculté des Sciences de Bizerte | 2020 - 2023
+- Lycée Khair Eddine Pacha | 2019 - 2020
+
+## COMPÉTENCES TECHNIQUES
+
+Développement :
+Analyse & Structuration de Données :
+Outils :
+Git, Ollama, Postgre SQL, Tableau
+
+## CERTIFICATES (IN PROGRESS)
+
+CERTIFICATIONS
+Microsoft Azure DP-900 -Principes fondamentaux des données Analyse de données avec Python
+
+## LANGUAGES
+
+LANGUES
+Arabe (langue maternelle) | Français (courant) | Anglais (intermédiaire)

@@ -1,0 +1,106 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Jbali_mariem_23027623.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Jbali_mariem_23027623.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Jbali_mariem_23027623.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mariem Jbali",
+      "email": "507@gmail.com",
+      "phone": "+216 53 540 425",
+      "location": "Béni khalled, Nabeul, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "React.js",
+        "React Native",
+        "TypeScript",
+        "PHP natif",
+        "MySQL",
+        "API REST",
+        "HTML 5",
+        "CSS 3",
+        "JavaScript ES 6+",
+        "Git",
+        "File Zilla",
+        "JSON"
+      ],
+      "soft_skills": [
+        "Conception de interfaces utilisateur fluide et responsive",
+        "Développement de plateformes intuitives pour la recherche d'emplois et la publication d'offres",
+        "Optimisation de la gestion des ressources dans les applications de bâtiment"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Décembre 2024 - Avril 2025",
+        "end_date": "Avril 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement du front-end de l'application web avec Angular"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Août 2024 - Décembre 2024",
+        "end_date": "Décembre 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement du front-end de l'application mobile Libro Job"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Février 2024 - Mai 2024",
+        "end_date": "Mai 2024",
+        "city": null,
+        "responsibilities": [
+          "Migration et développement de nouvelles fonctionnalités pour une application de bâtiment"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Février 2022 - Mai 2022",
+        "end_date": "Mai 2022",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web pour l'administration d'un portail E-commerce"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mastère professionnel en développement des systèmes informatiques et réseaux",
+        "school": "Institut Supérieur des Études Technologiques de Sfax",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat en sciences de l'informatique",
+        "school": "Lycée rue lmanzah, Béni khalled, Nabeul",
+        "year": "2019"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:44:30.760818+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9865,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

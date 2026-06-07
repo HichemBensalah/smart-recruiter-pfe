@@ -1,0 +1,263 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Amine_Nahali_23019094.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Amine_Nahali_23019094.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.88,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAMINE NAHALI - Ingénieur développeur Informatique ISO-9001: 2015\nTél: +216 28 653 254\nSite web: aminenahali. github. io\nMail: amine.nahali.dev@gmail.com\nGitHub: github.com/Amine Nahali\nLinkedin: linkedin.com/in/amine-nahali\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\n\n## EDUCATION\n\nIngénieur Informatique et titulaire d'une Licence en Génie Logiciel, avec une expérience dans la conception, la programmation, le test et la maintenance des solutions IT, formation approfondie aux normes et conventions d'informatique dans l'entreprise, ce rtifié en Big Data, Internet des objets (Iot) et cloud computing, Sécurité informatique et IA.\n- ÉDUCATION\n- ⚫ Cycle ingénieur en génie Informatique spécialité génie logiciel (2022 - 2025).\n- Ecole supérieur polytéchnique privée de monastir. polytechmonastir. com\n- ⚫ License en sciences d'informatique spécialité génie logiciel (2019 - 2022).\n- Institut supérieur d'informatique et de mathématique de Monastir (ISIMM). isimm. rnu. tn\n- formation technique et 'code reviews' pour les développeurs juniors.\nMots clés: Django, Angular, .NET Core, Postgres, Python, C#, Typescript, HTML, CSS, Git-Hub Actions, Docker, Ollama, LLM.\n## ⚫ ARYASON CONSULTING - Tunis, Tunisie aryason. fr\n**Date: ** Août 2023 - Mar 2024\n- Développeur full-stack.\n- Développement d'une solution interne (ERP) pour gérer les ressources de l'entreprise.\n- Refactorisation et rédaction de tests pour les logiciels de gestion interne préexistants.\n- Data analytics & support technique.\n## ⚫ Laboratoire Technologies et Imagerie Médicale FMM - Monastir, Tunisie\n**Date: ** Déc 2021 - Juil 2022\n## Sys Admin, Développeur.\n- Maintenance des serveurs linux sur site dans un réseau local.\nMots clés: MongoDB, Flask, Python, g RPC, Javascript, HTML, CSS, Jquery, Three. JS, Tensorflow, Bash.\n- credly. com/badges/651 fd 568-b 8 b 3-4 c 29-9007-267 ded 056 ab 9/public_url\n- ⚫ IBM Big Data Engineer\n- credly. com/badges/c 7 eb 923 b-c 8 ef-4 aac-a 242-a 452604 fa 635/public_url\n- ⚫ IBM Artificial Intelligence Fundamentals\n- credly. com/badges/95 ffb 059-a 1 dd-4 ee 4-8526-1 ac 5648 a 69 de/public_url\n- ⚫ CISCO Data Analyst\n- credly. com/badges/f 6748 da 2-b 196-4 cc 0-9793-6 dd 64256 cd 15/public_url\n- ⚫ CISCO Endpoint Security (ESec)\n- credly. com/badges/8 b 049 a 87-2 bb 4-4 d 05-a 29 a-e 39826 b 0 ec 79/public_url\n- ⚫ CISCO Ethical Hacker\n- ⚫ CISCO Io T & Digital transformation\n- credly. com/badges/ed 0 ea 26 d-acf 8-4998-bfe 3-2 adc 8226030 a/public_url\n## ⚫ Courant: Français, Anglais.\n- ⚫ Native: Arabe.\n\n## TECH STACK\n\nPython, Java, C/C++, C#, PHP, Ruby, SQL, Django, Spring Boot, Symfony, Laravel, Ruby on Rails, Angular, React, .NET Core, Postgres.\n\n## PROFESSIONAL EXPERIENCE\n\nEXPÉRIENCE\n## ⚫ SUMMITRISE IT - Monastir, Tunisie summitriseit. com\n**Date: ** Fév 2025 - Présent\n## Développeur, Formateur.\n- Développement d'une plateforme web de recrutement renforcée par LLM améliorant l'efficacité de la mise en relation des candidats. (Summit Rise ATS).\n- Correction des bugs et amélioration d'un CRM interne (Summit Rise CRM).\nMots clés: Spring-boot, Angular, Charts. JS, Flask, React. JS, Java, Python, Typescript, HTML, CSS, Docker-Compose, Microsoft Power BI, Excel.\n- D éveloppement et déploiment d'une solution IA de reoconnaissance d'imagerie médicale, qui automatise la gestion des patients atteints par le COVID-19, la solution contient de plus une interface web avec des representations 3 D interactives.\n- CÉRTIFICATIONS\n- LANGUE",
+    "header_info": {
+      "full_name": "Site web: aminenahali. github. io",
+      "email": "amine.nahali.dev@gmail.com",
+      "phone": "+216 28 653 254",
+      "location": null,
+      "linkedin": "linkedin.com/in/amine-nahali",
+      "github": "github.com/Amine"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.976,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "certifications[4]",
+      "certifications[5]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[33]",
+      "expertise.hard_skills[34]",
+      "expertise.hard_skills[35]",
+      "expertise.hard_skills[36]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "AMINE NAHALI",
+      "email": "amine.nahali.dev@gmail.com",
+      "phone": "+216 28 653 254",
+      "location": null,
+      "linkedin": "linkedin.com/in/amine-nahali",
+      "github": "github.com/Amine"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 7,
+      "hard_skills": [
+        "Django",
+        "Angular",
+        ".NET Core",
+        "Postgres",
+        "Python",
+        "C#",
+        "Typescript",
+        "HTML",
+        "CSS",
+        "Git-Hub Actions",
+        "Docker",
+        "Ollama",
+        "LLM",
+        "MongoDB",
+        "Flask",
+        "g RPC",
+        "Javascript",
+        "Jquery",
+        "Three. JS",
+        "Tensorflow",
+        "Bash",
+        "Java",
+        "C/C++",
+        "PHP",
+        "Ruby",
+        "SQL",
+        "Spring Boot",
+        "Symfony",
+        "Laravel",
+        "Ruby on Rails",
+        "React",
+        "Charts. JS",
+        "Spring-boot",
+        "Flask",
+        "React. JS",
+        "Microsoft Power BI",
+        "Excel"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "ARYASON CONSULTING",
+        "job_title": "Développeur full-stack",
+        "start_date": "Août 2023",
+        "end_date": "Mar 2024",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'une solution interne (ERP) pour gérer les ressources de l'entreprise.",
+          "Refactorisation et rédaction de tests pour les logiciels de gestion interne préexistants.",
+          "Data analytics & support technique."
+        ]
+      },
+      {
+        "company": "Laboratoire Technologies et Imagerie Médicale FMM",
+        "job_title": "Sys Admin, Développeur",
+        "start_date": "Déc 2021",
+        "end_date": "Juil 2022",
+        "city": "Monastir, Tunisie",
+        "responsibilities": [
+          "Maintenance des serveurs linux sur site dans un réseau local."
+        ]
+      },
+      {
+        "company": "SUMMITRISE IT",
+        "job_title": "Développeur, Formateur",
+        "start_date": "Fév 2025",
+        "end_date": "Présent",
+        "city": "Monastir, Tunisie",
+        "responsibilities": [
+          "Développement d'une plateforme web de recrutement renforcée par LLM améliorant l'efficacité de la mise en relation des candidats. (Summit Rise ATS).",
+          "Correction des bugs et amélioration d'un CRM interne (Summit Rise CRM).",
+          "D éveloppement et déploiment d'une solution IA de reoconnaissance d'imagerie médicale, qui automatise la gestion des patients atteints par le COVID-19, la solution contient de plus une interface web avec des representations 3 D interactives."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Ecole supérieur polytéchnique privée de monastir",
+        "degree": "Cycle ingénieur en génie Informatique spécialité génie logiciel",
+        "field": null,
+        "year": "2022 - 2025"
+      },
+      {
+        "institution": "Institut supérieur d'informatique et de mathématique de Monastir (ISIMM)",
+        "degree": "License en sciences d'informatique spécialité génie logiciel",
+        "field": null,
+        "year": "2019 - 2022"
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "certifications": [
+      "IBM Big Data Engineer",
+      "IBM Artificial Intelligence Fundamentals",
+      "CISCO Data Analyst",
+      "CISCO Endpoint Security (ESec)",
+      "CISCO Ethical Hacker",
+      "CISCO Io T & Digital transformation"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:37:22.396280+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

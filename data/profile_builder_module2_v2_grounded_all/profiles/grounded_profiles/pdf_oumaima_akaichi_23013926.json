@@ -1,0 +1,203 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\oumaima_akaichi_23013926.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\oumaima_akaichi_23013926.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7923,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\n oumaimaakaichi 00@gmail.com\n Tunis\nOumaima AKAICHI\n 25 ans\nIngénieure en Informatique - Génie Logiciel\nIngénieure en informatique spécialisée en génie logiciel, avec une expertise en Java et PHP, ainsi quʼen développement full-stack. Expérimentée en développement mobile multiplateforme avec Flutter et React Native. Compétente en conception orientée objet, intégration dʼAPI et gestion de bases de données. Passionnée par la création de solutions logicielles performantes.\n\n## EDUCATION\n\nDiplôme dʼingénieure en Informatique - Génie Logiciel\n## ISAMM Institut Supérieur des Arts Multimédia de Manouba Manouba, TU, Tunisie\n**Date: ** De 2022 à 2025\n- Licence en Technologies de lʼInformatique - Développement des systèmes dʼinformation\n## Institut supérieur des études technologiques de Béja Beja, BJ, Tunisie\n**Date: ** De 2019 à 2022\n## Baccalauréat en science informatique\n**Date: ** 2019\n## Lycée de l'environnement de bousalem Jendouba, JE, Tunisie\n- Stage de fin dʼétudes cycle ingénieur\n## SLNEE Tunis, TU, Tunisie\n**Date: ** De février 2025 à août 2025\n- Conception et développement dʼune application web et mobile de gestion de maintenance automobile.\n- Technologies\n##: Flutter, Laravel, Python\n- Stage dʼété cycle ingénieur\n## SAN Jendouba, JE, Tunisie\n**Date: ** Juillet 2024\n- Conception et développement dʼune application web et mobile pour la gestion des fermes.\n- Technologies:\n## React Native, React. js et Node. js.\n- Stage dʼété cycle ingénieur\n## Swicode Tunis, TU, Tunisie\n**Date: ** Juillet 2023\n- Conception et développement dʼune application web de gestion des produits cosmétiques.\n- Technologies\n-: ReactJS et NodeJS\n- Stage de fin dʼétudes licence\n- Graphene\n## Tunis, TU, Tunisie\n**Date: ** De février 2022 à juin 2022\n- Conception et développement dʼune application web et mobile pour la réservation dans les stations de lavage.\n- Technologies\n##: React Native, ReactJS et NodeJS\n- Stage de perfectionnement\n## Centrale Laitière du Nord Tunisie Jendouba, JE, Tunisie\n**Date: ** Juillet 2021\n- Développement dʼun site e-commerce pour la vente de produits informatiques.\nInstallation, configuration et maintenance des postes de travail et des logiciels.\n**Date: ** Février 2020\n\n##: PHP, HTML, CSS\n\nTechnologies\nStage dʼinitiation\nLa BH Banque Jendouba, JE, Tunisie\nParticipation aux activités du département informatique.\n\n## PROJETS ACADÉMIQUES\n\nApplication web: Application de gestion dʼun restaurant universitaire sous Angular et Spring Boot.\nJeu publicitaire\n: Création dʼun jeu 2 D\nsous Unity.\nPlateforme collaborative: Site web dʼun\nchoeur sous React et NodeJS.\nApplication médicale: Application de gestion dʼun cabinet dentaire sous Java.\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nLANGUES\nlangages\nAnglais\nPython, Java, JavaScript, PHP, C, C#, Dart\nIntermédiaire\nFrameworks\nArabe\nLangue maternelle\nReactJS, Angular, Spring Boot, Laravel, Nest JS, Flutter, React Native, Express. js\nFrançais\nBases de données\nCourant\nMySQL, MongoDB, Firebase\n\n## PROJET FREELANCE\n\nApplication web de signature électronique\nTechnologies: ReactJS et NodeJS\n\n## CENTRES D'INTÉRÊT\n\nLecture\n Akaichi Oumaima\nRandonnée\n Oumaima-akaichi",
+    "header_info": {
+      "full_name": "Oumaima AKAICHI",
+      "email": "00@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9585,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "languages[0]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Oumaima AKAICHI",
+      "email": "00@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Expérimentée en développement logiciel, avec expertise en Java et PHP, ainsi quʼen développement full-stack.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java",
+        "PHP",
+        "Flutter",
+        "React Native",
+        "Laravel",
+        "Python",
+        "C",
+        "C#",
+        "Dart",
+        "ReactJS",
+        "Angular",
+        "Spring Boot"
+      ],
+      "soft_skills": [
+        "conception orientée objet",
+        "intégration dʼAPI",
+        "gestion de bases de données",
+        "création de solutions logicielles performantes"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "De février 2022 à juin 2022",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception et développement dʼune application web et mobile pour la réservation dans les stations de lavage."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Juillet 2021",
+        "end_date": null,
+        "city": "Jendouba",
+        "responsibilities": [
+          "Développement dʼun site e-commerce pour la vente de produits informatiques."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "De 2022 à 2025",
+        "end_date": null,
+        "city": "Manouba",
+        "responsibilities": [
+          "Conception et développement dʼune application web et mobile de gestion de maintenance automobile."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "De février 2025 à août 2025",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception et développement dʼune application web et mobile pour la gestion des fermes."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISAMM Institut Supérieur des Arts Multimédia de Manouba",
+        "degree": "Diplôme dʼingénieure en Informatique - Génie Logiciel",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut supérieur des études technologiques de Béja",
+        "degree": "Licence en Technologies de lʼInformatique - Développement des systèmes dʼinformation",
+        "field": null,
+        "year": 2022
+      },
+      {
+        "institution": "Lycée de l'environnement de bousalem",
+        "degree": "Baccalauréat en science informatique",
+        "field": null,
+        "year": 2019
+      }
+    ],
+    "languages": [
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:20:53.833944+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

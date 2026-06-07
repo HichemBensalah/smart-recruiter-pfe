@@ -1,0 +1,267 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hadil_Derbali_23018284.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hadil_Derbali_23018284.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7693,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nSoftware Engineer/envelope_alt/envelope_alt/phone +216 54 556 235/github GitHub/linkedin_sign Linked In/globe Portfolio/map_marker Tunis, Tunisia\nderbalihadil 5@gmail.com\nSkills\nProgramming Languages: Java, C, C#, Python, PL/SQL, TypeScript, JavaScript, HTML 5, CSS 3\nFrameworks & Tools: Spring Boot, Angular, Angular Material, .NET, Microservices, REST API, JWT, Bootstrap, Tailwind CSS, Maven, Docker, Kubernetes, Jenkins, Git, Sonar Qube, Nexus, JUnit, Mockito, Jacoco, Jira, Xray, Keycloak, GitHub Actions, GCP\nMessaging: Rabbit MQ, Kafka, Web Socket\nAI & Emerging Tech: OpenAI API, AI Chatbot Integration, Prompt Engineering\nSoftware Engineering Degree\nESPRIT, Tunis\nBachelor's Degree in Fundamental Chemistry\nFaculty of Sciences of Bizerte\nBaccalaureate in Experimental Sciences\nIben Khaldoun High School\nFreelance Software Developer\nRemote - Real Estate Web Platform - Java Spring Boot & Angular\nDeveloped a full-stack real estate platform with Spring Boot and Angular, featuring a dynamic property form, multimedia uploads, advanced filtering, user messaging, and an admin dashboard.\nDeployed and managed the application on a cloud hosting platform with CI/CD practices.\nFreelance Web Developer\nRemote - E-commerce - Word Press & Woo Commerce\nDelivered responsive e-commerce sites (Word Press, Woo Commerce, Elementor) with SEO and performance optimization.\nBuilt an AI-powered Python chatbot using the OpenAI API, integrated with Woo Commerce to automate user support and increase engagement by 35%.\nFinal Year Intern - Software Engineer\nUPTECH - Tunis, Tunisia\nContributed to the architecture of a multi-service portal platform improving inter-department coordination.\nBuilt a Call Center microservice with Spring Boot and Angular Material, enhancing service efficiency by 50%.\nIntegrated AI-powered inquiry handling using the OpenAI API with Rabbit MQ messaging for intelligent, reliable async communication.\nDeployed CI/CD pipelines using Jenkins, Sonar Qube, Docker, and Kubernetes.\nSoftware Engineering Intern\nAIM-IT Consult - Tunis, Tunisia\nBuilt a ticket-tracking platform integrated with ERP using Spring Boot and Angular.\nIntroduced email notifications, dynamic logs, and workload charts, reducing response time by 30%.\nStreamlined workflows and automated reporting, improving team efficiency by 30%.\nDevOps & CI/CD Platform\nTechnologies: Jenkins, Docker, Prometheus, Grafana, Sonar Qube, Jacoco\nEstablished CI/CD pipelines reducing deployment time by 40%.\nContainerized applications with Docker to ensure scalability and environment consistency.\nDeployed real-time monitoring dashboards using Prometheus and Grafana.\nDance Scape Platform\nTechnologies: Spring Boot, JWT, Angular, MySQL, Flutter Flow, Firebase\nBuilt a centralized dance management platform supporting 100+ active users with JWT authentication.\nDesigned a mobile-friendly interface with Flutter Flow and Firebase backend services.\nImproved development efficiency by 30% using structured Jira workflows and automated Xray testing.\n\n## LANGUAGES\n\nLanguages: Arabic (C 2), French (B 2), English (C 1)",
+    "header_info": {
+      "full_name": null,
+      "email": "5@gmail.com",
+      "phone": "+216 54 556 235",
+      "location": "Programming Languages: Java, C, C#, Python, PL/SQL, TypeScript, JavaScript, HTML 5, CSS 3",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8124,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.github"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "bio.github"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "derbalihadil",
+      "email": "5@gmail.com",
+      "phone": "+216 54 556 235",
+      "location": "Tunis, Tunisia",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java",
+        "C",
+        "C#",
+        "Python",
+        "PL/SQL",
+        "TypeScript",
+        "JavaScript",
+        "HTML 5",
+        "CSS 3",
+        "Spring Boot",
+        "Angular",
+        "Angular Material",
+        ".NET",
+        "Microservices",
+        "REST API",
+        "JWT",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Maven",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Git",
+        "Sonar Qube",
+        "Nexus",
+        "JUnit",
+        "Mockito",
+        "Jacoco",
+        "Jira",
+        "Xray",
+        "Keycloak",
+        "GitHub Actions",
+        "GCP"
+      ],
+      "soft_skills": [
+        "AI Chatbot Integration",
+        "Prompt Engineering",
+        "CI/CD practices",
+        "Deployment and management of applications on cloud hosting platforms",
+        "Streamlined workflows and automated reporting",
+        "Improved team efficiency by 30%",
+        "Reduced response time by 30%",
+        "Automated testing using Xray"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Remote - Real Estate Web Platform",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Developed a full-stack real estate platform with Spring Boot and Angular",
+          "Deployed and managed the application on a cloud hosting platform"
+        ]
+      },
+      {
+        "company": "Remote - E-commerce",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Delivered responsive e-commerce sites with SEO and performance optimization"
+        ]
+      },
+      {
+        "company": "UPTECH - Tunis, Tunisia",
+        "job_title": "Final Year Intern - Software Engineer",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Contributed to the architecture of a multi-service portal platform"
+        ]
+      },
+      {
+        "company": "AIM-IT Consult - Tunis, Tunisia",
+        "job_title": "Software Engineering Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Built a ticket-tracking platform integrated with ERP"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT, Tunis",
+        "degree": "Software Engineering Degree",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Faculty of Sciences of Bizerte",
+        "degree": "Bachelor's Degree in Fundamental Chemistry",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Iben Khaldoun High School",
+        "degree": "Baccalaureate in Experimental Sciences",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic (C 2)",
+      "French (B 2)",
+      "English (C 1)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:16:30.401124+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

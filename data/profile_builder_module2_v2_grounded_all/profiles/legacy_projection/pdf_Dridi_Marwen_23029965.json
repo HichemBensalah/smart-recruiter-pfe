@@ -1,0 +1,102 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Dridi_Marwen_23029965.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Dridi_Marwen_23029965.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Dridi_Marwen_23029965.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Dridi Marwen",
+      "email": "dridimarwen58@gmail.com",
+      "phone": "+216 40 404 420",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "React.js",
+        "React Native",
+        "Node.js",
+        "Express.js",
+        "Nest JS",
+        "Redis",
+        "MongoDB",
+        "PostgreSQL",
+        "SQL",
+        "Web Sockets/Socket.io",
+        "Stripe API",
+        "UML",
+        "Javascript/typescript",
+        "HTML",
+        "CSS"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "DÉVELOPPEUR FULL STACK",
+        "company": "EYEOTECH",
+        "start_date": "Avril 2024",
+        "end_date": "Janvier 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement backend avec architecture microservices utilisant Nest JS",
+          "Implémentation de Redis pour la gestion des files d'attente en temps réel",
+          "Intégration avec MongoDB pour le stockage des données transactionnelles",
+          "Optimisation des performances pour supporter des pics de charge élevés",
+          "Développement d'API RESTful et GraphQL pour les clients frontaux"
+        ]
+      },
+      {
+        "job_title": "DÉVELOPPEUR MOBILE (REACT NATIVE)",
+        "company": "IMAGINEPARTNERS",
+        "start_date": "Juin 2022",
+        "end_date": "Mars 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement de 3 applications interconnectées (vente, achat, livraison) avec React Native",
+          "Intégration de paiements sécurisés via Stripe (cartes bancaires, wallet)",
+          "Système complet de notifications push pour les mises à jour de commandes",
+          "Tracking GPS en temps réel pour le suivi des livraisons",
+          "Backend avec Node.js/Express et PostgreSQL pour la gestion des transactions",
+          "Synchronisation des données entre applications via API REST"
+        ]
+      },
+      {
+        "job_title": "TECHNICIEN IT",
+        "company": "GROUPE DRAXLMAIER SILIANA",
+        "start_date": "Janvier 2017",
+        "end_date": "Février 2017",
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence appliquée en technologies et sciences de l'informatiques",
+        "school": "ISET KAIROUAN",
+        "year": null
+      },
+      {
+        "degree": "CQC - CERTIFICAT DE QUALIFICATION ET DE COMPÉTENCES",
+        "school": "Centre Technologique Elife Siliana",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T18:35:11.909083+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9556,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

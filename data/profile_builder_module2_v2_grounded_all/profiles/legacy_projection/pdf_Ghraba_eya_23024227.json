@@ -1,0 +1,71 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ghraba_eya_23024227.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ghraba_eya_23024227.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ghraba_eya_23024227.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "EYA GHRABA Technicienne Informatique Junior",
+      "email": "gheya 63@gmail.com",
+      "phone": "+216 92 683 786",
+      "location": "Tunisie"
+    },
+    "expertise": {
+      "summary": "Passionnée par le développement web et mobile, avec une expérience dans le support technique, les systèmes et réseaux ainsi que la conception d'applications modernes.",
+      "hard_skills": [
+        "HTML, CSS, JavaScript",
+        "Angular, React",
+        "Flutter"
+      ],
+      "soft_skills": [
+        "Communication et gestion des relations avec les utilisateurs et parties prenantes",
+        "Analyse de données et interprétation des métriques",
+        "Résolution de problèmes et esprit critique",
+        "Organisation et gestion des priorités",
+        "Adaptabilité et travail en équipe dans un environnement dynamique",
+        "Esprit analytique et sens du service",
+        "Apprentissage rapide et adaptabilité",
+        "Curiosité technique et créativité digitale"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Diagnostic et résolution des incidents matériels et logiciels",
+          "Maintenance informatique de base et gestion des équipements"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Technologie de l'Informatique - Développement des Systèmes d'Information",
+        "school": "Iset Tozeur",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Tunisie Télécom",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:12:03.308855+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9712,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

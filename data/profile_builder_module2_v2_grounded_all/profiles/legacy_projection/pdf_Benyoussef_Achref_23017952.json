@@ -1,0 +1,105 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Benyoussef_Achref_23017952.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Benyoussef_Achref_23017952.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Benyoussef_Achref_23017952.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Achref Benyoussef",
+      "email": "212@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Spring boot",
+        "Angular",
+        "Laravel",
+        "React",
+        "Node.js",
+        "Java",
+        "JavaScript",
+        "Python",
+        "C",
+        "MySQL",
+        "Oracle",
+        "Git",
+        "Docker",
+        "Jenkins",
+        "Nexus"
+      ],
+      "soft_skills": [
+        "Travail en équipe",
+        "Résolution de problèmes"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Mars 2024",
+        "end_date": "Fev 2025",
+        "city": null,
+        "responsibilities": [
+          "Création d'une interface utilisateur responsive et intuitive pour améliorer l'expérience client et faciliter la gestion interne.",
+          "Conception et développement d'une application web pour Eco Market afin de faciliter le déroulement des tâches administratives et opérationnelles."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Sep 2020",
+        "end_date": "Fev 2024",
+        "city": null,
+        "responsibilities": [
+          "Mise en œuvre des fonctionnalités principales: gestion des réunions, les mails internes, gestion des primes et les performances des employés.",
+          "Intégration de Spring Boot pour la gestion sécurisée des données et la communication avec la base de données."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Fev 2023",
+        "end_date": "Jui 2023",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application web RH (gestion des congés, contrats et dossiers employés)."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingénieur En Informatique",
+        "school": "ESPRIT, Tunis",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "ISET, Nabeul",
+        "year": null
+      },
+      {
+        "degree": "Bac Technique",
+        "school": "Lycée Abdelaziz El Khouja",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:46:23.684333+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9545,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

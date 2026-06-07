@@ -108,6 +108,7 @@ def test_candidates_endpoint_rejects_invalid_pagination() -> None:
 
 
 def test_candidates_endpoint_returns_404_when_cards_artifact_is_absent(monkeypatch, tmp_path) -> None:
+    monkeypatch.setenv("DATA_BACKEND", "artifacts")
     monkeypatch.setattr("src.api.utils.DECISION_CARDS_TRANSFERABILITY", tmp_path / "missing_transferability.json")
     monkeypatch.setattr("src.api.utils.DECISION_CARDS_ML", tmp_path / "missing_ml.json")
     monkeypatch.setattr("src.api.utils.DECISION_CARDS_OFFICIAL", tmp_path / "missing_official.json")

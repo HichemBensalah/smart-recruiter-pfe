@@ -1,0 +1,244 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\bilel_bouabidi_23014735.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\bilel_bouabidi_23014735.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8504,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nBilel Bouabidi | Full Stack Developer |\nPython & AI-Oriented Backend\nTunis, Tunisia - +216 29 607 107 - bilelbouabidi 2@gmail.com/github bilelbouabidi ·/linkedin-in bouabidi-bilel\n\n## PROFESSIONAL SUMMARY\n\nProfile\n\n## PROFESSIONAL EXPERIENCE\n\nFull Stack Developer with experience in backend APIs, modern frontend development, and secure web applications. Passionate about scalable architectures, intelligent systems, and AI-oriented platforms. Skilled in React, TypeScript, Node. js, Python, REST APIs, and database design. Motivated to contribute to innovative projects involving automation, semantic search, and intelligent assistants while continuously learning modern technologies.\n- Red Sys\n- Full Stack Developer\nDeveloped scalable web applications and backend services using React, Node. js, and REST APIs.\n**Date: ** Sep 2025 - Present\n**Location: ** Tunis, Tunisia\n- Built responsive and dynamic user interfaces using TypeScript and modern frontend practices.\n- Participated in backend architecture and API integration for enterprise platforms.\n- Collaborated with technical teams on secure and modular application development.\n- Coficab\n## Web Development & Cybersecurity Intern\n**Date: ** Jan 2025 - Jun 2025\n**Location: ** Tunis, Tunisia\n- Integrated security-related data and implemented secure backend communication.\n- Designed structured and maintainable backend logic and frontend modules.\n- Participated in improving application performance and security practices.\n- TIC-Nova\n- Developed a vulnerability management platform using Angular, Node. js, MongoDB, and REST APIs.\n## Web Development Intern\n**Date: ** Jan 2023 - Jun 2023\n**Location: ** Tunis, Tunisia\n## Developed web applications using JavaScript, PHP, Node. js, and MySQL.\n- Participated in API integration and database management tasks.\n- Implemented frontend and backend functionalities with focus on usability and performance.\nAI Security Recommendation System: Developed a Python-based recommendation system using Lang Chain, Ollama, and Google Search APIs to generate cybersecurity recommendations and vulnerability analysis.\nVulnerability Management Dashboard: Built a cybersecurity dashboard with Angular, Node. js, MongoDB, dynamic charts, REST APIs, and PDF reporting functionalities.\n**Date: ** Tunisia 2023 - 2025\n\n## TECHNICAL SKILLS\n\nFrontend: React. js, Angular, TypeScript, JavaScript (ES 6+), HTML 5, CSS 3, Responsive Design\nPython, FastAPI (learning), Node. js, Express. js, C/.NET Core, REST APIs\nBackend:\n: PostgreSQL, MongoDB, MySQL, SQL Server\nDatabases\n: SQLAlchemy (basic knowledge), Pydantic (basic knowledge)\nORM & Validation\n: Docker, Git, GitHub, Postman, CI/CD basics\nDevOps & Tools\nAPI integration, modular architecture, scalable backend systems\nArchitecture:\n: OWASP Top 10, secure APIs, vulnerability management\nCybersecurity\nLLM integration basics, AI-assisted workflows, automation concepts\nAI & Automation:\nWorked with Docker and deployment environments to improve scalability and maintainability.\nTunisia\n\n## ACADEMIC PROJECTS\n\n## Projects\n## 2023: Agile Project Management - Coursera\n## 2026: Fortinet NSE 1, 2, 3 - Network Security Associate\n\n## EDUCATION\n\nISIM Gabès\nMaster in Cybersecurity\nISIM Gabès\nBachelor in Computer Science & Multimedia\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\n2023: Cisco Ethical Hacker\n\n## LANGUAGES\n\n: Native\nArabic\n\n##: B 2\n\nEnglish\n\n##: B 1\n\nFrench",
+    "header_info": {
+      "full_name": null,
+      "email": "2@gmail.com",
+      "phone": "+216 29 607 107",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9701,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Bilel Bouabidi",
+      "email": "bilelbouabidi2@gmail.com",
+      "phone": "+216 29 607 107",
+      "location": "Tunis, Tunisia",
+      "linkedin": "bouabidi-bilel",
+      "github": "bilelbouabidi"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "REST APIs",
+        "database design",
+        "Angular",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "MongoDB",
+        "FastAPI",
+        "Express.js",
+        "C/.NET Core",
+        "PostgreSQL",
+        "SQL Server",
+        "SQLAlchemy",
+        "Pydantic",
+        "Docker",
+        "Git",
+        "GitHub",
+        "Postman",
+        "CI/CD basics",
+        "OWASP Top 10",
+        "LLM integration basics",
+        "AI-assisted workflows",
+        "automation concepts"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Red Sys",
+        "job_title": "Full Stack Developer",
+        "start_date": "Sep 2025",
+        "end_date": "Present",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Developed scalable web applications and backend services using React, Node.js, and REST APIs.",
+          "Built responsive and dynamic user interfaces using TypeScript and modern frontend practices.",
+          "Participated in backend architecture and API integration for enterprise platforms.",
+          "Collaborated with technical teams on secure and modular application development."
+        ]
+      },
+      {
+        "company": "Coficab",
+        "job_title": "Web Development & Cybersecurity Intern",
+        "start_date": "Jan 2025",
+        "end_date": "Jun 2025",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Integrated security-related data and implemented secure backend communication.",
+          "Designed structured and maintainable backend logic and frontend modules.",
+          "Participated in improving application performance and security practices."
+        ]
+      },
+      {
+        "company": "TIC-Nova",
+        "job_title": "Web Development Intern",
+        "start_date": "Jan 2023",
+        "end_date": "Jun 2023",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Developed web applications using JavaScript, PHP, Node.js, and MySQL.",
+          "Participated in API integration and database management tasks.",
+          "Implemented frontend and backend functionalities with focus on usability and performance."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISIM Gabès",
+        "degree": "Master in Cybersecurity",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "ISIM Gabès",
+        "degree": "Bachelor in Computer Science & Multimedia",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "English",
+      "French"
+    ],
+    "certifications": [
+      "Cisco Ethical Hacker",
+      "Fortinet NSE 1, 2, 3 - Network Security Associate"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:50:31.123901+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

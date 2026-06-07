@@ -1,0 +1,96 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mahdi_bouazizi_23014960.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mahdi_bouazizi_23014960.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\mahdi_bouazizi_23014960.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mahdi Bouazizi",
+      "email": "10@gmail.com",
+      "phone": "+216 21 734 598",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Développeur Full Stack avec une solide expérience dans la conception d'applications web modernes et d'architectures microservices.",
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "FastAPI",
+        "PostgreSQL",
+        "MySQL",
+        "Docker",
+        "Git",
+        "GitHub Actions",
+        "Java",
+        "Python",
+        "TypeScript"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Plateforme E-commerce Microservices",
+        "start_date": "2025 - Présent",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mise en place d'un API Gateway pour centraliser le routage et l'accès aux services backend.",
+          "Sécurisation des APIs avec Keycloak (OAuth 2/Open ID Connect) .",
+          "Intégration de Kafka pour la communication asynchrone entre services.",
+          "Conteneurisation de la plateforme avec Docker et Docker Compose .",
+          "Mise en place du distributed tracing avec Zipkin pour le suivi des appels inter-services.",
+          "Développement d'un AI Agent avec Spring AI pour interpréter les requêtes utilisateur en langage naturel.",
+          "Implémentation du tool calling permettant à l'agent d'interagir avec les services backend.",
+          "Mise en place de la propagation du JWT afin de garantir la sécurité entre Gateway, AI Agent et microservices.",
+          "Amélioration de la fiabilité des réponses en structurant les données côté backend afin d'éviter les erreurs générées par l'IA."
+        ]
+      },
+      {
+        "job_title": "Développeur Full Stack",
+        "company": null,
+        "start_date": "2024 - 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Refactorisation du backend pour améliorer la stabilité et les performances.",
+          "Migration frontend Angular 16 vers Angular 19.",
+          "Développement d'un module d'import de données via fichiers Excel.",
+          "Implémentation d'un système de sécurité basé sur rôles et permissions."
+        ]
+      },
+      {
+        "job_title": "Développeur Full Stack",
+        "company": null,
+        "start_date": "2020 - 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une plateforme e-commerce basée sur une architecture microservices .",
+          "Développement de plusieurs services métier: Product, Order, Customer, Payment et Notification ."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence appliquée en technologies de l'informatique",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:09:41.730622+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9729,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

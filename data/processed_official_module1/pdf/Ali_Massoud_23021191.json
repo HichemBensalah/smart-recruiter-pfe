@@ -1,0 +1,2013 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ali_Massoud_23021191.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nAli Massoud\nSecurite (DevSecOps)\nSonarQube, OWASP DependencyCheck, Trivy, BlackDuck\nTECHNICAL SKILLS\nIngenieur DevOps & Cloud\n+216 95 940 644  |  massoudmohamed297@gmail.com  |  Mahdia, Tunisie  |  linkedin.com/in/ali-massoud000  | gitlab.com/massoudmohamed297\nIngenieur DevOps et Cloud avec une experience concrete dans la conception et le deploiement de pipelines CI/CD, de clusters Kubernetes et d'infrastructures cloud sur AWS et OpenStack. Certifie AWS CloudOps Engineer (avril 2026). Capable de prendre en charge l'infrastructure de bout en bout : automatisation, conteneurisation, GitOps, securite et observabilite. A l'aise dans des environnements dynamiques exigeant fiabilite, scalabilite et livraison continue.\nAWS Certified CloudOps Engineer - Associate\nAmazon Web Services  |  Obtenu : avril 2026  |  Badge ID : 36719b6c-57f5-4f2e-9e04-37ae9ec212e8 credly.com/badges/36719b6c-57f5-4f2e-9e04-37ae9ec212e8\nIngenieur Cloud\nGroup RIF  |  Teletravail  |  Juin 2025 - Aout 2025 (mission)\nProvisionne un cluster OpenStack 3 noeuds (Controller, Compute, Storage) avec Terraform, ramenant le temps de deploiement de plusieurs jours a moins de 2 heures.\nDeveloppe un script Bash execute a la creation des VM pour configurer le reseau, distribuer les cles SSH et installer l services socles (MariaDB, RabbitMQ, Memcached), eliminant toute preparation manuelle des noeuds.\nAutomatise l'installation et la configuration des services OpenStack via des playbooks Ansible integres dans des pipelines Jenkins, pour des deploiements entierement pilotes par CI/CD.\nSecurise la connectivite vers le serveur hote avec le reseau overlay ZeroTier, remplacant des solutions VPN fragiles pa un tunnel chiffre et resilient.\nConcu et deploye une plateforme CI/CD GitLab de niveau production pour une application web multi-services, hebergee sur un environnement KVM avec un cluster Kubernetes auto-gere (1 master, 2 workers).\nMis en place une chaine GitOps complete : GitLab CI/CD pour l'orchestration, SonarQube pour les controles qualite, Triv pour le scan de securite des conteneurs, et ArgoCD pour le deploiement Kubernetes - zero etape manuelle en production.\nImplemente un Horizontal Pod Autoscaler (HPA) pour les microservices Spring Boot et un Vertical Pod Autoscaler (VPA) pour les pods base de donnees, permettant d'absorber les pics de trafic sans intervention humaine.\nConfigure un cluster de base de donnees haute disponibilite (1 primaire lecture/ecriture + 2 replicas en lecture) avec Persistent Volume Claims et load balancers pour la distribution du trafic.\nCloud - AWS\nPROFIL PROFESSIONNEL\nCERTIFICATION\nEXPERIENCE PROFESSIONNELLE\nEDUCATION\nIngenieur DevOps - Projet de Fin d'Etudes (PFE)\nSmoothAlgo  |  Sousse, Tunisie  |  Mars 2024 - Aout 2024\nDeploye une stack d'observabilite complete (Prometheus + Grafana + Alertmanager) pour des tableaux de bord temps reel et des alertes proactives.\nIngenieur Logiciel - Stagiaire\nArtibedded  |  Teletravail  |  Aout 2023 - Septembre 2023\nConteneurise une application React/Flask avec Docker et Docker Compose et deploye sur AWS EC2 ; integre GitLab CI/CD, SonarQube, OWASP DependencyCheck et Trivy pour une chaine de livraison securisee.\nTerraform, Ansible, scripting Bash\nEC2, S3, ELB, Route 53, Auto Scaling, EBS, RDS, CloudFormation, CloudWatch, CloudTrail, VPC, IAM\nReseaux\nTCP/IP, DNS, DHCP, VPN (ZeroTier), VLAN, RADIUS\nAdministration Systeme\nLinux (Ubuntu, Red Hat), Windows AD, scripting Python\nWeb / Backend\nReactJS, Angular, Flask, Spring Boot, MySQL, MongoDB\nAutomatisation & Integration\nn8n (automatisation de workflows, integrations API, self-hosted)\nFORMATION\nDiplome d'Ingenieur en Telecommunications - Specialisation Reseaux & Cloud\nENET'Com, Universite de Sfax  |  Sfax, Tunisie  |  Obtenu en octobre 2024\nDiplome de Technicien Superieur en Informatique & Telecommunications\nISSAT, Universite de Monastir  |  Mahdia, Tunisie  |  Mai 2021\n: Courant\nFrancais : Intermediaire\nCOMPETENCES TECHNIQUES\nConteneurs & Orchestration\nDocker, Docker Compose, Kubernetes (HPA, VPA, PVC), KVM, ArgoCD\nGitLab CI/CD, Jenkins, ArgoCD, workflows GitOps\nCI/CD IaC & Config. Management Observabilite\nPrometheus, Grafana, Alertmanager, ELK Stack\nLANGUAGES\nLANGUES\nArabe\n: Langue maternelle\nAnglais",
+  "markdown": "## HEADER\n\nAli Massoud\nSecurite (Dev Sec Ops)\nSonar Qube, OWASP Dependency Check, Trivy, Black Duck\n\n## TECHNICAL SKILLS\n\nIngenieur Dev Ops & Cloud\n+216 95 940 644 | massoudmohamed 297@gmail. com | Mahdia, Tunisie | linkedin. com/in/ali-massoud 000 | gitlab. com/massoudmohamed 297\nIngenieur Dev Ops et Cloud avec une experience concrete dans la conception et le deploiement de pipelines CI/CD, de clusters Kubernetes et d'infrastructures cloud sur AWS et Open Stack. Certifie AWS Cloud Ops Engineer (avril 2026). Capable de prendre en charge l'infrastructure de bout en bout : automatisation, conteneurisation, Git Ops, securite et observabilite. A l'aise dans des environnements dynamiques exigeant fiabilite, scalabilite et livraison continue.\nAWS Certified Cloud Ops Engineer - Associate\nAmazon Web Services | Obtenu : avril 2026 | Badge ID : 36719 b 6 c-57 f 5-4 f 2 e-9 e 04-37 ae 9 ec 212 e 8 credly. com/badges/36719 b 6 c-57 f 5-4 f 2 e-9 e 04-37 ae 9 ec 212 e 8\nIngenieur Cloud\nGroup RIF | Teletravail | Juin 2025 - Aout 2025 (mission)\nProvisionne un cluster Open Stack 3 noeuds (Controller, Compute, Storage) avec Terraform, ramenant le temps de deploiement de plusieurs jours a moins de 2 heures.\nDeveloppe un script Bash execute a la creation des VM pour configurer le reseau, distribuer les cles SSH et installer l services socles (Maria DB, Rabbit MQ, Memcached), eliminant toute preparation manuelle des noeuds.\nAutomatise l'installation et la configuration des services Open Stack via des playbooks Ansible integres dans des pipelines Jenkins, pour des deploiements entierement pilotes par CI/CD.\nSecurise la connectivite vers le serveur hote avec le reseau overlay Zero Tier, remplacant des solutions VPN fragiles pa un tunnel chiffre et resilient.\nConcu et deploye une plateforme CI/CD Git Lab de niveau production pour une application web multi-services, hebergee sur un environnement KVM avec un cluster Kubernetes auto-gere (1 master, 2 workers).\nMis en place une chaine Git Ops complete : Git Lab CI/CD pour l'orchestration, Sonar Qube pour les controles qualite, Triv pour le scan de securite des conteneurs, et Argo CD pour le deploiement Kubernetes - zero etape manuelle en production.\nImplemente un Horizontal Pod Autoscaler (HPA) pour les microservices Spring Boot et un Vertical Pod Autoscaler (VPA) pour les pods base de donnees, permettant d'absorber les pics de trafic sans intervention humaine.\nConfigure un cluster de base de donnees haute disponibilite (1 primaire lecture/ecriture + 2 replicas en lecture) avec Persistent Volume Claims et load balancers pour la distribution du trafic.\nCloud - AWS\n\n## PROFIL PROFESSIONNEL\n\nCERTIFICATION\n\n## EDUCATION\n\nIngenieur Dev Ops - Projet de Fin d'Etudes (PFE)\n### Smooth Algo | Sousse, Tunisie | Mars 2024 - Aout 2024\n- Deploye une stack d'observabilite complete (Prometheus + Grafana + Alertmanager) pour des tableaux de bord temps reel et des alertes proactives.\n- Ingenieur Logiciel - Stagiaire\n### Artibedded | Teletravail | Aout 2023 - Septembre 2023\nConteneurise une application React/Flask avec Docker et Docker Compose et deploye sur AWS EC 2 ; integre Git Lab CI/CD, Sonar Qube, OWASP Dependency Check et Trivy pour une chaine de livraison securisee.\n**Location:** Terraform, Ansible, scripting Bash\nEC 2, S 3, ELB, Route 53, Auto Scaling, EBS, RDS, Cloud Formation, Cloud Watch, Cloud Trail, VPC, IAM\n- Reseaux\n### TCP/IP, DNS, DHCP, VPN (Zero Tier), VLAN, RADIUS\n- Administration Systeme\n### Linux (Ubuntu, Red Hat), Windows AD, scripting Python\n- Web/Backend\n### React JS, Angular, Flask, Spring Boot, My SQL, Mongo DB\n- Automatisation & Integration\n### n 8 n (automatisation de workflows, integrations API, self-hosted)\n- FORMATION\n- Diplome d'Ingenieur en Telecommunications - Specialisation Reseaux & Cloud\n### ENET'Com, Universite de Sfax | Sfax, Tunisie | Obtenu en octobre 2024\n- Diplome de Technicien Superieur en Informatique & Telecommunications\n### ISSAT, Universite de Monastir | Mahdia, Tunisie | Mai 2021\n- : Courant\n- Francais : Intermediaire\n\n## COMPETENCES TECHNIQUES\n\nConteneurs & Orchestration\nDocker, Docker Compose, Kubernetes (HPA, VPA, PVC), KVM, Argo CD\nGit Lab CI/CD, Jenkins, Argo CD, workflows Git Ops\nCI/CD Ia C & Config. Management Observabilite\nPrometheus, Grafana, Alertmanager, ELK Stack\n\n## LANGUAGES\n\nLANGUES\nArabe\n: Langue maternelle\nAnglais",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Ali Massoud",
+        "Securite (DevSecOps)",
+        "SonarQube, OWASP DependencyCheck, Trivy, BlackDuck"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ali Massoud",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 766.8160705078125,
+            "right": 178.02362,
+            "bottom": 787.1660705078125
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Securite (DevSecOps)",
+          "page_no": 2,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 781.7484705078125,
+            "right": 145.02362000000002,
+            "bottom": 789.8884705078125
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "SonarQube, OWASP DependencyCheck, Trivy, BlackDuck",
+          "page_no": 2,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 210.09452,
+            "top": 781.7484705078125,
+            "right": 430.09452000000016,
+            "bottom": 789.8884705078125
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Ingenieur DevOps & Cloud",
+        "+216 95 940 644 | massoudmohamed297@gmail.com | Mahdia, Tunisie | linkedin.com/in/ali-massoud000 | gitlab.com/massoudmohamed297",
+        "Ingenieur DevOps et Cloud avec une experience concrete dans la conception et le deploiement de pipelines CI/CD, de clusters Kubernetes et d'infrastructures cloud sur AWS et OpenStack. Certifie AWS CloudOps Engineer (avril 2026). Capable de prendre en charge l'infrastructure de bout en bout : automatisation, conteneurisation, GitOps, securite et observabilite. A l'aise dans des environnements dynamiques exigeant fiabilite, scalabilite et livraison continue.",
+        "AWS Certified CloudOps Engineer - Associate",
+        "Amazon Web Services | Obtenu : avril 2026 | Badge ID : 36719b6c-57f5-4f2e-9e04-37ae9ec212e8 credly.com/badges/36719b6c-57f5-4f2e-9e04-37ae9ec212e8",
+        "Ingenieur Cloud",
+        "Group RIF | Teletravail | Juin 2025 - Aout 2025 (mission)",
+        "Provisionne un cluster OpenStack 3 noeuds (Controller, Compute, Storage) avec Terraform, ramenant le temps de deploiement de plusieurs jours a moins de 2 heures.",
+        "Developpe un script Bash execute a la creation des VM pour configurer le reseau, distribuer les cles SSH et installer l services socles (MariaDB, RabbitMQ, Memcached), eliminant toute preparation manuelle des noeuds.",
+        "Automatise l'installation et la configuration des services OpenStack via des playbooks Ansible integres dans des pipelines Jenkins, pour des deploiements entierement pilotes par CI/CD.",
+        "Securise la connectivite vers le serveur hote avec le reseau overlay ZeroTier, remplacant des solutions VPN fragiles pa un tunnel chiffre et resilient.",
+        "Concu et deploye une plateforme CI/CD GitLab de niveau production pour une application web multi-services, hebergee sur un environnement KVM avec un cluster Kubernetes auto-gere (1 master, 2 workers).",
+        "Mis en place une chaine GitOps complete : GitLab CI/CD pour l'orchestration, SonarQube pour les controles qualite, Triv pour le scan de securite des conteneurs, et ArgoCD pour le deploiement Kubernetes - zero etape manuelle en production.",
+        "Implemente un Horizontal Pod Autoscaler (HPA) pour les microservices Spring Boot et un Vertical Pod Autoscaler (VPA) pour les pods base de donnees, permettant d'absorber les pics de trafic sans intervention humaine.",
+        "Configure un cluster de base de donnees haute disponibilite (1 primaire lecture/ecriture + 2 replicas en lecture) avec Persistent Volume Claims et load balancers pour la distribution du trafic.",
+        "Cloud - AWS"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ingenieur DevOps & Cloud",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 752.0930705078124,
+            "right": 189.02362,
+            "bottom": 762.2680705078125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "+216 95 940 644  |  massoudmohamed297@gmail.com  |  Mahdia, Tunisie  |  linkedin.com/in/ali-massoud000  | gitlab.com/massoudmohamed297",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 725.1105705078124,
+            "right": 507.52362,
+            "bottom": 744.9730705078124
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Ingenieur DevOps et Cloud avec une experience concrete dans la conception et le deploiement de pipelines CI/CD, de clusters Kubernetes et d'infrastructures cloud sur AWS et OpenStack. Certifie AWS CloudOps Engineer (avril 2026). Capable de prendre en charge l'infrastructure de bout en bout : automatisation, conteneurisation, GitOps, securite et observabilite. A l'aise dans des environnements dynamiques exigeant fiabilite, scalabilite et livraison continue.",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 633.2484705078125,
+            "right": 571.823619999999,
+            "bottom": 680.3884705078125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "AWS Certified CloudOps Engineer - Associate",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 582.5070705078124,
+            "right": 250.52362,
+            "bottom": 590.8320705078124
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Amazon Web Services  |  Obtenu : avril 2026  |  Badge ID : 36719b6c-57f5-4f2e-9e04-37ae9ec212e8 credly.com/badges/36719b6c-57f5-4f2e-9e04-37ae9ec212e8",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 556.1105705078124,
+            "right": 460.77362,
+            "bottom": 576.9730705078124
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Ingenieur Cloud",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 507.40357050781245,
+            "right": 128.27362,
+            "bottom": 516.1910705078125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Group RIF  |  Teletravail  |  Juin 2025 - Aout 2025 (mission)",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 494.61057050781244,
+            "right": 316.27362,
+            "bottom": 502.47307050781245
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Provisionne un cluster OpenStack 3 noeuds (Controller, Compute, Storage) avec Terraform, ramenant le temps de deploiement de plusieurs jours a moins de 2 heures.",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 61.02362,
+            "top": 467.24847050781244,
+            "right": 549.423619999999,
+            "bottom": 487.38847050781243
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Developpe un script Bash execute a la creation des VM pour configurer le reseau, distribuer les cles SSH et installer l services socles (MariaDB, RabbitMQ, Memcached), eliminant toute preparation manuelle des noeuds.",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 61.02362,
+            "top": 441.24847050781244,
+            "right": 593.4236199999989,
+            "bottom": 461.38847050781243
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Automatise l'installation et la configuration des services OpenStack via des playbooks Ansible integres dans des pipelines Jenkins, pour des deploiements entierement pilotes par CI/CD.",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 61.02362,
+            "top": 415.24847050781244,
+            "right": 562.6236199999989,
+            "bottom": 435.38847050781243
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Securise la connectivite vers le serveur hote avec le reseau overlay ZeroTier, remplacant des solutions VPN fragiles pa un tunnel chiffre et resilient.",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 61.02362,
+            "top": 389.24847050781244,
+            "right": 593.4236199999989,
+            "bottom": 409.38847050781243
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Concu et deploye une plateforme CI/CD GitLab de niveau production pour une application web multi-services, hebergee sur un environnement KVM avec un cluster Kubernetes auto-gere (1 master, 2 workers).",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 61.02362,
+            "top": 328.2484705078125,
+            "right": 575.823619999999,
+            "bottom": 348.38847050781243
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Mis en place une chaine GitOps complete : GitLab CI/CD pour l'orchestration, SonarQube pour les controles qualite, Triv pour le scan de securite des conteneurs, et ArgoCD pour le deploiement Kubernetes - zero etape manuelle en production.",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 61.02362,
+            "top": 290.2484705078125,
+            "right": 591.4743639999988,
+            "bottom": 322.3884705078124
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Implemente un Horizontal Pod Autoscaler (HPA) pour les microservices Spring Boot et un Vertical Pod Autoscaler (VPA) pour les pods base de donnees, permettant d'absorber les pics de trafic sans intervention humaine.",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 61.02362,
+            "top": 264.2484705078125,
+            "right": 580.223619999999,
+            "bottom": 284.3884705078124
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Configure un cluster de base de donnees haute disponibilite (1 primaire lecture/ecriture + 2 replicas en lecture) avec Persistent Volume Claims et load balancers pour la distribution du trafic.",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 61.02362,
+            "top": 238.2484705078125,
+            "right": 589.0236199999989,
+            "bottom": 258.3884705078125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Cloud - AWS",
+          "page_no": 2,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 767.7484705078125,
+            "right": 105.42362,
+            "bottom": 775.8884705078125
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "PROFIL PROFESSIONNEL",
+      "section_type": "other",
+      "content": [
+        "CERTIFICATION"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "CERTIFICATION",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 601.8000705078124,
+            "right": 122.02362,
+            "bottom": 611.0500705078124
+          },
+          "section_title": "PROFIL PROFESSIONNEL"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [
+        "Ingenieur DevOps - Projet de Fin d'Etudes (PFE)"
+      ],
+      "items": [
+        {
+          "title": "SmoothAlgo | Sousse, Tunisie | Mars 2024 - Aout 2024",
+          "date": null,
+          "location": null,
+          "details": [
+            "Deploye une stack d'observabilite complete (Prometheus + Grafana + Alertmanager) pour des tableaux de bord temps reel et des alertes proactives.",
+            "Ingenieur Logiciel - Stagiaire"
+          ],
+          "evidence_spans": [
+            {
+              "text": "SmoothAlgo  |  Sousse, Tunisie  |  Mars 2024 - Aout 2024",
+              "page_no": 1,
+              "block_indices": [
+                16
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 355.61057050781244,
+                "right": 295.02362,
+                "bottom": 363.47307050781245
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Deploye une stack d'observabilite complete (Prometheus + Grafana + Alertmanager) pour des tableaux de bord temps reel et des alertes proactives.",
+              "page_no": 1,
+              "block_indices": [
+                21
+              ],
+              "bbox": {
+                "left": 61.02362,
+                "top": 212.2484705078125,
+                "right": 562.6236199999989,
+                "bottom": 232.38847050781249
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Ingenieur Logiciel - Stagiaire",
+              "page_no": 1,
+              "block_indices": [
+                22
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 191.40357050781245,
+                "right": 199.52362,
+                "bottom": 200.19107050781247
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Artibedded | Teletravail | Aout 2023 - Septembre 2023",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Artibedded  |  Teletravail  |  Aout 2023 - Septembre 2023",
+              "page_no": 1,
+              "block_indices": [
+                23
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 178.61057050781244,
+                "right": 299.27362,
+                "bottom": 186.4730705078125
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Conteneurise une application React/Flask avec Docker et Docker Compose et deploye sur AWS EC2 ; integre GitLab CI/CD, SonarQube, OWASP DependencyCheck et Trivy pour une chaine de livraison securisee.",
+          "date": null,
+          "location": "Terraform, Ansible, scripting Bash",
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Conteneurise une application React/Flask avec Docker et Docker Compose et deploye sur AWS EC2 ; integre GitLab CI/CD, SonarQube, OWASP DependencyCheck et Trivy pour une chaine de livraison securisee.",
+              "page_no": 1,
+              "block_indices": [
+                24
+              ],
+              "bbox": {
+                "left": 61.02362,
+                "top": 151.2484705078125,
+                "right": 553.823619999999,
+                "bottom": 171.38847050781249
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Terraform, Ansible, scripting Bash",
+              "page_no": 1,
+              "block_indices": [
+                30
+              ],
+              "bbox": {
+                "left": 210.09452,
+                "top": 73.74845050781244,
+                "right": 359.69452000000007,
+                "bottom": 81.88845050781242
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "EC2, S3, ELB, Route 53, Auto Scaling, EBS, RDS, CloudFormation, CloudWatch, CloudTrail, VPC, IAM",
+          "date": null,
+          "location": null,
+          "details": [
+            "Reseaux"
+          ],
+          "evidence_spans": [
+            {
+              "text": "EC2, S3, ELB, Route 53, Auto Scaling, EBS, RDS, CloudFormation, CloudWatch, CloudTrail, VPC, IAM",
+              "page_no": 2,
+              "block_indices": [
+                35
+              ],
+              "bbox": {
+                "left": 210.09452,
+                "top": 755.7484705078124,
+                "right": 540.0945199999999,
+                "bottom": 775.8884705078125
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Reseaux",
+              "page_no": 2,
+              "block_indices": [
+                36
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 741.7484705078125,
+                "right": 87.82362,
+                "bottom": 749.8884705078125
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "TCP/IP, DNS, DHCP, VPN (ZeroTier), VLAN, RADIUS",
+          "date": null,
+          "location": null,
+          "details": [
+            "Administration Systeme"
+          ],
+          "evidence_spans": [
+            {
+              "text": "TCP/IP, DNS, DHCP, VPN (ZeroTier), VLAN, RADIUS",
+              "page_no": 2,
+              "block_indices": [
+                37
+              ],
+              "bbox": {
+                "left": 210.09452,
+                "top": 741.7484705078125,
+                "right": 416.89452000000017,
+                "bottom": 749.8884705078125
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Administration Systeme",
+              "page_no": 2,
+              "block_indices": [
+                38
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 727.7484705078125,
+                "right": 153.82362000000003,
+                "bottom": 735.8884705078125
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "Linux (Ubuntu, Red Hat), Windows AD, scripting Python",
+          "date": null,
+          "location": null,
+          "details": [
+            "Web / Backend"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Linux (Ubuntu, Red Hat), Windows AD, scripting Python",
+              "page_no": 2,
+              "block_indices": [
+                39
+              ],
+              "bbox": {
+                "left": 210.09452,
+                "top": 727.7484705078125,
+                "right": 443.29452000000015,
+                "bottom": 735.8884705078125
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Web / Backend",
+              "page_no": 2,
+              "block_indices": [
+                40
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 713.7484705078125,
+                "right": 114.22361999999998,
+                "bottom": 721.8884705078125
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "ReactJS, Angular, Flask, Spring Boot, MySQL, MongoDB",
+          "date": null,
+          "location": null,
+          "details": [
+            "Automatisation & Integration"
+          ],
+          "evidence_spans": [
+            {
+              "text": "ReactJS, Angular, Flask, Spring Boot, MySQL, MongoDB",
+              "page_no": 2,
+              "block_indices": [
+                41
+              ],
+              "bbox": {
+                "left": 210.09452,
+                "top": 713.7484705078125,
+                "right": 438.89452000000017,
+                "bottom": 721.8884705078125
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Automatisation & Integration",
+              "page_no": 2,
+              "block_indices": [
+                42
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 699.7484705078125,
+                "right": 180.22362000000007,
+                "bottom": 707.8884705078125
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "n8n (automatisation de workflows, integrations API, self-hosted)",
+          "date": null,
+          "location": null,
+          "details": [
+            "FORMATION",
+            "Diplome d'Ingenieur en Telecommunications - Specialisation Reseaux & Cloud"
+          ],
+          "evidence_spans": [
+            {
+              "text": "n8n (automatisation de workflows, integrations API, self-hosted)",
+              "page_no": 2,
+              "block_indices": [
+                43
+              ],
+              "bbox": {
+                "left": 210.09452,
+                "top": 699.7484705078125,
+                "right": 491.69452000000007,
+                "bottom": 707.8884705078125
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "FORMATION",
+              "page_no": 2,
+              "block_indices": [
+                44
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 671.3000705078124,
+                "right": 102.02362,
+                "bottom": 680.5500705078124
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Diplome d'Ingenieur en Telecommunications - Specialisation Reseaux & Cloud",
+              "page_no": 2,
+              "block_indices": [
+                45
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 652.0070705078124,
+                "right": 390.02362,
+                "bottom": 660.3320705078124
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "ENET'Com, Universite de Sfax | Sfax, Tunisie | Obtenu en octobre 2024",
+          "date": null,
+          "location": null,
+          "details": [
+            "Diplome de Technicien Superieur en Informatique & Telecommunications"
+          ],
+          "evidence_spans": [
+            {
+              "text": "ENET'Com, Universite de Sfax  |  Sfax, Tunisie  |  Obtenu en octobre 2024",
+              "page_no": 2,
+              "block_indices": [
+                46
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 638.6105705078124,
+                "right": 367.27362,
+                "bottom": 646.4730705078124
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Diplome de Technicien Superieur en Informatique & Telecommunications",
+              "page_no": 2,
+              "block_indices": [
+                47
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 621.0070705078124,
+                "right": 363.02362,
+                "bottom": 629.3320705078124
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        },
+        {
+          "title": "ISSAT, Universite de Monastir | Mahdia, Tunisie | Mai 2021",
+          "date": null,
+          "location": null,
+          "details": [
+            ": Courant",
+            "Francais : Intermediaire"
+          ],
+          "evidence_spans": [
+            {
+              "text": "ISSAT, Universite de Monastir  |  Mahdia, Tunisie  |  Mai 2021",
+              "page_no": 2,
+              "block_indices": [
+                48
+              ],
+              "bbox": {
+                "left": 57.02362,
+                "top": 607.6105705078124,
+                "right": 320.52362,
+                "bottom": 615.4730705078124
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": ": Courant",
+              "page_no": 2,
+              "block_indices": [
+                53
+              ],
+              "bbox": {
+                "left": 215.42362000000008,
+                "top": 559.7484705078125,
+                "right": 277.02362000000016,
+                "bottom": 567.8884705078125
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Francais : Intermediaire",
+              "page_no": 2,
+              "block_indices": [
+                54
+              ],
+              "bbox": {
+                "left": 277.02362000000016,
+                "top": 559.7484705078125,
+                "right": 382.62361999999985,
+                "bottom": 567.8884705078125
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Ingenieur DevOps - Projet de Fin d'Etudes (PFE)",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 368.40357050781245,
+            "right": 280.27362,
+            "bottom": 377.19107050781247
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "SmoothAlgo  |  Sousse, Tunisie  |  Mars 2024 - Aout 2024",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 355.61057050781244,
+            "right": 295.02362,
+            "bottom": 363.47307050781245
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Deploye une stack d'observabilite complete (Prometheus + Grafana + Alertmanager) pour des tableaux de bord temps reel et des alertes proactives.",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 61.02362,
+            "top": 212.2484705078125,
+            "right": 562.6236199999989,
+            "bottom": 232.38847050781249
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Ingenieur Logiciel - Stagiaire",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 191.40357050781245,
+            "right": 199.52362,
+            "bottom": 200.19107050781247
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Artibedded  |  Teletravail  |  Aout 2023 - Septembre 2023",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 178.61057050781244,
+            "right": 299.27362,
+            "bottom": 186.4730705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Conteneurise une application React/Flask avec Docker et Docker Compose et deploye sur AWS EC2 ; integre GitLab CI/CD, SonarQube, OWASP DependencyCheck et Trivy pour une chaine de livraison securisee.",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 61.02362,
+            "top": 151.2484705078125,
+            "right": 553.823619999999,
+            "bottom": 171.38847050781249
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Terraform, Ansible, scripting Bash",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 210.09452,
+            "top": 73.74845050781244,
+            "right": 359.69452000000007,
+            "bottom": 81.88845050781242
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "EC2, S3, ELB, Route 53, Auto Scaling, EBS, RDS, CloudFormation, CloudWatch, CloudTrail, VPC, IAM",
+          "page_no": 2,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 210.09452,
+            "top": 755.7484705078124,
+            "right": 540.0945199999999,
+            "bottom": 775.8884705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Reseaux",
+          "page_no": 2,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 741.7484705078125,
+            "right": 87.82362,
+            "bottom": 749.8884705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "TCP/IP, DNS, DHCP, VPN (ZeroTier), VLAN, RADIUS",
+          "page_no": 2,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 210.09452,
+            "top": 741.7484705078125,
+            "right": 416.89452000000017,
+            "bottom": 749.8884705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Administration Systeme",
+          "page_no": 2,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 727.7484705078125,
+            "right": 153.82362000000003,
+            "bottom": 735.8884705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Linux (Ubuntu, Red Hat), Windows AD, scripting Python",
+          "page_no": 2,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 210.09452,
+            "top": 727.7484705078125,
+            "right": 443.29452000000015,
+            "bottom": 735.8884705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Web / Backend",
+          "page_no": 2,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 713.7484705078125,
+            "right": 114.22361999999998,
+            "bottom": 721.8884705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "ReactJS, Angular, Flask, Spring Boot, MySQL, MongoDB",
+          "page_no": 2,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 210.09452,
+            "top": 713.7484705078125,
+            "right": 438.89452000000017,
+            "bottom": 721.8884705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Automatisation & Integration",
+          "page_no": 2,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 699.7484705078125,
+            "right": 180.22362000000007,
+            "bottom": 707.8884705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "n8n (automatisation de workflows, integrations API, self-hosted)",
+          "page_no": 2,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 210.09452,
+            "top": 699.7484705078125,
+            "right": 491.69452000000007,
+            "bottom": 707.8884705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "FORMATION",
+          "page_no": 2,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 671.3000705078124,
+            "right": 102.02362,
+            "bottom": 680.5500705078124
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Diplome d'Ingenieur en Telecommunications - Specialisation Reseaux & Cloud",
+          "page_no": 2,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 652.0070705078124,
+            "right": 390.02362,
+            "bottom": 660.3320705078124
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "ENET'Com, Universite de Sfax  |  Sfax, Tunisie  |  Obtenu en octobre 2024",
+          "page_no": 2,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 638.6105705078124,
+            "right": 367.27362,
+            "bottom": 646.4730705078124
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Diplome de Technicien Superieur en Informatique & Telecommunications",
+          "page_no": 2,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 621.0070705078124,
+            "right": 363.02362,
+            "bottom": 629.3320705078124
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "ISSAT, Universite de Monastir  |  Mahdia, Tunisie  |  Mai 2021",
+          "page_no": 2,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 607.6105705078124,
+            "right": 320.52362,
+            "bottom": 615.4730705078124
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": ": Courant",
+          "page_no": 2,
+          "block_indices": [
+            53
+          ],
+          "bbox": {
+            "left": 215.42362000000008,
+            "top": 559.7484705078125,
+            "right": 277.02362000000016,
+            "bottom": 567.8884705078125
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Francais : Intermediaire",
+          "page_no": 2,
+          "block_indices": [
+            54
+          ],
+          "bbox": {
+            "left": 277.02362000000016,
+            "top": 559.7484705078125,
+            "right": 382.62361999999985,
+            "bottom": 567.8884705078125
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "COMPETENCES TECHNIQUES",
+      "section_type": "other",
+      "content": [
+        "Conteneurs & Orchestration",
+        "Docker, Docker Compose, Kubernetes (HPA, VPA, PVC), KVM, ArgoCD",
+        "GitLab CI/CD, Jenkins, ArgoCD, workflows GitOps",
+        "CI/CD IaC & Config. Management Observabilite",
+        "Prometheus, Grafana, Alertmanager, ELK Stack"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Conteneurs & Orchestration",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 101.74845050781244,
+            "right": 171.42362000000006,
+            "bottom": 109.88845050781242
+          },
+          "section_title": "COMPETENCES TECHNIQUES"
+        },
+        {
+          "text": "Docker, Docker Compose, Kubernetes (HPA, VPA, PVC), KVM, ArgoCD",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 210.09452,
+            "top": 101.74845050781244,
+            "right": 487.2945200000001,
+            "bottom": 109.88845050781242
+          },
+          "section_title": "COMPETENCES TECHNIQUES"
+        },
+        {
+          "text": "GitLab CI/CD, Jenkins, ArgoCD, workflows GitOps",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 210.09452,
+            "top": 87.74845050781244,
+            "right": 416.89452000000017,
+            "bottom": 95.88845050781242
+          },
+          "section_title": "COMPETENCES TECHNIQUES"
+        },
+        {
+          "text": "CI/CD IaC & Config. Management Observabilite",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 59.748450507812436,
+            "right": 162.62362000000005,
+            "bottom": 95.88845050781242
+          },
+          "section_title": "COMPETENCES TECHNIQUES"
+        },
+        {
+          "text": "Prometheus, Grafana, Alertmanager, ELK Stack",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 210.09452,
+            "top": 59.748450507812436,
+            "right": 403.6945200000001,
+            "bottom": 67.88845050781242
+          },
+          "section_title": "COMPETENCES TECHNIQUES"
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGES",
+      "section_type": "languages",
+      "content": [
+        "LANGUES",
+        "Arabe",
+        ": Langue maternelle",
+        "Anglais"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "LANGUES",
+          "page_no": 2,
+          "block_indices": [
+            49
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 578.8000705078124,
+            "right": 92.02362,
+            "bottom": 588.0500705078124
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "Arabe",
+          "page_no": 2,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 57.02362,
+            "top": 559.7484705078125,
+            "right": 79.02362,
+            "bottom": 567.8884705078125
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": ": Langue maternelle",
+          "page_no": 2,
+          "block_indices": [
+            51
+          ],
+          "bbox": {
+            "left": 79.02362,
+            "top": 559.7484705078125,
+            "right": 184.62362000000007,
+            "bottom": 567.8884705078125
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "Anglais",
+          "page_no": 2,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 184.62362000000007,
+            "top": 559.7484705078125,
+            "right": 215.42362000000008,
+            "bottom": 567.8884705078125
+          },
+          "section_title": "LANGUAGES"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.7403,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 4246,
+      "section_completeness": 0.5,
+      "ordering_coherence": 0.6667,
+      "segmentation_stability": 0.5714,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.3091,
+      "weird_section_ratio": 0.0,
+      "section_count": 7,
+      "expected_section_hits": 3,
+      "markdown_chars": 4354,
+      "markdown_words": 604,
+      "markdown_has_experience": true,
+      "markdown_has_education": true,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 3,
+      "markdown_weird_char_ratio": 0.0,
+      "markdown_glued_line_count": 7,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=2\", \"pdf_total_text_chars=4194\", \"pdf_total_text_words=588\", \"pdf_avg_text_chars_per_page=2097.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": [
+      "partial_section_completeness"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "partial_section_completeness"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Ali Massoud",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 766.8160705078125,
+        "right": 178.02362,
+        "bottom": 787.1660705078125
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Securite (DevSecOps)",
+      "page_no": 2,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 781.7484705078125,
+        "right": 145.02362000000002,
+        "bottom": 789.8884705078125
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "SonarQube, OWASP DependencyCheck, Trivy, BlackDuck",
+      "page_no": 2,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 210.09452,
+        "top": 781.7484705078125,
+        "right": 430.09452000000016,
+        "bottom": 789.8884705078125
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Ingenieur DevOps & Cloud",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 752.0930705078124,
+        "right": 189.02362,
+        "bottom": 762.2680705078125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "+216 95 940 644  |  massoudmohamed297@gmail.com  |  Mahdia, Tunisie  |  linkedin.com/in/ali-massoud000  | gitlab.com/massoudmohamed297",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 725.1105705078124,
+        "right": 507.52362,
+        "bottom": 744.9730705078124
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Ingenieur DevOps et Cloud avec une experience concrete dans la conception et le deploiement de pipelines CI/CD, de clusters Kubernetes et d'infrastructures cloud sur AWS et OpenStack. Certifie AWS CloudOps Engineer (avril 2026). Capable de prendre en charge l'infrastructure de bout en bout : automatisation, conteneurisation, GitOps, securite et observabilite. A l'aise dans des environnements dynamiques exigeant fiabilite, scalabilite et livraison continue.",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 633.2484705078125,
+        "right": 571.823619999999,
+        "bottom": 680.3884705078125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "AWS Certified CloudOps Engineer - Associate",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 582.5070705078124,
+        "right": 250.52362,
+        "bottom": 590.8320705078124
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Amazon Web Services  |  Obtenu : avril 2026  |  Badge ID : 36719b6c-57f5-4f2e-9e04-37ae9ec212e8 credly.com/badges/36719b6c-57f5-4f2e-9e04-37ae9ec212e8",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 556.1105705078124,
+        "right": 460.77362,
+        "bottom": 576.9730705078124
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Ingenieur Cloud",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 507.40357050781245,
+        "right": 128.27362,
+        "bottom": 516.1910705078125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Group RIF  |  Teletravail  |  Juin 2025 - Aout 2025 (mission)",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 494.61057050781244,
+        "right": 316.27362,
+        "bottom": 502.47307050781245
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Provisionne un cluster OpenStack 3 noeuds (Controller, Compute, Storage) avec Terraform, ramenant le temps de deploiement de plusieurs jours a moins de 2 heures.",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 61.02362,
+        "top": 467.24847050781244,
+        "right": 549.423619999999,
+        "bottom": 487.38847050781243
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Developpe un script Bash execute a la creation des VM pour configurer le reseau, distribuer les cles SSH et installer l services socles (MariaDB, RabbitMQ, Memcached), eliminant toute preparation manuelle des noeuds.",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 61.02362,
+        "top": 441.24847050781244,
+        "right": 593.4236199999989,
+        "bottom": 461.38847050781243
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Automatise l'installation et la configuration des services OpenStack via des playbooks Ansible integres dans des pipelines Jenkins, pour des deploiements entierement pilotes par CI/CD.",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 61.02362,
+        "top": 415.24847050781244,
+        "right": 562.6236199999989,
+        "bottom": 435.38847050781243
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Securise la connectivite vers le serveur hote avec le reseau overlay ZeroTier, remplacant des solutions VPN fragiles pa un tunnel chiffre et resilient.",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 61.02362,
+        "top": 389.24847050781244,
+        "right": 593.4236199999989,
+        "bottom": 409.38847050781243
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Concu et deploye une plateforme CI/CD GitLab de niveau production pour une application web multi-services, hebergee sur un environnement KVM avec un cluster Kubernetes auto-gere (1 master, 2 workers).",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 61.02362,
+        "top": 328.2484705078125,
+        "right": 575.823619999999,
+        "bottom": 348.38847050781243
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Mis en place une chaine GitOps complete : GitLab CI/CD pour l'orchestration, SonarQube pour les controles qualite, Triv pour le scan de securite des conteneurs, et ArgoCD pour le deploiement Kubernetes - zero etape manuelle en production.",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 61.02362,
+        "top": 290.2484705078125,
+        "right": 591.4743639999988,
+        "bottom": 322.3884705078124
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Implemente un Horizontal Pod Autoscaler (HPA) pour les microservices Spring Boot et un Vertical Pod Autoscaler (VPA) pour les pods base de donnees, permettant d'absorber les pics de trafic sans intervention humaine.",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 61.02362,
+        "top": 264.2484705078125,
+        "right": 580.223619999999,
+        "bottom": 284.3884705078124
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Configure un cluster de base de donnees haute disponibilite (1 primaire lecture/ecriture + 2 replicas en lecture) avec Persistent Volume Claims et load balancers pour la distribution du trafic.",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 61.02362,
+        "top": 238.2484705078125,
+        "right": 589.0236199999989,
+        "bottom": 258.3884705078125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Cloud - AWS",
+      "page_no": 2,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 767.7484705078125,
+        "right": 105.42362,
+        "bottom": 775.8884705078125
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "CERTIFICATION",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 601.8000705078124,
+        "right": 122.02362,
+        "bottom": 611.0500705078124
+      },
+      "section_title": "PROFIL PROFESSIONNEL"
+    },
+    {
+      "text": "Ingenieur DevOps - Projet de Fin d'Etudes (PFE)",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 368.40357050781245,
+        "right": 280.27362,
+        "bottom": 377.19107050781247
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "SmoothAlgo  |  Sousse, Tunisie  |  Mars 2024 - Aout 2024",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 355.61057050781244,
+        "right": 295.02362,
+        "bottom": 363.47307050781245
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Deploye une stack d'observabilite complete (Prometheus + Grafana + Alertmanager) pour des tableaux de bord temps reel et des alertes proactives.",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 61.02362,
+        "top": 212.2484705078125,
+        "right": 562.6236199999989,
+        "bottom": 232.38847050781249
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Ingenieur Logiciel - Stagiaire",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 191.40357050781245,
+        "right": 199.52362,
+        "bottom": 200.19107050781247
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Artibedded  |  Teletravail  |  Aout 2023 - Septembre 2023",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 178.61057050781244,
+        "right": 299.27362,
+        "bottom": 186.4730705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Conteneurise une application React/Flask avec Docker et Docker Compose et deploye sur AWS EC2 ; integre GitLab CI/CD, SonarQube, OWASP DependencyCheck et Trivy pour une chaine de livraison securisee.",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 61.02362,
+        "top": 151.2484705078125,
+        "right": 553.823619999999,
+        "bottom": 171.38847050781249
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Terraform, Ansible, scripting Bash",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 210.09452,
+        "top": 73.74845050781244,
+        "right": 359.69452000000007,
+        "bottom": 81.88845050781242
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "EC2, S3, ELB, Route 53, Auto Scaling, EBS, RDS, CloudFormation, CloudWatch, CloudTrail, VPC, IAM",
+      "page_no": 2,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 210.09452,
+        "top": 755.7484705078124,
+        "right": 540.0945199999999,
+        "bottom": 775.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Reseaux",
+      "page_no": 2,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 741.7484705078125,
+        "right": 87.82362,
+        "bottom": 749.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "TCP/IP, DNS, DHCP, VPN (ZeroTier), VLAN, RADIUS",
+      "page_no": 2,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 210.09452,
+        "top": 741.7484705078125,
+        "right": 416.89452000000017,
+        "bottom": 749.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Administration Systeme",
+      "page_no": 2,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 727.7484705078125,
+        "right": 153.82362000000003,
+        "bottom": 735.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Linux (Ubuntu, Red Hat), Windows AD, scripting Python",
+      "page_no": 2,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 210.09452,
+        "top": 727.7484705078125,
+        "right": 443.29452000000015,
+        "bottom": 735.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Web / Backend",
+      "page_no": 2,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 713.7484705078125,
+        "right": 114.22361999999998,
+        "bottom": 721.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "ReactJS, Angular, Flask, Spring Boot, MySQL, MongoDB",
+      "page_no": 2,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 210.09452,
+        "top": 713.7484705078125,
+        "right": 438.89452000000017,
+        "bottom": 721.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Automatisation & Integration",
+      "page_no": 2,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 699.7484705078125,
+        "right": 180.22362000000007,
+        "bottom": 707.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "n8n (automatisation de workflows, integrations API, self-hosted)",
+      "page_no": 2,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 210.09452,
+        "top": 699.7484705078125,
+        "right": 491.69452000000007,
+        "bottom": 707.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "FORMATION",
+      "page_no": 2,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 671.3000705078124,
+        "right": 102.02362,
+        "bottom": 680.5500705078124
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Diplome d'Ingenieur en Telecommunications - Specialisation Reseaux & Cloud",
+      "page_no": 2,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 652.0070705078124,
+        "right": 390.02362,
+        "bottom": 660.3320705078124
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "ENET'Com, Universite de Sfax  |  Sfax, Tunisie  |  Obtenu en octobre 2024",
+      "page_no": 2,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 638.6105705078124,
+        "right": 367.27362,
+        "bottom": 646.4730705078124
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Diplome de Technicien Superieur en Informatique & Telecommunications",
+      "page_no": 2,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 621.0070705078124,
+        "right": 363.02362,
+        "bottom": 629.3320705078124
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "ISSAT, Universite de Monastir  |  Mahdia, Tunisie  |  Mai 2021",
+      "page_no": 2,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 607.6105705078124,
+        "right": 320.52362,
+        "bottom": 615.4730705078124
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": ": Courant",
+      "page_no": 2,
+      "block_indices": [
+        53
+      ],
+      "bbox": {
+        "left": 215.42362000000008,
+        "top": 559.7484705078125,
+        "right": 277.02362000000016,
+        "bottom": 567.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Francais : Intermediaire",
+      "page_no": 2,
+      "block_indices": [
+        54
+      ],
+      "bbox": {
+        "left": 277.02362000000016,
+        "top": 559.7484705078125,
+        "right": 382.62361999999985,
+        "bottom": 567.8884705078125
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Conteneurs & Orchestration",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 101.74845050781244,
+        "right": 171.42362000000006,
+        "bottom": 109.88845050781242
+      },
+      "section_title": "COMPETENCES TECHNIQUES"
+    },
+    {
+      "text": "Docker, Docker Compose, Kubernetes (HPA, VPA, PVC), KVM, ArgoCD",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 210.09452,
+        "top": 101.74845050781244,
+        "right": 487.2945200000001,
+        "bottom": 109.88845050781242
+      },
+      "section_title": "COMPETENCES TECHNIQUES"
+    },
+    {
+      "text": "GitLab CI/CD, Jenkins, ArgoCD, workflows GitOps",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 210.09452,
+        "top": 87.74845050781244,
+        "right": 416.89452000000017,
+        "bottom": 95.88845050781242
+      },
+      "section_title": "COMPETENCES TECHNIQUES"
+    },
+    {
+      "text": "CI/CD IaC & Config. Management Observabilite",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 59.748450507812436,
+        "right": 162.62362000000005,
+        "bottom": 95.88845050781242
+      },
+      "section_title": "COMPETENCES TECHNIQUES"
+    },
+    {
+      "text": "Prometheus, Grafana, Alertmanager, ELK Stack",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 210.09452,
+        "top": 59.748450507812436,
+        "right": 403.6945200000001,
+        "bottom": 67.88845050781242
+      },
+      "section_title": "COMPETENCES TECHNIQUES"
+    },
+    {
+      "text": "LANGUES",
+      "page_no": 2,
+      "block_indices": [
+        49
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 578.8000705078124,
+        "right": 92.02362,
+        "bottom": 588.0500705078124
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Arabe",
+      "page_no": 2,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 57.02362,
+        "top": 559.7484705078125,
+        "right": 79.02362,
+        "bottom": 567.8884705078125
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": ": Langue maternelle",
+      "page_no": 2,
+      "block_indices": [
+        51
+      ],
+      "bbox": {
+        "left": 79.02362,
+        "top": 559.7484705078125,
+        "right": 184.62362000000007,
+        "bottom": 567.8884705078125
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Anglais",
+      "page_no": 2,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 184.62362000000007,
+        "top": 559.7484705078125,
+        "right": 215.42362000000008,
+        "bottom": 567.8884705078125
+      },
+      "section_title": "LANGUAGES"
+    }
+  ]
+}

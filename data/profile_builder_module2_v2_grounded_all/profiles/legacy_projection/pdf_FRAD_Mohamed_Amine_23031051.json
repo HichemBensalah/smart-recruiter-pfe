@@ -1,0 +1,108 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\FRAD_Mohamed_Amine_23031051.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\FRAD_Mohamed_Amine_23031051.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\FRAD_Mohamed_Amine_23031051.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Mohamed Amine FRAD",
+      "email": "frad.amine@gmail.com",
+      "phone": "08/2022 - 09/2022",
+      "location": "Sousse, Tunisie Telecom"
+    },
+    "expertise": {
+      "summary": "Développeur Web | Technicien Informatique",
+      "hard_skills": [
+        "Angular",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "Python",
+        "Django",
+        "Flask",
+        "Java",
+        "PHP"
+      ],
+      "soft_skills": [
+        "conception d'API REST",
+        "développement front-end avec Angular et Next.js",
+        "gestion de bases de données SQL",
+        "analyse de problèmes et amélioration continue",
+        "collaboration avec les équipes administratives"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire Informatique",
+        "company": "Tunisie Telecom",
+        "start_date": "08/2022",
+        "end_date": "09/2022",
+        "city": "Sousse, Tunisie",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Technicien Support Informatique",
+        "company": "Société El Ezdihar de Bâtiment, VRD et Transport",
+        "start_date": "10/2025",
+        "end_date": null,
+        "city": "Sousse, Tunisie",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Stagiaire Développeur Web",
+        "company": "ROSE BLANCHE Group",
+        "start_date": "04/2025",
+        "end_date": "09/2025",
+        "city": "Sousse, Tunisie",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Stagiaire Développeur Web",
+        "company": "Be Wise",
+        "start_date": "07/2024",
+        "end_date": "09/2024",
+        "city": "Tunis, Tunisie",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Stagiaire Développeur Web",
+        "company": "Groupe Zouari",
+        "start_date": "06/2023",
+        "end_date": "08/2023",
+        "city": "Sousse, Tunisie",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Informatique générale",
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": "BTS en Développement sur Internet",
+        "school": "Conservatoire National des Arts et Métiers (CNAM)",
+        "year": null
+      },
+      {
+        "degree": "BTP Technicien de Soutien en Informatique de Gestion",
+        "school": "Institut Maghrébin des Sciences économiques Et Technologiques (IMSET)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:06:30.261457+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9834,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

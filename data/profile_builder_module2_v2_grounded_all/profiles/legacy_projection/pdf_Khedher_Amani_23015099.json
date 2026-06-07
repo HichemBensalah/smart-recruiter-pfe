@@ -1,0 +1,79 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Khedher_Amani_23015099.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Khedher_Amani_23015099.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Khedher_Amani_23015099.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Amani Khedher",
+      "email": "khedheramani 5@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Jai lesprit de travail en groupe. sens de responsabilitedesirant d'apprendre, facilite de communiquer, ponctuelle, desir de relever les defis.",
+      "hard_skills": [
+        "Excel Contral: Bureau de controle",
+        "Falcon lnspection et Services: Societe dlnspection et de controle industriel, Tours",
+        "OPTERNAAFRICA",
+        "-HTML-CSS-Android",
+        "-Python-MySQL-SQL- MongoDB-"
+      ],
+      "soft_skills": [
+        "Creative etpassionnee de nouvelles technologies",
+        "Flexible, calme etorganisee",
+        "Desir de relever les defis",
+        "Ponctuelle",
+        "Souriante"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Assistante administratif",
+        "company": "Excel Contral: Bureau de controle",
+        "start_date": "demars 2024 amars 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Planification desmissions-Creation des lettres et des Pv-Envoi desemails Classement et archivage"
+        ]
+      },
+      {
+        "job_title": "Assistante commerciale",
+        "company": "Falcon lnspection et Services: Societe dlnspection et de controle industriel, Tours",
+        "start_date": "dejanv. 2021 ajuil. 2021",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Prise en compte de la demande de client-Redige des devis traite les factures et les transmet au service concerne (service financier, comptabilite )"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Amani Khedher",
+        "year": null
+      },
+      {
+        "degree": "Micr 0 soft-ISO 9001-ISO 17020",
+        "school": "Institut supenieur détudes technologiquesde Rades ISET RADES. Tunis",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:53:39.157067+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9502,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

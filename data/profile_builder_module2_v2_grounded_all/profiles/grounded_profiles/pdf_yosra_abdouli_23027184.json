@@ -1,0 +1,206 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\yosra_abdouli_23027184.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\yosra_abdouli_23027184.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6353,
+  "normalization": {
+    "cleaned_markdown": "## YOSRA ABDOULI\n\nIngénieure Systèmes Embarqués — Software/Hardware\nDiplôme National d'Ingénieur: Microélectronique\nInstitut Supérieur d'Informatique etde Mathématiques (ISIMM) — Monastir\nLicence: Électronique, Électrotechnique et Automatique\nTunis—CitéEl Khadra 1003 | +21653600107 | yosaabdouli@gmail.com\nIngénieure Systèmes Embarqués/Technico-Commercial\nCothings — Tunis, Tunisie\nMai 2025 – Avril 2026\n– Développement firmware en C embarqué sur STM 32 et ESP 32 pour des équipements Io T industriels:\nacquisition de données, gestion d'événements temps réel et communication sans fil\n– Mise en œuvre et validation de protocoles de communication: UART, I 2 C, SPI, Wi Fi et Lo Ra pour l'interfaçage\navec capteurs, modules radio et passerelles cloud\n– Conception et optimisation de circuits de conversion de tension (DC-DC) et de gestion d'alimentation pour\nsystèmes embarqués autonomes (batterie, solaire)\n– Participation au cycle complet produit: cahier des charges, prototypage, tests de validation terrain et support\ntechnique client\nIngénieure en Systèmes Embarqués\nBlue Jet Engineering — Tunis, Tunisie\nProjet ERWINI – Système de contrôle à distance par GPRS\nSept. 2023 – Jan. 2025\n– Développement du firmware embarqué sur ESP 32 en C: gestion des commandes à distance, supervision des\n\n## JOB SUMMARY\n\n– Conception complète de la carte électronique sous Altium Designer: routage PCB multicouche, intégration des\ncomposants actifs/passifs et respect des contraintes CEM\n– Tests fonctionnels et qualification du système: vérification de la chaîne de communication GPRS, calibration\ndes capteurs et tests en conditions réelles\n– Développement d'une solution Io T de gestion d'eau à distance: supervision du niveau, contrôle de pompes et\nalertes automatiques\nStage PFE — Ingénieur\nBlue Jet Engineering — Tunis, Tunisie\nFév. 2023 – Juil. 2023\n– Conception et déploiement d'un système embarqué de contrôle de puits à distance pour sites isolés (hors\nréseau électrique), basé sur la technologie GPRS\ndes données via module SIM 800 L\n– Intégration d'un module Lo Ra pour la communication longue portée entre unités de terrain et passerelle centrale\n– Conception PCB sous Altium Designer et validation électrique complète du prototype\nStage PFE — Licence\nProtech-IT — Gabès, Tunisie\nFév. 2019 – Juin 2019\n– Conception et réalisation d'un système embarqué mobile de surveillance environnementale: mesure de\ntempérature, humidité et détection de fuites de gaz en temps réel\n– Implémentation sur Arduino UNO avec capteurs DHT 11 (T°/humidité) et MQ 135 (qualité de l'air/gaz), et\ncapteur à ultrasons pour détection de présence\nsmartphone\nIngénieure en systèmes embarqués diplômée, spécialisée dans le développement sur microcontrôleurs STM 32 et\nESP 32, avec une solide maîtrise du C/C++ embarqué. Expérience significative en conception de cartes électroniques\n(PCB), intégration de protocoles de communication et déploiement de solutions Io T industrielles. Rigoureuse,\nautonome et passionnée par l'innovation technologique, je souhaite contribuer au développement de systèmes\nembarqués performants et fiables.\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nInstitut Supérieur des Systèmes Industrielsde Gabès (ISSIG) — Gabès\nArabe: Langue maternelle\nFrançais: Avancé\nAnglais: Intermédiaire supérieur\nEspagnol: Élémentaire\nBaccalauréat en Sciences Techniques\nLycée 9 Avril — Sidi Bouzid\nLangages: C/C++/C Embarqué/Python\nMicrocontrôleurs: STM 32 (F 1/F 4), ESP 32, Raspberry Pi, Arduino\nProtocoles: UART, CAN, SPI, I 2 C, Wi Fi, Lo Ra, TCP/IP (bases)\nLogiciels: STM 32 Cube IDE, STM 32 Cube MX, IAR, Altium Designer, Proteus, Lab VIEW, TIA Portal,\nMATLAB/Simulink, VSCode\nOS embarqué: Free RTOS (tâches, mutex, sémaphores), Linux embarqué (Shell, drivers, Kernelspace)\nMembre actif du club ISIMM Robotics (CRI) — participation à des projets collectifs de robotique et systèmes\nembarqués\nMembre actif dans le scoutisme tunisien depuis 2010 — développement du leadership, gestion de projets\ncommunautaires et travail d'équipe\nFév. 2025 – Juil. 2025\nAcadémie STM 32: C Embarqué (12 h), Architecture & programmation STM 32 (20 h), Free RTOS multitâche\n(12 h), Projet Io T STM 32\nC++ Académie: OOP en C++ (12 h), QT HMI pour systèmes embarqués (4 h), Projet C++/QT sur Arduino\nEmbedded Linux: Linux embarqué & Shell (8 h), Kernelspace & intégration drivers (8 h), Programmation Linux\n(8 h), Projet Io T Raspberry Pi\nCompétences relationnelles: Gestion de projet Agile SCRUM (8 h), Culture professionnelle (4 h)\nCommunication UART en DMA et Interruptions — STM 32 Cube IDE\nImplémentation et débogage de la communication série avec gestion DMA et interruptions HAL. Analyse des\ncallbacks HAL_UART_Rx Cplt Callback et validation du rx_buffer en temps réel.\nSynchronisation de tâches Free RTOS avec Mutex — STM 32 F 407\nDéveloppement d'une application multitâche avec Free RTOS: création et synchronisation de tâches concurrentes via\nmutex, gestion des GPIO et validation des accès critiques aux ressources partagées.\nMini-Shell Linux en C — Raspberry Pi/Ubuntu\nRéalisation d'un shell simplifié sous Linux: exécution de commandes via fork()/execvp(), gestion des redirections (<\n>), des tubes (|) et de l'exécution en arrière-plan ( & ).\n\n## COMPÉTENCES TECHNIQUES\n\n## EDUCATION",
+    "header_info": {
+      "full_name": "YOSRA ABDOULI",
+      "email": "yosaabdouli@gmail.com",
+      "phone": "+21653600107",
+      "location": "Cothings — Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "education/formation/academic"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9271,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "YOSRA ABDOULI",
+      "email": "yosaabdouli@gmail.com",
+      "phone": "+21653600107",
+      "location": "Cothings — Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "C Embarqué",
+        "STM 32",
+        "ESP 32",
+        "Arduino",
+        "Linux embarqué",
+        "Free RTOS",
+        "MATLAB/Simulink",
+        "VSCode"
+      ],
+      "soft_skills": [
+        "Gestion de projet Agile SCRUM",
+        "Culture professionnelle",
+        "Leadership",
+        "Gestion de projets communautaires",
+        "Travail d'équipe"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Cothings — Tunis, Tunisie",
+        "job_title": "Ingénieure Systèmes Embarqués/Technico-Commercial",
+        "start_date": "Mai 2025",
+        "end_date": "Avril 2026",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement firmware en C embarqué sur STM 32 et ESP 32 pour des équipements Io T industriels:",
+          "acquisition de données, gestion d'événements temps réel et communication sans fil",
+          "Mise en œuvre et validation de protocoles de communication: UART, I 2 C, SPI, Wi Fi et Lo Ra pour l'interfaçage"
+        ]
+      },
+      {
+        "company": "Blue Jet Engineering — Tunis, Tunisie",
+        "job_title": "Ingénieure en Systèmes Embarqués",
+        "start_date": "Sept. 2023",
+        "end_date": "Jan. 2025",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement du firmware embarqué sur ESP 32 en C: gestion des commandes à distance, supervision des"
+        ]
+      },
+      {
+        "company": "Blue Jet Engineering — Tunis, Tunisie",
+        "job_title": "Stage PFE — Ingénieur",
+        "start_date": "Fév. 2023",
+        "end_date": "Juil. 2023",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception et déploiement d'un système embarqué de contrôle de puits à distance pour sites isolés (hors"
+        ]
+      },
+      {
+        "company": "Protech-IT — Gabès, Tunisie",
+        "job_title": "Stage PFE — Licence",
+        "start_date": "Fév. 2019",
+        "end_date": "Juin 2019",
+        "city": "Gabès, Tunisie",
+        "responsibilities": [
+          "Conception et réalisation d'un système embarqué mobile de surveillance environnementale: mesure de"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur d'Informatique etde Mathématiques (ISIMM) — Monastir",
+        "degree": "Diplôme National d'Ingénieur: Microélectronique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée 9 Avril — Sidi Bouzid",
+        "degree": "Baccalauréat en Sciences Techniques",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais",
+      "Espagnol"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:07:41.309472+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

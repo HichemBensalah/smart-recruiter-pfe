@@ -30,4 +30,4 @@ def test_candidate_cv_endpoint_returns_404_for_unknown_candidate() -> None:
     assert response.status_code == 404
     detail = response.json()["detail"]
     assert detail["candidate_id"] == "candidate_unknown_for_cv"
-    assert "CV original not found" in detail["message"]
+    assert "CV non disponible" in detail["message"]

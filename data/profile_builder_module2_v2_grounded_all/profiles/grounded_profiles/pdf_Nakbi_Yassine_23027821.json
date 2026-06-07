@@ -1,0 +1,222 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Nakbi_Yassine_23027821.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Nakbi_Yassine_23027821.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.787,
+  "normalization": {
+    "cleaned_markdown": "## PROFESSIONAL SUMMARY\n\nPROFILE\n\n## TECHNICAL SKILLS\n\nIngénieur informatique spécialisé en développement web avec une année d'expérience. Je suis intéresse et ouvert à toute opportunité qui me permet d'améliorer mes compétences et ma carrière professionnelle\nCOMPETENCES\nProgramation\nJava, C#, Javascript, HTML 5, PHP\nFrameworks\nSpring Boot, Symfony, ASP. net, Angular\nBase de données\nOracle Database, MySQL\nOutils de développement\nIntelli J Idea, Visual Studio Code, git\nNetwork Jet\nSystemes d'exploitation\nWindows, Linux\nOutils DevOps\nDocker, Jenkins, git, Junit 4, Nexus, Sonar\nCheck Up\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nAxe Finance\nCONTACT\nDévelopper Full stack web\nconception et développement d'une solution d'automatisation des crédits\nNakbiyassine 800@gmail.com\n## Environnements techniques: .Netcore, C#, SQLServer Angular, Extjs\n**Date: ** Septembre 2023 - juin 2024\n## Monastir, monastir\n**Date: ** Mars 2023 - aout 2023\n- Axe Finance\n- Stage PFE\n- whttps: //www.linkedin.com/in/yassine-nakbi-849444211/- Conception et développement d'une gestion des documents légal Taches réaliser:\n- Conception et développement de module de paramétrages de documents\n- Mise en place un moteur dynamique que capable de convertir les document en formulaire de saisie\n## Environnements techniques: .Netcore, C#, SQLServer Angular\n**Date: ** Juillet 2022-September 2022\n- Axe Finance\n- Stage d'été\n- Conception et développement d'une application qui permet à l'entreprise de gérer ses stages ainsi que ses stagiaires.\n- Taches réaliser:\n\n## EDUCATION\n\n## Baccalauréat sciences techniques\n**Date: ** 2017-2023\n- ESPRIT\n- Genie Logiciel\nConcevoir la structure de base de données pour stocker les informations sur les stages, les stagiaires, les évaluations, etc.\n- Développer les API pour gérer les opération CRUD\n- Intégrer la logique métier pour gérer les flux de travail liés au stages\n## Environnements techniques: Spring Boot, Mysql, Angular\n**Date: ** Janvier 2022-mai 2022\n- Projet Académique\n- Conception et développement d'une application web pour aider les entreprises à trouver des partenaires de voyage dans le monde professionnel\n## Environnements techniques: Spring Boot, Mysql, Angular\n- Projet Académique\n## Conception et Développement d'une application web, desktop de gesti des reunions\n**Date: ** October 2021--Decembre 2021\n## Environnements techniques: Javafx, , Symfony\n\n## LANGUAGES\n\nArabe: Langue maternelle\nFrancais: Intermediare\nAnglais: Niveau B 2",
+    "header_info": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": "Java, C#, Javascript, HTML 5, PHP",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.0,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0].year",
+      "experiences[0].city",
+      "experiences[1].city",
+      "experiences[2].city",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "education[0].year",
+      "experiences[0].city",
+      "experiences[1].city",
+      "experiences[2].city",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": "Nakbiyassine 800@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "https://www.linkedin.com/in/yassine-nakbi-849444211/",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieur informatique spécialisé en développement web avec une année d'expérience.",
+      "experience_level": "mid_level",
+      "years_experience": "1",
+      "hard_skills": [
+        "Java",
+        "C#",
+        "Javascript",
+        "HTML 5",
+        "PHP",
+        "Spring Boot",
+        "Symfony",
+        "ASP. net",
+        "Angular",
+        "Oracle Database",
+        "MySQL",
+        "Intelli J Idea",
+        "Visual Studio Code",
+        "git",
+        "Docker",
+        "Jenkins",
+        "Junit 4",
+        "Nexus",
+        "Sonar"
+      ],
+      "soft_skills": [
+        "Conception et développement de solutions web"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Axe Finance",
+        "job_title": "Développer Full stack web",
+        "start_date": "Septembre 2023",
+        "end_date": "juin 2024",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une solution d'automatisation des crédits"
+        ]
+      },
+      {
+        "company": "Axe Finance",
+        "job_title": "Stage PFE",
+        "start_date": "Mars 2023",
+        "end_date": "aout 2023",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une gestion des documents légal"
+        ]
+      },
+      {
+        "company": "Axe Finance",
+        "job_title": "Stage d'été",
+        "start_date": "Juillet 2022",
+        "end_date": "Septembre 2022",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application qui permet à l'entreprise de gérer ses stages ainsi que ses stagiaires"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT",
+        "degree": "Baccalauréat sciences techniques",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Projet Académique",
+        "degree": null,
+        "field": null,
+        "year": "Janvier 2022-mai 2022"
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Francais",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:46:35.446422+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

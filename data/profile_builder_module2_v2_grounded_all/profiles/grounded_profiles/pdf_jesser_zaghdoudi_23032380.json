@@ -1,0 +1,193 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\jesser_zaghdoudi_23032380.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\jesser_zaghdoudi_23032380.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.935,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nJesser ZAGHDOUDI\nIngénieur Full Stack & IA (Python/React/Spring Boot)\nzaghdoudi.jesser@esprit.tn/phone/phone/envelope/envelope\nlinkedin.com/in/zaghdoudi-jesser\ngithub.com/zaghdou/linkedin/linkedin/github/github\n\n## PROFESSIONAL SUMMARY\n\nProfil\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieur logiciel orienté développement full-stack et IA. Expérience dans la conception d'applications web et l'automatisation de processus métiers (génération de rapports, analyse de données).\n- Expériences Professionnelles\n## Stagiaire PFE - Pw C, Tunis\n**Date: ** Fév. 2025 - Aoû. 2025\n- Automatisation de l'analyse et génération documentaire via pandas et python-docx .\n## Python, Flask, React/Next. js, MySQL, Git\n## Stagiaire Ingénieur - IMS Consulting, Tunis\n**Date: ** Aoû. 2024 - Sep. 2024\n- Conception d'une plateforme web pour centraliser des offres immobilières (responsive).\n- Modules de gestion utilisateurs/annonces + IA pour analyser tendances et estimer les prix.\n## Spring Boot, Angular, MySQL, Python, Scrapy, Scikit-learn, XGBoost, Docker\n## Stage PFE - GIVEN, Tunis\n**Date: ** Jan. 2022 - Juin 2022\nSuivi en temps réel, priorisation des interventions et génération de rapports pour la décision.\n- Architecture modulaire pour performance et maintenabilité.\n## Angular, Spring Boot, PostgreSQL, Git, Jira\n\n## TECHNICAL SKILLS\n\nCompétences\n: Python, Java, PHP, JavaScript\nLangages\n: Spring Boot, Angular, React/Next. js, Laravel, Symfony, Flask\nFrameworks\n: Pandas, Scikit-learn, XGBoost\nIA & Data\n: MySQL, PostgreSQL\nBases de données\nOutils:\nGit, Docker, Jira\n\n## LANGUAGES\n\nLangues:\nArabe (maternelle), Français (courant), Anglais (professionnel)\nÉducation\n\n## EDUCATION\n\nÉcole Supérieure Privée d'Ingénierie et de Technologie ESPRIT - Diplôme d'Ingénieur Informatique Sep. 2022 - Oct. 2025\nL'Institut Supérieur des Technologies de l'Information et de la Communication ISTIC - Licence Informatique, Réseaux & Télécoms Sep. 2019 - Juil. 2022\n- Développement d'une application web pour automatiser des missions d'audit IT (processus et reporting).\n- API Flask (CRUD) et interface React/Next. js; intégration d'agents IA pour générer des rapports structurés.\n- Conception et développement d'une application web de gestion des réclamations et interventions (municipalités).\n\n## ACADEMIC PROJECTS\n\nProjets\nPoker Planning Agile - Application collaborative de planification agile\n## Spring Boot, Angular, MongoDB\n- Comparateur d'Assurances - Plateforme web de comparaison d'offres\n## Laravel, Next. js, MySQL\n## Python, NLTK, spaCy, Scikit-learn\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nReconnaissance d'Émotions (NLP) - Détection d'émotions dans du texte",
+    "header_info": {
+      "full_name": "Jesser ZAGHDOUDI",
+      "email": "zaghdoudi.jesser@esprit.tn",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/zaghdoudi-jesser",
+      "github": "github.com/zaghdou/linkedin/linkedin/github/github"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.987,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Jesser ZAGHDOUDI",
+      "email": "zaghdoudi.jesser@esprit.tn",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/zaghdoudi-jesser",
+      "github": "github.com/zaghdou"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "React/Next.js",
+        "Spring Boot",
+        "Angular",
+        "MySQL",
+        "Git",
+        "Docker"
+      ],
+      "soft_skills": [
+        "Automatisation de processus métiers",
+        "Conception d'applications web",
+        "Analyse de données",
+        "Priorisation des interventions",
+        "Génération de rapports",
+        "Suivi en temps réel",
+        "Modularité pour performance et maintenabilité"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Stagiaire PFE - Pw C, Tunis",
+        "start_date": "Fév. 2025",
+        "end_date": "Aoû. 2025",
+        "city": null,
+        "responsibilities": [
+          "Automatisation de l'analyse et génération documentaire via pandas et python-docx"
+        ]
+      },
+      {
+        "company": "IMS Consulting, Tunis",
+        "job_title": "Stagiaire Ingénieur",
+        "start_date": "Aoû. 2024",
+        "end_date": "Sep. 2024",
+        "city": null,
+        "responsibilities": [
+          "Conception d'une plateforme web pour centraliser des offres immobilières (responsive)",
+          "Modules de gestion utilisateurs/annonces + IA pour analyser tendances et estimer les prix"
+        ]
+      },
+      {
+        "company": "GIVEN, Tunis",
+        "job_title": "Stage PFE",
+        "start_date": "Jan. 2022",
+        "end_date": "Juin 2022",
+        "city": null,
+        "responsibilities": [
+          "Suivi en temps réel, priorisation des interventions et génération de rapports pour la décision"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT",
+        "degree": "Diplôme d'Ingénieur Informatique",
+        "field": null,
+        "year": "Sep. 2022 - Oct. 2025"
+      },
+      {
+        "institution": "ISTIC",
+        "degree": "Licence Informatique, Réseaux & Télécoms",
+        "field": null,
+        "year": "Sep. 2019 - Juil. 2022"
+      }
+    ],
+    "languages": [
+      "Arabe (maternelle)",
+      "Français (courant)",
+      "Anglais (professionnel)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:45:32.823845+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

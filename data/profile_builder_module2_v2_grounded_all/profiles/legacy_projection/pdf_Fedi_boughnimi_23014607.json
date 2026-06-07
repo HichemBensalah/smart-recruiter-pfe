@@ -1,0 +1,83 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Fedi_boughnimi_23014607.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Fedi_boughnimi_23014607.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Fedi_boughnimi_23014607.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Fadi BOUGHNIMI",
+      "email": "fediboughnimi 2@gmail.com",
+      "phone": null,
+      "location": "Développeur Full Stack | ERP, IA & Solutions IT"
+    },
+    "expertise": {
+      "summary": "Développeur full stack avec expérience en développement web, analyse des besoins clients et conception de solutions IT innovantes.",
+      "hard_skills": [
+        "langages de programmation: JavaScript, Python, Java",
+        "Frameworks front-end: Angular, Bootstrap",
+        "bases de données: SQL, MongoDB, Firebase",
+        "Frameworks: Spring Boot, .NET"
+      ],
+      "soft_skills": [
+        "Communication professionnelle",
+        "Présentation de solutions IT",
+        "Analyse des besoins clients",
+        "Travail en équipe",
+        "Résolution de problèmes",
+        "Gestion de projet Agile",
+        "Capacité d'apprentissage rapide"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Siège sociale de BH banque(Direction centrale de l'informatique)",
+        "start_date": "janvier 2023",
+        "end_date": "février 2023",
+        "city": "Tunis",
+        "responsibilities": [
+          "Observation et découverte du monde professionnel.",
+          "Maintenance des systèmes informatiques.",
+          "Configuration des équipements réseau."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "TIDO: Tunisian IDentity Online",
+        "start_date": "janvier 2024",
+        "end_date": "février 2024",
+        "city": "Mnihla, Ariana",
+        "responsibilities": [
+          "Création de sites web sur mesure.",
+          "Conception et développement d'une application web de sondage interactif pour l'évaluation des employés."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Téchnologie De L'informatique Spécialité: Développement des systèmes d'information",
+        "school": "Institut supérieure des études technologiques de bizerte",
+        "year": "2022"
+      },
+      {
+        "degree": "Baccalauréat en sciences de l'informatique",
+        "school": "Lycée Hassan Hosni Abdel Waheb - Mnihla",
+        "year": "2018"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:04:59.334121+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.982,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

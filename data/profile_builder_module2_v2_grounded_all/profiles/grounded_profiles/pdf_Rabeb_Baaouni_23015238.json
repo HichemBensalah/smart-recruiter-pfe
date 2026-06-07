@@ -1,0 +1,213 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rabeb_Baaouni_23015238.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rabeb_Baaouni_23015238.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8623,
+  "normalization": {
+    "cleaned_markdown": "## RABEB BAAOUNI\n\nIngénieur QA/Test Logiciel\nTél:\nEmail:\nrabebbaaouni@gmail.com |\nLinked In:\nlinkedin.com/in/rabeb-baaouni\nAdresse:\nTunis, Tunisie | Permis de conduire:\n\n## PROFESSIONAL EXPERIENCE\n\nEXPÉRIENCE\nApplication Web de Gestion Scolaire\nDéveloppement d'une application web full-stack pour gérer les étudiants, les enseignants et les cours\n- Création d'un front-end responsive avec Angular et Angular Material\n- Conception d'APIs RESTful avec Spring Boot pour la logique métier\n- Implémentation des opérations CRUD avec la base de données MySQL\n- Intégration du front-end et back-end via des services HTTP\nAcquisition d'une expérience pratique avec des concepts fondamentaux comme les structures de données, les APIs, et l'intégration de bases de données à travers des projets académiques et personnels .\n- Projet Personnel\nContrôle de Version & Collaboration Utilisation de Git et GitHub pour le contrôle de version, la\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nProjet Personnel\nIngénieure en tests et validation logicielle, je suis passionnée par l'assurance qualité et la fiabilité des applications. Rigoureuse et adaptable, je contribue à améliorer la qualité des logiciels à travers des tests manuels et automatisés, tout en travaillant efficacement en équipe.\nRÉALISATIONS\n\n## ACADEMIC PROJECTS\n\nDéveloppement de Projets Personnels\ngestion du code et la collaboration sur de petits projets.\nDébogage et Résolution de Problèmes\n\n## EDUCATION\n\nPlateforme de Cours de Formation en Ligne Projet Personnel\nCréé a dynamique web platform for parcourir and gérer training courses\n## Développé interactive UI components avec Angular, HTML 5, CSS 3, and JavaScript\n- Développé backend services with Spring Boot for course and user management\n- Connecté application to MySQL base de données for stocker course data\n- Implémenté API communication entre front-end and back-end\n- Système de Gestion de la Paie\n- Développé a web application to manage employés salaries and paie records\n- Développé user interface avec Angular with responsive design responsives\n- Créé backend APIs avec Spring Boot for paie traitement\n- Géré employés and salaires data avec MySQL\n- Implémenté basic validation and data handling fonctionnalités\n- Application Web E-Commerce\n- Développé a responsive e-commerce web application for parcourir and gérer products\n## Développé the front-end avec React, HTML 5, CSS 3, and JavaScript\n- Créé réutilisables components and géré state avec React hooks\n- Intégration des APIs RESTful développées with Spring Boot for product and user data\n- Used MySQL for stocker product and order information\nImplémenté fonctionnalités like product listing, filtrage, and basic panier fonctionnalité\n**Date: ** 02/2022 - 06/2022\n- Projet de Fin d'Études\n## Sfax, Tunisie\n- Développement d'une application web pour aider au dépistage précoce des troubles neurodéveloppementaux du DSM-5.\n## Front-end: Angular (Angular Material), TypeScript, HTML 5, CSS 3, Bootstrap\n**Date: ** 09/2020\n- Back-end: Django (Python)\n- Base de données: SQLite\n- Services Web: API REST\n- Méthodologie de travail: Agile/SCRUM\n- Projet de Fin d'Études\n- Karray-Group\n## Sfax, Tunisie\n- Conception et développement d'une application mobile pour la gestion des risques et de la qualité.\n## Front-end: React Native, JavaScript, CSS 3\n**Date: ** 09/2020 -12/2022\n- Back-end: Laravel (PHP)\n- Base de données: MySQL\n- Méthodologie de travail: Agile/SCRUM\n- FORMATION\n- Master en Génie Logiciel\n- Institut Supérieur d'Informatique et de Multimédia\n## Sfax, Tunisia\n**Date: ** 09/2017 -06/2020\n- Licence en Sciences Informatiques\n- Institut Supérieur d'Informatique et de Multimédia\n## Sfax, Tunisia\n\n## TECHNICAL SKILLS\n\nDéveloppement d'applications web (ex.: liste de tâches, système de gestion d'étudiants) avec Angular et React (HTML, CSS, JavaScript) et Spring Boot, améliorant les compétences pratiques en développement.\nApprentissage et Application de Concepts de Programmation\nPratique du débogage et de la correction des problèmes dans le code, améliorant la pensée logique et les compétences en résolution de problèmes.\nProjet Personnel\nConception Web Responsive\nCréation d'interfaces utilisateur responsives fonctionnant sur appareils mobiles et de bureau.\nApprentissage Continu\nSuivi de cours en ligne/tutoriels en Java, Python, Angular, React, j Query (JavaScript) et CSS (Bootstrap), et pratique régulière de défis de programmation.\nISTQB (International Software Testing Qualifications Board)\nCertifié Angular\nW 3 docs\nCOMPÉTENCES\nAngular(Angular Matriel)\nTypeScript\nHTML 5\nCSS 3\nBootstrap\nDjango(Python)\n\n## FORMATIONS/CERTIFICATIONS\n\nISTQB CTFL (Certified Tester Foundation Level)\nDjagora Foundation SFAX\n\n## API REST\n\nSQLite\nAgile/SCRUM\nReact Native\nJavaScript\nMySQL\nPHP\nLaravel(PHP)\nC/C++\nj Query\nAJAX\nOracle\nGit\nGithub\n\n## LANGUAGES\n\nLANGUES\nArabe\nArabe\nAvancé\nAvancé\nAnglais\nAnglais\nAvancé\nAvancé\nFrançais\nFrançais\nAvancé",
+    "header_info": {
+      "full_name": "RABEB BAAOUNI",
+      "email": "rabebbaaouni@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie | Permis de conduire:",
+      "linkedin": "linkedin.com/in/rabeb-baaouni",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8258,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[1]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[1]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "RABEB BAAOUNI",
+      "email": "rabebbaaouni@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie | Permis de conduire:",
+      "linkedin": "linkedin.com/in/rabeb-baaouni",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieure en tests et validation logicielle, passionnée par l'assurance qualité et la fiabilité des applications.",
+      "experience_level": "mid_level",
+      "years_experience": 5,
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "React",
+        "Django",
+        "Python",
+        "MySQL",
+        "JavaScript",
+        "HTML 5",
+        "CSS 3",
+        "Bootstrap"
+      ],
+      "soft_skills": [
+        "Rigoureuse",
+        "Collaboration",
+        "Débogage et résolution de problèmes",
+        "Pensée logique"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Application Web de Gestion Scolaire",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Création d'un front-end responsive avec Angular et Angular Material",
+          "Conception d'APIs RESTful avec Spring Boot pour la logique métier",
+          "Implémentation des opérations CRUD avec la base de données MySQL",
+          "Intégration du front-end et back-end via des services HTTP"
+        ]
+      },
+      {
+        "company": "Projet Personnel",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web full-stack pour gérer les étudiants, les enseignants et les cours"
+        ]
+      },
+      {
+        "company": "Projet de Fin d'Études",
+        "job_title": null,
+        "start_date": "09/2020",
+        "end_date": "12/2022",
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Développement d'une application web pour aider au dépistage précoce des troubles neurodéveloppementaux du DSM-5"
+        ]
+      },
+      {
+        "company": "Projet de Fin d'Études",
+        "job_title": null,
+        "start_date": "09/2020",
+        "end_date": "12/2022",
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Conception et développement d'une application mobile pour la gestion des risques et de la qualité"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur d'Informatique et de Multimédia",
+        "degree": "Master en Génie Logiciel",
+        "field": null,
+        "year": "09/2017 - 06/2020"
+      },
+      {
+        "institution": "Institut Supérieur d'Informatique et de Multimédia",
+        "degree": "Licence en Sciences Informatiques",
+        "field": null,
+        "year": "09/2017 - 06/2020"
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Anglais",
+      "Français"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:24:01.188196+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

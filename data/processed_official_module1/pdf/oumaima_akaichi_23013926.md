@@ -1,0 +1,97 @@
+## HEADER
+
+ oumaimaakaichi 00@gmail. com
+ Tunis
+Oumaima AKAICHI
+ 25 ans
+Ingénieure en Informatique - Génie Logiciel
+Ingénieure en informatique spécialisée en génie logiciel, avec une expertise en Java et PHP, ainsi quʼen développement full-stack. Expérimentée en développement mobile multiplateforme avec Flutter et React Native. Compétente en conception orientée objet, intégration dʼAPI et gestion de bases de données. Passionnée par la création de solutions logicielles performantes.
+
+## EDUCATION
+
+Diplôme dʼingénieure en Informatique - Génie Logiciel
+### ISAMM Institut Supérieur des Arts Multimédia de Manouba Manouba, TU, Tunisie
+**Date:** De 2022 à 2025
+- Licence en Technologies de lʼInformatique - Développement des systèmes dʼinformation
+### Institut supérieur des études technologiques de Béja Beja, BJ, Tunisie
+**Date:** De 2019 à 2022
+### Baccalauréat en science informatique
+**Date:** 2019
+### Lycée de l'environnement de bousalem Jendouba, JE, Tunisie
+- Stage de fin dʼétudes cycle ingénieur
+### SLNEE Tunis, TU, Tunisie
+**Date:** De février 2025 à août 2025
+- Conception et développement dʼune application web et mobile de gestion de maintenance automobile.
+- Technologies
+### : Flutter, Laravel, Python
+- Stage dʼété cycle ingénieur
+### SAN Jendouba, JE, Tunisie
+**Date:** Juillet 2024
+- Conception et développement dʼune application web et mobile pour la gestion des fermes.
+- Technologies :
+### React Native, React. js et Node. js.
+- Stage dʼété cycle ingénieur
+### Swicode Tunis, TU, Tunisie
+**Date:** Juillet 2023
+- Conception et développement dʼune application web de gestion des produits cosmétiques.
+- Technologies
+- : React Js et Node Js
+- Stage de fin dʼétudes licence
+- Graphene
+### Tunis, TU, Tunisie
+**Date:** De février 2022 à juin 2022
+- Conception et développement dʼune application web et mobile pour la réservation dans les stations de lavage.
+- Technologies
+### : React Native , React Js et Node Js
+- Stage de perfectionnement
+### Centrale Laitière du Nord Tunisie Jendouba, JE, Tunisie
+**Date:** Juillet 2021
+- Développement dʼun site e-commerce pour la vente de produits informatiques.
+Installation, configuration et maintenance des postes de travail et des logiciels.
+**Date:** Février 2020
+
+## : PHP, HTML, CSS
+
+Technologies
+Stage dʼinitiation
+La BH Banque Jendouba, JE, Tunisie
+Participation aux activités du département informatique.
+
+## PROJETS ACADÉMIQUES
+
+Application web : Application de gestion dʼun restaurant universitaire sous Angular et Spring Boot.
+Jeu publicitaire
+: Création dʼun jeu 2 D
+sous Unity.
+Plateforme collaborative : Site web dʼun
+choeur sous React et Node JS.
+Application médicale : Application de gestion dʼun cabinet dentaire sous Java.
+
+## TECHNICAL SKILLS
+
+COMPÉTENCES
+LANGUES
+langages
+Anglais
+Python, Java, Java Script, PHP, C , C#, Dart
+Intermédiaire
+Frameworks
+Arabe
+Langue maternelle
+React JS, Angular, Spring Boot, Laravel, Nest JS, Flutter, React Native, Express. js
+Français
+Bases de données
+Courant
+My SQL, Mongo DB, Firebase
+
+## PROJET FREELANCE
+
+Application web de signature électronique
+Technologies : React Js et Node Js
+
+## CENTRES D'INTÉRÊT
+
+Lecture
+ Akaichi Oumaima
+Randonnée
+ Oumaima-akaichi

@@ -1,0 +1,92 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Houssem_Rezgui_23022677.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Houssem_Rezgui_23022677.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Houssem_Rezgui_23022677.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Houssem Rezgui",
+      "email": "houssemrezgui 2015@gmail.com",
+      "phone": "396164277",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Gained solid web development experience with a focus on scalable architecture, efficient workflows, and team-based innovation.",
+      "hard_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "MongoDB",
+        "GitHub"
+      ],
+      "soft_skills": [
+        "Adaptability",
+        "Communication",
+        "Creativity",
+        "Teamwork"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Security Manager",
+        "company": "STARK Security Service",
+        "start_date": "09/2022",
+        "end_date": "10/2022",
+        "city": "Doha, Qatar",
+        "responsibilities": [
+          "Manages physical security measures, risk assessments, emergency response plans, and compliance with legal standards.",
+          "Collaborates with IT, HR, and executive teams to ensure a secure and resilient organizational environment."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "RBK-Reboot Kamp Tunisia",
+        "start_date": "10/2023",
+        "end_date": "07/2024",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "AI & UI Design: Supported AI module integration and created user-friendly interfaces using React and Material-UI.",
+          "Team Collaboration: Contributed to GitHub-driven team development with code reviews and process optimization to meet project goals."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "RBK-Reboot Kamp Tunisia",
+        "start_date": "04/2023",
+        "end_date": "10/2023",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Contributed to GitHub-driven team development with code reviews and process optimization to meet project goals."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "IELTS Academic Test (B 2)",
+        "school": "British Council",
+        "year": null
+      },
+      {
+        "degree": "Aptitude \"Elderly Care\"",
+        "school": "Ministry of Education and Training",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:35:45.242173+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9796,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

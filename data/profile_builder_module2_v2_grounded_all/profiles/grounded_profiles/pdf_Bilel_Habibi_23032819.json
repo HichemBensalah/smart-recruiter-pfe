@@ -1,0 +1,252 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Bilel_Habibi_23032819.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Bilel_Habibi_23032819.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8577,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nBilel Habibi\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeur Full Stack maîtrisant React. js, Node. js, MongoDB et MySQL, avec une expérience concrète dans des environnements réglementés (banque, santé). Capable d'assurer aussi bien l'architecture front-end que le développement back-end. Ouvert aux postes full stack, front-end ou back-end, en présentiel ou à distance.\nDéveloppement de plus de 4 projets web clients via la stack MERN, avec interfaces responsives et expérience utilisateur soignée.\n**Date: ** Octobre 2025 - Mars 2026| Sokra, Tunis\n- bilelhabibi 30@gmail.com\n## Mornaguia, Manouba\n- Intégration d'APIs et création de solutions Word Press et React/Node. js adaptées aux besoins de chaque client.\n- github.com/Bilel Hbibi\n- Outils:\n## React. js, Node. js, MongoDB, Express. js, Word Press\n- linkedin.com/in/bilel-habibi/- Développeur Web - SEBN\n## Septembre 2024 - Septembre 2025 | Fejja, Mornaguia\n- bilelhabibi. netlify. app\nDéveloppement et maintenance d'interfaces React responsives, avec compatibilité multi-navigateurs assurée.\nDéveloppement de routes API REST côté Node. js/Express et intégration côté React pour alimenter plusieurs types d'interfaces (dashboards, formulaires, pages de gestion), en coordination avec les équipes design et back-end.\n## React. js, Node. js, Express. js, MongoDB\n- Stagiaire au Banque Tunisienne de Solidarité\nDéveloppement d'une plateforme full stack multi-rôles (admin, fournisseur, client) en environnement bancaire réglementé, avec gestion des accès par rôle et protection des flux sensibles.\n**Date: ** Février 2024 - Mai 2024 | Tunis\n## React. js, Node. js, MongoDB, Express. js, Bootstrap\n- Stagiaire au sein de Laboratoire Teriak\n## Juillet 2022 - Août 2022 | Jebel Ouest, Zaghouan\n- Développement d'une plateforme full stack de gestion des analyses cliniques pour Laboratoire Teriak.\n##: React. js, Node. js, MySQL, Express. js, Bootstrap, Tailwind CSS\n**Date: ** 2024 - Présent| Ariana\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nCONTACT\nDéveloppeur Web - Brand Your Business\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nLangages & Frameworks\nJavaScript\nReact. js\nOutils:\nNode. js\nExpress. js\nMongoDB\nMySQL\nOutils\nOutils:\nGit\nWord Press\nBootstrap\nTailwind CSS\nMéthodologie\nOutils\nStack MERN\nAPIs REST\n\n## EDUCATION\n\nFORMATION\nIngénierie en Informatique\nUniversité des Sciences Numériques TEK-UP\nLicence en Génie Logiciel\nInstitut supérieur des sciences appliquées et de la technologie de Mateur\n## Baccalauréat Informatique\n**Date: ** 2021- 2024 | Mateur\n- Lycée Farabi Mornaguia\n- Diplôme en Création Web - Meshkat Education\n- Diplôme en Javascript - Meshkat Education\n- Diplôme en Framework React - DYMA\n\n## SOFT SKILLS\n\nQUALITÉS\nBonne communication\nRésolution de problèmes\nEsprit d'équipe\nAutonomie & initiative\n\n## LANGUAGES\n\nLANGUES\nCERTIFICAT\nArabe: Langue natale\nAnglais: Intermédiaire\nFrançais: Intermédiaire",
+    "header_info": {
+      "full_name": "Bilel Habibi",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9715,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "education[3].degree",
+      "education[3].institution",
+      "education[4].degree",
+      "education[4].institution",
+      "education[5].degree",
+      "education[5].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Bilel Habibi",
+      "email": "bilelhabibi30@gmail.com",
+      "phone": null,
+      "location": "Mornaguia, Manouba",
+      "linkedin": "linkedin.com/in/bilel-habibi/",
+      "github": "github.com/BilelHbibi"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "MySQL",
+        "JavaScript",
+        "Express.js",
+        "Word Press",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Git",
+        "APIs REST"
+      ],
+      "soft_skills": [
+        "Bonne communication",
+        "Résolution de problèmes",
+        "Esprit d'équipe",
+        "Autonomie & initiative"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Sokra",
+        "job_title": "Développeur Full Stack",
+        "start_date": "Octobre 2025",
+        "end_date": "Mars 2026",
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement de plus de 4 projets web clients via la stack MERN, avec interfaces responsives et expérience utilisateur soignée",
+          "Intégration d'APIs et création de solutions Word Press et React/Node.js adaptées aux besoins de chaque client"
+        ]
+      },
+      {
+        "company": "SEBN",
+        "job_title": "Développeur Web",
+        "start_date": "Septembre 2024",
+        "end_date": "Septembre 2025",
+        "city": "Fejja, Mornaguia",
+        "responsibilities": [
+          "Développement et maintenance d'interfaces React responsives, avec compatibilité multi-navigateurs assurée",
+          "Développement de routes API REST côté Node.js/Express et intégration côté React pour alimenter plusieurs types d'interfaces (dashboards, formulaires, pages de gestion)"
+        ]
+      },
+      {
+        "company": "Banque Tunisienne de Solidarité",
+        "job_title": "Stagiaire",
+        "start_date": "Février 2024",
+        "end_date": "Mai 2024",
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement d'une plateforme full stack multi-rôles (admin, fournisseur, client) en environnement bancaire réglementé, avec gestion des accès par rôle et protection des flux sensibles"
+        ]
+      },
+      {
+        "company": "Laboratoire Teriak",
+        "job_title": "Stagiaire",
+        "start_date": "Juillet 2022",
+        "end_date": "Août 2022",
+        "city": "Jebel Ouest, Zaghouan",
+        "responsibilities": [
+          "Développement d'une plateforme full stack de gestion des analyses cliniques pour Laboratoire Teriak"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université des Sciences Numériques TEK-UP",
+        "degree": "Ingénierie en Informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut supérieur des sciences appliquées et de la technologie de Mateur",
+        "degree": "Licence en Génie Logiciel",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Farabi Mornaguia",
+        "degree": "Baccalauréat Informatique",
+        "field": null,
+        "year": "2021-2024"
+      },
+      {
+        "institution": "Meshkat Education",
+        "degree": "Diplôme en Création Web",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Meshkat Education",
+        "degree": "Diplôme en Javascript",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "DYMA",
+        "degree": "Diplôme en Framework React",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Anglais",
+      "Français"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T18:10:33.917145+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

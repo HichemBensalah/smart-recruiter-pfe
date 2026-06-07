@@ -1,0 +1,161 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\wadii_makhlouf_23015262.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\wadii_makhlouf_23015262.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8684,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nWadii MAKHLOUF\nDéveloppeur Front-End Angular\n\n## GSM: +216 27 812 903\n\nMail: wadihmakhlouf 1995@gmail.com\nAdresse: Sfax, tunise\nLinked In: https: //www.linkedin.com/in/wadii-\nmakhlouf/## PROFESSIONAL SUMMARY\n\nProfil\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeur Front-End avec 3 ans d'expérience, spécialisé dans Angular. J'ai acquis une expertise dans la création d'interfaces utilisateurs performantes et intuitives, en optimisant l'expérience et la réactivité des applications. Passionné par l'innovation, je m'engage à fournir des solutions techniques de haute qualité répondant aux besoins des utilisateurs.\n- Expériences Professionnelles\n- Missions et tâches réalisées:\n Migration vers Dev Extreme, améliorant la performance de l'application de 40% et l'expérience utilisateur.\n Conversion fidèle de maquettes Adobe XD et Figma en interfaces web pixel-perfect, garantissant une cohérence totale entre design et application.\n Implémentation d'un système de caching, réduisant le temps de chargement des données.\n Développement de fonctionnalités interactives telles que le drag-and-drop et un tableau interactif, augmentant l'interaction utilisateur et la visibilité des données.\n Création d'un CRUD permettant la gestion des paramètres (ajout, modification, suppression).\nCréation d'un composant partagé pour réduire la redondance du code de 40%. Technologies: Angular 18, Devextreme, Typescript, Git Tea, Jest, NodeJS, HTML 5, CSS 3\n- Missions et tâches réalisées:\n Développement de l'interface graphique web en Angular 14 avec le backend Dotnet Core (C#): Conception et intégration de l'interface utilisateur, permettant une navigation fluide et une réactivité accrue de l'application, réduisant les erreurs d'affichage de 20%.\n Création d'une API REST en suivant l'architecture préétablie du projet: Développement d'une API REST robuste et sécurisée, facilitant l'échange de données entre le frontend et backend.\n-  Participation à la création et mise à jour du backlog et des sprints.\n- Missions et tâches réalisées:\n## Bootstrap 4, Laravel, Php My Admin, UML, Html 5, Git\n- Technologies:\n- Missions et tâches réalisées:\n-  Création d'un site e-commerce de vente de produit en ligne.\n## Bootstrap 4, Django, PostgreSQL, Html 5, Gi\n- Technologies:\n\n## EDUCATION\n\nDiplômes\nMastère professionnelle en informatique\nSfax\nEcole supérieur polytechnique internationale privée\nLicence fondamentale en science et technologie de l'information et de la télécommunication Ecole nationale d'électronique et télécommunication\nSfax\n\n## TECHNICAL SKILLS\n\nDéveloppeur Front End Angular | Juin 2023 - mars 2026 | Barthauer software tunisia Sousse\nDéveloppeur Front End Angular | Août 2022 - Avril 2023 | UIT CONSULTING Sfax\n Exécution de requêtes SQL sur Microsoft SQL Server Management Studio: Optimisation des requêtes SQL, réduisant le temps d'exécution des requêtes complexes de 30% et améliorant la performance générale du système. Technologies: Angular 14, ASP. NET CORE, Swagger, Devops Azure, SQL server, Prime NG, HTML 5, CSS 3, Git\nStagiaire en Fullstack | février 2022 - mai 2022 Sfax\n Conception et réalisation d'une application web facilitant le contact entre les intervenants du transport de personnes (covoiturage).\nStagiaire en Fullstack | juin 2021 - juillet 2021 Sfax",
+    "header_info": {
+      "full_name": "Wadii MAKHLOUF",
+      "email": "1995@gmail.com",
+      "phone": "+216 27 812 903",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/wadii",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9737,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Wadii MAKHLOUF",
+      "email": "1995@gmail.com",
+      "phone": "+216 27 812 903",
+      "location": null,
+      "linkedin": "https://www.linkedin.com/in/wadii-makhlouf/",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 3,
+      "hard_skills": [
+        "Angular",
+        "Devextreme",
+        "Typescript",
+        "Git Tea",
+        "Jest",
+        "NodeJS",
+        "HTML 5",
+        "CSS 3"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Barthauer software tunisia Sousse",
+        "job_title": null,
+        "start_date": "Juin 2023 - mars 2026",
+        "end_date": null,
+        "city": "Sfax",
+        "responsibilities": [
+          "Migration vers Dev Extreme, améliorant la performance de l'application de 40% et l'expérience utilisateur.",
+          "Conversion fidèle de maquettes Adobe XD et Figma en interfaces web pixel-perfect, garantissant une cohérence totale entre design et application.",
+          "Implémentation d'un système de caching, réduisant le temps de chargement des données.",
+          "Développement de fonctionnalités interactives telles que le drag-and-drop et un tableau interactif, augmentant l'interaction utilisateur et la visibilité des données.",
+          "Création d'un CRUD permettant la gestion des paramètres (ajout, modification, suppression).",
+          "Création d'un composant partagé pour réduire la redondance du code de 40%."
+        ]
+      },
+      {
+        "company": "UIT CONSULTING Sfax",
+        "job_title": null,
+        "start_date": "Août 2022 - Avril 2023",
+        "end_date": null,
+        "city": "Sfax",
+        "responsibilities": [
+          "Développement de l'interface graphique web en Angular 14 avec le backend Dotnet Core (C#): Conception et intégration de l'interface utilisateur, permettant une navigation fluide et une réactivité accrue de l'application, réduisant les erreurs d'affichage de 20%."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Ecole supérieur polytechnique internationale privée",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Sfax",
+        "degree": "Mastère professionnelle en informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:55:26.931126+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

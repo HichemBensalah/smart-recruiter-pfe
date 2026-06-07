@@ -1,0 +1,91 @@
+## HEADER
+
+Développeuse Full-Stack spécialisée en Python, Odoo et intelligence artificielle, je conçois des solutions performantes pour automatiser et optimiser les processus métiers.
+
+## EDUCATION
+
+DIPLÔMES
+Étudiante en cycle d'ingénieur, Spécialité Sécurité des Systèmes Informatique et des Réseaux 09/2024
+- Tek-UP Tunis
+Licence en Sciences Informatiques, Spécialité Big Data et analyse des données 09/2021 - 05/2024 Institut supérieur d'informatique et de multimédia Sfax
+### Baccalauréat en Sciences Techniques
+**Date:** 09/2020 - 06/2021
+- Formation des utilisateurs pour garantir une utilisation optimale des systèmes déployés.
+- Hébergement et gestion des environnements de production .
+- Utilisation de XML et Python pour l'adaptation et l'extension des fonctionnalités d' Odoo .
+Développement et maintenance de sites web dynamiques avec PHP , HTML , CSS , Java Script et Boostrap .
+### Outils : Odoo, XML, Python, PHP, HTML, CSS, Java Script, Bootstrap , Pu TTY.
+**Date:** Stage de fin d'études 02/2024 - 05/2024
+- Centre de Recherche en Numérique Sfax
+- Conception et développement d'un gant intelligent pour la détection d'obstacles destiné aux personnes malvoyantes.
+- Développement d'une application mobile Flutter pour la communication entre le gant et l'utilisateur.
+Programmation embarquée en C sur carte Arduino, intégrée à Firebase pour la gestion des données en temps réel.
+### Outils et Technologies : Visual Studio Code, Arduino IDE, Flutter, C, Firebase.
+- Stagiaire Développeuse Mobile 07/2023 - 08/2023
+Développement et test d'une application mobile embarquée pour véhicule , intégrant la lecture de données de capteurs en temps réel.
+- Implémentation d'interfaces modernes avec XML et gestion des interactions via Kotlin .
+- Participation à la phase de test et de validation logicielle à l'aide de Sonar Qube pour assurer la qualité du code.
+### Outils et Technologies : Android Studio, Sonar Qube, Kotlin, XML.
+
+## RI H E M TAKTAK
+
+Cours du soir
+
+## DÉVELOPPEUSE FULL-STACK
+
+Lycée Majida Boulila Sfax
+
+## À PROPOS
+
+rihem. taktak 52@gmail. com 
+Ariana, Tunisie 
+Astorm Tunis
+
+## EXPÉRIENCES PROFESSIONNELLES
+
+Conception et développement des modules personnalisés pour la gestion du recrutement et l'automatisation RH.
+Mise en place d'un moteur de matching intelligent entre candidats et offres via des modèles IA (Open AI API, Sentence Transformers).
+Développement de scripts Python pour l'analyse sémantique et la structuration automatique des CVs.
+Intégration d'un système de génération automatique de documents .
+Déploiement et mise en production des modules développés.
+Participation à la refonte UX/UI des interfaces pour une meilleure ergonomie.
+Collaboration en environnement Agile/Scrum (daily meetings, sprint planning, revues).
+Digitalisation du processus de recrutement, optimisant la productivité des équipes RH.
+Outils : Python, Postgre SQL, Java Script, Bootstrap, Git, Open AI API, Sentence Transformers, XML, Odoo.
+Consultante Fonctionnelle et Développeuse Web - ERP Odoo 09/2024 - 04/2025
+Analyse des besoins clients et personnalisation des modules Odoo existants.
+Paramétrage et configuration d' Odoo selon les exigences spécifiques des clients.
+
+## TECHNICAL SKILLS
+
+COMPÉTENCES
+Langages de programmation :
+Python, Java Script, C, Java, XML
+Framework :
+Odoo, Laravel, Symfony, Flutter
+Base de données :
+Postgre SQL, Mongo DB, SQL
+Systèmes d'exploitation :
+Windows, Linux (Ubuntu, Red Hat), Windows Server, Ansible
+Navitrends Ariana, tunis
+Administration systèmes :
+Active Directory, gestion des utilisateurs, GPO
+Logiciels :
+Git, Power BI Desktop, Studio 3 T, Talend, Odoo ERP, Oracle .
+
+## LANGUAGES
+
+LANGUES
+Arabe
+: Langue maternelle
+Français
+: Avancé
+Anglais
+: Intermédiaire
+
+## SOFT SKILLS
+
+Esprit analytique et résolution de problèmes complexes
+ACTIA Engineering Services Tunis
+Excellentes capacités d'écoute et de communication
+Esprit d'équipe et sens de la collaboration

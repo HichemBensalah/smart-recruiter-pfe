@@ -1,0 +1,203 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\boukhari_ghada_23014236.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\boukhari_ghada_23014236.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.755,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nIT and Cloud Operations Engineer\nghadaboukhari 8@gmail.com\nlinkedin.com\nCloud & DevOps Engineer with hands-on experience in multi-cloud environments (Microsoft Azure, GCP), infrastructure automation, and secure CI/CD pipelines. Proven ability to enhance system performance, optimize workflows, and strengthen security through Dev Sec Ops practices. Seeking opportunities in Cloud, DevOps, and Cloud Security.\nSKILLS\nCloud Computing, DevOps, Security, CRM, Monitoring, Data Visualization, Client Management, Iaa C, Linux, Office 365, CCNA 1, Sales Strategy, Client Management\nAutomated deployments using Ansible, improving consistency and reducing manual effort by 40%. ·\nProvisioned and managed Kubernetes clusters on Azure with Terraform, improving scalability and infrastructure reliability. ·\nCloud Engineer Intern\nHORIZOP Energy\nArchitected and implemented scalable solutions on Google Cloud Platform (GCP). ·\nSet up CI/CD pipelines using Git Lab to automate build and deployment workflows. ·\nComputer Engineering - IT Architecture and Cloud Computing\nManaged containerized applications using Docker and Kubernetes, ensuring high availability and performance. ·\nPrivate High School of Engineering and Technology (ESPRIT)\nCloud and DevOps Intern\nRadès, Tunisia\nDeployed and managed cloud infrastructure on Microsoft Azure using Infrastructure as Code (Terraform). ·\nMaster's in Systems, Networks and Cloud Computing\nMigrated on-premises workloads to Azure, improving scalability and availability. ·\nUniversity of Sfax\nBachelor's in Computer Networks\nTranslated business requirements into efficient and scalable cloud solutions. ·\nUniversity of Sfax\nB 2\nEnglish\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nCRM & Data Operations Supervisor\nSAFILAB\nAdministered and optimized the Odoo CRM system with a strong focus on role-based access control (RBAC) to ensure secure and structured user management. ·\nLeveraged Metabase and Odoo analytics dashboards to generate actionable insights, improving decision-making speed by 20%. ·\n**Date: ** 08/2025 - Present\n**Location: ** Ariana, TUNISIA\n- Contributed to sales strategy by aligning CRM processes with business objectives and customer lifecycle management. ·\nStrengthened client management by improving customer tracking, engagement, and retention. ·\n## Dev Sec Ops Intern\n**Date: ** 02/2025 - 06/2025\n**Location: ** Tunis, Tunisia\n- SFM\n- Designed and implemented a secure Dev Sec Ops pipeline for a banking back-end application using Git Lab CI/CD. ·\nIntegrated Trivy for continuous vulnerability scanning, identifying and mitigating security vulnerabilities. ·\n\n## PROFESSIONAL SUMMARY\n\nSUMMARY\n\n## ACADEMIC PROJECTS\n\nPROJECTS\nPrivate Iaa S\nDesigned and deployed a private Iaa S platform using Open Stack and Kubernetes, enabling scalable and reliable infrastructure. Automated provisioning and configuration with Terraform, and deployed a full-stack club management application built with Angular and Spring Boot.\n**Date: ** 2024\n**Location: ** Ariana, Tunisia\n- Implemented monitoring and logging solutions to enhance system observability and proactive issue detection. ·\n- Designed and implemented scalable cloud architectures aligned with business needs. ·\n- Built and deployed containerized applications using Docker, Kubernetes, Helm charts, and Azure Container Registry (ACR). ·\n\n## LANGUAGES\n\nArabic\nNative B 2\nFrench",
+    "header_info": {
+      "full_name": null,
+      "email": "8@gmail.com",
+      "phone": null,
+      "location": "Cloud & DevOps Engineer with hands-on experience in multi-cloud environments (Microsoft Azure, GCP), infrastructure automation, and secure CI/CD pipelines. Proven ability to enhance system performance, optimize workflows, and strengthen security through Dev Sec Ops practices. Seeking opportunities in Cloud, DevOps, and Cloud Security.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.951,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.location",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": "8@gmail.com",
+      "phone": null,
+      "location": "Ariana, TUNISIA",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Cloud & DevOps Engineer with hands-on experience in multi-cloud environments (Microsoft Azure, GCP), infrastructure automation, and secure CI/CD pipelines.",
+      "experience_level": "senior",
+      "years_experience": 2,
+      "hard_skills": [
+        "Cloud Computing",
+        "DevOps",
+        "Security",
+        "CRM",
+        "Monitoring",
+        "Data Visualization",
+        "Client Management",
+        "Iaa C",
+        "Linux",
+        "Office 365",
+        "CCNA 1",
+        "Sales Strategy"
+      ],
+      "soft_skills": [
+        "Automated deployments using Ansible",
+        "Provisioned and managed Kubernetes clusters on Azure with Terraform",
+        "Set up CI/CD pipelines using Git Lab",
+        "Managed containerized applications using Docker and Kubernetes",
+        "Deployed and managed cloud infrastructure on Microsoft Azure using Infrastructure as Code (Terraform)",
+        "Migrated on-premises workloads to Azure",
+        "Translated business requirements into efficient and scalable cloud solutions"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "SAFILAB",
+        "job_title": "CRM & Data Operations Supervisor",
+        "start_date": "08/2025",
+        "end_date": null,
+        "city": "Ariana, TUNISIA",
+        "responsibilities": [
+          "Administered and optimized the Odoo CRM system with a strong focus on role-based access control (RBAC) to ensure secure and structured user management.",
+          "Leveraged Metabase and Odoo analytics dashboards to generate actionable insights, improving decision-making speed by 20%.",
+          "Contributed to sales strategy by aligning CRM processes with business objectives and customer lifecycle management.",
+          "Strengthened client management by improving customer tracking, engagement, and retention."
+        ]
+      },
+      {
+        "company": "HORIZOP Energy",
+        "job_title": "Cloud Engineer Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Architected and implemented scalable solutions on Google Cloud Platform (GCP).",
+          "Set up CI/CD pipelines using Git Lab to automate build and deployment workflows."
+        ]
+      },
+      {
+        "company": "Private High School of Engineering and Technology (ESPRIT)",
+        "job_title": "Cloud and DevOps Intern",
+        "start_date": null,
+        "end_date": null,
+        "city": "Radès, Tunisia",
+        "responsibilities": [
+          "Deployed and managed cloud infrastructure on Microsoft Azure using Infrastructure as Code (Terraform).",
+          "Master's in Systems, Networks and Cloud Computing"
+        ]
+      },
+      {
+        "company": "University of Sfax",
+        "job_title": "Bachelor's in Computer Networks",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Translated business requirements into efficient and scalable cloud solutions.",
+          "Migrated on-premises workloads to Azure."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:45:23.126210+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

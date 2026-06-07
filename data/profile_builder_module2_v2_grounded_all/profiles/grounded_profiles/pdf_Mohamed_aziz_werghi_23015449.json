@@ -1,0 +1,187 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_aziz_werghi_23015449.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_aziz_werghi_23015449.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8967,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMohamed Aziz Ouerghi/envelope werghia.1@gmail.com ·/phone +216 29 836 507 ·/github github.com/ouerghi 01/linkedin Linked In ·/globe Portfolio\n\n## TECHNICAL SKILLS\n\nFull Stack Engineer (Mid-Senior Level) · Java/Spring Boot · Angular/React · DevOps\nJava Full Stack Engineer Mid-Senior level with hands-on experience building scalable applications using Spring Boot and Angular. Experienced in developing microservices, REST APIs, and deploying applications using Docker and CI/CD pipelines. Comfortable working in Agile and DevOps environments, contributing from design to production. Strong focus on clean code, performance optimization, and delivering reliable software solutions. Recognized as a confirmed-level (niveau confirmé) engineer with strong autonomy across full-stack architecture, delivery, and DevOps workflows.\nFrontend: Angular, React. js, TypeScript, Tailwind CSS, Material-UI, React Query, React Router, Context API, Responsive Design\nBackend: Java 17, Python, FastAPI, Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs, JWT, Microservices\nDatabases: PostgreSQL (advanced queries, indexing, optimization), MySQL, MongoDB\nDevOps & Tools: Docker, GitHub Actions, CI/CD, Linux (shell scripting), Nginx, AWS, EC 2\nTesting & Quality: JUnit, Mockito, React Testing Library, Postman, Swagger\nConcepts: Clean Architecture, SOLID, OOP, Real-time (Web Sockets), RBAC, Performance Optimization\nFull Stack Software Engineer\nBRI Technology\nArchitected and developed end-to-end full-stack features using Spring Boot + React, delivering 8+ production features that improved system performance by 40% and reduced API latency.\nContainerized full applications with Docker and automated deployment pipelines using GitHub Actions + Nginx, achieving zero-downtime releases.\nWorked in a DevOps-oriented environment using CI/CD pipelines, Docker, and Linux, contributing to automated deployments and continuous integration workflows.\nActively participated in Agile ceremonies, code reviews, and architecture decisions, consistently delivering high-quality code ahead of sprint deadlines.\nSoftware Engineer Intern (PFE)\nFeb 2025 - Jun 2025 Tunisia\nBRI Technology\nApplied clean architecture principles across backend and frontend layers, enhancing code maintainability, scalability, and team collaboration efficiency.\nEngineered a production-grade ride-sharing platform from scratch, covering the full lifecycle: system design, backend architecture, frontend web app, mobile application, CI/CD, and cloud deployment. The platform supports core ride-hailing flows including user/driver onboarding, ride booking, real-time tracking, and secure transactions.\nContainerized the entire system using Docker and orchestrated services via Docker Compose, enabling consistent runtime environments and simplifying deployment workflows.\nDeployed the platform on AWS with production-grade infrastructure setup including Nginx reverse proxy, SSL configuration, and domain management via Hostinger, ensuring secure and scalable access in production.\nImproved system observability and performance, achieving sub-150 ms average API response time and 98% backend test coverage through automated testing and performance optimizations.\n\n## PROFESSIONAL EXPERIENCE\n\nDeveloped frontend applications using Angular and React with TypeScript, focusing on performance, scalability, and user experience.\nDesigned and implemented secure, scalable RESTful APIs with Spring Boot, Spring Security, JWT authentication and RBAC, handling thousands of concurrent requests.\n- Designed a multi-environment deployment strategy (local, development, production) with strict configuration isolation, ensuring safe and reproducible deployments across environments.\nOptimized PostgreSQL database schemas and queries (indexing + caching), reducing query execution time by 50% and enabling faster data retrieval.\n- Collaborated closely with frontend and product teams in an Agile environment to deliver productionready features and improve user experience.\n- hanoutiwr. com\n- Implemented CI/CD pipelines using GitHub Actions to automate build, testing, and deployment processes, reducing manual intervention and enabling continuous delivery of updates.\n- Delivered a complete end-to-end production system demonstrating strong ownership across architecture, backend scalability, frontend optimization, mobile integration, and DevOps practices.\nBuilt a high-performance Next. js frontend with server-side rendering (SSR) and optimized routing strategies, improving initial load performance and enabling strong SEO indexing for public-facing pages.\n**Date: ** Aug 2025 - Apr 2026 Tunisia\n- Designed a scalable backend architecture using Spring Boot with a modular domain-driven structure, implementing RESTful APIs secured with Spring Security (JWT-based authentication, role-based access control) and real-time communication via Web Sockets for live trip updates.\nDeveloped a cross-platform Flutter mobile application to provide native-like user and driver experiences, ensuring consistency across mobile and web ecosystems.\nModeled and optimized a PostgreSQL relational schema with careful attention to normalization, indexing strategies, and query performance tuning, enabling support for high-concurrency scenarios (10, 000+ simulated users) with stable response times.\n\n## ACADEMIC PROJECTS\n\nDesigned and implemented an AI-powered assistant using Retrieval-Augmented Generation (RAG) with Python, FastAPI, Lang Chain, and Cassandra for scalable knowledge storage and retrieval. Project available at: RAGent X GitHub Repository.\n- PROJECTS\n- Developed full-stack modules using Spring Boot and React, integrating seamlessly with existing enterprise systems and improving overall platform extensibility.\n- Built and tested secure REST APIs and responsive UI components, contributing to a 30% improvement in application stability and reliability.\n## Ride-Sharing Platform (Flagship Project)\n**Date: ** 2026\n- Spring Boot · Next. js · Flutter · PostgreSQL · Docker · AWS",
+    "header_info": {
+      "full_name": null,
+      "email": "werghia.1@gmail.com",
+      "phone": "+216 29 836 507",
+      "location": "Java Full Stack Engineer Mid-Senior level with hands-on experience building scalable applications using Spring Boot and Angular. Experienced in developing microservices, REST APIs, and deploying applications using Docker and CI/CD pipelines. Comfortable working in Agile and DevOps environments, contributing from design to production. Strong focus on clean code, performance optimization, and delivering reliable software solutions. Recognized as a confirmed-level (niveau confirmé) engineer with strong autonomy across full-stack architecture, delivery, and DevOps workflows.",
+      "linkedin": null,
+      "github": "github.com/ouerghi"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8307,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "languages[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "experiences[0].city",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]"
+    ],
+    "fields_unsupported": [
+      "languages[0]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": "werghia.1@gmail.com",
+      "phone": "+216 29 836 507",
+      "location": null,
+      "linkedin": "Linked In",
+      "github": "github.com/ouerghi"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java/Spring Boot",
+        "Angular/React",
+        "Docker",
+        "CI/CD pipelines",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "FastAPI",
+        "Spring Security",
+        "JWT",
+        "Microservices",
+        "Clean Architecture",
+        "SOLID",
+        "OOP",
+        "Real-time (Web Sockets)",
+        "RBAC",
+        "Performance Optimization"
+      ],
+      "soft_skills": [
+        "Agile",
+        "DevOps",
+        "Autonomy",
+        "Team Collaboration",
+        "Code Reviews",
+        "Architecture Decisions"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Software Engineer Intern (PFE)",
+        "start_date": "Feb 2025",
+        "end_date": "Jun 2025",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Applied clean architecture principles across backend and frontend layers, enhancing code maintainability, scalability, and team collaboration efficiency.",
+          "Engineered a production-grade ride-sharing platform from scratch, covering the full lifecycle: system design, backend architecture, frontend web app, mobile application, CI/CD, and cloud deployment.",
+          "Containerized the entire system using Docker and orchestrated services via Docker Compose, enabling consistent runtime environments and simplifying deployment workflows.",
+          "Deployed the platform on AWS with production-grade infrastructure setup including Nginx reverse proxy, SSL configuration, and domain management via Hostinger, ensuring secure and scalable access in production.",
+          "Improved system observability and performance, achieving sub-150 ms average API response time and 98% backend test coverage through automated testing and performance optimizations."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Full Stack Engineer (Mid-Senior Level)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed frontend applications using Angular and React with TypeScript, focusing on performance, scalability, and user experience.",
+          "Designed and implemented secure, scalable RESTful APIs with Spring Boot, Spring Security, JWT authentication and RBAC, handling thousands of concurrent requests.",
+          "Optimized PostgreSQL database schemas and queries (indexing + caching), reducing query execution time by 50% and enabling faster data retrieval.",
+          "Collaborated closely with frontend and product teams in an Agile environment to deliver production-ready features and improve user experience.",
+          "Implemented CI/CD pipelines using GitHub Actions to automate build, testing, and deployment processes, reducing manual intervention and enabling continuous delivery of updates."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:36:27.350884+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

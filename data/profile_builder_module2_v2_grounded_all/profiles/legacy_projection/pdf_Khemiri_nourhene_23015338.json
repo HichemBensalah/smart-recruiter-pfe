@@ -1,0 +1,96 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Khemiri_nourhene_23015338.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Khemiri_nourhene_23015338.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Khemiri_nourhene_23015338.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "KHEMIRI NOURHENE",
+      "email": "50@gmail.com",
+      "phone": "+216) 56 19 20 74",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "MySQL",
+        "Spring Boot",
+        "Java 11",
+        "React",
+        "React Query",
+        "Kafka",
+        "JUnit",
+        "Docker",
+        "Git"
+      ],
+      "soft_skills": [
+        "Scrum/Agile",
+        "SOLID",
+        "Microservices"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Juin 2023 - Août 2023",
+        "end_date": null,
+        "city": "Ariana, Tunisie",
+        "responsibilities": [
+          "Analyse du besoin fonctionnel et conception du projet.",
+          "Développement du backend avec Spring Boot (Java 21) et du frontend avec React/React Query."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Juillet 2024 - Septembre 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Analyse du besoin fonctionnel et conception du projet.",
+          "Génération de notifications en temps réel via Kafka."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Février 2025 - Juillet 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement du backend avec Spring Boot (Java 21) et du frontend avec React/React Query.",
+          "Implémentation de Web Socket pour la communication en temps réel."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieure - Génie Informatique (ESPRIT)",
+        "school": null,
+        "year": null
+      },
+      {
+        "degree": "Diplôme National en Informatique - Développement des Systèmes d'Information (ISET Bizerte)",
+        "school": "Up Tech",
+        "year": "2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:54:57.355663+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.983,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

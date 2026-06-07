@@ -1,0 +1,119 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\ahmed_jbali_23014728.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\ahmed_jbali_23014728.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\ahmed_jbali_23014728.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ahmed Jbeli",
+      "email": "86@gmail.com",
+      "phone": "+216 52419334",
+      "location": "Ariena, Tunis 2041, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Word Press CMS",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Plesk",
+        "Nuxt.js",
+        "Vue.js",
+        "Laravel",
+        "TypeScript",
+        "MongoDB",
+        "MySQL",
+        "REST API",
+        "Linux",
+        "Docker",
+        "Angular",
+        "Firebase",
+        "Git",
+        "Scrum",
+        ".NET",
+        "ASP.NET",
+        "SQL Server",
+        "C",
+        "JQuery",
+        "PostgreSQL"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "D´ eveloppeur Full Stack",
+        "company": "Xenius Consulting",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Gestion et optimisation des bases de donn´ ees MySQL et MongoDB",
+          "D´ eveloppement sous Linux (Ubuntu) et participation active aux processus de d´ eveloppement"
+        ]
+      },
+      {
+        "job_title": "D´ eveloppeur Full Stack",
+        "company": "Eventizer",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Application de la m´ ethodologie Agile Scrum: participation active aux Daily Meetings, Sprint Planning et R´ etrospectives"
+        ]
+      },
+      {
+        "job_title": "Stagiaire D´ eveloppeur",
+        "company": "Lasser Informatique",
+        "start_date": "Septembre 2025",
+        "end_date": "Aujourd'hui",
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une application pharmaceutique avec ASP.NET (Back-End) et Laravel (Front-End)",
+          "Int´ egration d'un template responsive, connexion ` a une base de donn´ ees SQL Server",
+          "Mise en place de fonctionnalit´ es de gestion des tˆ aches, cr´ eation, mise ` a jour et suivi des produits"
+        ]
+      },
+      {
+        "job_title": "Stagiaire D´ eveloppeur",
+        "company": "Key Object",
+        "start_date": "Aoˆ ut 2019",
+        "end_date": "Septembre 2019",
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une application web avec ASP.NET et C pour la gestion d'une biblioth` eque en ligne",
+          "Impl´ ementation des fonctionnalit´ es: gestion des utilisateurs, ajout de livres, emprunts, retours et recherche avanc´ ee"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master Recherche en Intelligence Web",
+        "school": "´ Ecole Sup´ erieure d' ´ Economie Num´ erique",
+        "year": null
+      },
+      {
+        "degree": "Licence en Informatique",
+        "school": "Institut Sup´ erieur d'Informatique",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:32:25.973838+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9828,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

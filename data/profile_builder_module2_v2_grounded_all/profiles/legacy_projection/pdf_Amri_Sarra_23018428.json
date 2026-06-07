@@ -1,0 +1,160 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Amri_Sarra_23018428.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Amri_Sarra_23018428.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Amri_Sarra_23018428.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Sarra Amri",
+      "email": "57@gmail.com",
+      "phone": "(+216) 29 383 475",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Junior Software Developer passionate about mobile, frontend, and full-stack development.",
+      "hard_skills": [
+        "AI Tools",
+        "Frameworks",
+        "Databases",
+        "SQLite",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "Firestore",
+        "Redis",
+        "Environments",
+        "Git",
+        "Gitlab",
+        "Maven",
+        "Jenkins",
+        "Jira",
+        "Artifactory",
+        "Sonar Qube",
+        "ESLint",
+        "Flutter",
+        "Java",
+        "Python",
+        "Php",
+        "JavaScript",
+        "TypeScript",
+        "C#",
+        "VB",
+        "Bash/Shell",
+        "FastAPI",
+        "Angular",
+        "Django",
+        "Spring Boot",
+        "NET Core",
+        "Express",
+        "React",
+        "Pandas",
+        "Linux",
+        "Docker",
+        "Node",
+        "Eclipse",
+        "Firebase",
+        "Supabase",
+        "Jupyter",
+        "Google Colab"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Bee Coders",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "Poste Tunisienne",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tabarka, Jendouba",
+        "responsibilities": [
+          "Build an internal portal for users and accounts management clients requests"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Tunisie Telecom",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tabarka, Jendouba",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Fullstack Developer Intern",
+        "company": null,
+        "start_date": "Feb. 2025",
+        "end_date": "May. 2025",
+        "city": null,
+        "responsibilities": [
+          "Design and implement native GUI components using Flutter UI components"
+        ]
+      },
+      {
+        "job_title": "Fullstack Developer Intern",
+        "company": null,
+        "start_date": "Feb. 2024",
+        "end_date": "May. 2024",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Bachelor Degree Internship",
+        "company": null,
+        "start_date": "Jan. 2024",
+        "end_date": "Feb. 2024",
+        "city": null,
+        "responsibilities": [
+          "Performing operational tasks to handle clients requests"
+        ]
+      },
+      {
+        "job_title": "Bachelor Summer Internship",
+        "company": null,
+        "start_date": "Jul. 2023",
+        "end_date": "Aug. 2023",
+        "city": null,
+        "responsibilities": [
+          "Track products sales GSM SIM cards, Wi-Fi subscriptions, promotion"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor Degree",
+        "school": "National Crafts Office",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Higher Institute of Technology Study",
+        "year": null
+      },
+      {
+        "degree": "Baccaleaureate",
+        "school": "Faculty of Science, Tabarka High School",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:37:24.920297+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9554,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

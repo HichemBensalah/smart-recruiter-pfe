@@ -1,0 +1,207 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Oussema_ben_yahia_23017848.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Oussema_ben_yahia_23017848.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.849,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nOussema Ben Yahia\nDéveloppeur Web Full Stack\n+(216) 58 185 125 | oussemabenyahia 89@gmail.com | Tunis, Tunisie oussemabenyahia. vercel. app | github.com/Oussema-BY | Permis B\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeur web full stack avec une solide expérience en création d'applications web modernes et performantes. Étudiant en 2 e année d'ingénierie en génie logiciel (cours du soir), je maîtrise des technologies récentes telles que Next. js, React, TypeScript et Supabase. Curieux et rigoureux, je cherche à contribuer à des projets innovants en apportant une approche orientée qualité, performance et expérience utilisateur.\n- Conception et développement de sites web et d'applications web Saa S performantes et scalables.\nOptimisation SEO technique (Core Web Vitals, métadonnées, rendu côté serveur) pour améliorer le référencement organique.\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nDéveloppeur Web Full Stack\nEXTEL | Janvier 2026 -Avril 2026\nEnvoi de courriels transactionnels automatisés avec Resend.\nStagiaire -Développeur Web Full Stack\nJuniors CV | Juin 2025 -Août 2025\nImplémentation d'un système CRUD avec validation des données via Zod.\nDéploiement sur Vercel avec domaine personnalisé et optimisation SEO.\nStack: Next. js, React, TypeScript, Tailwind CSS, Recharts, Supabase, PostgreSQL, Git.\nAssistant Virtuel Freelance\nSCALIKA TUNISIA | Juillet 2024 -Février 2025\nChef d'Agence\nJUST ASK DELIVERY | Avril 2023 -Février 2024\nMise en place d'outils de suivi pour améliorer la ponctualité des livraisons.\n\n## TECHNICAL SKILLS\n\nIntégration d'animations avancées (GSAP, Lenis) pour des interfaces fluides et engageantes.\nMise en place de systèmes d'authentification sécurisés via Better Auth et gestion des sessions.\nDéveloppement d'interfaces modernes avec Shadcn/UI et gestion de données avec Supabase et MongoDB.\nStack: Next. js, React. js, Supabase, MongoDB, Shadcn/UI, GSAP, Lenis, Better Auth, Resend.\nDéveloppement d'un site web complet avec tableau de bord administrateur pour L'Escalier Consulting.\nAuthentification via Supabase (email/mot de passe, Google OAuth) avec gestion des rôles utilisateurs.\nConception d'une interface responsive et accessible (Tailwind CSS, Shadcn/UI, Lucide Icons).\nGestion des réseaux sociaux et automatisation des tâches administratives.\nRenforcement des compétences en organisation, communication et travail à distance.\nSupervision opérationnelle et optimisation logistique via la gestion d'équipe.\nDéveloppement des compétences en gestion de projet et leadership.\nStagiaire -Développeur Web\nBanque de Tunisie (BT) | Février 2022 -Avril 2022\nConception d'une application de gestion à distance du parc informatique (visualisation, suivi, contrôle).\nDéveloppement d'une interface web en temps réel pour la consultation des équipements.\nAutomatisation des tâches système via scripts Shell.\nStack: HTML, CSS, Bootstrap, PHP, MySQL, Shell.",
+    "header_info": {
+      "full_name": "Oussema Ben Yahia",
+      "email": "89@gmail.com",
+      "phone": "216) 58 185 125",
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/Oussema-BY"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6065,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.phone",
+      "certifications[0]",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "experiences[4].company",
+      "experiences[4].end_date",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].responsibilities[1]",
+      "experiences[4].responsibilities[2]",
+      "experiences[4].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[2]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Oussema Ben Yahia",
+      "email": "89@gmail.com",
+      "phone": "+216) 58 185 125",
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/Oussema-BY"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Supabase",
+        "MongoDB",
+        "GSAP",
+        "Lenis",
+        "Better Auth",
+        "Resend"
+      ],
+      "soft_skills": [
+        "performance",
+        "organisation",
+        "communication",
+        "leadership"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "EXTEL",
+        "job_title": null,
+        "start_date": "Janvier 2026",
+        "end_date": "Avril 2026",
+        "city": null,
+        "responsibilities": [
+          "Envoi de courriels transactionnels automatisés avec Resend.",
+          "Optimisation SEO technique (Core Web Vitals, métadonnées, rendu côté serveur) pour améliorer le référencement organique."
+        ]
+      },
+      {
+        "company": "Juniors CV",
+        "job_title": null,
+        "start_date": "Juin 2025",
+        "end_date": "Août 2025",
+        "city": null,
+        "responsibilities": [
+          "Implémentation d'un système CRUD avec validation des données via Zod.",
+          "Déploiement sur Vercel avec domaine personnalisé et optimisation SEO."
+        ]
+      },
+      {
+        "company": "SCALIKA TUNISIA",
+        "job_title": null,
+        "start_date": "Juillet 2024",
+        "end_date": "Février 2025",
+        "city": null,
+        "responsibilities": [
+          "Chef d'Agence"
+        ]
+      },
+      {
+        "company": "JUST ASK DELIVERY",
+        "job_title": null,
+        "start_date": "Avril 2023",
+        "end_date": "Février 2024",
+        "city": null,
+        "responsibilities": [
+          "Mise en place d'outils de suivi pour améliorer la ponctualité des livraisons."
+        ]
+      },
+      {
+        "company": "Banque de Tunisie (BT)",
+        "job_title": null,
+        "start_date": "Février 2022",
+        "end_date": "Avril 2022",
+        "city": null,
+        "responsibilities": [
+          "Conception d'une application de gestion à distance du parc informatique (visualisation, suivi, contrôle).",
+          "Développement d'une interface web en temps réel pour la consultation des équipements.",
+          "Automatisation des tâches système via scripts Shell."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [
+      "Permis B"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:23:19.275786+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

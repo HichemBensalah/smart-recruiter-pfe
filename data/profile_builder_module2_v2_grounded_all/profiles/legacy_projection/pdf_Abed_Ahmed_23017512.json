@@ -1,0 +1,146 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abed_Ahmed_23017512.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abed_Ahmed_23017512.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Abed_Ahmed_23017512.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ahmed Abed",
+      "email": "ahmed.abed.mail@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Développeur Web spécialisé dans la conception et le développement de systèmes critiques dans les domaines de la finance et des ERP.",
+      "hard_skills": [
+        "Java",
+        "Python",
+        "Spring Boot",
+        "Angular",
+        "React",
+        "PostgreSQL",
+        "Oracle",
+        "MySQL",
+        "Docker",
+        "Docker Compose",
+        "Git Lab CI/CD",
+        "Jenkins",
+        "Git",
+        "Maven",
+        "Postman",
+        "Swagger",
+        "Jasper Reports"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Java Backend",
+        "company": "Illiade Consulting",
+        "start_date": "Déc 2023",
+        "end_date": "Avr 2024",
+        "city": null,
+        "responsibilities": [
+          "Maintenance et évolution de la plateforme Open Cell (facturation)",
+          "Résolution d'incidents critiques et debugging avancé",
+          "Chiffrage et implémentation des évolutions fonctionnelles",
+          "Automatisation des tests avec Selenium",
+          "Travail sur environnement Jakarta EE/Wild Fly/PostgreSQL"
+        ]
+      },
+      {
+        "job_title": "Développeur Java Backend",
+        "company": "Groupe BFI",
+        "start_date": "Déc 2022",
+        "end_date": "Nov 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement de services backend pour un système comptable et financier",
+          "Intégration via ESB (framework Carthago)",
+          "Migration de données (Sage → système interne)",
+          "Migration base Oracle vers PostgreSQL",
+          "Mise en production et gestion environnement client",
+          "Génération d'états financiers (Jasper Reports)"
+        ]
+      },
+      {
+        "job_title": "Développeur Java",
+        "company": "IDEE",
+        "start_date": "Mai 2021",
+        "end_date": "Déc 2022",
+        "city": null,
+        "responsibilities": [
+          "Migration d'applications Oracle vers Spring Boot",
+          "Développement de la solution Sky Guard (monitoring + automatisation)",
+          "Analyse réseau LAN, gestion des services Windows, contrôle distant",
+          "Mise en place d'alertes temps réel sur mobile",
+          "Automatisation des tâches critiques"
+        ]
+      },
+      {
+        "job_title": "Assistant Technique",
+        "company": "Groupe TIMSOFT",
+        "start_date": "Jan 2021",
+        "end_date": "Avr 2021",
+        "city": null,
+        "responsibilities": [
+          "Support ERP Cegid multi-clients (Tunisie, Europe, Afrique)",
+          "Analyse et résolution d'incidents complexes",
+          "Requêtes SQL et optimisation de bases PostgreSQL",
+          "Documentation technique et support"
+        ]
+      },
+      {
+        "job_title": "Développeur Java/Android",
+        "company": null,
+        "start_date": "Jan 2019",
+        "end_date": "Jan 2021",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement de l'application 'Belles Vues'",
+          "Géolocalisation GPS et signalement d'incidents urbains",
+          "Intégration Firebase (notifications, base de données)",
+          "Authentification sécurisée (SMS)",
+          "Déploiement sur Google Play"
+        ]
+      },
+      {
+        "job_title": "Développeur Java Fullstack",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application de recouvrement pour une institution de microfinance",
+          "Développement backend sécurisé avec Spring Boot 3 (API REST, logique métier, sécurité)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Informatique Appliquée à la Gestion",
+        "school": "Université Libre de Tunis",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "IPEI El Manar",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:30:13.047759+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9719,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

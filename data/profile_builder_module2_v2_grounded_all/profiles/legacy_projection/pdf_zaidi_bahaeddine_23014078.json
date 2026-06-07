@@ -1,0 +1,120 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\zaidi_bahaeddine_23014078.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\zaidi_bahaeddine_23014078.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\zaidi_bahaeddine_23014078.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Zaidi bahaeddine",
+      "email": "bahaae.zaidi@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "C#",
+        ".NET",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "C",
+        "Nestjs",
+        "Node",
+        "Express",
+        "React",
+        "Redux",
+        "NoSQL",
+        "Git",
+        "Figma",
+        "Ui",
+        "Ux",
+        "Scrum",
+        "CI/CD",
+        "JUnit",
+        "Unit Testing",
+        "OOP",
+        "Python",
+        "Springboot",
+        "Angular",
+        "UML",
+        "Jenkins",
+        "Docker",
+        "Linux",
+        "Mockito",
+        "Postgres",
+        "Laravel",
+        "Django"
+      ],
+      "soft_skills": [
+        "Anglais",
+        "Francais"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur logiciel, Stage",
+        "company": "Ipact consult",
+        "start_date": null,
+        "end_date": null,
+        "city": "Canada",
+        "responsibilities": [
+          "Conception et mise en œuvre d'un système de déploiement continu qui prend en charge des itérations rapides pour une application"
+        ]
+      },
+      {
+        "job_title": "Ingénieur logiciel, Stage",
+        "company": "Omeg Up",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Refonte complète du frontend du site web d'Omega Up en utilisant React. js pour concevoir et implémenter une nouvelle interface utilisateur, améliorer l'expérience utilisateur, et intégrer avec les services backend existants avec Reactjs."
+        ]
+      },
+      {
+        "job_title": "Ingénieur logiciel, Stage",
+        "company": "Vision 4 Med",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Participation à la refonte et à l'extension de la plateforme Saa S Vision 4 Med, spécialisée dans la santé, en développant des fonctionnalités avancées telles que le dossier médical partagé, les ordonnances vérifiées par QR code, la téléconsultation en temps réel (Web RTC), la gestion de cabinet médical, la prise de rendez-vous en ligne, le répertoire hospitalier, la messagerie interne, la recherche par géolocalisation avec filtres, ainsi qu’un chatbot IA pour la landing page."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Baccalaureat Mathématique",
+        "school": "Lycée Technique Mednine",
+        "year": "09/2015 - 6/2019"
+      },
+      {
+        "degree": "Cycle Préparatoire",
+        "school": "Cycle Préparatoires Issat Gabes",
+        "year": "09/2019 - 06/2022"
+      },
+      {
+        "degree": "Ingenieur Informatique",
+        "school": "CYCLE INGENIEUR INFORMATIQUE Esprit Ariana",
+        "year": "09/2022- 12/2025"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:14:11.735519+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9671,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

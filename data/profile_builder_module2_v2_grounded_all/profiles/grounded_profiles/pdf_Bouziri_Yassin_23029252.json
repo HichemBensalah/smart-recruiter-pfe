@@ -1,0 +1,214 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Bouziri_Yassin_23029252.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Bouziri_Yassin_23029252.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9297,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nYassin Bouziri\nbouziriyassin 3@gmail.com | +216 51703291 | Ben Arous, Tunis\n\n## PROFESSIONAL SUMMARY\n\nProfil\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeur Java backend spécialisé en Spring Boot, microservices et API REST. Expérience dans le développement d'applications web avec Angular. Maîtrise de Apache Kafka pour la ges tion des flux de données et la communication asynchrone entre services. Habitué aux méthodolo gies Agile/Scrum et au travail en équipe\n- Expériences Professionnelles\n- gestion des tâches et la coordination agile.\nStage d'immersion, Afrimex, Tunisie - Juillet 2023 à Août 2023 Développement d'une application web de gestion de stock avec Java 17. Impact: Suppression des erreurs de saisie manuelle sur le suivi des stocks.\n\n## EDUCATION\n\n· Stage de fin d'études, Bns Engineering - Février 2025 à November 2025 Développement d'une application de simulation de trading pour la Bourse de Tunis en architecture microservices (Spring Boot/Angular), intégrant Kafka pour le traitement des données en temps réel. Impact: Réduction de la latence des flux simulés et amélioration de la scalabilité.\nStage Ingénieur, PACT Consult - Juin 2024 à Août 2024 Conception d'une application web Le SS Scrum avec Angular 16 et Spring Boot 3. 1. 4 pour la\nStage de fin d'études, Network Associates, Tunis - Février 2022 à Juin 2022 Mise en œuvre d'une architecture SDN avec virtualisation du réseau.\n- Diplômes et Formations\nDiplôme National d'Ingénieur en Informatique, ESPRIT - Septembre 2022 à December 2025\nLicence en Ingénierie des Systèmes Informatiques, Institut Supérieur d'Informatique de Mahdia - Septembre 2019 à Juin 2022\n## Baccalauréat en Sciences Expérimentales, Lycée Ben Arous - Juin 2019\n- Impact: Ce projet a permis de centraliser les informations tout en garantissant une expéri ence utilisateur fluide sur différents supports matériels .\n\n## ACADEMIC PROJECTS\n\nImpact: Amélioration de la visibilité des projets et réduction des délais de coordination\nProjets Académiques et Personnels\n## Application Web Scrum Poker- Spring Boot/Angular/REST API,\n## Spring Boot 3. 1. 4, Angular 16, REST API, MySQL\n- Conception et développement d'une application web permettant aux équipes agiles d'estimer la complexité des tâches via Scrum Poker\n- Impact: Amélioration de la précision des estimations et gain de productivité.\n## · Pipeline CI/CD,\nJenkins, Git, JUnit, Sonar Qube, Docker, Prometheus, Grafana Mise en place d'une pipeline CI/CD automatisant compilation, tests et déploiement. Impact: Réduction du temps de livraison et amélioration de la fiabilité.\n## Application de Livraison en Microservices,\n## Spring Boot 3. 2. 11, REST API\n- Développement du backend d'une application de livraison structurée en microservices.\n- Amélioration de la modularité et de la maintenabilité.\n- Impact:\n- Application Cross-Platform de Gestion d'Événements Musicaux\n## Java 8, Symfony 5, Codename One\n- Conception d'une solution logicielle en Java 8 (Codename One) et Symfony 5 pour environ nements Desktop et Mobile. J'ai développé une API REST permettant la synchronisation des données et la réservation de billets de concerts en ligne .\n\n## TECHNICAL SKILLS\n\nCompétences Techniques\nLangages: Java, HTML/CSS, Python, C, C++\nFrameworks: Spring Boot, Angular, .Net Core, Symfony, Codename One\nCI/CD et DevOps:\nJenkins, Git, JUnit, Sonar Qube, Docker, Prometheus, Grafana\nBases de données: MySQL, Oracle\nSystèmes: Windows, Ubuntu, Linux\nCompétences Linguistiques\nLangue maternelle\nNiveau intermédiaire avancé Anglais: Niveau\nArabe:\nFrançais:\nintermédiaire",
+    "header_info": {
+      "full_name": "Yassin Bouziri",
+      "email": "3@gmail.com",
+      "phone": "+216 51703291",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6904,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[3]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Yassin Bouziri",
+      "email": "3@gmail.com",
+      "phone": "+216 51703291",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "Apache Kafka",
+        ".Net Core",
+        "Symfony",
+        "Codename One",
+        "Jenkins",
+        "Git",
+        "JUnit",
+        "Sonar Qube",
+        "Docker",
+        "Prometheus",
+        "Grafana",
+        "MySQL",
+        "Oracle"
+      ],
+      "soft_skills": [
+        "Agile/Scrum",
+        "Communication"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Juillet 2023 à Août 2023",
+        "end_date": "Août 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web de gestion de stock avec Java 17.",
+          "Suppression des erreurs de saisie manuelle sur le suivi des stocks."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Février 2025 à November 2025",
+        "end_date": "November 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application de simulation de trading pour la Bourse de Tunis en architecture microservices (Spring Boot/Angular), intégrant Kafka pour le traitement des données en temps réel."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Juin 2024 à Août 2024",
+        "end_date": "Août 2024",
+        "city": null,
+        "responsibilities": [
+          "Conception d'une application web Le SS Scrum avec Angular 16 et Spring Boot 3.1.4."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Février 2022 à Juin 2022",
+        "end_date": "Juin 2022",
+        "city": null,
+        "responsibilities": [
+          "Mise en œuvre d'une architecture SDN avec virtualisation du réseau."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRI",
+        "degree": "Diplôme National d'Ingénieur en Informatique",
+        "field": null,
+        "year": "Septembre 2022 à December 2025"
+      },
+      {
+        "institution": "Institut Supérieur d'Informatique de Mahdia",
+        "degree": "Licence en Ingénierie des Systèmes Informatiques",
+        "field": null,
+        "year": "Septembre 2019 à Juin 2022"
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:47:52.411077+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

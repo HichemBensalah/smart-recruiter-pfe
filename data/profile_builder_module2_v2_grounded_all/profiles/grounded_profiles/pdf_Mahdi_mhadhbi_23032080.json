@@ -1,0 +1,176 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mahdi_mhadhbi_23032080.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mahdi_mhadhbi_23032080.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7129,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMahdi Mhadhbi Développeur Full Stack\n+216 21 373 412 mehdimhadbi 15@gmail.com https: //github.com/mahdi-mhadhbi https: //www.linkedin.com/in/mahdi-mhadhbii\n\n## ISET SOUSSE 2020-2023\n\nLicence appliqué en Technologie de l'informatique: Multimédia et Développement Web\n\n## ISET SFAX 2023-2025\n\nMastére professionel en développement des systèmes d'informatiques et réseaux: Génie Logiciel & Nouvelles Technologies\n\n## PARCOURS PROFESSIONNEL\n\nPOULINA GROUPE HOLDING: STAGE janv 2025-Juin 2025\nDéveloppement d'une application web qui identifie les ressources en eau, les infrastructures hydrauliques existantes et les besoins réels en eau pour l'élevage\n\n## TECHNICAL SKILLS\n\nJeune diplômé en Mastère Professionnel en Développement des Systèmes Informatiques et Réseaux, spécialisé en Génie Logiciel et Nouvelles Technologies. Passionné par le développement web et logiciel, je maîtrise la conception et le développement d'applications dynamiques et performantes. Curieux, motivé et rigoureux, je suis constamment en veille sur les nouvelles technologies et les meilleures pratiques afin de proposer des solutions innovantes et adaptées aux besoins des entreprises. Je souhaite aujourd'hui intégrer une équipe ambitieuse pour mettre à profit mes compétences techniques, mon esprit d'analyse et ma créativité\nCompétences: ASP. net Core web API, Angular 18 et SQL Server.\nINFO PLUS: STAGE juin 2024 - sep 2024\nDéveloppement d'une API RESTful pour un Système de Gestion Hôtelière, couvrant réservations, suivi des clients, planification des chambres, facturation et gestion des services. Cette architecture assure un accès sécurisé, modulable et efficace aux données.\nCOMPÉTENCES\nCompétences: Laravel 10 et MySQL .\nALISSA: STAGE janv 2023 - juin 2023\nC#, JAVA, PHP 8, JavaScript, Python\nAngular 17+\nSpring Boot, Laravel 10+, Symfony 7\nASP. net Core, NodeJS, Express Js\nCompétences: Laravel 10, Zoom API et MySQL,\nMySQL, PostgreSQL, MongoDB, Fire Base\nPlateforme de réservation permettant la gestion sécurisée des réservations (création, consultation, modification, suppression), conçue selon les bonnes pratiques backend et frontend\nCompétences: ASP. net Core WEB API, Angular et SQL Server\nCompétences: ASP. net Core WEB API, Angular et SQL Server\nDéveloppement d'une API RESTful en architecture microservices, chaque service étant autonome et spécialisé dans des fonctionnalités spécifiques.\nCompétences: ASP. net Core WEB API, SQL Server, Rabbit Mq, Git et Docker\nPlateforme éducative développée avec ASP. NET Core, offrant une API complète pour la gestion des cours, des leçons et des inscriptions des étudiants, ainsi qu'un système d'examen automatisé avec correction en temps réel\nCompétences: ASP. net Core WEB API, SQL Server\n\n## EDUCATION\n\nDéveloppement d'une plateforme intégrée combinant ecommerce, e-learning, et gestion administrative. Elle permet d'acheter des formations, de suivre des cours interactifs, et de gérer efficacement les opérations\n\n## PROJETS PERSONNEL\n\nOutils de développement:\n\n## PLATEFORME DE RÉSERVATION\n\nGit, GitHub, Docker, Jenkins, UML\n\n## LANGUAGES\n\nLANGUES\nArabe\nLangue maternelle\nFrancais Niveau avancé\nAnglais Niveau avancé\n\n## APPLICATION DU SERVICE APRES VENTE\n\nLa gestion des réclamations clients et le suivi des interventions techniques avec une gestion des utilisateurs\n\n## E-COMMERCE API\n\nNatation\nLecture\nGaming\n\n## PLATEFORME ÉDUCATIVE\n\nFoot Balll",
+    "header_info": {
+      "full_name": "Mahdi Mhadhbi Développeur Full Stack",
+      "email": "15@gmail.com",
+      "phone": "+216 21 373 412",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/mahdi-mhadhbii",
+      "github": "github.com/mahdi-mhadhbi"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.571,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mahdi Mhadhbi Développeur Full Stack",
+      "email": "15@gmail.com",
+      "phone": "+216 21 373 412",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/mahdi-mhadhbii",
+      "github": "github.com/mahdi-mhadhbi"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "ASP. net Core web API",
+        "Angular 18",
+        "SQL Server",
+        "Laravel 10",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Fire Base",
+        "NodeJS",
+        "Express Js",
+        "C#",
+        "JAVA",
+        "PHP 8",
+        "JavaScript",
+        "Python",
+        "Spring Boot",
+        "Zoom API"
+      ],
+      "soft_skills": [
+        "Curieux",
+        "Motivé",
+        "Rigoureux"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Poulina Groupe Holding",
+        "job_title": null,
+        "start_date": "janv 2025-Juin 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web qui identifie les ressources en eau, les infrastructures hydrauliques existantes et les besoins réels en eau pour l'élevage"
+        ]
+      },
+      {
+        "company": "Alissa",
+        "job_title": null,
+        "start_date": "janv 2023-Juin 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une API RESTful pour un Système de Gestion Hôtelière, couvrant réservations, suivi des clients, planification des chambres, facturation et gestion des services"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Arabe",
+      "Français Niveau avancé",
+      "Anglais Niveau avancé"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:11:08.271423+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

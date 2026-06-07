@@ -1,0 +1,191 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\bahri_chiraz_23020054.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\bahri_chiraz_23020054.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8136,
+  "normalization": {
+    "cleaned_markdown": "## BAHRI CHIRAZ\n\nData & BI Analyst | Power BI | Python | ETL & Reporting\n+216 50818434 | Nabeul, Tunisie | chirazbahri 2000@gmail.com | Linked In | GitHub\n\n## PROFESSIONAL SUMMARY\n\nProfil\nExp´ erience Professionnelle\n\n## EDUCATION\n\nAnalyste BI et Data Analyst sp´ ecialis´ ee en visualisation de donn´ ees, reporting d´ ecisionnel, ETL et machine learning. Exp´ eriment´ ee dans la transformation de donn´ ees brutes en KPIs strat´ egiques exploitables. Passionn´ ee par l'automatisation et l'optimisation des processus d´ ecisionnels, avec expertise sur Power BI, Talend et Python. Forte capacit´ e ` a concevoir des dashboards interactifs et des mod` eles pr´ edictifs orient´ es business.\n- Analyse des performances Instagram et conception de mod` eles pr´ edictifs pour optimiser les budgets publicitaires (Python, Talend, Power BI).\n- R´ ealisation de processus ETL automatis´ es pour l'int´ egration et la transformation des donn´ ees clients (Talend).\n- Analyse de m´ edias sociaux pour The Bridge 9 antra: scraping, nettoyage de donn´ ees, mod` eles ML et cr´ eation de dashboards Power BI.\n## Projet de Fin d' ´ Etudes | NEOPOLIS\n**Date: ** F´ ev. 2024 - Juin 2024\n- D´ eveloppement d'un syst` eme IA pour la d´ etection et l'analyse des fraudes dans les contrats d'assurance.\n- Mise en place d'un processus ETL complet avec Talend et cr´ eation de dashboards Power BI pour le suivi des r´ esultats.\n- D´ eveloppement d'une application web interactive (Flask + ReactJS) connect´ ee aux mod` eles ML et dashboards Power BI.\n- Technologies: Python, Flask, ReactJS, Talend, Power BI, SQL, Scrum, Postman.\n## Projet de Fin d' ´ Etudes | L'EPI D'OR\n**Date: ** F´ ev. 2022 - Mai 2022\n- Cr´ eation d'une application mobile GMP Inspection pour le contrˆ ole hygi` ene et s´ ecurit´ e alimentaire.\n- Technologies: Flutter, Node. js, MongoDB, Dart, Git.\n- Comp´ etences Techniques\nBI & Data Analytics: Power BI, Python, Talend, ETL, DAX, Scikit-learn, K-means, Random Forest D´ eveloppement Web & Mobile: HTML 5, CSS 3, PHP, JavaScript, TypeScript, Flutter, ReactJS, NodeJS\n- Bases de donn´ ees:\n## MySQL, MongoDB, PostgreSQL, SQL Server\n- Outils:\n## Android Studio, Git, GitHub, Wamp Server, Xampp\n- ´ Education\n- Programme ≪ Company Program ≫ Injaz Tunisie\n- Marketing digital ≪ Olwen Awani ≫\nAssociation FIRST Foundation Sfax: Membre actif, D´ epartement Marketing (2022 - 2023)\n- Fran¸ cais:\n- Anglais:\n- Interm´ ediaire\n- Interm´ ediaire\n\n## ACADEMIC PROJECTS\n\n## Freelance | Projets Personnels\n**Date: ** Octobre 2024 - Aujourd'hui\n- Cr´ eation de dashboards interactifs Power BI pour le suivi des ventes, commandes et KPIs, avec DAX et Power Query.\n- Supervision d'´ etudiants en PFE sur des projets BI et data analytics.\n\n## TECHNICAL SKILLS\n\nSoft Skills:\nR´ esolution de probl` emes, Leadership, Communication orale\nGestion de projet:\nAgile Scrum, Trello, CRISP-DM\nPython pour la science des donn´ ees ≪ IBM Developer Skills ≫\nActivit´ es Associatives\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nPower BI ≪ Simplilearn ≫\n\n## LANGUAGES\n\nLangues\nArabe:\nNatif",
+    "header_info": {
+      "full_name": "BAHRI CHIRAZ",
+      "email": "2000@gmail.com",
+      "phone": "+216 50818434",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8949,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "BAHRI CHIRAZ",
+      "email": "2000@gmail.com",
+      "phone": "+216 50818434",
+      "location": "Nabeul, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Data & BI Analyst | Power BI | Python | ETL & Reporting",
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "Power BI",
+        "Python",
+        "Talend",
+        "ETL",
+        "Machine Learning",
+        "HTML 5",
+        "CSS 3",
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "Flutter",
+        "ReactJS",
+        "NodeJS",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "SQL Server",
+        "Android Studio",
+        "Git",
+        "DAX",
+        "Scikit-learn",
+        "K-means",
+        "Random Forest"
+      ],
+      "soft_skills": [
+        "Résolution de problèmes",
+        "Leadership",
+        "Communication orale"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Analyse des performances Instagram et conception de modèles prédictifs pour optimiser les budgets publicitaires",
+          "Réalisations de processus ETL automatisés pour l'intégration et la transformation des données clients",
+          "Analyse de médias sociaux pour The Bridge 9 antra: scraping, nettoyage de données, modèles ML et création de dashboards Power BI"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Octobre 2024",
+        "end_date": "Aujourd'hui",
+        "city": null,
+        "responsibilities": [
+          "Création de dashboards interactifs Power BI pour le suivi des ventes, commandes et KPIs, avec DAX et Power Query",
+          "Supervision d'étudiants en PFE sur des projets BI et data analytics"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [
+      "Power BI"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:39:48.962194+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

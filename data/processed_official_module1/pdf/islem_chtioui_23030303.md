@@ -1,0 +1,99 @@
+## HEADER
+
+Islem CHTIOUI
++216 44 607 377 ; islemchtioui 266@gmail. com ; linkedin : linkedin. com/in/islem-chtioui-b 6 b 22 a 355; Route Sidi Mansour Km 6, 5 3063 Sfax, Tunisia
+Candidature licence Computer Engineering : Systèmes Embarqués et Internet des Objets (Io T)
+
+## TECHNICAL SKILLS
+
+Diplômée en licence d'ingénierie des systèmes informatiques, spécialisée en systèmes embarqués et Internet des objets (Io T), passionnée par les technologies innovantes, je suis actuellement à la recherche d'un poste dans le domaine de l'Io T et des systèmes embarqués, afin de mettre en pratique mes compétences techniques et de contribuer activement à des projets technologiques ambitieux.
+Dans le cadre de missions freelance avec Déclitech, j'ai participé au développement d'un site web en utilisant les technologies Angular et Spring Boot, ce qui m'a permis de consolider mes compétences en développement full-stack et en conception d'applications web.
+Compétences Collectives Et Techniques
+Systèmes embarqués & cartes électroniques : ESP 32, Arduino, Raspberry Pi 3.
+Environnements de développement : Android Studio, Visual Studio Code, Eclipse.
+Gestion de version : Git.
+Méthodologie agile : Scrum.
+Virtualisation : Machines virtuelles (ex. : Virtual Box, VMware).
+Bases de données : Oracle, My SQL.
+Exploitation des capteurs intégrés d'un smartphone (accéléromètre et gyroscope) pour surveiller les mouvements d'un utilisateur.
+Détection automatique des chutes en analysant les variations brusques de mouvement.
+Utilisation de la passerelle Dragino LPS 8 v 2 comme nœud de communication Io T.
+Conception et réalisation d'un système de suivi solaire automatisé permettant d'optimiser la production d'énergie des panneaux solaires en suivant la trajectoire du soleil.
+Commande intelligente : Utilisation de capteurs pour ajuster l'orientation des panneaux en temps réel.
+Application mobile : Développement d'une application mobile dédiée permettant de :
+Visualiser en temps réel les statistiques de production et les paramètres environnementaux.
+Anglais
+Français Avancé
+Intermédiaire
+Voyages
+Bien-être Et Santé
+
+## PROFESSIONAL EXPERIENCE
+
+Experience
+Déclitech - freelance
+i-way - stage
+TELNET - stage
+Création d'une application capable de :
+Parcours Académique
+Licence en ingénierie des systèmes informatiques
+Faculté des Sciences de Sfax
+### Baccalauréat Mathématiques
+**Date:** 2022
+- Lycée El Khalij Sfax
+Dream Pay Web 3 est une solution innovante de gestion des bulletins de paie numériques combinée à un système de gamification interne destiné aux entreprises IT. Le projet intègre des technologies Web 3 pour assurer sécurité, transparence et immuabilité des données, notamment grâce à l'utilisation d'IPFS et de la blockchain Polygon. L'application front-end, développée en React, offre une expérience fluide et moderne, tandis que la couche métier repose sur Spring Boot 3. 3 pour automatiser les calculs de paie (CNSS, IRPP), générer des bulletins PDF et gérer les droits d'accès. La plateforme introduit également un mécanisme de récompenses via des NFT et des tokens ERC-20 permettant de dynamiser l'engagement des employés. J'ai participé au développement de l'architecture, à l'intégration Web 3 et à la conception d'une interface utilisateur intuitive.
+**Date:** Octobre 2025 -mai 2026
+- J'ai développé une application intégrant des fonctionnalités de speech-to-text et de text-to-speech, permettant la conversion de la voix en texte et la synthèse vocale du texte. Ce projet m'a permis de mettre en pratique mes compétences en Python, d'utiliser des bibliothèques dédiées au traitement audio, et de concevoir une solution fluide, précise et facile d'utilisation. Cette expérience a renforcé ma maîtrise du traitement du langage, de l'analyse de signaux audio et du développement d'applications interactives.
+
+## EDUCATION
+
+En parallèle, j'assure des formations destinées aux enfants dans le domaine de la robotique et de la conception technique. Cette expérience m'a permis de développer davantage mes compétences en communication, en gestion de groupe ainsi qu'en gestion du stress
+**Date:** Février 2025 - Mai 2025
+- Mise en place d'une solution d'intelligence artificielle pour la détection de fraude dans le secteur de l'assurance maladie.
+- Formation arduino
+- Formation CCNA
+- Formation soft skills
+
+## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)
+
+Conception et développement d'un système intelligent combinant des technologies d'OCR, de NLP et des modèles de détection afin d'identifier automatiquement les fraudes dans les bulletins de soins.
+Utilisation de Easy OCR, spa Cy, réseaux de neurones convolutifs (CNN) et Flask pour l'extraction, l'analyse sémantique et la validation des données.
+Développement d'une application pour l'analyse des données EMV d'une carte bancaire via NFC.
+Lire les données EMV à partir d'une carte bancaire à l'aide d'un lecteur compatible NFC.
+Identifier et analyser le Tag 9 F 34 afin d'afficher ou de vérifier les résultats de la méthode de vérification
+du titulaire de la carte (CVM - Cardholder Verification Method), telle que le code PIN, la signature, ou d'autres méthodes.
+Langages de programmation : C, C++, Java, Python, php, Spring Boot, React, css ,html, javascript, xml.
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Intelligence Artificielle & Machine Learning : Concepts fondamentaux, mise en œuvre de modèles d'apprentissage supervisé/non supervisé.
+Modélisation & conception logicielle : UML (cas d'utilisation, séquence, classes, etc.).
+
+## CERTIFICATES (IN PROGRESS)
+
+Certifications
+
+## ACADEMIC PROJECTS
+
+Projets
+Stack Web 3 & Front/Back-End
+Application TTS & STT
+Projet système de détection chute d'une personne
+Transmission des données en temps réel via le protocole Lo Ra WAN.
+Intégration de Node-RED pour :
+Le traitement des données collectées.
+La visualisation sur une interface centralisée.
+La génération d'alertes en cas de détection de chute.
+Projet suiveur solaire
+Contrôler à distance le système de suivi.
+
+## LANGUAGES
+
+Langues
+Arabe
+Langue maternelle
+Activités Extracurriculaires
+Nouvelles Technologies
+Bénévolat
+Membre au club robotique ENET'COM (2023-2024): Participation au forum étudiants, enseignants, entreprises (FEEE 8. 0)
+Membre au club GDSC FSS (2022-2023)

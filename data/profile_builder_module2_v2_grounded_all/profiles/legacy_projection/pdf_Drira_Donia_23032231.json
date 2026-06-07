@@ -1,0 +1,94 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Drira_Donia_23032231.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Drira_Donia_23032231.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Drira_Donia_23032231.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Donia Drira",
+      "email": "doniadrira@gmail.com",
+      "phone": "+216 25 797 717",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Git",
+        "Sonar Qube",
+        "Prometheus",
+        "Grafana",
+        "Java",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "React.js",
+        "TypeScript"
+      ],
+      "soft_skills": [
+        "DevOps",
+        "CI/CD",
+        "Open Stack",
+        "Google Cloud Platform (GCP)",
+        "Ansible",
+        "Terraform"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Union Internationale de Banques",
+        "start_date": "Février 2025",
+        "end_date": "Août 2025",
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Développeur Web",
+        "company": "Siège Topnet",
+        "start_date": "Juin 2024",
+        "end_date": "Août 2024",
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Développeur Web",
+        "company": "Bee coders",
+        "start_date": "Juillet 2023",
+        "end_date": "Août 2023",
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Développeur Web",
+        "company": "Conseil bancaire et financier",
+        "start_date": "Février 2022",
+        "end_date": "Juin 2022",
+        "city": "Tunis",
+        "responsibilities": []
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:51:41.192700+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.4804,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

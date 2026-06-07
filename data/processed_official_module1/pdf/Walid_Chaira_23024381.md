@@ -1,0 +1,78 @@
+## CHAIRA WALID
+
+Développeur Web Full-Stack Java Script
+
+## PROFESSIONAL SUMMARY
+
+PROFIL
+CONTACT
+Développeur Web Full Stack, spécialisé dans la MEAN stack (Mongo DB, Express, Angular, Node. js), avec un fort intérêt pour les architectures modernes et les bonnes pratiques de développement
+Cité El Khadhra Tunis 1003
+walid. chaaira@gmail. com
+Walid-Chaira
+walid-chaira
+
+## EDUCATION
+
+FORMATION DE RECONVERSION PROFESSIONNELLE (DÉVELOPPEUR FULL STACK JS) - CROCOCODER
+FORMATION
+2011 - 2014 LICENCE APPLIQUÉ EN SCIENCES ET TECHNOLOGIES DE L'INFORMATION ET DE LA COMMUNICATION (STIC)
+ISET Gabes
+Conception d'un site web responsive pour afficher les résultats et informations.
+Création d'une plateforme en ligne pour la gestion d'une école.
+CHEF DE PROJET DIGITAL - APPROVISIONNEMENT & SYSTÈMES D'INFORMATION - SOCATRAP
+Développement et maintenance d'applications web internes dédiées à la gestion des achats, fournisseurs, chantiers et processus comptables.
+Conception de modules fonctionnels pour le suivi des commandes, factures, stocks, approvisionnements et échéances de paiement.
+Mise en place de tableaux de bord, rapports automatisés (PDF/Excel) et outils de suivi budgétaire pour l'aide à la décision.
+Gestion des utilisateurs et des droits d'accès, sécurisation des données, automatisation des flux internes et maintenance évolutive des applications.
+**Date:** 02/2014 - 05/2014
+- STAGE PROJET DE FIN D'ÉTUDE - ISET GABES
+- Février - 2026 : Certificat de formation Full Stack Java Script
+- Conception et développement d'une application de suivi et gestion des produits à distance à travers la capture de QR code sous Android
+- Janvier - 2017 : Certificate For Completing a Course on Developing Android Apps
+- Langages : Java
+- Novembre - 2014 : Certification Cisco CCNA Discovery
+### Outils : Pack star UML, Eclipse
+- Serveur base de données : XAMPP
+
+## COMPÉTENCES ACQUISES :
+
+Maîtrise des technologies Front End : HTML 5, CSS 3, Bootstrap, Java Script et Angular.
+Expertise en technologies Back End : Express. js et Node. js.
+Manipulation avancée de modules Node. js tels que mongoose, bcrypt, bodyparser, multer, JWT, Express Session.
+Assurer la sécurité avec JWT.
+Maîtrise des bases de données No SQL: Mongo DB.
+Utilisation des APIs suivantes : Nodemailer, Twilio, Google Maps, Gmail API et Leaflet.
+Contrôle de version avec Git et Git Hub
+
+## BACCALAURÉAT 2011
+
+Section Informatique
+
+## TECHNICAL SKILLS
+
+COMPÉTENCES
+OS : Windows, Linux, Android
+Technologies Web : HTML 5, CSS 3, Bootstrap, JSON
+Langages de programmation : C, C++, Java, Java Script, Type Script
+JS Frameworks : Angular, Express
+SGBD : Mongo Db, SQL, My SQL, Oracle
+Outils de gestion des tests & bugs : Jira, Postman, Test Link/Squash
+Système de gestion de version : Git & Git Hub
+Réseaux radio-Mobile : GSM, GPRS, EDGE, UMTS
+Réseaux informatique : LAN, WLAN
+Mars - 2026 : Certificate of Completion Software Testing - ISTQB Certified
+
+## PROJETS RÉALISÉS :
+
+Développement d'une application web de location et de réservation de maisons d'hôte :
+Utilisation du HTML 5, CSS 3 , Bootstrap, Java Script, DOM, Local Storage
+Développement avec Angular, Java Script, Type Script, Node. js et Mongo DB :
+Création d'une application de commande et de réservation pour un établissements de restauration.
+
+## LANGUAGES
+
+LANGUES
+Français : Courant
+Anglais : Intermédiaire
+CERTIFICATION

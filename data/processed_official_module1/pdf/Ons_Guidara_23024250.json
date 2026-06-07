@@ -1,0 +1,2702 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ons_Guidara_23024250.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nONSGuidara\nIngénieure Électronique / Systèmes - Jeune diplômée\n� https://www.linkedin.com/in/ons-guidara/ � (+216) 26 829 961\n�\n�\n�\n�\n�\n�\nLocalisation actuelle : Sfax, Tunisie\nhttps://github.com/Ons9Guidara\nguidaraons9@gmail.com\nTECHNICAL SKILLS\nPassionnée par l'innovation technologique, spécialisée en systèmes embarqués intelligents et connectés. Compétences en développement, test et implémentation de solutions fiables adaptées aux besoins actuels.\n�\nCompétences\nOutils de développement :\nArduino IDE , STM32CubeIDE, LabVIEW, LTspice , Altium Designer\nConnaissances générales :\nLinux ,FreeRTOS , Yocto , Intelligence Artificielle\nProtocoles & Réseaux IoT :\nMQTT(QoS, messages conservés), UDP, TCP/IP, WebSocket\nLangages de programmation :\nC , C++ , VHDL , Python , Java , MATLAB\nÉlectronique (analogique et numérique) :\ncircuits analogiques, circuits numériques, UART, SPI, I²C, PWM, ADC/DAC\nGestion de versions & Collaboration :\nDocker , Git , Méthodologie Agile Scrum\n�\n� CompétencesPersonnelles � vie associative\n∠ Fiabilité et professionnalisme\n∠ Apprentissage rapide\n∠ Motivation et esprit d'équipe\nPROFESSIONAL EXPERIENCE\nExpérience Professionnelle\nFévrier - Mai 2025\nStagiaire chez Instaware\n4 mois\nDéveloppement d'un système basé sur ESP32 pour la synchronisation d'écrans en temps réel dans un contexte de chronométrage de marathon basé sur SN74HC273Nlatches+ULN2803Adrivers+PIC16F883 , en utilisant une horloge I²C RTC et une communication distribuée fiable via UDP , MQTT et WebSocket , avec une interface embarquée en HTML/JS pour la configuration et la supervision.\nJuillet 2024\nStagiaire chez TN Smart IoT\n1 mois\nDéveloppement d'un système de domotique utilisant le module Wi-Fi ESP8266 , intégrant capteurs et ac- tionneurs pour un contrôle local en temps réel, avec possibilité de supervision et de commande à distance via une interface web React , un backend Express.js et une base de données Firebase .\nJuillet 2023\nStagiaire chez DRÄXLMAIER Tunisie\n1 mois\nRéalisation de l'assemblage, de tests de diagnostic et du contrôle qualité de composants électroniques.\n2022 - 2025\n�\nÉducation\nCycle d'Ingénierie en Systèmes Électroniques de Communication | ENET'COM\n2020 - 2022\nCycle Préparatoire en Maths Physique (MP) | Faculté des Sciences de Sfax\n2016 - 2020\nBaccalauréat en mathématiques | Lycée 25 Juillet 1957, Sfax\nACADEMIC PROJECTS\n� Projets\nIoT System Monitor - QEMU & Docker\nSystème IoT sur Linux embarqué exécuté dans QEMU, containerisé avec Docker, collectant et envoyant en temps réel les métriques système (RAM, CPU) via HTTP.\nJanvier 2025\nTechnologies : Linux embarqué, BusyBox, QEMU, Docker, C, HTTP, TCP/IP\nDétection d'anomalies pour les batteries de véhicules électriques\nDéveloppement d'une interface LabVIEW et d'une IA pour la détection d'anomalies des batteries EV en simulant des données de capteurs, en classifiant les anomalies et en intégrant l'IA comme un nœud Python.\nOctobre 2024 - Décembre 2024\nTechnologies : LabVIEW, Python, Modèle Random Forest, Apprentissage automatique\nSystème de réservation de parking intelligent (PFA)\nDéveloppementd'unsystèmedeparkingintelligent avec une application web pour les réservations en temps réel. Conception d'un système embarqué basé sur ESP32 intégrant capteurs, commande de barrière par servo-moteur et affichage LCD.\nNovembre 2023 - Avril 2024\nTechnologies : Angular, Express.js, Firebase, ESP32, PIR, HC-SR04, Servo-moteur,PWM Écran LCD\nLANGUAGES\n� Languages\n∠\nArabe : Langue maternelle\n∠\n∠ Ancienne Webmaster à IEEE Circuits and Systems Society -ENET'Com SB\nAnglais : Courant\n∠ Français : Courant",
+  "markdown": "## HEADER\n\nONSGuidara\nIngénieure Électronique/Systèmes - Jeune diplômée\n� https://www. linkedin. com/in/ons-guidara/� (+216) 26 829 961\nLocalisation actuelle : Sfax, Tunisie\nhttps://github. com/Ons 9 Guidara\nguidaraons 9@gmail. com\n\n## TECHNICAL SKILLS\n\nPassionnée par l'innovation technologique, spécialisée en systèmes embarqués intelligents et connectés. Compétences en développement, test et implémentation de solutions fiables adaptées aux besoins actuels.\nCompétences\nOutils de développement :\nArduino IDE , STM 32 Cube IDE, Lab VIEW, LTspice , Altium Designer\nConnaissances générales :\nLinux ,Free RTOS , Yocto , Intelligence Artificielle\nProtocoles & Réseaux Io T :\nMQTT(Qo S, messages conservés), UDP, TCP/IP, Web Socket\nLangages de programmation :\nC , C++ , VHDL , Python , Java , MATLAB\nÉlectronique (analogique et numérique) :\ncircuits analogiques, circuits numériques, UART, SPI, I²C, PWM, ADC/DAC\nGestion de versions & Collaboration :\nDocker , Git , Méthodologie Agile Scrum\n� Compétences Personnelles � vie associative\n∠ Fiabilité et professionnalisme\n∠ Apprentissage rapide\n∠ Motivation et esprit d'équipe\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience Professionnelle\nFévrier - Mai 2025\nStagiaire chez Instaware\n4 mois\nDéveloppement d'un système basé sur ESP 32 pour la synchronisation d'écrans en temps réel dans un contexte de chronométrage de marathon basé sur SN 74 HC 273 Nlatches+ULN 2803 Adrivers+PIC 16 F 883 , en utilisant une horloge I²C RTC et une communication distribuée fiable via UDP , MQTT et Web Socket , avec une interface embarquée en HTML/JS pour la configuration et la supervision.\n**Date:** Juillet 2024\n- Stagiaire chez TN Smart Io T\n- 1 mois\nDéveloppement d'un système de domotique utilisant le module Wi-Fi ESP 8266 , intégrant capteurs et ac- tionneurs pour un contrôle local en temps réel, avec possibilité de supervision et de commande à distance via une interface web React , un backend Express. js et une base de données Firebase .\n**Date:** Juillet 2023\n- Stagiaire chez DRÄXLMAIER Tunisie\n- 1 mois\nRéalisation de l'assemblage, de tests de diagnostic et du contrôle qualité de composants électroniques.\n**Date:** 2022 - 2025\n- Éducation\n### Cycle d'Ingénierie en Systèmes Électroniques de Communication | ENET'COM\n**Date:** 2020 - 2022\n### Cycle Préparatoire en Maths Physique (MP) | Faculté des Sciences de Sfax\n**Date:** 2016 - 2020\n### Baccalauréat en mathématiques | Lycée 25 Juillet 1957, Sfax\n\n## ACADEMIC PROJECTS\n\n� Projets\nIo T System Monitor - QEMU & Docker\nSystème Io T sur Linux embarqué exécuté dans QEMU, containerisé avec Docker, collectant et envoyant en temps réel les métriques système (RAM, CPU) via HTTP.\n**Date:** Janvier 2025\n### Technologies : Linux embarqué, Busy Box, QEMU, Docker, C, HTTP, TCP/IP\n- Détection d'anomalies pour les batteries de véhicules électriques\nDéveloppement d'une interface Lab VIEW et d'une IA pour la détection d'anomalies des batteries EV en simulant des données de capteurs, en classifiant les anomalies et en intégrant l'IA comme un nœud Python.\n**Date:** Octobre 2024 - Décembre 2024\n### Technologies : Lab VIEW, Python, Modèle Random Forest, Apprentissage automatique\n- Système de réservation de parking intelligent (PFA)\nDéveloppementd'unsystèmedeparkingintelligent avec une application web pour les réservations en temps réel. Conception d'un système embarqué basé sur ESP 32 intégrant capteurs, commande de barrière par servo-moteur et affichage LCD.\n**Date:** Novembre 2023 - Avril 2024\nTechnologies : Angular, Express. js, Firebase, ESP 32, PIR, HC-SR 04, Servo-moteur, PWM Écran LCD\n\n## LANGUAGES\n\n� Languages\nArabe : Langue maternelle\n∠ Ancienne Webmaster à IEEE Circuits and Systems Society -ENET'Com SB\nAnglais : Courant\n∠ Français : Courant",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "ONSGuidara",
+        "Ingénieure Électronique / Systèmes - Jeune diplômée",
+        "� https://www.linkedin.com/in/ons-guidara/ � (+216) 26 829 961",
+        "�",
+        "�",
+        "�",
+        "�",
+        "�",
+        "�",
+        "Localisation actuelle : Sfax, Tunisie",
+        "https://github.com/Ons9Guidara",
+        "guidaraons9@gmail.com"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "ONSGuidara",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 784.0583570381937,
+            "right": 136.58516416,
+            "bottom": 798.4409124084375
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Ingénieure Électronique / Systèmes - Jeune diplômée",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 774.0471737084375,
+            "right": 309.38330474,
+            "bottom": 784.0656061684375
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "� https://www.linkedin.com/in/ons-guidara/ � (+216) 26 829 961",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 760.5603003755634,
+            "right": 312.3268202800001,
+            "bottom": 769.9592023084375
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "�",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 750.0338223084375,
+            "right": 50.20418766,
+            "bottom": 759.0002023084376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "�",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 750.0338223084375,
+            "right": 50.20418766,
+            "bottom": 759.0002023084376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "�",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 195.011,
+            "top": 750.0338223084375,
+            "right": 202.69518766,
+            "bottom": 759.0002023084376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "�",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 195.011,
+            "top": 750.0338223084375,
+            "right": 202.69518766,
+            "bottom": 759.0002023084376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "�",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 316.792,
+            "top": 750.0338223084375,
+            "right": 321.91180297999995,
+            "bottom": 759.0002023084376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "�",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 316.792,
+            "top": 750.0338223084375,
+            "right": 321.91180297999995,
+            "bottom": 759.0002023084376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Localisation actuelle : Sfax, Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 326.395,
+            "top": 749.676670617279,
+            "right": 450.8124888800001,
+            "bottom": 757.2248590684376
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "https://github.com/Ons9Guidara",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 51.997,
+            "top": 749.6013003755635,
+            "right": 193.21748499999978,
+            "bottom": 756.7944728284375
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "guidaraons9@gmail.com",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 207.178,
+            "top": 749.6013003755635,
+            "right": 306.03233950000015,
+            "bottom": 756.7944728284375
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Passionnée par l'innovation technologique, spécialisée en systèmes embarqués intelligents et connectés. Compétences en développement, test et implémentation de solutions fiables adaptées aux besoins actuels.",
+        "�",
+        "Compétences",
+        "Outils de développement :",
+        "Arduino IDE , STM32CubeIDE, LabVIEW, LTspice , Altium Designer",
+        "Connaissances générales :",
+        "Linux ,FreeRTOS , Yocto , Intelligence Artificielle",
+        "Protocoles & Réseaux IoT :",
+        "MQTT(QoS, messages conservés), UDP, TCP/IP, WebSocket",
+        "Langages de programmation :",
+        "C , C++ , VHDL , Python , Java , MATLAB",
+        "Électronique (analogique et numérique) :",
+        "circuits analogiques, circuits numériques, UART, SPI, I²C, PWM, ADC/DAC",
+        "Gestion de versions & Collaboration :",
+        "Docker , Git , Méthodologie Agile Scrum",
+        "�",
+        "� CompétencesPersonnelles � vie associative",
+        "∠ Fiabilité et professionnalisme",
+        "∠ Apprentissage rapide",
+        "∠ Motivation et esprit d'équipe"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Passionnée par l'innovation technologique, spécialisée en systèmes embarqués intelligents et connectés. Compétences en développement, test et implémentation de solutions fiables adaptées aux besoins actuels.",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 701.3355220930717,
+            "right": 552.7466449600001,
+            "bottom": 721.6773944084375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "�",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 681.1805080484374,
+            "right": 56.866200000000006,
+            "bottom": 695.5267080484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Compétences",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 64.039,
+            "top": 680.6090656612423,
+            "right": 143.86125679999998,
+            "bottom": 692.6861604484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Outils de développement :",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 109.419,
+            "top": 664.4418141684375,
+            "right": 218.9482641599999,
+            "bottom": 672.7905064884375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Arduino IDE , STM32CubeIDE, LabVIEW, LTspice , Altium Designer",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 230.903,
+            "top": 664.4473422186815,
+            "right": 504.12840200000005,
+            "bottom": 672.7705812084375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Connaissances générales :",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 110.644,
+            "top": 651.2908141684376,
+            "right": 218.94785943999992,
+            "bottom": 659.6395064884375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Linux ,FreeRTOS , Yocto , Intelligence Artificielle",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 230.903,
+            "top": 651.2963422186815,
+            "right": 433.5729855200002,
+            "bottom": 659.6195812084376
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Protocoles & Réseaux IoT :",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 111.023,
+            "top": 638.1408141684375,
+            "right": 218.94827911999988,
+            "bottom": 646.4895064884374
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "MQTT(QoS, messages conservés), UDP, TCP/IP, WebSocket",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 230.903,
+            "top": 638.1463422186814,
+            "right": 478.94284808000015,
+            "bottom": 646.4695812084375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Langages de programmation :",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 95.212,
+            "top": 624.9898141684375,
+            "right": 218.9479887999999,
+            "bottom": 633.3385064884375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "C , C++ , VHDL , Python , Java , MATLAB",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 230.903,
+            "top": 624.9953422186815,
+            "right": 394.5592872800001,
+            "bottom": 633.3185812084375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Électronique (analogique et numérique) :",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 48.497,
+            "top": 611.8388141684376,
+            "right": 218.94780775999988,
+            "bottom": 620.1875064884375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "circuits analogiques, circuits numériques, UART, SPI, I²C, PWM, ADC/DAC",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 232.896,
+            "top": 611.8443422186815,
+            "right": 539.5161712800003,
+            "bottom": 620.1675812084376
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Gestion de versions & Collaboration :",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 66.749,
+            "top": 598.6878141684375,
+            "right": 218.94825127999994,
+            "bottom": 607.0365064884375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Docker , Git , Méthodologie Agile Scrum",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 230.903,
+            "top": 598.6933422186814,
+            "right": 398.7236708000003,
+            "bottom": 607.0165812084375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "�",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 573.5835080484375,
+            "right": 56.866200000000006,
+            "bottom": 587.9297080484375
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "� CompétencesPersonnelles � vie associative",
+          "page_no": 1,
+          "block_indices": [
+            62
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 76.27006566124237,
+            "right": 326.81826760000007,
+            "bottom": 91.18770804843757
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "∠ Fiabilité et professionnalisme",
+          "page_no": 1,
+          "block_indices": [
+            63
+          ],
+          "bbox": {
+            "left": 53.907,
+            "top": 61.789522093071696,
+            "right": 180.20340479999996,
+            "bottom": 72.14899712843749
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "∠ Apprentissage rapide",
+          "page_no": 1,
+          "block_indices": [
+            64
+          ],
+          "bbox": {
+            "left": 53.907,
+            "top": 49.83352209307168,
+            "right": 147.36654335999998,
+            "bottom": 60.19299712843747
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "∠ Motivation et esprit d'équipe",
+          "page_no": 1,
+          "block_indices": [
+            65
+          ],
+          "bbox": {
+            "left": 53.907,
+            "top": 37.87852209307164,
+            "right": 176.49730271999996,
+            "bottom": 48.23799712843754
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "Expérience Professionnelle",
+        "Février - Mai 2025",
+        "Stagiaire chez Instaware",
+        "4 mois"
+      ],
+      "items": [
+        {
+          "title": "Développement d'un système basé sur ESP32 pour la synchronisation d'écrans en temps réel dans un contexte de chronométrage de marathon basé sur SN74HC273Nlatches+ULN2803Adrivers+PIC16F883 , en utilisant une horloge I²C RTC et une communication distribuée fiable via UDP , MQTT et WebSocket , avec une interface embarquée en HTML/JS pour la configuration et la supervision.",
+          "date": "Juillet 2024",
+          "location": null,
+          "details": [
+            "Stagiaire chez TN Smart IoT",
+            "1 mois"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Développement d'un système basé sur ESP32 pour la synchronisation d'écrans en temps réel dans un contexte de chronométrage de marathon basé sur SN74HC273Nlatches+ULN2803Adrivers+PIC16F883 , en utilisant une horloge I²C RTC et une communication distribuée fiable via UDP , MQTT et WebSocket , avec une interface embarquée en HTML/JS pour la configuration et la supervision.",
+              "page_no": 1,
+              "block_indices": [
+                32
+              ],
+              "bbox": {
+                "left": 131.319,
+                "top": 509.01652209307167,
+                "right": 550.8460911200002,
+                "bottom": 553.2683944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Juillet 2024",
+              "page_no": 1,
+              "block_indices": [
+                33
+              ],
+              "bbox": {
+                "left": 73.585,
+                "top": 487.89552209307163,
+                "right": 119.3633308,
+                "bottom": 496.2823944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Stagiaire chez TN Smart IoT",
+              "page_no": 1,
+              "block_indices": [
+                35
+              ],
+              "bbox": {
+                "left": 131.319,
+                "top": 487.9093422186814,
+                "right": 248.18076719999985,
+                "bottom": 496.2325812084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "1 mois",
+              "page_no": 1,
+              "block_indices": [
+                34
+              ],
+              "bbox": {
+                "left": 92.863,
+                "top": 475.94052209307165,
+                "right": 119.3636224,
+                "bottom": 484.3273944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Développement d'un système de domotique utilisant le module Wi-Fi ESP8266 , intégrant capteurs et ac- tionneurs pour un contrôle local en temps réel, avec possibilité de supervision et de commande à distance via une interface web React , un backend Express.js et une base de données Firebase .",
+          "date": "Juillet 2023",
+          "location": null,
+          "details": [
+            "Stagiaire chez DRÄXLMAIER Tunisie",
+            "1 mois"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Développement d'un système de domotique utilisant le module Wi-Fi ESP8266 , intégrant capteurs et ac- tionneurs pour un contrôle local en temps réel, avec possibilité de supervision et de commande à distance via une interface web React , un backend Express.js et une base de données Firebase .",
+              "page_no": 1,
+              "block_indices": [
+                36
+              ],
+              "bbox": {
+                "left": 131.319,
+                "top": 452.02952209307165,
+                "right": 550.8493675999999,
+                "bottom": 484.3273944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Juillet 2023",
+              "page_no": 1,
+              "block_indices": [
+                37
+              ],
+              "bbox": {
+                "left": 73.585,
+                "top": 430.90852209307167,
+                "right": 119.3633308,
+                "bottom": 439.2953944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Stagiaire chez DRÄXLMAIER Tunisie",
+              "page_no": 1,
+              "block_indices": [
+                39
+              ],
+              "bbox": {
+                "left": 131.319,
+                "top": 430.9223422186814,
+                "right": 280.53942192,
+                "bottom": 439.24558120843756
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "1 mois",
+              "page_no": 1,
+              "block_indices": [
+                38
+              ],
+              "bbox": {
+                "left": 92.863,
+                "top": 418.9535220930716,
+                "right": 119.3636224,
+                "bottom": 427.3403944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Réalisation de l'assemblage, de tests de diagnostic et du contrôle qualité de composants électroniques.",
+          "date": "2022 - 2025",
+          "location": null,
+          "details": [
+            "�",
+            "Éducation"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Réalisation de l'assemblage, de tests de diagnostic et du contrôle qualité de composants électroniques.",
+              "page_no": 1,
+              "block_indices": [
+                40
+              ],
+              "bbox": {
+                "left": 131.319,
+                "top": 418.9535220930716,
+                "right": 544.05124992,
+                "bottom": 427.3403944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "2022 - 2025",
+              "page_no": 1,
+              "block_indices": [
+                43
+              ],
+              "bbox": {
+                "left": 74.223,
+                "top": 376.2135220930717,
+                "right": 119.36372184000004,
+                "bottom": 384.6003944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "�",
+              "page_no": 1,
+              "block_indices": [
+                41
+              ],
+              "bbox": {
+                "left": 42.52,
+                "top": 392.96050804843753,
+                "right": 60.954867,
+                "bottom": 407.3067080484375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Éducation",
+              "page_no": 1,
+              "block_indices": [
+                42
+              ],
+              "bbox": {
+                "left": 68.128,
+                "top": 392.3890656612424,
+                "right": 127.019151,
+                "bottom": 404.4661604484375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Cycle d'Ingénierie en Systèmes Électroniques de Communication | ENET'COM",
+          "date": "2020 - 2022",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Cycle d'Ingénierie en Systèmes Électroniques de Communication | ENET'COM",
+              "page_no": 1,
+              "block_indices": [
+                44
+              ],
+              "bbox": {
+                "left": 131.31888984000005,
+                "top": 376.2135220930717,
+                "right": 440.3201320799999,
+                "bottom": 384.6003944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "2020 - 2022",
+              "page_no": 1,
+              "block_indices": [
+                45
+              ],
+              "bbox": {
+                "left": 74.223,
+                "top": 363.06352209307164,
+                "right": 119.36372184000004,
+                "bottom": 371.4503944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Cycle Préparatoire en Maths Physique (MP) | Faculté des Sciences de Sfax",
+          "date": "2016 - 2020",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Cycle Préparatoire en Maths Physique (MP) | Faculté des Sciences de Sfax",
+              "page_no": 1,
+              "block_indices": [
+                46
+              ],
+              "bbox": {
+                "left": 131.31888984000005,
+                "top": 363.06352209307164,
+                "right": 421.50070511999996,
+                "bottom": 371.4503944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "2016 - 2020",
+              "page_no": 1,
+              "block_indices": [
+                47
+              ],
+              "bbox": {
+                "left": 74.223,
+                "top": 349.91252209307163,
+                "right": 119.36372184000004,
+                "bottom": 358.2993944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Baccalauréat en mathématiques | Lycée 25 Juillet 1957, Sfax",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Baccalauréat en mathématiques | Lycée 25 Juillet 1957, Sfax",
+              "page_no": 1,
+              "block_indices": [
+                48
+              ],
+              "bbox": {
+                "left": 131.31888984000005,
+                "top": 349.91252209307163,
+                "right": 370.56172680000003,
+                "bottom": 358.2993944084375
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Expérience Professionnelle",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 64.039,
+            "top": 573.0120656612423,
+            "right": 219.07838339999998,
+            "bottom": 585.0891604484375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Février - Mai 2025",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 49.804,
+            "top": 556.8365220930717,
+            "right": 119.36315248000002,
+            "bottom": 565.2233944084376
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Stagiaire chez Instaware",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 131.319,
+            "top": 556.8503422186815,
+            "right": 234.9703065599999,
+            "bottom": 565.1735812084376
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "4 mois",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 92.863,
+            "top": 544.8815220930717,
+            "right": 119.3636224,
+            "bottom": 553.2683944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Développement d'un système basé sur ESP32 pour la synchronisation d'écrans en temps réel dans un contexte de chronométrage de marathon basé sur SN74HC273Nlatches+ULN2803Adrivers+PIC16F883 , en utilisant une horloge I²C RTC et une communication distribuée fiable via UDP , MQTT et WebSocket , avec une interface embarquée en HTML/JS pour la configuration et la supervision.",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 131.319,
+            "top": 509.01652209307167,
+            "right": 550.8460911200002,
+            "bottom": 553.2683944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Juillet 2024",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 73.585,
+            "top": 487.89552209307163,
+            "right": 119.3633308,
+            "bottom": 496.2823944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Stagiaire chez TN Smart IoT",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 131.319,
+            "top": 487.9093422186814,
+            "right": 248.18076719999985,
+            "bottom": 496.2325812084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "1 mois",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 92.863,
+            "top": 475.94052209307165,
+            "right": 119.3636224,
+            "bottom": 484.3273944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Développement d'un système de domotique utilisant le module Wi-Fi ESP8266 , intégrant capteurs et ac- tionneurs pour un contrôle local en temps réel, avec possibilité de supervision et de commande à distance via une interface web React , un backend Express.js et une base de données Firebase .",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 131.319,
+            "top": 452.02952209307165,
+            "right": 550.8493675999999,
+            "bottom": 484.3273944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Juillet 2023",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 73.585,
+            "top": 430.90852209307167,
+            "right": 119.3633308,
+            "bottom": 439.2953944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Stagiaire chez DRÄXLMAIER Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 131.319,
+            "top": 430.9223422186814,
+            "right": 280.53942192,
+            "bottom": 439.24558120843756
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "1 mois",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 92.863,
+            "top": 418.9535220930716,
+            "right": 119.3636224,
+            "bottom": 427.3403944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Réalisation de l'assemblage, de tests de diagnostic et du contrôle qualité de composants électroniques.",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 131.319,
+            "top": 418.9535220930716,
+            "right": 544.05124992,
+            "bottom": 427.3403944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "2022 - 2025",
+          "page_no": 1,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 74.223,
+            "top": 376.2135220930717,
+            "right": 119.36372184000004,
+            "bottom": 384.6003944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "�",
+          "page_no": 1,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 392.96050804843753,
+            "right": 60.954867,
+            "bottom": 407.3067080484375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Éducation",
+          "page_no": 1,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 68.128,
+            "top": 392.3890656612424,
+            "right": 127.019151,
+            "bottom": 404.4661604484375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Cycle d'Ingénierie en Systèmes Électroniques de Communication | ENET'COM",
+          "page_no": 1,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 131.31888984000005,
+            "top": 376.2135220930717,
+            "right": 440.3201320799999,
+            "bottom": 384.6003944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "2020 - 2022",
+          "page_no": 1,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 74.223,
+            "top": 363.06352209307164,
+            "right": 119.36372184000004,
+            "bottom": 371.4503944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Cycle Préparatoire en Maths Physique (MP) | Faculté des Sciences de Sfax",
+          "page_no": 1,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 131.31888984000005,
+            "top": 363.06352209307164,
+            "right": 421.50070511999996,
+            "bottom": 371.4503944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "2016 - 2020",
+          "page_no": 1,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 74.223,
+            "top": 349.91252209307163,
+            "right": 119.36372184000004,
+            "bottom": 358.2993944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Baccalauréat en mathématiques | Lycée 25 Juillet 1957, Sfax",
+          "page_no": 1,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 131.31888984000005,
+            "top": 349.91252209307163,
+            "right": 370.56172680000003,
+            "bottom": 358.2993944084375
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [
+        "� Projets",
+        "IoT System Monitor - QEMU & Docker"
+      ],
+      "items": [
+        {
+          "title": "Système IoT sur Linux embarqué exécuté dans QEMU, containerisé avec Docker, collectant et envoyant en temps réel les métriques système (RAM, CPU) via HTTP.",
+          "date": "Janvier 2025",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Système IoT sur Linux embarqué exécuté dans QEMU, containerisé avec Docker, collectant et envoyant en temps réel les métriques système (RAM, CPU) via HTTP.",
+              "page_no": 1,
+              "block_indices": [
+                52
+              ],
+              "bbox": {
+                "left": 67.426,
+                "top": 286.31052209307165,
+                "right": 552.7560076000001,
+                "bottom": 306.65239440843743
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Janvier 2025",
+              "page_no": 1,
+              "block_indices": [
+                51
+              ],
+              "bbox": {
+                "left": 502.305,
+                "top": 310.2215220930716,
+                "right": 552.7558089599999,
+                "bottom": 318.60839440843756
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Technologies : Linux embarqué, BusyBox, QEMU, Docker, C, HTTP, TCP/IP",
+          "date": null,
+          "location": null,
+          "details": [
+            "Détection d'anomalies pour les batteries de véhicules électriques"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Technologies : Linux embarqué, BusyBox, QEMU, Docker, C, HTTP, TCP/IP",
+              "page_no": 1,
+              "block_indices": [
+                53
+              ],
+              "bbox": {
+                "left": 67.426,
+                "top": 262.4005220930717,
+                "right": 361.4039204799999,
+                "bottom": 270.7873944084374
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Détection d'anomalies pour les batteries de véhicules électriques",
+              "page_no": 1,
+              "block_indices": [
+                54
+              ],
+              "bbox": {
+                "left": 47.501,
+                "top": 235.2523422186814,
+                "right": 324.15355016000007,
+                "bottom": 243.57558120843748
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Développement d'une interface LabVIEW et d'une IA pour la détection d'anomalies des batteries EV en simulant des données de capteurs, en classifiant les anomalies et en intégrant l'IA comme un nœud Python.",
+          "date": "Octobre 2024 - Décembre 2024",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Développement d'une interface LabVIEW et d'une IA pour la détection d'anomalies des batteries EV en simulant des données de capteurs, en classifiant les anomalies et en intégrant l'IA comme un nœud Python.",
+              "page_no": 1,
+              "block_indices": [
+                56
+              ],
+              "bbox": {
+                "left": 67.426,
+                "top": 211.32852209307168,
+                "right": 552.7560076000002,
+                "bottom": 231.67039440843746
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Octobre 2024 - Décembre 2024",
+              "page_no": 1,
+              "block_indices": [
+                55
+              ],
+              "bbox": {
+                "left": 429.857,
+                "top": 235.23852209307165,
+                "right": 552.7561270400001,
+                "bottom": 243.6253944084375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Technologies : LabVIEW, Python, Modèle Random Forest, Apprentissage automatique",
+          "date": null,
+          "location": null,
+          "details": [
+            "Système de réservation de parking intelligent (PFA)"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Technologies : LabVIEW, Python, Modèle Random Forest, Apprentissage automatique",
+              "page_no": 1,
+              "block_indices": [
+                57
+              ],
+              "bbox": {
+                "left": 67.426,
+                "top": 187.41752209307163,
+                "right": 410.89831599999985,
+                "bottom": 195.80439440843747
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Système de réservation de parking intelligent (PFA)",
+              "page_no": 1,
+              "block_indices": [
+                58
+              ],
+              "bbox": {
+                "left": 47.501,
+                "top": 160.26934221868146,
+                "right": 265.4237873599999,
+                "bottom": 168.59258120843754
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Développementd'unsystèmedeparkingintelligent avec une application web pour les réservations en temps réel. Conception d'un système embarqué basé sur ESP32 intégrant capteurs, commande de barrière par servo-moteur et affichage LCD.",
+          "date": "Novembre 2023 - Avril 2024",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Développementd'unsystèmedeparkingintelligent avec une application web pour les réservations en temps réel. Conception d'un système embarqué basé sur ESP32 intégrant capteurs, commande de barrière par servo-moteur et affichage LCD.",
+              "page_no": 1,
+              "block_indices": [
+                60
+              ],
+              "bbox": {
+                "left": 67.426,
+                "top": 136.34552209307162,
+                "right": 552.7560075999997,
+                "bottom": 156.6873944084375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Novembre 2023 - Avril 2024",
+              "page_no": 1,
+              "block_indices": [
+                59
+              ],
+              "bbox": {
+                "left": 444.103,
+                "top": 160.2555220930717,
+                "right": 552.75555184,
+                "bottom": 168.64239440843755
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Technologies : Angular, Express.js, Firebase, ESP32, PIR, HC-SR04, Servo-moteur,PWM Écran LCD",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Technologies : Angular, Express.js, Firebase, ESP32, PIR, HC-SR04, Servo-moteur,PWM Écran LCD",
+              "page_no": 1,
+              "block_indices": [
+                61
+              ],
+              "bbox": {
+                "left": 67.426,
+                "top": 112.43552209307165,
+                "right": 452.97054472,
+                "bottom": 120.8223944084375
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "� Projets",
+          "page_no": 1,
+          "block_indices": [
+            49
+          ],
+          "bbox": {
+            "left": 42.52,
+            "top": 324.2440656612424,
+            "right": 105.22735999999999,
+            "bottom": 339.1617080484375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "IoT System Monitor - QEMU & Docker",
+          "page_no": 1,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 47.501,
+            "top": 310.23534221868135,
+            "right": 204.85093616,
+            "bottom": 318.55858120843754
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Système IoT sur Linux embarqué exécuté dans QEMU, containerisé avec Docker, collectant et envoyant en temps réel les métriques système (RAM, CPU) via HTTP.",
+          "page_no": 1,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 67.426,
+            "top": 286.31052209307165,
+            "right": 552.7560076000001,
+            "bottom": 306.65239440843743
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Janvier 2025",
+          "page_no": 1,
+          "block_indices": [
+            51
+          ],
+          "bbox": {
+            "left": 502.305,
+            "top": 310.2215220930716,
+            "right": 552.7558089599999,
+            "bottom": 318.60839440843756
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Technologies : Linux embarqué, BusyBox, QEMU, Docker, C, HTTP, TCP/IP",
+          "page_no": 1,
+          "block_indices": [
+            53
+          ],
+          "bbox": {
+            "left": 67.426,
+            "top": 262.4005220930717,
+            "right": 361.4039204799999,
+            "bottom": 270.7873944084374
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Détection d'anomalies pour les batteries de véhicules électriques",
+          "page_no": 1,
+          "block_indices": [
+            54
+          ],
+          "bbox": {
+            "left": 47.501,
+            "top": 235.2523422186814,
+            "right": 324.15355016000007,
+            "bottom": 243.57558120843748
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Développement d'une interface LabVIEW et d'une IA pour la détection d'anomalies des batteries EV en simulant des données de capteurs, en classifiant les anomalies et en intégrant l'IA comme un nœud Python.",
+          "page_no": 1,
+          "block_indices": [
+            56
+          ],
+          "bbox": {
+            "left": 67.426,
+            "top": 211.32852209307168,
+            "right": 552.7560076000002,
+            "bottom": 231.67039440843746
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Octobre 2024 - Décembre 2024",
+          "page_no": 1,
+          "block_indices": [
+            55
+          ],
+          "bbox": {
+            "left": 429.857,
+            "top": 235.23852209307165,
+            "right": 552.7561270400001,
+            "bottom": 243.6253944084375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Technologies : LabVIEW, Python, Modèle Random Forest, Apprentissage automatique",
+          "page_no": 1,
+          "block_indices": [
+            57
+          ],
+          "bbox": {
+            "left": 67.426,
+            "top": 187.41752209307163,
+            "right": 410.89831599999985,
+            "bottom": 195.80439440843747
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Système de réservation de parking intelligent (PFA)",
+          "page_no": 1,
+          "block_indices": [
+            58
+          ],
+          "bbox": {
+            "left": 47.501,
+            "top": 160.26934221868146,
+            "right": 265.4237873599999,
+            "bottom": 168.59258120843754
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Développementd'unsystèmedeparkingintelligent avec une application web pour les réservations en temps réel. Conception d'un système embarqué basé sur ESP32 intégrant capteurs, commande de barrière par servo-moteur et affichage LCD.",
+          "page_no": 1,
+          "block_indices": [
+            60
+          ],
+          "bbox": {
+            "left": 67.426,
+            "top": 136.34552209307162,
+            "right": 552.7560075999997,
+            "bottom": 156.6873944084375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Novembre 2023 - Avril 2024",
+          "page_no": 1,
+          "block_indices": [
+            59
+          ],
+          "bbox": {
+            "left": 444.103,
+            "top": 160.2555220930717,
+            "right": 552.75555184,
+            "bottom": 168.64239440843755
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Technologies : Angular, Express.js, Firebase, ESP32, PIR, HC-SR04, Servo-moteur,PWM Écran LCD",
+          "page_no": 1,
+          "block_indices": [
+            61
+          ],
+          "bbox": {
+            "left": 67.426,
+            "top": 112.43552209307165,
+            "right": 452.97054472,
+            "bottom": 120.8223944084375
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGES",
+      "section_type": "languages",
+      "content": [
+        "� Languages",
+        "∠",
+        "Arabe : Langue maternelle",
+        "∠",
+        "∠ Ancienne Webmaster à IEEE Circuits and Systems Society -ENET'Com SB",
+        "Anglais : Courant",
+        "∠ Français : Courant"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "� Languages",
+          "page_no": 1,
+          "block_indices": [
+            66
+          ],
+          "bbox": {
+            "left": 399.683,
+            "top": 76.27006566124237,
+            "right": 481.7147782,
+            "bottom": 91.18770804843757
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "∠",
+          "page_no": 1,
+          "block_indices": [
+            67
+          ],
+          "bbox": {
+            "left": 411.071,
+            "top": 62.53435712843748,
+            "right": 414.62766248,
+            "bottom": 72.49699712843756
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "Arabe : Langue maternelle",
+          "page_no": 1,
+          "block_indices": [
+            68
+          ],
+          "bbox": {
+            "left": 419.609,
+            "top": 62.13752209307165,
+            "right": 524.32630904,
+            "bottom": 70.5243944084375
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "∠",
+          "page_no": 1,
+          "block_indices": [
+            69
+          ],
+          "bbox": {
+            "left": 411.071,
+            "top": 50.57935712843755,
+            "right": 414.62766248,
+            "bottom": 60.541997128437515
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "∠ Ancienne Webmaster à IEEE Circuits and Systems Society -ENET'Com SB",
+          "page_no": 1,
+          "block_indices": [
+            72
+          ],
+          "bbox": {
+            "left": 232.489,
+            "top": 37.87852209307164,
+            "right": 374.1677209600002,
+            "bottom": 72.14899712843749
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "Anglais : Courant",
+          "page_no": 1,
+          "block_indices": [
+            70
+          ],
+          "bbox": {
+            "left": 419.609,
+            "top": 50.18252209307161,
+            "right": 487.2055123999999,
+            "bottom": 58.56939440843746
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "∠ Français : Courant",
+          "page_no": 1,
+          "block_indices": [
+            71
+          ],
+          "bbox": {
+            "left": 411.071,
+            "top": 38.227522093071684,
+            "right": 491.51933551999997,
+            "bottom": 48.586997128437474
+          },
+          "section_title": "LANGUAGES"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.9113,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 3592,
+      "section_completeness": 0.6667,
+      "ordering_coherence": 1.0,
+      "segmentation_stability": 1.0,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.2416,
+      "weird_section_ratio": 0.0,
+      "section_count": 5,
+      "expected_section_hits": 4,
+      "markdown_chars": 3736,
+      "markdown_words": 538,
+      "markdown_has_experience": true,
+      "markdown_has_education": false,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 2,
+      "markdown_weird_char_ratio": 0.0286,
+      "markdown_glued_line_count": 4,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=3502\", \"pdf_total_text_words=496\", \"pdf_avg_text_chars_per_page=3502.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=1.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": [
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "ONSGuidara",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 784.0583570381937,
+        "right": 136.58516416,
+        "bottom": 798.4409124084375
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Ingénieure Électronique / Systèmes - Jeune diplômée",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 774.0471737084375,
+        "right": 309.38330474,
+        "bottom": 784.0656061684375
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "� https://www.linkedin.com/in/ons-guidara/ � (+216) 26 829 961",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 760.5603003755634,
+        "right": 312.3268202800001,
+        "bottom": 769.9592023084375
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "�",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 750.0338223084375,
+        "right": 50.20418766,
+        "bottom": 759.0002023084376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "�",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 750.0338223084375,
+        "right": 50.20418766,
+        "bottom": 759.0002023084376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "�",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 195.011,
+        "top": 750.0338223084375,
+        "right": 202.69518766,
+        "bottom": 759.0002023084376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "�",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 195.011,
+        "top": 750.0338223084375,
+        "right": 202.69518766,
+        "bottom": 759.0002023084376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "�",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 316.792,
+        "top": 750.0338223084375,
+        "right": 321.91180297999995,
+        "bottom": 759.0002023084376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "�",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 316.792,
+        "top": 750.0338223084375,
+        "right": 321.91180297999995,
+        "bottom": 759.0002023084376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Localisation actuelle : Sfax, Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 326.395,
+        "top": 749.676670617279,
+        "right": 450.8124888800001,
+        "bottom": 757.2248590684376
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "https://github.com/Ons9Guidara",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 51.997,
+        "top": 749.6013003755635,
+        "right": 193.21748499999978,
+        "bottom": 756.7944728284375
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "guidaraons9@gmail.com",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 207.178,
+        "top": 749.6013003755635,
+        "right": 306.03233950000015,
+        "bottom": 756.7944728284375
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Passionnée par l'innovation technologique, spécialisée en systèmes embarqués intelligents et connectés. Compétences en développement, test et implémentation de solutions fiables adaptées aux besoins actuels.",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 701.3355220930717,
+        "right": 552.7466449600001,
+        "bottom": 721.6773944084375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "�",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 681.1805080484374,
+        "right": 56.866200000000006,
+        "bottom": 695.5267080484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Compétences",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 64.039,
+        "top": 680.6090656612423,
+        "right": 143.86125679999998,
+        "bottom": 692.6861604484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Outils de développement :",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 109.419,
+        "top": 664.4418141684375,
+        "right": 218.9482641599999,
+        "bottom": 672.7905064884375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Arduino IDE , STM32CubeIDE, LabVIEW, LTspice , Altium Designer",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 230.903,
+        "top": 664.4473422186815,
+        "right": 504.12840200000005,
+        "bottom": 672.7705812084375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Connaissances générales :",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 110.644,
+        "top": 651.2908141684376,
+        "right": 218.94785943999992,
+        "bottom": 659.6395064884375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Linux ,FreeRTOS , Yocto , Intelligence Artificielle",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 230.903,
+        "top": 651.2963422186815,
+        "right": 433.5729855200002,
+        "bottom": 659.6195812084376
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Protocoles & Réseaux IoT :",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 111.023,
+        "top": 638.1408141684375,
+        "right": 218.94827911999988,
+        "bottom": 646.4895064884374
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "MQTT(QoS, messages conservés), UDP, TCP/IP, WebSocket",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 230.903,
+        "top": 638.1463422186814,
+        "right": 478.94284808000015,
+        "bottom": 646.4695812084375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Langages de programmation :",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 95.212,
+        "top": 624.9898141684375,
+        "right": 218.9479887999999,
+        "bottom": 633.3385064884375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "C , C++ , VHDL , Python , Java , MATLAB",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 230.903,
+        "top": 624.9953422186815,
+        "right": 394.5592872800001,
+        "bottom": 633.3185812084375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Électronique (analogique et numérique) :",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 48.497,
+        "top": 611.8388141684376,
+        "right": 218.94780775999988,
+        "bottom": 620.1875064884375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "circuits analogiques, circuits numériques, UART, SPI, I²C, PWM, ADC/DAC",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 232.896,
+        "top": 611.8443422186815,
+        "right": 539.5161712800003,
+        "bottom": 620.1675812084376
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Gestion de versions & Collaboration :",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 66.749,
+        "top": 598.6878141684375,
+        "right": 218.94825127999994,
+        "bottom": 607.0365064884375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Docker , Git , Méthodologie Agile Scrum",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 230.903,
+        "top": 598.6933422186814,
+        "right": 398.7236708000003,
+        "bottom": 607.0165812084375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "�",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 573.5835080484375,
+        "right": 56.866200000000006,
+        "bottom": 587.9297080484375
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "� CompétencesPersonnelles � vie associative",
+      "page_no": 1,
+      "block_indices": [
+        62
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 76.27006566124237,
+        "right": 326.81826760000007,
+        "bottom": 91.18770804843757
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "∠ Fiabilité et professionnalisme",
+      "page_no": 1,
+      "block_indices": [
+        63
+      ],
+      "bbox": {
+        "left": 53.907,
+        "top": 61.789522093071696,
+        "right": 180.20340479999996,
+        "bottom": 72.14899712843749
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "∠ Apprentissage rapide",
+      "page_no": 1,
+      "block_indices": [
+        64
+      ],
+      "bbox": {
+        "left": 53.907,
+        "top": 49.83352209307168,
+        "right": 147.36654335999998,
+        "bottom": 60.19299712843747
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "∠ Motivation et esprit d'équipe",
+      "page_no": 1,
+      "block_indices": [
+        65
+      ],
+      "bbox": {
+        "left": 53.907,
+        "top": 37.87852209307164,
+        "right": 176.49730271999996,
+        "bottom": 48.23799712843754
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Expérience Professionnelle",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 64.039,
+        "top": 573.0120656612423,
+        "right": 219.07838339999998,
+        "bottom": 585.0891604484375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Février - Mai 2025",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 49.804,
+        "top": 556.8365220930717,
+        "right": 119.36315248000002,
+        "bottom": 565.2233944084376
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Stagiaire chez Instaware",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 131.319,
+        "top": 556.8503422186815,
+        "right": 234.9703065599999,
+        "bottom": 565.1735812084376
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "4 mois",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 92.863,
+        "top": 544.8815220930717,
+        "right": 119.3636224,
+        "bottom": 553.2683944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Développement d'un système basé sur ESP32 pour la synchronisation d'écrans en temps réel dans un contexte de chronométrage de marathon basé sur SN74HC273Nlatches+ULN2803Adrivers+PIC16F883 , en utilisant une horloge I²C RTC et une communication distribuée fiable via UDP , MQTT et WebSocket , avec une interface embarquée en HTML/JS pour la configuration et la supervision.",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 131.319,
+        "top": 509.01652209307167,
+        "right": 550.8460911200002,
+        "bottom": 553.2683944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Juillet 2024",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 73.585,
+        "top": 487.89552209307163,
+        "right": 119.3633308,
+        "bottom": 496.2823944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Stagiaire chez TN Smart IoT",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 131.319,
+        "top": 487.9093422186814,
+        "right": 248.18076719999985,
+        "bottom": 496.2325812084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "1 mois",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 92.863,
+        "top": 475.94052209307165,
+        "right": 119.3636224,
+        "bottom": 484.3273944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Développement d'un système de domotique utilisant le module Wi-Fi ESP8266 , intégrant capteurs et ac- tionneurs pour un contrôle local en temps réel, avec possibilité de supervision et de commande à distance via une interface web React , un backend Express.js et une base de données Firebase .",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 131.319,
+        "top": 452.02952209307165,
+        "right": 550.8493675999999,
+        "bottom": 484.3273944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Juillet 2023",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 73.585,
+        "top": 430.90852209307167,
+        "right": 119.3633308,
+        "bottom": 439.2953944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Stagiaire chez DRÄXLMAIER Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 131.319,
+        "top": 430.9223422186814,
+        "right": 280.53942192,
+        "bottom": 439.24558120843756
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "1 mois",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 92.863,
+        "top": 418.9535220930716,
+        "right": 119.3636224,
+        "bottom": 427.3403944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Réalisation de l'assemblage, de tests de diagnostic et du contrôle qualité de composants électroniques.",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 131.319,
+        "top": 418.9535220930716,
+        "right": 544.05124992,
+        "bottom": 427.3403944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "2022 - 2025",
+      "page_no": 1,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 74.223,
+        "top": 376.2135220930717,
+        "right": 119.36372184000004,
+        "bottom": 384.6003944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "�",
+      "page_no": 1,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 392.96050804843753,
+        "right": 60.954867,
+        "bottom": 407.3067080484375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Éducation",
+      "page_no": 1,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 68.128,
+        "top": 392.3890656612424,
+        "right": 127.019151,
+        "bottom": 404.4661604484375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Cycle d'Ingénierie en Systèmes Électroniques de Communication | ENET'COM",
+      "page_no": 1,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 131.31888984000005,
+        "top": 376.2135220930717,
+        "right": 440.3201320799999,
+        "bottom": 384.6003944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "2020 - 2022",
+      "page_no": 1,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 74.223,
+        "top": 363.06352209307164,
+        "right": 119.36372184000004,
+        "bottom": 371.4503944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Cycle Préparatoire en Maths Physique (MP) | Faculté des Sciences de Sfax",
+      "page_no": 1,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 131.31888984000005,
+        "top": 363.06352209307164,
+        "right": 421.50070511999996,
+        "bottom": 371.4503944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "2016 - 2020",
+      "page_no": 1,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 74.223,
+        "top": 349.91252209307163,
+        "right": 119.36372184000004,
+        "bottom": 358.2993944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Baccalauréat en mathématiques | Lycée 25 Juillet 1957, Sfax",
+      "page_no": 1,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 131.31888984000005,
+        "top": 349.91252209307163,
+        "right": 370.56172680000003,
+        "bottom": 358.2993944084375
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "� Projets",
+      "page_no": 1,
+      "block_indices": [
+        49
+      ],
+      "bbox": {
+        "left": 42.52,
+        "top": 324.2440656612424,
+        "right": 105.22735999999999,
+        "bottom": 339.1617080484375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "IoT System Monitor - QEMU & Docker",
+      "page_no": 1,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 47.501,
+        "top": 310.23534221868135,
+        "right": 204.85093616,
+        "bottom": 318.55858120843754
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Système IoT sur Linux embarqué exécuté dans QEMU, containerisé avec Docker, collectant et envoyant en temps réel les métriques système (RAM, CPU) via HTTP.",
+      "page_no": 1,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 67.426,
+        "top": 286.31052209307165,
+        "right": 552.7560076000001,
+        "bottom": 306.65239440843743
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Janvier 2025",
+      "page_no": 1,
+      "block_indices": [
+        51
+      ],
+      "bbox": {
+        "left": 502.305,
+        "top": 310.2215220930716,
+        "right": 552.7558089599999,
+        "bottom": 318.60839440843756
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Technologies : Linux embarqué, BusyBox, QEMU, Docker, C, HTTP, TCP/IP",
+      "page_no": 1,
+      "block_indices": [
+        53
+      ],
+      "bbox": {
+        "left": 67.426,
+        "top": 262.4005220930717,
+        "right": 361.4039204799999,
+        "bottom": 270.7873944084374
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Détection d'anomalies pour les batteries de véhicules électriques",
+      "page_no": 1,
+      "block_indices": [
+        54
+      ],
+      "bbox": {
+        "left": 47.501,
+        "top": 235.2523422186814,
+        "right": 324.15355016000007,
+        "bottom": 243.57558120843748
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Développement d'une interface LabVIEW et d'une IA pour la détection d'anomalies des batteries EV en simulant des données de capteurs, en classifiant les anomalies et en intégrant l'IA comme un nœud Python.",
+      "page_no": 1,
+      "block_indices": [
+        56
+      ],
+      "bbox": {
+        "left": 67.426,
+        "top": 211.32852209307168,
+        "right": 552.7560076000002,
+        "bottom": 231.67039440843746
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Octobre 2024 - Décembre 2024",
+      "page_no": 1,
+      "block_indices": [
+        55
+      ],
+      "bbox": {
+        "left": 429.857,
+        "top": 235.23852209307165,
+        "right": 552.7561270400001,
+        "bottom": 243.6253944084375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Technologies : LabVIEW, Python, Modèle Random Forest, Apprentissage automatique",
+      "page_no": 1,
+      "block_indices": [
+        57
+      ],
+      "bbox": {
+        "left": 67.426,
+        "top": 187.41752209307163,
+        "right": 410.89831599999985,
+        "bottom": 195.80439440843747
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Système de réservation de parking intelligent (PFA)",
+      "page_no": 1,
+      "block_indices": [
+        58
+      ],
+      "bbox": {
+        "left": 47.501,
+        "top": 160.26934221868146,
+        "right": 265.4237873599999,
+        "bottom": 168.59258120843754
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Développementd'unsystèmedeparkingintelligent avec une application web pour les réservations en temps réel. Conception d'un système embarqué basé sur ESP32 intégrant capteurs, commande de barrière par servo-moteur et affichage LCD.",
+      "page_no": 1,
+      "block_indices": [
+        60
+      ],
+      "bbox": {
+        "left": 67.426,
+        "top": 136.34552209307162,
+        "right": 552.7560075999997,
+        "bottom": 156.6873944084375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Novembre 2023 - Avril 2024",
+      "page_no": 1,
+      "block_indices": [
+        59
+      ],
+      "bbox": {
+        "left": 444.103,
+        "top": 160.2555220930717,
+        "right": 552.75555184,
+        "bottom": 168.64239440843755
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Technologies : Angular, Express.js, Firebase, ESP32, PIR, HC-SR04, Servo-moteur,PWM Écran LCD",
+      "page_no": 1,
+      "block_indices": [
+        61
+      ],
+      "bbox": {
+        "left": 67.426,
+        "top": 112.43552209307165,
+        "right": 452.97054472,
+        "bottom": 120.8223944084375
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "� Languages",
+      "page_no": 1,
+      "block_indices": [
+        66
+      ],
+      "bbox": {
+        "left": 399.683,
+        "top": 76.27006566124237,
+        "right": 481.7147782,
+        "bottom": 91.18770804843757
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "∠",
+      "page_no": 1,
+      "block_indices": [
+        67
+      ],
+      "bbox": {
+        "left": 411.071,
+        "top": 62.53435712843748,
+        "right": 414.62766248,
+        "bottom": 72.49699712843756
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Arabe : Langue maternelle",
+      "page_no": 1,
+      "block_indices": [
+        68
+      ],
+      "bbox": {
+        "left": 419.609,
+        "top": 62.13752209307165,
+        "right": 524.32630904,
+        "bottom": 70.5243944084375
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "∠",
+      "page_no": 1,
+      "block_indices": [
+        69
+      ],
+      "bbox": {
+        "left": 411.071,
+        "top": 50.57935712843755,
+        "right": 414.62766248,
+        "bottom": 60.541997128437515
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "∠ Ancienne Webmaster à IEEE Circuits and Systems Society -ENET'Com SB",
+      "page_no": 1,
+      "block_indices": [
+        72
+      ],
+      "bbox": {
+        "left": 232.489,
+        "top": 37.87852209307164,
+        "right": 374.1677209600002,
+        "bottom": 72.14899712843749
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Anglais : Courant",
+      "page_no": 1,
+      "block_indices": [
+        70
+      ],
+      "bbox": {
+        "left": 419.609,
+        "top": 50.18252209307161,
+        "right": 487.2055123999999,
+        "bottom": 58.56939440843746
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "∠ Français : Courant",
+      "page_no": 1,
+      "block_indices": [
+        71
+      ],
+      "bbox": {
+        "left": 411.071,
+        "top": 38.227522093071684,
+        "right": 491.51933551999997,
+        "bottom": 48.586997128437474
+      },
+      "section_title": "LANGUAGES"
+    }
+  ]
+}

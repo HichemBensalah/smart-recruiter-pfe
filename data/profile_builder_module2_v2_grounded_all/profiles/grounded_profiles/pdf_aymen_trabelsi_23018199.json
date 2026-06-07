@@ -1,0 +1,226 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\aymen_trabelsi_23018199.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\aymen_trabelsi_23018199.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7965,
+  "normalization": {
+    "cleaned_markdown": "## EDUCATION\n\nDiplôme d'Ingénieur en Informatique De septembre 2021 à janvier 2025\nESPRIT Tunisie\nSpécialité:\nGénie logiciel\nLicence en génie informatique De septembre 2018 à juin 2021\nISI Ariana\nSpécialité:\nGénie Logiciel\n\n## TRABELSI AYMEN\n\nBac Technique\nIbn Arafa Jedaida\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nFrameworks et bibliothèques: Spring Boot - Angular - Kafka - Camunda (BPMN, DMN)\nLangages de programmation: Java/JavaScript/HTML - CSS\nOutils et technologies: Keycloak - Postman - Swagger - Docker - GitHub - Jira\nBases de données: MySQL, SQL\nMéthodologies: Scrum/Agile\nFrançais B 2: Compétences\nprofessionnelles\nAnglais\nB 1: Vocabulaire du quotidien\nDevOps: STATION DE SKI De septembre 2023 à octobre 2023\nOptimisation des opérations de la Station de Ski avec DevOps.\nCI/CD - Jenkins - Docker - GitHub/Git Lab - Groovy - Vagrant - Sonar - Nexus\nApplication Web: TUNISIACAMP De février 2023 à mai 2023\nConception et développement d'une application web de camping.\nSpring Boot - Spring Security- Angular- HTML - CSS - SQL -GitHub- Scrum/Agile\nApplication Web: ILEARN D'octobre 2022 à décembre 2022\nConception et développement d'un site d'e-learning.\nJava- Angular- MySQL- UML- GitHub - Scrum/Agile\n\n## À PROPOS\n\ntrabelsyy.aymen@gmail.com \nTunisie\nNé le 24/02/1999\nhttps: //github.com/traymen\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nFull Stack Java - Angular De février 2024 à décembre 2025\nKAMDIGIS Tunis\nConception et développement d'une application web de coaching en ligne.\nSpring Boot - Angular - Kafka - Keycloak - MySQL - SQL - Swagger - HTML - CSS - GitHub - Git Scrum/Agile - Docker - Jenkins\nKAMDIGIS Tunis\nConception et développement d'une application web pour les enchères en ligne.\nSpring Boot - Angular - Keycloak - Camunda - MySQL - SQL - HTML - CSS - GitHub - Git Scrum/Agile - Docker - Jenkins\nStage Ingénieur De juillet 2023 à septembre 2023\nConception et développement d'une application web pour la mobilité internationale.\nSpring Boot - Spring Security - Angular - HTML - CSS - MySQL - GitHub - Scrum/Agile\nVIKING Manouba\nConception et développement d'une application de gestion des salles de sport.\nSpring Boot - Spring Security - Angular - MySQL - SQL - CSS - HTML - UML- Scrum/Agile\n\n## LANGUAGES\n\nLANGUES\nArabe\n: Langue maternelle\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nCamunda BPMN, DMN\nDRE Ariana\nCCNA: Introduction to Networks (ITN)\n\n## EXPÉRIENCES ASSOCIATIVES\n\nMembre\nIEEE Ariana\nDe septembre 2021 à août 2023\n\n## CENTRES D'INTÉRÊT\n\nBelote\nChess\nESPRIT Ariana\nCamping\nESPRIT Ariana\nESPRIT Ariana\n\n## ACADEMIC PROJECTS\n\nPROJETS",
+    "header_info": {
+      "full_name": "ESPRIT Tunisie",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9593,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "TRABELSI AYMEN",
+      "email": "trabelsyy.aymen@gmail.com",
+      "phone": null,
+      "location": "Tunisie",
+      "linkedin": null,
+      "github": "https://github.com/traymen"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Kafka",
+        "Camunda",
+        "Java",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Keycloak",
+        "Postman",
+        "Swagger",
+        "Docker",
+        "GitHub",
+        "Jira",
+        "MySQL",
+        "SQL",
+        "Scrum/Agile",
+        "Jenkins",
+        "Groovy",
+        "Vagrant",
+        "Sonar",
+        "Nexus"
+      ],
+      "soft_skills": [
+        "Français B 2",
+        "Anglais B 1"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "KAMDIGIS Tunis",
+        "job_title": "Full Stack Java - Angular",
+        "start_date": "février 2024",
+        "end_date": "décembre 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application web de coaching en ligne",
+          "Conception et développement d'une application web pour les enchères en ligne"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Stage Ingénieur",
+        "start_date": "juillet 2023",
+        "end_date": "septembre 2023",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application web pour la mobilité internationale"
+        ]
+      },
+      {
+        "company": "VIKING Manouba",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application de gestion des salles de sport"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT Tunisie",
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "field": "Génie logiciel",
+        "year": null
+      },
+      {
+        "institution": "ISI Ariana",
+        "degree": "Licence en génie informatique",
+        "field": "Génie Logiciel",
+        "year": null
+      },
+      {
+        "institution": "Ibn Arafa Jedaida",
+        "degree": "Bac Technique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [
+      "Camunda BPMN, DMN",
+      "DRE Ariana",
+      "CCNA: Introduction to Networks (ITN)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:39:44.085228+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

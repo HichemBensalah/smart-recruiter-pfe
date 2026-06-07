@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Lahouel_Abdessalem_23014136.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Lahouel_Abdessalem_23014136.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Lahouel_Abdessalem_23014136.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Abdessalem LAHOUEL",
+      "email": "461997@gmail.com",
+      "phone": null,
+      "location": "✅ Relocalisable au Canada"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Symfony",
+        "Angular",
+        "React",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "MySQL"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Stage de Fin d’Étude",
+        "company": "Sartex",
+        "start_date": "Mai 2025",
+        "end_date": "Juin 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d’un système de planification de production basé sur l ’ intelligence arti fi cielle.",
+          "Optimisation des algorithmes pour améliorer l’efficacité et réduire les coûts de production.",
+          "Intégration de solutions d’IA dans les processus industriels existants."
+        ]
+      },
+      {
+        "job_title": "Supervision des Systèmes Informatiques",
+        "company": "Sartex",
+        "start_date": "Mars 2021",
+        "end_date": "Juin 2022",
+        "city": null,
+        "responsibilities": [
+          "Gestion et maintenance proactive des infrastructures informatiques critiques (Zabbix).",
+          "Mise en œuvre de stratégies de sécurité (Suricata).",
+          "Mise en œuvre de stratégies d’optimisation des performances et de la sécurité des systèmes."
+        ]
+      },
+      {
+        "job_title": "Stage d’Été",
+        "company": "Cabinet de Kinésithérapie",
+        "start_date": "Août 2024",
+        "end_date": "Septembre 2024",
+        "city": null,
+        "responsibilities": [
+          "Conception et implémentation d’un chatbot intelligent pour l’automatisation de la prise de rendez-vous et la gestion des requètes clients."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:01:22.021934+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9448,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

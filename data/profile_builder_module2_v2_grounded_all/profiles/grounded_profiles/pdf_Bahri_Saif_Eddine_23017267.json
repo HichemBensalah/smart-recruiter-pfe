@@ -1,0 +1,203 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Bahri_Saif_Eddine_23017267.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Bahri_Saif_Eddine_23017267.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8748,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nBahri Saif Eddine\nBen Arous, Tunisie | saifbahr 54@gmail.com | +216 53763494 linkedin.com/in/saif-eddine-bahri | github.com/saifeddinbahri\n\n## PROFESSIONAL EXPERIENCE\n\nDiplômé d'Ingénieur en Informatique avec une expérience en développement full-stack et mobile utilisant Next. js, Nest JS, Flutter et PostgreSQL. A développé une plateforme d'apprentissage informatique avec des quiz interactifs et des ateliers pratiques, et a contribué à une application mobile de portail étudiant déployée et utilisée par une université locale. Désireux de rejoindre une équipe d'ingénierie et de fournir des solutions à fort impact.\n- EXPÉRIENCE\n## Stagiaire Ingénieur en informatique | Play Soft | Monastir, Tunisie\n**Date: ** Février 2025 - Août 2025\n- Développement d'une application web d'apprentissage informatique utilisant Next. js et Tailwind CSS, offrant des quiz interactifs et des ateliers pratiques.\n- Création d'un serveur backend avec Nest JS, GraphQL et PostgreSQL, permettant la persistance des données, une récupération efficace des données et l'authentification.\n## Stagiaire Développeur Flutter | AI African Solution | Ben Arous, Tunisie\n**Date: ** Août 2023 - Septembre 2023\n## Stagiaire Développeur Flutter | Didou Soft | Tunis, Tunisie\n**Date: ** Février 2022 - Juin 2022\n- Revue et test des endpoints d'API RESTful, améliorant la fiabilité et prévenant les bugs futurs.\n- ÉDUCATION\n- École Supérieure Privée de Technologie et d'Ingénierie (TEK-UP)\n\n## TECHNICAL SKILLS\n\n-Conception d'une API RESTful avec Nest JS pour exécuter à distance des scripts bash via SSH, automatisant la création, la destruction et la gestion de machines virtuelles basées sur le cloud.\n-Création d'une application de tournoi de Belote avec Flutter, permettant aux joueurs de rejoindre des tournois et offrant au personnel une gestion efficace des matchs.\n-Mise en place d'une application de gestion du personnel avec Flutter, facilitant la création et l'administration des comptes du personnel, tout en améliorant l'efficacité de l'intégration et de la gestion des employés.\n-Création d'un portail étudiant avec Flutter, offrant l'accès aux notes, emplois du temps, annonces et outils administratifs.\n-Conception d'un admin dashboard de salle de sport avec Angular, permettant de gérer les équipements, les sessions et diverses données opérationnelles.\n-Développement d'un système de réservation de salles de réunion permettant de réserver, personnaliser les équipements et consulter la disponibilité via un calendrier intégré, optimisant ainsi la planification et la gestion des ressources.\nCOMPÉTENCES\n: Java, Dart, SQL, JavaScript, TypeScript, CSS 3, HTML\n: Next. js, Nest Js, Express. js, React. js, Flutter, Angular, Git, Docker\nFrameworks & Outils DevOps\n: REST, GraphQL, PostgreSQL, MongoDB\nAPIs & Bases de données\nAnglais (B 2)\nFrançais (A 2)\n\n## EDUCATION\n\nDiplôme d'Ingénieur en Informatique\nInstitut Supérieur des Études Technologiques de Rades\nLicence en technologies de l'information\n\n## ACADEMIC PROJECTS\n\nPROJETS\nPlateforme de gestion de salle de sport | Flutter, Angular, Express. js, MongoDB\n**Date: ** Septembre 2019 - Juillet 2022\n- -Développement d'une application Flutter pour la location d'équipements de salle de sport, la gestion des sessions et le suivi en temps réel de l'occupation.\n## Site Web de réservation de salles de réunion | Express. js, MongoDB\n**Date: ** Février 2024\n\n## LANGUAGES\n\nLanguages & Technologies Web\nLANGUES\nArabe (Native)",
+    "header_info": {
+      "full_name": "Bahri Saif Eddine",
+      "email": "54@gmail.com",
+      "phone": "+216 53763494",
+      "location": "Diplômé d'Ingénieur en Informatique avec une expérience en développement full-stack et mobile utilisant Next. js, Nest JS, Flutter et PostgreSQL. A développé une plateforme d'apprentissage informatique avec des quiz interactifs et des ateliers pratiques, et a contribué à une application mobile de portail étudiant déployée et utilisée par une université locale. Désireux de rejoindre une équipe d'ingénierie et de fournir des solutions à fort impact.",
+      "linkedin": "linkedin.com/in/saif-eddine-bahri",
+      "github": "github.com/saifeddinbahri"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.975,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Bahri Saif Eddine",
+      "email": "54@gmail.com",
+      "phone": "+216 53763494",
+      "location": "Ben Arous, Tunisie",
+      "linkedin": "linkedin.com/in/saif-eddine-bahri",
+      "github": "github.com/saifeddinbahri"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java",
+        "Dart",
+        "SQL",
+        "JavaScript",
+        "TypeScript",
+        "CSS 3",
+        "HTML",
+        "Next. js",
+        "Nest Js",
+        "Express. js",
+        "React. js",
+        "Flutter",
+        "Angular",
+        "Git",
+        "Docker",
+        "REST",
+        "GraphQL",
+        "PostgreSQL",
+        "MongoDB"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Play Soft",
+        "job_title": "Stagiaire Ingénieur en informatique",
+        "start_date": "Février 2025",
+        "end_date": "Août 2025",
+        "city": "Monastir, Tunisie",
+        "responsibilities": [
+          "Développement d'une application web d'apprentissage informatique utilisant Next. js et Tailwind CSS, offrant des quiz interactifs et des ateliers pratiques.",
+          "Création d'un serveur backend avec Nest JS, GraphQL et PostgreSQL, permettant la persistance des données, une récupération efficace des données et l'authentification."
+        ]
+      },
+      {
+        "company": "AI African Solution",
+        "job_title": "Stagiaire Développeur Flutter",
+        "start_date": "Août 2023",
+        "end_date": "Septembre 2023",
+        "city": "Ben Arous, Tunisie",
+        "responsibilities": []
+      },
+      {
+        "company": "Didou Soft",
+        "job_title": "Stagiaire Développeur Flutter",
+        "start_date": "Février 2022",
+        "end_date": "Juin 2022",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Revue et test des endpoints d'API RESTful, améliorant la fiabilité et prévenant les bugs futurs."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur des Études Technologiques de Rades",
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "field": "Informatique",
+        "year": null
+      },
+      {
+        "institution": null,
+        "degree": "Licence en technologies de l'information",
+        "field": "Technologies de l'information",
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Anglais",
+      "Français"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:39:50.576504+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

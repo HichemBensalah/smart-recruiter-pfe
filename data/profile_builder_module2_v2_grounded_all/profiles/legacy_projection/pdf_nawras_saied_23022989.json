@@ -1,0 +1,78 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\nawras_saied_23022989.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\nawras_saied_23022989.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\nawras_saied_23022989.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Dev Wise",
+      "email": "nawrassaied@5@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie"
+    },
+    "expertise": {
+      "summary": "Ingénieure en informatique avec expérience en développement et livraison d'applications.",
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Flask",
+        "Java FX",
+        "Hibernate",
+        "JPA",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "GitHub",
+        "Git Lab",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "soft_skills": [
+        "Application de suivi nutritionnel",
+        "Résolution de problèmes",
+        "Communication",
+        "Travail en équipe et collaboration"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d' API REST avec Spring Boot",
+          "Développement d'un frontend responsive avec Angular et contrôle d'accès basé sur les rôles",
+          "Intégration d'un chatbot IA basé sur TensorFlow via Flask pour le support décisionnel et les recommandations de projet"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'ingénieur en informatique",
+        "school": "ESPRIT, Tunis (2022 - 2025)",
+        "year": null
+      },
+      {
+        "degree": "Cycle préparatoire intégré en informatique",
+        "school": "IT Business School (2020 - 2022)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:50:28.175537+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9721,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

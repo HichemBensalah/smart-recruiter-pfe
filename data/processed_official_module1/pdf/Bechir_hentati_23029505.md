@@ -1,0 +1,49 @@
+## HENTATI MOHAMED BECHIR
+
+Fundamental Bachelor's in Computer Science Faculty of Sciences - Tunis (2016 - 2019)
+Master of Research in Computer Science Faculty of Sciences - Tunis (2019 - 2021)
+Master's in Computer Science Kobe institute of computing (2023-2025)
+Charging support engineer OOREDOO (August 2022 - sept 2023)
+Administration and optimization of Ericsson IN/Charging platforms (AIR, CCN, OCC, SDP, CRS) to ensure high availability.
+
+## EDUCATION
+
+CONTACT
+Phone :
+Email :
+med. bechir. hentati@gmail. com bechirhentati@hotmail. fr
+Linked In :
+i nkedin. com/in/hentati-
+Mohamed-bechir-361354172
+Adress :
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+Manouba-Sidi Amor-Residence Omar - Apt .c 02-3
+
+## LANGUAGES
+
+LANGUAGES:
+Arabic: Primary proficiency English: bilingual proficiency French: Full professional proficiency. German: Elementary proficiency (A 2 Goethe Tunis Institute) Japanese: Elementary proficiency
+OTHERS: Driving licence
+
+## TECHNICAL SKILLS
+
+Development of automated monitoring tools (SMS/email alerts, KPIs, graphs) to reduce incident detection times. Management of critical incidents, on-call night shifts, and emergency interventions across the entire Charging network. Analysis of critical flows, advanced Linux Shell architecture, and creation of monitoring dashboards using Grafana.
+Development of an in-house server monitoring/data collection web application using Django/Python.
+Technologies: SQL, Grafana, Linux Shell, Ericsson IN.
+Technical support engineer HPE (Jun 2021 - Mar 2022)
+Diagnosis and resolution of multiple hardware and software issues in servers using multiple tools
+Technologies: Salesforce, HPE internal tools
+Development of a web portal for an accounting firm (Tools: HTML, CSS, JAVASCRIPT, PHP, My SQL, UML, Scrum)
+SKILLS
+-Environments Windows, Linux (Red Hat)(CLI, automation, scripting)
+-Programming Languages: C, Java, shell
+-Web: HTML, CSS, JS, PHP, Symfony
+DB: My SQL, TOAD
+-IDE: Eclipse, Android Studio, PHPStorm, Arduino IDE
+
+## ACADEMIC PROJECTS
+
+Graduation project Globe Connect ( Mar 2019 - Jun 2019 )

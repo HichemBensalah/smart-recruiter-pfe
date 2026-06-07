@@ -1,0 +1,195 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abir_Ben_Khaled_23019028.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abir_Ben_Khaled_23019028.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8283,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAbir Ben Khaled\nbenkhaledabir 27@gmail.com https: //www.linkedin.com/Ingénieure Logicielle - Développeuse Full-Stack\nAbir Ben Khaled\nbenkhaledabir 27@gmail.com\nIngénieure Logicielle - Développeuse Full-Stack\nhttps: //www.linkedin.com/## PROFESSIONAL SUMMARY\n\nPROfi L PROFESSIONNEL\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieure en génie logiciel certifiée ISTQB Foundation v 4, avec une expérience en développement Java/Spring Boot et en conception d' API REST . Motivée, rigoureuse et passionnée par le développement, je souhaite évoluer dans un environnement technique stimulant en méthodologie Agile/Scrum .\n**Date: ** 2022 - 2025\n##, JavaScript, Python, SQL\n**Location: **, Angular, Microservices, REST APIs\n## PostgreSQL, SQL Server, MongoDB\n**Location: ** Git, Git Lab CI/CD, Docker, Sonar Qube\n## Odoo (Fabrication, Achat, Facturation), compréhension des processus métiers\n- Développement d' API REST avec Spring Boot dans une architecture microservices .\nImplémentation de fonctionnalités de gestion logistique (stocks, conteneurs, livraisons) avec analyse prédictive .\n**Date: ** Janv. 2025 - Juil. 2025\n- Mise en place de la sécurité avec Keycloak (authentification/autorisation).\n- Développement d'une application mobile avec Flutter .\nTechnologies: Spring Boot, Angular, Microservices, Docker, PostgreSQL, SQL Server, Keycloak.\n- Sécurisation des accès avec Keycloak et communication asynchrone via Kafka .\n## Technologies: Spring Boot, Angular, Docker, Keycloak, Kafka, Microservices.\n- Assistant intelligent de gestion documentaire et recommandations personnalisées\n- Développement d'un assistant intelligent de traitement documentaire avec recherche contextuelle et recommandations.\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nLangages: Java\nDéveloppement: Spring Boot\nBases de données:\nCI/CD Outils:\nJUnit, Mockito, Postman, Selenium\nTesting:\n\n## ERP:\n\nAgile/Scrum\nMéthodologies:\n\n## EDUCATION\n\nStage de fin d'études - UPTECH\nConception et développement de la plateforme The Portal\nStage d'ingénieur - UPTECH\nFORMATION\nDiplôme d'ingénieure en Informatique - Génie Logiciel\n## TEK-UP University, Tunis\n**Date: ** 2019 - 2022\n- Diplôme de Technicienne Supérieure en Développement des Systèmes d'Information\n- ISET Bizerte\n\n## PROJETS TECHNIQUES\n\nPlateforme de billetterie en ligne\nConception et développement d'une plateforme de billetterie permettant la recherche, la réservation et la gestion d'événements.\nMise en place d'une architecture microservices avec API Gateway ( Kraken D ) pour améliorer la scalabilité et les performances.\nMise en place d'une architecture microservices .\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nTechnologies: Docker, Angular, Flutter, Django, NLP.",
+    "header_info": {
+      "full_name": "Abir Ben Khaled",
+      "email": "27@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "www.linkedin.com/Ingénieure",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9657,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Abir Ben Khaled",
+      "email": "27@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "https://www.linkedin.com/Ingénieure",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 7,
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "JavaScript",
+        "Python",
+        "SQL",
+        "Angular",
+        "Microservices",
+        "REST APIs",
+        "PostgreSQL",
+        "SQL Server",
+        "MongoDB",
+        "Git",
+        "Git Lab CI/CD",
+        "Docker",
+        "Sonar Qube",
+        "Odoo",
+        "Flutter",
+        "Keycloak",
+        "Kafka"
+      ],
+      "soft_skills": [
+        "Motivée",
+        "Rigoureuse",
+        "Passionnée"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Ingénieure en génie logiciel",
+        "start_date": "2022",
+        "end_date": "2025",
+        "city": null,
+        "responsibilities": [
+          "Développement d' API REST avec Spring Boot dans une architecture microservices",
+          "Implémentation de fonctionnalités de gestion logistique (stocks, conteneurs, livraisons) avec analyse prédictive",
+          "Mise en place de la sécurité avec Keycloak (authentification/autorisation)",
+          "Développement d'une application mobile avec Flutter",
+          "Sécurisation des accès avec Keycloak et communication asynchrone via Kafka"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Janv. 2025",
+        "end_date": "Juil. 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement d' API REST avec Spring Boot dans une architecture microservices",
+          "Mise en place de la sécurité avec Keycloak (authentification/autorisation)",
+          "Développement d'une application mobile avec Flutter"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "TEK-UP University, Tunis",
+        "degree": "Diplôme d'ingénieure en Informatique - Génie Logiciel",
+        "field": null,
+        "year": "2019 - 2022"
+      },
+      {
+        "institution": "ISET Bizerte",
+        "degree": "Diplôme de Technicienne Supérieure en Développement des Systèmes d'Information",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "ISTQB Foundation v 4"
+    ],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:30:14.654186+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

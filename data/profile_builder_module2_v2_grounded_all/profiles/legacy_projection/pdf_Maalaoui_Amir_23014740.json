@@ -1,0 +1,107 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Maalaoui_Amir_23014740.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Maalaoui_Amir_23014740.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Maalaoui_Amir_23014740.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Amir Maalaoui Ingénieur génie logiciel",
+      "email": "27@gmail.com",
+      "phone": null,
+      "location": "Ariana, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "NodeJS",
+        "React",
+        "Zustand",
+        "MongoDB",
+        "OSRM",
+        "Open Street Map",
+        "Stimul Soft",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Gitlab",
+        "Jira"
+      ],
+      "soft_skills": [
+        "Scrum",
+        "Anglais"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Logiciel",
+        "company": "NGI Groupe",
+        "start_date": "Févr. 2025",
+        "end_date": null,
+        "city": "Ariana, Tunisie",
+        "responsibilities": [
+          "Développement et optimisation d'une plateforme de suivi de flotte en temps réel.",
+          "Conception et amélioration du système de reporting et de notifications.",
+          "Intégration et traitement de flux de données en temps réel provenant des dispositifs de géolocalisation des véhicules",
+          "Conception de dashboards et analyse de données"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Actia Engineering Services",
+        "start_date": "Févr. 2024",
+        "end_date": "Juil. 2024",
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Développement d'une application mobile Chotrana Smart Village"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "ONPF",
+        "start_date": "Juin 2023",
+        "end_date": "Août 2023",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'une application web de gestion électronique des documents (GED)"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Quetratech",
+        "start_date": "Juil. 2022",
+        "end_date": "Août 2022",
+        "city": "Mahdia, Tunisie",
+        "responsibilities": [
+          "Développement d'une application web de gestion des publications, réservations et commandes"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Fablab Mahdia",
+        "start_date": "Avr. 2021",
+        "end_date": "Juil. 2021",
+        "city": "Mahdia, Tunisie",
+        "responsibilities": [
+          "Développement de la partie logicielle d'un robot éducatif avec intégration de l'API Blockly"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:06:06.101673+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.957,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hammouda_Alaeddine_23014159.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hammouda_Alaeddine_23014159.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hammouda_Alaeddine_23014159.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Alaeddine Hammouda",
+      "email": "alaeddine. hammouda 213@gm ail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Développeur Full Stack polyvalent, passionné par la création de solutions web performantes et intuitives.",
+      "hard_skills": [
+        "Java 11/17",
+        "JavaScript",
+        "TypeScript",
+        "C#",
+        "Spring",
+        "Node.js",
+        "React",
+        "Angular",
+        "Bootstrap",
+        "HTML 5",
+        "CSS 3",
+        "SASS",
+        "Docker",
+        "Jira",
+        "Git Lab CI",
+        "Keycloak",
+        "Kafka",
+        "JUnit",
+        "Maven",
+        "Gradle",
+        "NPM",
+        "Jenkins",
+        "Postman",
+        "Grafana",
+        "Sonar Qube",
+        "Nexus",
+        "Kibana",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis"
+      ],
+      "soft_skills": [
+        "Autonome",
+        "Rigoureux",
+        "Orienté vers la qualité du code",
+        "Expérimenté sur l'ensemble des couches applicatives",
+        "Développeur Full Stack polyvalent",
+        "Passionné par la création de solutions web performantes et intuitives"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Full Stack Java/Angular",
+        "company": "TSE Consulting INT Tunis, TU, Tunisia",
+        "start_date": "septembre 2025",
+        "end_date": null,
+        "city": "TU, Tunisia",
+        "responsibilities": [
+          "Conception d'interfaces modernes avec Angular et d'API sécurisées en Java/Spring Boot.",
+          "Gestion des logements et des réservations: Plateforme développée pour la gestion de logements et la réservation de services sur Lien .",
+          "Intégration d'outils UI avancés: Utilisation de Syncfusion, Prime NG, et Angular Material pour l'amélioration de l'expérience utilisateur et la création d'interfaces dynamiques et interactives."
+        ]
+      },
+      {
+        "job_title": "Développeur Full Stack Java/Angular: PFE",
+        "company": "Up Tech Ariana",
+        "start_date": "février 2024",
+        "end_date": "septembre 2024",
+        "city": null,
+        "responsibilities": [
+          "Conçu une app web de gestion de stocks avec RFID & IA (suivi temps réel).",
+          "Implémenté une architecture microservices sécurisée (Keycloak) et CI/CD (Git Lab).",
+          "Supervision des performances et incidents via ELK."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Digi Smart Solutions Ariana, Tunisia",
+        "start_date": "juin 2023",
+        "end_date": "août 2023",
+        "city": "Ariana, Tunisia",
+        "responsibilities": [
+          "Développé un tableau de bord en temps réel pour 100+ capteurs, optimisant la prise de décision (+30 %).",
+          "Conçu un backend robuste (NodeJS, MongoDB) traitant 10 K+ entrées/jour (99, 9 % dispo).",
+          "Créé une interface Angular affichant les données en temps réel (<1 s de latence)."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Tunisie Telecom Mahdia, Tunisia",
+        "start_date": "juillet 2022",
+        "end_date": "août 2022",
+        "city": "Mahdia, Tunisia",
+        "responsibilities": [
+          "Étude des évolutions et performances des réseaux mobiles (2 G, 3 G, 4 G).",
+          "Mesure et analyse de la qualité des signaux sur le terrain.",
+          "Collecte et traitement des données réseau (couverture, signal, performances)."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingénieur informatique",
+        "school": "Ecole Supérieure Privée d'Ingénierie et de Technologie (ESPRIT) Ariana Governorate, Tunisia",
+        "year": "septembre 2021"
+      },
+      {
+        "degree": "Licence Fondamentale Electronique, Electrotechnique et Automatique",
+        "school": "Faculté des Sciences de Monastir (FSM) Monastir, MS, Tunisia",
+        "year": "septembre 2018"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:23:18.133953+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9757,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

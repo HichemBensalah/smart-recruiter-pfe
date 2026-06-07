@@ -567,6 +567,42 @@ def render_candidate(candidate: dict[str, Any], rank: int = 0) -> None:
             rank_display = str(v3_rank) if v3_rank is not None else "n/a"
             st.metric(label="Rang V3", value=rank_display)
 
+        score_breakdown = candidate.get("score_breakdown")
+        base_score = candidate.get("base_score_before_penalty")
+        mh_coverage = candidate.get("must_have_coverage")
+        mh_mult = candidate.get("must_have_penalty_multiplier")
+        mh_applied = candidate.get("must_have_penalty_applied")
+        q_mult = candidate.get("quality_penalty_multiplier")
+
+        if score_breakdown and isinstance(score_breakdown, list):
+            with st.expander("Décomposition du score Matching V3", expanded=False):
+                st.caption("Contributions des critères au score de base (avant pénalités).")
+                for entry in score_breakdown:
+                    feat = entry.get("feature", "")
+                    raw = entry.get("raw_score", 0.0)
+                    weight = entry.get("weight", 0.0)
+                    contrib = entry.get("contribution", 0.0)
+                    bar_pct = min(int(contrib * 100 / 0.35 * 100), 100)
+                    st.markdown(
+                        f"**{feat}** — score brut `{raw:.2f}` × poids `{weight:.3f}` = contribution **`{contrib:.3f}`**"
+                    )
+                    st.progress(bar_pct)
+
+                if base_score is not None:
+                    st.divider()
+                    st.markdown(f"**Score avant pénalités (base) :** `{base_score:.4f}`")
+                    if mh_mult is not None:
+                        coverage_pct = f"{mh_coverage:.0%}" if mh_coverage is not None else "n/a"
+                        applied_label = " — pénalité appliquée" if mh_applied else " — aucune pénalité"
+                        st.markdown(
+                            f"**Pénalité must-have :** ×`{mh_mult:.2f}`"
+                            f" (couverture {coverage_pct}){applied_label}"
+                        )
+                    if q_mult is not None and q_mult < 1.0:
+                        st.markdown(f"**Pénalité qualité :** ×`{q_mult:.3f}`")
+                    if v3_score is not None:
+                        st.markdown(f"**Score final :** `{float(v3_score):.4f}`")
+
         if rf_score is not None or xgb_score is not None:
             with st.expander("Comparaison ML expérimentale", expanded=False):
                 st.caption("Ces scores viennent de modèles expérimentaux sur pseudo-labels.")

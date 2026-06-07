@@ -1,0 +1,2198 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Teffaha_Yosr_23014094.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nIngénieure en informatique spécialisée en Cloud Computing et architecture IT, avec une expérience en\narchitecture d’infrastructure cloud, virtualisation et automatisation des environnements IT. Je maîtrise le\ndéploiement d’infrastructures, ainsi que l’intégration d’outils DevOps, incluant les pipelines CI/CD et les\nsolutions de monitoring. Rigoureuse et orientée solutions, je recherche un poste junior afin de contribuer à la\nmodernisation et à l’automatisation des infrastructures IT au sein d’une équipe dynamique\nCloud & Virtualisation : OpenStack, Microsoft\nAzure, VMware vSphere / vCenter, SDN\nConteneurisation & Orchestration : Docker,\nKubernetes\nAutomatisation & DevOps : Ansible,\nTerraform, jenkins , nexux , scripting\nMonitoring : Prometheus, Grafana\nLinux : RHEL, Ubuntu, CentOS, Kali\nRéseaux : Switching, Routing\nLangages de programmation : Python, C, C++, Java\n(Spring Boot), PHP (Symfony), .NET , Angular\nBases de données : Oracle, SQL Server, SQL Developer\nTests & Qualité : SonarQube, JUnit, Mockito\nOrange Tunisie - Projet de Fin d’Études\nMise en place automatisée d’une infrastructure cloud privée OpenStack\nIntégration de Ceph comme backend de stockage\nDéveloppement d’un playbook Ansible pour le health check des services OpenStack et l’envoi d’alertes\nautomatiques par e-mail\nMigration automatisée des VM VMware vers OpenStack via une interface web.\nSupervision de l’infrastructure avec Prometheus & Grafana.\nDéveloppement d’un portail cloud pour la gestion et la vente de VMs aux clients.\nMise en place d’un inventaire centralisé et d’un système automatique d’évaluation de faisabilité pour les\nnouvelles VM.\nMots-clés : OpenStack, Ceph, Flask, Prometheus, Grafana, VMware, Docker, Ansible, Python.\nJanvier 2025 - juin 2025\nRÉSUMÉ PROFESSIONNEL\nRUE EL ABIR ,Boumhel ,2097,Ben Arous | +21627369833 | yosr.teffaha@esprit.tn\nYOSR TEFFAHA\nEXPÉRIENCE PROFESSIONNEL\nCOMPÉTENCES TECHNIQUES\nINGÉNIEURE JUNIOR CLOUD & DEVOPS\nBH Bank - Stage d’été\nConception et mise en œuvre d’une architecture réseau, - Configuration des routeurs et switches\nMots-clés : OSPF, VLAN, ACL, EtherChannel, Cisco , switching , Routing\nUnivers Informatique - Stage d’été\nDéveloppement d’un site e-commerce full-stack.\nMots-clés : Spring Boot, Angular, SQL\nJuillet 2021 - Aout 2021\nJuin 2023 - Aout 2023\nPROJETS TECHNIQUES\nProjet Cloud\nMise en place d’une infrastructure cloud priveé baseé sur OpenStack\nIntegration de OpenStack avec Kubernetes via Magnum facilitant la gestion des clusters\nConfiguration de Prometheus et Grafana pour le monotoring en temps réel de l’infrastructure\nConception et développement d’une application web full-stack basée sur microservices avec Spring Boot\net Angular.\nDéploiement de l’application sur l’infrastructure cloud.\nMots-clés : OpenStack, Docker, Kubernetes, Prometheus, Grafana, Ansible, Spring Boot, Angular\nProjet DevOps\nMise en place d’une pipeline CI/CD pour un projet sur GitHub couvrant build, test, déploiement, sécurité\net monitoring.\nMots-clés : GitHub, Jenkins, Docker, Maven, Nexus, SonarQube, JUnit, Mockito, Trivy, Prometheus, Grafana\nEDUCATION\nIngénieure informatique spécialisée en Architecture IT et Cloud Computing\nEsprit (École Supérieure Privée d’Ingénierie et de Technologies, Tunisie ) 2020-2025\nSection science du baccalauréat tunisien\nLycée cité Salem Boumhel 2020\nLANGUES\nArabe ------- Langue maternelle\nFrançais ------- Courant\nAnglais ------- Professionnel\nCERTIFICATION\nCisco Network Security\nIntroduction to Microsoft Azure Cloud Services\nTECHNICAL SKILLS\nMicrosoft Azure Services and Lifecycles\nArchitecture réseau et implémentation du routage\nConception et mise en place d’une architecture réseau complète incluant routeurs et switches.\nConfiguration des protocoles de routage dynamiques (OSPF, BGP) pour optimiser l’acheminement du\ntrafic.\nMise en œuvre de la segmentation réseau via VLAN sur les équipements de commutation.\nImplémentation de mécanismes de sécurité réseau (ACL, VPN, IPSec).\nOptimisation du trafic réseau et amélioration de la performance globale.\nTests, validation et résolution des problèmes de connectivité et de performance.\nMots-clés : Conception réseau, configuration du routage (OSPF, BGP), configuration des switches (VLAN),\nsécurité réseau (ACL, VPN, IPSec), tests et dépannage",
+  "markdown": "## HEADER\n\nIngénieure en informatique spécialisée en Cloud Computing et architecture IT, avec une expérience en\narchitecture d’infrastructure cloud, virtualisation et automatisation des environnements IT. Je maîtrise le\ndéploiement d’infrastructures, ainsi que l’intégration d’outils Dev Ops, incluant les pipelines CI/CD et les\nsolutions de monitoring. Rigoureuse et orientée solutions, je recherche un poste junior afin de contribuer à la\nmodernisation et à l’automatisation des infrastructures IT au sein d’une équipe dynamique\nCloud & Virtualisation : Open Stack, Microsoft\nAzure, VMware v Sphere/v Center, SDN\nConteneurisation & Orchestration : Docker,\nKubernetes\nAutomatisation & Dev Ops : Ansible,\nTerraform, jenkins , nexux , scripting\nMonitoring : Prometheus, Grafana\nLinux : RHEL, Ubuntu, Cent OS, Kali\nRéseaux : Switching, Routing\nLangages de programmation : Python, C, C++, Java\n(Spring Boot), PHP (Symfony), .NET , Angular\nBases de données : Oracle, SQL Server, SQL Developer\nTests & Qualité : Sonar Qube, JUnit, Mockito\nOrange Tunisie - Projet de Fin d’Études\nMise en place automatisée d’une infrastructure cloud privée Open Stack\nIntégration de Ceph comme backend de stockage\nDéveloppement d’un playbook Ansible pour le health check des services Open Stack et l’envoi d’alertes\nautomatiques par e-mail\nMigration automatisée des VM VMware vers Open Stack via une interface web.\nSupervision de l’infrastructure avec Prometheus & Grafana.\nDéveloppement d’un portail cloud pour la gestion et la vente de VMs aux clients.\nMise en place d’un inventaire centralisé et d’un système automatique d’évaluation de faisabilité pour les\nnouvelles VM.\nMots-clés : Open Stack, Ceph, Flask, Prometheus, Grafana, VMware, Docker, Ansible, Python.\nJanvier 2025 - juin 2025\n\n## RÉSUMÉ PROFESSIONNEL\n\nRUE EL ABIR ,Boumhel ,2097, Ben Arous | +21627369833 | yosr. teffaha@esprit. tn\n\n## INGÉNIEURE JUNIOR CLOUD & DEVOPS\n\nBH Bank - Stage d’été\nConception et mise en œuvre d’une architecture réseau, - Configuration des routeurs et switches\nMots-clés : OSPF, VLAN, ACL, Ether Channel, Cisco , switching , Routing\nUnivers Informatique - Stage d’été\nDéveloppement d’un site e-commerce full-stack.\nMots-clés : Spring Boot, Angular, SQL\nJuillet 2021 - Aout 2021\nJuin 2023 - Aout 2023\n\n## PROJETS TECHNIQUES\n\nProjet Cloud\nMise en place d’une infrastructure cloud priveé baseé sur Open Stack\nIntegration de Open Stack avec Kubernetes via Magnum facilitant la gestion des clusters\nConfiguration de Prometheus et Grafana pour le monotoring en temps réel de l’infrastructure\nConception et développement d’une application web full-stack basée sur microservices avec Spring Boot\net Angular.\nDéploiement de l’application sur l’infrastructure cloud.\nMots-clés : Open Stack, Docker, Kubernetes, Prometheus, Grafana, Ansible, Spring Boot, Angular\nProjet Dev Ops\nMise en place d’une pipeline CI/CD pour un projet sur Git Hub couvrant build, test, déploiement, sécurité\net monitoring.\nMots-clés : Git Hub, Jenkins, Docker, Maven, Nexus, Sonar Qube, JUnit, Mockito, Trivy, Prometheus, Grafana\n\n## EDUCATION\n\nIngénieure informatique spécialisée en Architecture IT et Cloud Computing\nEsprit (École Supérieure Privée d’Ingénierie et de Technologies, Tunisie ) 2020-2025\nSection science du baccalauréat tunisien\nLycée cité Salem Boumhel 2020\n\n## LANGUES\n\nArabe ------- Langue maternelle\nFrançais ------- Courant\nAnglais ------- Professionnel\n\n## CERTIFICATION\n\nCisco Network Security\nIntroduction to Microsoft Azure Cloud Services\n\n## TECHNICAL SKILLS\n\nMicrosoft Azure Services and Lifecycles\nArchitecture réseau et implémentation du routage\nConception et mise en place d’une architecture réseau complète incluant routeurs et switches.\nConfiguration des protocoles de routage dynamiques (OSPF, BGP) pour optimiser l’acheminement du\ntrafic.\nMise en œuvre de la segmentation réseau via VLAN sur les équipements de commutation.\nImplémentation de mécanismes de sécurité réseau (ACL, VPN, IPSec).\nOptimisation du trafic réseau et amélioration de la performance globale.\nTests, validation et résolution des problèmes de connectivité et de performance.\nMots-clés : Conception réseau, configuration du routage (OSPF, BGP), configuration des switches (VLAN),\nsécurité réseau (ACL, VPN, IPSec), tests et dépannage",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Ingénieure en informatique spécialisée en Cloud Computing et architecture IT, avec une expérience en",
+        "architecture d’infrastructure cloud, virtualisation et automatisation des environnements IT. Je maîtrise le",
+        "déploiement d’infrastructures, ainsi que l’intégration d’outils DevOps, incluant les pipelines CI/CD et les",
+        "solutions de monitoring. Rigoureuse et orientée solutions, je recherche un poste junior afin de contribuer à la",
+        "modernisation et à l’automatisation des infrastructures IT au sein d’une équipe dynamique",
+        "Cloud & Virtualisation : OpenStack, Microsoft",
+        "Azure, VMware vSphere / vCenter, SDN",
+        "Conteneurisation & Orchestration : Docker,",
+        "Kubernetes",
+        "Automatisation & DevOps : Ansible,",
+        "Terraform, jenkins , nexux , scripting",
+        "Monitoring : Prometheus, Grafana",
+        "Linux : RHEL, Ubuntu, CentOS, Kali",
+        "Réseaux : Switching, Routing",
+        "Langages de programmation : Python, C, C++, Java",
+        "(Spring Boot), PHP (Symfony), .NET , Angular",
+        "Bases de données : Oracle, SQL Server, SQL Developer",
+        "Tests & Qualité : SonarQube, JUnit, Mockito",
+        "Orange Tunisie - Projet de Fin d’Études",
+        "Mise en place automatisée d’une infrastructure cloud privée OpenStack",
+        "Intégration de Ceph comme backend de stockage",
+        "Développement d’un playbook Ansible pour le health check des services OpenStack et l’envoi d’alertes",
+        "automatiques par e-mail",
+        "Migration automatisée des VM VMware vers OpenStack via une interface web.",
+        "Supervision de l’infrastructure avec Prometheus & Grafana.",
+        "Développement d’un portail cloud pour la gestion et la vente de VMs aux clients.",
+        "Mise en place d’un inventaire centralisé et d’un système automatique d’évaluation de faisabilité pour les",
+        "nouvelles VM.",
+        "Mots-clés : OpenStack, Ceph, Flask, Prometheus, Grafana, VMware, Docker, Ansible, Python.",
+        "Janvier 2025 - juin 2025"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ingénieure en informatique spécialisée en Cloud Computing et architecture IT, avec une expérience en",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 0.0,
+            "right": 0.0,
+            "bottom": 0.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "architecture d’infrastructure cloud, virtualisation et automatisation des environnements IT. Je maîtrise le",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 1.0,
+            "right": 0.0,
+            "bottom": 1.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "déploiement d’infrastructures, ainsi que l’intégration d’outils DevOps, incluant les pipelines CI/CD et les",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 2.0,
+            "right": 0.0,
+            "bottom": 2.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "solutions de monitoring. Rigoureuse et orientée solutions, je recherche un poste junior afin de contribuer à la",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 3.0,
+            "right": 0.0,
+            "bottom": 3.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "modernisation et à l’automatisation des infrastructures IT au sein d’une équipe dynamique",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 4.0,
+            "right": 0.0,
+            "bottom": 4.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Cloud & Virtualisation : OpenStack, Microsoft",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 5.0,
+            "right": 0.0,
+            "bottom": 5.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Azure, VMware vSphere / vCenter, SDN",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 6.0,
+            "right": 0.0,
+            "bottom": 6.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Conteneurisation & Orchestration : Docker,",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 7.0,
+            "right": 0.0,
+            "bottom": 7.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Kubernetes",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 8.0,
+            "right": 0.0,
+            "bottom": 8.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Automatisation & DevOps : Ansible,",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 9.0,
+            "right": 0.0,
+            "bottom": 9.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Terraform, jenkins , nexux , scripting",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 10.0,
+            "right": 0.0,
+            "bottom": 10.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Monitoring : Prometheus, Grafana",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 11.0,
+            "right": 0.0,
+            "bottom": 11.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Linux : RHEL, Ubuntu, CentOS, Kali",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 12.0,
+            "right": 0.0,
+            "bottom": 12.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Réseaux : Switching, Routing",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 13.0,
+            "right": 0.0,
+            "bottom": 13.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Langages de programmation : Python, C, C++, Java",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 14.0,
+            "right": 0.0,
+            "bottom": 14.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "(Spring Boot), PHP (Symfony), .NET , Angular",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 15.0,
+            "right": 0.0,
+            "bottom": 15.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Bases de données : Oracle, SQL Server, SQL Developer",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 16.0,
+            "right": 0.0,
+            "bottom": 16.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Tests & Qualité : SonarQube, JUnit, Mockito",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 17.0,
+            "right": 0.0,
+            "bottom": 17.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Orange Tunisie - Projet de Fin d’Études",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 18.0,
+            "right": 0.0,
+            "bottom": 18.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Mise en place automatisée d’une infrastructure cloud privée OpenStack",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 19.0,
+            "right": 0.0,
+            "bottom": 19.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Intégration de Ceph comme backend de stockage",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 20.0,
+            "right": 0.0,
+            "bottom": 20.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Développement d’un playbook Ansible pour le health check des services OpenStack et l’envoi d’alertes",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 21.0,
+            "right": 0.0,
+            "bottom": 21.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "automatiques par e-mail",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 22.0,
+            "right": 0.0,
+            "bottom": 22.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Migration automatisée des VM VMware vers OpenStack via une interface web.",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 23.0,
+            "right": 0.0,
+            "bottom": 23.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Supervision de l’infrastructure avec Prometheus & Grafana.",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 24.0,
+            "right": 0.0,
+            "bottom": 24.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Développement d’un portail cloud pour la gestion et la vente de VMs aux clients.",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 25.0,
+            "right": 0.0,
+            "bottom": 25.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Mise en place d’un inventaire centralisé et d’un système automatique d’évaluation de faisabilité pour les",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 26.0,
+            "right": 0.0,
+            "bottom": 26.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "nouvelles VM.",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 27.0,
+            "right": 0.0,
+            "bottom": 27.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Mots-clés : OpenStack, Ceph, Flask, Prometheus, Grafana, VMware, Docker, Ansible, Python.",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 28.0,
+            "right": 0.0,
+            "bottom": 28.0
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Janvier 2025 - juin 2025",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 29.0,
+            "right": 0.0,
+            "bottom": 29.0
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "RÉSUMÉ PROFESSIONNEL",
+      "section_type": "other",
+      "content": [
+        "RUE EL ABIR ,Boumhel ,2097,Ben Arous | +21627369833 | yosr.teffaha@esprit.tn"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "RUE EL ABIR ,Boumhel ,2097,Ben Arous | +21627369833 | yosr.teffaha@esprit.tn",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 31.0,
+            "right": 0.0,
+            "bottom": 31.0
+          },
+          "section_title": "RÉSUMÉ PROFESSIONNEL"
+        }
+      ]
+    },
+    {
+      "title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS",
+      "section_type": "other",
+      "content": [
+        "BH Bank - Stage d’été",
+        "Conception et mise en œuvre d’une architecture réseau, - Configuration des routeurs et switches",
+        "Mots-clés : OSPF, VLAN, ACL, EtherChannel, Cisco , switching , Routing",
+        "Univers Informatique - Stage d’été",
+        "Développement d’un site e-commerce full-stack.",
+        "Mots-clés : Spring Boot, Angular, SQL",
+        "Juillet 2021 - Aout 2021",
+        "Juin 2023 - Aout 2023"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "BH Bank - Stage d’été",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 36.0,
+            "right": 0.0,
+            "bottom": 36.0
+          },
+          "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+        },
+        {
+          "text": "Conception et mise en œuvre d’une architecture réseau, - Configuration des routeurs et switches",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 37.0,
+            "right": 0.0,
+            "bottom": 37.0
+          },
+          "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+        },
+        {
+          "text": "Mots-clés : OSPF, VLAN, ACL, EtherChannel, Cisco , switching , Routing",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 38.0,
+            "right": 0.0,
+            "bottom": 38.0
+          },
+          "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+        },
+        {
+          "text": "Univers Informatique - Stage d’été",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 39.0,
+            "right": 0.0,
+            "bottom": 39.0
+          },
+          "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+        },
+        {
+          "text": "Développement d’un site e-commerce full-stack.",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 40.0,
+            "right": 0.0,
+            "bottom": 40.0
+          },
+          "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+        },
+        {
+          "text": "Mots-clés : Spring Boot, Angular, SQL",
+          "page_no": 1,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 41.0,
+            "right": 0.0,
+            "bottom": 41.0
+          },
+          "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+        },
+        {
+          "text": "Juillet 2021 - Aout 2021",
+          "page_no": 1,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 42.0,
+            "right": 0.0,
+            "bottom": 42.0
+          },
+          "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+        },
+        {
+          "text": "Juin 2023 - Aout 2023",
+          "page_no": 1,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 43.0,
+            "right": 0.0,
+            "bottom": 43.0
+          },
+          "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+        }
+      ]
+    },
+    {
+      "title": "PROJETS TECHNIQUES",
+      "section_type": "other",
+      "content": [
+        "Projet Cloud",
+        "Mise en place d’une infrastructure cloud priveé baseé sur OpenStack",
+        "Integration de OpenStack avec Kubernetes via Magnum facilitant la gestion des clusters",
+        "Configuration de Prometheus et Grafana pour le monotoring en temps réel de l’infrastructure",
+        "Conception et développement d’une application web full-stack basée sur microservices avec Spring Boot",
+        "et Angular.",
+        "Déploiement de l’application sur l’infrastructure cloud.",
+        "Mots-clés : OpenStack, Docker, Kubernetes, Prometheus, Grafana, Ansible, Spring Boot, Angular",
+        "Projet DevOps",
+        "Mise en place d’une pipeline CI/CD pour un projet sur GitHub couvrant build, test, déploiement, sécurité",
+        "et monitoring.",
+        "Mots-clés : GitHub, Jenkins, Docker, Maven, Nexus, SonarQube, JUnit, Mockito, Trivy, Prometheus, Grafana"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Projet Cloud",
+          "page_no": 1,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 45.0,
+            "right": 0.0,
+            "bottom": 45.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "Mise en place d’une infrastructure cloud priveé baseé sur OpenStack",
+          "page_no": 1,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 46.0,
+            "right": 0.0,
+            "bottom": 46.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "Integration de OpenStack avec Kubernetes via Magnum facilitant la gestion des clusters",
+          "page_no": 1,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 47.0,
+            "right": 0.0,
+            "bottom": 47.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "Configuration de Prometheus et Grafana pour le monotoring en temps réel de l’infrastructure",
+          "page_no": 1,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 48.0,
+            "right": 0.0,
+            "bottom": 48.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "Conception et développement d’une application web full-stack basée sur microservices avec Spring Boot",
+          "page_no": 1,
+          "block_indices": [
+            49
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 49.0,
+            "right": 0.0,
+            "bottom": 49.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "et Angular.",
+          "page_no": 1,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 50.0,
+            "right": 0.0,
+            "bottom": 50.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "Déploiement de l’application sur l’infrastructure cloud.",
+          "page_no": 1,
+          "block_indices": [
+            51
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 51.0,
+            "right": 0.0,
+            "bottom": 51.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "Mots-clés : OpenStack, Docker, Kubernetes, Prometheus, Grafana, Ansible, Spring Boot, Angular",
+          "page_no": 1,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 52.0,
+            "right": 0.0,
+            "bottom": 52.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "Projet DevOps",
+          "page_no": 1,
+          "block_indices": [
+            53
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 53.0,
+            "right": 0.0,
+            "bottom": 53.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "Mise en place d’une pipeline CI/CD pour un projet sur GitHub couvrant build, test, déploiement, sécurité",
+          "page_no": 1,
+          "block_indices": [
+            54
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 54.0,
+            "right": 0.0,
+            "bottom": 54.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "et monitoring.",
+          "page_no": 1,
+          "block_indices": [
+            55
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 55.0,
+            "right": 0.0,
+            "bottom": 55.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        },
+        {
+          "text": "Mots-clés : GitHub, Jenkins, Docker, Maven, Nexus, SonarQube, JUnit, Mockito, Trivy, Prometheus, Grafana",
+          "page_no": 1,
+          "block_indices": [
+            56
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 56.0,
+            "right": 0.0,
+            "bottom": 56.0
+          },
+          "section_title": "PROJETS TECHNIQUES"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [
+        "Ingénieure informatique spécialisée en Architecture IT et Cloud Computing",
+        "Esprit (École Supérieure Privée d’Ingénierie et de Technologies, Tunisie ) 2020-2025",
+        "Section science du baccalauréat tunisien",
+        "Lycée cité Salem Boumhel 2020"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ingénieure informatique spécialisée en Architecture IT et Cloud Computing",
+          "page_no": 1,
+          "block_indices": [
+            58
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 58.0,
+            "right": 0.0,
+            "bottom": 58.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Esprit (École Supérieure Privée d’Ingénierie et de Technologies, Tunisie ) 2020-2025",
+          "page_no": 1,
+          "block_indices": [
+            59
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 59.0,
+            "right": 0.0,
+            "bottom": 59.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Section science du baccalauréat tunisien",
+          "page_no": 1,
+          "block_indices": [
+            60
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 60.0,
+            "right": 0.0,
+            "bottom": 60.0
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Lycée cité Salem Boumhel 2020",
+          "page_no": 1,
+          "block_indices": [
+            61
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 61.0,
+            "right": 0.0,
+            "bottom": 61.0
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "LANGUES",
+      "section_type": "other",
+      "content": [
+        "Arabe ------- Langue maternelle",
+        "Français ------- Courant",
+        "Anglais ------- Professionnel"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Arabe ------- Langue maternelle",
+          "page_no": 1,
+          "block_indices": [
+            63
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 63.0,
+            "right": 0.0,
+            "bottom": 63.0
+          },
+          "section_title": "LANGUES"
+        },
+        {
+          "text": "Français ------- Courant",
+          "page_no": 1,
+          "block_indices": [
+            64
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 64.0,
+            "right": 0.0,
+            "bottom": 64.0
+          },
+          "section_title": "LANGUES"
+        },
+        {
+          "text": "Anglais ------- Professionnel",
+          "page_no": 1,
+          "block_indices": [
+            65
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 65.0,
+            "right": 0.0,
+            "bottom": 65.0
+          },
+          "section_title": "LANGUES"
+        }
+      ]
+    },
+    {
+      "title": "CERTIFICATION",
+      "section_type": "certifications",
+      "content": [
+        "Cisco Network Security",
+        "Introduction to Microsoft Azure Cloud Services"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Cisco Network Security",
+          "page_no": 1,
+          "block_indices": [
+            67
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 67.0,
+            "right": 0.0,
+            "bottom": 67.0
+          },
+          "section_title": "CERTIFICATION"
+        },
+        {
+          "text": "Introduction to Microsoft Azure Cloud Services",
+          "page_no": 1,
+          "block_indices": [
+            68
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 68.0,
+            "right": 0.0,
+            "bottom": 68.0
+          },
+          "section_title": "CERTIFICATION"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Microsoft Azure Services and Lifecycles",
+        "Architecture réseau et implémentation du routage",
+        "Conception et mise en place d’une architecture réseau complète incluant routeurs et switches.",
+        "Configuration des protocoles de routage dynamiques (OSPF, BGP) pour optimiser l’acheminement du",
+        "trafic.",
+        "Mise en œuvre de la segmentation réseau via VLAN sur les équipements de commutation.",
+        "Implémentation de mécanismes de sécurité réseau (ACL, VPN, IPSec).",
+        "Optimisation du trafic réseau et amélioration de la performance globale.",
+        "Tests, validation et résolution des problèmes de connectivité et de performance.",
+        "Mots-clés : Conception réseau, configuration du routage (OSPF, BGP), configuration des switches (VLAN),",
+        "sécurité réseau (ACL, VPN, IPSec), tests et dépannage"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Microsoft Azure Services and Lifecycles",
+          "page_no": 1,
+          "block_indices": [
+            70
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 70.0,
+            "right": 0.0,
+            "bottom": 70.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Architecture réseau et implémentation du routage",
+          "page_no": 1,
+          "block_indices": [
+            71
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 71.0,
+            "right": 0.0,
+            "bottom": 71.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Conception et mise en place d’une architecture réseau complète incluant routeurs et switches.",
+          "page_no": 1,
+          "block_indices": [
+            72
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 72.0,
+            "right": 0.0,
+            "bottom": 72.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Configuration des protocoles de routage dynamiques (OSPF, BGP) pour optimiser l’acheminement du",
+          "page_no": 1,
+          "block_indices": [
+            73
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 73.0,
+            "right": 0.0,
+            "bottom": 73.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "trafic.",
+          "page_no": 1,
+          "block_indices": [
+            74
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 74.0,
+            "right": 0.0,
+            "bottom": 74.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Mise en œuvre de la segmentation réseau via VLAN sur les équipements de commutation.",
+          "page_no": 1,
+          "block_indices": [
+            75
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 75.0,
+            "right": 0.0,
+            "bottom": 75.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Implémentation de mécanismes de sécurité réseau (ACL, VPN, IPSec).",
+          "page_no": 1,
+          "block_indices": [
+            76
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 76.0,
+            "right": 0.0,
+            "bottom": 76.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Optimisation du trafic réseau et amélioration de la performance globale.",
+          "page_no": 1,
+          "block_indices": [
+            77
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 77.0,
+            "right": 0.0,
+            "bottom": 77.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Tests, validation et résolution des problèmes de connectivité et de performance.",
+          "page_no": 1,
+          "block_indices": [
+            78
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 78.0,
+            "right": 0.0,
+            "bottom": 78.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Mots-clés : Conception réseau, configuration du routage (OSPF, BGP), configuration des switches (VLAN),",
+          "page_no": 1,
+          "block_indices": [
+            79
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 79.0,
+            "right": 0.0,
+            "bottom": 79.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "sécurité réseau (ACL, VPN, IPSec), tests et dépannage",
+          "page_no": 1,
+          "block_indices": [
+            80
+          ],
+          "bbox": {
+            "left": 0.0,
+            "top": 80.0,
+            "right": 0.0,
+            "bottom": 80.0
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    }
+  ],
+  "parser_used": "secondary_parser",
+  "fallback_used": true,
+  "document_confidence": {
+    "score": 0.747,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 4272,
+      "section_completeness": 0.5,
+      "ordering_coherence": 1.0,
+      "segmentation_stability": 0.7273,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.2595,
+      "weird_section_ratio": 0.0,
+      "section_count": 11,
+      "expected_section_hits": 3,
+      "markdown_chars": 4255,
+      "markdown_words": 587,
+      "markdown_has_experience": false,
+      "markdown_has_education": true,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 2,
+      "markdown_weird_char_ratio": 0.0263,
+      "markdown_glued_line_count": 12,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=2\", \"pdf_total_text_chars=4303\", \"pdf_total_text_words=591\", \"pdf_avg_text_chars_per_page=2151.5\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "secondary_parser",
+      "fallback_used": true,
+      "confidence_penalty": 0.08
+    },
+    "warnings": [
+      "partial_section_completeness",
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "partial_section_completeness",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Ingénieure en informatique spécialisée en Cloud Computing et architecture IT, avec une expérience en",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 0.0,
+        "right": 0.0,
+        "bottom": 0.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "architecture d’infrastructure cloud, virtualisation et automatisation des environnements IT. Je maîtrise le",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 1.0,
+        "right": 0.0,
+        "bottom": 1.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "déploiement d’infrastructures, ainsi que l’intégration d’outils DevOps, incluant les pipelines CI/CD et les",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 2.0,
+        "right": 0.0,
+        "bottom": 2.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "solutions de monitoring. Rigoureuse et orientée solutions, je recherche un poste junior afin de contribuer à la",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 3.0,
+        "right": 0.0,
+        "bottom": 3.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "modernisation et à l’automatisation des infrastructures IT au sein d’une équipe dynamique",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 4.0,
+        "right": 0.0,
+        "bottom": 4.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Cloud & Virtualisation : OpenStack, Microsoft",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 5.0,
+        "right": 0.0,
+        "bottom": 5.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Azure, VMware vSphere / vCenter, SDN",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 6.0,
+        "right": 0.0,
+        "bottom": 6.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Conteneurisation & Orchestration : Docker,",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 7.0,
+        "right": 0.0,
+        "bottom": 7.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Kubernetes",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 8.0,
+        "right": 0.0,
+        "bottom": 8.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Automatisation & DevOps : Ansible,",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 9.0,
+        "right": 0.0,
+        "bottom": 9.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Terraform, jenkins , nexux , scripting",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 10.0,
+        "right": 0.0,
+        "bottom": 10.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Monitoring : Prometheus, Grafana",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 11.0,
+        "right": 0.0,
+        "bottom": 11.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Linux : RHEL, Ubuntu, CentOS, Kali",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 12.0,
+        "right": 0.0,
+        "bottom": 12.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Réseaux : Switching, Routing",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 13.0,
+        "right": 0.0,
+        "bottom": 13.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Langages de programmation : Python, C, C++, Java",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 14.0,
+        "right": 0.0,
+        "bottom": 14.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "(Spring Boot), PHP (Symfony), .NET , Angular",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 15.0,
+        "right": 0.0,
+        "bottom": 15.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Bases de données : Oracle, SQL Server, SQL Developer",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 16.0,
+        "right": 0.0,
+        "bottom": 16.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Tests & Qualité : SonarQube, JUnit, Mockito",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 17.0,
+        "right": 0.0,
+        "bottom": 17.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Orange Tunisie - Projet de Fin d’Études",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 18.0,
+        "right": 0.0,
+        "bottom": 18.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Mise en place automatisée d’une infrastructure cloud privée OpenStack",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 19.0,
+        "right": 0.0,
+        "bottom": 19.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Intégration de Ceph comme backend de stockage",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 20.0,
+        "right": 0.0,
+        "bottom": 20.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Développement d’un playbook Ansible pour le health check des services OpenStack et l’envoi d’alertes",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 21.0,
+        "right": 0.0,
+        "bottom": 21.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "automatiques par e-mail",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 22.0,
+        "right": 0.0,
+        "bottom": 22.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Migration automatisée des VM VMware vers OpenStack via une interface web.",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 23.0,
+        "right": 0.0,
+        "bottom": 23.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Supervision de l’infrastructure avec Prometheus & Grafana.",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 24.0,
+        "right": 0.0,
+        "bottom": 24.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Développement d’un portail cloud pour la gestion et la vente de VMs aux clients.",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 25.0,
+        "right": 0.0,
+        "bottom": 25.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Mise en place d’un inventaire centralisé et d’un système automatique d’évaluation de faisabilité pour les",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 26.0,
+        "right": 0.0,
+        "bottom": 26.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "nouvelles VM.",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 27.0,
+        "right": 0.0,
+        "bottom": 27.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Mots-clés : OpenStack, Ceph, Flask, Prometheus, Grafana, VMware, Docker, Ansible, Python.",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 28.0,
+        "right": 0.0,
+        "bottom": 28.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Janvier 2025 - juin 2025",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 29.0,
+        "right": 0.0,
+        "bottom": 29.0
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "RUE EL ABIR ,Boumhel ,2097,Ben Arous | +21627369833 | yosr.teffaha@esprit.tn",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 31.0,
+        "right": 0.0,
+        "bottom": 31.0
+      },
+      "section_title": "RÉSUMÉ PROFESSIONNEL"
+    },
+    {
+      "text": "BH Bank - Stage d’été",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 36.0,
+        "right": 0.0,
+        "bottom": 36.0
+      },
+      "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+    },
+    {
+      "text": "Conception et mise en œuvre d’une architecture réseau, - Configuration des routeurs et switches",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 37.0,
+        "right": 0.0,
+        "bottom": 37.0
+      },
+      "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+    },
+    {
+      "text": "Mots-clés : OSPF, VLAN, ACL, EtherChannel, Cisco , switching , Routing",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 38.0,
+        "right": 0.0,
+        "bottom": 38.0
+      },
+      "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+    },
+    {
+      "text": "Univers Informatique - Stage d’été",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 39.0,
+        "right": 0.0,
+        "bottom": 39.0
+      },
+      "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+    },
+    {
+      "text": "Développement d’un site e-commerce full-stack.",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 40.0,
+        "right": 0.0,
+        "bottom": 40.0
+      },
+      "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+    },
+    {
+      "text": "Mots-clés : Spring Boot, Angular, SQL",
+      "page_no": 1,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 41.0,
+        "right": 0.0,
+        "bottom": 41.0
+      },
+      "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+    },
+    {
+      "text": "Juillet 2021 - Aout 2021",
+      "page_no": 1,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 42.0,
+        "right": 0.0,
+        "bottom": 42.0
+      },
+      "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+    },
+    {
+      "text": "Juin 2023 - Aout 2023",
+      "page_no": 1,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 43.0,
+        "right": 0.0,
+        "bottom": 43.0
+      },
+      "section_title": "INGÉNIEURE JUNIOR CLOUD & DEVOPS"
+    },
+    {
+      "text": "Projet Cloud",
+      "page_no": 1,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 45.0,
+        "right": 0.0,
+        "bottom": 45.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "Mise en place d’une infrastructure cloud priveé baseé sur OpenStack",
+      "page_no": 1,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 46.0,
+        "right": 0.0,
+        "bottom": 46.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "Integration de OpenStack avec Kubernetes via Magnum facilitant la gestion des clusters",
+      "page_no": 1,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 47.0,
+        "right": 0.0,
+        "bottom": 47.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "Configuration de Prometheus et Grafana pour le monotoring en temps réel de l’infrastructure",
+      "page_no": 1,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 48.0,
+        "right": 0.0,
+        "bottom": 48.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "Conception et développement d’une application web full-stack basée sur microservices avec Spring Boot",
+      "page_no": 1,
+      "block_indices": [
+        49
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 49.0,
+        "right": 0.0,
+        "bottom": 49.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "et Angular.",
+      "page_no": 1,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 50.0,
+        "right": 0.0,
+        "bottom": 50.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "Déploiement de l’application sur l’infrastructure cloud.",
+      "page_no": 1,
+      "block_indices": [
+        51
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 51.0,
+        "right": 0.0,
+        "bottom": 51.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "Mots-clés : OpenStack, Docker, Kubernetes, Prometheus, Grafana, Ansible, Spring Boot, Angular",
+      "page_no": 1,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 52.0,
+        "right": 0.0,
+        "bottom": 52.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "Projet DevOps",
+      "page_no": 1,
+      "block_indices": [
+        53
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 53.0,
+        "right": 0.0,
+        "bottom": 53.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "Mise en place d’une pipeline CI/CD pour un projet sur GitHub couvrant build, test, déploiement, sécurité",
+      "page_no": 1,
+      "block_indices": [
+        54
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 54.0,
+        "right": 0.0,
+        "bottom": 54.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "et monitoring.",
+      "page_no": 1,
+      "block_indices": [
+        55
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 55.0,
+        "right": 0.0,
+        "bottom": 55.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "Mots-clés : GitHub, Jenkins, Docker, Maven, Nexus, SonarQube, JUnit, Mockito, Trivy, Prometheus, Grafana",
+      "page_no": 1,
+      "block_indices": [
+        56
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 56.0,
+        "right": 0.0,
+        "bottom": 56.0
+      },
+      "section_title": "PROJETS TECHNIQUES"
+    },
+    {
+      "text": "Ingénieure informatique spécialisée en Architecture IT et Cloud Computing",
+      "page_no": 1,
+      "block_indices": [
+        58
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 58.0,
+        "right": 0.0,
+        "bottom": 58.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Esprit (École Supérieure Privée d’Ingénierie et de Technologies, Tunisie ) 2020-2025",
+      "page_no": 1,
+      "block_indices": [
+        59
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 59.0,
+        "right": 0.0,
+        "bottom": 59.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Section science du baccalauréat tunisien",
+      "page_no": 1,
+      "block_indices": [
+        60
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 60.0,
+        "right": 0.0,
+        "bottom": 60.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Lycée cité Salem Boumhel 2020",
+      "page_no": 1,
+      "block_indices": [
+        61
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 61.0,
+        "right": 0.0,
+        "bottom": 61.0
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Arabe ------- Langue maternelle",
+      "page_no": 1,
+      "block_indices": [
+        63
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 63.0,
+        "right": 0.0,
+        "bottom": 63.0
+      },
+      "section_title": "LANGUES"
+    },
+    {
+      "text": "Français ------- Courant",
+      "page_no": 1,
+      "block_indices": [
+        64
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 64.0,
+        "right": 0.0,
+        "bottom": 64.0
+      },
+      "section_title": "LANGUES"
+    },
+    {
+      "text": "Anglais ------- Professionnel",
+      "page_no": 1,
+      "block_indices": [
+        65
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 65.0,
+        "right": 0.0,
+        "bottom": 65.0
+      },
+      "section_title": "LANGUES"
+    },
+    {
+      "text": "Cisco Network Security",
+      "page_no": 1,
+      "block_indices": [
+        67
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 67.0,
+        "right": 0.0,
+        "bottom": 67.0
+      },
+      "section_title": "CERTIFICATION"
+    },
+    {
+      "text": "Introduction to Microsoft Azure Cloud Services",
+      "page_no": 1,
+      "block_indices": [
+        68
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 68.0,
+        "right": 0.0,
+        "bottom": 68.0
+      },
+      "section_title": "CERTIFICATION"
+    },
+    {
+      "text": "Microsoft Azure Services and Lifecycles",
+      "page_no": 1,
+      "block_indices": [
+        70
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 70.0,
+        "right": 0.0,
+        "bottom": 70.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Architecture réseau et implémentation du routage",
+      "page_no": 1,
+      "block_indices": [
+        71
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 71.0,
+        "right": 0.0,
+        "bottom": 71.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Conception et mise en place d’une architecture réseau complète incluant routeurs et switches.",
+      "page_no": 1,
+      "block_indices": [
+        72
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 72.0,
+        "right": 0.0,
+        "bottom": 72.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Configuration des protocoles de routage dynamiques (OSPF, BGP) pour optimiser l’acheminement du",
+      "page_no": 1,
+      "block_indices": [
+        73
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 73.0,
+        "right": 0.0,
+        "bottom": 73.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "trafic.",
+      "page_no": 1,
+      "block_indices": [
+        74
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 74.0,
+        "right": 0.0,
+        "bottom": 74.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Mise en œuvre de la segmentation réseau via VLAN sur les équipements de commutation.",
+      "page_no": 1,
+      "block_indices": [
+        75
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 75.0,
+        "right": 0.0,
+        "bottom": 75.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Implémentation de mécanismes de sécurité réseau (ACL, VPN, IPSec).",
+      "page_no": 1,
+      "block_indices": [
+        76
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 76.0,
+        "right": 0.0,
+        "bottom": 76.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Optimisation du trafic réseau et amélioration de la performance globale.",
+      "page_no": 1,
+      "block_indices": [
+        77
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 77.0,
+        "right": 0.0,
+        "bottom": 77.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Tests, validation et résolution des problèmes de connectivité et de performance.",
+      "page_no": 1,
+      "block_indices": [
+        78
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 78.0,
+        "right": 0.0,
+        "bottom": 78.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Mots-clés : Conception réseau, configuration du routage (OSPF, BGP), configuration des switches (VLAN),",
+      "page_no": 1,
+      "block_indices": [
+        79
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 79.0,
+        "right": 0.0,
+        "bottom": 79.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "sécurité réseau (ACL, VPN, IPSec), tests et dépannage",
+      "page_no": 1,
+      "block_indices": [
+        80
+      ],
+      "bbox": {
+        "left": 0.0,
+        "top": 80.0,
+        "right": 0.0,
+        "bottom": 80.0
+      },
+      "section_title": "TECHNICAL SKILLS"
+    }
+  ]
+}

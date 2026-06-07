@@ -1,0 +1,213 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Mokchaha_23014638.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Mokchaha_23014638.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7675,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMohamed Mokchaha Ingénieur Logiciel\nmokcheha.mohamed@gmail.com\nlinkedin.com/in/mohamed-mokchaha 01\nAriana\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience professionnelle\nIngénieur Logiciel\nNGI Groupe\nPlateforme de Suivi et Gestion de Flotte en Temps Réel\n·Développement et optimisation d'une plateforme de suivi en temps réel\n·Conception d'architectures backend et traitement de flux de données\n## ·Intégration et gestion de données temps réel (tracking, API)\n**Date: ** 08/2024 - aujourd'hui\n- ·Mise en place de dashboards et systèmes de reporting\n- ·Implémentation de systèmes de notifications et alerting\n- ·Conteneurisation et configuration des environnements (Docker)\n- ·Mise en place et gestion des pipelines CI/CD\n## ·Monitoring, support technique et correction des anomalies\n- Technologies/Outils\n: React, Java, Springboot, Oracle, Docker, Git, JUnit, Postman, Swagger, CI/CD, Jira\n**Date: ** 01/2024 - 07/2024\n- Ingénieur Logiciel (PFE)\n- Ooredoo\n- Développement d'une application interne basée sur une architecture microservices.\nMise en place et maintenance des services distribués, gestion des incidents et alerting.\n- Génération de rapports de suivi et de performance.\n- Mise en place et gestion des pipelines CI/CD.\n- Développement de modules d'analyse de données (Python) pour la détection d'anomalies.\n- Intégration de solutions d'intelligence artificielle pour l'automatisation des processus.\nTechnologies/Outils: Python, Django, Angular, PostgreSQL, SQL, Linux, Shell, Grafana, Git, CI/CD, Jasper Reports\n**Date: ** 12/2022 - 07/2023\n- Développeur web\n- Metovate\n- Développement d'une application RH (gestion des utilisateurs et des données employés)\n## Mise en place de processus métier RH (workflows, validation, gestion interne)\nIntégration de services externes et APIs, tests fonctionnels et maintenance évolutive\n## Technologies/Outils: Angular, Java, PostgreSQL, Docker, Git, Pay Pal API\n**Location: ** Angular, .NET, Android, Django, JUnit\n\n## TECHNICAL SKILLS\n\nCompétences techniques\nLangages de programmation\nFrameworks & Bibliothèques\nDevOps & CI/CD\nJava/JEE, C#, Python, JavaScript, TypeScript, Shell, PHP\nBases de données\nOutils de développement\nCloud\nPostgreSQL, , SQL server, Oracle, PL/SQL, SQLite, MySQL, MSSQL\nIntelli J IDEA, Postman, Swagger, Azure DevOps\nAnglais: Intermédiaire\nArabe: Langue maternelle\nAWS - Cloud Foundations\nUdemy - Java Programming\nUdemy - JDBC & SQL\n\n## EDUCATION\n\nFormation\nDiplôme d'ingénieur en Génie Logiciel\n## TEK-UP University\n**Date: ** 08/2021 - 07/2024\n**Location: ** AWS EC 2, S 3, Lambda, API Gateway\n- Licence en Développement des Systèmes d'Information\n- Institut Supérieur des Études Technologique\n\n## LANGUAGES\n\nLangues\nFrançais: Intermédiaire avancée\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications",
+    "header_info": {
+      "full_name": "Mohamed Mokchaha Ingénieur Logiciel",
+      "email": "mokcheha.mohamed@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/mohamed-mokchaha",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9535,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].responsibilities[7]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[1].responsibilities[5]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mohamed Mokchaha Ingénieur Logiciel",
+      "email": "mokcheha.mohamed@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/mohamed-mokchaha",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 3,
+      "hard_skills": [
+        "Java",
+        "Springboot",
+        "Oracle",
+        "Docker",
+        "React",
+        "Python",
+        "PostgreSQL",
+        "Git",
+        "JUnit",
+        "Postman",
+        "Swagger",
+        "CI/CD",
+        "Jira"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "NGI Groupe",
+        "job_title": "Ingénieur Logiciel",
+        "start_date": "08/2024",
+        "end_date": "aujourd'hui",
+        "city": "Ariana",
+        "responsibilities": [
+          "Développement et optimisation d'une plateforme de suivi en temps réel",
+          "Conception d'architectures backend et traitement de flux de données",
+          "Intégration et gestion de données temps réel (tracking, API)",
+          "Mise en place de dashboards et systèmes de reporting",
+          "Implémentation de systèmes de notifications et alerting",
+          "Conteneurisation et configuration des environnements (Docker)",
+          "Mise en place et gestion des pipelines CI/CD",
+          "Monitoring, support technique et correction des anomalies"
+        ]
+      },
+      {
+        "company": "Ooredoo",
+        "job_title": "Ingénieur Logiciel (PFE)",
+        "start_date": "01/2024",
+        "end_date": "07/2024",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application interne basée sur une architecture microservices.",
+          "Mise en place et maintenance des services distribués, gestion des incidents et alerting.",
+          "Génération de rapports de suivi et de performance.",
+          "Mise en place et gestion des pipelines CI/CD.",
+          "Développement de modules d'analyse de données (Python) pour la détection d'anomalies.",
+          "Intégration de solutions d'intelligence artificiale pour l'automatisation des processus."
+        ]
+      },
+      {
+        "company": "Metovate",
+        "job_title": "Développeur web",
+        "start_date": "12/2022",
+        "end_date": "07/2023",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application RH (gestion des utilisateurs et des données employés).",
+          "Mise en place de processus métier RH (workflows, validation, gestion interne).",
+          "Intégration de services externes et APIs, tests fonctionnels et maintenance évolutive."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "TEK-UP University",
+        "degree": "Diplôme d'ingénieur en Génie Logiciel",
+        "field": null,
+        "year": "08/2021 - 07/2024"
+      },
+      {
+        "institution": "Institut Supérieur des Études Technique",
+        "degree": "Licence en Développement des Systèmes d'Information",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français: Intermédiaire avancée"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:41:03.246045+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

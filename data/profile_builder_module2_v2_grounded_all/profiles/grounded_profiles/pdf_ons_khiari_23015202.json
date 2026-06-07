@@ -1,0 +1,155 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\ons_khiari_23015202.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\ons_khiari_23015202.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8952,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nOns Khiari | Ingénieure Logicielle\nTunis, Tunisie | +216 55678206 | onskhiari 2001@gmail.com | Linked In/ons-khiari | Github/ons-khiari | Dribbble/onskh\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieure logiciel spécialisée en développement full-stack avec une expérience dans les systèmes scalables, l'architecture microservices et les pipelines CI/CD. Capacité à construire des applications prêtes pour la production en utilisant des technologies modernes telles que .NET, Next. js et Docker.\n- Expérience\n- À distance\n\n## EDUCATION\n\nFormation\nDiplôme d'Ingénieure en Génie Logiciel - Spécialisée en technologies web et internet.\nÉcole Supérieure Privée d'Ingénierie et de Technologies (Honoris United Universities), Tunisie (Sept. 2020 - Sept. 2025)\n##: JavaScript, TypeScript, C#\n- Langages\n##: MySQL, MongoDB, PostgreSQL\n- Bases de données\n##: Azure, Docker, Jenkins, Pipelines CI/CD\n## Stagiaire Technology, strategy & transformation (TST)\n**Date: ** Févr. 2025 - Sept. 2025\n**Location: ** Tunisie, Centre Urbain Nord\nCollaboré à la conception du système national Evax, en contribuant à des fonctionnalités critiques utilisées par des milliers de citoyens.\n**Date: ** Juin 2024 - Août 2024\n- E-TAFAKNA\n- Stagiaire Développeuse Full Stack\n- SWIFTCODE\n- Stagiaire Développeuse Full Stack\n- ALTAVIA. OYEZ\n- Stagiaire Développeuse Full Stack\n- Créé une plateforme de réseau social avec React. js et Firebase, supportant une messagerie en temps réel pour plus de 500 utilisateurs actifs.\nIntégré la base de données temps réel Firebase, atteignant une livraison instantanée des messages avec une latence inférieure à 100 ms.\n**Location: ** Tunisia, Charguia\n## BOOK STORE PLATFORM (NEXT. JS, ASP. NET CORE) | GITHUB 1\n**Date: ** Janv. 2026 - Présent\nDéveloppé un backend scalable avec Clean Architecture et des tests unitaires, assurant un code maintenable et fiable.\nGéré un pipeline CI/CD avec Sonar Qube, automatisant les vérifications de qualité du code et réduisant les erreurs de déploiement.\nSupervisé le frontend, en assurant une interface UI/UX cohérente, intuitive et performante.\n## EL KINDY CONSERVATORY (MERN STACK) | GITHUB 1 | GITHUB 2\n**Date: ** Févr. 2024 - Mai 2024\n## Foundational C# with Microsoft | Linked In\n**Date: ** 2024\n- Langue maternelle\n- Niveau professionnel (B 2)\n- Arabe:\n- Anglais:\n\n## TECHNICAL SKILLS\n\nCompétences\n: React. js, Next. js\nFrontend\n: .NET, Node. js, Express. js\nBackend\n: Figma, Git, Jira\nOutils\nDevOps & Cloud\n\n## ACADEMIC PROJECTS\n\nDéveloppé une plateforme de gestion de projets utilisant Next. js et ASP. NET Core (.NET 8) avec PostgreSQL, conçue pour évoluer pour plus de 1000 utilisateurs et projets.\nImplémenté une architecture microservices avec Apache Kafka comme broker de messages, assurant la cohérence des données et de hautes performances sous forte charge.\nMis en place des pipelines CI/CD avec Jenkins et Azure, réduisant le temps de déploiement de 60 % et assurant des tests entièrement automatisés.\nConteneurisé les services avec Docker, éliminant les incohérences d'environnement et améliorant la fiabilité entre les environnements dev/staging/prod.\nRédigé des tests unitaires et d'acceptation, atteignant environ 80 % de couverture de code et améliorant la détection des défauts avant mise en production.\nConçu et livré une plateforme de mise en relation pour emplois et projets utilisant Express. js, React. js, Node. js et PostgreSQL avec Prisma ORM, supportant plus de 100 offres dès le premier mois de lancement.\n**Date: ** Juin 2023 - Août 2023\n**Location: ** Tunisie, Ennasr\nDéveloppé une plateforme e-commerce avec React. js, Express. js, Node. js et MongoDB avec intégration de paiements sécurisés, permettant des transactions de bout en bout pour plus de 200 produits.\n**Date: ** Juil. 2022 - Août 2022\n- Projets\nDéveloppé et intégré les fonctionnalités principales d'une plateforme de conservatoire basée sur le stack MERN, incluant l'authentification des utilisateurs, la gestion des cours et des tableaux de bord interactifs.\nAutomatisé les workflows de déploiement à l'aide de pipelines CI/CD Jenkins, réduisant les efforts de déploiement manuel et améliorant la fiabilité des mises en production.\nTravaillé en équipe avec des workflows basés sur Git, assurant une collaboration efficace et la qualité du code grâce aux revues et au contrôle de version.\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nCertificate of Completion Hashgraph Developer Course | Linked In The Hashgraph Association\n\n## LANGUAGES\n\nLangues parlées\nNiveau professionnel (B 2)\nFrançais:",
+    "header_info": {
+      "full_name": null,
+      "email": "2001@gmail.com",
+      "phone": "+216 55678206",
+      "location": "Ingénieure logiciel spécialisée en développement full-stack avec une expérience dans les systèmes scalables, l'architecture microservices et les pipelines CI/CD. Capacité à construire des applications prêtes pour la production en utilisant des technologies modernes telles que .NET, Next. js et Docker.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.979,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].city",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].city",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ons Khiari",
+      "email": "onskhiari2001@gmail.com",
+      "phone": "+216 55678206",
+      "location": "Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieure logiciel spécialisée en développement full-stack avec une expérience dans les systèmes scalables, l'architecture microservices et les pipelines CI/CD.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        ".NET",
+        "Next. js",
+        "Docker"
+      ],
+      "soft_skills": [
+        "Collaboration efficace",
+        "Qualité du code",
+        "Gestion de projets"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception du système national Evax",
+          "Développement d'une plateforme de réseau social avec React. js et Firebase",
+          "Développement d'un backend scalable avec Clean Architecture et des tests unitaires"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'une plateforme de mise en relation pour emplois et projets"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'une plateforme e-commerce avec React. js, Express. js, Node. js et MongoDB"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "École Supérieure Privée d'Ingénierie et de Technologies (Honoris United Universities)",
+        "degree": "Diplôme d'Ingénieure en Génie Logiciel",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:19:53.026919+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

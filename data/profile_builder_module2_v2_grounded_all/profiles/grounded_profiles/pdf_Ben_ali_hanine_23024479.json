@@ -1,0 +1,174 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ben_ali_hanine_23024479.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ben_ali_hanine_23024479.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7879,
+  "normalization": {
+    "cleaned_markdown": "## HANINE BENALI\n\nDéveloppeuse Full Stack\nKorba, Nabeul, Tunisie +216 54 476 802 Haninebenali 554@gmail.com linkedin.com/in/hanine-benali github.com/hanyne\n\n## PROFESSIONAL SUMMARY\n\nProfil professionnel\nDéveloppeuse Full Stack rigoureuse et motivée, spécialisée dans le développement d'applications web modernes et performantes. Expérimentée avec les stacks JavaScript et les architectures backend. Capacité avérée à travailler en équipe, à analyser des besoins complexes et à livrer des solutions fiables et évolutives.\n\n## TECHNICAL SKILLS\n\nCompétences techniques\nFront-End:\nReact. js, Next. js, Angular, HTML 5, CSS 3, JavaScript, Bootstrap\nBack-End:\nNode. js (Express), Python (Django), Spring Boot, PHP (Laravel), C#\nBases de données:\nMongoDB, MySQL, PostgreSQL, Firebase, Firestore\nDevOps & APIs:\nIA & Data:\nDashboarding & Bureautique:\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning, TensorFlow, Scikit-learn, OCR, APIs LLM\nPower BI, Microsoft Excel, Tableau, Google Sheets\nDéveloppement des applications web complètes avec Next. js et la MERN Stack\nConception d'interfaces utilisateur modernes, responsives et optimisées\nCollaboration en équipe agile et participation aux revues de code\nApplication intelligente de gestion de devis et factures intégrant OCR et APIs LLM\nApplication web de gestion de boutique optique avec essayage virtuel\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences professionnelles\nStagiaire Développeuse Full Stack\n## Proservice Training Company\n**Date: ** Sept. 2025 Jan. 2026\n**Location: ** Git/GitHub, Docker, REST APIs, CI/CD\n- Développement et consommation d'API REST sécurisées\n- Stagiaire Développement Logiciel\n- New Technologies Services Tunisie\n- Contribution à l'architecture frontend et backend\n\n## EDUCATION\n\nStage de fin d'études\nCabinet médical Dr Machat Nesrine\nDéveloppement d'un système de gestion de cabinet médical\n## Gestion des rendez-vous, facturation et dossiers patients\n**Date: ** Fév. 2023 Mai 2023\n- Mise en place de rôles utilisateurs et sécurisation des données",
+    "header_info": {
+      "full_name": "HANINE BENALI",
+      "email": "554@gmail.com",
+      "phone": "+216 54 476 802",
+      "location": null,
+      "linkedin": "linkedin.com/in/hanine-benali",
+      "github": "github.com/hanyne"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8885,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.summary"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "HANINE BENALI",
+      "email": "554@gmail.com",
+      "phone": "+216 54 476 802",
+      "location": "Korba, Nabeul, Tunisie",
+      "linkedin": "linkedin.com/in/hanine-benali",
+      "github": "github.com/hanyne"
+    },
+    "expertise": {
+      "summary": "Développeuse Full Stack rigoureuse et motivée, spécialisée dans le développement d'applications web modernes et performantes.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "React.js",
+        "Next.js",
+        "Angular",
+        "HTML 5",
+        "CSS 3",
+        "JavaScript",
+        "Bootstrap",
+        "Node.js (Express)",
+        "Python (Django)",
+        "Spring Boot",
+        "PHP (Laravel)",
+        "C#",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Firebase",
+        "Firestore",
+        "Machine Learning",
+        "TensorFlow",
+        "Scikit-learn",
+        "OCR",
+        "APIs LLM",
+        "Power BI",
+        "Microsoft Excel",
+        "Tableau",
+        "Google Sheets"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Proservice Training Company",
+        "job_title": "Stagiaire Développeuse Full Stack",
+        "start_date": "Sept. 2025",
+        "end_date": "Jan. 2026",
+        "city": null,
+        "responsibilities": [
+          "Développement et consommation d'API REST sécurisées"
+        ]
+      },
+      {
+        "company": "New Technologies Services Tunisie",
+        "job_title": "Stagiaire Développement Logiciel",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Contribution à l'architecture frontend et backend"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:44:11.395207+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

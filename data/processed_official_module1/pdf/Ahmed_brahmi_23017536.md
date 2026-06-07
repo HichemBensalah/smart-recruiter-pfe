@@ -1,0 +1,78 @@
+DEVELOPPEUR FULL-STACK/phone +216-52022197/envelope_alt ibrahmi. ahmeed@gmail. com/linkedin_sign ahmed-brahmi/github Ahmed Brahmi/map_marker Tunis, Tunisia
+D´ eveloppeur Full Stack avec 1 an d'exp´ erience dans le d´ eveloppement d'applications Web et Mobile performantes et s´ ecuris´ ees. Exp´ eriment´ e en API REST, architectures modernes et syst` emes temps r´ eel, avec une bonne maˆ ıtrise des technologies actuelles. Orient´ e qualit´ e, performance et exp´ erience utilisateur, avec un fort focus sur la maintenabilit´ e du code.
+
+## COMP´ ETENCES TECHNIQUES
+
+Langages :
+Frontend :
+Java Script, Type Script, PHP
+Backend :
+Mobile :
+Node. js (Express), Laravel
+React Native (Expo)
+Bases de donn´ ees :
+Architecture :
+My SQL, Postgre SQL, Mongo DB
+
+## TECHNICAL SKILLS
+
+Dev Ops :
+Tests :
+Docker, Git, CI/CD, Linux, Nginx
+Outils :
+M´ ethodes :
+Postman, Swagger, Firebase, AWS
+
+## EXP´ ERIENCE
+
+Freelance D´ eveloppeur Full Stack
+D´ eveloppement d'une plateforme e-commerce bas´ ee sur une architecture microservices (Node. js, React).
+Mise en place d'une architecture event-driven avec Kafka et d´ ecouplage des services.
+Impl´ ementation d'API REST s´ ecuris´ ees (JWT) pour gestion des utilisateurs et acc` es.
+D´ eploiement des services via Docker sur environnement Linux.
+D´ eveloppeur Web - TUNISIE PORCELAINE
+D´ eveloppement d'applications internes pour la gestion de production et des stocks avec int´ egration ERP.
+Conception d'API REST pour la communication entre les diff´ erents modules du syst` eme.
+Optimisation SQL am´ eliorant les performances et r´ eduisant les temps de r´ eponse des syst` emes critiques.
+
+## EDUCATION
+
+D´ eveloppeur Full Stack - Stage de Fin d'Etudes - EDUCANET
+D´ eveloppement une application Web et Mobile avec suivi en temps r´ eel (Pusher) et syst` eme de paiement s´ ecuris´ e.
+Am´ elioration de l'exp´ erience utilisateur grˆ ace aux notifications push et ` a la gestion des retours.
+Diplˆ ome d'Ing´ enieur en Informatique
+### EPI Digital School, Sousse, Tunisia
+**Date:** Septembre 2021 - Aoˆ ut 2024
+- Licence Fondamental en ´ Electronique et T´ el´ ecommunications
+### Institut Sup´ erieur d'Informatique et de Multim´ edia, Gab` es, Tunisie
+**Date:** Septembre 2018 - Aoˆ ut 2021
+
+## ACADEMIC PROJECTS
+
+PROJECTS
+### Advanced E-Commerce Platform | Node. js, React, Kafka, Docker
+**Date:** 2025 - Pr´ esent
+**Location:** React. js, Angular, HTML 5, CSS 3, Tailwind
+- D´ eveloppement d'une plateforme e-commerce bas´ ee sur une architecture microservices.
+- Communication event-driven via Apache Kafka et conteneurisation avec Docker.
+Cr´ eation d'API REST s´ ecuris´ ees (JWT, RBAC) et optimisation pour la gestion de charges concurrentes.
+### Recipe API | Python, Fast API
+**Date:** 2025
+- D´ eveloppement d'une API REST avec gestion des recettes et filtrage avanc´ e.
+- Utilisation de traitements asynchrones pour am´ eliorer les performances.
+### Enterprise Web Applications | PHP, My SQL, j Query
+**Date:** 2025
+- D´ eveloppement d'applications web pour la gestion industrielle avec API REST et gestion s´ ecuris´ ee des utilisateurs.
+- Optimisation des requˆ etes SQL et am´ elioration des performances des syst` emes m´ etiers.
+### Deliver Ease/external_link | React, React Native, Laravel, My SQL
+**Date:** 2023 - 2024
+- Application Web et Mobile avec suivi des livraisons en temps r´ eel (Pusher).
+- Impl´ ementation d'un syst` eme d'authentification et de paiement s´ ecuris´ e.
+- Am´ elioration de l'exp´ erience utilisateur via notifications et gestion des retours.
+
+## LANGUAGES
+
+Langues
+Arabe (Langue maternelle)
+Fran¸ cais (Courant)
+Anglais (Courant)

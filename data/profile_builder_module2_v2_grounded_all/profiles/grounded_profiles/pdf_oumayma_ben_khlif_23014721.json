@@ -1,0 +1,202 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\oumayma_ben_khlif_23014721.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\oumayma_ben_khlif_23014721.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.774,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nOumayma Benkhlif\nDéveloppeuse Java/Angular benkhlifoumayma 0404@gmail.com 52019838\nEl omrane, 1005, Tunis\nMars. 2022 - Juin. 2022\n\n## EDUCATION\n\nDéveloppeuse Full Stack spécialisée en Java (Spring Boot) et Angular, avec une expérience dans la conception et le développement d'applications web modernes, sécurisées et performantes. Compétente en architecture backend REST, intégration frontend dynamique, optimisation UX et méthodologies Agile. Rigoureuse, autonome et dotée d'un excellent esprit d'équipe, je m'investis pleinement dans des projets innovants de transformation digitale.\n- Stagiaire Développeuse Full Stack - Projet de fin d'études - Smart Up\nDéveloppement d'une Progressive Web App dédiée à la gestion des candidatures, avec espaces candidats et administrateurs.\n**Date: ** Juil. 2022 - Sept. 2024\n- Ajout d'OCR pour automatiser l'extraction d'informations\n- Déploiement Docker + approche PWA\n- Stagiaire Développeuse Full Stack - Projet de fin d'études - 3 S: Standard Sharing Software\n- Conception et réalisation d'une application web pour la gestion de relation client a distance.\n## Technologies: .NET, React, Azure AD, SQL Server, SCRUM, UML.\n**Date: ** 2025\n- FORMATION\n- Master Professionnel Systèmes Télécommunications et Réseaux\n## Université de Tunis El Manar, Faculté des Sciences de Tunis (FST)\n**Date: ** 2022\n- Licence en technologie de l'information et de la communication spécialité traitement de signal et multimédia\n## Université de Tunis El Manar, Faculté des Sciences de Tunis (FST)\n**Date: ** Formation java - SOLOLEARN - 2021\n- Formation full stuck HTML+CSS+JAVA_SCRIPT+PHP(laravel) - Master class centre de formation - 2020\n- Formation java 2 - formaclub_FST & ELIOS ACADEMY - 2021\n- Formation en MATLAB - société tunisienne de physique - 2021\nFormation Digital Marketing et Management De Projet - AUNA - The American University in North of Africa - 2021\n## Formation Photoshop - AUNA - The American University in North of Africa - 2021\n- français\n- Arabe\n- Gestion de la communication digitale et des réseaux sociaux\n- Linked In: https: //www.linkedin.com/in/oumayma-benkhlif-5 bb 5141 bb/## EXPÉRIENCES PROFESSIONNELLES\n\nAoût. 2025 - Oct. 2025\nTesteur Fonctionnel d'Application - TVS\nRéalisation de tests fonctionnels pour vérifier le bon fonctionnement des applications internes.\nContrôle de la stabilité et des performances des principales fonctionnalités.\nDétection, suivi et rédaction de rapports d'anomalies pour l'équipe de développement.\nContribution à l'amélioration des applications grâce à des propositions de corrections et d'optimisations.\nMars. 2025 - Juin. 2025\nDéveloppeuse Full Stack - Task Manager: Application de gestion de tâches Projet Freelance\nRéalisations:\nGestion des rôles utilisateurs et workflows internes\nMars. 2024 - Oct. 2024\nRéalisations:\nDéveloppement d'API REST sécurisées (Spring Boot)\nFonctionnalités temps réel via Web Socket\n\n## ACADEMIC PROJECTS\n\nConception et développement d'une application web inspirée de Trello, destinée à une banque pour organiser les tâches, projets et équipes par service.\n- Développement du backend avec Spring Boot et API REST sécurisées\n- Création d'un frontend Angular dynamique et ergonomique\n- Mise en place de l'authentification avec Spring Security + JWT\n- Déploiement via Docker et organisation en méthode Scrum\n## Technologies: Spring Boot, Angular, Spring Security, Spring AI, Docker, UML\n\n## PROFESSIONAL SUMMARY\n\nConception d'un système complet de gestion des offres et profils\nIntégration frontend Angular avec composants interactifs\nTechnologies: Spring Boot, Angular, Spring Security, Web Socket, OCR, Docker, PWA\nRédactrice Web- Freelance - DCPro 91. fr, Débouchage 93, Serrurier-24 h 24. Paris\nRédaction de contenus web optimisés pour le SEO, adaptés aux exigences des moteurs de recherche et aux besoins spécifiques des sites clients.\n\n## LANGUAGES\n\nLANGUES\nAnglais\nBÉNÉVOLAT\nConseillère Média - JCI Ariana El Madina | 2026\nCréation de contenus (visuels, textes )\nCouverture médiatique des événements\n\n## CENTRES D'INTÉRÊT\n\nDesign\nPhotographie\nBénévolat\nThéâtre\n\n## RÉSEAUX SOCIAUX\n\nGithub: https: //github.com/benkhlif",
+    "header_info": {
+      "full_name": "Oumayma Benkhlif",
+      "email": "0404@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8058,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "languages[0]"
+    ],
+    "fields_unsupported": [
+      "bio.email"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Oumayma Benkhlif",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": "https://www.linkedin.com/in/oumayma-benkhlif-5bb5141bb/",
+      "github": "https://github.com/benkhlif"
+    },
+    "expertise": {
+      "summary": "Conception d'un système complet de gestion des offres et profils, intégration frontend Angular avec composants interactifs",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Spring Security",
+        "Web Socket",
+        "Docker",
+        "PWA",
+        "OCR"
+      ],
+      "soft_skills": [
+        "Rédactrice Web- Freelance",
+        "Conseillère Média",
+        "Création de contenus (visuels, textes )",
+        "Couverture médiatique des événements"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Testeur Fonctionnel d'Application - TVS",
+        "start_date": "Août. 2025",
+        "end_date": "Oct. 2025",
+        "city": null,
+        "responsibilities": [
+          "Réalisation de tests fonctionnels pour vérifier le bon fonctionnement des applications internes.",
+          "Contrôle de la stabilité et des performances des principales fonctionnalités.",
+          "Détection, suivi et rédaction de rapports d'anomalies pour l'équipe de développement.",
+          "Contribution à l'amélioration des applications grâce à des propositions de corrections et d'optimisations."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeuse Full Stack - Task Manager: Application de gestion de tâches Projet Freelance",
+        "start_date": "Mars. 2025",
+        "end_date": "Juin. 2025",
+        "city": null,
+        "responsibilities": [
+          "Gestion des rôles utilisateurs et workflows internes"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Développeuse Full Stack - Projet de fin d'études - Smart Up",
+        "start_date": "Juil. 2022",
+        "end_date": "Sept. 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une Progressive Web App dédiée à la gestion des candidatures, avec espaces candidats et administrateurs.",
+          "Ajout d'OCR pour automatiser l'extraction d'informations.",
+          "Déploiement Docker + approche PWA."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Stagiaire Développeuse Full Stack - Projet de fin d'études - 3 S: Standard Sharing Software",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et réalisation d'une application web pour la gestion de relation client a distance."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université de Tunis El Manar, Faculté des Sciences de Tunis (FST)",
+        "degree": "Licence en technologie de l'information et de la communication spécialité traitement de signal et multimédia",
+        "field": null,
+        "year": 2022
+      },
+      {
+        "institution": "Université de Tunis El Manar, Faculté des Sciences de Tunis (FST)",
+        "degree": "Master Professionnel Systèmes Télécommunications et Réseaux",
+        "field": null,
+        "year": 2022
+      }
+    ],
+    "languages": [
+      "anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:22:12.669440+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,1923 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Boughammoura_Ons_23027887.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nOns Boughammoura\n/envelope boughammoura.ons@gmail.com | /phone +216 52 692 322\n/linkedin linkedin.com/in/ons-boughammoura\n|\ngithub.com/onsboughammoura\n/github\n/github\nRésumé\nIngénieure en systèmes embarqués passionnée par le développement bas-niveau et la conception de logiciels performants au plus près du matériel. Mon expertise se concentre sur l'optimisation des ressources et la gestion des contraintes temps-réel fortes pour développer des solutions robustes et fiables.\nTECHNICAL SKILLS\nCompétences\nC, Assembleur (ARM), C++, Python, LabView\nLangages de programmation :\nARM (Cortex-M, Cortex-A), RISC-V, STM32, NXP, ESP32, Microchip (PIC, AVR)\nArchitectures & Microcontrôleurs :\nDéveloppement de drivers, Bootloaders, RTOS (FreeRTOS)\nSystèmes d'exploitation & Bas-Niveau :\nVHDL, Vivado, ModelSim\nFPGA & Conception Matérielle :\nSTM32Cube Ecosystem (IDE, MX, Programmer), Espressif IDF, Qt Creator\nOutils de développement & IDE :\nMatlab/Simulink, Proteus, LTspice, Multisim\nModélisation & Simulation :\nI2C, SPI, UART, CAN, Ethernet (TCP/IP), Bluetooth (BLE), Wi-Fi\nProtocoles de communication :\nMQTT, HTTPS, JavaScript, HTML, CSS\nIoT & Interfaces Web :\nConception de schémas & PCB (Altium Designer, KiCad), Lecture de fiches techniques\nConception Électronique :\n-Compétences clés : Architecture Système OTA, Fiabilité Firmware, Bootloader natif (ST), Communication inter-processeur.\nConception d'un module de surveillance pour la maintenance prédictive, visant à anticiper les défaillances mécaniques sur les bogies des métros.\nImplémentation d'algorithmes en C pour l'acquisition et le filtrage de données de capteurs sous contraintes temps-réel.\nConfiguration du bus CAN pour la transmission fiable d'alertes critiques au système de supervision central du train en cas de détection d'anomalies.\n-Compétences clés : IoT Industriel, Maintenance Prédictive, Traitement du Signal (Capteurs), Réseaux Véhiculaires (CAN bus).\nDéveloppement d'un prototype de terminal audio connecté (IoT) pour un système de sonorisation intelligent et distribué.\nGestion du streaming audio via Wi-Fi (sockets UDP), en implémentant une double mise en tampon (double buffering) pour éliminer le jitter et atteindre une latence réduite de 30%.\n-Compétences clés : Streaming Audio (UDP), Protocoles Audio (I2S), Réseaux IP (Wi-Fi), Optimisation de Latence.\n+\nIoT Temperature & Humidity Monitor: Développement d'un système de surveillance IoT en C++ sur ESP32, intégrant un capteur DHT11 et un serveur web embarqué (HTML/CSS) pour la visualisation des données en temps réel via Wi-Fi.\nDC Motor Speed Control Board: Conception de A à Z d'une carte de contrôle moteur (PCB) sous Altium, utilisant un microcontrôleur pour générer un signal PWM et améliorer de 10% l'efficacité énergétique d'un moteur DC.\nPROFESSIONAL EXPERIENCE\nExpériences professionnelles\nStage Ingénieur Systèmes Embarqués , ACTIA Engineering Services - Tunis, TN\nFév 2025 - Août 2025\nConception et architecture d'un système de mise à jour firmware OTA (Over-the-Air) bi-composant, garantissant la continuité de service des équipements embarqués.\nDéveloppement du firmware de la passerelle ESP32, responsable du téléchargement sécurisé (HTTPS) et de l'orchestration du processus de mise à jour.\nPilotage bas-niveau du bootloader natif de la cible STM32 via son protocole UART, en assurant un transfert de firmware fiable et une séquence de flashage sécurisée.\nStage Technicien en Prototypage Électronique , SNCFT - Monastir, TN\nJuil. 2024 - Août 2024\nStage d'Initiation , Aéroport de Monastir (TAV) - Monastir, TN\nJuil. 2023 - Août 2023\nPilotage d'un convertisseur audio-numérique (DAC) via le bus I2S de l'ESP32, nécessitant une gestion précise de la synchronisation matérielle.\nACADEMIC PROJECTS\nProjets\nCalculator GUI: Développement d'une interface graphique performante en C++ avec le framework Qt Creator, en appliquant les principes de la programmation orientée objet (POO).\nSept 2022 - Sept 2025\nEDUCATION\nFormation\nÉcole Nationale d'Ingénieurs de Monastir (ENIM) Diplôme d'Ingénieur en Systèmes Embarqués Institut Préparatoire aux Études d'Ingénieurs de Monastir (IPEIM)",
+  "markdown": "## HEADER\n\nOns Boughammoura/envelope boughammoura. ons@gmail. com |/phone +216 52 692 322/linkedin linkedin. com/in/ons-boughammoura\ngithub. com/onsboughammoura/github/github\nRésumé\nIngénieure en systèmes embarqués passionnée par le développement bas-niveau et la conception de logiciels performants au plus près du matériel. Mon expertise se concentre sur l'optimisation des ressources et la gestion des contraintes temps-réel fortes pour développer des solutions robustes et fiables.\n\n## TECHNICAL SKILLS\n\nCompétences\nC, Assembleur (ARM), C++, Python, Lab View\nLangages de programmation :\nARM (Cortex-M, Cortex-A), RISC-V, STM 32, NXP, ESP 32, Microchip (PIC, AVR)\nArchitectures & Microcontrôleurs :\nDéveloppement de drivers, Bootloaders, RTOS (Free RTOS)\nSystèmes d'exploitation & Bas-Niveau :\nVHDL, Vivado, Model Sim\nFPGA & Conception Matérielle :\nSTM 32 Cube Ecosystem (IDE, MX, Programmer), Espressif IDF, Qt Creator\nOutils de développement & IDE :\nMatlab/Simulink, Proteus, LTspice, Multisim\nModélisation & Simulation :\nI 2 C, SPI, UART, CAN, Ethernet (TCP/IP), Bluetooth (BLE), Wi-Fi\nProtocoles de communication :\nMQTT, HTTPS, Java Script, HTML, CSS\nIo T & Interfaces Web :\nConception de schémas & PCB (Altium Designer, Ki Cad), Lecture de fiches techniques\nConception Électronique :\n-Compétences clés : Architecture Système OTA, Fiabilité Firmware, Bootloader natif (ST), Communication inter-processeur.\nConception d'un module de surveillance pour la maintenance prédictive, visant à anticiper les défaillances mécaniques sur les bogies des métros.\nImplémentation d'algorithmes en C pour l'acquisition et le filtrage de données de capteurs sous contraintes temps-réel.\nConfiguration du bus CAN pour la transmission fiable d'alertes critiques au système de supervision central du train en cas de détection d'anomalies.\n-Compétences clés : Io T Industriel, Maintenance Prédictive, Traitement du Signal (Capteurs), Réseaux Véhiculaires (CAN bus).\nDéveloppement d'un prototype de terminal audio connecté (Io T) pour un système de sonorisation intelligent et distribué.\nGestion du streaming audio via Wi-Fi (sockets UDP), en implémentant une double mise en tampon (double buffering) pour éliminer le jitter et atteindre une latence réduite de 30%.\n-Compétences clés : Streaming Audio (UDP), Protocoles Audio (I 2 S), Réseaux IP (Wi-Fi), Optimisation de Latence.\nIo T Temperature & Humidity Monitor: Développement d'un système de surveillance Io T en C++ sur ESP 32, intégrant un capteur DHT 11 et un serveur web embarqué (HTML/CSS) pour la visualisation des données en temps réel via Wi-Fi.\nDC Motor Speed Control Board: Conception de A à Z d'une carte de contrôle moteur (PCB) sous Altium, utilisant un microcontrôleur pour générer un signal PWM et améliorer de 10% l'efficacité énergétique d'un moteur DC.\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences professionnelles\n### Stage Ingénieur Systèmes Embarqués , ACTIA Engineering Services - Tunis, TN\n**Date:** Fév 2025 - Août 2025\nConception et architecture d'un système de mise à jour firmware OTA (Over-the-Air) bi-composant, garantissant la continuité de service des équipements embarqués.\nDéveloppement du firmware de la passerelle ESP 32, responsable du téléchargement sécurisé (HTTPS) et de l'orchestration du processus de mise à jour.\nPilotage bas-niveau du bootloader natif de la cible STM 32 via son protocole UART, en assurant un transfert de firmware fiable et une séquence de flashage sécurisée.\n### Stage Technicien en Prototypage Électronique , SNCFT - Monastir, TN\n**Date:** Juil. 2024 - Août 2024\n### Stage d'Initiation , Aéroport de Monastir (TAV) - Monastir, TN\n**Date:** Juil. 2023 - Août 2023\nPilotage d'un convertisseur audio-numérique (DAC) via le bus I 2 S de l'ESP 32, nécessitant une gestion précise de la synchronisation matérielle.\n\n## ACADEMIC PROJECTS\n\nProjets\nCalculator GUI: Développement d'une interface graphique performante en C++ avec le framework Qt Creator, en appliquant les principes de la programmation orientée objet (POO).\n**Date:** Sept 2022 - Sept 2025\n\n## EDUCATION\n\nFormation\nÉcole Nationale d'Ingénieurs de Monastir (ENIM) Diplôme d'Ingénieur en Systèmes Embarqués Institut Préparatoire aux Études d'Ingénieurs de Monastir (IPEIM)",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Ons Boughammoura",
+        "/envelope boughammoura.ons@gmail.com | /phone +216 52 692 322",
+        "/linkedin linkedin.com/in/ons-boughammoura",
+        "|",
+        "github.com/onsboughammoura",
+        "/github",
+        "/github",
+        "Résumé",
+        "Ingénieure en systèmes embarqués passionnée par le développement bas-niveau et la conception de logiciels performants au plus près du matériel. Mon expertise se concentre sur l'optimisation des ressources et la gestion des contraintes temps-réel fortes pour développer des solutions robustes et fiables."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ons Boughammoura",
+          "page_no": 1,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 194.344,
+            "top": 754.3963306275033,
+            "right": 417.6565756,
+            "bottom": 776.307488
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/envelope boughammoura.ons@gmail.com | /phone +216 52 692 322",
+          "page_no": 1,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 173.343,
+            "top": 742.4451402403204,
+            "right": 438.6570005999999,
+            "bottom": 753.1622375999999
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/linkedin linkedin.com/in/ons-boughammoura",
+          "page_no": 1,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 132.546,
+            "top": 727.5011402403204,
+            "right": 306.81179919999994,
+            "bottom": 736.265568
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "|",
+          "page_no": 1,
+          "block_indices": [
+            49
+          ],
+          "bbox": {
+            "left": 313.56644199999994,
+            "top": 727.5011402403204,
+            "right": 318.5477419999999,
+            "bottom": 736.265568
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "github.com/onsboughammoura",
+          "page_no": 1,
+          "block_indices": [
+            51
+          ],
+          "bbox": {
+            "left": 338.93122159999996,
+            "top": 727.5011402403204,
+            "right": 476.68409179999986,
+            "bottom": 736.265568
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/github",
+          "page_no": 1,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 325.3023847999999,
+            "top": 728.4050766,
+            "right": 334.94618159999993,
+            "bottom": 734.1036838
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "/github",
+          "page_no": 1,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 325.3023847999999,
+            "top": 728.4050766,
+            "right": 334.94618159999993,
+            "bottom": 734.1036838
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Résumé",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 27.349999999999994,
+            "top": 711.0174080340425,
+            "right": 71.0821216,
+            "bottom": 721.4896703999999
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "Ingénieure en systèmes embarqués passionnée par le développement bas-niveau et la conception de logiciels performants au plus près du matériel. Mon expertise se concentre sur l'optimisation des ressources et la gestion des contraintes temps-réel fortes pour développer des solutions robustes et fiables.",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 668.8651402403203,
+            "right": 568.7682370000002,
+            "bottom": 701.540568
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Compétences",
+        "C, Assembleur (ARM), C++, Python, LabView",
+        "Langages de programmation :",
+        "ARM (Cortex-M, Cortex-A), RISC-V, STM32, NXP, ESP32, Microchip (PIC, AVR)",
+        "Architectures & Microcontrôleurs :",
+        "Développement de drivers, Bootloaders, RTOS (FreeRTOS)",
+        "Systèmes d'exploitation & Bas-Niveau :",
+        "VHDL, Vivado, ModelSim",
+        "FPGA & Conception Matérielle :",
+        "STM32Cube Ecosystem (IDE, MX, Programmer), Espressif IDF, Qt Creator",
+        "Outils de développement & IDE :",
+        "Matlab/Simulink, Proteus, LTspice, Multisim",
+        "Modélisation & Simulation :",
+        "I2C, SPI, UART, CAN, Ethernet (TCP/IP), Bluetooth (BLE), Wi-Fi",
+        "Protocoles de communication :",
+        "MQTT, HTTPS, JavaScript, HTML, CSS",
+        "IoT & Interfaces Web :",
+        "Conception de schémas & PCB (Altium Designer, KiCad), Lecture de fiches techniques",
+        "Conception Électronique :",
+        "-Compétences clés : Architecture Système OTA, Fiabilité Firmware, Bootloader natif (ST), Communication inter-processeur.",
+        "Conception d'un module de surveillance pour la maintenance prédictive, visant à anticiper les défaillances mécaniques sur les bogies des métros.",
+        "Implémentation d'algorithmes en C pour l'acquisition et le filtrage de données de capteurs sous contraintes temps-réel.",
+        "Configuration du bus CAN pour la transmission fiable d'alertes critiques au système de supervision central du train en cas de détection d'anomalies.",
+        "-Compétences clés : IoT Industriel, Maintenance Prédictive, Traitement du Signal (Capteurs), Réseaux Véhiculaires (CAN bus).",
+        "Développement d'un prototype de terminal audio connecté (IoT) pour un système de sonorisation intelligent et distribué.",
+        "Gestion du streaming audio via Wi-Fi (sockets UDP), en implémentant une double mise en tampon (double buffering) pour éliminer le jitter et atteindre une latence réduite de 30%.",
+        "-Compétences clés : Streaming Audio (UDP), Protocoles Audio (I2S), Réseaux IP (Wi-Fi), Optimisation de Latence.",
+        "+",
+        "IoT Temperature & Humidity Monitor: Développement d'un système de surveillance IoT en C++ sur ESP32, intégrant un capteur DHT11 et un serveur web embarqué (HTML/CSS) pour la visualisation des données en temps réel via Wi-Fi.",
+        "DC Motor Speed Control Board: Conception de A à Z d'une carte de contrôle moteur (PCB) sous Altium, utilisant un microcontrôleur pour générer un signal PWM et améliorer de 10% l'efficacité énergétique d'un moteur DC."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Compétences",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 27.35,
+            "top": 648.8604080340425,
+            "right": 100.94621120000001,
+            "bottom": 659.3326703999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "C, Assembleur (ARM), C++, Python, LabView",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 170.65277840000002,
+            "top": 630.5081402403205,
+            "right": 371.98696179999973,
+            "bottom": 639.2725680000001
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Langages de programmation :",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 630.5158532922873,
+            "right": 167.21568140000002,
+            "bottom": 639.2426802
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "ARM (Cortex-M, Cortex-A), RISC-V, STM32, NXP, ESP32, Microchip (PIC, AVR)",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 192.02255540000002,
+            "top": 618.5531402403204,
+            "right": 536.6587771999998,
+            "bottom": 627.317568
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Architectures & Microcontrôleurs :",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 618.5608532922872,
+            "right": 188.58545840000002,
+            "bottom": 627.2876802
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Développement de drivers, Bootloaders, RTOS (FreeRTOS)",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 212.18685780000007,
+            "top": 606.5981402403204,
+            "right": 468.4050046000001,
+            "bottom": 615.362568
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Systèmes d'exploitation & Bas-Niveau :",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 606.6058532922872,
+            "right": 208.74976080000008,
+            "bottom": 615.3326801999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "VHDL, Vivado, ModelSim",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 178.15461620000005,
+            "top": 594.6431402403203,
+            "right": 288.5202990000001,
+            "bottom": 603.407568
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "FPGA & Conception Matérielle :",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 594.6508532922871,
+            "right": 174.71751920000005,
+            "bottom": 603.3776801999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "STM32Cube Ecosystem (IDE, MX, Programmer), Espressif IDF, Qt Creator",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 182.65771140000007,
+            "top": 582.6881402403203,
+            "right": 503.3538053999999,
+            "bottom": 591.4525679999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Outils de développement & IDE :",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 582.6958532922871,
+            "right": 179.88810860000007,
+            "bottom": 591.4226801999998
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Matlab/Simulink, Proteus, LTspice, Multisim",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 161.66651320000003,
+            "top": 570.7321402403203,
+            "right": 354.28342160000005,
+            "bottom": 579.4965679999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Modélisation & Simulation :",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 570.7398532922871,
+            "right": 158.22941620000003,
+            "bottom": 579.4666801999998
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "I2C, SPI, UART, CAN, Ethernet (TCP/IP), Bluetooth (BLE), Wi-Fi",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 175.17579880000002,
+            "top": 558.7771402403203,
+            "right": 454.90568159999987,
+            "bottom": 567.5415679999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Protocoles de communication :",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 558.784853292287,
+            "right": 171.73870180000003,
+            "bottom": 567.5116801999998
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "MQTT, HTTPS, JavaScript, HTML, CSS",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 134.7674932,
+            "top": 546.8221402403202,
+            "right": 304.2213565999999,
+            "bottom": 555.5865679999998
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "IoT & Interfaces Web :",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 546.829853292287,
+            "right": 131.3303962,
+            "bottom": 555.5566801999997
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Conception de schémas & PCB (Altium Designer, KiCad), Lecture de fiches techniques",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 151.7636888,
+            "top": 534.8671402403202,
+            "right": 523.3487435999999,
+            "bottom": 543.6315679999998
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Conception Électronique :",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 534.874853292287,
+            "right": 148.32659180000002,
+            "bottom": 543.6016801999997
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "-Compétences clés : Architecture Système OTA, Fiabilité Firmware, Bootloader natif (ST), Communication inter-processeur.",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 38.309999999999945,
+            "top": 404.2357843217753,
+            "right": 558.4473833999998,
+            "bottom": 413.1034932
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Conception d'un module de surveillance pour la maintenance prédictive, visant à anticiper les défaillances mécaniques sur les bogies des métros.",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 28.720999999999943,
+            "top": 362.78514024032046,
+            "right": 583.6527614000001,
+            "bottom": 383.504568
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Implémentation d'algorithmes en C pour l'acquisition et le filtrage de données de capteurs sous contraintes temps-réel.",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 28.720999999999947,
+            "top": 347.99514024032044,
+            "right": 553.4660834,
+            "bottom": 356.759568
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Configuration du bus CAN pour la transmission fiable d'alertes critiques au système de supervision central du train en cas de détection d'anomalies.",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 28.720999999999947,
+            "top": 321.2491402403204,
+            "right": 578.4522842000002,
+            "bottom": 341.969568
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "-Compétences clés : IoT Industriel, Maintenance Prédictive, Traitement du Signal (Capteurs), Réseaux Véhiculaires (CAN bus).",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 38.309999999999945,
+            "top": 306.37578432177526,
+            "right": 572.3850608,
+            "bottom": 315.24349319999993
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Développement d'un prototype de terminal audio connecté (IoT) pour un système de sonorisation intelligent et distribué.",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 28.720999999999943,
+            "top": 276.8801402403203,
+            "right": 565.2119888000002,
+            "bottom": 285.64456799999994
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Gestion du streaming audio via Wi-Fi (sockets UDP), en implémentant une double mise en tampon (double buffering) pour éliminer le jitter et atteindre une latence réduite de 30%.",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 28.720999999999947,
+            "top": 250.13514024032042,
+            "right": 574.0687401999998,
+            "bottom": 270.854568
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "-Compétences clés : Streaming Audio (UDP), Protocoles Audio (I2S), Réseaux IP (Wi-Fi), Optimisation de Latence.",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 38.309999999999945,
+            "top": 208.51678432177528,
+            "right": 523.2993305999998,
+            "bottom": 217.38449319999995
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "+",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 28.346999999999944,
+            "top": 196.64414024032044,
+            "right": 36.64584579999995,
+            "bottom": 205.40856799999995
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "IoT Temperature & Humidity Monitor: Développement d'un système de surveillance IoT en C++ sur ESP32, intégrant un capteur DHT11 et un serveur web embarqué (HTML/CSS) pour la visualisation des données en temps réel via Wi-Fi.",
+          "page_no": 1,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 28.72,
+            "top": 146.33214024032043,
+            "right": 575.6916440000001,
+            "bottom": 167.05156799999997
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "DC Motor Speed Control Board: Conception de A à Z d'une carte de contrôle moteur (PCB) sous Altium, utilisant un microcontrôleur pour générer un signal PWM et améliorer de 10% l'efficacité énergétique d'un moteur DC.",
+          "page_no": 1,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 28.72,
+            "top": 92.84214024032042,
+            "right": 551.3530121999999,
+            "bottom": 113.56156799999997
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "Expériences professionnelles"
+      ],
+      "items": [
+        {
+          "title": "Stage Ingénieur Systèmes Embarqués , ACTIA Engineering Services - Tunis, TN",
+          "date": "Fév 2025 - Août 2025",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Stage Ingénieur Systèmes Embarqués , ACTIA Engineering Services - Tunis, TN",
+              "page_no": 1,
+              "block_indices": [
+                22
+              ],
+              "bbox": {
+                "left": 28.347,
+                "top": 496.5101402403204,
+                "right": 380.18618160000005,
+                "bottom": 505.274568
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Fév 2025 - Août 2025",
+              "page_no": 1,
+              "block_indices": [
+                23
+              ],
+              "bbox": {
+                "left": 487.38399999999996,
+                "top": 496.6191402403204,
+                "right": 583.6526037999998,
+                "bottom": 505.38356799999997
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Conception et architecture d'un système de mise à jour firmware OTA (Over-the-Air) bi-composant, garantissant la continuité de service des équipements embarqués.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Conception et architecture d'un système de mise à jour firmware OTA (Over-the-Air) bi-composant, garantissant la continuité de service des équipements embarqués.",
+              "page_no": 1,
+              "block_indices": [
+                24
+              ],
+              "bbox": {
+                "left": 28.720999999999947,
+                "top": 472.60014024032046,
+                "right": 582.0288576000002,
+                "bottom": 493.319568
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Développement du firmware de la passerelle ESP32, responsable du téléchargement sécurisé (HTTPS) et de l'orchestration du processus de mise à jour.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Développement du firmware de la passerelle ESP32, responsable du téléchargement sécurisé (HTTPS) et de l'orchestration du processus de mise à jour.",
+              "page_no": 1,
+              "block_indices": [
+                25
+              ],
+              "bbox": {
+                "left": 28.720999999999947,
+                "top": 445.8541402403204,
+                "right": 571.4685016000003,
+                "bottom": 466.574568
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Pilotage bas-niveau du bootloader natif de la cible STM32 via son protocole UART, en assurant un transfert de firmware fiable et une séquence de flashage sécurisée.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Pilotage bas-niveau du bootloader natif de la cible STM32 via son protocole UART, en assurant un transfert de firmware fiable et une séquence de flashage sécurisée.",
+              "page_no": 1,
+              "block_indices": [
+                26
+              ],
+              "bbox": {
+                "left": 28.720999999999947,
+                "top": 419.10914024032047,
+                "right": 583.6527613999998,
+                "bottom": 439.828568
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Stage Technicien en Prototypage Électronique , SNCFT - Monastir, TN",
+          "date": "Juil. 2024 - Août 2024",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Stage Technicien en Prototypage Électronique , SNCFT - Monastir, TN",
+              "page_no": 1,
+              "block_indices": [
+                28
+              ],
+              "bbox": {
+                "left": 28.346999999999944,
+                "top": 386.6951402403204,
+                "right": 342.2386381999999,
+                "bottom": 395.459568
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Juil. 2024 - Août 2024",
+              "page_no": 1,
+              "block_indices": [
+                29
+              ],
+              "bbox": {
+                "left": 483.41864279999993,
+                "top": 386.6951402403204,
+                "right": 583.6523613999998,
+                "bottom": 395.459568
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Stage d'Initiation , Aéroport de Monastir (TAV) - Monastir, TN",
+          "date": "Juil. 2023 - Août 2023",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Stage d'Initiation , Aéroport de Monastir (TAV) - Monastir, TN",
+              "page_no": 1,
+              "block_indices": [
+                34
+              ],
+              "bbox": {
+                "left": 28.346999999999944,
+                "top": 288.83514024032036,
+                "right": 301.22261399999996,
+                "bottom": 297.5995679999999
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Juil. 2023 - Août 2023",
+              "page_no": 1,
+              "block_indices": [
+                35
+              ],
+              "bbox": {
+                "left": 483.41864279999993,
+                "top": 288.83514024032036,
+                "right": 583.6523613999998,
+                "bottom": 297.5995679999999
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Pilotage d'un convertisseur audio-numérique (DAC) via le bus I2S de l'ESP32, nécessitant une gestion précise de la synchronisation matérielle.",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Pilotage d'un convertisseur audio-numérique (DAC) via le bus I2S de l'ESP32, nécessitant une gestion précise de la synchronisation matérielle.",
+              "page_no": 1,
+              "block_indices": [
+                38
+              ],
+              "bbox": {
+                "left": 28.720999999999947,
+                "top": 223.39014024032042,
+                "right": 536.5197007999999,
+                "bottom": 244.10956799999997
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Expériences professionnelles",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 27.35,
+            "top": 514.8614080340424,
+            "right": 187.28666560000005,
+            "bottom": 525.3336703999997
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Stage Ingénieur Systèmes Embarqués , ACTIA Engineering Services - Tunis, TN",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 28.347,
+            "top": 496.5101402403204,
+            "right": 380.18618160000005,
+            "bottom": 505.274568
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Fév 2025 - Août 2025",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 487.38399999999996,
+            "top": 496.6191402403204,
+            "right": 583.6526037999998,
+            "bottom": 505.38356799999997
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Conception et architecture d'un système de mise à jour firmware OTA (Over-the-Air) bi-composant, garantissant la continuité de service des équipements embarqués.",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 28.720999999999947,
+            "top": 472.60014024032046,
+            "right": 582.0288576000002,
+            "bottom": 493.319568
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Développement du firmware de la passerelle ESP32, responsable du téléchargement sécurisé (HTTPS) et de l'orchestration du processus de mise à jour.",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 28.720999999999947,
+            "top": 445.8541402403204,
+            "right": 571.4685016000003,
+            "bottom": 466.574568
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Pilotage bas-niveau du bootloader natif de la cible STM32 via son protocole UART, en assurant un transfert de firmware fiable et une séquence de flashage sécurisée.",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 28.720999999999947,
+            "top": 419.10914024032047,
+            "right": 583.6527613999998,
+            "bottom": 439.828568
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Stage Technicien en Prototypage Électronique , SNCFT - Monastir, TN",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 28.346999999999944,
+            "top": 386.6951402403204,
+            "right": 342.2386381999999,
+            "bottom": 395.459568
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Juil. 2024 - Août 2024",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 483.41864279999993,
+            "top": 386.6951402403204,
+            "right": 583.6523613999998,
+            "bottom": 395.459568
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Stage d'Initiation , Aéroport de Monastir (TAV) - Monastir, TN",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 28.346999999999944,
+            "top": 288.83514024032036,
+            "right": 301.22261399999996,
+            "bottom": 297.5995679999999
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Juil. 2023 - Août 2023",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 483.41864279999993,
+            "top": 288.83514024032036,
+            "right": 583.6523613999998,
+            "bottom": 297.5995679999999
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Pilotage d'un convertisseur audio-numérique (DAC) via le bus I2S de l'ESP32, nécessitant une gestion précise de la synchronisation matérielle.",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 28.720999999999947,
+            "top": 223.39014024032042,
+            "right": 536.5197007999999,
+            "bottom": 244.10956799999997
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [
+        "Projets"
+      ],
+      "items": [
+        {
+          "title": "Calculator GUI: Développement d'une interface graphique performante en C++ avec le framework Qt Creator, en appliquant les principes de la programmation orientée objet (POO).",
+          "date": "Sept 2022 - Sept 2025",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Calculator GUI: Développement d'une interface graphique performante en C++ avec le framework Qt Creator, en appliquant les principes de la programmation orientée objet (POO).",
+              "page_no": 1,
+              "block_indices": [
+                43
+              ],
+              "bbox": {
+                "left": 28.72,
+                "top": 119.58714024032042,
+                "right": 536.4290374,
+                "bottom": 140.30656799999997
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Sept 2022 - Sept 2025",
+              "page_no": 1,
+              "block_indices": [
+                54
+              ],
+              "bbox": {
+                "left": 484.784,
+                "top": 55.177140240320455,
+                "right": 583.6528423999996,
+                "bottom": 63.94156799999996
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Projets",
+          "page_no": 1,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 27.349999999999945,
+            "top": 176.6394080340425,
+            "right": 65.73814719999994,
+            "bottom": 187.11167039999998
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Calculator GUI: Développement d'une interface graphique performante en C++ avec le framework Qt Creator, en appliquant les principes de la programmation orientée objet (POO).",
+          "page_no": 1,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 28.72,
+            "top": 119.58714024032042,
+            "right": 536.4290374,
+            "bottom": 140.30656799999997
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Sept 2022 - Sept 2025",
+          "page_no": 1,
+          "block_indices": [
+            54
+          ],
+          "bbox": {
+            "left": 484.784,
+            "top": 55.177140240320455,
+            "right": 583.6528423999996,
+            "bottom": 63.94156799999996
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [
+        "Formation",
+        "École Nationale d'Ingénieurs de Monastir (ENIM) Diplôme d'Ingénieur en Systèmes Embarqués Institut Préparatoire aux Études d'Ingénieurs de Monastir (IPEIM)"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Formation",
+          "page_no": 1,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 27.349999999999998,
+            "top": 72.8364080340425,
+            "right": 84.55563200000002,
+            "bottom": 83.30867039999998
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "École Nationale d'Ingénieurs de Monastir (ENIM) Diplôme d'Ingénieur en Systèmes Embarqués Institut Préparatoire aux Études d'Ingénieurs de Monastir (IPEIM)",
+          "page_no": 1,
+          "block_indices": [
+            53
+          ],
+          "bbox": {
+            "left": 28.34699999999998,
+            "top": 37.86278432177528,
+            "right": 446.4972472000002,
+            "bottom": 61.52049320000003
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.8965,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 4131,
+      "section_completeness": 0.8333,
+      "ordering_coherence": 0.7,
+      "segmentation_stability": 1.0,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.2626,
+      "weird_section_ratio": 0.0,
+      "section_count": 5,
+      "expected_section_hits": 5,
+      "markdown_chars": 4218,
+      "markdown_words": 609,
+      "markdown_has_experience": true,
+      "markdown_has_education": true,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 3,
+      "markdown_weird_char_ratio": 0.0244,
+      "markdown_glued_line_count": 3,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=4066\", \"pdf_total_text_words=581\", \"pdf_avg_text_chars_per_page=4066.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": []
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Ons Boughammoura",
+      "page_no": 1,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 194.344,
+        "top": 754.3963306275033,
+        "right": 417.6565756,
+        "bottom": 776.307488
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/envelope boughammoura.ons@gmail.com | /phone +216 52 692 322",
+      "page_no": 1,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 173.343,
+        "top": 742.4451402403204,
+        "right": 438.6570005999999,
+        "bottom": 753.1622375999999
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/linkedin linkedin.com/in/ons-boughammoura",
+      "page_no": 1,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 132.546,
+        "top": 727.5011402403204,
+        "right": 306.81179919999994,
+        "bottom": 736.265568
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "|",
+      "page_no": 1,
+      "block_indices": [
+        49
+      ],
+      "bbox": {
+        "left": 313.56644199999994,
+        "top": 727.5011402403204,
+        "right": 318.5477419999999,
+        "bottom": 736.265568
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "github.com/onsboughammoura",
+      "page_no": 1,
+      "block_indices": [
+        51
+      ],
+      "bbox": {
+        "left": 338.93122159999996,
+        "top": 727.5011402403204,
+        "right": 476.68409179999986,
+        "bottom": 736.265568
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/github",
+      "page_no": 1,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 325.3023847999999,
+        "top": 728.4050766,
+        "right": 334.94618159999993,
+        "bottom": 734.1036838
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "/github",
+      "page_no": 1,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 325.3023847999999,
+        "top": 728.4050766,
+        "right": 334.94618159999993,
+        "bottom": 734.1036838
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Résumé",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 27.349999999999994,
+        "top": 711.0174080340425,
+        "right": 71.0821216,
+        "bottom": 721.4896703999999
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Ingénieure en systèmes embarqués passionnée par le développement bas-niveau et la conception de logiciels performants au plus près du matériel. Mon expertise se concentre sur l'optimisation des ressources et la gestion des contraintes temps-réel fortes pour développer des solutions robustes et fiables.",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 668.8651402403203,
+        "right": 568.7682370000002,
+        "bottom": 701.540568
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Compétences",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 27.35,
+        "top": 648.8604080340425,
+        "right": 100.94621120000001,
+        "bottom": 659.3326703999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "C, Assembleur (ARM), C++, Python, LabView",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 170.65277840000002,
+        "top": 630.5081402403205,
+        "right": 371.98696179999973,
+        "bottom": 639.2725680000001
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Langages de programmation :",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 630.5158532922873,
+        "right": 167.21568140000002,
+        "bottom": 639.2426802
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "ARM (Cortex-M, Cortex-A), RISC-V, STM32, NXP, ESP32, Microchip (PIC, AVR)",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 192.02255540000002,
+        "top": 618.5531402403204,
+        "right": 536.6587771999998,
+        "bottom": 627.317568
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Architectures & Microcontrôleurs :",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 618.5608532922872,
+        "right": 188.58545840000002,
+        "bottom": 627.2876802
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Développement de drivers, Bootloaders, RTOS (FreeRTOS)",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 212.18685780000007,
+        "top": 606.5981402403204,
+        "right": 468.4050046000001,
+        "bottom": 615.362568
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Systèmes d'exploitation & Bas-Niveau :",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 606.6058532922872,
+        "right": 208.74976080000008,
+        "bottom": 615.3326801999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "VHDL, Vivado, ModelSim",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 178.15461620000005,
+        "top": 594.6431402403203,
+        "right": 288.5202990000001,
+        "bottom": 603.407568
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "FPGA & Conception Matérielle :",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 594.6508532922871,
+        "right": 174.71751920000005,
+        "bottom": 603.3776801999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "STM32Cube Ecosystem (IDE, MX, Programmer), Espressif IDF, Qt Creator",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 182.65771140000007,
+        "top": 582.6881402403203,
+        "right": 503.3538053999999,
+        "bottom": 591.4525679999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Outils de développement & IDE :",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 582.6958532922871,
+        "right": 179.88810860000007,
+        "bottom": 591.4226801999998
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Matlab/Simulink, Proteus, LTspice, Multisim",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 161.66651320000003,
+        "top": 570.7321402403203,
+        "right": 354.28342160000005,
+        "bottom": 579.4965679999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Modélisation & Simulation :",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 570.7398532922871,
+        "right": 158.22941620000003,
+        "bottom": 579.4666801999998
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "I2C, SPI, UART, CAN, Ethernet (TCP/IP), Bluetooth (BLE), Wi-Fi",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 175.17579880000002,
+        "top": 558.7771402403203,
+        "right": 454.90568159999987,
+        "bottom": 567.5415679999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Protocoles de communication :",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 558.784853292287,
+        "right": 171.73870180000003,
+        "bottom": 567.5116801999998
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "MQTT, HTTPS, JavaScript, HTML, CSS",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 134.7674932,
+        "top": 546.8221402403202,
+        "right": 304.2213565999999,
+        "bottom": 555.5865679999998
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "IoT & Interfaces Web :",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 546.829853292287,
+        "right": 131.3303962,
+        "bottom": 555.5566801999997
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Conception de schémas & PCB (Altium Designer, KiCad), Lecture de fiches techniques",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 151.7636888,
+        "top": 534.8671402403202,
+        "right": 523.3487435999999,
+        "bottom": 543.6315679999998
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Conception Électronique :",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 534.874853292287,
+        "right": 148.32659180000002,
+        "bottom": 543.6016801999997
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "-Compétences clés : Architecture Système OTA, Fiabilité Firmware, Bootloader natif (ST), Communication inter-processeur.",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 38.309999999999945,
+        "top": 404.2357843217753,
+        "right": 558.4473833999998,
+        "bottom": 413.1034932
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Conception d'un module de surveillance pour la maintenance prédictive, visant à anticiper les défaillances mécaniques sur les bogies des métros.",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 28.720999999999943,
+        "top": 362.78514024032046,
+        "right": 583.6527614000001,
+        "bottom": 383.504568
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Implémentation d'algorithmes en C pour l'acquisition et le filtrage de données de capteurs sous contraintes temps-réel.",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 28.720999999999947,
+        "top": 347.99514024032044,
+        "right": 553.4660834,
+        "bottom": 356.759568
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Configuration du bus CAN pour la transmission fiable d'alertes critiques au système de supervision central du train en cas de détection d'anomalies.",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 28.720999999999947,
+        "top": 321.2491402403204,
+        "right": 578.4522842000002,
+        "bottom": 341.969568
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "-Compétences clés : IoT Industriel, Maintenance Prédictive, Traitement du Signal (Capteurs), Réseaux Véhiculaires (CAN bus).",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 38.309999999999945,
+        "top": 306.37578432177526,
+        "right": 572.3850608,
+        "bottom": 315.24349319999993
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Développement d'un prototype de terminal audio connecté (IoT) pour un système de sonorisation intelligent et distribué.",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 28.720999999999943,
+        "top": 276.8801402403203,
+        "right": 565.2119888000002,
+        "bottom": 285.64456799999994
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Gestion du streaming audio via Wi-Fi (sockets UDP), en implémentant une double mise en tampon (double buffering) pour éliminer le jitter et atteindre une latence réduite de 30%.",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 28.720999999999947,
+        "top": 250.13514024032042,
+        "right": 574.0687401999998,
+        "bottom": 270.854568
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "-Compétences clés : Streaming Audio (UDP), Protocoles Audio (I2S), Réseaux IP (Wi-Fi), Optimisation de Latence.",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 38.309999999999945,
+        "top": 208.51678432177528,
+        "right": 523.2993305999998,
+        "bottom": 217.38449319999995
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "+",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 28.346999999999944,
+        "top": 196.64414024032044,
+        "right": 36.64584579999995,
+        "bottom": 205.40856799999995
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "IoT Temperature & Humidity Monitor: Développement d'un système de surveillance IoT en C++ sur ESP32, intégrant un capteur DHT11 et un serveur web embarqué (HTML/CSS) pour la visualisation des données en temps réel via Wi-Fi.",
+      "page_no": 1,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 28.72,
+        "top": 146.33214024032043,
+        "right": 575.6916440000001,
+        "bottom": 167.05156799999997
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "DC Motor Speed Control Board: Conception de A à Z d'une carte de contrôle moteur (PCB) sous Altium, utilisant un microcontrôleur pour générer un signal PWM et améliorer de 10% l'efficacité énergétique d'un moteur DC.",
+      "page_no": 1,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 28.72,
+        "top": 92.84214024032042,
+        "right": 551.3530121999999,
+        "bottom": 113.56156799999997
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Expériences professionnelles",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 27.35,
+        "top": 514.8614080340424,
+        "right": 187.28666560000005,
+        "bottom": 525.3336703999997
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Stage Ingénieur Systèmes Embarqués , ACTIA Engineering Services - Tunis, TN",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 28.347,
+        "top": 496.5101402403204,
+        "right": 380.18618160000005,
+        "bottom": 505.274568
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Fév 2025 - Août 2025",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 487.38399999999996,
+        "top": 496.6191402403204,
+        "right": 583.6526037999998,
+        "bottom": 505.38356799999997
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Conception et architecture d'un système de mise à jour firmware OTA (Over-the-Air) bi-composant, garantissant la continuité de service des équipements embarqués.",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 28.720999999999947,
+        "top": 472.60014024032046,
+        "right": 582.0288576000002,
+        "bottom": 493.319568
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Développement du firmware de la passerelle ESP32, responsable du téléchargement sécurisé (HTTPS) et de l'orchestration du processus de mise à jour.",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 28.720999999999947,
+        "top": 445.8541402403204,
+        "right": 571.4685016000003,
+        "bottom": 466.574568
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Pilotage bas-niveau du bootloader natif de la cible STM32 via son protocole UART, en assurant un transfert de firmware fiable et une séquence de flashage sécurisée.",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 28.720999999999947,
+        "top": 419.10914024032047,
+        "right": 583.6527613999998,
+        "bottom": 439.828568
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Stage Technicien en Prototypage Électronique , SNCFT - Monastir, TN",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 28.346999999999944,
+        "top": 386.6951402403204,
+        "right": 342.2386381999999,
+        "bottom": 395.459568
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Juil. 2024 - Août 2024",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 483.41864279999993,
+        "top": 386.6951402403204,
+        "right": 583.6523613999998,
+        "bottom": 395.459568
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Stage d'Initiation , Aéroport de Monastir (TAV) - Monastir, TN",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 28.346999999999944,
+        "top": 288.83514024032036,
+        "right": 301.22261399999996,
+        "bottom": 297.5995679999999
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Juil. 2023 - Août 2023",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 483.41864279999993,
+        "top": 288.83514024032036,
+        "right": 583.6523613999998,
+        "bottom": 297.5995679999999
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Pilotage d'un convertisseur audio-numérique (DAC) via le bus I2S de l'ESP32, nécessitant une gestion précise de la synchronisation matérielle.",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 28.720999999999947,
+        "top": 223.39014024032042,
+        "right": 536.5197007999999,
+        "bottom": 244.10956799999997
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Projets",
+      "page_no": 1,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 27.349999999999945,
+        "top": 176.6394080340425,
+        "right": 65.73814719999994,
+        "bottom": 187.11167039999998
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Calculator GUI: Développement d'une interface graphique performante en C++ avec le framework Qt Creator, en appliquant les principes de la programmation orientée objet (POO).",
+      "page_no": 1,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 28.72,
+        "top": 119.58714024032042,
+        "right": 536.4290374,
+        "bottom": 140.30656799999997
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Sept 2022 - Sept 2025",
+      "page_no": 1,
+      "block_indices": [
+        54
+      ],
+      "bbox": {
+        "left": 484.784,
+        "top": 55.177140240320455,
+        "right": 583.6528423999996,
+        "bottom": 63.94156799999996
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Formation",
+      "page_no": 1,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 27.349999999999998,
+        "top": 72.8364080340425,
+        "right": 84.55563200000002,
+        "bottom": 83.30867039999998
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "École Nationale d'Ingénieurs de Monastir (ENIM) Diplôme d'Ingénieur en Systèmes Embarqués Institut Préparatoire aux Études d'Ingénieurs de Monastir (IPEIM)",
+      "page_no": 1,
+      "block_indices": [
+        53
+      ],
+      "bbox": {
+        "left": 28.34699999999998,
+        "top": 37.86278432177528,
+        "right": 446.4972472000002,
+        "bottom": 61.52049320000003
+      },
+      "section_title": "EDUCATION"
+    }
+  ]
+}

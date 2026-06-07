@@ -1,0 +1,119 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Boughammoura_Ons_23027887.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Boughammoura_Ons_23027887.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Boughammoura_Ons_23027887.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ons Boughammoura",
+      "email": "boughammoura.ons@gmail.com",
+      "phone": "+216 52 692 322",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieure en systèmes embarqués passionnée par le développement bas-niveau et la conception de logiciels performants au plus près du matériel.",
+      "hard_skills": [
+        "C",
+        "Assembleur (ARM)",
+        "C++",
+        "Python",
+        "Lab View",
+        "ARM (Cortex-M, Cortex-A)",
+        "RISC-V",
+        "STM 32",
+        "NXP",
+        "ESP 32",
+        "Microchip (PIC, AVR)",
+        "VHDL",
+        "Vivado",
+        "Model Sim",
+        "FPGA & Conception Matérielle",
+        "STM 32 Cube Ecosystem (IDE, MX, Programmer)",
+        "Espressif IDF",
+        "Qt Creator",
+        "Matlab/Simulink",
+        "Proteus",
+        "LTspice",
+        "Multisim",
+        "I 2 C",
+        "SPI",
+        "UART",
+        "CAN",
+        "Ethernet (TCP/IP)",
+        "Bluetooth (BLE)",
+        "Wi-Fi",
+        "MQTT",
+        "HTTPS",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Io T & Interfaces Web",
+        "Conception de schémas & PCB (Altium Designer, Ki Cad)",
+        "Lecture de fiches techniques",
+        "Conception Électronique"
+      ],
+      "soft_skills": [
+        "Optimisation des ressources et gestion des contraintes temps-réel fortes",
+        "Développement de solutions robustes et fiables",
+        "Gestion du streaming audio via Wi-Fi (sockets UDP)",
+        "Implémentation d'algorithmes en C pour l'acquisition et le filtrage de données de capteurs sous contraintes temps-réel",
+        "Configuration du bus CAN pour la transmission fiable d'alertes critiques au système de supervision central du train en cas de détection d'anomalies"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur Systèmes Embarqués",
+        "company": "ACTIA Engineering Services",
+        "start_date": "Fév 2025",
+        "end_date": "Août 2025",
+        "city": "Tunis, TN",
+        "responsibilities": [
+          "Conception et architecture d'un système de mise à jour firmware OTA (Over-the-Air) bi-composant, garantissant la continuité de service des équipements embarqués.",
+          "Développement du firmware de la passerelle ESP 32, responsable du téléchargement sécurisé (HTTPS) et de l'orchestration du processus de mise à jour."
+        ]
+      },
+      {
+        "job_title": "Technicien en Prototypage Électronique",
+        "company": "SNCFT",
+        "start_date": "Juil. 2024",
+        "end_date": "Août 2024",
+        "city": "Monastir, TN",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Stage d'Initiation",
+        "company": "Aéroport de Monastir (TAV)",
+        "start_date": "Juil. 2023",
+        "end_date": "Août 2023",
+        "city": "Monastir, TN",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Systèmes Embarqués",
+        "school": "École Nationale d'Ingénieurs de Monastir (ENIM)",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Institut Préparatoire aux Études d'Ingénieurs de Monastir (IPEIM)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:44:18.366352+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9793,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

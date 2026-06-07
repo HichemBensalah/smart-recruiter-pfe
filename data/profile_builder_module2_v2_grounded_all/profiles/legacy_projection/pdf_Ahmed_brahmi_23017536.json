@@ -1,0 +1,92 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ahmed_brahmi_23017536.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ahmed_brahmi_23017536.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ahmed_brahmi_23017536.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ahmed Brahmi",
+      "email": "ibrahmi.ahmeed@gmail.com",
+      "phone": "+216-52022197",
+      "location": "Tunis, Tunisia"
+    },
+    "expertise": {
+      "summary": "D´ eveloppeur Full Stack avec 1 an d'exp´ erience dans le d´ eveloppement d'applications Web et Mobile performantes et s´ ecuris´ ees",
+      "hard_skills": [
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "Node.js",
+        "Express",
+        "Laravel",
+        "React Native",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "CI/CD",
+        "Linux",
+        "Nginx",
+        "Postman",
+        "Swagger",
+        "Firebase",
+        "AWS"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Freelance D´ eveloppeur Full Stack",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une plateforme e-commerce bas´ ee sur une architecture microservices (Node.js, React)",
+          "Mise en place d'une architecture event-driven avec Kafka et d´ ecouplage des services",
+          "Impl´ ementation d'API REST s´ ecuris´ ees (JWT) pour gestion des utilisateurs et acc` es",
+          "D´ eploiement des services via Docker sur environnement Linux"
+        ]
+      },
+      {
+        "job_title": "D´ eveloppeur Web",
+        "company": "TUNISIE PORCELAINE",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'applications internes pour la gestion de production et des stocks avec int´ egration ERP",
+          "Conception d'API REST pour la communication entre les diff´ erents modules du syst` eme",
+          "Optimisation SQL am´ eliorant les performances et r´ eduisant les temps de r´ eponse des syst` emes critiques"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplˆ ome d'Ing´ enieur en Informatique",
+        "school": "EPI Digital School, Sousse, Tunisia",
+        "year": null
+      },
+      {
+        "degree": "Licence Fondamental en ´ Electronique et T´ el´ ecommunications",
+        "school": "Institut Sup´ erieur d'Informatique et de Multim´ edia, Gab` es, Tunisie",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:32:23.515662+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9498,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

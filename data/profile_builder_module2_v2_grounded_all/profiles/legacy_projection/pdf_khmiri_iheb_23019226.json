@@ -1,0 +1,93 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\khmiri_iheb_23019226.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\khmiri_iheb_23019226.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\khmiri_iheb_23019226.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Khmiri Iheb",
+      "email": "khmiriiheb@3@gmail.com",
+      "phone": "+216 50 201 529",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Talend",
+        "PostgreSQL",
+        "Microsoft Power BI",
+        "Docker",
+        "Next.js",
+        "FastAPI",
+        "ML"
+      ],
+      "soft_skills": [
+        "Conception et impl´ ementation d'un pipeline DevOps",
+        "Outils DevOps",
+        "Frameworks Web: Symfony, Spring Boot, .NET, Django, FastAPI, React. js, Next. js, Angular",
+        "Arabe: langue maternelle"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ing´ enieur Data - temps partiel",
+        "company": "Swiss Premium Negoce SA",
+        "start_date": "Janvier 2024",
+        "end_date": "Juin 2024",
+        "city": null,
+        "responsibilities": [
+          "Extraction et pr´ eparation des donn´ ees afin de centraliser les informations n´ ecessaires ` a l'analyse d´ ecisionnelle.",
+          "Conception et d´ eveloppement de flux ETL pour l'int´ egration, le nettoyage et la transformation des donn´ ees."
+        ]
+      },
+      {
+        "job_title": "Ing´ enieur Data - temps partiel",
+        "company": "Vega Next",
+        "start_date": "Janvier 2024",
+        "end_date": "Juin 2024",
+        "city": null,
+        "responsibilities": [
+          "Extraction et pr´ eparation des donn´ ees afin de centraliser les informations n´ ecessaires ` a l'analyse d´ ecisionnelle.",
+          "Conception et d´ eveloppement de flux ETL pour l'int´ egration, le nettoyage et la transformation des donn´ ees."
+        ]
+      },
+      {
+        "job_title": "Ing´ enieur",
+        "company": null,
+        "start_date": "F´ evrier 2025",
+        "end_date": "Septembre 2025",
+        "city": "Rad` es, Tunisie",
+        "responsibilities": [
+          "D´ eveloppement d'une plateforme intelligente d'analyse et de recommandation d'offres d'emploi et d'´ etudes.",
+          "Conception et test de tableaux de bord interactifs.",
+          "Mise en place d'un syst` eme intelligent pour extraire les informations cl´ es des CV et recommander automatiquement des offres pertinentes."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Digital Cook Tunisie",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:56:23.196540+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7521,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

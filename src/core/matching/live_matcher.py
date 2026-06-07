@@ -21,7 +21,7 @@ from src.core.matching.recommender import (
     load_id_map,
     select_best_profile_per_candidate,
 )
-from src.core.matching.scoring import score_candidate
+from src.core.matching.scoring import build_score_breakdown, score_candidate
 from src.core.storage.repositories import MongoRepositories, RepositoryUnavailableError, format_mongodb_source
 
 
@@ -249,6 +249,7 @@ class LiveMatcher:
             candidate_profile=normalized_profile,
             score_text_similarity=semantic_score,
         )
+        score_breakdown = build_score_breakdown(score_details)
         bio = normalized_profile.get("bio") or {}
         candidate_id = normalized_profile.get("candidate_id") or retrieval_row.get("candidate_id")
         profile_id = normalized_profile.get("profile_id") or retrieval_row.get("profile_id")
@@ -291,6 +292,7 @@ class LiveMatcher:
             "quality_flags": list(normalized_profile.get("quality_flags") or []),
             "fields_nullified_count": grounded_quality["fields_nullified_count"],
             **score_details,
+            "score_breakdown": score_breakdown,
             "explanation": _build_explanation(
                 full_name=display_name,
                 candidate_id=candidate_id,

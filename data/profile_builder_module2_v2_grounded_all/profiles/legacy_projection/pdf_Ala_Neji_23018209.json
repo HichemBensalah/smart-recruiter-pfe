@@ -1,0 +1,112 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ala_Neji_23018209.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ala_Neji_23018209.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ala_Neji_23018209.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ala Neji",
+      "email": "alaa.neji@enstab.ucar.tn",
+      "phone": "+216 24 640 536",
+      "location": "Tunisia"
+    },
+    "expertise": {
+      "summary": "Contributed to the development of the IEEE Tunisia Section Units Accounting Platform as a frontend and backend developer.",
+      "hard_skills": [
+        "React",
+        "Next.js",
+        "Spring Boot",
+        "MongoDB",
+        "Docker",
+        "C/C++",
+        "Python",
+        "Java",
+        "JavaScript",
+        "MERN Stack",
+        "Tailwind CSS",
+        "Supabase",
+        "GitHub",
+        "VS Code",
+        "Arduino IDE",
+        "GitHub Actions (CI/CD)",
+        "Node.js",
+        "TypeScript"
+      ],
+      "soft_skills": [
+        "Leadership",
+        "Problem Solving",
+        "Collaboration",
+        "Adaptability"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "End of Studies Intern",
+        "company": "COFICAB TN",
+        "start_date": "February",
+        "end_date": "August 2025",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Developed a secure digital Energy Management System (En MS) aligned with ISO 50001 standards, integrating user authentication and data protection mechanisms.",
+          "Designed regression-based models to define the Energy Reference Situation (SER), identify Significant Energy Uses (UES), and calculate the Energy Performance Indicator (IPE).",
+          "Automated data acquisition, monitoring, and invoice extraction using OCR and AI to improve accuracy, efficiency, and audit readiness.",
+          "Delivered a fully operational platform that supports energy performance tracking, reporting, and continuous improvement."
+        ]
+      },
+      {
+        "job_title": "Web Development Intern",
+        "company": "Smartegy",
+        "start_date": "July",
+        "end_date": "September 2024",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Designed, developed, and optimized responsive web applications using Next.js and Tailwind CSS.",
+          "Integrated Supabase for secure and efficient backend management.",
+          "Built a fully functional platform featuring user authentication and data management through Supabase",
+          "Implemented core backend logic and improved system efficiency and user experience."
+        ]
+      },
+      {
+        "job_title": "Intern",
+        "company": "Tunisie Telecom",
+        "start_date": "July",
+        "end_date": "August 2023",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Resolved client network and internet connectivity issues using telecommunications theory.",
+          "Gained practical experience in line construction, maintenance, and transmission center operations.",
+          "Developed a full-featured university management platform for courses, exams, tutorials, and official documents using React.js, Spring Boot, and PostgreSQL, ensuring scalability and an intuitive user experience."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Tunisie Telecom",
+        "start_date": "2022",
+        "end_date": "2023",
+        "city": "Tunisia",
+        "responsibilities": [
+          "Designed and developed a gesture-controlled myoelectric prosthetic hand integrating AI and embedded systems for precise motion control.",
+          "Built and programmed hardware and software components, including actuators and control circuits.",
+          "Utilized 3D printing to create an affordable, functional solution for improved accessibility."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T17:58:08.982091+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.93,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

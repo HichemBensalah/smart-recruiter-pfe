@@ -1,0 +1,84 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\El_Kouraichi_Zeineb_23013911.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\El_Kouraichi_Zeineb_23013911.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\El_Kouraichi_Zeineb_23013911.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "EL KOURAICHI ZEINEB",
+      "email": "3@gmail.com",
+      "phone": "+216 51 051 103",
+      "location": ""
+    },
+    "expertise": {
+      "summary": "Ingénieure en Génie Électrique & Automatique passionnée par la Data Science et l'Intelligence Artificielle.",
+      "hard_skills": [
+        "Python",
+        "TensorFlow",
+        "Deep Learning",
+        "Scikit-learn",
+        "Keras",
+        "MySQL",
+        "Docker",
+        "Git",
+        "Architecture informatique",
+        "Django"
+      ],
+      "soft_skills": [
+        "Gestion de projet",
+        "Esprit d'équipe",
+        "Curiosité intellectuelle"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Safran Electrical and Power (SEC)",
+        "start_date": "Avr. - Juil. 2024",
+        "end_date": null,
+        "city": "",
+        "responsibilities": [
+          "Conception d'un système automatisé de traitement de données de câblage ( B 787, A 320 N ).",
+          "Développement d'outils d'analyse avec Django/Python, réduisant les temps d'arrêt de 40% ."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Société Tunisienne de l'Électricité et du Gaz (STEG)",
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "responsibilities": [
+          "Validation de processus et extraction de données de diagnostic sur le programme B 787 .",
+          "Amélioration de la précision des diagnostics d'anomalies de +45% ."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Université de Colorado Boulder (via Coursera/Cours du soir)",
+        "year": null
+      },
+      {
+        "degree": "Diplôme d'Ingénieur: Génie Électrique-Automatique",
+        "school": "École Nationale d'Ingénieurs de Gabès (ENIG)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:53:03.689161+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9661,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

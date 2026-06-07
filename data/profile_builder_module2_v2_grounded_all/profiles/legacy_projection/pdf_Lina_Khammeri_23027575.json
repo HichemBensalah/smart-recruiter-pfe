@@ -1,0 +1,95 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Lina_Khammeri_23027575.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Lina_Khammeri_23027575.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Lina_Khammeri_23027575.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Lina Khammeri",
+      "email": "linakhm@outlook.fr",
+      "phone": "+216 56203391",
+      "location": "Tunis"
+    },
+    "expertise": {
+      "summary": "DevOps Engineer delivering robust workflows that bring rapidity and reliability.",
+      "hard_skills": [
+        "Cloud infrastructure provisioning",
+        "Containerization",
+        "Monitoring",
+        "CI/CD pipelines",
+        "Git Lab CI/CD",
+        "Docker",
+        "Linux",
+        "AWS"
+      ],
+      "soft_skills": [
+        "Optimizing deployment and delivery cycles",
+        "Bridging gaps between development and operations",
+        "Automating file extension enforcement"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "DevOps engineer",
+        "company": "Obeya, Lac 1",
+        "start_date": "02. 2025",
+        "end_date": "09. 2025",
+        "city": null,
+        "responsibilities": [
+          "Maintained and optimized CI/CD pipelines",
+          "Conceived Bash scripts to automate file extension enforcement",
+          "Automated projects asset deployment in AWS",
+          "Performed daily monitoring in a production Kubernetes cluster",
+          "Designed an Elastic observability dashboard"
+        ]
+      },
+      {
+        "job_title": "DevOps intern",
+        "company": "Obeya, Lac 1",
+        "start_date": "01. 2024",
+        "end_date": "07. 2024",
+        "city": null,
+        "responsibilities": [
+          "Designed a Git Lab CI/CD workflow",
+          "Documented the deployment of an API in production environment"
+        ]
+      },
+      {
+        "job_title": "DevOps intern",
+        "company": "Sierra Bravo Intelligence, Kram",
+        "start_date": "07. 2023",
+        "end_date": "09. 2023",
+        "city": null,
+        "responsibilities": [
+          "Containerized application with Docker multi-stage builds",
+          "Set up a Jenkins CI/CD pipeline automating build, test, Docker image delivery",
+          "Established a Git Lab CI/CD pipeline for a Full Stack application",
+          "Architected a high available and scalable serverless AWS infrastructure"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering diploma",
+        "school": "ESPRIT school of engineering",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:04:42.273418+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8106,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

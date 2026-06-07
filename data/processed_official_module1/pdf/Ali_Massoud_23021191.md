@@ -1,0 +1,69 @@
+## HEADER
+
+Ali Massoud
+Securite (Dev Sec Ops)
+Sonar Qube, OWASP Dependency Check, Trivy, Black Duck
+
+## TECHNICAL SKILLS
+
+Ingenieur Dev Ops & Cloud
++216 95 940 644 | massoudmohamed 297@gmail. com | Mahdia, Tunisie | linkedin. com/in/ali-massoud 000 | gitlab. com/massoudmohamed 297
+Ingenieur Dev Ops et Cloud avec une experience concrete dans la conception et le deploiement de pipelines CI/CD, de clusters Kubernetes et d'infrastructures cloud sur AWS et Open Stack. Certifie AWS Cloud Ops Engineer (avril 2026). Capable de prendre en charge l'infrastructure de bout en bout : automatisation, conteneurisation, Git Ops, securite et observabilite. A l'aise dans des environnements dynamiques exigeant fiabilite, scalabilite et livraison continue.
+AWS Certified Cloud Ops Engineer - Associate
+Amazon Web Services | Obtenu : avril 2026 | Badge ID : 36719 b 6 c-57 f 5-4 f 2 e-9 e 04-37 ae 9 ec 212 e 8 credly. com/badges/36719 b 6 c-57 f 5-4 f 2 e-9 e 04-37 ae 9 ec 212 e 8
+Ingenieur Cloud
+Group RIF | Teletravail | Juin 2025 - Aout 2025 (mission)
+Provisionne un cluster Open Stack 3 noeuds (Controller, Compute, Storage) avec Terraform, ramenant le temps de deploiement de plusieurs jours a moins de 2 heures.
+Developpe un script Bash execute a la creation des VM pour configurer le reseau, distribuer les cles SSH et installer l services socles (Maria DB, Rabbit MQ, Memcached), eliminant toute preparation manuelle des noeuds.
+Automatise l'installation et la configuration des services Open Stack via des playbooks Ansible integres dans des pipelines Jenkins, pour des deploiements entierement pilotes par CI/CD.
+Securise la connectivite vers le serveur hote avec le reseau overlay Zero Tier, remplacant des solutions VPN fragiles pa un tunnel chiffre et resilient.
+Concu et deploye une plateforme CI/CD Git Lab de niveau production pour une application web multi-services, hebergee sur un environnement KVM avec un cluster Kubernetes auto-gere (1 master, 2 workers).
+Mis en place une chaine Git Ops complete : Git Lab CI/CD pour l'orchestration, Sonar Qube pour les controles qualite, Triv pour le scan de securite des conteneurs, et Argo CD pour le deploiement Kubernetes - zero etape manuelle en production.
+Implemente un Horizontal Pod Autoscaler (HPA) pour les microservices Spring Boot et un Vertical Pod Autoscaler (VPA) pour les pods base de donnees, permettant d'absorber les pics de trafic sans intervention humaine.
+Configure un cluster de base de donnees haute disponibilite (1 primaire lecture/ecriture + 2 replicas en lecture) avec Persistent Volume Claims et load balancers pour la distribution du trafic.
+Cloud - AWS
+
+## PROFIL PROFESSIONNEL
+
+CERTIFICATION
+
+## EDUCATION
+
+Ingenieur Dev Ops - Projet de Fin d'Etudes (PFE)
+### Smooth Algo | Sousse, Tunisie | Mars 2024 - Aout 2024
+- Deploye une stack d'observabilite complete (Prometheus + Grafana + Alertmanager) pour des tableaux de bord temps reel et des alertes proactives.
+- Ingenieur Logiciel - Stagiaire
+### Artibedded | Teletravail | Aout 2023 - Septembre 2023
+Conteneurise une application React/Flask avec Docker et Docker Compose et deploye sur AWS EC 2 ; integre Git Lab CI/CD, Sonar Qube, OWASP Dependency Check et Trivy pour une chaine de livraison securisee.
+**Location:** Terraform, Ansible, scripting Bash
+EC 2, S 3, ELB, Route 53, Auto Scaling, EBS, RDS, Cloud Formation, Cloud Watch, Cloud Trail, VPC, IAM
+- Reseaux
+### TCP/IP, DNS, DHCP, VPN (Zero Tier), VLAN, RADIUS
+- Administration Systeme
+### Linux (Ubuntu, Red Hat), Windows AD, scripting Python
+- Web/Backend
+### React JS, Angular, Flask, Spring Boot, My SQL, Mongo DB
+- Automatisation & Integration
+### n 8 n (automatisation de workflows, integrations API, self-hosted)
+- FORMATION
+- Diplome d'Ingenieur en Telecommunications - Specialisation Reseaux & Cloud
+### ENET'Com, Universite de Sfax | Sfax, Tunisie | Obtenu en octobre 2024
+- Diplome de Technicien Superieur en Informatique & Telecommunications
+### ISSAT, Universite de Monastir | Mahdia, Tunisie | Mai 2021
+- : Courant
+- Francais : Intermediaire
+
+## COMPETENCES TECHNIQUES
+
+Conteneurs & Orchestration
+Docker, Docker Compose, Kubernetes (HPA, VPA, PVC), KVM, Argo CD
+Git Lab CI/CD, Jenkins, Argo CD, workflows Git Ops
+CI/CD Ia C & Config. Management Observabilite
+Prometheus, Grafana, Alertmanager, ELK Stack
+
+## LANGUAGES
+
+LANGUES
+Arabe
+: Langue maternelle
+Anglais

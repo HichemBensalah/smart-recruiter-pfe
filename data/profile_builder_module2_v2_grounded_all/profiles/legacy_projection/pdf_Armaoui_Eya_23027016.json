@@ -1,0 +1,90 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Armaoui_Eya_23027016.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Armaoui_Eya_23027016.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Armaoui_Eya_23027016.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Eya ARMAOUI",
+      "email": "ayaarmaoui@gmail.com",
+      "phone": null,
+      "location": "El Manar 1, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "JAVA-Symfony",
+        ".Net",
+        "Python",
+        "MERN stack",
+        "MEAN stack",
+        "Spring Boot-Angular-MySQL",
+        "DevOps",
+        "Laravel"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur full stack (Stage d'ingénieur)",
+        "company": "Tech Academy Tunis",
+        "start_date": "juillet 2022",
+        "end_date": "septembre 2022",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception et développement d'un site web (Spring Boot-Angular/Python/DevOps)"
+        ]
+      },
+      {
+        "job_title": "Testeur Logiciel (Stage d'immersion en entreprise)",
+        "company": "Golden Accounting Input DATA Tunis",
+        "start_date": "juillet 2021",
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Analyse fonctionnelle et technique des besoins",
+          "Planification des Tests",
+          "Rédaction des tests"
+        ]
+      },
+      {
+        "job_title": "Freelance - Développeur Full-Stack",
+        "company": null,
+        "start_date": "février 2024",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception et développement des site web (Spring Boot-Angular/Laravel)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'ingénieur en informatique",
+        "school": "Ecole Supérieure Privée d'Ingénierie et de Technologie",
+        "year": null
+      },
+      {
+        "degree": "Licence Fondamentale en informatique de gestion",
+        "school": "FACULTÉ DES SCIENCES ECONOMIQUES ET DE GESTION DE TUNIS",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:39:40.795804+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9525,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

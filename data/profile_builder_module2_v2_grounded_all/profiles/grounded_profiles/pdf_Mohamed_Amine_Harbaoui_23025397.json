@@ -1,0 +1,140 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Amine_Harbaoui_23025397.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Amine_Harbaoui_23025397.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7286,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMOHAMEDAMINEHARBAOUI\nTechnicien Informatique\n+216 52 834 076 | harbaouimohamed.pro@gmail.com |/linkedin mohamed-amine-harbaoui\n\n## TECHNICAL SKILLS\n\nTechnicien supérieur diplômé en Réseaux et Systèmes Informatiques, passionné par l'automatisation et le Cloud Computing. Fort d'une expérience pratique en DevOps (CI/CD, Kubernetes) et en supervision réseau, je cherche à intégrer une équipe dynamique pour optimiser les infrastructures IT et assurer leur haute disponibilité.\n-Gestion de l'infrastructure Cloud sur Microsoft Azure .\n-Supervision et optimisation des performances applicatives pour garantir la stabilité.\nL'Office National des Postes\nStage de perfectionnement\nTunis\n-Conception et simulation de maquettes réseaux complexes sur GNS 3 .\n-Déploiement d'une solution de supervision des équipements virtuels via PRTG .\n-Implémentation d'un système d'alertes automatisé (SMS/e-mail) basé sur les protocoles SNMP, Ping et HTTP.\nL'Office National des Postes\nStage d'initiation\n-Exploration de l'architecture réseau et services de l'Office National des Postes.\n-Modélisation d'une topologie réseau sur GNS 3 pour tests et simulations de configurations.\nTunisie Télécom\nStage découverte\n-Maintenance préventive et curative des lignes d'abonnés au niveau du répartiteur général.\n-Initiation aux outils professionnels (Workflow, HPSM, TOM).\nÉDUCATION\nDevOps & CI/CD: Jenkins, Docker, Kubernetes, Git, GitHub, Grafana, Prometheus.\nCloud Computing: Microsoft Azure.\nVirtualisation: VMware (ESXi, v Sphere), Proxmox, Virtual Box.\nSystèmes & OS: Linux (Ubuntu, Kali), Windows Server.\nRéseaux & Sécurité:\npf Sense, PRTG, GNS 3.\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nInfoesprit\n\n## EDUCATION\n\nStage de Fin d'Études (PFE)\n-Développement et industrialisation d'une chaîne CI/CD pour une plateforme de Hackathons.\n-Déploiement et orchestration de conteneurs via Docker et Kubernetes .\n-Automatisation des pipelines de déploiement continu avec Jenkins .\nInstitut Supérieur des Études Technologiques de Jendouba\nLicence en Réseaux et Systèmes Informatiques\n## Septembre 2020 - Juin 2023 Jendouba, Tunisie Septembre 2019 - Août 2020\n**Date: ** Février 2023 - Mai 2023\n**Location: ** Cité Ettadhamen, Ariana, Tunisie\n## Lycée Abou Kasem Chebbi Baccalauréat en Sciences de l'Informatique\n**Location: ** Ariana, Tunisie\n\n## COMPÉTENCES TECHNIQUES\n\n## INFORMATIONS COMPLÉMENTAIRES\n\nCentres d'intérêt:\n\n## LANGUAGES\n\nLangues: Arabe (maternelle), Français (intermédiaire), Anglais (intermédiaire).\nMusique (organiste et percussionniste oriental), Jeux vidéo.",
+    "header_info": {
+      "full_name": "Technicien Informatique",
+      "email": "harbaouimohamed.pro@gmail.com",
+      "phone": "+216 52 834 076",
+      "location": "Technicien supérieur diplômé en Réseaux et Systèmes Informatiques, passionné par l'automatisation et le Cloud Computing. Fort d'une expérience pratique en DevOps (CI/CD, Kubernetes) et en supervision réseau, je cherche à intégrer une équipe dynamique pour optimiser les infrastructures IT et assurer leur haute disponibilité.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7736,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[0].responsibilities[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].company",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "experiences[0].responsibilities[0]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MOHAMEDAMINEHARBAOUI",
+      "email": "harbaouimohamed.pro@gmail.com",
+      "phone": "+216 52 834 076",
+      "location": "Cité Ettadhamen, Ariana, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "DevOps & CI/CD: Jenkins, Docker, Kubernetes, Git, GitHub, Grafana, Prometheus",
+        "Cloud Computing: Microsoft Azure",
+        "Virtualisation: VMware (ESXi, v Sphere), Proxmox, Virtual Box",
+        "Systèmes & OS: Linux (Ubuntu, Kali), Windows Server",
+        "Réseaux & Sécurité: pf Sense, PRTG, GNS 3"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Infoesprit",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur des Études Technologiques de Jendouba",
+        "degree": "Licence en Réseaux et Systèmes Informatiques",
+        "field": "Réseaux et Systèmes Informatiques",
+        "year": null
+      },
+      {
+        "institution": "Lycée Abou Kasem Chebbi",
+        "degree": "Baccalauréat en Sciences de l'Informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe (maternelle)",
+      "Français (intermédiaire)",
+      "Anglais (intermédiaire)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:31:57.231827+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

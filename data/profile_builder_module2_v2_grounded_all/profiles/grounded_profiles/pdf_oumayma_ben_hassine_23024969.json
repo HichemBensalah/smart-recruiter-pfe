@@ -1,0 +1,168 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\oumayma_ben_hassine_23024969.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\oumayma_ben_hassine_23024969.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7578,
+  "normalization": {
+    "cleaned_markdown": "## DÉVELOPPEUR FULLSTACK\n\n8025 Hammem el ghzez, Nabeul | oumaymabenhassine 7@gmail.com\nLinkedin\nKaggel\n: oumaimabenhssin GitHub: ben-hsin-oumaima 8\n: Oumayma Ben hassine\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeuse Full Stack orientée intelligence artificielle, avec une solide expérience en développement web (Angular, Python, Node. js) et en IA (NLP, Deep Learning, Computer Vision). Motivée, rigoureuse et passionnée par les solutions innovantes.\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nJira\nJavaScript\nSpring Boot\nMatplotlib\nPython\nJava\nHTML\nAngular\nCSS\nNodeJS\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nScikit-learn\nNl P\nScrum\nMongoDB\nFigma\nSQLite\nDéveloppement Full Stack d'une application web intelligente ( Angular + Python + SQLite ) permettant aux utilisateurs d'analyser automatiquement des textes en ligne grâce à une interface fluide, responsive et conviviale.\n\n## MACHINE LEARNING & DEEP LEARNING\n\nJanvier 2024 - Mai 2025 Stagaire en IA et Deep Learning, Atomic It Pro, kelibia\nImplémentation d'un système de détection de mains et de reconnaissance de gestes basé sur le Deep Learning, utilisant Media Pipe, TensorFlow/Keras et CNN (Convolutional Neural Networks) pour interpréter les signes de la langue des signes tunisienne.\nCréation d'API REST en Python pour le traitement des images et la communication entre le frontend Angular et les modèles IA, avec gestion des historiques et données utilisateur via SQLite.\nMai 2024 - Août 2024 Stagiaire en Automatisation et IA, Atomic It Pro, kelibia\nConception de solutions d'IA pour la classification de texte (détection de cyberharcèlement)\nImplémentation de modèles de deep learning pour la classification d'images médicales.\nStagiaire en Développement Front-End et Bases de\nDonnées, Cody Net, Monastir\n\n## ACADEMIC PROJECTS\n\nConception et développement complet d'une application web innovante destinée à faciliter la mise en relation entre investisseurs et porteurs de projets, en utilisant Angular pour le frontend, Node. js pour le backend et MongoDB pour la base de données.\n**Date: ** Janvier 2023 - Juin 2023\nMise en place d'un système de gestion sécurisé des utilisateurs: implémentation d'un système d'authentification et d'autorisation par rôles, protection des données personnelles, gestion des accès et chiffrement des mots de passe (bcrypt).\nDéveloppement de modules dynamiques pour la soumission de projets, la recherche filtrée d'opportunités, la visualisation des projets, ainsi qu'un tableau de bord personnalisé pour chaque type d'utilisateur.",
+    "header_info": {
+      "full_name": "DÉVELOPPEUR FULLSTACK",
+      "email": "7@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8758,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Oumayma Ben hassine",
+      "email": "7@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": "ben-hsin-oumaima"
+    },
+    "expertise": {
+      "summary": "Développeuse Full Stack orientée intelligence artificielle, motivée et passionnée par les solutions innovantes.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Angular",
+        "Python",
+        "Node.js",
+        "NLP",
+        "Deep Learning",
+        "Computer Vision",
+        "JavaScript",
+        "Spring Boot",
+        "Matplotlib",
+        "Java",
+        "HTML",
+        "CSS"
+      ],
+      "soft_skills": [
+        "motivée",
+        "rigoureuse",
+        "passionnée par les solutions innovantes"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Janvier 2024 - Mai 2025",
+        "end_date": "Mai 2024 - Août 2024",
+        "city": null,
+        "responsibilities": [
+          "Implémentation d'un système de détection de mains et de reconnaissance de gestes basé sur le Deep Learning",
+          "Création d'API REST en Python pour le traitement des images et la communication entre le frontend Angular et les modèles IA"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Mai 2024 - Août 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception de solutions d'IA pour la classification de texte (détection de cyberharcèlement)",
+          "Implémentation de modèles de deep learning pour la classification d'images médicales"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Janvier 2023 - Juin 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement complet d'une application web innovante destinée à faciliter la mise en relation entre investisseurs et porteurs de projets",
+          "Mise en place d'un système de gestion sécurisé des utilisateurs: implémentation d'un système d'authentification et d'autorisation par rôles, protection des données personnelles, gestion des accès et chiffrement des mots de passe (bcrypt)",
+          "Développement de modules dynamiques pour la soumission de projets, la recherche filtrée d'opportunités, la visualisation des projets, ainsi qu'un tableau de bord personnalisé pour chaque type d'utilisateur"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:21:26.336689+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

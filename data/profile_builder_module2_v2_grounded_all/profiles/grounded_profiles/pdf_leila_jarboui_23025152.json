@@ -1,0 +1,161 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\leila_jarboui_23025152.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\leila_jarboui_23025152.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8239,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nInterface d'administration pour la gestion des employés, des droits d'accès et l'export des historiques.\n\n## ÉDUCATION ET FORMATION\n\n05/09/2022 - 22/11/2025\nIngénieur Informatique TEK-UP University\n\n## TECHNICAL SKILLS\n\nCompétences Techniques & Méthodologiques\nJarboui Leila\nDéveloppement Full-Stack: Maîtrise des Framework Backend (Spring Boot, Symfony, ASP. NET, Node. js/Express. js, Django) et Frontend (Angular, React, Next. js) Conception d'architectures d'applications robustes.\nDate de naissance:\nMobile: Développement d'applications hybrides et natives (Ionic, Android).\nNationalité:\nTunisienne\nDevOps & Collaboration: Mise en place d'intégration et déploiement continus (CI/CD) avec Git, GitHub, Docker, Jenkins, Kubernetes. Gestion de versions et travail collaboratif.\nCONTACT\nCOMPÉTENCES\nCompétences mobilisées: Java, Android, Raspberry Pi, Linux embarqué, réseaux (TCP/IP, sécurité), base de données légère (SQLite), gestion de projet.\nCompétences: Gestion de projet technique, travail en environnement professionnel, résolution de problèmes terrain, respect des normes de sécurité.\nMise en place d'une architecture basée sur les microservices pour créer une plateforme innovante encourageant le partage de connaissances entre étudiants au sein de TEK-Up.\nConception et implémentation d'une application Blog des produits agroalimentaires en utilisant python.\nProjet Devops: Déploiement du projet e-commerce en utilisant les outils: GitHub, Jenkins, Docker\nProjet Sécurité: Application de Gestion des réclamations en utilisant Spring Boot et Angular et PostgreSQL\n\n## ACADEMIC PROJECTS\n\nGestion de Projet: Application d'une méthodologie de cycle de vie complet, de l'analyse des besoins à la livraison finale, à travers la réalisation de projets académiques complexes.\n- Tunisie (Domicile)\n- Niveau CEC Niveau 7 CEC\nLangages de programmation: Python/Django, Java, C/C++, Shell ASP. NET Node J S, Express JS, ReactJS JavaScript (ReactJS, Vue JS) Bootstrap/C/HTML/CSS/PHP/JavaScript/Angular/Python/Java/SQL Framework: Angular, Spring Boot DevOps: Gitlab, Docker et jenkins. Agile/SCRUM Base des données: MySQL, PostgreSQL, Oracle\n**Date: ** 24/02/2025 - 08/11/2025\n- PROJETS\n## Singra-Training\n- Les Framework Utilisées:\n## Backend: NodeJS, Express JS\n- Base de données: MongoDB\n- Projets\n- Conception d'un système en ligne dédié à la gestion efficace des offres d'emploi.\n- Conception et Implémentation d'une application de location des voitures en ligne .\n- Conception et Implémentation d'une agence immobilières.\n\n## EDUCATION\n\nSingra Training est mon projet du Fin d'étude est la conception et Développement d'un plateforme de formation innovante en ligne en collaboration avec l'entreprise 5 DS .\nSINGRA TRAINING est d'offrir un environnement d'apprentissage dynamique et intégral, permettant aux utilisateurs d'accéder à des formations qualitatives sans avoir à se déplacer. La plateforme se distingue par sa volonté de combiner l'acquisition de connaissances à la valorisation des compétences via la délivrance de certificats sécurisés, garantissant ainsi la valeur et l'authenticité du parcours de l'apprenant.\n## Frontend: ReactJS, Next JS, Tailwind CSS\n**Date: ** 15/09/2014 - 08/07/2016\n- FORMATION\n- Mastère professionnel en Réseaux informatique et Télécommunication\n- Application mobile de gestion des entrées-sorties - Système embarqué sur Raspberry Pi\n- Conception et développement d'un système complet de contrôle d'accès pour une entreprise:\n- Application mobile Android (Java) pour l'enregistrement et le suivi des horaires du personnel.\nCarte Raspberry Pi comme serveur local et contrôleur d'accès (lecture de badges, ouverture de portes).\n**Date: ** 15/09/2010 - 03/06/2013\n- Communication sécurisée entre l'application et le Raspberry via Wi-Fi (protocoles TCP/IP).\n- FORMATION\n- Licence en science et technologie de l'information et communication\n- Projet de fin d'études - Système de refroidissement pour émetteur de télédiffusion Réalisé en collaboration avec l' Office Nationale de Télédiffusion (ONT - Sfax) .\n- Étude et conception d'un système de refroidissement adapté aux émetteurs de forte puissance.\nAnalyse des contraintes thermiques et dimensionnement des équipements (ventilation, climatisation, échangeurs).\n- Mise en place et tests sur site pour garantir la continuité de service et la fiabilité des installations.\nParticipation aux phases de diagnostic, d'installation et de maintenance préventive.\n- Conception et Implémentation d'une application web pour un centre de formation:\n\n## PROJETS ACADÉMIQUES\n\n05/09/2022 - 22/11/2025",
+    "header_info": {
+      "full_name": "ÉDUCATION ET FORMATION",
+      "email": null,
+      "phone": "05/09/2022 - 22/11/2025",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9648,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Leila Jarboui",
+      "email": null,
+      "phone": "05/09/2022 - 22/11/2025",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java",
+        "Android",
+        "Raspberry Pi",
+        "Linux embarqué",
+        "réseaux (TCP/IP, sécurité)",
+        "base de données légère (SQLite)",
+        "gestion de projet technique",
+        "travail en environnement professionnel",
+        "résolution de problèmes terrain",
+        "respect des normes de sécurité"
+      ],
+      "soft_skills": [
+        "conception d'architectures d'applications robustes",
+        "mise en place d'intégration et déploiement continus (CI/CD)",
+        "travail collaboratif",
+        "gestion de versions",
+        "analyse des besoins",
+        "livraison finale"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "05/09/2022 - 22/11/2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et implémentation d'une application Blog des produits agroalimentaires en utilisant python.",
+          "Projet Devops: Déploiement du projet e-commerce en utilisant les outils: GitHub, Jenkins, Docker",
+          "Projet Sécurité: Application de Gestion des réclamations en utilisant Spring Boot et Angular et PostgreSQL"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "TEK-UP University",
+        "degree": "Ingénieur Informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Singra Training",
+        "degree": "Mastère professionnel en Réseaux informatique et Télécommunication",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Python/Django",
+      "Java",
+      "C/C++",
+      "Shell ASP. NET Node J S, Express JS, ReactJS JavaScript (ReactJS, Vue JS) Bootstrap/C/HTML/CSS/PHP/JavaScript/Angular/Python/Java/SQL"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:02:58.625751+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

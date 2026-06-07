@@ -1,0 +1,234 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\zaidi_bahaeddine_23014078.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\zaidi_bahaeddine_23014078.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8357,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nZaidi bahaeddine\nLinked In | 54543028 | bahaae.zaidi@gmail.com | GitHub | Portfolio\n\n## TECHNICAL SKILLS\n\n• C# | .NET | Java | JavaScript | TypeScript | C | Nestjs | Node | Express | React | Redux | NoSQL | Git | Figma |Ui | Ux | Scrum\n• CI/CD | JUnit | Unit Testing | OOP | Python | Springboot |Angular| UML |Jenkins | Docker | Linux | Mockito |Postgres | Laravel | Django\n• Microservices | Frontend | Backend | Full-Stack | Anglais | Francais\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieur logiciel, Stage\nIpact consult\nCanada\n• Conception et mise en œuvre d'un système de déploiement continu qui prend en charge des itérations rapides pour une application\nfull-stack facilite désormais le déploiement des modifications de code à la demande, permettant plus de 50 mises à jour quotidiennes sans\ninterruption (Angular, Springboot, Docker, Github Actions)\nIngénieur logiciel, Stage\nOmeg Up\nTunisie\n• Refonte complète du frontend du site web d'Omega Up en utilisant React. js pour concevoir et implémenter une nouvelle interface\nutilisateur, améliorer l'expérience utilisateur, et intégrer avec les services backend existants avec Reactjs.\nIngénieur logiciel, Stage\nVision 4 Med\nTunisie\n• Dans le cadre de mon projet de fin d’études, j’ai participé à la refonte et à l’extension de la plateforme Saa S Vision 4 Med, spécialisée\ndans la santé, en développant des fonctionnalités avancées telles que le dossier médical partagé, les ordonnances vérifiées par QR code, la\ntéléconsultation en temps réel (Web RTC), la gestion de cabinet médical, la prise de rendez-vous en ligne, le répertoire hospitalier, la\nmessagerie interne, la recherche par géolocalisation avec filtres, ainsi qu’un chatbot IA pour la landing page. J’ai également conçu deux\nagents intelligents: un agent patient capable d’analyser les symptômes saisis, de fournir un diagnostic préliminaire, d’interpréter des\ndocuments médicaux uploadés et d’interagir par chat, et un agent médecin générant des résumés intelligents du dossier médical, assistant\nau diagnostic et au traitement, et permettant la création ou la modification d’ordonnances partagées via des prompts. Sur le plan DevOps,\nj’ai mis en place un pipeline CI/CD avec GitHub Actions, assuré la containerisation avec Docker, l’orchestration avec Kubernetes et intégré du\nweb scraping de données médicales. Le projet a été réalisé avec React. js, Node. js, Express. js et Sequelize\n\n## EDUCATION\n\nBaccalaureat Mathématique Lycée Technique Mednine 09/2015 - 6/2019\nCycle Préparatoires Issat Gabes 09/2019 - 06/2022\nCYCLE INGENIEUR INFORMATIQUE Esprit Ariana 09/2022- 12/2025\n\n## ACADEMIC PROJECTS\n\n• HRM 360: Plateforme GRH novatrice avec Analyse de sentiment IA intégrée (Angular 17, Python, Nestjs, Ci/CD) (01/2024)\n• PROJET DEVOPS: Une mise en place d’une chaine d’integration et deployement\ncontinue(Angular, Springboot, Docker, Jenkins, Sonarqube, Promethus, Graphana, Jacoco) (02/2024)\n• FOYER WEB: une application web pour la gestion des foyers étudiants au sein d'une école(Angular, Springboot, bootstrap) (09/2023)\n• R É SERVEZM AI NTENANT: conception et développement d'une application de réservation d'hôtel basée sur des microservices\n( Node. js et Spring Boot, MySQL, Angular, Mongodb, Erica server, Docker, Keycloark) (10/2023)\n• WAS TE WIZE: conception et développement d’une application web de gestion des déchets et d’optimisation du recyclage.\nContribution majeure à la création de fonctionnalités clés pour la gestion efficace des projets et investissements en faveur de pratiques\ndurables. (Laravel 9, HTML, CSS, JavaScript, GitHub Actions, Sonar Cloud, Docker) (10/2024)\n• MEDICALAPP: conception et développement d’une application web sémantique médicale permettant de recommander des\ntraitements, médecins et maladies en fonction des symptômes. Contribution au développement des fonctionnalités principales tout en\ngarantissant une expérience utilisateur intuitive. (Spring Boot, Angular, OWL, SPARQL) (10/2024)\n• ECOSTYLE: conception et développement d’une application web e-commerce intégrant l’intelligence artificielle pour améliorer\nl’expérience utilisateur, optimiser les recommandations de produits et simplifier le processus d’achat. (Django, Python, Machine Learning)",
+    "header_info": {
+      "full_name": "Zaidi bahaeddine",
+      "email": "bahaae.zaidi@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9671,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "education[2].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Zaidi bahaeddine",
+      "email": "bahaae.zaidi@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 10,
+      "hard_skills": [
+        "C#",
+        ".NET",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "C",
+        "Nestjs",
+        "Node",
+        "Express",
+        "React",
+        "Redux",
+        "NoSQL",
+        "Git",
+        "Figma",
+        "Ui",
+        "Ux",
+        "Scrum",
+        "CI/CD",
+        "JUnit",
+        "Unit Testing",
+        "OOP",
+        "Python",
+        "Springboot",
+        "Angular",
+        "UML",
+        "Jenkins",
+        "Docker",
+        "Linux",
+        "Mockito",
+        "Postgres",
+        "Laravel",
+        "Django"
+      ],
+      "soft_skills": [
+        "Anglais",
+        "Francais"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Ipact consult",
+        "job_title": "Ingénieur logiciel, Stage",
+        "start_date": null,
+        "end_date": null,
+        "city": "Canada",
+        "responsibilities": [
+          "Conception et mise en œuvre d'un système de déploiement continu qui prend en charge des itérations rapides pour une application"
+        ]
+      },
+      {
+        "company": "Omeg Up",
+        "job_title": "Ingénieur logiciel, Stage",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Refonte complète du frontend du site web d'Omega Up en utilisant React. js pour concevoir et implémenter une nouvelle interface utilisateur, améliorer l'expérience utilisateur, et intégrer avec les services backend existants avec Reactjs."
+        ]
+      },
+      {
+        "company": "Vision 4 Med",
+        "job_title": "Ingénieur logiciel, Stage",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "Participation à la refonte et à l'extension de la plateforme Saa S Vision 4 Med, spécialisée dans la santé, en développant des fonctionnalités avancées telles que le dossier médical partagé, les ordonnances vérifiées par QR code, la téléconsultation en temps réel (Web RTC), la gestion de cabinet médical, la prise de rendez-vous en ligne, le répertoire hospitalier, la messagerie interne, la recherche par géolocalisation avec filtres, ainsi qu’un chatbot IA pour la landing page."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Lycée Technique Mednine",
+        "degree": "Baccalaureat Mathématique",
+        "field": null,
+        "year": "09/2015 - 6/2019"
+      },
+      {
+        "institution": "Cycle Préparatoires Issat Gabes",
+        "degree": "Cycle Préparatoire",
+        "field": null,
+        "year": "09/2019 - 06/2022"
+      },
+      {
+        "institution": "CYCLE INGENIEUR INFORMATIQUE Esprit Ariana",
+        "degree": "Ingenieur Informatique",
+        "field": null,
+        "year": "09/2022- 12/2025"
+      }
+    ],
+    "languages": [
+      "Anglais",
+      "Francais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:14:11.735519+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

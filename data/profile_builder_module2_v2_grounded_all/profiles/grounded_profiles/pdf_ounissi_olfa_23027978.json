@@ -1,0 +1,187 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\ounissi_olfa_23027978.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\ounissi_olfa_23027978.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6679,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nOunissi Olfa\nwww. linkedin.com/in/olfa-ounissi\nolfa. ounissi 2003@gmail.com\n\n## TECHNICAL SKILLS\n\nÉtudiante en cycle ingénieur spécialisée en Informatique et Multimédia, passionnée par le développement web full stack. Je possède des bases solides en développement et bases de données avec une expérience pratique à travers des projets académiques. Motivée, organisée et curieuse, je recherche un stage d'été pour renforcer mes compétences et contribuer à des projets innovants.\n\n## FORMATION ACADEMIQUE: : FORMATION ACADEMIQUE:\n\nEcole Polytechnique Internationale Privée de Tunis\nCycle ingénieur en informatique Réseaux et multimédia\nl'Institut Supérieur de Gestion de Sousse:\nLicence en Informatique de Gestion \"Business Computing\": Business Intelligence\nLycée Pilote des Arts, El Omrane, Tunis\nBaccalauréat: Section Informatique\n\n## PROJETS PERSONNELS PROJETS PERSONNELS: :\n\nDéveloppement d'une application web de gestion de syndic pour l'organisme El-Hamd:\nPlateforme de gestion des immeubles, propriétaires et dépenses\nDashboard pour visualisation des données\nTechnologies: React. js, Node. js, MySQL.\nPet Adop - Plateforme d'Adoption des Animaux\nApplication web pour publier et adopter des animaux\nTechnologies: React. js, Node. js, , MongoDB\n\n## COMPÉTENCES TECHNIQUES: COMPÉTENCES TECHNIQUES:\n\nProgrammation: C, C++, Python, Java, JavaScript, react\nDeveloppement Web: React. js, Node. js, HTML, CSS\nBases de données: MySQL, MongoDB\nOutils: Git, GitHub, VS Code, Android Studio, Power BI, Word Press\n\n## ACTIVITE EXTRAPROFESSIONNELLES: ACTIVITE EXTRAPROFESSIONNELLES:\n\nMembre d'Microsoft ISGS/Département Marketing\nAnalyse des tendances du public et création de contenu engageant dans le cadre des activités marketing de Microsoft ISGS\n\n## COMPETENCES LINGUISTIQUES: COMPETENCES LINGUISTIQUES:\n\nAnglais (courant) Français (Courant)\nArabe (langue maternelle)",
+    "header_info": {
+      "full_name": "Ounissi Olfa",
+      "email": "2003@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/olfa-ounissi",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9336,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ounissi Olfa",
+      "email": "2003@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/olfa-ounissi",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Passionnée par le développement web full stack, motivée et organisée.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "C",
+        "C++",
+        "Python",
+        "Java",
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "MySQL",
+        "MongoDB",
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Android Studio",
+        "Power BI",
+        "Word Press"
+      ],
+      "soft_skills": [
+        "Motivée",
+        "Organisée",
+        "Curieuse"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web de gestion de syndic pour l'organisme El-Hamd",
+          "Plateforme de gestion des immeubles, propriétaires et dépenses",
+          "Dashboard pour visualisation des données",
+          "Technologies: React.js, Node.js, MySQL"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web pour publier et adopter des animaux",
+          "Technologies: React.js, Node.js, MongoDB"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Ecole Polytechnique Internationale Privée de Tunis",
+        "degree": "Cycle ingénieur en informatique Réseaux et multimédia",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "L'Institut Supérieur de Gestion de Sousse",
+        "degree": "Licence en Informatique de Gestion \"Business Computing\": Business Intelligence",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Pilote des Arts, El Omrane, Tunis",
+        "degree": "Baccalauréat: Section Informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Anglais (courant)",
+      "Français (Courant)",
+      "Arabe (langue maternelle)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:22:42.927347+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

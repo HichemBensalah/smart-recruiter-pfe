@@ -1,0 +1,120 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ikram_hammel_23027739.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ikram_hammel_23027739.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ikram_hammel_23027739.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hammel Ikram",
+      "email": "ikram@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "UML",
+        "Draw. io",
+        "GitHub",
+        "Visual Studio Code",
+        "Agile/SCRUM",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C#",
+        "Java",
+        "Python",
+        "Node.js",
+        ".NET",
+        "Spring Boot",
+        "Bootstrap",
+        "Tailwind",
+        "Next.js",
+        "React",
+        "FastAPI",
+        "PostgreSQL",
+        "LLMs",
+        "Generative AI",
+        "PHP",
+        "Symfony",
+        "MongoDB",
+        "Jenkins",
+        "Docker",
+        "Nexus",
+        "Sonar Qube",
+        "Prometheus",
+        "Grafana"
+      ],
+      "soft_skills": [
+        "Travail en équipe",
+        "Capacité d'adaptation",
+        "Autonomie"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une plateforme web centralisée de gestion du recrutement et des stagiaires.",
+          "Implémentation des modules clés: gestion des utilisateurs et rôles, offres d'emploi, candidatures, tests en ligne et évaluations.",
+          "Développement de fonctionnalités avancées: mécanismes anti-triche, passation d'examens en ligne et suivi du cycle des candidats."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "07/2023",
+        "end_date": "08/2023",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application de suivi de la satisfaction client.",
+          "Implémentation des fonctionnalités d'envoi automatisé d'emails d'enquête, de collecte, de suivi et de consultation des réponses."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "02/2022",
+        "end_date": "07/2022",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application de suivi de la satisfaction client.",
+          "Implémentation des fonctionnalités d'envoi automatisé d'emails d'enquête, de collecte, de suivi et de consultation des réponses."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle",
+        "school": "Ecole supérieure privée d'ingénierie et de technologie (ESPRIT)",
+        "year": "Mention excellente d'ingénieur en Technologies du Web et de"
+      },
+      {
+        "degree": "Licence en Technologie d'informatique",
+        "school": "Institut supérieur des études technologies de Kelibia",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:38:48.855845+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9087,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

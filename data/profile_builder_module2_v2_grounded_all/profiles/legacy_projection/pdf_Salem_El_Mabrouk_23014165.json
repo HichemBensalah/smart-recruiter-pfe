@@ -1,0 +1,89 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Salem_El_Mabrouk_23014165.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Salem_El_Mabrouk_23014165.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Salem_El_Mabrouk_23014165.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Salem El-Mabrouk",
+      "email": "8@gmail.com",
+      "phone": "+216 95 600 752",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Développeur Full-Stack spécialisé dans la conception d'applications web modernes, performantes et scalables.",
+      "hard_skills": [
+        "React",
+        "Angular",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "Spring Boot",
+        "Java",
+        "APIs RESTful",
+        "JWT",
+        "OAuth 2",
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle 19 c",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "CI/CD",
+        "Git",
+        "Postman"
+      ],
+      "soft_skills": [
+        "Rigoureux",
+        "Orienté solution",
+        "Support (N 1)",
+        "Dépannage PC",
+        "support matériel et utilisateurs",
+        "administration systèmes/réseaux"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Briqueterie du centre - Manzel Hayet",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Supervision des indicateurs de production et de consommation énergétique (électricité, gaz) à l'aide de tableaux de bord Excel et Microsoft Dynamics 365",
+          "Gestion des niveaux de stock via le système ERP et les outils de reporting",
+          "Collecte et analyse des données opérationnelles à l'aide de Microsoft Excel",
+          "Fourniture d'un support IT (N 1) aux utilisateurs",
+          "Réalisation de sauvegardes régulières des données et dépannage basique des systèmes d'entreprise"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BTS Télécommunications (Option Informatique)",
+        "school": "Centre Sectoriel de Formation en Électronique de Sousse",
+        "year": "2011"
+      },
+      {
+        "degree": "Maîtrise en Mathématiques-Informatique (Premier Cycle Universitaire )",
+        "school": "Faculté des Sciences de Monastir",
+        "year": "2009"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:36:17.590585+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9933,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

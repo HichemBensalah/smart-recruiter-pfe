@@ -1,0 +1,48 @@
+## TECHNICAL SKILLS
+
+Software Engineer/envelope_alt/envelope_alt/phone +216 54 556 235/github Git Hub/linkedin_sign Linked In/globe Portfolio/map_marker Tunis, Tunisia
+derbalihadil 5@gmail. com
+Skills
+Programming Languages: Java, C, C#, Python, PL/SQL, Type Script, Java Script, HTML 5, CSS 3
+Frameworks & Tools: Spring Boot, Angular , Angular Material, .NET, Microservices, REST API, JWT, Bootstrap, Tailwind CSS, Maven, Docker, Kubernetes, Jenkins, Git, Sonar Qube, Nexus, JUnit, Mockito, Jacoco, Jira, Xray, Keycloak, Git Hub Actions, GCP
+Messaging: Rabbit MQ, Kafka, Web Socket
+AI & Emerging Tech: Open AI API, AI Chatbot Integration, Prompt Engineering
+Software Engineering Degree
+ESPRIT, Tunis
+Bachelor's Degree in Fundamental Chemistry
+Faculty of Sciences of Bizerte
+Baccalaureate in Experimental Sciences
+Iben Khaldoun High School
+Freelance Software Developer
+Remote - Real Estate Web Platform - Java Spring Boot & Angular
+Developed a full-stack real estate platform with Spring Boot and Angular , featuring a dynamic property form, multimedia uploads, advanced filtering, user messaging, and an admin dashboard.
+Deployed and managed the application on a cloud hosting platform with CI/CD practices.
+Freelance Web Developer
+Remote - E-commerce - Word Press & Woo Commerce
+Delivered responsive e-commerce sites (Word Press, Woo Commerce, Elementor) with SEO and performance optimization.
+Built an AI-powered Python chatbot using the Open AI API , integrated with Woo Commerce to automate user support and increase engagement by 35%.
+Final Year Intern - Software Engineer
+UPTECH - Tunis, Tunisia
+Contributed to the architecture of a multi-service portal platform improving inter-department coordination.
+Built a Call Center microservice with Spring Boot and Angular Material , enhancing service efficiency by 50%.
+Integrated AI-powered inquiry handling using the Open AI API with Rabbit MQ messaging for intelligent, reliable async communication.
+Deployed CI/CD pipelines using Jenkins, Sonar Qube, Docker, and Kubernetes.
+Software Engineering Intern
+AIM-IT Consult - Tunis, Tunisia
+Built a ticket-tracking platform integrated with ERP using Spring Boot and Angular.
+Introduced email notifications, dynamic logs, and workload charts, reducing response time by 30%.
+Streamlined workflows and automated reporting, improving team efficiency by 30%.
+Dev Ops & CI/CD Platform
+Technologies: Jenkins, Docker, Prometheus, Grafana, Sonar Qube, Jacoco
+Established CI/CD pipelines reducing deployment time by 40%.
+Containerized applications with Docker to ensure scalability and environment consistency.
+Deployed real-time monitoring dashboards using Prometheus and Grafana.
+Dance Scape Platform
+Technologies: Spring Boot, JWT, Angular, My SQL, Flutter Flow, Firebase
+Built a centralized dance management platform supporting 100+ active users with JWT authentication.
+Designed a mobile-friendly interface with Flutter Flow and Firebase backend services.
+Improved development efficiency by 30% using structured Jira workflows and automated Xray testing.
+
+## LANGUAGES
+
+Languages: Arabic (C 2), French (B 2), English (C 1)

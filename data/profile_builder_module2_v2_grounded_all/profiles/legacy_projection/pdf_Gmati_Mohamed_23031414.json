@@ -1,0 +1,70 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Gmati_Mohamed_23031414.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Gmati_Mohamed_23031414.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Gmati_Mohamed_23031414.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MOHAMED GMATI",
+      "email": "667@gmail.com",
+      "phone": null,
+      "location": "Morneg, Ben Arous, Tunis, Tunisia"
+    },
+    "expertise": {
+      "summary": "System and Network Administrator with strong expertise in cloud infrastructure, database administration, and IT systems management.",
+      "hard_skills": [
+        "Cloud Infrastructure & Migration",
+        "Database Administration",
+        "System Administration",
+        "Devops",
+        "Network Infrastructure",
+        "End-User Support & IT Asset Management",
+        "Application & Web Management"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "System Administrator",
+        "company": "WM Ingénierie I Frenchinnov",
+        "start_date": "07/2024",
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Designed Azure DevOps YAML pipelines to automate FIO solution deployment including build creation, IIS configuration, database provisioning, and OVH DNS setup.",
+          "Implemented end-to-end CI/CD automation using Azure DevOps interface, reducing manual installation time and improving deployment reliability.",
+          "Developed a comprehensive web application for managing organizational roles and employee data",
+          "Designed system architecture and created detailed UML models ensuring clarity and consistency across development phases",
+          "Implemented robust back-end using Spring Boot, Spring Data, Spring Security, MySQL, and Swagger with microservices architecture",
+          "Developed responsive front-end interface using Angular 12, HTML, and CSS following modern web design principles"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master in Security of Information Systems",
+        "school": "ISG TUNIS",
+        "year": "02/2022 - 04/2022"
+      },
+      {
+        "degree": "Bachelor's Degree in Business Computing",
+        "school": "ESSEC TUNIS",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:13:02.958189+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9678,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

@@ -13,6 +13,14 @@ WEIGHT_TEXT_SIMILARITY = 0.30
 WEIGHT_EXPERIENCE = 0.20
 WEIGHT_PROFILE_QUALITY = 0.10
 
+# Effective contribution weights in base_score_before_penalty:
+# sub-score weights are scaled by 0.85 (grounded_quality takes the remaining 0.15)
+_EFFECTIVE_WEIGHT_SKILLS = round(WEIGHT_SKILLS * 0.85, 4)          # 0.34
+_EFFECTIVE_WEIGHT_TEXT_SIMILARITY = round(WEIGHT_TEXT_SIMILARITY * 0.85, 4)  # 0.255
+_EFFECTIVE_WEIGHT_EXPERIENCE = round(WEIGHT_EXPERIENCE * 0.85, 4)  # 0.17
+_EFFECTIVE_WEIGHT_PROFILE_QUALITY = round(WEIGHT_PROFILE_QUALITY * 0.85, 4)  # 0.085
+_EFFECTIVE_WEIGHT_GROUNDED_QUALITY = 0.15
+
 MUST_HAVE_PENALTY_TIERS = [
     (0.8, 1.00),
     (0.6, 0.85),
@@ -218,6 +226,40 @@ def score_candidate(
         "display_name_quality": display_name_quality,
         "name_warning": name_warning,
     }
+
+
+def build_score_breakdown(score_details: dict[str, Any]) -> list[dict[str, Any]]:
+    """Return Matching V3 sub-score contributions sorted by contribution descending."""
+    features = [
+        {
+            "feature": "Compétences",
+            "raw_score": round(float(score_details.get("score_skills") or 0.0), 4),
+            "weight": _EFFECTIVE_WEIGHT_SKILLS,
+        },
+        {
+            "feature": "Similarité sémantique",
+            "raw_score": round(float(score_details.get("score_text_similarity") or 0.0), 4),
+            "weight": _EFFECTIVE_WEIGHT_TEXT_SIMILARITY,
+        },
+        {
+            "feature": "Expérience",
+            "raw_score": round(float(score_details.get("score_experience") or 0.0), 4),
+            "weight": _EFFECTIVE_WEIGHT_EXPERIENCE,
+        },
+        {
+            "feature": "Qualité du profil",
+            "raw_score": round(float(score_details.get("score_profile_quality") or 0.0), 4),
+            "weight": _EFFECTIVE_WEIGHT_PROFILE_QUALITY,
+        },
+        {
+            "feature": "Qualité vérifiée",
+            "raw_score": round(float(score_details.get("score_grounded_quality") or 0.0), 4),
+            "weight": _EFFECTIVE_WEIGHT_GROUNDED_QUALITY,
+        },
+    ]
+    for f in features:
+        f["contribution"] = round(f["raw_score"] * f["weight"], 4)
+    return sorted(features, key=lambda x: x["contribution"], reverse=True)
 
 
 def _skill_overlap(job_profile: dict[str, Any], candidate_profile: dict[str, Any]) -> tuple[list[str], list[str]]:

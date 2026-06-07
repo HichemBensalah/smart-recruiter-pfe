@@ -1,0 +1,97 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Minyar_Benameur_23021413.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Minyar_Benameur_23021413.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Minyar_Benameur_23021413.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Minyar BENAMEUR",
+      "email": "minyarr.benameur@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Vagrant",
+        "Ansible",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Vault",
+        "Prometheus",
+        "Grafana",
+        "Cloud",
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Conception (UML, BPMN)",
+        "Méthodologie agile (Scrum, Kanban, SAFE)"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ing´ enieure DevOps | Projet de fin d'´ etudes",
+        "company": "Sofrecom Tunisie",
+        "start_date": "2022 - 2023",
+        "end_date": null,
+        "city": "Diplˆ om´ ee Mateur, Bizerte",
+        "responsibilities": [
+          "Projet: Cloudification d'une solution d'identit´ e groupe selon une approche DevOps"
+        ]
+      },
+      {
+        "job_title": "Ing´ enieure logiciel | Projet de fin d'ann´ ee en´ erative multimodale pour la pr´",
+        "company": "Talan Tunisie",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et d´ eveloppement de 'Deep Aware', une plateforme de sensibilisation aux attaques Deep Fake."
+        ]
+      },
+      {
+        "job_title": "Ing´ enieure DevOps | Projet de fin d'ann´ ee",
+        "company": "INTERCOM Technologies",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Projet: Pipeline CI/CD pour une application Java (Spring Pet Clinic)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Institut Sup´ erieur des Technologies de l'Information et des Communications (ISTIC)",
+        "year": null
+      },
+      {
+        "degree": "Diplˆ om´ ee",
+        "school": "ENSI",
+        "year": "2024"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:26:42.923587+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9823,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

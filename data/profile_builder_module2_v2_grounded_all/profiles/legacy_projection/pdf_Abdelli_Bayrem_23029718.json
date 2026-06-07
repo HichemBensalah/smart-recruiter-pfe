@@ -1,0 +1,106 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abdelli_Bayrem_23029718.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abdelli_Bayrem_23029718.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Abdelli_Bayrem_23029718.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Bayrem Abdelli",
+      "email": "6@gmail.com",
+      "phone": "+216) 98 126 871",
+      "location": "Manouba, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Bash",
+        "Frontend",
+        "Next. js",
+        "Tailwind CSS",
+        "Redux",
+        "HTML/CSS",
+        "Figma",
+        "Backend and Data",
+        "FastAPI",
+        "Express. js",
+        "REST APIs",
+        "GraphQL",
+        "Web Sockets",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Git",
+        "CI/CD"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Freelance Full Stack & AI Developer",
+        "company": "Self-Employed",
+        "start_date": "Nov 2025",
+        "end_date": "Apr 2026",
+        "city": "Remote",
+        "responsibilities": [
+          "Designed and deployed full stack web applications with REST APIs and dynamic frontends; integrated AI-powered features and third-party connectors across multiple client engagements."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "INSA Strasbourg",
+        "start_date": "Apr 2025",
+        "end_date": "Oct 2025",
+        "city": "Strasbourg, France",
+        "responsibilities": [
+          "Built a scalable full stack platform with React frontend and FastAPI backend for structured data visualization and LLM-based extraction; containerized with Docker ensuring reliability and reproducibility."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "National Cybersecurity Agency",
+        "start_date": "Jun 2023",
+        "end_date": "Sep 2023",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Developed interactive web dashboards for traffic anomaly visualization, built backend detection APIs, and delivered prioritized risk reports aligned with standardized security methodologies."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Computer Science Engineering",
+        "school": "National Engineering School of Sfax",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Preparatory Institute of Tunis",
+        "year": null
+      },
+      {
+        "degree": "Baccalaureate in Mathematics",
+        "school": "High School Pilote Siliana",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:30:08.895933+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9658,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

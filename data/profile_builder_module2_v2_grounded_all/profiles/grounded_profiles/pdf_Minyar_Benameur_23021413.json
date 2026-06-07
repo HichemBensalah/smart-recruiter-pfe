@@ -1,0 +1,192 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Minyar_Benameur_23021413.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Minyar_Benameur_23021413.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9113,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMinyar BENAMEUR\nIng´ enieure en sciences informatiques\nminyarr.benameur@gmail.com\nlinkedin.com/in/minyar\ngithub.com/minyar\n\n## EDUCATION\n\nDiplˆ omes et formations\nDiplˆ om´ ee\nDiplˆ ome d'Ing´ enieur en Sciences Informatiques\n´ Ecole Nationale des Sciences de l'Informatique (ENSI)\nCampus Manouba\nMast` ere Professionnel Co-construit en S´ ecurit´ e des R´\neseaux et Communications Embarqu´ es\nInstitut Sup´ erieur des Technologies de l'Information et des Communications (ISTIC)\nTechnopˆ ole Cedria\nDiplˆ ome national de licence en Technologies de l'Information et de Communication\nInstitut sup´ erieure des sciences appliqu´ ees et de la technologies (ISSATM)\nExp´ eriences professionnelles\nSofrecom Tunisie\n## Ing´ enieure DevOps | Projet de fin d'´ etudes\n**Date: ** 2022 - 2023\n**Location: ** Diplˆ om´ ee Mateur, Bizerte\n## Technicienne en automatisation fibre optique | Projet de fin d'´ etudes\n**Date: ** F´ evrier 2024 - Juin 2024\n\n## TECHNICAL SKILLS\n\nProjet: Cloudification d'une solution d'identit´ e groupe selon une approche DevOps\nD´ eveloppement d'un Vagrantfile pour le provisionnement automatique et reproductible de l'infrastructure.\nCr´ eation de playbooks Ansible pour la mise en place et la configuration d'un cluster Kubernetes.\nMise en place de Hashi Corp Vault pour la gestion s´ ecuris´ ee des secrets.\nAutomatisation du d´ eploiement du composant sur diff´ erents environnements ` a l'aide de chartes Helm et de pipelines CI/CD.\nInt´ egration de tests d'acceptation avec Robot framework et de tests de charge avec K 6.\nMise en place d'un syst` eme complet de supervision (cluster, logs, tests) avec Prometheus et Grafana.\nMigration du composant vers un cloud priv´ e interne 'M´ ethone'.\nOutils: Vagrant, Ansible, Docker, Kubernetes, Helm, Vault, Prometheus, Grafana, Cloud\nTalan Tunisie\nIng´ enieure logiciel |\nTalan Summer Camp\nContribution ` a la conception et au d´ eveloppement de Medico Verse, une plateforme collaborative de d´ ecouverte de m´ edicaments.\nD´ eveloppement et int´\negration de deux mod` eles d'IA g´\nediction, la g´\nen´ eration de structures\nth´\nerapeutiques et l'´\nevaluation post-simulation.\nConception et am´ elioration des interfaces UI/UX pour une exp´ erience utilisateur intuitive des chercheurs et biologistes.\nOutils: IA g´ en´ erative, RAG, Python, UI/UX, Figma, HTML, CSS, JavaScript\nTalan Tunisie\nIng´ enieure logiciel | Projet de fin d'ann´ ee en´ erative multimodale pour la pr´\nConception et d´ eveloppement de 'Deep Aware', une plateforme de sensibilisation aux attaques Deep Fake.\nCr´ eation de sc´ enarios de phishing et de faux contenus (e-mails/audio/vid´ eo) via l'IA g´ en´ erative afin de renforcer la pr´ evention contre les cyberattaques.\nParticipation au d´ eveloppement frontend et ` a la conception UI/UX, am´ eliorant l'ergonomie et l'exp´ erience utilisateur.\nOutils:\nIA g´ en´ erative, Deep Fake, cybers´ ecurit´ e, Python, UI/UX, Figma, HTML, CSS, JavaScript\nINTERCOM Technologies\nIng´ enieure DevOps | Projet de fin d'ann´ ee\nProjet: Pipeline CI/CD pour une application Java (Spring Pet Clinic)\nD´ eveloppement de tests unitaires pour assurer la couverture compl` ete des m´ ethodes du projet.\nInt´ egration des tests dans un pipeline CI/CD pour une validation automatique.\nInt´ egration du r´ ef´ erentiel GitHub avec Jenkins pour automatiser les builds via des webhooks apr` es chaque push de code.\nOutils: Docker, Jenkins, JUnit, Mockito, Ja Co Co, Intellij, Git, GitHub\nComp´ etences\nConception et m´ ethodologie: Conception (UML, BPMN), M´ ethode agile (Scrum, Kanban, SAFE)\nTechnologies DevOps et cloud: Vagrant, Terraform, Docker, Kubernetes, Ansible, Helm, Vault, Prometheus, Grafana, Git, Gitlab CI/CD, GitHub, Jenkins, AWS, GCP, JUnit, Robot framework, K 6 operator\nR´ eseau et administration syst` eme: ENSP, Cisco Packet Tracer, Wireshark, Putty, Win SCP, Linux, Windows, Ubuntu server\nProgrammation et Web: Python, JavaScript, HTML, CSS, MySQL\n\n## MACHINE LEARNING & DEEP LEARNING\n\nD´ eveloppement d'un algorithme de Deep Learning pour automatiser un outil de v´ erification des donn´ ees FTTH dans une zone PM pour l'op´ erateur Orange France.\nOutils: CAPFT, QGIS, Fibre optique, Deep Learning, Python\nS 2 T\nAnalyste r´ eseaux et t´ el´ ecommunications | Stage d'´ et´ e\nAnalyse approfondie de l'architecture r´ eseau, ´ evaluation des politiques de s´ ecurit´ e, et identification des services (processus d'appel d'offres, cahier des charges. . . ) et des besoins logiciels (VMware, GED, ERP, AD, Kaspersky).\nOutils: VPN, IDS/IPS, Protocoles TCP/IP, Wireshark, cisco packet tracer\n\n## ACADEMIC PROJECTS\n\nProjets\nENSI\n## Outils de Gestion de Projets: Trello, Figma\n**Date: ** D´ ecembre 2024\n## Langue: Arabe (natif), Fran¸ cais (B 2), Anglais (B 1)",
+    "header_info": {
+      "full_name": "Minyar BENAMEUR",
+      "email": "minyarr.benameur@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/minyar",
+      "github": "github.com/minyar"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9823,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Minyar BENAMEUR",
+      "email": "minyarr.benameur@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin.com/in/minyar",
+      "github": "github.com/minyar"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "Vagrant",
+        "Ansible",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Vault",
+        "Prometheus",
+        "Grafana",
+        "Cloud",
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Conception (UML, BPMN)",
+        "Méthodologie agile (Scrum, Kanban, SAFE)"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Sofrecom Tunisie",
+        "job_title": "Ing´ enieure DevOps | Projet de fin d'´ etudes",
+        "start_date": "2022 - 2023",
+        "end_date": null,
+        "city": "Diplˆ om´ ee Mateur, Bizerte",
+        "responsibilities": [
+          "Projet: Cloudification d'une solution d'identit´ e groupe selon une approche DevOps"
+        ]
+      },
+      {
+        "company": "Talan Tunisie",
+        "job_title": "Ing´ enieure logiciel | Projet de fin d'ann´ ee en´ erative multimodale pour la pr´",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et d´ eveloppement de 'Deep Aware', une plateforme de sensibilisation aux attaques Deep Fake."
+        ]
+      },
+      {
+        "company": "INTERCOM Technologies",
+        "job_title": "Ing´ enieure DevOps | Projet de fin d'ann´ ee",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Projet: Pipeline CI/CD pour une application Java (Spring Pet Clinic)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Sup´ erieur des Technologies de l'Information et des Communications (ISTIC)",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "ENSI",
+        "degree": "Diplˆ om´ ee",
+        "field": "Sciences Informatiques",
+        "year": 2024
+      }
+    ],
+    "languages": [
+      "Arabe (natif)",
+      "Fran¸ cais (B 2)",
+      "Anglais (B 1)"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:26:42.923587+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

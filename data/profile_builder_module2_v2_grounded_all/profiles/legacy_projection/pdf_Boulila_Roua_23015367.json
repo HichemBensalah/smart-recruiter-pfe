@@ -1,0 +1,77 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Boulila_Roua_23015367.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Boulila_Roua_23015367.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Boulila_Roua_23015367.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Roua BOULILA",
+      "email": "25@gmail.com",
+      "phone": "+216 29 640 141",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Gestion des profils utilisateurs, suivi des performances et programme d'entraînement personnalisé.",
+      "hard_skills": [
+        ".NET Core Web API",
+        "Angular Material",
+        "SQL Server",
+        "SQLite",
+        "Java",
+        "Python",
+        "C++",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "soft_skills": [
+        "Gestion de projet",
+        "Conception d'interfaces utilisateur",
+        "Développement web",
+        "Intégration de bases de données",
+        "Authentification sécurisée"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Gestion des profils utilisateurs",
+          "Suivi des performances",
+          "Programme d'entraînement personnalisé"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Génie Logiciel Systèmes d'Information",
+        "school": "ESPRIT, Tunisie",
+        "year": null
+      },
+      {
+        "degree": "Licence Nationale en Sciences Informatiques - Génie Logiciel et Systèmes d'Information",
+        "school": "Institut Supérieur des Langues Appliquées et d'Informatique de Béja",
+        "year": "['Septembre 2022 - Juin 2025']"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:45:54.499082+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8307,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

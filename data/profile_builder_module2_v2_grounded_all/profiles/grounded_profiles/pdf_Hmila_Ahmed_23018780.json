@@ -1,0 +1,258 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hmila_Ahmed_23018780.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hmila_Ahmed_23018780.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.883,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAhmed Hmila/phone-alt +216 29 69 26 90 ·/envelope ahmed 7 hmila@gmail.com ·/linkedin linkedin.com/in/ahmed-hmila\n\n## PROFESSIONAL SUMMARY\n\nSummary\n\n## TECHNICAL SKILLS\n\nMotivated Junior DevOps Engineer seeking a first professional experience. Hands-on experience with Kubernetes, Git Ops (Argo CD), and CI/CD automation. Passionate about building resilient infrastructure and optimizing cloud resources.\nTunis\nCloud Computing Engineering\nTunis\nDevOps Project\nDeveloped an automated CI/CD pipeline using Jenkins for code integration, testing, deployment, and monitoring. Integrated Sonar Qube for code quality, Mockito for unit tests, and Ja Co Co for coverage reporting. Used Docker and Trivy for containerization and vulnerability scanning. Orchestrated services with Docker Compose . Implemented real-time monitoring via Prometheus and Grafana dashboards.\nScalable Web Application Development and Cloud Hosting\nDesigned and developed a scalable web application using Spring Boot microservices and Angular . Architected and deployed resilient cloud infrastructure on Open Stack . Optimized for high availability and performance.\nInfrastructure as a Service (Iaa S/Paa S) on Kubernetes and Open Stack Nov 2023 - May 2024 Collaborated on the design and implementation of an Infrastructure as a Service solution. Automated application deployment on Kubernetes clusters. Managed virtual resources using Open Stack, improving scalability and system reliability.\nDevOps Engineer (Hybrid)\nDeveloped a MERN stack application for a referral rewards system, enabling users to recommend others and earn incentives.\nDockerized the application into a container image and created Kubernetes manifest resources to deploy it in a Kubernetes cluster.\nImplemented a CI/CD pipeline triggered by pull requests (PRs) to automatically rebuild Docker images and redeploy updates to the cluster.\nConfigured Argo CD to detect changes in container image tags and automatically synchronize the Kubernetes cluster with the latest image version.\nIntegrated the EFK stack (Elasticsearch, Fluent Bit, Kibana) for centralized logging and real-time monitoring.\nStation SSCA\nQuebec, Canada (Remote) Jun 2024 - Aug 2024\nDevOps Engineer\nDeveloped a GitHub Actions workflow to sign Android .aab files and deploy to Firebase App Distribution .\nMigrated CI/CD workflows from Git Lab to GitHub, ensuring compatibility.\nBuilt a deployment flow for Firebase Cloud Functions .\nAutomated unit and E 2 E tests using JUnit and Playwright .\nSer Ops\nCloud & DevOps Intern (On-site)\nDockerized a multi-service stack (Python, Node. js, MongoDB, Angular) with Docker Compose .\nDeployed Prometheus and Grafana for system monitoring.\nWrote Ansible roles to automate deployments of Joomla and Sonar Qube.\nSkills & Interests\nSkills: AWS, GCP, Git, Docker, Terraform, CI/CD, Kubernetes, Ansible, Prometheus, Nginx, Helm, Argo CD\nInterests:\nFootball, ping pong, football analytics, traveling, investing, podcasts\n\n## EDUCATION\n\nESPRIT\nISTIC (Higher Institute of Information and Communication Technologies)\n## Bachelor's Degree in Telecommunications\n**Date: ** September 2022 - July 2025\n**Location: ** Tunis, Tunisia\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\n\n## PROFESSIONAL EXPERIENCE\n\nExperience & Leadership\nJOB 2 NEXT\n\n## LANGUAGES\n\nLanguages: Arabic (Native), English (Full Professional Proficiency), French (Full Professional Proficiency)",
+    "header_info": {
+      "full_name": null,
+      "email": "hmila@gmail.com",
+      "phone": "+216 29 69 26 90",
+      "location": null,
+      "linkedin": "linkedin.com/in/ahmed-hmila",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9766,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[2].city",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "experiences[3].city",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].responsibilities[2]",
+      "experiences[3].responsibilities[3]",
+      "experiences[3].responsibilities[4]",
+      "experiences[4].city",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].responsibilities[1]",
+      "experiences[4].responsibilities[2]",
+      "experiences[4].responsibilities[3]",
+      "experiences[4].start_date",
+      "experiences[5].job_title",
+      "experiences[5].responsibilities[0]",
+      "experiences[5].responsibilities[1]",
+      "experiences[5].responsibilities[2]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ahmed Hmila",
+      "email": "hmila@gmail.com",
+      "phone": "+216 29 69 26 90",
+      "location": null,
+      "linkedin": "linkedin.com/in/ahmed-hmila",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Motivated Junior DevOps Engineer seeking a first professional experience.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Kubernetes",
+        "Git Ops (Argo CD)",
+        "CI/CD automation",
+        "Docker",
+        "Trivy",
+        "Prometheus",
+        "Grafana",
+        "Jenkins",
+        "Sonar Qube",
+        "Mockito",
+        "Ja Co Co"
+      ],
+      "soft_skills": [
+        "building resilient infrastructure",
+        "optimizing cloud resources",
+        "scalable web application development",
+        "cloud hosting",
+        "infrastructure as a service (IaaS)",
+        "hybrid devops engineer"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "DevOps Project",
+        "start_date": "Nov 2023 - May 2024",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Developed an automated CI/CD pipeline using Jenkins for code integration, testing, deployment, and monitoring.",
+          "Integrated Sonar Qube for code quality, Mockito for unit tests, and Ja Co Co for coverage reporting.",
+          "Used Docker and Trivy for containerization and vulnerability scanning.",
+          "Orchestrated services with Docker Compose .",
+          "Implemented real-time monitoring via Prometheus and Grafana dashboards."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Scalable Web Application Development and Cloud Hosting",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Designed and developed a scalable web application using Spring Boot microservices and Angular .",
+          "Architected and deployed resilient cloud infrastructure on Open Stack .",
+          "Optimized for high availability and performance."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Infrastructure as a Service (IaaS) on Kubernetes and Open Stack",
+        "start_date": "Nov 2023 - May 2024",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Collaborated on the design and implementation of an Infrastructure as a Service solution.",
+          "Automated application deployment on Kubernetes clusters.",
+          "Managed virtual resources using Open Stack, improving scalability and system reliability."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "DevOps Engineer (Hybrid)",
+        "start_date": null,
+        "end_date": null,
+        "city": "Station SSCA",
+        "responsibilities": [
+          "Developed a MERN stack application for a referral rewards system, enabling users to recommend others and earn incentives.",
+          "Dockerized the application into a container image and created Kubernetes manifest resources to deploy it in a Kubernetes cluster.",
+          "Implemented a CI/CD pipeline triggered by pull requests (PRs) to automatically rebuild Docker images and redeploy updates to the cluster.",
+          "Configured Argo CD to detect changes in container image tags and automatically synchronize the Kubernetes cluster with the latest image version.",
+          "Integrated the EFK stack (Elasticsearch, Fluent Bit, Kibana) for centralized logging and real-time monitoring."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "DevOps Engineer",
+        "start_date": "Jun 2024 - Aug 2024",
+        "end_date": null,
+        "city": "Quebec, Canada (Remote)",
+        "responsibilities": [
+          "Developed a GitHub Actions workflow to sign Android .aab files and deploy to Firebase App Distribution.",
+          "Migrated CI/CD workflows from Git Lab to GitHub, ensuring compatibility.",
+          "Built a deployment flow for Firebase Cloud Functions.",
+          "Automated unit and E 2 E tests using JUnit and Playwright."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Cloud & DevOps Intern (On-site)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Dockerized a multi-service stack (Python, Node. js, MongoDB, Angular) with Docker Compose.",
+          "Deployed Prometheus and Grafana for system monitoring.",
+          "Wrote Ansible roles to automate deployments of Joomla and Sonar Qube."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT",
+        "degree": "Bachelor's Degree in Telecommunications",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic (Native)",
+      "English (Full Professional Proficiency)",
+      "French (Full Professional Proficiency)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:34:38.603645+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,74 @@
+## HEADER
+
+Hammel Ikram
+Ingénieure en technologies du web et de l'internet
+hammel 22 ikram@gmail. com
+Tunis
+Ikram Hamel
+
+## PROFESSIONAL SUMMARY
+
+PROFIL
+COMPÉTENCES
+Outils & Méthodologies:
+UML, Draw. io, Git Hub, Visual Studio Code, Agile/SCRUM
+Développement Web: HTML, CSS, Java Script, C#, Java, Python, Node. js, .NET, Spring Boot, Bootstrap, Tailwind, Next. js, React, Fast API
+Intégration de modules d'intelligence artificielle : analyse automatique des CV, scoring et matching des profils, recherche intelligente de talents.
+Stack : Fast API (Python), Next. js, Postgre SQL, LLMs, Generative AI, REST API
+Conception et développement d'une application web immobilière dédiée à la vente, la location et la réservation de maisons d'hôtes.
+Implémentation des fonctionnalités de publication et visualisation des annonces, gestion des biens et des réservations.
+Stack: PHP, Symfony, Mongo DB (No SQL), MVC, UML
+
+## TECHNICAL SKILLS
+
+Ingénieure en technologies du web et de l'internet, spécialisée en Software Engineering. Solide expérience en analyse, conception et développement d'applications fullstack intégrant Dev Ops et intelligence artificielle. Orientée qualité, performance et évolutivité.
+Bases de données: Postgre SQL, Mongo DB, My SQL
+Dev Ops & CI/CD:
+Jenkins, Docker, Nexus, Sonar Qube, Prometheus, Grafana
+Intelligence Artificielle:
+IA générative, LLMs , agents IA spécialisés
+
+## DIPLÔMES ET FORMATIONS
+
+Ecole supérieure privée d'ingénierie et de technologie (ESPRIT), Cycle
+l'Internet 2022 - 2025 Mention excellente d'ingénieur en Technologies du Web et de
+
+## EDUCATION
+
+### Stage de fin d'études, 3 S:Standard Sharing Software
+- Conception et développement d'une plateforme web centralisée de gestion du recrutement et des stagiaires.
+Implémentation des modules clés : gestion des utilisateurs et rôles, offres d'emploi, candidatures, tests en ligne et évaluations.
+Développement de fonctionnalités avancées : mécanismes anti-triche, passation d'examens en ligne et suivi du cycle des candidats.
+### Institut supérieur des études technologies de kelibia,
+- Licence en Technologie d'informatique
+### Développeuse web, Archimomi
+**Date:** 07/2023 - 08/2023
+Lycée Mourouj 6 Ben Arous, Diplôme national de Baccalauréat en sciences expérimentales
+**Date:** 2018 - 2019
+- Mention assez bien
+### Stage de fin d'études, 3 S:Standard Sharing Software
+**Date:** 02/2022 - 07/2022
+- Conception et développement d'une application de suivi de la satisfaction client.
+Implémentation des fonctionnalités d'envoi automatisé d'emails d'enquête, de collecte, de suivi et de consultation des réponses.
+
+## LANGUAGES
+
+LANGUES
+Arabe
+Français
+Stack: C#, .NET, SQL Server, MVC, UML
+Anglais
+ATOUTS
+Application web, Esprit
+Travail en équipe
+Capacité d'adaptation
+Autonomie
+
+## PROJETS ACADÉMIQUES
+
+Conception et développement de l'application web « El Kindy » dédiée à la gestion des activités d'un conservatoire de musique.
+Implémentation des fonctionnalités de gestion des inscriptions, des cours, des professeurs, des emplois du temps et de la réservation des salles.
+Stack: Node. js, React, Python, Mongo DB (No SQL)
+Application web desktop et mobile, Esprit
+Conception et développement de l'application multi-plateforme « Well Med » dédiée aux services de santé et de bien-être.
+Stack: PHP, Symfony, My SQL, Java FX, Codename One

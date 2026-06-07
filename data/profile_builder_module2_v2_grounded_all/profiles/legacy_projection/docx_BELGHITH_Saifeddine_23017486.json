@@ -1,0 +1,153 @@
+{
+  "source_path": "data\\raw_cv\\docx\\BELGHITH_Saifeddine_23017486.docx",
+  "artifact_path": "data\\processed_official_module1\\docx\\BELGHITH_Saifeddine_23017486.json",
+  "source_format": "docx",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\docx\\BELGHITH_Saifeddine_23017486.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "SAIFEDDINE BELGHITH",
+      "email": "12@gmail.com",
+      "phone": "56 956 333/25 889 390",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieur en informatique full-stack spécialisé dans la conception d'applications web scalables, l'architecture logicielle et l'intégration de systèmes d'intelligence artificiale.",
+      "hard_skills": [
+        "React.js",
+        "Angular",
+        "JavaScript",
+        "HTML 5",
+        "CSS 3",
+        "Bootstrap",
+        "Tailwind",
+        "Node.js/Express.js",
+        "Python",
+        "Spring Boot",
+        ".NET Core",
+        "REST API",
+        "RAG",
+        "MySQL",
+        "PostgreSQL",
+        "SQL Server",
+        "Git",
+        "GitHub",
+        "Jira",
+        "Trello",
+        "Agile/Scrum",
+        "Kanban",
+        "Figma",
+        "Firebase",
+        "Docker",
+        "Jenkins",
+        "CI/CD pipelines",
+        "Linux deployment"
+      ],
+      "soft_skills": [
+        "Autonomie",
+        "Réactivité",
+        "Gestion du stress",
+        "Curiosité technologique",
+        "Analyse des besoins et rédaction de cahiers des charges fonctionnels et techniques",
+        "Rédaction de documentation technique pour développeurs et utilisateurs",
+        "Gestion de configuration et versioning de code avec Git"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur Full Stack",
+        "company": "Assessia – Plateforme d'Audit Intelligente",
+        "start_date": "05/2025",
+        "end_date": "03/2026",
+        "city": null,
+        "responsibilities": [
+          "Plateforme d'audit intelligente (React, Node.js, MySQL, Firebase)",
+          "Analyse des besoins clients et rédaction des spécifications fonctionnelles et techniques",
+          "Architecture et développement full-stack et API RESTful",
+          "Intégration de 2 systèmes IA: RAG (chat client) + moteur d'analyse d'audit (rapports & recommandations)",
+          "Automatisation des tests (Robot Framework) + CI/CD (Jenkins)",
+          "Travail en équipe Agile (Kanban/Trello)",
+          "Conteneurisation avec Docker et déploiement sur serveur Linux"
+        ]
+      },
+      {
+        "job_title": "Développeur Full Stack",
+        "company": "Vision 4 Med – Plateforme Médicale",
+        "start_date": "05/2024",
+        "end_date": "05/2025",
+        "city": null,
+        "responsibilities": [
+          "Plateforme médicale multi-profils (React.js, Node.js, Express.js, MySQL)",
+          "Analyse des besoins et conception de l'architecture logicielle",
+          "Développement full-stack et APIs REST",
+          "Test et validation des APIs avec Postman et automatisation avec Robot Framework",
+          "Conteneurisation avec Docker et déploiement en environnement Linux",
+          "Collaboration en équipe Agile/Scrum avec gestion des tâches via Trello"
+        ]
+      },
+      {
+        "job_title": "Développeur Word Press",
+        "company": "Jouzef Travel Agency",
+        "start_date": "12/2023",
+        "end_date": "04/2024",
+        "city": null,
+        "responsibilities": [
+          "Conception et déploiement d'une plateforme web dynamique pour une agence de voyage (Hébergement OVHcloud)",
+          "Customisation avancée: Adaptation de l'UI/UX et maintenance évolutive du système",
+          "Accompagnement client: Rédaction de la documentation technique et formation utilisateur"
+        ]
+      },
+      {
+        "job_title": "Développeur Java/Angular (Stage)",
+        "company": "ALTERSIS Performance Tunis",
+        "start_date": "02/2023",
+        "end_date": "06/2023",
+        "city": null,
+        "responsibilities": [
+          "Application de gestion des compétences (Angular, Spring Boot, MySQL)",
+          "Analyse des besoins et définition des spécifications et de l'architecture logicielle",
+          "Collaboration au sein d'une équipe internationale en environnement Agile/Scrum",
+          "Gestion et suivi des tâches via Jira",
+          "Conteneurisation Docker Compose et déploiement sur environnement Linux (Cent OS)",
+          "Mise en place de monitoring et tests de performance avec Dynatrace"
+        ]
+      },
+      {
+        "job_title": "Développeur Python (Stage)",
+        "company": "Evey Technologies Tunis",
+        "start_date": "07/2022",
+        "end_date": "08/2022",
+        "city": null,
+        "responsibilities": [
+          "Développement et intégration d'un plugin de paiement Konnect sur le CMS Pretix",
+          "Intégration d'API tierces et gestion des workflows de paiement"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Génie Informatique",
+        "school": "ULT – Spécialité Génie Logiciel",
+        "year": "2023"
+      },
+      {
+        "degree": "Licence en Sciences Informatiques",
+        "school": "ISIMM Gabès",
+        "year": "2015"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:17:01.426906+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9664,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

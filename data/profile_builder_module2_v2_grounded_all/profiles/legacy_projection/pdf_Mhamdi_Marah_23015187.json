@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mhamdi_Marah_23015187.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mhamdi_Marah_23015187.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mhamdi_Marah_23015187.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MARAH MHAMDI",
+      "email": "marahmhamdi 98@gmail.com",
+      "phone": null,
+      "location": "Tunisie"
+    },
+    "expertise": {
+      "summary": "Ingénieure en Génie Informatique Spécialisée en Science des Données et Intelligence Artificielle, avec une solide expérience en développement Full Stack et Data Analytics.",
+      "hard_skills": [
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SQL",
+        "MySQL",
+        "Angular",
+        "Spring Boot"
+      ],
+      "soft_skills": [
+        "SCRUM",
+        "Optimisation du processus de génération des documents administratifs",
+        "Conception d'une plateforme de gestion des employés et de prise de rendezvous en ligne pour les patients"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeuse Mobile",
+        "company": "La Poste Tunisienne",
+        "start_date": null,
+        "end_date": null,
+        "city": "Kairouan",
+        "responsibilities": [
+          "Conception et développement d'une application mobile pour la gestion en ligne des demandes de stage."
+        ]
+      },
+      {
+        "job_title": "Ingénieure en Génie Informatique Spécialisée en Science des Données et Intelligence Artificielle",
+        "company": "Ecovis",
+        "start_date": null,
+        "end_date": null,
+        "city": "Barchalona",
+        "responsibilities": [
+          "Développement d'une application web pour la gestion des employés. Création d'un tableau de bord interactif pour l'analyse et la visualisation des données."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme National d'Ingénieur en Génie Informatique",
+        "school": "École Centrale Polytechnique Privée de Tunis",
+        "year": "2021 - 2024"
+      },
+      {
+        "degree": "Licence Fondamentale en Science de l'Informatique",
+        "school": "Institut Supérieur d'Informatique et de Gestion de Kairouan",
+        "year": "2019 - 2021"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:25:16.608233+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.961,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

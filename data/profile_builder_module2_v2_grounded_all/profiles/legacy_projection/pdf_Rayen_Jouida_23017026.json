@@ -1,0 +1,111 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rayen_Jouida_23017026.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rayen_Jouida_23017026.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Rayen_Jouida_23017026.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "RAYEN JOUIDA",
+      "email": "Rayen.jouida@esprit.tn",
+      "phone": "(216) 50 239 096",
+      "location": "Ariana, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Flutter",
+        "Spring",
+        "JAVA",
+        "Symfony",
+        "JavaScript",
+        "PHP",
+        ".NET",
+        "Angular",
+        "TypeScript",
+        "ReactJS",
+        "NodeJS",
+        "HTML",
+        "CSS",
+        "Tailwind",
+        "Bootstrap",
+        "SQL",
+        "NoSQL",
+        "Word Press",
+        "Laravel",
+        "Django"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Prologic/Final Year Internship (Engineering Cycle)",
+        "start_date": "25/01/2025",
+        "end_date": "15/07/2025",
+        "city": "TUNIS",
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "PTE",
+        "start_date": "1/06/2023",
+        "end_date": "10/09/2023",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "' Quizzini '",
+        "start_date": "1/06/2023",
+        "end_date": "10/09/2023",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "' Dhayen '",
+        "start_date": "2/07/2022",
+        "end_date": "10/10/2022",
+        "city": "FRANCE, PARIS",
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "' M 3 ak '",
+        "start_date": "1/02/2022",
+        "end_date": "30/05/2022",
+        "city": "NABEUL",
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree",
+        "school": "IEEE Isima Student Branch - Engineering Degree in Computer Science, specialized in Web and Internet Technologies",
+        "year": null
+      },
+      {
+        "degree": "Bachelor's Degree in Computer Science",
+        "school": "Private Higher School of Engineering and Technology",
+        "year": "2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:26:24.535702+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6446,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

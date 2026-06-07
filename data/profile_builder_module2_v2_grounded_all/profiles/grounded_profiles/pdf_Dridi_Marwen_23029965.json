@@ -1,0 +1,212 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Dridi_Marwen_23029965.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Dridi_Marwen_23029965.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.778,
+  "normalization": {
+    "cleaned_markdown": "## PROFESSIONAL EXPERIENCE\n\nExperience\nDridi Marwen\nDÉVELOPPEUR FULL STACK à EYEOTECH\nAvril 2024-présent Janvier 2025-présent\nApplication de gestion de file d'attente\nDéveloppement backend avec architecture microservices utilisant Nest JS\nImplémentation de Redis pour la gestion des files d'attente en temps réel\nIntégration avec MongoDB pour le stockage des données transactionnelles\nOptimisation des performances pour supporter des pics de charge élevés\nDéveloppement d'API RESTful et GraphQL pour les clients frontaux\nDéveloppeur Full-Stack passionné avec 3 ans d'expérience dans la création d'applications web et mobiles performantes. Expertise en:\n## Développement Front-End (React. js, React Native)\n## Architecture Back-End (Node. js, Express, Nest JS)\n## Bases de données (MongoDB, PostgreSQL, Redis)\n**Date: ** Mars 2023-Février 2024\n## Intégration d'APIs (Stripe, Firebase, Web Sockets)\n\n## ACADEMIC PROJECTS\n\nPlateforme de dépôt de projets et messagerie Avril 2024-Décembre 2024\nDéveloppement full stack d'une plateforme pour club d'affaires avec Express. js et Nest JS\nImplémentation d'un système de dépôt et suivi de projets avec workflow personnalisable\nConception d'une messagerie temps réel avec Web Sockets et notifications push\nGestion des rôles et permissions (RBAC) pour différents types d'utilisateurs\nInterface admin complète avec tableau de bord analytique\nDÉVELOPPEUR MOBILE (REACT NATIVE) à IMAGINEPARTNERS Juin 2022-Mars 2024\nApplications e-commerce agricole\nDéveloppement de 3 applications interconnectées (vente, achat, livraison) avec React Native\n## Intégration de paiements sécurisés via Stripe (cartes bancaires, wallet)\n**Date: ** Juin 2022-Mars 2023\n- Système complet de notifications push pour les mises à jour de commandes\n- Tracking GPS en temps réel pour le suivi des livraisons\n- Backend avec Node. js/Express et PostgreSQL pour la gestion des transactions\n- Synchronisation des données entre applications via API REST\n- Développement d'une application de rencontres mobile multiplateforme (i OS/Android) avec React Native\n- Implémentation d'une messagerie en temps réel avec Web Sockets\n- Mise en place de notifications push (Firebase) et système de tracking géolocalisé\n- Architecture backend avec Node. js/Express et base de données MongoDB\n\n## PROFESSIONAL SUMMARY\n\nProfil\n\n## TECHNICAL SKILLS\n\nÀ la recherche d'un poste stimulant pour mettre en œuvre mes compétences techniques et mon esprit d'innovation dans des projets ambitieux. Capacité avérée à livrer des solutions robustes et évolutives dans des délais serrés.\nApplication de rencontres\nCoordonnées de contact\n@ dridimarwen 58@gmail.com\nConception d'interface utilisateur intuitive avec animations fluides\nTECHNICIEN IT à GROUPE DRAXLMAIER SILIANA. Janvier 2017 - Février 2017\nCOMPÉTENCES\nDéveloppement d'une application mobile de restaurant: Conceptualisation, conception et développement réussis d'une application mobile de restaurant à partir de zéro.\nUML\nJavascript/typescript\nSTAGE D'INITIATION à TT SILIANA\nHTML\nConfiguration ADSL\nCSS\nReact. js\nCQC - CERTIFICAT DE QUALIFICATION ET DE COMPÉTENCES . Centre\nTechnologique Elife Siliana . génie logiciel\nLicence appliquée en technologies et sciences de l'informatiques ISET KAIROUAN . Séptembre 2014 - Juillet 2017\nSystémes embarqués et mobiles\nFirebase Cloud Messaging\nmaternelle.\nArabe:\nmoyen.\nFrançais:\nAnglais: moyen.\n\n## H +216 40 404 420\n\nm linkedin.com/in/marwen-dridi 013007138/## EDUCATION\n\nReact Native\nNode. js\nNext. js\nExpress. js\nNest JS\nArchitecture microservices\nRedis\nMongoDB\nPostgreSQL\nSQL\nWeb Sockets/Socket. io\nStripe API\nLangue",
+    "header_info": {
+      "full_name": "Dridi Marwen",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9556,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[1].responsibilities[5]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Dridi Marwen",
+      "email": "dridimarwen58@gmail.com",
+      "phone": "+216 40 404 420",
+      "location": null,
+      "linkedin": "linkedin.com/in/marwen-dridi",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 3,
+      "hard_skills": [
+        "React.js",
+        "React Native",
+        "Node.js",
+        "Express.js",
+        "Nest JS",
+        "Redis",
+        "MongoDB",
+        "PostgreSQL",
+        "SQL",
+        "Web Sockets/Socket.io",
+        "Stripe API",
+        "UML",
+        "Javascript/typescript",
+        "HTML",
+        "CSS"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "EYEOTECH",
+        "job_title": "DÉVELOPPEUR FULL STACK",
+        "start_date": "Avril 2024",
+        "end_date": "Janvier 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement backend avec architecture microservices utilisant Nest JS",
+          "Implémentation de Redis pour la gestion des files d'attente en temps réel",
+          "Intégration avec MongoDB pour le stockage des données transactionnelles",
+          "Optimisation des performances pour supporter des pics de charge élevés",
+          "Développement d'API RESTful et GraphQL pour les clients frontaux"
+        ]
+      },
+      {
+        "company": "IMAGINEPARTNERS",
+        "job_title": "DÉVELOPPEUR MOBILE (REACT NATIVE)",
+        "start_date": "Juin 2022",
+        "end_date": "Mars 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement de 3 applications interconnectées (vente, achat, livraison) avec React Native",
+          "Intégration de paiements sécurisés via Stripe (cartes bancaires, wallet)",
+          "Système complet de notifications push pour les mises à jour de commandes",
+          "Tracking GPS en temps réel pour le suivi des livraisons",
+          "Backend avec Node.js/Express et PostgreSQL pour la gestion des transactions",
+          "Synchronisation des données entre applications via API REST"
+        ]
+      },
+      {
+        "company": "GROUPE DRAXLMAIER SILIANA",
+        "job_title": "TECHNICIEN IT",
+        "start_date": "Janvier 2017",
+        "end_date": "Février 2017",
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISET KAIROUAN",
+        "degree": "Licence appliquée en technologies et sciences de l'informatiques",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Centre Technologique Elife Siliana",
+        "degree": "CQC - CERTIFICAT DE QUALIFICATION ET DE COMPÉTENCES",
+        "field": "génie logiciel",
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [
+      "CQC - CERTIFICAT DE QUALIFICATION ET DE COMPÉTENCES"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T18:35:11.909083+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

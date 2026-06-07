@@ -1,0 +1,184 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\hibat_allah_akermi_23026406.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\hibat_allah_akermi_23026406.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8338,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nHibat Allah AKERMI\nIngénieure en informatique - Spécialité Génie Logiciel\n21651272925 hibatallahakermi@gmail.com Github: https: //github.com/Hibaakermi Ariana\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## TECHNICAL SKILLS\n\nFraîchement diplômée en ingénierie informatique avec une spécialité en génie logiciel, je suis actuellement à la recherche de ma première expérience professionnelle. Passionnée par le développement web, le développement mobile et l'intelligence artificielle, je souhaite mettre en pratique mes connaissances et acquérir de nouvelles compétences au sein d'une entreprise dynamique. Je suis motivée à contribuer à des projets innovants et à relever de nouveaux défis dans le domaine de l'informatique.\nGestion bibliothèque express Springboot, Thymeleaf\nReconnaissance des fleurs application mobile: Flutter, CNN, Flask, Github Actions, Firebase\nIEEE TEKUP SB site web\nMini Market Application Django\nINOVALYA Plateforme web Nest JS(Microservices), Angular\n\n## PROJETS PERSONNELS\n\nService Provide application mobile\nAndroid, Firebase\nGestion salles de reunion NodeJS, Angular\nNodeJS, Angular\nEvaluation de films\nParapharmacie .Net Core\nAngular, NodeJS\n\n## EDUCATION\n\nUniversité privée de Technologie & Ingénierie TEK-UP\nDiplôme National d'ingénieur informatique: Génie Logiciel et système d'information\nL'école nationale d'électronique et des télécommunications de Sfax ENET'COM\nMaster de Recherche en Télécommunications et Systèmes des réseaux Sujet: Conception d'un système de traitement du signal SSVEP pour les systèmes d'interface cerveau machine (BCI) utilisant les signaux électroencéphalographiques (EEG))\nL'lnstitut Supérieur des Sciences Appliquées & Technologie ISSAT Gafsa\nLicence Fondamentale en Sciences et Technologies d'information et de la Communication Sujet: Conception et réalisation d'un robot gyropode à deux roues\nLycée Ahmed Tlili Ksar Gafsa\n## Baccalauréat: Sciences Expérimentales\n**Date: ** 2025\n**Location: ** Agile, Scrum\n- Stage PFE\n- Dhahri Al-Kubaisi Technologies\n- Stage 2ème année cycle ingénieur IEEE TEKUP Student Branch\n- Stage Technecien\n- Société tunisienne de l'électricité et du gaz - Gafsa\n- Stage Ouvrier\n- Tunisie Télécom - Gafsa\n\n## EXPÉRIENCES PROFESSIONNELLES COMPÉTENCES TECHNIQUES\n\nJava (Spring boot), Python, PHP(Symfony), Dot Net Core/Framework\nDéveloppement Web: Django, Angular, NodeJS(Express),\nNest JS(Microservices), Ionic framework\nTechnologies: Bootstrap, Tailwind\nDéveloppement Mobile: Android(Java), Flutter\nBases de Données: SQL, PostgreSQL, MongoDB\nContrôle de Version: Git, Github, Gitlab\nConception: UML\nIntégration Continue: Docker, Jenkins\nAWS",
+    "header_info": {
+      "full_name": "Hibat Allah AKERMI",
+      "email": "hibatallahakermi@gmail.com",
+      "phone": "21651272925",
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/Hibaakermi"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9668,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "education[3].degree",
+      "education[3].institution",
+      "education[3].year",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Hibat Allah AKERMI",
+      "email": "hibatallahakermi@gmail.com",
+      "phone": "21651272925",
+      "location": null,
+      "linkedin": null,
+      "github": "https://github.com/Hibaakermi"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java (Spring boot)",
+        "Python",
+        "PHP(Symfony)",
+        "Dot Net Core/Framework",
+        "Django",
+        "Angular",
+        "NodeJS(Express)",
+        "Nest JS(Microservices)",
+        "Flutter",
+        "SQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Git",
+        "Github",
+        "Gitlab"
+      ],
+      "soft_skills": [
+        "Agile",
+        "Scrum"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stage PFE",
+          "Dhahri Al-Kubaisi Technologies",
+          "Stage 2ème année cycle ingénieur IEEE TEKUP Student Branch",
+          "Stage Technecien",
+          "Société tunisienne de l'électricité et du gaz - Gafsa",
+          "Stage Ouvrier",
+          "Tunisie Télécom - Gafsa"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université privée de Technologie & Ingénierie TEK-UP",
+        "degree": "Diplôme National d'ingénieur informatique: Génie Logiciel et système d'information",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "L'école nationale d'électronique et des télécommunications de Sfax ENET'COM",
+        "degree": "Master de Recherche en Télécommunications et Systèmes des réseaux",
+        "field": "Sujet: Conception d'un système de traitement du signal SSVEP pour les systèmes d'interface cerveau machine (BCI) utilisant les signaux électroencéphalographiques (EEG))",
+        "year": null
+      },
+      {
+        "institution": "L'lnstitut Supérieur des Sciences Appliquées & Technologie ISSAT Gafsa",
+        "degree": "Licence Fondamentale en Sciences et Technologies d'information et de la Communication Sujet: Conception et réalisation d'un robot gyropode à deux roues",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Ahmed Tlili Ksar Gafsa",
+        "degree": "Baccalauréat: Sciences Expérimentales",
+        "field": null,
+        "year": 2025
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:31:50.971296+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

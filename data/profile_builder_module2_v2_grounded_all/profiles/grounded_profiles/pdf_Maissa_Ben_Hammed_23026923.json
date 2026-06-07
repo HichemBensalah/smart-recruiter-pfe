@@ -1,0 +1,202 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Maissa_Ben_Hammed_23026923.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Maissa_Ben_Hammed_23026923.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7587,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMaissa Ben Hammed/envelope benhammedmaissa 3@gmail.com/mobile +216. 25. 839. 154\n|/linkedin Maissa Ben hammed\nMontfleury, Tunis, Tunisie\nExp´ erience Professionnelle\nStage de Fin d' ´ Etude - Resys Consultant\nConception et Impl´ ementation d'un syst` eme de management de l'IA, conforme ` a la norme ISO/IEC 42001: 2023\nD´ eploiement d'une infrastructure r´ eseau segment´ ee en zones, bas´ ee sur des routeurs Cisco via GNS 3.\nD´ eploiement d'un SOC de test suite ` a l'abscence d'environnement de test d´ edi´ e, incluant:\n-Mise en place du SIEM Wazuh pour la collecte, la corr´ elation et l'analyse des ´ ev´ enements de s´ ecurit´ e.\n-D´ eploiement du SOAR bas´ ee sur The Hive, Cortex et MISP pour la gestion des incidents.\n-Int´ egration du SIEM et du SOAR pour la d´ etection, l'investigation et l'orchestration des incidents.\nR´ ealisation d'un audit interne de conformit´ e et op´ erationnel du SMIA.\nAnalyse de l'existant et identification des ´ ecarts par rapport aux exigences et mesures de contrˆ ole de la norme.\nIdentification des risques li´ es ` a l'IA ` a l'aide des checklists NIST AI RMF.\n´ Evaluation et classification des risques IA selon le NIST AI RMF et l'AI Act.\n´ Elaboration de plan de traitement de risques IA.\nMise en place de l'action corrective pour g´ erer les risques identifi´ es visant ` a r´ eduire les impacts identifi´ es.\nStage d'´ et´ e - Digital Cook\nR´ ealisation d'un audit de s´ ecurit´ e de l'application web de la plateforme et de son infrastructure serveur.\nUtilisation de Kali Linux avec Nmap, Nessus et Burp Suite pour identifier les vuln´ erabilit´ es.\nR´ ealisation des tests manuels et automatis´ es, incluant des preuves de concept (Po C) pour des attaques.\nD´ eveloppement des scripts Python pour automatiser l'identification des vuln´ erabilit´ es.\nR´ edaction d'un rapport d'´ evaluation des vuln´ erabilit´ es, citant les vuln´ erabilit´ es et leurs niveaux de risque.\n\n## ACADEMIC PROJECTS\n\n## Projects Acad´ emiques\n**Date: ** Mars 2025 - Novembre 2025\n- Plateforme de threat Intellignence pour les Banques\nConception et simulation de l'architecture r´ eseau sous GNS 3, avec des routeurs et switchs Cisco.\n**Date: ** F´ evrier 2024 - Mai 2024\n- Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux.\n- Configuration des ´ equipements pour le routage L 3 et le switching L 2.\n- Mise en place des politiques de filtrage via des pare-feux pf Sense et OPNsense.\nD´ eploiement et administration des r` egles de s´ ecurit´ e r´ eseau, avec gestion des flux et contrˆ ole des acc` es.\nD´ eploiement des outils SIEM via ELK Stack, pour assurer le suivi des ´ ev´ enements r´ eseau.\nImpl´ ementation de use-cases de gestion des incidents avec des outils SOAR via Shuffle, The Hive et Cortex.\n- R´ ealisation de tests pentesting SSH et brute force pour valider la robustesse de l'infrastructure.\nD´ eveloppement d'une plateforme de Threat Intelligence int´ egrant MISP pour la collecte, l'analyse et le partage d'indicateurs de compromission, avec automatisation des workflows.\n**Date: ** Octobre 2024 - Novembre 2024\n- Projet Dev Sec Ops\n- D´ eveloppement d'une application Spring Boot pour la gestion de foyer.\n- Conception et gestion d'une base de donn´ ees relationnelle sous MySQL.\n- Administration Linux pour le d´ eploiement et la gestion des conteneurs Docker de l'application.\n- Mise en place d'un pipeline CI/CD avec Jenkins.\n- Int´ egration de Sonar Qube pour l'analyse qualit´ e du code.\n- Automatisation des tests unitaires avec JUnit.\nMise en place de pratiques Dev Sec Ops avec OWASP Dependency-Check, JFrog et OWASP ZAP.\n- Automatisation des scans de s´ ecurit´ e et du reporting dans le pipeline CI/CD.\n- Monitoring des performances applicatives avec Grafana.\n- Comp´ etences\nPr´ eparation certification ISO 27001 Fran¸ cais -Courant-, Anglais -Courant-, Arabe -native",
+    "header_info": {
+      "full_name": "/linkedin Maissa Ben hammed",
+      "email": "3@gmail.com",
+      "phone": "+216. 25. 839. 154",
+      "location": "Montfleury, Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.7,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8827,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "experiences[4].end_date",
+      "experiences[4].job_title",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Maissa Ben Hammed",
+      "email": "3@gmail.com",
+      "phone": "+216. 25. 839. 154",
+      "location": "Montfleury, Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Conception et Impl´ ementation d'un syst` eme de management de l'IA",
+        "D´ eploiement d'une infrastructure r´ eseau segment´ ee en zones",
+        "Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux",
+        "Administration Linux",
+        "D´ eveloppement d'une application Spring Boot",
+        "Conception et gestion d'une base de donn´ ees relationnelle sous MySQL",
+        "Mise en place d'un pipeline CI/CD avec Jenkins",
+        "Int´ egration de Sonar Qube pour l'analyse qualit´ e du code",
+        "Automatisation des tests unitaires avec JUnit"
+      ],
+      "soft_skills": [
+        "Analyse de l'existant et identification des ´ ecarts par rapport aux exigences et mesures de contrˆ ole de la norme",
+        "Identification des risques li´ es ` a l'IA ` a l'aide des checklists NIST AI RMF",
+        "´ Evaluation et classification des risques IA selon le NIST AI RMF et l'AI Act",
+        "Mise en place de l'action corrective pour g´ erer les risques identifi´ es",
+        "R´ ealisation d'un audit interne de conformit´ e et op´ erationnel du SMIA"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Resys Consultant",
+        "job_title": "Stage de Fin d' ´ Etude",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Conception et Impl´ ementation d'un syst` eme de management de l'IA",
+          "D´ eploiement d'une infrastructure r´ eseau segment´ ee en zones",
+          "D´ eploiement d'un SOC de test suite ` a l'abscence d'environnement de test d´ edi´ e"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Stage d'´ et´ e - Digital Cook",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "R´ ealisation d'un audit de s´ ecurit´ e de l'application web de la plateforme et de son infrastructure serveur"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Plateforme de threat Intellignence pour les Banques",
+        "start_date": "Mars 2025",
+        "end_date": "Novembre 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et simulation de l'architecture r´ eseau sous GNS 3, avec des routeurs et switchs Cisco"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux",
+        "start_date": "F´ evrier 2024",
+        "end_date": "Mai 2024",
+        "city": null,
+        "responsibilities": [
+          "Configuration des ´ equipements pour le routage L 3 et le switching L 2"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Projet Dev Sec Ops",
+        "start_date": "Octobre 2024",
+        "end_date": "Novembre 2024",
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une application Spring Boot pour la gestion de foyer"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [
+      "Pr´ eparation certification ISO 27001 Fran¸ cais -Courant-",
+      "Pr´ eparation certification ISO 27001 Anglais -Courant-",
+      "Pr´ eparation certification ISO 27001 Arabe -native"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:13:23.227783+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Douiri_Arwa_23027091.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Douiri_Arwa_23027091.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Douiri_Arwa_23027091.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Arwa Douiri",
+      "email": "douiri. arwa@1998@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Microsoft SQL Server",
+        "Git Extentions",
+        "Azure Devops",
+        "Visual Studio",
+        "ASP. NET Core",
+        "Angular 14",
+        "Prime NG",
+        "Prime Flex",
+        "Microsoft Azure",
+        "Sélénium",
+        "Active Directory",
+        "Spring Boot",
+        "Spring Security",
+        "Spring Batch",
+        "Angular 12",
+        "Sonar Qube",
+        "Boostrap",
+        "Jenkins",
+        "Docker Pipelines",
+        "Nexus",
+        "TensorFlow",
+        "SQL/NoSQL"
+      ],
+      "soft_skills": [
+        "devops",
+        "QA: Selinium Web Driver",
+        "Frameworks ASP. NET Core, Spring Boot, Symfony, Angular, QT, Codename One",
+        "Developer Tools: Visual Studio, Visual Studio Code, Intellig, Spring Tools, Php Storm, Adobe Illustrator, Start UML, Lucid Chart"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Intégration d'un système MES et l'interfacer avec L'ERP existant assurant ainsi une synchronisation des données en temps réel et une amélioration globale de la gestion de la production chez Lilas en collaboration avec Schneider Electric.",
+          "Génération des rapports d'analyse des données en T-SQL"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Concevoir des plans de test",
+          "Détecter et suivre les anomalies",
+          "Valider les corrections d'anomalies",
+          "Garantir la qualité des livrables",
+          "Gérer les campagnes de test (intégration, validation, non-régression)",
+          "Identifier les fonctionnalités à tester, Exécution des tests, Suivi et validation"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stage Immersion",
+          "Exécuter les tests, Suivre et valider"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'ingénieur en informatique Spécialité Génie Logiciel",
+        "school": "Ecole Supérieure Privée d'ingénierie et de Technologie, Ariana",
+        "year": "2023"
+      },
+      {
+        "degree": "Diplôme de baccalauréat: Section Sciences expérimentales",
+        "school": "Lycée Nouvelle Medina 3, Ben Arous",
+        "year": "2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:51:08.401347+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9866,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ben_Abdallah_Nour_Elhouda_23021152.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ben_Abdallah_Nour_Elhouda_23021152.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ben_Abdallah_Nour_Elhouda_23021152.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Nour El Houda Ben Abdallah",
+      "email": "17@gmail.com",
+      "phone": "+216 27348857",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "Node.js",
+        "MongoDB",
+        "Python",
+        "scikit-learn",
+        "TensorFlow",
+        "OpenCV"
+      ],
+      "soft_skills": [
+        "Responsable Média-IEEE",
+        "Assistante au bureau de vote pour élections de 2024"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeuse Full-Stack, Freelance",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mise en place d'une architecture microservices avec authentification sécurisée et communication via API REST, développée avec Angular, Node.js et MongoDB."
+        ]
+      },
+      {
+        "job_title": "Développeuse Full-Stack, Digitalize",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Mise en place d'une architecture évolutive avec Angular pour le frontend, Spring Boot pour les API backend et MySQL pour la gestion de la base de données."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master Data Science et Smart Services",
+        "school": "Institut Supérieur des Technologies de l'Information et de la Communication (ISTIC)",
+        "year": null
+      },
+      {
+        "degree": "Licence en Génie Logiciel et Système d'Information",
+        "school": "Institut Supérieur des Technologies de l'Information et de la Communication (ISTIC)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:41:01.091027+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9696,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

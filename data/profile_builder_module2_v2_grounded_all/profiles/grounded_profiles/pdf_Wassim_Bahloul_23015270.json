@@ -1,0 +1,212 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Wassim_Bahloul_23015270.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Wassim_Bahloul_23015270.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9019,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nWassim BAHLOUL\n\n## TECHNICAL SKILLS\n\nSoftware Development Engineer\n(+216) 20-705-730 | bahloulwassim 94@gmail.com | Linked In\nSoftware Development Engineer graduate specialized in Artificial Intelligence, passionate about Data Science, Machine Learning, software development, and Computer Vision. Since September 2025, I have been working as a freelancer, where I successfully designed and delivered four software solutions as well as an advanced computer vision project, while managing multiple innovative projects simultaneously.\nFreelance AI/Software Engineer - Freelance\nDevelopment of AI and software solutions\nTechnologies used: MongoDB, Express. js, React, Node. js, Py Mu PDF, Flask, BERT, Cosine Similarity, Python, APIs .\nSkills\nProgramming Languages:\nPython, Java, JavaScript, C#, PHP\nFrameworks and Libraries: Angular, React, .NET, Node. js, Express. js, Spring Boot, Flask, FastAPI, Vue. js, Laravel Databases: MySQL, MongoDB, SQL Server\n\n## EDUCATION\n\n## International Institute of Technology\n- Sfax\n## Engineering Degree in Computer Science\n**Date: ** 2022 - 2025\n**Location: ** Sfax, Tunisia\n- Faculty of Sciences of Sfax\n- Sfax\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nAnalyzed client requirements and designed appropriate technical architectures.\nDeployed, validated, and maintained developed solutions.\nFinal Year Internship: Zen Home Group\nIntelligent system for sales prediction, product recommendation, and multimodal chatbot\nComputer Vision:\nNatural Language Processing (NLP): BERT, Marian MT, Sentence Transformers, Cosine Similarity, Tokenization, LLM APIs and Communication: REST API, Web Socket\n\n## MACHINE LEARNING & DEEP LEARNING\n\nIntegrated an intelligent search system: text-based (description) and image-based (fashion style analysis).\nTechnologies: Angular, Microsoft SQL Server, YOLOv 8, Res Net 50, BLIP Fashion, CLIP Vi T-L/14, Sentence Transformers, XGBoost, Deep Seek V 3, FAISS, FastAPI, Marian MT, KNN, Python, Cosine Similarity, APIs\nMachine Learning and Deep Learning: TensorFlow, Keras, PyTorch, scikit-learn, XGBoost, Matplotlib, Seaborn\nYOLOv 8, Res Net 50, BLIP Fashion, CLIP Vi T-L/14, Retina Face, Deep Seek V 3\n\n## PROFESSIONAL SUMMARY\n\nImplemented a recommendation system based on customer profile and behavior.\nSummer Internship: Informatique Business Solutions\nInteractive e-learning platform\nTechnologies used: MongoDB, Express. js, Angular, Node. js, APIs\nEnd-of-Year Internship: Start Up Rec-INOV\nCV processing system\nDeveloped an intelligent CV processing system based on in-depth candidate profile analysis.\n\n## ACADEMIC PROJECTS\n\nDesigned and developed an interactive e-learning platform to facilitate student learning across various domains. The project, built with the MEAN stack, includes content management, student registration, and payment features.\n**Location: ** Sfax, Tunisia\n- Preparatory Cycle in Physics-Chemistry, Admitted to the National Engineering Schools Entrance Exam Sep. 2021 - Jun. 2022\n- Developed 4 software applications addressing specific business needs.\n- Implemented advanced features: automatic question generation based on skills, answer evaluation, visualization of analysis results, and personalized recommendations for decision support.\n- Designed and implemented a computer vision system.\n- Designed and implemented an intelligent system combining sales prediction, personalized product recommendation, and a multimodal chatbot.\n- Extracted and processed large-scale datasets (millions of rows) using SQL Server Management Studio 2019, including data preprocessing .\n- Developed a sales quantity prediction module per sales line and per store using Machine Learning models .\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nIBM Big Data Engineer (2025) · NVIDIA Generative AI (2024) · TensorFlow 2 DL (2024) · SFC Scrum (2023)",
+    "header_info": {
+      "full_name": "Wassim BAHLOUL",
+      "email": "94@gmail.com",
+      "phone": "+216) 20-705-730",
+      "location": "Software Development Engineer graduate specialized in Artificial Intelligence, passionate about Data Science, Machine Learning, software development, and Computer Vision. Since September 2025, I have been working as a freelancer, where I successfully designed and delivered four software solutions as well as an advanced computer vision project, while managing multiple innovative projects simultaneously.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.3923,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "languages[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "languages[0]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Wassim BAHLOUL",
+      "email": "94@gmail.com",
+      "phone": "+216) 20-705-730",
+      "location": "Sfax, Tunisia",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Software Development Engineer graduate specialized in Artificial Intelligence, passionate about Data Science, Machine Learning, software development, and Computer Vision.",
+      "experience_level": "senior",
+      "years_experience": 4,
+      "hard_skills": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "C#",
+        "PHP",
+        "Angular",
+        "React",
+        ".NET",
+        "Node.js",
+        "Express.js",
+        "Spring Boot",
+        "Flask",
+        "FastAPI",
+        "Vue.js",
+        "Laravel",
+        "MySQL",
+        "MongoDB",
+        "SQL Server"
+      ],
+      "soft_skills": [
+        "Communication"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Freelance AI/Software Engineer",
+        "start_date": "September 2025",
+        "end_date": null,
+        "city": "Sfax, Tunisia",
+        "responsibilities": [
+          "Development of AI and software solutions",
+          "Technologies used: MongoDB, Express.js, React, Node.js, Py Mu PDF, Flask, BERT, Cosine Similarity, Python, APIs"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Summer Internship: Informatique Business Solutions",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Technologies used: MongoDB, Express.js, Angular, Node.js, APIs"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "End-of-Year Internship: Start Up Rec-INOV",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed an intelligent CV processing system based on in-depth candidate profile analysis"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "International Institute of Technology",
+        "degree": "Engineering Degree in Computer Science",
+        "field": "Computer Science",
+        "year": null
+      },
+      {
+        "institution": "Faculty of Sciences of Sfax",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "IBM Big Data Engineer (2025)",
+      "NVIDIA Generative AI (2024)",
+      "TensorFlow 2 DL (2024)",
+      "SFC Scrum (2023)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:58:24.380217+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

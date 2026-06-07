@@ -1,0 +1,158 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Gmati_Mohamed_23031414.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Gmati_Mohamed_23031414.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8391,
+  "normalization": {
+    "cleaned_markdown": "## MOHAMED GMATI\n\nSystem and Network Administrator\nmohamedgmati 667@gmail.com\nMorneg, Ben Arous, Tunis, Tunisia\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\n\n## EDUCATION\n\nSystem and Network Administrator with strong expertise in cloud infrastructure, database administration, and IT systems management. Proven experience in migrating applications to cloud environments, managing SQL Server databases, and maintaining network infrastructure. Specialized in Windows Server environments, Azure Cloud, virtualization, and network security (CCNA certified). Proficient in managing IT infrastructure, Microsoft 365 administration, and providing comprehensive technical support. Currently pursuing a Master's degree in Security of Information Systems.\n## Master in Security of Information Systems, ISG TUNIS\n**Date: ** 02/2022 - 04/2022 | Tunis, Tunisia\n\n## PROFESSIONAL EXPERIENCE\n\n## System Administrator, WM Ingénierie I Frenchinnov\n**Date: ** 07/2024 - Present | Tunis, Tunisia\n- Designed Azure DevOps YAML pipelines to automate FIO solution deployment including build creation, IIS configuration, database provisioning, and OVH DNS setup.\n- Implemented end-to-end CI/CD automation using Azure DevOps interface, reducing manual installation time and improving deployment reliability.\n- Developed a comprehensive web application for managing organizational roles and employee data\n- Designed system architecture and created detailed UML models ensuring clarity and consistency across development phases\n- Implemented robust back-end using Spring Boot, Spring Data, Spring Security, MySQL, and Swagger with microservices architecture\n- Developed responsive front-end interface using Angular 12, HTML, and CSS following modern web design principles\n\n## TECHNICAL SKILLS\n\nCloud Infrastructure & Migration:\nLed the transition to cloud infrastructure by successfully migrating applications from on- premises environment to Azure Cloud\nManage and administer Azure Cloud virtual machines including access control, storage management, backup configuration, and monitoring VM states.\nConfigure and optimize cloud resources to ensure high availability and performance\nDatabase Administration:\nManage and administer SQL Server databases including executing scripts for data manipulation and optimization\nImplement and maintain regular database backup procedures to guarantee data security, integrity, and disaster recovery capability System Administration:\nConfigure and maintain Windows Server operating systems according to company standards and client-specific requirements\nPerform application updates for clients ensuring smooth and uninterrupted transitions with minimal downtime\nDevelop and deploy custom lightweight Windows images to streamline new client installations and reduce deployment time\nProvide complete end-to-end client environment setup from initial configuration to final deployment\nCreate centralized automation tools to simplify printer installation across different brands and models\nDevops:\nNetwork Infrastructure:\nManage and maintain the complete network infrastructure including routers, firewalls, and switches\nConfigure network security policies and implement firewall rules to protect organizational assets\nMonitor network performance and troubleshoot connectivity issues to ensure optimal network operations\nEnd-User Support & IT Asset Management:\nOversee Frenchinnov's complete IT hardware inventory including PCs, keyboards, peripherals, and network equipment\nConfigure and deploy new employee workstations with Microsoft 365 integration and required software\nManage Microsoft 365 administration including user accounts, license management, domain configuration, and security policies\nAdministered 3 CX Vo IP system, including user setup, call routing, and troubleshooting to ensure seamless communication.\nCollaborate with development and support teams to resolve technical issues and optimize overall system performance\nApplication & Web Management:\nManage three production websites (Fio Eat, CRM French Innov, French Innov) hosted on Ikoula and OVH platforms\nImplement and configure card payment solution integration with Marketpay provider (TPE)\nCoordinate with hosting providers for server maintenance, updates, and technical support\nWeb Developer Internship, KESARIDI Startup\nCollaborated with stakeholders to identify functional and non-functional requirements ensuring alignment with business goals\nConducted thorough testing to ensure functional accuracy, system performance, and security compliance\nIT Helpdesk Internship, UBCI (Union Bancaire pour le Commerce et l'Industrie)\nInstalled and configured computer hardware, software systems, networks, printers, and scanners\nPerformed equipment repairs and replacements as necessary to maintain operational efficiency\nResponded promptly to service issues and support requests across the organization\nProvided comprehensive technical support and troubleshooting assistance to end-users\nSKILLS\nSystem Administration:\nWindows Server Linux Virtualization Azure Cloud Microsoft 365 AD\nNetwork Infrastructure: CCNA Routers Firewalls\nSwitches Network Protocols CCNS\nDatabase Management:\nSQL Server MySQL Database Administration Backup & Recovery Scripting\nDevelopment & Tools:\nJava Spring Framework Angular Microservices Scrum Methodology\nHosting & Infrastructure:\nIkoula OVH Azure Cloud\nManagement VM Administration\n\n## ESSEC TUNIS\n\nBachelor's Degree in Business Computing,\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATES\nCCNA 1: Cisco CCNA 2: Cisco |\n\n## LANGUAGES\n\nArabic: Native English: Intermediate French: Intermediate",
+    "header_info": {
+      "full_name": "MOHAMED GMATI",
+      "email": "667@gmail.com",
+      "phone": null,
+      "location": "Morneg, Ben Arous, Tunis, Tunisia",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9678,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "MOHAMED GMATI",
+      "email": "667@gmail.com",
+      "phone": null,
+      "location": "Morneg, Ben Arous, Tunis, Tunisia",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "System and Network Administrator with strong expertise in cloud infrastructure, database administration, and IT systems management.",
+      "experience_level": "senior",
+      "years_experience": 3,
+      "hard_skills": [
+        "Cloud Infrastructure & Migration",
+        "Database Administration",
+        "System Administration",
+        "Devops",
+        "Network Infrastructure",
+        "End-User Support & IT Asset Management",
+        "Application & Web Management"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "WM Ingénierie I Frenchinnov",
+        "job_title": "System Administrator",
+        "start_date": "07/2024",
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Designed Azure DevOps YAML pipelines to automate FIO solution deployment including build creation, IIS configuration, database provisioning, and OVH DNS setup.",
+          "Implemented end-to-end CI/CD automation using Azure DevOps interface, reducing manual installation time and improving deployment reliability.",
+          "Developed a comprehensive web application for managing organizational roles and employee data",
+          "Designed system architecture and created detailed UML models ensuring clarity and consistency across development phases",
+          "Implemented robust back-end using Spring Boot, Spring Data, Spring Security, MySQL, and Swagger with microservices architecture",
+          "Developed responsive front-end interface using Angular 12, HTML, and CSS following modern web design principles"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISG TUNIS",
+        "degree": "Master in Security of Information Systems",
+        "field": null,
+        "year": "02/2022 - 04/2022"
+      },
+      {
+        "institution": "ESSEC TUNIS",
+        "degree": "Bachelor's Degree in Business Computing",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "English",
+      "French"
+    ],
+    "certifications": [
+      "CCNA"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:13:02.958189+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

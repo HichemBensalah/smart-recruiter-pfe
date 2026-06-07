@@ -1,0 +1,96 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\ounissi_olfa_23027978.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\ounissi_olfa_23027978.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\ounissi_olfa_23027978.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ounissi Olfa",
+      "email": "2003@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Passionnée par le développement web full stack, motivée et organisée.",
+      "hard_skills": [
+        "C",
+        "C++",
+        "Python",
+        "Java",
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "MySQL",
+        "MongoDB",
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Android Studio",
+        "Power BI",
+        "Word Press"
+      ],
+      "soft_skills": [
+        "Motivée",
+        "Organisée",
+        "Curieuse"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web de gestion de syndic pour l'organisme El-Hamd",
+          "Plateforme de gestion des immeubles, propriétaires et dépenses",
+          "Dashboard pour visualisation des données",
+          "Technologies: React.js, Node.js, MySQL"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web pour publier et adopter des animaux",
+          "Technologies: React.js, Node.js, MongoDB"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle ingénieur en informatique Réseaux et multimédia",
+        "school": "Ecole Polytechnique Internationale Privée de Tunis",
+        "year": null
+      },
+      {
+        "degree": "Licence en Informatique de Gestion \"Business Computing\": Business Intelligence",
+        "school": "L'Institut Supérieur de Gestion de Sousse",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat: Section Informatique",
+        "school": "Lycée Pilote des Arts, El Omrane, Tunis",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:22:42.927347+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9336,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

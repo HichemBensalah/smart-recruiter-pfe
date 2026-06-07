@@ -1,0 +1,54 @@
+## HEADER
+
+Maissa Ben Hammed/envelope benhammedmaissa 3@gmail. com/mobile +216. 25. 839. 154
+|/linkedin Maissa Ben hammed
+Montfleury, Tunis, Tunisie
+Exp´ erience Professionnelle
+Stage de Fin d' ´ Etude - Resys Consultant
+Conception et Impl´ ementation d'un syst` eme de management de l'IA, conforme ` a la norme ISO/IEC 42001:2023
+D´ eploiement d'une infrastructure r´ eseau segment´ ee en zones, bas´ ee sur des routeurs Cisco via GNS 3.
+D´ eploiement d'un SOC de test suite ` a l'abscence d'environnement de test d´ edi´ e, incluant:
+-Mise en place du SIEM Wazuh pour la collecte, la corr´ elation et l'analyse des ´ ev´ enements de s´ ecurit´ e.
+-D´ eploiement du SOAR bas´ ee sur The Hive, Cortex et MISP pour la gestion des incidents.
+-Int´ egration du SIEM et du SOAR pour la d´ etection, l'investigation et l'orchestration des incidents.
+R´ ealisation d'un audit interne de conformit´ e et op´ erationnel du SMIA.
+Analyse de l'existant et identification des ´ ecarts par rapport aux exigences et mesures de contrˆ ole de la norme.
+Identification des risques li´ es ` a l'IA ` a l'aide des checklists NIST AI RMF.
+´ Evaluation et classification des risques IA selon le NIST AI RMF et l'AI Act.
+´ Elaboration de plan de traitement de risques IA.
+Mise en place de l'action corrective pour g´ erer les risques identifi´ es visant ` a r´ eduire les impacts identifi´ es.
+Stage d'´ et´ e - Digital Cook
+R´ ealisation d'un audit de s´ ecurit´ e de l'application web de la plateforme et de son infrastructure serveur.
+Utilisation de Kali Linux avec Nmap, Nessus et Burp Suite pour identifier les vuln´ erabilit´ es.
+R´ ealisation des tests manuels et automatis´ es, incluant des preuves de concept (Po C) pour des attaques.
+D´ eveloppement des scripts Python pour automatiser l'identification des vuln´ erabilit´ es.
+R´ edaction d'un rapport d'´ evaluation des vuln´ erabilit´ es, citant les vuln´ erabilit´ es et leurs niveaux de risque.
+
+## ACADEMIC PROJECTS
+
+### Projects Acad´ emiques
+**Date:** Mars 2025 - Novembre 2025
+- Plateforme de threat Intellignence pour les Banques
+Conception et simulation de l'architecture r´ eseau sous GNS 3, avec des routeurs et switchs Cisco.
+**Date:** F´ evrier 2024 - Mai 2024
+- Mise en place des VLAN pour la segmentation et la d´ efinition des zones r´ eseaux.
+- Configuration des ´ equipements pour le routage L 3 et le switching L 2.
+- Mise en place des politiques de filtrage via des pare-feux pf Sense et OPNsense.
+D´ eploiement et administration des r` egles de s´ ecurit´ e r´ eseau, avec gestion des flux et contrˆ ole des acc` es.
+D´ eploiement des outils SIEM via ELK Stack, pour assurer le suivi des ´ ev´ enements r´ eseau.
+Impl´ ementation de use-cases de gestion des incidents avec des outils SOAR via Shuffle, The Hive et Cortex.
+- R´ ealisation de tests pentesting SSH et brute force pour valider la robustesse de l'infrastructure.
+D´ eveloppement d'une plateforme de Threat Intelligence int´ egrant MISP pour la collecte, l'analyse et le partage d'indicateurs de compromission, avec automatisation des workflows.
+**Date:** Octobre 2024 - Novembre 2024
+- Projet Dev Sec Ops
+- D´ eveloppement d'une application Spring Boot pour la gestion de foyer.
+- Conception et gestion d'une base de donn´ ees relationnelle sous My SQL.
+- Administration Linux pour le d´ eploiement et la gestion des conteneurs Docker de l'application.
+- Mise en place d'un pipeline CI/CD avec Jenkins.
+- Int´ egration de Sonar Qube pour l'analyse qualit´ e du code.
+- Automatisation des tests unitaires avec JUnit.
+Mise en place de pratiques Dev Sec Ops avec OWASP Dependency-Check, JFrog et OWASP ZAP.
+- Automatisation des scans de s´ ecurit´ e et du reporting dans le pipeline CI/CD.
+- Monitoring des performances applicatives avec Grafana.
+- Comp´ etences
+Pr´ eparation certification ISO 27001 Fran¸ cais -Courant-, Anglais -Courant-,Arabe -native

@@ -1,0 +1,84 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\youssef_baryoul_23020591.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\youssef_baryoul_23020591.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\youssef_baryoul_23020591.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Youssef Baryoul",
+      "email": "baryouly@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Pandas",
+        "Scikit-learn",
+        "TensorFlow",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "soft_skills": [
+        "Pensée analytique",
+        "Gestion de projet",
+        "Communication",
+        "Leadership"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Oct 2024 - Juin 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Traitement de données, machine learning et deep learning avec Python (Pandas, Scikit-learn, TensorFlow ), et visualisation de données (Matplotlib, Seaborn)."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Sep 2022 - Juin 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement de logiciels et programmation: Python, Java (J 2 EE, framework Spring), SQL, PHP."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en sciences de l'informatique",
+        "school": "ISAMM: Institut Supérieur des Arts Multimédia de Manouba",
+        "year": null
+      },
+      {
+        "degree": "Cycle Préparatoire MPI: Math-Physique-Informatique",
+        "school": "Manouba School of Engineering(MSE)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:09:20.590257+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9767,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\gouader_narjes_23017484.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\gouader_narjes_23017484.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\gouader_narjes_23017484.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Narjes Gouader",
+      "email": "gouadernarjes@gmail.com",
+      "phone": "+216) 27610633",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "NodeJS",
+        "C",
+        "C++",
+        "C#",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "PHP",
+        "Symfony",
+        "Git",
+        "Docker",
+        "Jenkins",
+        "Nexus",
+        "Sonar Qube",
+        "Linux",
+        "MySQL",
+        "PostgreSQL",
+        "Oracle Database",
+        "SQL Server",
+        "MongoDB"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Gestion du temps",
+        "Esprit d'équipe"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et Développement d'une application de gestion des demandes des employés.",
+          "Renforcement de la sécurité via intégration d'outils d'intelligence des menaces.",
+          "Conception et Développement d'une application web permettant de gérer efficacement les demandes de location de logements pour les patients d'une clinique.",
+          "Conception et Développement d'une application web bancaire sécurisée permettant aux utilisateurs d'accéder à distance à leurs comptes pour gérer leurs opérations financière.",
+          "Implémentation de protocoles de sécurité (chiffrement, authentification à 2 facteurs).",
+          "Conception et développement d'une plateforme digitale pour faciliter les partenariats entre entreprises et Optimiser la recherche de partenaires et assurer des collaborations durables.",
+          "Développement d'une solution pour suivre les demandes de mobilité étudiante et simplifier la communication entre parties prenantes."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Configuration de pipelines CI/CD avec Jenkins pour des applications conteneurisées (Docker).",
+          "Déploiement orchestré via Kubernetes pour une scalabilité optimisée."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme national d'ingénieur en informatique, spécialité Génie logiciel",
+        "school": "ESPRIT",
+        "year": "2021"
+      },
+      {
+        "degree": "Diplôme national de licence en science de l'informatique",
+        "school": "Faculté des sciences Monastir (FSM)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:14:11.814242+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9665,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

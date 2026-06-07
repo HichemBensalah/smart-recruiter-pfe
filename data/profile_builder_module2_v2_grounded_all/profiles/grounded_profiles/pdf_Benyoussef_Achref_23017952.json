@@ -1,0 +1,198 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Benyoussef_Achref_23017952.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Benyoussef_Achref_23017952.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.7725,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nEsprit Stage Ingénieur\n\n## ACHREF BENYOUSSEF\n\nIng é n i e u r e n I n f o r m a t i q u e Développeur Full Stack\nbenyoussefachref 212@gmail.com https: //www.linkedin.com/in/achrefbenyoussef/Tunis\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCES\nCréation d'une interface utilisateur responsive et intuitive pour améliorer l'expérience client et faciliter la gestion interne.\n## Technologies: Spring boot, Angular\n**Date: ** Mars 2024- Fev 2025\n- Conception et développement d'une application web pour Eco Market afin de faciliter le déroulement des tâches administratives et opérationnelles.\n- Collaboration directe avec le client pour comprendre les besoins spécifiques du marché de la location immobilière et adapter les fonctionnalités .\nMise en œuvre des fonctionnalités principales: gestion des réunions, les mails internes, gestion des primes et les performances des employés.\n**Date: ** Sep 2020 - Fév 2024\n- Intégration de Spring Boot pour la gestion sécurisée des données et la communication avec la base de données.\nConception et développement d'une application web RH (gestion des congés, contrats et dossiers employés).\n**Date: ** Fév 2023- Jui 2023\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nLangages & Frameworks\nDéveloppeur Full Stack Freelance\nTechnologies: Laravel, React\nJava, JavaScript, Python, C\nDéveloppement des fonctionnalités clés (gestion des annonces immobilières, suivi des réservations, gestion des propriétaires et des utilisateurs), permettan de réduire le temps de gestion administrative de 40% et d'améliorer l'organisation quotidienne de la plateforme.\nSpring boot, Angular, Laravel, React, Node. js\nBases de données\nVIORE DIGITAL | Nabeul\nTechnologies: LARAVEL\nMySQL, Oracle\nDevOps & Outils\nGit, Docker, Jenkins, Nexus\nDéveloppeur Web\nBOUBAKRI DISTRIBUTION | Nabeul\nMéthodologies\nAgile/Scrum\nTravail en équipe\nEsprit Stage PFE\nHRMAPS | Ariana\nRésolution de problèmes\nTechnologies: Spring boot, Angular\nProjet (DevOps) - Intégration et Déploiement Continu\nMise en place d'un environnement DevOps complet pour tester, intégrer et déployer automatiquement une application web.\nConteneurisation de l'application à l'aide de Docker afin d'assurer la portabilité et la cohérence entre les environnements.\nConfiguration de Nexus comme gestionnaire d'artéfacts pour stocker et distribuer les builds.\nAutomatisation du pipeline CI/CD avec Jenkins, incluant les étapes de build, test et déploiement.\nIntégration de Sonar Qube pour l'analyse de la qualité du code et la détection des vulnérabilités.\nTechnicien Supérieur En Génie Mécanique\nKelibia\n\n## EDUCATION\n\nOptimisation de la base de données pour garantir une récupération rapide et efficace des informations sur les biens, les utilisateurs et les réservations.\n**Date: ** Avr 2026- en cours\n- Développeur Web Full Stack\n- Conception et développement d'une application web de location de voitures avec Laravel pour gérer l'ensemble du processus de réservation.\nImplémentation des fonctionnalités principales: gestion des véhicules, réservations, soutenu les départs et arrivées, disponibilité des voitures, paiements (payé/non payé), et génération automatique des contrats.\nCentralisation des données RH pour +150 employés, améliorant la traçabilité et la fiabilité des informations.\nImplémentation des modules clés: réunions, congés & absences, primes, demandes internes et suivi clients.\n\n## LANGUAGES\n\nLANGUES\nJui 2022 - Août 2022\nXTENSUS Ariana, Nkhilet\nTechnologies: Spring Boot, Angular\nFrancais\nAnglais\nConception et développement d'une application web visant à optimiser la gestion interne des documents, mails et réunions.\nArabe\nAnalyse du problème principal lié aux retards dans la réalisation et surveillé les documents, puis mise en place d'un système automatisé de gestion et de notifications.\nDéveloppement d'un tableau de bord interactif permettant le contrôler en temps réel des tâches et réunions.\n\n## CENTRES D'INTÉRÊT\n\nEsprit Stage D'initiation\nSport\nTUNISIE TELECOM, Nabeul\nTechnologies: Android, Java\nCinéma\nConception et développement d'une application mobile Android intégrant un système de connexion, d'inscription et de messagerie interne.\nImplémentation de fonctionnalités clés: authentification sécurisée, envoi de messages en temps réel, et gestion des notifications.\n\n## DIPLÔMES ET FORMATIONS\n\nIngénieur En Informatique\nESPRIT, Tunis\nISET, Nabeul\nBac Technique\nLycée Abdelaziz El Khouja,",
+    "header_info": {
+      "full_name": "Esprit Stage Ingénieur",
+      "email": "212@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "www.linkedin.com/in/achrefbenyoussef/Tunis",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9545,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Achref Benyoussef",
+      "email": "212@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "https://www.linkedin.com/in/achrefbenyoussef/Tunis",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Spring boot",
+        "Angular",
+        "Laravel",
+        "React",
+        "Node.js",
+        "Java",
+        "JavaScript",
+        "Python",
+        "C",
+        "MySQL",
+        "Oracle",
+        "Git",
+        "Docker",
+        "Jenkins",
+        "Nexus"
+      ],
+      "soft_skills": [
+        "Travail en équipe",
+        "Résolution de problèmes"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Mars 2024",
+        "end_date": "Fev 2025",
+        "city": null,
+        "responsibilities": [
+          "Création d'une interface utilisateur responsive et intuitive pour améliorer l'expérience client et faciliter la gestion interne.",
+          "Conception et développement d'une application web pour Eco Market afin de faciliter le déroulement des tâches administratives et opérationnelles."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Sep 2020",
+        "end_date": "Fev 2024",
+        "city": null,
+        "responsibilities": [
+          "Mise en œuvre des fonctionnalités principales: gestion des réunions, les mails internes, gestion des primes et les performances des employés.",
+          "Intégration de Spring Boot pour la gestion sécurisée des données et la communication avec la base de données."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Fev 2023",
+        "end_date": "Jui 2023",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application web RH (gestion des congés, contrats et dossiers employés)."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT, Tunis",
+        "degree": "Ingénieur En Informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "ISET, Nabeul",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Abdelaziz El Khouja",
+        "degree": "Bac Technique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Francais",
+      "Anglais",
+      "Arabe"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:46:23.683322+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

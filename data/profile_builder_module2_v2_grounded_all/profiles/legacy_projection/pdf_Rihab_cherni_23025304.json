@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rihab_cherni_23025304.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rihab_cherni_23025304.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Rihab_cherni_23025304.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "CHERNI RIHAB",
+      "email": "078@cherni.rihab",
+      "phone": "+216 23 710 078",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Ingénieure en Informatique | Développeur frontend/phone",
+      "hard_skills": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Firebase",
+        "React. js",
+        "Angular",
+        "Tailwind CSS",
+        "MUI",
+        "JavaScript",
+        "TypeScript",
+        "Bootstrap",
+        "Docker",
+        "Jenkins",
+        "Jira",
+        "Trello"
+      ],
+      "soft_skills": [
+        "Travail en équipe",
+        "Gestion du temps",
+        "Adaptabilité",
+        "Ponctualité"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application web pour la gestion et la collecte des déchets via des poubelles intelligentes dans les établissements scolaires"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'ingénieur en informatique",
+        "school": "École Nationale Supérieure des Ingénieurs de Tunis (ENSIT)",
+        "year": null
+      },
+      {
+        "degree": "Licence en Informatique de Gestion",
+        "school": "École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:27:48.243095+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6643,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

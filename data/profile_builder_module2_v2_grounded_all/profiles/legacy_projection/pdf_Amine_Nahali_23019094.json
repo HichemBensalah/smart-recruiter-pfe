@@ -1,0 +1,121 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Amine_Nahali_23019094.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Amine_Nahali_23019094.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Amine_Nahali_23019094.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "AMINE NAHALI",
+      "email": "amine.nahali.dev@gmail.com",
+      "phone": "+216 28 653 254",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Django",
+        "Angular",
+        ".NET Core",
+        "Postgres",
+        "Python",
+        "C#",
+        "Typescript",
+        "HTML",
+        "CSS",
+        "Git-Hub Actions",
+        "Docker",
+        "Ollama",
+        "LLM",
+        "MongoDB",
+        "Flask",
+        "g RPC",
+        "Javascript",
+        "Jquery",
+        "Three. JS",
+        "Tensorflow",
+        "Bash",
+        "Java",
+        "C/C++",
+        "PHP",
+        "Ruby",
+        "SQL",
+        "Spring Boot",
+        "Symfony",
+        "Laravel",
+        "Ruby on Rails",
+        "React",
+        "Charts. JS",
+        "Spring-boot",
+        "Flask",
+        "React. JS",
+        "Microsoft Power BI",
+        "Excel"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Développeur full-stack",
+        "company": "ARYASON CONSULTING",
+        "start_date": "Août 2023",
+        "end_date": "Mar 2024",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Développement d'une solution interne (ERP) pour gérer les ressources de l'entreprise.",
+          "Refactorisation et rédaction de tests pour les logiciels de gestion interne préexistants.",
+          "Data analytics & support technique."
+        ]
+      },
+      {
+        "job_title": "Sys Admin, Développeur",
+        "company": "Laboratoire Technologies et Imagerie Médicale FMM",
+        "start_date": "Déc 2021",
+        "end_date": "Juil 2022",
+        "city": "Monastir, Tunisie",
+        "responsibilities": [
+          "Maintenance des serveurs linux sur site dans un réseau local."
+        ]
+      },
+      {
+        "job_title": "Développeur, Formateur",
+        "company": "SUMMITRISE IT",
+        "start_date": "Fév 2025",
+        "end_date": "Présent",
+        "city": "Monastir, Tunisie",
+        "responsibilities": [
+          "Développement d'une plateforme web de recrutement renforcée par LLM améliorant l'efficacité de la mise en relation des candidats. (Summit Rise ATS).",
+          "Correction des bugs et amélioration d'un CRM interne (Summit Rise CRM).",
+          "D éveloppement et déploiment d'une solution IA de reoconnaissance d'imagerie médicale, qui automatise la gestion des patients atteints par le COVID-19, la solution contient de plus une interface web avec des representations 3 D interactives."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle ingénieur en génie Informatique spécialité génie logiciel",
+        "school": "Ecole supérieur polytéchnique privée de monastir",
+        "year": "2022 - 2025"
+      },
+      {
+        "degree": "License en sciences d'informatique spécialité génie logiciel",
+        "school": "Institut supérieur d'informatique et de mathématique de Monastir (ISIMM)",
+        "year": "2019 - 2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:37:22.396280+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.976,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

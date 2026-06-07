@@ -1,0 +1,95 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Nada_Hammami_23014639.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Nada_Hammami_23014639.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Nada_Hammami_23014639.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Nada Hammami",
+      "email": "nada_hammami@outlook.fr",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Flask",
+        "Lang Chain",
+        "n 8 n",
+        "FAISS",
+        "Sentence Transformers",
+        "Vector DB",
+        "API REST",
+        "Nginx",
+        "Linux"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Data Scientist",
+        "company": "Osez plus de clients",
+        "start_date": "01/2026",
+        "end_date": null,
+        "city": "Hammamet",
+        "responsibilities": [
+          "Conception et développement d'un chatbot RAG",
+          "Mise en place d'un système d'indexation avancé: génération d'embeddings avec Sentence Transformers, stockage dans une base vectorielle ( FAISS ) et optimisation via des techniques de segmentation documentaire"
+        ]
+      },
+      {
+        "job_title": "Stagiaire PFE",
+        "company": "Talan Tunisie",
+        "start_date": "02/2024",
+        "end_date": "08/2024",
+        "city": "Charguia",
+        "responsibilities": [
+          "Mise en place de pipelines ML de bout en bout ( ETL, prétraitement, entraînement, déploiement).",
+          "Développement de modèles prédictifs pour la planification de l'irrigation à partir de données environnementales et de sol.",
+          "Développement de modèles CNN pour la détection de maladies des plantes et d'anomalies."
+        ]
+      },
+      {
+        "job_title": "Stagiaire Summer Camp '23",
+        "company": "Talan Tunisie",
+        "start_date": "06/2023",
+        "end_date": "08/2023",
+        "city": "Charguia",
+        "responsibilities": [
+          "Application mobile pour une consommation durable avec Flutter",
+          "Base de données MongoDB optimisée pour la gestion des stocks.",
+          "Système OCR ( Tesseract ) pour extraire automatiquement les noms de produits."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle Ingénieur en Informatique- Data Science",
+        "school": "ESPRIT - Ecole Supérieure Privée d'Ingénierie et Technologies",
+        "year": null
+      },
+      {
+        "degree": "Cycle Préparatoire Maths-Physique",
+        "school": "IPEIT - Institut Préparatoire aux Etudes d'Ingénieurs de Tunis",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:45:24.219789+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9761,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Haytham_brahem_23019047.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Haytham_brahem_23019047.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8681,
+  "normalization": {
+    "cleaned_markdown": "## PROFESSIONAL SUMMARY\n\nProfil\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieur Full Stack orienté backend avec expérience dans la conception d'APIs REST sécurisées, architectures microservices et développement d'applications modernes avec Spring Boot, React et Angular. Expérience pratique sur des projets d'automatisation intelligente, workflows métier, CI/CD, Docker et intégration d'agents IA. Habitué aux environnements Agile et aux plateformes évolutives orientées performance, sécurité et scalabilité.\n**Date: ** févr. 2025 - août 2025\n- Expérience professionnelle\n- Haytham Brahem\n- Full Stack/Backend Engineer\n- Ingénieur Full Stack\n- BNA - Banque Nationale Agricole\n- Conception et implémentation de 9 modules métier avec Spring Boot et Angular.\n- Développement et maintenance de 50+ APIs REST sécurisées.\n- Implémentation de workflows RBAC multi-rôles avec validation hiérarchique.\n- Participation à l'automatisation des tests et pipelines CI/CD.\n- Collaboration avec équipes techniques et métier en environnement Agile.\n- Développement d'une application full-stack sécurisée Spring Boot/Angular.\n- Mise en place d'authentification JWT et gestion des accès utilisateurs.\n- Structuration des données et optimisation des requêtes SQL.\n- Développement de composants front-end réutilisables et dynamiques.\n- Développement d'une plateforme web moderne orientée mobilité internationale.\n- Optimisation des performances SQL avec pagination et indexation.\n- Validation des données côté client et serveur.\n- Collaboration sur architecture backend et APIs REST évolutives.\n- Développement d'un agent intelligent pour l'automatisation des candidatures.\n- Création d'interfaces React modernes avec APIs backend Node. js.\n- Automatisation de workflows intelligents et suivi des candidatures.\n- Architecture modulaire orientée performance et évolutivité.\n- Intégration de services IA et agents intelligents.\n- Architecture microservices avec APIs REST sécurisées.\n- Gestion des accès et authentification JWT multi-rôles.\n- Configuration CI/CD et conteneurisation Docker.\n- Développement backend modulaire et scalable.\n- Tests automatisés avec 80% de couverture de code.\n\n## EDUCATION\n\nInformations personnelles/user Haytham Brahem/envelope haythambrahem@gmail.com/phone +216 58 101 754\nDéveloppeur Full Stack\nAGIL Energy\n## /map-marker-alt Cité El Ghazala, Ariana\n**Date: ** juil. 2024 - sept. 2024\n- Tunisie\n-/github github.com/haythambrahem\n-/linkedin linkedin.com/in/brahem-haytham\n-/globe portfolio-website-rho-cyan. vercel. app\n- Développeur Web Full Stack\n- Formation\n- Mention: Très Bien\n- IA & Automatisation\n- Intégration d'agents IA et automatisation de workflows techniques.\n- Développement d'outils intelligents avec APIs backend modernes.\n\n## TECHNICAL SKILLS\n\nCompétences\nESPRIT - École d'Ingénierie\nFrameworks & Outils\nSolution ERP Microservices/check Spring Boot/Java/check React/Angular/Node. js/check REST APIs/JWT/RBAC/check Docker/Jenkins/Git Lab CI/check Oracle SQL/PostgreSQL/check Linux/Bash/check Prometheus/Grafana/check Sonar Qube/Trivy\nPipeline DevOps CI/CD Automatisé\ndéc. 2024 - févr. 2025\nConception d'un pipeline CI/CD automatisé avec Jenkins et Git Flow.\nDockerisation d'applications avec builds multi-stage.\nDéploiement Kubernetes avec monitoring Prometheus/Grafana.\nIntégration Sonar Qube et Trivy pour sécurité et qualité logicielle.\nRéduction du temps de livraison de 70%.\n\n## ACADEMIC PROJECTS\n\nProjets Techniques\nAI Job Agent\nUtilisation de MCP et prompt engineering dans des projets réels.\nForte motivation pour les plateformes intelligentes et évolutives.\n## Intérêt marqué pour les environnements IA, backend et data.\n**Date: ** déc. 2025 - avr. 2026\n\n## LANGUAGES\n\nLangues\n\n## CERTIFICATES (IN PROGRESS)\n\nCertificats\nCentres d'intérêt/robot\nIA & Agents intelligents/code Automatisation & Workflows/server\nArchitectures backend modernes/code-branch\nOpen Source/trophy Hackathons",
+    "header_info": {
+      "full_name": "Expérience professionnelle",
+      "email": null,
+      "phone": null,
+      "location": "Ingénieur Full Stack orienté backend avec expérience dans la conception d'APIs REST sécurisées, architectures microservices et développement d'applications modernes avec Spring Boot, React et Angular. Expérience pratique sur des projets d'automatisation intelligente, workflows métier, CI/CD, Docker et intégration d'agents IA. Habitué aux environnements Agile et aux plateformes évolutives orientées performance, sécurité et scalabilité.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6704,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[4]",
+      "languages[0]"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[4]",
+      "languages[0]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Haytham Brahem",
+      "email": null,
+      "phone": "+216 58 101 754",
+      "location": null,
+      "linkedin": "linkedin.com/in/brahem-haytham",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Spring Boot",
+        "React",
+        "Angular",
+        "Node.js",
+        "Docker",
+        "Jenkins",
+        "Git Flow",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "Sonar Qube",
+        "Trivy",
+        "Java",
+        "PostgreSQL",
+        "Linux",
+        "Bash"
+      ],
+      "soft_skills": [
+        "Agile",
+        "CI/CD",
+        "Automatisation",
+        "Intégration d'agents IA",
+        "Gestion des accès et authentification JWT",
+        "Configuration de pipelines DevOps"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "BNA - Banque Nationale Agricole",
+        "job_title": "Full Stack/Backend Engineer",
+        "start_date": "févr. 2025",
+        "end_date": "août 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et implémentation de 9 modules métier avec Spring Boot et Angular.",
+          "Développement et maintenance de 50+ APIs REST sécurisées.",
+          "Implémentation de workflows RBAC multi-rôles avec validation hiérarchique.",
+          "Participation à l'automatisation des tests et pipelines CI/CD.",
+          "Collaboration avec équipes techniques et métier en environnement Agile."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "AGIL Energy",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:28:50.969957+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

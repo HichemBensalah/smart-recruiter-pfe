@@ -1,0 +1,245 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hiba_Bahri_23024190.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hiba_Bahri_23024190.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8764,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nHiba BAHRI\nA 25 years old Computer Science Engineer, specializing in Web & Mobile Development and Multimedia Ben Arous, Tunisia | +216 54 253 480 | hibabahri 447@gmail.com | Linkedin: Hiba Bahri | Github: Hiba Bahri English: Advanced . French: Intermediate . Spanish: Beginner . Arabic: Native language\nFrontend Developer- Intern, The Tunisian Post Office (July - August 2021)\n\n## TECHNICAL SKILLS\n\nSkills\nWeb Development: Angular 17 - Next JS 15 - React\nMobile Development: Flutter - Android\nBackend Development: GraphQL - REST API - Nest JS - Express JS - Spring Framework - Database Management (PostgreSQL/MySQL/MongoDB/Firebase)\nTesting & QA: Jest Framework - Mockito\nDevops Tools: Docker - Gitlab CI/CD\nVersion Control: Git - Github - Gitlab\nMultimedia/UI/UX: Design Fundamentals - Figma - Adobe XD - Illustrator - Responsive UI/UX (Web & Mobile)\nHCIA Cloud Service - Huawei Talent (January 2025)\nAWS Certified Cloud Practitioner - AWS Academy (December 2022)\nBig Data Engineer 2021 Mastery Award - IBM Skills Academy (January 2022)\n\n## ACADEMIC PROJECTS\n\n## Project Methodologies: Agile - Scrum methodology\n## Projects\nEventy - Implementation of An event planner mobile application - Group Project/github\nDeveloped an event planning web application enabling users to schedule parties or ceremonies, browse and book service providers (bands, decorators, caterers, entertainers), and manage bookings through an integrated calendar system.\n- Implemented provider-side features for booking management and built-in chat functionality to facilitate real-time communication and coordination between clients and service providers.\n- Flutter -Firebase -Mockito\n## Social Media - Implementation of a Social Media platform - Group Project/github\nDeveloped a social interaction platform enabling users to follow others, publish posts, comment, and react with likes, fostering engagement and community interaction.\nImplemented a search system for discovering users and content, along with a real-time notification system to keep users informed about new followers, comments, and interactions.\n- React -Nest JS -MySQL\nDeliverini - Implementation of a web application for carpooling and delivery - Group Project/github\n- Angular 17 -Express JS -MongoDB\nArtois Immo - Implementation of a Real Estate Web Application - Group Project/github\n- Spring Boot -Thymeleaf -MySQL\n\n## PROFESSIONAL EXPERIENCE\n\n## Web Developer - Intern, Playsoft (February - August 2025)\nDeveloped a web platform for Device Maintenance and Management. It helps individuals, professionals, and companies repair their faulty devices with fast and reliable service to keep their technology running smoothly.\n- Developed a carpooling application enabling users to share rides or send packages to common destinations, promoting affordable, eco-friendly and socially engaging transportation.\nImplemented a secure module allowing clients to register their devices, generate support tickets, and process online payments upon repair completion.\n- Developed an admin dashboard for assigning technicians to tickets and a real-time chat feature enabling users to track repair progress by talking to technicians.\n- Implemented ride and offer management features to send, modify or delete requests, post or update offers and accept or decline bookings along with an integrated complaint system to maintain service quality and user trust.\nIntegrated automated email notifications for each stage of the process, built a support messaging system connecting clients and admins, and implemented an AI Assistant for user assistance.\n- Nest JS -Next JS 15 -MySQL -GraphQL -Github -Stripe -Groq -Jest\n## Backend Developer - Intern, Tagamuta Valley (June - July 2024)\nDevelopment of a web application to manage and track diagnostic testing processes in a medical laboratory, ensuring efficient asset control with a flexible, user-friendly interface.\n- Implemented a staff dashboard to register patients and doctors and to log and track every blood sample and its corresponding test.\nImplementation of QR code labeling for sample tubes, automatically generated based on system-assigned IDs.\n- Integrated automated email notifications sent to the doctor and the patient to update them about each stage of the test.\n- Spring Framework -Angular -PostgreSQL -Docker -Gitlab\n## Mobile Developer - Intern, Attijari Bank (February - May 2022)\nDevelopment of a web and mobile e-banking solution enabling users to manage bank accounts and track transactions without the need to visit agencies. Its main focus is portability with intuitive, user-friendly interface.\nDeveloped a module that enables users to simulate loan scenarios, submit loan requests, and initiate money transfers to other users.\nActivation and deactivation of credit cards remotely, including loan simulations based on account balance.\n- Implementation of complaint system for disaster recovery and surveys.\n- Spring Framework -Flutter -MySQL -Docker\n- OCP Java 8 - TEK-UP University, Summer Training (July 2023)\n- OCA Java 8 - TEK-UP University, Summer Training (June 2023)\nRedesign of the official website to enhance user experience, focusing on readability and user-friendly navigation.\n- Implemented a complaint management system for users to submit to resolve issues efficiently.\n- Angular -Javascript\n\n## EDUCATION\n\nDeveloped a web application enabling users to browse property listings, view detailed information, and bookmark preferred ones to connect with agents, facilitating property buying, selling, and renting.\nBuilt an admin interface to manage listings, including reviewing incoming submissions and removing or updating them as needed.\n**Date: ** 2022 - 2025\n## TEK-UP University:\n- E ngineering Diploma in Mobile and Web Development and Multimedia\n- ISTIC - The Higher Institute of Information and Communication Technologies:\n## B achelor's Degree in Software Engineering and Information Systems\n**Date: ** 2019 - 2022\n- Certification & Courses",
+    "header_info": {
+      "full_name": "Hiba BAHRI",
+      "email": "447@gmail.com",
+      "phone": "+216 54 253 480",
+      "location": "Frontend Developer- Intern, The Tunisian Post Office (July - August 2021)",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9753,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Hiba BAHRI",
+      "email": "447@gmail.com",
+      "phone": "+216 54 253 480",
+      "location": "Tunisia",
+      "linkedin": "Hiba Bahri",
+      "github": "Hiba Bahri"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 7,
+      "hard_skills": [
+        "Angular 17",
+        "Next JS 15",
+        "React",
+        "Flutter",
+        "Android",
+        "GraphQL",
+        "REST API",
+        "Nest JS",
+        "Express JS",
+        "Spring Framework",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Firebase",
+        "Jest Framework",
+        "Mockito",
+        "Docker",
+        "Gitlab CI/CD",
+        "Git",
+        "Github",
+        "Figma",
+        "Adobe XD",
+        "Illustrator",
+        "Responsive UI/UX"
+      ],
+      "soft_skills": [
+        "Agile",
+        "Scrum methodology"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "The Tunisian Post Office",
+        "job_title": "Frontend Developer- Intern",
+        "start_date": "July - August 2021",
+        "end_date": null,
+        "city": "Tunisia",
+        "responsibilities": [
+          "Implemented provider-side features for booking management and built-in chat functionality to facilitate real-time communication and coordination between clients and service providers.",
+          "Developed an event planning web application enabling users to schedule parties or ceremonies, browse and book service providers (bands, decorators, caterers, entertainers), and manage bookings through an integrated calendar system."
+        ]
+      },
+      {
+        "company": "Playsoft",
+        "job_title": "Web Developer - Intern",
+        "start_date": "February - August 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed a web platform for Device Maintenance and Management. It helps individuals, professionals, and companies repair their faulty devices with fast and reliable service to keep their technology running smoothly.",
+          "Implemented a secure module allowing clients to register their devices, generate support tickets, and process online payments upon repair completion."
+        ]
+      },
+      {
+        "company": "Tagamuta Valley",
+        "job_title": "Backend Developer - Intern",
+        "start_date": "June - July 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Development of a web application to manage and track diagnostic testing processes in a medical laboratory, ensuring efficient asset control with a flexible, user-friendly interface.",
+          "Implemented a staff dashboard to register patients and doctors and to log and track every blood sample and its corresponding test."
+        ]
+      },
+      {
+        "company": "Attijari Bank",
+        "job_title": "Mobile Developer - Intern",
+        "start_date": "February - May 2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Development of a web and mobile e-banking solution enabling users to manage bank accounts and track transactions without the need to visit agencies.",
+          "Activation and deactivation of credit cards remotely, including loan simulations based on account balance."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "TEK-UP University",
+        "degree": "Engineering Diploma in Mobile and Web Development and Multimedia",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "ISTIC - The Higher Institute of Information and Communication Technologies",
+        "degree": "Bachelor's Degree in Software Engineering and Information Systems",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Spanish",
+      "Arabic"
+    ],
+    "certifications": [
+      "AWS Certified Cloud Practitioner",
+      "HCIA Cloud Service - Huawei Talent",
+      "Big Data Engineer 2021 Mastery Award - IBM Skills Academy"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:30:55.425455+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Fakhfakh_Ahmed_23022150.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Fakhfakh_Ahmed_23022150.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Fakhfakh_Ahmed_23022150.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ahmed Fakhfakh",
+      "email": "fakhfakh.ahmeed@gmail.com",
+      "phone": "+216 28820474",
+      "location": ""
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Kubernetes (AKS)",
+        "Helm",
+        "Docker",
+        "GitHub Actions",
+        "Jenkins",
+        "Git Lab CI",
+        "Terraform",
+        "Ansible",
+        "Linux/Bash",
+        "Node.js",
+        "Express",
+        "React",
+        "TypeScript",
+        "Spring Boot",
+        "Flutter",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
+      ],
+      "soft_skills": [
+        "Agile/Scrum",
+        "Git Flow",
+        "Microservices",
+        "API REST",
+        "Ingénieur DevOps"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur DevOps - Freelance",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Administration avancée: namespaces, RBAC, Azure AD, Ingress NGINX, TLS.",
+          "Déploiement via Helm Charts avec gestion multi-environnements.",
+          "Scalabilité et haute disponibilité: HPA, resource limits, probes, rolling updates, PDB.",
+          "Gestion Config Maps, Secrets et Azure Key Vault.",
+          "CI/CD avec GitHub Actions et Git Lab CI: build, test, Docker, push ACR, déploiement AKS.",
+          "Scan sécurité (Trivy), versioning, rollback et automatisation du cycle de vie.",
+          "Monitoring avec Prometheus, Grafana et alerting.",
+          "Troubleshooting production (Crash Loop Back Off, Err Image Pull, DNS, réseau)."
+        ]
+      },
+      {
+        "job_title": "Développeur Full-Stack - Freelance",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception d'APIs REST sécurisées, gestion des bases de données et déploiement avec Docker."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Développeur Full-Stack - Projet de fin d'études (PFE)",
+        "school": "TAC-TIC - Tunis",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:59:20.521130+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9542,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

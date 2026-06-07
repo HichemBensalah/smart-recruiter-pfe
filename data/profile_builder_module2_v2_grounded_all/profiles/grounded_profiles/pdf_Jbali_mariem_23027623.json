@@ -1,0 +1,193 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Jbali_mariem_23027623.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Jbali_mariem_23027623.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9326,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMariem Jbali\nDéveloppeuse Full Stack/envelope mariemjbeli 507@gmail.com/linkedin mariem-jbali/phone +216 53 540 425/map-marker Béni khalled, Nabeul, Tunisie\nStage d'initiation\nJanvier 2020\nInitiation aux taches afférentes au service Informatique. Participation à plusieurs opérations de maintenance.\n\n## EDUCATION\n\nFormation\nMastère professionnel en développement des systèmes informatiques et réseaux\n## Institut Supérieur des Études Technologiques de Sfax, 2022 - 2024\n- Licence en développement des systèmes d'information\n## Institut Supérieur des Études Technologiques de Sfax, 2019 - 2022\n## Baccalauréat en sciences de l'informatique\n## Lycée rue lmanzah, Béni khalled, Nabeul, 2019\n**Date: ** Juillet 2025 - Janvier 2026\n- Stage de Projet de Fin d'Études\n## Technologies: Laravel, Angular\n**Date: ** Janvier 2022\n- POLYSOFT\n- Stage de perfectionnement\n- Technologies: Django.\n- SEF Informatique\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences Professionnelles\nGarantie d'une expérience utilisateur fluide, rapide et responsive, adaptée à tous types d'appareils (mobile, tablette, desktop).\nTechnologies: React. js, React Native, TypeScript, PHP natif, MySQL, API REST, HTML 5, CSS 3, JavaScript ES 6+, Git, File Zilla, JSON.\nDéveloppement du front-end de l'application web avec Angular, créant des interfaces dynamiques et réactives.\n**Date: ** Décembre 2024 - Avril 2025\nDéveloppement du front-end de l'application mobile Libro Job, créant une plateforme intuitive pour la recherche d'emplois et la publication d'offres.\n**Date: ** Août 2024 - Décembre 2024\nMigration et développement de nouvelles fonctionnalités pour une application de bâtiment, avec optimisation de la gestion des ressources.\n**Date: ** Février 2024 - Mai 2024\nTechnologies: Spring Boot, Angular, Microservices, Docker Compose, Git Lab, moba Xterm.\nDéveloppement d'une application web pour l'administration d'un portail E-commerce, incluant la gestion des utilisateurs, produits et commandes.\n**Date: ** Février 2022 - Mai 2022\n\n## NOUSSOUKI TRAVEL\n\nDéveloppeuse Full Stack\nConception, développement et maintenance des interfaces front-end (React Native) et des fonctionnalités back-end en PHP natif, hébergées sur File Zilla, pour l'application Youzful dédiée aux voyageurs au Moyen-Orient.\nDéveloppement de nouvelles fonctionnalités et optimisation du site web hébergé sur File Zilla, incluant la gestion du déploiement et la maintenance du code serveur.\n\n## BF IT SERVICE\n\nDéveloppeuse web (à distance)\nTechnologies: Angular.\nStage Pré-embauche (à distance)\nTechnologies: Flutter.\nDevwise\nStage de mémoire\nUnilog\n\n## TECHNICAL SKILLS\n\nIntégration de fonctionnalités de sécurité et de paiement, démontrant des compétences avancées en développement web full-stack.\nCréation d'un site web visant à améliorer l'efficacité de la recherche d'emploi et de travailleurs, en valorisant l'économie de temps et d'énergie.\nCompétences Techniques\nLangages de programmation: Java/JEE, Python, JavaScript, TypeScript, PHP natif, Dart.\nFrameworks Web Front-end: Angular, React, Next. js.\nFrameworks Web Back-end: Spring Boot, Laravel, Symfony, Node. js, Express. js.\nFrameworks Mobile: Flutter, React Native.\nTechnologies Web: HTML 5, CSS 3, Bootstrap, REST API, JSON, AJAX.\nSystèmes de gestion de base de données: PostgreSQL, MySQL, MongoDB, Firebase.\n\n## ACADEMIC PROJECTS\n\nOutils de gestion de projets et de déploiement: Méthodologies Agile (Scrum), Jira, Trello, Git, GitHub, Git Lab, File Zilla.\nEnvironnements et outils de développement: VS Code, Intelli J IDEA, Android Studio, Postman, Figma.",
+    "header_info": {
+      "full_name": "Mariem Jbali",
+      "email": "507@gmail.com",
+      "phone": "+216 53 540 425",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9865,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mariem Jbali",
+      "email": "507@gmail.com",
+      "phone": "+216 53 540 425",
+      "location": "Béni khalled, Nabeul, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "React.js",
+        "React Native",
+        "TypeScript",
+        "PHP natif",
+        "MySQL",
+        "API REST",
+        "HTML 5",
+        "CSS 3",
+        "JavaScript ES 6+",
+        "Git",
+        "File Zilla",
+        "JSON"
+      ],
+      "soft_skills": [
+        "Conception de interfaces utilisateur fluide et responsive",
+        "Développement de plateformes intuitives pour la recherche d'emplois et la publication d'offres",
+        "Optimisation de la gestion des ressources dans les applications de bâtiment"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Décembre 2024 - Avril 2025",
+        "end_date": "Avril 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement du front-end de l'application web avec Angular"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Août 2024 - Décembre 2024",
+        "end_date": "Décembre 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement du front-end de l'application mobile Libro Job"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Février 2024 - Mai 2024",
+        "end_date": "Mai 2024",
+        "city": null,
+        "responsibilities": [
+          "Migration et développement de nouvelles fonctionnalités pour une application de bâtiment"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Février 2022 - Mai 2022",
+        "end_date": "Mai 2022",
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web pour l'administration d'un portail E-commerce"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur des Études Technologiques de Sfax",
+        "degree": "Mastère professionnel en développement des systèmes informatiques et réseaux",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée rue lmanzah, Béni khalled, Nabeul",
+        "degree": "Baccalauréat en sciences de l'informatique",
+        "field": null,
+        "year": 2019
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:44:30.760818+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\hamdi_helmi_23029728.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\hamdi_helmi_23029728.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\hamdi_helmi_23029728.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Helmi Hamdi",
+      "email": "helmi.hamdi@etudiant-fst.utm.tn",
+      "phone": "+216 25 152 449",
+      "location": "My Tek, Tunis"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Flutter",
+        "Dart",
+        "Magento 2",
+        "GraphQL",
+        "Bitbucket",
+        "MySQL",
+        "Scrum",
+        "Android Studio",
+        "Swift Code"
+      ],
+      "soft_skills": [
+        "ReactJS",
+        "NodeJS",
+        "Express JS",
+        "j Query",
+        "Socket. io",
+        "Vitest",
+        "IA G´ en´ erative",
+        "MySQL",
+        "UML",
+        "Scrum",
+        "Git/GitHub"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "My Tek, Tunis",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Mise en place d'une application mobile e-commerce pour l'enseigne Mytek, afin d'am´ eliorer l'exp´ erience d'achat en ligne."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Cyber Parc, Sidi Bouzid",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sidi Bouzid",
+        "responsibilities": [
+          "Contribution ` a l'´ etablissement d'une architecture r´ eseau, avec des recherches sur les diff´ erents ´ el´ ements d'interconnexion r´ eseau, tout en acqu´ erant les bases de la cybers´ ecurit´ e."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplˆ ome National d'Ing´ enieur en Informatique",
+        "school": "E-Tafakna, Tunis",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Facult´ e des Sciences de Sfax",
+        "year": "[9, 2018, 6, 2018]"
+      },
+      {
+        "degree": "Diplˆ ome National d'Ing´ enieur en Informatique",
+        "school": "Facult´ e des Sciences de Tunis",
+        "year": "[9, 2024, 6, 2020]"
+      },
+      {
+        "degree": "Baccalaur´ eat en Math´ ematiques",
+        "school": "Lyc´ ee Secondaire Lessouda - Sidi Bouzid",
+        "year": "[9, 2014]"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:18:37.935553+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8267,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

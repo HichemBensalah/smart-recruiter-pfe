@@ -1,0 +1,53 @@
+## DÉVELOPPEUR FULLSTACK
+
+8025 Hammem el ghzez ,Nabeul | oumaymabenhassine 7@gmail. com
+Linkedin
+Kaggel
+: oumaimabenhssin Git Hub : ben-hsin-oumaima 8
+: Oumayma Ben hassine
+
+## PROFESSIONAL EXPERIENCE
+
+Développeuse Full Stack orientée intelligence artificielle, avec une solide expérience en développement web (Angular, Python, Node. js) et en IA (NLP, Deep Learning, Computer Vision). Motivée, rigoureuse et passionnée par les solutions innovantes.
+
+## TECHNICAL SKILLS
+
+COMPÉTENCES
+Jira
+Java Script
+Spring Boot
+Matplotlib
+Python
+Java
+HTML
+Angular
+CSS
+Node js
+
+## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)
+
+Scikit-learn
+Nl P
+Scrum
+Mongo DB
+Figma
+SQLite
+Développement Full Stack d'une application web intelligente ( Angular + Python + SQLite ) permettant aux utilisateurs d'analyser automatiquement des textes en ligne grâce à une interface fluide, responsive et conviviale.
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Janvier 2024 - Mai 2025 Stagaire en IA et Deep Learning , Atomic It Pro, kelibia
+Implémentation d'un système de détection de mains et de reconnaissance de gestes basé sur le Deep Learning, utilisant Media Pipe, Tensor Flow/Keras et CNN (Convolutional Neural Networks) pour interpréter les signes de la langue des signes tunisienne.
+Création d'API REST en Python pour le traitement des images et la communication entre le frontend Angular et les modèles IA, avec gestion des historiques et données utilisateur via SQLite.
+Mai 2024 - Août 2024 Stagiaire en Automatisation et IA , Atomic It Pro, kelibia
+Conception de solutions d'IA pour la classification de texte (détection de cyberharcèlement)
+Implémentation de modèles de deep learning pour la classification d'images médicales.
+Stagiaire en Développement Front-End et Bases de
+Données , Cody Net, Monastir
+
+## ACADEMIC PROJECTS
+
+Conception et développement complet d'une application web innovante destinée à faciliter la mise en relation entre investisseurs et porteurs de projets, en utilisant Angular pour le frontend, Node. js pour le backend et Mongo DB pour la base de données.
+**Date:** Janvier 2023 - Juin 2023
+Mise en place d'un système de gestion sécurisé des utilisateurs : implémentation d'un système d'authentification et d'autorisation par rôles, protection des données personnelles, gestion des accès et chiffrement des mots de passe (bcrypt).
+Développement de modules dynamiques pour la soumission de projets, la recherche filtrée d'opportunités, la visualisation des projets, ainsi qu'un tableau de bord personnalisé pour chaque type d'utilisateur.

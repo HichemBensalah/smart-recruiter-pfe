@@ -1,0 +1,218 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\HJIRI_Amir_23032062.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\HJIRI_Amir_23032062.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9032,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nHJIRI Amir\nFull Stack Developer | Next. js · React · Node. js · FastAPI · PostgreSQL\namirhjiri 3@gmail.com\nlinkedin. amir-hjiri github.com/hjiriamir\nPort-Folio-Amir_HJIRI\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeur Full Stack spécialisé en architectures web modernes, APIs REST et applications scalables. Expérience concrète en développement backend (Node. js, APIs sécurisées, RBAC, PostgreSQL) et frontend moderne (Next. js, React, TypeScript).\n**Date: ** - 2025\n**Location: ** Tunis, Tunisie\n\n## TECHNICAL SKILLS\n\nJ'aime construire des plateformes rapides et bien structurées, avec une attention particulière à la performance, la sécurité et l'expérience utilisateur.\nTrès motivé par les environnements innovants mêlant développement, automatisation, intelligence artificielle.\nDéveloppé une plateforme web performante avec Next. js (SSR) et Node. js pour la gestion d'annonces automobiles .\nDéveloppé une architecture backend robuste pour gérer utilisateurs, produits, abonnements et workflows métiers.\nDevOps Engineering -CI/CD & Monitoring (2024): Créé des pipelines CI/CD automatisés réduisant le temps de déploiement de 40; Atteint 95 % de couverture de tests automatisés; Réduit les régressions applicatives de 60 % grâce à l'automatisation des validations .\nCompétences Techniques\nBackend & APIs: Node. js, Express. js, FastAPI, REST APIs, JWT Authentication, RBAC (Role-Based Access Control), Architecture modulaire scalable, SQLAlchemy (bases), Pydantic (bases)\nBases de données: PostgreSQL, MySQL, MongoDB\nDevOps & Outils: Docker, Git, GitHub Actions, Jenkins, CI/CD, Jira, Agile/Scrum\nTests & Qualité: Jest, Cypress, Playwright\nIA & Data: XGBoost, Random Forest, Workflows automatisés, Intérêt fort pour LLMs, agents IA et recherche sémantique\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nDéveloppeur Full Stack -Plateforme Auto-Marketplace (Freelance)\nRemote | Nov 2025 -Jan 2026\nConçu et sécurisé plus de 12 APIs REST avec authentification JWT.\nImplémenté un système RBAC (Admin/User) pour sécuriser les accès et permissions.\nGéré plus de 300 annonces avec filtres dynamiques et moteur de recherche optimisé.\nStructuré une architecture backend modulaire facilitant les évolutions fonctionnelles et la maintenance.\nDéveloppeur Full Stack -Plateforme de Livraison (Freelance)\nRemote | Sept 2025 -Nov 2025\nCréé des APIs REST pour la gestion des commandes, devis et utilisateurs .\nImplémenté une authentification sécurisée (JWT) .\nStagiaire Ingénieur Logiciel -Smart Store Saa S Platform\nSQLI Services | Tunis | Jan 2025 -Sept 2025\nConçu et développé une plateforme Saa S retail avec React, Next. js et Node. js.\nImplémenté un système avancé de rôles et permissions multi-niveaux.\n\n## LANGUAGES\n\nDéveloppé une application web multilingue (4 langues) avec Next. js et Node. js.\nOptimisé les parcours utilisateurs, réduisant les frictions dans les demandes de devis et contacts.\nIntégré Whats App et email pour accélérer les échanges clients et améliorer la réactivité.\nOptimisé les performances des APIs et du traitement des données afin de réduire les temps de traitement.\nAutomatisé plusieurs workflows métiers: import Excel, notifications et génération de planogrammes.\nIntégré des modèles IA (XGBoost, Random Forest) pour automatiser la génération de configurations produits.\nIngénieur en génie Logicielle 2022\nFrontend: Next. js, React. js, TypeScript, JavaScript, HTML 5, CSS 3, SSR (Server-Side Rendering), Routing optimisé\nLangues: Arabe (natif), Français (courant), Anglais (professionnel)\n\n## ACADEMIC PROJECTS\n\nPROJETS\n\n## EDUCATION\n\nÉcole Supérieur Privée d'Ingénierie et de Technologie (ESPRIT)",
+    "header_info": {
+      "full_name": "HJIRI Amir",
+      "email": "3@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/hjiriamir"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8358,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[4]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "education[0].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[4]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "HJIRI Amir",
+      "email": "amirhjiri@3@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "linkedin. amir-hjiri",
+      "github": "github.com/hjiriamir"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Node.js",
+        "Express.js",
+        "FastAPI",
+        "REST APIs",
+        "JWT Authentication",
+        "RBAC (Role-Based Access Control)",
+        "Architecture modulaire scalable",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "GitHub Actions",
+        "Jenkins",
+        "CI/CD",
+        "Jira",
+        "Agile/Scrum",
+        "Jest",
+        "Cypress",
+        "Playwright",
+        "XGBoost",
+        "Random Forest"
+      ],
+      "soft_skills": [
+        "Construire des plateformes rapides et bien structurées",
+        "Attention particulière à la performance, la sécurité et l'expérience utilisateur",
+        "Développement, automatisation, intelligence artificielle",
+        "Automatisation des validations"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Plateforme Auto-Marketplace (Freelance)",
+        "job_title": "Développeur Full Stack",
+        "start_date": "-2025",
+        "end_date": "-2026",
+        "city": null,
+        "responsibilities": [
+          "Conçu et sécurisé plus de 12 APIs REST avec authentification JWT.",
+          "Implémenté un système RBAC (Admin/User) pour sécuriser les accès et permissions.",
+          "Géré plus de 300 annonces avec filtres dynamiques et moteur de recherche optimisé."
+        ]
+      },
+      {
+        "company": "Plateforme de Livraison (Freelance)",
+        "job_title": "Développeur Full Stack",
+        "start_date": "-2025",
+        "end_date": "-2025",
+        "city": null,
+        "responsibilities": [
+          "Créé des APIs REST pour la gestion des commandes, devis et utilisateurs.",
+          "Implémenté une authentification sécurisée (JWT)."
+        ]
+      },
+      {
+        "company": "Smart Store Saa S Platform",
+        "job_title": "Stagiaire Ingénieur Logiciel",
+        "start_date": "-2025",
+        "end_date": "-2025",
+        "city": null,
+        "responsibilities": [
+          "Conçu et développé une plateforme Saa S retail avec React, Next. js et Node. js.",
+          "Implémenté un système avancé de rôles et permissions multi-niveaux."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "École Supérieure Privée d'Ingénierie et de Technologie (ESPRIT)",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:33:04.648521+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ameni_Jabri_23020822.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ameni_Jabri_23020822.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ameni_Jabri_23020822.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "AMENI JABRI",
+      "email": "ameni.jabri@etudiant-isi.utm.tn",
+      "phone": "(+216) 94 186 137",
+      "location": "Mnihla, Ariana"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "ESP 8266",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "STM 32",
+        "Arduino",
+        "Raspberry Pi",
+        "Lo Ra/Lo Ra WAN",
+        "MQTT",
+        "Embedded C",
+        "Node.js",
+        "Angular",
+        "MongoDB",
+        "Python",
+        "Java",
+        "C",
+        "SQL",
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "Git",
+        "Docker",
+        "Visual Studio Code",
+        "AWS",
+        "Google Cloud Platform",
+        "MS Project"
+      ],
+      "soft_skills": [
+        "Communication efficace",
+        "sens des responsabilités",
+        "capacité d'adaptation",
+        "esprit d'équipe",
+        "organisation",
+        "ponctualité",
+        "créativité"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Sumiriko Automotive Hose Tunisia Sarl",
+        "start_date": "Juillet 2022",
+        "end_date": "Août 2022",
+        "city": "Mnihla, Ariana",
+        "responsibilities": [
+          "Participation aux opérations de maintenance des équipements électriques et assistance aux équipes techniques sur site"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "licence en Electronique, Electrotechnique et Automatique (EEA)",
+        "school": "ISSAT Mateur",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat en Mathématique",
+        "school": "Lycée Mahmoud Messadi",
+        "year": null
+      },
+      {
+        "degree": "Mastère Professionnel en Systèmes Intelligents et Io T",
+        "school": "INSTITUT SUPÉRIEUR D'INFORMATIQUE (ISI ARIANA)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T17:58:11.899227+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9662,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

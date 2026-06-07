@@ -1,0 +1,109 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Teffaha_Yosr_23014094.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Teffaha_Yosr_23014094.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Teffaha_Yosr_23014094.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Yosr Teffaha",
+      "email": "yosr.teffaha@esprit.tn",
+      "phone": "+21627369833",
+      "location": "Cloud & Virtualisation: Open Stack, Microsoft"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Open Stack",
+        "Kubernetes",
+        "Docker",
+        "Ansible",
+        "Terraform",
+        "Jenkins",
+        "Sonar Qube",
+        "JUnit",
+        "Mockito",
+        "Python",
+        "C",
+        "C++",
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "PHP (Symfony)",
+        ".NET",
+        "Oracle",
+        "SQL Server",
+        "SQL Developer"
+      ],
+      "soft_skills": [
+        "Rigoureuse",
+        "Orientée solutions",
+        "Automatisation",
+        "DevOps",
+        "Monitoring",
+        "Qualité"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Projet de Fin d’Études",
+        "company": "Orange Tunisie",
+        "start_date": "Janvier 2025",
+        "end_date": "Juin 2025",
+        "city": null,
+        "responsibilities": [
+          "Mise en place automatisée d’une infrastructure cloud privée Open Stack",
+          "Intégration de Ceph comme backend de stockage",
+          "Développement d’un playbook Ansible pour le health check des services Open Stack et l’envoi d’alertes automatiques par e-mail",
+          "Migration automatisée des VM VMware vers Open Stack via une interface web.",
+          "Supervision de l’infrastructure avec Prometheus & Grafana.",
+          "Développement d’un portail cloud pour la gestion et la vente de VMs aux clients.",
+          "Mise en place d’un inventaire centralisé et d’un système automatique d’évaluation de faisabilité pour les nouvelles VM."
+        ]
+      },
+      {
+        "job_title": "Stage d’été",
+        "company": "BH Bank",
+        "start_date": "Juillet 2021",
+        "end_date": "Aout 2021",
+        "city": null,
+        "responsibilities": [
+          "Conception et mise en œuvre d’une architecture réseau, - Configuration des routeurs et switches"
+        ]
+      },
+      {
+        "job_title": "Stage d’été",
+        "company": "Univers Informatique",
+        "start_date": "Juin 2023",
+        "end_date": "Aout 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement d’un site e-commerce full-stack."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Esprit (École Supérieure Privée d’Ingénierie et de Technologies, Tunisie )",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:52:44.793209+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8063,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

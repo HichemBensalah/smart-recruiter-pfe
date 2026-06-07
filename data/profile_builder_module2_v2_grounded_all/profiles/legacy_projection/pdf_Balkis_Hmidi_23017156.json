@@ -1,0 +1,140 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Balkis_Hmidi_23017156.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Balkis_Hmidi_23017156.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Balkis_Hmidi_23017156.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Balkis Hmidi",
+      "email": "balkis.hmidi@outlook.com",
+      "phone": "+216 52 259 276",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "MySQL",
+        "MongoDB",
+        "SQL Server",
+        "Angular",
+        "Laravel",
+        "PHP",
+        "Java",
+        "SQL",
+        "Symfony",
+        ".NET",
+        "Ionic",
+        "HTML 5",
+        "CSS 3",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Nest JS",
+        "Git",
+        "Docker",
+        "CI/CD"
+      ],
+      "soft_skills": [
+        "Rigoureuse",
+        "méthodique",
+        "motivée"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Développeuse Full-Stack & CRM (Stage PFE)",
+        "company": "INETUM Tunisie",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Participation aux tests fonctionnels et techniques"
+        ]
+      },
+      {
+        "job_title": "Développeuse Web (Stage)",
+        "company": "IPACT Consult",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et consommation d'API REST",
+          "Manipulation de bases de données MongoDB",
+          "Travail en environnement collaboratif agile"
+        ]
+      },
+      {
+        "job_title": "Développeuse Mobile (Stage PFE)",
+        "company": "Axe Finance",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Feb 2025",
+        "end_date": "Aug 2025",
+        "city": "Lac 2, Tunisie",
+        "responsibilities": [
+          "Développement de modules d'une application CRM industrielle avec Angular et .NET",
+          "Implémentation de fonctionnalités métiers et gestion des données",
+          "Contribution à la maintenance et à l'amélioration continue de l'application",
+          "Collaboration avec chefs de projet et équipe technique en méthodologie agile",
+          "Télétravail",
+          "Développement d'une application web de gestion avec Angular et Spring Boot",
+          "Participation aux tests unitaires et à l'amélioration de la qualité du code (couverture 85%)"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Feb 2022",
+        "end_date": "May 2022",
+        "city": "Lac 1, Tunisie",
+        "responsibilities": [
+          "Développement d'interfaces mobiles avec Ionic et Angular",
+          "Contribution à la conception backend et à la base de données avec .NET",
+          "Contribution au développement d'une application web académique",
+          "Travail sur les services web et la logique applicative",
+          "Participation à l'intégration des différentes fonctionnalités",
+          "Implémentation des opérations CRUD et gestion des requêtes SQL"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'ingénieure en Informatique - Technologies du Web et de l'Internet",
+        "school": "ESPRIT - École Sup Privée d'Ingénierie et de Technologies",
+        "year": "2025"
+      },
+      {
+        "degree": "Licence en Multimédia et Développement Web",
+        "school": "ISET Kairouan",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat en Sciences Expérimentales",
+        "school": "Lycée Borj Cedria",
+        "year": "2019"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:40:05.639479+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9647,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

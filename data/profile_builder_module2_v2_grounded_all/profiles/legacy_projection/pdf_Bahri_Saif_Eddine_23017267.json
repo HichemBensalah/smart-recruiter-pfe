@@ -1,0 +1,98 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Bahri_Saif_Eddine_23017267.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Bahri_Saif_Eddine_23017267.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Bahri_Saif_Eddine_23017267.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Bahri Saif Eddine",
+      "email": "54@gmail.com",
+      "phone": "+216 53763494",
+      "location": "Ben Arous, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Dart",
+        "SQL",
+        "JavaScript",
+        "TypeScript",
+        "CSS 3",
+        "HTML",
+        "Next. js",
+        "Nest Js",
+        "Express. js",
+        "React. js",
+        "Flutter",
+        "Angular",
+        "Git",
+        "Docker",
+        "REST",
+        "GraphQL",
+        "PostgreSQL",
+        "MongoDB"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire Ingénieur en informatique",
+        "company": "Play Soft",
+        "start_date": "Février 2025",
+        "end_date": "Août 2025",
+        "city": "Monastir, Tunisie",
+        "responsibilities": [
+          "Développement d'une application web d'apprentissage informatique utilisant Next. js et Tailwind CSS, offrant des quiz interactifs et des ateliers pratiques.",
+          "Création d'un serveur backend avec Nest JS, GraphQL et PostgreSQL, permettant la persistance des données, une récupération efficace des données et l'authentification."
+        ]
+      },
+      {
+        "job_title": "Stagiaire Développeur Flutter",
+        "company": "AI African Solution",
+        "start_date": "Août 2023",
+        "end_date": "Septembre 2023",
+        "city": "Ben Arous, Tunisie",
+        "responsibilities": []
+      },
+      {
+        "job_title": "Stagiaire Développeur Flutter",
+        "company": "Didou Soft",
+        "start_date": "Février 2022",
+        "end_date": "Juin 2022",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Revue et test des endpoints d'API RESTful, améliorant la fiabilité et prévenant les bugs futurs."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "school": "Institut Supérieur des Études Technologiques de Rades",
+        "year": null
+      },
+      {
+        "degree": "Licence en technologies de l'information",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:39:50.576504+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.975,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

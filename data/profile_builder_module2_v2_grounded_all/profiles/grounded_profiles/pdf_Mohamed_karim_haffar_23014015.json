@@ -1,0 +1,183 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_karim_haffar_23014015.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_karim_haffar_23014015.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.83,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMohamed Karim Haffar\nhaffarmohamedkarim@gmail.https: //www.linkedin.com/in/me d-karim-haffar/\ncom\nTunisien\nPermis B\n\n## DIPLÔMES ET FORMATIONS\n\n3 ᵉ année d'ingénierie en Génie informatique, Université Arabe des Sciences\nTunis\nLicence appliquée en informatique de gestion,\nEcole Supérieure d' Economie Numérique\nManouba, tunis\n\n## EDUCATION\n\nspécialisé dans les technologies des systèmes d'Information.\n## Technicien Support informatique et réseau,\n**Date: ** Cité AL Amel denden, 2011 La Manouba \n## SAGEMCOM ezzahra, tunis\n- Participer à la mise en place et à l'administration du réseau local .\n## Installer, configurer et maintenir les postes de travail et périphériques.\n## Gérer les comptes utilisateurs, droits d'accès et politiques de sécurité\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nIntervenir sur les équipements réseau Aruba et Cisco Switch, routeur, point d'accès)\n●Mise en œuvre et administration de pare-feu et de solutions de sécurité réseau (pf Sense) pour la sécurisation des réseaux Wi-Fi.\n●Collabore avec l'équipe de cybersécurité pour garantir la sécurité des systèmes.\n●Surveillance et administration des ressources d'infrastructure à l'aide de plateformes\n●Utilisation de l'intelligence artificielle pour améliorer l'analyse, la détection et\n( 5 Mois )\nTravailler sur une application web nommée sunspot destinée pour la gestion des réservations dans les hôtels en utilisant ANGULAR .\nFaire des modifications HTML, CSS et JS sur un site web developper avec le CMS SHOPIFY .\n\n## ACADEMIC PROJECTS\n\nParticipation à des projets d'amélioration de l'infrastructure IT.\nDéploiement et administration de solutions de virtualisation Proxmox ).\n●Automatisation de tâches simples via scripts ou outils d'administration.\n## de monitoring IMC, Checkmk et Aruba Central ).\n- l'optimisation de la supervision réseau.\n## Technicien support IT,\n**Date: ** De juin 2022 à octobre 2022\n## CONCENTRIX charguia 2, tunis\n## Freelancer,\n**Date: ** Depuis septembre 2020\n## FIVERR, en ligne ( @karim-haffar )\n- ⟶ lien de site: https: //app. sun-spot. fr/- ⟶ lien de site: https: //sirius. com. sa/- le désign d'un site web en utilisant ADOBE XD .\n- ⟶lien: https: //adobe. ly/3 y O 9 E 0 R",
+    "header_info": {
+      "full_name": "Mohamed Karim Haffar",
+      "email": "haffarmohamedkarim@gmail.https",
+      "phone": null,
+      "location": null,
+      "linkedin": "www.linkedin.com/in/me",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.0,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.email",
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].start_date",
+      "experiences[2].start_date",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]"
+    ],
+    "fields_unsupported": [
+      "bio.email",
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].start_date",
+      "experiences[2].start_date",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mohamed Karim Haffar",
+      "email": null,
+      "phone": null,
+      "location": "Tunisien",
+      "linkedin": "www.linkedin.com/in/me-d-karim-haffar/",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "pf Sense",
+        "Proxmox",
+        "Aruba Central",
+        "Checkmk",
+        "IMC"
+      ],
+      "soft_skills": [
+        "administration",
+        "optimisation",
+        "supervision"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Technicien Support informatique et réseau",
+        "start_date": null,
+        "end_date": null,
+        "city": "AL Amel denden, La Manouba",
+        "responsibilities": [
+          "Mise en œuvre et administration de pare-feu et de solutions de sécurité réseau (pf Sense) pour la sécurisation des réseaux Wi-Fi.",
+          "Collabore avec l'équipe de cybersécurité pour garantir la sécurité des systèmes.",
+          "Surveillance et administration des ressources d'infrastructure à l'aide de plateformes",
+          "Utilisation de l'intelligence artificielle pour améliorer l'analyse, la détection et"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Technicien support IT",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Déploiement et administration de solutions de virtualisation Proxmox"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Freelancer",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "- l'optimisation de la supervision réseau.",
+          "- Automatisation de tâches simples via scripts ou outils d'administration."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université Arabe des Sciences",
+        "degree": null,
+        "field": null,
+        "year": 3
+      },
+      {
+        "institution": "Ecole Supérieure d' Economie Numérique",
+        "degree": "Licence appliquée en informatique de gestion",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:39:24.715001+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

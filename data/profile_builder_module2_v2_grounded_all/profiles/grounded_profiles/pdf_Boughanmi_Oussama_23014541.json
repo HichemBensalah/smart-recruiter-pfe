@@ -1,0 +1,203 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Boughanmi_Oussama_23014541.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Boughanmi_Oussama_23014541.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6684,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nBoughanmi Oussama\n\n## TECHNICAL SKILLS\n\nIngénieur DevOps/Infrastructure & Automation\noussama.boughanmi@esprit.tn\nAriana Esoghra - Tunis\nBoughanmi Oussama\nOussama 0304\nTunisien\nIngénieur Cloud & DevOps diplômé, passionné par l'automatisation, la fiabilité et la sécurisation des environnements de production. Solide expérience pratique sur les pipelines CI/CD, la conteneurisation Docker, l'administration Linux et l'infrastructure cloud (Open Stack, Open Shift). Curieux, rigoureux et orienté solutions, je souhaite contribuer à la construction et à l'évolution d'infrastructures modernes, stables et sécurisées.\nLivraison automatisée d'une application Spring via un pipeline CI/CD.\nCOMPÉTENCES\nCloud et Platform Engineering\nCloud Architecture & Design, Private Cloud & Hybrid Environments, Container Platforms (Kubernetes, Open Shift), High Availability & Disaster Recovery, Infrastructure Scalability & Resilience\nCI/CD & Automatisation\nGit Lab CI/CD, Jenkins, Ansible, Vagrant, pipelines build/test/deplo\nRéseaux et Infrastructure\nNetwork Architecture & Design, Network Architecture & Design, Firewall Management, Network Security & Traffic Control, Linux Windows Server, Apache/Tomcat, IAM, SSL/SSO, LDAP, Shell scripting, DNS, SSL/TLS, ports, routage, pf Sense, Fortigate, Open VPN, Snort, Nginx (reverse proxy)\nDevOps et Outils Cloud\nOpenshift, Ansible, Prometheus, Grafana, Terraform, Kubernetes, Openstack, Docker, Docker compose, Shell, GNS 3, Nagios, Vagrant, Postman, Apache Tomcat, Nginx.\nFrameworks et Logiciels\nVMWare Workstation, Vm Ware ESXI, GNS 3 VM, Spring Boot, Angular, Java FX, .NET Framework, VS Code .\nBases de Données et Modélisation\nMySQL, Postgresql, MongoDB, Oracle, UML\nLanguage de programmation:\nphp, Java, Javascript, C, HTML/CSS, PL/SQL, Shell, JavaScript, Bash\nSÉCURITÉ\nAnglais\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\n\n## CERTIFICATES (IN PROGRESS)\n\nHardening Linux (permissions, firewall, sécurisation SSH), IDS/IPS (Snort), Gestion des certificats SSL, Analyse de logs (Grafana, Prometheus, ELK ), Sécurisation réseau (pf Sense, Fortigate), Gestion des accès et authentification (LDAP )\n\n## LANGUAGES\n\nFrançais",
+    "header_info": {
+      "full_name": "Boughanmi Oussama",
+      "email": "oussama.boughanmi@esprit.tn",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7896,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.hard_skills[10]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "certifications[4]",
+      "certifications[5]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[33]",
+      "expertise.hard_skills[34]",
+      "expertise.hard_skills[35]",
+      "expertise.hard_skills[36]",
+      "expertise.hard_skills[37]",
+      "expertise.hard_skills[38]",
+      "expertise.hard_skills[39]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[40]",
+      "expertise.hard_skills[41]",
+      "expertise.hard_skills[42]",
+      "expertise.hard_skills[43]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "languages[0]"
+    ],
+    "fields_unsupported": [
+      "expertise.hard_skills[10]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Boughanmi Oussama",
+      "email": "oussama.boughanmi@esprit.tn",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieur Cloud & DevOps diplômé, passionné par l'automatisation, la fiabilité et la sécurisation des environnements de production.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Cloud Architecture & Design",
+        "Private Cloud & Hybrid Environments",
+        "Container Platforms (Kubernetes, Open Shift)",
+        "High Availability & Disaster Recovery",
+        "Infrastructure Scalability & Resilience",
+        "CI/CD & Automatisation",
+        "Git Lab CI/CD",
+        "Jenkins",
+        "Ansible",
+        "Vagrant",
+        "Network Architecture & Design",
+        "Firewall Management",
+        "Network Security & Traffic Control",
+        "Linux Windows Server",
+        "Apache/Tomcat",
+        "IAM",
+        "SSL/SSO",
+        "LDAP",
+        "Shell scripting",
+        "DNS",
+        "SSL/TLS",
+        "ports",
+        "routage",
+        "pf Sense",
+        "Fortigate",
+        "Open VPN",
+        "Snort",
+        "Nginx (reverse proxy)",
+        "Openshift",
+        "Ansible",
+        "Prometheus",
+        "Grafana",
+        "Terraform",
+        "Kubernetes",
+        "Openstack",
+        "Docker",
+        "Docker compose",
+        "Shell",
+        "GNS 3",
+        "Nagios",
+        "Postman",
+        "Apache Tomcat",
+        "Nginx"
+      ],
+      "soft_skills": [
+        "Curieux",
+        "Rigoureux",
+        "Orienté solutions"
+      ]
+    },
+    "experiences": [],
+    "education": [],
+    "languages": [
+      "Français"
+    ],
+    "certifications": [
+      "Hardening Linux (permissions, firewall, sécurisation SSH)",
+      "IDS/IPS (Snort)",
+      "Gestion des certificats SSL",
+      "Analyse de logs (Grafana, Prometheus, ELK )",
+      "Sécurisation réseau (pf Sense, Fortigate)",
+      "Gestion des accès et authentification (LDAP )"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T19:44:47.046885+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

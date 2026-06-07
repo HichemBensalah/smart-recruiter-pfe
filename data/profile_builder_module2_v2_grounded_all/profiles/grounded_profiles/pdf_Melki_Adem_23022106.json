@@ -1,0 +1,203 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Melki_Adem_23022106.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Melki_Adem_23022106.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7489,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAdem Melki\nIngénieur Informatique spécialisé en Cybersécurité\nPetite Ariana, Tunisia ademmelki 1@gmail.com | +216 99 614 898\n\n## EDUCATION\n\nIngénieur en informatique passionné par la cybersécurité, doté d'une solide expérience en développement web, gestion des infrastructures réseau et sécurité applicative. Compétent en gestion des risques, analyse de vulnérabilités et mise en place de politiques de sécurité. Motivé à contribuer à la protection des systèmes d'information et à l'optimisation des environnements IT.\n**Date: ** Prévu: 2025\n- Collaboration à l'amélioration de la sécurité des systèmes d'information.\n- FORMATION\n- Diplôme National d'Ingénieur en Informatique\n- ESPRIT (École Supérieure Privée d'Ingénierie et de Technologies)\n## Baccalauréat Informatique\n**Date: ** 2020\n\n## COMPÉTENCES CLÉS\n\nCybersécurité & Gestion des incidents: SIEM, SOAR, IDS/IPS, Threat Hunting\nDéveloppement Full-Stack: Java, JavaScript, PHP, C, C++, Python, Spring Boot, React. js, Symfony, MySQL\nDev Sec Ops & Automatisation: Jenkins, Docker, Sonar Qube, Nexus, CI/CD\nSécurité Applicative & Analyse de Vulnérabilités: OWASP, Snyk, Trivy, Falco\nSurveillance & Observabilité: Prometheus, Grafana, ELK Stack\nGestion des risques & Politiques de sécurité\n\n## LANGUAGES\n\nLangues: Français (natif), Anglais (professionnel)\n\n## EXPÉRIENCE PROFESSIONNELLE\n\n- Stage d'été, Management dispatcher et gestion de contrôle\n\n## TELCOTEC 07/2023 - 09/2024\n\nOptimisation des processus de gestion et de contrôle des opérations IT.\nParticipation à la mise en place de procédures de sécurité et de gestion des incidents.\n- Stage d'été, Développement sur Bitrix 24\n\n## MEDIASOFT 07/2022 - 09/2023\n\nDéveloppement et intégration de modules sur la plateforme Bitrix 24.\nContribution à l'automatisation des workflows et à la sécurisation des applications.\nBNA BANK - Stage d'immersion, Développement Web 07/2021 - 09/2022\nRéalisation d'applications web sécurisées pour le secteur bancaire.\n\n## BLOCKCHAIN, 2024\n\nCEH (Certified Ethical Hacker), 2024\n\n## TECHNICAL SKILLS\n\nPipeline DevOps sécurisé (2024 - 2025)\nOutils: Git, Docker, Docker Compose, Nexus, Sonar Qube, Prometheus, Grafana, CI/CD, Maven, Jenkins, Monitoring, Logging, Metrics, Cloud Deployment\nMise en place d'un pipeline CI/CD sécurisé avec intégration de solutions de monitoring et de sécurité.\nPratiques Dev Sec Ops (2024 - 2025)\nTechnologies: Git, Git Lab CI/CD, JUnit, OWASP ZAP, Dependency-Check, Snyk, Checkov, Open SCAP\nAutomatisation des tests de sécurité et analyse statique/dynamique du code.\nDispatcher - Application Web Full-Stack (2024 - 2025)\nFrontend: React. js, HTML, CSS, JavaScript | Backend: Spring Boot, Spring Security, JWT, REST API | Base de données: MySQL\nDéveloppement d'une application web sécurisée avec intégration de pipelines Dev Sec Ops.\nAutomatisation et amélioration de la réponse aux incidents pour les organisations bancaires (02/2024 06/2024)\nTechnologies: SIEM, SOAR, IDS/IPS, Firewalls, Threat Intelligence, Linux, Python, ELK Stack, Splunk, Wazuh, The Hive, Cortex\nDéveloppement de solutions d'automatisation pour la détection et la réponse aux incidents.\nSmurf Application - Application multiplateforme pour les touristes en Tunisie (01/2023 - 05/2023)\nTechnologies: Java, Java FX, Symfony 5, Codename One, MySQL, REST API, MVC, UX/UI Design, Agile\nConception et développement d'une application mobile et web pour le secteur touristique.",
+    "header_info": {
+      "full_name": "Adem Melki",
+      "email": "1@gmail.com",
+      "phone": "+216 99 614 898",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9498,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "experiences[4].company",
+      "experiences[4].end_date",
+      "experiences[4].responsibilities[0]",
+      "experiences[4].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Adem Melki",
+      "email": "1@gmail.com",
+      "phone": "+216 99 614 898",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 5,
+      "hard_skills": [
+        "Cybersécurité & Gestion des incidents: SIEM, SOAR, IDS/IPS, Threat Hunting",
+        "Développement Full-Stack: Java, JavaScript, PHP, C, C++, Python, Spring Boot, React. js, Symfony, MySQL",
+        "Dev Sec Ops & Automatisation: Jenkins, Docker, Sonar Qube, Nexus, CI/CD",
+        "Sécurité Applicative & Analyse de Vulnérabilités: OWASP, Snyk, Trivy, Falco",
+        "Surveillance & Observabilité: Prometheus, Grafana, ELK Stack",
+        "Gestion des risques & Politiques de sécurité"
+      ],
+      "soft_skills": [
+        "Collaboration",
+        "Motivation pour contribuer à la protection des systèmes d'information et à l'optimisation des environnements IT"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Collaboration à l'amélioration de la sécurité des systèmes d'information",
+          "Développement sur Bitrix 24"
+        ]
+      },
+      {
+        "company": "TÉLCOTEC",
+        "job_title": null,
+        "start_date": "07/2023",
+        "end_date": "09/2024",
+        "city": null,
+        "responsibilities": [
+          "Optimisation des processus de gestion et de contrôle des opérations IT",
+          "Participation à la mise en place de procédures de sécurité et de gestion des incidents"
+        ]
+      },
+      {
+        "company": "MEDIASOFT",
+        "job_title": null,
+        "start_date": "07/2022",
+        "end_date": "09/2023",
+        "city": null,
+        "responsibilities": [
+          "Développement et intégration de modules sur la plateforme Bitrix 24"
+        ]
+      },
+      {
+        "company": "BNA BANK",
+        "job_title": null,
+        "start_date": "07/2021",
+        "end_date": "09/2022",
+        "city": null,
+        "responsibilities": [
+          "Réalisation d'applications web sécurisées pour le secteur bancaire"
+        ]
+      },
+      {
+        "company": "BLOCKCHAIN",
+        "job_title": null,
+        "start_date": "2024",
+        "end_date": "2024",
+        "city": null,
+        "responsibilities": [
+          "CEH (Certified Ethical Hacker)"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT (École Supérieure Privée d'Ingénierie et de Technologies)",
+        "degree": "Diplôme National d'Ingénieur en Informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "ESPRIT (École Supérieure Privée d'Ingénierie et de Technologies)",
+        "degree": "Baccalauréat Informatique",
+        "field": null,
+        "year": 2020
+      }
+    ],
+    "languages": [
+      "Français (natif)",
+      "Anglais (professionnel)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:23:14.370386+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

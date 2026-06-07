@@ -1,0 +1,114 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\bilel_bouabidi_23014735.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\bilel_bouabidi_23014735.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\bilel_bouabidi_23014735.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Bilel Bouabidi",
+      "email": "bilelbouabidi2@gmail.com",
+      "phone": "+216 29 607 107",
+      "location": "Tunis, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "REST APIs",
+        "database design",
+        "Angular",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "MongoDB",
+        "FastAPI",
+        "Express.js",
+        "C/.NET Core",
+        "PostgreSQL",
+        "SQL Server",
+        "SQLAlchemy",
+        "Pydantic",
+        "Docker",
+        "Git",
+        "GitHub",
+        "Postman",
+        "CI/CD basics",
+        "OWASP Top 10",
+        "LLM integration basics",
+        "AI-assisted workflows",
+        "automation concepts"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Full Stack Developer",
+        "company": "Red Sys",
+        "start_date": "Sep 2025",
+        "end_date": "Present",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Developed scalable web applications and backend services using React, Node.js, and REST APIs.",
+          "Built responsive and dynamic user interfaces using TypeScript and modern frontend practices.",
+          "Participated in backend architecture and API integration for enterprise platforms.",
+          "Collaborated with technical teams on secure and modular application development."
+        ]
+      },
+      {
+        "job_title": "Web Development & Cybersecurity Intern",
+        "company": "Coficab",
+        "start_date": "Jan 2025",
+        "end_date": "Jun 2025",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Integrated security-related data and implemented secure backend communication.",
+          "Designed structured and maintainable backend logic and frontend modules.",
+          "Participated in improving application performance and security practices."
+        ]
+      },
+      {
+        "job_title": "Web Development Intern",
+        "company": "TIC-Nova",
+        "start_date": "Jan 2023",
+        "end_date": "Jun 2023",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Developed web applications using JavaScript, PHP, Node.js, and MySQL.",
+          "Participated in API integration and database management tasks.",
+          "Implemented frontend and backend functionalities with focus on usability and performance."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master in Cybersecurity",
+        "school": "ISIM Gabès",
+        "year": null
+      },
+      {
+        "degree": "Bachelor in Computer Science & Multimedia",
+        "school": "ISIM Gabès",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:50:31.123901+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9701,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

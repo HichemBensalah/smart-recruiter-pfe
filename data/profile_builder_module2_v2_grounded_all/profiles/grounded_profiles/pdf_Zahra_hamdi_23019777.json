@@ -1,0 +1,170 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Zahra_hamdi_23019777.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Zahra_hamdi_23019777.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6193,
+  "normalization": {
+    "cleaned_markdown": "## HAMDI ZAHRA\n\nCybersecurity Analyst | Systems & Network Administration | Cloud (Azure)\nEmail\nHamdizahra 122@gmail.com\nPhone\nLocation\nTunisia\n\n## PROFESSIONAL EXPERIENCE\n\nSkilled in Linux and Windows environments, network security concepts, and incident investigation.\nMotivated to contribute to security monitoring and protection of IT infrastructures.\nSOC Analyst – Foufoussa (2024 – 2025)\n\n## TECHNICAL SKILLS\n\n• Investigated network and system logs to detect anomalies.\n• Analyzed security alerts and performed incident triage.\n• Collaborated with system and network teams to remediate incidents.\nSystems & Network Administrator – Foufoussa (2022 – 2024)\n• Administered Linux and Windows Server environments.\n• Managed DNS, DHCP, TCP/IP and VLAN configurations.\n• Maintained infrastructure availability, performance and security.\n• Participated in virtualization and infrastructure optimization.\nCloud: Microsoft Azure fundamentals, Virtual Machines, Azure Storage, Virtual Networks\nSystems: Linux, Windows Server\nNetworking: TCP/IP, VLANs, Routing, Switching\nSecurity: SIEM monitoring, log analysis, incident response basics\nScripting: Python (basic), Bash (basic)\n\n## PROJECTS & TOOLS\n\n• Vo IP infrastructure deployment with MPLS backbone\n• Network traffic analysis using Wireshark\n• Firewall configuration with Pf Sense\n\n## EDUCATION\n\nBaccalaureate – Experimental Sciences",
+    "header_info": {
+      "full_name": "HAMDI ZAHRA",
+      "email": "122@gmail.com",
+      "phone": null,
+      "location": "Tunisia",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.4723,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "HAMDI ZAHRA",
+      "email": "Hamdizahra 122@gmail.com",
+      "phone": null,
+      "location": "Tunisia",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "Linux",
+        "Windows Server",
+        "TCP/IP",
+        "VLANs",
+        "Routing",
+        "Switching",
+        "SIEM monitoring",
+        "log analysis",
+        "incident response basics",
+        "Python (basic)",
+        "Bash (basic)",
+        "Microsoft Azure fundamentals",
+        "Virtual Machines",
+        "Azure Storage",
+        "Virtual Networks"
+      ],
+      "soft_skills": [
+        "Motivated"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Foufoussa",
+        "job_title": "SOC Analyst",
+        "start_date": "2024 – 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Investigated network and system logs to detect anomalies.",
+          "Analyzed security alerts and performed incident triage.",
+          "Collaborated with system and network teams to remediate incidents."
+        ]
+      },
+      {
+        "company": "Foufoussa",
+        "job_title": "Systems & Network Administrator",
+        "start_date": "2022 – 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Administered Linux and Windows Server environments.",
+          "Managed DNS, DHCP, TCP/IP and VLAN configurations.",
+          "Maintained infrastructure availability, performance and security.",
+          "Participated in virtualization and infrastructure optimization."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Baccalaureate",
+        "field": "Experimental Sciences",
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:12:12.286615+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,51 @@
+## HEADER
+
+Oussema Ben Yahia
+Développeur Web Full Stack
++(216) 58 185 125 | oussemabenyahia 89@gmail. com | Tunis, Tunisie oussemabenyahia. vercel. app | github. com/Oussema-BY | Permis B
+
+## PROFESSIONAL SUMMARY
+
+PROFIL
+
+## PROFESSIONAL EXPERIENCE
+
+Développeur web full stack avec une solide expérience en création d'applications web modernes et performantes. Étudiant en 2 e année d'ingénierie en génie logiciel (cours du soir), je maîtrise des technologies récentes telles que Next. js, React, Type Script et Supabase. Curieux et rigoureux, je cherche à contribuer à des projets innovants en apportant une approche orientée qualité, performance et expérience utilisateur.
+- Conception et développement de sites web et d'applications web Saa S performantes et scalables.
+Optimisation SEO technique (Core Web Vitals, métadonnées, rendu côté serveur) pour améliorer le référencement organique.
+
+## EXPÉRIENCE PROFESSIONNELLE
+
+Développeur Web Full Stack
+EXTEL | Janvier 2026 -Avril 2026
+Envoi de courriels transactionnels automatisés avec Resend.
+Stagiaire -Développeur Web Full Stack
+Juniors CV | Juin 2025 -Août 2025
+Implémentation d'un système CRUD avec validation des données via Zod.
+Déploiement sur Vercel avec domaine personnalisé et optimisation SEO.
+Stack : Next. js, React, Type Script, Tailwind CSS, Recharts, Supabase, Postgre SQL, Git.
+Assistant Virtuel Freelance
+SCALIKA TUNISIA | Juillet 2024 -Février 2025
+Chef d'Agence
+JUST ASK DELIVERY | Avril 2023 -Février 2024
+Mise en place d'outils de suivi pour améliorer la ponctualité des livraisons.
+
+## TECHNICAL SKILLS
+
+Intégration d'animations avancées (GSAP, Lenis) pour des interfaces fluides et engageantes.
+Mise en place de systèmes d'authentification sécurisés via Better Auth et gestion des sessions.
+Développement d'interfaces modernes avec Shadcn/UI et gestion de données avec Supabase et Mongo DB.
+Stack : Next. js, React. js, Supabase, Mongo DB, Shadcn/UI, GSAP, Lenis, Better Auth, Resend.
+Développement d'un site web complet avec tableau de bord administrateur pour L'Escalier Consulting.
+Authentification via Supabase (email/mot de passe, Google OAuth) avec gestion des rôles utilisateurs.
+Conception d'une interface responsive et accessible (Tailwind CSS, Shadcn/UI, Lucide Icons).
+Gestion des réseaux sociaux et automatisation des tâches administratives.
+Renforcement des compétences en organisation, communication et travail à distance.
+Supervision opérationnelle et optimisation logistique via la gestion d'équipe.
+Développement des compétences en gestion de projet et leadership.
+Stagiaire -Développeur Web
+Banque de Tunisie (BT) | Février 2022 -Avril 2022
+Conception d'une application de gestion à distance du parc informatique (visualisation, suivi, contrôle).
+Développement d'une interface web en temps réel pour la consultation des équipements.
+Automatisation des tâches système via scripts Shell.
+Stack : HTML, CSS, Bootstrap, PHP, My SQL, Shell.

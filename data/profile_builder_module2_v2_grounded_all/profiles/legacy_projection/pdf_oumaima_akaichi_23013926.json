@@ -1,0 +1,110 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\oumaima_akaichi_23013926.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\oumaima_akaichi_23013926.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\oumaima_akaichi_23013926.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Oumaima AKAICHI",
+      "email": "00@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Expérimentée en développement logiciel, avec expertise en Java et PHP, ainsi quʼen développement full-stack.",
+      "hard_skills": [
+        "Java",
+        "PHP",
+        "Flutter",
+        "React Native",
+        "Laravel",
+        "Python",
+        "C",
+        "C#",
+        "Dart",
+        "ReactJS",
+        "Angular",
+        "Spring Boot"
+      ],
+      "soft_skills": [
+        "conception orientée objet",
+        "intégration dʼAPI",
+        "gestion de bases de données",
+        "création de solutions logicielles performantes"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "De février 2022 à juin 2022",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception et développement dʼune application web et mobile pour la réservation dans les stations de lavage."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Juillet 2021",
+        "end_date": null,
+        "city": "Jendouba",
+        "responsibilities": [
+          "Développement dʼun site e-commerce pour la vente de produits informatiques."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "De 2022 à 2025",
+        "end_date": null,
+        "city": "Manouba",
+        "responsibilities": [
+          "Conception et développement dʼune application web et mobile de gestion de maintenance automobile."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "De février 2025 à août 2025",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Conception et développement dʼune application web et mobile pour la gestion des fermes."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme dʼingénieure en Informatique - Génie Logiciel",
+        "school": "ISAMM Institut Supérieur des Arts Multimédia de Manouba",
+        "year": null
+      },
+      {
+        "degree": "Licence en Technologies de lʼInformatique - Développement des systèmes dʼinformation",
+        "school": "Institut supérieur des études technologiques de Béja",
+        "year": "2022"
+      },
+      {
+        "degree": "Baccalauréat en science informatique",
+        "school": "Lycée de l'environnement de bousalem",
+        "year": "2019"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:20:53.833944+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9585,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

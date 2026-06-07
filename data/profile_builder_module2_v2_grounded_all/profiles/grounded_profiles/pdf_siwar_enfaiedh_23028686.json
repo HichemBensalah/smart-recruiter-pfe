@@ -1,0 +1,161 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\siwar_enfaiedh_23028686.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\siwar_enfaiedh_23028686.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8782,
+  "normalization": {
+    "cleaned_markdown": "## NFAIEDH SIWAR\n\nIngénieure logiciel/phone/map_marker/_475 siwarnfaiedh@gmail.com\nTunis, Ariana/linkedin www. linkedin.com/in/siwar-nfaiedh-020932179/github https: //github.com/siwar 234\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nOIM - Plateforme pour les Jeunes Tunisiens · Développement d'une plateforme pour les jeunes Tunisiens à la recherche de services et d'opportunités, avec des profils personnalisés, des formations, des quiz, un fil d'actualité, un système de notifications et un chatbot pour accompagner les utilisateurs.\nStack: React, NodeJS, Sequelize, Vite, Express, MySQL, Web Socket, MongoDB, Next. js (landing page & CMS), Material UI\nDéveloppement d'une plateforme mettant en relation jeunes joueurs, coachs et avocats, avec un fil d'actualité intelligent basé sur un système avancé de recommandation de contenus, des profils détaillés, un système de notifications, une fonctionnalité de follow, une messagerie en temps réel et un back-office pour l'administration et la gestion des contenus.\nStack: Next. js, TypeScript, Vite, Sequelize, Valkey, Socket. io, MongoDB, RTK Query, Clinic Flame, Min IO, Docker, Material UI, Yup.\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieure logiciel spécialisée en JavaScript, concevant des applications web modernes et performantes, de l'interface utilisateur aux APIs back-end. Passionnée par le code propre et la qualité de l'expérience utilisateur.\n**Date: ** Novembre 2024 - Mai 2026\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nJavaScript\nTypeScript\nReact\nVite\nNode. js\nExpress\nNest JS\nMongoDB\nPostgreSQL\nNext. js Git\nPrisma\nSequelize\nREST APIs\nDocker\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nIngénieure Logiciel Full Stack\nSwiftech\nDéveloppement et maintenance d'applications web modernes dans un environnement agile.\nConception d'architectures front-end et back-end en JavaScript/TypeScript.\n\n## ACADEMIC PROJECTS\n\nCollaboration avec des équipes variées sur des projets à fort impact.\n\n## PROJETS PROFESSIONNELS\n\nLast Dream - Plateforme pour Jeunes Sportifs\nDashboard pour suivre et gérer les comparaisons.\n\n## EDUCATION\n\nGIZ - Comparaison des Programmes d'Études Tuniso-Allemands · Plateforme développée avec GIZ, ANETI et CNAFIF pour comparer les programmes tunisiens et allemands (BTP/BTS) et faciliter l'accès à l'emploi en Allemagne pour les diplômés de la formation professionnelle.\n## Stack: Nest JS, Prisma, Next Js, Vite, MUI, TypeScript, PostgreSQL, RTK Query\n- FORMATION\n- École Supérieure Privée d'Ingénierie et de Technologie - ESPRIT\n-/calendar Cycle Ingénieur Informatique 2021 - 2024\n\n## LANGUAGES\n\nLANGUES\nFrançais (Courant)\nAnglais (Avancé)\n(Langue maternelle)\nArabe",
+    "header_info": {
+      "full_name": "NFAIEDH SIWAR",
+      "email": "siwarnfaiedh@gmail.com",
+      "phone": "020932179",
+      "location": "Stack: React, NodeJS, Sequelize, Vite, Express, MySQL, Web Socket, MongoDB, Next. js (landing page & CMS), Material UI",
+      "linkedin": "linkedin.com/in/siwar-nfaiedh-020932179/github",
+      "github": "github.com/siwar"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9756,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "education[0].institution",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieure logiciel spécialisée en JavaScript, concevant des applications web modernes et performantes.",
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "Nest JS",
+        "MongoDB",
+        "PostgreSQL",
+        "Next.js",
+        "Git",
+        "Prisma",
+        "Sequelize",
+        "REST APIs",
+        "Docker"
+      ],
+      "soft_skills": [
+        "Passionnée par le code propre et la qualité de l'expérience utilisateur"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Swiftech",
+        "job_title": "Ingénieure Logiciel Full Stack",
+        "start_date": "Novembre 2024",
+        "end_date": "Mai 2026",
+        "city": null,
+        "responsibilities": [
+          "Développement et maintenance d'applications web modernes dans un environnement agile.",
+          "Conception d'architectures front-end et back-end en JavaScript/TypeScript."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "GIZ",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "École Supérieure Privée d'Ingénierie et de Technologie - ESPRIT",
+        "degree": null,
+        "field": null,
+        "year": 2021
+      }
+    ],
+    "languages": [
+      "Français (Courant)",
+      "Anglais (Avancé)",
+      "Arabe"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:41:06.767310+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\anas_ben_raies_23018238.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\anas_ben_raies_23018238.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\anas_ben_raies_23018238.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Anas Ben Raies",
+      "email": "anas.benraies@gmail.com",
+      "phone": "+216 51 830 190",
+      "location": "Tunisie, Tunis"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Next.js",
+        "Supabase",
+        "React",
+        "Node.js",
+        "Express.js",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "Python",
+        "PostgreSQL",
+        "MySQL",
+        "Mongodb",
+        "Git",
+        "GitHub",
+        "GitHub Actions",
+        "MQTT",
+        "Nginx",
+        "Apache Kafka",
+        "Grafana",
+        "AWS",
+        "Docker",
+        "Jinkins",
+        "IA générative",
+        "Spring Boot",
+        "Django"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieur Full Stack",
+        "company": "Hi Intern",
+        "start_date": "Février 2026",
+        "end_date": "Mars 2026",
+        "city": "Tunisie, Tunis",
+        "responsibilities": [
+          "Développement de fonctionnalités complètes pour une solution Saa S avec Next. js, en intervenant sur le full-stack et la base de données Supabase.",
+          "Analyse des besoins, conception des solutions, résolution de problèmes et implémentation des fonctionnalités de bout en bout."
+        ]
+      },
+      {
+        "job_title": "Stagiaire en génie logiciel",
+        "company": "Arab Soft",
+        "start_date": "Février 2025",
+        "end_date": "Juin 2025",
+        "city": "Tunisie, Tunis",
+        "responsibilities": [
+          "Création d'un logiciel qui modélise des workflows selon la norme BPMN et les transforme automatiquement en modules logiciels prêts à être déployés, accélérant la conception et le développement tout en garantissant la cohérence des fonctionnalités."
+        ]
+      },
+      {
+        "job_title": "Stagiaire en génie logiciel",
+        "company": "Centre national de l'informatique",
+        "start_date": "Juin 2024",
+        "end_date": "Juillet 2024",
+        "city": "Tunisie, Tunis",
+        "responsibilities": [
+          "Développement d'un plugin Grafana personnalisé et intégration d'un plugin externe pour visualiser plus de 10 millions de données provenant de 24 régions tunisiennes, étendant les capacités de l'outil . tout en mettant en place JWT et Nginx pour une authentification sécurisée au sein d'une équipe de 3 membres ."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "cycle ingénieur en informatique",
+        "school": "Polytech international",
+        "year": "2024"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:37:30.591704+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9688,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

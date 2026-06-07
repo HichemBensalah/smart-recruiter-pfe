@@ -1,0 +1,89 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\bahri_chiraz_23020054.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\bahri_chiraz_23020054.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\bahri_chiraz_23020054.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "BAHRI CHIRAZ",
+      "email": "2000@gmail.com",
+      "phone": "+216 50818434",
+      "location": "Nabeul, Tunisie"
+    },
+    "expertise": {
+      "summary": "Data & BI Analyst | Power BI | Python | ETL & Reporting",
+      "hard_skills": [
+        "Power BI",
+        "Python",
+        "Talend",
+        "ETL",
+        "Machine Learning",
+        "HTML 5",
+        "CSS 3",
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "Flutter",
+        "ReactJS",
+        "NodeJS",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "SQL Server",
+        "Android Studio",
+        "Git",
+        "DAX",
+        "Scikit-learn",
+        "K-means",
+        "Random Forest"
+      ],
+      "soft_skills": [
+        "Résolution de problèmes",
+        "Leadership",
+        "Communication orale"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Analyse des performances Instagram et conception de modèles prédictifs pour optimiser les budgets publicitaires",
+          "Réalisations de processus ETL automatisés pour l'intégration et la transformation des données clients",
+          "Analyse de médias sociaux pour The Bridge 9 antra: scraping, nettoyage de données, modèles ML et création de dashboards Power BI"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Octobre 2024",
+        "end_date": "Aujourd'hui",
+        "city": null,
+        "responsibilities": [
+          "Création de dashboards interactifs Power BI pour le suivi des ventes, commandes et KPIs, avec DAX et Power Query",
+          "Supervision d'étudiants en PFE sur des projets BI et data analytics"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:39:48.962194+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8949,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mehdi_kaouech_23014563.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mehdi_kaouech_23014563.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8265,
+  "normalization": {
+    "cleaned_markdown": "## TECHNICAL SKILLS\n\nIngénieur Infrastructure IT & Cloud Computing\n1003 Tunis, Tunisie\nkaouech. mehdi 25@gmail.com\nIngénieur Infrastructure IT & Cloud Computing spécialisé dans la conception, l'automatisation et l'administration d'architectures cloud et on-premise. Fort d'une solide expérience en orchestration et conteneurisation et déploiement continu, je pilote des environnements cloud-native complexes en appliquant les meilleures pratiques Dev Sec Ops. Habitué à encadrer des équipes techniques et à coordonner des projets de bout en bout en suivant les méthodologies agiles, je m'engage à livrer des solutions robustes, scalables et alignées sur les enjeux métiers.\nSKILLS\nAdministration Systèmes & Virtualisation\nActive Directory, VMware ESXi, Harvester Suse, Proxmox VE\nArchitecture & stockage\nSAN ( Network Attached Storage )\nCloud & Containerisation\nStagiaire PFE - Cloud DevOps\nGCP, Azure, AWS, Docker, Kubernetes, Helm\nWecraft\nDevOps & Automation\nTechnologies: GCP, Istio, Git Lab CI/CD, Argo CD, Terraform, Kiali, Jaeger, Elasticsearch\nTerraform, Jenkins, Git Lab CI/CD, GitHub Actions, Ansible\nAutomatisation du provisionnement des clusters GKE avec Terraform, garantissant une infrastructure reproductible et optimisée.\nMonitoring & Observability\nPrometheus, Grafana, Jaeger, ELK Stack, Wazuh, Splunk\nDéploiement d'un service mesh Istio pour le contrôle du trafic applicatif, la sécurité et l'observabilité des services .\nMise en place de pipelines CI/CD avec Git Lab pour industrialiser les déploiements et améliorer l'efficacité opérationnelle .\nGestion des déploiements Kubernetes via Helm et Argo CD selon une approche Git Ops, renforçant la traçabilité et la standardisation.\nContribution aux pratiques Fin Ops en assurant le suivi des ressources cloud, l'optimisation de la consommation et la maîtrise des coûts.\nStagiaire - Dev Sec Ops\nE-Skills | 07/2023 - 09/2023\nTechnologies: Azure, Jenkins, Docker, Spring Boot, Sonar Qube, Trivy\nPilotage de la mise en place d'une chaîne CI/CD complète sous Jenkins, garantissant la fiabilité des processus de build, test et déploiement.\nDéfinition et intégration de pratiques de sécurité avancées (SAST) dans le pipeline afin de renforcer la conformité et réduire les vulnérabilités.\nConception et déploiement d'architectures conteneurisées sur Azure avec Docker Compose, optimisant l'orchestration multi-conteneurs et la disponibilité des services.\nStagiaire - Développeur Oracle APEX & PL/SQL\nTalent Tunise | 08/2022 - 08/2022\nOracle Cloud Infrastructure DevOps Professional ( Oracle )\nTechnologies: Oracle APEX Cloud, PL/SQL Oracle, Database Actions\nDev Sec Ops - Kubernetes DevOps & Security ( Kode Kloud )\nParticipation au développement d'une application web cloud-native de gestion du transport avec Oracle APEX et PL/SQL, assurant évolutivité, fiabilité et optimisation de la collaboration entre les équipes.\nMicrosoft Azure Fundamentals ( Coursera )\nOptimisation avancée des modules et procédures PL/SQL, permettant une amélioration mesurable des performances de 30 % sur les temps de réponse applicatifs.\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences Professionnelles\nParcours Universitaire\nIngénieur Infrastructure Et Cybersécurité\n## | 06/2025 - Present\n- Red Sys\nTechnologies: GCP, Proxmox VE, Forti Gate, Terraform, Jenkins, Argo CD, Sonar Qube, Notion.\nMise en place et déploiement d'infrastructures on-premise complètes (rack intégré: onduleur (UPS), pare-feu, switches, stockage et serveurs HPE Pro Liant).\nConception et déploiement de plateformes de virtualisation basées sur Proxmox VE, incluant la mise en place de clusters en haute disponibilité .\n- Administration de serveurs Linux et gestion des environnements (Dev et Prod) .\n- Mise en place de pipelines CI/CD sécurisés avec analyses SAST/DAST et déploiement automatisé en production via Git Ops avec Argo CD.\nConception, approvisionnement (Fin Ops) et déploiement d'environnements de production, avec optimisation des coûts et des ressources.\nEncadrement d'équipes techniques en méthodologie Agile, coordination des activités projet et suivi des livrables.\nRédaction, structuration et mise à jour de la documentation technique afin d'assurer la traçabilité, la maintenabilité et la continuité des services.\n\n## EDUCATION\n\nDiplôme National d'Ingénieur en Informatique (Option: Infrastructure IT and cloud computing)\nÉcole Supérieure Privée d'Ingénierie et de Technologies.\nLicence Fondamentale en Informatique Appliquée à la Gestion\nFaculté des Sciences Économiques et de Gestion de Tunis\n\n## ACADEMIC PROJECTS\n\nProjets Personnels\nSOC Next-Gen - Stack Open-Source\nConception et intégration d'un SOC complet (SIEM Wazuh, EDR, SOAR, IPS, Antivirus). Automatisation de la réponse aux incidents via SOAR avec réduction du temps de traitement, enrichissement Threat Intelligence automatique (Virus Total, MISP), détection proactive par règles YARA, et conformité RGPD/NIS 2 via reporting automatisé.\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\nFortinet Certified Fundamentals Cybersecurity ( Fortinet )\nESET Technical Expert ( ESET )\nHuawei Certified Specialist Associate Sales Storage (HCSA) ( Huawei )\n\n## LANGUAGES\n\nLangues\nAnglais - courant (lu, écrit, parlé) Français - courant (lu, écrit, parlé) Arabe - langue maternelle",
+    "header_info": {
+      "full_name": null,
+      "email": "25@gmail.com",
+      "phone": null,
+      "location": "1003 Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9653,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mehdi Kaouech",
+      "email": "25@gmail.com",
+      "phone": null,
+      "location": "1003 Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 2,
+      "hard_skills": [
+        "Administration Systèmes & Virtualisation",
+        "Architecture & stockage",
+        "Cloud & Containerisation",
+        "DevOps & Automation",
+        "Monitoring & Observability"
+      ],
+      "soft_skills": [
+        "Encadrement d'équipes techniques",
+        "Coordination des activités projet",
+        "Rédaction, structuration et mise à jour de la documentation technique"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Red Sys",
+        "job_title": null,
+        "start_date": "06/2025 - Present",
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Mise en place et déploiement d'infrastructures on-premise complètes (rack intégré: onduleur (UPS), pare-feu, switches, stockage et serveurs HPE Pro Liant).",
+          "Conception et déploiement de plateformes de virtualisation basées sur Proxmox VE, incluant la mise en place de clusters en haute disponibilité .",
+          "Administration de serveurs Linux et gestion des environnements (Dev et Prod) .",
+          "Mise en place de pipelines CI/CD sécurisés avec analyses SAST/DAST et déploiement automatisé en production via Git Ops avec Argo CD.",
+          "Conception, approvisionnement (Fin Ops) et déploiement d'environnements de production, avec optimisation des coûts et des ressources.",
+          "Encadrement d'équipes techniques en méthodologie Agile, coordination des activités projet et suivi des livrables."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "École Supérieure Privée d'Ingénierie et de Technologies",
+        "degree": "Diplôme National d'Ingénieur en Informatique (Option: Infrastructure IT and cloud computing)",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Anglais - courant (lu, écrit, parlé)",
+      "Français - courant (lu, écrit, parlé)",
+      "Arabe - langue maternelle"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:20:39.835655+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

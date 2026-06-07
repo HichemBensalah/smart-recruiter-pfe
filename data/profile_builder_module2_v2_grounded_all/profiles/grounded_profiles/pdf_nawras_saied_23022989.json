@@ -1,0 +1,172 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\nawras_saied_23022989.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\nawras_saied_23022989.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8606,
+  "normalization": {
+    "cleaned_markdown": "## PROFESSIONAL SUMMARY\n\nPROFIL\nCONTACT\nDev Wise\nnawrassaied 5@gmail.com\nlinkedin.com/in/nawras-saied\ngithub.com/NAWRASSAIED\nTunis, Tunisie\n\n## PROFESSIONAL EXPERIENCE\n\nIngénieure en informatique avec expérience en développement et livraison d'applications, acquise à travers des projets pratiques et environnements professionnels, avec un fort accent sur la qualité et les bonnes pratiques de développement structuré.\n\n## EDUCATION\n\nStagiaire Projet de Fin d'Études - Application de Gestion de Projets de\nConstruction\nDiplôme d'ingénieur en informatique\n## ESPRIT, Tunis (2022 - 2025)\n**Date: ** IT Business School (2020 - 2022)\n- Cycle préparatoire intégré en informatique\n\n## ACADEMIC PROJECTS\n\nDéveloppement d' une application web full-stack pour planifier, gérer et suivre des projets de construction\n**Date: ** 01/2025 - 07/2025\nConception de l'organisation des tâches, du suivi des présences, de la gestion du budget et de la communication d'équipe\n- Développement d' API REST avec Spring Boot\n- Développement d'un frontend responsive avec Angular et contrôle d'accès basé sur les rôles\n- Intégration d'un chatbot IA basé sur TensorFlow via Flask pour le support décisionnel et les recommandations de projet\n- Containerisation avec Docker et orchestration avec Kubernetes\n- Mise en place d'un pipeline CI/CD avec Git Lab CI/CD\n- Analyse de la qualité du code avec Sonar Qube\n- Supervision du système avec Grafana et Prometheus\n- Création et intégration de tableaux de bord avec Power BI\n- Stagiaire Ingénieur Logiciel - Application de gestion des tickets de vulnérabilités\n- Développement d'une application web de gestion et de priorisation des vulnérabilités de sécurité\n- Automatisation du suivi des vulnérabilités et de l'attribution des tickets\n- Développement du backend avec Spring Boot et du frontend avec React\n- Stagiaire Développeur Logiciel - Application de gestion des réclamations internes\n- Développement d'une application desktop pour la gestion des réclamations internes\n- Mise en place du suivi des réclamations et de la résolution des problèmes\n- Développement d'une interface avec Java FX\n- Build Chat Applications with OpenAI & Lang Chain - 365 Data Science (2025)\n- Gestion de projets:\n- Méthodologie Agile\n## Scrum, Jira, Trello\n**Date: ** 07/2023 - 08/2023\n## Crash Course on Python - Google, Coursera (2022)\n## Foundations of Project Management - Google, Coursera(2022)\n\n## COMPÉTENCES TECHNIQUES\n\nLangages de programmation: Java,\nNext Step IT\nJavaScript, TypeScript, Python, PHP, C,\nSQL\n\n## TECHNICAL SKILLS\n\nFrameworks & Bibliothèques:\nIntégration de l' API Insight VM\nBack-End: Spring Boot, Flask, Symfony, Java FX, Hibernate, JPA\nFront-End: Angular, ReactJS, HTML, CSS, JavaScript, TypeScript, Bootstrap\nTunisie Telecom\nDevOps: Jenkins, Docker, Kubernetes,\nSonar Qube, Nexus, Prometheus, Grafana\nBases de données: MySQL, PostgreSQL\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nGestion de version:\nGit, GitHub, Git Lab\n\n## COMPÉTENCES PERSONNELLES\n\nApplication de suivi nutritionnel\nRésolution de problèmes\nCommunication\nTravail en équipe et collaboration\n\n## PROJETS ACADÉMIQUES\n\nApplication full-stack avec Spring Boot, Angular et MySQL\nSuivi calorique, planification des repas et rendez-vous nutritionnels\nIntégration de consultations en ligne via Jitsi Meet\nPlateforme de gestion d'agence de voyage\nApplication desktop développée avec Java FX\nModule web développé avec Symfony\nSynchronisation des données et système de notifications pour les réservations\n\n## LANGUAGES\n\nLANGUES\nAnglais (Courant)\nFrançais (Courant)\nArabe(Natif)",
+    "header_info": {
+      "full_name": "Dev Wise",
+      "email": "5@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie",
+      "linkedin": "linkedin.com/in/nawras-saied",
+      "github": "github.com/NAWRASSAIED"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9721,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Dev Wise",
+      "email": "nawrassaied@5@gmail.com",
+      "phone": null,
+      "location": "Tunis, Tunisie",
+      "linkedin": "linkedin.com/in/nawras-saied",
+      "github": "github.com/NAWRASSAIED"
+    },
+    "expertise": {
+      "summary": "Ingénieure en informatique avec expérience en développement et livraison d'applications.",
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Flask",
+        "Java FX",
+        "Hibernate",
+        "JPA",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "GitHub",
+        "Git Lab",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "soft_skills": [
+        "Application de suivi nutritionnel",
+        "Résolution de problèmes",
+        "Communication",
+        "Travail en équipe et collaboration"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d' API REST avec Spring Boot",
+          "Développement d'un frontend responsive avec Angular et contrôle d'accès basé sur les rôles",
+          "Intégration d'un chatbot IA basé sur TensorFlow via Flask pour le support décisionnel et les recommandations de projet"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ESPRIT, Tunis (2022 - 2025)",
+        "degree": "Diplôme d'ingénieur en informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "IT Business School (2020 - 2022)",
+        "degree": "Cycle préparatoire intégré en informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Anglais",
+      "Français",
+      "Arabe"
+    ],
+    "certifications": [
+      "Gestion de version: Git, GitHub, Git Lab"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:50:28.175537+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

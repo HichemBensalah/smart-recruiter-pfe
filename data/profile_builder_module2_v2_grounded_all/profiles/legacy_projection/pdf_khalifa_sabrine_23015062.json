@@ -1,0 +1,103 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\khalifa_sabrine_23015062.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\khalifa_sabrine_23015062.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\khalifa_sabrine_23015062.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Sabrine Khalifa",
+      "email": "12@gmail.com",
+      "phone": "+216 93 800 043",
+      "location": "Tunisie"
+    },
+    "expertise": {
+      "summary": "Développeuse Full-Stack JavaScript avec plus de 2 ans d'expérience dans la création d'applications web scalables et responsives.",
+      "hard_skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Next.js",
+        "Nest.js",
+        "Angular",
+        "Vue.js",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "soft_skills": [
+        "production de code de qualité",
+        "utilisation d'outils assistés par l'IA pour améliorer la productivité"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Institut Supérieur des Sciences Informatiques et Technologies de Communication (ISITCOM)",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunisie",
+        "responsibilities": [
+          "API REST/RESTful",
+          "GraphQL",
+          "Git",
+          "Agile",
+          "CI/CD",
+          "Optimisation des performances",
+          "Outils assistés par l'IA"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Application full-stack React.js Node.js pour créer, modifier et gérer du contenu dynamique"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Application web permettant de synchroniser et mettre à jour les données produits en temps réel entre plusieurs sources"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Application web pour suivre, analyser et visualiser les consommations énergétiques, avec reporting et alertes"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "school": "Institut Supérieur des Sciences Informatiques et Technologies de Communication (ISITCOM)",
+        "year": "2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:50:44.306523+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9619,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

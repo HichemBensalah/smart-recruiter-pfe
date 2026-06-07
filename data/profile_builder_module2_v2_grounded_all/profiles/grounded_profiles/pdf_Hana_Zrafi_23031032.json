@@ -1,0 +1,206 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hana_Zrafi_23031032.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hana_Zrafi_23031032.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7508,
+  "normalization": {
+    "cleaned_markdown": "## HANA ZRAFI\n\nAI ENGINEER | LLMS, AGENTS & AUTOMATION\nCONTACT\n\n## PROFILE SUMMARY\n\n## PROFESSIONAL EXPERIENCE\n\nAI Engineer with strong background in Data Science. Experienced in AI adoption, low-code automation, and Microsoft Copilot solutions. Skilled in bridging technical AI capabilities with business needs and driving user adoption. I have been actively testing and validating AI systems through real-world scenarios.\n- hanazrafi@gmail.com\n## Monastir, Tunisia\n- Linkedin: hana-zrafi-5 a 5207250\n## AI Engineer | Dats Connexion\n**Date: ** October 2025 - April 2026\n- EDUCATION\nDesigned and deployed multiple AI agents tailored to business needs, including: HR agent, Marketing agent, Customer management agent, & estimation agent using N 8 N and SP lists.\n## National Engineering Degree in Statistics and Data Analysis, 2025\n- Conducted business and functional analysis to understand team requirements and translate them into AI-driven solutions\n## Bachelor's Degree Preparatory Cycle in Math-Physics, 2022\n- Designed and executed test scenarios to validate AI agent responses\n- Built Low-Code AI agents using Microsoft Copilot Studio and Custom GPT\n- TECHNICALSKILLS\n- Data Analysis & Visualization:\n- Contributed to AI solution adoption by testing real user scenarios and improving usability\n## Eviews, Advanced Excel, Power BI, Clarity\n## February 2025 - June 2025 AI Developer (Final year internship) | CXG\n- Modeling & Analysis:\n## Regression, Classification, Statistical Testing.\n**Date: ** January 2025\n- Developed an AI-powered chatbot leveraging (NLP) and data analytics to enhance customer engagement and support strategic decisionmaking.\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nKNN, RF, NLP, BERT, LLMs, Transformers,\nValidated conversational flows through real user scenarios\nHaggin Face, OpenAI, N 8 N, Copilot, custom GPT\nEnsured accuracy and consistency of NLP outputs\nData Engineer | INODEV\nConducted data collection from diverse sources using Airbyte (via Docker) to centralize and streamline data ingestion. Utilized analytics platforms like Amplitude and Microsoft Clarity to capture detailed user behavior insights. Performed data analysis to identify patterns and inform data-driven decisions, strengthening the company's analytical capabilitie\nData Scientist | Code Alpha\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning & AI:\n\n## TECHNICAL SKILLS\n\nProgramming Languages:\nHTML, C, Python, R, Java, JS.\nDatabase Management:\nSQL, SSIS, SSMS, SAS, Elastic Search, ETL.\nMicrosoft 365\nAI Adoption & Business Impact\nSupported user adoption of AI tools through testing and feedback loops\nTranslated business needs into AI-driven solutions\nSOFTSKILLS\nAnalytical thinking and creative problemsolving\nTime Management and Organization\nTeamwork and Collaboration\nLANGUAGES\nArabic\nFluent\nFrench\nUsing ETL tools for data manipulation\nEnglich\nFluent\nDynamic Dashboard creation\nTime Series Analysis of Economic Policy Effects on Growth (VAR Process)\n\n## ACADEMIC PROJECTS\n\nProject 1: Titanic Survival Prediction - Developed a model to predict passenger survival using K-Nearest Neighbors (KNN) and Random Forest algorithms.\n**Date: ** October 2024\nProject 2: Stock Prediction - Created a stock price prediction model using LSTM, focusing on time-series analysis and forecasting.\n## Data Analyst | DCM Monastir\n**Date: ** June 2024 - Aug 2024\n- This project examines the relationships between key macroeconomic variables using advanced econometric techniques for an in-depth analysis of economic data.\nData preparation was conducted with Excel, while statistical tests were performed using EViews.\n\n## EDUCATION\n\nConduct a client satisfaction survey and collect informations\n## Data preprocessing, Datawarhousing and creation of a dashboard in Power BI.\n- ACADEMICPROJECTS\n- Native\n- Dynamic Sales Analysis Dashboard with POWER BI\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nIntroduction to Statistics- Coursera\nUnderstanding Modern Data Architecture- Data Camp\nDeveloping LLM Applications with Lang Chain - Data Camp",
+    "header_info": {
+      "full_name": "HANA ZRAFI",
+      "email": null,
+      "phone": null,
+      "location": "AI ENGINEER | LLMS, AGENTS & AUTOMATION",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8011,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "languages[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[3].company",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": [
+      "languages[2]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "HANA ZRAFI",
+      "email": "hanazrafi@gmail.com",
+      "phone": null,
+      "location": "AI ENGINEER | LLMS, AGENTS & AUTOMATION",
+      "linkedin": "hana-zrafi-5 a 5207250",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Data Analysis & Visualization",
+        "Eviews, Advanced Excel, Power BI, Clarity",
+        "KNN, RF, NLP, BERT, LLMs, Transformers",
+        "HTML, C, Python, R, Java, JS",
+        "SQL, SSIS, SSMS, SAS, Elastic Search, ETL",
+        "Microsoft 365"
+      ],
+      "soft_skills": [
+        "Analytical thinking and creative problemsolving",
+        "Time Management and Organization",
+        "Teamwork and Collaboration"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "AI Engineer | Dats Connexion",
+        "job_title": "AI Engineer",
+        "start_date": "October 2025 - April 2026",
+        "end_date": null,
+        "city": "Monastir, Tunisia",
+        "responsibilities": [
+          "Designed and deployed multiple AI agents tailored to business needs"
+        ]
+      },
+      {
+        "company": "AI Engineer | Dats Connexion",
+        "job_title": "AI Developer (Final year internship)",
+        "start_date": "January 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed an AI-powered chatbot leveraging NLP and data analytics"
+        ]
+      },
+      {
+        "company": "Data Engineer | INODEV",
+        "job_title": "Data Engineer",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conducted data collection from diverse sources using Airbyte (via Docker)"
+        ]
+      },
+      {
+        "company": "Data Scientist | Code Alpha",
+        "job_title": "Data Scientist",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Performed data analysis to identify patterns and inform data-driven decisions"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "National Engineering Degree in Statistics and Data Analysis",
+        "degree": "Bachelor's Degree",
+        "field": "Statistics and Data Analysis",
+        "year": "2025"
+      },
+      {
+        "institution": "Bachelor's Degree Preparatory Cycle in Math-Physics",
+        "degree": "Preparatory Cycle",
+        "field": "Math-Physics",
+        "year": "2022"
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "certifications": [
+      "Introduction to Statistics- Coursera",
+      "Understanding Modern Data Architecture- Data Camp",
+      "Developing LLM Applications with Lang Chain - Data Camp"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:25:47.247926+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

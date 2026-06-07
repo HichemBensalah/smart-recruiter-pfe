@@ -1,0 +1,139 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hadil_Derbali_23018284.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hadil_Derbali_23018284.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hadil_Derbali_23018284.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "derbalihadil",
+      "email": "5@gmail.com",
+      "phone": "+216 54 556 235",
+      "location": "Tunis, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "C",
+        "C#",
+        "Python",
+        "PL/SQL",
+        "TypeScript",
+        "JavaScript",
+        "HTML 5",
+        "CSS 3",
+        "Spring Boot",
+        "Angular",
+        "Angular Material",
+        ".NET",
+        "Microservices",
+        "REST API",
+        "JWT",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Maven",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Git",
+        "Sonar Qube",
+        "Nexus",
+        "JUnit",
+        "Mockito",
+        "Jacoco",
+        "Jira",
+        "Xray",
+        "Keycloak",
+        "GitHub Actions",
+        "GCP"
+      ],
+      "soft_skills": [
+        "AI Chatbot Integration",
+        "Prompt Engineering",
+        "CI/CD practices",
+        "Deployment and management of applications on cloud hosting platforms",
+        "Streamlined workflows and automated reporting",
+        "Improved team efficiency by 30%",
+        "Reduced response time by 30%",
+        "Automated testing using Xray"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Remote - Real Estate Web Platform",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Developed a full-stack real estate platform with Spring Boot and Angular",
+          "Deployed and managed the application on a cloud hosting platform"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Remote - E-commerce",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Delivered responsive e-commerce sites with SEO and performance optimization"
+        ]
+      },
+      {
+        "job_title": "Final Year Intern - Software Engineer",
+        "company": "UPTECH - Tunis, Tunisia",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Contributed to the architecture of a multi-service portal platform"
+        ]
+      },
+      {
+        "job_title": "Software Engineering Intern",
+        "company": "AIM-IT Consult - Tunis, Tunisia",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Built a ticket-tracking platform integrated with ERP"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Software Engineering Degree",
+        "school": "ESPRIT, Tunis",
+        "year": null
+      },
+      {
+        "degree": "Bachelor's Degree in Fundamental Chemistry",
+        "school": "Faculty of Sciences of Bizerte",
+        "year": null
+      },
+      {
+        "degree": "Baccalaureate in Experimental Sciences",
+        "school": "Iben Khaldoun High School",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:16:30.401124+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8124,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+## HEADER
+
+Khaled Mnasri/phone
++216-28366730/envelope/envelope
+Développeur Full-Stack
+contact. mnasrikhaled@gmail. com
+
+## PROFESSIONAL SUMMARY
+
+Profil Linked In/linkedin/linkedin
+Adresse : Rue Habib Chatti, Manar 1, Tunis, Tunisie
+Profil Git Hub/github/github
+
+## LANGUAGES
+
+Langues : Arabe, Anglais (B 2 - Certifié) et Français
+
+## EDUCATION
+
+Formation
+
+## PROFESSIONAL EXPERIENCE
+
+Expérience professionnelles
+· TPE - Textile Print and Embroidery
+Stagiaire Développeur Full-Stack
+Bizerte
+-Développement d'une application de gestion d'entreprise (web RH, mobile production, backend centralisé) avec React. js, React Native, Node. js/Express. js et Mongo DB
+-Intégration d'un assistant IA pour automatiser certaines tâches dans le module RH (Mistral AI)
+-Mise en place de tableaux de bord Power BI pour le suivi des performances et l'aide à la décision
+
+## · DEEP 2 DO
+
+Stagiaire Développeur Mobile/Front-end
+Tunis
+Développement d'une application mobile de gestion des absences avec QR code
+-(Flutter, Spring Boot, Postgre SQL)
+-Conception du front-end mobile et des fonctionnalités principales
+-Participation au développement du backend et de la base de données
+
+## · WEVIOO
+
+Stagiaire Développeur Web
+Tunis
+-Développement d'une application web de gestion des stagiaires avec système d'authentification complet (React. js, Node. js/Express. js, Mongo DB)
+
+## ACADEMIC PROJECTS
+
+### Personal Projects
+**Date:** Mars 2025 - Août 2025
+- · Comparateur de prix innovant basé sur le web scrapping
+### Technologies :Angular, Spring Boot, Mongo DB, Python (web scraping), Anaconda
+**Date:** Avr 2024 - Juil 2024
+- Développement d'une application web de comparaison de prix avec collecte automatisée des données (web scraping)
+- Mise en place des fonctionnalités principales : comparaison de produits, gestion des favoris et alertes de prix
+
+## TECHNICAL SKILLS
+
+· Projet académique Dev Ops - Intégration et déploiement continu
+Technologies :Git/Git Hub, Spring Boot, Maven, JUnit, Mockito, Sonar Qube, Jenkins, Docker, Nexus
+-Mise en place d'une chaîne Dev Ops pour une application Spring Boot
+-Intégration continue avec Jenkins, tests unitaires et analyse de code
+-Déploiement de l'application avec Docker et gestion des artefacts
+Compétences techniques
+Langages
+: Java Script , Python , Java
+Frameworks : MERN Stack (Mongo DB, Express. js, React. js, Node. js), Spring Boot
+Technologies/Concepts
+: REST API, JWT, JSON , MVC Pattern, Web Services
+Outils de développement
+: Visiual Studio Code , Intellij IDEA , Git/Bash , Docker , Postman , Swagger UI
+Notions/Outils complémentaires
+: Microsoft Power BI , Anaconda , Jenkins , Elasticsearch , Ollama
+Bases de données
+: Mongodb , Postgresql
+Méthodologies/Modélisation
+: Agile/SCRUM, modèle en cascade (Waterfall), UML
+Design UI/UXs
+: Figma , Canva
+Outils de documentation
+: La Te X , Word/Google Docs
+Dynamique et motivé , Organisé et méthodique , Ponctuel et diplomate .
+Développement web et IA, Sport (football, fitness) , Montage vidéo .
+
+## SOFT SKILLS
+
+Centres d'intérêt et qualités personnelles
+Qualités personnelles :
+Centres d'intérêt :

@@ -1,0 +1,117 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Almia_Ghassen_23013947.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Almia_Ghassen_23013947.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Almia_Ghassen_23013947.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ghassen Almia",
+      "email": "ghassenalmia.business@gmail.com",
+      "phone": "(+216) 53519301",
+      "location": "Bhira, Ghazali Street, Bizerte, Tunisia"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "ReactJS",
+        "NodeJS",
+        "Nest JS",
+        "Spring Boot",
+        "Java",
+        ".NET",
+        "Word Press",
+        "SQL",
+        "NoSQL",
+        "Docker",
+        "Github",
+        "Git",
+        "AWS"
+      ],
+      "soft_skills": [
+        "Teamwork and organizational skills",
+        "Ability to manage projects independently (freelance)",
+        "Creativity and search for innovative solutions",
+        "Adaptability to multicultural environments and remote projects"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "WEB DEVELOPER",
+        "company": "REOTECH",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Development and maintenance of custom web solutions",
+          "Integration of advanced features and performance optimization",
+          "Collaboration with the technical team to ensure the quality of deliverables"
+        ]
+      },
+      {
+        "job_title": "Web Development Internship",
+        "company": "Fenix Future Dev",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Managed versioning via REST APIs",
+          "Worked with relational and NoSQL databases",
+          "Applied Agile and DevOps for continuous delivery",
+          "Wrote unit/functional tests to ensure quality",
+          "Monitored performance and errors using Sentry"
+        ]
+      },
+      {
+        "job_title": "FULLSTACK DEVELOPER NODE_REACT",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "BIZERTE",
+        "responsibilities": []
+      },
+      {
+        "job_title": "FREELANCE WORDPRESS DEVELOPER",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Creation of showcase and e-commerce websites for various clients"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "ENGINEERING DEGREE IN COMPUTER SCIENCE",
+        "school": "ESPRIT: HIGHER PRIVATE SCHOOL OF ENGINEERING AND TECHNOLOGY, ARIANA",
+        "year": null
+      },
+      {
+        "degree": "BACHELOR'S DEGREE IN COMPUTER SYSTEM MAINTENANCE",
+        "school": "HIGHER INSTITUTE OF APPLIED SCIENCES AND TECHNOLOGY OF MATEUR: MATEUR, BIZERTE",
+        "year": null
+      },
+      {
+        "degree": "COMPUTER SCIENCE BACCALAUREATE",
+        "school": "HABIB THAMEUR HIGH SCHOOL, BIZERTE",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:34:40.956423+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9407,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\aymen_trabelsi_23018199.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\aymen_trabelsi_23018199.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\aymen_trabelsi_23018199.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "TRABELSI AYMEN",
+      "email": "trabelsyy.aymen@gmail.com",
+      "phone": null,
+      "location": "Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Spring Boot",
+        "Angular",
+        "Kafka",
+        "Camunda",
+        "Java",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Keycloak",
+        "Postman",
+        "Swagger",
+        "Docker",
+        "GitHub",
+        "Jira",
+        "MySQL",
+        "SQL",
+        "Scrum/Agile",
+        "Jenkins",
+        "Groovy",
+        "Vagrant",
+        "Sonar",
+        "Nexus"
+      ],
+      "soft_skills": [
+        "Français B 2",
+        "Anglais B 1"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Full Stack Java - Angular",
+        "company": "KAMDIGIS Tunis",
+        "start_date": "février 2024",
+        "end_date": "décembre 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application web de coaching en ligne",
+          "Conception et développement d'une application web pour les enchères en ligne"
+        ]
+      },
+      {
+        "job_title": "Stage Ingénieur",
+        "company": null,
+        "start_date": "juillet 2023",
+        "end_date": "septembre 2023",
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application web pour la mobilité internationale"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "VIKING Manouba",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application de gestion des salles de sport"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "school": "ESPRIT Tunisie",
+        "year": null
+      },
+      {
+        "degree": "Licence en génie informatique",
+        "school": "ISI Ariana",
+        "year": null
+      },
+      {
+        "degree": "Bac Technique",
+        "school": "Ibn Arafa Jedaida",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:39:44.085228+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9593,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

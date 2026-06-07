@@ -1,0 +1,231 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Teffaha_Yosr_23014094.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Teffaha_Yosr_23014094.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.747,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nIngénieure en informatique spécialisée en Cloud Computing et architecture IT, avec une expérience en\narchitecture d’infrastructure cloud, virtualisation et automatisation des environnements IT. Je maîtrise le\ndéploiement d’infrastructures, ainsi que l’intégration d’outils DevOps, incluant les pipelines CI/CD et les\nsolutions de monitoring. Rigoureuse et orientée solutions, je recherche un poste junior afin de contribuer à la\nmodernisation et à l’automatisation des infrastructures IT au sein d’une équipe dynamique\nCloud & Virtualisation: Open Stack, Microsoft\nAzure, VMware v Sphere/v Center, SDN\nConteneurisation & Orchestration: Docker,\nKubernetes\nAutomatisation & DevOps: Ansible,\nTerraform, jenkins, nexux, scripting\nMonitoring: Prometheus, Grafana\nLinux: RHEL, Ubuntu, Cent OS, Kali\nRéseaux: Switching, Routing\nLangages de programmation: Python, C, C++, Java\n(Spring Boot), PHP (Symfony), .NET, Angular\nBases de données: Oracle, SQL Server, SQL Developer\nTests & Qualité: Sonar Qube, JUnit, Mockito\nOrange Tunisie - Projet de Fin d’Études\nMise en place automatisée d’une infrastructure cloud privée Open Stack\nIntégration de Ceph comme backend de stockage\nDéveloppement d’un playbook Ansible pour le health check des services Open Stack et l’envoi d’alertes\nautomatiques par e-mail\nMigration automatisée des VM VMware vers Open Stack via une interface web.\nSupervision de l’infrastructure avec Prometheus & Grafana.\nDéveloppement d’un portail cloud pour la gestion et la vente de VMs aux clients.\nMise en place d’un inventaire centralisé et d’un système automatique d’évaluation de faisabilité pour les\nnouvelles VM.\nMots-clés: Open Stack, Ceph, Flask, Prometheus, Grafana, VMware, Docker, Ansible, Python.\nJanvier 2025 - juin 2025\n\n## RÉSUMÉ PROFESSIONNEL\n\nRUE EL ABIR, Boumhel, 2097, Ben Arous | +21627369833 | yosr.teffaha@esprit.tn\n\n## INGÉNIEURE JUNIOR CLOUD & DEVOPS\n\nBH Bank - Stage d’été\nConception et mise en œuvre d’une architecture réseau, - Configuration des routeurs et switches\nMots-clés: OSPF, VLAN, ACL, Ether Channel, Cisco, switching, Routing\nUnivers Informatique - Stage d’été\nDéveloppement d’un site e-commerce full-stack.\nMots-clés: Spring Boot, Angular, SQL\nJuillet 2021 - Aout 2021\nJuin 2023 - Aout 2023\n\n## PROJETS TECHNIQUES\n\nProjet Cloud\nMise en place d’une infrastructure cloud priveé baseé sur Open Stack\nIntegration de Open Stack avec Kubernetes via Magnum facilitant la gestion des clusters\nConfiguration de Prometheus et Grafana pour le monotoring en temps réel de l’infrastructure\nConception et développement d’une application web full-stack basée sur microservices avec Spring Boot\net Angular.\nDéploiement de l’application sur l’infrastructure cloud.\nMots-clés: Open Stack, Docker, Kubernetes, Prometheus, Grafana, Ansible, Spring Boot, Angular\nProjet DevOps\nMise en place d’une pipeline CI/CD pour un projet sur GitHub couvrant build, test, déploiement, sécurité\net monitoring.\nMots-clés: GitHub, Jenkins, Docker, Maven, Nexus, Sonar Qube, JUnit, Mockito, Trivy, Prometheus, Grafana\n\n## EDUCATION\n\nIngénieure informatique spécialisée en Architecture IT et Cloud Computing\nEsprit (École Supérieure Privée d’Ingénierie et de Technologies, Tunisie ) 2020-2025\nSection science du baccalauréat tunisien\nLycée cité Salem Boumhel 2020\n\n## LANGUES\n\nArabe ------- Langue maternelle\nFrançais ------- Courant\nAnglais ------- Professionnel\n\n## CERTIFICATION\n\nCisco Network Security\nIntroduction to Microsoft Azure Cloud Services\n\n## TECHNICAL SKILLS\n\nMicrosoft Azure Services and Lifecycles\nArchitecture réseau et implémentation du routage\nConception et mise en place d’une architecture réseau complète incluant routeurs et switches.\nConfiguration des protocoles de routage dynamiques (OSPF, BGP) pour optimiser l’acheminement du\ntrafic.\nMise en œuvre de la segmentation réseau via VLAN sur les équipements de commutation.\nImplémentation de mécanismes de sécurité réseau (ACL, VPN, IPSec).\nOptimisation du trafic réseau et amélioration de la performance globale.\nTests, validation et résolution des problèmes de connectivité et de performance.\nMots-clés: Conception réseau, configuration du routage (OSPF, BGP), configuration des switches (VLAN),\nsécurité réseau (ACL, VPN, IPSec), tests et dépannage",
+    "header_info": {
+      "full_name": null,
+      "email": null,
+      "phone": null,
+      "location": "Cloud & Virtualisation: Open Stack, Microsoft",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section",
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8063,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[5]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].field",
+      "education[0].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[6]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[5]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Yosr Teffaha",
+      "email": "yosr.teffaha@esprit.tn",
+      "phone": "+21627369833",
+      "location": "Cloud & Virtualisation: Open Stack, Microsoft",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "junior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Open Stack",
+        "Kubernetes",
+        "Docker",
+        "Ansible",
+        "Terraform",
+        "Jenkins",
+        "Sonar Qube",
+        "JUnit",
+        "Mockito",
+        "Python",
+        "C",
+        "C++",
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "PHP (Symfony)",
+        ".NET",
+        "Oracle",
+        "SQL Server",
+        "SQL Developer"
+      ],
+      "soft_skills": [
+        "Rigoureuse",
+        "Orientée solutions",
+        "Automatisation",
+        "DevOps",
+        "Monitoring",
+        "Qualité"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Orange Tunisie",
+        "job_title": "Projet de Fin d’Études",
+        "start_date": "Janvier 2025",
+        "end_date": "Juin 2025",
+        "city": null,
+        "responsibilities": [
+          "Mise en place automatisée d’une infrastructure cloud privée Open Stack",
+          "Intégration de Ceph comme backend de stockage",
+          "Développement d’un playbook Ansible pour le health check des services Open Stack et l’envoi d’alertes automatiques par e-mail",
+          "Migration automatisée des VM VMware vers Open Stack via une interface web.",
+          "Supervision de l’infrastructure avec Prometheus & Grafana.",
+          "Développement d’un portail cloud pour la gestion et la vente de VMs aux clients.",
+          "Mise en place d’un inventaire centralisé et d’un système automatique d’évaluation de faisabilité pour les nouvelles VM."
+        ]
+      },
+      {
+        "company": "BH Bank",
+        "job_title": "Stage d’été",
+        "start_date": "Juillet 2021",
+        "end_date": "Aout 2021",
+        "city": null,
+        "responsibilities": [
+          "Conception et mise en œuvre d’une architecture réseau, - Configuration des routeurs et switches"
+        ]
+      },
+      {
+        "company": "Univers Informatique",
+        "job_title": "Stage d’été",
+        "start_date": "Juin 2023",
+        "end_date": "Aout 2023",
+        "city": null,
+        "responsibilities": [
+          "Développement d’un site e-commerce full-stack."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Esprit (École Supérieure Privée d’Ingénierie et de Technologies, Tunisie )",
+        "degree": null,
+        "field": "Informatique spécialisée en Architecture IT et Cloud Computing",
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [
+      "Cisco Network Security",
+      "Introduction to Microsoft Azure Cloud Services"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:52:44.793209+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

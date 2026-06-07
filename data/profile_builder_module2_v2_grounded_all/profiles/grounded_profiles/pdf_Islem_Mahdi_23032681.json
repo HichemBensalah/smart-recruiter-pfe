@@ -1,0 +1,201 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Islem_Mahdi_23032681.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Islem_Mahdi_23032681.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7974,
+  "normalization": {
+    "cleaned_markdown": "## PROFESSIONAL SUMMARY\n\nPROFIL\nCOORDONNÉES\n\n## TECHNICAL SKILLS\n\nJe suis une ingénieure en informatique récemment diplômée. Mes expériences de stage m'ont permis d'acquérir de solides compétences en développement full stack (Java) et en déploiement avec Jenkins et Docker.\nStagiaire Développeur Full Stack, 02/2025 - 06/2025\nSofrecom tunisie\n- Tunis\nDéveloppement d'un module de contrôle des données de parc avant l' émission d'appels à facture, avec visualisation des variances et des reversements contractuels par bouquet.\nImplémentation d'un module de contrôle des données de parc basé sur une architecture hexagonale. ·\nModélisation du domaine métier selon les principes du Domain Driven Design (DDD). ·\nDéveloppement des services applicatifs liés aux règles métier. ·\nImplémentation de tests unitaires ciblés. ·\nTravail en méthodologie Scrum avec suivi sur Jira, gestion de code sur Git Lab, et échanges réguliers avec les équipes métier. ·\nEnvironnement technique: Spring Boot · Java · Angular · PostgreSQL · Liquibase · JUnit · Git Lab · Architecture hexagonale · DDD.\nStagiaire QA, 07/2024 - 08/2024 Novel-TI - Sfax\nDéveloppement de tests fonctionnels automatisés.\nEnvironnement technique\n: Sélénium · Pytest.\nStagiaire DevOps, 03/2024 - 06/2024 L'Institut International de Technologie (IIT) - Sfax - PFA\nImplémentation de tests unitaires avec JUnit. ·\nEnvironnement technique: Jenkins · Docker · Docker Compose · AWS. · Intégration d'une chaîne CI/CD avec Jenkins, Docker et Sonar Qube.\nStagiaire Développeur Full Stack, 02/2024 - 06/2024\nCOMPÉTENCES\nLangages & Frameworks: Java · Spring Boot · Angular. ·\nCI/CD & Conteneurisation: Jenkins · Docker · Kubernetes · Maven. ·\nTeamwill - Tunis\nTests & Qualité logicielle: JUnit · Mockito · Selenium · Sonar Qube. ·\nMéthodologies & Outils: Scrum · Jira · Git Lab. ·\n\n## PROFESSIONAL EXPERIENCE\n\nEXPÉRIENCES\n## Avenue Hedi Chaker Route Tunis Km 7, 3021, Sfax\n- islemmahdi 0@gmail.com\n- https: //www.linkedin.com/in/islem -mahdi/## EDUCATION\n\nFORMATION\nDiplôme d'ingénieur: Génie Logiciel et Informatique Décisionnelle, 09/2023 - 06/2025\n## Institut International de Technologie\n- Sfax IIT - Sfax\n- Master Professionnel\n-: Systèmes\n## Informatiques et Télécommunications, 09/2022 09/2024\n- École Nationale d'Électronique et des Télécommunications - Sfax\n- Licence en développement web:\nInformatique, 09/2019 - 06/2022 Institut Supérieur des Études Technologiques - Sfax\n## Baccalauréat Scientifique: Sciences, 09/2015 - 06/2019 Lycée Ibn Rachik - Sfax\n- Proximind - Sfax - PFE pour l'obtention du diplôme de master\n- Développement des différentes couches de l'application.\n- Conteneurisation de l'application en utilisant Docker. ·\n- Intégration des tests de qualité avec Sonar Qube dans le pipeline CI/CD. ·\n- Déploiement de l'application sur AWS EC 2 via Kubernetes.\n- Environnement technique: Spring boot · Angular · Jenkins · Docker · Kubernetes · Sonar Qube · AWS.\n## Stagiaire en développement, 02/2022 - 06/2022\n- Environnement technique: Spring boot · Angular. Développement d'une application web permettant aux utilisateurs de demander un crédit de leasing à distance et de gérer leurs demandes. ·\n- Scrum Fundamentals Certified (SFC™)\n\n## LANGUAGES\n\nLANGUES\nCERTIFICAT\nFrançais\n: intermédiaire\nAnglais\n: intermédiaire",
+    "header_info": {
+      "full_name": "Sofrecom tunisie",
+      "email": null,
+      "phone": "02/2025 - 06/2025",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9595,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Islem Mahdi",
+      "email": "islemmahdi0@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "https://www.linkedin.com/in/islem-mahdi/",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 9,
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "PostgreSQL",
+        "Liquibase",
+        "JUnit",
+        "Git Lab",
+        "Architecture hexagonale",
+        "DDD"
+      ],
+      "soft_skills": [
+        "Scrum",
+        "Jira",
+        "Git Lab",
+        "Selenium",
+        "Sonar Qube"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Sofrecom tunisie",
+        "job_title": null,
+        "start_date": "02/2025 - 06/2025",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Développement d'un module de contrôle des données de parc avant l' émission d'appels à facture, avec visualisation des variances et des reversements contractuels par bouquet.",
+          "Implémentation d'un module de contrôle des données de parc basé sur une architecture hexagonale."
+        ]
+      },
+      {
+        "company": "Novel-TI",
+        "job_title": null,
+        "start_date": "07/2024 - 08/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement de tests fonctionnels automatisés."
+        ]
+      },
+      {
+        "company": "L'Institut International de Technologie (IIT)",
+        "job_title": null,
+        "start_date": "03/2024 - 06/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Implémentation de tests unitaires avec JUnit."
+        ]
+      },
+      {
+        "company": "Teamwill",
+        "job_title": null,
+        "start_date": "02/2024 - 06/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Tests & Qualité logicielle: JUnit · Mockito · Selenium · Sonar Qube."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut International de Technologie",
+        "degree": "Master Professionnel en Systèmes Informatiques et Télécommunications",
+        "field": null,
+        "year": "09/2023 - 06/2025"
+      },
+      {
+        "institution": "École Nationale d'Électronique et des Télécommunications",
+        "degree": "Licence en développement web: Informatique",
+        "field": null,
+        "year": "09/2019 - 06/2022"
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:40:57.841055+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

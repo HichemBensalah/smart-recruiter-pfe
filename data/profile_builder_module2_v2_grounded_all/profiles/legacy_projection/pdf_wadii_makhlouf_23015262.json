@@ -1,0 +1,83 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\wadii_makhlouf_23015262.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\wadii_makhlouf_23015262.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\wadii_makhlouf_23015262.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Wadii MAKHLOUF",
+      "email": "1995@gmail.com",
+      "phone": "+216 27 812 903",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "Devextreme",
+        "Typescript",
+        "Git Tea",
+        "Jest",
+        "NodeJS",
+        "HTML 5",
+        "CSS 3"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Barthauer software tunisia Sousse",
+        "start_date": "Juin 2023 - mars 2026",
+        "end_date": null,
+        "city": "Sfax",
+        "responsibilities": [
+          "Migration vers Dev Extreme, améliorant la performance de l'application de 40% et l'expérience utilisateur.",
+          "Conversion fidèle de maquettes Adobe XD et Figma en interfaces web pixel-perfect, garantissant une cohérence totale entre design et application.",
+          "Implémentation d'un système de caching, réduisant le temps de chargement des données.",
+          "Développement de fonctionnalités interactives telles que le drag-and-drop et un tableau interactif, augmentant l'interaction utilisateur et la visibilité des données.",
+          "Création d'un CRUD permettant la gestion des paramètres (ajout, modification, suppression).",
+          "Création d'un composant partagé pour réduire la redondance du code de 40%."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "UIT CONSULTING Sfax",
+        "start_date": "Août 2022 - Avril 2023",
+        "end_date": null,
+        "city": "Sfax",
+        "responsibilities": [
+          "Développement de l'interface graphique web en Angular 14 avec le backend Dotnet Core (C#): Conception et intégration de l'interface utilisateur, permettant une navigation fluide et une réactivité accrue de l'application, réduisant les erreurs d'affichage de 20%."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "Ecole supérieur polytechnique internationale privée",
+        "year": null
+      },
+      {
+        "degree": "Mastère professionnelle en informatique",
+        "school": "Sfax",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:55:26.931126+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9737,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

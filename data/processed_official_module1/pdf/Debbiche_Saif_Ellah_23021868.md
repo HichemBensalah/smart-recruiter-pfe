@@ -1,0 +1,103 @@
+## TECHNICAL SKILLS
+
+Dev Ops and Cloud Engineer
+saif-ellah-debbiche. github. io/Portfolio
+saifellah. debbiche@esprit. tn
+in/saif-ellah-debbiche/saifellah. debbiche/saif-ellah-debbiche
+Software & Dev Ops Engineer | Full-Stack Specialist (Spring Boot/Angular) and Cloud Automation. Expert in securing critical infrastructure and Kubernetes deployment. Passionate about optimizing CI/CD pipelines and technical excellence.
+Master of Engineering in Software Engineering - IT Architecture and Cloud Computing
+Higher Institute of Applied Sciences and Technology of Mateur - ISSAT Mateur
+Bachelor's degree in computer science
+High School Farhat Hached Makthar
+High school diploma in Mathematics
+SKILLS
+Frameworks :
+Programming languages :
+Angular, Spring Boot, Node Js, React, Symfony
+Java, Python, Type Script, Bash
+Dev Ops :
+Databases :
+My SQL, Postgre SQL, Mongo DB
+Git Lab CI/CD, Jenkins, Ansible, Terraform, Docker, Kubernetes, Prometheus, Grafana, AWS
+Dev Ops Project : CI/CD Pipeline Setup
+Tools: Jenkins, Maven, JUnit, Git, Sonar Qube, Nexusn Docker, Prometheus, Grafana, Vagrant ...
+Cloud Project : Configuration Iaa S Paa S Saa S
+Installed and configured a private cloud infrastructure to manage various deployed solution
+Tools: Open Stack, Docker, Kubernetes, Ansible, Prometheus, Grafana
+Web Application
+Development of a full-stack web app for camping planning
+Tools: Java Spring Boot, Angular, My SQL, Postman
+Improved network security, traffic control, filtering rules, LAN/DMZ/WAN security.
+Tools: pf Sense, Open VPN, Snort
+Cross-Platform Application
+Development of the user module, double authentication, JWT tokens, and role management
+Tools: Symfony, Java FX, Codename One, My SQL, Postman ...
+English
+Arabic
+Native language
+Full professional capacity
+
+## EDUCATION
+
+Higher School of Engineering and Technologies - ESPRIT
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+
+## ACADEMIC PROJECTS
+
+PROJECTS
+### Network Security Project
+**Date:** 2022 - 2025
+- Implemented a secure, automated CI/CD pipeline for a full stuck application using Jenkins
+
+## LANGUAGES
+
+French
+Bilingual
+
+## ECOLE SUPERIEUREPRIVEE D'INGENIERIE ET DETECHNOLOGIES
+
+esprit
+Seformerautrement
+
+## HONORIS UNITEDUNIVERSITIES
+
+Le Chef du Departement de la Scolarité de I'Ecole Superieure Privée d'Ingenierie et de Technologies Soussigne，certifie que:
+Ecoleagreeeparle Ministeretunisiende I'enseignementsuperieursousle N°03/2003 (Code Transport CS 2025/052)
+
+## ATTESTATION DE REUSSITE
+
+Monsieur DEBBICHESaif Ellah(223 AFT 0845)
+a:Maktar
+ne(e) le:20/10/1999
+Delivréele:16/10/2018 a:Tunis
+Titulairedela CINN°:14452119
+2022-2023(Classe:3 A 51),asubiavecsucceslesexamensdepassage en 2 emeanneeducycled'Ingenieur.
+Moyenne : 15, 49
+Cetteattestationestdelivreea linteresseasademandepourserviretvaloircequededroit.
+Chef Departementdelascolarite
+M. Mohamed Ali BOUAKLINE
+M. Mohamed Ali BOUAKLINE
+e I'Usine Chargyia Il
+e I'Usine Chargyia Il
+2035 ARIANA
+2035 ARIANA
+41541-Fax 71941889
+41541-Fax 71941889
+Tel:71
+Tel:71
+Scolarite 2
+Scolarite 2
+www. esprit. tn-E-mail:contact@esprit. tn
+
+## CONFERENCE DES
+
+AUF
+S. Aaucapitaldedeuxmillionsde Dinars-Identifiantunique:830823 CPM 000 Siege Social:18 ruede IUsine-2035-Charguiall Annexe:1-2 rue Andre Ampere-2083-Pole Technologique-El Ghazala Tel.:+21670250000-Fax.:+21670685454
+cdio
+GRANDES
+EUR-ACE°
+unesco
+ECOLES

@@ -1,0 +1,80 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ben_Dhieb_Hassen_23014601.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ben_Dhieb_Hassen_23014601.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ben_Dhieb_Hassen_23014601.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "BEN DHIEB HASSEN",
+      "email": "203@gmail.com",
+      "phone": "+216 53 424 020",
+      "location": "Tunisie-Djerba"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Bootstrap",
+        "TypeScript",
+        "Angular",
+        "SQL",
+        "C#",
+        ".NET",
+        "Java",
+        "Spring Boot",
+        "Docker",
+        "Git",
+        "GitHub Actions",
+        "Vue.js",
+        "Jest",
+        "Sonar Qube",
+        "Redmine",
+        "Figma",
+        "PostgreSQL",
+        "Python",
+        "Chroma Db",
+        "Nginx",
+        "Azure DevOps"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Full Stack Developer",
+        "company": "Neoledge",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´eveloppement d'une application de gestion documentaire collaborative via Microsoft Teams",
+          "Conception et d´eveloppement d'une solution Saa S permettant aux entreprises et formateurs d'´evaluer des candidats via des questionnaires param´etrables"
+        ]
+      },
+      {
+        "job_title": "Angular developer",
+        "company": "Smart Conseil",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:44:13.166231+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.8638,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

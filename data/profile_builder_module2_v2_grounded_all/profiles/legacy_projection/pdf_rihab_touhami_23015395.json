@@ -1,0 +1,75 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\rihab_touhami_23015395.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\rihab_touhami_23015395.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\rihab_touhami_23015395.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Rihab TOUHAMI",
+      "email": "rihabtouhami 423@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "passionnée par l'innovation technologique et spécialisée dans le développement web",
+      "hard_skills": [
+        "HTML 5",
+        "CSS 3",
+        "Javascript",
+        "Angular",
+        "Bootstrap",
+        "Java",
+        "Spring Boot",
+        "Python",
+        "PHP",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Centre national d'informatique",
+        "start_date": "Juillet/Aout 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Implémentation de bonnes pratiques pour la protection des données et la sécurité des systèmes"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "China Study Company",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'un site web officiel pour China Study Company"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "licence",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:28:16.134925+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9642,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

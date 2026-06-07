@@ -1,0 +1,163 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mehouachi_Iheb_23019649.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mehouachi_Iheb_23019649.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9264,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nIheb Mehouachi\niheb.mehouac@gmail.com\nLinked In\nGitHub\nTunis\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## EDUCATION\n\nIngénieur junior en Backend/Data Engineering avec une solide expérience en analyse de données industrielles et optimisation des processus. Compétent dans la conception de pipelines ETL, la modélisation des données et la transformation de données brutes en informations exploitables. Passionné par les systèmes data-driven et les architectures scalables.\n→ Extraction, transformation et analyse de données industrielles depuis SAP (coûts, production, marges)\n**Date: ** Juin 2022 -Nov 2023\n**Location: ** Ben Arous, Tunisie\n- → Conception de dashboards KPI pour le suivi de la performance (Power BI)\n- → Analyse des écarts (budget vs réalisé) pour l'optimisation des coûts\n- → Automatisation des reportings et amélioration des processus décisionnels\n- → Réduction du taux de défauts de 10 % via l'analyse des données qualité\n- → Mise en œuvre d'actions correctives selon les normes IATF 16949\n- → Réalisation d'audits internes et suivi des indicateurs qualité\n- Stage Projet de fin d'études (Ingénieur) ABIT\n- Arabe: native\n- Français: B 2\n- Anglais: B 2\n→ Mise en place d'un pipeline de transformation des données, création de Dashboard interactifs sous Power BI connectés à la base de données.\n- CERTIFICATION\n- → Élaboration d'indicateurs KPI pour l'optimisation de la liquidation du stock.\n- Scientific Computing with Python -free Code Camp SQL (Intermediate) Hacker Rank\n- Stage Projet de fin d'études (Technicien) TIS Circuits\n## Janvier 2017 -Juin 2017 Ben Arous, Tunisie\n- DIPLÔMES\nGénie logiciel License appliquée en EEA Cycle préparatoire en MP Baccalauréat en Math\n**Date: ** Août 2020 - Décembre 2024\n- ESPRIT cours de soir ISSATK IPEIK Lycée technique\nPython (Pandas), MongoDB, Power BI(vente/écart de cadence), JSON/CSV Analyse des données de production industrielle Python (Pandas, NumPy), Power BI, Excel/access, KPI industriels(TRS/TRG/FPY)\n\n## TECH STACK\n\nEXPÉRIENCES\nLangages\nContrôleur de gestion industriel SOTUBI\nPython, Java, C++, C\nData\nETL, Data Modeling, Data Cleaning\nDatabase\nMongo, Cassandra SQL, NoSQL\nAnalyste qualité produit/process MARQUARDT\n\n## TECHNICAL SKILLS\n\nCloud\nDocker, Kubernetes\nOutils\nGit, Jenkins, Power BI, SAP, excel\nChef d'équipe productivité et amélioration continue Technicien Productivité CIPI ACTIA\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning\nTensorflow, Scikit- learn, PyTorch\n\n## ACADEMIC PROJECTS\n\n→ Pilotage de projets d'optimisation basés sur l'analyse de données (gain d'efficacité de 15 %)\n→ Conception de dashboards de suivi des performances\n→ Analyse des goulots d'étranglement via les données de production\n## → Application des méthodologies Lean (SMED, TPM, VSM, Kanban, 5 S)\n**Date: ** Oct 2017 -Juin 2020\n**Location: ** Ariana, Tunisie\n- → Conception et développement d'une application web e -commerce dédiée à une niche de produits électroniques.\n- → Modélisation et exploitation de la DB pour le suivi des ventes et du stock.\n- PROJETS\n- Pipeline ETL -Analyse des ventes e-commerce\n\n## LANGUAGES\n\nLANGUES",
+    "header_info": {
+      "full_name": "Iheb Mehouachi",
+      "email": "iheb.mehouac@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9086,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Iheb Mehouachi",
+      "email": "iheb.mehouac@gmail.com",
+      "phone": null,
+      "location": "Tunis",
+      "linkedin": "Linked In",
+      "github": "GitHub"
+    },
+    "expertise": {
+      "summary": "Ingénieur junior en Backend/Data Engineering avec une solide expérience en analyse de données industrielles et optimisation des processus.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "ETL, Data Modeling, Data Cleaning",
+        "Mongo, Cassandra SQL, NoSQL",
+        "Power BI, Excel/access, KPI industriels(TRS/TRG/FPY)",
+        "Python (Pandas, NumPy), Power BI, Excel/access"
+      ],
+      "soft_skills": [
+        "conception de dashboards KPI pour le suivi de la performance",
+        "analyse des écarts (budget vs réalisé) pour l'optimisation des coûts",
+        "automatisation des reportings et amélioration des processus décisionnels"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "SOTUBI",
+        "job_title": null,
+        "start_date": "Juin 2022 -Nov 2023",
+        "end_date": null,
+        "city": "Ben Arous, Tunisie",
+        "responsibilities": [
+          "Extraction, transformation et analyse de données industrielles depuis SAP (coûts, production, marges)",
+          "Conception de dashboards KPI pour le suivi de la performance (Power BI)",
+          "Analyse des écarts (budget vs réalisé) pour l'optimisation des coûts",
+          "Automatisation des reportings et amélioration des processus décisionnels"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Oct 2017 -Juin 2020",
+        "end_date": null,
+        "city": "Ariana, Tunisie",
+        "responsibilities": [
+          "Conception et développement d'une application web e-commerce dédiée à une niche de produits électroniques.",
+          "Modélisation et exploitation de la DB pour le suivi des ventes et du stock."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISSATK",
+        "degree": "Cycle préparatoire en MP",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe: native",
+      "Français: B 2",
+      "Anglais: B 2"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:21:26.241267+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

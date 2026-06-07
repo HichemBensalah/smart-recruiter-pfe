@@ -1,0 +1,179 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Rihem_taktak_23015927.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Rihem_taktak_23015927.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8354,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nDéveloppeuse Full-Stack spécialisée en Python, Odoo et intelligence artificielle, je conçois des solutions performantes pour automatiser et optimiser les processus métiers.\n\n## EDUCATION\n\nDIPLÔMES\nÉtudiante en cycle d'ingénieur, Spécialité Sécurité des Systèmes Informatique et des Réseaux 09/2024\n- Tek-UP Tunis\nLicence en Sciences Informatiques, Spécialité Big Data et analyse des données 09/2021 - 05/2024 Institut supérieur d'informatique et de multimédia Sfax\n## Baccalauréat en Sciences Techniques\n**Date: ** 09/2020 - 06/2021\n- Formation des utilisateurs pour garantir une utilisation optimale des systèmes déployés.\n- Hébergement et gestion des environnements de production .\n- Utilisation de XML et Python pour l'adaptation et l'extension des fonctionnalités d' Odoo .\nDéveloppement et maintenance de sites web dynamiques avec PHP, HTML, CSS, JavaScript et Boostrap .\n## Outils: Odoo, XML, Python, PHP, HTML, CSS, JavaScript, Bootstrap, Pu TTY.\n**Date: ** Stage de fin d'études 02/2024 - 05/2024\n- Centre de Recherche en Numérique Sfax\n- Conception et développement d'un gant intelligent pour la détection d'obstacles destiné aux personnes malvoyantes.\n- Développement d'une application mobile Flutter pour la communication entre le gant et l'utilisateur.\nProgrammation embarquée en C sur carte Arduino, intégrée à Firebase pour la gestion des données en temps réel.\n## Outils et Technologies: Visual Studio Code, Arduino IDE, Flutter, C, Firebase.\n- Stagiaire Développeuse Mobile 07/2023 - 08/2023\nDéveloppement et test d'une application mobile embarquée pour véhicule, intégrant la lecture de données de capteurs en temps réel.\n- Implémentation d'interfaces modernes avec XML et gestion des interactions via Kotlin .\n- Participation à la phase de test et de validation logicielle à l'aide de Sonar Qube pour assurer la qualité du code.\n## Outils et Technologies: Android Studio, Sonar Qube, Kotlin, XML.\n\n## RI HEM TAKTAK\n\nCours du soir\n\n## DÉVELOPPEUSE FULL-STACK\n\nLycée Majida Boulila Sfax\n\n## À PROPOS\n\nrihem. taktak 52@gmail.com \nAriana, Tunisie \nAstorm Tunis\n\n## EXPÉRIENCES PROFESSIONNELLES\n\nConception et développement des modules personnalisés pour la gestion du recrutement et l'automatisation RH.\nMise en place d'un moteur de matching intelligent entre candidats et offres via des modèles IA (OpenAI API, Sentence Transformers).\nDéveloppement de scripts Python pour l'analyse sémantique et la structuration automatique des CVs.\nIntégration d'un système de génération automatique de documents .\nDéploiement et mise en production des modules développés.\nParticipation à la refonte UX/UI des interfaces pour une meilleure ergonomie.\nCollaboration en environnement Agile/Scrum (daily meetings, sprint planning, revues).\nDigitalisation du processus de recrutement, optimisant la productivité des équipes RH.\nOutils: Python, PostgreSQL, JavaScript, Bootstrap, Git, OpenAI API, Sentence Transformers, XML, Odoo.\nConsultante Fonctionnelle et Développeuse Web - ERP Odoo 09/2024 - 04/2025\nAnalyse des besoins clients et personnalisation des modules Odoo existants.\nParamétrage et configuration d' Odoo selon les exigences spécifiques des clients.\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nLangages de programmation:\nPython, JavaScript, C, Java, XML\nFramework:\nOdoo, Laravel, Symfony, Flutter\nBase de données:\nPostgreSQL, MongoDB, SQL\nSystèmes d'exploitation:\nWindows, Linux (Ubuntu, Red Hat), Windows Server, Ansible\nNavitrends Ariana, tunis\nAdministration systèmes:\nActive Directory, gestion des utilisateurs, GPO\nLogiciels:\nGit, Power BI Desktop, Studio 3 T, Talend, Odoo ERP, Oracle .\n\n## LANGUAGES\n\nLANGUES\nArabe\n: Langue maternelle\nFrançais\n: Avancé\nAnglais\n: Intermédiaire\n\n## SOFT SKILLS\n\nEsprit analytique et résolution de problèmes complexes\nACTIA Engineering Services Tunis\nExcellentes capacités d'écoute et de communication\nEsprit d'équipe et sens de la collaboration",
+    "header_info": {
+      "full_name": "Tek-UP Tunis",
+      "email": null,
+      "phone": "09/2021 - 05/2024",
+      "location": "Développeuse Full-Stack spécialisée en Python, Odoo et intelligence artificielle, je conçois des solutions performantes pour automatiser et optimiser les processus métiers.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9671,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Tek-UP Tunis",
+      "email": "rihem. taktak 52@gmail.com ",
+      "phone": "09/2021 - 05/2024",
+      "location": "Développeuse Full-Stack spécialisée en Python, Odoo et intelligence artificielle",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Conception et développement de solutions performantes pour automatiser et optimiser les processus métiers.",
+      "experience_level": "mid_level",
+      "years_experience": 4,
+      "hard_skills": [
+        "Python",
+        "Odoo",
+        "XML",
+        "JavaScript",
+        "C",
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "SQL",
+        "Windows",
+        "Linux",
+        "Flutter"
+      ],
+      "soft_skills": [
+        "Esprit analytique et résolution de problèmes complexes",
+        "Excellentes capacités d'écoute et de communication",
+        "Esprit d'équipe et sens de la collaboration"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Consultante Fonctionnelle et Développeuse Web - ERP Odoo",
+        "job_title": null,
+        "start_date": "09/2024",
+        "end_date": "04/2025",
+        "city": null,
+        "responsibilities": [
+          "Analyse des besoins clients et personnalisation des modules Odoo existants.",
+          "Paramétrage et configuration d' Odoo selon les exigences spécifiques des clients."
+        ]
+      },
+      {
+        "company": "Stagiaire Développeuse Mobile",
+        "job_title": null,
+        "start_date": "07/2023",
+        "end_date": "08/2023",
+        "city": null,
+        "responsibilities": [
+          "Développement et test d'une application mobile embarquée pour véhicule, intégrant la lecture de données de capteurs en temps réel."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut supérieur d'informatique et de multimédia Sfax",
+        "degree": "Licence en Sciences Informatiques",
+        "field": "Big Data et analyse des données",
+        "year": null
+      },
+      {
+        "institution": "Tek-UP Tunis",
+        "degree": "Diplôme en cycle d'ingénieur, Spécialité Sécurité des Systèmes Informatique et des Réseaux",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:29:36.415170+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

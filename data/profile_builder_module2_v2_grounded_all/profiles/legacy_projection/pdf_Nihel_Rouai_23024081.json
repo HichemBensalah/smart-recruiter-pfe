@@ -1,0 +1,96 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Nihel_Rouai_23024081.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Nihel_Rouai_23024081.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Nihel_Rouai_23024081.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Nihel Rouai",
+      "email": "124@gmail.com",
+      "phone": "56 16 20 59",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Angular",
+        "React",
+        "Spring Boot",
+        "Node.js",
+        "Docker",
+        "Jenkins",
+        "CI/CD",
+        "MySQL",
+        "MongoDB",
+        "JUnit",
+        "Mockito",
+        "Git",
+        "Jira",
+        "Méthodes Agile"
+      ],
+      "soft_skills": [
+        "livrer des solutions complètes de la conception à la production"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Février 2025 - Août 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Amélioration de l'expérience utilisateur via optimisation UI/UX et performance frontend."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Timsoft Group",
+        "start_date": "Février 2025 - Août 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application de gestion des congés avec workflow de validation.",
+          "Implémentation de la gestion des rôles et des permissions utilisateurs (RBAC)."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Février 2022 - Mai 2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement Frontend (React/Tailwind)"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Août 2023 - Août 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'interfaces e-commerce responsives avec React et Tailwind CSS."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:51:34.313349+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6087,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

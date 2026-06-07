@@ -1,0 +1,133 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\nasri_skander_23021812.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\nasri_skander_23021812.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\nasri_skander_23021812.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Skander Nasri",
+      "email": "skan.nasri@gmail.com",
+      "phone": "+216 24220813",
+      "location": ""
+    },
+    "expertise": {
+      "summary": "Full-Stack & DevOps Engineer with experience in designing, developing, and deploying scalable applications.",
+      "hard_skills": [
+        "CI/CD automation",
+        "cloud-native environments",
+        "Docker",
+        "Jenkins",
+        "GitHub Actions",
+        "Ansible",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Spring Boot",
+        "Spring Data JPA",
+        "Hibernate",
+        "Angular",
+        "Svelte Kit",
+        "Laravel",
+        "Symfony",
+        "React",
+        "Next Js",
+        "JUnit",
+        "Mockito",
+        "Sonar Qube",
+        "Docker Compose",
+        "Prometheus",
+        "Grafana",
+        "Azure",
+        "AWS"
+      ],
+      "soft_skills": [
+        "Business Intelligence",
+        "Artificial Intelligence",
+        "Data-driven systems",
+        "Building intelligent and efficient solutions"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Full-Stack & DevOps Engineer",
+        "company": "Tempo-Rise",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Architected and delivered a production-ready e-commerce platform using Spring Boot and Angular",
+          "Designed and automated CI/CD pipelines with Jenkins and GitHub Actions",
+          "Containerized the full stack (app, DB, monitoring) using Docker and Docker Compose",
+          "Automated infrastructure provisioning and deployment via Ansible",
+          "Implemented real-time monitoring and alerting with Prometheus and Grafana"
+        ]
+      },
+      {
+        "job_title": "DevOps Pipeline Project",
+        "company": "Personal Project",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Built a complete CI/CD pipeline from scratch triggered by Git webhooks"
+        ]
+      },
+      {
+        "job_title": "DevOps/System Automation Intern",
+        "company": "ETAP - Tunisian Petroleum Activities Company",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Automated ERP-Active Directory synchronization using Power Shell"
+        ]
+      },
+      {
+        "job_title": "Software & DevOps Intern",
+        "company": "Confledis (France)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Contributed to Docker-based development environments and CI workflows"
+        ]
+      },
+      {
+        "job_title": "PFE - Open-Source Document Management Platform",
+        "company": "CNAM - National Health and Social Insurance Fund (Tunisia)",
+        "start_date": "2021",
+        "end_date": "2022",
+        "city": null,
+        "responsibilities": [
+          "Designed and developed an open-source web platform using Spring Boot and Angular"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree in IT (Data Science)",
+        "school": "ESPRIT - Private higher school of engineering and technology",
+        "year": "2025-Present"
+      },
+      {
+        "degree": "BSc in Computer Science",
+        "school": "FST - Faculty of Sciences of Tunis",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:47:57.392396+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9517,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

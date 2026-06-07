@@ -1,0 +1,113 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abir_Elghali_23014925.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abir_Elghali_23014925.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Abir_Elghali_23014925.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "EL GHALI abir",
+      "email": "elghalyabir@gmail.com",
+      "phone": null,
+      "location": "Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "ReactJS",
+        "NodeJS",
+        "Symfony",
+        "Laravel",
+        "Android",
+        "Flutter",
+        "Spring Boot",
+        "TensorFlow",
+        "Scikit-learn",
+        "Matplotlib",
+        "Selenium",
+        "C",
+        "JAVA",
+        "Python",
+        "PHP",
+        "Javascript",
+        "Robot Framework",
+        "Jenkins",
+        "Next JS",
+        "Kafka",
+        "Docker",
+        "Figma",
+        "Laragon",
+        "PostgreSQL",
+        "Oracle DB",
+        "Mysql",
+        "MongoDB",
+        "Gitlab",
+        "Jest",
+        "Playwright",
+        "MERN stack",
+        "JWT",
+        "Web Socket",
+        "Swing (Java)",
+        "Java RMI",
+        "Flutter",
+        "Android",
+        "Firebase"
+      ],
+      "soft_skills": [
+        "motivée",
+        "créative",
+        "responsable"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Analyse des besoins et étude du processus sur les modules SAP FI/CO",
+          "Intégration de Robot Framework pour l'automatisation des tests fonctionnels",
+          "Mise en place de Jenkins pour l'intégration et l'exécution continues des pipelines",
+          "Développement d'une plateforme web pour la gestion et l'exécution des cas de tests",
+          "Conception des maquettes et prototypes interactifs",
+          "Conception et développement des modules de gestion: utilisateurs, commandes, factures",
+          "Mise en place du workflow de facturation avec automatisation des mises à jour"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle d'ingénieur en informatique",
+        "school": "Institut Supérieur des Arts Multimédia de la Manouba ISAM Manouba",
+        "year": null
+      },
+      {
+        "degree": "Licence en Informatique de Gestion",
+        "school": "Institut Supérieur d'Administration des Affaires de Sfax ISAA Sfax",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat Tunisien section Mathématique",
+        "school": null,
+        "year": "2025"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:30:17.201197+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9588,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\baha_eddine_somrani_23015576.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\baha_eddine_somrani_23015576.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.9014,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nBaha Eddine Somrani\nIng´ enieur Logiciel - D´ eveloppement Full-Stack & Test Automation/map-marker-alt/envelope bahaeddine 1919@gmail.com/phone-alt (+216) 95 300 896\nTunis, Tunisie\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nJeune ing´ enieur en informatique avec une exp´ erience solide en d´ eveloppement backend et full-stack, ainsi qu'en automatisation des tests QA . Maˆ ıtrise de la conception d' APIs REST avec FastAPI, d´ eveloppement d'interfaces modernes ( React, Next. js, Angular ), et int´ egration de bases de donn´ ees PostgreSQL . Comp´ etences en conteneurisation Docker, pipelines CI/CD et tests automatis´ es ( Robot Framework, Appium ). Passionn´ e par les architectures modulaires, la scalabilit´ e et l'int´ egration de fonctionnalit´ es IA/LLM .\n\n## COMP´ ETENCES TECHNIQUES\n\n-Frontend: React, Next. js, Angular, TypeScript, JavaScript, HTML 5, CSS 3, Tailwind\n-Backend: FastAPI, Spring Boot, Symfony, REST APIs, SQLAlchemy, Pydantic\n-Langages: Python, Java, PHP, TypeScript, JavaScript, SQL, Dart\n-Bases de donn´ ees: PostgreSQL, MySQL, MongoDB\n-CI/CD & Outils: Docker, Git Lab CI, Jenkins, Linux, Git, Jira\n-Tests/QA: Robot Framework, Appium, UI Automator, Postman, JUnit, Mockito, Py Mu PDF, Easy OCR (OCR local)\n-IA & LLM: Groq API (LLa MA 3), Int´ egration de mod` eles open source\n\n## CERTIFICATES (IN PROGRESS)\n\n-Certifications IA: Applications de l'IA pour la d´ etection d'anomalies - NVIDIA; Applications de l'IA pour la maintenance pr´ edictive - NVIDIA\nConception et d´ eveloppement d'une solution de tests automatis´ es pour Android Automotive.\nD´ eveloppement de scripts de tests automatis´ es avec Robot Framework et Appium.\nAnalyse dynamique de l'interface utilisateur avec UI Automator pour l'identification des ´ el´ ements.\nD´ eveloppement d'un pipeline automatis´ e de collecte et d'analyse de KPIs via les APIs REST (Jira).\nCERTIFICATIONS\nApplications de l'IA pour la d´ etection d'anomalies - NVIDIA\nApplications de l'IA pour la maintenance pr´ edictive - NVIDIA\nLangage C pour syst` emes embarqu´ es - CSF-RCP\nArchitecture et programmation STM 32 - CSF-RCP\n\n## EDUCATION\n\nFORMATION\nStage de fin d'´ etudes - Automatisation des tests QA\nNettoyage, transformation et agr´ egation de donn´ ees pour produire des indicateurs fiables et actionnables.\n**Date: ** Aoˆ ut 2024 - Sep. 2024\n- G´ en´ eration automatique de rapports et tableaux de bord pour le suivi des performances.\n- Conteneurisation de la solution avec Docker pour assurer la portabilit´ e et la facilit´ e de d´ eploiement.\n- Baha Eddine Somrani - Page 1/2\n- Int´ egration LLM: Analyse du contenu via Groq API (LLa MA 3/GPT-OSS) pour une extraction intelligente des informations cl´ es.\n- G´ en´ eration PDF: Cr´ eation de rapports stylis´ es et pagin´ es avec Report Lab.\n- Envoi transactionnel: Int´ egration de l'API Brevo pour l'envoi de rapports par email avec pi` eces jointes.\n- Frontend Next. js: Interface moderne (TypeScript, Tailwind CSS, Lucide React) avec upload de fichiers et feedback en temps r´ eel. Authentification configurable avec Next Auth. js.\n- Base de donn´ ees: PostgreSQL avec SQLAlchemy pour la persistance des analyses.\n- Stack compl` ete: FastAPI, Next. js 14, PostgreSQL, Docker, Groq API, Easy OCR, Report Lab, Brevo API.\n- Application Web Full-Stack avec Pipeline CI/CD\n- Projet acad´ emique - Spring Boot & Angular\n- D´ eveloppement d'une application web compl` ete avec Spring Boot (backend) et Angular (frontend) .\nMise en place de pipelines Jenkins automatisant les phases de build, test et d´ eploiement.\n**Date: ** Sep. 2024 - Nov. 2024\n- R´ edaction de tests unitaires et d'int´ egration avec JUnit et Mockito et g´ en´ eration de rapports de qualit´ e.\n- Orchestration de la stack compl` ete (frontend + backend + base de donn´ ees) via Docker Compose .\n- Stack: Spring Boot, Angular, Docker, Jenkins, JUnit, Mockito, MySQL.\n- Green Step - Plateforme de durabilit´ e environnementale\n- Projet acad´ emique - Symfony\nD´ eveloppement d'une plateforme web avec Symfony selon l'architecture MVC, authentification et gestion des rˆ oles.\n**Date: ** F´ ev. 2025 - Juil. 2025\n- Tableaux de bord dynamiques pour visualiser l'impact environnemental.\n- Stack: Symfony, PHP, MySQL, Twig, Bootstrap.\n- Baha Eddine Somrani - Page 2/2\n\n## TECHNICAL SKILLS\n\nACTIA Engineering Services - Renault Software Labs\nEx´ ecution de tests fonctionnels et de r´ egression sur ´ emulateurs Android.\nMise en place d'une infrastructure de tests scalable bas´ ee sur Docker.\nInt´ egration des tests automatis´ es dans un pipeline CI/CD avec Git Lab CI.\n-Stack: Appium, Robot Framework, Python, Docker, Git Lab CI.\nStage ing´ enieur - Automatisation et Data\nACTIA Engineering Services - Renault Software Labs\n-Stack: Python, REST APIs (Jira), Docker, Git Lab.\n\n## ACADEMIC PROJECTS\n\nPROJETS\nAI PDF Analyzer & Reporter\n## Projet personnel - FastAPI, Next. js, LLM\n**Date: ** 2026\nConception d'une application compl` ete d'analyse automatique de documents PDF par IA, g´ en´ eration de rapports et envoi par email.\n- Backend FastAPI: API REST asynchrone (statuts PENDING/SUCCESS/FAILED) avec extraction de texte via Py Mu PDF, OCR local (Easy OCR) pour les documents scann´ es.",
+    "header_info": {
+      "full_name": "Baha Eddine Somrani",
+      "email": "1919@gmail.com",
+      "phone": "+216) 95 300 896",
+      "location": "Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9149,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[33]",
+      "expertise.hard_skills[34]",
+      "expertise.hard_skills[35]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.summary"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Baha Eddine Somrani",
+      "email": "1919@gmail.com",
+      "phone": "+216) 95 300 896",
+      "location": "Tunis, Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Jeune ingénieur en informatique avec une expérience solide en développement backend et full-stack, ainsi qu'en automatisation des tests QA.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "React",
+        "Next.js",
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "HTML 5",
+        "CSS 3",
+        "Tailwind",
+        "FastAPI",
+        "Spring Boot",
+        "Symfony",
+        "REST APIs",
+        "SQLAlchemy",
+        "Pydantic",
+        "Python",
+        "Java",
+        "PHP",
+        "SQL",
+        "Dart",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Docker",
+        "Git Lab CI",
+        "Jenkins",
+        "Linux",
+        "Git",
+        "Jira",
+        "Robot Framework",
+        "Appium",
+        "UI Automator",
+        "Postman",
+        "JUnit",
+        "Mockito",
+        "Py Mu PDF",
+        "Easy OCR"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "ACTIA Engineering Services - Renault Software Labs",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Exécution de tests fonctionnels et de régression sur émulateurs Android",
+          "Mise en place d'une infrastructure de tests scalable basée sur Docker",
+          "Intégration des tests automatisés dans un pipeline CI/CD avec Git Lab CI"
+        ]
+      },
+      {
+        "company": "ACTIA Engineering Services - Renault Software Labs",
+        "job_title": "Stage ingénieur - Automatisation et Data",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [
+      "Applications de l'IA pour la détection d'anomalies - NVIDIA",
+      "Applications de l'IA pour la maintenance prédictive - NVIDIA",
+      "Langage C pour systèmes embarqués - CSF-RCP",
+      "Architecture et programmation STM 32 - CSF-RCP"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:39:46.973651+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

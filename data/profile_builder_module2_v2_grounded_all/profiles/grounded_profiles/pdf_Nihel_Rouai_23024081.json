@@ -1,0 +1,188 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Nihel_Rouai_23024081.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Nihel_Rouai_23024081.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9269,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nNihel Rouai\nNabeul | niheleeroui 124@gmail.com | 56 16 20 59 | linkedin.com/in/nihel-rouai-406526235\ngithub.com/nihelerroui\n\n## PROFESSIONAL SUMMARY\n\nProfil\nDéveloppement d'une plateforme de gestion et de visualisation de profils professionnels.\nImplémentation d'un système d'authentification et de gestion des utilisateurs.\nMise en place d'un système de recherche multicritère optimisant l'accès aux données.\n, Stage | Développement Frontend (React/Tailwind) Juin 2023 - Août 2023\nDéveloppement d'interfaces e-commerce responsives avec React et Tailwind CSS.\n\n## TECHNICAL SKILLS\n\nIngénieure en génie logiciel spécialisée en développement full-stack (Angular, Spring Boot) et DevOps. Expérience en conception d'API REST sécurisées, le développement de dashboards analytiques et l'automatisation de pipelines CI/CD. Forte capacité à livrer des solutions complètes de la conception à la production.\nCompétences techniques\nAngular, React\nFrontend:\nSpring Boot, Node. js\nBackend:\nDevOps: Docker, Jenkins, CI/CD, Sonar Qube\nMySQL, MongoDB\nBases de données:\nJUnit, Mockito\nTests:\nGit, Jira, Méthodes Agile\nOutils:\nGenius Data, Stage PFE | Ingénieure Full-Stack (Angular/Spring Boot)\nDéveloppement d'une plateforme RH et Finance permettant la centralisation des données employés et la gestion des indicateurs de performance.\nConception et implémentation d'API REST sécurisées avec Spring Boot et gestion des données via MySQL.\nMise en place d'un dashboard analytique interactif pour le suivi des KPI métier.\nIntégration d'un module d'analyse prédictive en Python pour l'aide à la décision.\n, Stage Ingénieur | Développement Web (Laravel/JavaScript) Août 2024 - Septembre 2024\nCompétences linguistiques\nlangue maternelle\nArabe:\nprofessionnel\nFrançais:\nprofessionnel\nAnglais:\n\n## PROFESSIONAL EXPERIENCE\n\nExpérience\nElboita\nVast Sky 123\nAmélioration de l'expérience utilisateur via optimisation UI/UX et performance frontend.\n##, Stage PFE | Développement Web (React/Node. js) Février 2022 - Mai 2022\n**Date: ** Février 2025 - Août 2025\n- Timsoft Group\n- Conception et développement d'une application de gestion des congés avec workflow de validation.\n- Implémentation de la gestion des rôles et des permissions utilisateurs (RBAC).\n##: Jenkins, Docker, Sonar Qube, Prometheus, Grafana.\n## Application de gestion des stages: Angular, Spring Boot, module de data mining.\n## Application mobile de voyages: Android (Java), SQLite.\n\n## ACADEMIC PROJECTS\n\nProjets académiques\nPipeline CI/CD complet\n\n## EDUCATION\n\nFormation",
+    "header_info": {
+      "full_name": "Nihel Rouai",
+      "email": "124@gmail.com",
+      "phone": "56 16 20 59",
+      "location": null,
+      "linkedin": "linkedin.com/in/nihel-rouai-406526235",
+      "github": "github.com/nihelerroui"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6087,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Nihel Rouai",
+      "email": "124@gmail.com",
+      "phone": "56 16 20 59",
+      "location": null,
+      "linkedin": "linkedin.com/in/nihel-rouai-406526235",
+      "github": "github.com/nihelerroui"
+    },
+    "expertise": {
+      "summary": "",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Angular",
+        "React",
+        "Spring Boot",
+        "Node.js",
+        "Docker",
+        "Jenkins",
+        "CI/CD",
+        "MySQL",
+        "MongoDB",
+        "JUnit",
+        "Mockito",
+        "Git",
+        "Jira",
+        "Méthodes Agile"
+      ],
+      "soft_skills": [
+        "livrer des solutions complètes de la conception à la production"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Février 2025 - Août 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Amélioration de l'expérience utilisateur via optimisation UI/UX et performance frontend."
+        ]
+      },
+      {
+        "company": "Timsoft Group",
+        "job_title": null,
+        "start_date": "Février 2025 - Août 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application de gestion des congés avec workflow de validation.",
+          "Implémentation de la gestion des rôles et des permissions utilisateurs (RBAC)."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Février 2022 - Mai 2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement Frontend (React/Tailwind)"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Août 2023 - Août 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'interfaces e-commerce responsives avec React et Tailwind CSS."
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:51:34.313349+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

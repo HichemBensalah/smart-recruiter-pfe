@@ -1,0 +1,244 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abir_Elghali_23014925.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abir_Elghali_23014925.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.794,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nEL GHALI abir\nINGÉNIEURE EN INFORMATIQUE (GÉNIE LOGICIEL) - JEUNE DIPLÔMÉE\n\n## TECHNICAL SKILLS\n\nDotée de solides compétences en développement d'applications web et mobiles, ainsi qu'en automatisation de tests, je suis motivée, créative et responsable, avec une forte orientation vers les résultats.\nFrameworks et bibliothèques: ReactJS\n, NodeJS, Symfony, Laravel, Android, Flutter, Spring Boot, TensorFlow, Scikit- learn, Matplotlib, Selenium.\nFilière: Génie Logiciel\nLangages de programmation: C, JAVA, Python, PHP, Javascript .\nLes fondamentaux de DevOps - Alison - 2025\nFull Stack JS (Niveau 2) - Orange Digital Center - 2022\nTechnologies utilisées:\nSoft Skills - Club Microsoft ISAAS - 2021\n\n## EDUCATION\n\nProjet de fin d'études - Application web d'Automatisation des cas de tests SAP FI/CO Février-Août 2025\nCONTACTS\nCOFICAB Tunisie technologies utilisées: Robot Framework, Selenium, Jenkins, Next JS, Kafka, Spring Boot, GitHub, Docker\n- elghalyabir@gmail.com\n- Analyse des besoins et étude du processus sur les modules SAP FI/CO.\n- Intégration de Robot Framework pour l'automatisation des tests fonctionnels.\n## Gouvernorat de la Manouba, Tunisie el-ghali-abir-46827 a 208\n- Mise en place de Jenkins pour l'intégration et l'exécution continues des pipelines.\n- Développement d'une plateforme web pour la gestion et l'exécution des cas de tests.\n- Stage d'été - UI/UX Design d'une application de gestion d'assurance Resorware Dg Juillet-Août 2024\n- https: //github.com/abir Elghali https: //abir-elghali-portfolio-pi. vercel. app/- technologies utilisées: Figma\n- Conception des maquettes et prototypes interactifs .\n- LANGUES\n- Stage d'été - Conception et développement d'une application de gestion pour une société de livraison\n## Designet technologies utilisées: Laravel, Laragon .\n**Date: ** Juillet-Août 2023\n- Arabe: Langue maternelle\n- Français: niveau intermédiaire\nConception et développement des modules de gestion: utilisateurs, commandes, factures.\n**Date: ** Mars-Mai 2022\n- Anglais: niveau intermédiaire\n- Mise en place du workflow de facturation avec automatisation des mises à jour.\n- Italien: niveau débutant\n- Projet de fin d'études - Application web d'Automatisation de processus de génération des liasses fiscales\n- Générer les liasses fiscales automatiquement .\n- É DUCATION\n- Cycle d'ingénieur en informatique\n- Institut Supérieur des Arts Multimédia de la Manouba ISAM Manouba\n- Licence en Informatique de Gestion\n- Institut Supérieur d'Administration des Affaires de Sfax ISAA Sfax\n## Baccalauréat Tunisien section Mathématique\n**Date: ** 2025\n\n## COMPÉTENCES TECHNIQUES\n\nForm@net technologies utilisées: Symfony, PostgreSQL .\nBases De Données: Oracle DB, Mysql, MongoDB, Laragon et Postgresql .\nGérer les documents XML .\n\n## MACHINE LEARNING & DEEP LEARNING\n\nIA, Machine Learning, NLP, CNN\nSystèmes d'exploitation: Windows,\nFilière: E-Business\nLinux\nOutils: Docker, GitHub, Gitlab, Robot Framework, Jest, Playwright.\nLycée Haouaria\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nIntroduction à l'IA générative - L'art du possible - Amazon Web Services (AWS) - 2026\nThéorie des tests logiciels - Alison - 2025\n\n## PROJETS ACADÉMIQUES\n\nApplication web pour la gestion de l'Orchestre symphonique tunisien\nTechnologies utilisées: MERN stack, JWT, Web Socket\nGérer les CRUD, notifications (web socket), statistiques .\nPrédiction du cancer du sein, avec calcul de la surface de l'anomalie (en pixels) et détection de sa position.\nRéseau de neurones, CNN, Jupyter, Python .\nCréer le modèle d'apprentissage et d'évaluation .\nApplication Distribuée Java avec RMI\nTechnologies utilisées: Swing (Java), Java RMI, Docker\nArchitecture Serveur-Client avec RMI .\nInterface Utilisateur pour les Clients .\nApplication Mobile de Coffee shop\nTechnologies utilisées: Flutter, Android, Firebase .\n\n## VIE ASSOCIATIVE\n\nMembre de la Jeune Chambre Internationale de Dar Allouch (JCI)\nConteneurisation Docker .\nCENTRESD ' INT É R Ê T\nPeinture sur les toiles\nPhotographie\nGérer les CRUD, BD, commande .",
+    "header_info": {
+      "full_name": "EL GHALI abir",
+      "email": null,
+      "phone": null,
+      "location": ", NodeJS, Symfony, Laravel, Android, Flutter, Spring Boot, TensorFlow, Scikit- learn, Matplotlib, Selenium.",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9588,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.location",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "certifications[4]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].year",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].responsibilities[5]",
+      "experiences[0].responsibilities[6]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[33]",
+      "expertise.hard_skills[34]",
+      "expertise.hard_skills[35]",
+      "expertise.hard_skills[36]",
+      "expertise.hard_skills[37]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "EL GHALI abir",
+      "email": "elghalyabir@gmail.com",
+      "phone": null,
+      "location": "Tunisie",
+      "linkedin": null,
+      "github": "https://github.com/abirElghali"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "ReactJS",
+        "NodeJS",
+        "Symfony",
+        "Laravel",
+        "Android",
+        "Flutter",
+        "Spring Boot",
+        "TensorFlow",
+        "Scikit-learn",
+        "Matplotlib",
+        "Selenium",
+        "C",
+        "JAVA",
+        "Python",
+        "PHP",
+        "Javascript",
+        "Robot Framework",
+        "Jenkins",
+        "Next JS",
+        "Kafka",
+        "Docker",
+        "Figma",
+        "Laragon",
+        "PostgreSQL",
+        "Oracle DB",
+        "Mysql",
+        "MongoDB",
+        "Gitlab",
+        "Jest",
+        "Playwright",
+        "MERN stack",
+        "JWT",
+        "Web Socket",
+        "Swing (Java)",
+        "Java RMI",
+        "Flutter",
+        "Android",
+        "Firebase"
+      ],
+      "soft_skills": [
+        "motivée",
+        "créative",
+        "responsable"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Analyse des besoins et étude du processus sur les modules SAP FI/CO",
+          "Intégration de Robot Framework pour l'automatisation des tests fonctionnels",
+          "Mise en place de Jenkins pour l'intégration et l'exécution continues des pipelines",
+          "Développement d'une plateforme web pour la gestion et l'exécution des cas de tests",
+          "Conception des maquettes et prototypes interactifs",
+          "Conception et développement des modules de gestion: utilisateurs, commandes, factures",
+          "Mise en place du workflow de facturation avec automatisation des mises à jour"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Supérieur des Arts Multimédia de la Manouba ISAM Manouba",
+        "degree": "Cycle d'ingénieur en informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Supérieur d'Administration des Affaires de Sfax ISAA Sfax",
+        "degree": "Licence en Informatique de Gestion",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": null,
+        "degree": "Baccalauréat Tunisien section Mathématique",
+        "field": null,
+        "year": "2025"
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais",
+      "Italien"
+    ],
+    "certifications": [
+      "Introduction à l'IA générative - L'art du possible - Amazon Web Services (AWS) - 2026",
+      "Théorie des tests logiciels - Alison - 2025",
+      "Full Stack JS (Niveau 2) - Orange Digital Center - 2022",
+      "Les fondamentaux de DevOps - Alison - 2025",
+      "Soft Skills - Club Microsoft ISAAS - 2021"
+    ],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:30:17.201197+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

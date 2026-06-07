@@ -1,0 +1,113 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hamza_ben_abdelkader_23022581.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hamza_ben_abdelkader_23022581.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hamza_ben_abdelkader_23022581.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hamza Ben Abdelkader",
+      "email": "benabdelkaderr.hamza@gmail.com",
+      "phone": null,
+      "location": "Ariana, Soukra, Chotrana 1"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "SQL",
+        "Apache Spark (PySpark)",
+        "Databricks",
+        "Delta Lake",
+        "Flask",
+        "JavaScript",
+        "Scikit-learn",
+        "TensorFlow",
+        "Keras",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Power BI",
+        "Analytical Dashboards",
+        "Business Insights"
+      ],
+      "soft_skills": [
+        "Machine Learning et Deep Learning",
+        "Data Cleaning & Transformation",
+        "ELT Pipelines",
+        "Statistical et Mathematical Analysis",
+        "End-to-End Data Pipeline Development"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Web Developer",
+        "company": "Niche Knights (Remote, United States)",
+        "start_date": "October 2024",
+        "end_date": "June",
+        "city": null,
+        "responsibilities": [
+          "Developed and maintained responsive and user-friendly websites, ensuring optimal performance across different devices and browsers."
+        ]
+      },
+      {
+        "job_title": "Development of an Artificial Intelligence System for Fraud Detection",
+        "company": "Open Bee",
+        "start_date": "February",
+        "end_date": "July 2023",
+        "city": null,
+        "responsibilities": [
+          "Conducted comprehensive data preprocessing, including binarization, morphological processing and segmentation."
+        ]
+      },
+      {
+        "job_title": "Glasses classification",
+        "company": "Esprit Tech",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Led data preparation and analysis to understand the diverse characteristics of glasses."
+        ]
+      },
+      {
+        "job_title": "Banking Chatbot",
+        "company": "Esprit Tech",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Machine Learning: Scikit-learn, TensorFlow, Keras, Supervised/Unsupervised Learning, Model Training/Evaluation"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "The National Engineering Diploma",
+        "school": "Private Higher School of Engineering and Technology (ESPRIT) | Tunisia",
+        "year": "2020-2023"
+      },
+      {
+        "degree": "The National Master's Diploma in SCIENCES, TECHNOLOGY, HEALTH, ACTUARIAL Science",
+        "school": "University of Mans | France",
+        "year": "2022-2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:24:13.343308+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9732,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

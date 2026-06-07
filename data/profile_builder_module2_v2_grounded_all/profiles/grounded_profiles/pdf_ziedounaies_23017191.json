@@ -1,0 +1,224 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\ziedounaies_23017191.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\ziedounaies_23017191.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6894,
+  "normalization": {
+    "cleaned_markdown": "## SOFTWARE ENGINEER\n\n¯ zied-ounaiess\n\n## Ó +216 26 341 687\n\nR ziedounaiess@gmail.com\n github.com/ziedounaiess\n\n## ABOUT ME\n\nI’m Ounaies Zied, a web developer passionate\nabout creating dynamic, user-friendly applica-\ntions. I have strong front-end expertise and solid\nback-end knowledge, enabling me to work effec-\ntively across the full development stack and build\nreliable, well-structured solutions.\n\n## LANGUAGES\n\nHTML, CSS, SCSS, JavaScript,\nTypeScript\nFront-End: React, Angular, Redux, Axios\nBack-End:\nNode. js, Express. js, Spring Boot,\n\n## PHP\n\nDatabases: MongoDB, PostgreSQL\n\n## PROFESSIONAL EXPERIENCE\n\nFreelance Developer — React-It\nJanuary 2025 – July 2025\n• Developed REST APIs using Spring Boot.\n• Designed and implemented user interfaces with React. js and TypeScript.\n• Generated dynamic documents with Jaspersoft using parameters.\nIT Engineer — STE Infographie et Architecture\nhttps: //tuninmob. com Aug 2025 – Dec 2025\n• Fixed and optimized a malfunctioning website by improving the design and enhancing performance.\n• Optimized website loading speed and implemented code improvements for better efficiency.\n• Fixed email sending issues and ensured smooth communication.\n• Implemented image caching on AWS to improve site performance.\n• Handled hosting on OVH and optimized server settings for better uptime and speed.\n• Deployed and managed a Flutter-based hybrid application on Play Store.\n• Increased website performance by optimizing both frontend and backend code.\nFreelance Developer — Upwork\nJan 2026 – Present\n– End-to-end development of an E-commerce website\n– Maintenance, bug fixing, and optimization\n– Implementation of new features (product and order management, etc.)\n\n## PERSONAL PROJECTS\n\nAngular Project\nGitHub\nAngular app demonstrating HTTP requests, data binding, form validation, and custom pipes.\nCredit Wise\nGitHub\nReact + Spring Boot app for credit scoring with Keycloak and PostgreSQL.\nTask Ticket\nGitHub\nReact + Spring Boot app with Redux and REST APIs.\nGym Management\nGitHub\nGym management system using PHP, MySQL, Bootstrap.\n\n## INTERNSHIPS\n\nFull Stack Developer — React-It\nFeb 2024 – July 2024\nInstallment payment application (React, Redux, Spring Boot, PostgreSQL, Keycloak)\nFull Stack Developer — React-It\nJun 2023 – Sep 2023\nTask management app (React, Redux, Express, MongoDB)\nWeb Developer — Zeta Box\nJun 2022 – Sep 2022\nE-learning platform (HTML, CSS, Bootstrap, Symfony)",
+    "header_info": {
+      "full_name": "ABOUT ME",
+      "email": "ziedounaiess@gmail.com",
+      "phone": "+216 26 341 687",
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/ziedounaiess"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "experience/professional experience/work experience",
+      "languages/langues"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6512,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[1].end_date",
+      "experiences[1].start_date"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.phone",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].responsibilities[3]",
+      "experiences[1].responsibilities[4]",
+      "experiences[1].responsibilities[5]",
+      "experiences[1].responsibilities[6]",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[10]",
+      "languages[11]",
+      "languages[12]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]",
+      "languages[4]",
+      "languages[5]",
+      "languages[6]",
+      "languages[7]",
+      "languages[8]",
+      "languages[9]"
+    ],
+    "fields_unsupported": [
+      "experiences[1].end_date",
+      "experiences[1].start_date"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ounaies Zied",
+      "email": "ziedounaiess@gmail.com",
+      "phone": "+216 26 341 687",
+      "location": null,
+      "linkedin": null,
+      "github": "github.com/ziedounaiess"
+    },
+    "expertise": {
+      "summary": "web developer passionate about creating dynamic, user-friendly applications",
+      "experience_level": "mid_level",
+      "years_experience": 1,
+      "hard_skills": [
+        "HTML",
+        "CSS",
+        "SCSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Angular",
+        "Redux",
+        "Axios",
+        "Node.js",
+        "Express.js",
+        "Spring Boot",
+        "MongoDB",
+        "PostgreSQL"
+      ],
+      "soft_skills": [
+        "front-end expertise",
+        "back-end knowledge",
+        "user-friendly applications",
+        "dynamic solutions",
+        "well-structured solutions"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "React-It",
+        "job_title": null,
+        "start_date": "January 2025",
+        "end_date": "July 2025",
+        "city": null,
+        "responsibilities": [
+          "Developed REST APIs using Spring Boot.",
+          "Designed and implemented user interfaces with React. js and TypeScript.",
+          "Generated dynamic documents with Jaspersoft using parameters."
+        ]
+      },
+      {
+        "company": "STE Infographie et Architecture",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Fixed and optimized a malfunctioning website by improving the design and enhancing performance.",
+          "Optimized website loading speed and implemented code improvements for better efficiency.",
+          "Fixed email sending issues and ensured smooth communication.",
+          "Implemented image caching on AWS to improve site performance.",
+          "Handled hosting on OVH and optimized server settings for better uptime and speed.",
+          "Deployed and managed a Flutter-based hybrid application on Play Store.",
+          "Increased website performance by optimizing both frontend and backend code."
+        ]
+      },
+      {
+        "company": "Upwork",
+        "job_title": null,
+        "start_date": "January 2026",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "- End-to-end development of an E-commerce website",
+          "- Maintenance, bug fixing, and optimization",
+          "- Implementation of new features (product and order management, etc.)"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Angular",
+      "Redux",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "Spring Boot",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:15:06.293645+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

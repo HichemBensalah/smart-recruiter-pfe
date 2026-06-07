@@ -1,0 +1,190 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Nasser_Foued_23025427.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Nasser_Foued_23025427.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7274,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nFoued Nasser\nEmail: fouednasser 98@gmail.com\nLinked In: linkedin.com/in/Foued Nasser\nContact: +216 54083239\nSite Web: fouednasser. me\n\n## PROFIL PROFESSIONNEL\n\nIngénieur DevOps avec une expérience pratique dans la mise en place de pipelines CI/CD, de plateformes Kubernetes et\nd'infrastructures cloud sur AWS et Azure. Certifié CKA, avec une expertise pratique en Git Lab CI/CD, gestion de clusters\nKubernetes, conteneurisation Docker et automatisation d’infrastructure avec Terraform.\n\n## COMPÉTENCES TECHNIQUES\n\nCloud Technologies:\nAzure and Aws: Azure Kubernetes Service (AKS), App Services, VPC, S 3, IAM, Security groups\nInfrastructure as Code (IAC): Terraform\nCI/CD & Gestion de Versions: Git, Git Lab CI/CD, GitHub Actions, Argo CD (Git Ops)\nConteneurisation & Orchestration: Docker, Kubernetes\nProgrammation & Scripting: Bash, Python, Java\nSécurité: Sonar Qube, Trivy, OWASP Dependency Check, Ja Co Co, Bandit, Git Leaks\nMonitoring: Prometheus, Grafana\n\n## EXPÉRIENCE & PROJETS\n\nUp Tech — Ingénieur Dev Sec Ops\nFeb 2025 – Jun 2025\n● Conception et mise en œuvre de pipelines Git Lab CI/CD pour des microservices Java sur Kubernetes,\nautomatisant les étapes de build, test, scan de sécurité et déploiement, réduisant le temps de\ndéploiement de 25%.\n● Intégration d’outils de sécurité (Sonar Qube, Ja Co Co, OWASP Dependency Check, Trivy) dans le\npipeline CI/CD, réduisant les vulnérabilités critiques de 80%.\n● Automatisation des builds d’images Docker avec Kaniko dans des environnements rootless et\npublication dans le registre Harbor avec tagging automatique.\n● Gestion des déploiements multi-environnements (développement, staging, production) via variables\nGit Lab et manifests Kubernetes.\n● Optimisation des performances du cluster Kubernetes en scalant les workloads et en résolvant les\ndéfaillances de pods.\nNeoxion — Stagiaire en Génie Logiciel\n● Développement d’une application web de gestion de clusters Kubernetes avec React et Nest JS.\n● Intégration avec les API Kubernetes pour la visualisation en temps réel et une meilleure gestion des\nincidents.\nLab Set — Projet DevOps/Platform Engineering\n● Conception et développement d’une plateforme full-stack (FastAPI + React) pour le provisionnement\nd’environnements DevOps.\n● Mise en place d’une architecture d’exécution double: laboratoires locaux basés sur Docker pour une\nitération rapide et sans coût, et provisionnement AWS basé sur Terraform pour des déploiements EC 2\nde type production.\n● Création de labs basés sur des scénarios avec scripts automatisés et nettoyage automatique des\nsessions.\n● Intégration de CI et contrôles de sécurité via GitHub Actions avec workflow trunk-based et\nenvironnements éphémères pour les PR.\n\n## CERTIFICATIONS\n\nCKA: Certified Kubernetes Administrator\nMicrosoft Certified: Azure Fundamentals (AZ-900)\nMicrosoft Certified: Azure Data Fundamentals\n\n## EDUCATION\n\nÉcole Nationale des Sciences de l’Informatique (ENSI)\nDiplôme d’Ingénieur en Informatique\nInstitut Préparatoire aux Études d’Ingénieurs de Nabeul (IPEIN)\nClassé 221 sur 1860 au concours national (Mathématiques et Physique)\n\n## LANGUES\n\nAnglais\nFrançais\nArabe",
+    "header_info": {
+      "full_name": "Foued Nasser",
+      "email": "98@gmail.com",
+      "phone": "+216 54083239",
+      "location": null,
+      "linkedin": "linkedin.com/in/Foued",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_experience_section",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9455,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Foued Nasser",
+      "email": "fouednasser@98@gmail.com",
+      "phone": "+216 54083239",
+      "location": null,
+      "linkedin": "linkedin.com/in/FouedNasser",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieur DevOps avec une expérience pratique dans la mise en place de pipelines CI/CD, de plateformes Kubernetes et d'infrastructures cloud sur AWS et Azure.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Cloud Technologies: Azure and Aws",
+        "Infrastructure as Code (IAC): Terraform",
+        "CI/CD & Gestion de Versions: Git, Git Lab CI/CD, GitHub Actions, Argo CD",
+        "Conteneurisation & Orchestration: Docker, Kubernetes",
+        "Programmation & Scripting: Bash, Python, Java",
+        "Sécurité: Sonar Qube, Trivy, OWASP Dependency Check, Ja Co Co, Bandit, Git Leaks",
+        "Monitoring: Prometheus, Grafana"
+      ],
+      "soft_skills": [
+        "Gestion de clusters Kubernetes",
+        "Conteneurisation Docker",
+        "Automatisation d’infrastructure avec Terraform"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Up Tech",
+        "job_title": "Ingénieur Dev Sec Ops",
+        "start_date": "Feb 2025",
+        "end_date": "Jun 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et mise en œuvre de pipelines Git Lab CI/CD pour des microservices Java sur Kubernetes",
+          "Intégration d’outils de sécurité (Sonar Qube, Ja Co Co, OWASP Dependency Check, Trivy) dans le pipeline CI/CD",
+          "Automatisation des builds d’images Docker avec Kaniko",
+          "Gestion des déploiements multi-environnements via variables Git Lab et manifests Kubernetes"
+        ]
+      },
+      {
+        "company": "Neoxion",
+        "job_title": "Stagiaire en Génie Logiciel",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d’une application web de gestion de clusters Kubernetes avec React et Nest JS"
+        ]
+      },
+      {
+        "company": "Lab Set",
+        "job_title": "Projet DevOps/Platform Engineering",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d’une plateforme full-stack (FastAPI + React) pour le provisionnement d’environnements DevOps"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "École Nationale des Sciences de l’Informatique (ENSI)",
+        "degree": "Diplôme d’Ingénieur en Informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Préparatoire aux Études d’Ingénieurs de Nabeul (IPEIN)",
+        "degree": null,
+        "field": null,
+        "year": 221
+      }
+    ],
+    "languages": [
+      "Anglais",
+      "Français",
+      "Arabe"
+    ],
+    "certifications": [
+      "CKA: Certified Kubernetes Administrator",
+      "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "Microsoft Certified: Azure Data Fundamentals"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:49:24.651167+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

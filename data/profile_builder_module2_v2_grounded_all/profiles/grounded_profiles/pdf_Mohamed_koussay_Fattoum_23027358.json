@@ -1,0 +1,205 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_koussay_Fattoum_23027358.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_koussay_Fattoum_23027358.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8409,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMohamed Koussay Fattoum\n\n## TECHNICAL SKILLS\n\nIngénieur en Télécommunications spécialisé en DevOps\nEnvelope\nEnvelope\nPhone-Alt +216 94 929 927\nLINKEDIN Koussay Fattoum\nGithub koussay Med\nMap-marker-alt Sfax, Tunisie\nkoussay.fattoum@outlook.com\nIngénieur DevOps - Stage d'été\nPrestacode consulting, Sfax Juillet 2024 - Aout 2024\nConteneurisation d'une application full-stack (Angular, Springboot, PostgreSQL) avec Docker.\nMise en place d'un pipeline CI/CD avec Jenkins et Ansible.\nIntégration de la sécurité et la Surveillance temps-réel avec Prometheus et Grafana.\nMots-clés: Docker, Docker Compose, Jenkins, Ansible, CI/CD, DevOps, Prometheus, Grafana, Monitoring, Automatisation, Linux\nStagiaire infrastructure réseaux - Stage d'été\nClinisys ERP, Sfax Juin 2023 - Aout 2023\nGestion des infrastructures réseaux et la maintenance des VM Linux (Ubuntu et Kali) à distance\nMots-clés: Packet Tracer, VMware, Virtal Box\nConception et migration d'un pipeline CI/CD de Jenkins vers GitHub Actions pour une application Flask conteneurisée avec Docker intégrant les tests automatisés Pytest, lanalyse qualité Flake 8 et le scan de vulnérabilités avec Trivy.\nCompétences\n: Python, C, Java, JavaScript, SQL, HTML/CSS\nLangages\nCI/CD & Automation: Jenkins, Git Lab CI, GitHub Actions, Bitbucket Pipelines, Ansible\n: Docker, Kubernetes, Docker Compose\nConteneurisation & Orchestration\n: Prometheus, Grafana\nObservabilité & Monitoring\n: Sonar Qube, Trivy, gestion des secrets, sécurité CI/CD\nSécurité\n\n## PROFESSIONAL EXPERIENCE\n\nEXPÉRIENCES\n\n## EDUCATION\n\nIngénieur DevOps - Stage fin d'études\n## Telnet INC, Sfax Février 2025 - Juin 2025\n- Mise en place d'une ferme de terminaux (TPE) sécurisés connectés aux runners CI via ADB.\n- Mise en place d'un pipeline CI robuste capable d'automatiser plus de 1600 tests robot Framework composé en 4 pipes qui se déclenche d'une façon auto grâce à l'API.\n## Envoi des Notifications, via Ms Teams et Gmail, aux acteurs concernés.\nMots-clés: Automatisation, Tests, Terminaux Android, CI/CD, Bitbucket Pipelines, Docker, Robot Framework, Notifications, API\n- Diplôme National d'ingénieur en Génie des Télécommunications\n- Faculté des Sciences\n- Cycle préparatoire mathématique physique\n- Lycée Habib Maazoun\n## Baccalauréat mathématique\n**Date: ** Septembre 2020 - Juin 2022\n**Location: ** Sfax, Tunisia\n## Sfax, Tunisia\n\n## ACADEMIC PROJECTS\n\nPROJETS\nDéveloppement d'une application web (MERN) de gestion d'une salle de sport\nGestion des comptes adhérents/coachs et la planification des services et des activités.\n## Mots-clés: React, Node. js, MongoDB, Express, API\n- Pipeline CI/CD Git Ops sécurisé pour une application Flask\n- Déploiement automatisé sur un cluster Kubernetes Minikube via une approche Git Ops avec Argo CD et synchronisation continue depuis un dépôt dinfrastructure dédié.\n- Automatisation de la mise à jour des manifests Kubernetes après chaque build et déploiement continu des nouvelles versions applicatives.\nMots-clés: GitHub Actions, Docker, Kubernetes, Argo CD, Git Ops, Trivy, Flask, Minikube\n**Date: ** Septembre 2022 - Juin 2025\n**Location: ** Sfax, Tunisia\n- ÉDUCATION\n- Ecole Nationale d'Electronique et des Télécommunications\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\n\n##: AZ-900, AI-900\n\nMicrosoft\n: Git, Jenkins, Docker, K 8 S, Prometheus, Grafana Loki\nKode Kloud\n\n## LANGUAGES\n\nLangues\nFrançais (TCF B 2)\nAnglais (Toeic B 2)\nArabe (Langue maternelle)",
+    "header_info": {
+      "full_name": "Mohamed Koussay Fattoum",
+      "email": null,
+      "phone": "+216 94 929 927",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9682,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mohamed Koussay Fattoum",
+      "email": "koussay.fattoum@outlook.com",
+      "phone": "+216 94 929 927",
+      "location": "Sfax, Tunisia",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Docker",
+        "Jenkins",
+        "Ansible",
+        "CI/CD",
+        "DevOps",
+        "Prometheus",
+        "Grafana",
+        "Monitoring",
+        "Automatisation",
+        "Linux"
+      ],
+      "soft_skills": [
+        "Python",
+        "C",
+        "Java",
+        "JavaScript",
+        "SQL",
+        "HTML/CSS"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Prestacode consulting, Sfax",
+        "job_title": "Ingénieur DevOps - Stage d'été",
+        "start_date": "Juillet 2024",
+        "end_date": "Aout 2024",
+        "city": "Sfax, Tunisia",
+        "responsibilities": [
+          "Conteneurisation d'une application full-stack (Angular, Springboot, PostgreSQL) avec Docker.",
+          "Mise en place d'un pipeline CI/CD avec Jenkins et Ansible.",
+          "Intégration de la sécurité et la Surveillance temps-réel avec Prometheus et Grafana."
+        ]
+      },
+      {
+        "company": "Clinisys ERP, Sfax",
+        "job_title": "Stagiaire infrastructure réseaux - Stage d'été",
+        "start_date": "Juin 2023",
+        "end_date": "Aout 2023",
+        "city": "Sfax, Tunisia",
+        "responsibilities": [
+          "Gestion des infrastructures réseaux et la maintenance des VM Linux (Ubuntu et Kali) à distance"
+        ]
+      },
+      {
+        "company": "Telnet INC, Sfax",
+        "job_title": "Ingénieur DevOps - Stage fin d'études",
+        "start_date": "Février 2025",
+        "end_date": "Juin 2025",
+        "city": "Sfax, Tunisia",
+        "responsibilities": [
+          "Mise en place d'une ferme de terminaux (TPE) sécurisés connectés aux runners CI via ADB.",
+          "Mise en place d'un pipeline CI robuste capable d'automatiser plus de 1600 tests robot Framework composé en 4 pipes qui se déclenche d'une façon auto grâce à l'API."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Faculté des Sciences",
+        "degree": "Diplôme National d'ingénieur en Génie des Télécommunications",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lycée Habib Maazoun",
+        "degree": "Baccalauréat mathématique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français (TCF B 2)",
+      "Anglais (Toeic B 2)",
+      "Arabe (Langue maternelle)"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:40:16.288082+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

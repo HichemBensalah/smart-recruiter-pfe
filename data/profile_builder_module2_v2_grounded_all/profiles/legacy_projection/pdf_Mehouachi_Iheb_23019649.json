@@ -1,0 +1,77 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mehouachi_Iheb_23019649.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mehouachi_Iheb_23019649.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mehouachi_Iheb_23019649.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Iheb Mehouachi",
+      "email": "iheb.mehouac@gmail.com",
+      "phone": null,
+      "location": "Tunis"
+    },
+    "expertise": {
+      "summary": "Ingénieur junior en Backend/Data Engineering avec une solide expérience en analyse de données industrielles et optimisation des processus.",
+      "hard_skills": [
+        "ETL, Data Modeling, Data Cleaning",
+        "Mongo, Cassandra SQL, NoSQL",
+        "Power BI, Excel/access, KPI industriels(TRS/TRG/FPY)",
+        "Python (Pandas, NumPy), Power BI, Excel/access"
+      ],
+      "soft_skills": [
+        "conception de dashboards KPI pour le suivi de la performance",
+        "analyse des écarts (budget vs réalisé) pour l'optimisation des coûts",
+        "automatisation des reportings et amélioration des processus décisionnels"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "SOTUBI",
+        "start_date": "Juin 2022 -Nov 2023",
+        "end_date": null,
+        "city": "Ben Arous, Tunisie",
+        "responsibilities": [
+          "Extraction, transformation et analyse de données industrielles depuis SAP (coûts, production, marges)",
+          "Conception de dashboards KPI pour le suivi de la performance (Power BI)",
+          "Analyse des écarts (budget vs réalisé) pour l'optimisation des coûts",
+          "Automatisation des reportings et amélioration des processus décisionnels"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Oct 2017 -Juin 2020",
+        "end_date": null,
+        "city": "Ariana, Tunisie",
+        "responsibilities": [
+          "Conception et développement d'une application web e-commerce dédiée à une niche de produits électroniques.",
+          "Modélisation et exploitation de la DB pour le suivi des ventes et du stock."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle préparatoire en MP",
+        "school": "ISSATK",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:21:26.241267+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9086,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

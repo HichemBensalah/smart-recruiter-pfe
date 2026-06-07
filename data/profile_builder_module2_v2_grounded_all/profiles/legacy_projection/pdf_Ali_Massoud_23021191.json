@@ -1,0 +1,120 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ali_Massoud_23021191.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ali_Massoud_23021191.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ali_Massoud_23021191.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Ali Massoud",
+      "email": "297@gmail.com",
+      "phone": "+216 95 940 644",
+      "location": "Mahdia, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Sonar Qube",
+        "OWASP Dependency Check",
+        "Trivy",
+        "Black Duck",
+        "Terraform",
+        "Ansible",
+        "Bash",
+        "AWS",
+        "Open Stack",
+        "Kubernetes",
+        "Docker",
+        "Git Lab",
+        "Jenkins",
+        "Argo CD",
+        "Prometheus",
+        "Grafana",
+        "Alertmanager",
+        "ELK Stack",
+        "TCP/IP",
+        "DNS",
+        "DHCP",
+        "VPN (Zero Tier)",
+        "VLAN",
+        "RADIUS",
+        "Linux (Ubuntu, Red Hat)",
+        "Windows AD",
+        "Python",
+        "ReactJS",
+        "Angular",
+        "Flask",
+        "Spring Boot",
+        "MySQL",
+        "MongoDB"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Ingenieur Cloud",
+        "company": "Group RIF",
+        "start_date": "Juin 2025",
+        "end_date": "Aout 2025",
+        "city": null,
+        "responsibilities": [
+          "Provisionne un cluster Open Stack 3 noeuds (Controller, Compute, Storage) avec Terraform, ramenant le temps de deploiement de plusieurs jours a moins de 2 heures.",
+          "Developpe un script Bash execute a la creation des VM pour configurer le reseau, distribuer les cles SSH et installer l services socles (Maria DB, Rabbit MQ, Memcached), eliminant toute preparation manuelle des noeuds.",
+          "Automatise l'installation et la configuration des services Open Stack via des playbooks Ansible integres dans des pipelines Jenkins, pour des deploiements entierement pilotes par CI/CD.",
+          "Securise la connectivite vers le serveur hote avec le reseau overlay Zero Tier, remplacant des solutions VPN fragiles pa un tunnel chiffre et resilient.",
+          "Concu et deploye une plateforme CI/CD Git Lab de niveau production pour une application web multi-services, hebergee sur un environnement KVM avec un cluster Kubernetes auto-gere (1 master, 2 workers).",
+          "Mis en place une chaine Git Ops complete: Git Lab CI/CD pour l'orchestration, Sonar Qube pour les controles qualite, Triv pour le scan de securite des conteneurs, et Argo CD pour le deploiement Kubernetes - zero etape manuelle en production.",
+          "Implemente un Horizontal Pod Autoscaler (HPA) pour les microservices Spring Boot et un Vertical Pod Autoscaler (VPA) pour les pods base de donnees, permettant d'absorber les pics de trafic sans intervention humaine.",
+          "Configure un cluster de base de donnees haute disponibilite (1 primaire lecture/ecriture + 2 replicas en lecture) avec Persistent Volume Claims et load balancers pour la distribution du trafic."
+        ]
+      },
+      {
+        "job_title": "Ingenieur DevOps - Projet de Fin d'Etudes (PFE)",
+        "company": "Smooth Algo",
+        "start_date": "Mars 2024",
+        "end_date": "Aout 2024",
+        "city": "Sousse, Tunisie",
+        "responsibilities": [
+          "Deploye une stack d'observabilite complete (Prometheus + Grafana + Alertmanager) pour des tableaux de bord temps reel et des alertes proactives."
+        ]
+      },
+      {
+        "job_title": "Ingenieur Logiciel - Stagiaire",
+        "company": "Artibedded",
+        "start_date": "Aout 2023",
+        "end_date": "Septembre 2023",
+        "city": null,
+        "responsibilities": [
+          "Conteneurise une application React/Flask avec Docker et Docker Compose et deploye sur AWS EC 2; integre Git Lab CI/CD, Sonar Qube, OWASP Dependency Check et Trivy pour une chaine de livraison securisee."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplome d'Ingenieur en Telecommunications - Specialisation Reseaux & Cloud",
+        "school": "ENET'Com, Universite de Sfax",
+        "year": "2024"
+      },
+      {
+        "degree": "Diplome de Technicien Superieur en Informatique & Telecommunications",
+        "school": "ISSAT, Universite de Monastir",
+        "year": "2021"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:34:38.361132+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9481,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Ben_Maaouia_23022442.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Ben_Maaouia_23022442.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Ben_Maaouia_23022442.json",
+    "profile_kind": "minimal_profile",
+    "bio": {
+      "full_name": "Mohamed BEN MAAOUIA",
+      "email": "benmaaouiamed@4@gmail.com",
+      "phone": null,
+      "location": "Adresse: Nabeul, Tunisie"
+    },
+    "expertise": {
+      "summary": "Développeur Fullstack Web Junior avec une expérience pratique en React.js, Symfony et MySQL.",
+      "hard_skills": [
+        "React.js",
+        "Symfony",
+        "MySQL",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Java 17",
+        "PHP 8",
+        "Angular 16",
+        "Spring Boot",
+        "Laravel 9",
+        "Node.js",
+        "Express.js",
+        "Flutter",
+        "Android Studio",
+        "MySQL",
+        "Oracle",
+        "MongoDB",
+        "SQLServer",
+        "PostgreSQL"
+      ],
+      "soft_skills": [
+        "SCRUM",
+        "Agile"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Formateur fullstack web",
+        "company": "Rayen Academy Nabeul, Tunisie",
+        "start_date": "Décembre 2024",
+        "end_date": null,
+        "city": "Nabeul, Tunisie",
+        "responsibilities": [
+          "Concevoir des supports pédagogiques interactifs et des exercices pratiques inspirés de cas réels de développement contribuant à une amélioration de 30% du taux de réussite aux évaluations techniques.",
+          "Produire des contenus techniques (présentations, documents de référence, capsules audio) pour garantir un apprentissage structuré, professionnalisant et accessible.",
+          "Contribuer au développement et à l'optimisation du site web de l'organisation améliorant la performance et l'expérience utilisateur.",
+          "Créer une interface utilisateur ergonomique et intuitive avec Flutter améliorant l'accessibilité et l'expérience des usagers avec un bon design.",
+          "Développer le backend pour la gestion et le suivi des réclamations garantissant une structuration efficace des données et un suivi optimisé avec des tests de debugging.",
+          "Intégrer l'API Google Maps afin de géolocaliser les clients lors du dépôt de réclamations réduisant les erreurs de localisation de 30%."
+        ]
+      },
+      {
+        "job_title": "Stagiaire en fullstack web",
+        "company": "Gaea 21 Suisse, Télétravail",
+        "start_date": "Juin 2024",
+        "end_date": "Septembre 2024",
+        "city": null,
+        "responsibilities": [
+          "Automatiser la saisie des offres d'emploi permettant de réduire le temps de traitement manuel de 40%.",
+          "Tester la fiabilité des nouvelles fonctionnalités avant mise en production."
+        ]
+      },
+      {
+        "job_title": "Stagiaire en fullstack web",
+        "company": "Gaea 21 Suisse, Télétravail",
+        "start_date": "Août 2024",
+        "end_date": "Septembre 2024",
+        "city": null,
+        "responsibilities": [
+          "Mettre en place les relations entre Gaea User et Gaea 21 garantissant une meilleure cohérence des informations et intégrité des données.",
+          "Développer des fonctionnalités de gestion des utilisateurs et des achats améliorant la fluidité des processus internes et la traçabilité des opérations."
+        ]
+      },
+      {
+        "job_title": "Stagiaire en fullstack web",
+        "company": "Dev Wise Nabeul, Tunisie",
+        "start_date": "Août 2024",
+        "end_date": "Septembre 2024",
+        "city": null,
+        "responsibilities": [
+          "Développer une application mobile pour la gestion des réclamations clients facilitant le traitement et la traçabilité des demandes en assurant une bonne structure de projet."
+        ]
+      },
+      {
+        "job_title": "Projet de fin d'études (PFE)",
+        "company": "ONAS Tunis, Tunisie",
+        "start_date": "Avril 2022",
+        "end_date": "Juillet 2022",
+        "city": null,
+        "responsibilities": [
+          "Développer une application mobile pour la gestion des réclamations clients facilitant le traitement et la traçabilité des demandes en assurant une bonne structure de projet."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": null,
+        "school": "IT Business School",
+        "year": null
+      },
+      {
+        "degree": null,
+        "school": "Tunisie",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:37:55.727019+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.4228,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "low_grounded_reliability",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

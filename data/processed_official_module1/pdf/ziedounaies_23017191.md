@@ -1,0 +1,78 @@
+## SOFTWARE ENGINEER
+
+¯ zied-ounaiess
+
+## Ó +216 26 341 687
+
+R ziedounaiess@gmail. com
+ github. com/ziedounaiess
+
+## ABOUT ME
+
+I’m Ounaies Zied, a web developer passionate
+about creating dynamic, user-friendly applica-
+tions. I have strong front-end expertise and solid
+back-end knowledge, enabling me to work effec-
+tively across the full development stack and build
+reliable, well-structured solutions.
+
+## LANGUAGES
+
+HTML, CSS, SCSS, Java Script,
+Type Script
+Front-End: React, Angular, Redux, Axios
+Back-End:
+Node. js, Express. js, Spring Boot,
+
+## PHP
+
+Databases: Mongo DB, Postgre SQL
+
+## PROFESSIONAL EXPERIENCE
+
+Freelance Developer — React-It
+January 2025 – July 2025
+• Developed REST APIs using Spring Boot.
+• Designed and implemented user interfaces with React. js and Type Script.
+• Generated dynamic documents with Jaspersoft using parameters.
+IT Engineer — STE Infographie et Architecture
+https://tuninmob. com Aug 2025 – Dec 2025
+• Fixed and optimized a malfunctioning website by improving the design and enhancing performance.
+• Optimized website loading speed and implemented code improvements for better efficiency.
+• Fixed email sending issues and ensured smooth communication.
+• Implemented image caching on AWS to improve site performance.
+• Handled hosting on OVH and optimized server settings for better uptime and speed.
+• Deployed and managed a Flutter-based hybrid application on Play Store.
+• Increased website performance by optimizing both frontend and backend code.
+Freelance Developer — Upwork
+Jan 2026 – Present
+– End-to-end development of an E-commerce website
+– Maintenance, bug fixing, and optimization
+– Implementation of new features (product and order management, etc.)
+
+## PERSONAL PROJECTS
+
+Angular Project
+Git Hub
+Angular app demonstrating HTTP requests, data binding, form validation, and custom pipes.
+Credit Wise
+Git Hub
+React + Spring Boot app for credit scoring with Keycloak and Postgre SQL.
+Task Ticket
+Git Hub
+React + Spring Boot app with Redux and REST APIs.
+Gym Management
+Git Hub
+Gym management system using PHP, My SQL, Bootstrap.
+
+## INTERNSHIPS
+
+Full Stack Developer — React-It
+Feb 2024 – July 2024
+Installment payment application (React, Redux, Spring Boot, Postgre SQL, Keycloak)
+Full Stack Developer — React-It
+Jun 2023 – Sep 2023
+Task management app (React, Redux, Express, Mongo DB)
+Web Developer — Zeta Box
+Jun 2022 – Sep 2022
+E-learning platform (HTML, CSS, Bootstrap, Symfony)

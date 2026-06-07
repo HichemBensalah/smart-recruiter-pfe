@@ -1,0 +1,65 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\nadine_el_arajna_23024477.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\nadine_el_arajna_23024477.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\nadine_el_arajna_23024477.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Nadine EL ARAJNA",
+      "email": "nadine.elarajna@gmail.com",
+      "phone": "+216 20 563 790",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Ansible",
+        "Terraform",
+        "Ansible Automation Platform (AAP)",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Administration des environnements collaboratifs (Microsoft 365, Share Point, Azure)",
+          "Mise en œuvre d'une solution Database as a Service (DBaa S) basé sur le cloud",
+          "Mise en place d'un cluster PostgreSQL haute disponibilité avec Pacemaker et Corosync sur des machines virtuelles",
+          "Déploiement de Maria DB sur Kubernetes à l'aide de Helm et l'Operator Maria DB"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en ingénierie des systèmes informatiques (computer engineering)",
+        "school": "Institut supérieur d'informatique",
+        "year": "2019"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:45:58.145641+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8761,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

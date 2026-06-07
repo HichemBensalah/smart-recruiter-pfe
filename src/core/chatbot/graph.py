@@ -454,6 +454,12 @@ def _live_items_to_candidates(items: list[dict[str, Any]]) -> list[dict[str, Any
             "cv_source": item.get("cv_source"),
             "cv_confidence": item.get("cv_confidence"),
             "cv_path": item.get("cv_path"),
+            "score_breakdown": item.get("score_breakdown"),
+            "base_score_before_penalty": item.get("base_score_before_penalty"),
+            "must_have_coverage": item.get("must_have_coverage"),
+            "must_have_penalty_multiplier": item.get("must_have_penalty_multiplier"),
+            "must_have_penalty_applied": item.get("must_have_penalty_applied"),
+            "quality_penalty_multiplier": item.get("quality_penalty_multiplier"),
         })
     return candidates
 

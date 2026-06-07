@@ -1,0 +1,2255 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Nada_Hammami_23014639.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nNada Hammami\nMACHINE LEARNING & DEEP LEARNING\nIngénieur IA | Machine Learning & LLM | Data Science & Développement Backend\nnada_hammami  @outlook.fr\n+21620398398\nBen arous\nlinkedin.com/in/nada-hammami-112b4820a\ngithub.com/nada-hammami\nMachine Learning & AI: Machine Learning, Deep Learning, NLP Séries temporelles, détection d'anomalies XGBoost, CNN, LSTM, RNN, BERT | |\nPROFESSIONAL EXPERIENCE\nEXPÉRIENCE\nData Scientist, Osez plus de clients\n01/2026 - Present Hammamet\nConception et développement d'un chatbot RAG\nMise en place d'un système d'indexation avancé : génération d'embeddings avec SentenceTransformers , stockage dans une base vectorielle ( FAISS ) et optimisation via des techniques de segmentation documentaire\nAutomatisation des workflows avec n8n : ingestion et structuration des données, orchestration des appels API et optimisation des prompts\nIntégration du chatbot au sein de l'application client via des API REST (Flask) et développement d'une interface utilisateur interactive\nDéploiement de la solution sur un serveur Linux (Hetzner) avec configuration de Nginx pour assurer performance et scalabilité\nTechnologies : Python, Flask, LangChain, n8n, FAISS, SentenceTransformers, Vector DB, API REST, Nginx, Linux\nStagiaire PFE, Talan Tunisie\n02/2024 - 08/2024 Charguia\nSmart Farm 4.0 - Système d'aide à la décision basé sur les données\nMise en place de pipelines ML de bout en bout ( ETL, prétraitement, entraînement, déploiement).\nDéveloppement de modèles prédictifs pour la planification de l'irrigation à partir de données environnementales et de sol.\nDéveloppement de modèles CNN pour la détection de maladies des plantes et d'anomalies.\nAnalyse exploratoire des données ( EDA ) et modélisation de séries temporelles .\nStagiaire Summer Camp '23, Talan Tunisie\n06/2023 - 08/2023 Charguia\nApplication mobile pour une consommation durable avec Flutter\nBase de données MongoDB optimisée pour la gestion des stocks.\nSystème OCR ( Tesseract ) pour extraire automatiquement les noms de produits.\nPrédictions et recommandations avec IA en temps réel.\nTECHNICAL SKILLS\nDéploiement des modèles via API Flask , intégrées à une application web et au cloud.\nDéveloppement d'une application mobile (Flutter) et d'une plateforme web ( NestJS, ReactJS ).\nCOMPÉTENCES\nFrameworks et Développement web: Flask, Django, Spring Boot, .NET, ReactJS, Angular\nHadoop, Hive, Pig, PySpark ETL / ELT Pipelines |\nBig Data & Pipelines:\nBases de données:\nSQL, PL/SQL, MongoDB\nCloud & DevOps:\nDocker, Microsoft Azure\nVisualisation & BI:\nPower BI\nimplémentation de XGBoost , arbres de décision , LSTM et RNN pour la modélisation prédictive.\nFORMATION ACADÉMIQUE\nESPRIT - Ecole Supérieure Privée d'Ingénierie et Technologies,\nCycle Ingénieur en Informatique- Data Science\nrang 668/  1700 en concours national d'entrée aux écoles d'ingénieurs de Tunisie\nEDUCATION\nIPEIT -Institut Préparatoire aux Etudes d'Ingénieurs de Tunis, Cycle Préparatoire Maths-Physique\n09/2021 - 09/2024\nLANGUAGES\nLanguages de programmation: Python, R, Java, C#\nLangues\n|\nFrançais: C1\nAnglais: B2\nACADEMIC PROJECTS\nPROJETS\nDétection de phishing, Algorithmes ML & DL\nCOMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\nModèles NLP : utilisation de BERT pour détecter le phishing et améliorer l'analyse de sécurité.\nAssistant IA pour l'analyse financière, Développement d'un assistant IA utilisant un LLM (Llama)\nMise en place d'une solution full-stack avec Python ( Flask ) et PostgreSQL pour le traitement et la visualisation des données.\nFourniture d'analyses exploitables pour la prise de décision financière grâce à l'IA.",
+  "markdown": "## HEADER\n\nNada Hammami\n\n## MACHINE LEARNING & DEEP LEARNING\n\nIngénieur IA | Machine Learning & LLM | Data Science & Développement Backend\nnada_hammami @outlook. fr\nBen arous\nlinkedin. com/in/nada-hammami-112 b 4820 a\ngithub. com/nada-hammami\nMachine Learning & AI: Machine Learning, Deep Learning, NLP Séries temporelles, détection d'anomalies XGBoost, CNN, LSTM, RNN, BERT | |\n\n## PROFESSIONAL EXPERIENCE\n\nEXPÉRIENCE\n### Data Scientist, Osez plus de clients\n**Date:** 01/2026 - Present Hammamet\n- Conception et développement d'un chatbot RAG\nMise en place d'un système d'indexation avancé : génération d'embeddings avec Sentence Transformers , stockage dans une base vectorielle ( FAISS ) et optimisation via des techniques de segmentation documentaire\nAutomatisation des workflows avec n 8 n : ingestion et structuration des données, orchestration des appels API et optimisation des prompts\n- Intégration du chatbot au sein de l'application client via des API REST (Flask) et développement d'une interface utilisateur interactive\n- Déploiement de la solution sur un serveur Linux (Hetzner) avec configuration de Nginx pour assurer performance et scalabilité\nTechnologies : Python, Flask, Lang Chain, n 8 n, FAISS, Sentence Transformers, Vector DB, API REST, Nginx, Linux\n### Stagiaire PFE, Talan Tunisie\n**Date:** 02/2024 - 08/2024 Charguia\n- Smart Farm 4. 0 - Système d'aide à la décision basé sur les données\nMise en place de pipelines ML de bout en bout ( ETL, prétraitement, entraînement, déploiement).\n- Développement de modèles prédictifs pour la planification de l'irrigation à partir de données environnementales et de sol.\n- Développement de modèles CNN pour la détection de maladies des plantes et d'anomalies.\n- Analyse exploratoire des données ( EDA ) et modélisation de séries temporelles .\n### Stagiaire Summer Camp '23, Talan Tunisie\n**Date:** 06/2023 - 08/2023 Charguia\n- Application mobile pour une consommation durable avec Flutter\n- Base de données Mongo DB optimisée pour la gestion des stocks.\n- Système OCR ( Tesseract ) pour extraire automatiquement les noms de produits.\n- Prédictions et recommandations avec IA en temps réel.\n\n## TECHNICAL SKILLS\n\nDéploiement des modèles via API Flask , intégrées à une application web et au cloud.\nDéveloppement d'une application mobile (Flutter) et d'une plateforme web ( Nest JS, React JS ).\nCOMPÉTENCES\nFrameworks et Développement web: Flask, Django, Spring Boot, .NET, React JS, Angular\nHadoop, Hive, Pig, Py Spark ETL/ELT Pipelines |\nBig Data & Pipelines:\nBases de données:\nSQL, PL/SQL, Mongo DB\nCloud & Dev Ops:\nDocker, Microsoft Azure\nVisualisation & BI:\nPower BI\nimplémentation de XGBoost , arbres de décision , LSTM et RNN pour la modélisation prédictive.\n\n## FORMATION ACADÉMIQUE\n\nESPRIT - Ecole Supérieure Privée d'Ingénierie et Technologies,\nCycle Ingénieur en Informatique- Data Science\nrang 668/1700 en concours national d'entrée aux écoles d'ingénieurs de Tunisie\n\n## EDUCATION\n\nIPEIT -Institut Préparatoire aux Etudes d'Ingénieurs de Tunis, Cycle Préparatoire Maths-Physique\n**Date:** 09/2021 - 09/2024\n\n## LANGUAGES\n\nLanguages de programmation: Python, R, Java, C#\nLangues\nFrançais: C 1\nAnglais: B 2\n\n## ACADEMIC PROJECTS\n\nPROJETS\n### Détection de phishing, Algorithmes ML & DL\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nModèles NLP : utilisation de BERT pour détecter le phishing et améliorer l'analyse de sécurité.\nAssistant IA pour l'analyse financière, Développement d'un assistant IA utilisant un LLM (Llama)\nMise en place d'une solution full-stack avec Python ( Flask ) et Postgre SQL pour le traitement et la visualisation des données.\nFourniture d'analyses exploitables pour la prise de décision financière grâce à l'IA.",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Nada Hammami"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Nada Hammami",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 121.33593244433594,
+            "top": 788.2983226443922,
+            "right": 304.9350231443735,
+            "bottom": 817.7406889176269
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "MACHINE LEARNING & DEEP LEARNING",
+      "section_type": "skills",
+      "content": [
+        "Ingénieur IA | Machine Learning & LLM | Data Science & Développement Backend",
+        "nada_hammami @outlook.fr",
+        "+21620398398",
+        "Ben arous",
+        "linkedin.com/in/nada-hammami-112b4820a",
+        "github.com/nada-hammami",
+        "Machine Learning & AI: Machine Learning, Deep Learning, NLP Séries temporelles, détection d'anomalies XGBoost, CNN, LSTM, RNN, BERT | |"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Ingénieur IA | Machine Learning & LLM | Data Science & Développement Backend",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 121.33593244433594,
+            "top": 744.4779244702422,
+            "right": 555.1367243693021,
+            "bottom": 786.2030102316969
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "nada_hammami  @outlook.fr",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 135.1874943671875,
+            "top": 725.6549877545312,
+            "right": 248.54325306903064,
+            "bottom": 736.9319872846562
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "+21620398398",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 275.16796103466777,
+            "top": 725.6549877545312,
+            "right": 329.4473321230273,
+            "bottom": 736.9319872846562
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Ben arous",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 356.0624851640625,
+            "top": 725.6549877545312,
+            "right": 396.12174276992664,
+            "bottom": 736.9319872846562
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "linkedin.com/in/nada-hammami-112b4820a",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 135.1874943671875,
+            "top": 707.6549885045313,
+            "right": 310.2656798722629,
+            "bottom": 718.9319880346562
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "github.com/nada-hammami",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 336.8906109628906,
+            "top": 707.6549885045313,
+            "right": 449.28338380485826,
+            "bottom": 718.9319880346562
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "Machine Learning & AI: Machine Learning, Deep Learning, NLP Séries temporelles, détection d'anomalies XGBoost, CNN, LSTM, RNN, BERT | |",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 241.15500794203126,
+            "right": 560.3220355282475,
+            "bottom": 265.18200694090626
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "EXPÉRIENCE"
+      ],
+      "items": [
+        {
+          "title": "Data Scientist, Osez plus de clients",
+          "date": "01/2026 - Present Hammamet",
+          "location": null,
+          "details": [
+            "Conception et développement d'un chatbot RAG"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Data Scientist, Osez plus de clients",
+              "page_no": 1,
+              "block_indices": [
+                8
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 664.1549903170313,
+                "right": 160.51184766200606,
+                "bottom": 675.4319898471563
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "01/2026 - Present Hammamet",
+              "page_no": 1,
+              "block_indices": [
+                56
+              ],
+              "bbox": {
+                "left": 497.8007642583006,
+                "top": 653.6549907545312,
+                "right": 566.9290391279558,
+                "bottom": 675.4319898471563
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Conception et développement d'un chatbot RAG",
+              "page_no": 1,
+              "block_indices": [
+                10
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 653.6549907545312,
+                "right": 220.10229635407063,
+                "bottom": 664.9319902846563
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Mise en place d'un système d'indexation avancé : génération d'embeddings avec SentenceTransformers , stockage dans une base vectorielle ( FAISS ) et optimisation via des techniques de segmentation documentaire",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Mise en place d'un système d'indexation avancé : génération d'embeddings avec SentenceTransformers , stockage dans une base vectorielle ( FAISS ) et optimisation via des techniques de segmentation documentaire",
+              "page_no": 1,
+              "block_indices": [
+                9
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 622.1549920670312,
+                "right": 456.1282309946563,
+                "bottom": 654.4319907221562
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Automatisation des workflows avec n8n : ingestion et structuration des données, orchestration des appels API et optimisation des prompts",
+          "date": null,
+          "location": null,
+          "details": [
+            "Intégration du chatbot au sein de l'application client via des API REST (Flask) et développement d'une interface utilisateur interactive",
+            "Déploiement de la solution sur un serveur Linux (Hetzner) avec configuration de Nginx pour assurer performance et scalabilité"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Automatisation des workflows avec n8n : ingestion et structuration des données, orchestration des appels API et optimisation des prompts",
+              "page_no": 1,
+              "block_indices": [
+                11
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 601.1549929420313,
+                "right": 460.2883908213163,
+                "bottom": 622.9319920346562
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Intégration du chatbot au sein de l'application client via des API REST (Flask) et développement d'une interface utilisateur interactive",
+              "page_no": 1,
+              "block_indices": [
+                13
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 580.1549938170313,
+                "right": 445.0188564575469,
+                "bottom": 601.9319929096563
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Déploiement de la solution sur un serveur Linux (Hetzner) avec configuration de Nginx pour assurer performance et scalabilité",
+              "page_no": 1,
+              "block_indices": [
+                12
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 559.1549946920312,
+                "right": 442.35870406838654,
+                "bottom": 580.9319937846564
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Technologies : Python, Flask, LangChain, n8n, FAISS, SentenceTransformers, Vector DB, API REST, Nginx, Linux",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Technologies : Python, Flask, LangChain, n8n, FAISS, SentenceTransformers, Vector DB, API REST, Nginx, Linux",
+              "page_no": 1,
+              "block_indices": [
+                14
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 538.1549955670313,
+                "right": 433.81573192434377,
+                "bottom": 559.9319946596562
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Stagiaire PFE, Talan Tunisie",
+          "date": "02/2024 - 08/2024 Charguia",
+          "location": null,
+          "details": [
+            "Smart Farm 4.0 - Système d'aide à la décision basé sur les données"
+          ],
+          "evidence_spans": [
+            {
+              "text": "Stagiaire PFE, Talan Tunisie",
+              "page_no": 1,
+              "block_indices": [
+                15
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 522.4049962232813,
+                "right": 138.81071451622,
+                "bottom": 533.6819957534063
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "02/2024 - 08/2024 Charguia",
+              "page_no": 1,
+              "block_indices": [
+                57
+              ],
+              "bbox": {
+                "left": 498.1757642426756,
+                "top": 511.90499666078125,
+                "right": 566.9272707780293,
+                "bottom": 533.6819957534063
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Smart Farm 4.0 - Système d'aide à la décision basé sur les données",
+              "page_no": 1,
+              "block_indices": [
+                17
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 511.90499666078125,
+                "right": 293.5227404198853,
+                "bottom": 523.1819961909063
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Mise en place de pipelines ML de bout en bout ( ETL, prétraitement, entraînement, déploiement).",
+          "date": null,
+          "location": null,
+          "details": [
+            "Développement de modèles prédictifs pour la planification de l'irrigation à partir de données environnementales et de sol.",
+            "Développement de modèles CNN pour la détection de maladies des plantes et d'anomalies.",
+            "Analyse exploratoire des données ( EDA ) et modélisation de séries temporelles ."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Mise en place de pipelines ML de bout en bout ( ETL, prétraitement, entraînement, déploiement).",
+              "page_no": 1,
+              "block_indices": [
+                16
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 501.4049970982813,
+                "right": 430.8781366217439,
+                "bottom": 512.6819966284063
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Développement de modèles prédictifs pour la planification de l'irrigation à partir de données environnementales et de sol.",
+              "page_no": 1,
+              "block_indices": [
+                18
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 480.4049979732813,
+                "right": 410.2141704077422,
+                "bottom": 502.1819970659063
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Développement de modèles CNN pour la détection de maladies des plantes et d'anomalies.",
+              "page_no": 1,
+              "block_indices": [
+                20
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 469.9049984107813,
+                "right": 397.4290979404535,
+                "bottom": 481.1819979409063
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Analyse exploratoire des données ( EDA ) et modélisation de séries temporelles .",
+              "page_no": 1,
+              "block_indices": [
+                19
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 459.40499884828125,
+                "right": 355.4226451907225,
+                "bottom": 470.68199837840626
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "title": "Stagiaire Summer Camp '23, Talan Tunisie",
+          "date": "06/2023 - 08/2023 Charguia",
+          "location": null,
+          "details": [
+            "Application mobile pour une consommation durable avec Flutter",
+            "Base de données MongoDB optimisée pour la gestion des stocks.",
+            "Système OCR ( Tesseract ) pour extraire automatiquement les noms de produits.",
+            "Prédictions et recommandations avec IA en temps réel."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Stagiaire Summer Camp '23, Talan Tunisie",
+              "page_no": 1,
+              "block_indices": [
+                22
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 433.1549999420313,
+                "right": 197.95524705186438,
+                "bottom": 444.43199947215624
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "06/2023 - 08/2023 Charguia",
+              "page_no": 1,
+              "block_indices": [
+                58
+              ],
+              "bbox": {
+                "left": 498.1757642426756,
+                "top": 422.65500037953126,
+                "right": 566.9272707780293,
+                "bottom": 444.43199947215624
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Application mobile pour une consommation durable avec Flutter",
+              "page_no": 1,
+              "block_indices": [
+                24
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 422.65500037953126,
+                "right": 289.7813319007773,
+                "bottom": 433.9319999096562
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Base de données MongoDB optimisée pour la gestion des stocks.",
+              "page_no": 1,
+              "block_indices": [
+                23
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 412.1550008170313,
+                "right": 293.6820662882467,
+                "bottom": 423.43200034715625
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Système OCR ( Tesseract ) pour extraire automatiquement les noms de produits.",
+              "page_no": 1,
+              "block_indices": [
+                25
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 401.65500125453127,
+                "right": 353.7594031100242,
+                "bottom": 412.9320007846562
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            },
+            {
+              "text": "Prédictions et recommandations avec IA en temps réel.",
+              "page_no": 1,
+              "block_indices": [
+                27
+              ],
+              "bbox": {
+                "left": 36.433592231933595,
+                "top": 391.1550016920313,
+                "right": 257.520134019994,
+                "bottom": 402.43200122215626
+              },
+              "section_title": "PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "EXPÉRIENCE",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 45.328123111328125,
+            "top": 681.0708271373297,
+            "right": 108.9901491641186,
+            "bottom": 693.5976940214019
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Data Scientist, Osez plus de clients",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 664.1549903170313,
+            "right": 160.51184766200606,
+            "bottom": 675.4319898471563
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "01/2026 - Present Hammamet",
+          "page_no": 1,
+          "block_indices": [
+            56
+          ],
+          "bbox": {
+            "left": 497.8007642583006,
+            "top": 653.6549907545312,
+            "right": 566.9290391279558,
+            "bottom": 675.4319898471563
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Conception et développement d'un chatbot RAG",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 653.6549907545312,
+            "right": 220.10229635407063,
+            "bottom": 664.9319902846563
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Mise en place d'un système d'indexation avancé : génération d'embeddings avec SentenceTransformers , stockage dans une base vectorielle ( FAISS ) et optimisation via des techniques de segmentation documentaire",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 622.1549920670312,
+            "right": 456.1282309946563,
+            "bottom": 654.4319907221562
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Automatisation des workflows avec n8n : ingestion et structuration des données, orchestration des appels API et optimisation des prompts",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 601.1549929420313,
+            "right": 460.2883908213163,
+            "bottom": 622.9319920346562
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Intégration du chatbot au sein de l'application client via des API REST (Flask) et développement d'une interface utilisateur interactive",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 580.1549938170313,
+            "right": 445.0188564575469,
+            "bottom": 601.9319929096563
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Déploiement de la solution sur un serveur Linux (Hetzner) avec configuration de Nginx pour assurer performance et scalabilité",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 559.1549946920312,
+            "right": 442.35870406838654,
+            "bottom": 580.9319937846564
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Technologies : Python, Flask, LangChain, n8n, FAISS, SentenceTransformers, Vector DB, API REST, Nginx, Linux",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 538.1549955670313,
+            "right": 433.81573192434377,
+            "bottom": 559.9319946596562
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Stagiaire PFE, Talan Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 522.4049962232813,
+            "right": 138.81071451622,
+            "bottom": 533.6819957534063
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "02/2024 - 08/2024 Charguia",
+          "page_no": 1,
+          "block_indices": [
+            57
+          ],
+          "bbox": {
+            "left": 498.1757642426756,
+            "top": 511.90499666078125,
+            "right": 566.9272707780293,
+            "bottom": 533.6819957534063
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Smart Farm 4.0 - Système d'aide à la décision basé sur les données",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 511.90499666078125,
+            "right": 293.5227404198853,
+            "bottom": 523.1819961909063
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Mise en place de pipelines ML de bout en bout ( ETL, prétraitement, entraînement, déploiement).",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 501.4049970982813,
+            "right": 430.8781366217439,
+            "bottom": 512.6819966284063
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Développement de modèles prédictifs pour la planification de l'irrigation à partir de données environnementales et de sol.",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 480.4049979732813,
+            "right": 410.2141704077422,
+            "bottom": 502.1819970659063
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Développement de modèles CNN pour la détection de maladies des plantes et d'anomalies.",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 469.9049984107813,
+            "right": 397.4290979404535,
+            "bottom": 481.1819979409063
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Analyse exploratoire des données ( EDA ) et modélisation de séries temporelles .",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 459.40499884828125,
+            "right": 355.4226451907225,
+            "bottom": 470.68199837840626
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Stagiaire Summer Camp '23, Talan Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 433.1549999420313,
+            "right": 197.95524705186438,
+            "bottom": 444.43199947215624
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "06/2023 - 08/2023 Charguia",
+          "page_no": 1,
+          "block_indices": [
+            58
+          ],
+          "bbox": {
+            "left": 498.1757642426756,
+            "top": 422.65500037953126,
+            "right": 566.9272707780293,
+            "bottom": 444.43199947215624
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Application mobile pour une consommation durable avec Flutter",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 422.65500037953126,
+            "right": 289.7813319007773,
+            "bottom": 433.9319999096562
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Base de données MongoDB optimisée pour la gestion des stocks.",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 412.1550008170313,
+            "right": 293.6820662882467,
+            "bottom": 423.43200034715625
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Système OCR ( Tesseract ) pour extraire automatiquement les noms de produits.",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 401.65500125453127,
+            "right": 353.7594031100242,
+            "bottom": 412.9320007846562
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        },
+        {
+          "text": "Prédictions et recommandations avec IA en temps réel.",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 391.1550016920313,
+            "right": 257.520134019994,
+            "bottom": 402.43200122215626
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Déploiement des modèles via API Flask , intégrées à une application web et au cloud.",
+        "Développement d'une application mobile (Flutter) et d'une plateforme web ( NestJS, ReactJS ).",
+        "COMPÉTENCES",
+        "Frameworks et Développement web: Flask, Django, Spring Boot, .NET, ReactJS, Angular",
+        "Hadoop, Hive, Pig, PySpark ETL / ELT Pipelines |",
+        "Big Data & Pipelines:",
+        "Bases de données:",
+        "SQL, PL/SQL, MongoDB",
+        "Cloud & DevOps:",
+        "Docker, Microsoft Azure",
+        "Visualisation & BI:",
+        "Power BI",
+        "implémentation de XGBoost , arbres de décision , LSTM et RNN pour la modélisation prédictive."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Déploiement des modèles via API Flask , intégrées à une application web et au cloud.",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 448.9049992857813,
+            "right": 374.6406584149717,
+            "bottom": 460.1819988159063
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Développement d'une application mobile (Flutter) et d'une plateforme web ( NestJS, ReactJS ).",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 380.6550021295313,
+            "right": 407.56678901804975,
+            "bottom": 391.93200165965624
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "COMPÉTENCES",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 45.328123111328125,
+            "top": 285.82084360607973,
+            "right": 119.91087786313821,
+            "bottom": 298.34771049015194
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Frameworks et Développement web: Flask, Django, Spring Boot, .NET, ReactJS, Angular",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 268.9050067857813,
+            "right": 382.254105122745,
+            "bottom": 280.1820063159063
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Hadoop, Hive, Pig, PySpark ETL / ELT Pipelines |",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 114.41015148291015,
+            "top": 224.39719614027342,
+            "right": 313.3136636952635,
+            "bottom": 237.4320080971562
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Big Data & Pipelines:",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 224.39719614027342,
+            "right": 114.40352065818641,
+            "bottom": 235.6741956703985
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Bases de données:",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 208.90500928578126,
+            "right": 103.43245961531399,
+            "bottom": 220.18200881590622
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "SQL, PL/SQL, MongoDB",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 103.4414019399414,
+            "top": 208.90500928578126,
+            "right": 200.36369712651228,
+            "bottom": 220.18200881590622
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Cloud & DevOps:",
+          "page_no": 1,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 178.90501053578134,
+            "right": 97.38440601731625,
+            "bottom": 190.1820100659063
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Docker, Microsoft Azure",
+          "page_no": 1,
+          "block_indices": [
+            42
+          ],
+          "bbox": {
+            "left": 97.39452719189453,
+            "top": 178.90501053578134,
+            "right": 196.77385250108912,
+            "bottom": 190.1820100659063
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Visualisation & BI:",
+          "page_no": 1,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 163.90501116078133,
+            "right": 104.59345116693935,
+            "bottom": 175.18201069090628
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Power BI",
+          "page_no": 1,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 104.60155814160156,
+            "top": 163.90501116078133,
+            "right": 142.7354363776899,
+            "bottom": 175.18201069090628
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "implémentation de XGBoost , arbres de décision , LSTM et RNN pour la modélisation prédictive.",
+          "page_no": 1,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 115.90501316078132,
+            "right": 420.1606072183072,
+            "bottom": 127.18201269090628
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "FORMATION ACADÉMIQUE",
+      "section_type": "other",
+      "content": [
+        "ESPRIT - Ecole Supérieure Privée d'Ingénierie et Technologies,",
+        "Cycle Ingénieur en Informatique- Data Science",
+        "rang 668/ 1700 en concours national d'entrée aux écoles d'ingénieurs de Tunisie"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "ESPRIT - Ecole Supérieure Privée d'Ingénierie et Technologies,",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 343.1550036920313,
+            "right": 288.7236640198468,
+            "bottom": 354.43200322215625
+          },
+          "section_title": "FORMATION ACADÉMIQUE"
+        },
+        {
+          "text": "Cycle Ingénieur en Informatique- Data Science",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 332.6550041295313,
+            "right": 200.6382762400715,
+            "bottom": 343.93200365965623
+          },
+          "section_title": "FORMATION ACADÉMIQUE"
+        },
+        {
+          "text": "rang 668/  1700 en concours national d'entrée aux écoles d'ingénieurs de Tunisie",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 306.40500522328125,
+            "right": 350.8687483554682,
+            "bottom": 317.6820047534062
+          },
+          "section_title": "FORMATION ACADÉMIQUE"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [],
+      "items": [
+        {
+          "title": "IPEIT -Institut Préparatoire aux Etudes d'Ingénieurs de Tunis, Cycle Préparatoire Maths-Physique",
+          "date": "09/2021 - 09/2024",
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "IPEIT -Institut Préparatoire aux Etudes d'Ingénieurs de Tunis, Cycle Préparatoire Maths-Physique",
+              "page_no": 1,
+              "block_indices": [
+                31
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 316.90500478578133,
+                "right": 415.1762996509867,
+                "bottom": 328.1820043159063
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "09/2021 - 09/2024",
+              "page_no": 1,
+              "block_indices": [
+                59
+              ],
+              "bbox": {
+                "left": 498.1757642426756,
+                "top": 343.1550036920313,
+                "right": 566.9182352284055,
+                "bottom": 354.43200322215625
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "IPEIT -Institut Préparatoire aux Etudes d'Ingénieurs de Tunis, Cycle Préparatoire Maths-Physique",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 316.90500478578133,
+            "right": 415.1762996509867,
+            "bottom": 328.1820043159063
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "09/2021 - 09/2024",
+          "page_no": 1,
+          "block_indices": [
+            59
+          ],
+          "bbox": {
+            "left": 498.1757642426756,
+            "top": 343.1550036920313,
+            "right": 566.9182352284055,
+            "bottom": 354.43200322215625
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    },
+    {
+      "title": "LANGUAGES",
+      "section_type": "languages",
+      "content": [
+        "Languages de programmation: Python, R, Java, C#",
+        "Langues",
+        "|",
+        "Français: C1",
+        "Anglais: B2"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Languages de programmation: Python, R, Java, C#",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 193.90500991078125,
+            "right": 233.2349326068774,
+            "bottom": 205.1820094409062
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "Langues",
+          "page_no": 1,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 45.328123111328125,
+            "top": 48.07085351232968,
+            "right": 86.0636027048914,
+            "bottom": 60.59772039640188
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "|",
+          "page_no": 1,
+          "block_indices": [
+            53
+          ],
+          "bbox": {
+            "left": 85.08984020458983,
+            "top": 31.155016692031268,
+            "right": 87.34884011046483,
+            "bottom": 42.432016222156335
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "Français: C1",
+          "page_no": 1,
+          "block_indices": [
+            54
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 28.9050167857813,
+            "right": 78.79231696698665,
+            "bottom": 40.18201631590637
+          },
+          "section_title": "LANGUAGES"
+        },
+        {
+          "text": "Anglais: B2",
+          "page_no": 1,
+          "block_indices": [
+            55
+          ],
+          "bbox": {
+            "left": 93.64452734814452,
+            "top": 28.9050167857813,
+            "right": 139.6180666075803,
+            "bottom": 40.18201631590637
+          },
+          "section_title": "LANGUAGES"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [
+        "PROJETS"
+      ],
+      "items": [
+        {
+          "title": "Détection de phishing, Algorithmes ML & DL",
+          "date": null,
+          "location": null,
+          "details": [],
+          "evidence_spans": [
+            {
+              "text": "Détection de phishing, Algorithmes ML & DL",
+              "page_no": 1,
+              "block_indices": [
+                46
+              ],
+              "bbox": {
+                "left": 28.335936319335936,
+                "top": 126.40501272328129,
+                "right": 206.35822247674037,
+                "bottom": 137.68201225340624
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "PROJETS",
+          "page_no": 1,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 45.328123111328125,
+            "top": 143.3208495435797,
+            "right": 88.58263216848184,
+            "bottom": 155.8477164276519
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Détection de phishing, Algorithmes ML & DL",
+          "page_no": 1,
+          "block_indices": [
+            46
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 126.40501272328129,
+            "right": 206.35822247674037,
+            "bottom": 137.68201225340624
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    },
+    {
+      "title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)",
+      "section_type": "skills",
+      "content": [
+        "Modèles NLP : utilisation de BERT pour détecter le phishing et améliorer l'analyse de sécurité.",
+        "Assistant IA pour l'analyse financière, Développement d'un assistant IA utilisant un LLM (Llama)",
+        "Mise en place d'une solution full-stack avec Python ( Flask ) et PostgreSQL pour le traitement et la visualisation des données.",
+        "Fourniture d'analyses exploitables pour la prise de décision financière grâce à l'IA."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Modèles NLP : utilisation de BERT pour détecter le phishing et améliorer l'analyse de sécurité.",
+          "page_no": 1,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 105.40501359828124,
+            "right": 404.1933303336104,
+            "bottom": 116.6820131284062
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        },
+        {
+          "text": "Assistant IA pour l'analyse financière, Développement d'un assistant IA utilisant un LLM (Llama)",
+          "page_no": 1,
+          "block_indices": [
+            49
+          ],
+          "bbox": {
+            "left": 28.335936319335936,
+            "top": 89.65501425453135,
+            "right": 409.58820925882384,
+            "bottom": 100.9320137846563
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        },
+        {
+          "text": "Mise en place d'une solution full-stack avec Python ( Flask ) et PostgreSQL pour le traitement et la visualisation des données.",
+          "page_no": 1,
+          "block_indices": [
+            51
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 79.15501469203127,
+            "right": 530.8941651044091,
+            "bottom": 90.43201422215623
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        },
+        {
+          "text": "Fourniture d'analyses exploitables pour la prise de décision financière grâce à l'IA.",
+          "page_no": 1,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 36.433592231933595,
+            "top": 68.65501512953131,
+            "right": 365.87185213033894,
+            "bottom": 79.93201465965626
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.8803,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 3596,
+      "section_completeness": 0.8333,
+      "ordering_coherence": 0.7,
+      "segmentation_stability": 0.8889,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.2201,
+      "weird_section_ratio": 0.0,
+      "section_count": 9,
+      "expected_section_hits": 5,
+      "markdown_chars": 3705,
+      "markdown_words": 538,
+      "markdown_has_experience": true,
+      "markdown_has_education": true,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 3,
+      "markdown_weird_char_ratio": 0.0208,
+      "markdown_glued_line_count": 4,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=1\", \"pdf_total_text_chars=3444\", \"pdf_total_text_words=480\", \"pdf_avg_text_chars_per_page=3444.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=1.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": []
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Nada Hammami",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 121.33593244433594,
+        "top": 788.2983226443922,
+        "right": 304.9350231443735,
+        "bottom": 817.7406889176269
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Ingénieur IA | Machine Learning & LLM | Data Science & Développement Backend",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 121.33593244433594,
+        "top": 744.4779244702422,
+        "right": 555.1367243693021,
+        "bottom": 786.2030102316969
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "nada_hammami  @outlook.fr",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 135.1874943671875,
+        "top": 725.6549877545312,
+        "right": 248.54325306903064,
+        "bottom": 736.9319872846562
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "+21620398398",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 275.16796103466777,
+        "top": 725.6549877545312,
+        "right": 329.4473321230273,
+        "bottom": 736.9319872846562
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Ben arous",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 356.0624851640625,
+        "top": 725.6549877545312,
+        "right": 396.12174276992664,
+        "bottom": 736.9319872846562
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "linkedin.com/in/nada-hammami-112b4820a",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 135.1874943671875,
+        "top": 707.6549885045313,
+        "right": 310.2656798722629,
+        "bottom": 718.9319880346562
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "github.com/nada-hammami",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 336.8906109628906,
+        "top": 707.6549885045313,
+        "right": 449.28338380485826,
+        "bottom": 718.9319880346562
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "Machine Learning & AI: Machine Learning, Deep Learning, NLP Séries temporelles, détection d'anomalies XGBoost, CNN, LSTM, RNN, BERT | |",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 241.15500794203126,
+        "right": 560.3220355282475,
+        "bottom": 265.18200694090626
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "EXPÉRIENCE",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 45.328123111328125,
+        "top": 681.0708271373297,
+        "right": 108.9901491641186,
+        "bottom": 693.5976940214019
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Data Scientist, Osez plus de clients",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 664.1549903170313,
+        "right": 160.51184766200606,
+        "bottom": 675.4319898471563
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "01/2026 - Present Hammamet",
+      "page_no": 1,
+      "block_indices": [
+        56
+      ],
+      "bbox": {
+        "left": 497.8007642583006,
+        "top": 653.6549907545312,
+        "right": 566.9290391279558,
+        "bottom": 675.4319898471563
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Conception et développement d'un chatbot RAG",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 653.6549907545312,
+        "right": 220.10229635407063,
+        "bottom": 664.9319902846563
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Mise en place d'un système d'indexation avancé : génération d'embeddings avec SentenceTransformers , stockage dans une base vectorielle ( FAISS ) et optimisation via des techniques de segmentation documentaire",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 622.1549920670312,
+        "right": 456.1282309946563,
+        "bottom": 654.4319907221562
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Automatisation des workflows avec n8n : ingestion et structuration des données, orchestration des appels API et optimisation des prompts",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 601.1549929420313,
+        "right": 460.2883908213163,
+        "bottom": 622.9319920346562
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Intégration du chatbot au sein de l'application client via des API REST (Flask) et développement d'une interface utilisateur interactive",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 580.1549938170313,
+        "right": 445.0188564575469,
+        "bottom": 601.9319929096563
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Déploiement de la solution sur un serveur Linux (Hetzner) avec configuration de Nginx pour assurer performance et scalabilité",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 559.1549946920312,
+        "right": 442.35870406838654,
+        "bottom": 580.9319937846564
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Technologies : Python, Flask, LangChain, n8n, FAISS, SentenceTransformers, Vector DB, API REST, Nginx, Linux",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 538.1549955670313,
+        "right": 433.81573192434377,
+        "bottom": 559.9319946596562
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Stagiaire PFE, Talan Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 522.4049962232813,
+        "right": 138.81071451622,
+        "bottom": 533.6819957534063
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "02/2024 - 08/2024 Charguia",
+      "page_no": 1,
+      "block_indices": [
+        57
+      ],
+      "bbox": {
+        "left": 498.1757642426756,
+        "top": 511.90499666078125,
+        "right": 566.9272707780293,
+        "bottom": 533.6819957534063
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Smart Farm 4.0 - Système d'aide à la décision basé sur les données",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 511.90499666078125,
+        "right": 293.5227404198853,
+        "bottom": 523.1819961909063
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Mise en place de pipelines ML de bout en bout ( ETL, prétraitement, entraînement, déploiement).",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 501.4049970982813,
+        "right": 430.8781366217439,
+        "bottom": 512.6819966284063
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Développement de modèles prédictifs pour la planification de l'irrigation à partir de données environnementales et de sol.",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 480.4049979732813,
+        "right": 410.2141704077422,
+        "bottom": 502.1819970659063
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Développement de modèles CNN pour la détection de maladies des plantes et d'anomalies.",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 469.9049984107813,
+        "right": 397.4290979404535,
+        "bottom": 481.1819979409063
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Analyse exploratoire des données ( EDA ) et modélisation de séries temporelles .",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 459.40499884828125,
+        "right": 355.4226451907225,
+        "bottom": 470.68199837840626
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Stagiaire Summer Camp '23, Talan Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 433.1549999420313,
+        "right": 197.95524705186438,
+        "bottom": 444.43199947215624
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "06/2023 - 08/2023 Charguia",
+      "page_no": 1,
+      "block_indices": [
+        58
+      ],
+      "bbox": {
+        "left": 498.1757642426756,
+        "top": 422.65500037953126,
+        "right": 566.9272707780293,
+        "bottom": 444.43199947215624
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Application mobile pour une consommation durable avec Flutter",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 422.65500037953126,
+        "right": 289.7813319007773,
+        "bottom": 433.9319999096562
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Base de données MongoDB optimisée pour la gestion des stocks.",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 412.1550008170313,
+        "right": 293.6820662882467,
+        "bottom": 423.43200034715625
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Système OCR ( Tesseract ) pour extraire automatiquement les noms de produits.",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 401.65500125453127,
+        "right": 353.7594031100242,
+        "bottom": 412.9320007846562
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Prédictions et recommandations avec IA en temps réel.",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 391.1550016920313,
+        "right": 257.520134019994,
+        "bottom": 402.43200122215626
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Déploiement des modèles via API Flask , intégrées à une application web et au cloud.",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 448.9049992857813,
+        "right": 374.6406584149717,
+        "bottom": 460.1819988159063
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Développement d'une application mobile (Flutter) et d'une plateforme web ( NestJS, ReactJS ).",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 380.6550021295313,
+        "right": 407.56678901804975,
+        "bottom": 391.93200165965624
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "COMPÉTENCES",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 45.328123111328125,
+        "top": 285.82084360607973,
+        "right": 119.91087786313821,
+        "bottom": 298.34771049015194
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Frameworks et Développement web: Flask, Django, Spring Boot, .NET, ReactJS, Angular",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 268.9050067857813,
+        "right": 382.254105122745,
+        "bottom": 280.1820063159063
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Hadoop, Hive, Pig, PySpark ETL / ELT Pipelines |",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 114.41015148291015,
+        "top": 224.39719614027342,
+        "right": 313.3136636952635,
+        "bottom": 237.4320080971562
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Big Data & Pipelines:",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 224.39719614027342,
+        "right": 114.40352065818641,
+        "bottom": 235.6741956703985
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Bases de données:",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 208.90500928578126,
+        "right": 103.43245961531399,
+        "bottom": 220.18200881590622
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "SQL, PL/SQL, MongoDB",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 103.4414019399414,
+        "top": 208.90500928578126,
+        "right": 200.36369712651228,
+        "bottom": 220.18200881590622
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Cloud & DevOps:",
+      "page_no": 1,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 178.90501053578134,
+        "right": 97.38440601731625,
+        "bottom": 190.1820100659063
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Docker, Microsoft Azure",
+      "page_no": 1,
+      "block_indices": [
+        42
+      ],
+      "bbox": {
+        "left": 97.39452719189453,
+        "top": 178.90501053578134,
+        "right": 196.77385250108912,
+        "bottom": 190.1820100659063
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Visualisation & BI:",
+      "page_no": 1,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 163.90501116078133,
+        "right": 104.59345116693935,
+        "bottom": 175.18201069090628
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Power BI",
+      "page_no": 1,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 104.60155814160156,
+        "top": 163.90501116078133,
+        "right": 142.7354363776899,
+        "bottom": 175.18201069090628
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "implémentation de XGBoost , arbres de décision , LSTM et RNN pour la modélisation prédictive.",
+      "page_no": 1,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 115.90501316078132,
+        "right": 420.1606072183072,
+        "bottom": 127.18201269090628
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "ESPRIT - Ecole Supérieure Privée d'Ingénierie et Technologies,",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 343.1550036920313,
+        "right": 288.7236640198468,
+        "bottom": 354.43200322215625
+      },
+      "section_title": "FORMATION ACADÉMIQUE"
+    },
+    {
+      "text": "Cycle Ingénieur en Informatique- Data Science",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 332.6550041295313,
+        "right": 200.6382762400715,
+        "bottom": 343.93200365965623
+      },
+      "section_title": "FORMATION ACADÉMIQUE"
+    },
+    {
+      "text": "rang 668/  1700 en concours national d'entrée aux écoles d'ingénieurs de Tunisie",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 306.40500522328125,
+        "right": 350.8687483554682,
+        "bottom": 317.6820047534062
+      },
+      "section_title": "FORMATION ACADÉMIQUE"
+    },
+    {
+      "text": "IPEIT -Institut Préparatoire aux Etudes d'Ingénieurs de Tunis, Cycle Préparatoire Maths-Physique",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 316.90500478578133,
+        "right": 415.1762996509867,
+        "bottom": 328.1820043159063
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "09/2021 - 09/2024",
+      "page_no": 1,
+      "block_indices": [
+        59
+      ],
+      "bbox": {
+        "left": 498.1757642426756,
+        "top": 343.1550036920313,
+        "right": 566.9182352284055,
+        "bottom": 354.43200322215625
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Languages de programmation: Python, R, Java, C#",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 193.90500991078125,
+        "right": 233.2349326068774,
+        "bottom": 205.1820094409062
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Langues",
+      "page_no": 1,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 45.328123111328125,
+        "top": 48.07085351232968,
+        "right": 86.0636027048914,
+        "bottom": 60.59772039640188
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "|",
+      "page_no": 1,
+      "block_indices": [
+        53
+      ],
+      "bbox": {
+        "left": 85.08984020458983,
+        "top": 31.155016692031268,
+        "right": 87.34884011046483,
+        "bottom": 42.432016222156335
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Français: C1",
+      "page_no": 1,
+      "block_indices": [
+        54
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 28.9050167857813,
+        "right": 78.79231696698665,
+        "bottom": 40.18201631590637
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "Anglais: B2",
+      "page_no": 1,
+      "block_indices": [
+        55
+      ],
+      "bbox": {
+        "left": 93.64452734814452,
+        "top": 28.9050167857813,
+        "right": 139.6180666075803,
+        "bottom": 40.18201631590637
+      },
+      "section_title": "LANGUAGES"
+    },
+    {
+      "text": "PROJETS",
+      "page_no": 1,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 45.328123111328125,
+        "top": 143.3208495435797,
+        "right": 88.58263216848184,
+        "bottom": 155.8477164276519
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Détection de phishing, Algorithmes ML & DL",
+      "page_no": 1,
+      "block_indices": [
+        46
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 126.40501272328129,
+        "right": 206.35822247674037,
+        "bottom": 137.68201225340624
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Modèles NLP : utilisation de BERT pour détecter le phishing et améliorer l'analyse de sécurité.",
+      "page_no": 1,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 105.40501359828124,
+        "right": 404.1933303336104,
+        "bottom": 116.6820131284062
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": "Assistant IA pour l'analyse financière, Développement d'un assistant IA utilisant un LLM (Llama)",
+      "page_no": 1,
+      "block_indices": [
+        49
+      ],
+      "bbox": {
+        "left": 28.335936319335936,
+        "top": 89.65501425453135,
+        "right": 409.58820925882384,
+        "bottom": 100.9320137846563
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": "Mise en place d'une solution full-stack avec Python ( Flask ) et PostgreSQL pour le traitement et la visualisation des données.",
+      "page_no": 1,
+      "block_indices": [
+        51
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 79.15501469203127,
+        "right": 530.8941651044091,
+        "bottom": 90.43201422215623
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": "Fourniture d'analyses exploitables pour la prise de décision financière grâce à l'IA.",
+      "page_no": 1,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 36.433592231933595,
+        "top": 68.65501512953131,
+        "right": 365.87185213033894,
+        "bottom": 79.93201465965626
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\noura_bel_hadj_amor_23027571.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\noura_bel_hadj_amor_23027571.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\noura_bel_hadj_amor_23027571.json",
+    "profile_kind": "minimal_profile",
+    "bio": {
+      "full_name": "Noura Bel Haj Amor",
+      "email": "belhajamornoura@gmail.com",
+      "phone": "+216) 92 98 99 50",
+      "location": "Higher Institute of Applied Sciences and Technology, Sousse"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Spring Boot",
+        "MySQL",
+        "Angular",
+        "Web Socket",
+        "ASP. NET",
+        "Laravel",
+        "RESTful API",
+        "PostgreSQL",
+        "FastAPI",
+        "ReactJS",
+        "Ruby on Rails",
+        "Node.js"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Time management"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Leanios",
+        "start_date": "Feb 2025 - Jun 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed an intelligent chatbot for querying PostgreSQL databases in natural language using Adaptive RAG .",
+          "Designed a modular architecture with FastAPI backend, ReactJS frontend, and Web Socket communication .",
+          "Implemented Text 2 SQL and Text 2 Text pipelines powered by LLMs ( Cohere, Vanna. ai )."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Leanios",
+        "start_date": "Jul 2023 - Aug 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Implemented dashboards with Ruby on Rails .",
+          "Integrated connected devices for real-time hive condition tracking.",
+          "Added advanced features: hallucination detection, answer evaluation, and voice interaction ."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Leanios",
+        "start_date": "Mar 2022 - Jun 2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Engineered an embedded irrigation system using ESP 32, DHT 11, and Io T sensors.",
+          "Created Node. js APIs and an Android app to retrieve and visualize climate data in real time."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree in Computer Science",
+        "school": "Higher Institute of Applied Sciences and Technology, Sousse",
+        "year": "2022 - 2025"
+      },
+      {
+        "degree": "Bachelor's Degree in Computer Systems Engineering",
+        "school": "Higher Institute of Computer Science, Mahdia",
+        "year": "2019 - 2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:52:53.893847+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.3823,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "low_grounded_reliability",
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

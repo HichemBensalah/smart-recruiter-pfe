@@ -1,0 +1,175 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\jamila_sekrafi_23021914.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\jamila_sekrafi_23021914.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.811,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nJamila Sekrafi\n📍 Médenine | 2022/2023; 2023/2024; 2024/2025;\nBaccalauréat Scientifique - Science informatique\nLycée Médenine - Médenine, Tunisie 2021/2022\nCours en ligne certifiés sur Solo Learn en HTML, CSS, C# ET Angular\n\n## PROFESSIONAL EXPERIENCE\n\nDéveloppeuse web et mobile passionnée, titulaire d'une licence en génie logiciel, avec une solide expérience dans le développement frontend et backend. Je maîtrise Angular, HTML, CSS, JavaScript, C#, Django (Python), Java, Node. js, Express, ainsi que les bases de données PostgreSQL et MySQL.\n- Optimisation de l'expérience utilisateur et amélioration continue des projets.\n- FORM AT ION\n- Licence en Science informatique spécialité Génie logiciel\n- Institut supérieur de l'informatique\n\n## ACADEMIC PROJECTS\n\nJ'ai réalisé plusieurs projets personnels et freelance, dont une application web de gestion de pharmacie, un site mon-site et une application mobile Flutter avec Firebase.\nAutonome, rigoureuse et orientée solution, je sais travailler en équipe et gérer des projets de bout en bout, de la conception à la mise en production.\n- EXP É R I E N C E S P R O F E S S I O N N E L L E S\n- Assistante administrative - [M .Ben Achor Gros]\n- Suivi et organisation des documents administratifs (journal factures).\n- Participation à la coordination de projets internes.\n- Collaboration avec des professionnels pour la gestion et le suivi\n##: Django (Python), Java,\n**Date: ** 📍 Médenine | 2025\n- Développeuse web et mobile - Projets freelance/personnels\n- Responsabilités et réalisations:\nGestion de projets et communication: rédaction technique, documentation, suivi de projet\nmon-site: Développement front-end avec HTML, CSS, JavaScript et back-end avec Node. js, Express et MySQL.\n- Application de gestion de pharmacie: Création d'une application web en collaboration avec CNAM et des médecins utilisant Django et PostgreSQL.\n- Application mobile 'Créer utilisateur': Développement avec Flutter et Firebase pour la gestion des utilisateurs.\nGestion des bases de données, intégration frontend-backend, tests et déploiement sur GitHub.\n\n## CONT AC T\n\nPortfolio: https: //drive. google. com/file/d/1 v-nb E 0 DZkff Tx 1 Hguj Xfg X 6 E 3 G 1 IDOi/view? usp=sharing jamilasekrafi 49@gmail.com/https: //github.com/jamilas ekrafi 49/COMP É TENCES\nDéveloppement Frontend\n: Angular, HTML, CSS,\nJavaScript, C#\nDéveloppement Backend\nNode. js, Express\nBases de données\n: PostgreSQL, MySQL\nApplications mobiles\n: Flutter, Firebase\nOutils et bonnes pratiques\n: Git/GitHub, tests,\nintégration front-back, déploiement\n\n## L ANGUES\n\nArabe\n: Langue maternelle\nFrançais: Niveau avancé\nAllemand: Elémentaire A 2\nAnglais: Niveau intermédiaire\n\n## EDUCATION\n\n## Formation Sauveteur- Secouriste, Brancardier en Entreprise\n- S. N. T conseil ET formation\n- Institution privée agréée par l'Etat en Gabes",
+    "header_info": {
+      "full_name": "Jamila Sekrafi",
+      "email": null,
+      "phone": "2022/2023",
+      "location": "Cours en ligne certifiés sur Solo Learn en HTML, CSS, C# ET Angular",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9622,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[1].degree",
+      "education[1].field",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].city",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Jamila Sekrafi",
+      "email": null,
+      "phone": "2022/2023; 2023/2024; 2024/2025",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Angular",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C#",
+        "Django (Python)",
+        "Java",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "MySQL",
+        "Flutter",
+        "Firebase"
+      ],
+      "soft_skills": [
+        "Autonome",
+        "Rigoureuse",
+        "Orientée solution",
+        "Travailler en équipe",
+        "Gérer des projets de bout en bout"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": "Développeuse web et mobile - Projets freelance/personnels",
+        "start_date": "2025",
+        "end_date": null,
+        "city": "Médenine",
+        "responsibilities": [
+          "Gestion de projets et communication: rédaction technique, documentation, suivi de projet",
+          "Développement front-end avec HTML, CSS, JavaScript et back-end avec Node.js, Express et MySQL.",
+          "Création d'une application web en collaboration avec CNAM et des médecins utilisant Django et PostgreSQL.",
+          "Développement avec Flutter et Firebase pour la gestion des utilisateurs."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": "Licence en génie logiciel",
+        "field": "Génie logiciel",
+        "year": null
+      },
+      {
+        "institution": "Lycée Médenine - Médenine, Tunisie",
+        "degree": "Baccalauréat Scientifique",
+        "field": "Science informatique",
+        "year": "2021/2022"
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français: Niveau avancé",
+      "Allemand: Elémentaire A 2",
+      "Anglais: Niveau intermédiaire"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:43:26.794769+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

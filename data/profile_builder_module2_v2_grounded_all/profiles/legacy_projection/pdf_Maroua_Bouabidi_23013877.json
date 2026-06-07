@@ -1,0 +1,65 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Maroua_Bouabidi_23013877.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Maroua_Bouabidi_23013877.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Maroua_Bouabidi_23013877.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Bouabidi Maroua",
+      "email": "bouabidimaroua@gmail.com",
+      "phone": "99 321 274",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        ".net",
+        "Angular",
+        "React Native",
+        "PHP",
+        "WordPress"
+      ],
+      "soft_skills": [
+        "Language de programmation: c, c++, java, html, .net, programmation oriente objet, php."
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application de gestion financière en .net.",
+          "Création des pages web pour une application de vente en ligne des produits de patisserie en utilisant le logiciel Android Studio",
+          "Développement PHP et WordPress, conception et maintenance de site et la plateforme de société e-services en utilisant les fichiers JSON et les API."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Formation licence fondamentale en sciences de l'informatique",
+        "school": "l'école supérieure de science et technique de Tunis",
+        "year": "2012"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:15:56.207987+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8825,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

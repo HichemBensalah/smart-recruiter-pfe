@@ -1,0 +1,75 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\trabelsi_Ameni_23023281.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\trabelsi_Ameni_23023281.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\trabelsi_Ameni_23023281.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": null,
+      "email": "12@gmail.com",
+      "phone": "24 091 494",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Plateforme e-commerce pour administrateurs et clients avec gestion s´ ecuris´ ee des produits, commandes, profils, avis, wishlist et coupons.",
+      "hard_skills": [
+        "Spring Boot 3",
+        "Spring Security 6",
+        "Angular 16",
+        "Angular Material UI",
+        "MySQL",
+        "Java"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "VOICECOM",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": null,
+        "company": "Strat Change",
+        "start_date": "Janvier - Mars 2026",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et d´ eveloppement d'une plateforme mobile collaborative pour l'envoi et la commande de colis ` a l'international"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Tunisie Telecom",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplˆ ome d'ing´ enieur en g´ enie logiciel",
+        "school": "´ Ecole Nationale d'Ing´ enieurs de Tunis (ENIT)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:53:30.272027+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.983,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

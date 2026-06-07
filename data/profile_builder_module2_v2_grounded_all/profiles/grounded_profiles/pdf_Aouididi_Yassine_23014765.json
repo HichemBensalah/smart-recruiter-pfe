@@ -1,0 +1,211 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Aouididi_Yassine_23014765.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Aouididi_Yassine_23014765.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8716,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nYassine Aouididi\nIT Support & Network Technician\n+216 26575779 · yassine. aouididi 779@gmail.com · linkedin.com/in/yassine-aouididi-4856 b 2180/## TECHNICAL SKILLS\n\nIT Support & Network Technician with 2+ years of experience in troubleshooting, infrastructure support, and network administration. Skilled in diagnosing hardware/software issues, configuring network devices, and deploying Vo IP systems. Experienced with Fortigate, VMware, and Microsoft 365 environments. Strong problem-solving abilities with a focus on delivering reliable IT services and user satisfaction..\nDiagnose and resolve 20+ daily technical issues (hardware, software, network)\nProvide user support via phone, email, and ticketing systems\nEnsure high customer satisfaction through effective communication\nCollaborated with international teams on system deployments\nInstalled, configured, and maintained desktops, laptops, and printers\nManaged LAN/WAN networks and resolved connectivity issues\nPerformed system updates, maintenance, and security checks\nTrained users on software and hardware usage\nHigher Institute of Computer Science and Multimedia · Sfax, Tunisia\nSKILLS\nNetworking:\nTCP/IP, LAN/WAN, Switching, Routing, Network Troubleshooting\nSystems & Tools:\nWindows, Linux, Active Directory, Microsoft 365\nSecurity:\nFortigate Firewall\nVirtualization:\nVMware\nHardware:\nDesktops, Laptops, Printers, Vo IP Systems\n\n## WORK EXPERIENCE\n\nIT Support\nHexabyte · Tunis, Tunisia\nEscalate complex issues to Tier 2 support teams\nMaintain documentation of incidents and resolutions\nIT Support (Freelance)\nHeave Up Technology LTD · London, UK\nInstalled and configured Vo IP systems and network devices\nIntegrated Vo IP solutions into LAN/WAN environments\nOptimized network performance and call quality\nIT Support, Help Desk\nBeta-Systemes · Tunis, Tunisia\nAdministered user accounts (Active Directory, permissions)\nResolved complex technical issues and reduced downtime\n\n## EDUCATION\n\nEngineering Cycle: Computer Engineering\n## Iteam University • Tunis, Tunisia\n**Date: ** Fev 2026\n**Location: ** Tunis, Tunisia\n## Bachelor's Degree in Computer Science\n**Date: ** Oct 2018 - May 2021\n\n## PROFESSIONAL CREDENTIALS\n\nAWS Training & Certification: AWS Networking Basics\n\n## VOLUNTEER WORK\n\nArabic: Native\nFrench: Intermediate\n\n## PROFESSIONAL EXPERIENCE\n\nLeadership Development Experience\nEnglish: Intermediate (professional working proficiency)",
+    "header_info": {
+      "full_name": "Yassine Aouididi",
+      "email": "779@gmail.com",
+      "phone": "+216 26575779",
+      "location": "IT Support & Network Technician with 2+ years of experience in troubleshooting, infrastructure support, and network administration. Skilled in diagnosing hardware/software issues, configuring network devices, and deploying Vo IP systems. Experienced with Fortigate, VMware, and Microsoft 365 environments. Strong problem-solving abilities with a focus on delivering reliable IT services and user satisfaction..",
+      "linkedin": "linkedin.com/in/yassine-aouididi-4856",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8283,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[2].year"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].field",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "education[2].year"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Yassine Aouididi",
+      "email": "779@gmail.com",
+      "phone": "+216 26575779",
+      "location": null,
+      "linkedin": "linkedin.com/in/yassine-aouididi-4856",
+      "github": null
+    },
+    "expertise": {
+      "summary": "IT Support & Network Technician with 2+ years of experience in troubleshooting, infrastructure support, and network administration. Skilled in diagnosing hardware/software issues, configuring network devices, and deploying Vo IP systems. Experienced with Fortigate, VMware, and Microsoft 365 environments. Strong problem-solving abilities with a focus on delivering reliable IT services and user satisfaction.",
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "TCP/IP",
+        "LAN/WAN",
+        "Switching",
+        "Routing",
+        "Network Troubleshooting",
+        "Windows",
+        "Linux",
+        "Active Directory",
+        "Microsoft 365",
+        "Fortigate Firewall",
+        "VMware",
+        "Desktops",
+        "Laptops",
+        "Printers",
+        "Vo IP Systems"
+      ],
+      "soft_skills": [
+        "Strong problem-solving abilities",
+        "Effective communication"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Hexabyte",
+        "job_title": "IT Support",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Escalate complex issues to Tier 2 support teams",
+          "Maintain documentation of incidents and resolutions"
+        ]
+      },
+      {
+        "company": "Heave Up Technology LTD",
+        "job_title": "IT Support (Freelance)",
+        "start_date": null,
+        "end_date": null,
+        "city": "London, UK",
+        "responsibilities": [
+          "Installed and configured Vo IP systems and network devices",
+          "Integrated Vo IP solutions into LAN/WAN environments",
+          "Optimized network performance and call quality"
+        ]
+      },
+      {
+        "company": "Beta-Systemes",
+        "job_title": "IT Support, Help Desk",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Administered user accounts (Active Directory, permissions)",
+          "Resolved complex technical issues and reduced downtime"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Iteam University",
+        "degree": "Engineering Cycle: Computer Engineering",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Higher Institute of Computer Science and Multimedia",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": null,
+        "degree": "Bachelor's Degree in Computer Science",
+        "field": "Computer Science",
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "certifications": [
+      "AWS Training & Certification: AWS Networking Basics"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:37:32.462178+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

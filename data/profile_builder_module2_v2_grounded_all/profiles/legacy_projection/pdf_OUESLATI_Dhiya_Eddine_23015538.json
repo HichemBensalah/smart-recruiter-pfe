@@ -1,0 +1,87 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\OUESLATI_Dhiya_Eddine_23015538.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\OUESLATI_Dhiya_Eddine_23015538.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\OUESLATI_Dhiya_Eddine_23015538.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Dhiya Eddine OUESLATI",
+      "email": "dhiya.eddine.oueslati@gmail.com",
+      "phone": "+216 24 039 605",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Python",
+        "Bash",
+        "SQL",
+        "Spring Boot",
+        "Spring MVC",
+        "REST API",
+        "SOAP",
+        "JPA/Hibernate",
+        "Angular",
+        "Next JS",
+        "HTML/CSS/JS",
+        "MySQL",
+        "PostgreSQL",
+        "Firebase",
+        "MongoDB",
+        "AWS",
+        "Spark",
+        "Kafka",
+        "Airflow",
+        "Power BI"
+      ],
+      "soft_skills": [
+        "Agile (Scrum)",
+        "Accomplissements",
+        "Microsoft Azure AI Fundamentals AI-900",
+        "Microsoft Azure Cloud Fundamentals AZ-900",
+        "Microsoft Azure Data Fundamentals DP-900",
+        "Cisco CCNA Routing and Switching",
+        "Cisco Python Essentials Certificate",
+        "Huawei ICT Competition Cloud Track National Stage"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception d'une interface pour l'enregistrement de gestes et le retour visuel via Custom Tkinter.",
+          "Création d'un tableau de bord web en temps réel avec Flask pour suivre les clients FL, les itérations et les métriques."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "IA/Vision par ordinateur",
+        "school": "SOTETEL",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:20:17.935656+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9012,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

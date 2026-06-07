@@ -1,0 +1,101 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Hana_Zrafi_23031032.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Hana_Zrafi_23031032.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Hana_Zrafi_23031032.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "HANA ZRAFI",
+      "email": "hanazrafi@gmail.com",
+      "phone": null,
+      "location": "AI ENGINEER | LLMS, AGENTS & AUTOMATION"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Data Analysis & Visualization",
+        "Eviews, Advanced Excel, Power BI, Clarity",
+        "KNN, RF, NLP, BERT, LLMs, Transformers",
+        "HTML, C, Python, R, Java, JS",
+        "SQL, SSIS, SSMS, SAS, Elastic Search, ETL",
+        "Microsoft 365"
+      ],
+      "soft_skills": [
+        "Analytical thinking and creative problemsolving",
+        "Time Management and Organization",
+        "Teamwork and Collaboration"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "AI Engineer",
+        "company": "AI Engineer | Dats Connexion",
+        "start_date": "October 2025 - April 2026",
+        "end_date": null,
+        "city": "Monastir, Tunisia",
+        "responsibilities": [
+          "Designed and deployed multiple AI agents tailored to business needs"
+        ]
+      },
+      {
+        "job_title": "AI Developer (Final year internship)",
+        "company": "AI Engineer | Dats Connexion",
+        "start_date": "January 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed an AI-powered chatbot leveraging NLP and data analytics"
+        ]
+      },
+      {
+        "job_title": "Data Engineer",
+        "company": "Data Engineer | INODEV",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conducted data collection from diverse sources using Airbyte (via Docker)"
+        ]
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "Data Scientist | Code Alpha",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Performed data analysis to identify patterns and inform data-driven decisions"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's Degree",
+        "school": "National Engineering Degree in Statistics and Data Analysis",
+        "year": "2025"
+      },
+      {
+        "degree": "Preparatory Cycle",
+        "school": "Bachelor's Degree Preparatory Cycle in Math-Physics",
+        "year": "2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:25:47.247926+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8011,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

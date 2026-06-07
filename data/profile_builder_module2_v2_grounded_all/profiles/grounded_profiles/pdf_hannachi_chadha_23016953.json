@@ -1,0 +1,173 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\hannachi_chadha_23016953.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\hannachi_chadha_23016953.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.795,
+  "normalization": {
+    "cleaned_markdown": "## HANNACHI CHADHA\n\nIngénieure en génie informatique, spécialisée en développement web Fullstack\nGithub\nLinkedin\nchadhahannachi 675@gmail.com\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\nApplication de gestion de profil, authentification Google et validation d'adresses\nDescription: Connexion Google, stockage MongoDB et une gestion de profil utilisateur dont l'adresse doit être proche de Paris.\nTechnologies utilisées: Next Js, Next Auth, Axios, API publique api-adresse. data. gouv. fr (validation d'adresse), MongoDB\nDescription: Application proposant des destinations, itinéraires, activités et hébergements écologiques.\n\n## ACADEMIC PROJECTS\n\nIngénieure en génie informatique, spécialisée en développement web fullstack, je suis à la recherche d'une opportunité professionnelle me permettant de contribuer à des projets innovants en développement web (frontend & backend) dans un environnement stimulant. Rigoureuse, curieuse et passionnée par les technologies modernes, je suis prête à m'investir pleinement dans des missions à fort enjeu technique.\n- Application Web de gestion des projets (Full-Stack JS)\nDescription: Application web basée sur les méthodologies agiles, intégrant la gestion des sprints et Scrum.\n- Application Web de E-learning (Full-Stack JS)\nDescription: Application de gestion des ressources d'un foyer (réservations, gestion des chambres, bloc universitaire).\n**Date: ** 03/2026 - 04/2026\n## Spring Boot, Angular, MySQL\n- Application Web de Gestion des offres professionelles\nTechnologies utilisées: Jenkins, Git, Github, Sonar Qube, Nexus, Docker, Docker Hub, Prometheus et Grafana\n- Application Web à la base d'architecture de microservices\n## Technologies utilisées: Eureka, Keycloak, Git, Docker et Docker Compose\n**Date: ** SA coaching 07/2024 - 09/2024\n\n## EXPÉRIENCE PROFESSIONNELLE\n\nAffigen\nIngénieure Logiciel\nDéveloppement d'un site web full-stack avec Laravel\nIntégration et personnalisation de templates pour la partie front-end\nConsommation d'API externes via des endpoints (intégration de services distants)\nUtilisation de Docker pour la conteneurisation et la gestion des services\nOptimisation du référencement naturel (SEO) du site avec implémentation de bonnes pratiques SEO\nStage Pfe en développement Fullstack\nCréation d'un générateur de composants UI automatisé avec Google Gemini\nImplémentation d'un chatbot intelligent personnalisé par entreprise.\nMise en place de notifications en temps réel avec Websockets\nDéploiement en architecture microservices Dockerisée\nStage Ingénieur en développement Fullstack\nAnalyse des besoins: Documenter les besoins des utilisateurs.\nConception de l'application: Participer à l'architecture (frontend et backend).\nDéveloppement backend: Développer la partie backend avec Nest JS .\nDéveloppement frontend: Créer des composants avec ReactJS\nGestion de la base de données: Concevoir et interagir avec MongoDB.\nStage Ingénieur en développement Frontend\nDéveloppement de l'interface:\n1. Développement de composants réactifs avec ReactJS .\n2. Intégration d'un design responsive et conforme aux règles d'accessibilité.\n3. Gestion de l'état global de l'application avec Recoil.\nStage d'été en développement WEB\nDéveloppement backend: Développer la parties backend avec Spring Boot\n\n## ABSHORE 02/2025 - 08/2025\n\nConception et développement des services backend avec Laravel couplé à MySQL, et Nest JS couplé à MongoDB .\nIntégration d'un frontend React modulaire avec composants dynamiques éditables (texte, images, sections).\nIntégration de l' IA pour la génération et modification de composants HTML/CSS depuis des prompts:\nGestion des licences et Intégration du paiement en ligne via Stripe (webhooks).\nAutomatisation du build et du déploiement via une pipeline CI/CD avec GitHub Actions .\nAnalyse des besoins: Compréhension des exigences utilisateurs et rédaction des spécifications fonctionnelles.\nESPRIT\nAnalyse des besoins: Comprendre les spécifications du projet et les attentes des utilisateurs.\nDéveloppement frontend: Créer des pages web avec HTML, CSS et JavaScript ( Thymleaf ).\n\n## PROJETS RÉALISÉS\n\nWebsite Manager - Application Saa S de création de sites web personnalisés\n\n## TECHNICAL SKILLS\n\nDescription: Une plateforme Saa S multi-entreprises avec un éditeur web dynamique intégrant l'IA pour la génération et la modification automatique de composants UI, un chatbot personnalisé pour chaque entreprise, une architecture microservices scalable, et des workflows DevOps pour l'automatisation CI/CD.\nTechnologies utilisées: React, Nest JS, Laravel, MongoDB, MySQL, Stripe, Docker, GitHub, Github Actions\nProjet DevOps\nCOMPÉTENCES\nCompétences Techniques\nSystèmes d'exploitation: GNU/Linux, Windows\nLangages: JavaScript, php, C, Java, Python, HTML, CSS\nFrameworks Backend: Nest JS, Express JS, Spring Boot, .NET, Django, Laravel\nFrameworks Frontend: React, Next JS, Angular\nModélisation: UML\nGestion de Base de Données: SQL, NoSQL(Mongodb)\nRéseaux et sécurité: TCP/IP\nOutils et technologies DevOps: Jenkins, Sonar Qube, Git, GitHub, Grafana, Prometheus, Nexus, Docker Hub, Docker Compose\nUX Design\ntest et validation de logiciel\ngestion et administration des bases de données\nCompétences Générales\nAnglais: B 2\nArabe: langue maternelle\n\n## LANGUAGES\n\nApplication Web de cours de langues\nDescription: Application d'apprentissage des langues, incluant les opérations CRUD et l'extraction de données pour la génération automatique de questions, réponses et résumés à l'aide de l'IA.\nTechnologies utilisées: Django, SQLite 3, Html, Css, JavaScript\nApplication Web de Tourisme Durable\nTechnologies utilisées: Laravel, Blade, MySQL\nTechnologies utilisées: Nestjs, React, MongoDB\nDescription: Application de coaching professionnel, permettant la gestion de sessions, la création des cours et évaluations et le suivi des progrès des utilisateurs.\nTechnologies utilisées: Nestjs, React, MongoDB\nApplication Web de gestion de foyer\nTechnologies utilisées:\nDescription: Gestion et publication des offres professionnelles.\nTechnologies utilisées: Spring Boot, Thymleaf, MySQL\nDescription: Mise en place d'un pipeline CI/CD pour une application Spring Boot, incluant la gestion des dépendances, le contrôle de version, et l'analyse de la qualité du code, ainsi que la surveillance et la visualisation des métriques.\nCommunication orale, Esprit d'initiative, Esprit d'équipe, Créativité, Motivation, Ponctualité, Curiosité, Organisation, Persévérance\nLANGUES\nFrançais: B 2",
+    "header_info": {
+      "full_name": "HANNACHI CHADHA",
+      "email": "675@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 0.8,
+    "quality_flags": [
+      "missing_education_section",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.959,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.soft_skills[8]",
+      "expertise.summary",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "HANNACHI CHADHA",
+      "email": "675@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieure en génie informatique, spécialisée en développement web Fullstack",
+      "experience_level": "mid_level",
+      "years_experience": 1,
+      "hard_skills": [
+        "Next Js",
+        "Next Auth",
+        "Axios",
+        "API publique api-adresse. data. gouv. fr",
+        "MongoDB",
+        "Spring Boot",
+        "Angular",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Communication orale",
+        "Esprit d'initiative",
+        "Esprit d'équipe",
+        "Créativité",
+        "Motivation",
+        "Ponctualité",
+        "Curiosité",
+        "Organisation",
+        "Persévérance"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Affigen",
+        "job_title": "Ingénieure Logiciel",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un site web full-stack avec Laravel",
+          "Intégration et personnalisation de templates pour la partie front-end",
+          "Consommation d'API externes via des endpoints (intégration de services distants)",
+          "Utilisation de Docker pour la conteneurisation et la gestion des services",
+          "Optimisation du référencement naturel (SEO) du site avec implémentation de bonnes pratiques SEO"
+        ]
+      },
+      {
+        "company": "ESPRIT",
+        "job_title": null,
+        "start_date": "SA coaching 07/2024 - 09/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Analyse des besoins: Compréhension des exigences utilisateurs et rédaction des spécifications fonctionnelles"
+        ]
+      },
+      {
+        "company": "Stage d'été en développement WEB",
+        "job_title": null,
+        "start_date": "02/2025 - 08/2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement backend: Développer la parties backend avec Spring Boot"
+        ]
+      }
+    ],
+    "education": [],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:26:50.550064+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Attouf_Wissem_23029213.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Attouf_Wissem_23029213.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.9042,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAttouf Wissem\nIngénieur informatique | Développeur full stack\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## TECHNICAL SKILLS\n\nIngénieur en informatique et Développeur full-stack, je combine mes compétences techniques en développement avec une expertise en conception logicielle et gestion de projet. J'ai développé des solutions web et mobile complètes, de l'analyse des besoins au déployé, en passant par la modélisation UML et le développement backend/frontend. Passionné par l'innovation technique, je souhaite apporter mes compétences pour contribuer au développement de projets innovants et à l'optimisation des solutions.\nwattouf 35@gmail.com\n\n## EXPÉRIENCE PROFESSIONELLE\n\nAgent de Crédit\nEnda Tamweel | Tunis\nKhaznadar Tunis 2017 Tunisie\nAccueil et orientation des clients dans le cadre des services de microfinance.\nhttps: //www.linkedin.com-/in/wissem-attouf-452509226\nProspection active de nouveaux clients pour élargir le portefeuille crédit.\nhttps: //github.com/Wissem Attouf\nAnalyse des demandes de crédit et évaluation de la solvabilité des clients.\nhttps: //wissemattouf. github. io-/portfolio-wissem/Gestion de caisse et suivi des encaissements.\nContrôle et validation des dossiers des agents de terrain.\nspring boot\nÉDUCATION\n\n## C O MPÉTENCES\n\nJava mysql\nphp laravel\nAPI RESTful\nModèle Scrum\nFlutter & Dart\nCERTIFIC AT IONS\nCertification Laravel - 2021\nCertification Flutter et Dart 2024\n\n## EDUCATION\n\nDiplôme d'Ingénieur en Informatique, Génie Logiciel et Système d'Information Ecole Supérieure Privée d'Ingénierie en Informatique et Administration des Affaires | Tunis\n**Date: ** Avr 2023 Nov. 2024\nLicence Nationale en Génie Logiciel et Système d'Information Institut Supérieur d'Informatique Kef | Kef\n**Date: ** Sept. 2019 Mai 2022\n\n## ACADEMIC PROJECTS\n\nPROJETS\n## Neivos Facture Neivos Group | Tunis\n**Date: ** Juin 2025 Avr 2026\nApplication mobile intelligente permettant de scanner des factures, d'extraire automatiquement les données financières via l'Intelligence Artificielle, de les valider interactivement et de générer des rapports en PDF et en Excel détaillés.\nPlateforme de Gestion de Camping Sprint Code | Kef multi-rôles sécurisée (Administrateur, Guide, Compeur)\n**Date: ** Déc. 2021 Mai 2022\nSystème web complet de gestion de camping. Intègre un module de réservation en temps réel, une gestion et un tableau de bord analytique\n\n## LANG UES\n\nFrançais\nC 1\nAnglais B 2\nArabe C 2\nINT É R Ê T S\nSport\nCamping\nVoyage",
+    "header_info": {
+      "full_name": "Attouf Wissem",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_email",
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9808,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "certifications[0]",
+      "certifications[1]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Attouf Wissem",
+      "email": "wattouf35@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": "https://www.linkedin.com/in/wissem-attouf-452509226",
+      "github": "https://github.com/WissemAttouf"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Java",
+        "mysql",
+        "php",
+        "laravel",
+        "API RESTful",
+        "Flutter",
+        "Dart",
+        "spring boot"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Enda Tamweel",
+        "job_title": "Agent de Crédit",
+        "start_date": "2017",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Accueil et orientation des clients dans le cadre des services de microfinance.",
+          "Prospection active de nouveaux clients pour élargir le portefeuille crédit.",
+          "Analyse des demandes de crédit et évaluation de la solvabilité des clients.",
+          "Gestion de caisse et suivi des encaissements.",
+          "Contrôle et validation des dossiers des agents de terrain."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Ecole Supérieure Privée d'Ingénierie en Informatique et Administration des Affaires",
+        "degree": "Diplôme d'Ingénieur en Informatique, Génie Logiciel et Système d'Information",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Supérieur d'Informatique Kef",
+        "degree": "Licence Nationale en Génie Logiciel et Système d'Information",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "certifications": [
+      "Certification Laravel - 2021",
+      "Certification Flutter et Dart 2024"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:39:42.270740+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

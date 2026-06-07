@@ -1,0 +1,154 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ghraba_eya_23024227.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ghraba_eya_23024227.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8561,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nEYA GHRABA Technicienne Informatique Junior\nTéléphone: +216 92 683 786\nEmail: gheya 63@gmail.com\nLocalisation: Tunisie\n Diagnostic et résolution des incidents matériels et logiciels\n Maintenance informatique de base et gestion des équipements\n\n## PROFESSIONAL SUMMARY\n\nPROFIL\n\n## EDUCATION\n\nJeune diplômée en Technologie de l'Informatique, spécialisée en Développement des Systèmes d'Information.\n- FORMATION\n- Licence en Technologie de l'Informatique - Développement des Systèmes d'Information (2022 - 2026) Iset Tozeur\n## Baccalauréat en Sciences Expérimentales - 2022\n**Date: ** Arab Soft - Projet de Fin d'Études (2025)\n- Formation complémentaire: Marketing digital et création de contenu (GOMYCODE/Meta)\n-  Analyse des besoins fonctionnels et techniques\n-  Conception de l'architecture d'un portail RH Web & Mobile\n-  Développement mobile (Flutter) et participation au développement web\n-  Création d'API REST pour la communication entre les modules\n##  Implémentation de systèmes de gestion utilisateurs, rôles et demandes RH\n**Date: ** BIAT - Stage d'Initiation (2023)\n-  Intégration de notifications et digitalisation des processus\n-  Travail en équipe selon la méthodologie Agile/Scrum\n- Tunisie Télécom - Stage de Perfectionnement (2024)\n-  Gestion des réseaux et des connexions IP\n-  Création d'interfaces pour l'exécution de commandes réseau\n-  Diagnostic et résolution des problèmes de connectivité\n-  Tests techniques et validation des fonctionnalités\n-  Contribution à l'automatisation des opérations techniques\n-  Contribution à l'amélioration de l'efficacité opérationnelle via les solutions IT\n-  Support technique aux utilisateurs et assistance quotidienne\n-  Installation et configuration de postes informatiques\n\n## PROFESSIONAL EXPERIENCE\n\nPassionnée par le développement web et mobile, avec une expérience dans le support technique, les systèmes et réseaux ainsi que la conception d'applications modernes.\nCompétente en développement front-end et mobile avec Angular, React et Flutter, ainsi qu'en conception d'API REST et gestion des systèmes utilisateurs.\nCapable de travailler dans des environnements techniques dynamiques avec un bon esprit d'analyse, une capacité d'adaptation rapide et un sens du travail en équipe.\n**Location: **  Windows, Excel, Google Sheets\n\n## COMPÉTENCES TECHNIQUES\n\nSystèmes & Réseaux:\n Installation et configuration des postes informatiques\n Support technique aux utilisateurs\n Maintenance matérielle et logicielle\nDéveloppement:\n HTML, CSS, JavaScript\n Angular, React\n Flutter\nOutils:\n Git\n\n## COMPÉTENCES PROFESSIONNELLES\n\n Communication et gestion des relations avec les utilisateurs et parties prenantes\n Analyse de données et interprétation des métriques\n Résolution de problèmes et esprit critique\n Organisation et gestion des priorités\n Adaptabilité et travail en équipe dans un environnement dynamique\n Esprit analytique et sens du service\n Apprentissage rapide et adaptabilité\n Curiosité technique et créativité digitale\n\n## LANGUAGES\n\nLANGUES\n Arabe: Langue maternelle\n Français: Excellent\nAnglais: Excellent\n Espagnol: Débutant\n\n## SOFT SKILLS\n\nQUALITÉS\n Autonomie et organisation",
+    "header_info": {
+      "full_name": "EYA GHRABA Technicienne Informatique Junior",
+      "email": "63@gmail.com",
+      "phone": "+216 92 683 786",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_skills_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9712,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "EYA GHRABA Technicienne Informatique Junior",
+      "email": "gheya 63@gmail.com",
+      "phone": "+216 92 683 786",
+      "location": "Tunisie",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Passionnée par le développement web et mobile, avec une expérience dans le support technique, les systèmes et réseaux ainsi que la conception d'applications modernes.",
+      "experience_level": "junior",
+      "years_experience": 5,
+      "hard_skills": [
+        "HTML, CSS, JavaScript",
+        "Angular, React",
+        "Flutter"
+      ],
+      "soft_skills": [
+        "Communication et gestion des relations avec les utilisateurs et parties prenantes",
+        "Analyse de données et interprétation des métriques",
+        "Résolution de problèmes et esprit critique",
+        "Organisation et gestion des priorités",
+        "Adaptabilité et travail en équipe dans un environnement dynamique",
+        "Esprit analytique et sens du service",
+        "Apprentissage rapide et adaptabilité",
+        "Curiosité technique et créativité digitale"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Diagnostic et résolution des incidents matériels et logiciels",
+          "Maintenance informatique de base et gestion des équipements"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Iset Tozeur",
+        "degree": "Licence en Technologie de l'Informatique - Développement des Systèmes d'Information",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Tunisie Télécom",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais",
+      "Espagnol"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:12:03.308855+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

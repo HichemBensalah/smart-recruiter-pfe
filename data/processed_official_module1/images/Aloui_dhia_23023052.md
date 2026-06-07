@@ -1,0 +1,40 @@
+## HEADER
+
+dhia aloui
+Profil
+Informations personnelles
+Formation
+dhia aloui
+formationenword, exel, powerpoint, pythonet creation des sites
+dhia 4720@gmail. com
+Expérience professionnelle
+dejuin 2021 adec. 2022
+9000 beja
+Responsablepaieetchefpersonnel cafe jasmin, beja
+permis de conduire
+defevr. 2023 ajuin 2024
+Responsablesaisie
+commun +,ariena
+Celibataire
+desept. 2024 aao Qt 2025
+expertinformatique
+multimidia. net, ariena
+Competences
+Stages
+Gestion de saisie
+Responsablesaisie
+demai 2024 a juil. 2024
+Expertise informatique
+tv, beja
+Maitrise de Word
+Programmation Python
+Maitrisede Power Point
+Creation de sitesweb
+Travail en équipe
+Maitrise d'Excel
+Resolutiondeproblemes
+Langues
+
+## PROFESSIONAL SUMMARY
+
+Professionnel dynamiqueetmotive, doted'unesolideexperiencedansdes environnementsvaries. Capabledes'adapterrapidement auxchangementset de travailler efficacement enéquipepour atteindreles objectifsfixes.

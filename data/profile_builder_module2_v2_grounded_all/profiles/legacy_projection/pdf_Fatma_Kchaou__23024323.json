@@ -1,0 +1,100 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Fatma_Kchaou__23024323.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Fatma_Kchaou__23024323.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Fatma_Kchaou__23024323.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "FATMA KCHAOU",
+      "email": "29@gmail.com",
+      "phone": "+216 23 720 843",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Passionnée et motivée, cherche un poste à temps plein pour mettre en pratique et développer davantage ses compétences dans un environnement dynamique et innovant.",
+      "hard_skills": [
+        "DevOps",
+        "Pipeline CI/CD",
+        "Nuitka",
+        "Git Lab-CI",
+        "Docker",
+        "Ax Protector",
+        "Nexus",
+        "Artifactory",
+        "Slack",
+        "Python",
+        "Flask",
+        "C++",
+        "Java",
+        "TIA Portal",
+        "Azure",
+        "CI/CD",
+        "Git",
+        "Jenkins",
+        "Kubernetes",
+        "AUTOSAR",
+        "ADAS",
+        "CAN",
+        "Flex Ray",
+        "LIN",
+        "OBD",
+        "Jira",
+        "Scrum",
+        "Agile",
+        "UML",
+        "Lean Six Sigma"
+      ],
+      "soft_skills": [
+        "communication",
+        "leadership",
+        "pitching"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Acquisition d'expérience dans les tâches organisationnelles et les responsabilités professionnelles.",
+          "Approfondir mes connaissances en énergies renouvelables et acquérir de l'expérience pratique dans la conception d'un chargeur de batterie solaire."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mastère Professionnel Co-Construit M 2 Ingénierie Automobile et Aéronautique",
+        "school": "École Nationale d'Électronique et de Télécommunications (ENET'Com)",
+        "year": null
+      },
+      {
+        "degree": "Mastère Professionnel en Informatique Industrielle",
+        "school": "École Nationale d'Électronique et de Télécommunications (ENET'Com)",
+        "year": null
+      },
+      {
+        "degree": "Licence en Électronique, Électrotechnique et Automatique",
+        "school": "Institut Supérieur de Gestion Industrielle (ISGI)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:02:47.891195+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8074,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

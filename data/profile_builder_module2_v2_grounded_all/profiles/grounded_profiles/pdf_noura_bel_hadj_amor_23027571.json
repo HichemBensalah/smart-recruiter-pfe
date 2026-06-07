@@ -1,0 +1,205 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\noura_bel_hadj_amor_23027571.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\noura_bel_hadj_amor_23027571.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8671,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nNoura Bel Haj Amor\nC omputer Engineer\nJemmel, Monastir, Tunisia · belhajamornoura@gmail.com · (+216) 92 98 99 50 · Linked In\n\n## EDUCATION\n\n## Higher Institute of Applied Sciences and Technology, Sousse\n## Engineering Degree in Computer Science\n**Date: ** 2022 - 2025\n- Education Platform - Web Application\nBuilt a student platform for homework, lessons, and exams using Spring Boot, MySQL, Angular .\n- Added real-time chat functionality with Web Socket .\n- Online Bookstore - ASP. NET Application\nDeveloped an online bookstore enabling users to browse, search, and purchase books efficiently.\n- Friends Location - Android Application\n- Developed a location-sharing app with a RESTful Laravel API .\n- Implemented secure authentication and authorization for managing friends' positions on interactive maps.\n- AWARDS\n## 1 st Prize, National End-of-Studies Competition with Added Value (Apr 2023)\n\n## ACADEMIC PROJECTS\n\n## Final Year Project:\n## Intelligent Conversational Agent (Chatbot) - Adaptive RAG,\n- Graduated with High Honors\n## Higher Institute of Computer Science, Mahdia\n## Bachelor's Degree in Computer Systems Engineering\n**Date: ** 2019 - 2022\n## Final Year Project: Smart Irrigation System - Graduated with High Honors\n- Secondary School of Jemmel\n## Baccalaureate in Mathematics\n**Date: ** 2019\n## AI/Backend Developer Intern - Final Year Project\n**Date: ** Feb 2025 - Jun 2025\n- Leanios\n- Developed an intelligent chatbot for querying PostgreSQL databases in natural language using Adaptive RAG .\n- Designed a modular architecture with FastAPI backend, ReactJS frontend, and Web Socket communication .\n- Implemented Text 2 SQL and Text 2 Text pipelines powered by LLMs ( Cohere, Vanna. ai ).\n## Full Stack Developer Intern\n**Date: ** Jul 2023 - Aug 2023\n- Implemented dashboards with Ruby on Rails .\n- Integrated connected devices for real-time hive condition tracking.\n- M. D. S Tunisia\n- Added advanced features: hallucination detection, answer evaluation, and voice interaction .\n- Built a web application for beekeepers including a blogging platform and Io T-based hive monitoring.\n## Full Stack Developer Intern - Final Year Project\n**Date: ** Mar 2022 - Jun 2022\n## Engineered an embedded irrigation system using ESP 32, DHT 11, and Io T sensors.\n- Created Node. js APIs and an Android app to retrieve and visualize climate data in real time.\nBuilt a digital platform for farmers (blogs, announcements, news) using the MERN stack .\n- PROJECTS\n- Implemented key functionalities including user authentication, book management, and order tracking with ASP. NET.\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nLeanios\n\n## TECHNICAL SKILLS\n\nIntegrated pgvector for semantic retrieval and secured the system with JWT authentication .\nApplied SOLID principles to enhance code maintainability, scalability, and testability.\nApplied design patterns: Singleton (logging), Strategy (book sorting), and Factory (book creation) to enhance code maintainability and scalability.\nSoftware Engineering Specialization - Coursera [Link]\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nScrum Foundation Professional Certificate (SFPC)",
+    "header_info": {
+      "full_name": "Noura Bel Haj Amor",
+      "email": "belhajamornoura@gmail.com",
+      "phone": "+216) 92 98 99 50",
+      "location": "Higher Institute of Applied Sciences and Technology, Sousse",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.3823,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[2]",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[3]",
+      "expertise.years_experience"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[2]",
+      "languages[0]",
+      "languages[1]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Noura Bel Haj Amor",
+      "email": "belhajamornoura@gmail.com",
+      "phone": "+216) 92 98 99 50",
+      "location": "Higher Institute of Applied Sciences and Technology, Sousse",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 7,
+      "hard_skills": [
+        "Spring Boot",
+        "MySQL",
+        "Angular",
+        "Web Socket",
+        "ASP. NET",
+        "Laravel",
+        "RESTful API",
+        "PostgreSQL",
+        "FastAPI",
+        "ReactJS",
+        "Ruby on Rails",
+        "Node.js"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Time management"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Leanios",
+        "job_title": null,
+        "start_date": "Feb 2025 - Jun 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed an intelligent chatbot for querying PostgreSQL databases in natural language using Adaptive RAG .",
+          "Designed a modular architecture with FastAPI backend, ReactJS frontend, and Web Socket communication .",
+          "Implemented Text 2 SQL and Text 2 Text pipelines powered by LLMs ( Cohere, Vanna. ai )."
+        ]
+      },
+      {
+        "company": "Leanios",
+        "job_title": null,
+        "start_date": "Jul 2023 - Aug 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Implemented dashboards with Ruby on Rails .",
+          "Integrated connected devices for real-time hive condition tracking.",
+          "Added advanced features: hallucination detection, answer evaluation, and voice interaction ."
+        ]
+      },
+      {
+        "company": "Leanios",
+        "job_title": null,
+        "start_date": "Mar 2022 - Jun 2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Engineered an embedded irrigation system using ESP 32, DHT 11, and Io T sensors.",
+          "Created Node. js APIs and an Android app to retrieve and visualize climate data in real time."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Higher Institute of Applied Sciences and Technology, Sousse",
+        "degree": "Engineering Degree in Computer Science",
+        "field": null,
+        "year": "2022 - 2025"
+      },
+      {
+        "institution": "Higher Institute of Computer Science, Mahdia",
+        "degree": "Bachelor's Degree in Computer Systems Engineering",
+        "field": null,
+        "year": "2019 - 2022"
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "Scrum Foundation Professional Certificate (SFPC)"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:52:53.893847+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

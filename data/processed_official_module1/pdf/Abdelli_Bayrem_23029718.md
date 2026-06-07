@@ -1,0 +1,98 @@
+## TECHNICAL SKILLS
+
+Software Engineer/_475 abdellibayrem 6@gmail. com/phone (+216) 98 126 871/map_marker Manouba, Tunisia/globe Portfolio - Bayrem Abdelli/linkedin linkedin. com/in/bayrem-abdelli/github github. com/Bayrem Abdelli 1
+SKILLS
+Java Script
+Type Script
+SQL
+Bash
+Frontend
+Next. js
+Tailwind CSS
+Redux
+HTML/CSS
+Figma
+Backend and Data
+Fast API
+Express. js
+REST APIs
+Graph QL
+Web Sockets
+Postgre SQL
+Mongo DB
+Redis
+Git
+CI/CD
+
+## PROFESSIONAL EXPERIENCE
+
+EXPERIENCE
+Freelance Full Stack & AI Developer
+Self-Employed/calendar Nov 2025 - Apr 2026/map_marker Remote
+Designed and deployed full stack web applications with REST APIs and dynamic frontends; integrated AI-powered features and third-party connectors across multiple client engagements.
+### Full Stack Data Platform - Internship
+**Date:**/calendar Apr 2025 - Oct 2025
+- INSA Strasbourg
+### /map_marker Strasbourg, France
+**Date:**/calendar Sep 2016 - Jun 2019
+- Built a scalable full stack platform with React frontend and Fast API backend for structured data visualization and LLM-based extraction; containerized with Docker ensuring reliability and reproducibility.
+### Legal Document Web Platform - Internship
+
+## EDUCATION
+
+Computer Science Engineering
+National Engineering School of Sfax/calendar Sep 2022 - Dec 2025 Mathematics and Physics Cycle
+Preparatory Institute of Tunis
+### /calendar Sep 2019 - Jun 2022 Baccalaureate in Mathematics
+- High School Pilote Siliana
+
+## LANGUAGES
+
+Languages Python
+JURIDOC
+Java/calendar Jun 2024 - Sep 2024/map_marker Tunis, Tunisia
+React
+Engineered a full stack document platform with React, Fast API, and Postgre SQL; implemented semantic search, authentication, and AI-assisted summarization with structured monitoring.
+Node. js
+Security Dashboard - Internship
+National Cybersecurity Agency/calendar Jun 2023 - Sep 2023/map_marker Tunis, Tunisia
+Docker
+Developed interactive web dashboards for traffic anomaly visualization, built backend detection APIs, and delivered prioritized risk reports aligned with standardized security methodologies.
+
+## LANGUAGE SKILLS
+
+Arabic - Native
+French - Professional
+English - Professional
+German - Beginner
+
+## ACADEMIC PROJECTS
+
+PROJECTS
+### Saa S Project Management Platform
+### react, node. js, postgresql, docker, redis, socket. io
+**Date:**/calendar February 2026 - April 2026
+Built a collaborative Saa S platform where teams manage tasks and communicate in real time - featuring role-based access, persistent state, live Web Socket sync, and an AI assistant for task automation.
+- Treasurer
+- Phishing Detection Web Application
+### react, fastapi, scikit-learn, xgboost, postgresql
+**Date:**/calendar January 2025 - April 2025
+- Engineered a full stack cybersecurity platform classifying malicious URLs in real time - combining a responsive React interface with a production-grade Fast API backend and ML pipeline handling imbalanced threat data.
+- Financial Analytics Dashboard
+### react, fastapi, postgresql, chart. js, langchain
+**Date:**/calendar September 2024 - November 2024
+- Developed a full stack financial platform ingesting earnings reports visualizing key indicators with interactive charts and generating AI-powered forecasting summaries to support faster investment decisions.
+
+## VOLUNTEER EXPERIENCE
+
+IEEE Computational Intelligence Society/calendar Dec 2023 - Oct 2025 Event Chief
+Microsoft Tech Club ENIS
+
+## CERTIFICATES (IN PROGRESS)
+
+CERTIFICATIONS
+LLM Customization - NVIDIA
+Azure AI - Microsoft
+ML Specialization - Deep Learning. AI
+Microsoft 365 - Microsoft
+AWS Technical Essentials - AWS

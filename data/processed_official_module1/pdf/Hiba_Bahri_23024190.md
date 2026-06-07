@@ -1,0 +1,76 @@
+## HEADER
+
+Hiba BAHRI
+A 25 years old Computer Science Engineer, specializing in Web & Mobile Development and Multimedia Ben Arous, Tunisia | +216 54 253 480 | hibabahri 447@gmail. com | Linkedin: Hiba Bahri | Github: Hiba Bahri English : Advanced . French : Intermediate . Spanish : Beginner . Arabic : Native language
+Frontend Developer- Intern , The Tunisian Post Office (July - August 2021)
+
+## TECHNICAL SKILLS
+
+Skills
+Web Development: Angular 17 - Next JS 15 - React
+Mobile Development: Flutter - Android
+Backend Development: Graph QL - Rest API - Nest JS - Express JS - Spring Framework - Database Management (Postgre SQL/My SQL/Mongo DB/Firebase)
+Testing & QA: Jest Framework - Mockito
+Devops Tools: Docker - Gitlab CI/CD
+Version Control: Git - Github - Gitlab
+Multimedia/UI/UX: Design Fundamentals - Figma - Adobe XD - Illustrator - Responsive UI/UX (Web & Mobile)
+HCIA Cloud Service - Huawei Talent (January 2025)
+AWS Certified Cloud Practitioner - AWS Academy (December 2022)
+Big Data Engineer 2021 Mastery Award - IBM Skills Academy (January 2022)
+
+## ACADEMIC PROJECTS
+
+### Project Methodologies: Agile - Scrum methodology
+### Projects
+Eventy - Implementation of An event planner mobile application - Group Project/github
+Developed an event planning web application enabling users to schedule parties or ceremonies, browse and book service providers (bands, decorators, caterers, entertainers), and manage bookings through an integrated calendar system.
+- Implemented provider-side features for booking management and built-in chat functionality to facilitate real-time communication and coordination between clients and service providers.
+- Flutter -Firebase -Mockito
+### Social Media - Implementation of a Social Media platform - Group Project/github
+Developed a social interaction platform enabling users to follow others, publish posts, comment, and react with likes, fostering engagement and community interaction.
+Implemented a search system for discovering users and content, along with a real-time notification system to keep users informed about new followers, comments, and interactions.
+- React -Nest JS -My SQL
+Deliverini - Implementation of a web application for carpooling and delivery - Group Project/github
+- Angular 17 -Express JS -Mongo DB
+Artois Immo - Implementation of a Real Estate Web Application - Group Project/github
+- Spring Boot -Thymeleaf -My SQL
+
+## PROFESSIONAL EXPERIENCE
+
+### Web Developer - Intern , Playsoft (February - August 2025)
+Developed a web platform for Device Maintenance and Management. It helps individuals, professionals, and companies repair their faulty devices with fast and reliable service to keep their technology running smoothly.
+- Developed a carpooling application enabling users to share rides or send packages to common destinations, promoting affordable, eco-friendly and socially engaging transportation.
+Implemented a secure module allowing clients to register their devices, generate support tickets, and process online payments upon repair completion.
+- Developed an admin dashboard for assigning technicians to tickets and a real-time chat feature enabling users to track repair progress by talking to technicians.
+- Implemented ride and offer management features to send, modify or delete requests, post or update offers and accept or decline bookings along with an integrated complaint system to maintain service quality and user trust.
+Integrated automated email notifications for each stage of the process, built a support messaging system connecting clients and admins, and implemented an AI Assistant for user assistance.
+- Nest JS -Next JS 15 -My SQL -Graph QL -Github -Stripe -Groq -Jest
+### Backend Developer - Intern , Tagamuta Valley (June - July 2024)
+Development of a web application to manage and track diagnostic testing processes in a medical laboratory, ensuring efficient asset control with a flexible, user-friendly interface.
+- Implemented a staff dashboard to register patients and doctors and to log and track every blood sample and its corresponding test.
+Implementation of QR code labeling for sample tubes, automatically generated based on system-assigned IDs.
+- Integrated automated email notifications sent to the doctor and the patient to update them about each stage of the test.
+- Spring Framework -Angular -Postgre SQL -Docker -Gitlab
+### Mobile Developer - Intern , Attijari Bank (February - May 2022)
+Development of a web and mobile e-banking solution enabling users to manage bank accounts and track transactions without the need to visit agencies. Its main focus is portability with intuitive, user-friendly interface.
+Developed a module that enables users to simulate loan scenarios, submit loan requests, and initiate money transfers to other users.
+Activation and deactivation of credit cards remotely, including loan simulations based on account balance.
+- Implementation of complaint system for disaster recovery and surveys.
+- Spring Framework -Flutter -My SQL -Docker
+- OCP Java 8 - TEK-UP University, Summer Training (July 2023)
+- OCA Java 8 - TEK-UP University, Summer Training (June 2023)
+Redesign of the official website to enhance user experience, focusing on readability and user-friendly navigation.
+- Implemented a complaint management system for users to submit to resolve issues efficiently.
+- Angular -Javascript
+
+## EDUCATION
+
+Developed a web application enabling users to browse property listings, view detailed information, and bookmark preferred ones to connect with agents, facilitating property buying, selling, and renting.
+Built an admin interface to manage listings, including reviewing incoming submissions and removing or updating them as needed.
+**Date:** 2022 - 2025
+### TEK-UP University:
+- E ngineering Diploma in Mobile and Web Development and Multimedia
+- ISTIC - The Higher Institute of Information and Communication Technologies:
+### B achelor's Degree in Software Engineering and Information Systems
+**Date:** 2019 - 2022
+- Certification & Courses

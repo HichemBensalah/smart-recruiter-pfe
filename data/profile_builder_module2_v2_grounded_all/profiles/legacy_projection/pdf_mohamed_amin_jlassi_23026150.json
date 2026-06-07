@@ -1,0 +1,95 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\mohamed_amin_jlassi_23026150.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\mohamed_amin_jlassi_23026150.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\mohamed_amin_jlassi_23026150.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "MOHAMEDAMIN JELASSI",
+      "email": "mohamedamin.jlassi@sesame.com.tn",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Integration d'un moteur de recommandation base sur lintelligence artificielle (Python, scikit-learn) permettant de personnaliser les suggestions de produits selon le profil client.",
+      "hard_skills": [
+        "Docker",
+        "Jenkins",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Spring Boot",
+        "Angular",
+        "React",
+        "Nodejs",
+        "Python",
+        "scikit-learn"
+      ],
+      "soft_skills": [
+        "DevOps",
+        "Conception et développement d'un système intégré de gestion des formations",
+        "Amélioration de la visibilité et de la performance du réseau en offrant une surveillance en temps réel du trafic grâce au protocole Net Flow"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "2019-2022",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'un système intégré de gestion des formations",
+          "Amélioration de la visibilité et de la performance du réseau en offrant une surveillance en temps réel du trafic grâce au protocole Net Flow"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'une application web de gestion des ventes agricoles, intégrant les modules de gestion des produits, des clients et des commandes"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Gestion des produits, des commandes et des utilisateurs",
+          "Développement d'une plateforme de hackathon et de challenge d'apprentissage"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licence en Reseaux et Systemes Informatiques",
+        "school": "Universite Sesame",
+        "year": null
+      },
+      {
+        "degree": "Cycle ingenieur en informatique",
+        "school": "Institut Superieur d'Informatique du Kef",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:31:22.972866+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9501,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Sami_Chatteli_23023896.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Sami_Chatteli_23023896.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Sami_Chatteli_23023896.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Sami Chatteli",
+      "email": "samichatteli@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "MERN stack",
+        "Java",
+        "Python",
+        "TypeScript",
+        "Next.js",
+        "React.js",
+        "Nest JS",
+        "Supabase"
+      ],
+      "soft_skills": [
+        "UI/UX design",
+        "branding",
+        "problem-solving",
+        "system debugging",
+        "performance optimization"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Full Stack Developer",
+        "company": "Save The Plate",
+        "start_date": "02/2026",
+        "end_date": null,
+        "city": "Tunisia",
+        "responsibilities": [
+          "Built responsive and scalable user interfaces, integrated APIs, and ensured smooth data flow between front-end and back-end systems.",
+          "Contributing to the development of a platform aimed at reducing food waste by connecting businesses with surplus food to consumers."
+        ]
+      },
+      {
+        "job_title": "Web Developer, Designer, Writer",
+        "company": "Al-Mukhtaroon Magazine",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Directed the magazine's visual identity, serving as the lead designer for all cover art and internal article layouts.",
+          "Content and Visual Design"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:38:42.690001+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9434,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

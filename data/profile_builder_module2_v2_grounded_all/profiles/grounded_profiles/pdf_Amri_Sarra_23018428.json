@@ -1,0 +1,296 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Amri_Sarra_23018428.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Amri_Sarra_23018428.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.777,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nSarra Amri\n\n## TECHNICAL SKILLS\n\nSoftware Developer\n(+216) 29 383 475 amrisarra 57@gmail.com Linked In @Sara Amri\nJunior Software Developer passionate about mobile, frontend, and full-stack development. Highly motivated to explore diverse IT opportunities and deliver user-centric digital solutions. Eager to contribute clean code, learn rapidly, and grow within a collaborative tech team. Open to On-site and remote opportunities.\nSKILLS\nAI Tools\nFrameworks\nDatabases:\nSQLite, MySQL, MongoDB, PostgreSQL, Firestore, Redis\nEnvironments:\nTools: Git, Gitlab, Maven, Jenkins, Jira, Artifactory, Sonar Qube, ESLint.\nAnalysis of business requirements and design software design (data models, architecture diagrams, ..).\nImplement server-side (Backend) logic following Restful patterns and industry standards.\nDesign and build Mobile and PWA (Progressive Web Application) with Angular and ionic.\nImplementing Web API endpoints, CRUD operations, validation, and business logic layers.\nDatabase setup and configuration, authentication & authorization with JWT and OAuth 2\nPoste Tunisienne, Tabarka, Jendouba - Tunisia\nBuild an internal portal for users and accounts management clients requests.\nTunisie Telecom, Tabarka, Jendouba - Tunisia\n\n## LANGUAGES\n\nCore languages: Flutter, Java, Python, Php, JavaScript, TypeScript, C#, VB, Bash/Shell.\n: Generative AI, LLM, AI Agents, Prompt engineering, Groq, Claude, Chat GPT\n: FastAPI, Angular, Django, Spring Boot, .NET Core, Express, Flutter, React, Pandas\nLinux, Docker, Node, Eclipse, Firebase, Supabase, Jupyter, Google Colab.\nLanguages: English (Professional), French (Professional), Arabic (Native), Spanish (Intermediate).\nBee Coders, Tunis - Tunisia\n\n## WORK EXPERIENCE\n\nFullstack Developer Intern. - Feb. 2025 to May. 2025\nDesign and implement native GUI components using Flutter UI components\nFullstack Developer Intern.\n- Feb. 2024 to May. 2024\nBachelor Degree Internship - Jan. 2024 to Feb. 2024\nPerforming operational tasks to handle clients requests.\nBachelor Summer Internship. - Jul. 2023 to Aug. 2023\nTrack products sales GSM SIM cards, Wi-Fi subscriptions, promotion.\n\n## EDUCATION\n\n## Bachelor Degree, Information Technology\n**Date: ** - Jul. 2025\n**Location: ** National Crafts Office, Tunis - Tunisia\n## Higher Institute of Technology Study - Jendouba, Tunisia\n## Baccaleaureate, Experimental Sciences\n**Date: ** - Jun. 2021\n## Faculty of Science, Tabarka High School - Jendouba, Tunisia",
+    "header_info": {
+      "full_name": "Sarra Amri",
+      "email": "57@gmail.com",
+      "phone": "+216) 29 383 475",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9554,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].field",
+      "education[2].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "experiences[4].end_date",
+      "experiences[4].job_title",
+      "experiences[4].start_date",
+      "experiences[5].end_date",
+      "experiences[5].job_title",
+      "experiences[5].responsibilities[0]",
+      "experiences[5].start_date",
+      "experiences[6].end_date",
+      "experiences[6].job_title",
+      "experiences[6].responsibilities[0]",
+      "experiences[6].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[33]",
+      "expertise.hard_skills[34]",
+      "expertise.hard_skills[35]",
+      "expertise.hard_skills[36]",
+      "expertise.hard_skills[37]",
+      "expertise.hard_skills[38]",
+      "expertise.hard_skills[39]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[40]",
+      "expertise.hard_skills[41]",
+      "expertise.hard_skills[42]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Sarra Amri",
+      "email": "57@gmail.com",
+      "phone": "(+216) 29 383 475",
+      "location": null,
+      "linkedin": "@Sara Amri",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Junior Software Developer passionate about mobile, frontend, and full-stack development.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "AI Tools",
+        "Frameworks",
+        "Databases",
+        "SQLite",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "Firestore",
+        "Redis",
+        "Environments",
+        "Git",
+        "Gitlab",
+        "Maven",
+        "Jenkins",
+        "Jira",
+        "Artifactory",
+        "Sonar Qube",
+        "ESLint",
+        "Flutter",
+        "Java",
+        "Python",
+        "Php",
+        "JavaScript",
+        "TypeScript",
+        "C#",
+        "VB",
+        "Bash/Shell",
+        "FastAPI",
+        "Angular",
+        "Django",
+        "Spring Boot",
+        "NET Core",
+        "Express",
+        "React",
+        "Pandas",
+        "Linux",
+        "Docker",
+        "Node",
+        "Eclipse",
+        "Firebase",
+        "Supabase",
+        "Jupyter",
+        "Google Colab"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Bee Coders",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": []
+      },
+      {
+        "company": "Poste Tunisienne",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tabarka, Jendouba",
+        "responsibilities": [
+          "Build an internal portal for users and accounts management clients requests"
+        ]
+      },
+      {
+        "company": "Tunisie Telecom",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "Tabarka, Jendouba",
+        "responsibilities": []
+      },
+      {
+        "company": null,
+        "job_title": "Fullstack Developer Intern",
+        "start_date": "Feb. 2025",
+        "end_date": "May. 2025",
+        "city": null,
+        "responsibilities": [
+          "Design and implement native GUI components using Flutter UI components"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Fullstack Developer Intern",
+        "start_date": "Feb. 2024",
+        "end_date": "May. 2024",
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "company": null,
+        "job_title": "Bachelor Degree Internship",
+        "start_date": "Jan. 2024",
+        "end_date": "Feb. 2024",
+        "city": null,
+        "responsibilities": [
+          "Performing operational tasks to handle clients requests"
+        ]
+      },
+      {
+        "company": null,
+        "job_title": "Bachelor Summer Internship",
+        "start_date": "Jul. 2023",
+        "end_date": "Aug. 2023",
+        "city": null,
+        "responsibilities": [
+          "Track products sales GSM SIM cards, Wi-Fi subscriptions, promotion"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "National Crafts Office",
+        "degree": "Bachelor Degree",
+        "field": "Information Technology",
+        "year": null
+      },
+      {
+        "institution": "Higher Institute of Technology Study",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Faculty of Science, Tabarka High School",
+        "degree": "Baccaleaureate",
+        "field": "Experimental Sciences",
+        "year": null
+      }
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Arabic",
+      "Spanish"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:37:24.920297+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

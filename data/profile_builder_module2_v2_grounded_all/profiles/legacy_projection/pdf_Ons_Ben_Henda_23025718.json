@@ -1,0 +1,124 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ons_Ben_Henda_23025718.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ons_Ben_Henda_23025718.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ons_Ben_Henda_23025718.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Ons Ben Henda",
+      "email": "Ons.benhenda@gmail.com",
+      "phone": "+216) 52 400 413",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Cypress",
+        "Jira",
+        "Python",
+        "Postman",
+        "SPSS",
+        "R Javascript",
+        "Microsoft office"
+      ],
+      "soft_skills": [
+        "Esprit d'équipe",
+        "Autonomie",
+        "Capacité d'innovation"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "QA Automation Engineer",
+        "company": "Value Digital Service",
+        "start_date": "Février 2024",
+        "end_date": "Août 2024",
+        "city": null,
+        "responsibilities": [
+          "Développement de tests automatisés fonctionnels et de tests API de l'application bancaire avec Cypress.",
+          "Conception de scénarios End-to-End simulant les parcours utilisateurs critiques.",
+          "Validation des User Stories avant passage en revue par le Product Owner, en coordination avec les équipes métier et développement (Java).",
+          "Intégration des suites de tests dans la chaîne CI/CD pour une exécution continue.",
+          "Analyse des résultats, rédaction de rapports de tests détaillés et documentation des cas de test.",
+          "Création de tickets Jira lors de la détection d'anomalies, avec description complète, niveau de priorité (bloquant, critique, mineur, etc.) et étapes de reproduction.",
+          "Suivi des bugs jusqu'à leur résolution et participation active aux réunions de suivi qualité.",
+          "Contribution à l'amélioration de la stratégie QA et à la fiabilité globale de la plateforme."
+        ]
+      },
+      {
+        "job_title": "QA Fonctionnelle",
+        "company": "Midisys Consulting",
+        "start_date": "Juillet 2023",
+        "end_date": "Septembre 2023",
+        "city": null,
+        "responsibilities": [
+          "Rédaction des cas de test à partir des spécifications fonctionnelles, exécution des scénarios et suivi des anomalies.",
+          "Utilisation de Jira pour la gestion des campagnes de test, la création des tickets et le suivi des corrections.",
+          "Qualification des bugs détectés avec une priorité selon l'impact (bloquant, majeur, mineur) et rédaction des étapes de reproduction.",
+          "Collaboration étroite avec les développeurs pour garantir la résolution efficace des anomalies.",
+          "Contribution à l'amélioration continue du processus de test et à l'assurance qualité des livrables."
+        ]
+      },
+      {
+        "job_title": "Assistante Portefeuille Import-",
+        "company": "BNA",
+        "start_date": "Février 2023",
+        "end_date": "Mai 2023",
+        "city": null,
+        "responsibilities": [
+          "Ouverture de comptes et opérations de guichet (chèques, virements, change, retrait .. )."
+        ]
+      },
+      {
+        "job_title": "Assistante Administrative",
+        "company": "BNA",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      },
+      {
+        "job_title": "Chargée de Clientèle au Guichet",
+        "company": "BNA",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master en Management Digital et Système d'Information",
+        "school": "Esprit School of Business",
+        "year": "2022 - 2024"
+      },
+      {
+        "degree": "Licence en Économie et Gestion: Techniques de Commerce International",
+        "school": "ISG Tunis",
+        "year": "2017 - 2021"
+      },
+      {
+        "degree": "Baccalauréat en Économie et Gestion",
+        "school": "Lycée",
+        "year": "2016 - 2017"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:57:06.633515+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.6789,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

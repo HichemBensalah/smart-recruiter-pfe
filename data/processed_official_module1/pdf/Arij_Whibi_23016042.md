@@ -1,0 +1,81 @@
+## HEADER
+
+Arij Whibi
+Ingénieure en Intelligence Artificielle
+whibiarij@gmail. com
+Sousse, Tunisie
+linkedin. com/in/arij-whibi
+github. com/Arij 44
+
+## PROFESSIONAL SUMMARY
+
+Profile
+
+## TECHNICAL SKILLS
+
+Ingénieure en intelligence artificielle, récemment diplômée, avec de solides bases en apprentissage automatique, analyse de données et conception de systèmes intelligents. Motivée à mettre en pratique mes connaissances sur des projets concrets et variés en IA, je cherche ma première expérience professionnelle pour développer mes compétences dans ce domaine.
+Compétences techniques
+Langages de programmation:
+Analyse et Visualisation de données:
+Bases de données: Mongo DB, Oracle, My SQL, Py Spark
+Gestion de version et conteneurisation: Git, Git Hub, Docker
+AWS Academy Cloud Architecting (Mai 2024)
+AWS Academy Cloud Foundation
+Microsoft Certified: Azure Fundamentals (Janvier 2024)
+Oracle: AI Certified Foundation Associate (Novembre 2023)
+Compétences personnelles
+
+## PROFESSIONAL EXPERIENCE
+
+Expériences
+### 02/2025 - 06/2025 Mobelite Labs Monastir, Tunisie
+### 06/2024 - 07/2024 Apeiron Technologies Sousse, Tunisie
+
+## EDUCATION
+
+Stage de fin d'études - Application mobile d'analyse intelligente : "Feedback"
+Implémentation de modèles NLP pour l'extraction d'informations clés et la génération automatique de résumés simulant le fonctionnement d'un moteur de recherche.
+### Sousse, Tunisie
+### 2020 - 2022 Kairouan, Tunisie
+- Institut préparatoire aux études d'ingénieur de Kairouan (IPEIK)
+- Préparer votre carrière dans l'IA générative par Microsoft et Linked In (Mai 2024)
+Gestion du temps et des priorités, Esprit analytique, Curiosité, Initiative, Adaptabilité
+**Date:** (Avril 2024)
+- Professionnel
+- Arabe:
+- Natif
+
+## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)
+
+Développement d'une application mobile en React Native connectée à un backend Fast API, intégrant des modèles NLP pour classifier les sentiments et extraire les thèmes abordés.
+Mise en place d'un pipeline complet de récupération multi-sources de données (scraping/API), traitement IA, et visualisation dynamique des résultats.
+Stage professionnel - Outil de recherche sémantique: "Docdigger"
+Développement d'un outil intelligent capable de traiter et d'analyser des fichiers PDF en réponse à des requêtes utilisateurs.
+
+## ACADEMIC PROJECTS
+
+Projets académiques
+Projet de fin d'année - Système de gestion financière : "Fin Cat"
+Projet d'intégration - Détection automatique des émotions faciales
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Développement d'un outil de catégorisation automatique des transactions à l'aide de modèles de machine learning, intégrant des techniques de NLP et de séries temporelles pour l'estimation de budgets et la prédiction des dépenses.
+Entraînement de modèle de deep learning appliqués à l'analyse d'images pour la détection des émotions à partir d'expressions faciales en utilisant des techniques de vision par ordinateur.
+Python, SQL, Java Script, Type Script
+Bibliothèques IA: Tensor Flow, Keras, Pytorch, Scikit-learn, Hugging Face Transformers, spa Cy
+Pandas, Num Py, Seaborn, Matplotlib, Power BI
+Cycle d'ingénieurs en Intelligence Artificielle et Science de données
+École pluridisciplinaire internationale (EPI)
+Cycle préparatoires Physique-Chimie
+
+## CERTIFICATES (IN PROGRESS)
+
+Certifications
+
+## LANGUAGES
+
+Langues
+Anglais:
+Courant
+Français:

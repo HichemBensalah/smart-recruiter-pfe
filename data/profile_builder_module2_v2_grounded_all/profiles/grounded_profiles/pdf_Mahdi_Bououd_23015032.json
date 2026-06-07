@@ -1,0 +1,189 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mahdi_Bououd_23015032.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mahdi_Bououd_23015032.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9911,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMahdi Bououd\nJeune Professionnel en Data Analytics & IA\nmahdibououd 88@gmail.co\nTunis\nTunisie\nCélibataire\nInformatique\n\n## LANGUAGES\n\nLangues\nMaternelle\nCourant\nAnglais\nOpérationnel\nFrançais\n\n## PROFESSIONAL SUMMARY\n\nProfil\nArabe\nProfile Facebook\nProfile Linked In\n\n## EDUCATION\n\nPassionné par la transformation des données en solutions intelligentes et exploitables.\nDiplômes et Formations\nJuil. 2025\nLicence en Business Intelligence ISG Bizerte\nFormations complémentaires\n\n## TECHNICAL SKILLS\n\nCompétences avérées en Python, SQL et systèmes d'intelligence artificielle.\nCompétences\nApprenant Rapide\nResponsabilité\nRésolution de problèmes\nTravail en Equipe\nAutonomie\nCentres d'intérêt\nNatation\nLecture\nMusculation\nDéveloppé des compétences fondamentales en prise de décision basée sur les données et en communication avec les parties prenantes.\nVérification\nPython for Data Science, AI & Development IBM Coursera Verification\n\n## PROFESSIONAL EXPERIENCE\n\nCertifié en Data Science, avec des expériences pratiques dans la création de pipelines de données, de modèles d'IA et de tableaux de bord interactifs.\n**Date: ** à sept. 2024\n- Expériences professionnelles\n- Stage en Data Science\n- Office National de la Propriété Foncière\n## Av. de La Liberté, Tunis\nRéalisé un stage en data science appliquée à l'immobilier, intégrant la collecte et le nettoyage de données avec Python et Excel, le Training d'un modèle de machine learning pour la prédiction des prix, ainsi que la création de tableaux de bord interactifs avec Tableau . L'ensemble du projet a été intégré dans un site web MERN proposant des visualisations dynamiques pour une meilleure expérience utilisateur.\n- Expériences professionnelles\n## Pytorch, Sickit Learn, Pandas, Numpy,\n**Date: ** De fev. 2025 à juin 2025\n- Stage en Développement Intelligence Artificielle Algora-Group\n- Beautifulsoup\n## Lafayette, Tunis\n**Date: ** Né le 01/05/1999 \n## Grafana, Tableau, Power BI\nConception d'un assistant vocal modulaire pour l'automatisation des centres d'appel, basé sur des pipelines d'IA structurés.\n- Développement du voicebot avec\n## Kafka, Postgresql, PL/SQL, Excel\nVosk (ASR), BART (détection d'intention), Pyttsx 3 (TTS), logique personnalisée et PyTorch (inférence GPU).\nAcquis une expérience pratique du nettoyage, de l'analyse et de la visualisation de données.\n## Travaillé sur des données réelles en utilisant R, SQL, Excel et Tableau.\n\n## CERTIFICATES (IN PROGRESS)\n\nGoogle Advanced Data Analytics Professional Certificate Google Career Certificates Coursera\nAppliqué des techniques d'analyse avancée à l'aide de Python et R.\nGoogle Data Analytics Professional Certificate Google Career Certificates Coursera\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nCréation de l'interface utilisateur avec Streamlit et intégration de la messagerie via un producteur Kafka . Développement d'une plateforme de monitoring en temps réel à l'aide de Kafka et de modèles NLP de Hugging Face (analyse de sentiment, émotion, mots-clés, résolution).\nUtilisation de PostgreSQL et PL/SQL pour le stockage et l'enrichissement des données.\nMise en place de tableaux de bord avec Grafana (temps réel) et Tableau (analytique), centralisés dans un portail web via XAMPP avec gestion des utilisateurs.\nDe déc. 2023 à août 2024\nD'oct. 2022 à mai 2023\nDigital Markering - Volontaire Enactus Bizerte\n\n## MACHINE LEARNING & DEEP LEARNING\n\nDéveloppé des modèles de machine learning pour l'analyse prédictive.\nConçu des tableaux de bord et des visualisations pour appuyer la prise de décision stratégique.\nVerification\n\n## ACADEMIC PROJECTS\n\nParticipation à des projets collaboratifs d'équipe visant à relever des défis sociaux et environnementaux, assistance à la gestion des médias sociaux et à la production de photos et de vidéos.\n**Date: ** Août 2024",
+    "header_info": {
+      "full_name": "Mahdi Bououd",
+      "email": "88@gmail.co",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.8634,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "bio.github",
+      "bio.linkedin"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[0].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]",
+      "languages[4]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mahdi Bououd",
+      "email": "88@gmail.co",
+      "phone": null,
+      "location": "Tunis",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "Profil Arabe, Profile Facebook, Profile Linked In",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Grafana",
+        "Power BI",
+        "PyTorch",
+        "Pandas",
+        "Numpy",
+        "Beautifulsoup",
+        "Vosk (ASR)",
+        "BART (détection d'intention)",
+        "Pyttsx 3 (TTS)"
+      ],
+      "soft_skills": [
+        "Apprenant Rapide",
+        "Responsabilité",
+        "Travail en Equipe",
+        "Autonomie",
+        "Lecture",
+        "Musculation"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Office National de la Propriété Foncière",
+        "job_title": "Stage en Data Science",
+        "start_date": "sept. 2024",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Collecte et nettoyage de données avec Python et Excel",
+          "Formation d'un modèle de machine learning pour la prédiction des prix",
+          "Création de tableaux de bord interactifs avec Tableau"
+        ]
+      },
+      {
+        "company": "Algora-Group",
+        "job_title": "Stage en Développement Intelligence Artificielle",
+        "start_date": "fev. 2025",
+        "end_date": "juin 2025",
+        "city": "Lafayette, Tunis",
+        "responsibilities": [
+          "Développement d'un assistant vocal modulaire pour l'automatisation des centres d'appel"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISG Bizerte",
+        "degree": "Licence en Business Intelligence",
+        "field": "Business Intelligence",
+        "year": "2025"
+      }
+    ],
+    "languages": [
+      "Maternelle",
+      "Courant",
+      "Anglais",
+      "Opérationnel",
+      "Français"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:10:25.394009+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

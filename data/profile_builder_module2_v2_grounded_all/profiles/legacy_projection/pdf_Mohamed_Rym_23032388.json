@@ -1,0 +1,119 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Rym_23032388.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Rym_23032388.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Rym_23032388.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Rym Mohamed",
+      "email": "921@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "Conception et développement d'applications web, gestion de projets, développement backend et frontend.",
+      "hard_skills": [
+        "Laravel",
+        "MySQL",
+        "Git",
+        "Github",
+        "React",
+        "Bootstrap",
+        "Tailwindcss",
+        "Postman",
+        "Swagger",
+        "Angular",
+        "MongoDB",
+        "Express.js",
+        "Node.js",
+        "Prestashop"
+      ],
+      "soft_skills": [
+        "Collaboration",
+        "Rédaction des spécifications techniques",
+        "Participation au développement front-end",
+        "Suivi du projet via des réunions d'équipe hebdomadaires",
+        "Gestion de projets",
+        "Développement backend et frontend"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Envast Sousse, Tunisie",
+        "start_date": "septembre 2021",
+        "end_date": "octobre 2024",
+        "city": "Sousse",
+        "responsibilities": [
+          "Développement d'une plateforme web de gestion médicale"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "ARSII Sousse, Tunisie",
+        "start_date": "août 2023",
+        "end_date": "septembre 2023",
+        "city": "Sousse",
+        "responsibilities": [
+          "Réalisation d'une application de médias sociaux"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Sastec Sahloul-Sousse, Tunisie",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Collaboration avec l'équipe design pour la conception des interfaces d'un ERP industriel"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Yperskills Sousse, Tunisie",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement du Site Oiciel d'Arsii"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Développeur Frontend",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Rédaction des spécifications techniques et participation au développement front-end"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'ingénieur en génie logiciel",
+        "school": "Lʼinstitut supérieur des sciences appliquées et de technologie de Sousse (ISSATSO)",
+        "year": null
+      },
+      {
+        "degree": "Licence fondamentale en sciences de l'informatique",
+        "school": "Lʼinstitut supérieur des sciences appliquées et de technologie de Sousse (ISSATSO)",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:41:51.079591+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9663,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": []
+    }
+  }
+}

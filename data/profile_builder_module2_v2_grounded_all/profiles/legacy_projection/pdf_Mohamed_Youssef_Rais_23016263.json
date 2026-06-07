@@ -1,0 +1,129 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Youssef_Rais_23016263.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Youssef_Rais_23016263.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Youssef_Rais_23016263.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Mohamed Youssef Rais",
+      "email": "mohamedyoussef.rais@esprit.tn",
+      "phone": null,
+      "location": "Ariana, Tunis"
+    },
+    "expertise": {
+      "summary": "PROFIL",
+      "hard_skills": [
+        "Ingénieur en Informatique",
+        "Python",
+        "NLP",
+        "Transformers",
+        "PyTorch",
+        "LLMs",
+        "RAG",
+        "Lang Chain",
+        "Finetuning",
+        "Flask",
+        "Angular"
+      ],
+      "soft_skills": [
+        "Gestion de projet",
+        "Git",
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "PHP",
+        "JAVASCRIPT",
+        "HTML 5",
+        "CSS",
+        "SQL/PLSQL",
+        "DevOps",
+        "Linux",
+        "Jenkins",
+        "Docker",
+        "CI/CD"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Stagiaire Data Scientist",
+        "company": "BIAT",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et développement d'un chatbot intelligent pour l'assistance bancaire et financière à la BIAT.",
+          "Développement d'un système de santé intelligent visant à améliorer le travail des professionnels médicaux."
+        ]
+      },
+      {
+        "job_title": "Stagiaire Data Analyst et Data Scientist",
+        "company": "IVSANE",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de santé intelligent visant à améliorer le travail des professionnels médicaux."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "ESPRIT (Projet Académique)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement et déploiement d'une application web full-stack pour la gestion des factures et des fournisseurs, avec mise en place d'une pipeline CI/CD complète.",
+          "Développement d'un tableau de bord dédié à la gestion dynamique des chambres d'un hôtel en temps réel."
+        ]
+      },
+      {
+        "job_title": "Stagiaire Développeur Symfony",
+        "company": "OPTIMA SOFT",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de gestion des factures et des fournisseurs."
+        ]
+      },
+      {
+        "job_title": "Stagiaire Développeur ReactJS/NodeJS",
+        "company": "MEDIANET",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'un système de gestion des factures et des fournisseurs."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "school": "ESPRIT",
+        "year": "2025"
+      },
+      {
+        "degree": "Licence en Gestion des Technologies de l'Information et de la Communication",
+        "school": "ISET'COM",
+        "year": "2022"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:43:13.998003+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.5918,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+## HEADER
+
+Youssef Hamouda
+Ingénieur Informatique | Développeur Full Stack
+Envelope
+LINKEDIN
+Phone-Alt
+Envelope
+LINKEDIN
+Youssef Hamouda
+youssefhamouda 661@gmail. com
+Github
+Map-marker-alt
+Map-marker-alt
+github. com/Hamouda Youssef
+
+## PROFESSIONAL EXPERIENCE
+
+EXPÉRIENCES
+Freelance
+Développement d'une application de Recrutement Intelligente
+Ariana
+Développement Full Stack ( Spring Boot/Angular ) d'une plateforme de recrutement intelligente
+
+## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)
+
+Intégration d'un moteur de recommandation NLP basé sur BERT pour l' analyse des CV
+Développement d'un chatbot assistant IA utilisant Gemma 3 pour filtrer et répondre aux premières questions des candidats
+Idee
+Développeur Oracle APEX
+Ariana
+Ecriture et optimisation de requêtes PL/SQL ( procédures stockées , fonctions , triggers ) pour améliorer la performance et la fiabilité des bases de données
+Personnalisation d' interfaces utilisateurs dans Oracle APEX afin de répondre aux besoins spécifiques des utilisateurs
+Picosoft
+Développeur FUll Stack (Stage de fin d'étude)
+Ariana
+Conception et développement d'une application web de gestion des achats (Spring Boot, Angular, Postgre SQL, Flowable BPMN)
+Développement front-end avec angular : création de tableaux dynamiques , formulaires réactifs et dashboards interactifs avec mise à jour des données en temps réel
+Mise en place et optimisation de la CI/CD ( Jenkins , Docker ), intégration de tests automatisés et gestion des procédures de déploiement
+Participation active à toutes les cérémonies Scrum (daily stand-ups, sprint planning, rétrospectives)
+: Python, Scikit-lear, NLP
+
+## ACADEMIC PROJECTS
+
+PROJETS
+Étudiant - ESPRIT
+Réalisation d'une application desktop E-Health pour la gestion des patients dans un cabinet médical ( C++ , Qt)
+**Date:** Juin. 2025 - Septembre. 2025
+**Location:** Ariana, Tunisie
+Conception d'une application multi-plateforme (desktop, mobile, web) pour la gestion d'un club sportif ( Java , Code Name One , Symfony )
+Développement d'une plateforme web immobilière avec un algorithme de détection de langage inapproprié ( Spring Boot , Angular , Spring Security , Data Mining )
+**Date:** May. 2025 - août 2025
+- ÉDUCATIONS
+- Opus Lab
+
+## EDUCATION
+
+Formation IA & Machine Learning
+Tunis
+ESPRIT
+Diplôme d'Ingénieur - Génie logiciel
+Ariana
+Lycée Menzah 6
+### Baccalauréat Technologie
+**Date:** Janvier. 2025
+- Ariana
+
+## TECHNICAL SKILLS
+
+COMPÉTENCES
+Backend : Java (Spring Boot), C++, PHP, PL/SQL Bases de données : My SQL, Postgre SQL, Mongo DB Frontend : Angular, Java Script, Type Script, Dev Ops & Outils : Docker, Git, Jenkins, CI/CD, JUnit
+Intelligence artificielle : Artificial Intelligence Fundamentals IBM Skills Build Science des données : Introduction to Data Science Cisco
+: Français (C 1 - TCF), Anglais (B 2 - IELTS), Allemand (A 2 - Goethe-Institut)
+
+## CERTIFICATES (IN PROGRESS)
+
+CERTIFICATIONS
+
+## LANGUAGES
+
+Langues

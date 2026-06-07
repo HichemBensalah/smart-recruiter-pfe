@@ -1,0 +1,73 @@
+## HEADER
+
+Safa Belhadj Romdhane
+| safabelhadjromdhane@gmail. com | +216 51 096 335
+Développeuse Full Stack | Data Analyst
+linkedin. com/in/safa-belhadj-romdhane | github. com/safa-belhadj-romdhane
+
+## EDUCATION
+
+Ingénieure en Systèmes d'Information et Data Science. Développeuse Full Stack avec une solide expérience en conception d'APIs REST, microservices, architectures backend modernes et interfaces front-end dynamiques. Maîtrise de Python, Node. js, Next. js, React, Postgre SQL et Mongo DB. Forte appétence pour l'intégration de fonctionnalités IA/ML et la recherche sémantique.
+Backend & APIs : Python , Node. js, Express. js, Microservices, REST APIs sécurisées, Middleware, RBAC, JWT.
+- Développement et personnalisation d'interfaces web complexes répondant aux besoins clients avec Next. js et Tailwind CSS .
+- Intégration de plus de 100 interfaces UI à partir de maquettes Figma avec gestion du routing et de la navigation côté client.
+Consommation et intégration d'APIs REST backend via Express. js dans une architecture microservices , avec gestion des middlewares d'authentification et d'autorisation (JWT/RBAC).
+**Date:** Février 2025 - Présent
+**Location:** Tunis, Tunisie
+- ETL & Prétraitement : Extraction et intégration de données massives via Talend Open Studio avec fonctions t Map avancées pour générer des tables de faits.
+- Conception de dashboards décisionnels et courbes de tendances adaptés aux besoins analytiques métiers ( Power BI ).
+Nettoyage, transformation et intégration de données à l'aide de Talend (ETL) ; optimisation des requêtes SQL et des traitements back-end.
+**Date:** Février 2022 - Mai 2022
+**Location:** Sousse, Tunisie
+- FORMATION
+- Master en Ingénierie des Systèmes d'Information et Data Science (ISIDS)
+- Faculté des Sciences Économiques et de Gestion de Tunis (FSEGT) Major de promotion
+### 2022 - 2024 Tunis, Tunisie 2019 - 2022 Tunis, Tunisie
+- Licence en Business Intelligence (BI)
+- Faculté des Sciences Économiques et de Gestion de Tunis (FSEGT)
+
+## COMPÉTENCES TECHNIQUES
+
+Frontend : Next. js, React, Angular, Type Script, Tailwind CSS, HTML/CSS, Routing avancé.
+Bases de Données : Postgre SQL, My SQL, Mongo DB, Type ORM, requêtes SQL optimisées.
+Data & BI : Power BI (DAX, Modélisation), Talend Open Studio (ETL), Statistiques, KPIs, Web Scraping.
+
+## TECHNICAL SKILLS
+
+Outils & Dev Ops :
+Git, Git Hub, Docker, Agile/Scrum, Jira, Pack Office (Excel/VBA), Web Analytics.
+
+## EXPÉRIENCES PROFESSIONNELLES
+
+Développeuse Web Full Stack
+Sybernetys
+Stagiaire Data Analyst/Développeuse Fullstack
+Agil
+Développement de fonctionnalités back-end avec Node. js , Express et Type ORM (Postgre SQL).
+Stagiaire Analyste de Données/Développeuse Fullstack
+Zodiac Marine
+Documentation technique des flux de données et contribution à la fiabilité des systèmes décisionnels.
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Classification de Fromages - Machine Learning (Projet Personnel)
+Collecte et préparation d'un dataset de fromages (caractéristiques physico-chimiques et sensorielles).
+Web Scraping & Analyse Concurrentielle des Entreprises (Projet Personnel)
+Nettoyage et traitement des valeurs nulles, déduplication et normalisation des données collectées.
+
+## PROFESSIONAL SUMMARY
+
+Application d'algorithmes de clustering non supervisé ( K-Means , hierarchical clustering) pour regrouper les fromages par profil.
+Visualisation des clusters, analyse des centroïdes et interprétation des résultats pour classification automatique.
+Développement d'un scraper Python (Beautiful Soup/Selenium) pour extraire des données d'entreprises (adresse, réseaux sociaux, contacts, chiffre d'affaires, taille) depuis Peppers , Infonet et sites similaires.
+Regroupement, agrégation et export vers Excel pour analyse approfondie de la concurrence et production de tableaux de bord décisionnels.
+
+## LANGUAGES
+
+LANGUES
+Français :
+Anglais :
+Arabe :
+C 2 (Bilingue)
+C 1 (Professionnel)
+Maternel

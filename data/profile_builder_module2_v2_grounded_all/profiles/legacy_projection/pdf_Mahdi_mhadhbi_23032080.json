@@ -1,0 +1,81 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mahdi_mhadhbi_23032080.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mahdi_mhadhbi_23032080.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mahdi_mhadhbi_23032080.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Mahdi Mhadhbi Développeur Full Stack",
+      "email": "15@gmail.com",
+      "phone": "+216 21 373 412",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "ASP. net Core web API",
+        "Angular 18",
+        "SQL Server",
+        "Laravel 10",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Fire Base",
+        "NodeJS",
+        "Express Js",
+        "C#",
+        "JAVA",
+        "PHP 8",
+        "JavaScript",
+        "Python",
+        "Spring Boot",
+        "Zoom API"
+      ],
+      "soft_skills": [
+        "Curieux",
+        "Motivé",
+        "Rigoureux"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Poulina Groupe Holding",
+        "start_date": "janv 2025-Juin 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une application web qui identifie les ressources en eau, les infrastructures hydrauliques existantes et les besoins réels en eau pour l'élevage"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Alissa",
+        "start_date": "janv 2023-Juin 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement d'une API RESTful pour un Système de Gestion Hôtelière, couvrant réservations, suivi des clients, planification des chambres, facturation et gestion des services"
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:11:08.271423+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.571,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

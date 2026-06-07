@@ -1,0 +1,101 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mohamed_Aziz_nassej_23020542.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mohamed_Aziz_nassej_23020542.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Mohamed_Aziz_nassej_23020542.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Aziz Nassej",
+      "email": "aziznassej@gmail.com",
+      "phone": "+216 26 377 887",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Django",
+        "Node.js",
+        "FastAPI",
+        "REST APIs",
+        "Web Sockets",
+        "React.js + Vite",
+        "JavaScript ES 6+",
+        "HTML 5",
+        "CSS 3",
+        "Bootstrap 5",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle",
+        "MongoDB",
+        "SQLite",
+        "Git",
+        "Docker",
+        "Linux",
+        "AWS",
+        "Nginx",
+        "VS Code",
+        "Postman",
+        "Jira"
+      ],
+      "soft_skills": [
+        "Optimisation multi-objectif",
+        "Modélisation statistique",
+        "Systèmes distribués",
+        "Analyse décisionnelle",
+        "Développement logiciel",
+        "Analyse de données",
+        "Conception de systèmes"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement de fonctionnalités full-stack avec Django et React.js",
+          "Conception des schémas Oracle Database",
+          "Implémentation d'endpoints REST et intégration front-end",
+          "Participation à toutes les phases du cycle de développement: spécification, développement, tests et livraison en production"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Livraison de 2 applications web sur mesure (Django, Node.js, Bootstrap)",
+          "Gestion complète du projet: avantvente, développement, déploiement et support"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master de Recherche - Systèmes Informatiques Intelligents",
+        "school": "ISIGK",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:34:23.881871+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9661,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

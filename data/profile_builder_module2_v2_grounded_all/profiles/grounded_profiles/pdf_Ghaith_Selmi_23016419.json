@@ -1,0 +1,186 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ghaith_Selmi_23016419.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ghaith_Selmi_23016419.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.7121,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nGhaith Selmi\n\n## INGÉNIEUR INFORMATIQUE\n\nghaith. selmi 1905@gmail.com\nselmighaith\nghaythselmi\n\n## TECHNICAL SKILLS\n\nPassionné par le cloud, le DevOps et le développement Web, compétent dans la conception de solutions évolutives et sécurisées et toujours en quête d'apprentissage et de développement .\nProjet: Développement et déploiement d'une application web nommée Spofun Coach permettant de centraliser la gestion des réservations des entraineurs sportifs en ligne.\nProjet: Développement d'une application web nommée WEB GUARDIAN permettant de surveiller la disponibilité et l'état du certficat SSL des site web.\nDéveloppement des interfaces optimisées et des fonctionnalités serveur et intégration de la base de données.\nProjet: Développement d'une plateforme permettant les patients de prendre des rendez-vous en ligne .\nIngénierie en Cloud Computing - ESPRIT\nBaccalauréat scientifique - Lycée Pilote Gabes\nFrameworks et technologies\n: Angular, Symfony, .NET, Spring boot\nCloud et Devops\n: Docker, Kubernetes, Jenkins, Nginx, Sonar Qube, Ansible\nBase de données\n: MySQL, PostgreSQL, NoSQL\nContrôle de version\n: Git, Github, Bitbucket\nIntro duction to Microsoft Azure Cloud Services, Microsoft\nMicrosoft Azure Services and Lifecycles, Microsoft\nMicrosoft Azure Management Tools and Security Solutions, Microsoft\nAns ible for Network Automation, Cisco\n\n## EDUCATION\n\nStage de fin d 'études chez Devopro 02/2025  08/2025\nConception et réalisation d'une interface utilisateur responsive et ergonomique.\nImplémentation du back-end avec et intégration de la base de données.\nConfiguration des environnements, automatisation du build et déploiement du projet en production.\nTechnologies utilisées: Spring Boot, Angular, PostgreSQL, Jhipster, Jenkins, Azure, Docker, Git .\n**Date: ** 07/2024  09/2024\n- Stage ingénieur chez Shyrine Prod\n## Te chnologies utilisées: Symfony, Angular, Git, MYSQL.\n**Date: ** 11/2023  05/2024\n- FORMATIONS\n\n## PROJETS ACADÉMIQUES\n\nEsprit Collab au sein d'Esprit\nProjet: Développement et déploiement d'un site web collaboratif pour les étudiants .\nCréation de l'interface utilisateur, développement des services d'API et gestion des données.\nIntégration des services Open Stack pour la création de l'infrastructure.\nOrchestration des conteneurs Docker avec Kubernetes, et déploiement sur des machines virtuelles.\nTechnologies utilisées: Spring boot, Angular, Git, MYSQL, Docker, Openstack, Kubernetes, UML\nDoc Net au sein d'Esprit\nAnalyse, conception et choix de l'architecture pour le projet.\nDéveloppements des endpoints et des interfaces nécéssaires et l'intégration de la base des données.\nTe chnologies utilisées: Symfony, Java, Java FX, Git, MYSQL, UML.\n\n## COMPÉTENCES PERSONNELLES\n\nAdaptabilité, Créativité, Travail en équipe, Communication, Esprit analytique\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATS\n\n## LANGUAGES\n\nLANGUES\nArabe:\nLangue Maternelle\nAnglais\n\n##: B 2\n\nFrançais",
+    "header_info": {
+      "full_name": "Ghaith Selmi",
+      "email": "1905@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7902,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.hard_skills[2]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": [
+      "expertise.hard_skills[2]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Ghaith Selmi",
+      "email": "1905@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Cloud Computing",
+        "DevOps",
+        "Angular",
+        "Symfony",
+        ".NET",
+        "Spring Boot",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Nginx",
+        "Sonar Qube",
+        "Ansible",
+        "MySQL",
+        "PostgreSQL",
+        "Git"
+      ],
+      "soft_skills": [
+        "Adaptabilité",
+        "Créativité",
+        "Travail en équipe",
+        "Communication",
+        "Esprit analytique"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "02/2025  08/2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et réalisation d'une interface utilisateur responsive et ergonomique.",
+          "Implémentation du back-end avec et intégration de la base de données.",
+          "Configuration des environnements, automatisation du build et déploiement du projet en production."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "07/2024  09/2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Stage ingénieur chez Shyrine Prod"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Devopro",
+        "degree": "Stage de fin d'études",
+        "field": "Ingenierie en Cloud Computing - ESPRIT",
+        "year": null
+      },
+      {
+        "institution": "Lycée Pilote Gabes",
+        "degree": "Baccalauréat scientifique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:09:33.826816+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,2791 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\maatoug_khalil_23016674.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nKhalil Maatoug\nTECHNICAL SKILLS\nCloud DevOps Engineer & Kubernetes Production\nTunis, Tunisia\n+216 58 842 815\nmaatoug610@gmail.com\nlinkedin.com/in/khalil-maatoug\ngithub.com/khalilMaat\nDevOps Engineer\nMigrated microservices from Docker Swarm to Kubernetes , improving scalability , resilience , and deployment efficiency.\nOptimized GitLab CI/CD pipelines enabling daily zero-downtime deployments .\nEnhanced security, observability, and reliability using BunkerWeb WAF , Prometheus , Grafana , ELK , and SLO/SLI practices .\nExecuted zero-downtime Kubernetes master node migration by restoring etcd , joining a new control plane, and safely draining the old node.\nImproved cluster network architecture by migrating internal communication from public to private IPs , ensuring HA stability and maintaining etcd quorum .\nPerformed chaos engineering experiments to validate fault tolerance , improve recovery strategies, and strengthen platform resilience.\nOneTECH Business Solutions\nDevOps Cloud Engineer\nArchitected a high-availability RabbitMQ cluster to orchestrate asynchronous provisioning workflows with fault tolerance and scalability.\nIntegrated Kubernetes to support containerized workloads within the platform ecosystem.\nAWS DevOps Engineer\nDeployed highly available backend with ALB (99.99% uptime) and RDS Multi-AZ (99.95% availability) .\nOneTECH Business Solutions\nSystem & DevOps Engineer Intern\nDeployed a high-availability Kubernetes cluster with 99.9% uptime using Ansible automation .\nImproved system performance and operational efficiency by 75% .\nBNA - Banque Nationale Agricole\nSystem & DevOps Engineer Intern\nManaged containerized deployments with Docker and Kubernetes .\nIntegrated SonarQube and ELK , reducing issue resolution time by 60% .\nDevOps k8s Platform (VPS & AWS)\nProvisioned a high-availability cluster using Kubespray with full observability stack (Prometheus, Grafana, Alertmanager, ELK).\nEnhanced security using WAF (BunkerWeb) and automated TLS management across VPS and AWS\nenvironments.\nSMA-Assistant\nOpen Source DevOps Platform\nConfigured Nginx reverse proxy for efficient routing between frontend and backend services.\nIntegrated AWS Lambda for serverless APIs, improving scalability and reducing infrastructure overhead.\nEnsured high availability through automation, monitoring, and containerized architecture.\nCloud-Native Java Application Deployment\nIntegrated DevOps toolchain (Maven, SonarQube, Trivy, Nexus, Docker, Kubernetes, Prometheus, Grafana).\nImproved deployment reliability and reduced failures by 50% on Kubernetes.\nAchievements / Certification\nRHCSA & RHCE certified - Linux administration and Ansible automation.\nAWS Certified (9 badges) - Cloud fundamentals and DevOps practices.\nPROFESSIONAL EXPERIENCE\nAxoneData\nACADEMIC PROJECTS\nFreelance AWS Project\nDec 2024 - Feb 2025\nSfax, Tunisia\nDeveloped a self-service portal (Angular + Spring Boot) allowing users to provision and securely access VMs .\nImplemented monitoring and observability using Prometheus and Grafana for real-time infrastructure insights.\nBuilt a 3-tier AWS architecture using Terraform and Ansible , reducing deployment time by 70% .\nDesigned secure VPC architecture and optimized frontend delivery using CloudFront + Route53 + SSL ( ↓ latency by 50%).\nImplemented full CI/CD pipeline with AWS services and proactive monitoring using CloudWatch .\nImplemented full observability stack (Prometheus, Grafana, ELK) for monitoring and logging.\nBuilt a CI/CD pipeline using Jenkins for Java applications.\nProjects\nSep 2025 - Present\nProduction Kubernetes Platform for Microservices\nDesigned and operated a production-grade Kubernetes platform supporting Dev, Preprod, and Prod environments for microservices.\nDeveloped reusable Helm charts (HPA, VPA, Ingress, PVC, RBAC, probes, databases) to standardize and accelerate deployments.\nImplemented GitOps with Argo CD ApplicationSets and centralized GitLab CI/CD templates .\nKubernetes & AWS Project\nAug 2024 - Present\nBuilt and operated production-grade Kubernetes platforms using Kubespray , Helm , and GitOps .\nImplemented backup and disaster recovery strategy using Longhorn , NFS for stateful workloads.\nBuilt a complete DevOps platform for a web application using Docker on VPS infrastructure.\nImplemented CI/CD pipelines with GitHub Actions for automated build, test, and deployment.\nBuilt a CI/CD pipeline using Jenkins , reducing release cycles from bi-weekly to weekly.\nFeb 2025 - Aug 2025\nDesigned and built an on-premise cloud platform (EC2-like service) enabling self-service VM provisioning on OpenStack .\nImplemented full Infrastructure as Code using Terraform and Ansible AAP , automating provisioning workflows and reducing delivery time by 90% .\nEDUCATION\nTEK-UP University\nSep 2022 - Sep 2025\nAriana, Tunisia\nSoftware and Information System Engineering\nHigher Institute of Computer Science and Multimedia of Sfax\nBachelor in Computer Science",
+  "markdown": "## HEADER\n\nKhalil Maatoug\n\n## TECHNICAL SKILLS\n\nCloud Dev Ops Engineer & Kubernetes Production\nTunis, Tunisia\nmaatoug 610@gmail. com\nlinkedin. com/in/khalil-maatoug\ngithub. com/khalil Maat\nDev Ops Engineer\nMigrated microservices from Docker Swarm to Kubernetes , improving scalability , resilience , and deployment efficiency.\nOptimized Git Lab CI/CD pipelines enabling daily zero-downtime deployments .\nEnhanced security, observability, and reliability using Bunker Web WAF , Prometheus , Grafana , ELK , and SLO/SLI practices .\nExecuted zero-downtime Kubernetes master node migration by restoring etcd , joining a new control plane, and safely draining the old node.\nImproved cluster network architecture by migrating internal communication from public to private IPs , ensuring HA stability and maintaining etcd quorum .\nPerformed chaos engineering experiments to validate fault tolerance , improve recovery strategies, and strengthen platform resilience.\nOne TECH Business Solutions\nDev Ops Cloud Engineer\nArchitected a high-availability Rabbit MQ cluster to orchestrate asynchronous provisioning workflows with fault tolerance and scalability.\nIntegrated Kubernetes to support containerized workloads within the platform ecosystem.\nAWS Dev Ops Engineer\nDeployed highly available backend with ALB (99. 99% uptime) and RDS Multi-AZ (99. 95% availability) .\nOne TECH Business Solutions\nSystem & Dev Ops Engineer Intern\nDeployed a high-availability Kubernetes cluster with 99. 9% uptime using Ansible automation .\nImproved system performance and operational efficiency by 75% .\nBNA - Banque Nationale Agricole\nSystem & Dev Ops Engineer Intern\nManaged containerized deployments with Docker and Kubernetes .\nIntegrated Sonar Qube and ELK , reducing issue resolution time by 60% .\nDev Ops k 8 s Platform (VPS & AWS)\nProvisioned a high-availability cluster using Kubespray with full observability stack (Prometheus, Grafana, Alertmanager, ELK).\nEnhanced security using WAF (Bunker Web) and automated TLS management across VPS and AWS\nenvironments.\nSMA-Assistant\nOpen Source Dev Ops Platform\nConfigured Nginx reverse proxy for efficient routing between frontend and backend services.\nIntegrated AWS Lambda for serverless APIs, improving scalability and reducing infrastructure overhead.\nEnsured high availability through automation, monitoring, and containerized architecture.\nCloud-Native Java Application Deployment\nIntegrated Dev Ops toolchain (Maven, Sonar Qube, Trivy, Nexus, Docker, Kubernetes, Prometheus, Grafana).\nImproved deployment reliability and reduced failures by 50% on Kubernetes.\nAchievements/Certification\nRHCSA & RHCE certified - Linux administration and Ansible automation.\nAWS Certified (9 badges) - Cloud fundamentals and Dev Ops practices.\n\n## PROFESSIONAL EXPERIENCE\n\nAxone Data\n\n## ACADEMIC PROJECTS\n\n### Freelance AWS Project\n**Date:** Dec 2024 - Feb 2025\n**Location:** Sfax, Tunisia\n- Developed a self-service portal (Angular + Spring Boot) allowing users to provision and securely access VMs .\n- Implemented monitoring and observability using Prometheus and Grafana for real-time infrastructure insights.\n- Built a 3-tier AWS architecture using Terraform and Ansible , reducing deployment time by 70% .\n- Designed secure VPC architecture and optimized frontend delivery using Cloud Front + Route 53 + SSL ( ↓ latency by 50%).\n- Implemented full CI/CD pipeline with AWS services and proactive monitoring using Cloud Watch .\n- Implemented full observability stack (Prometheus, Grafana, ELK) for monitoring and logging.\n- Built a CI/CD pipeline using Jenkins for Java applications.\n### Projects\n**Date:** Sep 2025 - Present\n- Production Kubernetes Platform for Microservices\n- Designed and operated a production-grade Kubernetes platform supporting Dev, Preprod, and Prod environments for microservices.\n- Developed reusable Helm charts (HPA, VPA, Ingress, PVC, RBAC, probes, databases) to standardize and accelerate deployments.\n- Implemented Git Ops with Argo CD Application Sets and centralized Git Lab CI/CD templates .\n### Kubernetes & AWS Project\n**Date:** Aug 2024 - Present\n- Built and operated production-grade Kubernetes platforms using Kubespray , Helm , and Git Ops .\n- Implemented backup and disaster recovery strategy using Longhorn , NFS for stateful workloads.\n- Built a complete Dev Ops platform for a web application using Docker on VPS infrastructure.\n- Implemented CI/CD pipelines with Git Hub Actions for automated build, test, and deployment.\nBuilt a CI/CD pipeline using Jenkins , reducing release cycles from bi-weekly to weekly.\n**Date:** Feb 2025 - Aug 2025\n- Designed and built an on-premise cloud platform (EC 2-like service) enabling self-service VM provisioning on Open Stack .\n- Implemented full Infrastructure as Code using Terraform and Ansible AAP , automating provisioning workflows and reducing delivery time by 90% .\n\n## EDUCATION\n\n### TEK-UP University\n**Date:** Sep 2022 - Sep 2025\n**Location:** Ariana, Tunisia\n- Software and Information System Engineering\n- Higher Institute of Computer Science and Multimedia of Sfax\n- Bachelor in Computer Science",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "Khalil Maatoug"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Khalil Maatoug",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 225.788,
+            "top": 752.0886827809799,
+            "right": 385.17026000000004,
+            "bottom": 770.2254750000001
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Cloud DevOps Engineer & Kubernetes Production",
+        "Tunis, Tunisia",
+        "+216 58 842 815",
+        "maatoug610@gmail.com",
+        "linkedin.com/in/khalil-maatoug",
+        "github.com/khalilMaat",
+        "DevOps Engineer",
+        "Migrated microservices from Docker Swarm to Kubernetes , improving scalability , resilience , and deployment efficiency.",
+        "Optimized GitLab CI/CD pipelines enabling daily zero-downtime deployments .",
+        "Enhanced security, observability, and reliability using BunkerWeb WAF , Prometheus , Grafana , ELK , and SLO/SLI practices .",
+        "Executed zero-downtime Kubernetes master node migration by restoring etcd , joining a new control plane, and safely draining the old node.",
+        "Improved cluster network architecture by migrating internal communication from public to private IPs , ensuring HA stability and maintaining etcd quorum .",
+        "Performed chaos engineering experiments to validate fault tolerance , improve recovery strategies, and strengthen platform resilience.",
+        "OneTECH Business Solutions",
+        "DevOps Cloud Engineer",
+        "Architected a high-availability RabbitMQ cluster to orchestrate asynchronous provisioning workflows with fault tolerance and scalability.",
+        "Integrated Kubernetes to support containerized workloads within the platform ecosystem.",
+        "AWS DevOps Engineer",
+        "Deployed highly available backend with ALB (99.99% uptime) and RDS Multi-AZ (99.95% availability) .",
+        "OneTECH Business Solutions",
+        "System & DevOps Engineer Intern",
+        "Deployed a high-availability Kubernetes cluster with 99.9% uptime using Ansible automation .",
+        "Improved system performance and operational efficiency by 75% .",
+        "BNA - Banque Nationale Agricole",
+        "System & DevOps Engineer Intern",
+        "Managed containerized deployments with Docker and Kubernetes .",
+        "Integrated SonarQube and ELK , reducing issue resolution time by 60% .",
+        "DevOps k8s Platform (VPS & AWS)",
+        "Provisioned a high-availability cluster using Kubespray with full observability stack (Prometheus, Grafana, Alertmanager, ELK).",
+        "Enhanced security using WAF (BunkerWeb) and automated TLS management across VPS and AWS",
+        "environments.",
+        "SMA-Assistant",
+        "Open Source DevOps Platform",
+        "Configured Nginx reverse proxy for efficient routing between frontend and backend services.",
+        "Integrated AWS Lambda for serverless APIs, improving scalability and reducing infrastructure overhead.",
+        "Ensured high availability through automation, monitoring, and containerized architecture.",
+        "Cloud-Native Java Application Deployment",
+        "Integrated DevOps toolchain (Maven, SonarQube, Trivy, Nexus, Docker, Kubernetes, Prometheus, Grafana).",
+        "Improved deployment reliability and reduced failures by 50% on Kubernetes.",
+        "Achievements / Certification",
+        "RHCSA & RHCE certified - Linux administration and Ansible automation.",
+        "AWS Certified (9 badges) - Cloud fundamentals and DevOps practices."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Cloud DevOps Engineer & Kubernetes Production",
+          "page_no": 1,
+          "block_indices": [
+            1
+          ],
+          "bbox": {
+            "left": 155.62,
+            "top": 738.2164267481268,
+            "right": 455.66682751999974,
+            "bottom": 748.7102672
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Tunis, Tunisia",
+          "page_no": 1,
+          "block_indices": [
+            2
+          ],
+          "bbox": {
+            "left": 271.64,
+            "top": 720.8921792965418,
+            "right": 339.6451475799998,
+            "bottom": 730.4259153
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "+216 58 842 815",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 74.56099999999998,
+            "top": 705.1328898772334,
+            "right": 147.06681028000003,
+            "bottom": 713.8394558
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "maatoug610@gmail.com",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 163.67446448000004,
+            "top": 705.1328898772334,
+            "right": 268.2817644800001,
+            "bottom": 713.8394558
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "linkedin.com/in/khalil-maatoug",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 284.8794560800001,
+            "top": 705.1328898772334,
+            "right": 422.97304719999994,
+            "bottom": 713.8394558
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "github.com/khalilMaat",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 439.58070139999995,
+            "top": 705.1328898772334,
+            "right": 540.0375822399999,
+            "bottom": 713.8394558
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "DevOps Engineer",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 622.3778898772335,
+            "right": 104.31451548000001,
+            "bottom": 631.0844558000001
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Migrated microservices from Docker Swarm to Kubernetes , improving scalability , resilience , and deployment efficiency.",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 582.5028898772335,
+            "right": 573.6128476799998,
+            "bottom": 603.1953436000001
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Optimized GitLab CI/CD pipelines enabling daily zero-downtime deployments .",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 568.5475350743517,
+            "right": 437.6442791400002,
+            "bottom": 577.2923436000001
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Enhanced security, observability, and reliability using BunkerWeb WAF , Prometheus , Grafana , ELK , and SLO/SLI practices .",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 528.6965350743517,
+            "right": 567.22682108,
+            "bottom": 549.3963436000001
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Executed zero-downtime Kubernetes master node migration by restoring etcd , joining a new control plane, and safely draining the old node.",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 502.8018898772335,
+            "right": 582.4805579399998,
+            "bottom": 523.4943436000001
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Improved cluster network architecture by migrating internal communication from public to private IPs , ensuring HA stability and maintaining etcd quorum .",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 476.89053507435165,
+            "right": 582.4755766399996,
+            "bottom": 497.5913436000001
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Performed chaos engineering experiments to validate fault tolerance , improve recovery strategies, and strengthen platform resilience.",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 450.9968898772335,
+            "right": 575.4071119399996,
+            "bottom": 471.68834360000005
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "OneTECH Business Solutions",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 429.78503074293957,
+            "right": 192.35468174999997,
+            "bottom": 439.36064260000006
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "DevOps Cloud Engineer",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 416.42588987723354,
+            "right": 133.07753794,
+            "bottom": 425.1324558000001
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Architected a high-availability RabbitMQ cluster to orchestrate asynchronous provisioning workflows with fault tolerance and scalability.",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 324.18353507435177,
+            "right": 565.6517340199999,
+            "bottom": 344.88334360000016
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Integrated Kubernetes to support containerized workloads within the platform ecosystem.",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 310.2355350743518,
+            "right": 453.60237182,
+            "bottom": 318.9803436000002
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "AWS DevOps Engineer",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 261.7258898772336,
+            "right": 129.81279392,
+            "bottom": 270.4324558000002
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Deployed highly available backend with ALB (99.99% uptime) and RDS Multi-AZ (99.95% availability) .",
+          "page_no": 1,
+          "block_indices": [
+            30
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 207.34153507435167,
+            "right": 546.4737290200003,
+            "bottom": 216.0863436000002
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "OneTECH Business Solutions",
+          "page_no": 1,
+          "block_indices": [
+            32
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 172.19103074293957,
+            "right": 192.35468174999997,
+            "bottom": 181.76664260000007
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "System & DevOps Engineer Intern",
+          "page_no": 1,
+          "block_indices": [
+            33
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 158.8318898772336,
+            "right": 180.33214226000004,
+            "bottom": 167.53845580000007
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Deployed a high-availability Kubernetes cluster with 99.9% uptime using Ansible automation .",
+          "page_no": 1,
+          "block_indices": [
+            34
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 144.29853507435166,
+            "right": 508.7124862400002,
+            "bottom": 153.04334360000007
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Improved system performance and operational efficiency by 75% .",
+          "page_no": 1,
+          "block_indices": [
+            36
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 116.4025350743517,
+            "right": 339.5535158000001,
+            "bottom": 125.14734360000011
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "BNA - Banque Nationale Agricole",
+          "page_no": 1,
+          "block_indices": [
+            37
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 95.20003074293959,
+            "right": 217.62233916999998,
+            "bottom": 104.77564260000008
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "System & DevOps Engineer Intern",
+          "page_no": 1,
+          "block_indices": [
+            38
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 81.84088987723351,
+            "right": 180.33214226000004,
+            "bottom": 90.54745580000008
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Managed containerized deployments with Docker and Kubernetes .",
+          "page_no": 1,
+          "block_indices": [
+            40
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 53.3595350743517,
+            "right": 354.9616729600002,
+            "bottom": 62.10434360000011
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Integrated SonarQube and ELK , reducing issue resolution time by 60% .",
+          "page_no": 1,
+          "block_indices": [
+            41
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 39.41153507435172,
+            "right": 379.61512292,
+            "bottom": 48.15634360000013
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "DevOps k8s Platform (VPS & AWS)",
+          "page_no": 2,
+          "block_indices": [
+            49
+          ],
+          "bbox": {
+            "left": 32.364000000000004,
+            "top": 723.1038898772335,
+            "right": 193.1195173400001,
+            "bottom": 731.8104558000001
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Provisioned a high-availability cluster using Kubespray with full observability stack (Prometheus, Grafana, Alertmanager, ELK).",
+          "page_no": 2,
+          "block_indices": [
+            53
+          ],
+          "bbox": {
+            "left": 43.526,
+            "top": 631.4238898772334,
+            "right": 555.2846524600002,
+            "bottom": 652.1153436
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Enhanced security using WAF (BunkerWeb) and automated TLS management across VPS and AWS",
+          "page_no": 2,
+          "block_indices": [
+            54
+          ],
+          "bbox": {
+            "left": 43.526,
+            "top": 617.4675350743515,
+            "right": 524.4264952200002,
+            "bottom": 626.2123435999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "environments.",
+          "page_no": 2,
+          "block_indices": [
+            55
+          ],
+          "bbox": {
+            "left": 52.800000000000004,
+            "top": 605.5208898772333,
+            "right": 113.48518538000002,
+            "bottom": 614.2274557999999
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "SMA-Assistant",
+          "page_no": 2,
+          "block_indices": [
+            56
+          ],
+          "bbox": {
+            "left": 28.800000000000004,
+            "top": 584.3100307429394,
+            "right": 111.63497811999997,
+            "bottom": 593.8856426
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Open Source DevOps Platform",
+          "page_no": 2,
+          "block_indices": [
+            57
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 570.9508898772334,
+            "right": 161.97904054,
+            "bottom": 579.6574558
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Configured Nginx reverse proxy for efficient routing between frontend and backend services.",
+          "page_no": 2,
+          "block_indices": [
+            60
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 529.0745350743516,
+            "right": 468.1557379000001,
+            "bottom": 537.8193436
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Integrated AWS Lambda for serverless APIs, improving scalability and reducing infrastructure overhead.",
+          "page_no": 2,
+          "block_indices": [
+            61
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 515.1265350743516,
+            "right": 519.2887824,
+            "bottom": 523.8713436
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Ensured high availability through automation, monitoring, and containerized architecture.",
+          "page_no": 2,
+          "block_indices": [
+            62
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 501.17953507435163,
+            "right": 456.82527292,
+            "bottom": 509.92434360000004
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Cloud-Native Java Application Deployment",
+          "page_no": 2,
+          "block_indices": [
+            63
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 479.9770307429395,
+            "right": 268.59619983000005,
+            "bottom": 489.5526426
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Integrated DevOps toolchain (Maven, SonarQube, Trivy, Nexus, Docker, Kubernetes, Prometheus, Grafana).",
+          "page_no": 2,
+          "block_indices": [
+            66
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 438.1355350743516,
+            "right": 539.9691474800002,
+            "bottom": 446.8803436
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Improved deployment reliability and reduced failures by 50% on Kubernetes.",
+          "page_no": 2,
+          "block_indices": [
+            67
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 424.1875350743516,
+            "right": 391.06414284000016,
+            "bottom": 432.9323436
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "Achievements / Certification",
+          "page_no": 2,
+          "block_indices": [
+            68
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 399.8944267481268,
+            "right": 198.89499904,
+            "bottom": 410.38826720000003
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "RHCSA & RHCE certified - Linux administration and Ansible automation.",
+          "page_no": 2,
+          "block_indices": [
+            69
+          ],
+          "bbox": {
+            "left": 28.8,
+            "top": 382.9535350743516,
+            "right": 378.82200336,
+            "bottom": 391.6983436
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": "AWS Certified (9 badges) - Cloud fundamentals and DevOps practices.",
+          "page_no": 2,
+          "block_indices": [
+            70
+          ],
+          "bbox": {
+            "left": 28.8,
+            "top": 364.0245350743516,
+            "right": 358.84499784,
+            "bottom": 372.7693436
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "section_type": "experience",
+      "content": [
+        "AxoneData"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "AxoneData",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 28.8,
+            "top": 635.7380307429395,
+            "right": 90.59350604000002,
+            "bottom": 645.3136426000001
+          },
+          "section_title": "PROFESSIONAL EXPERIENCE"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC PROJECTS",
+      "section_type": "projects",
+      "content": [],
+      "items": [
+        {
+          "title": "Freelance AWS Project",
+          "date": "Dec 2024 - Feb 2025",
+          "location": "Sfax, Tunisia",
+          "details": [
+            "Developed a self-service portal (Angular + Spring Boot) allowing users to provision and securely access VMs .",
+            "Implemented monitoring and observability using Prometheus and Grafana for real-time infrastructure insights.",
+            "Built a 3-tier AWS architecture using Terraform and Ansible , reducing deployment time by 70% .",
+            "Designed secure VPC architecture and optimized frontend delivery using CloudFront + Route53 + SSL ( ↓ latency by 50%).",
+            "Implemented full CI/CD pipeline with AWS services and proactive monitoring using CloudWatch .",
+            "Implemented full observability stack (Prometheus, Grafana, ELK) for monitoring and logging.",
+            "Built a CI/CD pipeline using Jenkins for Java applications."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Freelance AWS Project",
+              "page_no": 1,
+              "block_indices": [
+                26
+              ],
+              "bbox": {
+                "left": 28.80000000000001,
+                "top": 275.08603074293967,
+                "right": 157.33756166,
+                "bottom": 284.66164260000016
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Dec 2024 - Feb 2025",
+              "page_no": 1,
+              "block_indices": [
+                43
+              ],
+              "bbox": {
+                "left": 478.65133686,
+                "top": 275.2675350743518,
+                "right": 582.4785652799997,
+                "bottom": 284.0123436000002
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Sfax, Tunisia",
+              "page_no": 2,
+              "block_indices": [
+                82
+              ],
+              "bbox": {
+                "left": 524.137,
+                "top": 263.14688987723343,
+                "right": 581.7158466999999,
+                "bottom": 271.8534558000001
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Developed a self-service portal (Angular + Spring Boot) allowing users to provision and securely access VMs .",
+              "page_no": 1,
+              "block_indices": [
+                22
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 350.08653507435173,
+                "right": 546.9678739799998,
+                "bottom": 358.83134360000014
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Implemented monitoring and observability using Prometheus and Grafana for real-time infrastructure insights.",
+              "page_no": 1,
+              "block_indices": [
+                25
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 296.2885350743518,
+                "right": 569.2034009199999,
+                "bottom": 305.0333436000002
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Built a 3-tier AWS architecture using Terraform and Ansible , reducing deployment time by 70% .",
+              "page_no": 1,
+              "block_indices": [
+                28
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 247.19253507435178,
+                "right": 507.89654930000006,
+                "bottom": 255.9373436000002
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Designed secure VPC architecture and optimized frontend delivery using CloudFront + Route53 + SSL ( ↓ latency by 50%).",
+              "page_no": 1,
+              "block_indices": [
+                29
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 221.2978898772335,
+                "right": 582.4835467199999,
+                "bottom": 244.48995620000017
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Implemented full CI/CD pipeline with AWS services and proactive monitoring using CloudWatch .",
+              "page_no": 1,
+              "block_indices": [
+                31
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 193.39453507435167,
+                "right": 501.03032537999985,
+                "bottom": 202.13934360000007
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Implemented full observability stack (Prometheus, Grafana, ELK) for monitoring and logging.",
+              "page_no": 1,
+              "block_indices": [
+                35
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 130.35053507435168,
+                "right": 476.44760988,
+                "bottom": 139.0953436000001
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Built a CI/CD pipeline using Jenkins for Java applications.",
+              "page_no": 1,
+              "block_indices": [
+                39
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 67.3065350743517,
+                "right": 328.5448427999999,
+                "bottom": 76.05134360000011
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Projects",
+          "date": "Sep 2025 - Present",
+          "location": null,
+          "details": [
+            "Production Kubernetes Platform for Microservices",
+            "Designed and operated a production-grade Kubernetes platform supporting Dev, Preprod, and Prod environments for microservices.",
+            "Developed reusable Helm charts (HPA, VPA, Ingress, PVC, RBAC, probes, databases) to standardize and accelerate deployments.",
+            "Implemented GitOps with Argo CD ApplicationSets and centralized GitLab CI/CD templates ."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Projects",
+              "page_no": 2,
+              "block_indices": [
+                47
+              ],
+              "bbox": {
+                "left": 28.8,
+                "top": 757.1484267481268,
+                "right": 77.71828736,
+                "bottom": 767.6422672
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Sep 2025 - Present",
+              "page_no": 1,
+              "block_indices": [
+                45
+              ],
+              "bbox": {
+                "left": 486.326,
+                "top": 635.9195350743516,
+                "right": 582.4800338999997,
+                "bottom": 644.6643436
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Production Kubernetes Platform for Microservices",
+              "page_no": 2,
+              "block_indices": [
+                48
+              ],
+              "bbox": {
+                "left": 28.8,
+                "top": 736.4640307429395,
+                "right": 309.03405171,
+                "bottom": 746.0396426000001
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Designed and operated a production-grade Kubernetes platform supporting Dev, Preprod, and Prod environments for microservices.",
+              "page_no": 2,
+              "block_indices": [
+                50
+              ],
+              "bbox": {
+                "left": 43.526,
+                "top": 697.1768898772335,
+                "right": 535.0476230800002,
+                "bottom": 717.8683436000001
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Developed reusable Helm charts (HPA, VPA, Ingress, PVC, RBAC, probes, databases) to standardize and accelerate deployments.",
+              "page_no": 2,
+              "block_indices": [
+                51
+              ],
+              "bbox": {
+                "left": 43.526,
+                "top": 671.2738898772335,
+                "right": 572.2170874199998,
+                "bottom": 691.9663436000001
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Implemented GitOps with Argo CD ApplicationSets and centralized GitLab CI/CD templates .",
+              "page_no": 2,
+              "block_indices": [
+                52
+              ],
+              "bbox": {
+                "left": 43.526,
+                "top": 657.3185350743516,
+                "right": 505.6938184400001,
+                "bottom": 666.0633436
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Kubernetes & AWS Project",
+          "date": "Aug 2024 - Present",
+          "location": null,
+          "details": [
+            "Built and operated production-grade Kubernetes platforms using Kubespray , Helm , and GitOps .",
+            "Implemented backup and disaster recovery strategy using Longhorn , NFS for stateful workloads.",
+            "Built a complete DevOps platform for a web application using Docker on VPS infrastructure.",
+            "Implemented CI/CD pipelines with GitHub Actions for automated build, test, and deployment."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Kubernetes & AWS Project",
+              "page_no": 2,
+              "block_indices": [
+                64
+              ],
+              "bbox": {
+                "left": 28.80000000000001,
+                "top": 466.61688987723346,
+                "right": 147.65082922000002,
+                "bottom": 475.32345580000003
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Aug 2024 - Present",
+              "page_no": 2,
+              "block_indices": [
+                78
+              ],
+              "bbox": {
+                "left": 483.551,
+                "top": 584.4915350743515,
+                "right": 582.4786217399997,
+                "bottom": 593.2363435999999
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Built and operated production-grade Kubernetes platforms using Kubespray , Helm , and GitOps .",
+              "page_no": 1,
+              "block_indices": [
+                10
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 608.3975350743517,
+                "right": 519.0646239,
+                "bottom": 617.1423436000001
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Implemented backup and disaster recovery strategy using Longhorn , NFS for stateful workloads.",
+              "page_no": 1,
+              "block_indices": [
+                13
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 554.5995350743517,
+                "right": 503.71325355999994,
+                "bottom": 563.3443436000001
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Built a complete DevOps platform for a web application using Docker on VPS infrastructure.",
+              "page_no": 2,
+              "block_indices": [
+                58
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 556.9695350743516,
+                "right": 477.6769947200001,
+                "bottom": 565.7143436
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Implemented CI/CD pipelines with GitHub Actions for automated build, test, and deployment.",
+              "page_no": 2,
+              "block_indices": [
+                59
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 543.0225350743516,
+                "right": 482.1432283,
+                "bottom": 551.7673436
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        },
+        {
+          "title": "Built a CI/CD pipeline using Jenkins , reducing release cycles from bi-weekly to weekly.",
+          "date": "Feb 2025 - Aug 2025",
+          "location": null,
+          "details": [
+            "Designed and built an on-premise cloud platform (EC2-like service) enabling self-service VM provisioning on OpenStack .",
+            "Implemented full Infrastructure as Code using Terraform and Ansible AAP , automating provisioning workflows and reducing delivery time by 90% ."
+          ],
+          "evidence_spans": [
+            {
+              "text": "Built a CI/CD pipeline using Jenkins , reducing release cycles from bi-weekly to weekly.",
+              "page_no": 2,
+              "block_indices": [
+                65
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 452.0835350743516,
+                "right": 450.28084097999977,
+                "bottom": 460.8283436
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Feb 2025 - Aug 2025",
+              "page_no": 1,
+              "block_indices": [
+                44
+              ],
+              "bbox": {
+                "left": 477.02601415000004,
+                "top": 429.96653507435167,
+                "right": 582.4791388899997,
+                "bottom": 438.7113436000001
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Designed and built an on-premise cloud platform (EC2-like service) enabling self-service VM provisioning on OpenStack .",
+              "page_no": 1,
+              "block_indices": [
+                20
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 389.9375350743517,
+                "right": 557.38476854,
+                "bottom": 410.63734360000007
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            },
+            {
+              "text": "Implemented full Infrastructure as Code using Terraform and Ansible AAP , automating provisioning workflows and reducing delivery time by 90% .",
+              "page_no": 1,
+              "block_indices": [
+                21
+              ],
+              "bbox": {
+                "left": 43.52600000000001,
+                "top": 364.0345350743517,
+                "right": 571.2367675799998,
+                "bottom": 384.7343436000001
+              },
+              "section_title": "ACADEMIC PROJECTS"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "Freelance AWS Project",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 275.08603074293967,
+            "right": 157.33756166,
+            "bottom": 284.66164260000016
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Dec 2024 - Feb 2025",
+          "page_no": 1,
+          "block_indices": [
+            43
+          ],
+          "bbox": {
+            "left": 478.65133686,
+            "top": 275.2675350743518,
+            "right": 582.4785652799997,
+            "bottom": 284.0123436000002
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Sfax, Tunisia",
+          "page_no": 2,
+          "block_indices": [
+            82
+          ],
+          "bbox": {
+            "left": 524.137,
+            "top": 263.14688987723343,
+            "right": 581.7158466999999,
+            "bottom": 271.8534558000001
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Developed a self-service portal (Angular + Spring Boot) allowing users to provision and securely access VMs .",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 350.08653507435173,
+            "right": 546.9678739799998,
+            "bottom": 358.83134360000014
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Implemented monitoring and observability using Prometheus and Grafana for real-time infrastructure insights.",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 296.2885350743518,
+            "right": 569.2034009199999,
+            "bottom": 305.0333436000002
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Built a 3-tier AWS architecture using Terraform and Ansible , reducing deployment time by 70% .",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 247.19253507435178,
+            "right": 507.89654930000006,
+            "bottom": 255.9373436000002
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Designed secure VPC architecture and optimized frontend delivery using CloudFront + Route53 + SSL ( ↓ latency by 50%).",
+          "page_no": 1,
+          "block_indices": [
+            29
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 221.2978898772335,
+            "right": 582.4835467199999,
+            "bottom": 244.48995620000017
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Implemented full CI/CD pipeline with AWS services and proactive monitoring using CloudWatch .",
+          "page_no": 1,
+          "block_indices": [
+            31
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 193.39453507435167,
+            "right": 501.03032537999985,
+            "bottom": 202.13934360000007
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Implemented full observability stack (Prometheus, Grafana, ELK) for monitoring and logging.",
+          "page_no": 1,
+          "block_indices": [
+            35
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 130.35053507435168,
+            "right": 476.44760988,
+            "bottom": 139.0953436000001
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Built a CI/CD pipeline using Jenkins for Java applications.",
+          "page_no": 1,
+          "block_indices": [
+            39
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 67.3065350743517,
+            "right": 328.5448427999999,
+            "bottom": 76.05134360000011
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Projects",
+          "page_no": 2,
+          "block_indices": [
+            47
+          ],
+          "bbox": {
+            "left": 28.8,
+            "top": 757.1484267481268,
+            "right": 77.71828736,
+            "bottom": 767.6422672
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Sep 2025 - Present",
+          "page_no": 1,
+          "block_indices": [
+            45
+          ],
+          "bbox": {
+            "left": 486.326,
+            "top": 635.9195350743516,
+            "right": 582.4800338999997,
+            "bottom": 644.6643436
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Production Kubernetes Platform for Microservices",
+          "page_no": 2,
+          "block_indices": [
+            48
+          ],
+          "bbox": {
+            "left": 28.8,
+            "top": 736.4640307429395,
+            "right": 309.03405171,
+            "bottom": 746.0396426000001
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Designed and operated a production-grade Kubernetes platform supporting Dev, Preprod, and Prod environments for microservices.",
+          "page_no": 2,
+          "block_indices": [
+            50
+          ],
+          "bbox": {
+            "left": 43.526,
+            "top": 697.1768898772335,
+            "right": 535.0476230800002,
+            "bottom": 717.8683436000001
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Developed reusable Helm charts (HPA, VPA, Ingress, PVC, RBAC, probes, databases) to standardize and accelerate deployments.",
+          "page_no": 2,
+          "block_indices": [
+            51
+          ],
+          "bbox": {
+            "left": 43.526,
+            "top": 671.2738898772335,
+            "right": 572.2170874199998,
+            "bottom": 691.9663436000001
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Implemented GitOps with Argo CD ApplicationSets and centralized GitLab CI/CD templates .",
+          "page_no": 2,
+          "block_indices": [
+            52
+          ],
+          "bbox": {
+            "left": 43.526,
+            "top": 657.3185350743516,
+            "right": 505.6938184400001,
+            "bottom": 666.0633436
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Kubernetes & AWS Project",
+          "page_no": 2,
+          "block_indices": [
+            64
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 466.61688987723346,
+            "right": 147.65082922000002,
+            "bottom": 475.32345580000003
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Aug 2024 - Present",
+          "page_no": 2,
+          "block_indices": [
+            78
+          ],
+          "bbox": {
+            "left": 483.551,
+            "top": 584.4915350743515,
+            "right": 582.4786217399997,
+            "bottom": 593.2363435999999
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Built and operated production-grade Kubernetes platforms using Kubespray , Helm , and GitOps .",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 608.3975350743517,
+            "right": 519.0646239,
+            "bottom": 617.1423436000001
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Implemented backup and disaster recovery strategy using Longhorn , NFS for stateful workloads.",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 554.5995350743517,
+            "right": 503.71325355999994,
+            "bottom": 563.3443436000001
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Built a complete DevOps platform for a web application using Docker on VPS infrastructure.",
+          "page_no": 2,
+          "block_indices": [
+            58
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 556.9695350743516,
+            "right": 477.6769947200001,
+            "bottom": 565.7143436
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Implemented CI/CD pipelines with GitHub Actions for automated build, test, and deployment.",
+          "page_no": 2,
+          "block_indices": [
+            59
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 543.0225350743516,
+            "right": 482.1432283,
+            "bottom": 551.7673436
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Built a CI/CD pipeline using Jenkins , reducing release cycles from bi-weekly to weekly.",
+          "page_no": 2,
+          "block_indices": [
+            65
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 452.0835350743516,
+            "right": 450.28084097999977,
+            "bottom": 460.8283436
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Feb 2025 - Aug 2025",
+          "page_no": 1,
+          "block_indices": [
+            44
+          ],
+          "bbox": {
+            "left": 477.02601415000004,
+            "top": 429.96653507435167,
+            "right": 582.4791388899997,
+            "bottom": 438.7113436000001
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Designed and built an on-premise cloud platform (EC2-like service) enabling self-service VM provisioning on OpenStack .",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 389.9375350743517,
+            "right": 557.38476854,
+            "bottom": 410.63734360000007
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        },
+        {
+          "text": "Implemented full Infrastructure as Code using Terraform and Ansible AAP , automating provisioning workflows and reducing delivery time by 90% .",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 43.52600000000001,
+            "top": 364.0345350743517,
+            "right": 571.2367675799998,
+            "bottom": 384.7343436000001
+          },
+          "section_title": "ACADEMIC PROJECTS"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "section_type": "education",
+      "content": [],
+      "items": [
+        {
+          "title": "TEK-UP University",
+          "date": "Sep 2022 - Sep 2025",
+          "location": "Ariana, Tunisia",
+          "details": [
+            "Software and Information System Engineering",
+            "Higher Institute of Computer Science and Multimedia of Sfax",
+            "Bachelor in Computer Science"
+          ],
+          "evidence_spans": [
+            {
+              "text": "TEK-UP University",
+              "page_no": 2,
+              "block_indices": [
+                72
+              ],
+              "bbox": {
+                "left": 28.8,
+                "top": 319.5450307429395,
+                "right": 139.07681917,
+                "bottom": 329.1206426
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Sep 2022 - Sep 2025",
+              "page_no": 2,
+              "block_indices": [
+                79
+              ],
+              "bbox": {
+                "left": 479.685,
+                "top": 319.7265350743516,
+                "right": 582.4771142799997,
+                "bottom": 328.4713436
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Ariana, Tunisia",
+              "page_no": 2,
+              "block_indices": [
+                80
+              ],
+              "bbox": {
+                "left": 512.3138695400002,
+                "top": 306.18488987723345,
+                "right": 581.7103523600002,
+                "bottom": 314.8914558
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Software and Information System Engineering",
+              "page_no": 2,
+              "block_indices": [
+                73
+              ],
+              "bbox": {
+                "left": 28.80000000000001,
+                "top": 306.18488987723345,
+                "right": 230.2228505400001,
+                "bottom": 314.8914558
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Higher Institute of Computer Science and Multimedia of Sfax",
+              "page_no": 2,
+              "block_indices": [
+                74
+              ],
+              "bbox": {
+                "left": 28.80000000000001,
+                "top": 276.5060307429395,
+                "right": 370.09010258999996,
+                "bottom": 286.0816426
+              },
+              "section_title": "EDUCATION"
+            },
+            {
+              "text": "Bachelor in Computer Science",
+              "page_no": 2,
+              "block_indices": [
+                75
+              ],
+              "bbox": {
+                "left": 28.80000000000001,
+                "top": 263.14688987723343,
+                "right": 161.32947902000004,
+                "bottom": 271.8534558000001
+              },
+              "section_title": "EDUCATION"
+            }
+          ]
+        }
+      ],
+      "evidence_spans": [
+        {
+          "text": "TEK-UP University",
+          "page_no": 2,
+          "block_indices": [
+            72
+          ],
+          "bbox": {
+            "left": 28.8,
+            "top": 319.5450307429395,
+            "right": 139.07681917,
+            "bottom": 329.1206426
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Sep 2022 - Sep 2025",
+          "page_no": 2,
+          "block_indices": [
+            79
+          ],
+          "bbox": {
+            "left": 479.685,
+            "top": 319.7265350743516,
+            "right": 582.4771142799997,
+            "bottom": 328.4713436
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Ariana, Tunisia",
+          "page_no": 2,
+          "block_indices": [
+            80
+          ],
+          "bbox": {
+            "left": 512.3138695400002,
+            "top": 306.18488987723345,
+            "right": 581.7103523600002,
+            "bottom": 314.8914558
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Software and Information System Engineering",
+          "page_no": 2,
+          "block_indices": [
+            73
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 306.18488987723345,
+            "right": 230.2228505400001,
+            "bottom": 314.8914558
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Higher Institute of Computer Science and Multimedia of Sfax",
+          "page_no": 2,
+          "block_indices": [
+            74
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 276.5060307429395,
+            "right": 370.09010258999996,
+            "bottom": 286.0816426
+          },
+          "section_title": "EDUCATION"
+        },
+        {
+          "text": "Bachelor in Computer Science",
+          "page_no": 2,
+          "block_indices": [
+            75
+          ],
+          "bbox": {
+            "left": 28.80000000000001,
+            "top": 263.14688987723343,
+            "right": 161.32947902000004,
+            "bottom": 271.8534558000001
+          },
+          "section_title": "EDUCATION"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.8276,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 4931,
+      "section_completeness": 0.8333,
+      "ordering_coherence": 0.7,
+      "segmentation_stability": 0.6,
+      "layout_block_coverage": 1.0,
+      "ocr_noise_ratio": 0.3987,
+      "weird_section_ratio": 0.0,
+      "section_count": 5,
+      "expected_section_hits": 5,
+      "markdown_chars": 5102,
+      "markdown_words": 665,
+      "markdown_has_experience": true,
+      "markdown_has_education": true,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 3,
+      "markdown_weird_char_ratio": 0.0002,
+      "markdown_glued_line_count": 8,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=2\", \"pdf_total_text_chars=5031\", \"pdf_total_text_words=685\", \"pdf_avg_text_chars_per_page=2515.5\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": []
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "Khalil Maatoug",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 225.788,
+        "top": 752.0886827809799,
+        "right": 385.17026000000004,
+        "bottom": 770.2254750000001
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "Cloud DevOps Engineer & Kubernetes Production",
+      "page_no": 1,
+      "block_indices": [
+        1
+      ],
+      "bbox": {
+        "left": 155.62,
+        "top": 738.2164267481268,
+        "right": 455.66682751999974,
+        "bottom": 748.7102672
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Tunis, Tunisia",
+      "page_no": 1,
+      "block_indices": [
+        2
+      ],
+      "bbox": {
+        "left": 271.64,
+        "top": 720.8921792965418,
+        "right": 339.6451475799998,
+        "bottom": 730.4259153
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "+216 58 842 815",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 74.56099999999998,
+        "top": 705.1328898772334,
+        "right": 147.06681028000003,
+        "bottom": 713.8394558
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "maatoug610@gmail.com",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 163.67446448000004,
+        "top": 705.1328898772334,
+        "right": 268.2817644800001,
+        "bottom": 713.8394558
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "linkedin.com/in/khalil-maatoug",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 284.8794560800001,
+        "top": 705.1328898772334,
+        "right": 422.97304719999994,
+        "bottom": 713.8394558
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "github.com/khalilMaat",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 439.58070139999995,
+        "top": 705.1328898772334,
+        "right": 540.0375822399999,
+        "bottom": 713.8394558
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "DevOps Engineer",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 622.3778898772335,
+        "right": 104.31451548000001,
+        "bottom": 631.0844558000001
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Migrated microservices from Docker Swarm to Kubernetes , improving scalability , resilience , and deployment efficiency.",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 582.5028898772335,
+        "right": 573.6128476799998,
+        "bottom": 603.1953436000001
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Optimized GitLab CI/CD pipelines enabling daily zero-downtime deployments .",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 568.5475350743517,
+        "right": 437.6442791400002,
+        "bottom": 577.2923436000001
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Enhanced security, observability, and reliability using BunkerWeb WAF , Prometheus , Grafana , ELK , and SLO/SLI practices .",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 528.6965350743517,
+        "right": 567.22682108,
+        "bottom": 549.3963436000001
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Executed zero-downtime Kubernetes master node migration by restoring etcd , joining a new control plane, and safely draining the old node.",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 502.8018898772335,
+        "right": 582.4805579399998,
+        "bottom": 523.4943436000001
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Improved cluster network architecture by migrating internal communication from public to private IPs , ensuring HA stability and maintaining etcd quorum .",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 476.89053507435165,
+        "right": 582.4755766399996,
+        "bottom": 497.5913436000001
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Performed chaos engineering experiments to validate fault tolerance , improve recovery strategies, and strengthen platform resilience.",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 450.9968898772335,
+        "right": 575.4071119399996,
+        "bottom": 471.68834360000005
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "OneTECH Business Solutions",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 429.78503074293957,
+        "right": 192.35468174999997,
+        "bottom": 439.36064260000006
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "DevOps Cloud Engineer",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 416.42588987723354,
+        "right": 133.07753794,
+        "bottom": 425.1324558000001
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Architected a high-availability RabbitMQ cluster to orchestrate asynchronous provisioning workflows with fault tolerance and scalability.",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 324.18353507435177,
+        "right": 565.6517340199999,
+        "bottom": 344.88334360000016
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Integrated Kubernetes to support containerized workloads within the platform ecosystem.",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 310.2355350743518,
+        "right": 453.60237182,
+        "bottom": 318.9803436000002
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "AWS DevOps Engineer",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 261.7258898772336,
+        "right": 129.81279392,
+        "bottom": 270.4324558000002
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Deployed highly available backend with ALB (99.99% uptime) and RDS Multi-AZ (99.95% availability) .",
+      "page_no": 1,
+      "block_indices": [
+        30
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 207.34153507435167,
+        "right": 546.4737290200003,
+        "bottom": 216.0863436000002
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "OneTECH Business Solutions",
+      "page_no": 1,
+      "block_indices": [
+        32
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 172.19103074293957,
+        "right": 192.35468174999997,
+        "bottom": 181.76664260000007
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "System & DevOps Engineer Intern",
+      "page_no": 1,
+      "block_indices": [
+        33
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 158.8318898772336,
+        "right": 180.33214226000004,
+        "bottom": 167.53845580000007
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Deployed a high-availability Kubernetes cluster with 99.9% uptime using Ansible automation .",
+      "page_no": 1,
+      "block_indices": [
+        34
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 144.29853507435166,
+        "right": 508.7124862400002,
+        "bottom": 153.04334360000007
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Improved system performance and operational efficiency by 75% .",
+      "page_no": 1,
+      "block_indices": [
+        36
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 116.4025350743517,
+        "right": 339.5535158000001,
+        "bottom": 125.14734360000011
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "BNA - Banque Nationale Agricole",
+      "page_no": 1,
+      "block_indices": [
+        37
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 95.20003074293959,
+        "right": 217.62233916999998,
+        "bottom": 104.77564260000008
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "System & DevOps Engineer Intern",
+      "page_no": 1,
+      "block_indices": [
+        38
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 81.84088987723351,
+        "right": 180.33214226000004,
+        "bottom": 90.54745580000008
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Managed containerized deployments with Docker and Kubernetes .",
+      "page_no": 1,
+      "block_indices": [
+        40
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 53.3595350743517,
+        "right": 354.9616729600002,
+        "bottom": 62.10434360000011
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Integrated SonarQube and ELK , reducing issue resolution time by 60% .",
+      "page_no": 1,
+      "block_indices": [
+        41
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 39.41153507435172,
+        "right": 379.61512292,
+        "bottom": 48.15634360000013
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "DevOps k8s Platform (VPS & AWS)",
+      "page_no": 2,
+      "block_indices": [
+        49
+      ],
+      "bbox": {
+        "left": 32.364000000000004,
+        "top": 723.1038898772335,
+        "right": 193.1195173400001,
+        "bottom": 731.8104558000001
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Provisioned a high-availability cluster using Kubespray with full observability stack (Prometheus, Grafana, Alertmanager, ELK).",
+      "page_no": 2,
+      "block_indices": [
+        53
+      ],
+      "bbox": {
+        "left": 43.526,
+        "top": 631.4238898772334,
+        "right": 555.2846524600002,
+        "bottom": 652.1153436
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Enhanced security using WAF (BunkerWeb) and automated TLS management across VPS and AWS",
+      "page_no": 2,
+      "block_indices": [
+        54
+      ],
+      "bbox": {
+        "left": 43.526,
+        "top": 617.4675350743515,
+        "right": 524.4264952200002,
+        "bottom": 626.2123435999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "environments.",
+      "page_no": 2,
+      "block_indices": [
+        55
+      ],
+      "bbox": {
+        "left": 52.800000000000004,
+        "top": 605.5208898772333,
+        "right": 113.48518538000002,
+        "bottom": 614.2274557999999
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "SMA-Assistant",
+      "page_no": 2,
+      "block_indices": [
+        56
+      ],
+      "bbox": {
+        "left": 28.800000000000004,
+        "top": 584.3100307429394,
+        "right": 111.63497811999997,
+        "bottom": 593.8856426
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Open Source DevOps Platform",
+      "page_no": 2,
+      "block_indices": [
+        57
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 570.9508898772334,
+        "right": 161.97904054,
+        "bottom": 579.6574558
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Configured Nginx reverse proxy for efficient routing between frontend and backend services.",
+      "page_no": 2,
+      "block_indices": [
+        60
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 529.0745350743516,
+        "right": 468.1557379000001,
+        "bottom": 537.8193436
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Integrated AWS Lambda for serverless APIs, improving scalability and reducing infrastructure overhead.",
+      "page_no": 2,
+      "block_indices": [
+        61
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 515.1265350743516,
+        "right": 519.2887824,
+        "bottom": 523.8713436
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Ensured high availability through automation, monitoring, and containerized architecture.",
+      "page_no": 2,
+      "block_indices": [
+        62
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 501.17953507435163,
+        "right": 456.82527292,
+        "bottom": 509.92434360000004
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Cloud-Native Java Application Deployment",
+      "page_no": 2,
+      "block_indices": [
+        63
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 479.9770307429395,
+        "right": 268.59619983000005,
+        "bottom": 489.5526426
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Integrated DevOps toolchain (Maven, SonarQube, Trivy, Nexus, Docker, Kubernetes, Prometheus, Grafana).",
+      "page_no": 2,
+      "block_indices": [
+        66
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 438.1355350743516,
+        "right": 539.9691474800002,
+        "bottom": 446.8803436
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Improved deployment reliability and reduced failures by 50% on Kubernetes.",
+      "page_no": 2,
+      "block_indices": [
+        67
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 424.1875350743516,
+        "right": 391.06414284000016,
+        "bottom": 432.9323436
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "Achievements / Certification",
+      "page_no": 2,
+      "block_indices": [
+        68
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 399.8944267481268,
+        "right": 198.89499904,
+        "bottom": 410.38826720000003
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "RHCSA & RHCE certified - Linux administration and Ansible automation.",
+      "page_no": 2,
+      "block_indices": [
+        69
+      ],
+      "bbox": {
+        "left": 28.8,
+        "top": 382.9535350743516,
+        "right": 378.82200336,
+        "bottom": 391.6983436
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "AWS Certified (9 badges) - Cloud fundamentals and DevOps practices.",
+      "page_no": 2,
+      "block_indices": [
+        70
+      ],
+      "bbox": {
+        "left": 28.8,
+        "top": 364.0245350743516,
+        "right": 358.84499784,
+        "bottom": 372.7693436
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": "AxoneData",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 28.8,
+        "top": 635.7380307429395,
+        "right": 90.59350604000002,
+        "bottom": 645.3136426000001
+      },
+      "section_title": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "text": "Freelance AWS Project",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 275.08603074293967,
+        "right": 157.33756166,
+        "bottom": 284.66164260000016
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Dec 2024 - Feb 2025",
+      "page_no": 1,
+      "block_indices": [
+        43
+      ],
+      "bbox": {
+        "left": 478.65133686,
+        "top": 275.2675350743518,
+        "right": 582.4785652799997,
+        "bottom": 284.0123436000002
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Sfax, Tunisia",
+      "page_no": 2,
+      "block_indices": [
+        82
+      ],
+      "bbox": {
+        "left": 524.137,
+        "top": 263.14688987723343,
+        "right": 581.7158466999999,
+        "bottom": 271.8534558000001
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Developed a self-service portal (Angular + Spring Boot) allowing users to provision and securely access VMs .",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 350.08653507435173,
+        "right": 546.9678739799998,
+        "bottom": 358.83134360000014
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Implemented monitoring and observability using Prometheus and Grafana for real-time infrastructure insights.",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 296.2885350743518,
+        "right": 569.2034009199999,
+        "bottom": 305.0333436000002
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Built a 3-tier AWS architecture using Terraform and Ansible , reducing deployment time by 70% .",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 247.19253507435178,
+        "right": 507.89654930000006,
+        "bottom": 255.9373436000002
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Designed secure VPC architecture and optimized frontend delivery using CloudFront + Route53 + SSL ( ↓ latency by 50%).",
+      "page_no": 1,
+      "block_indices": [
+        29
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 221.2978898772335,
+        "right": 582.4835467199999,
+        "bottom": 244.48995620000017
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Implemented full CI/CD pipeline with AWS services and proactive monitoring using CloudWatch .",
+      "page_no": 1,
+      "block_indices": [
+        31
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 193.39453507435167,
+        "right": 501.03032537999985,
+        "bottom": 202.13934360000007
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Implemented full observability stack (Prometheus, Grafana, ELK) for monitoring and logging.",
+      "page_no": 1,
+      "block_indices": [
+        35
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 130.35053507435168,
+        "right": 476.44760988,
+        "bottom": 139.0953436000001
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Built a CI/CD pipeline using Jenkins for Java applications.",
+      "page_no": 1,
+      "block_indices": [
+        39
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 67.3065350743517,
+        "right": 328.5448427999999,
+        "bottom": 76.05134360000011
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Projects",
+      "page_no": 2,
+      "block_indices": [
+        47
+      ],
+      "bbox": {
+        "left": 28.8,
+        "top": 757.1484267481268,
+        "right": 77.71828736,
+        "bottom": 767.6422672
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Sep 2025 - Present",
+      "page_no": 1,
+      "block_indices": [
+        45
+      ],
+      "bbox": {
+        "left": 486.326,
+        "top": 635.9195350743516,
+        "right": 582.4800338999997,
+        "bottom": 644.6643436
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Production Kubernetes Platform for Microservices",
+      "page_no": 2,
+      "block_indices": [
+        48
+      ],
+      "bbox": {
+        "left": 28.8,
+        "top": 736.4640307429395,
+        "right": 309.03405171,
+        "bottom": 746.0396426000001
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Designed and operated a production-grade Kubernetes platform supporting Dev, Preprod, and Prod environments for microservices.",
+      "page_no": 2,
+      "block_indices": [
+        50
+      ],
+      "bbox": {
+        "left": 43.526,
+        "top": 697.1768898772335,
+        "right": 535.0476230800002,
+        "bottom": 717.8683436000001
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Developed reusable Helm charts (HPA, VPA, Ingress, PVC, RBAC, probes, databases) to standardize and accelerate deployments.",
+      "page_no": 2,
+      "block_indices": [
+        51
+      ],
+      "bbox": {
+        "left": 43.526,
+        "top": 671.2738898772335,
+        "right": 572.2170874199998,
+        "bottom": 691.9663436000001
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Implemented GitOps with Argo CD ApplicationSets and centralized GitLab CI/CD templates .",
+      "page_no": 2,
+      "block_indices": [
+        52
+      ],
+      "bbox": {
+        "left": 43.526,
+        "top": 657.3185350743516,
+        "right": 505.6938184400001,
+        "bottom": 666.0633436
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Kubernetes & AWS Project",
+      "page_no": 2,
+      "block_indices": [
+        64
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 466.61688987723346,
+        "right": 147.65082922000002,
+        "bottom": 475.32345580000003
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Aug 2024 - Present",
+      "page_no": 2,
+      "block_indices": [
+        78
+      ],
+      "bbox": {
+        "left": 483.551,
+        "top": 584.4915350743515,
+        "right": 582.4786217399997,
+        "bottom": 593.2363435999999
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Built and operated production-grade Kubernetes platforms using Kubespray , Helm , and GitOps .",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 608.3975350743517,
+        "right": 519.0646239,
+        "bottom": 617.1423436000001
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Implemented backup and disaster recovery strategy using Longhorn , NFS for stateful workloads.",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 554.5995350743517,
+        "right": 503.71325355999994,
+        "bottom": 563.3443436000001
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Built a complete DevOps platform for a web application using Docker on VPS infrastructure.",
+      "page_no": 2,
+      "block_indices": [
+        58
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 556.9695350743516,
+        "right": 477.6769947200001,
+        "bottom": 565.7143436
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Implemented CI/CD pipelines with GitHub Actions for automated build, test, and deployment.",
+      "page_no": 2,
+      "block_indices": [
+        59
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 543.0225350743516,
+        "right": 482.1432283,
+        "bottom": 551.7673436
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Built a CI/CD pipeline using Jenkins , reducing release cycles from bi-weekly to weekly.",
+      "page_no": 2,
+      "block_indices": [
+        65
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 452.0835350743516,
+        "right": 450.28084097999977,
+        "bottom": 460.8283436
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Feb 2025 - Aug 2025",
+      "page_no": 1,
+      "block_indices": [
+        44
+      ],
+      "bbox": {
+        "left": 477.02601415000004,
+        "top": 429.96653507435167,
+        "right": 582.4791388899997,
+        "bottom": 438.7113436000001
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Designed and built an on-premise cloud platform (EC2-like service) enabling self-service VM provisioning on OpenStack .",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 389.9375350743517,
+        "right": 557.38476854,
+        "bottom": 410.63734360000007
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "Implemented full Infrastructure as Code using Terraform and Ansible AAP , automating provisioning workflows and reducing delivery time by 90% .",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 43.52600000000001,
+        "top": 364.0345350743517,
+        "right": 571.2367675799998,
+        "bottom": 384.7343436000001
+      },
+      "section_title": "ACADEMIC PROJECTS"
+    },
+    {
+      "text": "TEK-UP University",
+      "page_no": 2,
+      "block_indices": [
+        72
+      ],
+      "bbox": {
+        "left": 28.8,
+        "top": 319.5450307429395,
+        "right": 139.07681917,
+        "bottom": 329.1206426
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Sep 2022 - Sep 2025",
+      "page_no": 2,
+      "block_indices": [
+        79
+      ],
+      "bbox": {
+        "left": 479.685,
+        "top": 319.7265350743516,
+        "right": 582.4771142799997,
+        "bottom": 328.4713436
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Ariana, Tunisia",
+      "page_no": 2,
+      "block_indices": [
+        80
+      ],
+      "bbox": {
+        "left": 512.3138695400002,
+        "top": 306.18488987723345,
+        "right": 581.7103523600002,
+        "bottom": 314.8914558
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Software and Information System Engineering",
+      "page_no": 2,
+      "block_indices": [
+        73
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 306.18488987723345,
+        "right": 230.2228505400001,
+        "bottom": 314.8914558
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Higher Institute of Computer Science and Multimedia of Sfax",
+      "page_no": 2,
+      "block_indices": [
+        74
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 276.5060307429395,
+        "right": 370.09010258999996,
+        "bottom": 286.0816426
+      },
+      "section_title": "EDUCATION"
+    },
+    {
+      "text": "Bachelor in Computer Science",
+      "page_no": 2,
+      "block_indices": [
+        75
+      ],
+      "bbox": {
+        "left": 28.80000000000001,
+        "top": 263.14688987723343,
+        "right": 161.32947902000004,
+        "bottom": 271.8534558000001
+      },
+      "section_title": "EDUCATION"
+    }
+  ]
+}

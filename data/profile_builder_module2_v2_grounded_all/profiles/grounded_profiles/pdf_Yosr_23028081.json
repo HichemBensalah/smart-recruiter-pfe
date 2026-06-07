@@ -1,0 +1,224 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Yosr_23028081.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Yosr_23028081.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.6589,
+  "normalization": {
+    "cleaned_markdown": "## YOSR FRINI\n\nIngénieure en Intelligence Artificielle\nyosr.frini@gmail.com\nwww. linkedin.com/in/yoser-frini\n\n## TECHNICAL SKILLS\n\nIngénieure en informatique spécialisée en Intelligence Artificielle, passionnée par le développement de solutions innovantes basées sur les données et les technologies d'IA. Très motivée à appliquer mes compétences en Machine Learning, Deep Learning et IA générative pour résoudre des problématiques réelles et créer des systèmes intelligents à forte valeur ajoutée.\nEntraînement d'un modèle NER avec spaCy pour l'extraction des compétences, spécialités et expériences à partir des CV.\nCOMPETENCES\nLangages de programmation: Python, Java, R, C/C++\nBases de données & Big Data: SQL, NoSQL, PL/SQL, Spark, Hadoop\nBusiness Intelligence & Visualisation: Power BI, Tableau, SSIS, SSAS, SSRS\nMLOps & Déploiement: CI/CD, Docker, Kubernetes, Déploiement de modèles ML/IA, APIs (FastAPI, Flask)\nPython Essentials For MLOps\nMLOps Platforms: Amazon SageMaker and Azure ML\nDevOps, Data Ops, MLOps\n\n## EXPERIENCE PROFESSIONNELLE\n\nIngénieure en Intelligence Artificielle\nSiyadah AI, Tunis, Tunisie\nParticipation au développement d'un système multi-agents pour automatiser des campagnes marketing Whats App et Email.\nMise en place de workflows automatisés avec n 8 n, réduisant les tâches manuelles de 50% et améliorant l'efficacité marketing.\n\n## EDUCATION\n\nStage de Fin d'études en Data Science\n## Tanitlab, Tunis, Tunisie\n**Date: ** Dec 2025- Present\nCollecte, préparation et analyse des données marketing de Kiabi afin d'identifier l'impact des différents canaux publicitaires.\n- Entraînement de modèles Marketing Mix Modeling pour mesurer la contribution des canaux et guider l'allocation du budget.\n- Déploiement du modèle via une API Flask pour visualiser les performances et simuler l'optimisation du budget.\n- Stage Ingénieur en Intelligence Artificielle\n## Linedata, Tunis, Tunisie\n**Date: ** Juin 2024- Aoû 2024\n- FORMATION\n## École Supérieure Privée d'Ingénierie et de technologies (ESPRIT), Tunisie\n**Date: ** Sep 2020 - Juil 2025\n## Baccalauréat En Sciences Expérimentales\n**Date: ** Sep 2015 - Juil 2019\n## Lycée Carthage Dermech, Tunisie\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nPréparation, nettoyage et tokenisation des CV pour leur traitement dans un pipeline NLP.\nIntroduction to Transformer Based-Natural Language Processing\nBuilding AI-Based Cybersecurity Pipelines\n\n## PROFESSIONAL SUMMARY\n\nCalcul de similarité sémantique et déploiement via API pour afficher les profils les plus pertinents avec un score de pertinence.\nTraitement des documents PDF de ODDO BHF: tokenization du texte, génération d'embeddings et stockage dans Chroma DB.\nDéveloppement d'un chatbot basé sur RAG utilisant un LLM pour générer des réponses à partir du contexte récupéré.\nPréparation et annotation d'un dataset d'images de billets de banque tunisiens\nEntraînement d'un modèle YOLOv 7 pour la détection en temps réel de billets avec retour vocal pour aide aux malvoyants.\n\n## PROJETS ACADÉMIQUES\n\nProjet IA Générative\n\n## MACHINE LEARNING & DEEP LEARNING\n\nProjet Deep Learning\nProjet Business Intelligence Et Machine Learning\nAnalyse décisionnelle et prédictive des données d'un Global Super Store à l'aide d'ETL, de cubes OLAP et de modèles de Machine Learning pour visualiser les tendances et prédire les ventes.\nCycle d'ingénieur Informatique (Spécialisation En Intelligence Artificielle)\nMachine Learning & Deep Learning: Modèles supervisés et non supervisés, CNN, RNN, Transformers, NLP, NLU, PyTorch, TensorFlow, Hugging Face, Scikit-learn\nIA Générative & Agents intelligents: LLMs, RAG, Prompt Engineering, Lang Chain, Lang Graph, Vector DB, Crew AI\nNvidia Fundamentals of Deep Learning\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATS\n\n## LANGUAGES\n\nLANGUES\nFrançais B 2 · Anglais B 2 · Arabe langue maternelle",
+    "header_info": {
+      "full_name": "YOSR FRINI",
+      "email": "yosr.frini@gmail.com",
+      "phone": null,
+      "location": "Ingénieure en informatique spécialisée en Intelligence Artificielle, passionnée par le développement de solutions innovantes basées sur les données et les technologies d'IA. Très motivée à appliquer mes compétences en Machine Learning, Deep Learning et IA générative pour résoudre des problématiques réelles et créer des systèmes intelligents à forte valeur ajoutée.",
+      "linkedin": "linkedin.com/in/yoser-frini",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.7877,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[2].year"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "education[0].institution",
+      "education[1].institution",
+      "education[1].year",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.soft_skills[8]",
+      "expertise.soft_skills[9]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": [
+      "education[2].year"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "YOSR FRINI",
+      "email": "yosr.frini@gmail.com",
+      "phone": null,
+      "location": "Ingénieure en informatique spécialisée en Intelligence Artificielle, passionnée par le développement de solutions innovantes basées sur les données et les technologies d'IA.",
+      "linkedin": "linkedin.com/in/yoser-frini",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Calcul de similarité sémantique et déploiement via API pour afficher les profils les plus pertinents avec un score de pertinence.",
+      "experience_level": "mid_level",
+      "years_experience": 2,
+      "hard_skills": [
+        "Python",
+        "Java",
+        "R",
+        "C/C++",
+        "SQL",
+        "NoSQL",
+        "PL/SQL",
+        "Spark",
+        "Hadoop",
+        "Power BI",
+        "Tableau",
+        "SSIS",
+        "SSAS",
+        "SSRS",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "FastAPI",
+        "Flask",
+        "Amazon SageMaker",
+        "Azure ML"
+      ],
+      "soft_skills": [
+        "Machine Learning",
+        "Deep Learning",
+        "IA générative",
+        "NLP",
+        "NLU",
+        "Prompt Engineering",
+        "Lang Chain",
+        "Lang Graph",
+        "Vector DB",
+        "Crew AI"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Siyadah AI",
+        "job_title": "Ingénieure en Intelligence Artificielle",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Participation au développement d'un système multi-agents pour automatiser des campagnes marketing Whats App et Email.",
+          "Mise en place de workflows automatisés avec n 8 n, réduisant les tâches manuelles de 50% et améliorant l'efficacité marketing."
+        ]
+      },
+      {
+        "company": "Linedata",
+        "job_title": "Ingénieur en Intelligence Artificielle",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Collecte, préparation et analyse des données marketing de Kiabi afin d'identifier l'impact des différents canaux publicitaires.",
+          "Entraînement de modèles Marketing Mix Modeling pour mesurer la contribution des canaux et guider l'allocation du budget."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Linedata",
+        "degree": null,
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Tanitlab",
+        "degree": null,
+        "field": null,
+        "year": "Dec 2025 - Present"
+      },
+      {
+        "institution": "ESPRIT",
+        "degree": "Baccalauréat En Sciences Expérimentales",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français B 2",
+      "Anglais B 2",
+      "Arabe (langue maternelle)"
+    ],
+    "certifications": [],
+    "status": "partial"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:05:09.580713+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

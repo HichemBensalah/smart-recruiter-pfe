@@ -1,0 +1,89 @@
+## HEADER
+
+Khalil Maatoug
+
+## TECHNICAL SKILLS
+
+Cloud Dev Ops Engineer & Kubernetes Production
+Tunis, Tunisia
+maatoug 610@gmail. com
+linkedin. com/in/khalil-maatoug
+github. com/khalil Maat
+Dev Ops Engineer
+Migrated microservices from Docker Swarm to Kubernetes , improving scalability , resilience , and deployment efficiency.
+Optimized Git Lab CI/CD pipelines enabling daily zero-downtime deployments .
+Enhanced security, observability, and reliability using Bunker Web WAF , Prometheus , Grafana , ELK , and SLO/SLI practices .
+Executed zero-downtime Kubernetes master node migration by restoring etcd , joining a new control plane, and safely draining the old node.
+Improved cluster network architecture by migrating internal communication from public to private IPs , ensuring HA stability and maintaining etcd quorum .
+Performed chaos engineering experiments to validate fault tolerance , improve recovery strategies, and strengthen platform resilience.
+One TECH Business Solutions
+Dev Ops Cloud Engineer
+Architected a high-availability Rabbit MQ cluster to orchestrate asynchronous provisioning workflows with fault tolerance and scalability.
+Integrated Kubernetes to support containerized workloads within the platform ecosystem.
+AWS Dev Ops Engineer
+Deployed highly available backend with ALB (99. 99% uptime) and RDS Multi-AZ (99. 95% availability) .
+One TECH Business Solutions
+System & Dev Ops Engineer Intern
+Deployed a high-availability Kubernetes cluster with 99. 9% uptime using Ansible automation .
+Improved system performance and operational efficiency by 75% .
+BNA - Banque Nationale Agricole
+System & Dev Ops Engineer Intern
+Managed containerized deployments with Docker and Kubernetes .
+Integrated Sonar Qube and ELK , reducing issue resolution time by 60% .
+Dev Ops k 8 s Platform (VPS & AWS)
+Provisioned a high-availability cluster using Kubespray with full observability stack (Prometheus, Grafana, Alertmanager, ELK).
+Enhanced security using WAF (Bunker Web) and automated TLS management across VPS and AWS
+environments.
+SMA-Assistant
+Open Source Dev Ops Platform
+Configured Nginx reverse proxy for efficient routing between frontend and backend services.
+Integrated AWS Lambda for serverless APIs, improving scalability and reducing infrastructure overhead.
+Ensured high availability through automation, monitoring, and containerized architecture.
+Cloud-Native Java Application Deployment
+Integrated Dev Ops toolchain (Maven, Sonar Qube, Trivy, Nexus, Docker, Kubernetes, Prometheus, Grafana).
+Improved deployment reliability and reduced failures by 50% on Kubernetes.
+Achievements/Certification
+RHCSA & RHCE certified - Linux administration and Ansible automation.
+AWS Certified (9 badges) - Cloud fundamentals and Dev Ops practices.
+
+## PROFESSIONAL EXPERIENCE
+
+Axone Data
+
+## ACADEMIC PROJECTS
+
+### Freelance AWS Project
+**Date:** Dec 2024 - Feb 2025
+**Location:** Sfax, Tunisia
+- Developed a self-service portal (Angular + Spring Boot) allowing users to provision and securely access VMs .
+- Implemented monitoring and observability using Prometheus and Grafana for real-time infrastructure insights.
+- Built a 3-tier AWS architecture using Terraform and Ansible , reducing deployment time by 70% .
+- Designed secure VPC architecture and optimized frontend delivery using Cloud Front + Route 53 + SSL ( ↓ latency by 50%).
+- Implemented full CI/CD pipeline with AWS services and proactive monitoring using Cloud Watch .
+- Implemented full observability stack (Prometheus, Grafana, ELK) for monitoring and logging.
+- Built a CI/CD pipeline using Jenkins for Java applications.
+### Projects
+**Date:** Sep 2025 - Present
+- Production Kubernetes Platform for Microservices
+- Designed and operated a production-grade Kubernetes platform supporting Dev, Preprod, and Prod environments for microservices.
+- Developed reusable Helm charts (HPA, VPA, Ingress, PVC, RBAC, probes, databases) to standardize and accelerate deployments.
+- Implemented Git Ops with Argo CD Application Sets and centralized Git Lab CI/CD templates .
+### Kubernetes & AWS Project
+**Date:** Aug 2024 - Present
+- Built and operated production-grade Kubernetes platforms using Kubespray , Helm , and Git Ops .
+- Implemented backup and disaster recovery strategy using Longhorn , NFS for stateful workloads.
+- Built a complete Dev Ops platform for a web application using Docker on VPS infrastructure.
+- Implemented CI/CD pipelines with Git Hub Actions for automated build, test, and deployment.
+Built a CI/CD pipeline using Jenkins , reducing release cycles from bi-weekly to weekly.
+**Date:** Feb 2025 - Aug 2025
+- Designed and built an on-premise cloud platform (EC 2-like service) enabling self-service VM provisioning on Open Stack .
+- Implemented full Infrastructure as Code using Terraform and Ansible AAP , automating provisioning workflows and reducing delivery time by 90% .
+
+## EDUCATION
+
+### TEK-UP University
+**Date:** Sep 2022 - Sep 2025
+**Location:** Ariana, Tunisia
+- Software and Information System Engineering
+- Higher Institute of Computer Science and Multimedia of Sfax
+- Bachelor in Computer Science

@@ -1,0 +1,192 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Trabelsi_Oussema_23021038.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Trabelsi_Oussema_23021038.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8403,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nOussema Trabelsi\nIngénieur en Science des Données\nTél: +216 25131516| Email: trabelsiossama 0123@gmail.com\nAdresse: Tunis | Linked In: https: //www.linkedin.com/in/oussema-trabelsi-a 8902030 b\n\n## TECHNICAL SKILLS\n\nCOMPÉTENCES\nBI et Data Analytics: Power BI, SSIS, Talend.\nBases de données: MySQL, SQL Server, NoSQL.\nDéveloppement Web: HTML, CSS, NodeJS, ReactJS, Angular JS.\n\n## MACHINE LEARNING & DEEP LEARNING\n\nMachine Learning: Python, Scikit-learn, TensorFlow, Keras, Pandas, NumPy, Matplotlib, LLM.\nStage en Science des Données et Développement Web | Access Content Agency | Février 2025 - Juillet 2025\nConception d'un modèle de Machine Learning pour classifier automatiquement les CV par domaine d'expertise, réduisant le temps de présélection.\nMots-clés: Power BI, LLM, RAG, Machine Learning, NLP, Angular JS, Flask.\nStage en Visualisation et Analyse de Données | Vastsky 123 | Juin 2023 - Août 2023 .\nUtilisation de Python pour des tâches de nettoyage de données.\nMots-clés: Python, ReactJS, NodeJS, Chart. Js, MongoDB.\nDéveloppement d'une plateforme web permettantvaux utilisateurs de localiser et de contacter directement divers perstataires de service.\nMots-clés: ReactJS, NodeJS, MongoDB.\nCÉRTIFICATIONS\nPython Certified Associate Programmer (PCAP) | Mai 2025\nIntroduction to Data Analytics (Google) | Novembre 2024\nNVIDIA DLI Certificate: Fundamentals of Deep Learning | Janvier 2022\nÉDUCATION\n\n## PROFESSIONAL EXPERIENCE\n\nEXPÉRIENCE\n\n## PROFESSIONAL SUMMARY\n\nUtilisation de LLMs pour générer des résumés de CV et aider à la rédaction d'offres d'emploi adaptées aux profils.\nMise en œuvre d'un système de recommandation sémantique (RAG) associant les CV aux offres grâce aux embeddings et au scoring de similarité.\n\n## EDUCATION\n\nApplication de techniques NLP pour la recherche sémantique, l'extraction d'informations clés et l'analyse des réponses des candidats.\n- Création de tableaux de bord Power BI pour suivre les KPIs de recrutement et analyser le tunnel d'embauche.\nDéveloppement full stack d'une plateforme de recrutement (Angular, Flask) avec gestion sécurisée multi-rôles (RH, administrateurs, candidats).\nStage en Analyse de Données et Développement Web | COFICAB | Juillet 2024 - Septembre 2024\n- Conception d'un processus ETL pour intégrer des données de consommation dans un entrepôt de données.\n- Création de tableaux de bord Power BI avec des KPIs dynamiques (DAX) et application de règles de sécurité (RLS).\nDéveloppement d'une application web permettant la gestion des données selon les rôles d'utilisateur, avec intégration d'un rapport Power BI filtré.\nConfiguration d'un package SSIS et d'un agent SQL Server pour automatiser l'ETL, offrant à l'administrateur un suivi direct des processus depuis l'application web.\nMots-clés: ETL, Power BI, KPIs, DAX, SSIS, SQL Server, Angular JS, Flask, Row-Level Security (RLS).\n- Création d'une application web ReactJS avec un tableau de bord utilisant Chart. Js.\nStage en Développement Web (PFE) | L'Agence Foncière d'Habitation (AFH) | Février 2022 - Mai 2022\n- Mise en œuvre de fonctionnalités permettant aux utilisateurs de publier leur travail.\nIngénierie en Science des Données et intelligence artificielle | Université Tek-up | Promotion 2025.\nMaster en Science des Données | Institut Supérieur d'Informatique de Mahdia | Promotion 2025.\nLicence en Science de l'informatique | Institut Supérieur d'Informatique de Mahdia | Promotion 2022 .\n- Intermédiaire\n- Anglais:\n- Avancée.\n\n## VIE ASSOCIATIVE\n\nMembre, Junior Chamber International (JCI) Sidi Hassin.\n\n## LANGUAGES\n\nLANGUES\nNative\nFrançais:\nArabe:",
+    "header_info": {
+      "full_name": "Oussema Trabelsi",
+      "email": "0123@gmail.com",
+      "phone": "+216 25131516",
+      "location": null,
+      "linkedin": "www.linkedin.com/in/oussema-trabelsi-a",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9681,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.phone",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "education[2].degree",
+      "education[2].institution",
+      "experiences[0].responsibilities[0]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[10]",
+      "expertise.soft_skills[11]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[7]",
+      "expertise.soft_skills[8]",
+      "expertise.soft_skills[9]",
+      "expertise.summary",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Oussema Trabelsi",
+      "email": "trabelsiossama 0123@gmail.com",
+      "phone": "+216 25131516",
+      "location": null,
+      "linkedin": "https: //www.linkedin.com/in/oussema-trabelsi-a 8902030 b",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Utilisation de LLMs pour générer des résumés de CV et aider à la rédaction d'offres d'emploi adaptées aux profils.",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Power BI",
+        "SSIS",
+        "Talend",
+        "MySQL",
+        "SQL Server",
+        "NoSQL",
+        "HTML",
+        "CSS",
+        "NodeJS",
+        "ReactJS",
+        "Angular JS",
+        "Python",
+        "Scikit-learn",
+        "TensorFlow",
+        "Keras",
+        "Pandas",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "soft_skills": [
+        "Machine Learning",
+        "NLP",
+        "RAG",
+        "ETL",
+        "DAX",
+        "SSIS",
+        "SQL Server",
+        "Angular JS",
+        "Flask",
+        "ReactJS",
+        "NodeJS",
+        "MongoDB"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception d'un modèle de Machine Learning pour classifier automatiquement les CV par domaine d'expertise, réduisant le temps de présélection."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université Tek-up",
+        "degree": "Ingénieur en Science des Données",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Supérieur d'Informatique de Mahdia",
+        "degree": "Master en Science des Données",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Institut Supérieur d'Informatique de Mahdia",
+        "degree": "Licence en Science de l'informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Français",
+      "Arabe"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T22:54:21.748406+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

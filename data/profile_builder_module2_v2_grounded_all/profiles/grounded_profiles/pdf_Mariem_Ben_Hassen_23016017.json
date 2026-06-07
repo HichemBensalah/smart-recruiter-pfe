@@ -1,0 +1,238 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mariem_Ben_Hassen_23016017.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mariem_Ben_Hassen_23016017.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9339,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMariem Ben Hassen\nIng´ enieure en informatique\nmariem.benhassen@ensi-uma.tn - +216-55-054-412 - Linked In - GitHub\n\n## PROFESSIONAL SUMMARY\n\nProfil\negration d'API et\nComp´ etences\nLangages: PHP, JavaScript, Python, Java\n\n## TECHNICAL SKILLS\n\nIng´ enieure en informatique, diplˆ om´ ee de l'ENSI, ` a la recherche d'un poste en d´ eveloppement full-stack. Exp´ erience dans la conception d'applications web et mobiles avec des frameworks modernes, incluant l'int´ le d´ eveloppement backend. Orient´ ee vers la cr´ eation de solutions scalables et maintenables.\nFrameworks: Symfony, Laravel, React, Angular, Flutter, Node. js, Flask\nBases de donn´ ees: MySQL, PostgreSQL, MongoDB, Neo4j\nOutils: Git, Docker, Postman, Jira, Kubernetes\nCertifications: Symfony (Symfony Casts), Docker Fundamentals (Kode Kloud), HCIA-AI (Huawei), Python (Coursera), Cloud DevOps (Intel)\n\n## EDUCATION\n\n´ Education\n## Diplˆ ome d'ing´ enieur en informatique, ENSI Manouba\n**Date: ** 2022-2025\n## Cycle pr´ eparatoire en math´ ematiques et physique, ESSTHS Hammam Sousse\n**Date: ** 2020-2022\n- Exp´ eriences\n- D´ eveloppeuse Full-Stack Freelance\nD´ evelopp´ e en ´ equipe une application de gestion de chantiers avec rˆ oles (administrateur, chef de chantier, client) en React, Node. js, PostgreSQL .\n**Date: ** A & M Gharred - Oct. 2025 - March. 2026\n- Impl´ ement´ e un syst` eme de suivi des chantiers et des proc´ edures.\n- Stage de Projet de Fin d' ´ Etudes - D´ eveloppement Full-Stack\n- Stagiaire Ing´ enieure Logicielle\n- D´ evelopp´ e une application mobile en Flutter pour une plateforme e-learning.\n- Int´ egr´ e l'application au backend Symfony en d´ eveloppant des APIs REST et en r´ eutilisant la base de donn´ ees existante.\n- Impl´ ement´ e une messagerie en temps r´ eel.\n- Stagiaire d´ eveloppeur full-stack\n- D´ evelopp´ e le panier d'achat et le flux de commande.\n\n## ACADEMIC PROJECTS\n\nCon¸ cu les fonctionnalit´ es de gestion des utilisateurs, tˆ aches et avancement des projets.\n- Assur´ e la maintenance et l'am´ elioration de la stabilit´ e et des performances du syst` eme.\nD´ evelopp´ e des fonctionnalit´ es full-stack avec Symfony, MySQL pour le backend .\n**Date: ** Mat-IT - F´ ev. 2025 - Juil. 2025\n- D´ evelopp´ e des services Flask pour automatiser des workflows ML et int´ egrer des fonctionnalit´ es LLM.\nCon¸ cu une plateforme web ´ evolutive avec gestion des rˆ oles (Admin, Enseignant, ´ Etudiant).\n**Date: ** Delta Web IT - Juin 2024 - Juil. 2024\nCon¸ cu une plateforme e-commerce avec catalogue produits, recherche avanc´ ee et filtres.\n**Date: ** Via Web IT - Juin 2023 - Juil. 2023\nImpl´ ement´ e une authentification s´ ecuris´ ee (JWT) et une architecture scalable React, Node. js, MongoDB .\n- Projets\n- Savvy Drop - Syst` eme automatis´ e de suivi des prix\n## Next. js, PostgreSQL\n- GitHub: Repository\n- D´ evelopp´ e un pipeline automatis´ e de collecte de prix avec Firecrawl et historisation des donn´ ees.\n- Con¸ cu un tableau de bord interactif pour la visualisation des tendances et des alertes en temps r´ eel.\n- Plateforme de gestion de projets - Saa S multi-tenant\n## Next. js, Inngest, Prisma, PostgreSQL\n- GitHub: Repository\nSaa S multi-tenant avec workspaces, rˆ oles, assignation de tˆ aches et alertes de deadlines.\n- Architecture scalable avec dashboards pour le suivi en temps r´ eel des projets et tˆ aches.\n\n## LANGUAGES\n\nLangues & Certifications\nLangues: Arabe (natif), Fran¸ cais (courant), Anglais (courant), Allemand (basique)",
+    "header_info": {
+      "full_name": "Mariem Ben Hassen",
+      "email": "mariem.benhassen@ensi-uma.tn",
+      "phone": "+216-55-054-412",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9868,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "certifications[4]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]",
+      "languages[3]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mariem Ben Hassen",
+      "email": "mariem.benhassen@ensi-uma.tn",
+      "phone": "+216-55-054-412",
+      "location": null,
+      "linkedin": "Linked In",
+      "github": "GitHub"
+    },
+    "expertise": {
+      "summary": "Profilération d'API et compétences en développement full-stack.",
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "PHP",
+        "JavaScript",
+        "Python",
+        "Java",
+        "Symfony",
+        "Laravel",
+        "React",
+        "Angular",
+        "Flutter",
+        "Node.js",
+        "Flask",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Neo4j",
+        "Git",
+        "Docker",
+        "Postman",
+        "Jira",
+        "Kubernetes"
+      ],
+      "soft_skills": [
+        "conception d'applications web et mobiles",
+        "développement backend",
+        "création de solutions scalables et maintenables",
+        "gestion des rôles (Admin, Enseignant, étudiant)",
+        "authentification sécurisée (JWT)"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "A & M Gharred",
+        "job_title": null,
+        "start_date": "Oct. 2025 - March. 2026",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "développer une application de gestion de chantiers avec rôles (administrateur, chef de chantier, client) en React, Node.js, PostgreSQL"
+        ]
+      },
+      {
+        "company": "Mat-IT",
+        "job_title": null,
+        "start_date": "Fév. 2025 - Juil. 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "développer des fonctionnalités full-stack avec Symfony, MySQL pour le backend"
+        ]
+      },
+      {
+        "company": "Delta Web IT",
+        "job_title": null,
+        "start_date": "Juin 2024 - Juil. 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "conseiller une plateforme web évolutrice avec gestion des rôles (Admin, Enseignant, étudiant)"
+        ]
+      },
+      {
+        "company": "Via Web IT",
+        "job_title": null,
+        "start_date": "Juin 2023 - Juil. 2023",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "conseiller une plateforme e-commerce avec catalogue produits, recherche avancée et filtres"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ENSI Manouba",
+        "degree": "Diplôme d'ingénieur en informatique",
+        "field": null,
+        "year": "2022-2025"
+      },
+      {
+        "institution": "ESSTHS Hammam Sousse",
+        "degree": "Cycle préparatoire en mathématiques et physique",
+        "field": null,
+        "year": "2020-2022"
+      }
+    ],
+    "languages": [
+      "Arabe (natif)",
+      "Français (courant)",
+      "Anglais (courant)",
+      "Allemand (basique)"
+    ],
+    "certifications": [
+      "Symfony Casts",
+      "Docker Fundamentals",
+      "HCIA-AI",
+      "Python",
+      "Cloud DevOps"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:14:22.155117+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

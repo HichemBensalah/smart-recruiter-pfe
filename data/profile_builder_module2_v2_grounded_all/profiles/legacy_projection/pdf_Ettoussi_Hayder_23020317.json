@@ -1,0 +1,81 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Ettoussi_Hayder_23020317.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Ettoussi_Hayder_23020317.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Ettoussi_Hayder_23020317.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Hayder Ettoussi",
+      "email": "toussihayder@00@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "SQL",
+        "Io T"
+      ],
+      "soft_skills": [
+        "La patience",
+        "La tolérance",
+        "Travaille en groupe",
+        "Esprit critique"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Pure Beauty Labs",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "J'assure la réception, le stockage et l'expédition des marchandises B 2 C & B 2 B",
+          "Je gère les opérations logistiques avec un ERP (Odoo)"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Office National des Postes",
+        "start_date": "JANVIER-FEVRIER 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement en équipe d'une application de pointage avec carte RFID et Arduino UNO, incluant tests et coordination"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "LICENCE EN TECHNOLOGIES DE L'INFORMATIQUE",
+        "school": "ISET Charguia",
+        "year": "2023-2025"
+      },
+      {
+        "degree": "BACCALAURÉAT",
+        "school": "ISET bizerte",
+        "year": "2022-2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:54:23.851606+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7896,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

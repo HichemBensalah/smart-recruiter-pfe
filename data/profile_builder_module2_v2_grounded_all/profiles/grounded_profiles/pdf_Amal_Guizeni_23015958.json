@@ -1,0 +1,263 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Amal_Guizeni_23015958.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Amal_Guizeni_23015958.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8578,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nAmal GUIZENI/phone (+216) 22 236 407/envelope amalguizeni 1@gmail.com/linkedin linkedin.com/in/amal-guizeni/github guizeniamal/map-marker Sousse, Tunisia\nTelecommunications Engineer\n\n## PROFESSIONAL SUMMARY\n\nPROFILE\n\n## PROFESSIONAL EXPERIENCE\n\nTelecommunications Engineer specialized in Telecommunications Technologies and Services (TST), with dual expertise in network infrastructures and Full-Stack development. Proven experience in test automation, API validation, and communication protocol testing (REST, Web Socket, TCP/IP), as well as developing and deploying Full-Stack solutions. Passionate about technological innovation and integrating artificial intelligence to achieve process automation and optimization.\n## LEONI Tunisia -Full Stack (Web/Mobile) & AI Engineer Intern\n**Date: ** Feb 2025 - Jun 2025\n- ∗ Developed an intelligent Web and Mobile solution to automate and optimize employee transportation and resource allocation using AI.\n- ∗ Designed a real-time architecture for continuous GPS stream processing and implemented automatic alerts for optimal responsiveness.\n- ∗ Implemented an RBAC system for authentication and permission management.\n- ∗ Developed an AI algorithm for automatic bus assignment based on multiple criteria.\n∗ Designed and executed automated test plans (unit, integration, functional) for Python modules and REST/Web Socket APIs using Postman and Swagger; integrated test pipelines in an Agile workflow.\n## LEONI Tunisia -Full Stack & AI Engineer Intern\n**Date: ** Jul 2024 - Aug 2024\n- ∗ Automated internship management via an intuitive platform.\n- ∗ Developed an AI NLP algorithm for automatic skills extraction and matching.\n## WELYNE -Backend Developer Intern\n**Date: ** Jul 2023 - Aug 2023\n- ∗ Optimized delivery by generating automated routing sheets.\n- ∗ Designed and automated functional test scenarios for NLP API endpoints; validated data pipelines and model outputs using scripted test suites.\n## (Python, Django, Django REST Framework, PostgreSQL)\n- ∗ Implemented automated unit and integration test suites for REST API endpoints; validated routing logic through regression testing with Django test framework.\nAzure AI Fundamentals Certification (Feb. 2024), Cisco Dev Net Associate Certification (May 2024), Scrum Foundation Professional Certificate (Apr. 2024), Cisco CCNA 1 - Introduction to Networks (Janv. 2024)\n\n## EDUCATION\n\nNational School of Electronics and Telecommunications of Sfax (ENET'Com)\n## Engineering Degree in Telecommunications Engineering\n**Date: ** 2022 - 2025\n## Preparatory Institute for Engineering Studies of Kairouan (IPEIK)\n**Date: ** 2020 - 2022\n- Preparatory Cycle in Physics and Chemistry\n\n## TECHNICAL SKILLS\n\n(Spring Boot, Angular, React Native, PostgreSQL, Python, OR-Tools, FastAPI, Web Socket, REST APIs, Postman, Swagger, Pytest)\nTechnical and Soft Skills\nProgramming Languages: Java, C#, Python, JavaScript,\nTools and Frameworks: Postman, Swagger, Pytest, unittest, Django Test Framework, REST API Testing\nTypeScript, MATLAB\nFrameworks & Technologies: Angular, React Native, Spring Boot, ReactJS, NodeJS\nCloud & Deployment Skills: AWS (EC 2, S 3), Azure Database Management: PostgreSQL, MongoDB, MySQL Soft Skills: Teamwork, Adaptability, Fast Learner\nOperating Systems:\nLinux (Shell, Bash), Windows\nNetworking:\nEnglish:\nIntermediate\nIntermediate\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\n(ReactJS, NodeJS, NLP, spaCy, Python, Scikit-learn, MongoDB, Git, Pytest)\n\n## TCP/IP, DNS, DHCP, MPLS, OSPF, BGP,\n\nWeb Socket, REST/HTTP Protocol Validation Testing\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\n\n## LANGUAGES\n\nArabic:\nFrench:\nNative",
+    "header_info": {
+      "full_name": null,
+      "email": "1@gmail.com",
+      "phone": "+216) 22 236 407",
+      "location": null,
+      "linkedin": "linkedin.com/in/amal-guizeni/github",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9716,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].field",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[26]",
+      "expertise.hard_skills[27]",
+      "expertise.hard_skills[28]",
+      "expertise.hard_skills[29]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[30]",
+      "expertise.hard_skills[31]",
+      "expertise.hard_skills[32]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Amal GUIZENI",
+      "email": "1@gmail.com",
+      "phone": "+216) 22 236 407",
+      "location": "Sousse, Tunisia",
+      "linkedin": "linkedin.com/in/amal-guizeni",
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": "senior",
+      "years_experience": 6,
+      "hard_skills": [
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "PostgreSQL",
+        "Spring Boot",
+        "Angular",
+        "React Native",
+        "FastAPI",
+        "Web Socket",
+        "REST APIs",
+        "Postman",
+        "Swagger",
+        "Pytest",
+        "Java",
+        "C#",
+        "JavaScript",
+        "TypeScript",
+        "MATLAB",
+        "ReactJS",
+        "NodeJS",
+        "AWS",
+        "Azure",
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "Linux",
+        "Windows",
+        "TCP/IP",
+        "DNS",
+        "DHCP",
+        "MPLS",
+        "OSPF",
+        "BGP"
+      ],
+      "soft_skills": [
+        "Teamwork",
+        "Adaptability",
+        "Fast Learner"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "LEONI Tunisia",
+        "job_title": "Full Stack (Web/Mobile) & AI Engineer Intern",
+        "start_date": "Feb 2025",
+        "end_date": "Jun 2025",
+        "city": null,
+        "responsibilities": [
+          "Developed an intelligent Web and Mobile solution to automate and optimize employee transportation and resource allocation using AI.",
+          "Designed a real-time architecture for continuous GPS stream processing and implemented automatic alerts for optimal responsiveness.",
+          "Implemented an RBAC system for authentication and permission management.",
+          "Developed an AI algorithm for automatic bus assignment based on multiple criteria.",
+          "Designed and executed automated test plans (unit, integration, functional) for Python modules and REST/Web Socket APIs using Postman and Swagger; integrated test pipelines in an Agile workflow."
+        ]
+      },
+      {
+        "company": "LEONI Tunisia",
+        "job_title": "Full Stack & AI Engineer Intern",
+        "start_date": "Jul 2024",
+        "end_date": "Aug 2024",
+        "city": null,
+        "responsibilities": [
+          "Automated internship management via an intuitive platform.",
+          "Developed an AI NLP algorithm for automatic skills extraction and matching."
+        ]
+      },
+      {
+        "company": "WELYNE",
+        "job_title": "Backend Developer Intern",
+        "start_date": "Jul 2023",
+        "end_date": "Aug 2023",
+        "city": null,
+        "responsibilities": [
+          "Optimized delivery by generating automated routing sheets.",
+          "Designed and automated functional test scenarios for NLP API endpoints; validated data pipelines and model outputs using scripted test suites.",
+          "Implemented automated unit and integration test suites for REST API endpoints; validated routing logic through regression testing with Django test framework."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "National School of Electronics and Telecommunications of Sfax (ENET'Com)",
+        "degree": "Engineering Degree in Telecommunications Engineering",
+        "field": "Telecommunications Engineering",
+        "year": null
+      },
+      {
+        "institution": "Preparatory Institute for Engineering Studies of Kairouan (IPEIK)",
+        "degree": null,
+        "field": "Physics and Chemistry",
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "certifications": [
+      "Azure AI Fundamentals Certification",
+      "Cisco Dev Net Associate Certification",
+      "Scrum Foundation Professional Certificate",
+      "Cisco CCNA 1 - Introduction to Networks"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:34:45.312629+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

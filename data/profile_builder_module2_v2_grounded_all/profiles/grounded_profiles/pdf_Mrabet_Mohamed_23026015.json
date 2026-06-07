@@ -1,0 +1,159 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Mrabet_Mohamed_23026015.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Mrabet_Mohamed_23026015.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.92,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nMohamed Mrabet/map-marker-alt Tunis, Tunisie/envelope/phone +216 25 125 035\nmohamed. mrabet 09@gmail.com\n|/linkedin linkedin.com/in/mrabetmohamed/## PROFESSIONAL SUMMARY\n\nProfil\n\n## TECHNICAL SKILLS\n\nIngénieur IT, spécialisé en Architecture IT et Cloud Computing, à la recherche d'une opportunité à temps plein dans le domaine Cloud ou DevOps. Passionné par l'automatisation des infrastructures, les technologies cloud-native et l'amélioration continue via les pratiques DevOps.\nDéveloppement d'une plateforme e-commerce scalable (Spring Boot & Angular) intégrant blog, messagerie, notifications et marketplace.\nMise en place de pipelines CI/CD sur Azure DevOps avec tests end-to-end (Selenium) et analyse de qualité de code (Sonar Qube).\nDéploiement sur Azure Kubernetes Service (AKS) avec Terraform et manifestes Kubernetes pour scalabilité et automatisation.\nConfiguration d'un déploiement multi-régions avec Azure Traffic Manager pour haute disponibilité et basculement automatique.\nPipelines de supervision avec Prometheus + Grafana (détection d'anomalies via ML) et intégration d'Azure Monitor pour observabilité continue.\nStage Cloud/DevOps, RFC\nDéploiement d'une application web Spring Boot et Angular à l'aide des technologies DevOps (Jenkins, CI/CD, Docker) sur une infrastructure cloud automatisée (Kubernetes, Terraform, Azure).\nStage d'Automatisation Cloud, Tunisie Telecom\nAutomatisation de l'installation et du déploiement des services sur Azure Cloud en utilisant l'outil de gestion de configuration Ansible.\nProjet académique Cloud, ESPRIT\nMise en place d'une infrastructure Cloud sur Open Stack.\nDéveloppement d'une application Full Stack (Spring Boot & Angular).\nDéploiement sur Microsoft Azure via Kubernetes cluster pour scalabilité et haute disponibilité.\nProjet académique Web/Java/Mobile (Fast Rent), ESPRIT\n, ESPRIT: Architecture IT & Cloud\nLicence\nOutils et plateformes: Azure, Azure DevOps, Jenkins, Terraform, Ansible, Kubernetes, Grafana, Prometheus, Docker, Open Stack, Selenium, Sonar Qube, JUnit, Mockitou, Nexus, Trivy\nFrameworks et environnements:\n.NET, Node. js, Symfony, React, Angular, Spring\nLangages de programmation et scripts:\nJava, Python, JavaScript, TypeScript, MySQL, Oracle SQL\nSystèmes d'exploitation: Ubuntu, Windows\n\n## PROFESSIONAL EXPERIENCE\n\nExpériences Professionnelles\n\n## EDUCATION\n\n## Projet de Fin d'Études Cloud/Dev Sec Ops, RFC\n**Date: ** Févr 2025 - Août 2025\n- Formation\n- Cycle Ingénieur\n##, ISSAT Mahdia: Techniques de l'information et de la communication\n**Date: ** Janv 2023 - Avr 2023\n- Technologies\n\n## CERTIFICATES (IN PROGRESS)\n\nPratiques Dev Sec Ops: scans de vulnérabilités (Trivy), tests de pénétration (OWASP ZAP), gestion des certificats et contrôle des accès.\n\n## ACADEMIC PROJECTS\n\nProjets Académiques\n## Déploiement local automatisé, ESPRIT\n**Date: ** Juin 2024 - Août 2024\n- Automatisation du déploiement local d'une application avec Jenkins, Sonar Qube, Nexus, Web Hooks, Mockitou, JUnit, Grafana et Prometheus.\n- Conception et développement d'une plateforme web, mobile et desktop de location de voitures en Java, Symfony et Code Name One.",
+    "header_info": {
+      "full_name": null,
+      "email": "09@gmail.com",
+      "phone": "+216 25 125 035",
+      "location": null,
+      "linkedin": "linkedin.com/in/mrabetmohamed/##",
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_full_name"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9105,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "experiences[0]"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[4]",
+      "expertise.summary"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Mohamed Mrabet",
+      "email": "mohamed. mrabet@09@gmail.com",
+      "phone": "+216 25 125 035",
+      "location": "Tunis, Tunisie",
+      "linkedin": "linkedin.com/in/mrabetmohamed/##",
+      "github": null
+    },
+    "expertise": {
+      "summary": "Ingénieur IT spécialisé en Architecture IT et Cloud Computing",
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Architecture IT",
+        "Cloud Computing",
+        "DevOps",
+        "Spring Boot",
+        "Angular",
+        "Azure DevOps",
+        "Jenkins",
+        "Terraform",
+        "Ansible",
+        "Kubernetes",
+        "Grafana",
+        "Prometheus",
+        "Docker",
+        "Open Stack",
+        "Selenium",
+        "Sonar Qube"
+      ],
+      "soft_skills": [
+        "Passionné par l'automatisation des infrastructures",
+        "Expérience en développement d'une plateforme e-commerce scalable",
+        "Connaissance de la mise en place de pipelines CI/CD",
+        "Déploiement sur Azure Kubernetes Service (AKS)",
+        "Configuration d'un déploiement multi-régions avec Azure Traffic Manager"
+      ]
+    },
+    "experiences": [],
+    "education": [
+      {
+        "institution": "ISSAT Mahdia",
+        "degree": "Cycle Ingénieur",
+        "field": "Techniques de l'information et de la communication",
+        "year": null
+      },
+      {
+        "institution": "Tunisie Telecom",
+        "degree": "Stage Cloud/DevOps",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [],
+    "certifications": [
+      "Pratiques Dev Sec Ops: scans de vulnérabilités (Trivy), tests de pénétration (OWASP ZAP), gestion des certificats et contrôle des accès."
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:44:35.883206+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

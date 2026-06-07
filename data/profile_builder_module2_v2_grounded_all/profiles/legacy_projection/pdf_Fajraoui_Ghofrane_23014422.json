@@ -1,0 +1,86 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Fajraoui_Ghofrane_23014422.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Fajraoui_Ghofrane_23014422.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Fajraoui_Ghofrane_23014422.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Fajraoui Ghofrane",
+      "email": "ghofrane.fajraoui@esprit.tn",
+      "phone": "+216 56 282 758",
+      "location": "Ing´ enieure DevOps, Dev Sec Ops & QA"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "DevOps & CI/CD",
+        "Conteneurisation & Orchestration",
+        "Infrastructure as Code",
+        "Tests & Assurance Qualit´ e",
+        "Outils QA",
+        "Monitoring & Observabilit´ e",
+        "S´ ecurit´ e & Dev Sec Ops",
+        "Langages & Frameworks",
+        "Bases de donn´ ees"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Ing´ enieure DevOps - Stage de fin d'´ etudes",
+        "company": "ESPRIT",
+        "start_date": "F´ ev. 2025",
+        "end_date": "Aoˆ ut 2025",
+        "city": null,
+        "responsibilities": [
+          "Conception et d´ eploiement d'un pipeline CI/CD Dev Sec Ops pour une application microservices.",
+          "Gestion conteneuris´ ee de l'application et des environnements d'infrastructure.",
+          "Syst` eme intelligent d'analyse des ´ echecs de build et assistance ` a la r´ esolution."
+        ]
+      },
+      {
+        "job_title": "Ing´ enieure Logiciel - Stage en D´ eveloppement Web",
+        "company": "Capsa Thermale Oasis",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et d´ eveloppement d'un site vitrine professionnel."
+        ]
+      },
+      {
+        "job_title": "Stage en D´ eveloppement Logiciel (Licence)",
+        "company": "Facult´ e des Sciences de Monastir (FSM)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Conception et d´ eveloppement d'une plateforme de gestion des stages."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ing´ enieure en G´ enie Logiciel, orient´ ee DevOps et Assurance Qualit´ e Logicielle",
+        "school": "ESPRIT",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:58:28.385438+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9679,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

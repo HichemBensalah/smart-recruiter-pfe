@@ -1,0 +1,906 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\salma_baatout_23013956.pdf",
+  "source_format": "pdf",
+  "document_type": "cv",
+  "document_status": "validated",
+  "raw_text": "HEADER\nsalmabaatour@gmail.com\n(+216) 50320333\nBAATOUT SALMA\nlinkedin.com/in/salma-baatout\nMonastir\nP R O F I L\nC O M P É T E N C E S C L É S\nE X P É R I E N C E P R O F E S S I O N N E L L E\n- Stagiaire Développement Web - Yes Internet\n Conception et implémentation du backend en Laravel et CodeIgniter .\n Gestion de la base de données avec MySQL (phpMyAdmin) .\n Intégration d'interfaces utilisateur avec Bootstrap, HTML, CSS, JavaScript .\n- Stagiaire Développement Web & Mobile - Smart Ways Innovation\nDéveloppement d'une plateforme e-commerce intelligente (web & mobile).\n Développement d'une plateforme e-commerce intelligente (web & mobile) .\n Conception du frontend avec Angular (web) et Flutter (mobile) .\n Développement du backend avec Firebase et intégration d'API REST .\nProjet Analyse et Fouille de Données - Détection du Cancer du Poumon\n Visualisation des résultats pour faciliter l'interprétation des données .\nTECHNICAL SKILLS\nJeune diplômée en informatique, spécialisée en Big Data et analyse de données, passionnée par le développement web, mobile et l'intelligence artificielle. Motivée, curieuse et rigoureuse, je souhaite mettre mes compétences au service d'une équipe dynamique et contribuer activement à la réalisation de projets innovants.\n Développement d'une plateforme de location de voitures ( CarRental ) avec une interface web dynamique et responsive .\n Mise en place des fonctionnalités : recherche, réservation en ligne et gestion des véhicules.\nCOMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n Implémentation de modules d'Intelligence Artificielle et de Computer Vision pour analyser les émotions utilisateurs .\n Mise en place d'un système de recommandation personnalisé basé sur les comportements et émotions.\n Réalisation d'un projet d'analyse de données médicales visant à prédire le risque de cancer du poumon .\n Collecte et préparation des données (nettoyage, traitement des valeurs manquantes, normalisation) .\n Analyse exploratoire des données (EDA) pour identifier les facteurs influents (âge, tabagisme, symptômes…) .\nMACHINE LEARNING & DEEP LEARNING\n Implémentation d'algorithmes de Machine Learning pour la classification et la prédiction\n1 / 2",
+  "markdown": "## HEADER\n\nsalmabaatour@gmail. com\n\n## BAATOUT SALMA\n\nlinkedin. com/in/salma-baatout\nMonastir\n\n## P R O F I L\n\nC O M P É T E N C E S C L É S\nE X P É R I E N C E P R O F E S S I O N N E L L E\n- Stagiaire Développement Web - Yes Internet\n Conception et implémentation du backend en Laravel et Code Igniter .\n Gestion de la base de données avec My SQL (php My Admin) .\n Intégration d'interfaces utilisateur avec Bootstrap, HTML, CSS, Java Script .\n- Stagiaire Développement Web & Mobile - Smart Ways Innovation\nDéveloppement d'une plateforme e-commerce intelligente (web & mobile).\n Développement d'une plateforme e-commerce intelligente (web & mobile) .\n Conception du frontend avec Angular (web) et Flutter (mobile) .\n Développement du backend avec Firebase et intégration d'API REST .\nProjet Analyse et Fouille de Données - Détection du Cancer du Poumon\n Visualisation des résultats pour faciliter l'interprétation des données .\n\n## TECHNICAL SKILLS\n\nJeune diplômée en informatique, spécialisée en Big Data et analyse de données, passionnée par le développement web, mobile et l'intelligence artificielle. Motivée, curieuse et rigoureuse, je souhaite mettre mes compétences au service d'une équipe dynamique et contribuer activement à la réalisation de projets innovants.\n Développement d'une plateforme de location de voitures ( Car Rental ) avec une interface web dynamique et responsive .\n Mise en place des fonctionnalités : recherche, réservation en ligne et gestion des véhicules.\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\n Implémentation de modules d'Intelligence Artificielle et de Computer Vision pour analyser les émotions utilisateurs .\n Mise en place d'un système de recommandation personnalisé basé sur les comportements et émotions.\n Réalisation d'un projet d'analyse de données médicales visant à prédire le risque de cancer du poumon .\n Collecte et préparation des données (nettoyage, traitement des valeurs manquantes, normalisation) .\n Analyse exploratoire des données (EDA) pour identifier les facteurs influents (âge, tabagisme, symptômes…) .\n\n## MACHINE LEARNING & DEEP LEARNING\n\n Implémentation d'algorithmes de Machine Learning pour la classification et la prédiction",
+  "logical_sections": [
+    {
+      "title": "HEADER",
+      "section_type": "header",
+      "content": [
+        "salmabaatour@gmail.com",
+        "(+216) 50320333"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "salmabaatour@gmail.com",
+          "page_no": 1,
+          "block_indices": [
+            0
+          ],
+          "bbox": {
+            "left": 439.75828,
+            "top": 794.1259944140625,
+            "right": 525.28628,
+            "bottom": 808.1419944140624
+          },
+          "section_title": "HEADER"
+        },
+        {
+          "text": "(+216) 50320333",
+          "page_no": 1,
+          "block_indices": [
+            25
+          ],
+          "bbox": {
+            "left": 297.179,
+            "top": 794.1259944140625,
+            "right": 352.34916719999995,
+            "bottom": 808.1419944140624
+          },
+          "section_title": "HEADER"
+        }
+      ]
+    },
+    {
+      "title": "BAATOUT SALMA",
+      "section_type": "other",
+      "content": [
+        "linkedin.com/in/salma-baatout",
+        "Monastir"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "linkedin.com/in/salma-baatout",
+          "page_no": 1,
+          "block_indices": [
+            26
+          ],
+          "bbox": {
+            "left": 295.59968,
+            "top": 773.8260244140625,
+            "right": 396.58367999999996,
+            "bottom": 787.8420244140626
+          },
+          "section_title": "BAATOUT SALMA"
+        },
+        {
+          "text": "Monastir",
+          "page_no": 1,
+          "block_indices": [
+            27
+          ],
+          "bbox": {
+            "left": 440.95875,
+            "top": 773.8260244140625,
+            "right": 470.45475,
+            "bottom": 787.8420244140626
+          },
+          "section_title": "BAATOUT SALMA"
+        }
+      ]
+    },
+    {
+      "title": "P R O F I L",
+      "section_type": "other",
+      "content": [
+        "C O M P É T E N C E S C L É S",
+        "E X P É R I E N C E P R O F E S S I O N N E L L E",
+        "- Stagiaire Développement Web - Yes Internet",
+        " Conception et implémentation du backend en Laravel et CodeIgniter .",
+        " Gestion de la base de données avec MySQL (phpMyAdmin) .",
+        " Intégration d'interfaces utilisateur avec Bootstrap, HTML, CSS, JavaScript .",
+        "- Stagiaire Développement Web & Mobile - Smart Ways Innovation",
+        "Développement d'une plateforme e-commerce intelligente (web & mobile).",
+        " Développement d'une plateforme e-commerce intelligente (web & mobile) .",
+        " Conception du frontend avec Angular (web) et Flutter (mobile) .",
+        " Développement du backend avec Firebase et intégration d'API REST .",
+        "Projet Analyse et Fouille de Données - Détection du Cancer du Poumon",
+        " Visualisation des résultats pour faciliter l'interprétation des données ."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "C O M P É T E N C E S C L É S",
+          "page_no": 1,
+          "block_indices": [
+            4
+          ],
+          "bbox": {
+            "left": 54.00000000000003,
+            "top": 645.5766110807292,
+            "right": 206.05774991000007,
+            "bottom": 665.0539444140625
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": "E X P É R I E N C E P R O F E S S I O N N E L L E",
+          "page_no": 1,
+          "block_indices": [
+            5
+          ],
+          "bbox": {
+            "left": 54.0,
+            "top": 512.5278910807292,
+            "right": 297.2419772200001,
+            "bottom": 532.0052244140625
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": "- Stagiaire Développement Web - Yes Internet",
+          "page_no": 1,
+          "block_indices": [
+            6
+          ],
+          "bbox": {
+            "left": 72.0,
+            "top": 489.04160441406253,
+            "right": 260.0054373,
+            "bottom": 506.5616044140625
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": " Conception et implémentation du backend en Laravel et CodeIgniter .",
+          "page_no": 1,
+          "block_indices": [
+            8
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 434.58894441406255,
+            "right": 418.92851382109995,
+            "bottom": 453.86094441406254
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": " Gestion de la base de données avec MySQL (phpMyAdmin) .",
+          "page_no": 1,
+          "block_indices": [
+            9
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 414.16121441406256,
+            "right": 376.4558977000001,
+            "bottom": 433.43321441406255
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": " Intégration d'interfaces utilisateur avec Bootstrap, HTML, CSS, JavaScript .",
+          "page_no": 1,
+          "block_indices": [
+            10
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 393.73348441406256,
+            "right": 437.97190423109987,
+            "bottom": 413.00548441406255
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": "- Stagiaire Développement Web & Mobile - Smart Ways Innovation",
+          "page_no": 1,
+          "block_indices": [
+            12
+          ],
+          "bbox": {
+            "left": 74.26058000000003,
+            "top": 335.06113441406256,
+            "right": 347.6539834,
+            "bottom": 352.58113441406255
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": "Développement d'une plateforme e-commerce intelligente (web & mobile).",
+          "page_no": 1,
+          "block_indices": [
+            13
+          ],
+          "bbox": {
+            "left": 72.00001000000003,
+            "top": 314.4639544140625,
+            "right": 410.29392695000007,
+            "bottom": 333.7359544140626
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": " Développement d'une plateforme e-commerce intelligente (web & mobile) .",
+          "page_no": 1,
+          "block_indices": [
+            14
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 294.03622441406264,
+            "right": 448.7830061800001,
+            "bottom": 313.3082244140626
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": " Conception du frontend avec Angular (web) et Flutter (mobile) .",
+          "page_no": 1,
+          "block_indices": [
+            15
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 273.60849441406253,
+            "right": 392.7679966900001,
+            "bottom": 292.8804944140626
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": " Développement du backend avec Firebase et intégration d'API REST .",
+          "page_no": 1,
+          "block_indices": [
+            16
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 253.18076441406254,
+            "right": 415.84744671,
+            "bottom": 272.4527644140626
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": "Projet Analyse et Fouille de Données - Détection du Cancer du Poumon",
+          "page_no": 1,
+          "block_indices": [
+            19
+          ],
+          "bbox": {
+            "left": 76.52118000000003,
+            "top": 158.22523441406258,
+            "right": 366.81261170000016,
+            "bottom": 175.74523441406257
+          },
+          "section_title": "P R O F I L"
+        },
+        {
+          "text": " Visualisation des résultats pour faciliter l'interprétation des données .",
+          "page_no": 1,
+          "block_indices": [
+            23
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 50.63392441406256,
+            "right": 418.7566523499997,
+            "bottom": 69.90592441406261
+          },
+          "section_title": "P R O F I L"
+        }
+      ]
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "section_type": "skills",
+      "content": [
+        "Jeune diplômée en informatique, spécialisée en Big Data et analyse de données, passionnée par le développement web, mobile et l'intelligence artificielle. Motivée, curieuse et rigoureuse, je souhaite mettre mes compétences au service d'une équipe dynamique et contribuer activement à la réalisation de projets innovants.",
+        " Développement d'une plateforme de location de voitures ( CarRental ) avec une interface web dynamique et responsive .",
+        " Mise en place des fonctionnalités : recherche, réservation en ligne et gestion des véhicules."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": "Jeune diplômée en informatique, spécialisée en Big Data et analyse de données, passionnée par le développement web, mobile et l'intelligence artificielle. Motivée, curieuse et rigoureuse, je souhaite mettre mes compétences au service d'une équipe dynamique et contribuer activement à la réalisation de projets innovants.",
+          "page_no": 1,
+          "block_indices": [
+            3
+          ],
+          "bbox": {
+            "left": 54.00000000000003,
+            "top": 669.0556944140625,
+            "right": 535.5253016199996,
+            "bottom": 728.6108944140624
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": " Développement d'une plateforme de location de voitures ( CarRental ) avec une interface web dynamique et responsive .",
+          "page_no": 1,
+          "block_indices": [
+            7
+          ],
+          "bbox": {
+            "left": 90.0,
+            "top": 455.01670441406253,
+            "right": 541.2244127399999,
+            "bottom": 487.71642441406254
+          },
+          "section_title": "TECHNICAL SKILLS"
+        },
+        {
+          "text": " Mise en place des fonctionnalités : recherche, réservation en ligne et gestion des véhicules.",
+          "page_no": 1,
+          "block_indices": [
+            11
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 373.30575441406256,
+            "right": 515.1663623410998,
+            "bottom": 392.57775441406255
+          },
+          "section_title": "TECHNICAL SKILLS"
+        }
+      ]
+    },
+    {
+      "title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)",
+      "section_type": "skills",
+      "content": [
+        " Implémentation de modules d'Intelligence Artificielle et de Computer Vision pour analyser les émotions utilisateurs .",
+        " Mise en place d'un système de recommandation personnalisé basé sur les comportements et émotions.",
+        " Réalisation d'un projet d'analyse de données médicales visant à prédire le risque de cancer du poumon .",
+        " Collecte et préparation des données (nettoyage, traitement des valeurs manquantes, normalisation) .",
+        " Analyse exploratoire des données (EDA) pour identifier les facteurs influents (âge, tabagisme, symptômes…) ."
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": " Implémentation de modules d'Intelligence Artificielle et de Computer Vision pour analyser les émotions utilisateurs .",
+          "page_no": 1,
+          "block_indices": [
+            17
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 219.32529441406257,
+            "right": 540.9833067921999,
+            "bottom": 252.0250344140626
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        },
+        {
+          "text": " Mise en place d'un système de recommandation personnalisé basé sur les comportements et émotions.",
+          "page_no": 1,
+          "block_indices": [
+            18
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 185.46984441406255,
+            "right": 541.0220842110998,
+            "bottom": 218.16956441406262
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        },
+        {
+          "text": " Réalisation d'un projet d'analyse de données médicales visant à prédire le risque de cancer du poumon .",
+          "page_no": 1,
+          "block_indices": [
+            21
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 131.20030441406254,
+            "right": 541.0111711099997,
+            "bottom": 163.90004441406256
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        },
+        {
+          "text": " Collecte et préparation des données (nettoyage, traitement des valeurs manquantes, normalisation) .",
+          "page_no": 1,
+          "block_indices": [
+            20
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 104.34484441406255,
+            "right": 541.0338697199998,
+            "bottom": 137.04458441406257
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        },
+        {
+          "text": " Analyse exploratoire des données (EDA) pour identifier les facteurs influents (âge, tabagisme, symptômes…) .",
+          "page_no": 1,
+          "block_indices": [
+            22
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 77.48938441406256,
+            "right": 541.0038089199999,
+            "bottom": 110.18910441406263
+          },
+          "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+        }
+      ]
+    },
+    {
+      "title": "MACHINE LEARNING & DEEP LEARNING",
+      "section_type": "skills",
+      "content": [
+        " Implémentation d'algorithmes de Machine Learning pour la classification et la prédiction",
+        "1 / 2"
+      ],
+      "items": [],
+      "evidence_spans": [
+        {
+          "text": " Implémentation d'algorithmes de Machine Learning pour la classification et la prédiction",
+          "page_no": 1,
+          "block_indices": [
+            24
+          ],
+          "bbox": {
+            "left": 90.00001000000003,
+            "top": 64.06164441406258,
+            "right": 503.89599906109993,
+            "bottom": 83.33364441406263
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        },
+        {
+          "text": "1 / 2",
+          "page_no": 1,
+          "block_indices": [
+            28
+          ],
+          "bbox": {
+            "left": 290.242,
+            "top": 12.794474414062506,
+            "right": 305.05139256,
+            "bottom": 26.81047441406247
+          },
+          "section_title": "MACHINE LEARNING & DEEP LEARNING"
+        }
+      ]
+    }
+  ],
+  "parser_used": "docling_structured",
+  "fallback_used": false,
+  "document_confidence": {
+    "score": 0.7296,
+    "status": "validated",
+    "signals": {
+      "useful_text_chars": 2205,
+      "section_completeness": 0.3333,
+      "ordering_coherence": 1.0,
+      "segmentation_stability": 0.6667,
+      "layout_block_coverage": 0.9062,
+      "ocr_noise_ratio": 0.3028,
+      "weird_section_ratio": 0.0,
+      "section_count": 6,
+      "expected_section_hits": 2,
+      "markdown_chars": 2209,
+      "markdown_words": 288,
+      "markdown_has_experience": false,
+      "markdown_has_education": false,
+      "markdown_has_skills": true,
+      "markdown_useful_section_count": 1,
+      "markdown_weird_char_ratio": 0.0303,
+      "markdown_glued_line_count": 2,
+      "markdown_broken_line_count": 0,
+      "markdown_ocr_noise_ratio": 0.0,
+      "router_is_scanned": false,
+      "router_ocr_required": false,
+      "router_primary_parser": "docling_structured",
+      "router_reason_count": 10,
+      "routing_decision": "{\"source_format\": \"pdf\", \"is_scanned\": false, \"ocr_required\": false, \"primary_parser\": \"docling_structured\", \"routing_reasons\": [\"source_format=pdf\", \"extension=.pdf detected\", \"pdf_page_count=2\", \"pdf_total_text_chars=2778\", \"pdf_total_text_words=459\", \"pdf_avg_text_chars_per_page=1389.0\", \"pdf_text_page_ratio=1.00\", \"pdf_image_page_ratio=0.00\", \"classification=native_pdf because extracted text density and text-page coverage exceed thresholds\", \"route=docling_structured without OCR because PDF contains a usable text layer\"]}",
+      "parser_used": "docling_structured",
+      "fallback_used": false,
+      "confidence_penalty": 0.0
+    },
+    "warnings": [
+      "low_section_completeness",
+      "markdown_too_weak",
+      "high_ocr_noise"
+    ]
+  },
+  "handoff_decision": {
+    "lane": "accepted",
+    "eligible_for_module2": true,
+    "decision_reason": "Document valide; consommation Module 2 autorisee.",
+    "decision_rules": [
+      "validated -> accepted"
+    ],
+    "quality_flags": [
+      "low_section_completeness",
+      "markdown_too_weak",
+      "high_ocr_noise"
+    ],
+    "repair_status": "not_applicable",
+    "repair_reason": null,
+    "quarantine_reason": null,
+    "next_action": "consume_in_module2"
+  },
+  "evidence_spans": [
+    {
+      "text": "salmabaatour@gmail.com",
+      "page_no": 1,
+      "block_indices": [
+        0
+      ],
+      "bbox": {
+        "left": 439.75828,
+        "top": 794.1259944140625,
+        "right": 525.28628,
+        "bottom": 808.1419944140624
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "(+216) 50320333",
+      "page_no": 1,
+      "block_indices": [
+        25
+      ],
+      "bbox": {
+        "left": 297.179,
+        "top": 794.1259944140625,
+        "right": 352.34916719999995,
+        "bottom": 808.1419944140624
+      },
+      "section_title": "HEADER"
+    },
+    {
+      "text": "linkedin.com/in/salma-baatout",
+      "page_no": 1,
+      "block_indices": [
+        26
+      ],
+      "bbox": {
+        "left": 295.59968,
+        "top": 773.8260244140625,
+        "right": 396.58367999999996,
+        "bottom": 787.8420244140626
+      },
+      "section_title": "BAATOUT SALMA"
+    },
+    {
+      "text": "Monastir",
+      "page_no": 1,
+      "block_indices": [
+        27
+      ],
+      "bbox": {
+        "left": 440.95875,
+        "top": 773.8260244140625,
+        "right": 470.45475,
+        "bottom": 787.8420244140626
+      },
+      "section_title": "BAATOUT SALMA"
+    },
+    {
+      "text": "C O M P É T E N C E S C L É S",
+      "page_no": 1,
+      "block_indices": [
+        4
+      ],
+      "bbox": {
+        "left": 54.00000000000003,
+        "top": 645.5766110807292,
+        "right": 206.05774991000007,
+        "bottom": 665.0539444140625
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": "E X P É R I E N C E P R O F E S S I O N N E L L E",
+      "page_no": 1,
+      "block_indices": [
+        5
+      ],
+      "bbox": {
+        "left": 54.0,
+        "top": 512.5278910807292,
+        "right": 297.2419772200001,
+        "bottom": 532.0052244140625
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": "- Stagiaire Développement Web - Yes Internet",
+      "page_no": 1,
+      "block_indices": [
+        6
+      ],
+      "bbox": {
+        "left": 72.0,
+        "top": 489.04160441406253,
+        "right": 260.0054373,
+        "bottom": 506.5616044140625
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": " Conception et implémentation du backend en Laravel et CodeIgniter .",
+      "page_no": 1,
+      "block_indices": [
+        8
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 434.58894441406255,
+        "right": 418.92851382109995,
+        "bottom": 453.86094441406254
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": " Gestion de la base de données avec MySQL (phpMyAdmin) .",
+      "page_no": 1,
+      "block_indices": [
+        9
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 414.16121441406256,
+        "right": 376.4558977000001,
+        "bottom": 433.43321441406255
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": " Intégration d'interfaces utilisateur avec Bootstrap, HTML, CSS, JavaScript .",
+      "page_no": 1,
+      "block_indices": [
+        10
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 393.73348441406256,
+        "right": 437.97190423109987,
+        "bottom": 413.00548441406255
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": "- Stagiaire Développement Web & Mobile - Smart Ways Innovation",
+      "page_no": 1,
+      "block_indices": [
+        12
+      ],
+      "bbox": {
+        "left": 74.26058000000003,
+        "top": 335.06113441406256,
+        "right": 347.6539834,
+        "bottom": 352.58113441406255
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": "Développement d'une plateforme e-commerce intelligente (web & mobile).",
+      "page_no": 1,
+      "block_indices": [
+        13
+      ],
+      "bbox": {
+        "left": 72.00001000000003,
+        "top": 314.4639544140625,
+        "right": 410.29392695000007,
+        "bottom": 333.7359544140626
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": " Développement d'une plateforme e-commerce intelligente (web & mobile) .",
+      "page_no": 1,
+      "block_indices": [
+        14
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 294.03622441406264,
+        "right": 448.7830061800001,
+        "bottom": 313.3082244140626
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": " Conception du frontend avec Angular (web) et Flutter (mobile) .",
+      "page_no": 1,
+      "block_indices": [
+        15
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 273.60849441406253,
+        "right": 392.7679966900001,
+        "bottom": 292.8804944140626
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": " Développement du backend avec Firebase et intégration d'API REST .",
+      "page_no": 1,
+      "block_indices": [
+        16
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 253.18076441406254,
+        "right": 415.84744671,
+        "bottom": 272.4527644140626
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": "Projet Analyse et Fouille de Données - Détection du Cancer du Poumon",
+      "page_no": 1,
+      "block_indices": [
+        19
+      ],
+      "bbox": {
+        "left": 76.52118000000003,
+        "top": 158.22523441406258,
+        "right": 366.81261170000016,
+        "bottom": 175.74523441406257
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": " Visualisation des résultats pour faciliter l'interprétation des données .",
+      "page_no": 1,
+      "block_indices": [
+        23
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 50.63392441406256,
+        "right": 418.7566523499997,
+        "bottom": 69.90592441406261
+      },
+      "section_title": "P R O F I L"
+    },
+    {
+      "text": "Jeune diplômée en informatique, spécialisée en Big Data et analyse de données, passionnée par le développement web, mobile et l'intelligence artificielle. Motivée, curieuse et rigoureuse, je souhaite mettre mes compétences au service d'une équipe dynamique et contribuer activement à la réalisation de projets innovants.",
+      "page_no": 1,
+      "block_indices": [
+        3
+      ],
+      "bbox": {
+        "left": 54.00000000000003,
+        "top": 669.0556944140625,
+        "right": 535.5253016199996,
+        "bottom": 728.6108944140624
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": " Développement d'une plateforme de location de voitures ( CarRental ) avec une interface web dynamique et responsive .",
+      "page_no": 1,
+      "block_indices": [
+        7
+      ],
+      "bbox": {
+        "left": 90.0,
+        "top": 455.01670441406253,
+        "right": 541.2244127399999,
+        "bottom": 487.71642441406254
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": " Mise en place des fonctionnalités : recherche, réservation en ligne et gestion des véhicules.",
+      "page_no": 1,
+      "block_indices": [
+        11
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 373.30575441406256,
+        "right": 515.1663623410998,
+        "bottom": 392.57775441406255
+      },
+      "section_title": "TECHNICAL SKILLS"
+    },
+    {
+      "text": " Implémentation de modules d'Intelligence Artificielle et de Computer Vision pour analyser les émotions utilisateurs .",
+      "page_no": 1,
+      "block_indices": [
+        17
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 219.32529441406257,
+        "right": 540.9833067921999,
+        "bottom": 252.0250344140626
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": " Mise en place d'un système de recommandation personnalisé basé sur les comportements et émotions.",
+      "page_no": 1,
+      "block_indices": [
+        18
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 185.46984441406255,
+        "right": 541.0220842110998,
+        "bottom": 218.16956441406262
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": " Réalisation d'un projet d'analyse de données médicales visant à prédire le risque de cancer du poumon .",
+      "page_no": 1,
+      "block_indices": [
+        21
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 131.20030441406254,
+        "right": 541.0111711099997,
+        "bottom": 163.90004441406256
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": " Collecte et préparation des données (nettoyage, traitement des valeurs manquantes, normalisation) .",
+      "page_no": 1,
+      "block_indices": [
+        20
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 104.34484441406255,
+        "right": 541.0338697199998,
+        "bottom": 137.04458441406257
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": " Analyse exploratoire des données (EDA) pour identifier les facteurs influents (âge, tabagisme, symptômes…) .",
+      "page_no": 1,
+      "block_indices": [
+        22
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 77.48938441406256,
+        "right": 541.0038089199999,
+        "bottom": 110.18910441406263
+      },
+      "section_title": "COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)"
+    },
+    {
+      "text": " Implémentation d'algorithmes de Machine Learning pour la classification et la prédiction",
+      "page_no": 1,
+      "block_indices": [
+        24
+      ],
+      "bbox": {
+        "left": 90.00001000000003,
+        "top": 64.06164441406258,
+        "right": 503.89599906109993,
+        "bottom": 83.33364441406263
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    },
+    {
+      "text": "1 / 2",
+      "page_no": 1,
+      "block_indices": [
+        28
+      ],
+      "bbox": {
+        "left": 290.242,
+        "top": 12.794474414062506,
+        "right": 305.05139256,
+        "bottom": 26.81047441406247
+      },
+      "section_title": "MACHINE LEARNING & DEEP LEARNING"
+    }
+  ]
+}

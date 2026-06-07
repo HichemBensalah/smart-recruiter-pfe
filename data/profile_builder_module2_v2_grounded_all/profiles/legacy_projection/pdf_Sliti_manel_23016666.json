@@ -1,0 +1,85 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Sliti_manel_23016666.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Sliti_manel_23016666.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Sliti_manel_23016666.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Manel Sliti",
+      "email": "manelsliti2001@gmail.com",
+      "phone": "02/2025 - 05/2025",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Dev Sec Ops",
+        "Cloud",
+        "Cybersécurité",
+        "Kubernetes",
+        "Jenkins",
+        "Docker",
+        "Sonar Qube",
+        "Trivy",
+        "OWASP ZAP",
+        "CI/CD",
+        "Monitoring",
+        "Nessus",
+        "pf Sense",
+        "Forti Gate",
+        "Wireshark",
+        "Network Hardening",
+        "Vulnerability Assessment",
+        "Penetration Testing Basics",
+        "Python",
+        "FastAPI"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "job_title": "Stage PFE",
+        "company": "Télévision tunisienne",
+        "start_date": "02/2025 - 05/2025",
+        "end_date": null,
+        "city": "Kromberg Schubert",
+        "responsibilities": [
+          "Mise en œuvre de l'analyse statique de la sécurité des applications (SAST) et du scan de conteneurs avec Sonar Qube et Trivy.",
+          "Conception d'un module de détection de fraude basé sur des modèles d'apprentissage automatique (Isolation Forest, LSTM, Autoencoder).",
+          "Exécution de simulations d'attaques automatisées avec OWASP ZAP, Metasploit, Nmap, Wireshark et Kali Linux.",
+          "Réalisation d'un recensement du réseau et des hôtes à l'aide de Nmap afin d'identifier les adresses IP actives, les ports ouverts et les services en cours d'exécution.",
+          "Utilisation de l'énumération Net BIOS pour recueillir des informations sur les périphériques réseau, notamment les ressources partagées, les noms d'utilisateur et les noms système.",
+          "Analyse du réseau sans fil."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mastère en administration et sécurité des réseaux informatiques",
+        "school": "Institut supérieur d'informatique du Kef",
+        "year": "2023 - 2025"
+      },
+      {
+        "degree": "Licence en ingénierie des systèmes et des réseaux",
+        "school": "Institut supérieur d'informatique du Kef",
+        "year": "2020 - 2023"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:42:21.418326+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9726,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,113 @@
+## HEADER
+
+Bouthaina Bakouch
+Ingénieure Réseaux  Télécommunications
+Tunis, Tunisie bouthainabakouch@gmail. com +21651960405 in/bouthaina-bakouch github. com/bouthaina
+
+## PROFESSIONAL SUMMARY
+
+PROFIL
+
+## TECHNICAL SKILLS
+
+Ingénieure en Réseaux et Télécommunications, avec une expertise en infrastructure et automatisation Dev Ops. Proactive, créative et flexible, je souhaite appliquer mes compétences techniques et collaborer efficacement au sein d'une organisation innovante pour contribuer activement à la modernisation de ses infrastructures.
+COMPÉTENCES
+Réseaux & Protocoles:
+Réseaux IP : Routage (RIP, IGRP, EIGRP, OSPF), commutation (VLAN, VTP, IEEE 802. 1 x), WAN/LAN, configuration (Switch, routeur, machines)
+Protocoles: ARP, TCP/UDP, NAT/PAT, SNMP, DHCP, DNS, SSH
+Réseaux Mobiles : GSM, GPRS, EDGE, UMTS, HSDPA, LTE, 4 G/5 G, Systèmes d'antennes MIMO et OFDM
+Langages de programmation: C/C#, Java, HTML, XML, Java Script, PHP, MATLAB, YAML, Shell Scripting, VB. NET
+Dev Ops & CI/CD: Docker, Docker Compose, Kubernetes, Git Lab CI/CD, Git Hub Actions, Jenkins, Ansible,
+Prometheus, Grafana, Trivy, Helm, Argo CD, Sonar Qube, SAST, DAST - OWASP ZAP
+Virtualisation :
+Virtual Box
+Base de Données:
+My SQL, Postgre SQL, SQL Server, Mongo DB
+Repos: backend-api, frontend-app, devops-proj, product-app-jenkins-pipeline, product-store-gitlab-cicd
+
+## EDUCATION
+
+Formation Dev Ops - Kubernetes
+Conteneurisation et déploiement d'applications Full Stack MERN (Mongo DB, Express, React, Node. js) via Docker sur serveur VPS avec un domaine personnalisé et un certificat SSL
+**Date:** Février 2025 - Septembre 2025
+- Création et administration de clusters Kubernetes multi-nœud
+### Mise en place de pipelines CI/CD (Git Hub Actions, Git Lab CI, Jenkins)
+- Implémentation de stratégies Git Ops avec Argo CD pour le déploiement continu
+- Monitoring et observabilité (Prometheus & Grafana)
+Outils: React, Node. js + Mongo DB, Docker, Git Hub Actions, Jenkins, Nginx, Argo CD, Ansible, Trivy
+- Ingénieure informatique
+### OMG Tech - filiale d'Info Plus | Janvier 2023 - Mai 2025
+**Location:** Windows, Linux
+- Conception et développement de scripts automatisés pour collecter des données à partir de sites web
+- Stockage des données dans des bases de données
+- Collaboration dans un environnement bilingue (italien/anglais) avec une équipe et une clientèle basées en Italie
+Outils: Git Lab, Git Lab CI/CD, VB. NET, HTML, CSS, Java Script, Selenium, Vs 2022, XPATH, PARSESCAN
+**Date:** Shape Tek | Avril 2019 -- Décembre 2022
+- Ingénieure informatique
+- Développement de scripts de web scraping avec VB. Net pour extraire des données structurées à partir de sites web
+### Outils: Git Lab, VB. NET, HTML, CSS, Java Script, Selenium, Vs 2019
+- Agent technique en bureautique et informatique
+### Bureau Espace Informatique | 2016 - 2018
+- Gestion et maintenance informatique
+- Stage de fin d'études
+- Environnement: Matlab
+- Stage ingénieure
+- Etude et câblage du réseau informatique et Communication unifiée et la voix sur IP
+### Outils: C#, VS 2012, MYSQL
+**Date:** Sotetel | 2014
+
+## ENIG | 2015
+
+Projet: Etude des performances du code spatio-temporel-fréquentiel basé sur le code d'ALAMOUTI sur des canaux sélectifs en fréquence à évanouissements corrélés.
+Étude de performances de technique de transmission Alamouti-MIMO-OFDM pour les systèmes de radiocommunications mobiles 4 G et 5 G
+Combinaison des techniques du précodage linéaire et de modulation BICM au schéma Alamouti-MIMOOFDM
+Application C# de gestion pour Sotetel: Développement des interfaces : Ajout, Modification, Suppression et Recherche
+
+## ACADEMIC PROJECTS
+
+Projets académiques
+### Application C# : Gestion de réservation chambre d'hôtel(C#, VS 2012, MYSQL)
+### Application Android : Comparateur de prix(ANDROID, JSON, MYSQL)
+Réalisation d'un site Web PHP : Gestion d'une bibliothèque(PHP, HTML, CSS, MYSQL)
+**Date:** Tunisie Télécom | 2013
+- Stage ouvrière
+- Gestion d'abonnés
+### Repos: ecommerce-ansible, mern-project-ansible
+Repos: mern-k 8 s-argocd-project, mern-k 8 s-manifests, solar-system-gitea, solar-system-gitops-argocd
+- Français: niveau intermédiaire
+- Anglais: niveau intermédiaire
+- Lecture
+- Sport
+
+## UML, SGBD
+
+Méthodologies:
+Environnements:
+
+## CERTIFICATES (IN PROGRESS)
+
+CERTIFICATIONS
+Certification ISTQB® Certified Tester - Foundation Level v 4. 0 (CTFL) - [24 Avril 2025]
+Kubernetes for the Absolute Beginners - Kode Kloud - [2025]
+Ansible (Basics & Advanced) - Kode Kloud - [2025]
+Jenkins & Jenkins For Beginners - Kode Kloud - [2025]
+
+## PROJETS PERSONNELS
+
+Automatisation Ansible
+Déploiement e-commerce & MERN Stack
+Pipelines CI/CD
+Jenkins et Git Lab CI/CD
+Build, test, déploiement automatisés
+Kubernetes & Git Ops (Argo CD)
+Orchestration complète K 8 s
+Déploiement déclaratif Git Ops
+
+## LANGUAGES
+
+LANGUES
+Arabe: Langue maternelle
+
+## CENTRES D'INTÉRÊT
+
+Engagement associatif et bénévole

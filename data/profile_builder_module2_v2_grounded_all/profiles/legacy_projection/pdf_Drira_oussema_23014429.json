@@ -1,0 +1,95 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Drira_oussema_23014429.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Drira_oussema_23014429.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Drira_oussema_23014429.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Oussema DRIRA",
+      "email": "oussema.drira@iit.ens.tn",
+      "phone": null,
+      "location": "Sfax, Tunisie"
+    },
+    "expertise": {
+      "summary": "Full Stack Developer & DevOps Engineer with expertise in Angular, Spring Boot, Docker, Jenkins, AWS, and modern architectures.",
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "Docker",
+        "Jenkins",
+        "AWS",
+        "Map Struct",
+        "Prime NG",
+        "Nginx"
+      ],
+      "soft_skills": [
+        "DevOps"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Full Stack Developer & DevOps Engineer",
+        "company": "KMF business solution",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Conception et développement d'un micro-service Spring Boot en architecture en couches Controller, Service, DTO/Mapper via Map Struct)",
+          "Développement d'interfaces responsives avec Angular 17 Prime NG, réduisant le temps de développement UI de 40% grâce à la bibliothèque de composants",
+          "Containerisation complète de l'ERP avec Docker et déploiement en production via Nginx (reverse proxy)",
+          "Mise en place d'un pipeline CI/CD Jenkins, Sonar Qube automatisant le build, les tests et l'analyse qualité en réduisant le temps de déploiement de 2 h (manuel) à 10 min (automatique)"
+        ]
+      },
+      {
+        "job_title": "Full Stack Developer",
+        "company": "SLF DIGITAL _Freelance",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Développement d'APIs RESTful robustes avec Laravel en suivant une architecture en couches Controller, Service, Repository)",
+          "SQL, Oracle 10 g, MongoDB, postgresql"
+        ]
+      },
+      {
+        "job_title": "Stage d'été en Devops",
+        "company": "LINKAO",
+        "start_date": null,
+        "end_date": null,
+        "city": "Sfax, Tunisie",
+        "responsibilities": [
+          "Mise en place d'une solution de supervision IT avec Prometheus pour le suivi en temps réel des métriques.",
+          "Visualisation des métriques avec Grafana, notamment l'état des machines virtuelles."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle d'ingénieur en génie logiciel et système décisionnel",
+        "school": "Institut International de Technologie",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat Technique",
+        "school": "Institut Supérieur des Etudes Technologiques",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T19:52:28.193415+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.5211,
+      "grounded_v2": true,
+      "hallucination_risk": "high",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

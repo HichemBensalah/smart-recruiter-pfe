@@ -1,0 +1,98 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Yassine_Najar_23021008.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Yassine_Najar_23021008.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Yassine_Najar_23021008.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "YASSINE NAJAR",
+      "email": "naj.yassine@gmail.com",
+      "phone": "+216 29 026 566",
+      "location": null
+    },
+    "expertise": {
+      "summary": "Développeur Full-Stack avec une expérience pratique dans la création d'APIs évolutives, de microservices et d'applications d'entreprise.",
+      "hard_skills": [
+        ".NET 8",
+        "C#",
+        "Entity Framework Core",
+        "REST APIs",
+        "Clean Architecture",
+        "Principes SOLID",
+        "Azure DevOps",
+        "Git",
+        "GitHub",
+        "Pipelines CI/CD",
+        "Agile",
+        "Scrum"
+      ],
+      "soft_skills": [
+        "Travail d'équipe",
+        "Communication",
+        "Résolution de problèmes",
+        "Adaptabilité",
+        "Gestion du stress"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Elite Business",
+        "start_date": "Sep 2019",
+        "end_date": "Juin 2024",
+        "city": "Tunis, Tunisie",
+        "responsibilities": [
+          "Création d'endpoints d'API RESTful pour servir les données à l'application frontend"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "ODDO BHF",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Exécution de tests automatisés utilisant le framework x Unit pour assurer la qualité et la fiabilité du code"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Topnet",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Création de composants UI responsives avec React assurant la compatibilité cross-browser"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Baccalauréat en Mathématiques",
+        "school": "Lycée Khaireddine Pacha",
+        "year": "Juin 2018"
+      },
+      {
+        "degree": "Diplôme d'Ingénieur en Informatique",
+        "school": null,
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T23:03:53.717582+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7967,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\rihab_chaari_23021880.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\rihab_chaari_23021880.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\rihab_chaari_23021880.json",
+    "profile_kind": "partial_profile",
+    "bio": {
+      "full_name": "Rihab Chaari",
+      "email": "9@gmail.com",
+      "phone": "+216 26 187 920",
+      "location": "La Manouba, Tunisie"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Python",
+        "Mistral (LLM open-source)",
+        "Open Router API",
+        "RAG",
+        "Prompt Engineering",
+        "FastAPI",
+        "Base de connaissances structur´ ee",
+        "D´ eploiement cloud"
+      ],
+      "soft_skills": [
+        "Organis´ ee",
+        "rigoureuse",
+        "dot´ ee d'un bon esprit d'´ equipe",
+        "capable de m'adapter ` a diff´ erents environnements de travail"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": "La Manouba, Tunisie",
+        "responsibilities": [
+          "Gestion des op´ erations administratives du centre (appels, dossiers, paiements) et organisation des sessions de formation.",
+          "Planification des groupes et suivi des pr´ esences des apprenants.",
+          "Participation ` a la conception des supports p´ edagogiques et animation de formations en informatique, avec accompagnement des apprenants."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'un syst` eme intelligent capable de cr´ eer automatiquement des sc´ enarios immersifs pour la formation professionnelle en r´ ealit´ e virtuelle, en s'appuyant sur l'IA g´ en´ erative et une approche Retrieval-Augmented Generation (RAG) afin de produire des contenus r´ ealistes et personnalis´ es pour diff´ erents secteurs."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une application web de gestion de centre de formation permettant la gestion des cours, des ´ etudiants et des enseignants. Mise en place d'un syst` eme de recommandation de cours pour les ´ etudiants."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Assistante Administrative et Formatrice en Informatique",
+        "school": "Centre de formation",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T22:27:06.378623+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.7168,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "summary_not_enough_evidence",
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

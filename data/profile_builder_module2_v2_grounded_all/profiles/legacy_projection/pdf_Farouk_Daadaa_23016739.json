@@ -1,0 +1,89 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Farouk_Daadaa_23016739.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Farouk_Daadaa_23016739.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Farouk_Daadaa_23016739.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "DAADAA FAROUK",
+      "email": "Daadaa.farouk@live.fr",
+      "phone": "+216 22 366 500",
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "RESTful APIs",
+        "Angular",
+        "AWS",
+        "MySQL",
+        "Docker",
+        "MongoDB",
+        "CI/CD",
+        "Jenkins",
+        "JWT Authentication",
+        "Cloud Architecture Basics",
+        "Linux (Shell scripting, CLI)",
+        "Agile/Scrum"
+      ],
+      "soft_skills": [
+        "Communication",
+        "Problem Solving",
+        "Teamwork",
+        "Time Management",
+        "Adaptability"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "The Bridge E-learning Platform",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Implemented course management features including course creation, enrollment, and progress tracking.",
+          "Integrated real-time features using Web Sockets and live sessions via 100 ms. live.",
+          "Added AI chatbot support, review and rating systems, and Google Maps API for event management."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "BFM (Esprit Group Job Fair Web App)",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Developed a centralized web application using Spring Boot and Angular to manage job fair events.",
+          "Automated event coordination workflows and improved communication between participants.",
+          "Enhanced usability by optimizing UI and application flow."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Computer Engineering Degree",
+        "school": "École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT)",
+        "year": "2020 - 2025"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:01:39.650607+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9498,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\molka_zaoui_23025974.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\molka_zaoui_23025974.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\molka_zaoui_23025974.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Molka Zaoui",
+      "email": "molka.zaouii@gmail.com",
+      "phone": null,
+      "location": "Tunis"
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "C",
+        "Python",
+        "Java",
+        "PHP",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "MongoDB",
+        "Android",
+        "Flutter",
+        "Laravel",
+        "Symfony",
+        "ReactJS",
+        "NodeJS",
+        "Spring Boot",
+        "Angular 19"
+      ],
+      "soft_skills": [
+        "Génie Logiciel",
+        "Conception: UML"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Chef de projet web et Commercial digital",
+        "company": null,
+        "start_date": "September 2025",
+        "end_date": null,
+        "city": "Tunis",
+        "responsibilities": [
+          "Gestion des stocks avec MERN",
+          "Gestion et suivi de projets web, développement commercial, relation client et coordination des équipes techniques."
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "September 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Gestion de stage avec MERN"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cycle Préparatoire Intégré",
+        "school": "école Polytechnique de Sousse",
+        "year": null
+      },
+      {
+        "degree": "Baccalauréat en Sciences Expérimentales",
+        "school": "Lycée Nouvelle Médina Jadida 3, Tunis",
+        "year": "2022-2025"
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:43:50.032639+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9598,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

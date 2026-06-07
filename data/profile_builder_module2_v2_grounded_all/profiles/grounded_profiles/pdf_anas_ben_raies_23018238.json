@@ -1,0 +1,217 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\anas_ben_raies_23018238.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\anas_ben_raies_23018238.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.844,
+  "normalization": {
+    "cleaned_markdown": "## PROFESSIONAL SUMMARY\n\nPROFILES\nAnas Ben Raies\nLinked In\nIngénieur Full Stack anas.benraies@gmail.com +216 51 830 190 Tunisie, Tunis\nanas ben rais\n Github\nanas ben raies\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\n## Hi Intern\n## Tunisie, Tunis Février 2026 -Mars 2026\n-  Website anas ben raies\n- Ingénieur Full Stack\n- COMPETANCES\nDéveloppement de fonctionnalités complètes pour une solution Saa S avec Next. js, en intervenant sur le full-stack et la base de données Supabase. Analyse des besoins, conception des solutions, résolution de problèmes et implémentation des fonctionnalités de bout en bout.\n**Date: ** 2024 - Certiport\n**Location: ** Nest. js, Spring Boot, Django\n\n## LANGUAGES\n\nlanguages de Programmation HTML, CSS, JavaScript, java, Python\nLANGUES\nArabe\nFrançais\n\n## TECHNICAL SKILLS\n\nFrameworks et Bibliothèques React, Next. js, Node. js, Express. js,\nArab Soft\nTunisie, Tunis Février 2025 - Juin 2025\nStagiaire en génie logiciel\nOutils et Technologies\nGit, GitHub, GitHub Actions, MQTT, Nginx, Apache Kafka, Grafana, AWS, Docker, Jinkins, IA générative\nCréation d'un logiciel qui modélise des workflows selon la norme BPMN et les transforme automatiquement en modules logiciels prêts à être déployés, accélérant la conception et le développement tout en garantissant la cohérence des fonctionnalités.\nBases de Données\nPostgreSQL, MySQL, Mongodb\nCentre national de l'informatique\nTunisie, Tunis Juin 2024 - Juillet 2024\nStagiaire en génie logiciel\nConception et Framework de Développement\nDéveloppement d'un plugin Grafana personnalisé et intégration d'un plugin externe pour visualiser plus de 10 millions de données provenant de 24 régions tunisiennes, étendant les capacités de l'outil . tout en mettant en place JWT et Nginx pour une authentification sécurisée au sein d'une équipe de 3 membres .\nIT Specialist Databases\nIT Specialist Software Development 2023 - Certiport\nSoftware Gen - Réalisé au sein d'Arab Soft\nSoftware Gen est une application qui transforme des workflows modélisés en modules logiciels fonctionnels, en générant plusieurs écrans web avec l'IA générative.\nPRIX\nBasée sur une architecture orientée services, elle utilise JWT et Supabase pour sécuriser les utilisateurs et assurer une gestion fiable des données.\nPremière place au hackathon Agile\nArchitecture SOA, React, Express. js, IA Génerative, Supabase, Automation\nImonitor\nPlateforme de supervision Io T en environnement simulé permettant de suivre en temps réel l'usage, l'état et les données émises par des appareils connectés via un dashboard responsive.\nReact, Redux Tool Kit, Spring Boot, Spring Security, MQTT Broker .\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nIT Specialist JavaScript 2024 - Certiport\n\n## EDUCATION\n\nPolytech international\ncycle ingénieur en informatique\nprogramme en ingénierie backend\nBoot. dev 2024\n\n## ACADEMIC PROJECTS\n\nPROJETS\n\n## DELF B 2\n\nAnglais",
+    "header_info": {
+      "full_name": "Anas Ben Raies",
+      "email": "anas.benraies@gmail.com",
+      "phone": "+216 51 830 190",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9688,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.location",
+      "bio.phone",
+      "certifications[0]",
+      "education[0].degree",
+      "education[0].field",
+      "education[0].institution",
+      "education[0].year",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].start_date",
+      "experiences[1].city",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "experiences[2].city",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[17]",
+      "expertise.hard_skills[18]",
+      "expertise.hard_skills[19]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[20]",
+      "expertise.hard_skills[21]",
+      "expertise.hard_skills[22]",
+      "expertise.hard_skills[23]",
+      "expertise.hard_skills[24]",
+      "expertise.hard_skills[25]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Anas Ben Raies",
+      "email": "anas.benraies@gmail.com",
+      "phone": "+216 51 830 190",
+      "location": "Tunisie, Tunis",
+      "linkedin": "Linked In",
+      "github": "Github"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Next.js",
+        "Supabase",
+        "React",
+        "Node.js",
+        "Express.js",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "Python",
+        "PostgreSQL",
+        "MySQL",
+        "Mongodb",
+        "Git",
+        "GitHub",
+        "GitHub Actions",
+        "MQTT",
+        "Nginx",
+        "Apache Kafka",
+        "Grafana",
+        "AWS",
+        "Docker",
+        "Jinkins",
+        "IA générative",
+        "Spring Boot",
+        "Django"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Hi Intern",
+        "job_title": "Ingénieur Full Stack",
+        "start_date": "Février 2026",
+        "end_date": "Mars 2026",
+        "city": "Tunisie, Tunis",
+        "responsibilities": [
+          "Développement de fonctionnalités complètes pour une solution Saa S avec Next. js, en intervenant sur le full-stack et la base de données Supabase.",
+          "Analyse des besoins, conception des solutions, résolution de problèmes et implémentation des fonctionnalités de bout en bout."
+        ]
+      },
+      {
+        "company": "Arab Soft",
+        "job_title": "Stagiaire en génie logiciel",
+        "start_date": "Février 2025",
+        "end_date": "Juin 2025",
+        "city": "Tunisie, Tunis",
+        "responsibilities": [
+          "Création d'un logiciel qui modélise des workflows selon la norme BPMN et les transforme automatiquement en modules logiciels prêts à être déployés, accélérant la conception et le développement tout en garantissant la cohérence des fonctionnalités."
+        ]
+      },
+      {
+        "company": "Centre national de l'informatique",
+        "job_title": "Stagiaire en génie logiciel",
+        "start_date": "Juin 2024",
+        "end_date": "Juillet 2024",
+        "city": "Tunisie, Tunis",
+        "responsibilities": [
+          "Développement d'un plugin Grafana personnalisé et intégration d'un plugin externe pour visualiser plus de 10 millions de données provenant de 24 régions tunisiennes, étendant les capacités de l'outil . tout en mettant en place JWT et Nginx pour une authentification sécurisée au sein d'une équipe de 3 membres ."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Polytech international",
+        "degree": "cycle ingénieur en informatique",
+        "field": "programme en ingénierie backend",
+        "year": 2024
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "certifications": [
+      "IT Specialist JavaScript 2024 - Certiport"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T14:37:30.590702+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

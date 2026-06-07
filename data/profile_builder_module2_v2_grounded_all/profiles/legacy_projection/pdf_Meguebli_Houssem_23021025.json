@@ -1,0 +1,93 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Meguebli_Houssem_23021025.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Meguebli_Houssem_23021025.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Meguebli_Houssem_23021025.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Houssem Meguebli",
+      "email": "houssem.meguebli@esprit.tn",
+      "phone": "55 562 933",
+      "location": "Ariana, Tunisia"
+    },
+    "expertise": {
+      "summary": "Full-Stack Developer specializing in Spring Boot and Angular",
+      "hard_skills": [
+        "Java",
+        "Angular",
+        "Spring Boot",
+        ".NET Core",
+        "React",
+        "Entity Framework",
+        "SQL Server",
+        "PostgreSQL",
+        "Flutter",
+        "MySQL",
+        "Redis",
+        "Nginx",
+        "VPS Deployment",
+        "SSL Certificates",
+        "Prometheus",
+        "Grafana"
+      ],
+      "soft_skills": [
+        "building scalable RESTful APIs",
+        "secure enterprise applications",
+        "database-driven systems",
+        "containerization",
+        "CI/CD workflows",
+        "delivering maintainable, production-ready software solutions"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": null,
+        "company": "Freelance Full-Stack Developer",
+        "start_date": "2025 - Present",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Designed and delivered production-ready full-stack applications for real clients.",
+          "Designed scalable RESTful APIs with secure JWT-based authentication and optimized database access."
+        ]
+      },
+      {
+        "job_title": "Software Engineer Intern",
+        "company": "SHAMASH IT",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Deployed and monitored the application in production on a VPS using Nginx reverse proxy, SSL encryption, and a full observability stack with Prometheus and Grafana."
+        ]
+      },
+      {
+        "job_title": "Summer Intern",
+        "company": "SMARTUP",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Deployed and monitored the application in production on a VPS using Nginx reverse proxy, SSL encryption, and a full observability stack with Prometheus and Grafana."
+        ]
+      }
+    ],
+    "education": [],
+    "metadata": {
+      "extraction_date": "2026-06-03T21:19:54.815110+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.8202,
+      "grounded_v2": true,
+      "hallucination_risk": "medium",
+      "quality_flags": [
+        "unsupported_fields_nullified"
+      ]
+    }
+  }
+}

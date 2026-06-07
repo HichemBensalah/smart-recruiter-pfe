@@ -1,0 +1,171 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\youssef_baryoul_23020591.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\youssef_baryoul_23020591.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8833,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nYoussef Baryoul\nDiplômé en Informatique\n\n## EDUCATION\n\nContact\nLicence en sciences de l'informatique\nbaryouly@gmail.com\nOct 2024 - Juin 2025\nAriana Essoughra - Ariana\nISAMM: Institut Supérieur des Arts Multimédia de Manouba\ngithub.com/Baryoul Youssef\nCycle préparatoir aux études d'ingénieurs\nlinkedin.com/in/youssef-baryoul/Sep 2022 - Juin 2024\nManouba School of Engineering(MSE)\nCycle Préparatoire MPI: Math-Physique-Informatique\n## Baccalauréat en sciences de l'informatique\n**Date: ** Sep 2018 - Juin 2022\n- Lycée soukra\n## Mention Bien, Moyenne: 15, 80\nStage de Projet de Fin d'Études réalisé chez ACT (Advanced Computer Technology) en collaboration avec la University of Technology Sydney .\n- Application en Python utilisant des modèles LLM pour la transcription automatique et le résumé de vidéos You Tube.\n- Développement d'un modèle de deep learning pour prédire les maladies rénales à partir de données cliniques.\n\n## TECHNICAL SKILLS\n\nCompétences Linguistiques et Personnelles:\nCompétences Linguistiques\nAnglais (C 1)\nFrançais(B 2)\nArabe (Langue maternelle)\nCompétences Personnelles\nPensée analytique\nGestion de projet\nCommunication\nLeadership\nCompétences Techniques\nMathématiques et physique: Une base solide en principes mathématiques et physiques, essentielle pour la résolution des problèmes analytiques.\nDéveloppement Web: HTML, CSS, JavaScript.\n\n## CERTIFICATES (IN PROGRESS)\n\nCertifications\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nComputer Vision for Industrial Inspection - NVIDIA\nPython - Kaggle\nPandas - Kaggle\n\n## MACHINE LEARNING & DEEP LEARNING\n\nIntermediate Machine Learning - Kaggle\nIntro to Machine Learning - Kaggle\nDétection de ransomware par Deep Learning(PFE)\nClassification de maladies rénales par deep learning\nVie Associative\nCofondateur et Trésorier de la Branche Étudiante IEEE MSE\nRadio Amateur\nPlus jeune radioamateur certifié par l'Agence Nationale des Fréquences en Tunisie (2022).\nScout leader et volontaire au Croissant Rouge Tunisien\n\n## PROFESSIONAL EXPERIENCE\n\nData Science et Intelligence Artificielle: Expérience en traitement de données, machine learning et deep learning avec Python (Pandas, Scikit-learn, TensorFlow ), et visualisation de données (Matplotlib, Seaborn).\nDéveloppement de logiciels et programmation: Python, Java (J 2 EE, framework Spring), SQL, PHP.\n- Application Web de transcription et résumé de vidéos You Tube (LLM)\n\n## ACADEMIC PROJECTS\n\nProjets",
+    "header_info": {
+      "full_name": "Youssef Baryoul",
+      "email": "baryouly@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9767,
+    "hallucination_risk": "low",
+    "quality_flags": [
+      "summary_not_enough_evidence"
+    ],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].start_date",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Youssef Baryoul",
+      "email": "baryouly@gmail.com",
+      "phone": null,
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Pandas",
+        "Scikit-learn",
+        "TensorFlow",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "soft_skills": [
+        "Pensée analytique",
+        "Gestion de projet",
+        "Communication",
+        "Leadership"
+      ]
+    },
+    "experiences": [
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Oct 2024 - Juin 2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Traitement de données, machine learning et deep learning avec Python (Pandas, Scikit-learn, TensorFlow ), et visualisation de données (Matplotlib, Seaborn)."
+        ]
+      },
+      {
+        "company": null,
+        "job_title": null,
+        "start_date": "Sep 2022 - Juin 2024",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Développement de logiciels et programmation: Python, Java (J 2 EE, framework Spring), SQL, PHP."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ISAMM: Institut Supérieur des Arts Multimédia de Manouba",
+        "degree": "Licence en sciences de l'informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Manouba School of Engineering(MSE)",
+        "degree": "Cycle Préparatoire MPI: Math-Physique-Informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Anglais (C 1)",
+      "Français(B 2)",
+      "Arabe"
+    ],
+    "certifications": [
+      "Computer Vision for Industrial Inspection - NVIDIA",
+      "Python - Kaggle",
+      "Pandas - Kaggle"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T23:09:20.590257+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

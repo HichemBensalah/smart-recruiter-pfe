@@ -1,0 +1,229 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Chaibi_bochra_23014085.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Chaibi_bochra_23014085.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "complete_profile",
+  "provider_used": "groq_secondary",
+  "model_used": "llama-3.3-70b-versatile",
+  "document_confidence_score": 0.8072,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nChaibi Bochra\nD´eveloppeuse Web & Mobile — Full Stack — Flutter & PHP\n+ Ariana\n# bochrachaibi 3@gmail.com\n\n## PROFESSIONAL SUMMARY\n\nD´eveloppeuse web & mobile passionn´ee, sp´ecialis´ee en Flutter, PHP et React, avec plus d’un an d’exp´erience sur des\nprojets r´eels. Habitu´ee au travail en ´equipe, j’applique les bonnes pratiques de d´eveloppement (Git, Agile/Scrum)\net m’adapte rapidement aux nouveaux environnements techniques.\nDisponible pour emploi ou stage pr´e-embauche.\nExp´eriences Professionnelles\nStagiaire Testeur Logiciel — Millesima\nD´ec 2025 – F´ev 2026\n• R´ealisation de tests fonctionnels et tests de r´egression\n• R´edaction de cas de tests et documentation des anomalies\n• Suivi et gestion des bugs via Jira\n• Collaboration avec les d´eveloppeurs pour assurer la correction des anomalies\n• Participation aux phases de validation avant mise en production\n• Outils: Jira, Postman, Git\nFormatrice Python — Formakt\nD´ec 2023 – 2025\n• Enseignement du langage Python aux d´ebutants et professionnels\n• Cr´eation de supports p´edagogiques\n• Encadrement et accompagnement des apprenants\nD´eveloppeuse Mobile — Mutuelle Assurance de l’Enseignement\nJuil 2020 – Juil 2021\n• Conception UML et d´eveloppement d’une application mobile de recouvrement\n• Frontend Flutter (interfaces anim´ees via Figma)\n• Backend Firebase (NoSQL)\n• Environnement: Flutter, Firebase\nStagiaire D´eveloppement Web — Wow Soft\nJuil 2022 – Aoˆut 2022\n• D´eveloppement d’une application web “Story Nory”\n• HTML, CSS, JavaScript, PHP\n• Base de donn´ees MySQL\n\n## EDUCATION\n\nLicence en Science Informatique\nInstitut Sup´erieur des Arts Multim´edia de la Manouba\nBaccalaur´eat Science Informatique\nLyc´ee Mahmoud Messadi — Ariana\nComp´etences Techniques\nD´eveloppement Web: HTML 5, CSS 3, JavaScript, PHP, Laravel, Python\nD´eveloppement Mobile: Flutter, Dart, Firebase, Java\nBases de donn´ees: MySQL, Firebase\nOutils: Git, GitHub, Figma, Trello, Jira, Postman\nM´ethodologies: Agile/Scrum\n\n## TECHNICAL SKILLS\n\nTravail en ´equipe • Autonomie • Communication efficace • Adaptabilit´e\n\n## LANGUAGES\n\nArabe: Langue maternelle\nFran¸cais: Interm´ediaire professionnel\nAnglais: Niveau B 1\nCentres d’int´erˆet\nD´eveloppement web et mobile • Veille technologique • Voyages • Course `a pied",
+    "header_info": {
+      "full_name": "Chaibi Bochra",
+      "email": "3@gmail.com",
+      "phone": null,
+      "location": "D´eveloppeuse web & mobile passionn´ee, sp´ecialis´ee en Flutter, PHP et React, avec plus d’un an d’exp´erience sur des",
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "languages/langues"
+    ],
+    "quality_score": 0.9,
+    "quality_flags": [
+      "missing_experience_section"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.9614,
+    "hallucination_risk": "low",
+    "quality_flags": [],
+    "fields_nullified": [],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.location",
+      "education[0].degree",
+      "education[0].institution",
+      "education[1].degree",
+      "education[1].institution",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].responsibilities[3]",
+      "experiences[0].responsibilities[4]",
+      "experiences[0].start_date",
+      "experiences[1].company",
+      "experiences[1].end_date",
+      "experiences[1].job_title",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[1].start_date",
+      "experiences[2].company",
+      "experiences[2].end_date",
+      "experiences[2].job_title",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[2].responsibilities[2]",
+      "experiences[2].start_date",
+      "experiences[3].company",
+      "experiences[3].end_date",
+      "experiences[3].job_title",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "experiences[3].responsibilities[2]",
+      "experiences[3].start_date",
+      "expertise.experience_level",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[3]",
+      "expertise.summary",
+      "expertise.years_experience",
+      "languages[0]",
+      "languages[1]",
+      "languages[2]"
+    ],
+    "fields_unsupported": []
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Chaibi Bochra",
+      "email": "bochrachaibi3@gmail.com",
+      "phone": null,
+      "location": "Ariana",
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": "D´eveloppeuse web & mobile passionn´ee, sp´ecialis´ee en Flutter, PHP et React, avec plus d’un an d’exp´erience sur des projets r´eels.",
+      "experience_level": "mid_level",
+      "years_experience": 3,
+      "hard_skills": [
+        "Flutter",
+        "PHP",
+        "React",
+        "HTML 5",
+        "CSS 3",
+        "JavaScript",
+        "Laravel",
+        "Python",
+        "Dart",
+        "Firebase",
+        "Java",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Travail en ´equipe",
+        "Autonomie",
+        "Communication efficace",
+        "Adaptabilit´e"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Millesima",
+        "job_title": "Stagiaire Testeur Logiciel",
+        "start_date": "D´ec 2025",
+        "end_date": "F´ev 2026",
+        "city": null,
+        "responsibilities": [
+          "R´ealisation de tests fonctionnels et tests de r´egression",
+          "R´edaction de cas de tests et documentation des anomalies",
+          "Suivi et gestion des bugs via Jira",
+          "Collaboration avec les d´eveloppeurs pour assurer la correction des anomalies",
+          "Participation aux phases de validation avant mise en production"
+        ]
+      },
+      {
+        "company": "Formakt",
+        "job_title": "Formatrice Python",
+        "start_date": "D´ec 2023",
+        "end_date": "2025",
+        "city": null,
+        "responsibilities": [
+          "Enseignement du langage Python aux d´ebutants et professionnels",
+          "Cr´eation de supports p´edagogiques",
+          "Encadrement et accompagnement des apprenants"
+        ]
+      },
+      {
+        "company": "Mutuelle Assurance de l’Enseignement",
+        "job_title": "D´eveloppeuse Mobile",
+        "start_date": "Juil 2020",
+        "end_date": "Juil 2021",
+        "city": null,
+        "responsibilities": [
+          "Conception UML et d´eveloppement d’une application mobile de recouvrement",
+          "Frontend Flutter (interfaces anim´ees via Figma)",
+          "Backend Firebase (NoSQL)"
+        ]
+      },
+      {
+        "company": "Wow Soft",
+        "job_title": "Stagiaire D´eveloppement Web",
+        "start_date": "Juil 2022",
+        "end_date": "Aoˆut 2022",
+        "city": null,
+        "responsibilities": [
+          "D´eveloppement d’une application web “Story Nory”",
+          "HTML, CSS, JavaScript, PHP",
+          "Base de donn´ees MySQL"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institut Sup´erieur des Arts Multim´edia de la Manouba",
+        "degree": "Licence en Science Informatique",
+        "field": null,
+        "year": null
+      },
+      {
+        "institution": "Lyc´ee Mahmoud Messadi — Ariana",
+        "degree": "Baccalaur´eat Science Informatique",
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabe",
+      "Fran¸cais",
+      "Anglais"
+    ],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T15:11:00.935481+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

@@ -1,0 +1,68 @@
+## HEADER
+
+Abir Ben Khaled
+benkhaledabir 27@gmail. com https://www. linkedin. com/Ingénieure Logicielle - Développeuse Full-Stack
+Abir Ben Khaled
+benkhaledabir 27@gmail. com
+Ingénieure Logicielle - Développeuse Full-Stack
+https://www. linkedin. com/## PROFESSIONAL SUMMARY
+
+PROfi L PROFESSIONNEL
+
+## PROFESSIONAL EXPERIENCE
+
+Ingénieure en génie logiciel certifiée ISTQB Foundation v 4 , avec une expérience en développement Java/Spring Boot et en conception d' API REST . Motivée, rigoureuse et passionnée par le développement, je souhaite évoluer dans un environnement technique stimulant en méthodologie Agile/Scrum .
+**Date:** 2022 - 2025
+### , Java Script, Python, SQL
+**Location:** , Angular, Microservices, REST APIs
+### Postgre SQL, SQL Server, Mongo DB
+**Location:** Git, Git Lab CI/CD, Docker, Sonar Qube
+### Odoo (Fabrication, Achat, Facturation), compréhension des processus métiers
+- Développement d' API REST avec Spring Boot dans une architecture microservices .
+Implémentation de fonctionnalités de gestion logistique (stocks, conteneurs, livraisons) avec analyse prédictive .
+**Date:** Janv. 2025 - Juil. 2025
+- Mise en place de la sécurité avec Keycloak (authentification/autorisation).
+- Développement d'une application mobile avec Flutter .
+Technologies : Spring Boot, Angular, Microservices, Docker, Postgre SQL, SQL Server, Keycloak.
+- Sécurisation des accès avec Keycloak et communication asynchrone via Kafka .
+### Technologies : Spring Boot, Angular, Docker, Keycloak, Kafka, Microservices.
+- Assistant intelligent de gestion documentaire et recommandations personnalisées
+- Développement d'un assistant intelligent de traitement documentaire avec recherche contextuelle et recommandations.
+
+## TECHNICAL SKILLS
+
+COMPÉTENCES
+Langages : Java
+Développement : Spring Boot
+Bases de données :
+CI/CD Outils :
+JUnit, Mockito, Postman, Selenium
+Testing :
+
+## ERP :
+
+Agile/Scrum
+Méthodologies :
+
+## EDUCATION
+
+Stage de fin d'études - UPTECH
+Conception et développement de la plateforme The Portal
+Stage d'ingénieur - UPTECH
+FORMATION
+Diplôme d'ingénieure en Informatique - Génie Logiciel
+### TEK-UP University, Tunis
+**Date:** 2019 - 2022
+- Diplôme de Technicienne Supérieure en Développement des Systèmes d'Information
+- ISET Bizerte
+
+## PROJETS TECHNIQUES
+
+Plateforme de billetterie en ligne
+Conception et développement d'une plateforme de billetterie permettant la recherche, la réservation et la gestion d'événements.
+Mise en place d'une architecture microservices avec API Gateway ( Kraken D ) pour améliorer la scalabilité et les performances.
+Mise en place d'une architecture microservices .
+
+## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)
+
+Technologies : Docker, Angular, Flutter, Django, NLP.

@@ -1,0 +1,66 @@
+## HEADER
+
+Iheb Masmoudi
+msdiheb 15@gmail. com
+linkedin. com/in/iheb-masmoudi -
+github. com/Iheb Masmoudi
+
+## PROFESSIONAL SUMMARY
+
+Profil
+Comp´ etences Techniques
+Backend :
+Java (Spring Boot), Python
+Frontend :
+Angular, Type Script
+Bases de Donn´ ees :
+APIs & Architecture :
+
+## TECHNICAL SKILLS
+
+Ing´ enieur logiciel sp´ ecialis´ e en d´ eveloppement Full-Stack (Angular/Spring Boot) avec une forte orientation en Intelligence Artificielle (LLMs, RAG, NLP). Exp´ erience dans la conception de syst` emes scalables et solutions automatis´ ees ` a forte valeur ajout´ ee. ` A la recherche d'un poste de Software Engineer ou AI Engineer junior.
+Dev Ops & Outils :
+Exp´ erience Professionnelle
+-D´ eveloppement d'une plateforme intelligente de gestion de flotte (200+ v´ ehicules) avec suivi GPS temps r´ eel, r´ eduisant les incidents de maintenance de 45%.
+IT Specialist - Java, Databases, Java Script
+
+## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)
+
+Intelligence Artificielle : LLMs, RAG, NLP, Prompt Engineering
+Postgre SQL, My SQL, Mongo DB
+ETAP - Entreprise Tunisienne d'Activit´ es P´ etroli` eres
+-Conception d'un chatbot NLP convertissant le langage naturel en requˆ etes SQL s´ ecuris´ ees, r´ eduisant le temps d'acc` es aux donn´ ees de 60%.
+-Mise en place d'une architecture microservices scalable avec Spring Boot, Angular et My SQL.
+-D´ eveloppement d'une application web de gestion des stages utilis´ ee par 500+ ´ etudiants et 50+ entreprises.
+-Automatisation des workflows et cr´ eation de dashboards multi-rˆ oles, r´ eduisant la charge administrative de 40%.
+-D´ eveloppement d'APIs REST et int´ egration de modules Python pour analyse de donn´ ees.
+-D´ eveloppement d'un syst` eme de monitoring ´ energ´ etique avec visualisation temps r´ eel.
+-Optimisation de requˆ etes SQL complexes am´ eliorant les performances de 35%.
+Syst` eme RAG avec LLM - D´ eveloppement d'un syst` eme IA combinant recherche s´ emantique et g´ en´ eration de r´ eponses via LLMs.
+Impl´ ementation d'un pipeline complet : extraction, embeddings, stockage vectoriel et g´ en´ eration contextuelle.
+Am´ elioration de la pr´ ecision des r´ eponses de 70% grˆ ace au prompt engineering et ` a l'indexation vectorielle.
+Diplˆ ome d'Ing´ enieur en G´ enie Logiciel - Polytech Intl (2022 - 2025)
+Fran¸ cais : Courant (B 2) -Anglais : Avanc´ e (B 2) -Arabe : Natif
+
+## EDUCATION
+
+Stage de Fin d' ´ Etudes - Ing´ enieur Logiciel IA
+GEISER
+Stage D´ eveloppeur Full-Stack
+ETAP - Entreprise Tunisienne d'Activit´ es P´ etroli` eres
+Stage D´ eveloppeur Web
+Formation
+Licence en Informatique - Polytech Intl (2019 - 2022)
+
+## ACADEMIC PROJECTS
+
+Projets Cl´ es
+
+## CERTIFICATES (IN PROGRESS)
+
+Certifications
+Microsoft Technology Associate (MTA) - Python
+
+## LANGUAGES
+
+Langues

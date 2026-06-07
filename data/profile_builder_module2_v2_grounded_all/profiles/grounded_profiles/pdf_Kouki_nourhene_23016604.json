@@ -1,0 +1,199 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Kouki_nourhene_23016604.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Kouki_nourhene_23016604.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "minimal_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.9147,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nNourhene Kouki\nIng´ enieure en G´ enie des Syst` emes Infotroniques/map-marker Tunis, Tunisie/phone +21696322135/envelope koukinourhen 03@gmail.com/linkedin www. linkedin.com/in/kouki-nourhene-5818 a 3252/github https: //github.com/Nourhene Kouki\n\n## PROFESSIONAL EXPERIENCE\n\nExperience\n## Ing´ enieure Full Stack & IA | Declitech Innovation\n**Date: ** Aoˆ ut 2025 - Pr´ esent\n- Contribution au d´ eveloppement de solutions web bas´ ees sur l'IA et de syst` emes de recommandation intelligents.\nD´ eveloppement Full Stack d'applications web avec Angular et Spring Boot. | Angular, Spring boot, Git, REST APIs\nMise en œuvre d'assistants bas´ es sur les LLM pour automatiser l'analyse des donn´ ees. | Lang Chain, RAG, Python\n\n## EDUCATION\n\nProjet de Fin d' ´ Etudes en Intelligence Artificielle | Aca Robotics Technologies\n**Date: ** Mars 2025 - Juin 2025\n- D´ eveloppement d'une application d'analyse de personnalit´ e et d'intelligences multiples bas´ ee sur l'IA:\nMod´ elisation des exigences et de l'architecture syst` eme ` a l'aide de l'approche MBSE. | MBSE\nImpl´ ementation d'une architecture RAG combin´ ee ` a des LLM pour g´ en´ erer des rapports personnalis´ e. | Python, Transformers, Hugging Face, Lang Chain, FAISS\n## Stage d'´ et´ e en D´ eveloppement Web | Centre National de l'Informatique\n**Date: ** Juin 2024 - Juillet 2024\n- D´ eveloppement d'une plateforme web permettant la gestion et le suivi des demandes li´ ee au Gestion de Municipalit´ e:\nBackend Spring Boot pour la gestion des demandes et dossiers municipaux. | Spring Boot, PostgreSQL\nPortail citoyen responsive avec Angular pour d´ epˆ ot et suivi des dossiers. | Angula, API REST\n## Stage d'´ et´ e en D´ eveloppement Web | Centre National de l'Informatique\n**Date: ** Juillet 2023 - Aoˆ ut 2023\n- D´ eveloppement d'une application web de gestion de formation:\nImpl´ ementation d'un syst` eme d'authentification s´ ecuris´ e avec gestion des rˆ oles . | Spring Boot, PostgreSQL\nConception d'une interface utilisateur dynamique et responsive. | Angular, API REST .\n- Comp´ etences\nLangages de programmation: Python, C/C++, Java, JavaScript, Shell scripting (Bash)\n- IA et Data\n- ´ Education\n\n## MACHINE LEARNING & DEEP LEARNING\n\n: Machine Learning, NLP, Computer Vision, LLM, RAG, TTS/STT\nSyst` emes de gestion de bases de donn´ ees\n: MySQL, SQLite, PostgreSQL, MongoDB, Oracle\nSyst` emes d'exploitation embarqu´ es\n: Linux, Linux embarqu´ e, RTOS\nM´ ethodologies:\nAgile Scrum, MBSE\nOutils de D´ eveloppement: Git/GitHub, Gitlab, Docker, Android Studio\n\n## TECHNICAL SKILLS\n\nFrameworks: Django, Lang Chain, Transformers, TensorFlow, Keras, Flask, Spring Boot, Angular, Node-RED, OpenCV, PyTorch, Azure Io T Hub\nPlateforme web de R´ eservation et Gestion ´ Ev´ enementielle | Angular, Spring Boot, PostgreSQL, REST, Git\nD´ eveloppement d'une application permettant la r´ eservation de salles et la gestion des participants.\n\n## ACADEMIC PROJECTS\n\nProjets\nConception d'un frontend interactif avec Angular et d'un backend REST avec Spring Boot.\n## Assistant IA Multimodal L´ eger | Python, Hugging Face API, Whisper, Gradio\n- Assistant vocal capable de g´ en´ erer du texte et des images ` a partir de la voix.\n- Int´ egration d'un service de g´ en´ eration d'images via l'API de Replicate (Stable Diffusion).\n\n## COMPUTER VISION & NATURAL LANGUAGE PROCESSING (NLP)\n\nSyst` eme NLP et LLM pour la D´ etection de Churn sur Tweets Arabes | Python, Transformers, PyTorch\nD´ eveloppement d'un syst` eme de classification de sentiments pour d´ etecter l'intention de churn ` a partir de tweets en arabe en utilisant des LLMs sp´ ecialis´ es (MARBERTv 2, Ara BERT, CAMe LBERT).\nImpl´ ementation d'un pipeline complet de NLP (pr´ etraitement, entraˆ ınement, ´ evaluation).\n\n## CERTIFICATES (IN PROGRESS)\n\nCertificats\nMicrosoft Azure Fundamentals - Microsoft (2025)\nFundamentals of Agents - Hugging Face (2025)",
+    "header_info": {
+      "full_name": "Nourhene Kouki",
+      "email": "03@gmail.com",
+      "phone": "+21696322135",
+      "location": null,
+      "linkedin": "linkedin.com/in/kouki-nourhene-5818",
+      "github": "github.com/Nourhene"
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.0,
+    "hallucination_risk": "high",
+    "quality_flags": [
+      "low_grounded_reliability",
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "education[0]",
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].start_date",
+      "experiences[2].end_date",
+      "experiences[2].start_date",
+      "experiences[3].end_date",
+      "experiences[3].start_date"
+    ],
+    "fields_supported": [
+      "bio.email",
+      "bio.full_name",
+      "bio.github",
+      "bio.linkedin",
+      "bio.phone",
+      "education[1].degree",
+      "education[1].institution",
+      "education[1].year",
+      "experiences[0].company",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[1].company",
+      "experiences[1].responsibilities[0]",
+      "experiences[1].responsibilities[1]",
+      "experiences[1].responsibilities[2]",
+      "experiences[2].company",
+      "experiences[2].responsibilities[0]",
+      "experiences[2].responsibilities[1]",
+      "experiences[3].company",
+      "experiences[3].responsibilities[0]",
+      "experiences[3].responsibilities[1]",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]"
+    ],
+    "fields_unsupported": [
+      "experiences[0].start_date",
+      "experiences[1].end_date",
+      "experiences[1].start_date",
+      "experiences[2].end_date",
+      "experiences[2].start_date",
+      "experiences[3].end_date",
+      "experiences[3].start_date"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Nourhene Kouki",
+      "email": "03@gmail.com",
+      "phone": "+21696322135",
+      "location": null,
+      "linkedin": "linkedin.com/in/kouki-nourhene-5818",
+      "github": "https://github.com/Nourhene"
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Angular",
+        "Spring Boot",
+        "Git",
+        "REST APIs",
+        "Lang Chain",
+        "RAG",
+        "Python",
+        "Transformers",
+        "Hugging Face",
+        "FAISS"
+      ],
+      "soft_skills": []
+    },
+    "experiences": [
+      {
+        "company": "Declitech Innovation",
+        "job_title": "Ing´ enieure Full Stack & IA",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Contribution au d´ eveloppement de solutions web bas´ ees sur l'IA et de syst` emes de recommandation intelligents.",
+          "D´ eveloppement Full Stack d'applications web avec Angular et Spring Boot."
+        ]
+      },
+      {
+        "company": "Aca Robotics Technologies",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une application d'analyse de personnalit´ e et d'intelligences multiples bas´ ee sur l'IA:",
+          "Mod´ elisation des exigences et de l'architecture syst` eme ` a l'aide de l'approche MBSE.",
+          "Impl´ ementation d'une architecture RAG combin´ ee ` a des LLM pour g´ en´ erer des rapports personnalis´ e."
+        ]
+      },
+      {
+        "company": "Centre National de l'Informatique",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une plateforme web permettant la gestion et le suivi des demandes li´ ee au Gestion de Municipalit´ e:",
+          "Backend Spring Boot pour la gestion des demandes et dossiers municipaux."
+        ]
+      },
+      {
+        "company": "Centre National de l'Informatique",
+        "job_title": null,
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "D´ eveloppement d'une application web de gestion de formation:",
+          "Impl´ ementation d'un syst` eme d'authentification s´ ecuris´ e avec gestion des rˆ oles ."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Aca Robotics Technologies",
+        "degree": "Projet de Fin d' ´ Etudes en Intelligence Artificielle",
+        "field": null,
+        "year": "2025"
+      }
+    ],
+    "languages": [],
+    "certifications": [],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T20:59:12.569980+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

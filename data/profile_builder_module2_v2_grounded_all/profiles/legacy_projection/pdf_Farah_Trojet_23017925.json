@@ -1,0 +1,97 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Farah_Trojet_23017925.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Farah_Trojet_23017925.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Farah_Trojet_23017925.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "FARAH TROJET",
+      "email": "Farah Trojet@Outlook.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Power BI | SQL | Python | Data Modeling | ETL (SSIS, Talend) | SAP HANA | Hive | Kafka | Machine Learning | CI/CD"
+      ],
+      "soft_skills": [
+        "Analytical Thinking",
+        "Problem Solving",
+        "Teamwork & Collaboration",
+        "Communication & Presentation",
+        "Adaptability & Continuous Learning"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Internship",
+        "company": null,
+        "start_date": "FEB-2025: Jul-2025",
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Designed an intelligent conversational assistant using Natural Language Processing (NLP) to understand user requests and provide contextual responses."
+        ]
+      },
+      {
+        "job_title": "Internship",
+        "company": "Axe Finance- Tunisia",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Development of a web application to store CI/CD logs, generate dashboards, reports, and trigger alerts"
+        ]
+      },
+      {
+        "job_title": "Internship",
+        "company": "ALLCircuits- Tunisia",
+        "start_date": null,
+        "end_date": null,
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Power BI, Tableau, SQL, Excel"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": "Société Tunisienne de l'Électricité et du Gaz (STEG) - Tunisia",
+        "start_date": null,
+        "end_date": null,
+        "city": null,
+        "responsibilities": [
+          "Worked on a digital control system"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree in Big Data and Business Intelligence",
+        "school": "Ecole Polytechnique International",
+        "year": null
+      },
+      {
+        "degree": "Bachelors in Automation and Industrial Computing",
+        "school": "Institut Supérieur des Technologies de l'Information et de la Communication",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T20:00:13.969455+00:00",
+      "model_used": "llama3.2:3b",
+      "provider_route": "ollama_local",
+      "confidence_score": 0.9617,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

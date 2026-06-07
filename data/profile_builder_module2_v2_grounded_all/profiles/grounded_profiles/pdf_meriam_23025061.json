@@ -1,0 +1,207 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\meriam_23025061.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\meriam_23025061.json",
+  "source_format": "pdf",
+  "status": "success",
+  "run_id": "module2_v2_grounded_all",
+  "profile_kind": "partial_profile",
+  "provider_used": "ollama_local",
+  "model_used": "llama3.2:3b",
+  "document_confidence_score": 0.8469,
+  "normalization": {
+    "cleaned_markdown": "## HEADER\n\nEsprit Collab\n\n## TECHNICAL SKILLS\n\nDev Sec Ops Engineer | Cloud | CI/CD | SRE\nEnvelope\nPhone +216 28 478 498\nLINKEDIN Linked In\nmeriam.wachene@esprit.tn\nGLOBE Portfolio\nDev Sec Ops Engineer with hands-on experience in cloud infrastructure, CI/CD automation, and secure software delivery. Skilled in building scalable pipelines, integrating security practices into DevOps workflows, and improving system reliability through monitoring and observability. Strong focus on automation, performance, and proactive security.\nImproved system reliability and performance through monitoring, alerting, and observability solutions\nTechnologies: Jenkins, Azure DevOps, Terraform, Ansible, Docker, Kubernetes, Prometheus, Grafana, Sonar Qube, Trivy, OWASP ZAP, Spring Boot, Angular, MySQL\nSoftware Engineering Intern - Manouba, Tunisia\nApplied Dev Sec Ops practices to enhance application security and code quality\nDeployed and managed cloud infrastructure on Microsoft Azure\nTechnologies: Spring Boot, Angular, MySQL, Jenkins, Docker, Kubernetes, Microsoft Azure, Sonar Qube, Trivy, OWASP ZAP\nData Do It\nComputer Engineering Intern - Manouba, Tunisia\nContributed to the development of a Business Intelligence platform for retail management\nAutomated infrastructure provisioning and configuration using Infrastructure as Code principles\nTechnologies: Spring Boot, Angular, MySQL, Jenkins, Docker, Kubernetes, Sonar Qube, Trivy, Nexus\nEnhanced system performance and reliability through observability practices\nSKILLS\nDevOps:\nJenkins, Nexus, Helm\nCloud: AWS, Microsoft Azure, GCP, Openstack\nContainers:\nIa C Tools:\nSecurity:\nMonitoring: Prometheus, Grafana\nProgramming: Python, Java, Bash\nSystems: Linux, Windows\nThe Private Higher School of Engineering and Technologies (ESPRIT)\nEngineering Degree in Computer Science, Cloud Engineering Specialty\nFaculty of Legal, Economic and Management Sciences (FSJEGJ)\nAWS Cloud Practitioner\nDevOps Foundation Professional Certification\nScrum Fundamentals Certified\nCCNA: Introduction to Networks\nCCNA: Switching, Routing & Wireless Essentials\nIntroduction to Cybersecurity - Cisco\nIntroduction to Artificial Intelligence - Go My Code\nFrench (B 2)\n\n## PROFESSIONAL SUMMARY\n\nSUMMARY\n\n## PROFESSIONAL EXPERIENCE\n\nEXPERIENCE\nKromberg & Schubert\n## Dev Sec Ops Intern - Béja, Tunisia\n**Date: ** Feb 2025 - Aug 2025\n**Location: ** Map-marker Tunis, Tunisia\n- Designed and deployed a cloud-based collaboration platform using Open Stack\n- Implemented monitoring and alerting using Prometheus and Grafana\nDeveloped an automated IT platform to optimize IT department workflows, reducing manual operations\n- Data Do It\n- Designed and implemented a scalable cloud-based architecture, managing infrastructure provisioning and application deployment\n- Built and optimized CI/CD pipelines integrating security, code quality, and automated testing tools\n- Developed a full-stack web application for carbon footprint tracking\n- Designed and implemented CI/CD pipelines to automate build, test, and deployment processes\n- Implemented CI/CD pipelines to streamline application deployment\n- Designed and implemented a secure CI/CD pipeline with automated testing and deployment\n- Implemented monitoring and logging solutions for anomaly detection and observability\n\n## ACADEMIC PROJECTS\n\nPROJECTS\nSecure E-commerce Platform\n\n## EDUCATION\n\n## Bachelor's Degree in Business Intelligence\n**Date: ** Jul 2024 - Sep 2024\n\n## CERTIFICATES (IN PROGRESS)\n\nCERTIFICATIONS\nMicrosoft Azure Fundamentals (AZ-900)\n\n## LANGUAGES\n\nArabic (Native) English (B 2)",
+    "header_info": {
+      "full_name": "Esprit Collab",
+      "email": null,
+      "phone": "+216 28 478 498",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "detected_templates": [],
+    "sections_found": [
+      "contact/header",
+      "summary/profile/objective",
+      "experience/professional experience/work experience",
+      "education/formation/academic",
+      "skills/technical skills/competences",
+      "projects/academic projects",
+      "languages/langues",
+      "certifications/certificates"
+    ],
+    "quality_score": 1.0,
+    "quality_flags": [
+      "missing_email"
+    ],
+    "normalization_events": [
+      {
+        "event": "fix_emails_and_urls",
+        "changed": true
+      },
+      {
+        "event": "fix_tech_terms",
+        "changed": true
+      },
+      {
+        "event": "remove_ocr_artifacts",
+        "changed": true
+      }
+    ]
+  },
+  "grounding": {
+    "reliability_score": 0.6774,
+    "hallucination_risk": "medium",
+    "quality_flags": [
+      "summary_not_enough_evidence",
+      "unsupported_fields_nullified"
+    ],
+    "fields_nullified": [
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[7]"
+    ],
+    "fields_supported": [
+      "bio.full_name",
+      "bio.phone",
+      "certifications[0]",
+      "certifications[1]",
+      "certifications[2]",
+      "certifications[3]",
+      "certifications[4]",
+      "certifications[5]",
+      "certifications[6]",
+      "education[0].degree",
+      "education[0].institution",
+      "education[0].year",
+      "education[1].institution",
+      "experiences[0].city",
+      "experiences[0].company",
+      "experiences[0].end_date",
+      "experiences[0].job_title",
+      "experiences[0].responsibilities[0]",
+      "experiences[0].responsibilities[1]",
+      "experiences[0].responsibilities[2]",
+      "experiences[0].start_date",
+      "expertise.hard_skills[0]",
+      "expertise.hard_skills[10]",
+      "expertise.hard_skills[11]",
+      "expertise.hard_skills[12]",
+      "expertise.hard_skills[13]",
+      "expertise.hard_skills[14]",
+      "expertise.hard_skills[15]",
+      "expertise.hard_skills[16]",
+      "expertise.hard_skills[1]",
+      "expertise.hard_skills[2]",
+      "expertise.hard_skills[3]",
+      "expertise.hard_skills[4]",
+      "expertise.hard_skills[5]",
+      "expertise.hard_skills[6]",
+      "expertise.hard_skills[7]",
+      "expertise.hard_skills[8]",
+      "expertise.hard_skills[9]",
+      "expertise.soft_skills[0]",
+      "expertise.soft_skills[1]",
+      "expertise.soft_skills[2]",
+      "expertise.soft_skills[4]",
+      "expertise.soft_skills[5]",
+      "expertise.soft_skills[6]",
+      "expertise.soft_skills[8]",
+      "expertise.soft_skills[9]",
+      "languages[0]",
+      "languages[1]"
+    ],
+    "fields_unsupported": [
+      "expertise.soft_skills[3]",
+      "expertise.soft_skills[7]"
+    ]
+  },
+  "profile": {
+    "bio": {
+      "full_name": "Esprit Collab",
+      "email": null,
+      "phone": "+216 28 478 498",
+      "location": null,
+      "linkedin": null,
+      "github": null
+    },
+    "expertise": {
+      "summary": null,
+      "experience_level": null,
+      "years_experience": null,
+      "hard_skills": [
+        "Cloud",
+        "CI/CD",
+        "SRE",
+        "Jenkins",
+        "Azure DevOps",
+        "Terraform",
+        "Ansible",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "Sonar Qube",
+        "Trivy",
+        "OWASP ZAP",
+        "Spring Boot",
+        "Angular",
+        "MySQL"
+      ],
+      "soft_skills": [
+        "Automation",
+        "Performance",
+        "Proactive Security",
+        "Monitoring",
+        "Observability",
+        "DevOps",
+        "Security Practices",
+        "Code Quality"
+      ]
+    },
+    "experiences": [
+      {
+        "company": "Kromberg & Schubert",
+        "job_title": "Dev Sec Ops Intern",
+        "start_date": "Feb 2025",
+        "end_date": "Aug 2025",
+        "city": "Tunis, Tunisia",
+        "responsibilities": [
+          "Designed and deployed a cloud-based collaboration platform using Open Stack",
+          "Implemented monitoring and alerting using Prometheus and Grafana",
+          "Developed an automated IT platform to optimize IT department workflows, reducing manual operations"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "The Private Higher School of Engineering and Technologies (ESPRIT)",
+        "degree": "Engineering Degree in Computer Science, Cloud Engineering Specialty",
+        "year": 2024
+      },
+      {
+        "institution": "Faculty of Legal, Economic and Management Sciences (FSJEGJ)",
+        "degree": null,
+        "field": null,
+        "year": null
+      }
+    ],
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "certifications": [
+      "DevOps Foundation Professional Certification",
+      "AWS Cloud Practitioner",
+      "Scrum Fundamentals Certified",
+      "CCNA: Introduction to Networks",
+      "CCNA: Switching, Routing & Wireless Essentials",
+      "Introduction to Cybersecurity - Cisco",
+      "Introduction to Artificial Intelligence - Go My Code"
+    ],
+    "status": "success"
+  },
+  "metadata": {
+    "created_at": "2026-06-03T21:23:53.419555+00:00",
+    "pipeline": "module2_v2_grounded",
+    "old_module2_untouched": true
+  }
+}

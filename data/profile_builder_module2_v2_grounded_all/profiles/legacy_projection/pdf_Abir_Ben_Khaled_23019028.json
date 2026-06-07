@@ -1,0 +1,99 @@
+{
+  "source_path": "data\\raw_cv\\pdf\\Abir_Ben_Khaled_23019028.pdf",
+  "artifact_path": "data\\processed_official_module1\\pdf\\Abir_Ben_Khaled_23019028.json",
+  "source_format": "pdf",
+  "status": "success",
+  "mode": "grounded-v2-dry-output",
+  "error": null,
+  "run_id": "module2_v2_grounded_all",
+  "profile": {
+    "source_id": "data\\processed_official_module1\\pdf\\Abir_Ben_Khaled_23019028.json",
+    "profile_kind": "complete_profile",
+    "bio": {
+      "full_name": "Abir Ben Khaled",
+      "email": "27@gmail.com",
+      "phone": null,
+      "location": null
+    },
+    "expertise": {
+      "summary": "",
+      "hard_skills": [
+        "Java",
+        "Spring Boot",
+        "JavaScript",
+        "Python",
+        "SQL",
+        "Angular",
+        "Microservices",
+        "REST APIs",
+        "PostgreSQL",
+        "SQL Server",
+        "MongoDB",
+        "Git",
+        "Git Lab CI/CD",
+        "Docker",
+        "Sonar Qube",
+        "Odoo",
+        "Flutter",
+        "Keycloak",
+        "Kafka"
+      ],
+      "soft_skills": [
+        "Motivée",
+        "Rigoureuse",
+        "Passionnée"
+      ]
+    },
+    "experiences": [
+      {
+        "job_title": "Ingénieure en génie logiciel",
+        "company": null,
+        "start_date": "2022",
+        "end_date": "2025",
+        "city": null,
+        "responsibilities": [
+          "Développement d' API REST avec Spring Boot dans une architecture microservices",
+          "Implémentation de fonctionnalités de gestion logistique (stocks, conteneurs, livraisons) avec analyse prédictive",
+          "Mise en place de la sécurité avec Keycloak (authentification/autorisation)",
+          "Développement d'une application mobile avec Flutter",
+          "Sécurisation des accès avec Keycloak et communication asynchrone via Kafka"
+        ]
+      },
+      {
+        "job_title": null,
+        "company": null,
+        "start_date": "Janv. 2025",
+        "end_date": "Juil. 2025",
+        "city": null,
+        "responsibilities": [
+          "Développement d' API REST avec Spring Boot dans une architecture microservices",
+          "Mise en place de la sécurité avec Keycloak (authentification/autorisation)",
+          "Développement d'une application mobile avec Flutter"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplôme d'ingénieure en Informatique - Génie Logiciel",
+        "school": "TEK-UP University, Tunis",
+        "year": "2019 - 2022"
+      },
+      {
+        "degree": "Diplôme de Technicienne Supérieure en Développement des Systèmes d'Information",
+        "school": "ISET Bizerte",
+        "year": null
+      }
+    ],
+    "metadata": {
+      "extraction_date": "2026-06-03T14:30:14.654186+00:00",
+      "model_used": "llama-3.3-70b-versatile",
+      "provider_route": "groq_secondary",
+      "confidence_score": 0.9657,
+      "grounded_v2": true,
+      "hallucination_risk": "low",
+      "quality_flags": [
+        "summary_not_enough_evidence"
+      ]
+    }
+  }
+}

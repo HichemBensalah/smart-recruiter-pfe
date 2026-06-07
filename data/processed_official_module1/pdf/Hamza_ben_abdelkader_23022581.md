@@ -1,0 +1,58 @@
+## HEADER
+
+Hamza Ben Abdelkader
+Data Scientist
+Address :
+Ariana, Soukra, Chotrana 1
+Phone:
+Email
+benabdelkaderr. hamza@gmail. com
+Linked In :
+https://www. linkedin. com/in/hamza-ben-abdelkader/: https://hamza-ben-abdelkader. vercel. app/Portfolio
+
+## EDUCATION
+
+### Private Higher School of Engineering and Technology (ESPRIT) | Tunisia
+**Date:** 2020-2023
+- The National Engineering Diploma
+### University of Mans | France
+**Date:** 2022-2023
+### The National Master's Diploma in SCIENCES, TECHNOLOGY, HEALTH, ACTUARIAL Science
+Faculty of Mathematical, Physical, And Natural Sciences of Tunis | Preparatory cycle Math-Physics High School of Soukra | Mathematics baccalaureate diploma
+**Date:** 2018-2020
+Development Tools: Jupyter Notebook, Py Charm, VS Code, Git/Git Hub, Flask, Databricks Notebooks Methodologies et Core Expertise: CRISP-DM, Data Cleaning & Transformation, ELT Pipelines, Statistical et Mathematical Analysis, Machine Learning et Deep Learning, End-to-End Data Pipeline Development .
+
+## PROJECTS AND PROFESSIONAL EXPERIENCE
+
+Web Developer | Niche Knights (Remote, United States) October 2024 - June
+Developed and maintained responsive and user-friendly websites, ensuring optimal performance across different devices and browsers.
+Development of an Artificial Intelligence System for Fraud Detection | Open Bee February - July 2023
+Conducted comprehensive data preprocessing, including binarization, morphological processing and segmentation.
+
+## MACHINE LEARNING & DEEP LEARNING
+
+Developed and implemented machine learning models for VAT fraud detection.
+Conducted thorough model evaluation and analysis, achieving high accuracy in fraud detection.
+Glasses classification | Esprit Tech
+Led data preparation and analysis to understand the diverse characteristics of glasses.
+Banking Chatbot | Esprit Tech
+Machine Learning: Scikit-learn, Tensor Flow, Keras, Supervised/Unsupervised Learning, Model Training/Evaluation
+Data Analysis et Visualiszation: Num Py, Pandas, Matplotlib, Seaborn, Power BI, Analytical Dashboards et Business Insights
+
+## TECHNICAL SKILLS
+
+Implemented models using Flask and Java Script to ensure smooth deployment and effective classification.
+Programming Languages: Python, SQL
+Data Engineering: Apache Spark (Py Spark), Databricks, Delta Lake, Medallion Architecture (Bronze/Silver/Gold), Unity Catalog
+
+## LANGUAGES
+
+Led data extraction and message translation in three languages using Web Scraping.
+Developed a hybrid chatbot in Rasa to interact with customers in three languages.
+• Arabic
+• French • English
+
+## PESONEL PROJECTS
+
+E-commerce Data Pipeline - Databricks, Py Spark, Delta Lake December 2025
+Developed a full end-to-end data pipeline using the Medallion architecture (Bronze → Silver → Gold) to process ecommerce datasets. Automated data cleaning, built a Unity Catalog structure, tracked experiments with MLflow, and created an analytical dashboard for business insights.
